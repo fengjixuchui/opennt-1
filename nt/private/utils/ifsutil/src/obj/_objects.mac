@@ -1,0 +1,96 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ifsutil.res \
+    $(_OBJ_DIR)\alpha\bootreg.obj \
+    $(_OBJ_DIR)\alpha\autoentr.obj \
+    $(_OBJ_DIR)\alpha\autoreg.obj \
+    $(_OBJ_DIR)\alpha\bigint.obj \
+    $(_OBJ_DIR)\alpha\cache.obj \
+    $(_OBJ_DIR)\alpha\cannedsd.obj \
+    $(_OBJ_DIR)\alpha\dcache.obj \
+    $(_OBJ_DIR)\alpha\digraph.obj \
+    $(_OBJ_DIR)\alpha\drive.obj \
+    $(_OBJ_DIR)\alpha\ifssys.obj \
+    $(_OBJ_DIR)\alpha\ifsutil.obj \
+    $(_OBJ_DIR)\alpha\intstack.obj \
+    $(_OBJ_DIR)\alpha\mldcopy.obj \
+    $(_OBJ_DIR)\alpha\numset.obj \
+    $(_OBJ_DIR)\alpha\rcache.obj \
+    $(_OBJ_DIR)\alpha\rwcache.obj \
+    $(_OBJ_DIR)\alpha\secrun.obj \
+    $(_OBJ_DIR)\alpha\supera.obj \
+    $(_OBJ_DIR)\alpha\volume.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ifsutil.res \
+    $(_OBJ_DIR)\mips\bootreg.obj \
+    $(_OBJ_DIR)\mips\autoentr.obj \
+    $(_OBJ_DIR)\mips\autoreg.obj \
+    $(_OBJ_DIR)\mips\bigint.obj \
+    $(_OBJ_DIR)\mips\cache.obj \
+    $(_OBJ_DIR)\mips\cannedsd.obj \
+    $(_OBJ_DIR)\mips\dcache.obj \
+    $(_OBJ_DIR)\mips\digraph.obj \
+    $(_OBJ_DIR)\mips\drive.obj \
+    $(_OBJ_DIR)\mips\ifssys.obj \
+    $(_OBJ_DIR)\mips\ifsutil.obj \
+    $(_OBJ_DIR)\mips\intstack.obj \
+    $(_OBJ_DIR)\mips\mldcopy.obj \
+    $(_OBJ_DIR)\mips\numset.obj \
+    $(_OBJ_DIR)\mips\rcache.obj \
+    $(_OBJ_DIR)\mips\rwcache.obj \
+    $(_OBJ_DIR)\mips\secrun.obj \
+    $(_OBJ_DIR)\mips\supera.obj \
+    $(_OBJ_DIR)\mips\volume.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ifsutil.res \
+    $(_OBJ_DIR)\i386\bootreg.obj \
+    $(_OBJ_DIR)\i386\autoentr.obj \
+    $(_OBJ_DIR)\i386\autoreg.obj \
+    $(_OBJ_DIR)\i386\bigint.obj \
+    $(_OBJ_DIR)\i386\cache.obj \
+    $(_OBJ_DIR)\i386\cannedsd.obj \
+    $(_OBJ_DIR)\i386\dcache.obj \
+    $(_OBJ_DIR)\i386\digraph.obj \
+    $(_OBJ_DIR)\i386\drive.obj \
+    $(_OBJ_DIR)\i386\ifssys.obj \
+    $(_OBJ_DIR)\i386\ifsutil.obj \
+    $(_OBJ_DIR)\i386\intstack.obj \
+    $(_OBJ_DIR)\i386\mldcopy.obj \
+    $(_OBJ_DIR)\i386\numset.obj \
+    $(_OBJ_DIR)\i386\rcache.obj \
+    $(_OBJ_DIR)\i386\rwcache.obj \
+    $(_OBJ_DIR)\i386\secrun.obj \
+    $(_OBJ_DIR)\i386\supera.obj \
+    $(_OBJ_DIR)\i386\volume.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ifsutil.res \
+    $(_OBJ_DIR)\ppc\bootreg.obj \
+    $(_OBJ_DIR)\ppc\autoentr.obj \
+    $(_OBJ_DIR)\ppc\autoreg.obj \
+    $(_OBJ_DIR)\ppc\bigint.obj \
+    $(_OBJ_DIR)\ppc\cache.obj \
+    $(_OBJ_DIR)\ppc\cannedsd.obj \
+    $(_OBJ_DIR)\ppc\dcache.obj \
+    $(_OBJ_DIR)\ppc\digraph.obj \
+    $(_OBJ_DIR)\ppc\drive.obj \
+    $(_OBJ_DIR)\ppc\ifssys.obj \
+    $(_OBJ_DIR)\ppc\ifsutil.obj \
+    $(_OBJ_DIR)\ppc\intstack.obj \
+    $(_OBJ_DIR)\ppc\mldcopy.obj \
+    $(_OBJ_DIR)\ppc\numset.obj \
+    $(_OBJ_DIR)\ppc\rcache.obj \
+    $(_OBJ_DIR)\ppc\rwcache.obj \
+    $(_OBJ_DIR)\ppc\secrun.obj \
+    $(_OBJ_DIR)\ppc\supera.obj \
+    $(_OBJ_DIR)\ppc\volume.obj
+
+PASS0_PPC_OBJECTS=
+

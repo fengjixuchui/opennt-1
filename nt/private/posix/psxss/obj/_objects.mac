@@ -1,0 +1,152 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\psxss.res \
+    $(_OBJ_DIR)\alpha\acledit.obj \
+    $(_OBJ_DIR)\alpha\apiinit.obj \
+    $(_OBJ_DIR)\alpha\apilistn.obj \
+    $(_OBJ_DIR)\alpha\apireqst.obj \
+    $(_OBJ_DIR)\alpha\concreat.obj \
+    $(_OBJ_DIR)\alpha\coninit.obj \
+    $(_OBJ_DIR)\alpha\conio.obj \
+    $(_OBJ_DIR)\alpha\consignl.obj \
+    $(_OBJ_DIR)\alpha\conthrds.obj \
+    $(_OBJ_DIR)\alpha\fdio.obj \
+    $(_OBJ_DIR)\alpha\fileio.obj \
+    $(_OBJ_DIR)\alpha\flocks.obj \
+    $(_OBJ_DIR)\alpha\lpipeio.obj \
+    $(_OBJ_DIR)\alpha\nullio.obj \
+    $(_OBJ_DIR)\alpha\procblk.obj \
+    $(_OBJ_DIR)\alpha\process.obj \
+    $(_OBJ_DIR)\alpha\psxss.obj \
+    $(_OBJ_DIR)\alpha\psxsup.obj \
+    $(_OBJ_DIR)\alpha\sbapi.obj \
+    $(_OBJ_DIR)\alpha\sbinit.obj \
+    $(_OBJ_DIR)\alpha\sbreqst.obj \
+    $(_OBJ_DIR)\alpha\session.obj \
+    $(_OBJ_DIR)\alpha\sigapi.obj \
+    $(_OBJ_DIR)\alpha\sigsup.obj \
+    $(_OBJ_DIR)\alpha\srvdebug.obj \
+    $(_OBJ_DIR)\alpha\srvfile.obj \
+    $(_OBJ_DIR)\alpha\srvhandl.obj \
+    $(_OBJ_DIR)\alpha\srvinit.obj \
+    $(_OBJ_DIR)\alpha\srvtask.obj \
+    $(_OBJ_DIR)\alpha\srvtc.obj \
+    $(_OBJ_DIR)\alpha\stub.obj \
+    $(_OBJ_DIR)\alpha\sysdb.obj \
+    $(_OBJ_DIR)\alpha\timer.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\psxss.res \
+    $(_OBJ_DIR)\mips\acledit.obj \
+    $(_OBJ_DIR)\mips\apiinit.obj \
+    $(_OBJ_DIR)\mips\apilistn.obj \
+    $(_OBJ_DIR)\mips\apireqst.obj \
+    $(_OBJ_DIR)\mips\concreat.obj \
+    $(_OBJ_DIR)\mips\coninit.obj \
+    $(_OBJ_DIR)\mips\conio.obj \
+    $(_OBJ_DIR)\mips\consignl.obj \
+    $(_OBJ_DIR)\mips\conthrds.obj \
+    $(_OBJ_DIR)\mips\fdio.obj \
+    $(_OBJ_DIR)\mips\fileio.obj \
+    $(_OBJ_DIR)\mips\flocks.obj \
+    $(_OBJ_DIR)\mips\lpipeio.obj \
+    $(_OBJ_DIR)\mips\nullio.obj \
+    $(_OBJ_DIR)\mips\procblk.obj \
+    $(_OBJ_DIR)\mips\process.obj \
+    $(_OBJ_DIR)\mips\psxss.obj \
+    $(_OBJ_DIR)\mips\psxsup.obj \
+    $(_OBJ_DIR)\mips\sbapi.obj \
+    $(_OBJ_DIR)\mips\sbinit.obj \
+    $(_OBJ_DIR)\mips\sbreqst.obj \
+    $(_OBJ_DIR)\mips\session.obj \
+    $(_OBJ_DIR)\mips\sigapi.obj \
+    $(_OBJ_DIR)\mips\sigsup.obj \
+    $(_OBJ_DIR)\mips\srvdebug.obj \
+    $(_OBJ_DIR)\mips\srvfile.obj \
+    $(_OBJ_DIR)\mips\srvhandl.obj \
+    $(_OBJ_DIR)\mips\srvinit.obj \
+    $(_OBJ_DIR)\mips\srvtask.obj \
+    $(_OBJ_DIR)\mips\srvtc.obj \
+    $(_OBJ_DIR)\mips\stub.obj \
+    $(_OBJ_DIR)\mips\sysdb.obj \
+    $(_OBJ_DIR)\mips\timer.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\psxss.res \
+    $(_OBJ_DIR)\i386\acledit.obj \
+    $(_OBJ_DIR)\i386\apiinit.obj \
+    $(_OBJ_DIR)\i386\apilistn.obj \
+    $(_OBJ_DIR)\i386\apireqst.obj \
+    $(_OBJ_DIR)\i386\concreat.obj \
+    $(_OBJ_DIR)\i386\coninit.obj \
+    $(_OBJ_DIR)\i386\conio.obj \
+    $(_OBJ_DIR)\i386\consignl.obj \
+    $(_OBJ_DIR)\i386\conthrds.obj \
+    $(_OBJ_DIR)\i386\fdio.obj \
+    $(_OBJ_DIR)\i386\fileio.obj \
+    $(_OBJ_DIR)\i386\flocks.obj \
+    $(_OBJ_DIR)\i386\lpipeio.obj \
+    $(_OBJ_DIR)\i386\nullio.obj \
+    $(_OBJ_DIR)\i386\procblk.obj \
+    $(_OBJ_DIR)\i386\process.obj \
+    $(_OBJ_DIR)\i386\psxss.obj \
+    $(_OBJ_DIR)\i386\psxsup.obj \
+    $(_OBJ_DIR)\i386\sbapi.obj \
+    $(_OBJ_DIR)\i386\sbinit.obj \
+    $(_OBJ_DIR)\i386\sbreqst.obj \
+    $(_OBJ_DIR)\i386\session.obj \
+    $(_OBJ_DIR)\i386\sigapi.obj \
+    $(_OBJ_DIR)\i386\sigsup.obj \
+    $(_OBJ_DIR)\i386\srvdebug.obj \
+    $(_OBJ_DIR)\i386\srvfile.obj \
+    $(_OBJ_DIR)\i386\srvhandl.obj \
+    $(_OBJ_DIR)\i386\srvinit.obj \
+    $(_OBJ_DIR)\i386\srvtask.obj \
+    $(_OBJ_DIR)\i386\srvtc.obj \
+    $(_OBJ_DIR)\i386\stub.obj \
+    $(_OBJ_DIR)\i386\sysdb.obj \
+    $(_OBJ_DIR)\i386\timer.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\psxss.res \
+    $(_OBJ_DIR)\ppc\acledit.obj \
+    $(_OBJ_DIR)\ppc\apiinit.obj \
+    $(_OBJ_DIR)\ppc\apilistn.obj \
+    $(_OBJ_DIR)\ppc\apireqst.obj \
+    $(_OBJ_DIR)\ppc\concreat.obj \
+    $(_OBJ_DIR)\ppc\coninit.obj \
+    $(_OBJ_DIR)\ppc\conio.obj \
+    $(_OBJ_DIR)\ppc\consignl.obj \
+    $(_OBJ_DIR)\ppc\conthrds.obj \
+    $(_OBJ_DIR)\ppc\fdio.obj \
+    $(_OBJ_DIR)\ppc\fileio.obj \
+    $(_OBJ_DIR)\ppc\flocks.obj \
+    $(_OBJ_DIR)\ppc\lpipeio.obj \
+    $(_OBJ_DIR)\ppc\nullio.obj \
+    $(_OBJ_DIR)\ppc\procblk.obj \
+    $(_OBJ_DIR)\ppc\process.obj \
+    $(_OBJ_DIR)\ppc\psxss.obj \
+    $(_OBJ_DIR)\ppc\psxsup.obj \
+    $(_OBJ_DIR)\ppc\sbapi.obj \
+    $(_OBJ_DIR)\ppc\sbinit.obj \
+    $(_OBJ_DIR)\ppc\sbreqst.obj \
+    $(_OBJ_DIR)\ppc\session.obj \
+    $(_OBJ_DIR)\ppc\sigapi.obj \
+    $(_OBJ_DIR)\ppc\sigsup.obj \
+    $(_OBJ_DIR)\ppc\srvdebug.obj \
+    $(_OBJ_DIR)\ppc\srvfile.obj \
+    $(_OBJ_DIR)\ppc\srvhandl.obj \
+    $(_OBJ_DIR)\ppc\srvinit.obj \
+    $(_OBJ_DIR)\ppc\srvtask.obj \
+    $(_OBJ_DIR)\ppc\srvtc.obj \
+    $(_OBJ_DIR)\ppc\stub.obj \
+    $(_OBJ_DIR)\ppc\sysdb.obj \
+    $(_OBJ_DIR)\ppc\timer.obj
+
+PASS0_PPC_OBJECTS=
+

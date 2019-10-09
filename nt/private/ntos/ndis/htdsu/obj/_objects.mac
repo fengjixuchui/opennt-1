@@ -1,0 +1,56 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\htdsu.res \
+    $(_OBJ_DIR)\alpha\htdsu.obj \
+    $(_OBJ_DIR)\alpha\card.obj \
+    $(_OBJ_DIR)\alpha\interrup.obj \
+    $(_OBJ_DIR)\alpha\link.obj \
+    $(_OBJ_DIR)\alpha\request.obj \
+    $(_OBJ_DIR)\alpha\receive.obj \
+    $(_OBJ_DIR)\alpha\send.obj \
+    $(_OBJ_DIR)\alpha\tapi.obj \
+    $(_OBJ_DIR)\alpha\debug.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\htdsu.res \
+    $(_OBJ_DIR)\mips\htdsu.obj \
+    $(_OBJ_DIR)\mips\card.obj \
+    $(_OBJ_DIR)\mips\interrup.obj \
+    $(_OBJ_DIR)\mips\link.obj \
+    $(_OBJ_DIR)\mips\request.obj \
+    $(_OBJ_DIR)\mips\receive.obj \
+    $(_OBJ_DIR)\mips\send.obj \
+    $(_OBJ_DIR)\mips\tapi.obj \
+    $(_OBJ_DIR)\mips\debug.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\htdsu.res \
+    $(_OBJ_DIR)\i386\htdsu.obj \
+    $(_OBJ_DIR)\i386\card.obj \
+    $(_OBJ_DIR)\i386\interrup.obj \
+    $(_OBJ_DIR)\i386\link.obj \
+    $(_OBJ_DIR)\i386\request.obj \
+    $(_OBJ_DIR)\i386\receive.obj \
+    $(_OBJ_DIR)\i386\send.obj \
+    $(_OBJ_DIR)\i386\tapi.obj \
+    $(_OBJ_DIR)\i386\debug.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\htdsu.res \
+    $(_OBJ_DIR)\ppc\htdsu.obj \
+    $(_OBJ_DIR)\ppc\card.obj \
+    $(_OBJ_DIR)\ppc\interrup.obj \
+    $(_OBJ_DIR)\ppc\link.obj \
+    $(_OBJ_DIR)\ppc\request.obj \
+    $(_OBJ_DIR)\ppc\receive.obj \
+    $(_OBJ_DIR)\ppc\send.obj \
+    $(_OBJ_DIR)\ppc\tapi.obj \
+    $(_OBJ_DIR)\ppc\debug.obj
+
+PASS0_PPC_OBJECTS=
+

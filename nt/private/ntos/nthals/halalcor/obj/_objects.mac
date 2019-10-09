@@ -1,0 +1,62 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\adjust.obj \
+    $(_OBJ_DIR)\alpha\allstart.obj \
+    $(_OBJ_DIR)\alpha\bios.obj \
+    $(_OBJ_DIR)\alpha\cache.obj \
+    $(_OBJ_DIR)\alpha\cia.obj \
+    $(_OBJ_DIR)\alpha\ciaaddr.obj \
+    $(_OBJ_DIR)\alpha\ciaerr.obj \
+    $(_OBJ_DIR)\alpha\ciamapio.obj \
+    $(_OBJ_DIR)\alpha\cmos8k.obj \
+    $(_OBJ_DIR)\alpha\environ.obj \
+    $(_OBJ_DIR)\alpha\ev5cache.obj \
+    $(_OBJ_DIR)\alpha\ev5int.obj \
+    $(_OBJ_DIR)\alpha\ev5mchk.obj \
+    $(_OBJ_DIR)\alpha\ev5prof.obj \
+    $(_OBJ_DIR)\alpha\fwreturn.obj \
+    $(_OBJ_DIR)\alpha\haldebug.obj \
+    $(_OBJ_DIR)\alpha\info.obj \
+    $(_OBJ_DIR)\alpha\inithal.obj \
+    $(_OBJ_DIR)\alpha\iousage.obj \
+    $(_OBJ_DIR)\alpha\memory.obj \
+    $(_OBJ_DIR)\alpha\pciesc.obj \
+    $(_OBJ_DIR)\alpha\pcisup.obj \
+    $(_OBJ_DIR)\alpha\pcrtc.obj \
+    $(_OBJ_DIR)\alpha\pcserial.obj \
+    $(_OBJ_DIR)\alpha\pcspeakr.obj \
+    $(_OBJ_DIR)\alpha\perfcntr.obj \
+    $(_OBJ_DIR)\alpha\vga.obj \
+    $(_OBJ_DIR)\alpha\alcorerr.obj \
+    $(_OBJ_DIR)\alpha\alinitnt.obj \
+    $(_OBJ_DIR)\alpha\alintsup.obj \
+    $(_OBJ_DIR)\alpha\alsysint.obj \
+    $(_OBJ_DIR)\alpha\busdata.obj \
+    $(_OBJ_DIR)\alpha\ebsgdma.obj \
+    $(_OBJ_DIR)\alpha\eisasup.obj \
+    $(_OBJ_DIR)\alpha\pcibus.obj \
+    $(_OBJ_DIR)\alpha\ciaio.obj \
+    $(_OBJ_DIR)\alpha\devintr.obj \
+    $(_OBJ_DIR)\alpha\ev5mem.obj \
+    $(_OBJ_DIR)\alpha\ev5ints.obj \
+    $(_OBJ_DIR)\alpha\halpal.obj \
+    $(_OBJ_DIR)\alpha\haltsup.obj \
+    $(_OBJ_DIR)\alpha\idle.obj \
+    $(_OBJ_DIR)\alpha\intsup.obj \
+    $(_OBJ_DIR)\alpha\hal.res \
+    $(_OBJ_DIR)\alpha\bushnd.obj \
+    $(_OBJ_DIR)\alpha\drivesup.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

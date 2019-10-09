@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dlldatax.obj \
+    $(_OBJ_DIR)\alpha\call_as.obj \
+    $(_OBJ_DIR)\alpha\bstr.obj \
+    $(_OBJ_DIR)\alpha\mega_p.obj \
+    $(_OBJ_DIR)\alpha\mega_i.obj \
+    $(_OBJ_DIR)\alpha\transmit.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dlldatax.obj \
+    $(_OBJ_DIR)\mips\call_as.obj \
+    $(_OBJ_DIR)\mips\bstr.obj \
+    $(_OBJ_DIR)\mips\mega_p.obj \
+    $(_OBJ_DIR)\mips\mega_i.obj \
+    $(_OBJ_DIR)\mips\transmit.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dlldatax.obj \
+    $(_OBJ_DIR)\i386\call_as.obj \
+    $(_OBJ_DIR)\i386\bstr.obj \
+    $(_OBJ_DIR)\i386\mega_p.obj \
+    $(_OBJ_DIR)\i386\mega_i.obj \
+    $(_OBJ_DIR)\i386\transmit.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dlldatax.obj \
+    $(_OBJ_DIR)\ppc\call_as.obj \
+    $(_OBJ_DIR)\ppc\bstr.obj \
+    $(_OBJ_DIR)\ppc\mega_p.obj \
+    $(_OBJ_DIR)\ppc\mega_i.obj \
+    $(_OBJ_DIR)\ppc\transmit.obj
+
+PASS0_PPC_OBJECTS=
+

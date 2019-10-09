@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\smcsup.obj \
+    $(_OBJ_DIR)\alpha\smstub.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\smcsup.obj \
+    $(_OBJ_DIR)\mips\smstub.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\smcsup.obj \
+    $(_OBJ_DIR)\i386\smstub.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\smcsup.obj \
+    $(_OBJ_DIR)\ppc\smstub.obj
+
+PASS0_PPC_OBJECTS=
+

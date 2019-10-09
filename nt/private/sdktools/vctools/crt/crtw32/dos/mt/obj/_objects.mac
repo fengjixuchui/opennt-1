@@ -1,0 +1,120 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\access.obj \
+    $(_OBJ_DIR)\alpha\chmod.obj \
+    $(_OBJ_DIR)\alpha\chdir.obj \
+    $(_OBJ_DIR)\alpha\dosmap.obj \
+    $(_OBJ_DIR)\alpha\drive.obj \
+    $(_OBJ_DIR)\alpha\fullpath.obj \
+    $(_OBJ_DIR)\alpha\getcwd.obj \
+    $(_OBJ_DIR)\alpha\getpid.obj \
+    $(_OBJ_DIR)\alpha\mkdir.obj \
+    $(_OBJ_DIR)\alpha\mterrno.obj \
+    $(_OBJ_DIR)\alpha\rename.obj \
+    $(_OBJ_DIR)\alpha\rmdir.obj \
+    $(_OBJ_DIR)\alpha\stat.obj \
+    $(_OBJ_DIR)\alpha\stati64.obj \
+    $(_OBJ_DIR)\alpha\unlink.obj \
+    $(_OBJ_DIR)\alpha\waccess.obj \
+    $(_OBJ_DIR)\alpha\wchdir.obj \
+    $(_OBJ_DIR)\alpha\wchmod.obj \
+    $(_OBJ_DIR)\alpha\wfullpat.obj \
+    $(_OBJ_DIR)\alpha\wgetcwd.obj \
+    $(_OBJ_DIR)\alpha\wmkdir.obj \
+    $(_OBJ_DIR)\alpha\wrename.obj \
+    $(_OBJ_DIR)\alpha\wrmdir.obj \
+    $(_OBJ_DIR)\alpha\wstat.obj \
+    $(_OBJ_DIR)\alpha\wstati64.obj \
+    $(_OBJ_DIR)\alpha\wunlink.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\access.obj \
+    $(_OBJ_DIR)\mips\chmod.obj \
+    $(_OBJ_DIR)\mips\chdir.obj \
+    $(_OBJ_DIR)\mips\dosmap.obj \
+    $(_OBJ_DIR)\mips\drive.obj \
+    $(_OBJ_DIR)\mips\fullpath.obj \
+    $(_OBJ_DIR)\mips\getcwd.obj \
+    $(_OBJ_DIR)\mips\getpid.obj \
+    $(_OBJ_DIR)\mips\mkdir.obj \
+    $(_OBJ_DIR)\mips\mterrno.obj \
+    $(_OBJ_DIR)\mips\rename.obj \
+    $(_OBJ_DIR)\mips\rmdir.obj \
+    $(_OBJ_DIR)\mips\stat.obj \
+    $(_OBJ_DIR)\mips\stati64.obj \
+    $(_OBJ_DIR)\mips\unlink.obj \
+    $(_OBJ_DIR)\mips\waccess.obj \
+    $(_OBJ_DIR)\mips\wchdir.obj \
+    $(_OBJ_DIR)\mips\wchmod.obj \
+    $(_OBJ_DIR)\mips\wfullpat.obj \
+    $(_OBJ_DIR)\mips\wgetcwd.obj \
+    $(_OBJ_DIR)\mips\wmkdir.obj \
+    $(_OBJ_DIR)\mips\wrename.obj \
+    $(_OBJ_DIR)\mips\wrmdir.obj \
+    $(_OBJ_DIR)\mips\wstat.obj \
+    $(_OBJ_DIR)\mips\wstati64.obj \
+    $(_OBJ_DIR)\mips\wunlink.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\access.obj \
+    $(_OBJ_DIR)\i386\chmod.obj \
+    $(_OBJ_DIR)\i386\chdir.obj \
+    $(_OBJ_DIR)\i386\dosmap.obj \
+    $(_OBJ_DIR)\i386\drive.obj \
+    $(_OBJ_DIR)\i386\fullpath.obj \
+    $(_OBJ_DIR)\i386\getcwd.obj \
+    $(_OBJ_DIR)\i386\getpid.obj \
+    $(_OBJ_DIR)\i386\mkdir.obj \
+    $(_OBJ_DIR)\i386\mterrno.obj \
+    $(_OBJ_DIR)\i386\rename.obj \
+    $(_OBJ_DIR)\i386\rmdir.obj \
+    $(_OBJ_DIR)\i386\stat.obj \
+    $(_OBJ_DIR)\i386\stati64.obj \
+    $(_OBJ_DIR)\i386\unlink.obj \
+    $(_OBJ_DIR)\i386\waccess.obj \
+    $(_OBJ_DIR)\i386\wchdir.obj \
+    $(_OBJ_DIR)\i386\wchmod.obj \
+    $(_OBJ_DIR)\i386\wfullpat.obj \
+    $(_OBJ_DIR)\i386\wgetcwd.obj \
+    $(_OBJ_DIR)\i386\wmkdir.obj \
+    $(_OBJ_DIR)\i386\wrename.obj \
+    $(_OBJ_DIR)\i386\wrmdir.obj \
+    $(_OBJ_DIR)\i386\wstat.obj \
+    $(_OBJ_DIR)\i386\wstati64.obj \
+    $(_OBJ_DIR)\i386\wunlink.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\access.obj \
+    $(_OBJ_DIR)\ppc\chmod.obj \
+    $(_OBJ_DIR)\ppc\chdir.obj \
+    $(_OBJ_DIR)\ppc\dosmap.obj \
+    $(_OBJ_DIR)\ppc\drive.obj \
+    $(_OBJ_DIR)\ppc\fullpath.obj \
+    $(_OBJ_DIR)\ppc\getcwd.obj \
+    $(_OBJ_DIR)\ppc\getpid.obj \
+    $(_OBJ_DIR)\ppc\mkdir.obj \
+    $(_OBJ_DIR)\ppc\mterrno.obj \
+    $(_OBJ_DIR)\ppc\rename.obj \
+    $(_OBJ_DIR)\ppc\rmdir.obj \
+    $(_OBJ_DIR)\ppc\stat.obj \
+    $(_OBJ_DIR)\ppc\stati64.obj \
+    $(_OBJ_DIR)\ppc\unlink.obj \
+    $(_OBJ_DIR)\ppc\waccess.obj \
+    $(_OBJ_DIR)\ppc\wchdir.obj \
+    $(_OBJ_DIR)\ppc\wchmod.obj \
+    $(_OBJ_DIR)\ppc\wfullpat.obj \
+    $(_OBJ_DIR)\ppc\wgetcwd.obj \
+    $(_OBJ_DIR)\ppc\wmkdir.obj \
+    $(_OBJ_DIR)\ppc\wrename.obj \
+    $(_OBJ_DIR)\ppc\wrmdir.obj \
+    $(_OBJ_DIR)\ppc\wstat.obj \
+    $(_OBJ_DIR)\ppc\wstati64.obj \
+    $(_OBJ_DIR)\ppc\wunlink.obj
+
+PASS0_PPC_OBJECTS=
+

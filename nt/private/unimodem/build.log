@@ -1,0 +1,285 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining w:\nt\private\unimodem directory tree for files to compile.
+Building generated files in w:\nt\private\unimodem\inf ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+
+Stop. 
+BUILD: Examining w:\nt\private\unimodem directory tree for files to compile. (2nd Pass)
+BUILD: w:\nt\private\unimodem\modemui\proj.h: cannot find include file <setupx.h>
+BUILD: w:\nt\private\unimodem\modemui\modemui.rc: modemui.rcv: cannot find include file <version.h>
+BUILD: w:\nt\private\unimodem\modemui\gen.c: cannot find include file "..\..\..\..\win\core\inc\help.h"
+BUILD: w:\nt\private\unimodem\modemui\sett.c: cannot find include file "..\..\..\..\win\core\inc\help.h"
+BUILD: w:\nt\private\unimodem\modemui\advsett.c: cannot find include file "..\..\..\..\win\core\inc\help.h"
+BUILD: w:\nt\private\unimodem\modemui\ring.c: cannot find include file "..\..\..\..\win\core\inc\help.h"
+BUILD: w:\nt\private\unimodem\serialui\proj.h: cannot find include file <setupx.h>
+BUILD: w:\nt\private\unimodem\serialui\serialui.rc: serialui.rcv: cannot find include file <version.h>
+BUILD: w:\nt\private\unimodem\serialui\port.c: cannot find include file "..\..\..\..\win\core\inc\help.h"
+BUILD: w:\nt\private\unimodem\tapisp\unimdm.rc: unimdm.rcv: cannot find include file <version.h>
+BUILD: w:\nt\private\unimodem\tapisp\modem.c: cannot find include file <vmm.h>
+BUILD: w:\nt\private\unimodem\tapisp\modem.c: cannot find include file <configmg.h>
+BUILD: w:\nt\private\unimodem\tapisp\mcxstate.c: cannot find include file "voicview.h"
+BUILD: w:\nt\private\unimodem\tapisp\cfgdlg.c: cannot find include file "umdmhelp.h"
+BUILD: w:\nt\private\unimodem\cpl\proj.h: cannot find include file <setupx.h>
+BUILD: w:\nt\private\unimodem\cpl\modem.rc: modem.rcv: cannot find include file <version.h>
+BUILD: w:\nt\private\unimodem\lights\lights.rc: lights.rcv: cannot find include file <version.h>
+Linking w:\nt\private\unimodem\modemui directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Linking w:\nt\private\unimodem\serialui directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Linking w:\nt\private\unimodem\tapisp directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Linking w:\nt\private\unimodem\cpl directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Linking w:\nt\private\unimodem\lights directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	link -out:..\lib\i386\serialui.dll -machine:i386 @W:\tmp\nma03320.
+	link -out:..\lib\i386\modemui.dll -machine:i386 @W:\tmp\nma03892.
+	link -out:..\lib\i386\modem.cpl -machine:i386 @W:\tmp\nma02288.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:0x69000000 
+-subsystem:windows,4.0 
+-entry:LibMain@12 
+obj\i386\proj.obj 
+..\lib\i386\serialui.exp 
+obj\i386\serialui.res 
+obj\i386\serialui.obj 
+obj\i386\dll.obj 
+obj\i386\util.obj 
+obj\i386\cstrings.obj 
+obj\i386\port.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\comctl32.lib 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\setupapi.lib 
+..\lib\i386\rovcomm.lib 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:0x68000000 
+-subsystem:windows,4.0 
+-entry:LibMain@12 
+obj\i386\proj.obj 
+..\lib\i386\modemui.exp 
+obj\i386\modemui.res 
+obj\i386\modemui.obj 
+obj\i386\dll.obj 
+obj\i386\util.obj 
+obj\i386\cstrings.obj 
+obj\i386\gen.obj 
+obj\i386\sett.obj 
+obj\i386\advsett.obj 
+obj\i386\ring.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\comctl32.lib 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\setupapi.lib 
+..\lib\i386\rovcomm.lib 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,modem 
+-subsystem:windows,4.0 
+-entry:LibMain@12 
+obj\i386\proj.obj 
+..\lib\i386\modem.exp 
+obj\i386\modem.res 
+obj\i386\dll.obj 
+obj\i386\cpl.obj 
+obj\i386\ci.obj 
+obj\i386\ui.obj 
+obj\i386\detect.obj 
+obj\i386\util.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\comctl32.lib 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\setupapi.lib 
+W:\nt\public\sdk\lib\i386\cfgmgr32.lib 
+W:\nt\public\sdk\lib\i386\tapi32.lib 
+..\lib\i386\rovcomm.lib 
+	link -out:obj\i386\unimdm.TSP -machine:i386 @W:\tmp\nma02500.
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a ..\lib\i386\serialui.dll
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:0x69000000 
+-subsystem:windows,4.00 
+-entry:_DllMainCRTStartup@12 
+obj\i386\unimdmp.obj 
+obj\i386\unimdm.exp 
+obj\i386\unimdm.res 
+obj\i386\common.obj 
+obj\i386\log.obj 
+obj\i386\unimdm.obj 
+obj\i386\mdmutil.obj 
+obj\i386\modem.obj 
+obj\i386\devioctl.obj 
+obj\i386\mdmasyn.obj 
+obj\i386\mcxstate.obj 
+obj\i386\mcxutil.obj 
+obj\i386\mcxapi.obj 
+obj\i386\mcxrw.obj 
+obj\i386\wndthrd.obj 
+obj\i386\cfgdlg.obj 
+obj\i386\terminal.obj 
+obj\i386\talkdrop.obj 
+obj\i386\manual.obj 
+obj\i386\umdminit.obj 
+obj\i386\debug.obj 
+obj\i386\ov_pool.obj 
+obj\i386\tracing.obj 
+W:\nt\public\sdk\lib\i386\msvcrt.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\setupapi.lib 
+..\lib\i386\rovcomm.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a ..\lib\i386\modemui.dll
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a ..\lib\i386\modem.cpl
+
+Stop. 
+
+Stop. 
+	link -out:obj\i386\lights.exe -machine:i386 @W:\tmp\nma01808.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:windows,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:WinMainCRTStartup 
+-optidata 
+obj\i386\lights.res 
+obj\i386\lights.obj 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\comctl32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+
+Stop. 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\unimdm.TSP
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\lights.exe
+
+Stop. 
+
+Stop. 

@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\res.res \
+    $(_OBJ_DIR)\alpha\shmcvt1.obj \
+    $(_OBJ_DIR)\alpha\profile.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\res.res \
+    $(_OBJ_DIR)\mips\shmcvt1.obj \
+    $(_OBJ_DIR)\mips\profile.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\res.res \
+    $(_OBJ_DIR)\i386\shmcvt1.obj \
+    $(_OBJ_DIR)\i386\profile.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\res.res \
+    $(_OBJ_DIR)\ppc\shmcvt1.obj \
+    $(_OBJ_DIR)\ppc\profile.obj
+
+PASS0_PPC_OBJECTS=
+

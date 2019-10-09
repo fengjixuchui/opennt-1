@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\atdisk.res \
+    $(_OBJ_DIR)\alpha\atdisk.obj \
+    $(_OBJ_DIR)\alpha\atd_conf.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\atdisk.res \
+    $(_OBJ_DIR)\mips\atdisk.obj \
+    $(_OBJ_DIR)\mips\atd_conf.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\atdisk.res \
+    $(_OBJ_DIR)\i386\atdisk.obj \
+    $(_OBJ_DIR)\i386\atd_conf.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\atdisk.res \
+    $(_OBJ_DIR)\ppc\atdisk.obj \
+    $(_OBJ_DIR)\ppc\atd_conf.obj
+
+PASS0_PPC_OBJECTS=
+

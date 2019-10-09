@@ -1,0 +1,2010 @@
+Stack Allocation = 16384 bytes
+
+ SpDnd16
+
+ Start     Length     Name                   Class
+ 0001:0000 041FBH     SEG_CODE_TEXT          CODE
+ 0001:41FC 00000H     INSOBJ_TEXT            CODE
+ 0001:41FC 00000H     ENUMFETC_TEXT          CODE
+ 0001:41FC 00000H     OLE2UI_TEXT            CODE
+ 0001:41FC 00000H     OLESTD_TEXT            CODE
+ 0001:41FC 00000H     OLEUTL_TEXT            CODE
+ 0001:41FC 00000H     COMMON_TEXT            CODE
+ 0001:41FC 00000H     DRAWICON_TEXT          CODE
+ 0001:41FC 00000H     ICON_TEXT              CODE
+ 0001:41FC 00000H     ICONBOX_TEXT           CODE
+ 0001:41FC 00000H     TARGTDEV_TEXT          CODE
+ 0001:41FC 00000H     REGDB_TEXT             CODE
+ 0001:41FC 00000H     RESIMAGE_TEXT          CODE
+ 0001:41FC 00000H     UTILITY_TEXT           CODE
+ 0001:41FC 00000H     GETICON_TEXT           CODE
+ 0001:41FC 01FC1H     _TEXT                  CODE
+ 0001:61C0 07D4CH     COMDAT_SEG1            CODE
+ 0002:0000 00044H     SEG_CODE5_DATA         FAR_DATA
+ 0003:0000 00010H     NULL                   BEGDATA
+ 0003:0010 00B1EH     _DATA                  DATA
+ 0003:0B2E 00000H     XIFCB                  DATA
+ 0003:0B2E 00004H     XIFU                   DATA
+ 0003:0B32 00000H     XIFL                   DATA
+ 0003:0B32 00000H     XIFM                   DATA
+ 0003:0B32 00000H     XIFCE                  DATA
+ 0003:0B32 0000EH     CDATA                  DATA
+ 0003:0B40 00000H     XIFB                   DATA
+ 0003:0B40 00000H     XIF                    DATA
+ 0003:0B40 00000H     XIFE                   DATA
+ 0003:0B40 00000H     XIB                    DATA
+ 0003:0B40 00000H     XI                     DATA
+ 0003:0B40 00000H     XIE                    DATA
+ 0003:0B40 00000H     XPB                    DATA
+ 0003:0B40 00004H     XP                     DATA
+ 0003:0B44 00000H     XPE                    DATA
+ 0003:0B44 00000H     XCB                    DATA
+ 0003:0B44 00000H     XC                     DATA
+ 0003:0B44 00000H     XCE                    DATA
+ 0003:0B44 00000H     XCFB                   DATA
+ 0003:0B44 00000H     XCFCRT                 DATA
+ 0003:0B44 00000H     XCF                    DATA
+ 0003:0B44 00000H     XCFE                   DATA
+ 0003:0B44 00000H     DBDATA                 DATA
+ 0003:0B44 000E4H     IOB                    DATA
+ 0003:0C28 00000H     IOBX                   DATA
+ 0003:0C28 0000CH     IOBE                   DATA
+ 0003:0C34 000E4H     IOB2                   DATA
+ 0003:0D18 00000H     IOB2X                  DATA
+ 0003:0D18 0000CH     IOB2E                  DATA
+ 0003:0D24 00002H     CONST                  CONST
+ 0003:0D26 00008H     HDR                    MSG
+ 0003:0D2E 0018BH     MSG                    MSG
+ 0003:0EB9 00015H     PAD                    MSG
+ 0003:0ECE 00001H     EPAD                   MSG
+ 0003:0ED0 00B7AH     _BSS                   BSS
+ 0003:1A4A 00000H     XOB                    BSS
+ 0003:1A4A 00000H     XO                     BSS
+ 0003:1A4A 00000H     XOE                    BSS
+ 0003:1A4A 00000H     XOFB                   BSS
+ 0003:1A4A 00000H     XOF                    BSS
+ 0003:1A4A 00000H     XOFE                   BSS
+ 0003:1A50 00010H     c_common               BSS
+
+ Origin   Group
+ 0003:0   DGROUP
+
+ Address   Export                  Alias
+
+ 0001:518A ___ExportedStub         ___ExportedStub
+
+  Address         Publics by Name
+
+ 0001:682A       ??0CAdviseSink@@REC@PEVCSimpleSite@@@Z
+ 0001:131C       ??0CDataXferObj@@BEC@XZ
+ 0001:6474       ??0CDropSource@@REC@PEVCSimpleDoc@@@Z
+ 0001:637C       ??0CDropTarget@@REC@PEVCSimpleDoc@@@Z
+ 0001:6774       ??0COleClientSite@@REC@PEVCSimpleSite@@@Z
+ 0001:0000       ??0CSimpleApp@@REC@XZ
+ 0001:088D       ??0CSimpleDoc@@REC@PEVCSimpleApp@@I@Z
+ 0001:36A0       ??0CSimpleSite@@REC@PEVCSimpleDoc@@@Z
+ 0001:6916       ??0IAdviseSink@@REC@XZ
+ 0001:668A       ??0IDataObject@@REC@XZ
+ 0001:653A       ??0IDropSource@@REC@XZ
+ 0001:6504       ??0IDropTarget@@REC@XZ
+ 0001:68E0       ??0IOleClientSite@@REC@XZ
+ 0001:61C0       ??0IUnknown@@REC@XZ
+ 0001:6888       ??1CAdviseSink@@REC@XZ
+ 0001:13AC       ??1CDataXferObj@@BEC@XZ
+ 0001:64D2       ??1CDropSource@@REC@XZ
+ 0001:641C       ??1CDropTarget@@REC@XZ
+ 0001:67D2       ??1COleClientSite@@REC@XZ
+ 0001:007B       ??1CSimpleApp@@REC@XZ
+ 0001:09D1       ??1CSimpleDoc@@REC@XZ
+ 0001:3740       ??1CSimpleSite@@REC@XZ
+ 0001:4340       ??2@ZAPEXI@Z
+ 0001:432E       ??3@ZAXPEX@Z
+ 0001:633E       ??8GUID@@RFCHAFU0@@Z
+ 0001:6A20       ??_7CAdviseSink@@6F@
+ 0001:66C0       ??_7CDataXferObj@@6F@
+ 0001:661C       ??_7CDropSource@@6F@
+ 0001:6630       ??_7CDropTarget@@6F@
+ 0001:69B8       ??_7COleClientSite@@6F@
+ 0001:6234       ??_7CSimpleApp@@6F@
+ 0001:65FC       ??_7CSimpleDoc@@6F@
+ 0001:6A40       ??_7CSimpleSite@@6F@
+ 0001:69DC       ??_7IAdviseSink@@6F@
+ 0001:66F0       ??_7IDataObject@@6F@
+ 0001:6608       ??_7IDropSource@@6F@
+ 0001:65E0       ??_7IDropTarget@@6F@
+ 0001:69FC       ??_7IOleClientSite@@6F@
+ 0001:6228       ??_7IUnknown@@6F@
+ 0001:9BD6       ??_C@_00A@?$AA@
+ 0001:89D2       ??_C@_01PCFE@?2?$AA@
+ 0001:8A72       ??_C@_01POCP@?7?$AA@
+ 0001:DA6C       ??_C@_03DDP@CON?$AA@
+ 0001:DA70       ??_C@_03DLI@AUX?$AA@
+ 0001:DA74       ??_C@_03EHJD@PRN?$AA@
+ 0001:9BD8       ??_C@_03NAME@?4?4?4?$AA@
+ 0001:B150       ??_C@_04CLJC@Font?$AA@
+ 0001:9BE6       ??_C@_04FOAE@?$CFd?$CF?$CF?$AA@
+ 0001:DA5A       ??_C@_04GNEC@COM2?$AA@
+ 0001:DA48       ??_C@_04HLIF@LPT2?$AA@
+ 0001:DA42       ??_C@_04IEDM@LPT1?$AA@
+ 0001:DA66       ??_C@_04JCDA@COM4?$AA@
+ 0001:DA54       ??_C@_04JCPL@COM1?$AA@
+ 0001:DA60       ??_C@_04MHNF@COM3?$AA@
+ 0001:AADA       ??_C@_04MOFI@?$CFs?$CFd?$AA@
+ 0001:DA4E       ??_C@_04NBBC@LPT3?$AA@
+ 0001:AA96       ??_C@_05FGFK@CLSID?$AA@
+ 0001:69B2       ??_C@_05NDCL@ias?4h?$AA@
+ 0001:65AC       ??_C@_05NNFA@idt?4h?$AA@
+ 0001:8A4E       ??_C@_06HFAC@CLSID?2?$AA@
+ 0001:8A46       ??_C@_06JPNA@?2CLSID?$AA@
+ 0001:AB12       ??_C@_06KAHL@?$EA?$CFs?$CB?$CFs?$AA@
+ 0001:697C       ??_C@_06LNPM@iocs?4h?$AA@
+ 0001:AAA6       ??_C@_07CPIP@Package?$AA@
+ 0001:CB40       ??_C@_07LGIJ@DISPLAY?$AA@
+ 0001:CECC       ??_C@_08BJKM@CLSID?2?$CFs?$AA@
+ 0001:9B8E       ??_C@_08NJLM@FileName?$AA@
+ 0001:9BDC       ??_C@_09DKHB@Structure?$AA@
+ 0001:AA9C       ??_C@_09JJAI@Linked?5?$CFs?$AA@
+ 0001:AD38       ??_C@_09LHIP@Embedding?$AA@
+ 0001:9B84       ??_C@_09NJ@OwnerLink?$AA@
+ 0001:9B68       ??_C@_0BA@IEJA@Embedded?5Object?$AA@
+ 0001:DA04       ??_C@_0BA@JEHM@GetOpenFileName?$AA@
+ 0001:CED6       ??_C@_0BA@LJEI@?2AuxUserType?2?$CFd?$AA@
+ 0001:9ADA       ??_C@_0BB@PGGH@OLEUI_MSG_BROWSE?$AA@
+ 0001:9B30       ??_C@_0BC@GMEI@Object?5Descriptor?$AA@
+ 0001:9B02       ??_C@_0BD@HNAP@commdlg_FileNameOK?$AA@
+ 0001:9AC6       ??_C@_0BE@FEHN@OLEUI_MSG_ENDDIALOG?$AA@
+ 0001:DECC       ??_C@_0BE@GGIG@?2Shell?2Open?2Command?$AA@
+ 0001:9AEC       ??_C@_0BF@COIE@OLEUI_MSG_CHANGEICON?$AA@
+ 0001:DA14       ??_C@_0BF@GCFH@CommDlgExtendedError?$AA@
+ 0001:699C       ??_C@_0BG@BCJB@In?5IAS?8s?5destructor?$AN?6?$AA@
+ 0001:65CA       ??_C@_0BG@DGDH@In?5IDS?8s?5destructor?$AN?6?$AA@
+ 0001:6596       ??_C@_0BG@NDHK@In?5IDT?8s?5destructor?$AN?6?$AA@
+ 0001:657E       ??_C@_0BH@FLKL@In?5IDT?8s?5constructor?$AN?6?$AA@
+ 0001:9B42       ??_C@_0BH@FOOO@Link?5Source?5Descriptor?$AA@
+ 0001:65B2       ??_C@_0BH@JHEO@In?5IDS?8s?5constructor?$AN?6?$AA@
+ 0001:6984       ??_C@_0BH@NFGK@In?5IAS?8s?5constructor?$AN?6?$AA@
+ 0001:6964       ??_C@_0BH@PEFE@In?5IOCS?8s?5destructor?$AN?6?$AA@
+ 0001:694C       ??_C@_0BI@IJIM@In?5IOCS?8s?5constructor?$AN?6?$AA@
+ 0001:9B16       ??_C@_0BK@LOCD@OLEUI_MSG_CLOSEBUSYDIALOG?$AA@
+ 0001:DEE0       ??_C@_0BP@CLAL@Protocol?2StdFileEditing?2Server?$AA@
+ 0001:8A1A       ??_C@_0CA@PANP@?2protocol?2StdFileEditing?2server?$AA@
+ 0001:CEF2       ??_C@_0CB@FCAE@CLSID?2?$CFs?2DataFormats?2DefaultFile@
+ 0001:9BB0       ??_C@_0CG@HCKA@resource?5read?50x?$CFX?0?5my?5value?5is?5@
+ 0001:89D4       ??_C@_0CH@JMMM@?$CK?$CK?$CK?5Please?5install?5VC?$CL?$CL?5Patch?5?$CD1@
+ 0001:AAAE       ??_C@_0CL@HONB@ERROR?3?5INTERFACE?5METHOD?5NOT?5IMPL@
+ 0001:AAE0       ??_C@_0DC@GEMK@OleStdCreateTempFileMoniker?3?5Mon@
+ 0001:AA5C       ??_C@_0DJ@NHNH@OleStdSwitchDisplayAspect?3?5Cache@
+ 0001:C70A       ??_C@_0L@CPGB@HWND_CIDLG?$AA@
+ 0001:DA36       ??_C@_0L@KCEB@?$CFc?$CFc?$CFc?4?4?4?2?$AA@
+ 0001:CEE6       ??_C@_0M@BODG@?2MiscStatus?$AA@
+ 0001:9BA4       ??_C@_0M@GHPL@ole2uiIBCls?$AA@
+ 0001:DA2A       ??_C@_0M@JEJD@LocalServer?$AA@
+ 0001:DF00       ??_C@_0M@JONA@DefaultIcon?$AA@
+ 0001:9B78       ??_C@_0M@KPGD@Link?5Source?$AA@
+ 0001:89B8       ??_C@_0M@LNGB@COMMDLG?4DLL?$AA@
+ 0001:9B98       ??_C@_0M@MBIN@ole2uiRICls?$AA@
+ 0001:8A3A       ??_C@_0M@PKFG@?2Insertable?$AA@
+ 0001:89FC       ??_C@_0N@IIFK@commdlg_help?$AA@
+ 0001:9B5A       ??_C@_0N@LHIH@Embed?5Source?$AA@
+ 0001:9AA8       ??_C@_0N@OCMF@VERIFICATION?$AA@
+ 0001:8A56       ??_C@_0N@OIGG@?2LocalServer?$AA@
+ 0001:89C4       ??_C@_0N@PNI@GetFileTitle?$AA@
+ 0001:6570       ??_C@_0O@GKMD@m_nCount?5?$DN?$DN?50?$AA@
+ 0001:8A64       ??_C@_0O@JEDJ@?2InProcServer?$AA@
+ 0001:9AB6       ??_C@_0P@LMIA@OLEUI_MSG_HELP?$AA@
+ 0001:8A0A       ??_C@_0P@PDBJ@?2NotInsertable?$AA@
+ 0001:664C       ??_GCDataXferObj@@BECPEXI@Z
+ 0001:61EA       ??_GCSimpleApp@@RECPEXI@Z
+ 0001:6300       ??_GCSimpleDoc@@RECPEXI@Z
+ 0001:6736       ??_GCSimpleSite@@RECPEXI@Z
+ 0001:322C       ?About@@ZCHIIGJ@Z
+ 0001:1B00       ?AddRef@CAdviseSink@@VEAKXZ
+ 0001:14D7       ?AddRef@CDataXferObj@@VEAKXZ
+ 0001:1EB0       ?AddRef@CDropSource@@VEAKXZ
+ 0001:2806       ?AddRef@CDropTarget@@VEAKXZ
+ 0001:2C48       ?AddRef@COleClientSite@@VEAKXZ
+ 0001:011E       ?AddRef@CSimpleApp@@VEAKXZ
+ 0001:0C24       ?AddRef@CSimpleDoc@@VEAKXZ
+ 0001:3A2E       ?AddRef@CSimpleSite@@VEAKXZ
+ 0001:0802       ?Close@CSimpleDoc@@RECXXZ
+ 0001:37E8       ?CloseOleObject@CSimpleSite@@RECXXZ
+ 0001:0F9A       ?CopyObjectToClip@CSimpleDoc@@RECXXZ
+ 0001:10CC       ?Create@CDataXferObj@@TAPEV1@PEVCSimpleSite@@PEUtagPOINTL@@@Z
+ 0001:0668       ?Create@CSimpleDoc@@TAPEV1@PEVCSimpleApp@@PEUtagRECT@@I@Z
+ 0001:358E       ?Create@CSimpleSite@@TAPEV1@PEVCSimpleDoc@@@Z
+ 0001:6240       ?DAdvise@CDataXferObj@@VEAPEXPEUtagFORMATETC@@KPEUIAdviseSink@@PEK@Z
+ 0001:00BD       ?DestroyDocs@CSimpleApp@@RECXXZ
+ 0001:0F38       ?DisableInsertObject@CSimpleDoc@@RECXXZ
+ 0001:3293       ?DocWndProc@@ZCJIIIJ@Z
+ 0001:1D5A       ?DoDragDrop@CSimpleDoc@@RECKXZ
+ 0001:2199       ?DoDragScroll@CDropTarget@@BECHUtagPOINTL@@@Z
+ 0001:289E       ?DragEnter@CDropTarget@@VEAPEXPEUIDataObject@@KUtagPOINTL@@PEK@Z
+ 0001:2A2A       ?DragLeave@CDropTarget@@VEAPEXXZ
+ 0001:298E       ?DragOver@CDropTarget@@VEAPEXKUtagPOINTL@@PEK@Z
+ 0001:26B3       ?DrawDragFeedback@CDropTarget@@BECXUtagPOINTL@@@Z
+ 0001:2A64       ?Drop@CDropTarget@@VEAPEXPEUIDataObject@@KUtagPOINTL@@PEK@Z
+ 0001:6264       ?DUnadvise@CDataXferObj@@VEAPEXK@Z
+ 0001:6288       ?EnumDAdvise@CDataXferObj@@VEAPEXPEPEUIEnumSTATDATA@@@Z
+ 0001:1690       ?EnumFormatEtc@CDataXferObj@@VEAPEXKPEPEUIEnumFORMATETC@@@Z
+ 0003:06CC       ?fBeVerbose@@3HE
+ 0001:01C7       ?fInitApplication@CSimpleApp@@RECHI@Z
+ 0001:02A3       ?fInitInstance@CSimpleApp@@RECHIH@Z
+ 0001:62AC       ?GetCanonicalFormatEtc@CDataXferObj@@VEAPEXPEUtagFORMATETC@@0@Z
+ 0001:2DED       ?GetContainer@COleClientSite@@VEAPEXPEPEUIOleContainer@@@Z
+ 0001:1729       ?GetData@CDataXferObj@@VEAPEXPEUtagFORMATETC@@PEUtagSTGMEDIUM@@@Z
+ 0001:1996       ?GetDataHere@CDataXferObj@@VEAPEXPEUtagFORMATETC@@PEUtagSTGMEDIUM@@@Z
+ 0001:2DB2       ?GetMoniker@COleClientSite@@VEAPEXKKPEPEUIMoniker@@@Z
+ 0001:3E6F       ?GetObjRect@CSimpleSite@@RECXPEUtagRECT@@@Z
+ 0001:1F95       ?GiveFeedback@CDropSource@@VEAPEXK@Z
+ 0003:0ED0       ?g_cfEmbeddedObject@@3GE
+ 0003:0ED2       ?g_cfObjectDescriptor@@3GE
+ 0001:0611       ?HandleAccelerators@CSimpleApp@@RECHPEUtagMSG@@@Z
+ 0001:24E5       ?InitDragFeedback@CDropTarget@@BECXPEUIDataObject@@UtagPOINTL@@@Z
+ 0001:3AD7       ?InitObject@CSimpleSite@@RECPEXH@Z
+ 0001:0CCD       ?InsertObject@CSimpleDoc@@RECXXZ
+ 0001:0E69       ?lAddVerbs@CSimpleDoc@@RECJXZ
+ 0001:03EC       ?lCommandHandler@CSimpleApp@@RECJIIIJ@Z
+ 0001:05C7       ?lCreateDoc@CSimpleApp@@RECJIIIJ@Z
+ 0003:0ED4       ?lpCSimpleApp@@3PEVCSimpleApp@@E
+ 0001:0E24       ?lResizeDoc@CSimpleDoc@@RECJPEUtagRECT@@@Z
+ 0001:058B       ?lSizeHandler@CSimpleApp@@RECJIIIJ@Z
+ 0001:30D2       ?MainWndProc@@ZCJIIIJ@Z
+ 0001:1CD7       ?OnClose@CAdviseSink@@VEAXXZ
+ 0001:1B98       ?OnDataChange@CAdviseSink@@VEAXPEUtagFORMATETC@@PEUtagSTGMEDIUM@@@Z
+ 0001:1C85       ?OnRename@CAdviseSink@@VEAXPEUIMoniker@@@Z
+ 0001:1CAE       ?OnSave@CAdviseSink@@VEAXXZ
+ 0001:2E57       ?OnShowWindow@COleClientSite@@VEAPEXH@Z
+ 0001:1BC1       ?OnViewChange@CAdviseSink@@VEAXKJ@Z
+ 0001:062F       ?PaintApp@CSimpleApp@@RECXI@Z
+ 0001:0EFF       ?PaintDoc@CSimpleDoc@@RECXI@Z
+ 0001:3CC5       ?PaintObj@CSimpleSite@@RECXI@Z
+ 0001:1F48       ?QueryContinueDrag@CDropSource@@VEAPEXHK@Z
+ 0001:1D00       ?QueryDrag@CSimpleDoc@@RECHUtagPOINT@@@Z
+ 0001:1FB8       ?QueryDrop@CDropTarget@@BECHKUtagPOINTL@@HPEK@Z
+ 0001:1580       ?QueryGetData@CDataXferObj@@VEAPEXPEUtagFORMATETC@@@Z
+ 0001:1AB0       ?QueryInterface@CAdviseSink@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:143E       ?QueryInterface@CDataXferObj@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:1E60       ?QueryInterface@CDropSource@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:27B6       ?QueryInterface@CDropTarget@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:2BF8       ?QueryInterface@COleClientSite@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:00E3       ?QueryInterface@CSimpleApp@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:0B08       ?QueryInterface@CSimpleDoc@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:3912       ?QueryInterface@CSimpleSite@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:1B4C       ?Release@CAdviseSink@@VEAKXZ
+ 0001:150C       ?Release@CDataXferObj@@VEAKXZ
+ 0001:1EFC       ?Release@CDropSource@@VEAKXZ
+ 0001:2852       ?Release@CDropTarget@@VEAKXZ
+ 0001:2C94       ?Release@COleClientSite@@VEAKXZ
+ 0001:0153       ?Release@CSimpleApp@@VEAKXZ
+ 0001:0C59       ?Release@CSimpleDoc@@VEAKXZ
+ 0001:3A63       ?Release@CSimpleSite@@VEAKXZ
+ 0001:2EDF       ?RequestNewObjectLayout@COleClientSite@@VEAPEXXZ
+ 0001:2CE0       ?SaveObject@COleClientSite@@VEAPEXXZ
+ 0001:6720       ?Scroll@CSimpleDoc@@RECXK@Z
+ 0001:62DC       ?SetData@CDataXferObj@@VEAPEXPEUtagFORMATETC@@PEUtagSTGMEDIUM@@H@Z
+ 0001:2E28       ?ShowObject@COleClientSite@@VEAPEXXZ
+ 0001:3EC0       ?StartTest1@@ZAXPEVCSimpleApp@@@Z
+ 0001:402C       ?StartTest2@@ZAXPEVCSimpleApp@@@Z
+ 0001:2640       ?UndrawDragFeedback@CDropTarget@@BECXXZ
+ 0001:3842       ?UnloadOleObject@CSimpleSite@@RECXXZ
+ 0000:0000  Imp  ANSINEXT             (USER.472)
+ 0000:0000  Imp  ANSIPREV             (USER.473)
+ 0000:0000  Imp  ANSITOOEM            (KEYBOARD.5)
+ 0000:0000  Imp  BEGINPAINT           (USER.39)
+ 0000:0000  Imp  BITBLT               (GDI.34)
+ 0000:0000  Imp  BRINGWINDOWTOTOP     (USER.45)
+ 0001:D346       BROWSE
+ 0001:B9A0       CHANGEICONDIALOGPROC
+ 0000:0000  Imp  CHECKDLGBUTTON       (USER.97)
+ 0000:0000  Imp  CHECKRADIOBUTTON     (USER.96)
+ 0000:0000  Unr  CHOPTEXT
+ 0000:0000  Imp  CLOSEMETAFILE        (GDI.126)
+ 0000:0000  Imp  CLSIDFROMPROGID      (COMPOBJ.61)
+ 0000:0000  Imp  CLSIDFROMSTRING      (COMPOBJ.20)
+ 0000:0000  Imp  CODOSDATETIMETOFILETIME (COMPOBJ.31)
+ 0000:0000  Imp  COFILETIMENOW        (COMPOBJ.82)
+ 0000:0000  Imp  COGETMALLOC          (COMPOBJ.4)
+ 0000:0000  Imp  COISOLE1CLASS        (COMPOBJ.36)
+ 0000:0000  Imp  COLOCKOBJECTEXTERNAL (COMPOBJ.63)
+ 0000:0000  Imp  COTREATASCLASS       (COMPOBJ.66)
+ 0000:0000  Imp  CREATEBINDCTX        (OLE2.26)
+ 0000:0000  Imp  CREATEBITMAP         (GDI.48)
+ 0000:0000  Imp  CREATECOMPATIBLEBITMAP (GDI.51)
+ 0000:0000  Imp  CREATECOMPATIBLEDC   (GDI.52)
+ 0000:0000  Imp  CREATEDC             (GDI.53)
+ 0000:0000  Imp  CREATEFILEMONIKER    (OLE2.28)
+ 0000:0000  Imp  CREATEFONTINDIRECT   (GDI.57)
+ 0000:0000  Imp  CREATEHATCHBRUSH     (GDI.58)
+ 0000:0000  Imp  CREATEIC             (GDI.153)
+ 0000:0000  Imp  CREATEICON           (USER.407)
+ 0000:0000  Imp  CREATEILOCKBYTESONHGLOBAL (OLE2.54)
+ 0000:0000  Imp  CREATEMETAFILE       (GDI.125)
+ 0000:0000  Imp  CREATEPALETTE        (GDI.360)
+ 0000:0000  Imp  CREATEPEN            (GDI.61)
+ 0000:0000  Imp  CREATEPOPUPMENU      (USER.415)
+ 0000:0000  Imp  CREATESOLIDBRUSH     (GDI.66)
+ 0000:0000  Imp  CREATESTREAMONHGLOBAL (OLE2.84)
+ 0000:0000  Imp  CREATEWINDOW         (USER.41)
+ 0000:0000  Imp  DEFWINDOWPROC        (USER.107)
+ 0000:0000  Imp  DELETEDC             (GDI.68)
+ 0000:0000  Imp  DELETEMENU           (USER.413)
+ 0000:0000  Imp  DELETEMETAFILE       (GDI.127)
+ 0000:0000  Imp  DELETEOBJECT         (GDI.69)
+ 0000:0000  Imp  DESTROYICON          (USER.457)
+ 0000:0000  Imp  DESTROYMENU          (USER.152)
+ 0000:0000  Imp  DESTROYWINDOW        (USER.53)
+ 0000:0000  Imp  DIALOGBOX            (USER.87)
+ 0000:0000  Imp  DIALOGBOXINDIRECTPARAM (USER.240)
+ 0000:0000  Imp  DIALOGBOXPARAM       (USER.239)
+ 0000:0000  Imp  DISPATCHMESSAGE      (USER.114)
+ 0000:0000  Imp  DODRAGDROP           (OLE2.37)
+ 0001:D994       DOESFILEEXIST
+ 0000:0000  Imp  DOS3CALL             (KERNEL.102)
+ 0000:0000  Imp  DRAWFOCUSRECT        (USER.466)
+ 0000:0000  Imp  DRAWICON             (USER.84)
+ 0000:0000  Imp  ENABLEMENUITEM       (USER.155)
+ 0000:0000  Imp  ENABLEWINDOW         (USER.34)
+ 0000:0000  Imp  ENDDIALOG            (USER.88)
+ 0000:0000  Imp  ENDPAINT             (USER.40)
+ 0000:0000  Imp  ENUMMETAFILE         (GDI.175)
+ 0001:B528       ENUMMETAFILEEXTRACTICON
+ 0001:B7F8       ENUMMETAFILEEXTRACTICONSOURCE
+ 0001:B3E6       ENUMMETAFILEEXTRACTLABEL
+ 0001:B2B2       ENUMMETAFILEICONDRAW
+ 0001:D4EA       ERRORWITHFILE
+ 0000:0000  Imp  EXTRACTICON          (SHELL.34)
+ 0000:0000  Imp  EXTTEXTOUT           (GDI.351)
+ 0000:0000  Imp  FATALAPPEXIT         (KERNEL.137)
+ 0000:0000  Imp  FATALEXIT            (KERNEL.1)
+ 0001:DBBA       FICONFILEFROMCLASS
+ 0000:0000  Imp  FILLRECT             (USER.81)
+ 0000:0000  Imp  FINDRESOURCE         (KERNEL.60)
+ 0000:0000  Imp  FREELIBRARY          (KERNEL.96)
+ 0000:0000  Imp  FREEPROCINSTANCE     (KERNEL.52)
+ 0000:0000  Imp  FREERESOURCE         (KERNEL.63)
+ 0000:0000  Unr  FSERVERFROMCLASS
+ 0001:DA78       GETASSOCIATEDEXECUTABLE
+ 0000:0000  Imp  GETBITMAPBITS        (GDI.74)
+ 0000:0000  Imp  GETBKCOLOR           (GDI.75)
+ 0000:0000  Imp  GETCLASSFILE         (OLE2.57)
+ 0000:0000  Imp  GETCLIENTRECT        (USER.33)
+ 0000:0000  Imp  GETCURRENTTIME       (USER.15)
+ 0000:0000  Imp  GETDC                (USER.66)
+ 0000:0000  Imp  GETDEVICECAPS        (GDI.80)
+ 0000:0000  Imp  GETDIALOGBASEUNITS   (USER.243)
+ 0000:0000  Imp  GETDLGITEM           (USER.91)
+ 0000:0000  Imp  GETDLGITEMTEXT       (USER.93)
+ 0000:0000  Imp  GETDOSENVIRONMENT    (KERNEL.131)
+ 0000:0000  Imp  GETFOCUS             (USER.23)
+ 0000:0000  Imp  GETMENU              (USER.157)
+ 0000:0000  Imp  GETMENUITEMCOUNT     (USER.263)
+ 0000:0000  Imp  GETMESSAGE           (USER.108)
+ 0000:0000  Imp  GETMODULEFILENAME    (KERNEL.49)
+ 0000:0000  Imp  GETOBJECT            (GDI.82)
+ 0000:0000  Imp  GETPARENT            (USER.46)
+ 0000:0000  Imp  GETPROCADDRESS       (KERNEL.50)
+ 0000:0000  Imp  GETPROFILEINT        (KERNEL.57)
+ 0000:0000  Imp  GETPROP              (USER.25)
+ 0000:0000  Imp  GETRUNNINGOBJECTTABLE (OLE2.30)
+ 0000:0000  Imp  GETSTOCKOBJECT       (GDI.87)
+ 0000:0000  Imp  GETSUBMENU           (USER.159)
+ 0000:0000  Imp  GETSYSCOLOR          (USER.180)
+ 0000:0000  Imp  GETSYSTEMMETRICS     (USER.179)
+ 0000:0000  Imp  GETTEXTEXTENTPOINT   (GDI.471)
+ 0000:0000  Imp  GETVERSION           (KERNEL.3)
+ 0000:0000  Imp  GETWINDOWRECT        (USER.32)
+ 0000:0000  Imp  GETWINDOWTEXT        (USER.36)
+ 0000:0000  Imp  GETWINDOWWORD        (USER.133)
+ 0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
+ 0000:0000  Imp  GLOBALFREE           (KERNEL.17)
+ 0000:0000  Imp  GLOBALLOCK           (KERNEL.18)
+ 0000:0000  Imp  GLOBALREALLOC        (KERNEL.16)
+ 0000:0000  Imp  GLOBALSIZE           (KERNEL.20)
+ 0000:0000  Imp  GLOBALUNLOCK         (KERNEL.19)
+ 0000:0000  Unr  HICONANDSOURCEFROMCLASS
+ 0000:0000  Unr  HICONFROMCLASS
+ 0001:D330       HOURGLASSOFF
+ 0001:D310       HOURGLASSON
+ 0001:C78E       ICONBOXWNDPROC
+ 0000:0000  Imp  INFLATERECT          (USER.78)
+ 0000:0000  Imp  INITAPP              (USER.5)
+ 0000:0000  Imp  INITTASK             (KERNEL.91)
+ 0000:0000  Imp  INSERTMENU           (USER.410)
+ 0001:6D72       INSERTOBJECTDIALOGPROC
+ 0000:0000  Imp  INVALIDATERECT       (USER.125)
+ 0000:0000  Imp  ISBADCODEPTR         (KERNEL.336)
+ 0000:0000  Imp  ISBADREADPTR         (KERNEL.334)
+ 0000:0000  Imp  ISBADWRITEPTR        (KERNEL.335)
+ 0000:0000  Imp  ISDBCSLEADBYTE       (KERNEL.207)
+ 0000:0000  Imp  ISDIALOGMESSAGE      (USER.90)
+ 0000:0000  Imp  ISDLGBUTTONCHECKED   (USER.98)
+ 0000:0000  Imp  ISEQUALGUID          (COMPOBJ.18)
+ 0000:0000  Imp  ISWINDOW             (USER.47)
+ 0000:0000  Imp  KILLTIMER            (USER.12)
+ 0000:0000  Imp  LOADBITMAP           (USER.175)
+ 0000:0000  Imp  LOADCURSOR           (USER.173)
+ 0000:0000  Imp  LOADICON             (USER.174)
+ 0000:0000  Imp  LOADLIBRARY          (KERNEL.95)
+ 0000:0000  Imp  LOADRESOURCE         (KERNEL.61)
+ 0000:0000  Imp  LOADSTRING           (USER.176)
+ 0000:0000  Imp  LOCKRESOURCE         (KERNEL.62)
+ 0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
+ 0001:AFEE       LPVSTANDARDENTRY
+ 0001:AF30       LPVSTANDARDINIT
+ 0000:0000  Imp  LSTRCAT              (KERNEL.89)
+ 0000:0000  Imp  LSTRCMP              (USER.430)
+ 0000:0000  Imp  LSTRCMPI             (USER.471)
+ 0000:0000  Imp  LSTRCPY              (KERNEL.88)
+ 0000:0000  Imp  LSTRCPYN             (KERNEL.353)
+ 0000:0000  Imp  LSTRLEN              (KERNEL.90)
+ 0000:0000  Imp  MAKEPROCINSTANCE     (KERNEL.51)
+ 0000:0000  Imp  MESSAGEBOX           (USER.1)
+ 0000:0000  Imp  MKPARSEDISPLAYNAME   (OLE2.23)
+ 0000:0000  Imp  MOVEWINDOW           (USER.56)
+ 0000:0000  Imp  MULDIV               (GDI.128)
+ 0000:0000  Imp  OEMTOANSI            (KEYBOARD.6)
+ 0000:0000  Imp  OFFSETRECT           (USER.77)
+ 0000:0000  Imp  OLEBUILDVERSION      (OLE2.1)
+ 0000:0000  Imp  OLECREATE            (OLE2.10)
+ 0000:0000  Imp  OLECREATEFROMDATA    (OLE2.8)
+ 0000:0000  Imp  OLECREATEFROMFILE    (OLE2.67)
+ 0000:0000  Imp  OLECREATELINKTOFILE  (OLE2.68)
+ 0000:0000  Imp  OLEDRAW              (OLE2.58)
+ 0000:0000  Imp  OLEDUPLICATEDATA     (OLE2.51)
+ 0000:0000  Imp  OLEFLUSHCLIPBOARD    (OLE2.76)
+ 0000:0000  Imp  OLEGETICONOFCLASS    (OLE2.53)
+ 0000:0000  Imp  OLEGETICONOFFILE     (OLE2.52)
+ 0000:0000  Imp  OLEINITIALIZE        (OLE2.2)
+ 0000:0000  Imp  OLELOAD              (OLE2.12)
+ 0000:0000  Imp  OLEMETAFILEPICTFROMICONANDLABEL (OLE2.56)
+ 0000:0000  Imp  OLEQUERYCREATEFROMDATA (OLE2.7)
+ 0000:0000  Imp  OLEQUERYLINKFROMDATA (OLE2.6)
+ 0000:0000  Imp  OLESAVE              (OLE2.13)
+ 0000:0000  Imp  OLESAVETOSTREAM      (OLE2.24)
+ 0000:0000  Imp  OLESETCLIPBOARD      (OLE2.49)
+ 0000:0000  Imp  OLESETCONTAINEDOBJECT (OLE2.86)
+ 0000:0000  Unr  OLESTDCHECKVTBL
+ 0000:0000  Unr  OLESTDCOMMITSTORAGE
+ 0001:CA08       OLESTDCOMPAREFORMATETC
+ 0001:CAD6       OLESTDCOMPARETARGETDEVICE
+ 0001:C96A       OLESTDCOPYFORMATETC
+ 0001:9E30       OLESTDCOPYSTRING
+ 0001:C918       OLESTDCOPYTARGETDEVICE
+ 0000:0000  Unr  OLESTDCREATECHILDSTORAGE
+ 0000:0000  Unr  OLESTDCREATEDC
+ 0000:0000  Unr  OLESTDCREATEIC
+ 0000:0000  Unr  OLESTDCREATEROOTSTORAGE
+ 0001:9EBA       OLESTDCREATESTORAGEONHGLOBAL
+ 0000:0000  Unr  OLESTDCREATETARGETDEVICE
+ 0000:0000  Unr  OLESTDCREATETEMPFILEMONIKER
+ 0001:9F52       OLESTDCREATETEMPSTORAGE
+ 0000:0000  Unr  OLESTDDELETETARGETDEVICE
+ 0000:0000  Unr  OLESTDDESTROYALLELEMENTS
+ 0000:0000  Unr  OLESTDDOCONVERT
+ 0000:0000  Unr  OLESTDDOTREATASCLASS
+ 0001:8A74       OLESTDENUMFMTETC_CREATE
+ 0000:0000  Unr  OLESTDFILLOBJECTDESCRIPTORFROMDATA
+ 0001:9D84       OLESTDFREE
+ 0001:9DDA       OLESTDFREESTRING
+ 0000:0000  Unr  OLESTDGETAUXUSERTYPE
+ 0001:9C2A       OLESTDGETDATA
+ 0001:CDEE       OLESTDGETDEFAULTFILEFORMATOFCLASS
+ 0001:A7FC       OLESTDGETFIRSTMONIKER
+ 0000:0000  Unr  OLESTDGETITEMTOKEN
+ 0000:0000  Unr  OLESTDGETLENFILEPREFIXOFMONIKER
+ 0000:0000  Unr  OLESTDGETLINKSOURCEDATA
+ 0001:A5BC       OLESTDGETMETAFILEPICTFROMOLEOBJECT
+ 0000:0000  Unr  OLESTDGETMISCSTATUSOFCLASS
+ 0001:A0BA       OLESTDGETOBJECTDESCRIPTORDATA
+ 0001:A240       OLESTDGETOBJECTDESCRIPTORDATAFROMOLEOBJECT
+ 0001:9FB0       OLESTDGETOLEOBJECTDATA
+ 0000:0000  Unr  OLESTDGETPRIORITYCLIPBOARDFORMAT
+ 0000:0000  Unr  OLESTDGETSIZE
+ 0000:0000  Unr  OLESTDGETTREATASFMTUSERTYPE
+ 0001:CC6A       OLESTDGETUSERTYPEOFCLASS
+ 0000:0000  Unr  OLESTDICONLABELTEXTOUT
+ 0000:0000  Unr  OLESTDINITVTBL
+ 0000:0000  Unr  OLESTDISDUPLICATEFORMAT
+ 0000:0000  Unr  OLESTDISOLELINK
+ 0001:9D26       OLESTDMALLOC
+ 0001:A8B2       OLESTDMARKPASTEENTRYLIST
+ 0000:0000  Unr  OLESTDMKPARSEDISPLAYNAME
+ 0000:0000  Unr  OLESTDNOTEFILECHANGETIME
+ 0000:0000  Unr  OLESTDNOTEOBJECTCHANGETIME
+ 0000:0000  Unr  OLESTDOPENCHILDSTORAGE
+ 0000:0000  Unr  OLESTDOPENORCREATEROOTSTORAGE
+ 0000:0000  Unr  OLESTDOPENROOTSTORAGE
+ 0001:9BEC       OLESTDQUERYINTERFACE
+ 0000:0000  Unr  OLESTDREALLOC
+ 0000:0000  Unr  OLESTDREGISTERASRUNNING
+ 0001:A754       OLESTDRELEASE
+ 0000:0000  Unr  OLESTDREVOKEASRUNNING
+ 0000:0000  Unr  OLESTDSETICONINCACHE
+ 0000:0000  Unr  OLESTDSETUPADVISES
+ 0000:0000  Unr  OLESTDSWITCHDISPLAYASPECT
+ 0001:A730       OLESTDVERIFYRELEASE
+ 0001:90BA       OLEUIADDVERBMENU
+ 0000:0000  Unr  OLEUICANUNLOADNOW
+ 0001:B8FE       OLEUICHANGEICON
+ 0001:8F1E       OLEUIINITIALIZE
+ 0001:6A4C       OLEUIINSERTOBJECT
+ 0001:B4C4       OLEUIMETAFILEPICTEXTRACTICON
+ 0001:B754       OLEUIMETAFILEPICTEXTRACTICONSOURCE
+ 0001:B32E       OLEUIMETAFILEPICTEXTRACTLABEL
+ 0001:B19E       OLEUIMETAFILEPICTICONDRAW
+ 0001:B156       OLEUIMETAFILEPICTICONFREE
+ 0001:90A2       OLEUIUNINITIALIZE
+ 0000:0000  Unr  OLEUIUPDATELINKS
+ 0000:0000  Imp  OLEUNINITIALIZE      (OLE2.3)
+ 0000:0000  Imp  OPENFILE             (KERNEL.74)
+ 0001:D5E6       OPENFILEERROR
+ 0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
+ 0000:0000  Unr  PARSECMDLINE
+ 0000:0008  Abs  pAtomTable
+ 0000:0000  Imp  PEEKMESSAGE          (USER.109)
+ 0000:0000  Imp  PLAYMETAFILE         (GDI.123)
+ 0000:0000  Imp  PLAYMETAFILERECORD   (GDI.176)
+ 0000:0006  Abs  pLocalHeap
+ 0001:DB7C       POINTERTONTHFIELD
+ 0000:0000  Imp  POSTMESSAGE          (USER.110)
+ 0000:0000  Imp  POSTQUITMESSAGE      (USER.6)
+ 0000:0000  Imp  PROGIDFROMCLSID      (COMPOBJ.62)
+ 0001:9684       PROMPTUSERDLGPROC
+ 0000:000E  Abs  pStackBot
+ 0000:000C  Abs  pStackMin
+ 0000:000A  Abs  pStackTop
+ 0000:0000  Imp  PTINRECT             (USER.76)
+ 0000:0000  Imp  READCLASSSTG         (OLE2.18)
+ 0000:0000  Imp  READFMTUSERTYPESTG   (OLE2.74)
+ 0000:0000  Imp  REALIZEPALETTE       (USER.283)
+ 0000:0000  Imp  RECTANGLE            (GDI.27)
+ 0000:0000  Imp  REGCLOSEKEY          (SHELL.3)
+ 0000:0000  Imp  REGENUMKEY           (SHELL.7)
+ 0000:0000  Imp  REGISTERCLASS        (USER.57)
+ 0000:0000  Imp  REGISTERCLIPBOARDFORMAT (USER.145)
+ 0000:0000  Imp  REGISTERDRAGDROP     (OLE2.35)
+ 0000:0000  Imp  REGISTERWINDOWMESSAGE (USER.118)
+ 0000:0000  Imp  REGOPENKEY           (SHELL.1)
+ 0000:0000  Imp  REGQUERYVALUE        (SHELL.6)
+ 0000:0000  Imp  REGSETVALUE          (SHELL.5)
+ 0000:0000  Imp  RELEASECAPTURE       (USER.19)
+ 0000:0000  Imp  RELEASEDC            (USER.68)
+ 0000:0000  Imp  RELEASESTGMEDIUM     (OLE2.32)
+ 0000:0000  Imp  REMOVEMENU           (USER.412)
+ 0000:0000  Imp  REMOVEPROP           (USER.24)
+ 0001:D4B4       REPLACECHARWITHNULL
+ 0000:0000  Unr  RESETORIGDC
+ 0000:0000  Imp  RESTOREDC            (GDI.39)
+ 0001:D016       RESULTIMAGEWNDPROC
+ 0000:0000  Imp  REVOKEDRAGDROP       (OLE2.36)
+ 0003:0004       rsrvptrs
+ 0000:0000  Imp  SAVEDC               (GDI.30)
+ 0000:0000  Imp  SCREENTOCLIENT       (USER.29)
+ 0000:0000  Imp  SELECTOBJECT         (GDI.45)
+ 0000:0000  Imp  SELECTPALETTE        (USER.282)
+ 0000:0000  Imp  SENDDLGITEMMESSAGE   (USER.101)
+ 0000:0000  Imp  SENDMESSAGE          (USER.111)
+ 0000:0000  Imp  SETBKCOLOR           (GDI.1)
+ 0000:0000  Imp  SETBRUSHORG          (GDI.148)
+ 0000:0000  Imp  SETCAPTURE           (USER.18)
+ 0000:0000  Imp  SETCONVERTSTG        (OLE2.83)
+ 0000:0000  Imp  SETCURSOR            (USER.69)
+ 0000:0000  Unr  SETDCTOANISOTROPIC
+ 0000:0000  Unr  SETDCTODRAWINHIMETRICRECT
+ 0000:0000  Imp  SETDIBITS            (GDI.440)
+ 0000:0000  Imp  SETDLGITEMTEXT       (USER.92)
+ 0000:0000  Imp  SETFOCUS             (USER.22)
+ 0000:0000  Imp  SETMAPMODE           (GDI.3)
+ 0000:0000  Imp  SETMESSAGEQUEUE      (USER.266)
+ 0000:0000  Imp  SETPROP              (USER.26)
+ 0000:0000  Imp  SETROP2              (GDI.4)
+ 0000:0000  Imp  SETTEXTCOLOR         (GDI.9)
+ 0000:0000  Imp  SETTIMER             (USER.10)
+ 0000:0000  Imp  SETVIEWPORTEXTEX     (GDI.479)
+ 0000:0000  Imp  SETVIEWPORTORGEX     (GDI.480)
+ 0000:0000  Imp  SETWINDOWEXTEX       (GDI.481)
+ 0000:0000  Imp  SETWINDOWORGEX       (GDI.482)
+ 0000:0000  Imp  SETWINDOWPOS         (USER.232)
+ 0000:0000  Imp  SETWINDOWTEXT        (USER.37)
+ 0000:0000  Imp  SETWINDOWWORD        (USER.134)
+ 0000:0000  Imp  SHOWCURSOR           (USER.71)
+ 0000:0000  Imp  SHOWWINDOW           (USER.42)
+ 0001:B0AA       STANDARDCLEANUP
+ 0001:B0FA       STANDARDSHOWDLGITEM
+ 0000:0000  Imp  STGCREATEDOCFILE     (STORAGE.1)
+ 0000:0000  Imp  STGCREATEDOCFILEONILOCKBYTES (STORAGE.2)
+ 0000:0000  Imp  STGOPENSTORAGE       (STORAGE.3)
+ 0000:0000  Imp  STRINGFROMCLSID      (COMPOBJ.19)
+ 0000:0000  Imp  TRANSLATEMESSAGE     (USER.113)
+ 0000:0000  Unr  UCLASSFROMDESCRIPTION
+ 0000:0000  Unr  UDESCRIPTIONFROMCLASS
+ 0000:0000  Imp  UNREALIZEOBJECT      (GDI.150)
+ 0001:972A       UPDATELINKSDLGPROC
+ 0000:0000  Imp  UPDATEWINDOW         (USER.124)
+ 0001:B066       USTANDARDHOOK
+ 0001:AEA2       USTANDARDINVOCATION
+ 0001:AD42       USTANDARDVALIDATION
+ 0000:0000  Imp  WAITEVENT            (KERNEL.30)
+ 0001:2F37       WINMAIN
+ 0000:0000  Imp  WRITECLASSSTG        (OLE2.19)
+ 0000:0000  Imp  WRITECLASSSTM        (OLE2.21)
+ 0000:0000  Imp  WRITEFMTUSERTYPESTG  (OLE2.75)
+ 0000:0000  Imp  WVSPRINTF            (USER.421)
+ 0001:AB66       XFORMHEIGHTINHIMETRICTOPIXELS
+ 0000:0000  Unr  XFORMHEIGHTINPIXELSTOHIMETRIC
+ 0000:0000  Unr  XFORMRECTINHIMETRICTOPIXELS
+ 0001:ABB2       XFORMRECTINPIXELSTOHIMETRIC
+ 0001:AC62       XFORMSIZEINHIMETRICTOPIXELS
+ 0000:0000  Unr  XFORMSIZEINPIXELSTOHIMETRIC
+ 0001:AB1A       XFORMWIDTHINHIMETRICTOPIXELS
+ 0000:0000  Unr  XFORMWIDTHINPIXELSTOHIMETRIC
+ 0001:4F54       _abort
+ 0003:08C2       _aseghi
+ 0003:08C0       _aseglo
+ 0001:4350       _atoi
+ 0003:1A52       _cfEmbeddedObject
+ 0003:1A50       _cfEmbedSource
+ 0003:1A5A       _cfFileName
+ 0003:1A5C       _cfLinkSource
+ 0003:1A58       _cfLinkSrcDescriptor
+ 0003:1A5E       _cfObjectDescriptor
+ 0003:1A56       _cfOwnerLink
+ 0003:0ED0       _edata
+ 0003:1A60       _end
+ 0003:0A1C       _errno
+ 0001:49C3       _exit
+ 0001:BFE0       _FChangeIconInit
+ 0001:5EBE       _fclose
+ 0001:C55E       _FDrawListIcon
+ 0001:5D22       _fflush
+ 0001:C716       _FIconBoxInitialize
+ 0001:78DC       _FInsertObjectInit
+ 0001:CF14       _FResultImageInitialize
+ 0001:81AA       _FToggleObjectSource
+ 0001:88DE       _FValidateInsertFile
+ 0003:1A54       _ghInst
+ 0000:0000  Imp  _GUID_NULL           (COMPOBJ.37)
+ 0003:0848       _g_dwLockCount
+ 0003:0844       _g_dwObjectCount
+ 0001:C78C       _IconBoxUninitialize
+ 0000:0000  Imp  _IID_IAdviseSink     (OLE2.135)
+ 0000:0000  Imp  _IID_IDataObject     (OLE2.134)
+ 0000:0000  Imp  _IID_IDropSource     (OLE2.153)
+ 0000:0000  Imp  _IID_IDropTarget     (OLE2.154)
+ 0000:0000  Imp  _IID_IEnumFORMATETC  (OLE2.123)
+ 0000:0000  Imp  _IID_IOleCache       (OLE2.150)
+ 0000:0000  Imp  _IID_IOleClientSite  (OLE2.144)
+ 0000:0000  Imp  _IID_IOleLink        (OLE2.149)
+ 0000:0000  Imp  _IID_IOleObject      (OLE2.138)
+ 0000:0000  Imp  _IID_IPersistStorage (OLE2.130)
+ 0000:0000  Imp  _IID_IUnknown        (COMPOBJ.38)
+ 0000:0000  Imp  _IID_IViewObject     (OLE2.133)
+ 0000:0000  Imp  _IID_IViewObject2    (OLE2.158)
+ 0001:896C       _InsertObjectCleanup
+ 0001:8CE6       _OleStdEnumFmtEtc_AddRef
+ 0001:8EA8       _OleStdEnumFmtEtc_Clone
+ 0001:8BB4       _OleStdEnumFmtEtc_Destroy
+ 0001:8D44       _OleStdEnumFmtEtc_Next
+ 0001:8C60       _OleStdEnumFmtEtc_QueryInterface
+ 0001:8D06       _OleStdEnumFmtEtc_Release
+ 0001:8E8E       _OleStdEnumFmtEtc_Reset
+ 0001:8E18       _OleStdEnumFmtEtc_Skip
+ 0001:A778       _OleStdNullMethod
+ 0000:0000  Unr  _OleUIPromptUser
+ 0001:6110       _remove
+ 0001:D004       _ResultImageUninitialize
+ 0001:86BC       _SetInsertObjectResults
+ 0001:4F76       _sprintf
+ 0003:08B4       _STKHQQ
+ 0001:60A0       _strcat
+ 0001:4EA8       _strcpy
+ 0001:4354       _strcspn
+ 0001:4EE4       _strlen
+ 0001:43B0       _strstr
+ 0001:4428       _strtol
+ 0001:441C       _strtoul
+ 0001:2F0E       _TestDebugOut
+ 0001:D186       _TransparentBlt
+ 0001:7CDC       _UFillClassList
+ 0001:C400       _UFillIconList
+ 0003:0850       _uMsgBrowse
+ 0003:0852       _uMsgChangeIcon
+ 0003:0856       _uMsgCloseBusyDlg
+ 0003:084E       _uMsgEndDialog
+ 0003:0854       _uMsgFileOKString
+ 0003:084C       _uMsgHelp
+ 0001:8496       _UpdateClassIcon
+ 0001:8438       _UpdateClassType
+ 0001:C626       _UpdateResultIcon
+ 0000:0000  Imp  _wsprintf            (USER.420)
+ 0003:08C8       __aaltstkovr
+ 0003:0A00       __acfinfo
+ 0000:9876  Abs  __acrtmsg
+ 0000:9876  Abs  __acrtused
+ 0000:D6D6  Abs  __aDBdoswp
+ 0003:0A6E       __adbgmsg
+ 0000:D6D6  Abs  __aDBused
+ 0001:42F4       __aFchkstk
+ 0001:4780       __aFlmul
+ 0001:4780       __aFulmul
+ 0000:0000  Imp  __AHINCR             (KERNEL.114)
+ 0003:0A0E       __aintdiv
+ 0003:0B00       __amblksiz
+ 0001:4D30       __amsg_exit
+ 0001:42D4       __aNchkstk
+ 0003:0B24       __asizeC
+ 0003:0B25       __asizeD
+ 0001:455A       __assert
+ 0001:4216       __astart
+ 0001:4EFE       __catox
+ 0001:49E0       __cexit
+ 0003:0B04       __cfltcvt_tab
+ 0003:0B26       __cflush
+ 0001:508C       __chdrive
+ 0003:0A6B       __child
+ 0001:42F4       __chkstk
+ 0001:48E0       __cinit
+ 0001:4D26       __cintDIV
+ 0001:6068       __close
+ 0001:615A       __cltoasub
+ 0003:08BE       __cmdShow
+ 0001:5FC0       __commit
+ 0003:0A2B       __cpumode
+ 0001:4A61       __ctermsub
+ 0003:08CC       __ctype
+ 0003:08CC       __ctype_
+ 0001:6167       __cxtoa
+ 0001:49F1       __c_exit
+ 0003:0A2C       __doserrno
+ 0001:4D72       __dosret0
+ 0001:4D91       __dosretax
+ 0001:4D7F       __dosreturn
+ 0001:6136       __dos_commit
+ 0001:4706       __dos_findfirst
+ 0001:46F4       __dos_findnext
+ 0003:0ED0       __edata
+ 0003:1A60       __end
+ 0001:5CF8       __endstdio
+ 0003:0A62       __environ
+ 0001:49D1       __exit
+ 0003:0A6D       __exitflag
+ 0003:0A12       __fac
+ 0001:5E7E       __fcloseall
+ 0001:4DE0       __ffree
+ 0001:4A9E       __FF_MSGBANNER
+ 0003:0AF2       __fheap
+ 0001:5911       __findlast
+ 0001:519E       __flsbuf
+ 0001:5D7E       __flush
+ 0001:5DFE       __flushall
+ 0001:4E01       __fmalloc
+ 0001:47B2       __fmemcmp
+ 0001:480E       __fmemcpy
+ 0001:486C       __fmemset
+ 0003:0B34       __fpinit
+ 0000:9876  Abs  __fptaskdata
+ 0001:50E2       __fptrap
+ 0001:45A8       __fpurecall
+ 0001:6030       __freebuf
+ 0001:59B4       __getbuf
+ 0001:45AE       __getcwd
+ 0001:45CC       __getdcwd
+ 0001:4DD0       __GetDGROUP
+ 0001:5062       __getdrive
+ 0001:581A       __growseg
+ 0003:08B8       __hInstance
+ 0003:08B6       __hPrevInstance
+ 0001:58AB       __incseg
+ 0001:5C8E       __initseg
+ 0001:4FE4       __intdosx
+ 0003:0B44       __iob
+ 0003:0C34       __iob2
+ 0001:60F4       __itoa
+ 0003:0B02       __lastiob
+ 0001:5CC2       __linkseg
+ 0003:08BA       __lpszCmdLine
+ 0001:5A00       __lseek
+ 0003:0B28       __lseekchk
+ 0001:4DA3       __maperror
+ 0001:515C       __myalloc
+ 0001:5932       __newseg
+ 0003:0A2E       __nfile
+ 0001:50E8       __NMSG_TEXT
+ 0001:511F       __NMSG_WRITE
+ 0001:42CD       __nomain
+ 0001:45A8       __npurecall
+ 0003:0A2C       __oserr
+ 0003:0A34       __osfile
+ 0003:0A27       __osmajor
+ 0003:0A26       __osminor
+ 0003:0A2A       __osmode
+ 0003:0A26       __osver
+ 0003:0A28       __osversion
+ 0001:52A8       __output
+ 0003:0A66       __pgmptr
+ 0003:0A8A       __pnhFarHeap
+ 0003:0A22       __psp
+ 0003:0A20       __pspadr
+ 0001:45A8       __purecall
+ 0001:50DB       __QWINClose
+ 0001:50DB       __QWINExit
+ 0001:50DB       __QWINGetBuffSize
+ 0001:50DB       __QWINGetFocus
+ 0001:50DB       __QWINGetSize
+ 0001:50DB       __QWINInit
+ 0001:50DB       __QWINIsQWINin
+ 0001:50DB       __QWINMenuClick
+ 0001:50DB       __QWINOpen
+ 0001:50DB       __QWINRead
+ 0001:50DB       __QWINSetAboutString
+ 0001:50DB       __QWINSetBuffSize
+ 0001:50DB       __QWINSetFocus
+ 0001:50DB       __QWINSetSize
+ 0001:50DB       __QWINTerm
+ 0003:0A8E       __qwinused
+ 0001:50DB       __QWINWrite
+ 0001:50DB       __QWINYield
+ 0001:579E       __searchseg
+ 0001:4AC2       __setargv
+ 0001:4C6C       __setenvp
+ 0003:0B22       __sigintoff
+ 0003:0B20       __sigintseg
+ 0000:0001  Abs  __sizec
+ 0000:0001  Abs  __sized
+ 0001:5D0E       __stackavail
+ 0001:48B4       __stubmain
+ 0003:0A1E       __umaskval
+ 0001:6110       __unlink
+ 0001:50DB       __wabout
+ 0001:50D6       __wcexit
+ 0001:50D6       __wcinit
+ 0001:50DB       __wclose
+ 0003:0A30       __wfile
+ 0001:420C       __wflags
+ 0001:50DB       __wgetfocus
+ 0001:50DB       __wgetscreenbuf
+ 0001:50DB       __wgetsize
+ 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 0003:0A25       __winmajor
+ 0003:0A24       __winminor
+ 0003:0A24       __winver
+ 0000:0000  Abs  __wiobused
+ 0001:50DB       __wmenuclick
+ 0003:0A32       __wnfile
+ 0001:50DB       __wopen
+ 0001:50DB       __wread
+ 0001:5AD4       __write
+ 0001:50DB       __wsetfocus
+ 0001:50DB       __wsetscreenbuf
+ 0001:50DB       __wsetsize
+ 0003:0A48       __wsfile
+ 0001:50DB       __wterm
+ 0001:50DB       __wwrite
+ 0003:08C6       ___aDBrterr
+ 0003:08C4       ___aDBswpflg
+ 0003:0A5C       ___argc
+ 0003:0A5E       ___argv
+ 0001:518A       ___ExportedStub
+
+  Address         Publics by Value
+
+ 0000:0000  Imp  GETMESSAGE           (USER.108)
+ 0000:0000  Imp  GETMENUITEMCOUNT     (USER.263)
+ 0000:0000  Imp  OFFSETRECT           (USER.77)
+ 0000:0000  Imp  EXTRACTICON          (SHELL.34)
+ 0000:0000  Unr  HICONFROMCLASS
+ 0000:0000  Unr  XFORMRECTINHIMETRICTOPIXELS
+ 0000:0000  Imp  FINDRESOURCE         (KERNEL.60)
+ 0000:0000  Imp  GETCLASSFILE         (OLE2.57)
+ 0000:0000  Unr  PARSECMDLINE
+ 0000:0000  Imp  LOADBITMAP           (USER.175)
+ 0000:0000  Imp  CREATEIC             (GDI.153)
+ 0000:0000  Imp  CREATEDC             (GDI.53)
+ 0000:0000  Imp  RELEASEDC            (USER.68)
+ 0000:0000  Imp  SETBRUSHORG          (GDI.148)
+ 0000:0000  Imp  REGISTERCLIPBOARDFORMAT (USER.145)
+ 0000:0000  Imp  RELEASESTGMEDIUM     (OLE2.32)
+ 0000:0000  Unr  OLESTDCREATETEMPFILEMONIKER
+ 0000:0000  Unr  OLESTDGETMISCSTATUSOFCLASS
+ 0000:0000  Unr  OLESTDDOTREATASCLASS
+ 0000:0000  Imp  GLOBALFREE           (KERNEL.17)
+ 0000:0000  Imp  REGISTERWINDOWMESSAGE (USER.118)
+ 0000:0000  Imp  GETWINDOWTEXT        (USER.36)
+ 0000:0000  Imp  SETWINDOWORGEX       (GDI.482)
+ 0000:0000  Imp  SETWINDOWTEXT        (USER.37)
+ 0000:0000  Imp  ANSIPREV             (USER.473)
+ 0000:0000  Unr  RESETORIGDC
+ 0000:0000  Imp  DESTROYMENU          (USER.152)
+ 0000:0000  Imp  PROGIDFROMCLSID      (COMPOBJ.62)
+ 0000:0000  Imp  UPDATEWINDOW         (USER.124)
+ 0000:0000  Imp  DODRAGDROP           (OLE2.37)
+ 0000:0000  Imp  MKPARSEDISPLAYNAME   (OLE2.23)
+ 0000:0000  Imp  _IID_IAdviseSink     (OLE2.135)
+ 0000:0000  Unr  OLESTDOPENCHILDSTORAGE
+ 0000:0000  Imp  OLEGETICONOFCLASS    (OLE2.53)
+ 0000:0000  Imp  _IID_IUnknown        (COMPOBJ.38)
+ 0000:0000  Imp  ISWINDOW             (USER.47)
+ 0000:0000  Imp  SETMAPMODE           (GDI.3)
+ 0000:0000  Imp  DIALOGBOXINDIRECTPARAM (USER.240)
+ 0000:0000  Imp  CREATEICON           (USER.407)
+ 0000:0000  Imp  STGOPENSTORAGE       (STORAGE.3)
+ 0000:0000  Imp  _IID_IOleClientSite  (OLE2.144)
+ 0000:0000  Imp  WRITEFMTUSERTYPESTG  (OLE2.75)
+ 0000:0000  Imp  UNREALIZEOBJECT      (GDI.150)
+ 0000:0000  Imp  LOADRESOURCE         (KERNEL.61)
+ 0000:0000  Imp  ISBADCODEPTR         (KERNEL.336)
+ 0000:0000  Imp  GETPARENT            (USER.46)
+ 0000:0000  Imp  FATALEXIT            (KERNEL.1)
+ 0000:0000  Unr  OLESTDCREATEDC
+ 0000:0000  Unr  OLESTDGETPRIORITYCLIPBOARDFORMAT
+ 0000:0000  Unr  OLESTDGETLINKSOURCEDATA
+ 0000:0000  Imp  CREATECOMPATIBLEBITMAP (GDI.51)
+ 0000:0000  Imp  _IID_IDropTarget     (OLE2.154)
+ 0000:0000  Unr  OLESTDCREATEIC
+ 0000:0000  Imp  INSERTMENU           (USER.410)
+ 0000:0000  Imp  ISBADREADPTR         (KERNEL.334)
+ 0000:0000  Imp  DISPATCHMESSAGE      (USER.114)
+ 0000:0000  Imp  OLEDUPLICATEDATA     (OLE2.51)
+ 0000:0000  Imp  PTINRECT             (USER.76)
+ 0000:0000  Imp  DELETEMETAFILE       (GDI.127)
+ 0000:0000  Imp  DRAWFOCUSRECT        (USER.466)
+ 0000:0000  Imp  DESTROYICON          (USER.457)
+ 0000:0000  Imp  POSTQUITMESSAGE      (USER.6)
+ 0000:0000  Imp  DOS3CALL             (KERNEL.102)
+ 0000:0000  Imp  LOCKRESOURCE         (KERNEL.62)
+ 0000:0000  Imp  REVOKEDRAGDROP       (OLE2.36)
+ 0000:0000  Imp  CREATEBINDCTX        (OLE2.26)
+ 0000:0000  Unr  XFORMSIZEINPIXELSTOHIMETRIC
+ 0000:0000  Imp  SETDIBITS            (GDI.440)
+ 0000:0000  Imp  READCLASSSTG         (OLE2.18)
+ 0000:0000  Imp  FREEPROCINSTANCE     (KERNEL.52)
+ 0000:0000  Imp  ISBADWRITEPTR        (KERNEL.335)
+ 0000:0000  Imp  GETSYSTEMMETRICS     (USER.179)
+ 0000:0000  Imp  REGISTERCLASS        (USER.57)
+ 0000:0000  Unr  OLESTDGETLENFILEPREFIXOFMONIKER
+ 0000:0000  Unr  UCLASSFROMDESCRIPTION
+ 0000:0000  Imp  LOADICON             (USER.174)
+ 0000:0000  Imp  ENDPAINT             (USER.40)
+ 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 0000:0000  Unr  OLESTDOPENORCREATEROOTSTORAGE
+ 0000:0000  Unr  OLESTDCOMMITSTORAGE
+ 0000:0000  Unr  OLESTDCREATETARGETDEVICE
+ 0000:0000  Imp  CREATEPALETTE        (GDI.360)
+ 0000:0000  Imp  WVSPRINTF            (USER.421)
+ 0000:0000  Imp  FREERESOURCE         (KERNEL.63)
+ 0000:0000  Imp  CREATEFILEMONIKER    (OLE2.28)
+ 0000:0000  Imp  GETPROP              (USER.25)
+ 0000:0000  Imp  SETPROP              (USER.26)
+ 0000:0000  Imp  STGCREATEDOCFILEONILOCKBYTES (STORAGE.2)
+ 0000:0000  Imp  _IID_IEnumFORMATETC  (OLE2.123)
+ 0000:0000  Unr  OLESTDDELETETARGETDEVICE
+ 0000:0000  Imp  GETDLGITEM           (USER.91)
+ 0000:0000  Imp  SELECTPALETTE        (USER.282)
+ 0000:0000  Unr  OLESTDFILLOBJECTDESCRIPTORFROMDATA
+ 0000:0000  Imp  SETDLGITEMTEXT       (USER.92)
+ 0000:0000  Imp  GETDLGITEMTEXT       (USER.93)
+ 0000:0000  Imp  SENDDLGITEMMESSAGE   (USER.101)
+ 0000:0000  Imp  SETBKCOLOR           (GDI.1)
+ 0000:0000  Imp  GETBKCOLOR           (GDI.75)
+ 0000:0000  Imp  _IID_IViewObject2    (OLE2.158)
+ 0000:0000  Imp  OEMTOANSI            (KEYBOARD.6)
+ 0000:0000  Imp  CREATEHATCHBRUSH     (GDI.58)
+ 0000:0000  Imp  RESTOREDC            (GDI.39)
+ 0000:0000  Imp  EXTTEXTOUT           (GDI.351)
+ 0000:0000  Imp  PLAYMETAFILERECORD   (GDI.176)
+ 0000:0000  Imp  CLSIDFROMPROGID      (COMPOBJ.61)
+ 0000:0000  Imp  SETCURSOR            (USER.69)
+ 0000:0000  Imp  LOADCURSOR           (USER.173)
+ 0000:0000  Unr  OLEUICANUNLOADNOW
+ 0000:0000  Imp  ENDDIALOG            (USER.88)
+ 0000:0000  Imp  BITBLT               (GDI.34)
+ 0000:0000  Unr  OLESTDISDUPLICATEFORMAT
+ 0000:0000  Imp  REMOVEPROP           (USER.24)
+ 0000:0000  Imp  COGETMALLOC          (COMPOBJ.4)
+ 0000:0000  Unr  OLESTDDOCONVERT
+ 0000:0000  Imp  SETTIMER             (USER.10)
+ 0000:0000  Imp  OLESETCLIPBOARD      (OLE2.49)
+ 0000:0000  Imp  LSTRCPYN             (KERNEL.353)
+ 0000:0000  Imp  OLECREATELINKTOFILE  (OLE2.68)
+ 0000:0000  Unr  OLESTDNOTEFILECHANGETIME
+ 0000:0000  Imp  SENDMESSAGE          (USER.111)
+ 0000:0000  Imp  GETSUBMENU           (USER.159)
+ 0000:0000  Imp  OLESAVE              (OLE2.13)
+ 0000:0000  Unr  OLESTDGETTREATASFMTUSERTYPE
+ 0000:0000  Unr  UDESCRIPTIONFROMCLASS
+ 0000:0000  Imp  OLECREATEFROMFILE    (OLE2.67)
+ 0000:0000  Imp  MOVEWINDOW           (USER.56)
+ 0000:0000  Imp  STGCREATEDOCFILE     (STORAGE.1)
+ 0000:0000  Imp  _IID_IOleObject      (OLE2.138)
+ 0000:0000  Imp  REGOPENKEY           (SHELL.1)
+ 0000:0000  Imp  PEEKMESSAGE          (USER.109)
+ 0000:0000  Imp  OLESAVETOSTREAM      (OLE2.24)
+ 0000:0000  Imp  SELECTOBJECT         (GDI.45)
+ 0000:0000  Unr  OLESTDNOTEOBJECTCHANGETIME
+ 0000:0000  Imp  GETWINDOWWORD        (USER.133)
+ 0000:0000  Imp  SETWINDOWWORD        (USER.134)
+ 0000:0000  Imp  GETWINDOWRECT        (USER.32)
+ 0000:0000  Imp  GLOBALUNLOCK         (KERNEL.19)
+ 0000:0000  Imp  OLELOAD              (OLE2.12)
+ 0000:0000  Imp  CREATEFONTINDIRECT   (GDI.57)
+ 0000:0000  Imp  FILLRECT             (USER.81)
+ 0000:0000  Imp  REMOVEMENU           (USER.412)
+ 0000:0000  Imp  _GUID_NULL           (COMPOBJ.37)
+ 0000:0000  Imp  GETRUNNINGOBJECTTABLE (OLE2.30)
+ 0000:0000  Imp  CHECKDLGBUTTON       (USER.97)
+ 0000:0000  Imp  DIALOGBOXPARAM       (USER.239)
+ 0000:0000  Imp  GETCURRENTTIME       (USER.15)
+ 0000:0000  Imp  CREATECOMPATIBLEDC   (GDI.52)
+ 0000:0000  Imp  REALIZEPALETTE       (USER.283)
+ 0000:0000  Imp  OLEMETAFILEPICTFROMICONANDLABEL (OLE2.56)
+ 0000:0000  Imp  DESTROYWINDOW        (USER.53)
+ 0000:0000  Imp  LSTRLEN              (KERNEL.90)
+ 0000:0000  Unr  OLESTDSETUPADVISES
+ 0000:0000  Imp  GETFOCUS             (USER.23)
+ 0000:0000  Imp  SETCONVERTSTG        (OLE2.83)
+ 0000:0000  Unr  XFORMWIDTHINPIXELSTOHIMETRIC
+ 0000:0000  Imp  BRINGWINDOWTOTOP     (USER.45)
+ 0000:0000  Imp  OLECREATE            (OLE2.10)
+ 0000:0000  Imp  DELETEOBJECT         (GDI.69)
+ 0000:0000  Unr  OLESTDCREATEROOTSTORAGE
+ 0000:0000  Imp  OLECREATEFROMDATA    (OLE2.8)
+ 0000:0000  Unr  SETDCTODRAWINHIMETRICRECT
+ 0000:0000  Imp  CREATESOLIDBRUSH     (GDI.66)
+ 0000:0000  Imp  GLOBALLOCK           (KERNEL.18)
+ 0000:0000  Imp  SETWINDOWEXTEX       (GDI.481)
+ 0000:0000  Imp  CLSIDFROMSTRING      (COMPOBJ.20)
+ 0000:0000  Imp  GETDEVICECAPS        (GDI.80)
+ 0000:0000  Imp  OLEBUILDVERSION      (OLE2.1)
+ 0000:0000  Imp  SETFOCUS             (USER.22)
+ 0000:0000  Imp  LOADLIBRARY          (KERNEL.95)
+ 0000:0000  Imp  _IID_IViewObject     (OLE2.133)
+ 0000:0000  Imp  ANSINEXT             (USER.472)
+ 0000:0000  Imp  COFILETIMENOW        (COMPOBJ.82)
+ 0000:0000  Imp  GETCLIENTRECT        (USER.33)
+ 0000:0000  Imp  REGSETVALUE          (SHELL.5)
+ 0000:0000  Imp  SETTEXTCOLOR         (GDI.9)
+ 0000:0000  Imp  MULDIV               (GDI.128)
+ 0000:0000  Unr  FSERVERFROMCLASS
+ 0000:0000  Imp  TRANSLATEMESSAGE     (USER.113)
+ 0000:0000  Imp  INITAPP              (USER.5)
+ 0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
+ 0000:0000  Unr  OLESTDOPENROOTSTORAGE
+ 0000:0000  Unr  OLESTDGETITEMTOKEN
+ 0000:0000  Unr  OLESTDISOLELINK
+ 0000:0000  Unr  OLESTDREVOKEASRUNNING
+ 0000:0000  Imp  GETSTOCKOBJECT       (GDI.87)
+ 0000:0000  Imp  _wsprintf            (USER.420)
+ 0000:0000  Imp  __AHINCR             (KERNEL.114)
+ 0000:0000  Unr  OLEUIUPDATELINKS
+ 0000:0000  Imp  LSTRCMP              (USER.430)
+ 0000:0000  Imp  LSTRCAT              (KERNEL.89)
+ 0000:0000  Unr  _OleUIPromptUser
+ 0000:0000  Imp  ISDBCSLEADBYTE       (KERNEL.207)
+ 0000:0000  Imp  WAITEVENT            (KERNEL.30)
+ 0000:0000  Imp  OPENFILE             (KERNEL.74)
+ 0000:0000  Imp  LSTRCPY              (KERNEL.88)
+ 0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
+ 0000:0000  Unr  OLESTDICONLABELTEXTOUT
+ 0000:0000  Imp  MESSAGEBOX           (USER.1)
+ 0000:0000  Imp  DELETEDC             (GDI.68)
+ 0000:0000  Unr  OLESTDSWITCHDISPLAYASPECT
+ 0000:0000  Imp  ANSITOOEM            (KEYBOARD.5)
+ 0000:0000  Imp  _IID_IPersistStorage (OLE2.130)
+ 0000:0000  Imp  CREATESTREAMONHGLOBAL (OLE2.84)
+ 0000:0000  Imp  GLOBALREALLOC        (KERNEL.16)
+ 0000:0000  Unr  OLESTDGETSIZE
+ 0000:0000  Imp  CODOSDATETIMETOFILETIME (COMPOBJ.31)
+ 0000:0000  Imp  INVALIDATERECT       (USER.125)
+ 0000:0000  Imp  _IID_IOleCache       (OLE2.150)
+ 0000:0000  Imp  SAVEDC               (GDI.30)
+ 0000:0000  Imp  ISDIALOGMESSAGE      (USER.90)
+ 0000:0000  Unr  OLESTDGETAUXUSERTYPE
+ 0000:0000  Imp  SETCAPTURE           (USER.18)
+ 0000:0000  Imp  INITTASK             (KERNEL.91)
+ 0000:0000  Unr  OLESTDCREATECHILDSTORAGE
+ 0000:0000  Imp  FATALAPPEXIT         (KERNEL.137)
+ 0000:0000  Imp  GETVERSION           (KERNEL.3)
+ 0000:0000  Imp  INFLATERECT          (USER.78)
+ 0000:0000  Imp  SETVIEWPORTORGEX     (GDI.480)
+ 0000:0000  Imp  CHECKRADIOBUTTON     (USER.96)
+ 0000:0000  Imp  OLEUNINITIALIZE      (OLE2.3)
+ 0000:0000  Imp  FREELIBRARY          (KERNEL.96)
+ 0000:0000  Imp  _IID_IOleLink        (OLE2.149)
+ 0000:0000  Imp  CREATEILOCKBYTESONHGLOBAL (OLE2.54)
+ 0000:0000  Imp  ISEQUALGUID          (COMPOBJ.18)
+ 0000:0000  Imp  RECTANGLE            (GDI.27)
+ 0000:0000  Imp  CLOSEMETAFILE        (GDI.126)
+ 0000:0000  Imp  OLEGETICONOFFILE     (OLE2.52)
+ 0000:0000  Unr  OLESTDCHECKVTBL
+ 0000:0000  Imp  STRINGFROMCLSID      (COMPOBJ.19)
+ 0000:0000  Imp  READFMTUSERTYPESTG   (OLE2.74)
+ 0000:0000  Imp  OLEFLUSHCLIPBOARD    (OLE2.76)
+ 0000:0000  Unr  OLESTDDESTROYALLELEMENTS
+ 0000:0000  Unr  HICONANDSOURCEFROMCLASS
+ 0000:0000  Imp  GETDIALOGBASEUNITS   (USER.243)
+ 0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
+ 0000:0000  Imp  DELETEMENU           (USER.413)
+ 0000:0000  Unr  OLESTDMKPARSEDISPLAYNAME
+ 0000:0000  Unr  OLESTDSETICONINCACHE
+ 0000:0000  Imp  GETTEXTEXTENTPOINT   (GDI.471)
+ 0000:0000  Imp  OLEQUERYLINKFROMDATA (OLE2.6)
+ 0000:0000  Imp  SHOWWINDOW           (USER.42)
+ 0000:0000  Imp  SETMESSAGEQUEUE      (USER.266)
+ 0000:0000  Imp  SETVIEWPORTEXTEX     (GDI.479)
+ 0000:0000  Imp  GETSYSCOLOR          (USER.180)
+ 0000:0000  Imp  GETOBJECT            (GDI.82)
+ 0000:0000  Imp  GETMENU              (USER.157)
+ 0000:0000  Imp  ENABLEMENUITEM       (USER.155)
+ 0000:0000  Imp  POSTMESSAGE          (USER.110)
+ 0000:0000  Imp  ENUMMETAFILE         (GDI.175)
+ 0000:0000  Imp  LSTRCMPI             (USER.471)
+ 0000:0000  Abs  __wiobused
+ 0000:0000  Imp  _IID_IDropSource     (OLE2.153)
+ 0000:0000  Imp  RELEASECAPTURE       (USER.19)
+ 0000:0000  Imp  PLAYMETAFILE         (GDI.123)
+ 0000:0000  Imp  DEFWINDOWPROC        (USER.107)
+ 0000:0000  Imp  COLOCKOBJECTEXTERNAL (COMPOBJ.63)
+ 0000:0000  Imp  OLEQUERYCREATEFROMDATA (OLE2.7)
+ 0000:0000  Imp  GETPROCADDRESS       (KERNEL.50)
+ 0000:0000  Imp  GETDC                (USER.66)
+ 0000:0000  Imp  COISOLE1CLASS        (COMPOBJ.36)
+ 0000:0000  Imp  _IID_IDataObject     (OLE2.134)
+ 0000:0000  Imp  REGCLOSEKEY          (SHELL.3)
+ 0000:0000  Unr  SETDCTOANISOTROPIC
+ 0000:0000  Imp  REGISTERDRAGDROP     (OLE2.35)
+ 0000:0000  Imp  OLEINITIALIZE        (OLE2.2)
+ 0000:0000  Imp  SCREENTOCLIENT       (USER.29)
+ 0000:0000  Imp  SETWINDOWPOS         (USER.232)
+ 0000:0000  Imp  OLEDRAW              (OLE2.58)
+ 0000:0000  Imp  CREATEBITMAP         (GDI.48)
+ 0000:0000  Imp  GETDOSENVIRONMENT    (KERNEL.131)
+ 0000:0000  Unr  CHOPTEXT
+ 0000:0000  Imp  CREATEWINDOW         (USER.41)
+ 0000:0000  Imp  GLOBALSIZE           (KERNEL.20)
+ 0000:0000  Unr  OLESTDREGISTERASRUNNING
+ 0000:0000  Imp  REGENUMKEY           (SHELL.7)
+ 0000:0000  Imp  DRAWICON             (USER.84)
+ 0000:0000  Imp  BEGINPAINT           (USER.39)
+ 0000:0000  Imp  SETROP2              (GDI.4)
+ 0000:0000  Imp  ISDLGBUTTONCHECKED   (USER.98)
+ 0000:0000  Imp  OLESETCONTAINEDOBJECT (OLE2.86)
+ 0000:0000  Imp  GETPROFILEINT        (KERNEL.57)
+ 0000:0000  Imp  GETBITMAPBITS        (GDI.74)
+ 0000:0000  Imp  GETMODULEFILENAME    (KERNEL.49)
+ 0000:0000  Imp  DIALOGBOX            (USER.87)
+ 0000:0000  Imp  COTREATASCLASS       (COMPOBJ.66)
+ 0000:0000  Imp  MAKEPROCINSTANCE     (KERNEL.51)
+ 0000:0000  Imp  WRITECLASSSTG        (OLE2.19)
+ 0000:0000  Unr  OLESTDINITVTBL
+ 0000:0000  Imp  CREATEPEN            (GDI.61)
+ 0000:0000  Imp  WRITECLASSSTM        (OLE2.21)
+ 0000:0000  Imp  SHOWCURSOR           (USER.71)
+ 0000:0000  Imp  ENABLEWINDOW         (USER.34)
+ 0000:0000  Imp  KILLTIMER            (USER.12)
+ 0000:0000  Imp  REGQUERYVALUE        (SHELL.6)
+ 0000:0000  Imp  CREATEPOPUPMENU      (USER.415)
+ 0000:0000  Unr  XFORMHEIGHTINPIXELSTOHIMETRIC
+ 0000:0000  Unr  OLESTDREALLOC
+ 0000:0000  Imp  LOADSTRING           (USER.176)
+ 0000:0000  Imp  CREATEMETAFILE       (GDI.125)
+ 0000:0001  Abs  __sized
+ 0000:0001  Abs  __sizec
+ 0000:0006  Abs  pLocalHeap
+ 0000:0008  Abs  pAtomTable
+ 0000:000A  Abs  pStackTop
+ 0000:000C  Abs  pStackMin
+ 0000:000E  Abs  pStackBot
+ 0000:9876  Abs  __fptaskdata
+ 0000:9876  Abs  __acrtused
+ 0000:9876  Abs  __acrtmsg
+ 0000:D6D6  Abs  __aDBdoswp
+ 0000:D6D6  Abs  __aDBused
+ 0001:0000       ??0CSimpleApp@@REC@XZ
+ 0001:007B       ??1CSimpleApp@@REC@XZ
+ 0001:00BD       ?DestroyDocs@CSimpleApp@@RECXXZ
+ 0001:00E3       ?QueryInterface@CSimpleApp@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:011E       ?AddRef@CSimpleApp@@VEAKXZ
+ 0001:0153       ?Release@CSimpleApp@@VEAKXZ
+ 0001:01C7       ?fInitApplication@CSimpleApp@@RECHI@Z
+ 0001:02A3       ?fInitInstance@CSimpleApp@@RECHIH@Z
+ 0001:03EC       ?lCommandHandler@CSimpleApp@@RECJIIIJ@Z
+ 0001:058B       ?lSizeHandler@CSimpleApp@@RECJIIIJ@Z
+ 0001:05C7       ?lCreateDoc@CSimpleApp@@RECJIIIJ@Z
+ 0001:0611       ?HandleAccelerators@CSimpleApp@@RECHPEUtagMSG@@@Z
+ 0001:062F       ?PaintApp@CSimpleApp@@RECXI@Z
+ 0001:0668       ?Create@CSimpleDoc@@TAPEV1@PEVCSimpleApp@@PEUtagRECT@@I@Z
+ 0001:0802       ?Close@CSimpleDoc@@RECXXZ
+ 0001:088D       ??0CSimpleDoc@@REC@PEVCSimpleApp@@I@Z
+ 0001:09D1       ??1CSimpleDoc@@REC@XZ
+ 0001:0B08       ?QueryInterface@CSimpleDoc@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:0C24       ?AddRef@CSimpleDoc@@VEAKXZ
+ 0001:0C59       ?Release@CSimpleDoc@@VEAKXZ
+ 0001:0CCD       ?InsertObject@CSimpleDoc@@RECXXZ
+ 0001:0E24       ?lResizeDoc@CSimpleDoc@@RECJPEUtagRECT@@@Z
+ 0001:0E69       ?lAddVerbs@CSimpleDoc@@RECJXZ
+ 0001:0EFF       ?PaintDoc@CSimpleDoc@@RECXI@Z
+ 0001:0F38       ?DisableInsertObject@CSimpleDoc@@RECXXZ
+ 0001:0F9A       ?CopyObjectToClip@CSimpleDoc@@RECXXZ
+ 0001:10CC       ?Create@CDataXferObj@@TAPEV1@PEVCSimpleSite@@PEUtagPOINTL@@@Z
+ 0001:131C       ??0CDataXferObj@@BEC@XZ
+ 0001:13AC       ??1CDataXferObj@@BEC@XZ
+ 0001:143E       ?QueryInterface@CDataXferObj@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:14D7       ?AddRef@CDataXferObj@@VEAKXZ
+ 0001:150C       ?Release@CDataXferObj@@VEAKXZ
+ 0001:1580       ?QueryGetData@CDataXferObj@@VEAPEXPEUtagFORMATETC@@@Z
+ 0001:1690       ?EnumFormatEtc@CDataXferObj@@VEAPEXKPEPEUIEnumFORMATETC@@@Z
+ 0001:1729       ?GetData@CDataXferObj@@VEAPEXPEUtagFORMATETC@@PEUtagSTGMEDIUM@@@Z
+ 0001:1996       ?GetDataHere@CDataXferObj@@VEAPEXPEUtagFORMATETC@@PEUtagSTGMEDIUM@@@Z
+ 0001:1AB0       ?QueryInterface@CAdviseSink@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:1B00       ?AddRef@CAdviseSink@@VEAKXZ
+ 0001:1B4C       ?Release@CAdviseSink@@VEAKXZ
+ 0001:1B98       ?OnDataChange@CAdviseSink@@VEAXPEUtagFORMATETC@@PEUtagSTGMEDIUM@@@Z
+ 0001:1BC1       ?OnViewChange@CAdviseSink@@VEAXKJ@Z
+ 0001:1C85       ?OnRename@CAdviseSink@@VEAXPEUIMoniker@@@Z
+ 0001:1CAE       ?OnSave@CAdviseSink@@VEAXXZ
+ 0001:1CD7       ?OnClose@CAdviseSink@@VEAXXZ
+ 0001:1D00       ?QueryDrag@CSimpleDoc@@RECHUtagPOINT@@@Z
+ 0001:1D5A       ?DoDragDrop@CSimpleDoc@@RECKXZ
+ 0001:1E60       ?QueryInterface@CDropSource@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:1EB0       ?AddRef@CDropSource@@VEAKXZ
+ 0001:1EFC       ?Release@CDropSource@@VEAKXZ
+ 0001:1F48       ?QueryContinueDrag@CDropSource@@VEAPEXHK@Z
+ 0001:1F95       ?GiveFeedback@CDropSource@@VEAPEXK@Z
+ 0001:1FB8       ?QueryDrop@CDropTarget@@BECHKUtagPOINTL@@HPEK@Z
+ 0001:2199       ?DoDragScroll@CDropTarget@@BECHUtagPOINTL@@@Z
+ 0001:24E5       ?InitDragFeedback@CDropTarget@@BECXPEUIDataObject@@UtagPOINTL@@@Z
+ 0001:2640       ?UndrawDragFeedback@CDropTarget@@BECXXZ
+ 0001:26B3       ?DrawDragFeedback@CDropTarget@@BECXUtagPOINTL@@@Z
+ 0001:27B6       ?QueryInterface@CDropTarget@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:2806       ?AddRef@CDropTarget@@VEAKXZ
+ 0001:2852       ?Release@CDropTarget@@VEAKXZ
+ 0001:289E       ?DragEnter@CDropTarget@@VEAPEXPEUIDataObject@@KUtagPOINTL@@PEK@Z
+ 0001:298E       ?DragOver@CDropTarget@@VEAPEXKUtagPOINTL@@PEK@Z
+ 0001:2A2A       ?DragLeave@CDropTarget@@VEAPEXXZ
+ 0001:2A64       ?Drop@CDropTarget@@VEAPEXPEUIDataObject@@KUtagPOINTL@@PEK@Z
+ 0001:2BF8       ?QueryInterface@COleClientSite@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:2C48       ?AddRef@COleClientSite@@VEAKXZ
+ 0001:2C94       ?Release@COleClientSite@@VEAKXZ
+ 0001:2CE0       ?SaveObject@COleClientSite@@VEAPEXXZ
+ 0001:2DB2       ?GetMoniker@COleClientSite@@VEAPEXKKPEPEUIMoniker@@@Z
+ 0001:2DED       ?GetContainer@COleClientSite@@VEAPEXPEPEUIOleContainer@@@Z
+ 0001:2E28       ?ShowObject@COleClientSite@@VEAPEXXZ
+ 0001:2E57       ?OnShowWindow@COleClientSite@@VEAPEXH@Z
+ 0001:2EDF       ?RequestNewObjectLayout@COleClientSite@@VEAPEXXZ
+ 0001:2F0E       _TestDebugOut
+ 0001:2F37       WINMAIN
+ 0001:30D2       ?MainWndProc@@ZCJIIIJ@Z
+ 0001:322C       ?About@@ZCHIIGJ@Z
+ 0001:3293       ?DocWndProc@@ZCJIIIJ@Z
+ 0001:358E       ?Create@CSimpleSite@@TAPEV1@PEVCSimpleDoc@@@Z
+ 0001:36A0       ??0CSimpleSite@@REC@PEVCSimpleDoc@@@Z
+ 0001:3740       ??1CSimpleSite@@REC@XZ
+ 0001:37E8       ?CloseOleObject@CSimpleSite@@RECXXZ
+ 0001:3842       ?UnloadOleObject@CSimpleSite@@RECXXZ
+ 0001:3912       ?QueryInterface@CSimpleSite@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:3A2E       ?AddRef@CSimpleSite@@VEAKXZ
+ 0001:3A63       ?Release@CSimpleSite@@VEAKXZ
+ 0001:3AD7       ?InitObject@CSimpleSite@@RECPEXH@Z
+ 0001:3CC5       ?PaintObj@CSimpleSite@@RECXI@Z
+ 0001:3E6F       ?GetObjRect@CSimpleSite@@RECXPEUtagRECT@@@Z
+ 0001:3EC0       ?StartTest1@@ZAXPEVCSimpleApp@@@Z
+ 0001:402C       ?StartTest2@@ZAXPEVCSimpleApp@@@Z
+ 0001:420C       __wflags
+ 0001:4216       __astart
+ 0001:42CD       __nomain
+ 0001:42D4       __aNchkstk
+ 0001:42F4       __chkstk
+ 0001:42F4       __aFchkstk
+ 0001:432E       ??3@ZAXPEX@Z
+ 0001:4340       ??2@ZAPEXI@Z
+ 0001:4350       _atoi
+ 0001:4354       _strcspn
+ 0001:43B0       _strstr
+ 0001:441C       _strtoul
+ 0001:4428       _strtol
+ 0001:455A       __assert
+ 0001:45A8       __npurecall
+ 0001:45A8       __purecall
+ 0001:45A8       __fpurecall
+ 0001:45AE       __getcwd
+ 0001:45CC       __getdcwd
+ 0001:46F4       __dos_findnext
+ 0001:4706       __dos_findfirst
+ 0001:4780       __aFulmul
+ 0001:4780       __aFlmul
+ 0001:47B2       __fmemcmp
+ 0001:480E       __fmemcpy
+ 0001:486C       __fmemset
+ 0001:48B4       __stubmain
+ 0001:48E0       __cinit
+ 0001:49C3       _exit
+ 0001:49D1       __exit
+ 0001:49E0       __cexit
+ 0001:49F1       __c_exit
+ 0001:4A61       __ctermsub
+ 0001:4A9E       __FF_MSGBANNER
+ 0001:4AC2       __setargv
+ 0001:4C6C       __setenvp
+ 0001:4D26       __cintDIV
+ 0001:4D30       __amsg_exit
+ 0001:4D72       __dosret0
+ 0001:4D7F       __dosreturn
+ 0001:4D91       __dosretax
+ 0001:4DA3       __maperror
+ 0001:4DD0       __GetDGROUP
+ 0001:4DE0       __ffree
+ 0001:4E01       __fmalloc
+ 0001:4EA8       _strcpy
+ 0001:4EE4       _strlen
+ 0001:4EFE       __catox
+ 0001:4F54       _abort
+ 0001:4F76       _sprintf
+ 0001:4FE4       __intdosx
+ 0001:5062       __getdrive
+ 0001:508C       __chdrive
+ 0001:50D6       __wcexit
+ 0001:50D6       __wcinit
+ 0001:50DB       __QWINSetAboutString
+ 0001:50DB       __QWINWrite
+ 0001:50DB       __wread
+ 0001:50DB       __QWINOpen
+ 0001:50DB       __wsetsize
+ 0001:50DB       __QWINExit
+ 0001:50DB       __QWINSetSize
+ 0001:50DB       __QWINGetFocus
+ 0001:50DB       __QWINGetSize
+ 0001:50DB       __QWINTerm
+ 0001:50DB       __QWINSetFocus
+ 0001:50DB       __wmenuclick
+ 0001:50DB       __QWINIsQWINin
+ 0001:50DB       __wclose
+ 0001:50DB       __QWINRead
+ 0001:50DB       __wopen
+ 0001:50DB       __QWINClose
+ 0001:50DB       __wterm
+ 0001:50DB       __wgetscreenbuf
+ 0001:50DB       __wsetscreenbuf
+ 0001:50DB       __wsetfocus
+ 0001:50DB       __wwrite
+ 0001:50DB       __wabout
+ 0001:50DB       __wgetfocus
+ 0001:50DB       __QWINSetBuffSize
+ 0001:50DB       __QWINGetBuffSize
+ 0001:50DB       __QWINYield
+ 0001:50DB       __QWINMenuClick
+ 0001:50DB       __QWINInit
+ 0001:50DB       __wgetsize
+ 0001:50E2       __fptrap
+ 0001:50E8       __NMSG_TEXT
+ 0001:511F       __NMSG_WRITE
+ 0001:515C       __myalloc
+ 0001:518A       ___ExportedStub
+ 0001:519E       __flsbuf
+ 0001:52A8       __output
+ 0001:579E       __searchseg
+ 0001:581A       __growseg
+ 0001:58AB       __incseg
+ 0001:5911       __findlast
+ 0001:5932       __newseg
+ 0001:59B4       __getbuf
+ 0001:5A00       __lseek
+ 0001:5AD4       __write
+ 0001:5C8E       __initseg
+ 0001:5CC2       __linkseg
+ 0001:5CF8       __endstdio
+ 0001:5D0E       __stackavail
+ 0001:5D22       _fflush
+ 0001:5D7E       __flush
+ 0001:5DFE       __flushall
+ 0001:5E7E       __fcloseall
+ 0001:5EBE       _fclose
+ 0001:5FC0       __commit
+ 0001:6030       __freebuf
+ 0001:6068       __close
+ 0001:60A0       _strcat
+ 0001:60F4       __itoa
+ 0001:6110       _remove
+ 0001:6110       __unlink
+ 0001:6136       __dos_commit
+ 0001:615A       __cltoasub
+ 0001:6167       __cxtoa
+ 0001:61C0       ??0IUnknown@@REC@XZ
+ 0001:61EA       ??_GCSimpleApp@@RECPEXI@Z
+ 0001:6228       ??_7IUnknown@@6F@
+ 0001:6234       ??_7CSimpleApp@@6F@
+ 0001:6240       ?DAdvise@CDataXferObj@@VEAPEXPEUtagFORMATETC@@KPEUIAdviseSink@@PEK@Z
+ 0001:6264       ?DUnadvise@CDataXferObj@@VEAPEXK@Z
+ 0001:6288       ?EnumDAdvise@CDataXferObj@@VEAPEXPEPEUIEnumSTATDATA@@@Z
+ 0001:62AC       ?GetCanonicalFormatEtc@CDataXferObj@@VEAPEXPEUtagFORMATETC@@0@Z
+ 0001:62DC       ?SetData@CDataXferObj@@VEAPEXPEUtagFORMATETC@@PEUtagSTGMEDIUM@@H@Z
+ 0001:6300       ??_GCSimpleDoc@@RECPEXI@Z
+ 0001:633E       ??8GUID@@RFCHAFU0@@Z
+ 0001:637C       ??0CDropTarget@@REC@PEVCSimpleDoc@@@Z
+ 0001:641C       ??1CDropTarget@@REC@XZ
+ 0001:6474       ??0CDropSource@@REC@PEVCSimpleDoc@@@Z
+ 0001:64D2       ??1CDropSource@@REC@XZ
+ 0001:6504       ??0IDropTarget@@REC@XZ
+ 0001:653A       ??0IDropSource@@REC@XZ
+ 0001:6570       ??_C@_0O@GKMD@m_nCount?5?$DN?$DN?50?$AA@
+ 0001:657E       ??_C@_0BH@FLKL@In?5IDT?8s?5constructor?$AN?6?$AA@
+ 0001:6596       ??_C@_0BG@NDHK@In?5IDT?8s?5destructor?$AN?6?$AA@
+ 0001:65AC       ??_C@_05NNFA@idt?4h?$AA@
+ 0001:65B2       ??_C@_0BH@JHEO@In?5IDS?8s?5constructor?$AN?6?$AA@
+ 0001:65CA       ??_C@_0BG@DGDH@In?5IDS?8s?5destructor?$AN?6?$AA@
+ 0001:65E0       ??_7IDropTarget@@6F@
+ 0001:65FC       ??_7CSimpleDoc@@6F@
+ 0001:6608       ??_7IDropSource@@6F@
+ 0001:661C       ??_7CDropSource@@6F@
+ 0001:6630       ??_7CDropTarget@@6F@
+ 0001:664C       ??_GCDataXferObj@@BECPEXI@Z
+ 0001:668A       ??0IDataObject@@REC@XZ
+ 0001:66C0       ??_7CDataXferObj@@6F@
+ 0001:66F0       ??_7IDataObject@@6F@
+ 0001:6720       ?Scroll@CSimpleDoc@@RECXK@Z
+ 0001:6736       ??_GCSimpleSite@@RECPEXI@Z
+ 0001:6774       ??0COleClientSite@@REC@PEVCSimpleSite@@@Z
+ 0001:67D2       ??1COleClientSite@@REC@XZ
+ 0001:682A       ??0CAdviseSink@@REC@PEVCSimpleSite@@@Z
+ 0001:6888       ??1CAdviseSink@@REC@XZ
+ 0001:68E0       ??0IOleClientSite@@REC@XZ
+ 0001:6916       ??0IAdviseSink@@REC@XZ
+ 0001:694C       ??_C@_0BI@IJIM@In?5IOCS?8s?5constructor?$AN?6?$AA@
+ 0001:6964       ??_C@_0BH@PEFE@In?5IOCS?8s?5destructor?$AN?6?$AA@
+ 0001:697C       ??_C@_06LNPM@iocs?4h?$AA@
+ 0001:6984       ??_C@_0BH@NFGK@In?5IAS?8s?5constructor?$AN?6?$AA@
+ 0001:699C       ??_C@_0BG@BCJB@In?5IAS?8s?5destructor?$AN?6?$AA@
+ 0001:69B2       ??_C@_05NDCL@ias?4h?$AA@
+ 0001:69B8       ??_7COleClientSite@@6F@
+ 0001:69DC       ??_7IAdviseSink@@6F@
+ 0001:69FC       ??_7IOleClientSite@@6F@
+ 0001:6A20       ??_7CAdviseSink@@6F@
+ 0001:6A40       ??_7CSimpleSite@@6F@
+ 0001:6A4C       OLEUIINSERTOBJECT
+ 0001:6D72       INSERTOBJECTDIALOGPROC
+ 0001:78DC       _FInsertObjectInit
+ 0001:7CDC       _UFillClassList
+ 0001:81AA       _FToggleObjectSource
+ 0001:8438       _UpdateClassType
+ 0001:8496       _UpdateClassIcon
+ 0001:86BC       _SetInsertObjectResults
+ 0001:88DE       _FValidateInsertFile
+ 0001:896C       _InsertObjectCleanup
+ 0001:89B8       ??_C@_0M@LNGB@COMMDLG?4DLL?$AA@
+ 0001:89C4       ??_C@_0N@PNI@GetFileTitle?$AA@
+ 0001:89D2       ??_C@_01PCFE@?2?$AA@
+ 0001:89D4       ??_C@_0CH@JMMM@?$CK?$CK?$CK?5Please?5install?5VC?$CL?$CL?5Patch?5?$CD1@
+ 0001:89FC       ??_C@_0N@IIFK@commdlg_help?$AA@
+ 0001:8A0A       ??_C@_0P@PDBJ@?2NotInsertable?$AA@
+ 0001:8A1A       ??_C@_0CA@PANP@?2protocol?2StdFileEditing?2server?$AA@
+ 0001:8A3A       ??_C@_0M@PKFG@?2Insertable?$AA@
+ 0001:8A46       ??_C@_06JPNA@?2CLSID?$AA@
+ 0001:8A4E       ??_C@_06HFAC@CLSID?2?$AA@
+ 0001:8A56       ??_C@_0N@OIGG@?2LocalServer?$AA@
+ 0001:8A64       ??_C@_0O@JEDJ@?2InProcServer?$AA@
+ 0001:8A72       ??_C@_01POCP@?7?$AA@
+ 0001:8A74       OLESTDENUMFMTETC_CREATE
+ 0001:8BB4       _OleStdEnumFmtEtc_Destroy
+ 0001:8C60       _OleStdEnumFmtEtc_QueryInterface
+ 0001:8CE6       _OleStdEnumFmtEtc_AddRef
+ 0001:8D06       _OleStdEnumFmtEtc_Release
+ 0001:8D44       _OleStdEnumFmtEtc_Next
+ 0001:8E18       _OleStdEnumFmtEtc_Skip
+ 0001:8E8E       _OleStdEnumFmtEtc_Reset
+ 0001:8EA8       _OleStdEnumFmtEtc_Clone
+ 0001:8F1E       OLEUIINITIALIZE
+ 0001:90A2       OLEUIUNINITIALIZE
+ 0001:90BA       OLEUIADDVERBMENU
+ 0001:9684       PROMPTUSERDLGPROC
+ 0001:972A       UPDATELINKSDLGPROC
+ 0001:9AA8       ??_C@_0N@OCMF@VERIFICATION?$AA@
+ 0001:9AB6       ??_C@_0P@LMIA@OLEUI_MSG_HELP?$AA@
+ 0001:9AC6       ??_C@_0BE@FEHN@OLEUI_MSG_ENDDIALOG?$AA@
+ 0001:9ADA       ??_C@_0BB@PGGH@OLEUI_MSG_BROWSE?$AA@
+ 0001:9AEC       ??_C@_0BF@COIE@OLEUI_MSG_CHANGEICON?$AA@
+ 0001:9B02       ??_C@_0BD@HNAP@commdlg_FileNameOK?$AA@
+ 0001:9B16       ??_C@_0BK@LOCD@OLEUI_MSG_CLOSEBUSYDIALOG?$AA@
+ 0001:9B30       ??_C@_0BC@GMEI@Object?5Descriptor?$AA@
+ 0001:9B42       ??_C@_0BH@FOOO@Link?5Source?5Descriptor?$AA@
+ 0001:9B5A       ??_C@_0N@LHIH@Embed?5Source?$AA@
+ 0001:9B68       ??_C@_0BA@IEJA@Embedded?5Object?$AA@
+ 0001:9B78       ??_C@_0M@KPGD@Link?5Source?$AA@
+ 0001:9B84       ??_C@_09NJ@OwnerLink?$AA@
+ 0001:9B8E       ??_C@_08NJLM@FileName?$AA@
+ 0001:9B98       ??_C@_0M@MBIN@ole2uiRICls?$AA@
+ 0001:9BA4       ??_C@_0M@GHPL@ole2uiIBCls?$AA@
+ 0001:9BB0       ??_C@_0CG@HCKA@resource?5read?50x?$CFX?0?5my?5value?5is?5@
+ 0001:9BD6       ??_C@_00A@?$AA@
+ 0001:9BD8       ??_C@_03NAME@?4?4?4?$AA@
+ 0001:9BDC       ??_C@_09DKHB@Structure?$AA@
+ 0001:9BE6       ??_C@_04FOAE@?$CFd?$CF?$CF?$AA@
+ 0001:9BEC       OLESTDQUERYINTERFACE
+ 0001:9C2A       OLESTDGETDATA
+ 0001:9D26       OLESTDMALLOC
+ 0001:9D84       OLESTDFREE
+ 0001:9DDA       OLESTDFREESTRING
+ 0001:9E30       OLESTDCOPYSTRING
+ 0001:9EBA       OLESTDCREATESTORAGEONHGLOBAL
+ 0001:9F52       OLESTDCREATETEMPSTORAGE
+ 0001:9FB0       OLESTDGETOLEOBJECTDATA
+ 0001:A0BA       OLESTDGETOBJECTDESCRIPTORDATA
+ 0001:A240       OLESTDGETOBJECTDESCRIPTORDATAFROMOLEOBJECT
+ 0001:A5BC       OLESTDGETMETAFILEPICTFROMOLEOBJECT
+ 0001:A730       OLESTDVERIFYRELEASE
+ 0001:A754       OLESTDRELEASE
+ 0001:A778       _OleStdNullMethod
+ 0001:A7FC       OLESTDGETFIRSTMONIKER
+ 0001:A8B2       OLESTDMARKPASTEENTRYLIST
+ 0001:AA5C       ??_C@_0DJ@NHNH@OleStdSwitchDisplayAspect?3?5Cache@
+ 0001:AA96       ??_C@_05FGFK@CLSID?$AA@
+ 0001:AA9C       ??_C@_09JJAI@Linked?5?$CFs?$AA@
+ 0001:AAA6       ??_C@_07CPIP@Package?$AA@
+ 0001:AAAE       ??_C@_0CL@HONB@ERROR?3?5INTERFACE?5METHOD?5NOT?5IMPL@
+ 0001:AADA       ??_C@_04MOFI@?$CFs?$CFd?$AA@
+ 0001:AAE0       ??_C@_0DC@GEMK@OleStdCreateTempFileMoniker?3?5Mon@
+ 0001:AB12       ??_C@_06KAHL@?$EA?$CFs?$CB?$CFs?$AA@
+ 0001:AB1A       XFORMWIDTHINHIMETRICTOPIXELS
+ 0001:AB66       XFORMHEIGHTINHIMETRICTOPIXELS
+ 0001:ABB2       XFORMRECTINPIXELSTOHIMETRIC
+ 0001:AC62       XFORMSIZEINHIMETRICTOPIXELS
+ 0001:AD38       ??_C@_09LHIP@Embedding?$AA@
+ 0001:AD42       USTANDARDVALIDATION
+ 0001:AEA2       USTANDARDINVOCATION
+ 0001:AF30       LPVSTANDARDINIT
+ 0001:AFEE       LPVSTANDARDENTRY
+ 0001:B066       USTANDARDHOOK
+ 0001:B0AA       STANDARDCLEANUP
+ 0001:B0FA       STANDARDSHOWDLGITEM
+ 0001:B150       ??_C@_04CLJC@Font?$AA@
+ 0001:B156       OLEUIMETAFILEPICTICONFREE
+ 0001:B19E       OLEUIMETAFILEPICTICONDRAW
+ 0001:B2B2       ENUMMETAFILEICONDRAW
+ 0001:B32E       OLEUIMETAFILEPICTEXTRACTLABEL
+ 0001:B3E6       ENUMMETAFILEEXTRACTLABEL
+ 0001:B4C4       OLEUIMETAFILEPICTEXTRACTICON
+ 0001:B528       ENUMMETAFILEEXTRACTICON
+ 0001:B754       OLEUIMETAFILEPICTEXTRACTICONSOURCE
+ 0001:B7F8       ENUMMETAFILEEXTRACTICONSOURCE
+ 0001:B8FE       OLEUICHANGEICON
+ 0001:B9A0       CHANGEICONDIALOGPROC
+ 0001:BFE0       _FChangeIconInit
+ 0001:C400       _UFillIconList
+ 0001:C55E       _FDrawListIcon
+ 0001:C626       _UpdateResultIcon
+ 0001:C70A       ??_C@_0L@CPGB@HWND_CIDLG?$AA@
+ 0001:C716       _FIconBoxInitialize
+ 0001:C78C       _IconBoxUninitialize
+ 0001:C78E       ICONBOXWNDPROC
+ 0001:C918       OLESTDCOPYTARGETDEVICE
+ 0001:C96A       OLESTDCOPYFORMATETC
+ 0001:CA08       OLESTDCOMPAREFORMATETC
+ 0001:CAD6       OLESTDCOMPARETARGETDEVICE
+ 0001:CB40       ??_C@_07LGIJ@DISPLAY?$AA@
+ 0001:CC6A       OLESTDGETUSERTYPEOFCLASS
+ 0001:CDEE       OLESTDGETDEFAULTFILEFORMATOFCLASS
+ 0001:CECC       ??_C@_08BJKM@CLSID?2?$CFs?$AA@
+ 0001:CED6       ??_C@_0BA@LJEI@?2AuxUserType?2?$CFd?$AA@
+ 0001:CEE6       ??_C@_0M@BODG@?2MiscStatus?$AA@
+ 0001:CEF2       ??_C@_0CB@FCAE@CLSID?2?$CFs?2DataFormats?2DefaultFile@
+ 0001:CF14       _FResultImageInitialize
+ 0001:D004       _ResultImageUninitialize
+ 0001:D016       RESULTIMAGEWNDPROC
+ 0001:D186       _TransparentBlt
+ 0001:D310       HOURGLASSON
+ 0001:D330       HOURGLASSOFF
+ 0001:D346       BROWSE
+ 0001:D4B4       REPLACECHARWITHNULL
+ 0001:D4EA       ERRORWITHFILE
+ 0001:D5E6       OPENFILEERROR
+ 0001:D994       DOESFILEEXIST
+ 0001:DA04       ??_C@_0BA@JEHM@GetOpenFileName?$AA@
+ 0001:DA14       ??_C@_0BF@GCFH@CommDlgExtendedError?$AA@
+ 0001:DA2A       ??_C@_0M@JEJD@LocalServer?$AA@
+ 0001:DA36       ??_C@_0L@KCEB@?$CFc?$CFc?$CFc?4?4?4?2?$AA@
+ 0001:DA42       ??_C@_04IEDM@LPT1?$AA@
+ 0001:DA48       ??_C@_04HLIF@LPT2?$AA@
+ 0001:DA4E       ??_C@_04NBBC@LPT3?$AA@
+ 0001:DA54       ??_C@_04JCPL@COM1?$AA@
+ 0001:DA5A       ??_C@_04GNEC@COM2?$AA@
+ 0001:DA60       ??_C@_04MHNF@COM3?$AA@
+ 0001:DA66       ??_C@_04JCDA@COM4?$AA@
+ 0001:DA6C       ??_C@_03DDP@CON?$AA@
+ 0001:DA70       ??_C@_03DLI@AUX?$AA@
+ 0001:DA74       ??_C@_03EHJD@PRN?$AA@
+ 0001:DA78       GETASSOCIATEDEXECUTABLE
+ 0001:DB7C       POINTERTONTHFIELD
+ 0001:DBBA       FICONFILEFROMCLASS
+ 0001:DECC       ??_C@_0BE@GGIG@?2Shell?2Open?2Command?$AA@
+ 0001:DEE0       ??_C@_0BP@CLAL@Protocol?2StdFileEditing?2Server?$AA@
+ 0001:DF00       ??_C@_0M@JONA@DefaultIcon?$AA@
+ 0003:0004       rsrvptrs
+ 0003:06CC       ?fBeVerbose@@3HE
+ 0003:0844       _g_dwObjectCount
+ 0003:0848       _g_dwLockCount
+ 0003:084C       _uMsgHelp
+ 0003:084E       _uMsgEndDialog
+ 0003:0850       _uMsgBrowse
+ 0003:0852       _uMsgChangeIcon
+ 0003:0854       _uMsgFileOKString
+ 0003:0856       _uMsgCloseBusyDlg
+ 0003:08B4       _STKHQQ
+ 0003:08B6       __hPrevInstance
+ 0003:08B8       __hInstance
+ 0003:08BA       __lpszCmdLine
+ 0003:08BE       __cmdShow
+ 0003:08C0       _aseglo
+ 0003:08C2       _aseghi
+ 0003:08C4       ___aDBswpflg
+ 0003:08C6       ___aDBrterr
+ 0003:08C8       __aaltstkovr
+ 0003:08CC       __ctype
+ 0003:08CC       __ctype_
+ 0003:0A00       __acfinfo
+ 0003:0A0E       __aintdiv
+ 0003:0A12       __fac
+ 0003:0A1C       _errno
+ 0003:0A1E       __umaskval
+ 0003:0A20       __pspadr
+ 0003:0A22       __psp
+ 0003:0A24       __winminor
+ 0003:0A24       __winver
+ 0003:0A25       __winmajor
+ 0003:0A26       __osminor
+ 0003:0A26       __osver
+ 0003:0A27       __osmajor
+ 0003:0A28       __osversion
+ 0003:0A2A       __osmode
+ 0003:0A2B       __cpumode
+ 0003:0A2C       __oserr
+ 0003:0A2C       __doserrno
+ 0003:0A2E       __nfile
+ 0003:0A30       __wfile
+ 0003:0A32       __wnfile
+ 0003:0A34       __osfile
+ 0003:0A48       __wsfile
+ 0003:0A5C       ___argc
+ 0003:0A5E       ___argv
+ 0003:0A62       __environ
+ 0003:0A66       __pgmptr
+ 0003:0A6B       __child
+ 0003:0A6D       __exitflag
+ 0003:0A6E       __adbgmsg
+ 0003:0A8A       __pnhFarHeap
+ 0003:0A8E       __qwinused
+ 0003:0AF2       __fheap
+ 0003:0B00       __amblksiz
+ 0003:0B02       __lastiob
+ 0003:0B04       __cfltcvt_tab
+ 0003:0B20       __sigintseg
+ 0003:0B22       __sigintoff
+ 0003:0B24       __asizeC
+ 0003:0B25       __asizeD
+ 0003:0B26       __cflush
+ 0003:0B28       __lseekchk
+ 0003:0B34       __fpinit
+ 0003:0B44       __iob
+ 0003:0C34       __iob2
+ 0003:0ED0       _edata
+ 0003:0ED0       ?g_cfEmbeddedObject@@3GE
+ 0003:0ED0       __edata
+ 0003:0ED2       ?g_cfObjectDescriptor@@3GE
+ 0003:0ED4       ?lpCSimpleApp@@3PEVCSimpleApp@@E
+ 0003:1A50       _cfEmbedSource
+ 0003:1A52       _cfEmbeddedObject
+ 0003:1A54       _ghInst
+ 0003:1A56       _cfOwnerLink
+ 0003:1A58       _cfLinkSrcDescriptor
+ 0003:1A5A       _cfFileName
+ 0003:1A5C       _cfLinkSource
+ 0003:1A5E       _cfObjectDescriptor
+ 0003:1A60       __end
+ 0003:1A60       _end
+
+Line numbers for objd\APP.obj(app.cpp) segment SEG_CODE_TEXT
+
+    47 0001:0000    48 0001:0026    51 0001:0032    54 0001:003b
+    55 0001:0044    56 0001:004d    57 0001:0056    60 0001:0063
+    61 0001:006c    90 0001:007b    91 0001:0096    94 0001:00a2
+    95 0001:00af    96 0001:00b4   124 0001:00bd   125 0001:00ca
+   126 0001:00da   160 0001:00e3   161 0001:00f5   163 0001:0101
+   166 0001:010d   167 0001:0116   200 0001:011e   201 0001:0130
+   202 0001:013c   203 0001:014b   231 0001:0153   232 0001:0165
+   234 0001:0171   235 0001:0182   236 0001:01ab   238 0001:01b4
+   239 0001:01bf   271 0001:01c7   277 0001:01d4   278 0001:01d9
+   280 0001:01e3   281 0001:01e8   282 0001:01ed   283 0001:01f3
+   284 0001:0202   285 0001:0211   286 0001:021b   287 0001:0223
+   289 0001:022b   290 0001:023d   292 0001:0243   293 0001:0248
+   295 0001:0252   296 0001:0257   297 0001:025c   298 0001:0262
+   299 0001:0267   300 0001:0276   301 0001:0280   302 0001:0288
+   306 0001:0290   307 0001:029d   346 0001:02a3   347 0001:02b0
+   348 0001:02bb   369 0001:02c3   370 0001:02d5   382 0001:02de
+   395 0001:02e8   397 0001:0318   398 0001:0325   402 0001:032b
+   404 0001:0338   412 0001:0352   419 0001:0369   426 0001:037f
+   433 0001:0395   440 0001:03ab   442 0001:03c1   443 0001:03d0
+   445 0001:03dc   446 0001:03e6   488 0001:03ec   492 0001:03f9
+   495 0001:0403   500 0001:041c   502 0001:047d   504 0001:0480
+   508 0001:0486   513 0001:049e   515 0001:04bb   516 0001:04c6
+   521 0001:04c9   522 0001:04d9   526 0001:04dc   527 0001:04ec
+   531 0001:04ef   532 0001:0501   535 0001:0504   536 0001:0514
+   537 0001:0521   538 0001:0537   541 0001:053a   542 0001:0551
+   544 0001:057c   545 0001:0585   580 0001:058b   583 0001:0598
+   584 0001:05a9   585 0001:05c1   620 0001:05c7   623 0001:05d4
+   625 0001:05e1   627 0001:0602   628 0001:060b   655 0001:0611
+   656 0001:061e   660 0001:0623   661 0001:0629   693 0001:062f
+   707 0001:063c   708 0001:064c   710 0001:065f
+
+Line numbers for objd\DOC.obj(doc.cpp) segment SEG_CODE_TEXT
+
+    60 0001:0668    61 0001:0675    63 0001:06af    64 0001:06ba
+    70 0001:06c3    72 0001:06e5    73 0001:06f0    87 0001:06f6
+    89 0001:073a    90 0001:0747    92 0001:074d    93 0001:075b
+    96 0001:0767    98 0001:0778   105 0001:0789   108 0001:079d
+   109 0001:07b4   111 0001:07bd   114 0001:07c6   115 0001:07ef
+   117 0001:07f8   149 0001:0802   150 0001:080f   152 0001:081b
+   157 0001:0829   160 0001:082e   161 0001:083b   162 0001:0847
+   166 0001:0850   167 0001:0860   171 0001:0870   172 0001:0884
+   212 0001:088d   213 0001:08df   214 0001:08eb   215 0001:08fc
+   216 0001:0909   218 0001:0912   219 0001:0921   220 0001:0936
+   221 0001:094b   222 0001:0960   223 0001:0969   226 0001:0972
+   227 0001:097b   228 0001:0984   229 0001:098d   230 0001:0996
+   231 0001:099f   232 0001:09a8   233 0001:09b1   234 0001:09c2
+   264 0001:09d1   265 0001:09ec   270 0001:09f8   271 0001:0a08
+   272 0001:0a18   273 0001:0a34   277 0001:0a41   278 0001:0a51
+   279 0001:0a6d   284 0001:0a7a   286 0001:0a87   287 0001:0a9a
+   288 0001:0ab2   289 0001:0ac3   292 0001:0ad3   293 0001:0adf
+   325 0001:0b08   326 0001:0b1a   328 0001:0b26   331 0001:0b32
+   333 0001:0b4b   334 0001:0b5e   335 0001:0b6e   339 0001:0b77
+   341 0001:0b90   342 0001:0ba9   343 0001:0bbc   347 0001:0bc5
+   349 0001:0bde   350 0001:0bf7   351 0001:0c0a   355 0001:0c13
+   356 0001:0c1c   385 0001:0c24   386 0001:0c36   387 0001:0c42
+   388 0001:0c51   416 0001:0c59   417 0001:0c6b   419 0001:0c77
+   420 0001:0c88   421 0001:0cb1   423 0001:0cba   424 0001:0cc5
+   461 0001:0ccd   466 0001:0cda   469 0001:0cf3   472 0001:0d00
+   475 0001:0d0a   476 0001:0d14   477 0001:0d1e   478 0001:0d26
+   479 0001:0d3a   480 0001:0d44   481 0001:0d58   482 0001:0d6d
+   483 0001:0d81   484 0001:0d8b   485 0001:0d90   488 0001:0d9b
+   490 0001:0da8   492 0001:0db1   494 0001:0dc8   496 0001:0dd3
+   498 0001:0dd6   499 0001:0df2   500 0001:0dff   503 0001:0e1b
+   532 0001:0e24   536 0001:0e31   538 0001:0e5a   539 0001:0e63
+   568 0001:0e69   573 0001:0e76   575 0001:0e93   585 0001:0ea6
+   587 0001:0ee7   589 0001:0ef0   590 0001:0ef9   618 0001:0eff
+   622 0001:0f0c   623 0001:0f1c   625 0001:0f2f   660 0001:0f38
+   662 0001:0f45   664 0001:0f5a   667 0001:0f6f   668 0001:0f7c
+   669 0001:0f88   671 0001:0f91   705 0001:0f9a   709 0001:0fa7
+   710 0001:0fc4   711 0001:0fcf   712 0001:0fe1   715 0001:0fe4
+   718 0001:1001   721 0001:100c   722 0001:101f
+
+Line numbers for objd\DOC.obj(doc.cpp) segment COMDAT_SEG1
+
+    38 0001:637c    39 0001:63a2    40 0001:63b0    41 0001:63c1
+    42 0001:63ca    43 0001:63d3    44 0001:63dc    45 0001:63e5
+    46 0001:63f2    47 0001:63ff    48 0001:640c    50 0001:641c
+    51 0001:6437    52 0001:6445    53 0001:646b    20 0001:6474
+    21 0001:649a    22 0001:64a8    23 0001:64b9    24 0001:64c2
+    26 0001:64d2    27 0001:64ed    28 0001:64fb
+
+Line numbers for objd\DXFEROBJ.obj(dxferobj.cpp) segment SEG_CODE_TEXT
+
+    20 0001:1028    21 0001:103a    26 0001:1046    65 0001:10cc
+    66 0001:10d9    68 0001:110a    69 0001:1115    77 0001:111e
+    79 0001:1141    81 0001:1161    83 0001:116c    84 0001:1195
+    88 0001:119e    93 0001:11ae    94 0001:11d4    95 0001:11f4
+    98 0001:120c    99 0001:1223   100 0001:1236   102 0001:1239
+   106 0001:126c   107 0001:1291   109 0001:12b6   110 0001:12cf
+   111 0001:12da   112 0001:12f0   113 0001:12f3   114 0001:130f
+   115 0001:1318   141 0001:131c   143 0001:1342   145 0001:134b
+   146 0001:1358   147 0001:1365   148 0001:1381   149 0001:139d
+   179 0001:13ac   180 0001:13c7   182 0001:13d3   184 0001:13e3
+   185 0001:13ff   188 0001:140c   189 0001:1428   191 0001:1435
+   230 0001:143e   231 0001:1450   233 0001:145c   235 0001:148e
+   236 0001:14a1   237 0001:14b1   241 0001:14ba   242 0001:14c6
+   243 0001:14cf   271 0001:14d7   272 0001:14e9   274 0001:14f5
+   275 0001:1504   303 0001:150c   304 0001:151e   306 0001:152a
+   307 0001:153b   308 0001:1564   310 0001:156d   311 0001:1578
+   360 0001:1580   361 0001:1592   363 0001:159c   369 0001:15a8
+   370 0001:15e4   372 0001:15ec   374 0001:15ef   375 0001:162b
+   377 0001:1633   379 0001:1636   380 0001:1670   382 0001:1678
+   383 0001:1688   390 0001:1690   391 0001:16a2   393 0001:16ac
+   394 0001:16b8   396 0001:16c4   399 0001:16d6   400 0001:16ed
+   401 0001:16fc   402 0001:1706   403 0001:1709   405 0001:1711
+   406 0001:1721   448 0001:1729   449 0001:173b   451 0001:1745
+   454 0001:1751   455 0001:175d   456 0001:176a   461 0001:1773
+   468 0001:17af   469 0001:17d5   475 0001:17f6   476 0001:1815
+   477 0001:1828   479 0001:183b   481 0001:183e   490 0001:187a
+   491 0001:18b7   492 0001:18c4   493 0001:18ce   494 0001:18d1
+   495 0001:18df   498 0001:18e7   500 0001:18ea   504 0001:1924
+   505 0001:194e   506 0001:195b   507 0001:1965   508 0001:1968
+   509 0001:1976   513 0001:197e   514 0001:198e   548 0001:1996
+   549 0001:19a8   551 0001:19b2   559 0001:19be   566 0001:19fa
+   567 0001:1a20   569 0001:1a41   570 0001:1a60   571 0001:1a73
+   573 0001:1a86   574 0001:1a96   575 0001:1a9e
+
+Line numbers for objd\DXFEROBJ.obj(dxferobj.cpp) segment COMDAT_SEG1
+
+   513 0001:633e
+
+Line numbers for objd\IAS.obj(ias.cpp) segment SEG_CODE_TEXT
+
+    53 0001:1ab0    54 0001:1ac2    57 0001:1ace    58 0001:1af8
+    91 0001:1b00    92 0001:1b12    95 0001:1b1e    98 0001:1b25
+    99 0001:1b44   132 0001:1b4c   133 0001:1b5e   136 0001:1b6a
+   139 0001:1b71   140 0001:1b90   170 0001:1b98   171 0001:1baa
+   172 0001:1bb6   204 0001:1bc1   206 0001:1bd3   210 0001:1bdf
+   212 0001:1c13   215 0001:1c1e   216 0001:1c4d   219 0001:1c60
+   220 0001:1c7a   250 0001:1c85   251 0001:1c97   252 0001:1ca3
+   282 0001:1cae   283 0001:1cc0   284 0001:1ccc   314 0001:1cd7
+   315 0001:1ce9   316 0001:1cf5
+
+Line numbers for objd\IDS.obj(ids.cpp) segment SEG_CODE_TEXT
+
+    48 0001:1d00    50 0001:1d0d    53 0001:1d1d    54 0001:1d32
+    56 0001:1d4b    57 0001:1d4e    58 0001:1d54    97 0001:1d5a
+    98 0001:1d67   101 0001:1d6f   104 0001:1d7b   106 0001:1d98
+   107 0001:1da3   108 0001:1db5   112 0001:1dbe   113 0001:1ddb
+   115 0001:1dfb   116 0001:1e04   122 0001:1e0d   124 0001:1e2c
+   130 0001:1e35   134 0001:1e3e   135 0001:1e51   136 0001:1e5a
+   169 0001:1e60   170 0001:1e72   173 0001:1e7e   174 0001:1ea8
+   208 0001:1eb0   209 0001:1ec2   212 0001:1ece   215 0001:1ed5
+   216 0001:1ef4   249 0001:1efc   250 0001:1f0e   253 0001:1f1a
+   256 0001:1f21   257 0001:1f40   292 0001:1f48   293 0001:1f5a
+   294 0001:1f63   295 0001:1f6c   296 0001:1f78   297 0001:1f81
+   298 0001:1f84   299 0001:1f8d   328 0001:1f95   329 0001:1fa7
+   330 0001:1fb0
+
+Line numbers for objd\IDT.obj(idt.cpp) segment SEG_CODE_TEXT
+
+    61 0001:1fb8    62 0001:1fc5    63 0001:1fcd    68 0001:1fdd
+    69 0001:1fe6    74 0001:1ff0    75 0001:200a    86 0001:2010
+    87 0001:204a    89 0001:2059    90 0001:206f    91 0001:207d
+    92 0001:2096    93 0001:20a4    94 0001:20bd    95 0001:20cb
+    96 0001:20ce    97 0001:20d4   101 0001:20d7   102 0001:20ee
+   105 0001:20f4   106 0001:212d   108 0001:2133   109 0001:2156
+   112 0001:215c   113 0001:216c   117 0001:2172   118 0001:217e
+   119 0001:2184   153 0001:2199   154 0001:21a6   155 0001:21ae
+   156 0001:21b9   157 0001:21cb   158 0001:21dd   162 0001:21ef
+   163 0001:21f5   165 0001:21fb   166 0001:2210   168 0001:2225
+   169 0001:223e   170 0001:2248   171 0001:2264   172 0001:226e
+   173 0001:228a   174 0001:2294   175 0001:22b0   177 0001:22ba
+   181 0001:22ca   185 0001:22d5   186 0001:22e2   187 0001:22ef
+   189 0001:22fc   193 0001:231a   194 0001:232b   195 0001:2340
+   197 0001:2351   198 0001:237f   199 0001:2395   201 0001:23aa
+   202 0001:23ad   206 0001:23b8   207 0001:23c9   208 0001:23de
+   212 0001:23ef   213 0001:2406   231 0001:240c   233 0001:2419
+   237 0001:2426   238 0001:242f   239 0001:2439   240 0001:2443
+   242 0001:244d   243 0001:245a   245 0001:2467   247 0001:247a
+   249 0001:2498   251 0001:24ac   253 0001:24b7   254 0001:24c5
+   256 0001:24d3   258 0001:24db   259 0001:24e1   303 0001:24e5
+   310 0001:24f2   311 0001:24fb   312 0001:2501   317 0001:2507
+   318 0001:250d   319 0001:2515   320 0001:251f   321 0001:2529
+   323 0001:2533   324 0001:2556   325 0001:2561   326 0001:256f
+   327 0001:257a   329 0001:2597   330 0001:25a1   331 0001:25ab
+   334 0001:25c1   335 0001:25c9   338 0001:25d3   339 0001:25e4
+   341 0001:25ed   342 0001:2603   344 0001:2617   345 0001:2623
+   346 0001:2637   385 0001:2640   386 0001:264d   387 0001:265a
+   388 0001:2663   389 0001:2676   390 0001:2697   392 0001:26aa
+   426 0001:26b3   429 0001:26c0   430 0001:26cd   432 0001:26da
+   433 0001:26f9   435 0001:26fc   436 0001:270f   437 0001:271c
+   438 0001:2725   441 0001:2746   442 0001:275c   443 0001:277d
+   444 0001:2786   445 0001:2790   446 0001:279a   447 0001:27ad
+   479 0001:27b6   480 0001:27c8   483 0001:27d4   484 0001:27fe
+   518 0001:2806   519 0001:2818   522 0001:2824   525 0001:282b
+   526 0001:284a   559 0001:2852   560 0001:2864   563 0001:2870
+   566 0001:2877   567 0001:2896   612 0001:289e   613 0001:28b0
+   619 0001:28bc   620 0001:28de   622 0001:28e7   623 0001:2901
+   625 0001:291e   627 0001:2938   628 0001:2966   630 0001:297d
+   631 0001:2986   676 0001:298e   677 0001:29a0   679 0001:29ac
+   681 0001:29c6   682 0001:29f4   683 0001:2a0b   684 0001:2a0e
+   686 0001:2a19   687 0001:2a22   718 0001:2a2a   719 0001:2a3c
+   721 0001:2a48   723 0001:2a53   724 0001:2a5c   773 0001:2a64
+   775 0001:2a76   777 0001:2a7e   779 0001:2a8a   781 0001:2a95
+   783 0001:2acd   785 0001:2aef   789 0001:2b0d   790 0001:2b12
+   791 0001:2b1a   792 0001:2b24   793 0001:2b35   802 0001:2b3d
+   804 0001:2b98   806 0001:2ba3   807 0001:2bb9   809 0001:2bc9
+   810 0001:2bcc   813 0001:2bdf   814 0001:2bef
+
+Line numbers for objd\IDT.obj(idt.cpp) segment COMDAT_SEG1
+
+    67 0001:6720
+
+Line numbers for objd\IOCS.obj(iocs.cpp) segment SEG_CODE_TEXT
+
+    53 0001:2bf8    54 0001:2c0a    57 0001:2c16    58 0001:2c40
+    86 0001:2c48    87 0001:2c5a    90 0001:2c66    93 0001:2c6d
+    94 0001:2c8c   123 0001:2c94   124 0001:2ca6   127 0001:2cb2
+   130 0001:2cb9   131 0001:2cd8   165 0001:2ce0   167 0001:2cf2
+   169 0001:2cfc   172 0001:2d08   175 0001:2d3c   177 0001:2d47
+   178 0001:2d70   179 0001:2d87   182 0001:2d9a   183 0001:2daa
+   212 0001:2db2   213 0001:2dc4   216 0001:2dd0   218 0001:2ddc
+   219 0001:2de5   249 0001:2ded   250 0001:2dff   253 0001:2e0b
+   255 0001:2e17   256 0001:2e20   287 0001:2e28   288 0001:2e3a
+   289 0001:2e46   290 0001:2e4f   321 0001:2e57   322 0001:2e69
+   323 0001:2e75   324 0001:2e83   327 0001:2e9d   328 0001:2ea6
+   329 0001:2eba   331 0001:2ece   332 0001:2ed7   362 0001:2edf
+   363 0001:2ef1   364 0001:2efd   365 0001:2f06
+
+Line numbers for objd\SIMPDND.obj(simpdnd.cpp) segment SEG_CODE_TEXT
+
+    35 0001:2f0e    36 0001:2f1b    38 0001:2f25    40 0001:2f30
+    84 0001:2f37    87 0001:2f44    89 0001:2f56    91 0001:2f60
+    95 0001:2f72    97 0001:2f79   102 0001:2fab   106 0001:2fc1
+   109 0001:2fe0   115 0001:3001   116 0001:300a   117 0001:3022
+   120 0001:3028   121 0001:3043   128 0001:3049   131 0001:305c
+   135 0001:3062   136 0001:307a   138 0001:3094   139 0001:309e
+   145 0001:30a8   149 0001:30b0   151 0001:30c6   152 0001:30cc
+   194 0001:30d2   196 0001:30e4   199 0001:30ea   200 0001:30fa
+   202 0001:30fd   203 0001:310d   205 0001:3110   206 0001:311d
+   210 0001:3120   211 0001:313f   214 0001:3142   215 0001:3161
+   218 0001:3164   219 0001:3171   220 0001:3178   224 0001:317b
+   225 0001:3184   227 0001:3198   230 0001:319b   233 0001:31ba
+   234 0001:31d1   235 0001:3219   236 0001:3222   270 0001:322c
+   271 0001:323e   273 0001:3244   277 0001:324a   278 0001:325c
+   279 0001:3266   281 0001:326c   282 0001:326f   283 0001:3283
+   284 0001:3289   328 0001:3293   332 0001:32a5   335 0001:32ab
+   337 0001:32bb   338 0001:32c7   340 0001:32d7   341 0001:32e4
+   347 0001:32e7   348 0001:32ed   351 0001:32f3   355 0001:3321
+   357 0001:333b   363 0001:3353   367 0001:33ab   373 0001:33ae
+   374 0001:33b4   387 0001:33ba   389 0001:33d9   390 0001:33e7
+   391 0001:33fd   392 0001:3413   394 0001:341b   399 0001:341e
+   404 0001:3430   405 0001:3435   406 0001:343f   408 0001:344d
+   412 0001:3450   414 0001:3462   415 0001:3468   416 0001:346e
+   417 0001:3484   422 0001:348f   425 0001:34c7   426 0001:34cc
+   427 0001:34d6   430 0001:34e4   433 0001:34f5   439 0001:34f8
+   440 0001:34fd   441 0001:3507   444 0001:3515   445 0001:3526
+   449 0001:3529   450 0001:3540   451 0001:357a   452 0001:3583
+
+Line numbers for objd\SITE.obj(site.cpp) segment SEG_CODE_TEXT
+
+    47 0001:358e    48 0001:359b    50 0001:35d2    51 0001:35dd
+    58 0001:35e6    60 0001:3623    62 0001:3643    64 0001:364e
+    65 0001:3677    71 0001:3680    73 0001:3693    74 0001:369c
+   108 0001:36a0   110 0001:36f2   113 0001:3703   115 0001:370c
+   116 0001:371b   117 0001:3728   118 0001:3731   148 0001:3740
+   149 0001:375b   151 0001:3767   152 0001:3777   154 0001:3793
+   155 0001:37a3   156 0001:37bf   186 0001:37e8   187 0001:37f5
+   189 0001:37fd   191 0001:3809   193 0001:3819   195 0001:3839
+   229 0001:3842   230 0001:384f   232 0001:385b   235 0001:386b
+   237 0001:3876   239 0001:389c   242 0001:38a7   243 0001:38cd
+   246 0001:38e0   247 0001:38fc   249 0001:3909   289 0001:3912
+   290 0001:3924   292 0001:3930   294 0001:393c   296 0001:3955
+   297 0001:3968   298 0001:3978   301 0001:3981   303 0001:399a
+   304 0001:39b3   305 0001:39c6   308 0001:39cf   310 0001:39e8
+   311 0001:3a01   312 0001:3a14   316 0001:3a1d   317 0001:3a26
+   345 0001:3a2e   346 0001:3a40   348 0001:3a4c   349 0001:3a5b
+   377 0001:3a63   378 0001:3a75   380 0001:3a81   381 0001:3a92
+   382 0001:3abb   384 0001:3ac4   385 0001:3acf   422 0001:3ad7
+   429 0001:3ae4   430 0001:3b10   433 0001:3b1b   435 0001:3b4e
+   437 0001:3b57   442 0001:3b5d   447 0001:3b94   449 0001:3bbb
+   452 0001:3bc1   454 0001:3bd4   458 0001:3be4   460 0001:3c0e
+   462 0001:3c17   467 0001:3c1d   469 0001:3c36   472 0001:3c42
+   477 0001:3c4b   487 0001:3c64   491 0001:3cad   493 0001:3cb6
+   531 0001:3cc5   538 0001:3cd2   539 0001:3ce2   542 0001:3ce5
+   544 0001:3cf5   545 0001:3cfd   548 0001:3d05   551 0001:3d2b
+   552 0001:3d36   554 0001:3d67   555 0001:3d6c   562 0001:3d71
+   564 0001:3d7c   565 0001:3d8a   566 0001:3d9a   567 0001:3da2
+   571 0001:3dad   574 0001:3dd0   576 0001:3ddd   577 0001:3deb
+   578 0001:3df9   579 0001:3e03   580 0001:3e17   581 0001:3e22
+   586 0001:3e2a   588 0001:3e33   589 0001:3e40   593 0001:3e48
+   594 0001:3e53   595 0001:3e66   622 0001:3e6f   624 0001:3e7c
+   625 0001:3e8c   626 0001:3ea1   627 0001:3eb6
+
+Line numbers for objd\SITE.obj(site.cpp) segment COMDAT_SEG1
+
+    20 0001:6774    21 0001:679a    22 0001:67a8    23 0001:67b9
+    24 0001:67c2    26 0001:67d2    27 0001:67ed    28 0001:67fb
+    29 0001:6821    20 0001:682a    21 0001:6850    22 0001:685e
+    23 0001:686f    24 0001:6878    26 0001:6888    27 0001:68a3
+    28 0001:68b1    29 0001:68d7
+
+Line numbers for objd\TESTS.obj(tests.cpp) segment SEG_CODE_TEXT
+
+    68 0001:3ec0    74 0001:3ecd    75 0001:3edf    76 0001:3ee6
+    80 0001:3ef4    86 0001:3f16    88 0001:3f72    90 0001:3f7d
+    95 0001:3f83    97 0001:3f9f   100 0001:3faa   102 0001:3fc2
+   103 0001:3fd9   104 0001:3fef   109 0001:3ff2   110 0001:4009
+   111 0001:401f   112 0001:4022   144 0001:402c   150 0001:4039
+   151 0001:404b   152 0001:4052   156 0001:4060   162 0001:4082
+   164 0001:40de   166 0001:40e9   171 0001:40ef   177 0001:410b
+   184 0001:4116   187 0001:416e   190 0001:4179   192 0001:4191
+   193 0001:41a8   194 0001:41be   199 0001:41c1   200 0001:41d8
+   201 0001:41ee   202 0001:41f1
+
+Program entry point at 0001:4216

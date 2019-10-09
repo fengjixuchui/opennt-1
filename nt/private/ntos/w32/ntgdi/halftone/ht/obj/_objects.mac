@@ -1,0 +1,64 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ht.res \
+    $(_OBJ_DIR)\alpha\htdebug.obj \
+    $(_OBJ_DIR)\alpha\htmemory.obj \
+    $(_OBJ_DIR)\alpha\htmath.obj \
+    $(_OBJ_DIR)\alpha\htpat.obj \
+    $(_OBJ_DIR)\alpha\htstret.obj \
+    $(_OBJ_DIR)\alpha\htmapclr.obj \
+    $(_OBJ_DIR)\alpha\htrender.obj \
+    $(_OBJ_DIR)\alpha\htgetbmp.obj \
+    $(_OBJ_DIR)\alpha\htsetbmp.obj \
+    $(_OBJ_DIR)\alpha\htapi.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ht.res \
+    $(_OBJ_DIR)\mips\htdebug.obj \
+    $(_OBJ_DIR)\mips\htmemory.obj \
+    $(_OBJ_DIR)\mips\htmath.obj \
+    $(_OBJ_DIR)\mips\htpat.obj \
+    $(_OBJ_DIR)\mips\htstret.obj \
+    $(_OBJ_DIR)\mips\htmapclr.obj \
+    $(_OBJ_DIR)\mips\htrender.obj \
+    $(_OBJ_DIR)\mips\htgetbmp.obj \
+    $(_OBJ_DIR)\mips\htsetbmp.obj \
+    $(_OBJ_DIR)\mips\htapi.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ht.res \
+    $(_OBJ_DIR)\i386\htrbmp.obj \
+    $(_OBJ_DIR)\i386\htwbmp.obj \
+    $(_OBJ_DIR)\i386\htutils.obj \
+    $(_OBJ_DIR)\i386\htstub.obj \
+    $(_OBJ_DIR)\i386\htdebug.obj \
+    $(_OBJ_DIR)\i386\htmemory.obj \
+    $(_OBJ_DIR)\i386\htmath.obj \
+    $(_OBJ_DIR)\i386\htpat.obj \
+    $(_OBJ_DIR)\i386\htstret.obj \
+    $(_OBJ_DIR)\i386\htmapclr.obj \
+    $(_OBJ_DIR)\i386\htrender.obj \
+    $(_OBJ_DIR)\i386\htgetbmp.obj \
+    $(_OBJ_DIR)\i386\htsetbmp.obj \
+    $(_OBJ_DIR)\i386\htapi.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ht.res \
+    $(_OBJ_DIR)\ppc\htdebug.obj \
+    $(_OBJ_DIR)\ppc\htmemory.obj \
+    $(_OBJ_DIR)\ppc\htmath.obj \
+    $(_OBJ_DIR)\ppc\htpat.obj \
+    $(_OBJ_DIR)\ppc\htstret.obj \
+    $(_OBJ_DIR)\ppc\htmapclr.obj \
+    $(_OBJ_DIR)\ppc\htrender.obj \
+    $(_OBJ_DIR)\ppc\htgetbmp.obj \
+    $(_OBJ_DIR)\ppc\htsetbmp.obj \
+    $(_OBJ_DIR)\ppc\htapi.obj
+
+PASS0_PPC_OBJECTS=
+

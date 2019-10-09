@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\runonce.res \
+    $(_OBJ_DIR)\alpha\romain.obj \
+    $(_OBJ_DIR)\alpha\runonce.obj \
+    $(_OBJ_DIR)\alpha\init.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\runonce.res \
+    $(_OBJ_DIR)\mips\romain.obj \
+    $(_OBJ_DIR)\mips\runonce.obj \
+    $(_OBJ_DIR)\mips\init.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\runonce.res \
+    $(_OBJ_DIR)\i386\romain.obj \
+    $(_OBJ_DIR)\i386\runonce.obj \
+    $(_OBJ_DIR)\i386\init.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\runonce.res \
+    $(_OBJ_DIR)\ppc\romain.obj \
+    $(_OBJ_DIR)\ppc\runonce.obj \
+    $(_OBJ_DIR)\ppc\init.obj
+
+PASS0_PPC_OBJECTS=
+

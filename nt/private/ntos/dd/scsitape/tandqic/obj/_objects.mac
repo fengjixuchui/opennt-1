@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\tandqic.res \
+    $(_OBJ_DIR)\alpha\tandqic.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\tandqic.res \
+    $(_OBJ_DIR)\mips\tandqic.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\tandqic.res \
+    $(_OBJ_DIR)\i386\tandqic.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\tandqic.res \
+    $(_OBJ_DIR)\ppc\tandqic.obj
+
+PASS0_PPC_OBJECTS=
+

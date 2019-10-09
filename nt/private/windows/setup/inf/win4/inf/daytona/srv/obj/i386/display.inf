@@ -1,0 +1,1683 @@
+
+; Display.inf (for SUR)
+;
+; List of supported displays, manufacturers
+;
+
+[Version]
+Signature="$CHICAGO$"
+Provider=%MS%
+LayoutFile=layout.inf
+ClassGUID={4D36E968-E325-11CE-BFC1-08002BE10318}
+Class=Display
+
+[DestinationDirs]
+DefaultDestDir       = 11                     system32
+;%67890%.Miniport         = 12
+;%67890%.Display          = 11
+
+detect.Miniport      = 12
+detect.Display       = 11
+
+8514a.Miniport       = 12
+8514a.Display        = 11
+ati.Miniport         = 12
+ati.Display          = 11
+cirrus.Miniport      = 12
+cirrus.Display       = 11
+dell_dgx.Miniport    = 12
+dell_dgx.Display     = 11
+et4000.Miniport      = 12
+et4000.Display       = 11
+jazzg300.Miniport    = 12
+jazzg300.Display     = 11
+jazzg364.Miniport    = 12
+jazzg364.Display     = 11
+jzvxl484.Miniport    = 12
+jzvxl484.Display     = 11
+mga.Miniport         = 12
+mga.Display          = 11
+mga_mil.Miniport     = 12
+mga_mil.Display      = 11
+ncr77c22.Miniport    = 12
+ncr77c22.Display     = 11
+psidisp.Miniport     = 12
+psidisp.Display      = 11
+qv.Miniport          = 12
+qv.Display           = 11
+s3.Miniport          = 12
+s3.Display           = 11
+tga.Miniport         = 12
+tga.Display          = 11
+trident.Miniport     = 12
+trident.Display      = 11
+v7vram.Miniport      = 12
+v7vram.Display       = 11
+vga.Miniport         = 12
+vga.Display          = 11
+wd90c24a.Miniport    = 12
+wd90c24a.Display     = 11
+wdvga.Miniport       = 12
+wdvga.Display        = 11
+weitekp9.Miniport    = 12
+weitekp9.Display     = 11
+xga.Miniport         = 12
+xga.Display          = 11
+
+
+;
+; The Manufacturer section lists all of the manufacturers that we will
+; display in the Dialog box
+;
+
+[Manufacturer]
+%Std%         = Std.Mfg
+%Actix%       = Actix.Mfg
+%Ati%         = Ati.Mfg
+%Cardex%      = Cardex.Mfg
+%Cirrus%      = Cirrus.Mfg
+%Compaq%      = Compaq.Mfg
+%Dell%        = Dell.Mfg
+%Diamond%     = Diamond.Mfg
+%Digital%     = Digital.Mfg
+%Elsa%        = Elsa.Mfg
+%FirePower%   = FirePower.Mfg
+%Genoa%       = Genoa.Mfg
+%Hercules%    = Hercules.Mfg
+%IBM%         = IBM.Mfg
+%LeadTek%     = LeadTek.Mfg
+%Matrox%      = Matrox.Mfg
+%MediaVision% = MediaVision.Mfg
+%Metheus%     = Metheus.Mfg
+%Micronics%   = Micronics.Mfg
+%Mips%        = Mips.Mfg
+%Miro%        = Miro.Mfg
+%Motorola%    = Motorola.Mfg
+%NCR%         = NCR.Mfg
+%NEC%         = NEC.Mfg
+%#9%          = #9.Mfg
+%Orchid%      = Orchid.Mfg
+%Paradise%    = Paradise.Mfg
+%ProLink%     = ProLink.Mfg
+%S3%          = S3.Mfg
+%Siemens%     = Siemens.Mfg
+%SixGraph%    = SixGraph.Mfg
+%STB%         = STB.Mfg
+%Trident%     = Trident.Mfg
+%Tseng%       = Tseng.Mfg
+%V7%          = V7.Mfg
+%WD%          = WD.Mfg
+%Weitek%      = Weitek.Mfg
+
+;
+; Model sections. Each section here corresponds with an entry listed in the
+; [Manufacturer] section, above. The models will be displayed in the order
+; that they appear in the INF file.
+;
+; Each model lists a variation of its own name as a compatible ID. This
+; is done primarily as an optimization during upgrade.
+;
+
+
+[Std.Mfg]
+ %vgacompat%                                   = vga
+
+[Actix.Mfg]
+ %Actix% Graphics Engine                       = s3
+ %Actix% Graphics Engine 32 plus               = s3
+ %Actix% Graphics Engine 32 VLB                = s3
+
+
+
+
+
+[Ati.Mfg]
+
+
+ %Ati% %CompatAdap%                            = ati, ATI_COMPAT
+ %Ati% 8514 ULTRA                              = ati
+ %Ati% GRAPHICS PRO TURBO ISA                  = ati
+ %Ati% GRAPHICS PRO TURBO PCI                  = ati
+ %Ati% GRAPHICS PRO TURBO VLB                  = ati
+ %Ati% GRAPHICS PRO TURBO 1600 PCI             = ati
+ %Ati% GRAPHICS ULTRA                          = ati
+ %Ati% GRAPHICS ULTRA PLUS                     = ati
+ %Ati% GRAPHICS ULTRA PRO ISA                  = ati
+ %Ati% GRAPHICS ULTRA PRO EISA                 = ati
+ %Ati% GRAPHICS ULTRA PRO MCA                  = ati
+ %Ati% GRAPHICS ULTRA PRO PCI                  = ati
+ %Ati% GRAPHICS ULTRA PRO VLB                  = ati
+ %Ati% GRAPHICS VANTAGE                        = ati
+ %Ati% GRAPHICS WONDER ISA                     = ati
+ %Ati% GRAPHICS WONDER VLB                     = ati
+ %Ati% GRAPHICS XPRESSION ISA                  = ati
+ %Ati% GRAPHICS XPRESSION PCI                  = ati
+ %Ati% GRAPHICS XPRESSION VLB                  = ati
+ %Ati% mach 8 %CompatAdap%                     = ati
+ %Ati% mach 32 %CompatAdap%                    = ati
+ %Ati% mach 64 CT,CX,VT,GX %CompatAdap%        = ati
+ %Ati% VIDEO XPRESSION PCI                     = ati
+ %Ati% Win Turbo PCI                           = ati
+ %Ati% Win Turbo VLB                           = ati
+ %Ati% Win Turbo ISA                           = ati
+
+ %Ati% mach 64 CT,CX,VT,GX %CompatAdap%        = ati
+
+ %Ati% mach 64 CT,CX,VT,GX %CompatAdap%        = ati
+
+
+
+[Cardex.Mfg]
+ %Cardex% GW143 VLB                            = cirrus
+ %Cardex% GW143A VLB                           = cirrus
+
+
+
+[Cirrus.Mfg]
+ %Cirrus% %CompatAdap%                         = cirrus, CIRRUS_COMPAT
+ %Cirrus% 542x %CompatAdap%                    = cirrus
+ %Cirrus% 543x %CompatAdap%                    = cirrus
+ %Cirrus% 544x %CompatAdap%                    = cirrus
+ %Cirrus% 754x %CompatAdap%                    = cirrus
+
+
+
+[Compaq.Mfg]
+ %Compaq% QVision %CompatAdap%                 = qv, QV_COMPAT
+ %Compaq% QVision 1024/E                       = qv
+ %Compaq% QVision 1024/E Enhanced              = qv
+ %Compaq% QVision 1024/I                       = qv
+ %Compaq% QVision 1024/I Enhanced              = qv
+ %Compaq% QVision 1280/E                       = qv
+ %Compaq% QVision 1280/I                       = qv
+ %Compaq% QVision 1280/P                       = qv
+ %Compaq% QVision 2000 PCI                     = mga
+ %Compaq% QVision 2000+ PCI                    = mga
+
+
+
+
+
+[Dell.Mfg]
+ %Dell% DGX                                    = dell_dgx, DELL_DGX_COMPAT
+
+
+
+[Diamond.Mfg]
+ %Diamond% Speedstar                           = et4000
+ %Diamond% Speedstar 24x                       = wdvga
+ %Diamond% SPEEDSTAR 64 ISA                    = cirrus
+ %Diamond% SPEEDSTAR 64 PCI                    = cirrus
+ %Diamond% SPEEDSTAR PRO                       = cirrus
+ %Diamond% SPEEDSTAR PRO VLB                   = cirrus
+ %Diamond% SPEEDSTAR PRO 1100                  = cirrus
+ %Diamond% SPEEDSTAR PRO 1100 VLB              = cirrus
+ %Diamond% SPEEDSTAR PRO SE PCI                = cirrus
+ %Diamond% SPEEDSTAR PRO SE VLB                = cirrus
+ %Diamond% SPEEDSTAR64 GRAPHICS 2120           = cirrus
+ %Diamond% SPEEDSTAR64 GRAPHICS 2120XL         = cirrus
+ %Diamond% SPEEDSTAR64 GRAPHICS 2200           = cirrus
+ %Diamond% SPEEDSTAR64 GRAPHICS 2200XL         = cirrus
+ %Diamond% STEALTH 24                          = s3
+ %Diamond% STEALTH 24 VLB                      = s3
+ %Diamond% STEALTH 32 PCI                      = et4000
+ %Diamond% STEALTH 32 VLB                      = et4000
+ %Diamond% STEALTH 64 DRAM PCI                 = s3
+ %Diamond% STEALTH 64 DRAM VLB                 = s3
+ %Diamond% STEALTH 64 VRAM PCI                 = s3
+ %Diamond% STEALTH 64 VRAM VLB                 = s3
+ %Diamond% STEALTH PRO                         = s3
+ %Diamond% STEALTH PRO VLB                     = s3
+ %Diamond% STEALTH SE VLB                      = s3
+ %Diamond% STEALTH SE PCI                      = s3
+ %Diamond% STEALTH VIDEO 64 DRAM PCI           = s3
+ %Diamond% STEALTH VIDEO 64 DRAM VLB           = s3
+ %Diamond% STEALTH VIDEO 64 VRAM PCI           = s3
+ %Diamond% STEALTH VIDEO 64 VRAM VLB           = s3
+ %Diamond% STEALTH VRAM                        = s3
+ %Diamond% STEALTH64 GRAPHICS 2120XL PCI       = s3
+ %Diamond% STEALTH64 GRAPHICS 2120XL VLB       = s3
+ %Diamond% STEALTH64 GRAPHICS 2200XL PCI       = s3
+ %Diamond% STEALTH64 GRAPHICS 2200XL VLB       = s3
+ %Diamond% STEALTH64 VIDEO 2120XL PCI          = s3
+ %Diamond% STEALTH64 VIDEO 2120XL VLB          = s3
+ %Diamond% STEALTH64 VIDEO 2121XL PCI          = s3
+ %Diamond% STEALTH64 VIDEO 2121XLe PCI         = s3
+ %Diamond% STEALTH64 VIDEO 2200XL PCI          = s3
+ %Diamond% STEALTH64 VIDEO 2200XL VLB          = s3
+ %Diamond% STEALTH64 VIDEO 2201XL PCI          = s3
+ %Diamond% STEALTH64 VIDEO 2201XLe PCI         = s3
+ %Diamond% STEALTH64 VIDEO 2201TV PCI          = s3
+ %Diamond% STEALTH64 VIDEO 3200XL PCI          = s3
+ %Diamond% STEALTH64 VIDEO 3200XL VLB          = s3
+ %Diamond% STEALTH64 VIDEO 3240XL PCI          = s3
+ %Diamond% STEALTH64 VIDEO 3240XL VLB          = s3
+ %Diamond% STEALTH64 VIDEO 3400XL PCI          = s3
+ %Diamond% STEALTH64 VIDEO 3400XL VLB          = s3
+ %Diamond% VIPER PCI                           = weitekp9
+ %Diamond% VIPER VLB                           = viper
+ %Diamond% VIPER PRO PCI                       = weitekp9
+ %Diamond% VIPER PRO VLB                       = weitekp9
+ %Diamond% VIPER PRO VIDEO PCI                 = weitekp9
+ %Diamond% VIPER PRO VIDEO VLB                 = weitekp9
+ %Diamond% VIPER SE PCI                        = weitekp9
+ %Diamond% VIPER SE VLB                        = viper
+
+
+
+
+
+
+[Digital.Mfg]
+ %Digital% PCXAG-AL                            = s3
+
+
+
+
+
+[Elsa.Mfg]
+ %Elsa% WINNER 1000                            = s3
+
+
+
+
+
+[FirePower.Mfg]
+
+
+
+[Genoa.Mfg]
+ %Genoa% 8500VL                                = cirrus
+ %Genoa% PHANTOM 32I 8900 VLB                  = et4000
+ %Genoa% PHANTOM 32I 8900 PCI                  = et4000
+
+
+
+[Hercules.Mfg]
+ %Hercules% DYNAMITE 128 / VIDEO PCI           = et4000
+ %Hercules% DYNAMITE POWER VLB                 = et4000
+ %Hercules% DYNAMITE POWER PCI                 = et4000
+ %Hercules% DYNAMITE PRO PCI                   = et4000
+ %Hercules% GRAPHITE TERMINATOR 64 PCI         = s3
+ %Hercules% GRAPHITE TERMINATOR 64 VLB         = s3
+ %Hercules% TERMINATOR 32/DRAM PCI             = s3
+ %Hercules% TERMINATOR 64 VIDEO PCI            = s3
+ %Hercules% TERMINATOR 64/DRAM PCI             = s3
+ %Hercules% TERMINATOR PROFESSIONAL PCI        = s3
+
+
+
+
+
+[IBM.Mfg]
+ %IBM% XGA                                     = xga, XGA_COMPAT
+ %IBM% XGA2                                    = xga
+ 8514A %CompatAdap%                            = 8514a
+
+
+
+
+[LeadTek.Mfg]
+ %LeadTek% VideoPlus T230                      = et4000
+ %LeadTek% WINFAST S240V+                      = s3
+ %LeadTek% WINFAST S240                        = s3
+ %LeadTek% WINFAST S250                        = s3
+ %LeadTek% WINFAST S430                        = s3
+ %LeadTek% WINFAST S500                        = s3
+ %LeadTek% WINFAST S510                        = s3
+
+
+
+
+
+
+[Matrox.Mfg]
+ %Matrox% IMPRESSION                           = mga, MGA_COMPAT
+ %Matrox% IMPRESSION PCI                       = mga
+ %Matrox% IMPRESSION VLB                       = mga
+ %Matrox% IMPRESSION LITE PCI                  = mga
+ %Matrox% IMPRESSION PLUS                      = mga
+ %Matrox% IMPRESSION PLUS 220HZ                = mga
+ %Matrox% IMPRESSION PLUS 220HZ PCI            = mga
+ %Matrox% IMPRESSION PLUS PCI                  = mga
+ %Matrox% IMPRESSION PLUS VLB                  = mga
+ %Matrox% MILLENIUM PCI                        = mga_mil, MGA_MIL_COMPAT
+ %Matrox% MILLENIUM 220HZ PCI                  = mga_mil
+ %Matrox% ULTIMA PCI                           = mga
+ %Matrox% ULTIMA VLB                           = mga
+ %Matrox% ULTIMA + PCI                         = mga
+ %Matrox% ULTIMA + VLB                         = mga
+
+
+
+
+
+
+
+[MediaVision.Mfg]
+ %MediaVision% Thunder & Lightning             = cirrus
+
+
+
+[Metheus.Mfg]
+ %Metheus% Premier 928                         = s3
+
+
+
+
+[Micronics.Mfg]
+ %Micronics% VL-BUS                            = s3
+
+
+
+[Mips.Mfg]
+
+
+
+[Miro.Mfg]
+ %Miro% miroCRYSTAL 20SD                       = s3
+
+
+
+[Motorola.Mfg]
+
+
+
+[NCR.Mfg]
+ %NCR% 32BLT                                   = ncr77c22
+ %NCR% 77C22                                   = ncr77c22, NCR77C22_COMPAT
+ %NCR% 77C22E                                  = ncr77c22
+
+
+
+[NEC.Mfg]
+
+
+
+[#9.Mfg]
+ %#9% 9FX MOTION 331 PCI                       = s3
+ %#9% 9FX MOTION 531 PCI                       = s3
+ %#9% 9FX MOTION 771 PCI                       = s3
+ %#9% 9FX VISION 330 PCI                       = s3
+ %#9% GXE 64 PCI                               = s3
+ %#9% GXE 64 PRO PCI                           = s3
+ %#9% GXE ISA                                  = s3
+ %#9% GXE VLB                                  = s3
+ %#9% GXE PCI                                  = s3
+
+
+
+
+
+[Orchid.Mfg]
+ %Orchid% Fahrenheit 1280                      = s3
+ %Orchid% Fahrenheit 1280 plus ISA             = s3
+ %Orchid% Fahrenheit 1280 plus VLB             = s3
+ %Orchid% Fahrenheit VA                        = s3
+ %Orchid% Fahrenheit VA/VLB                    = s3
+ %Orchid% Kelvin 64 ISA                        = cirrus
+ %Orchid% Kelvin 64 VLB                        = cirrus
+ %Orchid% Kelvin EZ                            = cirrus
+ %Orchid% Orchid ProDesigner 2                 = et4000
+ %Orchid% ProDesigner IIs ISA                  = et4000
+ %Orchid% ProDesigner IIs EISA                 = et4000
+
+
+
+
+[Paradise.Mfg]
+ %Paradise% WINDOWS GRAPHICS ACCELERATOR VLB   = wdvga
+ %Paradise% WINDOWS GRAPHICS ACCELERATOR       = wdvga
+
+
+
+[ProLink.Mfg]
+ %ProLink% Image Sharpener                     = cirrus
+
+
+
+
+
+[S3.Mfg]
+ %S3% %CompatAdap%                             = s3, S3_COMPAT
+ %S3% 911/924/928/964/968 %CompatAdap%         = s3
+ %S3% 801/805/864/868 %CompatAdap%             = s3
+ %S3% 732/764/765 %CompatAdap%                 = s3
+
+
+
+[Siemens.Mfg]
+
+
+
+[SixGraph.Mfg]
+ %SixGraph% Wizard 9000                        = weitekp9
+
+
+
+[%STB%.Mfg]
+ %STB% HORIZON+ 1.1                            = cirrus
+ %STB% HORIZON VIDEO                           = cirrus
+ %STB% LIGHTSPEED PCI                          = et4000
+ %STB% LIGHTSPEED VLB                          = et4000
+ %STB% LIGHTSPEED 128 PCI                      = et4000
+ %STB% NITRO PCI                               = cirrus
+ %STB% POWERGRAPH 64 PCI                       = s3
+ %STB% POWERGRAPH 64 VIDEO PCI                 = s3
+ %STB% POWERGRAPH 64 VIDEO VLB                 = s3
+ %STB% VELOCITY 64 PCI                         = s3
+ %STB% VELOCITY 64 VLB                         = s3
+
+
+
+
+
+[Tseng.Mfg]
+ %Tseng% ET4000 %CompatAdap%                   = et4000, ET4000_COMPAT
+ %Tseng% W32 %CompatAdap%                      = et4000
+ %Tseng% W32p %CompatAdap%                     = et4000
+ %Tseng% W32i %CompatAdap%                     = et4000
+ %Tseng% ET6000 %CompatAdap%                   = et4000
+
+
+
+[Trident.Mfg]
+ %Trident% 9000                                = trident
+ %Trident% 8900C                               = trident
+; third-party @i: %Trident% 9400CXi               = trident
+; third-party @i: %Trident% Trident 9440          = trident
+; third-party @i: %Trident% Trident 9660          = trident
+
+
+
+[V7.Mfg]
+ %V7% VRAM                                     = v7vram, V7VRAM_COMPAT
+ %V7% VRAM II                                  = v7vram
+ %V7% VRAM II ERGO                             = v7vram
+
+
+
+[WD.Mfg]
+ %WD% 90C24                                    = wdvga, WDVGA_COMPAT
+ %WD% 90C24A                                   = wdvga
+ %WD% 90C30                                    = wdvga
+ %WD% 90C31-LR                                 = wdvga
+ %WD% 90C31-ZS                                 = wdvga
+ %WD% 90C33 VLB                                = wdvga
+
+
+
+[Weitek.Mfg]
+ %Weitek% P9000 %CompatAdap%                   = P9000
+ %Weitek% P9100 %CompatAdap%                   = weitekp9, WEITEKP9_COMPAT
+
+;
+; Matching section.  Provides some mappings for some names that don't
+; show up in the above manufacturer \ models list.
+; This is basically to handle backwards compatibility with some drivers
+; or boards we can't list for some reason.
+;
+
+[Models Matching]
+
+
+
+
+
+;
+; List of drivers that are provided, which each model has a reference to
+;
+;
+; ati
+; cirrus
+; dell_dgx
+; et4000
+; jazzg300
+; jazzg364
+; jzvxl484
+; mga
+; mga_mil
+; ncr77c22
+; psidisp
+; qv
+; s3
+; tga
+; v7vram
+; wd90c24a
+; wdvga
+; weitekp9
+; xga
+;
+; The below list are not autodetected
+;
+; 8514a
+; vga
+; trident
+;
+
+
+
+
+; detection section
+
+
+[detect]
+CopyFiles=detect.Miniport, detect.Display
+
+[detect.Services]
+ati         = ATI_COMPAT
+cirrus      = CIRRUS_COMPAT
+dell_dgx    = DELL_DGX_COMPAT
+et4000      = ET4000_COMPAT
+mga         = MGA_COMPAT
+mga_mil     = MGA_MIL_COMPAT
+ncr77c22    = NCR77C22_COMPAT
+qv          = QV_COMPAT
+s3          = S3_COMPAT
+v7vram      = V7VRAM_COMPAT
+wdvga       = WDVGA_COMPAT
+weitekp9    = WEITEKP9_COMPAT
+xga         = XGA_COMPAT
+
+; 8514a       don't detect since we generally want to use ATI
+; trident     we don't detect trident because old driver crashes on new chips.
+; vga         we never need to detect vga because of vga save.
+
+
+
+; 8514a Driver Section
+
+
+[8514a]
+CopyFiles=8514a.Miniport, 8514a.Display
+
+; Software Installation
+
+[8514a.SoftwareSettings]
+AddReg = 8514a_SoftwareDeviceSettings
+
+; Service Installation
+
+[8514a.Services]
+AddService = 8514a, 0x00000002, 8514a_Generic_Service_Inst, 8514a_EventLog_Inst
+
+[8514a_EventLog_Inst]
+AddReg = 8514a_EventLog_AddReg
+
+[8514a_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\8514a.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[8514a_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\8514a.sys
+
+
+
+; ati Driver Section
+
+
+[ati]
+CopyFiles=ati.Miniport, ati.Display
+
+; Software Installation
+
+[ati.SoftwareSettings]
+AddReg = ati_SoftwareDeviceSettings
+
+; Service Installation
+
+[ati.Services]
+AddService = ati, 0x00000002, ati_Generic_Service_Inst, ati_EventLog_Inst
+
+[ati_EventLog_Inst]
+AddReg = ati_EventLog_AddReg
+
+[ati_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\ati.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[ati_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\ati.sys
+
+
+
+
+; cirrus Driver Section
+
+
+[cirrus]
+CopyFiles=cirrus.Miniport, cirrus.Display
+
+; Software Installation
+
+[cirrus.SoftwareSettings]
+AddReg = cirrus_SoftwareDeviceSettings
+
+; Service Installation
+
+[cirrus.Services]
+AddService = cirrus, 0x00000002, cirrus_Generic_Service_Inst, cirrus_EventLog_Inst
+
+[cirrus_EventLog_Inst]
+AddReg = cirrus_EventLog_AddReg
+
+[cirrus_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\cirrus.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[cirrus_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\cirrus.sys
+
+
+
+; dell_dgx Driver Section
+
+
+[dell_dgx]
+CopyFiles=dell_dgx.Miniport, dell_dgx.Display
+
+; Software Installation
+
+[dell_dgx.SoftwareSettings]
+AddReg = dell_dgx_SoftwareDeviceSettings
+
+; Service Installation
+
+[dell_dgx.Services]
+AddService = dell_dgx, 0x00000002, dell_dgx_Generic_Service_Inst, dell_dgx_EventLog_Inst
+
+[dell_dgx_EventLog_Inst]
+AddReg = dell_dgx_EventLog_AddReg
+
+[dell_dgx_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\dell_dgx.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[dell_dgx_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\dell_dgx.sys
+
+
+
+
+; et4000 Driver Section
+
+
+[et4000]
+CopyFiles=et4000.Miniport, et4000.Display
+
+; Software Installation
+
+[et4000.SoftwareSettings]
+AddReg = et4000_SoftwareDeviceSettings
+
+; Service Installation
+
+[et4000.Services]
+AddService = et4000, 0x00000002, et4000_Generic_Service_Inst, et4000_EventLog_Inst
+
+[et4000_EventLog_Inst]
+AddReg = et4000_EventLog_AddReg
+
+[et4000_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\et4000.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[et4000_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\et4000.sys
+
+
+
+
+; jazzg300 Driver Section
+
+
+[jazzg300]
+CopyFiles=jazzg300.Miniport, jazzg300.Display
+
+; Software Installation
+
+[jazzg300.SoftwareSettings]
+AddReg = jazzg300_SoftwareDeviceSettings
+
+; Service Installation
+
+[jazzg300.Services]
+AddService = jazzg300, 0x00000002, jazzg300_Generic_Service_Inst, jazzg300_EventLog_Inst
+
+[jazzg300_EventLog_Inst]
+AddReg = jazzg300_EventLog_AddReg
+
+[jazzg300_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\jazzg300.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[jazzg300_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\jazzg300.sys
+
+
+
+
+; jazzg364 Driver Section
+
+
+[jazzg364]
+CopyFiles=jazzg364.Miniport, jazzg364.Display
+
+; Software Installation
+
+[jazzg364.SoftwareSettings]
+AddReg = jazzg364_SoftwareDeviceSettings
+
+; Service Installation
+
+[jazzg364.Services]
+AddService = jazzg364, 0x00000002, jazzg364_Generic_Service_Inst, jazzg364_EventLog_Inst
+
+[jazzg364_EventLog_Inst]
+AddReg = jazzg364_EventLog_AddReg
+
+[jazzg364_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\jazzg364.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[jazzg364_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\jazzg364.sys
+
+
+
+
+; jzvxl484 Driver Section
+
+
+[jzvxl484]
+CopyFiles=jzvxl484.Miniport, jzvxl484.Display
+
+; Software Installation
+
+[jzvxl484.SoftwareSettings]
+AddReg = jzvxl484_SoftwareDeviceSettings
+
+; Service Installation
+
+[jzvxl484.Services]
+AddService = jzvxl484, 0x00000002, jzvxl484_Generic_Service_Inst, jzvxl484_EventLog_Inst
+
+[jzvxl484_EventLog_Inst]
+AddReg = jzvxl484_EventLog_AddReg
+
+[jzvxl484_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\jzvxl484.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[jzvxl484_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\jzvxl484.sys
+
+
+
+
+; mga Driver Section
+
+
+[mga]
+CopyFiles=mga.Miniport, mga.Display
+
+; Software Installation
+
+[mga.SoftwareSettings]
+AddReg = mga_SoftwareDeviceSettings
+
+; Service Installation
+
+[mga.Services]
+AddService = mga, 0x00000002, mga_Generic_Service_Inst, mga_EventLog_Inst
+
+[mga_EventLog_Inst]
+AddReg = mga_EventLog_AddReg
+
+[mga_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\mga.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[mga_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\mga.sys
+
+
+
+
+; mga_mil Driver Section
+
+
+[mga_mil]
+CopyFiles=mga_mil.Miniport, mga_mil.Display
+
+; Software Installation
+
+[mga_mil.SoftwareSettings]
+AddReg = mga_mil_SoftwareDeviceSettings
+
+; Service Installation
+
+[mga_mil.Services]
+AddService = mga_mil, 0x00000002, mga_mil_Generic_Service_Inst, mga_mil_EventLog_Inst
+
+[mga_mil_EventLog_Inst]
+AddReg = mga_mil_EventLog_AddReg
+
+[mga_mil_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\mga_mil.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[mga_mil_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\mga_mil.sys
+
+
+
+
+; ncr77c22 Driver Section
+
+
+[ncr77c22]
+CopyFiles=ncr77c22.Miniport, ncr77c22.Display
+
+; Software Installation
+
+[ncr77c22.SoftwareSettings]
+AddReg = ncr77c22_SoftwareDeviceSettings
+
+; Service Installation
+
+[ncr77c22.Services]
+AddService = ncr77c22, 0x00000002, ncr77c22_Generic_Service_Inst, ncr77c22_EventLog_Inst
+
+[ncr77c22_EventLog_Inst]
+AddReg = ncr77c22_EventLog_AddReg
+
+[ncr77c22_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\ncr77c22.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[ncr77c22_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\ncr77c22.sys
+
+
+
+
+; psidisp Driver Section
+
+
+[psidisp]
+CopyFiles=psidisp.Miniport, psidisp.Display
+
+; Software Installation
+
+[psidisp.SoftwareSettings]
+AddReg = psidisp_SoftwareDeviceSettings
+
+; Service Installation
+
+[psidisp.Services]
+AddService = psidisp, 0x00000002, psidisp_Generic_Service_Inst, psidisp_EventLog_Inst
+
+[psidisp_EventLog_Inst]
+AddReg = psidisp_EventLog_AddReg
+
+[psidisp_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\psidisp.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[psidisp_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\psidisp.sys
+
+
+
+
+; qv Driver Section
+
+
+[qv]
+CopyFiles=qv.Miniport, qv.Display
+
+; Software Installation
+
+[qv.SoftwareSettings]
+AddReg = qv_SoftwareDeviceSettings
+
+; Service Installation
+
+[qv.Services]
+AddService = qv, 0x00000002, qv_Generic_Service_Inst, qv_EventLog_Inst
+
+[qv_EventLog_Inst]
+AddReg = qv_EventLog_AddReg
+
+[qv_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\qv.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[qv_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\qv.sys
+
+
+
+
+; s3 Driver Section
+
+
+[s3]
+CopyFiles=s3.Miniport, s3.Display
+
+; Software Installation
+
+[s3.SoftwareSettings]
+AddReg = s3_SoftwareDeviceSettings
+
+; Service Installation
+
+[s3.Services]
+AddService = s3, 0x00000002, s3_Generic_Service_Inst, s3_EventLog_Inst
+
+[s3_EventLog_Inst]
+AddReg = s3_EventLog_AddReg
+
+[s3_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\s3.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[s3_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\s3.sys
+
+
+
+
+; tga Driver Section
+
+
+[tga]
+CopyFiles=tga.Miniport, tga.Display
+
+; Software Installation
+
+[tga.SoftwareSettings]
+AddReg = tga_SoftwareDeviceSettings
+
+; Service Installation
+
+[tga.Services]
+AddService = tga, 0x00000002, tga_Generic_Service_Inst, tga_EventLog_Inst
+
+[tga_EventLog_Inst]
+AddReg = tga_EventLog_AddReg
+
+[tga_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\tga.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[tga_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\tga.sys
+
+
+
+
+; trident Driver Section
+
+
+[trident]
+CopyFiles=trident.Miniport, trident.Display
+
+; Software Installation
+
+[trident.SoftwareSettings]
+AddReg = trident_SoftwareDeviceSettings
+
+; Service Installation
+
+[trident.Services]
+AddService = trident, 0x00000002, trident_Generic_Service_Inst, trident_EventLog_Inst
+
+[trident_EventLog_Inst]
+AddReg = trident_EventLog_AddReg
+
+[trident_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%%SystemRoot%%\System32\IoLogMsg.dll;%%SystemRoot%%\System32\drivers\trident.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[trident_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\trident.sys
+
+
+
+; v7vram Driver Section
+
+
+[v7vram]
+CopyFiles=v7vram.Miniport, v7vram.Display
+
+; Software Installation
+
+[v7vram.SoftwareSettings]
+AddReg = v7vram_SoftwareDeviceSettings
+
+; Service Installation
+
+[v7vram.Services]
+AddService = v7vram, 0x00000002, v7vram_Generic_Service_Inst, v7vram_EventLog_Inst
+
+[v7vram_EventLog_Inst]
+AddReg = v7vram_EventLog_AddReg
+
+[v7vram_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\v7vram.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[v7vram_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\v7vram.sys
+
+
+
+
+; vga Driver section
+
+
+[vga]
+CopyFiles=vga.Miniport, vga.Display
+
+; Software Installation
+
+[vga.SoftwareSettings]
+AddReg = vga_SoftwareDeviceSettings
+
+; Service Installation
+
+[vga.Services]
+AddService = vga, 0x00000002, vga_Generic_Service_Inst, vga_EventLog_Inst
+
+[vga_EventLog_Inst]
+AddReg = vga_EventLog_AddReg
+
+[vga_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%%SystemRoot%%\System32\IoLogMsg.dll;%%SystemRoot%%\System32\drivers\vga.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[vga_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\vga.sys
+
+
+
+
+; wd90c24a Driver Section
+
+
+[wd90c24a]
+CopyFiles=wd90c24a.Miniport, wd90c24a.Display
+
+; Software Installation
+
+[wd90c24a.SoftwareSettings]
+AddReg = wd90c24a_SoftwareDeviceSettings
+
+; Service Installation
+
+[wd90c24a.Services]
+AddService = wd90c24a, 0x00000002, wd90c24a_Generic_Service_Inst, wd90c24a_EventLog_Inst
+
+[wd90c24a_EventLog_Inst]
+AddReg = wd90c24a_EventLog_AddReg
+
+[wd90c24a_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\wd90c24a.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[wd90c24a_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\wd90c24a.sys
+
+
+
+
+; wdvga Driver Section
+
+
+[wdvga]
+CopyFiles=wdvga.Miniport, wdvga.Display
+
+; Software Installation
+
+[wdvga.SoftwareSettings]
+AddReg = wdvga_SoftwareDeviceSettings
+
+; Service Installation
+
+[wdvga.Services]
+AddService = wdvga, 0x00000002, wdvga_Generic_Service_Inst, wdvga_EventLog_Inst
+
+[wdvga_EventLog_Inst]
+AddReg = wdvga_EventLog_AddReg
+
+[wdvga_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\wdvga.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[wdvga_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\wdvga.sys
+
+
+
+
+; weitekp9 Driver Section
+
+
+[weitekp9]
+CopyFiles=weitekp9.Miniport, weitekp9.Display
+
+; Software Installation
+
+[weitekp9.SoftwareSettings]
+AddReg = weitekp9_SoftwareDeviceSettings
+
+; Service Installation
+
+[weitekp9.Services]
+AddService = weitekp9, 0x00000002, weitekp9_Generic_Service_Inst, weitekp9_EventLog_Inst
+
+[weitekp9_EventLog_Inst]
+AddReg = weitekp9_EventLog_AddReg
+
+[weitekp9_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\weitekp9.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[weitekp9_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\weitekp9.sys
+
+; special weitekp9 driver that require manual configuration
+
+[viper]
+CopyFiles=weitekp9.Miniport, weitekp9.Display
+LogConfig=viper.LogConfig
+
+[viper.SoftwareSettings]
+AddReg = weitekp9_SoftwareDeviceSettings
+[viper.Services]
+AddService = weitekp9, 0x00000002, weitekp9_Generic_Service_Inst, weitekp9_EventLog_Inst
+
+[viper.LogConfig]
+ConfigPriority=HARDWIRED
+MemConfig=20000000-20FFFFFF, 80000000-80FFFFFF, A0000000-A0FFFFFF
+
+[P9000]
+CopyFiles=weitekp9.Miniport, weitekp9.Display
+LogConfig=P9000.LogConfig
+
+[P9000.SoftwareSettings]
+AddReg = weitekp9_SoftwareDeviceSettings
+[P9000.Services]
+AddService = weitekp9, 0x00000002, weitekp9_Generic_Service_Inst, weitekp9_EventLog_Inst
+
+[P9000.LogConfig]
+ConfigPriority=HARDWIRED
+MemConfig=04000000-04FFFFFF, 08000000-08FFFFFF, 0D000000-0DFFFFFF, 0E000000-0EFFFFFF, 0F000000-0FFFFFFF, 80000000-80FFFFFF, C0000000-C0FFFFFF, D0000000-D0FFFFFF, E0000000-E0FFFFFF, F0000000-F0FFFFFF
+
+; xga Driver Section
+
+
+[xga]
+CopyFiles=xga.Miniport, xga.Display
+
+; Software Installation
+
+[xga.SoftwareSettings]
+AddReg = xga_SoftwareDeviceSettings
+
+; Service Installation
+
+[xga.Services]
+AddService = xga, 0x00000002, xga_Generic_Service_Inst, xga_EventLog_Inst
+
+[xga_EventLog_Inst]
+AddReg = xga_EventLog_AddReg
+
+[xga_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\xga.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[xga_Generic_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\xga.sys
+
+
+
+
+
+
+;
+; Display Driver List
+;
+; This must match the section in txtsetup.inx
+;
+
+[detect.Display]
+8514a.dll
+ati.dll
+cirrus.dll
+framebuf.dll
+mga.dll
+qv.dll
+s3.dll
+tga.dll
+vga.dll
+vga256.dll
+vga64k.dll
+w32.dll
+weitekp9.dll
+xga.dll
+
+
+
+
+[8514a.Display]
+8514a.dll
+
+[ati.Display]
+ati.dll
+8514a.dll
+
+[cirrus.Display]
+vga.dll
+cirrus.dll
+vga256.dll
+vga64k.dll
+
+[dell_dgx.Display]
+framebuf.dll
+
+[et4000.Display]
+vga.dll
+w32.dll
+vga256.dll
+vga64k.dll
+
+[jazzg300.Display]
+framebuf.dll
+
+[jazzg364.Display]
+framebuf.dll
+
+[jzvxl484.Display]
+
+[mga.Display]
+mga.dll
+
+[mga_mil.Display]
+mga.dll
+
+[ncr77c22.Display]
+vga.dll
+vga256.dll
+vga64k.dll
+
+[psidisp.Display]
+
+[qv.Display]
+vga.dll
+qv.dll
+
+[s3.Display]
+s3.dll
+
+[tga.Display]
+
+[trident.Display]
+vga.dll
+vga256.dll
+
+[v7vram.Display]
+vga.dll
+vga256.dll
+
+[vga.Display]
+vga.dll
+
+[wd90c24a.Display]
+
+[wdvga.Display]
+vga.dll
+vga256.dll
+vga64k.dll
+
+[weitekp9.Display]
+weitekp9.dll
+
+[xga.Display]
+xga.dll
+vga256.dll
+
+
+;
+; Miniport driver list
+;
+; This must match the section in txtsetup.inx
+;
+
+[detect.Miniport]
+ati.sys
+cirrus.sys
+dell_dgx.sys
+et4000.sys
+mga.sys
+mga_mil.sys
+ncr77c22.sys
+qv.sys
+s3.sys
+v7vram.sys
+wdvga.sys
+weitekp9.sys
+xga.sys
+
+
+
+[8514a.Miniport]
+8514a.sys
+
+[ati.Miniport]
+ati.sys
+
+[cirrus.Miniport]
+cirrus.sys
+
+[dell_dgx.Miniport]
+dell_dgx.sys
+
+[et4000.Miniport]
+et4000.sys
+
+[jazzg300.Miniport]
+
+[jazzg364.Miniport]
+
+[jzvxl484.Miniport]
+
+[mga.Miniport]
+mga.sys
+
+[mga_mil.Miniport]
+mga_mil.sys
+
+[ncr77c22.Miniport]
+ncr77c22.sys
+
+[psidisp.Miniport]
+
+[qv.Miniport]
+qv.sys
+
+[s3.Miniport]
+s3.sys
+
+[tga.Miniport]
+
+[trident.Miniport]
+trident.sys
+
+[v7vram.Miniport]
+v7vram.sys
+
+[vga.Miniport]
+vga.sys
+
+[wd90c24a.Miniport]
+
+[wdvga.Miniport]
+wdvga.sys
+
+[weitekp9.Miniport]
+weitekp9.sys
+
+[xga.Miniport]
+xga.sys
+
+
+
+
+;
+; Display driver registry entries
+;
+
+[8514a_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, 8514a
+HKR,, VgaCompatible,               %REG_DWORD%,    0
+
+[ati_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, ati, 8514a
+HKR,, VgaCompatible,               %REG_DWORD%,    0
+
+[cirrus_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, vga, cirrus, vga256, vga64k
+HKR,, VgaCompatible,               %REG_DWORD%,    1
+
+[dell_dgx_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, framebuf
+HKR,, VgaCompatible,               %REG_DWORD%,    0
+
+[et4000_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, vga, w32, vga256, vga64k
+HKR,, VgaCompatible,               %REG_DWORD%,    1
+
+[jazzg300_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, framebuf
+HKR,, VgaCompatible,               %REG_DWORD%,    0
+
+[jazzg364_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, framebuf
+HKR,, VgaCompatible,               %REG_DWORD%,    0
+
+[jzvxl484_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, jzvxl484
+HKR,, VgaCompatible,               %REG_DWORD%,    0
+
+[mga_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, mga
+HKR,, VgaCompatible,               %REG_DWORD%,    0
+
+[mga_mil_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, mga
+HKR,, VgaCompatible,               %REG_DWORD%,    0
+
+[ncr77c22_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, vga, vga256
+HKR,, VgaCompatible,               %REG_DWORD%,    1
+
+[psidisp_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, psidisp
+HKR,, VgaCompatible,               %REG_DWORD%,    0
+
+[qv_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, vga, qv
+HKR,, VgaCompatible,               %REG_DWORD%,    1
+
+[s3_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, s3
+HKR,, VgaCompatible,               %REG_DWORD%,    0
+
+[tga_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, tga
+HKR,, VgaCompatible,               %REG_DWORD%,    0
+
+[trident_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, vga, vga256
+HKR,, VgaCompatible,               %REG_DWORD%,    1
+
+[v7vram_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, vga, vga256
+HKR,, VgaCompatible,               %REG_DWORD%,    1
+
+[vga_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, vga
+HKR,, VgaCompatible,               %REG_DWORD%,    1
+
+[wd90c24a_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, wd90c24a
+HKR,, VgaCompatible,               %REG_DWORD%,    0
+
+[wdvga_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,	   %REG_MULTI_SZ%, vga, vga256, vga64k
+HKR,, VgaCompatible,               %REG_DWORD%,    1
+
+[weitekp9_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, weitekp9
+HKR,, VgaCompatible,               %REG_DWORD%,    0
+
+[xga_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, xga, vga256
+HKR,, VgaCompatible,               %REG_DWORD%,    0
+[Strings]
+
+;
+; Non-Localizable Strings
+;
+
+REG_SZ         = 0x00000000
+REG_MULTI_SZ   = 0x00010000
+REG_EXPAND_SZ  = 0x00020000
+REG_BINARY     = 0x00000001
+REG_DWORD      = 0x00010001
+serviceroot    = System\CurrentControlSet\Services
+
+;
+; Localizable Strings
+;
+
+MS="Microsoft"
+autodetect="Autodetect driver"
+vgacompat="VGA compatible display adapter"
+
+Std          = "(Standard display types)"
+Actix        = "Actix"
+Ati          = "ATI Technologies"
+Cardex       = "Cardex"
+Chips        = "Chips & Technologies"
+Cirrus       = "Cirrus Logic"
+Compaq       = "Compaq Computer"
+Dell         = "Dell"
+Diamond      = "Diamond Multimedia"
+Digital      = "Digital"
+Elsa         = "Elsa"
+FirePower    = "FirePower"
+Genoa        = "Genoa"
+Hercules     = "Hercules"
+IBM          = "IBM"
+LeadTek      = "LeadTek"
+Matrox       = "Matrox"
+MediaVision  = "MediaVision"
+Metheus      = "Metheus"
+Micronics    = "Micronics"
+Mips         = "Mips"
+Miro         = "Miro"
+Motorola     = "Motorola"
+NCR          = "NCR"
+NEC          = "NEC"
+NeoMagic     = "NeoMagic"
+#9           = "Number Nine Visual technologies"
+Orchid       = "Orchid Technologies"
+Paradise     = "Paradise"
+ProLink      = "ProLink"
+S3           = "S3"
+Siemens      = "Siemens Nixdorf"
+SixGraph     = "Six Graph"
+STB          = "STB"
+Tseng        = "Tseng Labs"
+Trident      = "Trident"
+V7           = "Video 7"
+WD           = "Western Digital"
+Weitek       = "Weitek"
+
+GraphAdap    = "Graphics Adapter"
+CompatAdap   = "Compatible Graphics Adapter"
+
+DiskId="Windows NT Driver Library installation disk"
+drvlib="Windows NT Driver Library"

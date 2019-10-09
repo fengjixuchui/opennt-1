@@ -1,0 +1,52 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS= \
+    w:\nt\public\sdk\inc\wtypes.h \
+    w:\nt\public\sdk\inc\unknwn.h \
+    w:\nt\public\sdk\inc\objidl.h \
+    w:\nt\public\sdk\inc\srvhdl.h \
+    w:\nt\public\sdk\inc\oleidl.h \
+    w:\nt\public\sdk\inc\oaidl.h \
+    w:\nt\public\sdk\inc\ocidl.h \
+    w:\nt\public\sdk\inc\storext.h \
+    w:\nt\public\sdk\inc\ipropidl.h
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS= \
+    w:\nt\public\sdk\inc\wtypes.h \
+    w:\nt\public\sdk\inc\unknwn.h \
+    w:\nt\public\sdk\inc\objidl.h \
+    w:\nt\public\sdk\inc\srvhdl.h \
+    w:\nt\public\sdk\inc\oleidl.h \
+    w:\nt\public\sdk\inc\oaidl.h \
+    w:\nt\public\sdk\inc\ocidl.h \
+    w:\nt\public\sdk\inc\storext.h \
+    w:\nt\public\sdk\inc\ipropidl.h
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS= \
+    w:\nt\public\sdk\inc\wtypes.h \
+    w:\nt\public\sdk\inc\unknwn.h \
+    w:\nt\public\sdk\inc\objidl.h \
+    w:\nt\public\sdk\inc\srvhdl.h \
+    w:\nt\public\sdk\inc\oleidl.h \
+    w:\nt\public\sdk\inc\oaidl.h \
+    w:\nt\public\sdk\inc\ocidl.h \
+    w:\nt\public\sdk\inc\storext.h \
+    w:\nt\public\sdk\inc\ipropidl.h
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS= \
+    w:\nt\public\sdk\inc\wtypes.h \
+    w:\nt\public\sdk\inc\unknwn.h \
+    w:\nt\public\sdk\inc\objidl.h \
+    w:\nt\public\sdk\inc\srvhdl.h \
+    w:\nt\public\sdk\inc\oleidl.h \
+    w:\nt\public\sdk\inc\oaidl.h \
+    w:\nt\public\sdk\inc\ocidl.h \
+    w:\nt\public\sdk\inc\storext.h \
+    w:\nt\public\sdk\inc\ipropidl.h
+

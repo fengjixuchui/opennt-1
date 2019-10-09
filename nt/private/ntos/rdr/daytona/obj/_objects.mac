@@ -1,0 +1,168 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\rdr.res \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\autodial.obj \
+    $(_OBJ_DIR)\alpha\backpack.obj \
+    $(_OBJ_DIR)\alpha\cache.obj \
+    $(_OBJ_DIR)\alpha\close.obj \
+    $(_OBJ_DIR)\alpha\connect.obj \
+    $(_OBJ_DIR)\alpha\create.obj \
+    $(_OBJ_DIR)\alpha\dir.obj \
+    $(_OBJ_DIR)\alpha\disccode.obj \
+    $(_OBJ_DIR)\alpha\ea.obj \
+    $(_OBJ_DIR)\alpha\error.obj \
+    $(_OBJ_DIR)\alpha\errorlog.obj \
+    $(_OBJ_DIR)\alpha\fcb.obj \
+    $(_OBJ_DIR)\alpha\fileinfo.obj \
+    $(_OBJ_DIR)\alpha\fsctl.obj \
+    $(_OBJ_DIR)\alpha\fspdisp.obj \
+    $(_OBJ_DIR)\alpha\io.obj \
+    $(_OBJ_DIR)\alpha\lock.obj \
+    $(_OBJ_DIR)\alpha\mailslot.obj \
+    $(_OBJ_DIR)\alpha\netdata.obj \
+    $(_OBJ_DIR)\alpha\nettrans.obj \
+    $(_OBJ_DIR)\alpha\npipe.obj \
+    $(_OBJ_DIR)\alpha\oplock.obj \
+    $(_OBJ_DIR)\alpha\print.obj \
+    $(_OBJ_DIR)\alpha\read.obj \
+    $(_OBJ_DIR)\alpha\ritebhnd.obj \
+    $(_OBJ_DIR)\alpha\scavthrd.obj \
+    $(_OBJ_DIR)\alpha\security.obj \
+    $(_OBJ_DIR)\alpha\smbbuff.obj \
+    $(_OBJ_DIR)\alpha\smbfuncs.obj \
+    $(_OBJ_DIR)\alpha\string.obj \
+    $(_OBJ_DIR)\alpha\tdi.obj \
+    $(_OBJ_DIR)\alpha\trans2.obj \
+    $(_OBJ_DIR)\alpha\utils.obj \
+    $(_OBJ_DIR)\alpha\volinfo.obj \
+    $(_OBJ_DIR)\alpha\workque.obj \
+    $(_OBJ_DIR)\alpha\write.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\rdr.res \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\autodial.obj \
+    $(_OBJ_DIR)\mips\backpack.obj \
+    $(_OBJ_DIR)\mips\cache.obj \
+    $(_OBJ_DIR)\mips\close.obj \
+    $(_OBJ_DIR)\mips\connect.obj \
+    $(_OBJ_DIR)\mips\create.obj \
+    $(_OBJ_DIR)\mips\dir.obj \
+    $(_OBJ_DIR)\mips\disccode.obj \
+    $(_OBJ_DIR)\mips\ea.obj \
+    $(_OBJ_DIR)\mips\error.obj \
+    $(_OBJ_DIR)\mips\errorlog.obj \
+    $(_OBJ_DIR)\mips\fcb.obj \
+    $(_OBJ_DIR)\mips\fileinfo.obj \
+    $(_OBJ_DIR)\mips\fsctl.obj \
+    $(_OBJ_DIR)\mips\fspdisp.obj \
+    $(_OBJ_DIR)\mips\io.obj \
+    $(_OBJ_DIR)\mips\lock.obj \
+    $(_OBJ_DIR)\mips\mailslot.obj \
+    $(_OBJ_DIR)\mips\netdata.obj \
+    $(_OBJ_DIR)\mips\nettrans.obj \
+    $(_OBJ_DIR)\mips\npipe.obj \
+    $(_OBJ_DIR)\mips\oplock.obj \
+    $(_OBJ_DIR)\mips\print.obj \
+    $(_OBJ_DIR)\mips\read.obj \
+    $(_OBJ_DIR)\mips\ritebhnd.obj \
+    $(_OBJ_DIR)\mips\scavthrd.obj \
+    $(_OBJ_DIR)\mips\security.obj \
+    $(_OBJ_DIR)\mips\smbbuff.obj \
+    $(_OBJ_DIR)\mips\smbfuncs.obj \
+    $(_OBJ_DIR)\mips\string.obj \
+    $(_OBJ_DIR)\mips\tdi.obj \
+    $(_OBJ_DIR)\mips\trans2.obj \
+    $(_OBJ_DIR)\mips\utils.obj \
+    $(_OBJ_DIR)\mips\volinfo.obj \
+    $(_OBJ_DIR)\mips\workque.obj \
+    $(_OBJ_DIR)\mips\write.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\rdr.res \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\autodial.obj \
+    $(_OBJ_DIR)\i386\backpack.obj \
+    $(_OBJ_DIR)\i386\cache.obj \
+    $(_OBJ_DIR)\i386\close.obj \
+    $(_OBJ_DIR)\i386\connect.obj \
+    $(_OBJ_DIR)\i386\create.obj \
+    $(_OBJ_DIR)\i386\dir.obj \
+    $(_OBJ_DIR)\i386\disccode.obj \
+    $(_OBJ_DIR)\i386\ea.obj \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\errorlog.obj \
+    $(_OBJ_DIR)\i386\fcb.obj \
+    $(_OBJ_DIR)\i386\fileinfo.obj \
+    $(_OBJ_DIR)\i386\fsctl.obj \
+    $(_OBJ_DIR)\i386\fspdisp.obj \
+    $(_OBJ_DIR)\i386\io.obj \
+    $(_OBJ_DIR)\i386\lock.obj \
+    $(_OBJ_DIR)\i386\mailslot.obj \
+    $(_OBJ_DIR)\i386\netdata.obj \
+    $(_OBJ_DIR)\i386\nettrans.obj \
+    $(_OBJ_DIR)\i386\npipe.obj \
+    $(_OBJ_DIR)\i386\oplock.obj \
+    $(_OBJ_DIR)\i386\print.obj \
+    $(_OBJ_DIR)\i386\read.obj \
+    $(_OBJ_DIR)\i386\ritebhnd.obj \
+    $(_OBJ_DIR)\i386\scavthrd.obj \
+    $(_OBJ_DIR)\i386\security.obj \
+    $(_OBJ_DIR)\i386\smbbuff.obj \
+    $(_OBJ_DIR)\i386\smbfuncs.obj \
+    $(_OBJ_DIR)\i386\string.obj \
+    $(_OBJ_DIR)\i386\tdi.obj \
+    $(_OBJ_DIR)\i386\trans2.obj \
+    $(_OBJ_DIR)\i386\utils.obj \
+    $(_OBJ_DIR)\i386\volinfo.obj \
+    $(_OBJ_DIR)\i386\workque.obj \
+    $(_OBJ_DIR)\i386\write.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\rdr.res \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\autodial.obj \
+    $(_OBJ_DIR)\ppc\backpack.obj \
+    $(_OBJ_DIR)\ppc\cache.obj \
+    $(_OBJ_DIR)\ppc\close.obj \
+    $(_OBJ_DIR)\ppc\connect.obj \
+    $(_OBJ_DIR)\ppc\create.obj \
+    $(_OBJ_DIR)\ppc\dir.obj \
+    $(_OBJ_DIR)\ppc\disccode.obj \
+    $(_OBJ_DIR)\ppc\ea.obj \
+    $(_OBJ_DIR)\ppc\error.obj \
+    $(_OBJ_DIR)\ppc\errorlog.obj \
+    $(_OBJ_DIR)\ppc\fcb.obj \
+    $(_OBJ_DIR)\ppc\fileinfo.obj \
+    $(_OBJ_DIR)\ppc\fsctl.obj \
+    $(_OBJ_DIR)\ppc\fspdisp.obj \
+    $(_OBJ_DIR)\ppc\io.obj \
+    $(_OBJ_DIR)\ppc\lock.obj \
+    $(_OBJ_DIR)\ppc\mailslot.obj \
+    $(_OBJ_DIR)\ppc\netdata.obj \
+    $(_OBJ_DIR)\ppc\nettrans.obj \
+    $(_OBJ_DIR)\ppc\npipe.obj \
+    $(_OBJ_DIR)\ppc\oplock.obj \
+    $(_OBJ_DIR)\ppc\print.obj \
+    $(_OBJ_DIR)\ppc\read.obj \
+    $(_OBJ_DIR)\ppc\ritebhnd.obj \
+    $(_OBJ_DIR)\ppc\scavthrd.obj \
+    $(_OBJ_DIR)\ppc\security.obj \
+    $(_OBJ_DIR)\ppc\smbbuff.obj \
+    $(_OBJ_DIR)\ppc\smbfuncs.obj \
+    $(_OBJ_DIR)\ppc\string.obj \
+    $(_OBJ_DIR)\ppc\tdi.obj \
+    $(_OBJ_DIR)\ppc\trans2.obj \
+    $(_OBJ_DIR)\ppc\utils.obj \
+    $(_OBJ_DIR)\ppc\volinfo.obj \
+    $(_OBJ_DIR)\ppc\workque.obj \
+    $(_OBJ_DIR)\ppc\write.obj
+
+PASS0_PPC_OBJECTS=
+

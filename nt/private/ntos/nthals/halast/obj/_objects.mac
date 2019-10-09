@@ -1,0 +1,62 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ixbeep.obj \
+    $(_OBJ_DIR)\i386\ixcmos.obj \
+    $(_OBJ_DIR)\i386\ixidle.obj \
+    $(_OBJ_DIR)\i386\ixswint.obj \
+    $(_OBJ_DIR)\i386\xxbiosa.obj \
+    $(_OBJ_DIR)\i386\xxioacc.obj \
+    $(_OBJ_DIR)\i386\spspin.obj \
+    $(_OBJ_DIR)\i386\spprofil.obj \
+    $(_OBJ_DIR)\i386\astipi.obj \
+    $(_OBJ_DIR)\i386\astclock.obj \
+    $(_OBJ_DIR)\i386\astirql.obj \
+    $(_OBJ_DIR)\i386\astsyint.obj \
+    $(_OBJ_DIR)\i386\astspi.obj \
+    $(_OBJ_DIR)\i386\aststall.obj \
+    $(_OBJ_DIR)\i386\astproca.obj \
+    $(_OBJ_DIR)\i386\ixbusdat.obj \
+    $(_OBJ_DIR)\i386\ixdat.obj \
+    $(_OBJ_DIR)\i386\ixisabus.obj \
+    $(_OBJ_DIR)\i386\ixenvirv.obj \
+    $(_OBJ_DIR)\i386\ixfirm.obj \
+    $(_OBJ_DIR)\i386\ixhwsup.obj \
+    $(_OBJ_DIR)\i386\ixinfo.obj \
+    $(_OBJ_DIR)\i386\ixisasup.obj \
+    $(_OBJ_DIR)\i386\ixkdcom.obj \
+    $(_OBJ_DIR)\i386\ixphwsup.obj \
+    $(_OBJ_DIR)\i386\ixreboot.obj \
+    $(_OBJ_DIR)\i386\ixthunk.obj \
+    $(_OBJ_DIR)\i386\ixusage.obj \
+    $(_OBJ_DIR)\i386\xxbiosc.obj \
+    $(_OBJ_DIR)\i386\xxdisp.obj \
+    $(_OBJ_DIR)\i386\xxkdsup.obj \
+    $(_OBJ_DIR)\i386\xxmemory.obj \
+    $(_OBJ_DIR)\i386\xxstubs.obj \
+    $(_OBJ_DIR)\i386\xxtime.obj \
+    $(_OBJ_DIR)\i386\astdetct.obj \
+    $(_OBJ_DIR)\i386\astebi.obj \
+    $(_OBJ_DIR)\i386\asthal.obj \
+    $(_OBJ_DIR)\i386\astipirq.obj \
+    $(_OBJ_DIR)\i386\astebini.obj \
+    $(_OBJ_DIR)\i386\astproc.obj \
+    $(_OBJ_DIR)\i386\astmpint.obj \
+    $(_OBJ_DIR)\i386\astnmi.obj \
+    $(_OBJ_DIR)\i386\hal.res \
+    $(_OBJ_DIR)\i386\drivesup.obj \
+    $(_OBJ_DIR)\i386\bushnd.obj \
+    $(_OBJ_DIR)\i386\rangesup.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

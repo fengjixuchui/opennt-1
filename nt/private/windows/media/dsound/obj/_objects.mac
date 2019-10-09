@@ -1,0 +1,88 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dsound.res \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\decibels.obj \
+    $(_OBJ_DIR)\alpha\dsaccess.obj \
+    $(_OBJ_DIR)\alpha\dsbuffer.obj \
+    $(_OBJ_DIR)\alpha\dsbuffhw.obj \
+    $(_OBJ_DIR)\alpha\dsound.obj \
+    $(_OBJ_DIR)\alpha\dsoundhw.obj \
+    $(_OBJ_DIR)\alpha\dsvcom.obj \
+    $(_OBJ_DIR)\alpha\flocks.obj \
+    $(_OBJ_DIR)\alpha\idsbi.obj \
+    $(_OBJ_DIR)\alpha\idsi.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\mix.obj \
+    $(_OBJ_DIR)\alpha\ntproxy.obj \
+    $(_OBJ_DIR)\alpha\w95hack.obj \
+    $(_OBJ_DIR)\alpha\dsndcom.obj \
+    $(_OBJ_DIR)\alpha\grace.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dsound.res \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\decibels.obj \
+    $(_OBJ_DIR)\mips\dsaccess.obj \
+    $(_OBJ_DIR)\mips\dsbuffer.obj \
+    $(_OBJ_DIR)\mips\dsbuffhw.obj \
+    $(_OBJ_DIR)\mips\dsound.obj \
+    $(_OBJ_DIR)\mips\dsoundhw.obj \
+    $(_OBJ_DIR)\mips\dsvcom.obj \
+    $(_OBJ_DIR)\mips\flocks.obj \
+    $(_OBJ_DIR)\mips\idsbi.obj \
+    $(_OBJ_DIR)\mips\idsi.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\mix.obj \
+    $(_OBJ_DIR)\mips\ntproxy.obj \
+    $(_OBJ_DIR)\mips\w95hack.obj \
+    $(_OBJ_DIR)\mips\dsndcom.obj \
+    $(_OBJ_DIR)\mips\grace.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dsound.res \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\decibels.obj \
+    $(_OBJ_DIR)\i386\dsaccess.obj \
+    $(_OBJ_DIR)\i386\dsbuffer.obj \
+    $(_OBJ_DIR)\i386\dsbuffhw.obj \
+    $(_OBJ_DIR)\i386\dsound.obj \
+    $(_OBJ_DIR)\i386\dsoundhw.obj \
+    $(_OBJ_DIR)\i386\dsvcom.obj \
+    $(_OBJ_DIR)\i386\flocks.obj \
+    $(_OBJ_DIR)\i386\idsbi.obj \
+    $(_OBJ_DIR)\i386\idsi.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\mix.obj \
+    $(_OBJ_DIR)\i386\ntproxy.obj \
+    $(_OBJ_DIR)\i386\w95hack.obj \
+    $(_OBJ_DIR)\i386\dsndcom.obj \
+    $(_OBJ_DIR)\i386\grace.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dsound.res \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\decibels.obj \
+    $(_OBJ_DIR)\ppc\dsaccess.obj \
+    $(_OBJ_DIR)\ppc\dsbuffer.obj \
+    $(_OBJ_DIR)\ppc\dsbuffhw.obj \
+    $(_OBJ_DIR)\ppc\dsound.obj \
+    $(_OBJ_DIR)\ppc\dsoundhw.obj \
+    $(_OBJ_DIR)\ppc\dsvcom.obj \
+    $(_OBJ_DIR)\ppc\flocks.obj \
+    $(_OBJ_DIR)\ppc\idsbi.obj \
+    $(_OBJ_DIR)\ppc\idsi.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\mix.obj \
+    $(_OBJ_DIR)\ppc\ntproxy.obj \
+    $(_OBJ_DIR)\ppc\w95hack.obj \
+    $(_OBJ_DIR)\ppc\dsndcom.obj \
+    $(_OBJ_DIR)\ppc\grace.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\delldsa.res \
+    $(_OBJ_DIR)\alpha\delldsa.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\delldsa.res \
+    $(_OBJ_DIR)\mips\delldsa.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\delldsa.res \
+    $(_OBJ_DIR)\i386\delldsa.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\delldsa.res \
+    $(_OBJ_DIR)\ppc\delldsa.obj
+
+PASS0_PPC_OBJECTS=
+

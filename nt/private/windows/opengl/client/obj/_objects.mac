@@ -1,0 +1,81 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\opengl32.res \
+    $(_OBJ_DIR)\alpha\array.obj \
+    $(_OBJ_DIR)\alpha\dllinit.obj \
+    $(_OBJ_DIR)\alpha\fontextr.obj \
+    $(_OBJ_DIR)\alpha\fontoutl.obj \
+    $(_OBJ_DIR)\alpha\glcltgs.obj \
+    $(_OBJ_DIR)\alpha\glcltgsh.obj \
+    $(_OBJ_DIR)\alpha\glcltpt.obj \
+    $(_OBJ_DIR)\alpha\layer.obj \
+    $(_OBJ_DIR)\alpha\local.obj \
+    $(_OBJ_DIR)\alpha\metasup.obj \
+    $(_OBJ_DIR)\alpha\subutil.obj \
+    $(_OBJ_DIR)\alpha\wgl.obj \
+    $(_OBJ_DIR)\alpha\wglcli.obj \
+    $(_OBJ_DIR)\alpha\glaapi.obj \
+    $(_OBJ_DIR)\alpha\noopapir.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\opengl32.res \
+    $(_OBJ_DIR)\mips\array.obj \
+    $(_OBJ_DIR)\mips\dllinit.obj \
+    $(_OBJ_DIR)\mips\fontextr.obj \
+    $(_OBJ_DIR)\mips\fontoutl.obj \
+    $(_OBJ_DIR)\mips\glcltgs.obj \
+    $(_OBJ_DIR)\mips\glcltgsh.obj \
+    $(_OBJ_DIR)\mips\glcltpt.obj \
+    $(_OBJ_DIR)\mips\layer.obj \
+    $(_OBJ_DIR)\mips\local.obj \
+    $(_OBJ_DIR)\mips\metasup.obj \
+    $(_OBJ_DIR)\mips\subutil.obj \
+    $(_OBJ_DIR)\mips\wgl.obj \
+    $(_OBJ_DIR)\mips\wglcli.obj \
+    $(_OBJ_DIR)\mips\glmapi.obj \
+    $(_OBJ_DIR)\mips\noopapir.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\opengl32.res \
+    $(_OBJ_DIR)\i386\noopapi.obj \
+    $(_OBJ_DIR)\i386\gliapi.obj \
+    $(_OBJ_DIR)\i386\glivtx.obj \
+    $(_OBJ_DIR)\i386\array.obj \
+    $(_OBJ_DIR)\i386\dllinit.obj \
+    $(_OBJ_DIR)\i386\fontextr.obj \
+    $(_OBJ_DIR)\i386\fontoutl.obj \
+    $(_OBJ_DIR)\i386\glcltgs.obj \
+    $(_OBJ_DIR)\i386\glcltgsh.obj \
+    $(_OBJ_DIR)\i386\glcltpt.obj \
+    $(_OBJ_DIR)\i386\layer.obj \
+    $(_OBJ_DIR)\i386\local.obj \
+    $(_OBJ_DIR)\i386\metasup.obj \
+    $(_OBJ_DIR)\i386\subutil.obj \
+    $(_OBJ_DIR)\i386\wgl.obj \
+    $(_OBJ_DIR)\i386\wglcli.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\opengl32.res \
+    $(_OBJ_DIR)\ppc\array.obj \
+    $(_OBJ_DIR)\ppc\dllinit.obj \
+    $(_OBJ_DIR)\ppc\fontextr.obj \
+    $(_OBJ_DIR)\ppc\fontoutl.obj \
+    $(_OBJ_DIR)\ppc\glcltgs.obj \
+    $(_OBJ_DIR)\ppc\glcltgsh.obj \
+    $(_OBJ_DIR)\ppc\glcltpt.obj \
+    $(_OBJ_DIR)\ppc\layer.obj \
+    $(_OBJ_DIR)\ppc\local.obj \
+    $(_OBJ_DIR)\ppc\metasup.obj \
+    $(_OBJ_DIR)\ppc\subutil.obj \
+    $(_OBJ_DIR)\ppc\wgl.obj \
+    $(_OBJ_DIR)\ppc\wglcli.obj \
+    $(_OBJ_DIR)\ppc\noopapir.obj \
+    $(_OBJ_DIR)\ppc\glapi.obj
+
+PASS0_PPC_OBJECTS=
+

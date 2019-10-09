@@ -1,0 +1,156 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\gdi.res \
+    $(_OBJ_DIR)\alpha\cfont.obj \
+    $(_OBJ_DIR)\alpha\bitmap.obj \
+    $(_OBJ_DIR)\alpha\xform.obj \
+    $(_OBJ_DIR)\alpha\dllinit.obj \
+    $(_OBJ_DIR)\alpha\dcmod.obj \
+    $(_OBJ_DIR)\alpha\dcquery.obj \
+    $(_OBJ_DIR)\alpha\ddraw.obj \
+    $(_OBJ_DIR)\alpha\font.obj \
+    $(_OBJ_DIR)\alpha\icm.obj \
+    $(_OBJ_DIR)\alpha\ldc.obj \
+    $(_OBJ_DIR)\alpha\linedda.obj \
+    $(_OBJ_DIR)\alpha\local.obj \
+    $(_OBJ_DIR)\alpha\mem.obj \
+    $(_OBJ_DIR)\alpha\mfplay16.obj \
+    $(_OBJ_DIR)\alpha\mfrec16.obj \
+    $(_OBJ_DIR)\alpha\nlsconv.obj \
+    $(_OBJ_DIR)\alpha\object.obj \
+    $(_OBJ_DIR)\alpha\output.obj \
+    $(_OBJ_DIR)\alpha\pal.obj \
+    $(_OBJ_DIR)\alpha\path.obj \
+    $(_OBJ_DIR)\alpha\pixelfmt.obj \
+    $(_OBJ_DIR)\alpha\poly.obj \
+    $(_OBJ_DIR)\alpha\region.obj \
+    $(_OBJ_DIR)\alpha\script.obj \
+    $(_OBJ_DIR)\alpha\fareast.obj \
+    $(_OBJ_DIR)\alpha\print.obj \
+    $(_OBJ_DIR)\alpha\ufi.obj \
+    $(_OBJ_DIR)\alpha\glsup.obj \
+    $(_OBJ_DIR)\alpha\csxobj.obj \
+    $(_OBJ_DIR)\alpha\metafile.obj \
+    $(_OBJ_DIR)\alpha\metarec.obj \
+    $(_OBJ_DIR)\alpha\metasup.obj \
+    $(_OBJ_DIR)\alpha\mfdc.obj \
+    $(_OBJ_DIR)\alpha\mfrec.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\gdi.res \
+    $(_OBJ_DIR)\mips\cfont.obj \
+    $(_OBJ_DIR)\mips\bitmap.obj \
+    $(_OBJ_DIR)\mips\xform.obj \
+    $(_OBJ_DIR)\mips\dllinit.obj \
+    $(_OBJ_DIR)\mips\dcmod.obj \
+    $(_OBJ_DIR)\mips\dcquery.obj \
+    $(_OBJ_DIR)\mips\ddraw.obj \
+    $(_OBJ_DIR)\mips\font.obj \
+    $(_OBJ_DIR)\mips\icm.obj \
+    $(_OBJ_DIR)\mips\ldc.obj \
+    $(_OBJ_DIR)\mips\linedda.obj \
+    $(_OBJ_DIR)\mips\local.obj \
+    $(_OBJ_DIR)\mips\mem.obj \
+    $(_OBJ_DIR)\mips\mfplay16.obj \
+    $(_OBJ_DIR)\mips\mfrec16.obj \
+    $(_OBJ_DIR)\mips\nlsconv.obj \
+    $(_OBJ_DIR)\mips\object.obj \
+    $(_OBJ_DIR)\mips\output.obj \
+    $(_OBJ_DIR)\mips\pal.obj \
+    $(_OBJ_DIR)\mips\path.obj \
+    $(_OBJ_DIR)\mips\pixelfmt.obj \
+    $(_OBJ_DIR)\mips\poly.obj \
+    $(_OBJ_DIR)\mips\region.obj \
+    $(_OBJ_DIR)\mips\script.obj \
+    $(_OBJ_DIR)\mips\fareast.obj \
+    $(_OBJ_DIR)\mips\print.obj \
+    $(_OBJ_DIR)\mips\ufi.obj \
+    $(_OBJ_DIR)\mips\glsup.obj \
+    $(_OBJ_DIR)\mips\csxobj.obj \
+    $(_OBJ_DIR)\mips\metafile.obj \
+    $(_OBJ_DIR)\mips\metarec.obj \
+    $(_OBJ_DIR)\mips\metasup.obj \
+    $(_OBJ_DIR)\mips\mfdc.obj \
+    $(_OBJ_DIR)\mips\mfrec.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\gdi.res \
+    $(_OBJ_DIR)\i386\cfont.obj \
+    $(_OBJ_DIR)\i386\bitmap.obj \
+    $(_OBJ_DIR)\i386\xform.obj \
+    $(_OBJ_DIR)\i386\dllinit.obj \
+    $(_OBJ_DIR)\i386\dcmod.obj \
+    $(_OBJ_DIR)\i386\dcquery.obj \
+    $(_OBJ_DIR)\i386\ddraw.obj \
+    $(_OBJ_DIR)\i386\font.obj \
+    $(_OBJ_DIR)\i386\icm.obj \
+    $(_OBJ_DIR)\i386\ldc.obj \
+    $(_OBJ_DIR)\i386\linedda.obj \
+    $(_OBJ_DIR)\i386\local.obj \
+    $(_OBJ_DIR)\i386\mem.obj \
+    $(_OBJ_DIR)\i386\mfplay16.obj \
+    $(_OBJ_DIR)\i386\mfrec16.obj \
+    $(_OBJ_DIR)\i386\nlsconv.obj \
+    $(_OBJ_DIR)\i386\object.obj \
+    $(_OBJ_DIR)\i386\output.obj \
+    $(_OBJ_DIR)\i386\pal.obj \
+    $(_OBJ_DIR)\i386\path.obj \
+    $(_OBJ_DIR)\i386\pixelfmt.obj \
+    $(_OBJ_DIR)\i386\poly.obj \
+    $(_OBJ_DIR)\i386\region.obj \
+    $(_OBJ_DIR)\i386\script.obj \
+    $(_OBJ_DIR)\i386\fareast.obj \
+    $(_OBJ_DIR)\i386\print.obj \
+    $(_OBJ_DIR)\i386\ufi.obj \
+    $(_OBJ_DIR)\i386\glsup.obj \
+    $(_OBJ_DIR)\i386\csxobj.obj \
+    $(_OBJ_DIR)\i386\metafile.obj \
+    $(_OBJ_DIR)\i386\metarec.obj \
+    $(_OBJ_DIR)\i386\metasup.obj \
+    $(_OBJ_DIR)\i386\mfdc.obj \
+    $(_OBJ_DIR)\i386\mfrec.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\gdi.res \
+    $(_OBJ_DIR)\ppc\cfont.obj \
+    $(_OBJ_DIR)\ppc\bitmap.obj \
+    $(_OBJ_DIR)\ppc\xform.obj \
+    $(_OBJ_DIR)\ppc\dllinit.obj \
+    $(_OBJ_DIR)\ppc\dcmod.obj \
+    $(_OBJ_DIR)\ppc\dcquery.obj \
+    $(_OBJ_DIR)\ppc\ddraw.obj \
+    $(_OBJ_DIR)\ppc\font.obj \
+    $(_OBJ_DIR)\ppc\icm.obj \
+    $(_OBJ_DIR)\ppc\ldc.obj \
+    $(_OBJ_DIR)\ppc\linedda.obj \
+    $(_OBJ_DIR)\ppc\local.obj \
+    $(_OBJ_DIR)\ppc\mem.obj \
+    $(_OBJ_DIR)\ppc\mfplay16.obj \
+    $(_OBJ_DIR)\ppc\mfrec16.obj \
+    $(_OBJ_DIR)\ppc\nlsconv.obj \
+    $(_OBJ_DIR)\ppc\object.obj \
+    $(_OBJ_DIR)\ppc\output.obj \
+    $(_OBJ_DIR)\ppc\pal.obj \
+    $(_OBJ_DIR)\ppc\path.obj \
+    $(_OBJ_DIR)\ppc\pixelfmt.obj \
+    $(_OBJ_DIR)\ppc\poly.obj \
+    $(_OBJ_DIR)\ppc\region.obj \
+    $(_OBJ_DIR)\ppc\script.obj \
+    $(_OBJ_DIR)\ppc\fareast.obj \
+    $(_OBJ_DIR)\ppc\print.obj \
+    $(_OBJ_DIR)\ppc\ufi.obj \
+    $(_OBJ_DIR)\ppc\glsup.obj \
+    $(_OBJ_DIR)\ppc\csxobj.obj \
+    $(_OBJ_DIR)\ppc\metafile.obj \
+    $(_OBJ_DIR)\ppc\metarec.obj \
+    $(_OBJ_DIR)\ppc\metasup.obj \
+    $(_OBJ_DIR)\ppc\mfdc.obj \
+    $(_OBJ_DIR)\ppc\mfrec.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mciwave.res \
+    $(_OBJ_DIR)\alpha\mwrec.obj \
+    $(_OBJ_DIR)\alpha\mwinfo.obj \
+    $(_OBJ_DIR)\alpha\mwplay.obj \
+    $(_OBJ_DIR)\alpha\mciwave.obj \
+    $(_OBJ_DIR)\alpha\drvproc.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\config.obj \
+    $(_OBJ_DIR)\alpha\support.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mciwave.res \
+    $(_OBJ_DIR)\mips\mwrec.obj \
+    $(_OBJ_DIR)\mips\mwinfo.obj \
+    $(_OBJ_DIR)\mips\mwplay.obj \
+    $(_OBJ_DIR)\mips\mciwave.obj \
+    $(_OBJ_DIR)\mips\drvproc.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\config.obj \
+    $(_OBJ_DIR)\mips\support.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mciwave.res \
+    $(_OBJ_DIR)\i386\mwrec.obj \
+    $(_OBJ_DIR)\i386\mwinfo.obj \
+    $(_OBJ_DIR)\i386\mwplay.obj \
+    $(_OBJ_DIR)\i386\mciwave.obj \
+    $(_OBJ_DIR)\i386\drvproc.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\support.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mciwave.res \
+    $(_OBJ_DIR)\ppc\mwrec.obj \
+    $(_OBJ_DIR)\ppc\mwinfo.obj \
+    $(_OBJ_DIR)\ppc\mwplay.obj \
+    $(_OBJ_DIR)\ppc\mciwave.obj \
+    $(_OBJ_DIR)\ppc\drvproc.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\config.obj \
+    $(_OBJ_DIR)\ppc\support.obj
+
+PASS0_PPC_OBJECTS=
+

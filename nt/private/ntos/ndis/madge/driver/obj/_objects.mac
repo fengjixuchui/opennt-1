@@ -1,0 +1,116 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mdgmport.res \
+    $(_OBJ_DIR)\alpha\madge.obj \
+    $(_OBJ_DIR)\alpha\dispatch.obj \
+    $(_OBJ_DIR)\alpha\request.obj \
+    $(_OBJ_DIR)\alpha\ftk_user.obj \
+    $(_OBJ_DIR)\alpha\sys_allo.obj \
+    $(_OBJ_DIR)\alpha\sys_dma.obj \
+    $(_OBJ_DIR)\alpha\sys_irq.obj \
+    $(_OBJ_DIR)\alpha\sys_mem.obj \
+    $(_OBJ_DIR)\alpha\sys_time.obj \
+    $(_OBJ_DIR)\alpha\hwi_gen.obj \
+    $(_OBJ_DIR)\alpha\hwi_at.obj \
+    $(_OBJ_DIR)\alpha\hwi_sm16.obj \
+    $(_OBJ_DIR)\alpha\hwi_eisa.obj \
+    $(_OBJ_DIR)\alpha\hwi_mc.obj \
+    $(_OBJ_DIR)\alpha\hwi_pci.obj \
+    $(_OBJ_DIR)\alpha\hwi_pcmc.obj \
+    $(_OBJ_DIR)\alpha\hwi_pnp.obj \
+    $(_OBJ_DIR)\alpha\hwi_pcit.obj \
+    $(_OBJ_DIR)\alpha\hwi_pci2.obj \
+    $(_OBJ_DIR)\alpha\drv_err.obj \
+    $(_OBJ_DIR)\alpha\drv_srb.obj \
+    $(_OBJ_DIR)\alpha\drv_irq.obj \
+    $(_OBJ_DIR)\alpha\drv_init.obj \
+    $(_OBJ_DIR)\alpha\util.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mdgmport.res \
+    $(_OBJ_DIR)\mips\madge.obj \
+    $(_OBJ_DIR)\mips\dispatch.obj \
+    $(_OBJ_DIR)\mips\request.obj \
+    $(_OBJ_DIR)\mips\ftk_user.obj \
+    $(_OBJ_DIR)\mips\sys_allo.obj \
+    $(_OBJ_DIR)\mips\sys_dma.obj \
+    $(_OBJ_DIR)\mips\sys_irq.obj \
+    $(_OBJ_DIR)\mips\sys_mem.obj \
+    $(_OBJ_DIR)\mips\sys_time.obj \
+    $(_OBJ_DIR)\mips\hwi_gen.obj \
+    $(_OBJ_DIR)\mips\hwi_at.obj \
+    $(_OBJ_DIR)\mips\hwi_sm16.obj \
+    $(_OBJ_DIR)\mips\hwi_eisa.obj \
+    $(_OBJ_DIR)\mips\hwi_mc.obj \
+    $(_OBJ_DIR)\mips\hwi_pci.obj \
+    $(_OBJ_DIR)\mips\hwi_pcmc.obj \
+    $(_OBJ_DIR)\mips\hwi_pnp.obj \
+    $(_OBJ_DIR)\mips\hwi_pcit.obj \
+    $(_OBJ_DIR)\mips\hwi_pci2.obj \
+    $(_OBJ_DIR)\mips\drv_err.obj \
+    $(_OBJ_DIR)\mips\drv_srb.obj \
+    $(_OBJ_DIR)\mips\drv_irq.obj \
+    $(_OBJ_DIR)\mips\drv_init.obj \
+    $(_OBJ_DIR)\mips\util.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mdgmport.res \
+    $(_OBJ_DIR)\i386\madge.obj \
+    $(_OBJ_DIR)\i386\dispatch.obj \
+    $(_OBJ_DIR)\i386\request.obj \
+    $(_OBJ_DIR)\i386\ftk_user.obj \
+    $(_OBJ_DIR)\i386\sys_allo.obj \
+    $(_OBJ_DIR)\i386\sys_dma.obj \
+    $(_OBJ_DIR)\i386\sys_irq.obj \
+    $(_OBJ_DIR)\i386\sys_mem.obj \
+    $(_OBJ_DIR)\i386\sys_time.obj \
+    $(_OBJ_DIR)\i386\hwi_gen.obj \
+    $(_OBJ_DIR)\i386\hwi_at.obj \
+    $(_OBJ_DIR)\i386\hwi_sm16.obj \
+    $(_OBJ_DIR)\i386\hwi_eisa.obj \
+    $(_OBJ_DIR)\i386\hwi_mc.obj \
+    $(_OBJ_DIR)\i386\hwi_pci.obj \
+    $(_OBJ_DIR)\i386\hwi_pcmc.obj \
+    $(_OBJ_DIR)\i386\hwi_pnp.obj \
+    $(_OBJ_DIR)\i386\hwi_pcit.obj \
+    $(_OBJ_DIR)\i386\hwi_pci2.obj \
+    $(_OBJ_DIR)\i386\drv_err.obj \
+    $(_OBJ_DIR)\i386\drv_srb.obj \
+    $(_OBJ_DIR)\i386\drv_irq.obj \
+    $(_OBJ_DIR)\i386\drv_init.obj \
+    $(_OBJ_DIR)\i386\util.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mdgmport.res \
+    $(_OBJ_DIR)\ppc\madge.obj \
+    $(_OBJ_DIR)\ppc\dispatch.obj \
+    $(_OBJ_DIR)\ppc\request.obj \
+    $(_OBJ_DIR)\ppc\ftk_user.obj \
+    $(_OBJ_DIR)\ppc\sys_allo.obj \
+    $(_OBJ_DIR)\ppc\sys_dma.obj \
+    $(_OBJ_DIR)\ppc\sys_irq.obj \
+    $(_OBJ_DIR)\ppc\sys_mem.obj \
+    $(_OBJ_DIR)\ppc\sys_time.obj \
+    $(_OBJ_DIR)\ppc\hwi_gen.obj \
+    $(_OBJ_DIR)\ppc\hwi_at.obj \
+    $(_OBJ_DIR)\ppc\hwi_sm16.obj \
+    $(_OBJ_DIR)\ppc\hwi_eisa.obj \
+    $(_OBJ_DIR)\ppc\hwi_mc.obj \
+    $(_OBJ_DIR)\ppc\hwi_pci.obj \
+    $(_OBJ_DIR)\ppc\hwi_pcmc.obj \
+    $(_OBJ_DIR)\ppc\hwi_pnp.obj \
+    $(_OBJ_DIR)\ppc\hwi_pcit.obj \
+    $(_OBJ_DIR)\ppc\hwi_pci2.obj \
+    $(_OBJ_DIR)\ppc\drv_err.obj \
+    $(_OBJ_DIR)\ppc\drv_srb.obj \
+    $(_OBJ_DIR)\ppc\drv_irq.obj \
+    $(_OBJ_DIR)\ppc\drv_init.obj \
+    $(_OBJ_DIR)\ppc\util.obj
+
+PASS0_PPC_OBJECTS=
+

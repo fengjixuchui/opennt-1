@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\defclsf.obj \
+    $(_OBJ_DIR)\alpha\pageext.obj \
+    $(_OBJ_DIR)\alpha\fspage.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\defclsf.obj \
+    $(_OBJ_DIR)\mips\pageext.obj \
+    $(_OBJ_DIR)\mips\fspage.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\defclsf.obj \
+    $(_OBJ_DIR)\i386\pageext.obj \
+    $(_OBJ_DIR)\i386\fspage.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\defclsf.obj \
+    $(_OBJ_DIR)\ppc\pageext.obj \
+    $(_OBJ_DIR)\ppc\fspage.obj
+
+PASS0_PPC_OBJECTS=
+

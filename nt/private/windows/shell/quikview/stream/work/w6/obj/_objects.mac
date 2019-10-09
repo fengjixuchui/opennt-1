@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\vsw6.res \
+    $(_OBJ_DIR)\alpha\vsd_w6.obj \
+    $(_OBJ_DIR)\alpha\vs_w6.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\vsw6.res \
+    $(_OBJ_DIR)\mips\vsd_w6.obj \
+    $(_OBJ_DIR)\mips\vs_w6.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\vsw6.res \
+    $(_OBJ_DIR)\i386\vsd_w6.obj \
+    $(_OBJ_DIR)\i386\vs_w6.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\vsw6.res \
+    $(_OBJ_DIR)\ppc\vsd_w6.obj \
+    $(_OBJ_DIR)\ppc\vs_w6.obj
+
+PASS0_PPC_OBJECTS=
+

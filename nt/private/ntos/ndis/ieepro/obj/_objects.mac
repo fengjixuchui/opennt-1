@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\epro.res \
+    $(_OBJ_DIR)\alpha\epro.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\request.obj \
+    $(_OBJ_DIR)\alpha\eeprom.obj \
+    $(_OBJ_DIR)\alpha\sndrcv.obj \
+    $(_OBJ_DIR)\alpha\eprodbg.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\epro.res \
+    $(_OBJ_DIR)\mips\epro.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\request.obj \
+    $(_OBJ_DIR)\mips\eeprom.obj \
+    $(_OBJ_DIR)\mips\sndrcv.obj \
+    $(_OBJ_DIR)\mips\eprodbg.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\epro.res \
+    $(_OBJ_DIR)\i386\epro.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\request.obj \
+    $(_OBJ_DIR)\i386\eeprom.obj \
+    $(_OBJ_DIR)\i386\sndrcv.obj \
+    $(_OBJ_DIR)\i386\eprodbg.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\epro.res \
+    $(_OBJ_DIR)\ppc\epro.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\request.obj \
+    $(_OBJ_DIR)\ppc\eeprom.obj \
+    $(_OBJ_DIR)\ppc\sndrcv.obj \
+    $(_OBJ_DIR)\ppc\eprodbg.obj
+
+PASS0_PPC_OBJECTS=
+

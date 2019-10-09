@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\fmifs.res \
+    $(_OBJ_DIR)\alpha\fmifsmsg.obj \
+    $(_OBJ_DIR)\alpha\format.obj \
+    $(_OBJ_DIR)\alpha\label.obj \
+    $(_OBJ_DIR)\alpha\diskcopy.obj \
+    $(_OBJ_DIR)\alpha\fmifs.obj \
+    $(_OBJ_DIR)\alpha\chkdsk.obj \
+    $(_OBJ_DIR)\alpha\chkmsg.obj \
+    $(_OBJ_DIR)\alpha\extend.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\fmifs.res \
+    $(_OBJ_DIR)\mips\fmifsmsg.obj \
+    $(_OBJ_DIR)\mips\format.obj \
+    $(_OBJ_DIR)\mips\label.obj \
+    $(_OBJ_DIR)\mips\diskcopy.obj \
+    $(_OBJ_DIR)\mips\fmifs.obj \
+    $(_OBJ_DIR)\mips\chkdsk.obj \
+    $(_OBJ_DIR)\mips\chkmsg.obj \
+    $(_OBJ_DIR)\mips\extend.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\fmifs.res \
+    $(_OBJ_DIR)\i386\fmifsmsg.obj \
+    $(_OBJ_DIR)\i386\format.obj \
+    $(_OBJ_DIR)\i386\label.obj \
+    $(_OBJ_DIR)\i386\diskcopy.obj \
+    $(_OBJ_DIR)\i386\fmifs.obj \
+    $(_OBJ_DIR)\i386\chkdsk.obj \
+    $(_OBJ_DIR)\i386\chkmsg.obj \
+    $(_OBJ_DIR)\i386\extend.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\fmifs.res \
+    $(_OBJ_DIR)\ppc\fmifsmsg.obj \
+    $(_OBJ_DIR)\ppc\format.obj \
+    $(_OBJ_DIR)\ppc\label.obj \
+    $(_OBJ_DIR)\ppc\diskcopy.obj \
+    $(_OBJ_DIR)\ppc\fmifs.obj \
+    $(_OBJ_DIR)\ppc\chkdsk.obj \
+    $(_OBJ_DIR)\ppc\chkmsg.obj \
+    $(_OBJ_DIR)\ppc\extend.obj
+
+PASS0_PPC_OBJECTS=
+

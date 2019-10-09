@@ -1,0 +1,80 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\winspool.res \
+    $(_OBJ_DIR)\alpha\prop.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\winspl_c.obj \
+    $(_OBJ_DIR)\alpha\winspool.obj \
+    $(_OBJ_DIR)\alpha\bind.obj \
+    $(_OBJ_DIR)\alpha\midluser.obj \
+    $(_OBJ_DIR)\alpha\data.obj \
+    $(_OBJ_DIR)\alpha\winspla.obj \
+    $(_OBJ_DIR)\alpha\browse.obj \
+    $(_OBJ_DIR)\alpha\thread.obj \
+    $(_OBJ_DIR)\alpha\password.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\pfdlg.obj \
+    $(_OBJ_DIR)\alpha\change.obj \
+    $(_OBJ_DIR)\alpha\splinit.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\winspool.res \
+    $(_OBJ_DIR)\mips\prop.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\winspl_c.obj \
+    $(_OBJ_DIR)\mips\winspool.obj \
+    $(_OBJ_DIR)\mips\bind.obj \
+    $(_OBJ_DIR)\mips\midluser.obj \
+    $(_OBJ_DIR)\mips\data.obj \
+    $(_OBJ_DIR)\mips\winspla.obj \
+    $(_OBJ_DIR)\mips\browse.obj \
+    $(_OBJ_DIR)\mips\thread.obj \
+    $(_OBJ_DIR)\mips\password.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\pfdlg.obj \
+    $(_OBJ_DIR)\mips\change.obj \
+    $(_OBJ_DIR)\mips\splinit.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\winspool.res \
+    $(_OBJ_DIR)\i386\prop.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\winspl_c.obj \
+    $(_OBJ_DIR)\i386\winspool.obj \
+    $(_OBJ_DIR)\i386\bind.obj \
+    $(_OBJ_DIR)\i386\midluser.obj \
+    $(_OBJ_DIR)\i386\data.obj \
+    $(_OBJ_DIR)\i386\winspla.obj \
+    $(_OBJ_DIR)\i386\browse.obj \
+    $(_OBJ_DIR)\i386\thread.obj \
+    $(_OBJ_DIR)\i386\password.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\pfdlg.obj \
+    $(_OBJ_DIR)\i386\change.obj \
+    $(_OBJ_DIR)\i386\splinit.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\winspool.res \
+    $(_OBJ_DIR)\ppc\prop.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\winspl_c.obj \
+    $(_OBJ_DIR)\ppc\winspool.obj \
+    $(_OBJ_DIR)\ppc\bind.obj \
+    $(_OBJ_DIR)\ppc\midluser.obj \
+    $(_OBJ_DIR)\ppc\data.obj \
+    $(_OBJ_DIR)\ppc\winspla.obj \
+    $(_OBJ_DIR)\ppc\browse.obj \
+    $(_OBJ_DIR)\ppc\thread.obj \
+    $(_OBJ_DIR)\ppc\password.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\pfdlg.obj \
+    $(_OBJ_DIR)\ppc\change.obj \
+    $(_OBJ_DIR)\ppc\splinit.obj
+
+PASS0_PPC_OBJECTS=
+

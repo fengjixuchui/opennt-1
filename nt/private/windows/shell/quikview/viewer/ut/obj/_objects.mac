@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\sccut.res \
+    $(_OBJ_DIR)\alpha\sccio.obj \
+    $(_OBJ_DIR)\alpha\sccls.obj \
+    $(_OBJ_DIR)\alpha\sccut.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\sccut.res \
+    $(_OBJ_DIR)\mips\sccio.obj \
+    $(_OBJ_DIR)\mips\sccls.obj \
+    $(_OBJ_DIR)\mips\sccut.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\sccut.res \
+    $(_OBJ_DIR)\i386\sccio.obj \
+    $(_OBJ_DIR)\i386\sccls.obj \
+    $(_OBJ_DIR)\i386\sccut.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\sccut.res \
+    $(_OBJ_DIR)\ppc\sccio.obj \
+    $(_OBJ_DIR)\ppc\sccls.obj \
+    $(_OBJ_DIR)\ppc\sccut.obj
+
+PASS0_PPC_OBJECTS=
+

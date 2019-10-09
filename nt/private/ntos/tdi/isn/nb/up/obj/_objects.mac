@@ -1,0 +1,92 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\nwlnknb.res \
+    $(_OBJ_DIR)\alpha\action.obj \
+    $(_OBJ_DIR)\alpha\address.obj \
+    $(_OBJ_DIR)\alpha\autodial.obj \
+    $(_OBJ_DIR)\alpha\bind.obj \
+    $(_OBJ_DIR)\alpha\cache.obj \
+    $(_OBJ_DIR)\alpha\config.obj \
+    $(_OBJ_DIR)\alpha\connect.obj \
+    $(_OBJ_DIR)\alpha\datagram.obj \
+    $(_OBJ_DIR)\alpha\device.obj \
+    $(_OBJ_DIR)\alpha\driver.obj \
+    $(_OBJ_DIR)\alpha\event.obj \
+    $(_OBJ_DIR)\alpha\frame.obj \
+    $(_OBJ_DIR)\alpha\packet.obj \
+    $(_OBJ_DIR)\alpha\query.obj \
+    $(_OBJ_DIR)\alpha\receive.obj \
+    $(_OBJ_DIR)\alpha\send.obj \
+    $(_OBJ_DIR)\alpha\session.obj \
+    $(_OBJ_DIR)\alpha\timer.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\nwlnknb.res \
+    $(_OBJ_DIR)\mips\action.obj \
+    $(_OBJ_DIR)\mips\address.obj \
+    $(_OBJ_DIR)\mips\autodial.obj \
+    $(_OBJ_DIR)\mips\bind.obj \
+    $(_OBJ_DIR)\mips\cache.obj \
+    $(_OBJ_DIR)\mips\config.obj \
+    $(_OBJ_DIR)\mips\connect.obj \
+    $(_OBJ_DIR)\mips\datagram.obj \
+    $(_OBJ_DIR)\mips\device.obj \
+    $(_OBJ_DIR)\mips\driver.obj \
+    $(_OBJ_DIR)\mips\event.obj \
+    $(_OBJ_DIR)\mips\frame.obj \
+    $(_OBJ_DIR)\mips\packet.obj \
+    $(_OBJ_DIR)\mips\query.obj \
+    $(_OBJ_DIR)\mips\receive.obj \
+    $(_OBJ_DIR)\mips\send.obj \
+    $(_OBJ_DIR)\mips\session.obj \
+    $(_OBJ_DIR)\mips\timer.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\nwlnknb.res \
+    $(_OBJ_DIR)\i386\action.obj \
+    $(_OBJ_DIR)\i386\address.obj \
+    $(_OBJ_DIR)\i386\autodial.obj \
+    $(_OBJ_DIR)\i386\bind.obj \
+    $(_OBJ_DIR)\i386\cache.obj \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\connect.obj \
+    $(_OBJ_DIR)\i386\datagram.obj \
+    $(_OBJ_DIR)\i386\device.obj \
+    $(_OBJ_DIR)\i386\driver.obj \
+    $(_OBJ_DIR)\i386\event.obj \
+    $(_OBJ_DIR)\i386\frame.obj \
+    $(_OBJ_DIR)\i386\packet.obj \
+    $(_OBJ_DIR)\i386\query.obj \
+    $(_OBJ_DIR)\i386\receive.obj \
+    $(_OBJ_DIR)\i386\send.obj \
+    $(_OBJ_DIR)\i386\session.obj \
+    $(_OBJ_DIR)\i386\timer.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\nwlnknb.res \
+    $(_OBJ_DIR)\ppc\action.obj \
+    $(_OBJ_DIR)\ppc\address.obj \
+    $(_OBJ_DIR)\ppc\autodial.obj \
+    $(_OBJ_DIR)\ppc\bind.obj \
+    $(_OBJ_DIR)\ppc\cache.obj \
+    $(_OBJ_DIR)\ppc\config.obj \
+    $(_OBJ_DIR)\ppc\connect.obj \
+    $(_OBJ_DIR)\ppc\datagram.obj \
+    $(_OBJ_DIR)\ppc\device.obj \
+    $(_OBJ_DIR)\ppc\driver.obj \
+    $(_OBJ_DIR)\ppc\event.obj \
+    $(_OBJ_DIR)\ppc\frame.obj \
+    $(_OBJ_DIR)\ppc\packet.obj \
+    $(_OBJ_DIR)\ppc\query.obj \
+    $(_OBJ_DIR)\ppc\receive.obj \
+    $(_OBJ_DIR)\ppc\send.obj \
+    $(_OBJ_DIR)\ppc\session.obj \
+    $(_OBJ_DIR)\ppc\timer.obj
+
+PASS0_PPC_OBJECTS=
+

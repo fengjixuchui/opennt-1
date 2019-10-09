@@ -1,0 +1,112 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\_filbuf.obj \
+    $(_OBJ_DIR)\alpha\_filwbuf.obj \
+    $(_OBJ_DIR)\alpha\_flsbuf.obj \
+    $(_OBJ_DIR)\alpha\_flswbuf.obj \
+    $(_OBJ_DIR)\alpha\_getbuf.obj \
+    $(_OBJ_DIR)\alpha\fgetwc.obj \
+    $(_OBJ_DIR)\alpha\fgetwchr.obj \
+    $(_OBJ_DIR)\alpha\fputwc.obj \
+    $(_OBJ_DIR)\alpha\fputwchr.obj \
+    $(_OBJ_DIR)\alpha\input.obj \
+    $(_OBJ_DIR)\alpha\output.obj \
+    $(_OBJ_DIR)\alpha\snprintf.obj \
+    $(_OBJ_DIR)\alpha\snwprint.obj \
+    $(_OBJ_DIR)\alpha\sprintf.obj \
+    $(_OBJ_DIR)\alpha\sscanf.obj \
+    $(_OBJ_DIR)\alpha\swprintf.obj \
+    $(_OBJ_DIR)\alpha\swscanf.obj \
+    $(_OBJ_DIR)\alpha\ungetc.obj \
+    $(_OBJ_DIR)\alpha\vsnprint.obj \
+    $(_OBJ_DIR)\alpha\vsnwprnt.obj \
+    $(_OBJ_DIR)\alpha\vsprintf.obj \
+    $(_OBJ_DIR)\alpha\vswprint.obj \
+    $(_OBJ_DIR)\alpha\winput.obj \
+    $(_OBJ_DIR)\alpha\woutput.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\_filbuf.obj \
+    $(_OBJ_DIR)\mips\_filwbuf.obj \
+    $(_OBJ_DIR)\mips\_flsbuf.obj \
+    $(_OBJ_DIR)\mips\_flswbuf.obj \
+    $(_OBJ_DIR)\mips\_getbuf.obj \
+    $(_OBJ_DIR)\mips\fgetwc.obj \
+    $(_OBJ_DIR)\mips\fgetwchr.obj \
+    $(_OBJ_DIR)\mips\fputwc.obj \
+    $(_OBJ_DIR)\mips\fputwchr.obj \
+    $(_OBJ_DIR)\mips\input.obj \
+    $(_OBJ_DIR)\mips\output.obj \
+    $(_OBJ_DIR)\mips\snprintf.obj \
+    $(_OBJ_DIR)\mips\snwprint.obj \
+    $(_OBJ_DIR)\mips\sprintf.obj \
+    $(_OBJ_DIR)\mips\sscanf.obj \
+    $(_OBJ_DIR)\mips\swprintf.obj \
+    $(_OBJ_DIR)\mips\swscanf.obj \
+    $(_OBJ_DIR)\mips\ungetc.obj \
+    $(_OBJ_DIR)\mips\vsnprint.obj \
+    $(_OBJ_DIR)\mips\vsnwprnt.obj \
+    $(_OBJ_DIR)\mips\vsprintf.obj \
+    $(_OBJ_DIR)\mips\vswprint.obj \
+    $(_OBJ_DIR)\mips\winput.obj \
+    $(_OBJ_DIR)\mips\woutput.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\_filbuf.obj \
+    $(_OBJ_DIR)\i386\_filwbuf.obj \
+    $(_OBJ_DIR)\i386\_flsbuf.obj \
+    $(_OBJ_DIR)\i386\_flswbuf.obj \
+    $(_OBJ_DIR)\i386\_getbuf.obj \
+    $(_OBJ_DIR)\i386\fgetwc.obj \
+    $(_OBJ_DIR)\i386\fgetwchr.obj \
+    $(_OBJ_DIR)\i386\fputwc.obj \
+    $(_OBJ_DIR)\i386\fputwchr.obj \
+    $(_OBJ_DIR)\i386\input.obj \
+    $(_OBJ_DIR)\i386\output.obj \
+    $(_OBJ_DIR)\i386\snprintf.obj \
+    $(_OBJ_DIR)\i386\snwprint.obj \
+    $(_OBJ_DIR)\i386\sprintf.obj \
+    $(_OBJ_DIR)\i386\sscanf.obj \
+    $(_OBJ_DIR)\i386\swprintf.obj \
+    $(_OBJ_DIR)\i386\swscanf.obj \
+    $(_OBJ_DIR)\i386\ungetc.obj \
+    $(_OBJ_DIR)\i386\vsnprint.obj \
+    $(_OBJ_DIR)\i386\vsnwprnt.obj \
+    $(_OBJ_DIR)\i386\vsprintf.obj \
+    $(_OBJ_DIR)\i386\vswprint.obj \
+    $(_OBJ_DIR)\i386\winput.obj \
+    $(_OBJ_DIR)\i386\woutput.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\_filbuf.obj \
+    $(_OBJ_DIR)\ppc\_filwbuf.obj \
+    $(_OBJ_DIR)\ppc\_flsbuf.obj \
+    $(_OBJ_DIR)\ppc\_flswbuf.obj \
+    $(_OBJ_DIR)\ppc\_getbuf.obj \
+    $(_OBJ_DIR)\ppc\fgetwc.obj \
+    $(_OBJ_DIR)\ppc\fgetwchr.obj \
+    $(_OBJ_DIR)\ppc\fputwc.obj \
+    $(_OBJ_DIR)\ppc\fputwchr.obj \
+    $(_OBJ_DIR)\ppc\input.obj \
+    $(_OBJ_DIR)\ppc\output.obj \
+    $(_OBJ_DIR)\ppc\snprintf.obj \
+    $(_OBJ_DIR)\ppc\snwprint.obj \
+    $(_OBJ_DIR)\ppc\sprintf.obj \
+    $(_OBJ_DIR)\ppc\sscanf.obj \
+    $(_OBJ_DIR)\ppc\swprintf.obj \
+    $(_OBJ_DIR)\ppc\swscanf.obj \
+    $(_OBJ_DIR)\ppc\ungetc.obj \
+    $(_OBJ_DIR)\ppc\vsnprint.obj \
+    $(_OBJ_DIR)\ppc\vsnwprnt.obj \
+    $(_OBJ_DIR)\ppc\vsprintf.obj \
+    $(_OBJ_DIR)\ppc\vswprint.obj \
+    $(_OBJ_DIR)\ppc\winput.obj \
+    $(_OBJ_DIR)\ppc\woutput.obj
+
+PASS0_PPC_OBJECTS=
+

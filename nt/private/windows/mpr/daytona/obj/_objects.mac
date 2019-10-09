@@ -1,0 +1,96 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mpr.res \
+    $(_OBJ_DIR)\alpha\connect.obj \
+    $(_OBJ_DIR)\alpha\connify.obj \
+    $(_OBJ_DIR)\alpha\connperf.obj \
+    $(_OBJ_DIR)\alpha\credman.obj \
+    $(_OBJ_DIR)\alpha\enum.obj \
+    $(_OBJ_DIR)\alpha\fmt.obj \
+    $(_OBJ_DIR)\alpha\lasterr.obj \
+    $(_OBJ_DIR)\alpha\mpransi.obj \
+    $(_OBJ_DIR)\alpha\mprbase.obj \
+    $(_OBJ_DIR)\alpha\mprinit.obj \
+    $(_OBJ_DIR)\alpha\mprprop.obj \
+    $(_OBJ_DIR)\alpha\mprreg.obj \
+    $(_OBJ_DIR)\alpha\mprui.obj \
+    $(_OBJ_DIR)\alpha\netinfo.obj \
+    $(_OBJ_DIR)\alpha\resinfo.obj \
+    $(_OBJ_DIR)\alpha\strbuf.obj \
+    $(_OBJ_DIR)\alpha\support.obj \
+    $(_OBJ_DIR)\alpha\uniname.obj \
+    $(_OBJ_DIR)\alpha\userdir.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mpr.res \
+    $(_OBJ_DIR)\mips\connect.obj \
+    $(_OBJ_DIR)\mips\connify.obj \
+    $(_OBJ_DIR)\mips\connperf.obj \
+    $(_OBJ_DIR)\mips\credman.obj \
+    $(_OBJ_DIR)\mips\enum.obj \
+    $(_OBJ_DIR)\mips\fmt.obj \
+    $(_OBJ_DIR)\mips\lasterr.obj \
+    $(_OBJ_DIR)\mips\mpransi.obj \
+    $(_OBJ_DIR)\mips\mprbase.obj \
+    $(_OBJ_DIR)\mips\mprinit.obj \
+    $(_OBJ_DIR)\mips\mprprop.obj \
+    $(_OBJ_DIR)\mips\mprreg.obj \
+    $(_OBJ_DIR)\mips\mprui.obj \
+    $(_OBJ_DIR)\mips\netinfo.obj \
+    $(_OBJ_DIR)\mips\resinfo.obj \
+    $(_OBJ_DIR)\mips\strbuf.obj \
+    $(_OBJ_DIR)\mips\support.obj \
+    $(_OBJ_DIR)\mips\uniname.obj \
+    $(_OBJ_DIR)\mips\userdir.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mpr.res \
+    $(_OBJ_DIR)\i386\connect.obj \
+    $(_OBJ_DIR)\i386\connify.obj \
+    $(_OBJ_DIR)\i386\connperf.obj \
+    $(_OBJ_DIR)\i386\credman.obj \
+    $(_OBJ_DIR)\i386\enum.obj \
+    $(_OBJ_DIR)\i386\fmt.obj \
+    $(_OBJ_DIR)\i386\lasterr.obj \
+    $(_OBJ_DIR)\i386\mpransi.obj \
+    $(_OBJ_DIR)\i386\mprbase.obj \
+    $(_OBJ_DIR)\i386\mprinit.obj \
+    $(_OBJ_DIR)\i386\mprprop.obj \
+    $(_OBJ_DIR)\i386\mprreg.obj \
+    $(_OBJ_DIR)\i386\mprui.obj \
+    $(_OBJ_DIR)\i386\netinfo.obj \
+    $(_OBJ_DIR)\i386\resinfo.obj \
+    $(_OBJ_DIR)\i386\strbuf.obj \
+    $(_OBJ_DIR)\i386\support.obj \
+    $(_OBJ_DIR)\i386\uniname.obj \
+    $(_OBJ_DIR)\i386\userdir.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mpr.res \
+    $(_OBJ_DIR)\ppc\connect.obj \
+    $(_OBJ_DIR)\ppc\connify.obj \
+    $(_OBJ_DIR)\ppc\connperf.obj \
+    $(_OBJ_DIR)\ppc\credman.obj \
+    $(_OBJ_DIR)\ppc\enum.obj \
+    $(_OBJ_DIR)\ppc\fmt.obj \
+    $(_OBJ_DIR)\ppc\lasterr.obj \
+    $(_OBJ_DIR)\ppc\mpransi.obj \
+    $(_OBJ_DIR)\ppc\mprbase.obj \
+    $(_OBJ_DIR)\ppc\mprinit.obj \
+    $(_OBJ_DIR)\ppc\mprprop.obj \
+    $(_OBJ_DIR)\ppc\mprreg.obj \
+    $(_OBJ_DIR)\ppc\mprui.obj \
+    $(_OBJ_DIR)\ppc\netinfo.obj \
+    $(_OBJ_DIR)\ppc\resinfo.obj \
+    $(_OBJ_DIR)\ppc\strbuf.obj \
+    $(_OBJ_DIR)\ppc\support.obj \
+    $(_OBJ_DIR)\ppc\uniname.obj \
+    $(_OBJ_DIR)\ppc\userdir.obj
+
+PASS0_PPC_OBJECTS=
+

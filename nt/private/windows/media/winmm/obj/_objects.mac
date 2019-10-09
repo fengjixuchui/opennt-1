@@ -1,0 +1,136 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\winmm.res \
+    $(_OBJ_DIR)\alpha\regapi.obj \
+    $(_OBJ_DIR)\alpha\csrthrd.obj \
+    $(_OBJ_DIR)\alpha\auxout.obj \
+    $(_OBJ_DIR)\alpha\drvr.obj \
+    $(_OBJ_DIR)\alpha\drvrrare.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\joy.obj \
+    $(_OBJ_DIR)\alpha\mixer.obj \
+    $(_OBJ_DIR)\alpha\mmwow32.obj \
+    $(_OBJ_DIR)\alpha\mmwowmci.obj \
+    $(_OBJ_DIR)\alpha\mci.obj \
+    $(_OBJ_DIR)\alpha\mciparse.obj \
+    $(_OBJ_DIR)\alpha\mcisys.obj \
+    $(_OBJ_DIR)\alpha\mmwnd.obj \
+    $(_OBJ_DIR)\alpha\mmio.obj \
+    $(_OBJ_DIR)\alpha\mmioriff.obj \
+    $(_OBJ_DIR)\alpha\mmiomisc.obj \
+    $(_OBJ_DIR)\alpha\midi.obj \
+    $(_OBJ_DIR)\alpha\midistrm.obj \
+    $(_OBJ_DIR)\alpha\playsnd.obj \
+    $(_OBJ_DIR)\alpha\playwav.obj \
+    $(_OBJ_DIR)\alpha\time.obj \
+    $(_OBJ_DIR)\alpha\task.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\winmm.obj \
+    $(_OBJ_DIR)\alpha\wave.obj \
+    $(_OBJ_DIR)\alpha\clock.obj \
+    $(_OBJ_DIR)\alpha\midiemu.obj \
+    $(_OBJ_DIR)\alpha\migrate.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\winmm.res \
+    $(_OBJ_DIR)\mips\regapi.obj \
+    $(_OBJ_DIR)\mips\csrthrd.obj \
+    $(_OBJ_DIR)\mips\auxout.obj \
+    $(_OBJ_DIR)\mips\drvr.obj \
+    $(_OBJ_DIR)\mips\drvrrare.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\joy.obj \
+    $(_OBJ_DIR)\mips\mixer.obj \
+    $(_OBJ_DIR)\mips\mmwow32.obj \
+    $(_OBJ_DIR)\mips\mmwowmci.obj \
+    $(_OBJ_DIR)\mips\mci.obj \
+    $(_OBJ_DIR)\mips\mciparse.obj \
+    $(_OBJ_DIR)\mips\mcisys.obj \
+    $(_OBJ_DIR)\mips\mmwnd.obj \
+    $(_OBJ_DIR)\mips\mmio.obj \
+    $(_OBJ_DIR)\mips\mmioriff.obj \
+    $(_OBJ_DIR)\mips\mmiomisc.obj \
+    $(_OBJ_DIR)\mips\midi.obj \
+    $(_OBJ_DIR)\mips\midistrm.obj \
+    $(_OBJ_DIR)\mips\playsnd.obj \
+    $(_OBJ_DIR)\mips\playwav.obj \
+    $(_OBJ_DIR)\mips\time.obj \
+    $(_OBJ_DIR)\mips\task.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\winmm.obj \
+    $(_OBJ_DIR)\mips\wave.obj \
+    $(_OBJ_DIR)\mips\clock.obj \
+    $(_OBJ_DIR)\mips\midiemu.obj \
+    $(_OBJ_DIR)\mips\migrate.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\winmm.res \
+    $(_OBJ_DIR)\i386\regapi.obj \
+    $(_OBJ_DIR)\i386\csrthrd.obj \
+    $(_OBJ_DIR)\i386\auxout.obj \
+    $(_OBJ_DIR)\i386\drvr.obj \
+    $(_OBJ_DIR)\i386\drvrrare.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\joy.obj \
+    $(_OBJ_DIR)\i386\mixer.obj \
+    $(_OBJ_DIR)\i386\mmwow32.obj \
+    $(_OBJ_DIR)\i386\mmwowmci.obj \
+    $(_OBJ_DIR)\i386\mci.obj \
+    $(_OBJ_DIR)\i386\mciparse.obj \
+    $(_OBJ_DIR)\i386\mcisys.obj \
+    $(_OBJ_DIR)\i386\mmwnd.obj \
+    $(_OBJ_DIR)\i386\mmio.obj \
+    $(_OBJ_DIR)\i386\mmioriff.obj \
+    $(_OBJ_DIR)\i386\mmiomisc.obj \
+    $(_OBJ_DIR)\i386\midi.obj \
+    $(_OBJ_DIR)\i386\midistrm.obj \
+    $(_OBJ_DIR)\i386\playsnd.obj \
+    $(_OBJ_DIR)\i386\playwav.obj \
+    $(_OBJ_DIR)\i386\time.obj \
+    $(_OBJ_DIR)\i386\task.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\winmm.obj \
+    $(_OBJ_DIR)\i386\wave.obj \
+    $(_OBJ_DIR)\i386\clock.obj \
+    $(_OBJ_DIR)\i386\midiemu.obj \
+    $(_OBJ_DIR)\i386\migrate.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\winmm.res \
+    $(_OBJ_DIR)\ppc\regapi.obj \
+    $(_OBJ_DIR)\ppc\csrthrd.obj \
+    $(_OBJ_DIR)\ppc\auxout.obj \
+    $(_OBJ_DIR)\ppc\drvr.obj \
+    $(_OBJ_DIR)\ppc\drvrrare.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\joy.obj \
+    $(_OBJ_DIR)\ppc\mixer.obj \
+    $(_OBJ_DIR)\ppc\mmwow32.obj \
+    $(_OBJ_DIR)\ppc\mmwowmci.obj \
+    $(_OBJ_DIR)\ppc\mci.obj \
+    $(_OBJ_DIR)\ppc\mciparse.obj \
+    $(_OBJ_DIR)\ppc\mcisys.obj \
+    $(_OBJ_DIR)\ppc\mmwnd.obj \
+    $(_OBJ_DIR)\ppc\mmio.obj \
+    $(_OBJ_DIR)\ppc\mmioriff.obj \
+    $(_OBJ_DIR)\ppc\mmiomisc.obj \
+    $(_OBJ_DIR)\ppc\midi.obj \
+    $(_OBJ_DIR)\ppc\midistrm.obj \
+    $(_OBJ_DIR)\ppc\playsnd.obj \
+    $(_OBJ_DIR)\ppc\playwav.obj \
+    $(_OBJ_DIR)\ppc\time.obj \
+    $(_OBJ_DIR)\ppc\task.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\winmm.obj \
+    $(_OBJ_DIR)\ppc\wave.obj \
+    $(_OBJ_DIR)\ppc\clock.obj \
+    $(_OBJ_DIR)\ppc\midiemu.obj \
+    $(_OBJ_DIR)\ppc\migrate.obj
+
+PASS0_PPC_OBJECTS=
+

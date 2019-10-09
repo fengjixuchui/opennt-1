@@ -1,0 +1,2800 @@
+
+=========== SIZE =============
+Input BOM: cdbom.txt
+Source ID: .
+Source Path: .
+Compressed: z
+Time: Wed Oct 09 01:35:25 2019
+==============================
+
+size.exe - Warning - Couldn't find:  ADP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  ADP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  ADP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  ADP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  ADP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  ADP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  ADP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  ADP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  ADP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  ADP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  ADP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  ADP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  AM1500T.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  AMDDLG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  AMDDLG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  AMDDLG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  AMDDLG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  AMDNCDET.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  AMDPCN.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  AMDPCN.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  AMDPCN.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  AMDPCN.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ARP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  ARP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  ARP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  ARP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  192.DNS  assigning 999.
+size.exe - Warning - Couldn't find:  192.DNS  assigning 999.
+size.exe - Warning - Couldn't find:  192.DNS  assigning 999.
+size.exe - Warning - Couldn't find:  192.DNS  assigning 999.
+size.exe - Warning - Couldn't find:  ASYNCMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ASYNCMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ASYNCMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ASYNCMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ATKCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  ATKCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  ATKCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  ATKCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  ATKCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  ATKCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  ATKCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  ATKCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHCTRL.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  BHCTRL.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  BHCTRL.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  BHCTRL.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  BHMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHNETB.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHNETB.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHNETB.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHNETB.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHNT.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  BHNT.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  BHNT.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  BHNT.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  BHP001.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP001.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP001.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP001.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP001.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP001.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP001.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP001.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP002.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP002.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP002.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP002.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP003.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP003.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP003.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP003.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP004.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP004.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP004.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP004.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP005.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP005.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP005.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP005.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP005.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP005.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP005.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP005.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP006.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP006.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP006.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP006.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP006.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP006.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP006.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP006.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP007.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP007.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP007.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP007.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP007.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP007.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP007.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP007.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP008.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP008.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP008.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP008.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP008.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP008.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP008.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP008.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP009.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP009.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP009.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP009.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP010.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP010.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP010.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP010.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP011.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP011.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP011.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP011.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP012.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP012.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP012.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP012.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP012.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP012.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP012.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP012.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP013.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  BHP013.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  BHP013.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  BHP013.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  BHP013.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP013.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP013.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP013.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP013.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  BHP013.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  BHP013.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  BHP013.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  BHP014.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP014.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP014.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP014.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP015.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP015.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP015.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP015.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP015.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP015.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP015.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP015.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP016.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP016.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP016.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP016.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP016.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP016.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP016.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP016.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP017.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP017.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP017.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP017.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP017.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP017.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP017.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP017.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP018.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP018.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP018.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP018.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHP018.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP018.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP018.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHP018.INI  assigning 999.
+size.exe - Warning - Couldn't find:  BHSUPP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHSUPP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHSUPP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BHSUPP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BOOT  assigning 999.
+size.exe - Warning - Couldn't find:  BOOT  assigning 999.
+size.exe - Warning - Couldn't find:  BOOT  assigning 999.
+size.exe - Warning - Couldn't find:  BOOT  assigning 999.
+size.exe - Warning - Couldn't find:  BROWSER.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BROWSER.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BROWSER.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  BROWSER.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  CACHE.DNS  assigning 999.
+size.exe - Warning - Couldn't find:  CACHE.DNS  assigning 999.
+size.exe - Warning - Couldn't find:  CACHE.DNS  assigning 999.
+size.exe - Warning - Couldn't find:  CACHE.DNS  assigning 999.
+size.exe - Warning - Couldn't find:  CACHE.DNS  assigning 999.
+size.exe - Warning - Couldn't find:  CACHE.DNS  assigning 999.
+size.exe - Warning - Couldn't find:  CACHE.DNS  assigning 999.
+size.exe - Warning - Couldn't find:  CACHE.DNS  assigning 999.
+size.exe - Warning - Couldn't find:  CS423X.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  CS423X.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  CS423X.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  CXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  CXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  CXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  CXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  CXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  CXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  CXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  CXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  CXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  CXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  CXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  CXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  CXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  CXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  CXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  CXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DC21X4.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DECPSMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DECPSMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DECPSMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DECPSMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DECPSMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DECPSMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DECPSMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DECPSMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DEFAULT.ADR  assigning 999.
+size.exe - Warning - Couldn't find:  DEFAULT.ADR  assigning 999.
+size.exe - Warning - Couldn't find:  DEFAULT.ADR  assigning 999.
+size.exe - Warning - Couldn't find:  DEFAULT.ADR  assigning 999.
+size.exe - Warning - Couldn't find:  DEFAULT.CF  assigning 999.
+size.exe - Warning - Couldn't find:  DEFAULT.CF  assigning 999.
+size.exe - Warning - Couldn't find:  DEFAULT.CF  assigning 999.
+size.exe - Warning - Couldn't find:  DEFAULT.CF  assigning 999.
+size.exe - Warning - Couldn't find:  DEFAULT.DF  assigning 999.
+size.exe - Warning - Couldn't find:  DEFAULT.DF  assigning 999.
+size.exe - Warning - Couldn't find:  DEFAULT.DF  assigning 999.
+size.exe - Warning - Couldn't find:  DEFAULT.DF  assigning 999.
+size.exe - Warning - Couldn't find:  DEFEA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DEFEA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DEFEA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DEFEA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DEFPA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DEFPA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DEFPA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DEFPA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DFS.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DFS.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DFS.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DFS.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DFSINIT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DFSINIT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DFSINIT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DFSINIT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DFSSVC.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DFSSVC.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DFSSVC.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DFSSVC.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DFSPROV.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DFSPROV.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DFSPROV.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DFSPROV.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DFSSETUP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DFSSETUP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DFSSETUP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DFSSETUP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DFSADMIN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DFSADMIN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DFSADMIN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DFSADMIN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DFSUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DFSUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DFSUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DFSUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DGCONFIG.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  DGCONFIG.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  DGCONFIG.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  DGCONFIG.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  DGCONFIG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DGCONFIG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DGCONFIG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DGCONFIG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DGCONFIG.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DGCONFIG.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DGCONFIG.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DGCONFIG.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPADMN.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPADMN.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPADMN.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPADMN.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPADMN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPADMN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPADMN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPADMN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPADMN.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPADMN.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPADMN.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPADMN.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPCSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPCSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPCSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPCSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPMIB.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPMIB.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPMIB.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPMIB.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPSAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPSAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPSAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPSAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPSSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPSSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPSSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DHCPSSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DIGIFEP5.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DIGIFEP5.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DIGIFEP5.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DIGIFEP5.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DIGIINST.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DIGIINST.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DIGIINST.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DIGIINST.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DLC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DLC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DLC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DLC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  DLCAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DLCAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DLCAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DLCAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  DNSADMIN.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  DNSADMIN.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  DNSADMIN.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  DNSADMIN.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  DNSADMIN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DNSADMIN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DNSADMIN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DNSADMIN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DNSADMIN.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DNSADMIN.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DNSADMIN.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DNSADMIN.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  DNS.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DNS.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DNS.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  DNS.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  EE16.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  EE16.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  EE16.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  EE16.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  EE16.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNK16.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNK16.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNK16.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNK3.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNK3.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNK3.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNK3.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNK3.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNK3.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNK3.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNK3.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNK3.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNK3.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNK3.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNK3.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNK3.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNKII.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNKII.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNKII.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNKII.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ELNKMC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  FILTER.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  FILTER.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  FILTER.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  FILTER.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  FINGER.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  FINGER.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  FINGER.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  FINGER.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  FRIENDLY.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  FRIENDLY.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  FRIENDLY.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  FRIENDLY.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  FTP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  FTP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  FTP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  FTP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  FXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  FXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  FXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  FXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  FXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  FXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  FXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  FXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  HEXEDIT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  HEXEDIT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  HEXEDIT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  HEXEDIT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  HOSTNAME.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  HOSTNAME.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  HOSTNAME.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  HOSTNAME.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  HOSTS.SHP  assigning 999.
+size.exe - Warning - Couldn't find:  HOSTS.SHP  assigning 999.
+size.exe - Warning - Couldn't find:  HOSTS.SHP  assigning 999.
+size.exe - Warning - Couldn't find:  HOSTS.SHP  assigning 999.
+size.exe - Warning - Couldn't find:  HOSTS.SHP  assigning 999.
+size.exe - Warning - Couldn't find:  HOSTS.SHP  assigning 999.
+size.exe - Warning - Couldn't find:  HOSTS.SHP  assigning 999.
+size.exe - Warning - Couldn't find:  HOSTS.SHP  assigning 999.
+size.exe - Warning - Couldn't find:  HPMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  HPMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  HPMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  HPMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  HPMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  HPMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  HPMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  HPMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  HPMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  HPMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  HPMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  HPMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  HPMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  HPMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  HPMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  HPMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  IBMTOK.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  IBMTOK.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  IBMTOK.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  IBMTOK.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  IBMTOK.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  IBMTOK2I.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  IBMTOK2I.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  IBMTOK2I.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  IBMTOK2I.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  ICCVID.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  ICCVID.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  ICCVID.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  ICCVID.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  ICMP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  ICMP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  ICMP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  ICMP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IDP_XFS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  IDP_XFS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  IDP_XFS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  IDP_XFS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  IDP_XFS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  IDP_XFS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  IDP_XFS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  IDP_XFS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  IDP_XFS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  IDP_XFS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  IDP_XFS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  IDP_XFS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  IEEPRO.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  IEEPRO.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  IEEPRO.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  IEEPRO.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  IMAADP32.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  IMAADP32.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  IMAADP32.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  IMAADP32.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  INETMIB1.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  INETMIB1.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  INETMIB1.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  INETMIB1.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  INETMIB1.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  INETMIB1.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  INETMIB1.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  INETMIB1.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IPADRDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IPADRDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IPADRDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IPADRDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IPADRDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IPADRDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IPADRDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IPADRDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IPCONFIG.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  IPCONFIG.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  IPCONFIG.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  IPCONFIG.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  IPINFOR.INF  assigning 999.
+size.exe - Warning - Couldn't find:  IPINFOR.INF  assigning 999.
+size.exe - Warning - Couldn't find:  IPINFOR.INF  assigning 999.
+size.exe - Warning - Couldn't find:  IPINFOR.INF  assigning 999.
+size.exe - Warning - Couldn't find:  IPRIP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IPRIP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IPRIP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IPRIP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IPRIP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IPRIP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IPRIP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IPRIP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IPXROUTE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  IPXROUTE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  IPXROUTE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  IPXROUTE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  IR32_32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IR32_32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IR32_32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  IR32_32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  ISDNHELP.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  ISDNHELP.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  ISDNHELP.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  ISDNHELP.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  ISDNHELP.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  ISDNHELP.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  ISDNHELP.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  ISDNHELP.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  JETPACK.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  JETPACK.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  JETPACK.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  JETPACK.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  JETPACK.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  JETPACK.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  JETPACK.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  JETPACK.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LANCE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LMHOSTS.SAM  assigning 999.
+size.exe - Warning - Couldn't find:  LMHOSTS.SAM  assigning 999.
+size.exe - Warning - Couldn't find:  LMHOSTS.SAM  assigning 999.
+size.exe - Warning - Couldn't find:  LMHOSTS.SAM  assigning 999.
+size.exe - Warning - Couldn't find:  LMHOSTS.SAM  assigning 999.
+size.exe - Warning - Couldn't find:  LMHSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LMHSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LMHSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LMHSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LMMIB2.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LMMIB2.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LMMIB2.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LMMIB2.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LMMIB2.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LMMIB2.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LMMIB2.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LMMIB2.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LMREPL.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LMREPL.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LMREPL.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LMREPL.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LOCALMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LOCALMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LOCALMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LOCALMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LOCATOR.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LOCATOR.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LOCATOR.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LOCATOR.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LOOP.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LOOP.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LOOP.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LOOP.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LPDSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LPDSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LPDSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LPDSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LPQ.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LPQ.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LPQ.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LPQ.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LPR.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LPR.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LPR.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LPR.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LPRHELP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LPRHELP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LPRHELP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LPRHELP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LPRMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LPRMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LPRMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LPRMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LT200.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LT200.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LT200.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LT200.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LT200.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LT200.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LT200.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  LT200.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  MACFILE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  MACFILE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  MACFILE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  MACFILE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  MCIAVI32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MCIAVI32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MCIAVI32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MCIAVI32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MCICDA.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MCICDA.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MCICDA.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MCICDA.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MCISEQ.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MCISEQ.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MCISEQ.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MCISEQ.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MCIWAVE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MCIWAVE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MCIWAVE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MCIWAVE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MDGMPDLG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MDGMPDLG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MDGMPDLG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MDGMPDLG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MDGMPDLG.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  MDGMPDLG.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  MDGMPDLG.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  MDGMPDLG.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  MDGMPORT.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  MDGMPORT.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  MDGMPORT.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  MDGMPORT.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  MDGMPORT.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  MDGMPORT.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  MDGMPORT.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  MDGMPORT.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  MGMTAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MGMTAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MGMTAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MGMTAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MIB.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  MIB.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  MIB.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  MIB.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  MIDIMAP.CFG  assigning 999.
+size.exe - Warning - Couldn't find:  MIDIMAP.CFG  assigning 999.
+size.exe - Warning - Couldn't find:  MIDIMAP.CFG  assigning 999.
+size.exe - Warning - Couldn't find:  MIDIMAP.CFG  assigning 999.
+size.exe - Warning - Couldn't find:  MIDIMAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MIDIMAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MIDIMAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MIDIMAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MIPSSND.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  MMDRV.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MMDRV.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MMDRV.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MMDRV.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MPU401.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MPU401.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MPU401.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MPU401.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MPU401.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  MPU401.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  MPU401.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  MPU401.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  MODEM.INF  assigning 999.
+size.exe - Warning - Couldn't find:  MODEM.INF  assigning 999.
+size.exe - Warning - Couldn't find:  MODEM.INF  assigning 999.
+size.exe - Warning - Couldn't find:  MODEM.INF  assigning 999.
+size.exe - Warning - Couldn't find:  CIS.SCP  assigning 999.
+size.exe - Warning - Couldn't find:  CIS.SCP  assigning 999.
+size.exe - Warning - Couldn't find:  CIS.SCP  assigning 999.
+size.exe - Warning - Couldn't find:  CIS.SCP  assigning 999.
+size.exe - Warning - Couldn't find:  SLIP.SCP  assigning 999.
+size.exe - Warning - Couldn't find:  SLIP.SCP  assigning 999.
+size.exe - Warning - Couldn't find:  SLIP.SCP  assigning 999.
+size.exe - Warning - Couldn't find:  SLIP.SCP  assigning 999.
+size.exe - Warning - Couldn't find:  SLIPMENU.SCP  assigning 999.
+size.exe - Warning - Couldn't find:  SLIPMENU.SCP  assigning 999.
+size.exe - Warning - Couldn't find:  SLIPMENU.SCP  assigning 999.
+size.exe - Warning - Couldn't find:  SLIPMENU.SCP  assigning 999.
+size.exe - Warning - Couldn't find:  SCRIPT.DOC  assigning 999.
+size.exe - Warning - Couldn't find:  SCRIPT.DOC  assigning 999.
+size.exe - Warning - Couldn't find:  SCRIPT.DOC  assigning 999.
+size.exe - Warning - Couldn't find:  SCRIPT.DOC  assigning 999.
+size.exe - Warning - Couldn't find:  PPPMENU.SCP  assigning 999.
+size.exe - Warning - Couldn't find:  PPPMENU.SCP  assigning 999.
+size.exe - Warning - Couldn't find:  PPPMENU.SCP  assigning 999.
+size.exe - Warning - Couldn't find:  PPPMENU.SCP  assigning 999.
+size.exe - Warning - Couldn't find:  MSACM.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSACM.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSACM.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSACM.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSACM32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSACM32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSACM32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSACM32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSACM32.DRV  assigning 999.
+size.exe - Warning - Couldn't find:  MSACM32.DRV  assigning 999.
+size.exe - Warning - Couldn't find:  MSACM32.DRV  assigning 999.
+size.exe - Warning - Couldn't find:  MSACM32.DRV  assigning 999.
+size.exe - Warning - Couldn't find:  MSADP32.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  MSADP32.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  MSADP32.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  MSADP32.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  MSG711.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  MSG711.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  MSG711.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  MSG711.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  MSGSM32.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  MSGSM32.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  MSGSM32.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  MSGSM32.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  MSNCDET.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSNCDET.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSNCDET.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSNCDET.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSRLE32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSRLE32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSRLE32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSRLE32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSVFW32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSVFW32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSVFW32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSVFW32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSVIDC32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSVIDC32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSVIDC32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MSVIDC32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVAUDIO.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVAUDIO.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVAUDIO.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVAUDIO.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVAUDIO.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  MVAUDIO.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  MVAUDIO.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  MVAUDIO.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NAL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NAL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NAL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NAL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NBF.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NBF.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NBF.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NBF.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NBTSTAT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NBTSTAT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NBTSTAT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NBTSTAT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NDIS30.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NDIS30.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NDIS30.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NDIS30.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NDISTAPI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NDISTAPI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NDISTAPI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NDISTAPI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NDISWAN.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NDISWAN.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NDISWAN.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NDISWAN.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE1000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE1000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE2000.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE3200.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NE3200.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NE3200.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NE3200.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NE3200.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE3200.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE3200.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NE3200.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NECSND.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NECSND.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NECSND.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NECSND.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NECSND.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NECSND.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NECSND.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NECSND.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETBIOS.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETBIOS.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETBIOS.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETBIOS.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETBT.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETBT.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETBT.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETBT.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETDTECT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NETDTECT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NETDTECT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NETDTECT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NETDTECT.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETDTECT.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETDTECT.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETDTECT.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETFLX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NETMON.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NETMON.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NETMON.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NETMON.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NETMON.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  NETMON.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  NETMON.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  NETMON.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  NETMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  NETMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  NETMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  NETMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  NETMON.INI  assigning 999.
+size.exe - Warning - Couldn't find:  NETMON.INI  assigning 999.
+size.exe - Warning - Couldn't find:  NETMON.INI  assigning 999.
+size.exe - Warning - Couldn't find:  NETMON.INI  assigning 999.
+size.exe - Warning - Couldn't find:  NETSTAT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NETSTAT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NETSTAT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NETSTAT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NETWARE.DRV  assigning 999.
+size.exe - Warning - Couldn't find:  NETWARE.DRV  assigning 999.
+size.exe - Warning - Couldn't find:  NETWARE.DRV  assigning 999.
+size.exe - Warning - Couldn't find:  NETWARE.DRV  assigning 999.
+size.exe - Warning - Couldn't find:  NETWORKS  assigning 999.
+size.exe - Warning - Couldn't find:  NETWORKS  assigning 999.
+size.exe - Warning - Couldn't find:  NETWORKS  assigning 999.
+size.exe - Warning - Couldn't find:  NETWORKS  assigning 999.
+size.exe - Warning - Couldn't find:  NMAGENT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NMAGENT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NMAGENT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NMAGENT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NMAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NMAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NMAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NMAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NMGLOSS.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  NMGLOSS.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  NMGLOSS.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  NMGLOSS.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  NOBROAD.CF  assigning 999.
+size.exe - Warning - Couldn't find:  NOBROAD.CF  assigning 999.
+size.exe - Warning - Couldn't find:  NOBROAD.CF  assigning 999.
+size.exe - Warning - Couldn't find:  NOBROAD.CF  assigning 999.
+size.exe - Warning - Couldn't find:  NOBROAD.DF  assigning 999.
+size.exe - Warning - Couldn't find:  NOBROAD.DF  assigning 999.
+size.exe - Warning - Couldn't find:  NOBROAD.DF  assigning 999.
+size.exe - Warning - Couldn't find:  NOBROAD.DF  assigning 999.
+size.exe - Warning - Couldn't find:  NPEISA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NPEISA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NPEISA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NPEISA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NPMCA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NSLOOKUP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NSLOOKUP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NSLOOKUP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NSLOOKUP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NTCX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTCX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTCX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTCX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTCX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTCX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTCX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTCX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTEPC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTEPC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTEPC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTEPC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXALL.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXEM.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXEM.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXEM.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXEM.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXEM.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXEM.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXEM.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXEM.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXEM.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXEM.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXEM.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NTXEM.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NW16.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NW16.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NW16.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NW16.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NWAPI16.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWAPI16.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWAPI16.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWAPI16.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWAPI32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWAPI32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWAPI32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWAPI32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWC.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  NWC.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  NWC.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  NWC.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  NWDOC.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  NWDOC.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  NWDOC.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  NWDOC.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  NWDOC.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  NWDOC.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  NWDOC.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  NWDOC.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  NWDOCGW.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  NWDOCGW.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  NWDOCGW.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  NWDOCGW.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  NWDOCGW.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  NWDOCGW.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  NWDOCGW.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  NWDOCGW.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  NWEVENT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWEVENT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWEVENT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWEVENT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWLNKIPX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWLNKIPX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWLNKIPX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWLNKIPX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWLNKNB.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWLNKNB.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWLNKNB.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWLNKNB.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWLNKRIP.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWLNKRIP.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWLNKRIP.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWLNKRIP.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWLNKSPX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWLNKSPX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWLNKSPX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWLNKSPX.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWPROVAU.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWPROVAU.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWPROVAU.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWPROVAU.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWRDR.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWRDR.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWRDR.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWRDR.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  NWSAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWSAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWSAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWSAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWSCRIPT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NWSCRIPT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NWSCRIPT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NWSCRIPT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  NWWKS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWWKS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWWKS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  NWWKS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  PAD.INF  assigning 999.
+size.exe - Warning - Couldn't find:  PAD.INF  assigning 999.
+size.exe - Warning - Couldn't find:  PAD.INF  assigning 999.
+size.exe - Warning - Couldn't find:  PAD.INF  assigning 999.
+size.exe - Warning - Couldn't find:  PARSER.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  PARSER.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  PARSER.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  PARSER.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  PARSER.INI  assigning 999.
+size.exe - Warning - Couldn't find:  PARSER.INI  assigning 999.
+size.exe - Warning - Couldn't find:  PARSER.INI  assigning 999.
+size.exe - Warning - Couldn't find:  PARSER.INI  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PCNET.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  PCNET.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  PCNET.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  PCNET.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  PERFNW.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  PERFNW.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  PERFNW.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  PERFNW.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  PING.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  PING.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  PING.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  PING.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  PLACE.DNS  assigning 999.
+size.exe - Warning - Couldn't find:  PLACE.DNS  assigning 999.
+size.exe - Warning - Couldn't find:  PLACE.DNS  assigning 999.
+size.exe - Warning - Couldn't find:  PLACE.DNS  assigning 999.
+size.exe - Warning - Couldn't find:  PRONET16.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PRONET16.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PRONET16.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PRONET16.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PRONET16.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PRONET16.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PRONET16.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PRONET16.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PRONET16.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  PRORAPM.DWN  assigning 999.
+size.exe - Warning - Couldn't find:  PRORAPM.DWN  assigning 999.
+size.exe - Warning - Couldn't find:  PRORAPM.DWN  assigning 999.
+size.exe - Warning - Couldn't find:  PRORAPM.DWN  assigning 999.
+size.exe - Warning - Couldn't find:  PRORAPM.DWN  assigning 999.
+size.exe - Warning - Couldn't find:  PRORAPM.DWN  assigning 999.
+size.exe - Warning - Couldn't find:  PRORAPM.DWN  assigning 999.
+size.exe - Warning - Couldn't find:  PRORAPM.DWN  assigning 999.
+size.exe - Warning - Couldn't find:  PRORAPM.DWN  assigning 999.
+size.exe - Warning - Couldn't find:  PROTOCOL  assigning 999.
+size.exe - Warning - Couldn't find:  PROTOCOL  assigning 999.
+size.exe - Warning - Couldn't find:  PROTOCOL  assigning 999.
+size.exe - Warning - Couldn't find:  PROTOCOL  assigning 999.
+size.exe - Warning - Couldn't find:  QUOTES  assigning 999.
+size.exe - Warning - Couldn't find:  QUOTES  assigning 999.
+size.exe - Warning - Couldn't find:  QUOTES  assigning 999.
+size.exe - Warning - Couldn't find:  QUOTES  assigning 999.
+size.exe - Warning - Couldn't find:  RAS.ICO  assigning 999.
+size.exe - Warning - Couldn't find:  RAS.ICO  assigning 999.
+size.exe - Warning - Couldn't find:  RAS.ICO  assigning 999.
+size.exe - Warning - Couldn't find:  RAS.ICO  assigning 999.
+size.exe - Warning - Couldn't find:  RASACD.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASACD.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASACD.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASACD.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASADMIN.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RASADMIN.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RASADMIN.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RASADMIN.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RASADMIN.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASADMIN.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASADMIN.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASADMIN.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASADMIN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASADMIN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASADMIN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASADMIN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASSAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASADHLP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASADHLP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASADHLP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASADHLP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASADMIN.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RASADMIN.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RASADMIN.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RASADMIN.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RASAPI16.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASAPI16.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASAPI16.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASAPI16.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASAPI32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASAPI32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASAPI32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASAPI32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSCRPT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSCRPT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSCRPT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSCRPT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASARP.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASARP.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASARP.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASARP.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASAUTO.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASAUTO.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASAUTO.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASAUTO.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASDLG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASDLG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASDLG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASDLG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASAUTOU.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASAUTOU.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASAUTOU.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASAUTOU.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASCAUTH.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCAUTH.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCAUTH.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCAUTH.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCBCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCBCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCBCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCBCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCFG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCFG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCFG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCFG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCHAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCHAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCHAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCHAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASDIAL.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASDIAL.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASDIAL.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASDIAL.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASFIL32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASFIL32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASFIL32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASFIL32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASGLOSS.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RASGLOSS.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RASGLOSS.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RASGLOSS.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RASGLOSS.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RASGLOSS.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RASGLOSS.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RASGLOSS.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RASGPRXY.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASGPRXY.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASGPRXY.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASGPRXY.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASGTWY.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASGTWY.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASGTWY.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASGTWY.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASIPCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASIPCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASIPCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASIPCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASIPHLP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASIPHLP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASIPHLP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASIPHLP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASIPXCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASIPXCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASIPXCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASIPXCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASMAN.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASMAN.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASMAN.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASMAN.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASMAN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASMAN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASMAN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASMAN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASMON.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASMON.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASMON.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASMON.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASMSG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASMSG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASMSG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASMSG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASMXS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASMXS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASMXS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASMXS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASNBFCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASNBFCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASNBFCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASNBFCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASNBIPC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASNBIPC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASNBIPC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASNBIPC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPHONE.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RASPHONE.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RASPHONE.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RASPHONE.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RASSHELL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSHELL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSHELL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSHELL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPHONE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASPHONE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASPHONE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASPHONE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASCPL.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCPL.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCPL.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  RASCPL.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPHONE.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RASPHONE.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RASPHONE.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RASPHONE.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPPEN.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPPEN.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPPEN.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPPEN.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPE.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPF.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPF.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPF.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPF.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPM.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPM.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPM.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPM.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPU.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPU.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPU.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASPPTPU.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RASREAD.TXT  assigning 999.
+size.exe - Warning - Couldn't find:  RASREAD.TXT  assigning 999.
+size.exe - Warning - Couldn't find:  RASREAD.TXT  assigning 999.
+size.exe - Warning - Couldn't find:  RASREAD.TXT  assigning 999.
+size.exe - Warning - Couldn't find:  RASSAUTH.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSAUTH.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSAUTH.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSAUTH.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSER.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSER.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSER.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSER.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSETUP.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RASSETUP.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RASSETUP.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RASSETUP.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RASSETUP.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RASSETUP.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RASSETUP.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RASSETUP.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RASSPAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSPAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSPAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSPAP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASSPRXY.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASSPRXY.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASSPRXY.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASSPRXY.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASSRV.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASSRV.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASSRV.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASSRV.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RASTAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASTAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASTAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RASTAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RCP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RCP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RCP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RCP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RDR.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RDR.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RDR.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RDR.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  RELAY.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RELAY.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RELAY.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RELAY.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  REXEC.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  REXEC.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  REXEC.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  REXEC.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RNAL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RNAL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RNAL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RNAL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  ROUTE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  ROUTE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  ROUTE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  ROUTE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  ROUTER.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  ROUTER.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  ROUTER.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  ROUTER.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  ROUTER.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  ROUTER.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  ROUTER.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  ROUTER.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RPCLTC8.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RPCLTC8.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RPCLTC8.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RPCLTC8.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RPCLTS8.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RPCLTS8.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RPCLTS8.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RPCLTS8.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RPLCMD.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RPLCMD.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RPLCMD.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RPLCMD.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RPLCNV.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RPLCNV.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RPLCNV.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RPLCNV.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RPLMGR.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RPLMGR.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RPLMGR.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RPLMGR.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  RPLMGR.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RPLMGR.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RPLMGR.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RPLMGR.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RPLMGR.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RPLMGR.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RPLMGR.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RPLMGR.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RPLSVC.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RPLSVC.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RPLSVC.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RPLSVC.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RSH.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RSH.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RSH.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  RSH.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SERVICES  assigning 999.
+size.exe - Warning - Couldn't find:  SERVICES  assigning 999.
+size.exe - Warning - Couldn't find:  SERVICES  assigning 999.
+size.exe - Warning - Couldn't find:  SERVICES  assigning 999.
+size.exe - Warning - Couldn't find:  SERVICES  assigning 999.
+size.exe - Warning - Couldn't find:  SERVICES  assigning 999.
+size.exe - Warning - Couldn't find:  SERVICES  assigning 999.
+size.exe - Warning - Couldn't find:  SERVICES  assigning 999.
+size.exe - Warning - Couldn't find:  SFMAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATALK.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATALK.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATALK.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATALK.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATALK.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATALK.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATALK.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATALK.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATCFG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATCFG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATCFG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATCFG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATCFG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATCFG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATCFG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATCFG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATMSG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATMSG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATMSG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATMSG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATMSG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATMSG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATMSG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMATMSG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMICON.VOL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMICON.VOL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMICON.VOL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMICON.VOL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMICONS.INF  assigning 999.
+size.exe - Warning - Couldn't find:  SFMICONS.INF  assigning 999.
+size.exe - Warning - Couldn't find:  SFMICONS.INF  assigning 999.
+size.exe - Warning - Couldn't find:  SFMICONS.INF  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMAP.INF  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMAP.INF  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMAP.INF  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMAP.INF  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMGR.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMSG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMSG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMSG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMMSG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPRINT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPRINT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPRINT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPRINT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSDIB.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSDIB.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSDIB.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSDIB.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSEXE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSEXE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSEXE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSEXE.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSFNT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSFNT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSFNT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSFNT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSPRT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSPRT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSPRT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSPRT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSPRT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSPRT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSPRT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMPSPRT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMRES.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMRES.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMRES.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMRES.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMSRV.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SFMSRV.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SFMSRV.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SFMSRV.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SFMSVC.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SFMSVC.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SFMSVC.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SFMSVC.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUAM.IFO  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUAM.IFO  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUAM.IFO  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUAM.IFO  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUAM.RSC  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUAM.RSC  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUAM.RSC  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUAM.RSC  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUAM.TXT  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUAM.TXT  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUAM.TXT  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUAM.TXT  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUTIL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUTIL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUTIL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUTIL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUTIL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUTIL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUTIL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMUTIL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMWSHAT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMWSHAT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMWSHAT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMWSHAT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMWSHAT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMWSHAT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMWSHAT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFMWSHAT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SIDEWNDR.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SIDEWNDR.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SIDEWNDR.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SIDEWNDR.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SIDEWNDR.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SIDEWNDR.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SIDEWNDR.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SIDEWNDR.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SIMPTCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SIMPTCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SIMPTCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SIMPTCP.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SLBS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SLBS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SLBS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SLBS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SMCISA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SMCISA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SMCISA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SMCISA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SMCISA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SMCISA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SMCISA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SMCISA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SMCISA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SMCISA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SMCISA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SMCISA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SMCISA.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SNDBLST.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNDBLST.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNDBLST.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNDBLST.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNDBLST.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNDBLST.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNDBLST.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNDBLST.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNDBLST.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SNDBLST.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SNDBLST.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SNDBLST.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SNDBLST.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SNDBLST.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SNDBLST.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SNDBLST.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SNDSYS.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SNDSYS.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SNDSYS.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SNDSYS.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SNDSYS.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SNDSYS32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNDSYS32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNDSYS32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNDSYS32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNDSYS32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SNIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SNIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SNIMAC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SNMP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SNMP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SNMP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SNMP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SNMP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SNMP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SNMP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SNMP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SNMPAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNMPAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNMPAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNMPAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNMPAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNMPAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNMPAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNMPAPI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SNMPTRAP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SNMPTRAP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SNMPTRAP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SNMPTRAP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  SONIC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SRV.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SRV.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SRV.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SRV.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  STREAMS.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  STREAMS.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  STREAMS.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  STREAMS.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SWITCH.INF  assigning 999.
+size.exe - Warning - Couldn't find:  SWITCH.INF  assigning 999.
+size.exe - Warning - Couldn't find:  SWITCH.INF  assigning 999.
+size.exe - Warning - Couldn't find:  SWITCH.INF  assigning 999.
+size.exe - Warning - Couldn't find:  SXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXBIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SXFEP.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  SYNTH.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SYNTH.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SYNTH.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SYNTH.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SYNTH.PAT  assigning 999.
+size.exe - Warning - Couldn't find:  SYNTH.PAT  assigning 999.
+size.exe - Warning - Couldn't find:  SYNTH.PAT  assigning 999.
+size.exe - Warning - Couldn't find:  SYNTH.PAT  assigning 999.
+size.exe - Warning - Couldn't find:  SYNTH.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SYNTH.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SYNTH.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  SYNTH.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  TCARC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  TCARC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  TCARC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  TCARC.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  TCPIP.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  TCPIP.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  TCPIP.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  TCPIP.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  TCPSVCS.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  TCPSVCS.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  TCPSVCS.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  TCPSVCS.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  TELNET.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  TELNET.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  TELNET.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  TELNET.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  TELNET.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  TELNET.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  TELNET.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  TELNET.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  TELNET.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  TELNET.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  TELNET.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  TELNET.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  TFTP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  TFTP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  TFTP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  TFTP.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  TOOLBAR.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  TOOLBAR.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  TOOLBAR.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  TOOLBAR.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  TRACE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  TRACE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  TRACE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  TRACE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  TRACE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  TRACE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  TRACE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  TRACE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  TRACERT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  TRACERT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  TRACERT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  TRACERT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  TSSOFT32.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  TSSOFT32.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  TSSOFT32.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  TSSOFT32.ACM  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  UBNEI.SYS  assigning 999.
+size.exe - Warning - Couldn't find:  VWIPXSPX.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  VWIPXSPX.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  VWIPXSPX.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  VWIPXSPX.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  VWIPXSPX.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  VWIPXSPX.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  VWIPXSPX.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  VWIPXSPX.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  WINS.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  WINS.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  WINS.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  WINS.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  WINSADMN.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  WINSADMN.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  WINSADMN.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  WINSADMN.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  WINSADMN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  WINSADMN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  WINSADMN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  WINSADMN.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  WINSADMN.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  WINSADMN.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  WINSADMN.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  WINSADMN.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  WINSCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  WINSCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  WINSCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  WINSCTRS.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  WINSEVNT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  WINSEVNT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  WINSEVNT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  WINSEVNT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  WINSMIB.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  WINSMIB.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  WINSMIB.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  WINSMIB.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  WKSSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  WKSSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  WKSSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  WKSSVC.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XABIOS.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  XACOOK.BIN  assigning 999.
+size.exe - Warning - Couldn't find:  LEXMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXMON.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXLMPM.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXLMPM.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXLMPM.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXLMPM.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  LEXMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  LEXMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  LEXMON.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  LEXCFG.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXCFG.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXCFG.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXCFG.CPL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXCFG.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  LEXCFG.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  LEXCFG.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  LEXCFG.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  LEXLANG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXLANG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXLANG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXLANG.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  INTERACT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  INTERACT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  INTERACT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  INTERACT.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  INTERACT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  INTERACT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  INTERACT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  INTERACT.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  INTERACT.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  INTERACT.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  INTERACT.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  INTERACT.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  LEXSTART.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LEXSTART.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LEXSTART.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LEXSTART.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  LEXBCELM.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXBCELM.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXBCELM.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXBCELM.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXBCE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXBCE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXBCE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXBCE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXIP32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXIP32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXIP32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXIP32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXLL32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXLL32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXLL32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXLL32.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVNTINST.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVNTINST.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVNTINST.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVNTINST.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVUNINST.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  MVUNINST.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  MVUNINST.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  MVUNINST.EXE  assigning 999.
+size.exe - Warning - Couldn't find:  MVFILES.LST  assigning 999.
+size.exe - Warning - Couldn't find:  MVFILES.LST  assigning 999.
+size.exe - Warning - Couldn't find:  MVFILES.LST  assigning 999.
+size.exe - Warning - Couldn't find:  MVFILES.LST  assigning 999.
+size.exe - Warning - Couldn't find:  LEXNETUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXNETUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXNETUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXNETUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  LEXNETUI.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  LEXNETUI.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  LEXNETUI.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  LEXNETUI.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  LEXNETUI.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  LEXNETUI.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  LEXNETUI.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  LEXNETUI.CNT  assigning 999.
+size.exe - Warning - Couldn't find:  AGGUIDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  AGGUIDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  AGGUIDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  AGGUIDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  AGPRTGUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  AGPRTGUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  AGPRTGUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  AGPRTGUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  CDCF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  CDCF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  CDCF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  CDCF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  COMMON.DLL    assigning 999.
+size.exe - Warning - Couldn't find:  COMMON.DLL    assigning 999.
+size.exe - Warning - Couldn't find:  COMMON.DLL    assigning 999.
+size.exe - Warning - Couldn't find:  COMMON.DLL    assigning 999.
+size.exe - Warning - Couldn't find:  CPEF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  CPEF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  CPEF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  CPEF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  CPF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  CPF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  CPF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  CPF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  CPJF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  CPJF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  CPJF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  CPJF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  DEFAULTS.PSF  assigning 999.
+size.exe - Warning - Couldn't find:  DEFAULTS.PSF  assigning 999.
+size.exe - Warning - Couldn't find:  DEFAULTS.PSF  assigning 999.
+size.exe - Warning - Couldn't find:  DEFAULTS.PSF  assigning 999.
+size.exe - Warning - Couldn't find:  DFF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  DFF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  DFF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  DFF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  FFF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  FFF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  FFF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  FFF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  LEXMV95.HLP   assigning 999.
+size.exe - Warning - Couldn't find:  LEXMV95.HLP   assigning 999.
+size.exe - Warning - Couldn't find:  LEXMV95.HLP   assigning 999.
+size.exe - Warning - Couldn't find:  LEXMV95.HLP   assigning 999.
+size.exe - Warning - Couldn't find:  LPEF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  LPEF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  LPEF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  LPEF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  MARKVIS.CNT   assigning 999.
+size.exe - Warning - Couldn't find:  MARKVIS.CNT   assigning 999.
+size.exe - Warning - Couldn't find:  MARKVIS.CNT   assigning 999.
+size.exe - Warning - Couldn't find:  MARKVIS.CNT   assigning 999.
+size.exe - Warning - Couldn't find:  MARKVIS.EXE   assigning 999.
+size.exe - Warning - Couldn't find:  MARKVIS.EXE   assigning 999.
+size.exe - Warning - Couldn't find:  MARKVIS.EXE   assigning 999.
+size.exe - Warning - Couldn't find:  MARKVIS.EXE   assigning 999.
+size.exe - Warning - Couldn't find:  MARKVIS.HLP   assigning 999.
+size.exe - Warning - Couldn't find:  MARKVIS.HLP   assigning 999.
+size.exe - Warning - Couldn't find:  MARKVIS.HLP   assigning 999.
+size.exe - Warning - Couldn't find:  MARKVIS.HLP   assigning 999.
+size.exe - Warning - Couldn't find:  MFF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  MFF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  MFF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  MFF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  MVGUIDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVGUIDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVGUIDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVGUIDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPO_SUN.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPO_SUN.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPO_SUN.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPO_SUN.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPO_WRI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPO_WRI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPO_WRI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPO_WRI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPRM.DLL     assigning 999.
+size.exe - Warning - Couldn't find:  MVPRM.DLL     assigning 999.
+size.exe - Warning - Couldn't find:  MVPRM.DLL     assigning 999.
+size.exe - Warning - Couldn't find:  MVPRM.DLL     assigning 999.
+size.exe - Warning - Couldn't find:  MVPRTGUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPRTGUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPRTGUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPRTGUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPRTMGR.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPRTMGR.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPRTMGR.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPRTMGR.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPRTOBJ.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPRTOBJ.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPRTOBJ.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVPRTOBJ.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVRESDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVRESDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVRESDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  MVRESDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  OBFF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  OBFF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  OBFF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  OBFF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  OPTRADEF.PSF  assigning 999.
+size.exe - Warning - Couldn't find:  OPTRADEF.PSF  assigning 999.
+size.exe - Warning - Couldn't find:  OPTRADEF.PSF  assigning 999.
+size.exe - Warning - Couldn't find:  OPTRADEF.PSF  assigning 999.
+size.exe - Warning - Couldn't find:  OPTRAE.HLP    assigning 999.
+size.exe - Warning - Couldn't find:  OPTRAE.HLP    assigning 999.
+size.exe - Warning - Couldn't find:  OPTRAE.HLP    assigning 999.
+size.exe - Warning - Couldn't find:  OPTRAE.HLP    assigning 999.
+size.exe - Warning - Couldn't find:  OPTRCDEF.PSF  assigning 999.
+size.exe - Warning - Couldn't find:  OPTRCDEF.PSF  assigning 999.
+size.exe - Warning - Couldn't find:  OPTRCDEF.PSF  assigning 999.
+size.exe - Warning - Couldn't find:  OPTRCDEF.PSF  assigning 999.
+size.exe - Warning - Couldn't find:  OPTRPDEF.PSF  assigning 999.
+size.exe - Warning - Couldn't find:  OPTRPDEF.PSF  assigning 999.
+size.exe - Warning - Couldn't find:  OPTRPDEF.PSF  assigning 999.
+size.exe - Warning - Couldn't find:  OPTRPDEF.PSF  assigning 999.
+size.exe - Warning - Couldn't find:  PNUIF.WAV     assigning 999.
+size.exe - Warning - Couldn't find:  PNUIF.WAV     assigning 999.
+size.exe - Warning - Couldn't find:  PNUIF.WAV     assigning 999.
+size.exe - Warning - Couldn't find:  PNUIF.WAV     assigning 999.
+size.exe - Warning - Couldn't find:  PRINTREE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  PRINTREE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  PRINTREE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  PRINTREE.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  RESOURCE.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RESOURCE.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RESOURCE.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RESOURCE.HLP  assigning 999.
+size.exe - Warning - Couldn't find:  RPSF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  RPSF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  RPSF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  RPSF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  RTCF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  RTCF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  RTCF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  RTCF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  SFGUIDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFGUIDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFGUIDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFGUIDLL.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFPRTGUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFPRTGUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFPRTGUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SFPRTGUI.DLL  assigning 999.
+size.exe - Warning - Couldn't find:  SPF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  SPF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  SPF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  SPF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  TCOF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  TCOF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  TCOF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  TCOF.WAV      assigning 999.
+size.exe - Warning - Couldn't find:  TYF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  TYF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  TYF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  TYF.WAV       assigning 999.
+size.exe - Warning - Couldn't find:  VERIFY.TXT    assigning 999.
+size.exe - Warning - Couldn't find:  VERIFY.TXT    assigning 999.
+size.exe - Warning - Couldn't find:  VERIFY.TXT    assigning 999.
+size.exe - Warning - Couldn't find:  VERIFY.TXT    assigning 999.
+
+=========== SIZE =============
+Input BOM: cdbom.txt
+Source ID: #S+usa
+Source Path: .
+Compressed: z
+Time: Wed Oct 09 01:35:27 2019
+==============================
+
+
+=========== SIZE =============
+Input BOM: cdbom.txt
+Source ID: #F-*
+Source Path: .
+Compressed: z
+Time: Wed Oct 09 01:35:27 2019
+==============================
+
+
+=========== SIZE =============
+Input BOM: cdbom.txt
+Source ID: #P-FIN
+Source Path: .
+Compressed: z
+Time: Wed Oct 09 01:35:27 2019
+==============================
+
+
+=========== SIZE =============
+Input BOM: cdbom.txt
+Source ID: #L+usa
+Source Path: .
+Compressed: z
+Time: Wed Oct 09 01:35:27 2019
+==============================
+
+
+=========== LAYOUT =============
+Input BOM: cdbom.txt
+Output Layout: lay.txt
+Product: ntcd
+Floppy Size: 500000000
+Time: Wed Oct 09 01:35:27 2019
+================================
+
+
+=========== INFS ===============
+Input Layout: lay.txt
+Target directory for file lists: ..\inf\filelist\ntcd
+Time: Wed Oct 09 01:35:28 2019
+================================
+
+INFO Making file list: ..\inf\filelist\ntcd\alpha\mmdriver.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\monitor.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\netdtect.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadap.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadar.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadd1.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadd2.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadd3.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadd4.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadde.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnaddf.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnaddi.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadds.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnaddt.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnade2.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnade3.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadee.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadep.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadin.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadlb.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadlm.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadlt.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadma.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadn1.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadn2.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadne.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadnf.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadni.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadnm.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadnp.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadp3.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadp9.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadsn.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadt2.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadtk.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadub.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnadwd.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnsvbh.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnsvcu.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnsvdf.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnsvnb.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnsvnw.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnsvra.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnsvrp.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnsvrr.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnsvsa.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnsvsn.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnsvsp.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnsvsv.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnsvtp.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnsvwk.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnxpdl.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnxpip.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnxpnb.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnxppp.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnxps1.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnxpsm.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnxpst.inf
+INFO Making file list: ..\inf\filelist\ntcd\alpha\oemnxptc.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\mmdriver.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\monitor.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\netdtect.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadam.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadap.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadar.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadd1.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadd2.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadd3.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadd4.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadde.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnaddf.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnaddi.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadds.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnaddt.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnade1.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnade2.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnade3.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadee.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadem.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnaden.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadep.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadfd.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadim.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadin.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadlb.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadlm.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadlt.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadma.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadn1.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadn2.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadne.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadnf.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadni.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadnm.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadnp.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadp3.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadp9.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadpm.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadsn.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadt2.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadtk.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadtm.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadub.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadum.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadwd.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnadwm.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnsvbh.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnsvcu.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnsvdf.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnsvnb.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnsvnw.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnsvra.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnsvrp.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnsvrr.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnsvsa.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnsvsn.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnsvsp.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnsvsv.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnsvtp.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnsvwk.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnxpdl.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnxpip.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnxpnb.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnxppp.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnxps1.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnxpsm.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnxpst.inf
+INFO Making file list: ..\inf\filelist\ntcd\i386\oemnxptc.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\mmdriver.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\monitor.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\netdtect.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadap.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadar.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadd1.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadd2.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadd3.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadd4.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadde.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnaddf.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnaddi.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadds.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnaddt.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnade1.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnade2.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnade3.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadee.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadep.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadin.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadlb.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadlm.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadlt.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadma.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadn2.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadne.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadnf.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadni.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadnm.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadnp.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadp3.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadp9.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadsn.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadso.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadt2.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadtk.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadub.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnadwd.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnsvbh.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnsvcu.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnsvdf.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnsvnb.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnsvnw.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnsvra.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnsvrp.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnsvrr.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnsvsa.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnsvsn.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnsvsp.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnsvsv.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnsvtp.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnsvwk.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnxpdl.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnxpip.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnxpnb.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnxppp.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnxps1.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnxpsm.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnxpst.inf
+INFO Making file list: ..\inf\filelist\ntcd\mips\oemnxptc.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\mmdriver.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\monitor.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\netdtect.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadap.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadar.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadd1.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadd2.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadd3.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadd4.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadde.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnaddf.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnaddi.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadds.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnaddt.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnade1.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnade2.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnade3.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadee.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadep.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadin.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadlb.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadlm.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadlt.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadma.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadn2.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadne.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadnf.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadni.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadnm.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadnp.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadp3.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadp9.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadsn.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadt2.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadtk.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadub.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnadwd.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnsvbh.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnsvcu.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnsvdf.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnsvnb.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnsvnw.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnsvra.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnsvrp.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnsvrr.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnsvsa.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnsvsn.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnsvsp.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnsvsv.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnsvtp.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnsvwk.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnxpdl.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnxpip.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnxpnb.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnxppp.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnxps1.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnxpsm.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnxpst.inf
+INFO Making file list: ..\inf\filelist\ntcd\ppc\oemnxptc.inf
+
+=========== LAYOUT =============
+Input BOM: cdbom.txt
+Output Layout: lay.txt
+Product: lmcd
+Floppy Size: 500000000
+Time: Wed Oct 09 01:35:28 2019
+================================
+
+
+=========== INFS ===============
+Input Layout: lay.txt
+Target directory for file lists: ..\inf\filelist\lmcd
+Time: Wed Oct 09 01:35:29 2019
+================================
+
+INFO Making file list: ..\inf\filelist\lmcd\alpha\mmdriver.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\monitor.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\netdtect.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadap.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadar.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadd1.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadd2.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadd3.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadd4.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadde.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnaddf.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnaddi.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadds.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnaddt.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnade2.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnade3.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadee.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadep.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadin.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadlb.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadlm.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadlt.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadma.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadn1.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadn2.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadne.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadnf.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadni.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadnm.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadnp.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadp3.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadp9.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadsn.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadt2.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadtk.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadub.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnadwd.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvbh.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvbr.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvcu.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvdf.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvdh.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvdn.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvir.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvnb.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvnw.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvra.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvri.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvrp.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvrr.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvsa.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvsm.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvsn.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvsp.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvsv.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvtp.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvwi.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnsvwk.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnxpdl.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnxpip.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnxpnb.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnxppp.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnxps1.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnxpst.inf
+INFO Making file list: ..\inf\filelist\lmcd\alpha\oemnxptc.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\mmdriver.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\monitor.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\netdtect.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadam.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadap.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadar.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadd1.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadd2.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadd3.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadd4.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadde.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnaddf.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnaddi.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadds.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnaddt.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnade1.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnade2.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnade3.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadee.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadem.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnaden.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadep.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadfd.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadim.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadin.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadlb.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadlm.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadlt.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadma.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadn1.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadn2.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadne.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadnf.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadni.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadnm.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadnp.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadp3.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadp9.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadpm.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadsn.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadt2.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadtk.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadtm.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadub.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadum.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadwd.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnadwm.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvbh.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvbr.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvcu.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvdf.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvdh.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvdn.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvir.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvnb.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvnw.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvra.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvri.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvrp.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvrr.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvsa.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvsm.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvsn.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvsp.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvsv.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvtp.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvwi.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnsvwk.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnxpdl.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnxpip.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnxpnb.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnxppp.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnxps1.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnxpst.inf
+INFO Making file list: ..\inf\filelist\lmcd\i386\oemnxptc.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\mmdriver.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\monitor.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\netdtect.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadap.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadar.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadd1.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadd2.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadd3.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadd4.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadde.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnaddf.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnaddi.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadds.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnaddt.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnade1.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnade2.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnade3.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadee.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadep.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadin.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadlb.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadlm.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadlt.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadma.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadn2.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadne.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadnf.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadni.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadnm.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadnp.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadp3.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadp9.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadsn.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadso.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadt2.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadtk.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadub.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnadwd.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvbh.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvbr.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvcu.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvdf.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvdh.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvdn.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvir.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvnb.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvnw.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvra.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvri.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvrp.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvrr.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvsa.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvsm.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvsn.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvsp.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvsv.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvtp.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvwi.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnsvwk.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnxpdl.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnxpip.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnxpnb.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnxppp.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnxps1.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnxpst.inf
+INFO Making file list: ..\inf\filelist\lmcd\mips\oemnxptc.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\mmdriver.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\monitor.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\netdtect.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadap.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadar.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadd1.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadd2.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadd3.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadd4.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadde.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnaddf.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnaddi.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadds.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnaddt.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnade1.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnade2.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnade3.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadee.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadep.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadin.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadlb.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadlm.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadlt.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadma.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadn2.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadne.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadnf.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadni.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadnm.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadnp.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadp3.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadp9.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadsn.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadt2.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadtk.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadub.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnadwd.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvbh.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvbr.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvcu.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvdf.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvdh.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvdn.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvir.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvnb.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvnw.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvra.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvri.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvrp.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvrr.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvsa.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvsm.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvsn.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvsp.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvsv.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvtp.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvwi.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnsvwk.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnxpdl.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnxpip.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnxpnb.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnxppp.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnxps1.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnxpst.inf
+INFO Making file list: ..\inf\filelist\lmcd\ppc\oemnxptc.inf

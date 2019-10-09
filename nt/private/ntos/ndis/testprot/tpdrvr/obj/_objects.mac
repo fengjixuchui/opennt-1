@@ -1,0 +1,64 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\tpdrvr.obj \
+    $(_OBJ_DIR)\alpha\tpreq.obj \
+    $(_OBJ_DIR)\alpha\protocol.obj \
+    $(_OBJ_DIR)\alpha\tpfunc.obj \
+    $(_OBJ_DIR)\alpha\stress.obj \
+    $(_OBJ_DIR)\alpha\strrcv.obj \
+    $(_OBJ_DIR)\alpha\strfunc.obj \
+    $(_OBJ_DIR)\alpha\tputils.obj \
+    $(_OBJ_DIR)\alpha\media.obj \
+    $(_OBJ_DIR)\alpha\packet.obj \
+    $(_OBJ_DIR)\alpha\perf.obj \
+    $(_OBJ_DIR)\alpha\buffer.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\tpdrvr.obj \
+    $(_OBJ_DIR)\mips\tpreq.obj \
+    $(_OBJ_DIR)\mips\protocol.obj \
+    $(_OBJ_DIR)\mips\tpfunc.obj \
+    $(_OBJ_DIR)\mips\stress.obj \
+    $(_OBJ_DIR)\mips\strrcv.obj \
+    $(_OBJ_DIR)\mips\strfunc.obj \
+    $(_OBJ_DIR)\mips\tputils.obj \
+    $(_OBJ_DIR)\mips\media.obj \
+    $(_OBJ_DIR)\mips\packet.obj \
+    $(_OBJ_DIR)\mips\perf.obj \
+    $(_OBJ_DIR)\mips\buffer.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\tpdrvr.obj \
+    $(_OBJ_DIR)\i386\tpreq.obj \
+    $(_OBJ_DIR)\i386\protocol.obj \
+    $(_OBJ_DIR)\i386\tpfunc.obj \
+    $(_OBJ_DIR)\i386\stress.obj \
+    $(_OBJ_DIR)\i386\strrcv.obj \
+    $(_OBJ_DIR)\i386\strfunc.obj \
+    $(_OBJ_DIR)\i386\tputils.obj \
+    $(_OBJ_DIR)\i386\media.obj \
+    $(_OBJ_DIR)\i386\packet.obj \
+    $(_OBJ_DIR)\i386\perf.obj \
+    $(_OBJ_DIR)\i386\buffer.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\tpdrvr.obj \
+    $(_OBJ_DIR)\ppc\tpreq.obj \
+    $(_OBJ_DIR)\ppc\protocol.obj \
+    $(_OBJ_DIR)\ppc\tpfunc.obj \
+    $(_OBJ_DIR)\ppc\stress.obj \
+    $(_OBJ_DIR)\ppc\strrcv.obj \
+    $(_OBJ_DIR)\ppc\strfunc.obj \
+    $(_OBJ_DIR)\ppc\tputils.obj \
+    $(_OBJ_DIR)\ppc\media.obj \
+    $(_OBJ_DIR)\ppc\packet.obj \
+    $(_OBJ_DIR)\ppc\perf.obj \
+    $(_OBJ_DIR)\ppc\buffer.obj
+
+PASS0_PPC_OBJECTS=
+

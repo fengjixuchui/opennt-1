@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\svcslib.obj \
+    $(_OBJ_DIR)\alpha\svcsnb.obj \
+    $(_OBJ_DIR)\alpha\threads.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\svcslib.obj \
+    $(_OBJ_DIR)\mips\svcsnb.obj \
+    $(_OBJ_DIR)\mips\threads.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\svcslib.obj \
+    $(_OBJ_DIR)\i386\svcsnb.obj \
+    $(_OBJ_DIR)\i386\threads.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\svcslib.obj \
+    $(_OBJ_DIR)\ppc\svcsnb.obj \
+    $(_OBJ_DIR)\ppc\threads.obj
+
+PASS0_PPC_OBJECTS=
+

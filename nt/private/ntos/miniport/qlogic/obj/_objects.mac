@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\qlisp.res \
+    $(_OBJ_DIR)\alpha\qlisp.obj \
+    $(_OBJ_DIR)\alpha\isp_fw.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\qlisp.res \
+    $(_OBJ_DIR)\mips\qlisp.obj \
+    $(_OBJ_DIR)\mips\isp_fw.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\qlisp.res \
+    $(_OBJ_DIR)\i386\qlisp.obj \
+    $(_OBJ_DIR)\i386\isp_fw.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\qlisp.res \
+    $(_OBJ_DIR)\ppc\qlisp.obj \
+    $(_OBJ_DIR)\ppc\isp_fw.obj
+
+PASS0_PPC_OBJECTS=
+

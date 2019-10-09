@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\option.obj \
+    $(_OBJ_DIR)\alpha\osetup.obj \
+    $(_OBJ_DIR)\alpha\oplist.obj \
+    $(_OBJ_DIR)\alpha\setup.obj \
+    $(_OBJ_DIR)\alpha\statinfo.obj \
+    $(_OBJ_DIR)\alpha\uni.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\option.obj \
+    $(_OBJ_DIR)\mips\osetup.obj \
+    $(_OBJ_DIR)\mips\oplist.obj \
+    $(_OBJ_DIR)\mips\setup.obj \
+    $(_OBJ_DIR)\mips\statinfo.obj \
+    $(_OBJ_DIR)\mips\uni.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\option.obj \
+    $(_OBJ_DIR)\i386\osetup.obj \
+    $(_OBJ_DIR)\i386\oplist.obj \
+    $(_OBJ_DIR)\i386\setup.obj \
+    $(_OBJ_DIR)\i386\statinfo.obj \
+    $(_OBJ_DIR)\i386\uni.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\option.obj \
+    $(_OBJ_DIR)\ppc\osetup.obj \
+    $(_OBJ_DIR)\ppc\oplist.obj \
+    $(_OBJ_DIR)\ppc\setup.obj \
+    $(_OBJ_DIR)\ppc\statinfo.obj \
+    $(_OBJ_DIR)\ppc\uni.obj
+
+PASS0_PPC_OBJECTS=
+

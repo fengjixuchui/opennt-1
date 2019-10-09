@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\winhstb.res \
+    $(_OBJ_DIR)\alpha\winhstb.obj \
+    $(_OBJ_DIR)\alpha\wfdlgs2.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\winhstb.res \
+    $(_OBJ_DIR)\mips\winhstb.obj \
+    $(_OBJ_DIR)\mips\wfdlgs2.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\winhstb.res \
+    $(_OBJ_DIR)\i386\winhstb.obj \
+    $(_OBJ_DIR)\i386\wfdlgs2.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\winhstb.res \
+    $(_OBJ_DIR)\ppc\winhstb.obj \
+    $(_OBJ_DIR)\ppc\wfdlgs2.obj
+
+PASS0_PPC_OBJECTS=
+

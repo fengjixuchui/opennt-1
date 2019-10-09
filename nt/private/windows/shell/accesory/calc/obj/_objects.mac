@@ -1,0 +1,76 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\calc.res \
+    $(_OBJ_DIR)\alpha\calc.obj \
+    $(_OBJ_DIR)\alpha\input.obj \
+    $(_OBJ_DIR)\alpha\scicomm.obj \
+    $(_OBJ_DIR)\alpha\scidisp.obj \
+    $(_OBJ_DIR)\alpha\scidraw.obj \
+    $(_OBJ_DIR)\alpha\scifunc.obj \
+    $(_OBJ_DIR)\alpha\scikeys.obj \
+    $(_OBJ_DIR)\alpha\scimenu.obj \
+    $(_OBJ_DIR)\alpha\scioper.obj \
+    $(_OBJ_DIR)\alpha\sciproc.obj \
+    $(_OBJ_DIR)\alpha\sciset.obj \
+    $(_OBJ_DIR)\alpha\scistat.obj \
+    $(_OBJ_DIR)\alpha\wassert.obj \
+    $(_OBJ_DIR)\alpha\unifunc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\calc.res \
+    $(_OBJ_DIR)\mips\calc.obj \
+    $(_OBJ_DIR)\mips\input.obj \
+    $(_OBJ_DIR)\mips\scicomm.obj \
+    $(_OBJ_DIR)\mips\scidisp.obj \
+    $(_OBJ_DIR)\mips\scidraw.obj \
+    $(_OBJ_DIR)\mips\scifunc.obj \
+    $(_OBJ_DIR)\mips\scikeys.obj \
+    $(_OBJ_DIR)\mips\scimenu.obj \
+    $(_OBJ_DIR)\mips\scioper.obj \
+    $(_OBJ_DIR)\mips\sciproc.obj \
+    $(_OBJ_DIR)\mips\sciset.obj \
+    $(_OBJ_DIR)\mips\scistat.obj \
+    $(_OBJ_DIR)\mips\wassert.obj \
+    $(_OBJ_DIR)\mips\unifunc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\calc.res \
+    $(_OBJ_DIR)\i386\calc.obj \
+    $(_OBJ_DIR)\i386\input.obj \
+    $(_OBJ_DIR)\i386\scicomm.obj \
+    $(_OBJ_DIR)\i386\scidisp.obj \
+    $(_OBJ_DIR)\i386\scidraw.obj \
+    $(_OBJ_DIR)\i386\scifunc.obj \
+    $(_OBJ_DIR)\i386\scikeys.obj \
+    $(_OBJ_DIR)\i386\scimenu.obj \
+    $(_OBJ_DIR)\i386\scioper.obj \
+    $(_OBJ_DIR)\i386\sciproc.obj \
+    $(_OBJ_DIR)\i386\sciset.obj \
+    $(_OBJ_DIR)\i386\scistat.obj \
+    $(_OBJ_DIR)\i386\wassert.obj \
+    $(_OBJ_DIR)\i386\unifunc.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\calc.res \
+    $(_OBJ_DIR)\ppc\calc.obj \
+    $(_OBJ_DIR)\ppc\input.obj \
+    $(_OBJ_DIR)\ppc\scicomm.obj \
+    $(_OBJ_DIR)\ppc\scidisp.obj \
+    $(_OBJ_DIR)\ppc\scidraw.obj \
+    $(_OBJ_DIR)\ppc\scifunc.obj \
+    $(_OBJ_DIR)\ppc\scikeys.obj \
+    $(_OBJ_DIR)\ppc\scimenu.obj \
+    $(_OBJ_DIR)\ppc\scioper.obj \
+    $(_OBJ_DIR)\ppc\sciproc.obj \
+    $(_OBJ_DIR)\ppc\sciset.obj \
+    $(_OBJ_DIR)\ppc\scistat.obj \
+    $(_OBJ_DIR)\ppc\wassert.obj \
+    $(_OBJ_DIR)\ppc\unifunc.obj
+
+PASS0_PPC_OBJECTS=
+

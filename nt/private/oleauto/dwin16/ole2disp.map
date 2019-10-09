@@ -1,0 +1,3472 @@
+
+ OLE2DISP
+
+ Start     Length     Name                   Class
+ 0001:0000 053D4H     _TEXT                  CODE
+ 0002:0000 004A8H     _COMDATS               CODE
+ 0003:0000 0D49CH     RT                     CODE
+ 0004:0000 0E740H     RPC                    CODE
+ 0005:0000 05E08H     RPC2                   CODE
+ 0006:0000 004A1H     BSTR                   CODE
+ 0007:0000 00000H     RUNTIME                CODE
+ 0007:0000 024A1H     STDIMPL                CODE
+ 0008:0000 0A1E0H     UPS                    CODE
+ 0009:0000 0044DH     DEBUG                  CODE
+ 000A:0000 00000H     INVOKE_TEXT            CODE
+ 000A:0000 00000H     OLECONVA_TEXT          CODE
+ 000A:0000 00054H     WEP_TEXT               CODE
+ 000B:0000 00010H     NULL                   BEGDATA
+ 000B:0010 01DA0H     _DATA                  DATA
+ 000B:1DB0 0000EH     CDATA                  DATA
+ 000B:1DBE 00000H     XIFB                   DATA
+ 000B:1DBE 00000H     XIF                    DATA
+ 000B:1DBE 00000H     XIFE                   DATA
+ 000B:1DBE 00000H     XIB                    DATA
+ 000B:1DBE 00004H     XI                     DATA
+ 000B:1DC2 00000H     XIE                    DATA
+ 000B:1DC2 00000H     XPB                    DATA
+ 000B:1DC2 00000H     XP                     DATA
+ 000B:1DC2 00000H     XPE                    DATA
+ 000B:1DC2 00000H     XCB                    DATA
+ 000B:1DC2 00000H     XC                     DATA
+ 000B:1DC2 00000H     XCE                    DATA
+ 000B:1DC2 00000H     XCFB                   DATA
+ 000B:1DC2 00000H     XCFCRT                 DATA
+ 000B:1DC2 00000H     XCF                    DATA
+ 000B:1DC2 00000H     XCFE                   DATA
+ 000B:1DC2 00000H     XIFCB                  DATA
+ 000B:1DC2 00000H     XIFU                   DATA
+ 000B:1DC2 00000H     XIFL                   DATA
+ 000B:1DC2 00000H     XIFM                   DATA
+ 000B:1DC2 00000H     XIFCE                  DATA
+ 000B:1DC2 00000H     DBDATA                 DATA
+ 000B:1DC2 000E4H     IOB                    DATA
+ 000B:1EA6 00000H     IOBX                   DATA
+ 000B:1EA6 0000CH     IOBE                   DATA
+ 000B:1EB2 000E4H     IOB2                   DATA
+ 000B:1F96 00000H     IOB2X                  DATA
+ 000B:1F96 0000CH     IOB2E                  DATA
+ 000B:1FA2 000E2H     CONST                  CONST
+ 000B:2084 00008H     HDR                    MSG
+ 000B:208C 0037CH     MSG                    MSG
+ 000B:2408 00002H     PAD                    MSG
+ 000B:240A 00001H     EPAD                   MSG
+ 000B:240C 00042H     _BSS                   BSS
+ 000B:244E 00000H     XOB                    BSS
+ 000B:244E 00000H     XO                     BSS
+ 000B:244E 00000H     XOE                    BSS
+ 000B:244E 00000H     XOFB                   BSS
+ 000B:244E 00000H     XOF                    BSS
+ 000B:244E 00000H     XOFE                   BSS
+ 000B:2450 000DAH     c_common               BSS
+
+ Origin   Group
+ 000B:0   DGROUP
+
+ Address   Export                  Alias
+
+ 0007:0418 CREATEDISPTYPEINFO      CREATEDISPTYPEINFO
+ 0001:0EA5 CREATEERRORINFO         CREATEERRORINFO
+ 0007:1D90 CREATESTDDISPATCH       CREATESTDDISPATCH
+ 0003:0170 DISPGETIDSOFNAMES       DISPGETIDSOFNAMES
+ 0003:00C3 DISPGETPARAM            DISPGETPARAM
+ 0003:01B2 DISPINVOKE              DISPINVOKE
+ 0004:07F0 DLLGETCLASSOBJECT       DLLGETCLASSOBJECT
+ 0007:0000 DOINVOKEMETHOD          DOINVOKEMETHOD
+ 0003:020C DOSDATETIMETOVARIANTTIME  DOSDATETIMETOVARIANTTIME
+ 0001:1BC0 GETACTIVEOBJECT         GETACTIVEOBJECT
+ 0001:0DD2 GETERRORINFO            GETERRORINFO
+ 0001:1989 REGISTERACTIVEOBJECT    REGISTERACTIVEOBJECT
+ 0001:1B02 REVOKEACTIVEOBJECT      REVOKEACTIVEOBJECT
+ 0003:1F8B SAFEARRAYACCESSDATA     SAFEARRAYACCESSDATA
+ 0003:0923 SAFEARRAYALLOCDATA      SAFEARRAYALLOCDATA
+ 0003:0885 SAFEARRAYALLOCDESCRIPTOR  SAFEARRAYALLOCDESCRIPTOR
+ 0003:1737 SAFEARRAYCOPY           SAFEARRAYCOPY
+ 0003:0A6D SAFEARRAYCREATE         SAFEARRAYCREATE
+ 0003:10D4 SAFEARRAYDESTROY        SAFEARRAYDESTROY
+ 0003:0E65 SAFEARRAYDESTROYDATA    SAFEARRAYDESTROYDATA
+ 0003:1052 SAFEARRAYDESTROYDESCRIPTOR  SAFEARRAYDESTROYDESCRIPTOR
+ 0003:1CBF SAFEARRAYGETDIM         SAFEARRAYGETDIM
+ 0003:213C SAFEARRAYGETELEMENT     SAFEARRAYGETELEMENT
+ 0003:1D0B SAFEARRAYGETELEMSIZE    SAFEARRAYGETELEMSIZE
+ 0003:1E0E SAFEARRAYGETLBOUND      SAFEARRAYGETLBOUND
+ 0003:1D58 SAFEARRAYGETUBOUND      SAFEARRAYGETUBOUND
+ 0003:1EA5 SAFEARRAYLOCK           SAFEARRAYLOCK
+ 0003:2027 SAFEARRAYPTROFINDEX     SAFEARRAYPTROFINDEX
+ 0003:23C5 SAFEARRAYPUTELEMENT     SAFEARRAYPUTELEMENT
+ 0003:11B6 SAFEARRAYREDIM          SAFEARRAYREDIM
+ 0003:1FFC SAFEARRAYUNACCESSDATA   SAFEARRAYUNACCESSDATA
+ 0003:1F18 SAFEARRAYUNLOCK         SAFEARRAYUNLOCK
+ 0001:0CFF SETERRORINFO            SETERRORINFO
+ 0006:0000 SYSALLOCSTRING          SYSALLOCSTRING
+ 0006:004E SYSALLOCSTRINGLEN       SYSALLOCSTRINGLEN
+ 0006:034A SYSFREESTRING           SYSFREESTRING
+ 0006:016E SYSREALLOCSTRING        SYSREALLOCSTRING
+ 0006:01DA SYSREALLOCSTRINGLEN     SYSREALLOCSTRINGLEN
+ 0006:03AC SYSSTRINGLEN            SYSSTRINGLEN
+ 0003:90A5 VARBOOLFROMCY           VARBOOLFROMCY
+ 0003:906E VARBOOLFROMDATE         VARBOOLFROMDATE
+ 0003:92E2 VARBOOLFROMDISP         VARBOOLFROMDISP
+ 0003:8F67 VARBOOLFROMI2           VARBOOLFROMI2
+ 0003:8F9A VARBOOLFROMI4           VARBOOLFROMI4
+ 0003:8FDA VARBOOLFROMR4           VARBOOLFROMR4
+ 0003:9024 VARBOOLFROMR8           VARBOOLFROMR8
+ 0003:90ED VARBOOLFROMSTR          VARBOOLFROMSTR
+ 0003:8F34 VARBOOLFROMUI1          VARBOOLFROMUI1
+ 0003:B4D1 VARBSTRFROMBOOL         VARBSTRFROMBOOL
+ 0003:BB93 VARBSTRFROMCY           VARBSTRFROMCY
+ 0003:7280 VARBSTRFROMDATE         VARBSTRFROMDATE
+ 0003:BFB6 VARBSTRFROMDISP         VARBSTRFROMDISP
+ 0003:B488 VARBSTRFROMI2           VARBSTRFROMI2
+ 0003:B53F VARBSTRFROMI4           VARBSTRFROMI4
+ 0003:BA01 VARBSTRFROMR4           VARBSTRFROMR4
+ 0003:BACD VARBSTRFROMR8           VARBSTRFROMR8
+ 0003:B44B VARBSTRFROMUI1          VARBSTRFROMUI1
+ 0003:AAB8 VARCYFROMBOOL           VARCYFROMBOOL
+ 0003:AA81 VARCYFROMDATE           VARCYFROMDATE
+ 0003:AF36 VARCYFROMDISP           VARCYFROMDISP
+ 0003:A9C2 VARCYFROMI2             VARCYFROMI2
+ 0003:A9F0 VARCYFROMI4             VARCYFROMI4
+ 0003:AA21 VARCYFROMR4             VARCYFROMR4
+ 0003:AA51 VARCYFROMR8             VARCYFROMR8
+ 0003:AAE6 VARCYFROMSTR            VARCYFROMSTR
+ 0003:A991 VARCYFROMUI1            VARCYFROMUI1
+ 0003:A752 VARDATEFROMBOOL         VARDATEFROMBOOL
+ 0003:A888 VARDATEFROMCY           VARDATEFROMCY
+ 0003:A934 VARDATEFROMDISP         VARDATEFROMDISP
+ 0003:A6FA VARDATEFROMI2           VARDATEFROMI2
+ 0003:A780 VARDATEFROMI4           VARDATEFROMI4
+ 0003:A7D8 VARDATEFROMR4           VARDATEFROMR4
+ 0003:A830 VARDATEFROMR8           VARDATEFROMR8
+ 0003:5A73 VARDATEFROMSTR          VARDATEFROMSTR
+ 0003:A6C9 VARDATEFROMUI1          VARDATEFROMUI1
+ 0003:97A0 VARI2FROMBOOL           VARI2FROMBOOL
+ 0003:9732 VARI2FROMCY             VARI2FROMCY
+ 0003:9769 VARI2FROMDATE           VARI2FROMDATE
+ 0003:9969 VARI2FROMDISP           VARI2FROMDISP
+ 0003:9622 VARI2FROMI4             VARI2FROMI4
+ 0003:968A VARI2FROMR4             VARI2FROMR4
+ 0003:96CB VARI2FROMR8             VARI2FROMR8
+ 0003:97CF VARI2FROMSTR            VARI2FROMSTR
+ 0003:95F1 VARI2FROMUI1            VARI2FROMUI1
+ 0003:9A2A VARI4FROMBOOL           VARI4FROMBOOL
+ 0003:9AFD VARI4FROMCY             VARI4FROMCY
+ 0003:9B34 VARI4FROMDATE           VARI4FROMDATE
+ 0003:9D96 VARI4FROMDISP           VARI4FROMDISP
+ 0003:99F6 VARI4FROMI2             VARI4FROMI2
+ 0003:9A58 VARI4FROMR4             VARI4FROMR4
+ 0003:9A92 VARI4FROMR8             VARI4FROMR8
+ 0003:9B6B VARI4FROMSTR            VARI4FROMSTR
+ 0003:99BF VARI4FROMUI1            VARI4FROMUI1
+ 0003:7BA0 VARIANTCHANGETYPE       VARIANTCHANGETYPE
+ 0003:7BDC VARIANTCHANGETYPEEX     VARIANTCHANGETYPEEX
+ 0001:10C2 VARIANTCLEAR            VARIANTCLEAR
+ 0001:129D VARIANTCOPY             VARIANTCOPY
+ 0001:14E9 VARIANTCOPYIND          VARIANTCOPYIND
+ 0001:109A VARIANTINIT             VARIANTINIT
+ 0003:0362 VARIANTTIMETODOSDATETIME  VARIANTTIMETODOSDATETIME
+ 0003:9F42 VARR4FROMBOOL           VARR4FROMBOOL
+ 0003:A009 VARR4FROMCY             VARR4FROMCY
+ 0003:A040 VARR4FROMDATE           VARR4FROMDATE
+ 0003:A114 VARR4FROMDISP           VARR4FROMDISP
+ 0003:9F0F VARR4FROMI2             VARR4FROMI2
+ 0003:9F70 VARR4FROMI4             VARR4FROMI4
+ 0003:9FA3 VARR4FROMR8             VARR4FROMR8
+ 0003:A077 VARR4FROMSTR            VARR4FROMSTR
+ 0003:9EC5 VARR4FROMUI1            VARR4FROMUI1
+ 0003:A1EE VARR8FROMBOOL           VARR8FROMBOOL
+ 0003:A282 VARR8FROMCY             VARR8FROMCY
+ 0003:A2B9 VARR8FROMDATE           VARR8FROMDATE
+ 0003:A66C VARR8FROMDISP           VARR8FROMDISP
+ 0003:A1BB VARR8FROMI2             VARR8FROMI2
+ 0003:A21C VARR8FROMI4             VARR8FROMI4
+ 0003:A24F VARR8FROMR4             VARR8FROMR4
+ 0003:A2EF VARR8FROMSTR            VARR8FROMSTR
+ 0003:A171 VARR8FROMUI1            VARR8FROMUI1
+ 0003:9505 VARUI1FROMBOOL          VARUI1FROMBOOL
+ 0003:946D VARUI1FROMCY            VARUI1FROMCY
+ 0003:94CE VARUI1FROMDATE          VARUI1FROMDATE
+ 0003:959B VARUI1FROMDISP          VARUI1FROMDISP
+ 0003:9338 VARUI1FROMI2            VARUI1FROMI2
+ 0003:937A VARUI1FROMI4            VARUI1FROMI4
+ 0003:93C5 VARUI1FROMR4            VARUI1FROMR4
+ 0003:9406 VARUI1FROMR8            VARUI1FROMR8
+ 0003:9534 VARUI1FROMSTR           VARUI1FROMSTR
+ 0001:1CB4 _IID_ICreateErrorInfo   _IID_ICreateErrorInfo
+ 0001:1D44 _IID_IDispatch          _IID_IDispatch
+ 0001:1D34 _IID_IEnumVARIANT       _IID_IEnumVARIANT
+ 0001:1CC4 _IID_IErrorInfo         _IID_IErrorInfo
+ 0001:1CA4 _IID_ISupportErrorInfo  _IID_ISupportErrorInfo
+ 0001:4030 ___ExportedStub         ___ExportedStub
+
+  Address         Publics by Name
+
+ 0001:426E       $i8_output
+ 0001:4722       $i8_tpwr10
+ 0007:0494       ??0CDispTypeInfo@@REC@XZ
+ 0001:0553       ??0CErrorInfo@@REC@XZ
+ 0004:3DF9       ??0CHolder@@REC@XZ
+ 0004:E318       ??0COleAutomationPSFactory@@REC@XZ
+ 0004:490B       ??0CPDDispImpl@@REC@PEVCProxDisp@@@Z
+ 0004:46B6       ??0CPDProxImpl@@REC@PEVCProxDisp@@@Z
+ 0004:443D       ??0CPDUnkImpl@@REC@PEVCProxDisp@@@Z
+ 0004:7655       ??0CPEVEnumVARIANTImpl@@REC@PEVCProxEnumVARIANT@@@Z
+ 0004:7433       ??0CPEVProxImpl@@REC@PEVCProxEnumVARIANT@@@Z
+ 0004:7201       ??0CPEVUnkImpl@@REC@PEVCProxEnumVARIANT@@@Z
+ 0008:A0BC       ??0CPriv@CProxUniv@@REC@XZ
+ 0001:0084       ??0CProcessInfo@@REC@XZ
+ 0004:42EE       ??0CProxDisp@@BEC@PEUIUnknown@@AFUGUID@@@Z
+ 0004:7110       ??0CProxEnumVARIANT@@BEC@PEUIUnknown@@@Z
+ 0005:3E8E       ??0CProxTypeComp@@BEC@PEUIUnknown@@@Z
+ 0004:89E6       ??0CProxTypeInfo@@BEC@PEUIUnknown@@@Z
+ 0005:011A       ??0CProxTypeLib@@BEC@PEUIUnknown@@@Z
+ 0008:0000       ??0CProxUniv@@REC@PEUIUnknown@@@Z
+ 0005:4184       ??0CPTCompProxImpl@@REC@PEVCProxTypeComp@@@Z
+ 0005:43B5       ??0CPTCompTypeCompImpl@@REC@PEVCProxTypeComp@@@Z
+ 0005:3F7F       ??0CPTCompUnkImpl@@REC@PEVCProxTypeComp@@@Z
+ 0004:8D09       ??0CPTIProxImpl@@REC@PEVCProxTypeInfo@@@Z
+ 0004:8F2B       ??0CPTITypeInfoImpl@@REC@PEVCProxTypeInfo@@@Z
+ 0004:8AD7       ??0CPTIUnkImpl@@REC@PEVCProxTypeInfo@@@Z
+ 0005:0410       ??0CPTLibProxImpl@@REC@PEVCProxTypeLib@@@Z
+ 0005:0641       ??0CPTLibTypeLibImpl@@REC@PEVCProxTypeLib@@@Z
+ 0005:020B       ??0CPTLibUnkImpl@@REC@PEVCProxTypeLib@@@Z
+ 0007:1DD0       ??0CStdDisp@@REC@XZ
+ 0007:1F3E       ??0CStdDispUnkImpl@@REC@PEVCStdDisp@@@Z
+ 0004:5C08       ??0CStubDisp@@BEC@XZ
+ 0004:7F36       ??0CStubEnumVARIANT@@BEC@XZ
+ 0005:4F22       ??0CStubTypeComp@@BEC@XZ
+ 0004:C08A       ??0CStubTypeInfo@@BEC@XZ
+ 0005:2536       ??0CStubTypeLib@@BEC@XZ
+ 0008:16B8       ??0CStubUniv@@BEC@XZ
+ 0001:5270       ??0ICreateErrorInfo@@REC@XZ
+ 0004:E46C       ??0IDispatch@@REC@XZ
+ 0004:E5CE       ??0IEnumVARIANT@@REC@XZ
+ 0001:523A       ??0IErrorInfo@@REC@XZ
+ 0004:E35A       ??0IPSFactory@@REC@XZ
+ 0004:E436       ??0IRpcProxy@@REC@XZ
+ 0004:E4DC       ??0IRpcStub@@REC@XZ
+ 0005:5D6E       ??0ITypeComp@@REC@XZ
+ 0004:E6A6       ??0ITypeInfo@@REC@XZ
+ 0005:5C96       ??0ITypeLib@@REC@XZ
+ 0004:E390       ??0IUnknown@@REC@XZ
+ 0001:05FD       ??1CErrorInfo@@REC@XZ
+ 0004:3E4A       ??1CHolder@@REC@XZ
+ 0004:4951       ??1CPDDispImpl@@REC@XZ
+ 0004:46FC       ??1CPDProxImpl@@REC@XZ
+ 0004:4483       ??1CPDUnkImpl@@REC@XZ
+ 0004:7479       ??1CPEVProxImpl@@REC@XZ
+ 0001:00F6       ??1CProcessInfo@@REC@XZ
+ 0004:4386       ??1CProxDisp@@BEC@XZ
+ 0004:E604       ??1CProxEnumVARIANT@@REC@XZ
+ 0005:5DA4       ??1CProxTypeComp@@REC@XZ
+ 0004:E6DC       ??1CProxTypeInfo@@REC@XZ
+ 0005:5CCC       ??1CProxTypeLib@@REC@XZ
+ 0008:00C3       ??1CProxUniv@@REC@XZ
+ 0005:41CA       ??1CPTCompProxImpl@@REC@XZ
+ 0004:8D4F       ??1CPTIProxImpl@@REC@XZ
+ 0005:0456       ??1CPTLibProxImpl@@REC@XZ
+ 0004:5C64       ??1CStubDisp@@BEC@XZ
+ 0004:7F92       ??1CStubEnumVARIANT@@BEC@XZ
+ 0005:4F94       ??1CStubTypeComp@@BEC@XZ
+ 0004:C0F3       ??1CStubTypeInfo@@BEC@XZ
+ 0005:25A8       ??1CStubTypeLib@@BEC@XZ
+ 0008:1748       ??1CStubUniv@@BEC@XZ
+ 0001:0F66       ??2@ZAPAXI@Z
+ 0001:0FB5       ??2@ZAPEXI@Z
+ 0001:0F8F       ??3@ZAXPAX@Z
+ 0001:100A       ??3@ZAXPEX@Z
+ 0004:E2E4       ??8GUID@@RFCHAFU0@@Z
+ 0001:5308       ??9GUID@@RFCHAFU0@@Z
+ 0002:0428       ??_7CDispTypeInfo@@6F@
+ 0002:0278       ??_7CErrorInfo@@6FICreateErrorInfo@@@
+ 0002:0258       ??_7CErrorInfo@@6FIErrorInfo@@@
+ 0002:0034       ??_7CHolder@@6F@
+ 0002:0000       ??_7COleAutomationPSFactory@@6F@
+ 0002:0040       ??_7CPDDispImpl@@6F@
+ 0002:009C       ??_7CPDProxImpl@@6F@
+ 0002:007C       ??_7CPDUnkImpl@@6F@
+ 0002:00F0       ??_7CPEVEnumVARIANTImpl@@6F@
+ 0002:0134       ??_7CPEVProxImpl@@6F@
+ 0002:0128       ??_7CPEVUnkImpl@@6F@
+ 0002:0414       ??_7CPriv@CProxUniv@@6F@
+ 0002:0298       ??_7CProcessInfo@@6F@
+ 0002:03C0       ??_7CPTCompProxImpl@@6F@
+ 0002:038C       ??_7CPTCompTypeCompImpl@@6F@
+ 0002:03A0       ??_7CPTCompUnkImpl@@6F@
+ 0002:0224       ??_7CPTIProxImpl@@6F@
+ 0002:0168       ??_7CPTITypeInfoImpl@@6F@
+ 0002:0218       ??_7CPTIUnkImpl@@6F@
+ 0002:0358       ??_7CPTLibProxImpl@@6F@
+ 0002:02E4       ??_7CPTLibTypeLibImpl@@6F@
+ 0002:0318       ??_7CPTLibUnkImpl@@6F@
+ 0002:0480       ??_7CStdDisp@@6F@
+ 0002:049C       ??_7CStdDispUnkImpl@@6F@
+ 0002:00D0       ??_7CStubDisp@@6F@
+ 0002:0148       ??_7CStubEnumVARIANT@@6F@
+ 0002:03D4       ??_7CStubTypeComp@@6F@
+ 0002:0238       ??_7CStubTypeInfo@@6F@
+ 0002:036C       ??_7CStubTypeLib@@6F@
+ 0002:03F4       ??_7CStubUniv@@6F@
+ 0002:02C4       ??_7ICreateErrorInfo@@6F@
+ 0002:0060       ??_7IDispatch@@6F@
+ 0002:010C       ??_7IEnumVARIANT@@6F@
+ 0002:02A4       ??_7IErrorInfo@@6F@
+ 0002:0014       ??_7IPSFactory@@6F@
+ 0002:0088       ??_7IRpcProxy@@6F@
+ 0002:00B0       ??_7IRpcStub@@6F@
+ 0002:03AC       ??_7ITypeComp@@6F@
+ 0002:01C0       ??_7ITypeInfo@@6F@
+ 0002:0324       ??_7ITypeLib@@6F@
+ 0002:0028       ??_7IUnknown@@6F@
+ 0001:52A6       ??_GCErrorInfo@@RECPEXI@Z
+ 0004:E3BA       ??_GCHolder@@RECPEXI@Z
+ 0001:51FC       ??_GCProcessInfo@@RECPEXI@Z
+ 0004:E3F8       ??_GCProxDisp@@BECPEXI@Z
+ 0004:E590       ??_GCProxEnumVARIANT@@RECPEXI@Z
+ 0005:5D30       ??_GCProxTypeComp@@RECPEXI@Z
+ 0004:E668       ??_GCProxTypeInfo@@RECPEXI@Z
+ 0005:5C58       ??_GCProxTypeLib@@RECPEXI@Z
+ 0008:A0F2       ??_GCProxUniv@@RECPEXI@Z
+ 0004:E512       ??_GCStubDisp@@BECPEXI@Z
+ 0004:E62A       ??_GCStubEnumVARIANT@@BECPEXI@Z
+ 0005:5DCA       ??_GCStubTypeComp@@BECPEXI@Z
+ 0004:E702       ??_GCStubTypeInfo@@BECPEXI@Z
+ 0005:5CF2       ??_GCStubTypeLib@@BECPEXI@Z
+ 0008:A130       ??_GCStubUniv@@BECPEXI@Z
+ 0003:B3B7       ?AddCyNoOflo@@YCXPEUtagCY@@0@Z
+ 0007:059A       ?AddRef@CDispTypeInfo@@VEAKXZ
+ 0001:07D4       ?AddRef@CErrorInfo@@VEAKXZ
+ 0001:52F0       ?AddRef@CErrorInfo@@X3EAKXZ
+ 0004:3F09       ?AddRef@CHolder@@VEAKXZ
+ 0004:0103       ?AddRef@COleAutomationPSFactory@@VEAKXZ
+ 0004:49C2       ?AddRef@CPDDispImpl@@VEAKXZ
+ 0004:47AE       ?AddRef@CPDProxImpl@@VEAKXZ
+ 0004:45EF       ?AddRef@CPDUnkImpl@@VEAKXZ
+ 0004:76E8       ?AddRef@CPEVEnumVARIANTImpl@@VEAKXZ
+ 0004:751A       ?AddRef@CPEVProxImpl@@VEAKXZ
+ 0004:736C       ?AddRef@CPEVUnkImpl@@VEAKXZ
+ 0008:09CB       ?AddRef@CPriv@CProxUniv@@VEAKXZ
+ 0001:0200       ?AddRef@CProcessInfo@@VEAKXZ
+ 0005:426B       ?AddRef@CPTCompProxImpl@@VEAKXZ
+ 0005:4451       ?AddRef@CPTCompTypeCompImpl@@VEAKXZ
+ 0005:40BD       ?AddRef@CPTCompUnkImpl@@VEAKXZ
+ 0004:8DF0       ?AddRef@CPTIProxImpl@@VEAKXZ
+ 0004:8FBE       ?AddRef@CPTITypeInfoImpl@@VEAKXZ
+ 0004:8C42       ?AddRef@CPTIUnkImpl@@VEAKXZ
+ 0005:04F7       ?AddRef@CPTLibProxImpl@@VEAKXZ
+ 0005:06DD       ?AddRef@CPTLibTypeLibImpl@@VEAKXZ
+ 0005:0349       ?AddRef@CPTLibUnkImpl@@VEAKXZ
+ 0007:217A       ?AddRef@CStdDisp@@VEAKXZ
+ 0007:2049       ?AddRef@CStdDispUnkImpl@@VEAKXZ
+ 0004:5DD9       ?AddRef@CStubDisp@@VEAKXZ
+ 0004:8103       ?AddRef@CStubEnumVARIANT@@VEAKXZ
+ 0005:5105       ?AddRef@CStubTypeComp@@VEAKXZ
+ 0004:C264       ?AddRef@CStubTypeInfo@@VEAKXZ
+ 0005:2719       ?AddRef@CStubTypeLib@@VEAKXZ
+ 0008:18D1       ?AddRef@CStubUniv@@VEAKXZ
+ 0007:1BAB       ?AddressOfMember@CDispTypeInfo@@VEAPEXJW4tagINVOKEKIND@@PEPEX@Z
+ 0004:AD8D       ?AddressOfMember@CPTITypeInfoImpl@@VEAPEXJW4tagINVOKEKIND@@PEPEX
+ 0007:140E       ?AllocInvokeArgs@CDispTypeInfo@@BECPEXIPEPEUtagINVOKEARGS@@@Z
+ 0009:0298       ?AssertDlgProc@@ZCHIGGJ@Z
+ 0005:44D5       ?Bind@CPTCompTypeCompImpl@@VEAPEXPEDKGPEPEUITypeInfo@@PEW4tagDES
+ 0005:5497       ?Bind@CStubTypeComp@@RECPEXXZ
+ 0005:4A50       ?BindType@CPTCompTypeCompImpl@@VEAPEXPEDKPEPEUITypeInfo@@PEPEUIT
+ 0005:597E       ?BindType@CStubTypeComp@@RECPEXXZ
+ 0003:B58B       ?BstrFromFloat@@ZAPEXNKKPEPEDH@Z
+ 0004:0A94       ?BstrRead@@ZAPEXPEUIStream@@PEPEDW4tagSYSKIND@@@Z
+ 0004:096E       ?BstrWrite@@ZAPEXPEUIStream@@PEDW4tagSYSKIND@@@Z
+ 0008:062B       ?CacheFuncDescs@CProxUniv@@RECPEXPEUITypeInfo@@@Z
+ 0008:01AF       ?CanWeRemoteIt@@ZAPEXPEUITypeInfo@@PEGPEH@Z
+ 0004:7D9B       ?Clone@CPEVEnumVARIANTImpl@@VEAPEXPEPEUIEnumVARIANT@@@Z
+ 0004:4822       ?Connect@CPDProxImpl@@VEAPEXPEUIRpcChannel@@@Z
+ 0004:758E       ?Connect@CPEVProxImpl@@VEAPEXPEUIRpcChannel@@@Z
+ 0008:0A95       ?Connect@CPriv@CProxUniv@@VEAPEXPEUIRpcChannel@@@Z
+ 0005:42DF       ?Connect@CPTCompProxImpl@@VEAPEXPEUIRpcChannel@@@Z
+ 0004:8E64       ?Connect@CPTIProxImpl@@VEAPEXPEUIRpcChannel@@@Z
+ 0005:056B       ?Connect@CPTLibProxImpl@@VEAPEXPEUIRpcChannel@@@Z
+ 0004:5E81       ?Connect@CStubDisp@@VEAPEXPEUIUnknown@@@Z
+ 0004:81AB       ?Connect@CStubEnumVARIANT@@VEAPEXPEUIUnknown@@@Z
+ 0005:51AD       ?Connect@CStubTypeComp@@VEAPEXPEUIUnknown@@@Z
+ 0004:C30C       ?Connect@CStubTypeInfo@@VEAPEXPEUIUnknown@@@Z
+ 0005:27C1       ?Connect@CStubTypeLib@@VEAPEXPEUIUnknown@@@Z
+ 0008:1979       ?Connect@CStubUniv@@VEAPEXPEUIUnknown@@@Z
+ 0003:9DF3       ?ConvI4FromR8@@YCJPEN@Z
+ 0004:70B3       ?CountRefs@CStubDisp@@VEAKXZ
+ 0004:8989       ?CountRefs@CStubEnumVARIANT@@VEAKXZ
+ 0005:543B       ?CountRefs@CStubTypeComp@@VEAKXZ
+ 0004:C68B       ?CountRefs@CStubTypeInfo@@VEAKXZ
+ 0005:2AED       ?CountRefs@CStubTypeLib@@VEAKXZ
+ 0008:1D27       ?CountRefs@CStubUniv@@VEAKXZ
+ 0007:036E       ?Create@CDispTypeInfo@@TAPEXW4tagTYPEKIND@@PEUtagINTERFACEDATA@@
+ 0001:0660       ?Create@CErrorInfo@@TAPEXPEPEV1@@Z
+ 0004:0000       ?Create@COleAutomationPSFactory@@TAPEUIPSFactory@@XZ
+ 0004:43C7       ?Create@CProxDisp@@TAPEUIUnknown@@PEU2@AFUGUID@@@Z
+ 0004:7191       ?Create@CProxEnumVARIANT@@TAPEUIUnknown@@PEU2@@Z
+ 0005:3F0F       ?Create@CProxTypeComp@@TAPEUIUnknown@@PEU2@@Z
+ 0004:8A67       ?Create@CProxTypeInfo@@TAPEUIUnknown@@PEU2@@Z
+ 0005:019B       ?Create@CProxTypeLib@@TAPEUIUnknown@@PEU2@@Z
+ 0008:02D8       ?Create@CProxUniv@@TAPEXPEUIUnknown@@AFUGUID@@PEPEU2@@Z
+ 0007:1E51       ?Create@CStdDisp@@TAPEXPEUIUnknown@@PEXPEUITypeInfo@@PEPEU2@@Z
+ 0004:5C96       ?Create@CStubDisp@@TAPEXPEUIUnknown@@PEPEUIRpcStub@@@Z
+ 0004:7FC4       ?Create@CStubEnumVARIANT@@TAPEXPEUIUnknown@@PEPEUIRpcStub@@@Z
+ 0005:4FC6       ?Create@CStubTypeComp@@TAPEXPEUIUnknown@@PEPEUIRpcStub@@@Z
+ 0004:C125       ?Create@CStubTypeInfo@@TAPEXPEUIUnknown@@PEPEUIRpcStub@@@Z
+ 0005:25DA       ?Create@CStubTypeLib@@TAPEXPEUIUnknown@@PEPEUIRpcStub@@@Z
+ 0008:177A       ?Create@CStubUniv@@TAPEXPEUIUnknown@@AFUGUID@@PEPEUIRpcStub@@@Z
+ 0001:18D8       ?CreateActiveObjectMoniker@@YCPEXAFUGUID@@PEPEUIMoniker@@@Z
+ 0007:1BCF       ?CreateInstance@CDispTypeInfo@@VEAPEXPEUIUnknown@@AFUGUID@@PEPEX
+ 0004:ADB1       ?CreateInstance@CPTITypeInfoImpl@@VEAPEXPEUIUnknown@@AFUGUID@@PE
+ 0004:DCF2       ?CreateInstance@CStubTypeInfo@@RECPEXXZ
+ 0004:0198       ?CreateProxy@COleAutomationPSFactory@@VEAPEXPEUIUnknown@@AFUGUID
+ 0004:04A6       ?CreateStub@COleAutomationPSFactory@@VEAPEXAFUGUID@@PEUIUnknown@
+ 0003:AF93       ?CurrencyFromLcid@@ZADKK@Z
+ 0003:AFDA       ?DecimalFromLcid@@ZADKK@Z
+ 0004:48A4       ?Disconnect@CPDProxImpl@@VEAXXZ
+ 0004:75EE       ?Disconnect@CPEVProxImpl@@VEAXXZ
+ 0008:0B38       ?Disconnect@CPriv@CProxUniv@@VEAXXZ
+ 0005:434E       ?Disconnect@CPTCompProxImpl@@VEAXXZ
+ 0004:8EC4       ?Disconnect@CPTIProxImpl@@VEAXXZ
+ 0005:05DA       ?Disconnect@CPTLibProxImpl@@VEAXXZ
+ 0004:5EED       ?Disconnect@CStubDisp@@VEAXXZ
+ 0004:8217       ?Disconnect@CStubEnumVARIANT@@VEAXXZ
+ 0005:5219       ?Disconnect@CStubTypeComp@@VEAXXZ
+ 0004:C378       ?Disconnect@CStubTypeInfo@@VEAXXZ
+ 0005:282D       ?Disconnect@CStubTypeLib@@VEAXXZ
+ 0008:19E5       ?Disconnect@CStubUniv@@VEAXXZ
+ 0004:872D       ?DispatchClone@@YCPEXPEUIEnumVARIANT@@PEUIStream@@@Z
+ 0004:5F7D       ?DispatchGetSysKind@@YCPEXPEUIStream@@@Z
+ 0008:1F2C       ?DispatchMethod@CStubUniv@@RECPEXH@Z
+ 0004:82A7       ?DispatchNext@@YCPEXPEUIEnumVARIANT@@PEUIStream@@@Z
+ 0004:86DF       ?DispatchReset@@YCPEXPEUIEnumVARIANT@@PEUIStream@@@Z
+ 0004:85DC       ?DispatchSkip@@YCPEXPEUIEnumVARIANT@@PEUIStream@@@Z
+ 0005:0761       ?DoGetTypeInfoCount@CPTLibTypeLibImpl@@RECPEXPEI@Z
+ 0005:0000       ?DoLoadTypeLib@@ZCPEXPFDPEPEUITypeLib@@@Z
+ 0004:B22B       ?DoReleaseDanglingTypeDesc@@ZCXPEUtagTYPEDESC@@@Z
+ 0004:B31F       ?DoReleaseFuncDesc@@ZCXPEUtagFUNCDESC@@@Z
+ 0004:B40C       ?DoReleaseVarDesc@@ZCXPEUtagVARDESC@@@Z
+ 0003:CD95       ?EditStrFromReal@@YCXPEDHKK@Z
+ 0004:1BFA       ?ExcepinfoRead@@ZAPEXPEUIStream@@PEUtagEXCEPINFO@@W4tagSYSKIND@@
+ 0004:1D60       ?ExcepinfoWrite@@ZAPEXPEUIStream@@PEUtagEXCEPINFO@@W4tagSYSKIND@
+ 0003:7ED3       ?ExtractValueProperty@@YCPEXPEUIDispatch@@KPEUtagVARIANT@@@Z
+ 0005:1A86       ?FindName@CPTLibTypeLibImpl@@VEAPEXPEDKPEPEUITypeInfo@@PEJPEG@Z
+ 0005:3946       ?FindName@CStubTypeLib@@RECPEXXZ
+ 0009:0048       ?FIsBadCodePtr@@ZCHPEX@Z
+ 0009:008D       ?FIsBadInterface@@ZCHPEXI@Z
+ 0009:0000       ?FIsBadReadPtr@@ZCHPFXI@Z
+ 0009:0069       ?FIsBadStringPtr@@ZCHPEDI@Z
+ 0009:0024       ?FIsBadWritePtr@@ZCHPEXI@Z
+ 0008:2CB2       ?FIsLCID@@ZAHPED@Z
+ 0003:C013       ?FixNegativeCyStr@@YCHPEDDPEH@Z
+ 0003:B253       ?FMakePosCy@@YCHPEUtagCY@@@Z
+ 0003:C1D2       ?fParseBegin@@YCHPEPEDPED1@Z
+ 0003:C262       ?fParseEnd@@YCHPEPEDPED1@Z
+ 0003:C32A       ?fStripCurrency@@YCHPEPED0PED@Z
+ 0004:BCA7       ?FuncdescRead@@ZCPEXPEUIStream@@PEUtagFUNCDESC@@W4tagSYSKIND@@@Z
+ 0004:BBCD       ?FuncdescWrite@@ZCPEXPEUIStream@@PEUtagFUNCDESC@@W4tagSYSKIND@@@
+ 0007:1C17       ?GetContainingTypeLib@CDispTypeInfo@@VEAPEXPEPEUITypeLib@@PEI@Z
+ 0004:AFE7       ?GetContainingTypeLib@CPTITypeInfoImpl@@VEAPEXPEPEUITypeLib@@PEI
+ 0004:DE47       ?GetContainingTypeLib@CStubTypeInfo@@RECPEXXZ
+ 0001:098E       ?GetDescription@CErrorInfo@@VEAPEXPEPED@Z
+ 0003:D1C3       ?GetDispProperty@@YCPEXPEUIDispatch@@KGPEUtagVARIANT@@@Z
+ 0007:1AD9       ?GetDllEntry@CDispTypeInfo@@VEAPEXJW4tagINVOKEKIND@@PEPED1PEG@Z
+ 0004:A79C       ?GetDllEntry@CPTITypeInfoImpl@@VEAPEXJW4tagINVOKEKIND@@PEPED1PEG
+ 0004:D81D       ?GetDllEntry@CStubTypeInfo@@RECPEXXZ
+ 0007:19F4       ?GetDocumentation@CDispTypeInfo@@VEAPEXJPEPED0PEK0@Z
+ 0004:A2BD       ?GetDocumentation@CPTITypeInfoImpl@@VEAPEXJPEPED0PEK0@Z
+ 0005:129A       ?GetDocumentation@CPTLibTypeLibImpl@@VEAPEXHPEPED0PEK0@Z
+ 0004:D4AC       ?GetDocumentation@CStubTypeInfo@@RECPEXXZ
+ 0005:32D5       ?GetDocumentation@CStubTypeLib@@RECPEXXZ
+ 0007:0836       ?GetFuncDesc@CDispTypeInfo@@VEAPEXIPEPEUtagFUNCDESC@@@Z
+ 0004:9463       ?GetFuncDesc@CPTITypeInfoImpl@@VEAPEXIPEPEUtagFUNCDESC@@@Z
+ 0004:C9DB       ?GetFuncDesc@CStubTypeInfo@@RECPEXXZ
+ 0001:08A6       ?GetGUID@CErrorInfo@@VEAPEXPEUGUID@@@Z
+ 0001:0A72       ?GetHelpContext@CErrorInfo@@VEAPEXPEK@Z
+ 0001:0A00       ?GetHelpFile@CErrorInfo@@VEAPEXPEPED@Z
+ 0007:0D04       ?GetIDsOfNames@CDispTypeInfo@@VEAPEXPEPEDIPEJ@Z
+ 0004:54F1       ?GetIDsOfNames@CPDDispImpl@@VEAPEXAFUGUID@@PEPEDIKPEJ@Z
+ 0004:A275       ?GetIDsOfNames@CPTITypeInfoImpl@@VEAPEXPEPEDIPEJ@Z
+ 0007:2298       ?GetIDsOfNames@CStdDisp@@VEAPEXAFUGUID@@PEPEDIKPEJ@Z
+ 0004:D490       ?GetIDsOfNames@CStubTypeInfo@@RECPEXXZ
+ 0007:0CE0       ?GetImplTypeFlags@CDispTypeInfo@@VEAPEXIPEH@Z
+ 0004:A068       ?GetImplTypeFlags@CPTITypeInfoImpl@@VEAPEXIPEH@Z
+ 0004:D336       ?GetImplTypeFlags@CStubTypeInfo@@RECPEXXZ
+ 0007:15AE       ?GetInvokeArgs@CDispTypeInfo@@BECPEXPEUtagMETHODDATA@@GPEUtagDIS
+ 0005:0F00       ?GetLibAttr@CPTLibTypeLibImpl@@VEAPEXPEPEUtagTLIBATTR@@@Z
+ 0005:3062       ?GetLibAttr@CStubTypeLib@@RECPEXXZ
+ 0007:1BF3       ?GetMops@CDispTypeInfo@@VEAPEXJPEPED@Z
+ 0004:AFB7       ?GetMops@CPTITypeInfoImpl@@VEAPEXJPEPED@Z
+ 0007:0AB8       ?GetNames@CDispTypeInfo@@VEAPEXJPEPEDIPEI@Z
+ 0004:9A05       ?GetNames@CPTITypeInfoImpl@@VEAPEXJPEPEDIPEI@Z
+ 0004:CE4A       ?GetNames@CStubTypeInfo@@RECPEXXZ
+ 0004:DFC6       ?GetPrimaryInterface@@ZCPEXPEUITypeInfo@@PEPEU1@@Z
+ 0007:1AFD       ?GetRefTypeInfo@CDispTypeInfo@@VEAPEXKPEPEUITypeInfo@@@Z
+ 0004:AB9C       ?GetRefTypeInfo@CPTITypeInfoImpl@@VEAPEXKPEPEUITypeInfo@@@Z
+ 0004:DB8C       ?GetRefTypeInfo@CStubTypeInfo@@RECPEXXZ
+ 0007:0C9A       ?GetRefTypeOfImplType@CDispTypeInfo@@VEAPEXIPEK@Z
+ 0004:9E55       ?GetRefTypeOfImplType@CPTITypeInfoImpl@@VEAPEXIPEK@Z
+ 0004:D1E6       ?GetRefTypeOfImplType@CStubTypeInfo@@RECPEXXZ
+ 0001:091C       ?GetSource@CErrorInfo@@VEAPEXPEPED@Z
+ 0004:B471       ?GetStream@CPTITypeInfoImpl@@RECPEXHKPEPEUIStream@@@Z
+ 0007:062F       ?GetTypeAttr@CDispTypeInfo@@VEAPEXPEPEUtagTYPEATTR@@@Z
+ 0004:9042       ?GetTypeAttr@CPTITypeInfoImpl@@VEAPEXPEPEUtagTYPEATTR@@@Z
+ 0004:C6E7       ?GetTypeAttr@CStubTypeInfo@@RECPEXXZ
+ 0007:079A       ?GetTypeComp@CDispTypeInfo@@VEAPEXPEPEUITypeComp@@@Z
+ 0004:92BD       ?GetTypeComp@CPTITypeInfoImpl@@VEAPEXPEPEUITypeComp@@@Z
+ 0005:10F4       ?GetTypeComp@CPTLibTypeLibImpl@@VEAPEXPEPEUITypeComp@@@Z
+ 0004:C8BF       ?GetTypeComp@CStubTypeInfo@@RECPEXXZ
+ 0005:31A0       ?GetTypeComp@CStubTypeLib@@RECPEXXZ
+ 0004:5026       ?GetTypeInfo@CPDDispImpl@@VEAPEXIKPEPEUITypeInfo@@@Z
+ 0005:08FE       ?GetTypeInfo@CPTLibTypeLibImpl@@VEAPEXIPEPEUITypeInfo@@@Z
+ 0007:2231       ?GetTypeInfo@CStdDisp@@VEAPEXIKPEPEUITypeInfo@@@Z
+ 0005:2BBF       ?GetTypeInfo@CStubTypeLib@@RECPEXXZ
+ 0004:4D71       ?GetTypeInfoCount@CPDDispImpl@@VEAPEXPEI@Z
+ 0005:08A1       ?GetTypeInfoCount@CPTLibTypeLibImpl@@VEAIXZ
+ 0007:21EE       ?GetTypeInfoCount@CStdDisp@@VEAPEXPEI@Z
+ 0005:2B49       ?GetTypeInfoCount@CStubTypeLib@@RECPEXXZ
+ 0005:0D0E       ?GetTypeInfoOfGuid@CPTLibTypeLibImpl@@VEAPEXAFUGUID@@PEPEUITypeI
+ 0005:2ED4       ?GetTypeInfoOfGuid@CStubTypeLib@@RECPEXXZ
+ 0008:2D33       ?GetTypeInfoOfIID@@ZAPEXAFUGUID@@PEPEUITypeInfo@@@Z
+ 0005:0AFA       ?GetTypeInfoType@CPTLibTypeLibImpl@@VEAPEXIPEW4tagTYPEKIND@@@Z
+ 0005:2D51       ?GetTypeInfoType@CStubTypeLib@@RECPEXXZ
+ 0007:0A94       ?GetVarDesc@CDispTypeInfo@@VEAPEXIPEPEUtagVARDESC@@@Z
+ 0004:9734       ?GetVarDesc@CPTITypeInfoImpl@@VEAPEXIPEPEUtagVARDESC@@@Z
+ 0004:CC00       ?GetVarDesc@CStubTypeInfo@@RECPEXXZ
+ 000B:016E       ?g_cbFtype@@3QEEE
+ 000B:015C       ?g_cbVtSizes@@3QEEE
+ 000B:13D2       ?g_cfnDisp@@3JE
+ 000B:13CE       ?g_cfnUnk@@3JE
+ 000B:0BCA       ?g_rgpfnDisp@@3QEPEXE
+ 000B:03C6       ?g_rgpfnUnk@@3QEPEXE
+ 000B:240C       ?g_szLoc@@3PEDE
+ 000B:2410       ?g_szMsg@@3PEDE
+ 0003:04B4       ?hAccessElement@@ZCPIXPEUtagSAFEARRAY@@K@Z
+ 0003:05FF       ?hAccessElement@@ZCPIXPIXGK@Z
+ 0003:CAA0       ?HexOctStrToLong@@YCJPEDPEPED@Z
+ 0003:0708       ?hmemset@@ZCXPIXHK@Z
+ 0003:0446       ?hSizeToAlloc@@ZCKPEUtagSAFEARRAY@@K@Z
+ 0007:07BE       ?InvkindOfDispkind@@YCPEXGPEW4tagINVOKEKIND@@@Z
+ 0007:0F78       ?Invoke@CDispTypeInfo@@VEAPEXPEXJGPEUtagDISPPARAMS@@PEUtagVARIAN
+ 0004:5B9F       ?Invoke@CPDDispImpl@@VEAPEXJAFUGUID@@KGPEUtagDISPPARAMS@@PEUtagV
+ 0004:A299       ?Invoke@CPTITypeInfoImpl@@VEAPEXPEXJGPEUtagDISPPARAMS@@PEUtagVAR
+ 0007:22F7       ?Invoke@CStdDisp@@VEAPEXJAFUGUID@@KGPEUtagDISPPARAMS@@PEUtagVARI
+ 0004:6ED5       ?Invoke@CStubDisp@@VEAPEXAFUGUID@@HPEUIStream@@KPEX@Z
+ 0004:87D7       ?Invoke@CStubEnumVARIANT@@VEAPEXAFUGUID@@HPEUIStream@@KPEX@Z
+ 0005:52A9       ?Invoke@CStubTypeComp@@VEAPEXAFUGUID@@HPEUIStream@@KPEX@Z
+ 0004:C408       ?Invoke@CStubTypeInfo@@VEAPEXAFUGUID@@HPEUIStream@@KPEX@Z
+ 0005:28BD       ?Invoke@CStubTypeLib@@VEAPEXAFUGUID@@HPEUIStream@@KPEX@Z
+ 0008:1A75       ?Invoke@CStubUniv@@VEAPEXAFUGUID@@HPEUIStream@@KPEX@Z
+ 0004:071F       ?IsAutomationCLSID@@ZAHAFUGUID@@@Z
+ 0009:0139       ?IsBadDispParams@@ZCHPEUtagDISPPARAMS@@@Z
+ 0009:01E0       ?IsBadReadSA@@ZCHPEUtagSAFEARRAY@@@Z
+ 0009:023C       ?IsBadWriteSA@@ZCHPEUtagSAFEARRAY@@@Z
+ 0004:706E       ?IsIIDSupported@CStubDisp@@VEAHAFUGUID@@@Z
+ 0004:8944       ?IsIIDSupported@CStubEnumVARIANT@@VEAHAFUGUID@@@Z
+ 0005:53F6       ?IsIIDSupported@CStubTypeComp@@VEAHAFUGUID@@@Z
+ 0004:C646       ?IsIIDSupported@CStubTypeInfo@@VEAHAFUGUID@@@Z
+ 0005:2AA8       ?IsIIDSupported@CStubTypeLib@@VEAHAFUGUID@@@Z
+ 0008:1CDD       ?IsIIDSupported@CStubUniv@@VEAHAFUGUID@@@Z
+ 0007:247E       ?IsLegalInvokeFlags@CDispTypeInfo@@BFCHG@Z
+ 0001:185A       ?IsLegalVartype@@ZCPEXG@Z
+ 0005:17EF       ?IsName@CPTLibTypeLibImpl@@VEAPEXPEDKPEH@Z
+ 0005:3763       ?IsName@CStubTypeLib@@RECPEXXZ
+ 0007:243A       ?IsPropGet@CDispTypeInfo@@BFCHG@Z
+ 0007:245C       ?IsPropPut@CDispTypeInfo@@BFCHG@Z
+ 0003:A8F6       ?IsValidDate@@ZCPEXN@Z
+ 0003:B20D       ?LeadingZeroForDecimalFromLcid@@ZAHKK@Z
+ 000B:1DA8       ?ll0@?1??Rewind@@ZAPEXPEUIStream@@@Z@4U_LARGE_INTEGER@@B
+ 0004:B48D       ?LrpcCall@CPTITypeInfoImpl@@RECPEXPEUIStream@@PEPEX@Z
+ 0004:1F01       ?MarshalErrorInfo@@ZAPEXPEUIStream@@W4tagSYSKIND@@@Z
+ 0004:DF94       ?MarshalResult@CStubTypeInfo@@RECPEXXZ
+ 0003:B352       ?NegCyNoOflo@@YCXPEUtagCY@@@Z
+ 0004:776C       ?Next@CPEVEnumVARIANTImpl@@VEAPEXKPEUtagVARIANT@@PEK@Z
+ 0007:1CEF       ?PmdataOfDispid@CDispTypeInfo@@BECPEXJGPEPEUtagMETHODDATA@@@Z
+ 0007:240A       ?PmdataOfPropGet@CDispTypeInfo@@BECPEXJPEPEUtagMETHODDATA@@@Z
+ 0008:A16E       ?PProx@CPriv@CProxUniv@@RECPEV2@XZ
+ 0004:5071       ?ProxyGetIDsOfNames@@ZAPEXPEUIRpcChannel@@W4tagSYSKIND@@AFUGUID@
+ 0004:4DB3       ?ProxyGetTypeInfo@@ZAPEXPEUIRpcChannel@@W4tagSYSKIND@@IKPEPEUITy
+ 0004:4B8E       ?ProxyGetTypeInfoCount@@ZAPEXPEUIRpcChannel@@W4tagSYSKIND@@PEI@Z
+ 0004:5548       ?ProxyInvoke@@ZAPEXPEUIRpcChannel@@W4tagSYSKIND@@JAFUGUID@@KGPEU
+ 0004:0868       ?ProxyStubCLSIDOfInterface@@ZAPEXAFUGUID@@PEU1@@Z
+ 0008:0BA9       ?PSInit@CProxUniv@@RECPEXXZ
+ 0008:1D83       ?PSInit@CStubUniv@@RECPEXXZ
+ 000B:1826       ?pstrInd@@3QEDE
+ 000B:1822       ?pstrInf@@3QEDE
+ 000B:182A       ?pstrNan@@3QEDE
+ 0007:04E3       ?QueryInterface@CDispTypeInfo@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:06DA       ?QueryInterface@CErrorInfo@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:52E4       ?QueryInterface@CErrorInfo@@X3EAPEXAFUGUID@@PEPEX@Z
+ 0004:3E9A       ?QueryInterface@CHolder@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:0065       ?QueryInterface@COleAutomationPSFactory@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:4975       ?QueryInterface@CPDDispImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:4769       ?QueryInterface@CPDProxImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:44A7       ?QueryInterface@CPDUnkImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:769B       ?QueryInterface@CPEVEnumVARIANTImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:74D5       ?QueryInterface@CPEVProxImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:7247       ?QueryInterface@CPEVUnkImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0008:08F1       ?QueryInterface@CPriv@CProxUniv@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:018B       ?QueryInterface@CProcessInfo@@VEAPEXAFUGUID@@PEPEX@Z
+ 0005:4226       ?QueryInterface@CPTCompProxImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0005:4404       ?QueryInterface@CPTCompTypeCompImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0005:3FC5       ?QueryInterface@CPTCompUnkImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:8DAB       ?QueryInterface@CPTIProxImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:8F71       ?QueryInterface@CPTITypeInfoImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:8B1D       ?QueryInterface@CPTIUnkImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0005:04B2       ?QueryInterface@CPTLibProxImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0005:0690       ?QueryInterface@CPTLibTypeLibImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0005:0251       ?QueryInterface@CPTLibUnkImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0007:2135       ?QueryInterface@CStdDisp@@VEAPEXAFUGUID@@PEPEX@Z
+ 0007:1F84       ?QueryInterface@CStdDispUnkImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:5D3B       ?QueryInterface@CStubDisp@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:8065       ?QueryInterface@CStubEnumVARIANT@@VEAPEXAFUGUID@@PEPEX@Z
+ 0005:5067       ?QueryInterface@CStubTypeComp@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:C1C6       ?QueryInterface@CStubTypeInfo@@VEAPEXAFUGUID@@PEPEX@Z
+ 0005:267B       ?QueryInterface@CStubTypeLib@@VEAPEXAFUGUID@@PEPEX@Z
+ 0008:1833       ?QueryInterface@CStubUniv@@VEAPEXAFUGUID@@PEPEX@Z
+ 0005:212F       ?ReadLibAttr@@ZCPEXPEUIStream@@PEUtagTLIBATTR@@@Z
+ 0007:05CD       ?Release@CDispTypeInfo@@VEAKXZ
+ 0001:0807       ?Release@CErrorInfo@@VEAKXZ
+ 0001:52FC       ?Release@CErrorInfo@@X3EAKXZ
+ 0004:3F3C       ?Release@CHolder@@VEAKXZ
+ 0004:0136       ?Release@COleAutomationPSFactory@@VEAKXZ
+ 0004:4A04       ?Release@CPDDispImpl@@VEAKXZ
+ 0004:47E8       ?Release@CPDProxImpl@@VEAKXZ
+ 0004:462D       ?Release@CPDUnkImpl@@VEAKXZ
+ 0004:772A       ?Release@CPEVEnumVARIANTImpl@@VEAKXZ
+ 0004:7554       ?Release@CPEVProxImpl@@VEAKXZ
+ 0004:73AA       ?Release@CPEVUnkImpl@@VEAKXZ
+ 0008:0A0F       ?Release@CPriv@CProxUniv@@VEAKXZ
+ 0001:0233       ?Release@CProcessInfo@@VEAKXZ
+ 0005:42A5       ?Release@CPTCompProxImpl@@VEAKXZ
+ 0005:4493       ?Release@CPTCompTypeCompImpl@@VEAKXZ
+ 0005:40FB       ?Release@CPTCompUnkImpl@@VEAKXZ
+ 0004:8E2A       ?Release@CPTIProxImpl@@VEAKXZ
+ 0004:9000       ?Release@CPTITypeInfoImpl@@VEAKXZ
+ 0004:8C80       ?Release@CPTIUnkImpl@@VEAKXZ
+ 0005:0531       ?Release@CPTLibProxImpl@@VEAKXZ
+ 0005:071F       ?Release@CPTLibTypeLibImpl@@VEAKXZ
+ 0005:0387       ?Release@CPTLibUnkImpl@@VEAKXZ
+ 0007:21B4       ?Release@CStdDisp@@VEAKXZ
+ 0007:2087       ?Release@CStdDispUnkImpl@@VEAKXZ
+ 0004:5E0C       ?Release@CStubDisp@@VEAKXZ
+ 0004:8136       ?Release@CStubEnumVARIANT@@VEAKXZ
+ 0005:5138       ?Release@CStubTypeComp@@VEAKXZ
+ 0004:C297       ?Release@CStubTypeInfo@@VEAKXZ
+ 0005:274C       ?Release@CStubTypeLib@@VEAKXZ
+ 0008:1904       ?Release@CStubUniv@@VEAKXZ
+ 0007:1C6F       ?ReleaseFuncDesc@CDispTypeInfo@@VEAXPEUtagFUNCDESC@@@Z
+ 0004:B3E3       ?ReleaseFuncDesc@CPTITypeInfoImpl@@VEAXPEUtagFUNCDESC@@@Z
+ 0007:1906       ?ReleaseInvokeArgs@CDispTypeInfo@@BECXPEUtagINVOKEARGS@@@Z
+ 0003:0C83       ?ReleaseResources@@ZCXPIXKGG@Z
+ 0005:1F5D       ?ReleaseTLibAttr@CPTLibTypeLibImpl@@VEAXPEUtagTLIBATTR@@@Z
+ 0007:1C3B       ?ReleaseTypeAttr@CDispTypeInfo@@VEAXPEUtagTYPEATTR@@@Z
+ 0004:B1E7       ?ReleaseTypeAttr@CPTITypeInfoImpl@@VEAXPEUtagTYPEATTR@@@Z
+ 0007:1CBE       ?ReleaseVarDesc@CDispTypeInfo@@VEAXPEUtagVARDESC@@@Z
+ 0004:B448       ?ReleaseVarDesc@CPTITypeInfoImpl@@VEAXPEUtagVARDESC@@@Z
+ 0004:7C61       ?Reset@CPEVEnumVARIANTImpl@@VEAPEXXZ
+ 0004:E550       ?Rewind@@ZAPEXPEUIStream@@@Z
+ 0004:2F07       ?SafeArrayRead@@ZAPEXPEUIStream@@PEPEUtagSAFEARRAY@@W4tagSYSKIND
+ 0004:2B02       ?SafeArrayReadData@@ZAPEXPEUIStream@@PEUtagSAFEARRAY@@W4tagSYSKI
+ 0004:3216       ?SafeArrayReadExisting@@YCPEXPEUIStream@@EPEPEUtagSAFEARRAY@@W4t
+ 0003:26D3       ?SafeArraySize@@ZCKPEUtagSAFEARRAY@@@Z
+ 0004:257A       ?SafeArrayWrite@@ZAPEXPEUIStream@@PEUtagSAFEARRAY@@W4tagSYSKIND@
+ 0001:0BD6       ?SetDescription@CErrorInfo@@VEAPEXPED@Z
+ 0001:0AE6       ?SetGUID@CErrorInfo@@VEAPEXAFUGUID@@@Z
+ 0001:0CCA       ?SetHelpContext@CErrorInfo@@VEAPEXK@Z
+ 0001:0C50       ?SetHelpFile@CErrorInfo@@VEAPEXPED@Z
+ 0001:0B5C       ?SetSource@CErrorInfo@@VEAPEXPED@Z
+ 0004:7ADC       ?Skip@CPEVEnumVARIANTImpl@@VEAPEXK@Z
+ 0007:2374       ?StrICmp@CDispTypeInfo@@RECHPEDH0H@Z
+ 0003:B120       ?StripThousandSeparator@@ZCPEXPED0KJ@Z
+ 0003:C38B       ?StrToCy@@YCPEXPEDPEPEDHPEUtagCY@@KK@Z
+ 0003:CB78       ?StrToHex@@YCKPEDPEPED@Z
+ 0003:C906       ?StrToLong@@YCJPEDPEPED@Z
+ 0003:CC98       ?StrToOct@@YCKPEDPEPED@Z
+ 0004:3AB7       ?StructRead@@ZAPEXPEUIStream@@PEUtagFIELDDESC@@PEXW4tagSYSKIND@@
+ 0004:3768       ?StructWrite@@ZAPEXPEUIStream@@PEUtagFIELDDESC@@PEXW4tagSYSKIND@
+ 0004:627F       ?StubGetIDsOfNames@@ZAPEXPEUIDispatch@@PEUIStream@@@Z
+ 0004:60D2       ?StubGetTypeInfo@@ZAPEXPEUIDispatch@@PEUIStream@@@Z
+ 0004:5FFA       ?StubGetTypeInfoCount@@ZAPEXPEUIDispatch@@PEUIStream@@@Z
+ 0004:66AB       ?StubInvoke@@ZAPEXPEUIDispatch@@PEUIStream@@@Z
+ 0004:4A46       ?SysKind@CPDDispImpl@@VEAPEXXZ
+ 0005:4D8E       ?SysKind@CPTCompTypeCompImpl@@RECPEXXZ
+ 0005:1F9C       ?SysKind@CPTLibTypeLibImpl@@RECPEXXZ
+ 0005:5B6E       ?SysKind@CStubTypeComp@@RECPEXXZ
+ 0005:3DA5       ?SysKind@CStubTypeLib@@RECPEXXZ
+ 0008:2C23       ?SzLibIdOfIID@@ZAPEXAFUGUID@@PEDJ@Z
+ 0003:B0D9       ?ThousandFromLcid@@ZADKK@Z
+ 0004:BAFD       ?TypeattrRead@@ZCPEXPEUIStream@@PEUtagTYPEATTR@@W4tagSYSKIND@@@Z
+ 0004:BA47       ?TypeattrWrite@@ZCPEXPEUIStream@@PEUtagTYPEATTR@@W4tagSYSKIND@@@
+ 0004:B767       ?TypedescWrite@@ZAPEXPEUIStream@@PEUtagTYPEDESC@@W4tagSYSKIND@@@
+ 0008:481C       ?UM100@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4852       ?UM101@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4888       ?UM102@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:48BE       ?UM103@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:48F4       ?UM104@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:492A       ?UM105@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4960       ?UM106@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4996       ?UM107@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:49CC       ?UM108@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4A02       ?UM109@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3520       ?UM10@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4A38       ?UM110@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4A6E       ?UM111@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4AA4       ?UM112@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4ADA       ?UM113@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4B10       ?UM114@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4B46       ?UM115@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4B7C       ?UM116@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4BB2       ?UM117@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4BE8       ?UM118@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4C1E       ?UM119@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3556       ?UM11@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4C54       ?UM120@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4C8A       ?UM121@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4CC0       ?UM122@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4CF6       ?UM123@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4D2C       ?UM124@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4D62       ?UM125@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4D98       ?UM126@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4DCE       ?UM127@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4E04       ?UM128@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4E3B       ?UM129@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:358C       ?UM12@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4E72       ?UM130@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4EA9       ?UM131@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4EE0       ?UM132@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4F17       ?UM133@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4F4E       ?UM134@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4F85       ?UM135@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4FBC       ?UM136@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4FF3       ?UM137@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:502A       ?UM138@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5061       ?UM139@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:35C2       ?UM13@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5098       ?UM140@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:50CF       ?UM141@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5106       ?UM142@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:513D       ?UM143@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5174       ?UM144@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:51AB       ?UM145@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:51E2       ?UM146@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5219       ?UM147@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5250       ?UM148@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5287       ?UM149@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:35F8       ?UM14@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:52BE       ?UM150@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:52F5       ?UM151@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:532C       ?UM152@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5363       ?UM153@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:539A       ?UM154@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:53D1       ?UM155@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5408       ?UM156@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:543F       ?UM157@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5476       ?UM158@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:54AD       ?UM159@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:362E       ?UM15@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:54E4       ?UM160@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:551B       ?UM161@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5552       ?UM162@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5589       ?UM163@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:55C0       ?UM164@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:55F7       ?UM165@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:562E       ?UM166@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5665       ?UM167@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:569C       ?UM168@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:56D3       ?UM169@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3664       ?UM16@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:570A       ?UM170@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5741       ?UM171@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5778       ?UM172@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:57AF       ?UM173@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:57E6       ?UM174@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:581D       ?UM175@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5854       ?UM176@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:588B       ?UM177@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:58C2       ?UM178@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:58F9       ?UM179@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:369A       ?UM17@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5930       ?UM180@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5967       ?UM181@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:599E       ?UM182@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:59D5       ?UM183@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5A0C       ?UM184@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5A43       ?UM185@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5A7A       ?UM186@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5AB1       ?UM187@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5AE8       ?UM188@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5B1F       ?UM189@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:36D0       ?UM18@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5B56       ?UM190@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5B8D       ?UM191@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5BC4       ?UM192@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5BFB       ?UM193@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5C32       ?UM194@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5C69       ?UM195@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5CA0       ?UM196@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5CD7       ?UM197@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5D0E       ?UM198@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5D45       ?UM199@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3706       ?UM19@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5D7C       ?UM200@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5DB3       ?UM201@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5DEA       ?UM202@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5E21       ?UM203@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5E58       ?UM204@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5E8F       ?UM205@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5EC6       ?UM206@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5EFD       ?UM207@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5F34       ?UM208@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5F6B       ?UM209@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:373C       ?UM20@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5FA2       ?UM210@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5FD9       ?UM211@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6010       ?UM212@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6047       ?UM213@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:607E       ?UM214@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:60B5       ?UM215@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:60EC       ?UM216@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6123       ?UM217@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:615A       ?UM218@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6191       ?UM219@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3772       ?UM21@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:61C8       ?UM220@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:61FF       ?UM221@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6236       ?UM222@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:626D       ?UM223@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:62A4       ?UM224@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:62DB       ?UM225@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6312       ?UM226@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6349       ?UM227@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6380       ?UM228@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:63B7       ?UM229@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:37A8       ?UM22@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:63EE       ?UM230@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6425       ?UM231@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:645C       ?UM232@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6493       ?UM233@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:64CA       ?UM234@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6501       ?UM235@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6538       ?UM236@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:656F       ?UM237@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:65A6       ?UM238@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:65DD       ?UM239@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:37DE       ?UM23@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6614       ?UM240@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:664B       ?UM241@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6682       ?UM242@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:66B9       ?UM243@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:66F0       ?UM244@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6727       ?UM245@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:675E       ?UM246@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6795       ?UM247@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:67CC       ?UM248@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6803       ?UM249@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3814       ?UM24@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:683A       ?UM250@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6871       ?UM251@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:68A8       ?UM252@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:68DF       ?UM253@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6916       ?UM254@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:694D       ?UM255@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6984       ?UM256@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:69BB       ?UM257@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:69F2       ?UM258@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6A29       ?UM259@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:384A       ?UM25@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6A60       ?UM260@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6A97       ?UM261@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6ACE       ?UM262@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6B05       ?UM263@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6B3C       ?UM264@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6B73       ?UM265@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6BAA       ?UM266@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6BE1       ?UM267@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6C18       ?UM268@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6C4F       ?UM269@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3880       ?UM26@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6C86       ?UM270@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6CBD       ?UM271@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6CF4       ?UM272@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6D2B       ?UM273@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6D62       ?UM274@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6D99       ?UM275@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6DD0       ?UM276@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6E07       ?UM277@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6E3E       ?UM278@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6E75       ?UM279@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:38B6       ?UM27@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6EAC       ?UM280@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6EE3       ?UM281@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6F1A       ?UM282@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6F51       ?UM283@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6F88       ?UM284@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6FBF       ?UM285@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6FF6       ?UM286@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:702D       ?UM287@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7064       ?UM288@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:709B       ?UM289@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:38EC       ?UM28@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:70D2       ?UM290@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7109       ?UM291@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7140       ?UM292@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7177       ?UM293@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:71AE       ?UM294@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:71E5       ?UM295@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:721C       ?UM296@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7253       ?UM297@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:728A       ?UM298@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:72C1       ?UM299@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3922       ?UM29@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:72F8       ?UM300@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:732F       ?UM301@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7366       ?UM302@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:739D       ?UM303@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:73D4       ?UM304@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:740B       ?UM305@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7442       ?UM306@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7479       ?UM307@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:74B0       ?UM308@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:74E7       ?UM309@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3958       ?UM30@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:751E       ?UM310@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7555       ?UM311@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:758C       ?UM312@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:75C3       ?UM313@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:75FA       ?UM314@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7631       ?UM315@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7668       ?UM316@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:769F       ?UM317@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:76D6       ?UM318@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:770D       ?UM319@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:398E       ?UM31@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7744       ?UM320@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:777B       ?UM321@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:77B2       ?UM322@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:77E9       ?UM323@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7820       ?UM324@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7857       ?UM325@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:788E       ?UM326@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:78C5       ?UM327@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:78FC       ?UM328@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7933       ?UM329@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:39C4       ?UM32@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:796A       ?UM330@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:79A1       ?UM331@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:79D8       ?UM332@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7A0F       ?UM333@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7A46       ?UM334@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7A7D       ?UM335@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7AB4       ?UM336@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7AEB       ?UM337@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7B22       ?UM338@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7B59       ?UM339@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:39FA       ?UM33@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7B90       ?UM340@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7BC7       ?UM341@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7BFE       ?UM342@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7C35       ?UM343@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7C6C       ?UM344@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7CA3       ?UM345@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7CDA       ?UM346@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7D11       ?UM347@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7D48       ?UM348@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7D7F       ?UM349@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3A30       ?UM34@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7DB6       ?UM350@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7DED       ?UM351@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7E24       ?UM352@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7E5B       ?UM353@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7E92       ?UM354@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7EC9       ?UM355@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7F00       ?UM356@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7F37       ?UM357@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7F6E       ?UM358@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7FA5       ?UM359@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3A66       ?UM35@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7FDC       ?UM360@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8013       ?UM361@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:804A       ?UM362@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8081       ?UM363@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:80B8       ?UM364@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:80EF       ?UM365@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8126       ?UM366@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:815D       ?UM367@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8194       ?UM368@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:81CB       ?UM369@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3A9C       ?UM36@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8202       ?UM370@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8239       ?UM371@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8270       ?UM372@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:82A7       ?UM373@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:82DE       ?UM374@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8315       ?UM375@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:834C       ?UM376@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8383       ?UM377@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:83BA       ?UM378@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:83F1       ?UM379@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3AD2       ?UM37@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8428       ?UM380@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:845F       ?UM381@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8496       ?UM382@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:84CD       ?UM383@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8504       ?UM384@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:853B       ?UM385@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8572       ?UM386@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:85A9       ?UM387@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:85E0       ?UM388@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8617       ?UM389@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3B08       ?UM38@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:864E       ?UM390@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8685       ?UM391@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:86BC       ?UM392@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:86F3       ?UM393@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:872A       ?UM394@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8761       ?UM395@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8798       ?UM396@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:87CF       ?UM397@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8806       ?UM398@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:883D       ?UM399@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3B3E       ?UM39@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:33A6       ?UM3@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8874       ?UM400@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:88AB       ?UM401@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:88E2       ?UM402@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8919       ?UM403@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8950       ?UM404@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8987       ?UM405@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:89BE       ?UM406@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:89F5       ?UM407@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8A2C       ?UM408@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8A63       ?UM409@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3B74       ?UM40@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8A9A       ?UM410@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8AD1       ?UM411@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8B08       ?UM412@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8B3F       ?UM413@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8B76       ?UM414@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8BAD       ?UM415@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8BE4       ?UM416@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8C1B       ?UM417@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8C52       ?UM418@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8C89       ?UM419@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3BAA       ?UM41@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8CC0       ?UM420@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8CF7       ?UM421@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8D2E       ?UM422@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8D65       ?UM423@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8D9C       ?UM424@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8DD3       ?UM425@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8E0A       ?UM426@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8E41       ?UM427@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8E78       ?UM428@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8EAF       ?UM429@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3BE0       ?UM42@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8EE6       ?UM430@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8F1D       ?UM431@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8F54       ?UM432@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8F8B       ?UM433@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8FC2       ?UM434@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8FF9       ?UM435@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9030       ?UM436@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9067       ?UM437@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:909E       ?UM438@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:90D5       ?UM439@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3C16       ?UM43@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:910C       ?UM440@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9143       ?UM441@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:917A       ?UM442@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:91B1       ?UM443@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:91E8       ?UM444@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:921F       ?UM445@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9256       ?UM446@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:928D       ?UM447@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:92C4       ?UM448@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:92FB       ?UM449@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3C4C       ?UM44@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9332       ?UM450@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9369       ?UM451@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:93A0       ?UM452@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:93D7       ?UM453@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:940E       ?UM454@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9445       ?UM455@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:947C       ?UM456@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:94B3       ?UM457@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:94EA       ?UM458@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9521       ?UM459@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3C82       ?UM45@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9558       ?UM460@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:958F       ?UM461@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:95C6       ?UM462@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:95FD       ?UM463@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9634       ?UM464@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:966B       ?UM465@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:96A2       ?UM466@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:96D9       ?UM467@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9710       ?UM468@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9747       ?UM469@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3CB8       ?UM46@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:977E       ?UM470@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:97B5       ?UM471@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:97EC       ?UM472@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9823       ?UM473@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:985A       ?UM474@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9891       ?UM475@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:98C8       ?UM476@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:98FF       ?UM477@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9936       ?UM478@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:996D       ?UM479@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3CEE       ?UM47@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:99A4       ?UM480@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:99DB       ?UM481@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9A12       ?UM482@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9A49       ?UM483@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9A80       ?UM484@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9AB7       ?UM485@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9AEE       ?UM486@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9B25       ?UM487@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9B5C       ?UM488@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9B93       ?UM489@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3D24       ?UM48@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9BCA       ?UM490@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9C01       ?UM491@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9C38       ?UM492@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9C6F       ?UM493@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9CA6       ?UM494@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9CDD       ?UM495@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9D14       ?UM496@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9D4B       ?UM497@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9D82       ?UM498@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9DB9       ?UM499@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3D5A       ?UM49@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:33DC       ?UM4@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9DF0       ?UM500@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9E27       ?UM501@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9E5E       ?UM502@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9E95       ?UM503@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9ECC       ?UM504@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9F03       ?UM505@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9F3A       ?UM506@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9F71       ?UM507@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9FA8       ?UM508@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9FDF       ?UM509@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3D90       ?UM50@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:A016       ?UM510@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:A04D       ?UM511@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:A084       ?UM512@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3DC6       ?UM51@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3DFC       ?UM52@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3E32       ?UM53@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3E68       ?UM54@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3E9E       ?UM55@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3ED4       ?UM56@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3F0A       ?UM57@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3F40       ?UM58@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3F76       ?UM59@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3412       ?UM5@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3FAC       ?UM60@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3FE2       ?UM61@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4018       ?UM62@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:404E       ?UM63@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4084       ?UM64@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:40BA       ?UM65@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:40F0       ?UM66@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4126       ?UM67@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:415C       ?UM68@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4192       ?UM69@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3448       ?UM6@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:41C8       ?UM70@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:41FE       ?UM71@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4234       ?UM72@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:426A       ?UM73@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:42A0       ?UM74@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:42D6       ?UM75@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:430C       ?UM76@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4342       ?UM77@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4378       ?UM78@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:43AE       ?UM79@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:347E       ?UM7@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:43E4       ?UM80@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:441A       ?UM81@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4450       ?UM82@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4486       ?UM83@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:44BC       ?UM84@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:44F2       ?UM85@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4528       ?UM86@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:455E       ?UM87@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4594       ?UM88@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:45CA       ?UM89@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:34B4       ?UM8@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4600       ?UM90@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4636       ?UM91@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:466C       ?UM92@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:46A2       ?UM93@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:46D8       ?UM94@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:470E       ?UM95@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4744       ?UM96@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:477A       ?UM97@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:47B0       ?UM98@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:47E6       ?UM99@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:34EA       ?UM9@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:31F5       ?UnivAddRef@@ZAKPEVCProxUniv@@@Z
+ 0008:32EE       ?UnivGetIDsOfNames@@ZAPEXPEVCProxUniv@@AFUGUID@@PEPEDIKPEJ@Z
+ 0008:32A7       ?UnivGetTypeInfo@@ZAPEXPEVCProxUniv@@IKPEPEUITypeInfo@@@Z
+ 0008:3269       ?UnivGetTypeInfoCount@@ZAPEXPEVCProxUniv@@PEI@Z
+ 0008:3341       ?UnivInvoke@@ZAPEXPEVCProxUniv@@JAFUGUID@@KGPEUtagDISPPARAMS@@PE
+ 0008:31B0       ?UnivQueryInterface@@ZAPEXPEVCProxUniv@@AFUGUID@@PEPEX@Z
+ 0008:322F       ?UnivRelease@@ZAKPEVCProxUniv@@@Z
+ 0004:2232       ?UnmarshalErrorInfo@@ZAPEXPEUIStream@@W4tagSYSKIND@@@Z
+ 0003:B2E5       ?UnpackCy@@YCXPEUtagCY@@PEK@Z
+ 0001:534C       ?ValidateReadPtr@@ZAPEXPFXI@Z
+ 0004:E4A2       ?ValidateWritePtr@@ZAPEXPEXI@Z
+ 0004:BF28       ?VardescRead@@ZCPEXPEUIStream@@PEUtagVARDESC@@W4tagSYSKIND@@@Z
+ 0004:BE04       ?VardescWrite@@ZCPEXPEUIStream@@PEUtagVARDESC@@W4tagSYSKIND@@@Z
+ 0003:7F5A       ?VariantChangeTypeInternal@@ZCPEXPEUtagVARIANT@@KG@Z
+ 0004:109C       ?VariantRead@@ZAPEXPEUIStream@@PEUtagVARIANT@@1W4tagSYSKIND@@@Z
+ 0004:1518       ?VariantReadType@@ZAPEXPEUIStream@@PEUtagVARIANT@@W4tagSYSKIND@@
+ 0004:0C32       ?VariantWrite@@ZAPEXPEUIStream@@PEUtagVARIANT@@W4tagSYSKIND@@@Z
+ 0008:2676       ?VarVtOfIface@@ZAPEXPEUITypeInfo@@PEUtagTYPEATTR@@PEGPEUGUID@@@Z
+ 0008:298F       ?VarVtOfTypeDesc@@ZAPEXPEUITypeInfo@@PEUtagTYPEDESC@@PEGPEUGUID@
+ 0008:2713       ?VarVtOfUDT@@ZAPEXPEUITypeInfo@@PEUtagTYPEDESC@@PEGPEUGUID@@@Z
+ 0005:2330       ?WriteLibAttr@@ZCPEXPEUIStream@@PEUtagTLIBATTR@@@Z
+ 0003:6914       ADJUSTTIME
+ 0003:69EF       ADJUSTUDSDATE
+ 0003:6970       ADJUSTUDSTIME
+ 0003:7012       APPENDAMPM
+ 0000:0000  Imp  COGETMALLOC          (COMPOBJ.4)
+ 0000:0000  Imp  COGETSTATE           (COMPOBJ.115)
+ 0000:0000  Imp  COMARSHALHRESULT     (COMPOBJ.32)
+ 0000:0000  Imp  COMARSHALINTERFACE   (COMPOBJ.8)
+ 0000:0000  Imp  COMPARESTRINGA       (OLE2NLS.8)
+ 0003:78C2       CONVFLOATTOASCII
+ 0000:0000  Imp  COSETSTATE           (COMPOBJ.110)
+ 0000:0000  Imp  COUNMARSHALHRESULT   (COMPOBJ.33)
+ 0000:0000  Imp  COUNMARSHALINTERFACE (COMPOBJ.9)
+ 0007:0418       CREATEDISPTYPEINFO
+ 0001:0EA5       CREATEERRORINFO
+ 0000:0000  Imp  CREATEFILEMONIKER    (OLE2.28)
+ 0007:1D90       CREATESTDDISPATCH
+ 0003:674B       DAYOFMN
+ 0003:67C8       DAYOFMNN
+ 0003:6174       DAYOFNN
+ 0003:6485       DAYOFNNN
+ 0003:5522       DDLEX
+ 0003:4B87       DDSEP
+ 0000:0000  Imp  DEBUGBREAK           (KERNEL.203)
+ 0001:1082       DETECTFBSTPIMPLEMENTED
+ 0000:0000  Imp  DIALOGBOX            (USER.87)
+ 0003:8E48       DISPALLOC
+ 0009:033A       DISPASSERT
+ 0003:8EE3       DISPFREE
+ 0003:0170       DISPGETIDSOFNAMES
+ 0003:00C3       DISPGETPARAM
+ 0003:01B2       DISPINVOKE
+ 0004:3FB1       DISPMARSHALINTERFACE
+ 0004:41B8       DISPUNMARSHALINTERFACE
+ 0003:30CF       DISP_FLOOR
+ 0003:310F       DISP_GCVT
+ 0003:3021       DISP_ITOA
+ 0003:307D       DISP_LTOA
+ 0003:313F       DISP_STRTOD
+ 0004:07F0       DLLGETCLASSOBJECT
+ 0003:7857       DOFBSTP
+ 0007:0000       DOINVOKEMETHOD
+ 0000:0000  Imp  DOS3CALL             (KERNEL.102)
+ 0003:020C       DOSDATETIMETOVARIANTTIME
+ 0000:0000  Imp  ENDDIALOG            (USER.88)
+ 0003:7648       ERRCYFROMI2
+ 0003:766F       ERRCYFROMI4
+ 0003:76B0       ERRCYFROMR4
+ 0003:76F3       ERRCYFROMR8
+ 0003:7736       ERRI2FROMCY
+ 0003:7776       ERRI4FROMCY
+ 0003:7816       ERRMULTCYI4
+ 0003:2858       ERRPACKDATE
+ 0003:77B6       ERRR4FROMCY
+ 0003:77E6       ERRR8FROMCY
+ 0006:03E4       ERRSYSALLOCSTRING
+ 0006:0451       ERRSYSALLOCSTRINGLEN
+ 0003:2B6E       ERRUNPACKDATE
+ 0000:0000  Imp  FATALAPPEXIT         (KERNEL.137)
+ 0000:0000  Imp  FATALEXIT            (KERNEL.1)
+ 0000:FE32  Abs  FIARQQ
+ 0000:0E32  Abs  FICRQQ
+ 0000:5C32  Abs  FIDRQQ
+ 0000:1632  Abs  FIERQQ
+ 0000:0632  Abs  FISRQQ
+ 0000:A23D  Abs  FIWRQQ
+ 0000:4000  Abs  FJARQQ
+ 0000:C000  Abs  FJCRQQ
+ 0000:8000  Abs  FJSRQQ
+ 0000:0000  Imp  FREELIBRARY          (KERNEL.96)
+ 0000:0000  Imp  FREEPROCINSTANCE     (KERNEL.52)
+ 0001:1BC0       GETACTIVEOBJECT
+ 0003:2F23       GETCURRENTYEAR
+ 0003:3400       GETDATEINFO
+ 0000:0000  Imp  GETDOSENVIRONMENT    (KERNEL.131)
+ 0001:0DD2       GETERRORINFO
+ 0003:6AAC       GETIMPERIALERA
+ 0000:0000  Imp  GETLOCALEINFOA       (OLE2NLS.5)
+ 0000:0000  Imp  GETMODULEUSAGE       (KERNEL.48)
+ 0000:0000  Imp  GETPROCADDRESS       (KERNEL.50)
+ 0000:0000  Imp  GETPROFILEINT        (KERNEL.57)
+ 0000:0000  Imp  GETRUNNINGOBJECTTABLE (OLE2.30)
+ 0000:0000  Imp  GETSTRINGTYPEA       (OLE2NLS.7)
+ 0000:0000  Imp  GETUSERDEFAULTLCID   (OLE2NLS.1)
+ 0000:0000  Imp  GETVERSION           (KERNEL.3)
+ 0000:0000  Imp  GETWINFLAGS          (KERNEL.132)
+ 0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
+ 0000:0000  Imp  GLOBALFREE           (KERNEL.17)
+ 0000:0000  Imp  GLOBALLOCK           (KERNEL.18)
+ 0000:0000  Imp  GLOBALREALLOC        (KERNEL.16)
+ 0000:0000  Imp  GLOBALSIZE           (KERNEL.20)
+ 0000:0000  Imp  GLOBALUNLOCK         (KERNEL.19)
+ 0000:0000  Imp  HMEMCPY              (KERNEL.348)
+ 0003:0000       INDEXOFPARAM
+ 0000:0000  Imp  INITTASK             (KERNEL.91)
+ 0003:7501       INTOFSTRING
+ 0000:0000  Imp  ISBADCODEPTR         (KERNEL.336)
+ 0000:0000  Imp  ISBADREADPTR         (KERNEL.334)
+ 0000:0000  Imp  ISBADSTRINGPTR       (KERNEL.337)
+ 0000:0000  Imp  ISBADWRITEPTR        (KERNEL.335)
+ 0003:D440       ISCHINA
+ 0003:D29B       ISDBCS
+ 0003:45C5       ISDBCSAMPM
+ 0000:0000  Imp  ISEQUALGUID          (COMPOBJ.18)
+ 0003:3BCC       ISIMPERIALERA
+ 0003:D32F       ISJAPAN
+ 0003:D38A       ISKOREA
+ 0003:404D       ISREPUBLICERA
+ 0003:D3E5       ISTAIWAN
+ 0000:0000  Imp  LCMAPSTRINGA         (OLE2NLS.6)
+ 0003:608D       LEGAL_DAY
+ 0001:0010       LIBMAIN
+ 0000:0000  Imp  LOADLIBRARY          (KERNEL.95)
+ 0000:0000  Imp  LOCALINIT            (KERNEL.4)
+ 0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
+ 0000:0000  Imp  MAKEPROCINSTANCE     (KERNEL.51)
+ 0003:B021       MAPHALFWIDTH
+ 0003:31EC       MONTHNUMOFMONTHNAME
+ 0001:105A       NLSINFOCHANGEDHANDLER
+ 0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
+ 0000:0008  Abs  pAtomTable
+ 0000:0006  Abs  pLocalHeap
+ 0008:0E18       PROXYMETHOD
+ 0000:000E  Abs  pStackBot
+ 0000:000C  Abs  pStackMin
+ 0000:000A  Abs  pStackTop
+ 0000:0000  Imp  REGCLOSEKEY          (KERNEL.220)
+ 0000:0000  Imp  REGENUMKEY           (KERNEL.216)
+ 0001:1989       REGISTERACTIVEOBJECT
+ 0000:0000  Imp  REGISTERNLSINFOCHANGED (OLE2NLS.9)
+ 0000:0000  Imp  REGOPENKEY           (KERNEL.217)
+ 0000:0000  Imp  REGQUERYVALUE        (SHELL.6)
+ 0003:6BB2       RENDERDATE
+ 0003:70D1       RENDERTIME
+ 0003:761A       REPORTINVALIDARG
+ 0003:7600       REPORTOVERFLOW
+ 0001:1B02       REVOKEACTIVEOBJECT
+ 000B:0004       rsrvptrs
+ 0003:1F8B       SAFEARRAYACCESSDATA
+ 0003:0923       SAFEARRAYALLOCDATA
+ 0003:0885       SAFEARRAYALLOCDESCRIPTOR
+ 0003:1737       SAFEARRAYCOPY
+ 0003:0A6D       SAFEARRAYCREATE
+ 0003:10D4       SAFEARRAYDESTROY
+ 0003:0E65       SAFEARRAYDESTROYDATA
+ 0003:1052       SAFEARRAYDESTROYDESCRIPTOR
+ 0003:1CBF       SAFEARRAYGETDIM
+ 0003:213C       SAFEARRAYGETELEMENT
+ 0003:1D0B       SAFEARRAYGETELEMSIZE
+ 0003:1E0E       SAFEARRAYGETLBOUND
+ 0003:1D58       SAFEARRAYGETUBOUND
+ 0003:1EA5       SAFEARRAYLOCK
+ 0003:2027       SAFEARRAYPTROFINDEX
+ 0003:23C5       SAFEARRAYPUTELEMENT
+ 0003:11B6       SAFEARRAYREDIM
+ 0003:1FFC       SAFEARRAYUNACCESSDATA
+ 0003:1F18       SAFEARRAYUNLOCK
+ 0003:32F4       SAFEGETLOCALEINFO
+ 0000:0000  Imp  SETDLGITEMTEXT       (USER.92)
+ 0001:0CFF       SETERRORINFO
+ 0000:0000  Imp  SETERRORMODE         (KERNEL.107)
+ 0000:0000  Imp  STRINGFROMCLSID      (COMPOBJ.19)
+ 0000:0000  Imp  STRINGFROMGUID2      (COMPOBJ.76)
+ 0006:0000       SYSALLOCSTRING
+ 0006:004E       SYSALLOCSTRINGLEN
+ 0006:034A       SYSFREESTRING
+ 0006:016E       SYSREALLOCSTRING
+ 0006:01DA       SYSREALLOCSTRINGLEN
+ 0006:03AC       SYSSTRINGLEN
+ 0003:90A5       VARBOOLFROMCY
+ 0003:906E       VARBOOLFROMDATE
+ 0003:92E2       VARBOOLFROMDISP
+ 0003:8F67       VARBOOLFROMI2
+ 0003:8F9A       VARBOOLFROMI4
+ 0003:8FDA       VARBOOLFROMR4
+ 0003:9024       VARBOOLFROMR8
+ 0003:90ED       VARBOOLFROMSTR
+ 0003:8F34       VARBOOLFROMUI1
+ 0003:B4D1       VARBSTRFROMBOOL
+ 0003:BB93       VARBSTRFROMCY
+ 0003:7280       VARBSTRFROMDATE
+ 0003:BFB6       VARBSTRFROMDISP
+ 0003:B488       VARBSTRFROMI2
+ 0003:B53F       VARBSTRFROMI4
+ 0003:BA01       VARBSTRFROMR4
+ 0003:BACD       VARBSTRFROMR8
+ 0003:B44B       VARBSTRFROMUI1
+ 0003:AAB8       VARCYFROMBOOL
+ 0003:AA81       VARCYFROMDATE
+ 0003:AF36       VARCYFROMDISP
+ 0003:A9C2       VARCYFROMI2
+ 0003:A9F0       VARCYFROMI4
+ 0003:AA21       VARCYFROMR4
+ 0003:AA51       VARCYFROMR8
+ 0003:AAE6       VARCYFROMSTR
+ 0003:A991       VARCYFROMUI1
+ 0003:A752       VARDATEFROMBOOL
+ 0003:A888       VARDATEFROMCY
+ 0003:A934       VARDATEFROMDISP
+ 0003:A6FA       VARDATEFROMI2
+ 0003:A780       VARDATEFROMI4
+ 0003:A7D8       VARDATEFROMR4
+ 0003:A830       VARDATEFROMR8
+ 0003:5A73       VARDATEFROMSTR
+ 0003:A6C9       VARDATEFROMUI1
+ 0003:97A0       VARI2FROMBOOL
+ 0003:9732       VARI2FROMCY
+ 0003:9769       VARI2FROMDATE
+ 0003:9969       VARI2FROMDISP
+ 0003:9622       VARI2FROMI4
+ 0003:968A       VARI2FROMR4
+ 0003:96CB       VARI2FROMR8
+ 0003:97CF       VARI2FROMSTR
+ 0003:95F1       VARI2FROMUI1
+ 0003:9A2A       VARI4FROMBOOL
+ 0003:9AFD       VARI4FROMCY
+ 0003:9B34       VARI4FROMDATE
+ 0003:9D96       VARI4FROMDISP
+ 0003:99F6       VARI4FROMI2
+ 0003:9A58       VARI4FROMR4
+ 0003:9A92       VARI4FROMR8
+ 0003:9B6B       VARI4FROMSTR
+ 0003:99BF       VARI4FROMUI1
+ 0003:7BA0       VARIANTCHANGETYPE
+ 0003:7BDC       VARIANTCHANGETYPEEX
+ 0001:10C2       VARIANTCLEAR
+ 0001:129D       VARIANTCOPY
+ 0001:14E9       VARIANTCOPYIND
+ 0001:109A       VARIANTINIT
+ 0003:0362       VARIANTTIMETODOSDATETIME
+ 0003:9F42       VARR4FROMBOOL
+ 0003:A009       VARR4FROMCY
+ 0003:A040       VARR4FROMDATE
+ 0003:A114       VARR4FROMDISP
+ 0003:9F0F       VARR4FROMI2
+ 0003:9F70       VARR4FROMI4
+ 0003:9FA3       VARR4FROMR8
+ 0003:A077       VARR4FROMSTR
+ 0003:9EC5       VARR4FROMUI1
+ 0003:A1EE       VARR8FROMBOOL
+ 0003:A282       VARR8FROMCY
+ 0003:A2B9       VARR8FROMDATE
+ 0003:A66C       VARR8FROMDISP
+ 0003:A1BB       VARR8FROMI2
+ 0003:A21C       VARR8FROMI4
+ 0003:A24F       VARR8FROMR4
+ 0003:A2EF       VARR8FROMSTR
+ 0003:A171       VARR8FROMUI1
+ 0003:9505       VARUI1FROMBOOL
+ 0003:946D       VARUI1FROMCY
+ 0003:94CE       VARUI1FROMDATE
+ 0003:959B       VARUI1FROMDISP
+ 0003:9338       VARUI1FROMI2
+ 0003:937A       VARUI1FROMI4
+ 0003:93C5       VARUI1FROMR4
+ 0003:9406       VARUI1FROMR8
+ 0003:9534       VARUI1FROMSTR
+ 000A:0000       WEP
+ 0003:2F44       XTOA
+ 000B:1AFD       _aseghi
+ 000B:1AFB       _aseglo
+ 0001:4090       _atof
+ 0001:1E04       _CLSID_PSAutomation
+ 0001:1E44       _CLSID_PSDispatch
+ 0001:1E34       _CLSID_PSEnumVARIANT
+ 0001:1DF4       _CLSID_PSTypeComp
+ 0001:1E24       _CLSID_PSTypeInfo
+ 0001:1E14       _CLSID_PSTypeLib
+ 000B:240C       _edata
+ 000B:252A       _end
+ 000B:1B12       _errno
+ 0001:2A4F       _floor
+ 0001:5386       _GetMalloc
+ 0001:5336       _GetPID
+ 0001:0367       _GetProcessInfo
+ 0001:1DD4       _GUID_NULL
+ 000B:1782       _g_dblMaxNegCy
+ 000B:177A       _g_dblMaxPosCy
+ 000B:2450       _g_diCache
+ 000B:166E       _g_dpsNext
+ 000B:140A       _g_E_INVALIDARG
+ 000B:2414       _g_fbstpImplemented
+ 000B:1760       _g_fDay31th
+ 000B:0090       _g_hinstDLL
+ 000B:18CE       _g_rgfdescElemdesc
+ 000B:19FE       _g_rgfdescFuncdesc
+ 000B:189E       _g_rgfdescIdldesc
+ 000B:18FE       _g_rgfdescTypeattr
+ 000B:1A9E       _g_rgfdescVardesc
+ 000B:1406       _g_S_OK
+ 0001:1CB4       _IID_ICreateErrorInfo
+ 0001:1CF4       _IID_ICreateTypeInfo
+ 0001:1CE4       _IID_ICreateTypeLib
+ 0001:1D44       _IID_IDispatch
+ 0001:1D34       _IID_IEnumVARIANT
+ 0001:1CC4       _IID_IErrorInfo
+ 0001:1D64       _IID_IPSFactory
+ 0001:1DE4       _IID_IPSFactoryBuffer
+ 0001:1D84       _IID_IRpcChannelBuffer
+ 0001:1D74       _IID_IRpcProxy
+ 0001:1DB4       _IID_IRpcProxyBuffer
+ 0001:1D94       _IID_IRpcStub
+ 0001:1DA4       _IID_IRpcStubBuffer
+ 0001:1D54       _IID_IStream
+ 0001:1CA4       _IID_ISupportErrorInfo
+ 0001:1D04       _IID_ITypeComp
+ 0001:1D24       _IID_ITypeInfo
+ 0001:1D14       _IID_ITypeLib
+ 0001:1DC4       _IID_IUnknown
+ 0001:1CD4       _IID_StdOle
+ 0007:0217       _InvokeCdecl
+ 0007:00BC       _InvokePascal
+ 0003:3180       _IsCharType
+ 0001:2AB4       _modf
+ 000B:1524       _mpmmdd
+ 000B:2416       _pinfoCache
+ 0003:6146       _SetUDSfromYMD
+ 0001:2198       _sprintf
+ 000B:1AEE       _STKHQQ
+ 0001:2206       _strcat
+ 0001:225A       _strlen
+ 0001:2294       _strtod
+ 0001:23D4       _strtol
+ 0001:23C8       _strtoul
+ 0004:B4A9       _TypedescRead
+ 0004:BA00       _TypedescReadOrWrite
+ 000B:2424       _uProcessID
+ 0001:004F       _WEP
+ 000B:1B48       __aaltstkovr
+ 0000:9876  Abs  __acrtmsg
+ 0000:9876  Abs  __acrtused
+ 0000:D6D6  Abs  __aDBdoswp
+ 000B:1C62       __adbgmsg
+ 0000:D6D6  Abs  __aDBused
+ 0001:2274       __aFahdiff
+ 0001:2056       __aFchkstk
+ 0001:2A1A       __aFCIfloor
+ 0001:3BA2       __aFeaddd
+ 0001:3AC1       __aFeadds
+ 0001:3C06       __aFedivd
+ 0001:3C1F       __aFedivdr
+ 0001:3B25       __aFedivs
+ 0001:3B3E       __aFedivsr
+ 0001:3B57       __aFeldd
+ 0001:3C51       __aFeldl
+ 0001:3C6A       __aFeldq
+ 0001:3A76       __aFelds
+ 0001:3C38       __aFeldw
+ 0001:3BBB       __aFemuld
+ 0001:3ADA       __aFemuls
+ 0001:3B89       __aFestd
+ 0001:3B70       __aFestdp
+ 0001:3AA8       __aFests
+ 0001:3A8F       __aFestsp
+ 0001:3BD4       __aFesubd
+ 0001:3BED       __aFesubdr
+ 0001:3AF3       __aFesubs
+ 0001:3B0C       __aFesubsr
+ 0001:38BC       __aFfadd
+ 0001:39AE       __aFfaddd
+ 0001:250C       __aFFalmul
+ 0001:252E       __aFFalrem
+ 0001:2550       __aFFauldiv
+ 0001:250C       __aFFaulmul
+ 0001:3956       __aFfchs
+ 0001:3914       __aFfdiv
+ 0001:3A06       __aFfdivd
+ 0001:3A1C       __aFfdivdr
+ 0001:392A       __aFfdivr
+ 0001:3940       __aFfdup
+ 0001:396C       __aFfldd
+ 0001:3A48       __aFfldl
+ 0001:3A5E       __aFfldq
+ 0001:3A32       __aFfldw
+ 0001:38D2       __aFfmul
+ 0001:39C4       __aFfmuld
+ 0001:3998       __aFfstd
+ 0001:3982       __aFfstdp
+ 0001:38E8       __aFfsub
+ 0001:39DA       __aFfsubd
+ 0001:39F0       __aFfsubdr
+ 0001:38FE       __aFfsubr
+ 0001:2A76       __aFftol
+ 0001:2572       __aFldiv
+ 0001:260C       __aFlmul
+ 0001:263E       __aFlrem
+ 0001:3BA0       __aFsaddd
+ 0001:3ABF       __aFsadds
+ 0001:3C04       __aFsdivd
+ 0001:3C1D       __aFsdivdr
+ 0001:3B23       __aFsdivs
+ 0001:3B3C       __aFsdivsr
+ 0001:3B55       __aFsldd
+ 0001:3C4F       __aFsldl
+ 0001:3C68       __aFsldq
+ 0001:3A74       __aFslds
+ 0001:3C36       __aFsldw
+ 0001:3BB9       __aFsmuld
+ 0001:3AD8       __aFsmuls
+ 0001:3B87       __aFsstd
+ 0001:3B6E       __aFsstdp
+ 0001:3AA6       __aFssts
+ 0001:3A8D       __aFsstsp
+ 0001:3BD2       __aFssubd
+ 0001:3BEB       __aFssubdr
+ 0001:3AF1       __aFssubs
+ 0001:3B0A       __aFssubsr
+ 0001:26DE       __aFuldiv
+ 0001:260C       __aFulmul
+ 0001:273E       __aFulrem
+ 0000:0000  Imp  __AHINCR             (KERNEL.114)
+ 0000:0000  Imp  __AHSHIFT            (KERNEL.113)
+ 000B:1B04       __aintdiv
+ 000B:1D7C       __amblksiz
+ 0001:2C0A       __amsg_exit
+ 0001:2036       __aNchkstk
+ 000B:1CE8       __asizeC
+ 000B:1CE9       __asizeD
+ 0001:1E98       __astart
+ 0001:1F9A       __cexit
+ 0001:381A       __cfltcvt
+ 000B:1CC8       __cfltcvt_tab
+ 000B:1D7E       __cflush
+ 0001:33D6       __cftoe
+ 0001:35A2       __cftof
+ 0001:373A       __cftog
+ 000B:1B45       __child
+ 0001:2056       __chkstk
+ 0001:1F52       __cinit
+ 0001:2C00       __cintDIV
+ 000B:1B1D       __cpumode
+ 0001:32C2       __cropzeros
+ 0001:1FF9       __ctermsub
+ 000B:1B4C       __ctype
+ 000B:1B4C       __ctype_
+ 0001:1FAB       __c_exit
+ 000B:1AFA       __dllinit
+ 000B:1B1E       __doserrno
+ 0001:4534       __dosret0
+ 0001:4553       __dosretax
+ 0001:4541       __dosreturn
+ 0001:3BA2       __eaddd
+ 0001:3AC1       __eadds
+ 000B:240C       __edata
+ 0001:3C06       __edivd
+ 0001:3C1F       __edivdr
+ 0001:3B25       __edivs
+ 0001:3B3E       __edivsr
+ 0001:3B57       __eldd
+ 0001:3C51       __eldl
+ 0001:3C6A       __eldq
+ 0001:3A76       __elds
+ 0001:3C38       __eldw
+ 0001:3BBB       __emuld
+ 0001:3ADA       __emuls
+ 000B:252A       __end
+ 000B:1B3C       __environ
+ 0001:3B89       __estd
+ 0001:3B70       __estdp
+ 0001:3AA8       __ests
+ 0001:3A8F       __estsp
+ 0001:3BD4       __esubd
+ 0001:3BED       __esubdr
+ 0001:3AF3       __esubs
+ 0001:3B0C       __esubsr
+ 000B:1B47       __exitflag
+ 000B:1B08       __fac
+ 0001:38BC       __fadd
+ 0001:39AE       __faddd
+ 0001:337E       __fassign
+ 0001:3956       __fchs
+ 0001:3914       __fdiv
+ 0001:3A06       __fdivd
+ 0001:3A1C       __fdivdr
+ 0001:392A       __fdivr
+ 0001:3940       __fdup
+ 0001:49C8       __ffree
+ 0001:2B44       __FF_MSGBANNER
+ 000B:1D9A       __fheap
+ 0001:4513       __findlast
+ 0001:396C       __fldd
+ 0001:3A48       __fldl
+ 0001:3A5E       __fldq
+ 0001:3A32       __fldw
+ 0001:3152       __flsbuf
+ 0001:3C82       __fltin
+ 0001:3CE6       __fltout
+ 0000:9876  Abs  __fltused
+ 0001:49E9       __fmalloc
+ 0001:27A8       __fmemcmp
+ 0001:2950       __fmemmove
+ 0001:41D8       __fmemset
+ 0001:38D2       __fmul
+ 0001:39C4       __fmuld
+ 0001:324C       __forcdecpt
+ 000B:1DB2       __fpinit
+ 0000:0000  Imp  __fpmath             (WIN87EM.1)
+ 0001:3D3C       __fpsignal
+ 0000:9876  Abs  __fptaskdata
+ 0001:40EE       __fptostr
+ 0001:3234       __fptrap
+ 0001:2506       __fpurecall
+ 0001:50DE       __freefarheap
+ 0001:5168       __freelist
+ 0001:3998       __fstd
+ 0001:3982       __fstdp
+ 0001:28FC       __fstrcat
+ 0001:2804       __fstrchr
+ 0001:28D2       __fstrcmp
+ 0001:419C       __fstrcpy
+ 0001:2836       __fstricmp
+ 0001:28B8       __fstrlen
+ 0001:287C       __fstrncmp
+ 0001:38E8       __fsub
+ 0001:39DA       __fsubd
+ 0001:39F0       __fsubdr
+ 0001:38FE       __fsubr
+ 0001:2A76       __ftol
+ 0001:2090       __gcvt
+ 0001:4044       __getbuf
+ 0001:323A       __GetDGROUP
+ 0001:441C       __growseg
+ 000B:1AF0       __hModule
+ 000B:1D1C       __HUGE
+ 0001:44AD       __incseg
+ 0001:5192       __initseg
+ 000B:1DC2       __iob
+ 000B:1EB2       __iob2
+ 000B:1D26       __lastiob
+ 0001:4E1D       __LD12MULT
+ 0001:4D48       __LD12MULTTENPOWER
+ 0001:51C6       __linkseg
+ 000B:1AF6       __lpszCmdLine
+ 0001:3DAE       __lseek
+ 000B:1D94       __lseekchk
+ 0001:4FA2       __MANTOLD12
+ 0001:4565       __maperror
+ 000B:1D24       __matherr_flag
+ 000B:2522       __mbac
+ 0001:4002       __myalloc
+ 0001:324A       __nearstub
+ 0001:505C       __newseg
+ 000B:1B20       __nfile
+ 0001:3D60       __NMSG_TEXT
+ 0001:3D97       __NMSG_WRITE
+ 0001:1F3A       __nomain
+ 0001:2506       __npurecall
+ 000B:1B1E       __oserr
+ 000B:1B22       __osfile
+ 000B:1B19       __osmajor
+ 000B:1B18       __osminor
+ 000B:1B1C       __osmode
+ 000B:1B18       __osver
+ 000B:1B1A       __osversion
+ 0001:2C5C       __output
+ 000B:1B40       __pgmptr
+ 000B:1D96       __pnhFarHeap
+ 0001:3346       __positive
+ 0001:2506       __purecall
+ 0001:3BA0       __saddd
+ 0001:3ABF       __sadds
+ 0001:3C04       __sdivd
+ 0001:3C1D       __sdivdr
+ 0001:3B23       __sdivs
+ 0001:3B3C       __sdivsr
+ 0001:50EC       __searchseg
+ 0001:2B68       __setenvp
+ 000B:1CE6       __sigintoff
+ 000B:1CE4       __sigintseg
+ 0000:0001  Abs  __sizec
+ 0000:0001  Abs  __sized
+ 0001:3B55       __sldd
+ 0001:3C4F       __sldl
+ 0001:3C68       __sldq
+ 0001:3A74       __slds
+ 0001:3C36       __sldw
+ 0001:3BB9       __smuld
+ 0001:3AD8       __smuls
+ 0001:3B87       __sstd
+ 0001:3B6E       __sstdp
+ 0001:3AA6       __ssts
+ 0001:3A8D       __sstsp
+ 0001:3BD2       __ssubd
+ 0001:3BEB       __ssubdr
+ 0001:3AF1       __ssubs
+ 0001:3B0A       __ssubsr
+ 0001:4592       __stackavail
+ 0001:43B4       __STRINGTOD
+ 0001:4760       __STRINGTOLD
+ 0001:2B18       __stubmain
+ 000A:003C       __STUBWEP
+ 000B:1B14       __umaskval
+ 000B:1AF2       __wDataSeg
+ 0001:1E54       __wflags
+ 000B:1AF4       __wHeapSize
+ 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 000B:1B17       __winmajor
+ 000B:1B16       __winminor
+ 000B:1B16       __winver
+ 0001:3E76       __write
+ 000B:1B01       ___aDBrterr
+ 000B:1AFF       ___aDBswpflg
+ 000B:1B36       ___argc
+ 000B:1B38       ___argv
+ 0001:4030       ___ExportedStub
+
+  Address         Publics by Value
+
+ 0000:0000  Imp  STRINGFROMCLSID      (COMPOBJ.19)
+ 0000:0000  Imp  COSETSTATE           (COMPOBJ.110)
+ 0000:0000  Imp  GETWINFLAGS          (KERNEL.132)
+ 0000:0000  Imp  COGETSTATE           (COMPOBJ.115)
+ 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 0000:0000  Imp  REGOPENKEY           (KERNEL.217)
+ 0000:0000  Imp  ISBADCODEPTR         (KERNEL.336)
+ 0000:0000  Imp  COMPARESTRINGA       (OLE2NLS.8)
+ 0000:0000  Imp  GLOBALLOCK           (KERNEL.18)
+ 0000:0000  Imp  LOADLIBRARY          (KERNEL.95)
+ 0000:0000  Imp  ISBADREADPTR         (KERNEL.334)
+ 0000:0000  Imp  GETMODULEUSAGE       (KERNEL.48)
+ 0000:0000  Imp  SETERRORMODE         (KERNEL.107)
+ 0000:0000  Imp  FATALAPPEXIT         (KERNEL.137)
+ 0000:0000  Imp  ISBADWRITEPTR        (KERNEL.335)
+ 0000:0000  Imp  FREELIBRARY          (KERNEL.96)
+ 0000:0000  Imp  REGISTERNLSINFOCHANGED (OLE2NLS.9)
+ 0000:0000  Imp  FREEPROCINSTANCE     (KERNEL.52)
+ 0000:0000  Imp  HMEMCPY              (KERNEL.348)
+ 0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
+ 0000:0000  Imp  CREATEFILEMONIKER    (OLE2.28)
+ 0000:0000  Imp  COUNMARSHALINTERFACE (COMPOBJ.9)
+ 0000:0000  Imp  GETPROCADDRESS       (KERNEL.50)
+ 0000:0000  Imp  DEBUGBREAK           (KERNEL.203)
+ 0000:0000  Imp  ENDDIALOG            (USER.88)
+ 0000:0000  Imp  DOS3CALL             (KERNEL.102)
+ 0000:0000  Imp  __fpmath             (WIN87EM.1)
+ 0000:0000  Imp  GLOBALFREE           (KERNEL.17)
+ 0000:0000  Imp  COGETMALLOC          (COMPOBJ.4)
+ 0000:0000  Imp  __AHSHIFT            (KERNEL.113)
+ 0000:0000  Imp  COMARSHALINTERFACE   (COMPOBJ.8)
+ 0000:0000  Imp  GLOBALUNLOCK         (KERNEL.19)
+ 0000:0000  Imp  GETDOSENVIRONMENT    (KERNEL.131)
+ 0000:0000  Imp  GETRUNNINGOBJECTTABLE (OLE2.30)
+ 0000:0000  Imp  GLOBALSIZE           (KERNEL.20)
+ 0000:0000  Imp  COMARSHALHRESULT     (COMPOBJ.32)
+ 0000:0000  Imp  REGENUMKEY           (KERNEL.216)
+ 0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
+ 0000:0000  Imp  GETPROFILEINT        (KERNEL.57)
+ 0000:0000  Imp  __AHINCR             (KERNEL.114)
+ 0000:0000  Imp  STRINGFROMGUID2      (COMPOBJ.76)
+ 0000:0000  Imp  GETLOCALEINFOA       (OLE2NLS.5)
+ 0000:0000  Imp  DIALOGBOX            (USER.87)
+ 0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
+ 0000:0000  Imp  GLOBALREALLOC        (KERNEL.16)
+ 0000:0000  Imp  MAKEPROCINSTANCE     (KERNEL.51)
+ 0000:0000  Imp  INITTASK             (KERNEL.91)
+ 0000:0000  Imp  GETVERSION           (KERNEL.3)
+ 0000:0000  Imp  GETUSERDEFAULTLCID   (OLE2NLS.1)
+ 0000:0000  Imp  ISEQUALGUID          (COMPOBJ.18)
+ 0000:0000  Imp  COUNMARSHALHRESULT   (COMPOBJ.33)
+ 0000:0000  Imp  SETDLGITEMTEXT       (USER.92)
+ 0000:0000  Imp  LOCALINIT            (KERNEL.4)
+ 0000:0000  Imp  FATALEXIT            (KERNEL.1)
+ 0000:0000  Imp  GETSTRINGTYPEA       (OLE2NLS.7)
+ 0000:0000  Imp  LCMAPSTRINGA         (OLE2NLS.6)
+ 0000:0000  Imp  REGQUERYVALUE        (SHELL.6)
+ 0000:0000  Imp  ISBADSTRINGPTR       (KERNEL.337)
+ 0000:0000  Imp  REGCLOSEKEY          (KERNEL.220)
+ 0000:0001  Abs  __sized
+ 0000:0001  Abs  __sizec
+ 0000:0006  Abs  pLocalHeap
+ 0000:0008  Abs  pAtomTable
+ 0000:000A  Abs  pStackTop
+ 0000:000C  Abs  pStackMin
+ 0000:000E  Abs  pStackBot
+ 0000:0632  Abs  FISRQQ
+ 0000:0E32  Abs  FICRQQ
+ 0000:1632  Abs  FIERQQ
+ 0000:9876  Abs  __fptaskdata
+ 0000:9876  Abs  __acrtused
+ 0000:9876  Abs  __acrtmsg
+ 0000:9876  Abs  __fltused
+ 0000:D6D6  Abs  __aDBdoswp
+ 0000:D6D6  Abs  __aDBused
+ 0001:0010       LIBMAIN
+ 0001:004F       _WEP
+ 0001:0084       ??0CProcessInfo@@REC@XZ
+ 0001:00F6       ??1CProcessInfo@@REC@XZ
+ 0001:018B       ?QueryInterface@CProcessInfo@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:0200       ?AddRef@CProcessInfo@@VEAKXZ
+ 0001:0233       ?Release@CProcessInfo@@VEAKXZ
+ 0001:0367       _GetProcessInfo
+ 0001:0553       ??0CErrorInfo@@REC@XZ
+ 0001:05FD       ??1CErrorInfo@@REC@XZ
+ 0001:0660       ?Create@CErrorInfo@@TAPEXPEPEV1@@Z
+ 0001:06DA       ?QueryInterface@CErrorInfo@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:07D4       ?AddRef@CErrorInfo@@VEAKXZ
+ 0001:0807       ?Release@CErrorInfo@@VEAKXZ
+ 0001:08A6       ?GetGUID@CErrorInfo@@VEAPEXPEUGUID@@@Z
+ 0001:091C       ?GetSource@CErrorInfo@@VEAPEXPEPED@Z
+ 0001:098E       ?GetDescription@CErrorInfo@@VEAPEXPEPED@Z
+ 0001:0A00       ?GetHelpFile@CErrorInfo@@VEAPEXPEPED@Z
+ 0001:0A72       ?GetHelpContext@CErrorInfo@@VEAPEXPEK@Z
+ 0001:0AE6       ?SetGUID@CErrorInfo@@VEAPEXAFUGUID@@@Z
+ 0001:0B5C       ?SetSource@CErrorInfo@@VEAPEXPED@Z
+ 0001:0BD6       ?SetDescription@CErrorInfo@@VEAPEXPED@Z
+ 0001:0C50       ?SetHelpFile@CErrorInfo@@VEAPEXPED@Z
+ 0001:0CCA       ?SetHelpContext@CErrorInfo@@VEAPEXK@Z
+ 0001:0CFF       SETERRORINFO
+ 0001:0DD2       GETERRORINFO
+ 0001:0EA5       CREATEERRORINFO
+ 0001:0F66       ??2@ZAPAXI@Z
+ 0001:0F8F       ??3@ZAXPAX@Z
+ 0001:0FB5       ??2@ZAPEXI@Z
+ 0001:100A       ??3@ZAXPEX@Z
+ 0001:105A       NLSINFOCHANGEDHANDLER
+ 0001:1082       DETECTFBSTPIMPLEMENTED
+ 0001:109A       VARIANTINIT
+ 0001:10C2       VARIANTCLEAR
+ 0001:129D       VARIANTCOPY
+ 0001:14E9       VARIANTCOPYIND
+ 0001:185A       ?IsLegalVartype@@ZCPEXG@Z
+ 0001:18D8       ?CreateActiveObjectMoniker@@YCPEXAFUGUID@@PEPEUIMoniker@@@Z
+ 0001:1989       REGISTERACTIVEOBJECT
+ 0001:1B02       REVOKEACTIVEOBJECT
+ 0001:1BC0       GETACTIVEOBJECT
+ 0001:1CA4       _IID_ISupportErrorInfo
+ 0001:1CB4       _IID_ICreateErrorInfo
+ 0001:1CC4       _IID_IErrorInfo
+ 0001:1CD4       _IID_StdOle
+ 0001:1CE4       _IID_ICreateTypeLib
+ 0001:1CF4       _IID_ICreateTypeInfo
+ 0001:1D04       _IID_ITypeComp
+ 0001:1D14       _IID_ITypeLib
+ 0001:1D24       _IID_ITypeInfo
+ 0001:1D34       _IID_IEnumVARIANT
+ 0001:1D44       _IID_IDispatch
+ 0001:1D54       _IID_IStream
+ 0001:1D64       _IID_IPSFactory
+ 0001:1D74       _IID_IRpcProxy
+ 0001:1D84       _IID_IRpcChannelBuffer
+ 0001:1D94       _IID_IRpcStub
+ 0001:1DA4       _IID_IRpcStubBuffer
+ 0001:1DB4       _IID_IRpcProxyBuffer
+ 0001:1DC4       _IID_IUnknown
+ 0001:1DD4       _GUID_NULL
+ 0001:1DE4       _IID_IPSFactoryBuffer
+ 0001:1DF4       _CLSID_PSTypeComp
+ 0001:1E04       _CLSID_PSAutomation
+ 0001:1E14       _CLSID_PSTypeLib
+ 0001:1E24       _CLSID_PSTypeInfo
+ 0001:1E34       _CLSID_PSEnumVARIANT
+ 0001:1E44       _CLSID_PSDispatch
+ 0001:1E54       __wflags
+ 0001:1E98       __astart
+ 0001:1F3A       __nomain
+ 0001:1F52       __cinit
+ 0001:1F9A       __cexit
+ 0001:1FAB       __c_exit
+ 0001:1FF9       __ctermsub
+ 0001:2036       __aNchkstk
+ 0001:2056       __chkstk
+ 0001:2056       __aFchkstk
+ 0001:2090       __gcvt
+ 0001:2198       _sprintf
+ 0001:2206       _strcat
+ 0001:225A       _strlen
+ 0001:2274       __aFahdiff
+ 0001:2294       _strtod
+ 0001:23C8       _strtoul
+ 0001:23D4       _strtol
+ 0001:2506       __npurecall
+ 0001:2506       __fpurecall
+ 0001:2506       __purecall
+ 0001:250C       __aFFaulmul
+ 0001:250C       __aFFalmul
+ 0001:252E       __aFFalrem
+ 0001:2550       __aFFauldiv
+ 0001:2572       __aFldiv
+ 0001:260C       __aFulmul
+ 0001:260C       __aFlmul
+ 0001:263E       __aFlrem
+ 0001:26DE       __aFuldiv
+ 0001:273E       __aFulrem
+ 0001:27A8       __fmemcmp
+ 0001:2804       __fstrchr
+ 0001:2836       __fstricmp
+ 0001:287C       __fstrncmp
+ 0001:28B8       __fstrlen
+ 0001:28D2       __fstrcmp
+ 0001:28FC       __fstrcat
+ 0001:2950       __fmemmove
+ 0001:2A1A       __aFCIfloor
+ 0001:2A4F       _floor
+ 0001:2A76       __aFftol
+ 0001:2A76       __ftol
+ 0001:2AB4       _modf
+ 0001:2B18       __stubmain
+ 0001:2B44       __FF_MSGBANNER
+ 0001:2B68       __setenvp
+ 0001:2C00       __cintDIV
+ 0001:2C0A       __amsg_exit
+ 0001:2C5C       __output
+ 0001:3152       __flsbuf
+ 0001:3234       __fptrap
+ 0001:323A       __GetDGROUP
+ 0001:324A       __nearstub
+ 0001:324C       __forcdecpt
+ 0001:32C2       __cropzeros
+ 0001:3346       __positive
+ 0001:337E       __fassign
+ 0001:33D6       __cftoe
+ 0001:35A2       __cftof
+ 0001:373A       __cftog
+ 0001:381A       __cfltcvt
+ 0001:38BC       __aFfadd
+ 0001:38BC       __fadd
+ 0001:38D2       __fmul
+ 0001:38D2       __aFfmul
+ 0001:38E8       __fsub
+ 0001:38E8       __aFfsub
+ 0001:38FE       __aFfsubr
+ 0001:38FE       __fsubr
+ 0001:3914       __fdiv
+ 0001:3914       __aFfdiv
+ 0001:392A       __aFfdivr
+ 0001:392A       __fdivr
+ 0001:3940       __fdup
+ 0001:3940       __aFfdup
+ 0001:3956       __fchs
+ 0001:3956       __aFfchs
+ 0001:396C       __fldd
+ 0001:396C       __aFfldd
+ 0001:3982       __aFfstdp
+ 0001:3982       __fstdp
+ 0001:3998       __fstd
+ 0001:3998       __aFfstd
+ 0001:39AE       __aFfaddd
+ 0001:39AE       __faddd
+ 0001:39C4       __aFfmuld
+ 0001:39C4       __fmuld
+ 0001:39DA       __aFfsubd
+ 0001:39DA       __fsubd
+ 0001:39F0       __fsubdr
+ 0001:39F0       __aFfsubdr
+ 0001:3A06       __fdivd
+ 0001:3A06       __aFfdivd
+ 0001:3A1C       __fdivdr
+ 0001:3A1C       __aFfdivdr
+ 0001:3A32       __aFfldw
+ 0001:3A32       __fldw
+ 0001:3A48       __aFfldl
+ 0001:3A48       __fldl
+ 0001:3A5E       __aFfldq
+ 0001:3A5E       __fldq
+ 0001:3A74       __slds
+ 0001:3A74       __aFslds
+ 0001:3A76       __elds
+ 0001:3A76       __aFelds
+ 0001:3A8D       __aFsstsp
+ 0001:3A8D       __sstsp
+ 0001:3A8F       __estsp
+ 0001:3A8F       __aFestsp
+ 0001:3AA6       __ssts
+ 0001:3AA6       __aFssts
+ 0001:3AA8       __ests
+ 0001:3AA8       __aFests
+ 0001:3ABF       __aFsadds
+ 0001:3ABF       __sadds
+ 0001:3AC1       __eadds
+ 0001:3AC1       __aFeadds
+ 0001:3AD8       __smuls
+ 0001:3AD8       __aFsmuls
+ 0001:3ADA       __aFemuls
+ 0001:3ADA       __emuls
+ 0001:3AF1       __aFssubs
+ 0001:3AF1       __ssubs
+ 0001:3AF3       __esubs
+ 0001:3AF3       __aFesubs
+ 0001:3B0A       __aFssubsr
+ 0001:3B0A       __ssubsr
+ 0001:3B0C       __esubsr
+ 0001:3B0C       __aFesubsr
+ 0001:3B23       __aFsdivs
+ 0001:3B23       __sdivs
+ 0001:3B25       __aFedivs
+ 0001:3B25       __edivs
+ 0001:3B3C       __sdivsr
+ 0001:3B3C       __aFsdivsr
+ 0001:3B3E       __aFedivsr
+ 0001:3B3E       __edivsr
+ 0001:3B55       __aFsldd
+ 0001:3B55       __sldd
+ 0001:3B57       __aFeldd
+ 0001:3B57       __eldd
+ 0001:3B6E       __aFsstdp
+ 0001:3B6E       __sstdp
+ 0001:3B70       __estdp
+ 0001:3B70       __aFestdp
+ 0001:3B87       __aFsstd
+ 0001:3B87       __sstd
+ 0001:3B89       __estd
+ 0001:3B89       __aFestd
+ 0001:3BA0       __saddd
+ 0001:3BA0       __aFsaddd
+ 0001:3BA2       __eaddd
+ 0001:3BA2       __aFeaddd
+ 0001:3BB9       __smuld
+ 0001:3BB9       __aFsmuld
+ 0001:3BBB       __aFemuld
+ 0001:3BBB       __emuld
+ 0001:3BD2       __aFssubd
+ 0001:3BD2       __ssubd
+ 0001:3BD4       __esubd
+ 0001:3BD4       __aFesubd
+ 0001:3BEB       __aFssubdr
+ 0001:3BEB       __ssubdr
+ 0001:3BED       __aFesubdr
+ 0001:3BED       __esubdr
+ 0001:3C04       __sdivd
+ 0001:3C04       __aFsdivd
+ 0001:3C06       __aFedivd
+ 0001:3C06       __edivd
+ 0001:3C1D       __aFsdivdr
+ 0001:3C1D       __sdivdr
+ 0001:3C1F       __edivdr
+ 0001:3C1F       __aFedivdr
+ 0001:3C36       __sldw
+ 0001:3C36       __aFsldw
+ 0001:3C38       __eldw
+ 0001:3C38       __aFeldw
+ 0001:3C4F       __sldl
+ 0001:3C4F       __aFsldl
+ 0001:3C51       __aFeldl
+ 0001:3C51       __eldl
+ 0001:3C68       __sldq
+ 0001:3C68       __aFsldq
+ 0001:3C6A       __aFeldq
+ 0001:3C6A       __eldq
+ 0001:3C82       __fltin
+ 0001:3CE6       __fltout
+ 0001:3D3C       __fpsignal
+ 0001:3D60       __NMSG_TEXT
+ 0001:3D97       __NMSG_WRITE
+ 0001:3DAE       __lseek
+ 0001:3E76       __write
+ 0001:4002       __myalloc
+ 0001:4030       ___ExportedStub
+ 0001:4044       __getbuf
+ 0001:4090       _atof
+ 0001:40EE       __fptostr
+ 0001:419C       __fstrcpy
+ 0001:41D8       __fmemset
+ 0001:426E       $i8_output
+ 0001:43B4       __STRINGTOD
+ 0001:441C       __growseg
+ 0001:44AD       __incseg
+ 0001:4513       __findlast
+ 0001:4534       __dosret0
+ 0001:4541       __dosreturn
+ 0001:4553       __dosretax
+ 0001:4565       __maperror
+ 0001:4592       __stackavail
+ 0001:4722       $i8_tpwr10
+ 0001:4760       __STRINGTOLD
+ 0001:49C8       __ffree
+ 0001:49E9       __fmalloc
+ 0001:4D48       __LD12MULTTENPOWER
+ 0001:4E1D       __LD12MULT
+ 0001:4FA2       __MANTOLD12
+ 0001:505C       __newseg
+ 0001:50DE       __freefarheap
+ 0001:50EC       __searchseg
+ 0001:5168       __freelist
+ 0001:5192       __initseg
+ 0001:51C6       __linkseg
+ 0001:51FC       ??_GCProcessInfo@@RECPEXI@Z
+ 0001:523A       ??0IErrorInfo@@REC@XZ
+ 0001:5270       ??0ICreateErrorInfo@@REC@XZ
+ 0001:52A6       ??_GCErrorInfo@@RECPEXI@Z
+ 0001:52E4       ?QueryInterface@CErrorInfo@@X3EAPEXAFUGUID@@PEPEX@Z
+ 0001:52F0       ?AddRef@CErrorInfo@@X3EAKXZ
+ 0001:52FC       ?Release@CErrorInfo@@X3EAKXZ
+ 0001:5308       ??9GUID@@RFCHAFU0@@Z
+ 0001:5336       _GetPID
+ 0001:534C       ?ValidateReadPtr@@ZAPEXPFXI@Z
+ 0001:5386       _GetMalloc
+ 0002:0000       ??_7COleAutomationPSFactory@@6F@
+ 0002:0014       ??_7IPSFactory@@6F@
+ 0002:0028       ??_7IUnknown@@6F@
+ 0002:0034       ??_7CHolder@@6F@
+ 0002:0040       ??_7CPDDispImpl@@6F@
+ 0002:0060       ??_7IDispatch@@6F@
+ 0002:007C       ??_7CPDUnkImpl@@6F@
+ 0002:0088       ??_7IRpcProxy@@6F@
+ 0002:009C       ??_7CPDProxImpl@@6F@
+ 0002:00B0       ??_7IRpcStub@@6F@
+ 0002:00D0       ??_7CStubDisp@@6F@
+ 0002:00F0       ??_7CPEVEnumVARIANTImpl@@6F@
+ 0002:010C       ??_7IEnumVARIANT@@6F@
+ 0002:0128       ??_7CPEVUnkImpl@@6F@
+ 0002:0134       ??_7CPEVProxImpl@@6F@
+ 0002:0148       ??_7CStubEnumVARIANT@@6F@
+ 0002:0168       ??_7CPTITypeInfoImpl@@6F@
+ 0002:01C0       ??_7ITypeInfo@@6F@
+ 0002:0218       ??_7CPTIUnkImpl@@6F@
+ 0002:0224       ??_7CPTIProxImpl@@6F@
+ 0002:0238       ??_7CStubTypeInfo@@6F@
+ 0002:0258       ??_7CErrorInfo@@6FIErrorInfo@@@
+ 0002:0278       ??_7CErrorInfo@@6FICreateErrorInfo@@@
+ 0002:0298       ??_7CProcessInfo@@6F@
+ 0002:02A4       ??_7IErrorInfo@@6F@
+ 0002:02C4       ??_7ICreateErrorInfo@@6F@
+ 0002:02E4       ??_7CPTLibTypeLibImpl@@6F@
+ 0002:0318       ??_7CPTLibUnkImpl@@6F@
+ 0002:0324       ??_7ITypeLib@@6F@
+ 0002:0358       ??_7CPTLibProxImpl@@6F@
+ 0002:036C       ??_7CStubTypeLib@@6F@
+ 0002:038C       ??_7CPTCompTypeCompImpl@@6F@
+ 0002:03A0       ??_7CPTCompUnkImpl@@6F@
+ 0002:03AC       ??_7ITypeComp@@6F@
+ 0002:03C0       ??_7CPTCompProxImpl@@6F@
+ 0002:03D4       ??_7CStubTypeComp@@6F@
+ 0002:03F4       ??_7CStubUniv@@6F@
+ 0002:0414       ??_7CPriv@CProxUniv@@6F@
+ 0002:0428       ??_7CDispTypeInfo@@6F@
+ 0002:0480       ??_7CStdDisp@@6F@
+ 0002:049C       ??_7CStdDispUnkImpl@@6F@
+ 0003:0000       INDEXOFPARAM
+ 0003:00C3       DISPGETPARAM
+ 0003:0170       DISPGETIDSOFNAMES
+ 0003:01B2       DISPINVOKE
+ 0003:020C       DOSDATETIMETOVARIANTTIME
+ 0003:0362       VARIANTTIMETODOSDATETIME
+ 0003:0446       ?hSizeToAlloc@@ZCKPEUtagSAFEARRAY@@K@Z
+ 0003:04B4       ?hAccessElement@@ZCPIXPEUtagSAFEARRAY@@K@Z
+ 0003:05FF       ?hAccessElement@@ZCPIXPIXGK@Z
+ 0003:0708       ?hmemset@@ZCXPIXHK@Z
+ 0003:0885       SAFEARRAYALLOCDESCRIPTOR
+ 0003:0923       SAFEARRAYALLOCDATA
+ 0003:0A6D       SAFEARRAYCREATE
+ 0003:0C83       ?ReleaseResources@@ZCXPIXKGG@Z
+ 0003:0E65       SAFEARRAYDESTROYDATA
+ 0003:1052       SAFEARRAYDESTROYDESCRIPTOR
+ 0003:10D4       SAFEARRAYDESTROY
+ 0003:11B6       SAFEARRAYREDIM
+ 0003:1737       SAFEARRAYCOPY
+ 0003:1CBF       SAFEARRAYGETDIM
+ 0003:1D0B       SAFEARRAYGETELEMSIZE
+ 0003:1D58       SAFEARRAYGETUBOUND
+ 0003:1E0E       SAFEARRAYGETLBOUND
+ 0003:1EA5       SAFEARRAYLOCK
+ 0003:1F18       SAFEARRAYUNLOCK
+ 0003:1F8B       SAFEARRAYACCESSDATA
+ 0003:1FFC       SAFEARRAYUNACCESSDATA
+ 0003:2027       SAFEARRAYPTROFINDEX
+ 0003:213C       SAFEARRAYGETELEMENT
+ 0003:23C5       SAFEARRAYPUTELEMENT
+ 0003:26D3       ?SafeArraySize@@ZCKPEUtagSAFEARRAY@@@Z
+ 0003:2858       ERRPACKDATE
+ 0003:2B6E       ERRUNPACKDATE
+ 0003:2F23       GETCURRENTYEAR
+ 0003:2F44       XTOA
+ 0003:3021       DISP_ITOA
+ 0003:307D       DISP_LTOA
+ 0003:30CF       DISP_FLOOR
+ 0003:310F       DISP_GCVT
+ 0003:313F       DISP_STRTOD
+ 0003:3180       _IsCharType
+ 0003:31EC       MONTHNUMOFMONTHNAME
+ 0003:32F4       SAFEGETLOCALEINFO
+ 0003:3400       GETDATEINFO
+ 0003:3BCC       ISIMPERIALERA
+ 0003:404D       ISREPUBLICERA
+ 0003:45C5       ISDBCSAMPM
+ 0003:4B87       DDSEP
+ 0003:5522       DDLEX
+ 0003:5A73       VARDATEFROMSTR
+ 0003:608D       LEGAL_DAY
+ 0003:6146       _SetUDSfromYMD
+ 0003:6174       DAYOFNN
+ 0003:6485       DAYOFNNN
+ 0003:674B       DAYOFMN
+ 0003:67C8       DAYOFMNN
+ 0003:6914       ADJUSTTIME
+ 0003:6970       ADJUSTUDSTIME
+ 0003:69EF       ADJUSTUDSDATE
+ 0003:6AAC       GETIMPERIALERA
+ 0003:6BB2       RENDERDATE
+ 0003:7012       APPENDAMPM
+ 0003:70D1       RENDERTIME
+ 0003:7280       VARBSTRFROMDATE
+ 0003:7501       INTOFSTRING
+ 0003:7600       REPORTOVERFLOW
+ 0003:761A       REPORTINVALIDARG
+ 0003:7648       ERRCYFROMI2
+ 0003:766F       ERRCYFROMI4
+ 0003:76B0       ERRCYFROMR4
+ 0003:76F3       ERRCYFROMR8
+ 0003:7736       ERRI2FROMCY
+ 0003:7776       ERRI4FROMCY
+ 0003:77B6       ERRR4FROMCY
+ 0003:77E6       ERRR8FROMCY
+ 0003:7816       ERRMULTCYI4
+ 0003:7857       DOFBSTP
+ 0003:78C2       CONVFLOATTOASCII
+ 0003:7BA0       VARIANTCHANGETYPE
+ 0003:7BDC       VARIANTCHANGETYPEEX
+ 0003:7ED3       ?ExtractValueProperty@@YCPEXPEUIDispatch@@KPEUtagVARIANT@@@Z
+ 0003:7F5A       ?VariantChangeTypeInternal@@ZCPEXPEUtagVARIANT@@KG@Z
+ 0003:8E48       DISPALLOC
+ 0003:8EE3       DISPFREE
+ 0003:8F34       VARBOOLFROMUI1
+ 0003:8F67       VARBOOLFROMI2
+ 0003:8F9A       VARBOOLFROMI4
+ 0003:8FDA       VARBOOLFROMR4
+ 0003:9024       VARBOOLFROMR8
+ 0003:906E       VARBOOLFROMDATE
+ 0003:90A5       VARBOOLFROMCY
+ 0003:90ED       VARBOOLFROMSTR
+ 0003:92E2       VARBOOLFROMDISP
+ 0003:9338       VARUI1FROMI2
+ 0003:937A       VARUI1FROMI4
+ 0003:93C5       VARUI1FROMR4
+ 0003:9406       VARUI1FROMR8
+ 0003:946D       VARUI1FROMCY
+ 0003:94CE       VARUI1FROMDATE
+ 0003:9505       VARUI1FROMBOOL
+ 0003:9534       VARUI1FROMSTR
+ 0003:959B       VARUI1FROMDISP
+ 0003:95F1       VARI2FROMUI1
+ 0003:9622       VARI2FROMI4
+ 0003:968A       VARI2FROMR4
+ 0003:96CB       VARI2FROMR8
+ 0003:9732       VARI2FROMCY
+ 0003:9769       VARI2FROMDATE
+ 0003:97A0       VARI2FROMBOOL
+ 0003:97CF       VARI2FROMSTR
+ 0003:9969       VARI2FROMDISP
+ 0003:99BF       VARI4FROMUI1
+ 0003:99F6       VARI4FROMI2
+ 0003:9A2A       VARI4FROMBOOL
+ 0003:9A58       VARI4FROMR4
+ 0003:9A92       VARI4FROMR8
+ 0003:9AFD       VARI4FROMCY
+ 0003:9B34       VARI4FROMDATE
+ 0003:9B6B       VARI4FROMSTR
+ 0003:9D96       VARI4FROMDISP
+ 0003:9DF3       ?ConvI4FromR8@@YCJPEN@Z
+ 0003:9EC5       VARR4FROMUI1
+ 0003:9F0F       VARR4FROMI2
+ 0003:9F42       VARR4FROMBOOL
+ 0003:9F70       VARR4FROMI4
+ 0003:9FA3       VARR4FROMR8
+ 0003:A009       VARR4FROMCY
+ 0003:A040       VARR4FROMDATE
+ 0003:A077       VARR4FROMSTR
+ 0003:A114       VARR4FROMDISP
+ 0003:A171       VARR8FROMUI1
+ 0003:A1BB       VARR8FROMI2
+ 0003:A1EE       VARR8FROMBOOL
+ 0003:A21C       VARR8FROMI4
+ 0003:A24F       VARR8FROMR4
+ 0003:A282       VARR8FROMCY
+ 0003:A2B9       VARR8FROMDATE
+ 0003:A2EF       VARR8FROMSTR
+ 0003:A66C       VARR8FROMDISP
+ 0003:A6C9       VARDATEFROMUI1
+ 0003:A6FA       VARDATEFROMI2
+ 0003:A752       VARDATEFROMBOOL
+ 0003:A780       VARDATEFROMI4
+ 0003:A7D8       VARDATEFROMR4
+ 0003:A830       VARDATEFROMR8
+ 0003:A888       VARDATEFROMCY
+ 0003:A8F6       ?IsValidDate@@ZCPEXN@Z
+ 0003:A934       VARDATEFROMDISP
+ 0003:A991       VARCYFROMUI1
+ 0003:A9C2       VARCYFROMI2
+ 0003:A9F0       VARCYFROMI4
+ 0003:AA21       VARCYFROMR4
+ 0003:AA51       VARCYFROMR8
+ 0003:AA81       VARCYFROMDATE
+ 0003:AAB8       VARCYFROMBOOL
+ 0003:AAE6       VARCYFROMSTR
+ 0003:AF36       VARCYFROMDISP
+ 0003:AF93       ?CurrencyFromLcid@@ZADKK@Z
+ 0003:AFDA       ?DecimalFromLcid@@ZADKK@Z
+ 0003:B021       MAPHALFWIDTH
+ 0003:B0D9       ?ThousandFromLcid@@ZADKK@Z
+ 0003:B120       ?StripThousandSeparator@@ZCPEXPED0KJ@Z
+ 0003:B20D       ?LeadingZeroForDecimalFromLcid@@ZAHKK@Z
+ 0003:B253       ?FMakePosCy@@YCHPEUtagCY@@@Z
+ 0003:B2E5       ?UnpackCy@@YCXPEUtagCY@@PEK@Z
+ 0003:B352       ?NegCyNoOflo@@YCXPEUtagCY@@@Z
+ 0003:B3B7       ?AddCyNoOflo@@YCXPEUtagCY@@0@Z
+ 0003:B44B       VARBSTRFROMUI1
+ 0003:B488       VARBSTRFROMI2
+ 0003:B4D1       VARBSTRFROMBOOL
+ 0003:B53F       VARBSTRFROMI4
+ 0003:B58B       ?BstrFromFloat@@ZAPEXNKKPEPEDH@Z
+ 0003:BA01       VARBSTRFROMR4
+ 0003:BACD       VARBSTRFROMR8
+ 0003:BB93       VARBSTRFROMCY
+ 0003:BFB6       VARBSTRFROMDISP
+ 0003:C013       ?FixNegativeCyStr@@YCHPEDDPEH@Z
+ 0003:C1D2       ?fParseBegin@@YCHPEPEDPED1@Z
+ 0003:C262       ?fParseEnd@@YCHPEPEDPED1@Z
+ 0003:C32A       ?fStripCurrency@@YCHPEPED0PED@Z
+ 0003:C38B       ?StrToCy@@YCPEXPEDPEPEDHPEUtagCY@@KK@Z
+ 0003:C906       ?StrToLong@@YCJPEDPEPED@Z
+ 0003:CAA0       ?HexOctStrToLong@@YCJPEDPEPED@Z
+ 0003:CB78       ?StrToHex@@YCKPEDPEPED@Z
+ 0003:CC98       ?StrToOct@@YCKPEDPEPED@Z
+ 0003:CD95       ?EditStrFromReal@@YCXPEDHKK@Z
+ 0003:D1C3       ?GetDispProperty@@YCPEXPEUIDispatch@@KGPEUtagVARIANT@@@Z
+ 0003:D29B       ISDBCS
+ 0003:D32F       ISJAPAN
+ 0003:D38A       ISKOREA
+ 0003:D3E5       ISTAIWAN
+ 0003:D440       ISCHINA
+ 0004:0000       ?Create@COleAutomationPSFactory@@TAPEUIPSFactory@@XZ
+ 0004:0065       ?QueryInterface@COleAutomationPSFactory@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:0103       ?AddRef@COleAutomationPSFactory@@VEAKXZ
+ 0004:0136       ?Release@COleAutomationPSFactory@@VEAKXZ
+ 0004:0198       ?CreateProxy@COleAutomationPSFactory@@VEAPEXPEUIUnknown@@AFUGUID
+ 0004:04A6       ?CreateStub@COleAutomationPSFactory@@VEAPEXAFUGUID@@PEUIUnknown@
+ 0004:071F       ?IsAutomationCLSID@@ZAHAFUGUID@@@Z
+ 0004:07F0       DLLGETCLASSOBJECT
+ 0004:0868       ?ProxyStubCLSIDOfInterface@@ZAPEXAFUGUID@@PEU1@@Z
+ 0004:096E       ?BstrWrite@@ZAPEXPEUIStream@@PEDW4tagSYSKIND@@@Z
+ 0004:0A94       ?BstrRead@@ZAPEXPEUIStream@@PEPEDW4tagSYSKIND@@@Z
+ 0004:0C32       ?VariantWrite@@ZAPEXPEUIStream@@PEUtagVARIANT@@W4tagSYSKIND@@@Z
+ 0004:109C       ?VariantRead@@ZAPEXPEUIStream@@PEUtagVARIANT@@1W4tagSYSKIND@@@Z
+ 0004:1518       ?VariantReadType@@ZAPEXPEUIStream@@PEUtagVARIANT@@W4tagSYSKIND@@
+ 0004:1BFA       ?ExcepinfoRead@@ZAPEXPEUIStream@@PEUtagEXCEPINFO@@W4tagSYSKIND@@
+ 0004:1D60       ?ExcepinfoWrite@@ZAPEXPEUIStream@@PEUtagEXCEPINFO@@W4tagSYSKIND@
+ 0004:1F01       ?MarshalErrorInfo@@ZAPEXPEUIStream@@W4tagSYSKIND@@@Z
+ 0004:2232       ?UnmarshalErrorInfo@@ZAPEXPEUIStream@@W4tagSYSKIND@@@Z
+ 0004:257A       ?SafeArrayWrite@@ZAPEXPEUIStream@@PEUtagSAFEARRAY@@W4tagSYSKIND@
+ 0004:2B02       ?SafeArrayReadData@@ZAPEXPEUIStream@@PEUtagSAFEARRAY@@W4tagSYSKI
+ 0004:2F07       ?SafeArrayRead@@ZAPEXPEUIStream@@PEPEUtagSAFEARRAY@@W4tagSYSKIND
+ 0004:3216       ?SafeArrayReadExisting@@YCPEXPEUIStream@@EPEPEUtagSAFEARRAY@@W4t
+ 0004:3768       ?StructWrite@@ZAPEXPEUIStream@@PEUtagFIELDDESC@@PEXW4tagSYSKIND@
+ 0004:3AB7       ?StructRead@@ZAPEXPEUIStream@@PEUtagFIELDDESC@@PEXW4tagSYSKIND@@
+ 0004:3DF9       ??0CHolder@@REC@XZ
+ 0004:3E4A       ??1CHolder@@REC@XZ
+ 0004:3E9A       ?QueryInterface@CHolder@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:3F09       ?AddRef@CHolder@@VEAKXZ
+ 0004:3F3C       ?Release@CHolder@@VEAKXZ
+ 0004:3FB1       DISPMARSHALINTERFACE
+ 0004:41B8       DISPUNMARSHALINTERFACE
+ 0004:42EE       ??0CProxDisp@@BEC@PEUIUnknown@@AFUGUID@@@Z
+ 0004:4386       ??1CProxDisp@@BEC@XZ
+ 0004:43C7       ?Create@CProxDisp@@TAPEUIUnknown@@PEU2@AFUGUID@@@Z
+ 0004:443D       ??0CPDUnkImpl@@REC@PEVCProxDisp@@@Z
+ 0004:4483       ??1CPDUnkImpl@@REC@XZ
+ 0004:44A7       ?QueryInterface@CPDUnkImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:45EF       ?AddRef@CPDUnkImpl@@VEAKXZ
+ 0004:462D       ?Release@CPDUnkImpl@@VEAKXZ
+ 0004:46B6       ??0CPDProxImpl@@REC@PEVCProxDisp@@@Z
+ 0004:46FC       ??1CPDProxImpl@@REC@XZ
+ 0004:4769       ?QueryInterface@CPDProxImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:47AE       ?AddRef@CPDProxImpl@@VEAKXZ
+ 0004:47E8       ?Release@CPDProxImpl@@VEAKXZ
+ 0004:4822       ?Connect@CPDProxImpl@@VEAPEXPEUIRpcChannel@@@Z
+ 0004:48A4       ?Disconnect@CPDProxImpl@@VEAXXZ
+ 0004:490B       ??0CPDDispImpl@@REC@PEVCProxDisp@@@Z
+ 0004:4951       ??1CPDDispImpl@@REC@XZ
+ 0004:4975       ?QueryInterface@CPDDispImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:49C2       ?AddRef@CPDDispImpl@@VEAKXZ
+ 0004:4A04       ?Release@CPDDispImpl@@VEAKXZ
+ 0004:4A46       ?SysKind@CPDDispImpl@@VEAPEXXZ
+ 0004:4B8E       ?ProxyGetTypeInfoCount@@ZAPEXPEUIRpcChannel@@W4tagSYSKIND@@PEI@Z
+ 0004:4D71       ?GetTypeInfoCount@CPDDispImpl@@VEAPEXPEI@Z
+ 0004:4DB3       ?ProxyGetTypeInfo@@ZAPEXPEUIRpcChannel@@W4tagSYSKIND@@IKPEPEUITy
+ 0004:5026       ?GetTypeInfo@CPDDispImpl@@VEAPEXIKPEPEUITypeInfo@@@Z
+ 0004:5071       ?ProxyGetIDsOfNames@@ZAPEXPEUIRpcChannel@@W4tagSYSKIND@@AFUGUID@
+ 0004:54F1       ?GetIDsOfNames@CPDDispImpl@@VEAPEXAFUGUID@@PEPEDIKPEJ@Z
+ 0004:5548       ?ProxyInvoke@@ZAPEXPEUIRpcChannel@@W4tagSYSKIND@@JAFUGUID@@KGPEU
+ 0004:5B9F       ?Invoke@CPDDispImpl@@VEAPEXJAFUGUID@@KGPEUtagDISPPARAMS@@PEUtagV
+ 0004:5C08       ??0CStubDisp@@BEC@XZ
+ 0004:5C64       ??1CStubDisp@@BEC@XZ
+ 0004:5C96       ?Create@CStubDisp@@TAPEXPEUIUnknown@@PEPEUIRpcStub@@@Z
+ 0004:5D3B       ?QueryInterface@CStubDisp@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:5DD9       ?AddRef@CStubDisp@@VEAKXZ
+ 0004:5E0C       ?Release@CStubDisp@@VEAKXZ
+ 0004:5E81       ?Connect@CStubDisp@@VEAPEXPEUIUnknown@@@Z
+ 0004:5EED       ?Disconnect@CStubDisp@@VEAXXZ
+ 0004:5F7D       ?DispatchGetSysKind@@YCPEXPEUIStream@@@Z
+ 0004:5FFA       ?StubGetTypeInfoCount@@ZAPEXPEUIDispatch@@PEUIStream@@@Z
+ 0004:60D2       ?StubGetTypeInfo@@ZAPEXPEUIDispatch@@PEUIStream@@@Z
+ 0004:627F       ?StubGetIDsOfNames@@ZAPEXPEUIDispatch@@PEUIStream@@@Z
+ 0004:66AB       ?StubInvoke@@ZAPEXPEUIDispatch@@PEUIStream@@@Z
+ 0004:6ED5       ?Invoke@CStubDisp@@VEAPEXAFUGUID@@HPEUIStream@@KPEX@Z
+ 0004:706E       ?IsIIDSupported@CStubDisp@@VEAHAFUGUID@@@Z
+ 0004:70B3       ?CountRefs@CStubDisp@@VEAKXZ
+ 0004:7110       ??0CProxEnumVARIANT@@BEC@PEUIUnknown@@@Z
+ 0004:7191       ?Create@CProxEnumVARIANT@@TAPEUIUnknown@@PEU2@@Z
+ 0004:7201       ??0CPEVUnkImpl@@REC@PEVCProxEnumVARIANT@@@Z
+ 0004:7247       ?QueryInterface@CPEVUnkImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:736C       ?AddRef@CPEVUnkImpl@@VEAKXZ
+ 0004:73AA       ?Release@CPEVUnkImpl@@VEAKXZ
+ 0004:7433       ??0CPEVProxImpl@@REC@PEVCProxEnumVARIANT@@@Z
+ 0004:7479       ??1CPEVProxImpl@@REC@XZ
+ 0004:74D5       ?QueryInterface@CPEVProxImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:751A       ?AddRef@CPEVProxImpl@@VEAKXZ
+ 0004:7554       ?Release@CPEVProxImpl@@VEAKXZ
+ 0004:758E       ?Connect@CPEVProxImpl@@VEAPEXPEUIRpcChannel@@@Z
+ 0004:75EE       ?Disconnect@CPEVProxImpl@@VEAXXZ
+ 0004:7655       ??0CPEVEnumVARIANTImpl@@REC@PEVCProxEnumVARIANT@@@Z
+ 0004:769B       ?QueryInterface@CPEVEnumVARIANTImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:76E8       ?AddRef@CPEVEnumVARIANTImpl@@VEAKXZ
+ 0004:772A       ?Release@CPEVEnumVARIANTImpl@@VEAKXZ
+ 0004:776C       ?Next@CPEVEnumVARIANTImpl@@VEAPEXKPEUtagVARIANT@@PEK@Z
+ 0004:7ADC       ?Skip@CPEVEnumVARIANTImpl@@VEAPEXK@Z
+ 0004:7C61       ?Reset@CPEVEnumVARIANTImpl@@VEAPEXXZ
+ 0004:7D9B       ?Clone@CPEVEnumVARIANTImpl@@VEAPEXPEPEUIEnumVARIANT@@@Z
+ 0004:7F36       ??0CStubEnumVARIANT@@BEC@XZ
+ 0004:7F92       ??1CStubEnumVARIANT@@BEC@XZ
+ 0004:7FC4       ?Create@CStubEnumVARIANT@@TAPEXPEUIUnknown@@PEPEUIRpcStub@@@Z
+ 0004:8065       ?QueryInterface@CStubEnumVARIANT@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:8103       ?AddRef@CStubEnumVARIANT@@VEAKXZ
+ 0004:8136       ?Release@CStubEnumVARIANT@@VEAKXZ
+ 0004:81AB       ?Connect@CStubEnumVARIANT@@VEAPEXPEUIUnknown@@@Z
+ 0004:8217       ?Disconnect@CStubEnumVARIANT@@VEAXXZ
+ 0004:82A7       ?DispatchNext@@YCPEXPEUIEnumVARIANT@@PEUIStream@@@Z
+ 0004:85DC       ?DispatchSkip@@YCPEXPEUIEnumVARIANT@@PEUIStream@@@Z
+ 0004:86DF       ?DispatchReset@@YCPEXPEUIEnumVARIANT@@PEUIStream@@@Z
+ 0004:872D       ?DispatchClone@@YCPEXPEUIEnumVARIANT@@PEUIStream@@@Z
+ 0004:87D7       ?Invoke@CStubEnumVARIANT@@VEAPEXAFUGUID@@HPEUIStream@@KPEX@Z
+ 0004:8944       ?IsIIDSupported@CStubEnumVARIANT@@VEAHAFUGUID@@@Z
+ 0004:8989       ?CountRefs@CStubEnumVARIANT@@VEAKXZ
+ 0004:89E6       ??0CProxTypeInfo@@BEC@PEUIUnknown@@@Z
+ 0004:8A67       ?Create@CProxTypeInfo@@TAPEUIUnknown@@PEU2@@Z
+ 0004:8AD7       ??0CPTIUnkImpl@@REC@PEVCProxTypeInfo@@@Z
+ 0004:8B1D       ?QueryInterface@CPTIUnkImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:8C42       ?AddRef@CPTIUnkImpl@@VEAKXZ
+ 0004:8C80       ?Release@CPTIUnkImpl@@VEAKXZ
+ 0004:8D09       ??0CPTIProxImpl@@REC@PEVCProxTypeInfo@@@Z
+ 0004:8D4F       ??1CPTIProxImpl@@REC@XZ
+ 0004:8DAB       ?QueryInterface@CPTIProxImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:8DF0       ?AddRef@CPTIProxImpl@@VEAKXZ
+ 0004:8E2A       ?Release@CPTIProxImpl@@VEAKXZ
+ 0004:8E64       ?Connect@CPTIProxImpl@@VEAPEXPEUIRpcChannel@@@Z
+ 0004:8EC4       ?Disconnect@CPTIProxImpl@@VEAXXZ
+ 0004:8F2B       ??0CPTITypeInfoImpl@@REC@PEVCProxTypeInfo@@@Z
+ 0004:8F71       ?QueryInterface@CPTITypeInfoImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:8FBE       ?AddRef@CPTITypeInfoImpl@@VEAKXZ
+ 0004:9000       ?Release@CPTITypeInfoImpl@@VEAKXZ
+ 0004:9042       ?GetTypeAttr@CPTITypeInfoImpl@@VEAPEXPEPEUtagTYPEATTR@@@Z
+ 0004:92BD       ?GetTypeComp@CPTITypeInfoImpl@@VEAPEXPEPEUITypeComp@@@Z
+ 0004:9463       ?GetFuncDesc@CPTITypeInfoImpl@@VEAPEXIPEPEUtagFUNCDESC@@@Z
+ 0004:9734       ?GetVarDesc@CPTITypeInfoImpl@@VEAPEXIPEPEUtagVARDESC@@@Z
+ 0004:9A05       ?GetNames@CPTITypeInfoImpl@@VEAPEXJPEPEDIPEI@Z
+ 0004:9E55       ?GetRefTypeOfImplType@CPTITypeInfoImpl@@VEAPEXIPEK@Z
+ 0004:A068       ?GetImplTypeFlags@CPTITypeInfoImpl@@VEAPEXIPEH@Z
+ 0004:A275       ?GetIDsOfNames@CPTITypeInfoImpl@@VEAPEXPEPEDIPEJ@Z
+ 0004:A299       ?Invoke@CPTITypeInfoImpl@@VEAPEXPEXJGPEUtagDISPPARAMS@@PEUtagVAR
+ 0004:A2BD       ?GetDocumentation@CPTITypeInfoImpl@@VEAPEXJPEPED0PEK0@Z
+ 0004:A79C       ?GetDllEntry@CPTITypeInfoImpl@@VEAPEXJW4tagINVOKEKIND@@PEPED1PEG
+ 0004:AB9C       ?GetRefTypeInfo@CPTITypeInfoImpl@@VEAPEXKPEPEUITypeInfo@@@Z
+ 0004:AD8D       ?AddressOfMember@CPTITypeInfoImpl@@VEAPEXJW4tagINVOKEKIND@@PEPEX
+ 0004:ADB1       ?CreateInstance@CPTITypeInfoImpl@@VEAPEXPEUIUnknown@@AFUGUID@@PE
+ 0004:AFB7       ?GetMops@CPTITypeInfoImpl@@VEAPEXJPEPED@Z
+ 0004:AFE7       ?GetContainingTypeLib@CPTITypeInfoImpl@@VEAPEXPEPEUITypeLib@@PEI
+ 0004:B1E7       ?ReleaseTypeAttr@CPTITypeInfoImpl@@VEAXPEUtagTYPEATTR@@@Z
+ 0004:B22B       ?DoReleaseDanglingTypeDesc@@ZCXPEUtagTYPEDESC@@@Z
+ 0004:B31F       ?DoReleaseFuncDesc@@ZCXPEUtagFUNCDESC@@@Z
+ 0004:B3E3       ?ReleaseFuncDesc@CPTITypeInfoImpl@@VEAXPEUtagFUNCDESC@@@Z
+ 0004:B40C       ?DoReleaseVarDesc@@ZCXPEUtagVARDESC@@@Z
+ 0004:B448       ?ReleaseVarDesc@CPTITypeInfoImpl@@VEAXPEUtagVARDESC@@@Z
+ 0004:B471       ?GetStream@CPTITypeInfoImpl@@RECPEXHKPEPEUIStream@@@Z
+ 0004:B48D       ?LrpcCall@CPTITypeInfoImpl@@RECPEXPEUIStream@@PEPEX@Z
+ 0004:B4A9       _TypedescRead
+ 0004:B767       ?TypedescWrite@@ZAPEXPEUIStream@@PEUtagTYPEDESC@@W4tagSYSKIND@@@
+ 0004:BA00       _TypedescReadOrWrite
+ 0004:BA47       ?TypeattrWrite@@ZCPEXPEUIStream@@PEUtagTYPEATTR@@W4tagSYSKIND@@@
+ 0004:BAFD       ?TypeattrRead@@ZCPEXPEUIStream@@PEUtagTYPEATTR@@W4tagSYSKIND@@@Z
+ 0004:BBCD       ?FuncdescWrite@@ZCPEXPEUIStream@@PEUtagFUNCDESC@@W4tagSYSKIND@@@
+ 0004:BCA7       ?FuncdescRead@@ZCPEXPEUIStream@@PEUtagFUNCDESC@@W4tagSYSKIND@@@Z
+ 0004:BE04       ?VardescWrite@@ZCPEXPEUIStream@@PEUtagVARDESC@@W4tagSYSKIND@@@Z
+ 0004:BF28       ?VardescRead@@ZCPEXPEUIStream@@PEUtagVARDESC@@W4tagSYSKIND@@@Z
+ 0004:C08A       ??0CStubTypeInfo@@BEC@XZ
+ 0004:C0F3       ??1CStubTypeInfo@@BEC@XZ
+ 0004:C125       ?Create@CStubTypeInfo@@TAPEXPEUIUnknown@@PEPEUIRpcStub@@@Z
+ 0004:C1C6       ?QueryInterface@CStubTypeInfo@@VEAPEXAFUGUID@@PEPEX@Z
+ 0004:C264       ?AddRef@CStubTypeInfo@@VEAKXZ
+ 0004:C297       ?Release@CStubTypeInfo@@VEAKXZ
+ 0004:C30C       ?Connect@CStubTypeInfo@@VEAPEXPEUIUnknown@@@Z
+ 0004:C378       ?Disconnect@CStubTypeInfo@@VEAXXZ
+ 0004:C408       ?Invoke@CStubTypeInfo@@VEAPEXAFUGUID@@HPEUIStream@@KPEX@Z
+ 0004:C646       ?IsIIDSupported@CStubTypeInfo@@VEAHAFUGUID@@@Z
+ 0004:C68B       ?CountRefs@CStubTypeInfo@@VEAKXZ
+ 0004:C6E7       ?GetTypeAttr@CStubTypeInfo@@RECPEXXZ
+ 0004:C8BF       ?GetTypeComp@CStubTypeInfo@@RECPEXXZ
+ 0004:C9DB       ?GetFuncDesc@CStubTypeInfo@@RECPEXXZ
+ 0004:CC00       ?GetVarDesc@CStubTypeInfo@@RECPEXXZ
+ 0004:CE4A       ?GetNames@CStubTypeInfo@@RECPEXXZ
+ 0004:D1E6       ?GetRefTypeOfImplType@CStubTypeInfo@@RECPEXXZ
+ 0004:D336       ?GetImplTypeFlags@CStubTypeInfo@@RECPEXXZ
+ 0004:D490       ?GetIDsOfNames@CStubTypeInfo@@RECPEXXZ
+ 0004:D4AC       ?GetDocumentation@CStubTypeInfo@@RECPEXXZ
+ 0004:D81D       ?GetDllEntry@CStubTypeInfo@@RECPEXXZ
+ 0004:DB8C       ?GetRefTypeInfo@CStubTypeInfo@@RECPEXXZ
+ 0004:DCF2       ?CreateInstance@CStubTypeInfo@@RECPEXXZ
+ 0004:DE47       ?GetContainingTypeLib@CStubTypeInfo@@RECPEXXZ
+ 0004:DF94       ?MarshalResult@CStubTypeInfo@@RECPEXXZ
+ 0004:DFC6       ?GetPrimaryInterface@@ZCPEXPEUITypeInfo@@PEPEU1@@Z
+ 0004:E2E4       ??8GUID@@RFCHAFU0@@Z
+ 0004:E318       ??0COleAutomationPSFactory@@REC@XZ
+ 0004:E35A       ??0IPSFactory@@REC@XZ
+ 0004:E390       ??0IUnknown@@REC@XZ
+ 0004:E3BA       ??_GCHolder@@RECPEXI@Z
+ 0004:E3F8       ??_GCProxDisp@@BECPEXI@Z
+ 0004:E436       ??0IRpcProxy@@REC@XZ
+ 0004:E46C       ??0IDispatch@@REC@XZ
+ 0004:E4A2       ?ValidateWritePtr@@ZAPEXPEXI@Z
+ 0004:E4DC       ??0IRpcStub@@REC@XZ
+ 0004:E512       ??_GCStubDisp@@BECPEXI@Z
+ 0004:E550       ?Rewind@@ZAPEXPEUIStream@@@Z
+ 0004:E590       ??_GCProxEnumVARIANT@@RECPEXI@Z
+ 0004:E5CE       ??0IEnumVARIANT@@REC@XZ
+ 0004:E604       ??1CProxEnumVARIANT@@REC@XZ
+ 0004:E62A       ??_GCStubEnumVARIANT@@BECPEXI@Z
+ 0004:E668       ??_GCProxTypeInfo@@RECPEXI@Z
+ 0004:E6A6       ??0ITypeInfo@@REC@XZ
+ 0004:E6DC       ??1CProxTypeInfo@@REC@XZ
+ 0004:E702       ??_GCStubTypeInfo@@BECPEXI@Z
+ 0005:0000       ?DoLoadTypeLib@@ZCPEXPFDPEPEUITypeLib@@@Z
+ 0005:011A       ??0CProxTypeLib@@BEC@PEUIUnknown@@@Z
+ 0005:019B       ?Create@CProxTypeLib@@TAPEUIUnknown@@PEU2@@Z
+ 0005:020B       ??0CPTLibUnkImpl@@REC@PEVCProxTypeLib@@@Z
+ 0005:0251       ?QueryInterface@CPTLibUnkImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0005:0349       ?AddRef@CPTLibUnkImpl@@VEAKXZ
+ 0005:0387       ?Release@CPTLibUnkImpl@@VEAKXZ
+ 0005:0410       ??0CPTLibProxImpl@@REC@PEVCProxTypeLib@@@Z
+ 0005:0456       ??1CPTLibProxImpl@@REC@XZ
+ 0005:04B2       ?QueryInterface@CPTLibProxImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0005:04F7       ?AddRef@CPTLibProxImpl@@VEAKXZ
+ 0005:0531       ?Release@CPTLibProxImpl@@VEAKXZ
+ 0005:056B       ?Connect@CPTLibProxImpl@@VEAPEXPEUIRpcChannel@@@Z
+ 0005:05DA       ?Disconnect@CPTLibProxImpl@@VEAXXZ
+ 0005:0641       ??0CPTLibTypeLibImpl@@REC@PEVCProxTypeLib@@@Z
+ 0005:0690       ?QueryInterface@CPTLibTypeLibImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0005:06DD       ?AddRef@CPTLibTypeLibImpl@@VEAKXZ
+ 0005:071F       ?Release@CPTLibTypeLibImpl@@VEAKXZ
+ 0005:0761       ?DoGetTypeInfoCount@CPTLibTypeLibImpl@@RECPEXPEI@Z
+ 0005:08A1       ?GetTypeInfoCount@CPTLibTypeLibImpl@@VEAIXZ
+ 0005:08FE       ?GetTypeInfo@CPTLibTypeLibImpl@@VEAPEXIPEPEUITypeInfo@@@Z
+ 0005:0AFA       ?GetTypeInfoType@CPTLibTypeLibImpl@@VEAPEXIPEW4tagTYPEKIND@@@Z
+ 0005:0D0E       ?GetTypeInfoOfGuid@CPTLibTypeLibImpl@@VEAPEXAFUGUID@@PEPEUITypeI
+ 0005:0F00       ?GetLibAttr@CPTLibTypeLibImpl@@VEAPEXPEPEUtagTLIBATTR@@@Z
+ 0005:10F4       ?GetTypeComp@CPTLibTypeLibImpl@@VEAPEXPEPEUITypeComp@@@Z
+ 0005:129A       ?GetDocumentation@CPTLibTypeLibImpl@@VEAPEXHPEPED0PEK0@Z
+ 0005:17EF       ?IsName@CPTLibTypeLibImpl@@VEAPEXPEDKPEH@Z
+ 0005:1A86       ?FindName@CPTLibTypeLibImpl@@VEAPEXPEDKPEPEUITypeInfo@@PEJPEG@Z
+ 0005:1F5D       ?ReleaseTLibAttr@CPTLibTypeLibImpl@@VEAXPEUtagTLIBATTR@@@Z
+ 0005:1F9C       ?SysKind@CPTLibTypeLibImpl@@RECPEXXZ
+ 0005:212F       ?ReadLibAttr@@ZCPEXPEUIStream@@PEUtagTLIBATTR@@@Z
+ 0005:2330       ?WriteLibAttr@@ZCPEXPEUIStream@@PEUtagTLIBATTR@@@Z
+ 0005:2536       ??0CStubTypeLib@@BEC@XZ
+ 0005:25A8       ??1CStubTypeLib@@BEC@XZ
+ 0005:25DA       ?Create@CStubTypeLib@@TAPEXPEUIUnknown@@PEPEUIRpcStub@@@Z
+ 0005:267B       ?QueryInterface@CStubTypeLib@@VEAPEXAFUGUID@@PEPEX@Z
+ 0005:2719       ?AddRef@CStubTypeLib@@VEAKXZ
+ 0005:274C       ?Release@CStubTypeLib@@VEAKXZ
+ 0005:27C1       ?Connect@CStubTypeLib@@VEAPEXPEUIUnknown@@@Z
+ 0005:282D       ?Disconnect@CStubTypeLib@@VEAXXZ
+ 0005:28BD       ?Invoke@CStubTypeLib@@VEAPEXAFUGUID@@HPEUIStream@@KPEX@Z
+ 0005:2AA8       ?IsIIDSupported@CStubTypeLib@@VEAHAFUGUID@@@Z
+ 0005:2AED       ?CountRefs@CStubTypeLib@@VEAKXZ
+ 0005:2B49       ?GetTypeInfoCount@CStubTypeLib@@RECPEXXZ
+ 0005:2BBF       ?GetTypeInfo@CStubTypeLib@@RECPEXXZ
+ 0005:2D51       ?GetTypeInfoType@CStubTypeLib@@RECPEXXZ
+ 0005:2ED4       ?GetTypeInfoOfGuid@CStubTypeLib@@RECPEXXZ
+ 0005:3062       ?GetLibAttr@CStubTypeLib@@RECPEXXZ
+ 0005:31A0       ?GetTypeComp@CStubTypeLib@@RECPEXXZ
+ 0005:32D5       ?GetDocumentation@CStubTypeLib@@RECPEXXZ
+ 0005:3763       ?IsName@CStubTypeLib@@RECPEXXZ
+ 0005:3946       ?FindName@CStubTypeLib@@RECPEXXZ
+ 0005:3DA5       ?SysKind@CStubTypeLib@@RECPEXXZ
+ 0005:3E8E       ??0CProxTypeComp@@BEC@PEUIUnknown@@@Z
+ 0005:3F0F       ?Create@CProxTypeComp@@TAPEUIUnknown@@PEU2@@Z
+ 0005:3F7F       ??0CPTCompUnkImpl@@REC@PEVCProxTypeComp@@@Z
+ 0005:3FC5       ?QueryInterface@CPTCompUnkImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0005:40BD       ?AddRef@CPTCompUnkImpl@@VEAKXZ
+ 0005:40FB       ?Release@CPTCompUnkImpl@@VEAKXZ
+ 0005:4184       ??0CPTCompProxImpl@@REC@PEVCProxTypeComp@@@Z
+ 0005:41CA       ??1CPTCompProxImpl@@REC@XZ
+ 0005:4226       ?QueryInterface@CPTCompProxImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0005:426B       ?AddRef@CPTCompProxImpl@@VEAKXZ
+ 0005:42A5       ?Release@CPTCompProxImpl@@VEAKXZ
+ 0005:42DF       ?Connect@CPTCompProxImpl@@VEAPEXPEUIRpcChannel@@@Z
+ 0005:434E       ?Disconnect@CPTCompProxImpl@@VEAXXZ
+ 0005:43B5       ??0CPTCompTypeCompImpl@@REC@PEVCProxTypeComp@@@Z
+ 0005:4404       ?QueryInterface@CPTCompTypeCompImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0005:4451       ?AddRef@CPTCompTypeCompImpl@@VEAKXZ
+ 0005:4493       ?Release@CPTCompTypeCompImpl@@VEAKXZ
+ 0005:44D5       ?Bind@CPTCompTypeCompImpl@@VEAPEXPEDKGPEPEUITypeInfo@@PEW4tagDES
+ 0005:4A50       ?BindType@CPTCompTypeCompImpl@@VEAPEXPEDKPEPEUITypeInfo@@PEPEUIT
+ 0005:4D8E       ?SysKind@CPTCompTypeCompImpl@@RECPEXXZ
+ 0005:4F22       ??0CStubTypeComp@@BEC@XZ
+ 0005:4F94       ??1CStubTypeComp@@BEC@XZ
+ 0005:4FC6       ?Create@CStubTypeComp@@TAPEXPEUIUnknown@@PEPEUIRpcStub@@@Z
+ 0005:5067       ?QueryInterface@CStubTypeComp@@VEAPEXAFUGUID@@PEPEX@Z
+ 0005:5105       ?AddRef@CStubTypeComp@@VEAKXZ
+ 0005:5138       ?Release@CStubTypeComp@@VEAKXZ
+ 0005:51AD       ?Connect@CStubTypeComp@@VEAPEXPEUIUnknown@@@Z
+ 0005:5219       ?Disconnect@CStubTypeComp@@VEAXXZ
+ 0005:52A9       ?Invoke@CStubTypeComp@@VEAPEXAFUGUID@@HPEUIStream@@KPEX@Z
+ 0005:53F6       ?IsIIDSupported@CStubTypeComp@@VEAHAFUGUID@@@Z
+ 0005:543B       ?CountRefs@CStubTypeComp@@VEAKXZ
+ 0005:5497       ?Bind@CStubTypeComp@@RECPEXXZ
+ 0005:597E       ?BindType@CStubTypeComp@@RECPEXXZ
+ 0005:5B6E       ?SysKind@CStubTypeComp@@RECPEXXZ
+ 0005:5C58       ??_GCProxTypeLib@@RECPEXI@Z
+ 0005:5C96       ??0ITypeLib@@REC@XZ
+ 0005:5CCC       ??1CProxTypeLib@@REC@XZ
+ 0005:5CF2       ??_GCStubTypeLib@@BECPEXI@Z
+ 0005:5D30       ??_GCProxTypeComp@@RECPEXI@Z
+ 0005:5D6E       ??0ITypeComp@@REC@XZ
+ 0005:5DA4       ??1CProxTypeComp@@REC@XZ
+ 0005:5DCA       ??_GCStubTypeComp@@BECPEXI@Z
+ 0006:0000       SYSALLOCSTRING
+ 0006:004E       SYSALLOCSTRINGLEN
+ 0006:016E       SYSREALLOCSTRING
+ 0006:01DA       SYSREALLOCSTRINGLEN
+ 0006:034A       SYSFREESTRING
+ 0006:03AC       SYSSTRINGLEN
+ 0006:03E4       ERRSYSALLOCSTRING
+ 0006:0451       ERRSYSALLOCSTRINGLEN
+ 0007:0000       DOINVOKEMETHOD
+ 0007:00BC       _InvokePascal
+ 0007:0217       _InvokeCdecl
+ 0007:036E       ?Create@CDispTypeInfo@@TAPEXW4tagTYPEKIND@@PEUtagINTERFACEDATA@@
+ 0007:0418       CREATEDISPTYPEINFO
+ 0007:0494       ??0CDispTypeInfo@@REC@XZ
+ 0007:04E3       ?QueryInterface@CDispTypeInfo@@VEAPEXAFUGUID@@PEPEX@Z
+ 0007:059A       ?AddRef@CDispTypeInfo@@VEAKXZ
+ 0007:05CD       ?Release@CDispTypeInfo@@VEAKXZ
+ 0007:062F       ?GetTypeAttr@CDispTypeInfo@@VEAPEXPEPEUtagTYPEATTR@@@Z
+ 0007:079A       ?GetTypeComp@CDispTypeInfo@@VEAPEXPEPEUITypeComp@@@Z
+ 0007:07BE       ?InvkindOfDispkind@@YCPEXGPEW4tagINVOKEKIND@@@Z
+ 0007:0836       ?GetFuncDesc@CDispTypeInfo@@VEAPEXIPEPEUtagFUNCDESC@@@Z
+ 0007:0A94       ?GetVarDesc@CDispTypeInfo@@VEAPEXIPEPEUtagVARDESC@@@Z
+ 0007:0AB8       ?GetNames@CDispTypeInfo@@VEAPEXJPEPEDIPEI@Z
+ 0007:0C9A       ?GetRefTypeOfImplType@CDispTypeInfo@@VEAPEXIPEK@Z
+ 0007:0CE0       ?GetImplTypeFlags@CDispTypeInfo@@VEAPEXIPEH@Z
+ 0007:0D04       ?GetIDsOfNames@CDispTypeInfo@@VEAPEXPEPEDIPEJ@Z
+ 0007:0F78       ?Invoke@CDispTypeInfo@@VEAPEXPEXJGPEUtagDISPPARAMS@@PEUtagVARIAN
+ 0007:140E       ?AllocInvokeArgs@CDispTypeInfo@@BECPEXIPEPEUtagINVOKEARGS@@@Z
+ 0007:15AE       ?GetInvokeArgs@CDispTypeInfo@@BECPEXPEUtagMETHODDATA@@GPEUtagDIS
+ 0007:1906       ?ReleaseInvokeArgs@CDispTypeInfo@@BECXPEUtagINVOKEARGS@@@Z
+ 0007:19F4       ?GetDocumentation@CDispTypeInfo@@VEAPEXJPEPED0PEK0@Z
+ 0007:1AD9       ?GetDllEntry@CDispTypeInfo@@VEAPEXJW4tagINVOKEKIND@@PEPED1PEG@Z
+ 0007:1AFD       ?GetRefTypeInfo@CDispTypeInfo@@VEAPEXKPEPEUITypeInfo@@@Z
+ 0007:1BAB       ?AddressOfMember@CDispTypeInfo@@VEAPEXJW4tagINVOKEKIND@@PEPEX@Z
+ 0007:1BCF       ?CreateInstance@CDispTypeInfo@@VEAPEXPEUIUnknown@@AFUGUID@@PEPEX
+ 0007:1BF3       ?GetMops@CDispTypeInfo@@VEAPEXJPEPED@Z
+ 0007:1C17       ?GetContainingTypeLib@CDispTypeInfo@@VEAPEXPEPEUITypeLib@@PEI@Z
+ 0007:1C3B       ?ReleaseTypeAttr@CDispTypeInfo@@VEAXPEUtagTYPEATTR@@@Z
+ 0007:1C6F       ?ReleaseFuncDesc@CDispTypeInfo@@VEAXPEUtagFUNCDESC@@@Z
+ 0007:1CBE       ?ReleaseVarDesc@CDispTypeInfo@@VEAXPEUtagVARDESC@@@Z
+ 0007:1CEF       ?PmdataOfDispid@CDispTypeInfo@@BECPEXJGPEPEUtagMETHODDATA@@@Z
+ 0007:1D90       CREATESTDDISPATCH
+ 0007:1DD0       ??0CStdDisp@@REC@XZ
+ 0007:1E51       ?Create@CStdDisp@@TAPEXPEUIUnknown@@PEXPEUITypeInfo@@PEPEU2@@Z
+ 0007:1F3E       ??0CStdDispUnkImpl@@REC@PEVCStdDisp@@@Z
+ 0007:1F84       ?QueryInterface@CStdDispUnkImpl@@VEAPEXAFUGUID@@PEPEX@Z
+ 0007:2049       ?AddRef@CStdDispUnkImpl@@VEAKXZ
+ 0007:2087       ?Release@CStdDispUnkImpl@@VEAKXZ
+ 0007:2135       ?QueryInterface@CStdDisp@@VEAPEXAFUGUID@@PEPEX@Z
+ 0007:217A       ?AddRef@CStdDisp@@VEAKXZ
+ 0007:21B4       ?Release@CStdDisp@@VEAKXZ
+ 0007:21EE       ?GetTypeInfoCount@CStdDisp@@VEAPEXPEI@Z
+ 0007:2231       ?GetTypeInfo@CStdDisp@@VEAPEXIKPEPEUITypeInfo@@@Z
+ 0007:2298       ?GetIDsOfNames@CStdDisp@@VEAPEXAFUGUID@@PEPEDIKPEJ@Z
+ 0007:22F7       ?Invoke@CStdDisp@@VEAPEXJAFUGUID@@KGPEUtagDISPPARAMS@@PEUtagVARI
+ 0007:2374       ?StrICmp@CDispTypeInfo@@RECHPEDH0H@Z
+ 0007:240A       ?PmdataOfPropGet@CDispTypeInfo@@BECPEXJPEPEUtagMETHODDATA@@@Z
+ 0007:243A       ?IsPropGet@CDispTypeInfo@@BFCHG@Z
+ 0007:245C       ?IsPropPut@CDispTypeInfo@@BFCHG@Z
+ 0007:247E       ?IsLegalInvokeFlags@CDispTypeInfo@@BFCHG@Z
+ 0008:0000       ??0CProxUniv@@REC@PEUIUnknown@@@Z
+ 0008:00C3       ??1CProxUniv@@REC@XZ
+ 0008:01AF       ?CanWeRemoteIt@@ZAPEXPEUITypeInfo@@PEGPEH@Z
+ 0008:02D8       ?Create@CProxUniv@@TAPEXPEUIUnknown@@AFUGUID@@PEPEU2@@Z
+ 0008:062B       ?CacheFuncDescs@CProxUniv@@RECPEXPEUITypeInfo@@@Z
+ 0008:08F1       ?QueryInterface@CPriv@CProxUniv@@VEAPEXAFUGUID@@PEPEX@Z
+ 0008:09CB       ?AddRef@CPriv@CProxUniv@@VEAKXZ
+ 0008:0A0F       ?Release@CPriv@CProxUniv@@VEAKXZ
+ 0008:0A95       ?Connect@CPriv@CProxUniv@@VEAPEXPEUIRpcChannel@@@Z
+ 0008:0B38       ?Disconnect@CPriv@CProxUniv@@VEAXXZ
+ 0008:0BA9       ?PSInit@CProxUniv@@RECPEXXZ
+ 0008:0E18       PROXYMETHOD
+ 0008:16B8       ??0CStubUniv@@BEC@XZ
+ 0008:1748       ??1CStubUniv@@BEC@XZ
+ 0008:177A       ?Create@CStubUniv@@TAPEXPEUIUnknown@@AFUGUID@@PEPEUIRpcStub@@@Z
+ 0008:1833       ?QueryInterface@CStubUniv@@VEAPEXAFUGUID@@PEPEX@Z
+ 0008:18D1       ?AddRef@CStubUniv@@VEAKXZ
+ 0008:1904       ?Release@CStubUniv@@VEAKXZ
+ 0008:1979       ?Connect@CStubUniv@@VEAPEXPEUIUnknown@@@Z
+ 0008:19E5       ?Disconnect@CStubUniv@@VEAXXZ
+ 0008:1A75       ?Invoke@CStubUniv@@VEAPEXAFUGUID@@HPEUIStream@@KPEX@Z
+ 0008:1CDD       ?IsIIDSupported@CStubUniv@@VEAHAFUGUID@@@Z
+ 0008:1D27       ?CountRefs@CStubUniv@@VEAKXZ
+ 0008:1D83       ?PSInit@CStubUniv@@RECPEXXZ
+ 0008:1F2C       ?DispatchMethod@CStubUniv@@RECPEXH@Z
+ 0008:2676       ?VarVtOfIface@@ZAPEXPEUITypeInfo@@PEUtagTYPEATTR@@PEGPEUGUID@@@Z
+ 0008:2713       ?VarVtOfUDT@@ZAPEXPEUITypeInfo@@PEUtagTYPEDESC@@PEGPEUGUID@@@Z
+ 0008:298F       ?VarVtOfTypeDesc@@ZAPEXPEUITypeInfo@@PEUtagTYPEDESC@@PEGPEUGUID@
+ 0008:2C23       ?SzLibIdOfIID@@ZAPEXAFUGUID@@PEDJ@Z
+ 0008:2CB2       ?FIsLCID@@ZAHPED@Z
+ 0008:2D33       ?GetTypeInfoOfIID@@ZAPEXAFUGUID@@PEPEUITypeInfo@@@Z
+ 0008:31B0       ?UnivQueryInterface@@ZAPEXPEVCProxUniv@@AFUGUID@@PEPEX@Z
+ 0008:31F5       ?UnivAddRef@@ZAKPEVCProxUniv@@@Z
+ 0008:322F       ?UnivRelease@@ZAKPEVCProxUniv@@@Z
+ 0008:3269       ?UnivGetTypeInfoCount@@ZAPEXPEVCProxUniv@@PEI@Z
+ 0008:32A7       ?UnivGetTypeInfo@@ZAPEXPEVCProxUniv@@IKPEPEUITypeInfo@@@Z
+ 0008:32EE       ?UnivGetIDsOfNames@@ZAPEXPEVCProxUniv@@AFUGUID@@PEPEDIKPEJ@Z
+ 0008:3341       ?UnivInvoke@@ZAPEXPEVCProxUniv@@JAFUGUID@@KGPEUtagDISPPARAMS@@PE
+ 0008:33A6       ?UM3@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:33DC       ?UM4@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3412       ?UM5@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3448       ?UM6@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:347E       ?UM7@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:34B4       ?UM8@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:34EA       ?UM9@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3520       ?UM10@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3556       ?UM11@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:358C       ?UM12@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:35C2       ?UM13@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:35F8       ?UM14@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:362E       ?UM15@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3664       ?UM16@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:369A       ?UM17@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:36D0       ?UM18@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3706       ?UM19@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:373C       ?UM20@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3772       ?UM21@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:37A8       ?UM22@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:37DE       ?UM23@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3814       ?UM24@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:384A       ?UM25@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3880       ?UM26@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:38B6       ?UM27@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:38EC       ?UM28@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3922       ?UM29@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3958       ?UM30@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:398E       ?UM31@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:39C4       ?UM32@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:39FA       ?UM33@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3A30       ?UM34@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3A66       ?UM35@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3A9C       ?UM36@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3AD2       ?UM37@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3B08       ?UM38@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3B3E       ?UM39@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3B74       ?UM40@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3BAA       ?UM41@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3BE0       ?UM42@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3C16       ?UM43@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3C4C       ?UM44@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3C82       ?UM45@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3CB8       ?UM46@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3CEE       ?UM47@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3D24       ?UM48@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3D5A       ?UM49@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3D90       ?UM50@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3DC6       ?UM51@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3DFC       ?UM52@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3E32       ?UM53@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3E68       ?UM54@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3E9E       ?UM55@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3ED4       ?UM56@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3F0A       ?UM57@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3F40       ?UM58@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3F76       ?UM59@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3FAC       ?UM60@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:3FE2       ?UM61@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4018       ?UM62@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:404E       ?UM63@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4084       ?UM64@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:40BA       ?UM65@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:40F0       ?UM66@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4126       ?UM67@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:415C       ?UM68@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4192       ?UM69@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:41C8       ?UM70@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:41FE       ?UM71@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4234       ?UM72@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:426A       ?UM73@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:42A0       ?UM74@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:42D6       ?UM75@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:430C       ?UM76@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4342       ?UM77@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4378       ?UM78@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:43AE       ?UM79@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:43E4       ?UM80@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:441A       ?UM81@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4450       ?UM82@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4486       ?UM83@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:44BC       ?UM84@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:44F2       ?UM85@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4528       ?UM86@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:455E       ?UM87@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4594       ?UM88@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:45CA       ?UM89@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4600       ?UM90@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4636       ?UM91@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:466C       ?UM92@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:46A2       ?UM93@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:46D8       ?UM94@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:470E       ?UM95@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4744       ?UM96@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:477A       ?UM97@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:47B0       ?UM98@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:47E6       ?UM99@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:481C       ?UM100@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4852       ?UM101@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4888       ?UM102@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:48BE       ?UM103@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:48F4       ?UM104@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:492A       ?UM105@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4960       ?UM106@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4996       ?UM107@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:49CC       ?UM108@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4A02       ?UM109@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4A38       ?UM110@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4A6E       ?UM111@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4AA4       ?UM112@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4ADA       ?UM113@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4B10       ?UM114@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4B46       ?UM115@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4B7C       ?UM116@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4BB2       ?UM117@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4BE8       ?UM118@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4C1E       ?UM119@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4C54       ?UM120@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4C8A       ?UM121@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4CC0       ?UM122@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4CF6       ?UM123@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4D2C       ?UM124@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4D62       ?UM125@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4D98       ?UM126@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4DCE       ?UM127@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4E04       ?UM128@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4E3B       ?UM129@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4E72       ?UM130@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4EA9       ?UM131@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4EE0       ?UM132@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4F17       ?UM133@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4F4E       ?UM134@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4F85       ?UM135@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4FBC       ?UM136@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:4FF3       ?UM137@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:502A       ?UM138@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5061       ?UM139@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5098       ?UM140@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:50CF       ?UM141@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5106       ?UM142@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:513D       ?UM143@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5174       ?UM144@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:51AB       ?UM145@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:51E2       ?UM146@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5219       ?UM147@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5250       ?UM148@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5287       ?UM149@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:52BE       ?UM150@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:52F5       ?UM151@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:532C       ?UM152@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5363       ?UM153@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:539A       ?UM154@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:53D1       ?UM155@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5408       ?UM156@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:543F       ?UM157@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5476       ?UM158@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:54AD       ?UM159@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:54E4       ?UM160@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:551B       ?UM161@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5552       ?UM162@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5589       ?UM163@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:55C0       ?UM164@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:55F7       ?UM165@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:562E       ?UM166@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5665       ?UM167@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:569C       ?UM168@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:56D3       ?UM169@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:570A       ?UM170@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5741       ?UM171@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5778       ?UM172@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:57AF       ?UM173@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:57E6       ?UM174@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:581D       ?UM175@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5854       ?UM176@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:588B       ?UM177@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:58C2       ?UM178@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:58F9       ?UM179@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5930       ?UM180@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5967       ?UM181@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:599E       ?UM182@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:59D5       ?UM183@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5A0C       ?UM184@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5A43       ?UM185@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5A7A       ?UM186@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5AB1       ?UM187@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5AE8       ?UM188@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5B1F       ?UM189@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5B56       ?UM190@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5B8D       ?UM191@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5BC4       ?UM192@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5BFB       ?UM193@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5C32       ?UM194@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5C69       ?UM195@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5CA0       ?UM196@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5CD7       ?UM197@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5D0E       ?UM198@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5D45       ?UM199@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5D7C       ?UM200@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5DB3       ?UM201@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5DEA       ?UM202@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5E21       ?UM203@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5E58       ?UM204@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5E8F       ?UM205@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5EC6       ?UM206@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5EFD       ?UM207@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5F34       ?UM208@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5F6B       ?UM209@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5FA2       ?UM210@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:5FD9       ?UM211@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6010       ?UM212@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6047       ?UM213@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:607E       ?UM214@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:60B5       ?UM215@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:60EC       ?UM216@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6123       ?UM217@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:615A       ?UM218@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6191       ?UM219@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:61C8       ?UM220@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:61FF       ?UM221@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6236       ?UM222@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:626D       ?UM223@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:62A4       ?UM224@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:62DB       ?UM225@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6312       ?UM226@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6349       ?UM227@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6380       ?UM228@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:63B7       ?UM229@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:63EE       ?UM230@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6425       ?UM231@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:645C       ?UM232@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6493       ?UM233@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:64CA       ?UM234@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6501       ?UM235@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6538       ?UM236@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:656F       ?UM237@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:65A6       ?UM238@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:65DD       ?UM239@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6614       ?UM240@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:664B       ?UM241@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6682       ?UM242@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:66B9       ?UM243@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:66F0       ?UM244@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6727       ?UM245@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:675E       ?UM246@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6795       ?UM247@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:67CC       ?UM248@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6803       ?UM249@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:683A       ?UM250@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6871       ?UM251@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:68A8       ?UM252@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:68DF       ?UM253@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6916       ?UM254@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:694D       ?UM255@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6984       ?UM256@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:69BB       ?UM257@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:69F2       ?UM258@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6A29       ?UM259@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6A60       ?UM260@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6A97       ?UM261@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6ACE       ?UM262@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6B05       ?UM263@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6B3C       ?UM264@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6B73       ?UM265@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6BAA       ?UM266@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6BE1       ?UM267@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6C18       ?UM268@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6C4F       ?UM269@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6C86       ?UM270@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6CBD       ?UM271@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6CF4       ?UM272@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6D2B       ?UM273@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6D62       ?UM274@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6D99       ?UM275@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6DD0       ?UM276@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6E07       ?UM277@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6E3E       ?UM278@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6E75       ?UM279@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6EAC       ?UM280@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6EE3       ?UM281@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6F1A       ?UM282@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6F51       ?UM283@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6F88       ?UM284@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6FBF       ?UM285@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:6FF6       ?UM286@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:702D       ?UM287@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7064       ?UM288@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:709B       ?UM289@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:70D2       ?UM290@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7109       ?UM291@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7140       ?UM292@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7177       ?UM293@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:71AE       ?UM294@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:71E5       ?UM295@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:721C       ?UM296@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7253       ?UM297@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:728A       ?UM298@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:72C1       ?UM299@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:72F8       ?UM300@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:732F       ?UM301@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7366       ?UM302@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:739D       ?UM303@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:73D4       ?UM304@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:740B       ?UM305@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7442       ?UM306@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7479       ?UM307@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:74B0       ?UM308@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:74E7       ?UM309@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:751E       ?UM310@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7555       ?UM311@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:758C       ?UM312@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:75C3       ?UM313@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:75FA       ?UM314@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7631       ?UM315@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7668       ?UM316@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:769F       ?UM317@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:76D6       ?UM318@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:770D       ?UM319@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7744       ?UM320@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:777B       ?UM321@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:77B2       ?UM322@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:77E9       ?UM323@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7820       ?UM324@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7857       ?UM325@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:788E       ?UM326@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:78C5       ?UM327@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:78FC       ?UM328@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7933       ?UM329@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:796A       ?UM330@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:79A1       ?UM331@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:79D8       ?UM332@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7A0F       ?UM333@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7A46       ?UM334@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7A7D       ?UM335@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7AB4       ?UM336@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7AEB       ?UM337@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7B22       ?UM338@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7B59       ?UM339@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7B90       ?UM340@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7BC7       ?UM341@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7BFE       ?UM342@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7C35       ?UM343@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7C6C       ?UM344@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7CA3       ?UM345@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7CDA       ?UM346@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7D11       ?UM347@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7D48       ?UM348@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7D7F       ?UM349@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7DB6       ?UM350@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7DED       ?UM351@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7E24       ?UM352@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7E5B       ?UM353@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7E92       ?UM354@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7EC9       ?UM355@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7F00       ?UM356@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7F37       ?UM357@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7F6E       ?UM358@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7FA5       ?UM359@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:7FDC       ?UM360@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8013       ?UM361@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:804A       ?UM362@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8081       ?UM363@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:80B8       ?UM364@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:80EF       ?UM365@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8126       ?UM366@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:815D       ?UM367@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8194       ?UM368@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:81CB       ?UM369@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8202       ?UM370@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8239       ?UM371@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8270       ?UM372@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:82A7       ?UM373@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:82DE       ?UM374@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8315       ?UM375@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:834C       ?UM376@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8383       ?UM377@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:83BA       ?UM378@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:83F1       ?UM379@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8428       ?UM380@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:845F       ?UM381@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8496       ?UM382@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:84CD       ?UM383@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8504       ?UM384@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:853B       ?UM385@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8572       ?UM386@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:85A9       ?UM387@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:85E0       ?UM388@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8617       ?UM389@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:864E       ?UM390@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8685       ?UM391@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:86BC       ?UM392@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:86F3       ?UM393@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:872A       ?UM394@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8761       ?UM395@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8798       ?UM396@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:87CF       ?UM397@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8806       ?UM398@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:883D       ?UM399@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8874       ?UM400@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:88AB       ?UM401@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:88E2       ?UM402@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8919       ?UM403@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8950       ?UM404@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8987       ?UM405@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:89BE       ?UM406@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:89F5       ?UM407@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8A2C       ?UM408@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8A63       ?UM409@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8A9A       ?UM410@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8AD1       ?UM411@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8B08       ?UM412@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8B3F       ?UM413@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8B76       ?UM414@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8BAD       ?UM415@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8BE4       ?UM416@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8C1B       ?UM417@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8C52       ?UM418@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8C89       ?UM419@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8CC0       ?UM420@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8CF7       ?UM421@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8D2E       ?UM422@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8D65       ?UM423@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8D9C       ?UM424@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8DD3       ?UM425@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8E0A       ?UM426@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8E41       ?UM427@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8E78       ?UM428@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8EAF       ?UM429@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8EE6       ?UM430@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8F1D       ?UM431@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8F54       ?UM432@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8F8B       ?UM433@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8FC2       ?UM434@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:8FF9       ?UM435@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9030       ?UM436@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9067       ?UM437@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:909E       ?UM438@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:90D5       ?UM439@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:910C       ?UM440@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9143       ?UM441@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:917A       ?UM442@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:91B1       ?UM443@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:91E8       ?UM444@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:921F       ?UM445@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9256       ?UM446@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:928D       ?UM447@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:92C4       ?UM448@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:92FB       ?UM449@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9332       ?UM450@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9369       ?UM451@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:93A0       ?UM452@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:93D7       ?UM453@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:940E       ?UM454@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9445       ?UM455@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:947C       ?UM456@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:94B3       ?UM457@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:94EA       ?UM458@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9521       ?UM459@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9558       ?UM460@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:958F       ?UM461@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:95C6       ?UM462@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:95FD       ?UM463@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9634       ?UM464@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:966B       ?UM465@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:96A2       ?UM466@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:96D9       ?UM467@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9710       ?UM468@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9747       ?UM469@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:977E       ?UM470@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:97B5       ?UM471@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:97EC       ?UM472@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9823       ?UM473@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:985A       ?UM474@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9891       ?UM475@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:98C8       ?UM476@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:98FF       ?UM477@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9936       ?UM478@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:996D       ?UM479@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:99A4       ?UM480@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:99DB       ?UM481@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9A12       ?UM482@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9A49       ?UM483@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9A80       ?UM484@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9AB7       ?UM485@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9AEE       ?UM486@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9B25       ?UM487@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9B5C       ?UM488@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9B93       ?UM489@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9BCA       ?UM490@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9C01       ?UM491@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9C38       ?UM492@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9C6F       ?UM493@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9CA6       ?UM494@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9CDD       ?UM495@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9D14       ?UM496@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9D4B       ?UM497@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9D82       ?UM498@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9DB9       ?UM499@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9DF0       ?UM500@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9E27       ?UM501@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9E5E       ?UM502@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9E95       ?UM503@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9ECC       ?UM504@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9F03       ?UM505@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9F3A       ?UM506@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9F71       ?UM507@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9FA8       ?UM508@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:9FDF       ?UM509@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:A016       ?UM510@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:A04D       ?UM511@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:A084       ?UM512@@ZAPEXPEVCProxUniv@@ZZ
+ 0008:A0BC       ??0CPriv@CProxUniv@@REC@XZ
+ 0008:A0F2       ??_GCProxUniv@@RECPEXI@Z
+ 0008:A130       ??_GCStubUniv@@BECPEXI@Z
+ 0008:A16E       ?PProx@CPriv@CProxUniv@@RECPEV2@XZ
+ 0009:0000       ?FIsBadReadPtr@@ZCHPFXI@Z
+ 0009:0024       ?FIsBadWritePtr@@ZCHPEXI@Z
+ 0009:0048       ?FIsBadCodePtr@@ZCHPEX@Z
+ 0009:0069       ?FIsBadStringPtr@@ZCHPEDI@Z
+ 0009:008D       ?FIsBadInterface@@ZCHPEXI@Z
+ 0009:0139       ?IsBadDispParams@@ZCHPEUtagDISPPARAMS@@@Z
+ 0009:01E0       ?IsBadReadSA@@ZCHPEUtagSAFEARRAY@@@Z
+ 0009:023C       ?IsBadWriteSA@@ZCHPEUtagSAFEARRAY@@@Z
+ 0009:0298       ?AssertDlgProc@@ZCHIGGJ@Z
+ 0009:033A       DISPASSERT
+ 000A:0000       WEP
+ 000A:003C       __STUBWEP
+ 000B:0004       rsrvptrs
+ 000B:0090       _g_hinstDLL
+ 000B:015C       ?g_cbVtSizes@@3QEEE
+ 000B:016E       ?g_cbFtype@@3QEEE
+ 000B:03C6       ?g_rgpfnUnk@@3QEPEXE
+ 000B:0BCA       ?g_rgpfnDisp@@3QEPEXE
+ 000B:13CE       ?g_cfnUnk@@3JE
+ 000B:13D2       ?g_cfnDisp@@3JE
+ 000B:1406       _g_S_OK
+ 000B:140A       _g_E_INVALIDARG
+ 000B:1524       _mpmmdd
+ 000B:166E       _g_dpsNext
+ 000B:1760       _g_fDay31th
+ 000B:177A       _g_dblMaxPosCy
+ 000B:1782       _g_dblMaxNegCy
+ 000B:1822       ?pstrInf@@3QEDE
+ 000B:1826       ?pstrInd@@3QEDE
+ 000B:182A       ?pstrNan@@3QEDE
+ 000B:189E       _g_rgfdescIdldesc
+ 000B:18CE       _g_rgfdescElemdesc
+ 000B:18FE       _g_rgfdescTypeattr
+ 000B:19FE       _g_rgfdescFuncdesc
+ 000B:1A9E       _g_rgfdescVardesc
+ 000B:1AEE       _STKHQQ
+ 000B:1AF0       __hModule
+ 000B:1AF2       __wDataSeg
+ 000B:1AF4       __wHeapSize
+ 000B:1AF6       __lpszCmdLine
+ 000B:1AFA       __dllinit
+ 000B:1AFB       _aseglo
+ 000B:1AFD       _aseghi
+ 000B:1AFF       ___aDBswpflg
+ 000B:1B01       ___aDBrterr
+ 000B:1B04       __aintdiv
+ 000B:1B08       __fac
+ 000B:1B12       _errno
+ 000B:1B14       __umaskval
+ 000B:1B16       __winminor
+ 000B:1B16       __winver
+ 000B:1B17       __winmajor
+ 000B:1B18       __osminor
+ 000B:1B18       __osver
+ 000B:1B19       __osmajor
+ 000B:1B1A       __osversion
+ 000B:1B1C       __osmode
+ 000B:1B1D       __cpumode
+ 000B:1B1E       __oserr
+ 000B:1B1E       __doserrno
+ 000B:1B20       __nfile
+ 000B:1B22       __osfile
+ 000B:1B36       ___argc
+ 000B:1B38       ___argv
+ 000B:1B3C       __environ
+ 000B:1B40       __pgmptr
+ 000B:1B45       __child
+ 000B:1B47       __exitflag
+ 000B:1B48       __aaltstkovr
+ 000B:1B4C       __ctype_
+ 000B:1B4C       __ctype
+ 000B:1C62       __adbgmsg
+ 000B:1CC8       __cfltcvt_tab
+ 000B:1CE4       __sigintseg
+ 000B:1CE6       __sigintoff
+ 000B:1CE8       __asizeC
+ 000B:1CE9       __asizeD
+ 000B:1D1C       __HUGE
+ 000B:1D24       __matherr_flag
+ 000B:1D26       __lastiob
+ 000B:1D7C       __amblksiz
+ 000B:1D7E       __cflush
+ 000B:1D94       __lseekchk
+ 000B:1D96       __pnhFarHeap
+ 000B:1D9A       __fheap
+ 000B:1DA8       ?ll0@?1??Rewind@@ZAPEXPEUIStream@@@Z@4U_LARGE_INTEGER@@B
+ 000B:1DB2       __fpinit
+ 000B:1DC2       __iob
+ 000B:1EB2       __iob2
+ 000B:240C       _edata
+ 000B:240C       __edata
+ 000B:240C       ?g_szLoc@@3PEDE
+ 000B:2410       ?g_szMsg@@3PEDE
+ 000B:2414       _g_fbstpImplemented
+ 000B:2416       _pinfoCache
+ 000B:2424       _uProcessID
+ 000B:2450       _g_diCache
+ 000B:2522       __mbac
+ 000B:252A       __end
+ 000B:252A       _end
+ 0000:4000  Abs  FJARQQ
+ 0000:5C32  Abs  FIDRQQ
+ 0000:8000  Abs  FJSRQQ
+ 0000:A23D  Abs  FIWRQQ
+ 0000:C000  Abs  FJCRQQ
+ 0000:FE32  Abs  FIARQQ
+
+Program entry point at 0001:1e98

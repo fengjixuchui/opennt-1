@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cruntime.obj \
+    $(_OBJ_DIR)\alpha\psmem.obj \
+    $(_OBJ_DIR)\alpha\ppd.obj \
+    $(_OBJ_DIR)\alpha\ppdobj.obj \
+    $(_OBJ_DIR)\alpha\ppdchar.obj \
+    $(_OBJ_DIR)\alpha\ppdfile.obj \
+    $(_OBJ_DIR)\alpha\ppdkwd.obj \
+    $(_OBJ_DIR)\alpha\ppdparse.obj \
+    $(_OBJ_DIR)\alpha\pfmtontm.obj \
+    $(_OBJ_DIR)\alpha\devmode.obj \
+    $(_OBJ_DIR)\alpha\forms.obj \
+    $(_OBJ_DIR)\alpha\regdata.obj \
+    $(_OBJ_DIR)\alpha\prnlib.obj \
+    $(_OBJ_DIR)\alpha\umfuncs.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\cruntime.obj \
+    $(_OBJ_DIR)\mips\psmem.obj \
+    $(_OBJ_DIR)\mips\ppd.obj \
+    $(_OBJ_DIR)\mips\ppdobj.obj \
+    $(_OBJ_DIR)\mips\ppdchar.obj \
+    $(_OBJ_DIR)\mips\ppdfile.obj \
+    $(_OBJ_DIR)\mips\ppdkwd.obj \
+    $(_OBJ_DIR)\mips\ppdparse.obj \
+    $(_OBJ_DIR)\mips\pfmtontm.obj \
+    $(_OBJ_DIR)\mips\devmode.obj \
+    $(_OBJ_DIR)\mips\forms.obj \
+    $(_OBJ_DIR)\mips\regdata.obj \
+    $(_OBJ_DIR)\mips\prnlib.obj \
+    $(_OBJ_DIR)\mips\umfuncs.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cruntime.obj \
+    $(_OBJ_DIR)\i386\psmem.obj \
+    $(_OBJ_DIR)\i386\ppd.obj \
+    $(_OBJ_DIR)\i386\ppdobj.obj \
+    $(_OBJ_DIR)\i386\ppdchar.obj \
+    $(_OBJ_DIR)\i386\ppdfile.obj \
+    $(_OBJ_DIR)\i386\ppdkwd.obj \
+    $(_OBJ_DIR)\i386\ppdparse.obj \
+    $(_OBJ_DIR)\i386\pfmtontm.obj \
+    $(_OBJ_DIR)\i386\devmode.obj \
+    $(_OBJ_DIR)\i386\forms.obj \
+    $(_OBJ_DIR)\i386\regdata.obj \
+    $(_OBJ_DIR)\i386\prnlib.obj \
+    $(_OBJ_DIR)\i386\umfuncs.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\cruntime.obj \
+    $(_OBJ_DIR)\ppc\psmem.obj \
+    $(_OBJ_DIR)\ppc\ppd.obj \
+    $(_OBJ_DIR)\ppc\ppdobj.obj \
+    $(_OBJ_DIR)\ppc\ppdchar.obj \
+    $(_OBJ_DIR)\ppc\ppdfile.obj \
+    $(_OBJ_DIR)\ppc\ppdkwd.obj \
+    $(_OBJ_DIR)\ppc\ppdparse.obj \
+    $(_OBJ_DIR)\ppc\pfmtontm.obj \
+    $(_OBJ_DIR)\ppc\devmode.obj \
+    $(_OBJ_DIR)\ppc\forms.obj \
+    $(_OBJ_DIR)\ppc\regdata.obj \
+    $(_OBJ_DIR)\ppc\prnlib.obj \
+    $(_OBJ_DIR)\ppc\umfuncs.obj
+
+PASS0_PPC_OBJECTS=
+

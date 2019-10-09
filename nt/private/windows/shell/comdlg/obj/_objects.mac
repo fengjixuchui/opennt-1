@@ -1,0 +1,64 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\comdlg32.res \
+    $(_OBJ_DIR)\alpha\dlgs.obj \
+    $(_OBJ_DIR)\alpha\data.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\fileopen.obj \
+    $(_OBJ_DIR)\alpha\parse.obj \
+    $(_OBJ_DIR)\alpha\color.obj \
+    $(_OBJ_DIR)\alpha\color2.obj \
+    $(_OBJ_DIR)\alpha\find.obj \
+    $(_OBJ_DIR)\alpha\font.obj \
+    $(_OBJ_DIR)\alpha\prnsetup.obj \
+    $(_OBJ_DIR)\alpha\filenew.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\comdlg32.res \
+    $(_OBJ_DIR)\mips\dlgs.obj \
+    $(_OBJ_DIR)\mips\data.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\fileopen.obj \
+    $(_OBJ_DIR)\mips\parse.obj \
+    $(_OBJ_DIR)\mips\color.obj \
+    $(_OBJ_DIR)\mips\color2.obj \
+    $(_OBJ_DIR)\mips\find.obj \
+    $(_OBJ_DIR)\mips\font.obj \
+    $(_OBJ_DIR)\mips\prnsetup.obj \
+    $(_OBJ_DIR)\mips\filenew.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\comdlg32.res \
+    $(_OBJ_DIR)\i386\dlgs.obj \
+    $(_OBJ_DIR)\i386\data.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\fileopen.obj \
+    $(_OBJ_DIR)\i386\parse.obj \
+    $(_OBJ_DIR)\i386\color.obj \
+    $(_OBJ_DIR)\i386\color2.obj \
+    $(_OBJ_DIR)\i386\find.obj \
+    $(_OBJ_DIR)\i386\font.obj \
+    $(_OBJ_DIR)\i386\prnsetup.obj \
+    $(_OBJ_DIR)\i386\filenew.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\comdlg32.res \
+    $(_OBJ_DIR)\ppc\dlgs.obj \
+    $(_OBJ_DIR)\ppc\data.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\fileopen.obj \
+    $(_OBJ_DIR)\ppc\parse.obj \
+    $(_OBJ_DIR)\ppc\color.obj \
+    $(_OBJ_DIR)\ppc\color2.obj \
+    $(_OBJ_DIR)\ppc\find.obj \
+    $(_OBJ_DIR)\ppc\font.obj \
+    $(_OBJ_DIR)\ppc\prnsetup.obj \
+    $(_OBJ_DIR)\ppc\filenew.obj
+
+PASS0_PPC_OBJECTS=
+

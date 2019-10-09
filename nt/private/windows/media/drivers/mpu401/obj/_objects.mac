@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mpu401.res \
+    $(_OBJ_DIR)\alpha\initc.obj \
+    $(_OBJ_DIR)\alpha\drvproc.obj \
+    $(_OBJ_DIR)\alpha\config.obj \
+    $(_OBJ_DIR)\alpha\registry.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mpu401.res \
+    $(_OBJ_DIR)\mips\initc.obj \
+    $(_OBJ_DIR)\mips\drvproc.obj \
+    $(_OBJ_DIR)\mips\config.obj \
+    $(_OBJ_DIR)\mips\registry.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mpu401.res \
+    $(_OBJ_DIR)\i386\initc.obj \
+    $(_OBJ_DIR)\i386\drvproc.obj \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\registry.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mpu401.res \
+    $(_OBJ_DIR)\ppc\initc.obj \
+    $(_OBJ_DIR)\ppc\drvproc.obj \
+    $(_OBJ_DIR)\ppc\config.obj \
+    $(_OBJ_DIR)\ppc\registry.obj
+
+PASS0_PPC_OBJECTS=
+

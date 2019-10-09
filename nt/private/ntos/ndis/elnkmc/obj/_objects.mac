@@ -1,0 +1,56 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\elnkmc.res \
+    $(_OBJ_DIR)\alpha\elnk.obj \
+    $(_OBJ_DIR)\alpha\reset.obj \
+    $(_OBJ_DIR)\alpha\request.obj \
+    $(_OBJ_DIR)\alpha\send.obj \
+    $(_OBJ_DIR)\alpha\packet.obj \
+    $(_OBJ_DIR)\alpha\transfer.obj \
+    $(_OBJ_DIR)\alpha\loopback.obj \
+    $(_OBJ_DIR)\alpha\command.obj \
+    $(_OBJ_DIR)\alpha\interrup.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\elnkmc.res \
+    $(_OBJ_DIR)\mips\elnk.obj \
+    $(_OBJ_DIR)\mips\reset.obj \
+    $(_OBJ_DIR)\mips\request.obj \
+    $(_OBJ_DIR)\mips\send.obj \
+    $(_OBJ_DIR)\mips\packet.obj \
+    $(_OBJ_DIR)\mips\transfer.obj \
+    $(_OBJ_DIR)\mips\loopback.obj \
+    $(_OBJ_DIR)\mips\command.obj \
+    $(_OBJ_DIR)\mips\interrup.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\elnkmc.res \
+    $(_OBJ_DIR)\i386\elnk.obj \
+    $(_OBJ_DIR)\i386\reset.obj \
+    $(_OBJ_DIR)\i386\request.obj \
+    $(_OBJ_DIR)\i386\send.obj \
+    $(_OBJ_DIR)\i386\packet.obj \
+    $(_OBJ_DIR)\i386\transfer.obj \
+    $(_OBJ_DIR)\i386\loopback.obj \
+    $(_OBJ_DIR)\i386\command.obj \
+    $(_OBJ_DIR)\i386\interrup.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\elnkmc.res \
+    $(_OBJ_DIR)\ppc\elnk.obj \
+    $(_OBJ_DIR)\ppc\reset.obj \
+    $(_OBJ_DIR)\ppc\request.obj \
+    $(_OBJ_DIR)\ppc\send.obj \
+    $(_OBJ_DIR)\ppc\packet.obj \
+    $(_OBJ_DIR)\ppc\transfer.obj \
+    $(_OBJ_DIR)\ppc\loopback.obj \
+    $(_OBJ_DIR)\ppc\command.obj \
+    $(_OBJ_DIR)\ppc\interrup.obj
+
+PASS0_PPC_OBJECTS=
+

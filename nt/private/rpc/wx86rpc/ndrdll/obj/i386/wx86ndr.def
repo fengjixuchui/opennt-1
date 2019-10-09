@@ -1,0 +1,466 @@
+
+;
+; In order for the Wx86 rpcrt4 thunks to work properly it is important to 
+; put each new export name within an appropriate #ifdef #endif pair.
+; For example, a new export from the runtime should be placed under EXPORT_RT
+; while a new Ndr export that should be emulated be placed under 1
+;
+
+
+
+
+
+LIBRARY WXNDRDLL
+DESCRIPTION 'WXNDRDLL'
+
+
+
+
+
+
+
+EXPORTS
+
+    CreateProxyFromTypeInfo    PRIVATE
+    CreateStubFromTypeInfo     PRIVATE
+    CStdStubBuffer_AddRef
+    CStdStubBuffer_Connect
+    CStdStubBuffer_CountRefs
+    CStdStubBuffer_DebugServerQueryInterface
+    CStdStubBuffer_DebugServerRelease
+    CStdStubBuffer_Disconnect
+    CStdStubBuffer_Invoke
+    CStdStubBuffer_IsIIDSupported
+    CStdStubBuffer_QueryInterface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    MesBufferHandleReset
+    MesDecodeBufferHandleCreate
+    MesDecodeIncrementalHandleCreate
+    MesEncodeDynBufferHandleCreate
+    MesEncodeFixedBufferHandleCreate
+    MesEncodeIncrementalHandleCreate
+    MesHandleFree
+    MesIncrementalHandleReset
+    MesInqProcEncodingId
+
+
+
+
+
+
+
+
+
+
+    NdrAllocate
+    NdrByteCountPointerBufferSize
+    NdrByteCountPointerFree
+    NdrByteCountPointerMarshall
+    NdrByteCountPointerUnmarshall
+    NdrClearOutParameters
+    NdrClientCall
+    NdrClientCall2
+    NdrClientContextMarshall
+    NdrClientContextUnmarshall
+    NdrClientInitialize
+    NdrClientInitializeNew
+    NdrComplexArrayBufferSize
+    NdrComplexArrayFree
+    NdrComplexArrayMarshall
+    NdrComplexArrayMemorySize
+    NdrComplexArrayUnmarshall
+    NdrComplexStructBufferSize
+    NdrComplexStructFree
+    NdrComplexStructMarshall
+    NdrComplexStructMemorySize
+    NdrComplexStructUnmarshall
+    NdrConformantArrayBufferSize
+    NdrConformantArrayFree
+    NdrConformantArrayMarshall
+    NdrConformantArrayMemorySize
+    NdrConformantArrayUnmarshall
+    NdrConformantStringBufferSize
+    NdrConformantStringMarshall
+    NdrConformantStringMemorySize
+    NdrConformantStringUnmarshall
+    NdrConformantStructBufferSize
+    NdrConformantStructFree
+    NdrConformantStructMarshall
+    NdrConformantStructMemorySize
+    NdrConformantStructUnmarshall
+    NdrConformantVaryingArrayBufferSize
+    NdrConformantVaryingArrayFree
+    NdrConformantVaryingArrayMarshall
+    NdrConformantVaryingArrayMemorySize
+    NdrConformantVaryingArrayUnmarshall
+    NdrConformantVaryingStructBufferSize
+    NdrConformantVaryingStructFree
+    NdrConformantVaryingStructMarshall
+    NdrConformantVaryingStructMemorySize
+    NdrConformantVaryingStructUnmarshall
+    NdrContextHandleSize
+    NdrConvert
+    NdrConvert2
+    NdrCStdStubBuffer_Release
+    NdrCStdStubBuffer2_Release
+    NdrDllCanUnloadNow
+    NdrDllGetClassObject
+    NdrDllRegisterProxy
+    NdrDllUnregisterProxy
+    NdrEncapsulatedUnionBufferSize
+    NdrEncapsulatedUnionFree
+    NdrEncapsulatedUnionMarshall
+    NdrEncapsulatedUnionMemorySize
+    NdrEncapsulatedUnionUnmarshall
+    NdrFixedArrayBufferSize
+    NdrFixedArrayFree
+    NdrFixedArrayMarshall
+    NdrFixedArrayMemorySize
+    NdrFixedArrayUnmarshall
+    NdrFreeBuffer
+    NdrFullPointerFree
+    NdrFullPointerInsertRefId
+    NdrFullPointerQueryPointer
+    NdrFullPointerQueryRefId
+    NdrFullPointerXlatFree
+    NdrFullPointerXlatInit
+    NdrGetBuffer
+    NdrGetPipeBuffer
+    NdrGetPartialBuffer
+    NdrHardStructBufferSize
+    NdrHardStructFree
+    NdrHardStructMarshall
+    NdrHardStructMemorySize
+    NdrHardStructUnmarshall
+    NdrInterfacePointerBufferSize
+    NdrInterfacePointerFree
+    NdrInterfacePointerMarshall
+    NdrInterfacePointerMemorySize
+    NdrInterfacePointerUnmarshall
+    NdrIsAppDoneWithPipes
+    NdrMapCommAndFaultStatus
+    NdrMarkNextActivePipe
+    NdrMesProcEncodeDecode
+    NdrMesSimpleTypeAlignSize
+    NdrMesSimpleTypeDecode
+    NdrMesSimpleTypeEncode
+    NdrMesTypeAlignSize
+    NdrMesTypeDecode
+    NdrMesTypeEncode
+    NdrNonConformantStringBufferSize
+    NdrNonConformantStringMarshall
+    NdrNonConformantStringMemorySize
+    NdrNonConformantStringUnmarshall
+    NdrNonEncapsulatedUnionBufferSize
+    NdrNonEncapsulatedUnionFree
+    NdrNonEncapsulatedUnionMarshall
+    NdrNonEncapsulatedUnionMemorySize
+    NdrNonEncapsulatedUnionUnmarshall
+    NdrNsGetBuffer
+    NdrNsSendReceive
+    NdrOleAllocate
+    NdrOleFree
+    NdrPipePull
+    NdrPipePush
+    NdrPipeSendReceive
+    NdrPipesInitialize
+    NdrPipesDone
+    NdrPointerBufferSize
+    NdrPointerFree
+    NdrPointerMarshall
+    NdrPointerMemorySize
+    NdrPointerUnmarshall
+    NdrProxyErrorHandler
+    NdrProxyFreeBuffer
+    NdrProxyGetBuffer
+    NdrProxyInitialize
+    NdrProxySendReceive
+
+
+
+
+
+
+
+
+
+
+
+    NdrSendReceive
+    NdrServerCall
+    NdrServerCall2
+    NdrServerContextMarshall
+    NdrServerContextUnmarshall
+    NdrServerInitialize
+    NdrServerInitializeMarshall
+    NdrServerInitializeNew
+    NdrServerInitializePartial
+    NdrServerInitializeUnmarshall
+    NdrServerMarshall
+    NdrServerUnmarshall
+    NdrSimpleStructBufferSize
+    NdrSimpleStructFree
+    NdrSimpleStructMarshall
+    NdrSimpleStructMemorySize
+    NdrSimpleStructUnmarshall
+    NdrSimpleTypeMarshall
+    NdrSimpleTypeUnmarshall
+    NdrStubCall
+    NdrStubCall2
+    NdrStubForwardingFunction
+    NdrStubGetBuffer
+    NdrStubInitialize
+    NdrStubInitializeMarshall
+    NdrVaryingArrayBufferSize
+    NdrVaryingArrayFree
+    NdrVaryingArrayMarshall
+    NdrVaryingArrayMemorySize
+    NdrVaryingArrayUnmarshall
+    NdrXmitOrRepAsBufferSize
+    NdrXmitOrRepAsFree
+    NdrXmitOrRepAsMarshall
+    NdrXmitOrRepAsMemorySize
+    NdrXmitOrRepAsUnmarshall
+    NdrUserMarshalSimpleTypeConvert
+    NdrUserMarshalBufferSize
+    NdrUserMarshalFree
+    NdrUserMarshalMarshall
+    NdrUserMarshalMemorySize
+    NdrUserMarshalUnmarshall
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

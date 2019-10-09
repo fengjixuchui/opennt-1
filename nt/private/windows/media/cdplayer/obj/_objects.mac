@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cdplayer.res \
+    $(_OBJ_DIR)\alpha\cdplayer.obj \
+    $(_OBJ_DIR)\alpha\cdapi.obj \
+    $(_OBJ_DIR)\alpha\ledwnd.obj \
+    $(_OBJ_DIR)\alpha\scan.obj \
+    $(_OBJ_DIR)\alpha\database.obj \
+    $(_OBJ_DIR)\alpha\trklst.obj \
+    $(_OBJ_DIR)\alpha\commands.obj \
+    $(_OBJ_DIR)\alpha\diskinfo.obj \
+    $(_OBJ_DIR)\alpha\dragdrop.obj \
+    $(_OBJ_DIR)\alpha\buttons.obj \
+    $(_OBJ_DIR)\alpha\cdapimci.obj \
+    $(_OBJ_DIR)\alpha\preferen.obj \
+    $(_OBJ_DIR)\alpha\literals.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\cdplayer.res \
+    $(_OBJ_DIR)\mips\cdplayer.obj \
+    $(_OBJ_DIR)\mips\cdapi.obj \
+    $(_OBJ_DIR)\mips\ledwnd.obj \
+    $(_OBJ_DIR)\mips\scan.obj \
+    $(_OBJ_DIR)\mips\database.obj \
+    $(_OBJ_DIR)\mips\trklst.obj \
+    $(_OBJ_DIR)\mips\commands.obj \
+    $(_OBJ_DIR)\mips\diskinfo.obj \
+    $(_OBJ_DIR)\mips\dragdrop.obj \
+    $(_OBJ_DIR)\mips\buttons.obj \
+    $(_OBJ_DIR)\mips\cdapimci.obj \
+    $(_OBJ_DIR)\mips\preferen.obj \
+    $(_OBJ_DIR)\mips\literals.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cdplayer.res \
+    $(_OBJ_DIR)\i386\cdplayer.obj \
+    $(_OBJ_DIR)\i386\cdapi.obj \
+    $(_OBJ_DIR)\i386\ledwnd.obj \
+    $(_OBJ_DIR)\i386\scan.obj \
+    $(_OBJ_DIR)\i386\database.obj \
+    $(_OBJ_DIR)\i386\trklst.obj \
+    $(_OBJ_DIR)\i386\commands.obj \
+    $(_OBJ_DIR)\i386\diskinfo.obj \
+    $(_OBJ_DIR)\i386\dragdrop.obj \
+    $(_OBJ_DIR)\i386\buttons.obj \
+    $(_OBJ_DIR)\i386\cdapimci.obj \
+    $(_OBJ_DIR)\i386\preferen.obj \
+    $(_OBJ_DIR)\i386\literals.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\cdplayer.res \
+    $(_OBJ_DIR)\ppc\cdplayer.obj \
+    $(_OBJ_DIR)\ppc\cdapi.obj \
+    $(_OBJ_DIR)\ppc\ledwnd.obj \
+    $(_OBJ_DIR)\ppc\scan.obj \
+    $(_OBJ_DIR)\ppc\database.obj \
+    $(_OBJ_DIR)\ppc\trklst.obj \
+    $(_OBJ_DIR)\ppc\commands.obj \
+    $(_OBJ_DIR)\ppc\diskinfo.obj \
+    $(_OBJ_DIR)\ppc\dragdrop.obj \
+    $(_OBJ_DIR)\ppc\buttons.obj \
+    $(_OBJ_DIR)\ppc\cdapimci.obj \
+    $(_OBJ_DIR)\ppc\preferen.obj \
+    $(_OBJ_DIR)\ppc\literals.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,80 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\avicap32.res \
+    $(_OBJ_DIR)\alpha\capinit.obj \
+    $(_OBJ_DIR)\alpha\capavi.obj \
+    $(_OBJ_DIR)\alpha\capdib.obj \
+    $(_OBJ_DIR)\alpha\cappal.obj \
+    $(_OBJ_DIR)\alpha\capio.obj \
+    $(_OBJ_DIR)\alpha\capmisc.obj \
+    $(_OBJ_DIR)\alpha\capwin.obj \
+    $(_OBJ_DIR)\alpha\capmci.obj \
+    $(_OBJ_DIR)\alpha\capframe.obj \
+    $(_OBJ_DIR)\alpha\capfile.obj \
+    $(_OBJ_DIR)\alpha\dibmap.obj \
+    $(_OBJ_DIR)\alpha\iaverage.obj \
+    $(_OBJ_DIR)\alpha\video.obj \
+    $(_OBJ_DIR)\alpha\thunk32.obj \
+    $(_OBJ_DIR)\alpha\profile.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\avicap32.res \
+    $(_OBJ_DIR)\mips\capinit.obj \
+    $(_OBJ_DIR)\mips\capavi.obj \
+    $(_OBJ_DIR)\mips\capdib.obj \
+    $(_OBJ_DIR)\mips\cappal.obj \
+    $(_OBJ_DIR)\mips\capio.obj \
+    $(_OBJ_DIR)\mips\capmisc.obj \
+    $(_OBJ_DIR)\mips\capwin.obj \
+    $(_OBJ_DIR)\mips\capmci.obj \
+    $(_OBJ_DIR)\mips\capframe.obj \
+    $(_OBJ_DIR)\mips\capfile.obj \
+    $(_OBJ_DIR)\mips\dibmap.obj \
+    $(_OBJ_DIR)\mips\iaverage.obj \
+    $(_OBJ_DIR)\mips\video.obj \
+    $(_OBJ_DIR)\mips\thunk32.obj \
+    $(_OBJ_DIR)\mips\profile.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\avicap32.res \
+    $(_OBJ_DIR)\i386\capinit.obj \
+    $(_OBJ_DIR)\i386\capavi.obj \
+    $(_OBJ_DIR)\i386\capdib.obj \
+    $(_OBJ_DIR)\i386\cappal.obj \
+    $(_OBJ_DIR)\i386\capio.obj \
+    $(_OBJ_DIR)\i386\capmisc.obj \
+    $(_OBJ_DIR)\i386\capwin.obj \
+    $(_OBJ_DIR)\i386\capmci.obj \
+    $(_OBJ_DIR)\i386\capframe.obj \
+    $(_OBJ_DIR)\i386\capfile.obj \
+    $(_OBJ_DIR)\i386\dibmap.obj \
+    $(_OBJ_DIR)\i386\iaverage.obj \
+    $(_OBJ_DIR)\i386\video.obj \
+    $(_OBJ_DIR)\i386\thunk32.obj \
+    $(_OBJ_DIR)\i386\profile.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\avicap32.res \
+    $(_OBJ_DIR)\ppc\capinit.obj \
+    $(_OBJ_DIR)\ppc\capavi.obj \
+    $(_OBJ_DIR)\ppc\capdib.obj \
+    $(_OBJ_DIR)\ppc\cappal.obj \
+    $(_OBJ_DIR)\ppc\capio.obj \
+    $(_OBJ_DIR)\ppc\capmisc.obj \
+    $(_OBJ_DIR)\ppc\capwin.obj \
+    $(_OBJ_DIR)\ppc\capmci.obj \
+    $(_OBJ_DIR)\ppc\capframe.obj \
+    $(_OBJ_DIR)\ppc\capfile.obj \
+    $(_OBJ_DIR)\ppc\dibmap.obj \
+    $(_OBJ_DIR)\ppc\iaverage.obj \
+    $(_OBJ_DIR)\ppc\video.obj \
+    $(_OBJ_DIR)\ppc\thunk32.obj \
+    $(_OBJ_DIR)\ppc\profile.obj
+
+PASS0_PPC_OBJECTS=
+

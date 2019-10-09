@@ -1,0 +1,49 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\fdcvt.obj \
+    $(_OBJ_DIR)\alpha\fdfc.obj \
+    $(_OBJ_DIR)\alpha\fdquery.obj \
+    $(_OBJ_DIR)\alpha\fontfile.obj \
+    $(_OBJ_DIR)\alpha\simulate.obj \
+    $(_OBJ_DIR)\alpha\stretch.obj \
+    $(_OBJ_DIR)\alpha\fon16.obj \
+    $(_OBJ_DIR)\alpha\fon32.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\fdcvt.obj \
+    $(_OBJ_DIR)\mips\fdfc.obj \
+    $(_OBJ_DIR)\mips\fdquery.obj \
+    $(_OBJ_DIR)\mips\fontfile.obj \
+    $(_OBJ_DIR)\mips\simulate.obj \
+    $(_OBJ_DIR)\mips\stretch.obj \
+    $(_OBJ_DIR)\mips\fon16.obj \
+    $(_OBJ_DIR)\mips\fon32.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\convert.obj \
+    $(_OBJ_DIR)\i386\fdcvt.obj \
+    $(_OBJ_DIR)\i386\fdfc.obj \
+    $(_OBJ_DIR)\i386\fdquery.obj \
+    $(_OBJ_DIR)\i386\fontfile.obj \
+    $(_OBJ_DIR)\i386\simulate.obj \
+    $(_OBJ_DIR)\i386\stretch.obj \
+    $(_OBJ_DIR)\i386\fon16.obj \
+    $(_OBJ_DIR)\i386\fon32.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\fdcvt.obj \
+    $(_OBJ_DIR)\ppc\fdfc.obj \
+    $(_OBJ_DIR)\ppc\fdquery.obj \
+    $(_OBJ_DIR)\ppc\fontfile.obj \
+    $(_OBJ_DIR)\ppc\simulate.obj \
+    $(_OBJ_DIR)\ppc\stretch.obj \
+    $(_OBJ_DIR)\ppc\fon16.obj \
+    $(_OBJ_DIR)\ppc\fon32.obj
+
+PASS0_PPC_OBJECTS=
+

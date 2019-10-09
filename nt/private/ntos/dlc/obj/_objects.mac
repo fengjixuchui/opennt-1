@@ -1,0 +1,120 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dlc.res \
+    $(_OBJ_DIR)\alpha\dlcbuf.obj \
+    $(_OBJ_DIR)\alpha\dlccncl.obj \
+    $(_OBJ_DIR)\alpha\dlcdrvr.obj \
+    $(_OBJ_DIR)\alpha\dlcindc.obj \
+    $(_OBJ_DIR)\alpha\dlcinfo.obj \
+    $(_OBJ_DIR)\alpha\dlcopen.obj \
+    $(_OBJ_DIR)\alpha\dlcque.obj \
+    $(_OBJ_DIR)\alpha\dlcrcv.obj \
+    $(_OBJ_DIR)\alpha\dlcreg.obj \
+    $(_OBJ_DIR)\alpha\dlcreq.obj \
+    $(_OBJ_DIR)\alpha\dlctimr.obj \
+    $(_OBJ_DIR)\alpha\dlcxmit.obj \
+    $(_OBJ_DIR)\alpha\llcaddr.obj \
+    $(_OBJ_DIR)\alpha\llcinfo.obj \
+    $(_OBJ_DIR)\alpha\llclib.obj \
+    $(_OBJ_DIR)\alpha\llclink.obj \
+    $(_OBJ_DIR)\alpha\llcmain.obj \
+    $(_OBJ_DIR)\alpha\llcmem.obj \
+    $(_OBJ_DIR)\alpha\llcndis.obj \
+    $(_OBJ_DIR)\alpha\llcobj.obj \
+    $(_OBJ_DIR)\alpha\llcrcv.obj \
+    $(_OBJ_DIR)\alpha\llcsend.obj \
+    $(_OBJ_DIR)\alpha\llcsm.obj \
+    $(_OBJ_DIR)\alpha\llcsmsb.obj \
+    $(_OBJ_DIR)\alpha\llctimr.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dlc.res \
+    $(_OBJ_DIR)\mips\dlcbuf.obj \
+    $(_OBJ_DIR)\mips\dlccncl.obj \
+    $(_OBJ_DIR)\mips\dlcdrvr.obj \
+    $(_OBJ_DIR)\mips\dlcindc.obj \
+    $(_OBJ_DIR)\mips\dlcinfo.obj \
+    $(_OBJ_DIR)\mips\dlcopen.obj \
+    $(_OBJ_DIR)\mips\dlcque.obj \
+    $(_OBJ_DIR)\mips\dlcrcv.obj \
+    $(_OBJ_DIR)\mips\dlcreg.obj \
+    $(_OBJ_DIR)\mips\dlcreq.obj \
+    $(_OBJ_DIR)\mips\dlctimr.obj \
+    $(_OBJ_DIR)\mips\dlcxmit.obj \
+    $(_OBJ_DIR)\mips\llcaddr.obj \
+    $(_OBJ_DIR)\mips\llcinfo.obj \
+    $(_OBJ_DIR)\mips\llclib.obj \
+    $(_OBJ_DIR)\mips\llclink.obj \
+    $(_OBJ_DIR)\mips\llcmain.obj \
+    $(_OBJ_DIR)\mips\llcmem.obj \
+    $(_OBJ_DIR)\mips\llcndis.obj \
+    $(_OBJ_DIR)\mips\llcobj.obj \
+    $(_OBJ_DIR)\mips\llcrcv.obj \
+    $(_OBJ_DIR)\mips\llcsend.obj \
+    $(_OBJ_DIR)\mips\llcsm.obj \
+    $(_OBJ_DIR)\mips\llcsmsb.obj \
+    $(_OBJ_DIR)\mips\llctimr.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dlc.res \
+    $(_OBJ_DIR)\i386\dlcbuf.obj \
+    $(_OBJ_DIR)\i386\dlccncl.obj \
+    $(_OBJ_DIR)\i386\dlcdrvr.obj \
+    $(_OBJ_DIR)\i386\dlcindc.obj \
+    $(_OBJ_DIR)\i386\dlcinfo.obj \
+    $(_OBJ_DIR)\i386\dlcopen.obj \
+    $(_OBJ_DIR)\i386\dlcque.obj \
+    $(_OBJ_DIR)\i386\dlcrcv.obj \
+    $(_OBJ_DIR)\i386\dlcreg.obj \
+    $(_OBJ_DIR)\i386\dlcreq.obj \
+    $(_OBJ_DIR)\i386\dlctimr.obj \
+    $(_OBJ_DIR)\i386\dlcxmit.obj \
+    $(_OBJ_DIR)\i386\llcaddr.obj \
+    $(_OBJ_DIR)\i386\llcinfo.obj \
+    $(_OBJ_DIR)\i386\llclib.obj \
+    $(_OBJ_DIR)\i386\llclink.obj \
+    $(_OBJ_DIR)\i386\llcmain.obj \
+    $(_OBJ_DIR)\i386\llcmem.obj \
+    $(_OBJ_DIR)\i386\llcndis.obj \
+    $(_OBJ_DIR)\i386\llcobj.obj \
+    $(_OBJ_DIR)\i386\llcrcv.obj \
+    $(_OBJ_DIR)\i386\llcsend.obj \
+    $(_OBJ_DIR)\i386\llcsm.obj \
+    $(_OBJ_DIR)\i386\llcsmsb.obj \
+    $(_OBJ_DIR)\i386\llctimr.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dlc.res \
+    $(_OBJ_DIR)\ppc\dlcbuf.obj \
+    $(_OBJ_DIR)\ppc\dlccncl.obj \
+    $(_OBJ_DIR)\ppc\dlcdrvr.obj \
+    $(_OBJ_DIR)\ppc\dlcindc.obj \
+    $(_OBJ_DIR)\ppc\dlcinfo.obj \
+    $(_OBJ_DIR)\ppc\dlcopen.obj \
+    $(_OBJ_DIR)\ppc\dlcque.obj \
+    $(_OBJ_DIR)\ppc\dlcrcv.obj \
+    $(_OBJ_DIR)\ppc\dlcreg.obj \
+    $(_OBJ_DIR)\ppc\dlcreq.obj \
+    $(_OBJ_DIR)\ppc\dlctimr.obj \
+    $(_OBJ_DIR)\ppc\dlcxmit.obj \
+    $(_OBJ_DIR)\ppc\llcaddr.obj \
+    $(_OBJ_DIR)\ppc\llcinfo.obj \
+    $(_OBJ_DIR)\ppc\llclib.obj \
+    $(_OBJ_DIR)\ppc\llclink.obj \
+    $(_OBJ_DIR)\ppc\llcmain.obj \
+    $(_OBJ_DIR)\ppc\llcmem.obj \
+    $(_OBJ_DIR)\ppc\llcndis.obj \
+    $(_OBJ_DIR)\ppc\llcobj.obj \
+    $(_OBJ_DIR)\ppc\llcrcv.obj \
+    $(_OBJ_DIR)\ppc\llcsend.obj \
+    $(_OBJ_DIR)\ppc\llcsm.obj \
+    $(_OBJ_DIR)\ppc\llcsmsb.obj \
+    $(_OBJ_DIR)\ppc\llctimr.obj
+
+PASS0_PPC_OBJECTS=
+

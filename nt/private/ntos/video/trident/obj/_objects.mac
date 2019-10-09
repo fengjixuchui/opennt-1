@@ -1,0 +1,21 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\tribank.obj \
+    $(_OBJ_DIR)\i386\trident.res \
+    $(_OBJ_DIR)\i386\modeset.obj \
+    $(_OBJ_DIR)\i386\trident.obj \
+    $(_OBJ_DIR)\i386\tridata.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

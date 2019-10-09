@@ -1,0 +1,98 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\addrsup.obj \
+    $(_OBJ_DIR)\alpha\arcssup.obj \
+    $(_OBJ_DIR)\alpha\evxcache.obj \
+    $(_OBJ_DIR)\alpha\ev4prof.obj \
+    $(_OBJ_DIR)\alpha\ev5prof.obj \
+    $(_OBJ_DIR)\alpha\evxprof.obj \
+    $(_OBJ_DIR)\alpha\initsys.obj \
+    $(_OBJ_DIR)\alpha\intsup.obj \
+    $(_OBJ_DIR)\alpha\jxmapio.obj \
+    $(_OBJ_DIR)\alpha\minitlb.obj \
+    $(_OBJ_DIR)\alpha\pcisup.obj \
+    $(_OBJ_DIR)\alpha\perfcntr.obj \
+    $(_OBJ_DIR)\alpha\portsup.obj \
+    $(_OBJ_DIR)\alpha\xxinitnt.obj \
+    $(_OBJ_DIR)\alpha\ev4int.obj \
+    $(_OBJ_DIR)\alpha\info.obj \
+    $(_OBJ_DIR)\alpha\alphaio.obj \
+    $(_OBJ_DIR)\alpha\ev4ints.obj \
+    $(_OBJ_DIR)\alpha\ev5ints.obj \
+    $(_OBJ_DIR)\alpha\evxmem.obj \
+    $(_OBJ_DIR)\alpha\halpal.obj \
+    $(_OBJ_DIR)\alpha\evclock.obj \
+    $(_OBJ_DIR)\alpha\xxidle.obj \
+    $(_OBJ_DIR)\alpha\hal.res \
+    $(_OBJ_DIR)\alpha\adjust.obj \
+    $(_OBJ_DIR)\alpha\bushnd.obj \
+    $(_OBJ_DIR)\alpha\drivesup.obj \
+    $(_OBJ_DIR)\alpha\allstart.obj \
+    $(_OBJ_DIR)\alpha\busdata.obj \
+    $(_OBJ_DIR)\alpha\ioproc.obj \
+    $(_OBJ_DIR)\alpha\iousage.obj \
+    $(_OBJ_DIR)\alpha\xxbeep.obj \
+    $(_OBJ_DIR)\alpha\xxclock.obj \
+    $(_OBJ_DIR)\alpha\xxdisp.obj \
+    $(_OBJ_DIR)\alpha\xxebsup.obj \
+    $(_OBJ_DIR)\alpha\xxenvirv.obj \
+    $(_OBJ_DIR)\alpha\xxhwsup.obj \
+    $(_OBJ_DIR)\alpha\xxinithl.obj \
+    $(_OBJ_DIR)\alpha\xxpcisup.obj \
+    $(_OBJ_DIR)\alpha\xxport.obj \
+    $(_OBJ_DIR)\alpha\xxreturn.obj \
+    $(_OBJ_DIR)\alpha\xxsysint.obj \
+    $(_OBJ_DIR)\alpha\xxtime.obj \
+    $(_OBJ_DIR)\alpha\x86bios.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\addrsup.obj \
+    $(_OBJ_DIR)\mips\arcssup.obj \
+    $(_OBJ_DIR)\mips\flushio.obj \
+    $(_OBJ_DIR)\mips\info.obj \
+    $(_OBJ_DIR)\mips\initsys.obj \
+    $(_OBJ_DIR)\mips\jxmapio.obj \
+    $(_OBJ_DIR)\mips\intsup.obj \
+    $(_OBJ_DIR)\mips\j4prof.obj \
+    $(_OBJ_DIR)\mips\pcisup.obj \
+    $(_OBJ_DIR)\mips\portsup.obj \
+    $(_OBJ_DIR)\mips\xxcalstl.obj \
+    $(_OBJ_DIR)\mips\xxinitnt.obj \
+    $(_OBJ_DIR)\mips\xxidle.obj \
+    $(_OBJ_DIR)\mips\x4tb.obj \
+    $(_OBJ_DIR)\mips\j4flshbf.obj \
+    $(_OBJ_DIR)\mips\j4cache.obj \
+    $(_OBJ_DIR)\mips\x4clock.obj \
+    $(_OBJ_DIR)\mips\hal.res \
+    $(_OBJ_DIR)\mips\adjust.obj \
+    $(_OBJ_DIR)\mips\bushnd.obj \
+    $(_OBJ_DIR)\mips\drivesup.obj \
+    $(_OBJ_DIR)\mips\allstart.obj \
+    $(_OBJ_DIR)\mips\busdata.obj \
+    $(_OBJ_DIR)\mips\ioproc.obj \
+    $(_OBJ_DIR)\mips\iousage.obj \
+    $(_OBJ_DIR)\mips\xxbeep.obj \
+    $(_OBJ_DIR)\mips\xxclock.obj \
+    $(_OBJ_DIR)\mips\xxdisp.obj \
+    $(_OBJ_DIR)\mips\xxebsup.obj \
+    $(_OBJ_DIR)\mips\xxenvirv.obj \
+    $(_OBJ_DIR)\mips\xxhwsup.obj \
+    $(_OBJ_DIR)\mips\xxinithl.obj \
+    $(_OBJ_DIR)\mips\xxpcisup.obj \
+    $(_OBJ_DIR)\mips\xxport.obj \
+    $(_OBJ_DIR)\mips\xxreturn.obj \
+    $(_OBJ_DIR)\mips\xxsysint.obj \
+    $(_OBJ_DIR)\mips\xxtime.obj \
+    $(_OBJ_DIR)\mips\x86bios.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

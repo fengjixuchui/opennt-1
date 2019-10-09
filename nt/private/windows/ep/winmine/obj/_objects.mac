@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\res.res \
+    $(_OBJ_DIR)\alpha\winmine.obj \
+    $(_OBJ_DIR)\alpha\grafix.obj \
+    $(_OBJ_DIR)\alpha\pref.obj \
+    $(_OBJ_DIR)\alpha\rtns.obj \
+    $(_OBJ_DIR)\alpha\sound.obj \
+    $(_OBJ_DIR)\alpha\util.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\res.res \
+    $(_OBJ_DIR)\mips\winmine.obj \
+    $(_OBJ_DIR)\mips\grafix.obj \
+    $(_OBJ_DIR)\mips\pref.obj \
+    $(_OBJ_DIR)\mips\rtns.obj \
+    $(_OBJ_DIR)\mips\sound.obj \
+    $(_OBJ_DIR)\mips\util.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\res.res \
+    $(_OBJ_DIR)\i386\winmine.obj \
+    $(_OBJ_DIR)\i386\grafix.obj \
+    $(_OBJ_DIR)\i386\pref.obj \
+    $(_OBJ_DIR)\i386\rtns.obj \
+    $(_OBJ_DIR)\i386\sound.obj \
+    $(_OBJ_DIR)\i386\util.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\res.res \
+    $(_OBJ_DIR)\ppc\winmine.obj \
+    $(_OBJ_DIR)\ppc\grafix.obj \
+    $(_OBJ_DIR)\ppc\pref.obj \
+    $(_OBJ_DIR)\ppc\rtns.obj \
+    $(_OBJ_DIR)\ppc\sound.obj \
+    $(_OBJ_DIR)\ppc\util.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\parvdm.res \
+    $(_OBJ_DIR)\alpha\parvdm.obj
+
+PASS0_ALPHA_OBJECTS= \
+    .\parlog.h \
+    .\parlog.rc
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\parvdm.res \
+    $(_OBJ_DIR)\mips\parvdm.obj
+
+PASS0_MIPS_OBJECTS= \
+    .\parlog.h \
+    .\parlog.rc
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\parvdm.res \
+    $(_OBJ_DIR)\i386\parvdm.obj
+
+PASS0_386_OBJECTS= \
+    .\parlog.h \
+    .\parlog.rc
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\parvdm.res \
+    $(_OBJ_DIR)\ppc\parvdm.obj
+
+PASS0_PPC_OBJECTS= \
+    .\parlog.h \
+    .\parlog.rc
+

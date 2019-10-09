@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\driver.obj \
+    $(_OBJ_DIR)\alpha\glsrvgs.obj \
+    $(_OBJ_DIR)\alpha\glsrvgsh.obj \
+    $(_OBJ_DIR)\alpha\glsrvspt.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\driver.obj \
+    $(_OBJ_DIR)\mips\glsrvgs.obj \
+    $(_OBJ_DIR)\mips\glsrvgsh.obj \
+    $(_OBJ_DIR)\mips\glsrvspt.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\driver.obj \
+    $(_OBJ_DIR)\i386\glsrvgs.obj \
+    $(_OBJ_DIR)\i386\glsrvgsh.obj \
+    $(_OBJ_DIR)\i386\glsrvspt.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\driver.obj \
+    $(_OBJ_DIR)\ppc\glsrvgs.obj \
+    $(_OBJ_DIR)\ppc\glsrvgsh.obj \
+    $(_OBJ_DIR)\ppc\glsrvspt.obj
+
+PASS0_PPC_OBJECTS=
+

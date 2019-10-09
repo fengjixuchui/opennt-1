@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\sysdiff.res \
+    $(_OBJ_DIR)\alpha\apply.obj \
+    $(_OBJ_DIR)\alpha\array.obj \
+    $(_OBJ_DIR)\alpha\billbrd.obj \
+    $(_OBJ_DIR)\alpha\diff.obj \
+    $(_OBJ_DIR)\alpha\exclude.obj \
+    $(_OBJ_DIR)\alpha\file_dir.obj \
+    $(_OBJ_DIR)\alpha\inifile.obj \
+    $(_OBJ_DIR)\alpha\infgen.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\resource.obj \
+    $(_OBJ_DIR)\alpha\snapshot.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\window.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\sysdiff.res \
+    $(_OBJ_DIR)\mips\apply.obj \
+    $(_OBJ_DIR)\mips\array.obj \
+    $(_OBJ_DIR)\mips\billbrd.obj \
+    $(_OBJ_DIR)\mips\diff.obj \
+    $(_OBJ_DIR)\mips\exclude.obj \
+    $(_OBJ_DIR)\mips\file_dir.obj \
+    $(_OBJ_DIR)\mips\inifile.obj \
+    $(_OBJ_DIR)\mips\infgen.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\resource.obj \
+    $(_OBJ_DIR)\mips\snapshot.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\window.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\sysdiff.res \
+    $(_OBJ_DIR)\i386\apply.obj \
+    $(_OBJ_DIR)\i386\array.obj \
+    $(_OBJ_DIR)\i386\billbrd.obj \
+    $(_OBJ_DIR)\i386\diff.obj \
+    $(_OBJ_DIR)\i386\exclude.obj \
+    $(_OBJ_DIR)\i386\file_dir.obj \
+    $(_OBJ_DIR)\i386\inifile.obj \
+    $(_OBJ_DIR)\i386\infgen.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\resource.obj \
+    $(_OBJ_DIR)\i386\snapshot.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\window.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\sysdiff.res \
+    $(_OBJ_DIR)\ppc\apply.obj \
+    $(_OBJ_DIR)\ppc\array.obj \
+    $(_OBJ_DIR)\ppc\billbrd.obj \
+    $(_OBJ_DIR)\ppc\diff.obj \
+    $(_OBJ_DIR)\ppc\exclude.obj \
+    $(_OBJ_DIR)\ppc\file_dir.obj \
+    $(_OBJ_DIR)\ppc\inifile.obj \
+    $(_OBJ_DIR)\ppc\infgen.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\resource.obj \
+    $(_OBJ_DIR)\ppc\snapshot.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\window.obj
+
+PASS0_PPC_OBJECTS=
+

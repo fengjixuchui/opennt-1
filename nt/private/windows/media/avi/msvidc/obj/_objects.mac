@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\msvidc.res \
+    $(_OBJ_DIR)\alpha\compress.obj \
+    $(_OBJ_DIR)\alpha\decmprss.obj \
+    $(_OBJ_DIR)\alpha\drvproc.obj \
+    $(_OBJ_DIR)\alpha\msvidc.obj \
+    $(_OBJ_DIR)\alpha\invcmap.obj \
+    $(_OBJ_DIR)\alpha\debug.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\msvidc.res \
+    $(_OBJ_DIR)\mips\compress.obj \
+    $(_OBJ_DIR)\mips\decmprss.obj \
+    $(_OBJ_DIR)\mips\drvproc.obj \
+    $(_OBJ_DIR)\mips\msvidc.obj \
+    $(_OBJ_DIR)\mips\invcmap.obj \
+    $(_OBJ_DIR)\mips\debug.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\msvidc.res \
+    $(_OBJ_DIR)\i386\compress.obj \
+    $(_OBJ_DIR)\i386\decmprss.obj \
+    $(_OBJ_DIR)\i386\drvproc.obj \
+    $(_OBJ_DIR)\i386\msvidc.obj \
+    $(_OBJ_DIR)\i386\invcmap.obj \
+    $(_OBJ_DIR)\i386\debug.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\msvidc.res \
+    $(_OBJ_DIR)\ppc\compress.obj \
+    $(_OBJ_DIR)\ppc\decmprss.obj \
+    $(_OBJ_DIR)\ppc\drvproc.obj \
+    $(_OBJ_DIR)\ppc\msvidc.obj \
+    $(_OBJ_DIR)\ppc\invcmap.obj \
+    $(_OBJ_DIR)\ppc\debug.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\packager.res \
+    $(_OBJ_DIR)\alpha\cmdlink.obj \
+    $(_OBJ_DIR)\alpha\dlgprocs.obj \
+    $(_OBJ_DIR)\alpha\embed.obj \
+    $(_OBJ_DIR)\alpha\filedlgs.obj \
+    $(_OBJ_DIR)\alpha\globals.obj \
+    $(_OBJ_DIR)\alpha\icon.obj \
+    $(_OBJ_DIR)\alpha\packager.obj \
+    $(_OBJ_DIR)\alpha\pane.obj \
+    $(_OBJ_DIR)\alpha\picture.obj \
+    $(_OBJ_DIR)\alpha\register.obj \
+    $(_OBJ_DIR)\alpha\server.obj \
+    $(_OBJ_DIR)\alpha\stream.obj \
+    $(_OBJ_DIR)\alpha\virtable.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\packager.res \
+    $(_OBJ_DIR)\mips\cmdlink.obj \
+    $(_OBJ_DIR)\mips\dlgprocs.obj \
+    $(_OBJ_DIR)\mips\embed.obj \
+    $(_OBJ_DIR)\mips\filedlgs.obj \
+    $(_OBJ_DIR)\mips\globals.obj \
+    $(_OBJ_DIR)\mips\icon.obj \
+    $(_OBJ_DIR)\mips\packager.obj \
+    $(_OBJ_DIR)\mips\pane.obj \
+    $(_OBJ_DIR)\mips\picture.obj \
+    $(_OBJ_DIR)\mips\register.obj \
+    $(_OBJ_DIR)\mips\server.obj \
+    $(_OBJ_DIR)\mips\stream.obj \
+    $(_OBJ_DIR)\mips\virtable.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\packager.res \
+    $(_OBJ_DIR)\i386\cmdlink.obj \
+    $(_OBJ_DIR)\i386\dlgprocs.obj \
+    $(_OBJ_DIR)\i386\embed.obj \
+    $(_OBJ_DIR)\i386\filedlgs.obj \
+    $(_OBJ_DIR)\i386\globals.obj \
+    $(_OBJ_DIR)\i386\icon.obj \
+    $(_OBJ_DIR)\i386\packager.obj \
+    $(_OBJ_DIR)\i386\pane.obj \
+    $(_OBJ_DIR)\i386\picture.obj \
+    $(_OBJ_DIR)\i386\register.obj \
+    $(_OBJ_DIR)\i386\server.obj \
+    $(_OBJ_DIR)\i386\stream.obj \
+    $(_OBJ_DIR)\i386\virtable.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\packager.res \
+    $(_OBJ_DIR)\ppc\cmdlink.obj \
+    $(_OBJ_DIR)\ppc\dlgprocs.obj \
+    $(_OBJ_DIR)\ppc\embed.obj \
+    $(_OBJ_DIR)\ppc\filedlgs.obj \
+    $(_OBJ_DIR)\ppc\globals.obj \
+    $(_OBJ_DIR)\ppc\icon.obj \
+    $(_OBJ_DIR)\ppc\packager.obj \
+    $(_OBJ_DIR)\ppc\pane.obj \
+    $(_OBJ_DIR)\ppc\picture.obj \
+    $(_OBJ_DIR)\ppc\register.obj \
+    $(_OBJ_DIR)\ppc\server.obj \
+    $(_OBJ_DIR)\ppc\stream.obj \
+    $(_OBJ_DIR)\ppc\virtable.obj
+
+PASS0_PPC_OBJECTS=
+

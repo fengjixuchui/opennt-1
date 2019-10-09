@@ -1,0 +1,19 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dell_dgx.res \
+    $(_OBJ_DIR)\i386\dell_dgx.obj \
+    $(_OBJ_DIR)\i386\dgxdata.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

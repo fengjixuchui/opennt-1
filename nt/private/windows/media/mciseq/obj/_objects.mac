@@ -1,0 +1,56 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mciseq.res \
+    $(_OBJ_DIR)\alpha\list.obj \
+    $(_OBJ_DIR)\alpha\mcicmds.obj \
+    $(_OBJ_DIR)\alpha\mciseq.obj \
+    $(_OBJ_DIR)\alpha\callback.obj \
+    $(_OBJ_DIR)\alpha\formats.obj \
+    $(_OBJ_DIR)\alpha\mmseq.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\support.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mciseq.res \
+    $(_OBJ_DIR)\mips\list.obj \
+    $(_OBJ_DIR)\mips\mcicmds.obj \
+    $(_OBJ_DIR)\mips\mciseq.obj \
+    $(_OBJ_DIR)\mips\callback.obj \
+    $(_OBJ_DIR)\mips\formats.obj \
+    $(_OBJ_DIR)\mips\mmseq.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\support.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mciseq.res \
+    $(_OBJ_DIR)\i386\list.obj \
+    $(_OBJ_DIR)\i386\mcicmds.obj \
+    $(_OBJ_DIR)\i386\mciseq.obj \
+    $(_OBJ_DIR)\i386\callback.obj \
+    $(_OBJ_DIR)\i386\formats.obj \
+    $(_OBJ_DIR)\i386\mmseq.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\support.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mciseq.res \
+    $(_OBJ_DIR)\ppc\list.obj \
+    $(_OBJ_DIR)\ppc\mcicmds.obj \
+    $(_OBJ_DIR)\ppc\mciseq.obj \
+    $(_OBJ_DIR)\ppc\callback.obj \
+    $(_OBJ_DIR)\ppc\formats.obj \
+    $(_OBJ_DIR)\ppc\mmseq.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\support.obj
+
+PASS0_PPC_OBJECTS=
+

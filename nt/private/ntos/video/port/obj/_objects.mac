@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\videoprt.res \
+    $(_OBJ_DIR)\alpha\portalph.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\videoprt.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\videoprt.res \
+    $(_OBJ_DIR)\mips\portmips.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\videoprt.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\videoprt.res \
+    $(_OBJ_DIR)\i386\porti386.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\videoprt.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\videoprt.res \
+    $(_OBJ_DIR)\ppc\portppc.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\videoprt.obj
+
+PASS0_PPC_OBJECTS=
+

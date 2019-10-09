@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\acsrv.obj \
+    $(_OBJ_DIR)\alpha\cache.obj \
+    $(_OBJ_DIR)\alpha\caccctrl.obj \
+    $(_OBJ_DIR)\alpha\acpickl_c.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\acsrv.obj \
+    $(_OBJ_DIR)\mips\cache.obj \
+    $(_OBJ_DIR)\mips\caccctrl.obj \
+    $(_OBJ_DIR)\mips\acpickl_c.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\acsrv.obj \
+    $(_OBJ_DIR)\i386\cache.obj \
+    $(_OBJ_DIR)\i386\caccctrl.obj \
+    $(_OBJ_DIR)\i386\acpickl_c.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\acsrv.obj \
+    $(_OBJ_DIR)\ppc\cache.obj \
+    $(_OBJ_DIR)\ppc\caccctrl.obj \
+    $(_OBJ_DIR)\ppc\acpickl_c.obj
+
+PASS0_PPC_OBJECTS=
+

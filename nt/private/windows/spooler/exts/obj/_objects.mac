@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\splx.res \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\localspl.obj \
+    $(_OBJ_DIR)\alpha\printui.obj \
+    $(_OBJ_DIR)\alpha\spllib.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\splx.res \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\localspl.obj \
+    $(_OBJ_DIR)\mips\printui.obj \
+    $(_OBJ_DIR)\mips\spllib.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\splx.res \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\localspl.obj \
+    $(_OBJ_DIR)\i386\printui.obj \
+    $(_OBJ_DIR)\i386\spllib.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\splx.res \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\localspl.obj \
+    $(_OBJ_DIR)\ppc\printui.obj \
+    $(_OBJ_DIR)\ppc\spllib.obj
+
+PASS0_PPC_OBJECTS=
+

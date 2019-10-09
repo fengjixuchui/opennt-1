@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\acllist.res \
+    $(_OBJ_DIR)\alpha\acllist.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\acllist.res \
+    $(_OBJ_DIR)\mips\acllist.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\acllist.res \
+    $(_OBJ_DIR)\i386\acllist.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\acllist.res \
+    $(_OBJ_DIR)\ppc\acllist.obj
+
+PASS0_PPC_OBJECTS=
+

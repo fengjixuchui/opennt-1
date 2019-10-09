@@ -1,0 +1,51 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\x86bios.obj \
+    $(_OBJ_DIR)\mips\allstart.obj \
+    $(_OBJ_DIR)\mips\j4flshio.obj \
+    $(_OBJ_DIR)\mips\j4prof.obj \
+    $(_OBJ_DIR)\mips\jxebsup.obj \
+    $(_OBJ_DIR)\mips\jxenvirv.obj \
+    $(_OBJ_DIR)\mips\jxport.obj \
+    $(_OBJ_DIR)\mips\jxbeep.obj \
+    $(_OBJ_DIR)\mips\jxreturn.obj \
+    $(_OBJ_DIR)\mips\jxmapio.obj \
+    $(_OBJ_DIR)\mips\snidisp.obj \
+    $(_OBJ_DIR)\mips\jxhwsup.obj \
+    $(_OBJ_DIR)\mips\jxsysint.obj \
+    $(_OBJ_DIR)\mips\jxtime.obj \
+    $(_OBJ_DIR)\mips\jxusage.obj \
+    $(_OBJ_DIR)\mips\xxcalstl.obj \
+    $(_OBJ_DIR)\mips\xxinithl.obj \
+    $(_OBJ_DIR)\mips\xxinitnt.obj \
+    $(_OBJ_DIR)\mips\r4intdsp.obj \
+    $(_OBJ_DIR)\mips\xxmemory.obj \
+    $(_OBJ_DIR)\mips\mpagent.obj \
+    $(_OBJ_DIR)\mips\xxcache.obj \
+    $(_OBJ_DIR)\mips\xxclock.obj \
+    $(_OBJ_DIR)\mips\cacherr.obj \
+    $(_OBJ_DIR)\mips\unicache.obj \
+    $(_OBJ_DIR)\mips\duocache.obj \
+    $(_OBJ_DIR)\mips\orcache.obj \
+    $(_OBJ_DIR)\mips\j4flshbf.obj \
+    $(_OBJ_DIR)\mips\xxidle.obj \
+    $(_OBJ_DIR)\mips\x4misc.obj \
+    $(_OBJ_DIR)\mips\xxipiint.obj \
+    $(_OBJ_DIR)\mips\x4clock.obj \
+    $(_OBJ_DIR)\mips\x4tb.obj \
+    $(_OBJ_DIR)\mips\hal.res \
+    $(_OBJ_DIR)\mips\drivesup.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

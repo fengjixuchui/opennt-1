@@ -1,0 +1,60 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ddeadv.obj \
+    $(_OBJ_DIR)\alpha\ddesink.obj \
+    $(_OBJ_DIR)\alpha\ddesite.obj \
+    $(_OBJ_DIR)\alpha\ddesrvr.obj \
+    $(_OBJ_DIR)\alpha\ddeutils.obj \
+    $(_OBJ_DIR)\alpha\doc.obj \
+    $(_OBJ_DIR)\alpha\item.obj \
+    $(_OBJ_DIR)\alpha\item2.obj \
+    $(_OBJ_DIR)\alpha\itemutil.obj \
+    $(_OBJ_DIR)\alpha\srvr.obj \
+    $(_OBJ_DIR)\alpha\srvrmain.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ddeadv.obj \
+    $(_OBJ_DIR)\mips\ddesink.obj \
+    $(_OBJ_DIR)\mips\ddesite.obj \
+    $(_OBJ_DIR)\mips\ddesrvr.obj \
+    $(_OBJ_DIR)\mips\ddeutils.obj \
+    $(_OBJ_DIR)\mips\doc.obj \
+    $(_OBJ_DIR)\mips\item.obj \
+    $(_OBJ_DIR)\mips\item2.obj \
+    $(_OBJ_DIR)\mips\itemutil.obj \
+    $(_OBJ_DIR)\mips\srvr.obj \
+    $(_OBJ_DIR)\mips\srvrmain.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ddeadv.obj \
+    $(_OBJ_DIR)\i386\ddesink.obj \
+    $(_OBJ_DIR)\i386\ddesite.obj \
+    $(_OBJ_DIR)\i386\ddesrvr.obj \
+    $(_OBJ_DIR)\i386\ddeutils.obj \
+    $(_OBJ_DIR)\i386\doc.obj \
+    $(_OBJ_DIR)\i386\item.obj \
+    $(_OBJ_DIR)\i386\item2.obj \
+    $(_OBJ_DIR)\i386\itemutil.obj \
+    $(_OBJ_DIR)\i386\srvr.obj \
+    $(_OBJ_DIR)\i386\srvrmain.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ddeadv.obj \
+    $(_OBJ_DIR)\ppc\ddesink.obj \
+    $(_OBJ_DIR)\ppc\ddesite.obj \
+    $(_OBJ_DIR)\ppc\ddesrvr.obj \
+    $(_OBJ_DIR)\ppc\ddeutils.obj \
+    $(_OBJ_DIR)\ppc\doc.obj \
+    $(_OBJ_DIR)\ppc\item.obj \
+    $(_OBJ_DIR)\ppc\item2.obj \
+    $(_OBJ_DIR)\ppc\itemutil.obj \
+    $(_OBJ_DIR)\ppc\srvr.obj \
+    $(_OBJ_DIR)\ppc\srvrmain.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,188 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\arc.obj \
+    $(_OBJ_DIR)\alpha\arcsorte.obj \
+    $(_OBJ_DIR)\alpha\arctess.obj \
+    $(_OBJ_DIR)\alpha\backend.obj \
+    $(_OBJ_DIR)\alpha\basiccrv.obj \
+    $(_OBJ_DIR)\alpha\basicsur.obj \
+    $(_OBJ_DIR)\alpha\bin.obj \
+    $(_OBJ_DIR)\alpha\bufpool.obj \
+    $(_OBJ_DIR)\alpha\cachinge.obj \
+    $(_OBJ_DIR)\alpha\ccw.obj \
+    $(_OBJ_DIR)\alpha\coveandt.obj \
+    $(_OBJ_DIR)\alpha\curve.obj \
+    $(_OBJ_DIR)\alpha\curvelis.obj \
+    $(_OBJ_DIR)\alpha\curvesub.obj \
+    $(_OBJ_DIR)\alpha\displayl.obj \
+    $(_OBJ_DIR)\alpha\flist.obj \
+    $(_OBJ_DIR)\alpha\flistsor.obj \
+    $(_OBJ_DIR)\alpha\hull.obj \
+    $(_OBJ_DIR)\alpha\intersec.obj \
+    $(_OBJ_DIR)\alpha\knotvect.obj \
+    $(_OBJ_DIR)\alpha\mapdesc.obj \
+    $(_OBJ_DIR)\alpha\mapdescv.obj \
+    $(_OBJ_DIR)\alpha\maplist.obj \
+    $(_OBJ_DIR)\alpha\mesher.obj \
+    $(_OBJ_DIR)\alpha\monotoni.obj \
+    $(_OBJ_DIR)\alpha\mycode.obj \
+    $(_OBJ_DIR)\alpha\nurbsint.obj \
+    $(_OBJ_DIR)\alpha\nurbstes.obj \
+    $(_OBJ_DIR)\alpha\patch.obj \
+    $(_OBJ_DIR)\alpha\patchlis.obj \
+    $(_OBJ_DIR)\alpha\quilt.obj \
+    $(_OBJ_DIR)\alpha\reader.obj \
+    $(_OBJ_DIR)\alpha\renderhi.obj \
+    $(_OBJ_DIR)\alpha\slicer.obj \
+    $(_OBJ_DIR)\alpha\sorter.obj \
+    $(_OBJ_DIR)\alpha\splitarc.obj \
+    $(_OBJ_DIR)\alpha\subdivid.obj \
+    $(_OBJ_DIR)\alpha\tobezier.obj \
+    $(_OBJ_DIR)\alpha\trimline.obj \
+    $(_OBJ_DIR)\alpha\trimregi.obj \
+    $(_OBJ_DIR)\alpha\trimvert.obj \
+    $(_OBJ_DIR)\alpha\uarray.obj \
+    $(_OBJ_DIR)\alpha\varray.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\arc.obj \
+    $(_OBJ_DIR)\mips\arcsorte.obj \
+    $(_OBJ_DIR)\mips\arctess.obj \
+    $(_OBJ_DIR)\mips\backend.obj \
+    $(_OBJ_DIR)\mips\basiccrv.obj \
+    $(_OBJ_DIR)\mips\basicsur.obj \
+    $(_OBJ_DIR)\mips\bin.obj \
+    $(_OBJ_DIR)\mips\bufpool.obj \
+    $(_OBJ_DIR)\mips\cachinge.obj \
+    $(_OBJ_DIR)\mips\ccw.obj \
+    $(_OBJ_DIR)\mips\coveandt.obj \
+    $(_OBJ_DIR)\mips\curve.obj \
+    $(_OBJ_DIR)\mips\curvelis.obj \
+    $(_OBJ_DIR)\mips\curvesub.obj \
+    $(_OBJ_DIR)\mips\displayl.obj \
+    $(_OBJ_DIR)\mips\flist.obj \
+    $(_OBJ_DIR)\mips\flistsor.obj \
+    $(_OBJ_DIR)\mips\hull.obj \
+    $(_OBJ_DIR)\mips\intersec.obj \
+    $(_OBJ_DIR)\mips\knotvect.obj \
+    $(_OBJ_DIR)\mips\mapdesc.obj \
+    $(_OBJ_DIR)\mips\mapdescv.obj \
+    $(_OBJ_DIR)\mips\maplist.obj \
+    $(_OBJ_DIR)\mips\mesher.obj \
+    $(_OBJ_DIR)\mips\monotoni.obj \
+    $(_OBJ_DIR)\mips\mycode.obj \
+    $(_OBJ_DIR)\mips\nurbsint.obj \
+    $(_OBJ_DIR)\mips\nurbstes.obj \
+    $(_OBJ_DIR)\mips\patch.obj \
+    $(_OBJ_DIR)\mips\patchlis.obj \
+    $(_OBJ_DIR)\mips\quilt.obj \
+    $(_OBJ_DIR)\mips\reader.obj \
+    $(_OBJ_DIR)\mips\renderhi.obj \
+    $(_OBJ_DIR)\mips\slicer.obj \
+    $(_OBJ_DIR)\mips\sorter.obj \
+    $(_OBJ_DIR)\mips\splitarc.obj \
+    $(_OBJ_DIR)\mips\subdivid.obj \
+    $(_OBJ_DIR)\mips\tobezier.obj \
+    $(_OBJ_DIR)\mips\trimline.obj \
+    $(_OBJ_DIR)\mips\trimregi.obj \
+    $(_OBJ_DIR)\mips\trimvert.obj \
+    $(_OBJ_DIR)\mips\uarray.obj \
+    $(_OBJ_DIR)\mips\varray.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\arc.obj \
+    $(_OBJ_DIR)\i386\arcsorte.obj \
+    $(_OBJ_DIR)\i386\arctess.obj \
+    $(_OBJ_DIR)\i386\backend.obj \
+    $(_OBJ_DIR)\i386\basiccrv.obj \
+    $(_OBJ_DIR)\i386\basicsur.obj \
+    $(_OBJ_DIR)\i386\bin.obj \
+    $(_OBJ_DIR)\i386\bufpool.obj \
+    $(_OBJ_DIR)\i386\cachinge.obj \
+    $(_OBJ_DIR)\i386\ccw.obj \
+    $(_OBJ_DIR)\i386\coveandt.obj \
+    $(_OBJ_DIR)\i386\curve.obj \
+    $(_OBJ_DIR)\i386\curvelis.obj \
+    $(_OBJ_DIR)\i386\curvesub.obj \
+    $(_OBJ_DIR)\i386\displayl.obj \
+    $(_OBJ_DIR)\i386\flist.obj \
+    $(_OBJ_DIR)\i386\flistsor.obj \
+    $(_OBJ_DIR)\i386\hull.obj \
+    $(_OBJ_DIR)\i386\intersec.obj \
+    $(_OBJ_DIR)\i386\knotvect.obj \
+    $(_OBJ_DIR)\i386\mapdesc.obj \
+    $(_OBJ_DIR)\i386\mapdescv.obj \
+    $(_OBJ_DIR)\i386\maplist.obj \
+    $(_OBJ_DIR)\i386\mesher.obj \
+    $(_OBJ_DIR)\i386\monotoni.obj \
+    $(_OBJ_DIR)\i386\mycode.obj \
+    $(_OBJ_DIR)\i386\nurbsint.obj \
+    $(_OBJ_DIR)\i386\nurbstes.obj \
+    $(_OBJ_DIR)\i386\patch.obj \
+    $(_OBJ_DIR)\i386\patchlis.obj \
+    $(_OBJ_DIR)\i386\quilt.obj \
+    $(_OBJ_DIR)\i386\reader.obj \
+    $(_OBJ_DIR)\i386\renderhi.obj \
+    $(_OBJ_DIR)\i386\slicer.obj \
+    $(_OBJ_DIR)\i386\sorter.obj \
+    $(_OBJ_DIR)\i386\splitarc.obj \
+    $(_OBJ_DIR)\i386\subdivid.obj \
+    $(_OBJ_DIR)\i386\tobezier.obj \
+    $(_OBJ_DIR)\i386\trimline.obj \
+    $(_OBJ_DIR)\i386\trimregi.obj \
+    $(_OBJ_DIR)\i386\trimvert.obj \
+    $(_OBJ_DIR)\i386\uarray.obj \
+    $(_OBJ_DIR)\i386\varray.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\arc.obj \
+    $(_OBJ_DIR)\ppc\arcsorte.obj \
+    $(_OBJ_DIR)\ppc\arctess.obj \
+    $(_OBJ_DIR)\ppc\backend.obj \
+    $(_OBJ_DIR)\ppc\basiccrv.obj \
+    $(_OBJ_DIR)\ppc\basicsur.obj \
+    $(_OBJ_DIR)\ppc\bin.obj \
+    $(_OBJ_DIR)\ppc\bufpool.obj \
+    $(_OBJ_DIR)\ppc\cachinge.obj \
+    $(_OBJ_DIR)\ppc\ccw.obj \
+    $(_OBJ_DIR)\ppc\coveandt.obj \
+    $(_OBJ_DIR)\ppc\curve.obj \
+    $(_OBJ_DIR)\ppc\curvelis.obj \
+    $(_OBJ_DIR)\ppc\curvesub.obj \
+    $(_OBJ_DIR)\ppc\displayl.obj \
+    $(_OBJ_DIR)\ppc\flist.obj \
+    $(_OBJ_DIR)\ppc\flistsor.obj \
+    $(_OBJ_DIR)\ppc\hull.obj \
+    $(_OBJ_DIR)\ppc\intersec.obj \
+    $(_OBJ_DIR)\ppc\knotvect.obj \
+    $(_OBJ_DIR)\ppc\mapdesc.obj \
+    $(_OBJ_DIR)\ppc\mapdescv.obj \
+    $(_OBJ_DIR)\ppc\maplist.obj \
+    $(_OBJ_DIR)\ppc\mesher.obj \
+    $(_OBJ_DIR)\ppc\monotoni.obj \
+    $(_OBJ_DIR)\ppc\mycode.obj \
+    $(_OBJ_DIR)\ppc\nurbsint.obj \
+    $(_OBJ_DIR)\ppc\nurbstes.obj \
+    $(_OBJ_DIR)\ppc\patch.obj \
+    $(_OBJ_DIR)\ppc\patchlis.obj \
+    $(_OBJ_DIR)\ppc\quilt.obj \
+    $(_OBJ_DIR)\ppc\reader.obj \
+    $(_OBJ_DIR)\ppc\renderhi.obj \
+    $(_OBJ_DIR)\ppc\slicer.obj \
+    $(_OBJ_DIR)\ppc\sorter.obj \
+    $(_OBJ_DIR)\ppc\splitarc.obj \
+    $(_OBJ_DIR)\ppc\subdivid.obj \
+    $(_OBJ_DIR)\ppc\tobezier.obj \
+    $(_OBJ_DIR)\ppc\trimline.obj \
+    $(_OBJ_DIR)\ppc\trimregi.obj \
+    $(_OBJ_DIR)\ppc\trimvert.obj \
+    $(_OBJ_DIR)\ppc\uarray.obj \
+    $(_OBJ_DIR)\ppc\varray.obj
+
+PASS0_PPC_OBJECTS=
+

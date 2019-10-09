@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mpu401.res \
+    $(_OBJ_DIR)\alpha\isr.obj \
+    $(_OBJ_DIR)\alpha\devcaps.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\config.obj \
+    $(_OBJ_DIR)\alpha\hardware.obj \
+    $(_OBJ_DIR)\alpha\midi.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mpu401.res \
+    $(_OBJ_DIR)\mips\isr.obj \
+    $(_OBJ_DIR)\mips\devcaps.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\config.obj \
+    $(_OBJ_DIR)\mips\hardware.obj \
+    $(_OBJ_DIR)\mips\midi.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mpu401.res \
+    $(_OBJ_DIR)\i386\isr.obj \
+    $(_OBJ_DIR)\i386\devcaps.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\hardware.obj \
+    $(_OBJ_DIR)\i386\midi.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mpu401.res \
+    $(_OBJ_DIR)\ppc\isr.obj \
+    $(_OBJ_DIR)\ppc\devcaps.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\config.obj \
+    $(_OBJ_DIR)\ppc\hardware.obj \
+    $(_OBJ_DIR)\ppc\midi.obj
+
+PASS0_PPC_OBJECTS=
+

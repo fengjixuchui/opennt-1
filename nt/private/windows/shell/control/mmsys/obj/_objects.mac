@@ -1,0 +1,108 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mmse.res \
+    $(_OBJ_DIR)\alpha\mmcpl.obj \
+    $(_OBJ_DIR)\alpha\scheme.obj \
+    $(_OBJ_DIR)\alpha\sound.obj \
+    $(_OBJ_DIR)\alpha\sndfile.obj \
+    $(_OBJ_DIR)\alpha\sndsel.obj \
+    $(_OBJ_DIR)\alpha\mmse.obj \
+    $(_OBJ_DIR)\alpha\utils.obj \
+    $(_OBJ_DIR)\alpha\dib.obj \
+    $(_OBJ_DIR)\alpha\dispfram.obj \
+    $(_OBJ_DIR)\alpha\video.obj \
+    $(_OBJ_DIR)\alpha\cdaudio.obj \
+    $(_OBJ_DIR)\alpha\midi.obj \
+    $(_OBJ_DIR)\alpha\class.obj \
+    $(_OBJ_DIR)\alpha\msacmcpl.obj \
+    $(_OBJ_DIR)\alpha\drivers.obj \
+    $(_OBJ_DIR)\alpha\mmdriver.obj \
+    $(_OBJ_DIR)\alpha\install.obj \
+    $(_OBJ_DIR)\alpha\remove.obj \
+    $(_OBJ_DIR)\alpha\add.obj \
+    $(_OBJ_DIR)\alpha\infparse.obj \
+    $(_OBJ_DIR)\alpha\copy.obj \
+    $(_OBJ_DIR)\alpha\filecopy.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mmse.res \
+    $(_OBJ_DIR)\mips\mmcpl.obj \
+    $(_OBJ_DIR)\mips\scheme.obj \
+    $(_OBJ_DIR)\mips\sound.obj \
+    $(_OBJ_DIR)\mips\sndfile.obj \
+    $(_OBJ_DIR)\mips\sndsel.obj \
+    $(_OBJ_DIR)\mips\mmse.obj \
+    $(_OBJ_DIR)\mips\utils.obj \
+    $(_OBJ_DIR)\mips\dib.obj \
+    $(_OBJ_DIR)\mips\dispfram.obj \
+    $(_OBJ_DIR)\mips\video.obj \
+    $(_OBJ_DIR)\mips\cdaudio.obj \
+    $(_OBJ_DIR)\mips\midi.obj \
+    $(_OBJ_DIR)\mips\class.obj \
+    $(_OBJ_DIR)\mips\msacmcpl.obj \
+    $(_OBJ_DIR)\mips\drivers.obj \
+    $(_OBJ_DIR)\mips\mmdriver.obj \
+    $(_OBJ_DIR)\mips\install.obj \
+    $(_OBJ_DIR)\mips\remove.obj \
+    $(_OBJ_DIR)\mips\add.obj \
+    $(_OBJ_DIR)\mips\infparse.obj \
+    $(_OBJ_DIR)\mips\copy.obj \
+    $(_OBJ_DIR)\mips\filecopy.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mmse.res \
+    $(_OBJ_DIR)\i386\mmcpl.obj \
+    $(_OBJ_DIR)\i386\scheme.obj \
+    $(_OBJ_DIR)\i386\sound.obj \
+    $(_OBJ_DIR)\i386\sndfile.obj \
+    $(_OBJ_DIR)\i386\sndsel.obj \
+    $(_OBJ_DIR)\i386\mmse.obj \
+    $(_OBJ_DIR)\i386\utils.obj \
+    $(_OBJ_DIR)\i386\dib.obj \
+    $(_OBJ_DIR)\i386\dispfram.obj \
+    $(_OBJ_DIR)\i386\video.obj \
+    $(_OBJ_DIR)\i386\cdaudio.obj \
+    $(_OBJ_DIR)\i386\midi.obj \
+    $(_OBJ_DIR)\i386\class.obj \
+    $(_OBJ_DIR)\i386\msacmcpl.obj \
+    $(_OBJ_DIR)\i386\drivers.obj \
+    $(_OBJ_DIR)\i386\mmdriver.obj \
+    $(_OBJ_DIR)\i386\install.obj \
+    $(_OBJ_DIR)\i386\remove.obj \
+    $(_OBJ_DIR)\i386\add.obj \
+    $(_OBJ_DIR)\i386\infparse.obj \
+    $(_OBJ_DIR)\i386\copy.obj \
+    $(_OBJ_DIR)\i386\filecopy.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mmse.res \
+    $(_OBJ_DIR)\ppc\mmcpl.obj \
+    $(_OBJ_DIR)\ppc\scheme.obj \
+    $(_OBJ_DIR)\ppc\sound.obj \
+    $(_OBJ_DIR)\ppc\sndfile.obj \
+    $(_OBJ_DIR)\ppc\sndsel.obj \
+    $(_OBJ_DIR)\ppc\mmse.obj \
+    $(_OBJ_DIR)\ppc\utils.obj \
+    $(_OBJ_DIR)\ppc\dib.obj \
+    $(_OBJ_DIR)\ppc\dispfram.obj \
+    $(_OBJ_DIR)\ppc\video.obj \
+    $(_OBJ_DIR)\ppc\cdaudio.obj \
+    $(_OBJ_DIR)\ppc\midi.obj \
+    $(_OBJ_DIR)\ppc\class.obj \
+    $(_OBJ_DIR)\ppc\msacmcpl.obj \
+    $(_OBJ_DIR)\ppc\drivers.obj \
+    $(_OBJ_DIR)\ppc\mmdriver.obj \
+    $(_OBJ_DIR)\ppc\install.obj \
+    $(_OBJ_DIR)\ppc\remove.obj \
+    $(_OBJ_DIR)\ppc\add.obj \
+    $(_OBJ_DIR)\ppc\infparse.obj \
+    $(_OBJ_DIR)\ppc\copy.obj \
+    $(_OBJ_DIR)\ppc\filecopy.obj
+
+PASS0_PPC_OBJECTS=
+

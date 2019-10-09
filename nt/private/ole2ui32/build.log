@@ -1,0 +1,68 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining w:\nt\private\ole2ui32 directory tree for files to compile.
+Compiling w:\nt\private\ole2ui32\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 NOPASS0=1 386=1'
+
+Stop. 
+Linking w:\nt\private\ole2ui32\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	link -out:obj\i386\oledlg.dll -machine:i386 @W:\tmp\nma03656.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,oledlg 
+-subsystem:windows,4.00 
+-entry:DllMain@12 
+obj\i386\precomp.obj 
+W:\nt\public\sdk\lib\i386\oledlg.exp 
+obj\i386\ole2ui.res 
+obj\i386\chngsrc.obj 
+obj\i386\objprop.obj 
+obj\i386\busy.obj 
+obj\i386\common.obj 
+obj\i386\convert.obj 
+obj\i386\drawicon.obj 
+obj\i386\icon.obj 
+obj\i386\iconbox.obj 
+obj\i386\insobj.obj 
+obj\i386\links.obj 
+obj\i386\ole2ui.obj 
+obj\i386\olestd.obj 
+obj\i386\pastespl.obj 
+obj\i386\targtdev.obj 
+obj\i386\oleutl.obj 
+obj\i386\resimage.obj 
+obj\i386\utility.obj 
+obj\i386\dllfuncs.obj 
+obj\i386\geticon.obj 
+obj\i386\wrapstub.obj 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\oledlg.dll
+
+Stop. 

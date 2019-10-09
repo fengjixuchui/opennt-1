@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\tlgen.obj \
+    $(_OBJ_DIR)\alpha\tllist.obj \
+    $(_OBJ_DIR)\alpha\typelib.obj \
+    $(_OBJ_DIR)\alpha\implib.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\tlgen.obj \
+    $(_OBJ_DIR)\mips\tllist.obj \
+    $(_OBJ_DIR)\mips\typelib.obj \
+    $(_OBJ_DIR)\mips\implib.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\tlgen.obj \
+    $(_OBJ_DIR)\i386\tllist.obj \
+    $(_OBJ_DIR)\i386\typelib.obj \
+    $(_OBJ_DIR)\i386\implib.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\tlgen.obj \
+    $(_OBJ_DIR)\ppc\tllist.obj \
+    $(_OBJ_DIR)\ppc\typelib.obj \
+    $(_OBJ_DIR)\ppc\implib.obj
+
+PASS0_PPC_OBJECTS=
+

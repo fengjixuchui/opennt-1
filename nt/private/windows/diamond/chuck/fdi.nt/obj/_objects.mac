@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\fdi.obj \
+    $(_OBJ_DIR)\alpha\checksum.obj \
+    $(_OBJ_DIR)\alpha\erf.obj \
+    $(_OBJ_DIR)\alpha\asrt.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\fdi.obj \
+    $(_OBJ_DIR)\mips\checksum.obj \
+    $(_OBJ_DIR)\mips\erf.obj \
+    $(_OBJ_DIR)\mips\asrt.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\fdi.obj \
+    $(_OBJ_DIR)\i386\checksum.obj \
+    $(_OBJ_DIR)\i386\erf.obj \
+    $(_OBJ_DIR)\i386\asrt.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\fdi.obj \
+    $(_OBJ_DIR)\ppc\checksum.obj \
+    $(_OBJ_DIR)\ppc\erf.obj \
+    $(_OBJ_DIR)\ppc\asrt.obj
+
+PASS0_PPC_OBJECTS=
+

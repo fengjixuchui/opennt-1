@@ -1,0 +1,33 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\patchdll.res \
+    $(_OBJ_DIR)\alpha\dllinit.obj \
+    $(_OBJ_DIR)\alpha\patchdll.obj \
+    $(_OBJ_DIR)\alpha\nt_ob.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\patchdll.res \
+    $(_OBJ_DIR)\mips\dllinit.obj \
+    $(_OBJ_DIR)\mips\patchdll.obj \
+    $(_OBJ_DIR)\mips\nt_ob.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\patchdll.res \
+    $(_OBJ_DIR)\i386\syspart.obj \
+    $(_OBJ_DIR)\i386\dllinit.obj \
+    $(_OBJ_DIR)\i386\patchdll.obj \
+    $(_OBJ_DIR)\i386\nt_ob.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\patchdll.res \
+    $(_OBJ_DIR)\ppc\dllinit.obj \
+    $(_OBJ_DIR)\ppc\patchdll.obj \
+    $(_OBJ_DIR)\ppc\nt_ob.obj
+
+PASS0_PPC_OBJECTS=
+

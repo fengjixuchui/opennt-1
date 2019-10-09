@@ -1,0 +1,52 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LIBRARY gizmobar
+
+DESCRIPTION  'GIZMOBAR'
+
+EXPORTS
+    GizmoPAllocate
+    GizmosExpand
+    GizmoPFree
+    GizmosCompact
+    GizmoPFind
+    GizmoPEnum
+    GizmoPStateSet
+    GizmoPCheck
+    GBGizmoAdd
+    GBGizmoEnable
+    GBGizmoFocusSet
+    GBGizmoSendMessage
+    GBGizmoTextGet
+    GBGizmoTextSet
+    GBHwndAssociateSet
+
+
+

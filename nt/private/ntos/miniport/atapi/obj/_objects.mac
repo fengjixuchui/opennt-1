@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\atapi.res \
+    $(_OBJ_DIR)\alpha\atapi.obj \
+    $(_OBJ_DIR)\alpha\intel.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\atapi.res \
+    $(_OBJ_DIR)\mips\atapi.obj \
+    $(_OBJ_DIR)\mips\intel.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\atapi.res \
+    $(_OBJ_DIR)\i386\atapi.obj \
+    $(_OBJ_DIR)\i386\intel.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\atapi.res \
+    $(_OBJ_DIR)\ppc\atapi.obj \
+    $(_OBJ_DIR)\ppc\intel.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ureg.res \
+    $(_OBJ_DIR)\alpha\regvalue.obj \
+    $(_OBJ_DIR)\alpha\regkey.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\ureg.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ureg.res \
+    $(_OBJ_DIR)\mips\regvalue.obj \
+    $(_OBJ_DIR)\mips\regkey.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\ureg.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ureg.res \
+    $(_OBJ_DIR)\i386\regvalue.obj \
+    $(_OBJ_DIR)\i386\regkey.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\ureg.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ureg.res \
+    $(_OBJ_DIR)\ppc\regvalue.obj \
+    $(_OBJ_DIR)\ppc\regkey.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\ureg.obj
+
+PASS0_PPC_OBJECTS=
+

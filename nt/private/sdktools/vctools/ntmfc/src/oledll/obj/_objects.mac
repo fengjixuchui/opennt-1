@@ -1,0 +1,146 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mfcole.res \
+    $(_OBJ_DIR)\alpha\dllole.obj \
+    $(_OBJ_DIR)\alpha\olebar.obj \
+    $(_OBJ_DIR)\alpha\olecall.obj \
+    $(_OBJ_DIR)\alpha\olecli1.obj \
+    $(_OBJ_DIR)\alpha\olecli2.obj \
+    $(_OBJ_DIR)\alpha\olecli3.obj \
+    $(_OBJ_DIR)\alpha\oledobj1.obj \
+    $(_OBJ_DIR)\alpha\oledobj2.obj \
+    $(_OBJ_DIR)\alpha\oledisp1.obj \
+    $(_OBJ_DIR)\alpha\oledisp2.obj \
+    $(_OBJ_DIR)\alpha\oledlgs1.obj \
+    $(_OBJ_DIR)\alpha\oledlgs2.obj \
+    $(_OBJ_DIR)\alpha\oledoc1.obj \
+    $(_OBJ_DIR)\alpha\oledoc2.obj \
+    $(_OBJ_DIR)\alpha\oledrop1.obj \
+    $(_OBJ_DIR)\alpha\oledrop2.obj \
+    $(_OBJ_DIR)\alpha\oleenum.obj \
+    $(_OBJ_DIR)\alpha\olefact.obj \
+    $(_OBJ_DIR)\alpha\oleinit.obj \
+    $(_OBJ_DIR)\alpha\oleipfrm.obj \
+    $(_OBJ_DIR)\alpha\olelink.obj \
+    $(_OBJ_DIR)\alpha\olemisc.obj \
+    $(_OBJ_DIR)\alpha\olemsgf.obj \
+    $(_OBJ_DIR)\alpha\olereg.obj \
+    $(_OBJ_DIR)\alpha\olestrm.obj \
+    $(_OBJ_DIR)\alpha\olesvr1.obj \
+    $(_OBJ_DIR)\alpha\olesvr2.obj \
+    $(_OBJ_DIR)\alpha\oletsvr.obj \
+    $(_OBJ_DIR)\alpha\oleui1.obj \
+    $(_OBJ_DIR)\alpha\oleui2.obj \
+    $(_OBJ_DIR)\alpha\oleunk.obj \
+    $(_OBJ_DIR)\alpha\olecallx.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mfcole.res \
+    $(_OBJ_DIR)\mips\dllole.obj \
+    $(_OBJ_DIR)\mips\olebar.obj \
+    $(_OBJ_DIR)\mips\olecall.obj \
+    $(_OBJ_DIR)\mips\olecli1.obj \
+    $(_OBJ_DIR)\mips\olecli2.obj \
+    $(_OBJ_DIR)\mips\olecli3.obj \
+    $(_OBJ_DIR)\mips\oledobj1.obj \
+    $(_OBJ_DIR)\mips\oledobj2.obj \
+    $(_OBJ_DIR)\mips\oledisp1.obj \
+    $(_OBJ_DIR)\mips\oledisp2.obj \
+    $(_OBJ_DIR)\mips\oledlgs1.obj \
+    $(_OBJ_DIR)\mips\oledlgs2.obj \
+    $(_OBJ_DIR)\mips\oledoc1.obj \
+    $(_OBJ_DIR)\mips\oledoc2.obj \
+    $(_OBJ_DIR)\mips\oledrop1.obj \
+    $(_OBJ_DIR)\mips\oledrop2.obj \
+    $(_OBJ_DIR)\mips\oleenum.obj \
+    $(_OBJ_DIR)\mips\olefact.obj \
+    $(_OBJ_DIR)\mips\oleinit.obj \
+    $(_OBJ_DIR)\mips\oleipfrm.obj \
+    $(_OBJ_DIR)\mips\olelink.obj \
+    $(_OBJ_DIR)\mips\olemisc.obj \
+    $(_OBJ_DIR)\mips\olemsgf.obj \
+    $(_OBJ_DIR)\mips\olereg.obj \
+    $(_OBJ_DIR)\mips\olestrm.obj \
+    $(_OBJ_DIR)\mips\olesvr1.obj \
+    $(_OBJ_DIR)\mips\olesvr2.obj \
+    $(_OBJ_DIR)\mips\oletsvr.obj \
+    $(_OBJ_DIR)\mips\oleui1.obj \
+    $(_OBJ_DIR)\mips\oleui2.obj \
+    $(_OBJ_DIR)\mips\oleunk.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mfcole.res \
+    $(_OBJ_DIR)\i386\dllole.obj \
+    $(_OBJ_DIR)\i386\olebar.obj \
+    $(_OBJ_DIR)\i386\olecall.obj \
+    $(_OBJ_DIR)\i386\olecli1.obj \
+    $(_OBJ_DIR)\i386\olecli2.obj \
+    $(_OBJ_DIR)\i386\olecli3.obj \
+    $(_OBJ_DIR)\i386\oledobj1.obj \
+    $(_OBJ_DIR)\i386\oledobj2.obj \
+    $(_OBJ_DIR)\i386\oledisp1.obj \
+    $(_OBJ_DIR)\i386\oledisp2.obj \
+    $(_OBJ_DIR)\i386\oledlgs1.obj \
+    $(_OBJ_DIR)\i386\oledlgs2.obj \
+    $(_OBJ_DIR)\i386\oledoc1.obj \
+    $(_OBJ_DIR)\i386\oledoc2.obj \
+    $(_OBJ_DIR)\i386\oledrop1.obj \
+    $(_OBJ_DIR)\i386\oledrop2.obj \
+    $(_OBJ_DIR)\i386\oleenum.obj \
+    $(_OBJ_DIR)\i386\olefact.obj \
+    $(_OBJ_DIR)\i386\oleinit.obj \
+    $(_OBJ_DIR)\i386\oleipfrm.obj \
+    $(_OBJ_DIR)\i386\olelink.obj \
+    $(_OBJ_DIR)\i386\olemisc.obj \
+    $(_OBJ_DIR)\i386\olemsgf.obj \
+    $(_OBJ_DIR)\i386\olereg.obj \
+    $(_OBJ_DIR)\i386\olestrm.obj \
+    $(_OBJ_DIR)\i386\olesvr1.obj \
+    $(_OBJ_DIR)\i386\olesvr2.obj \
+    $(_OBJ_DIR)\i386\oletsvr.obj \
+    $(_OBJ_DIR)\i386\oleui1.obj \
+    $(_OBJ_DIR)\i386\oleui2.obj \
+    $(_OBJ_DIR)\i386\oleunk.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mfcole.res \
+    $(_OBJ_DIR)\ppc\dllole.obj \
+    $(_OBJ_DIR)\ppc\olebar.obj \
+    $(_OBJ_DIR)\ppc\olecall.obj \
+    $(_OBJ_DIR)\ppc\olecli1.obj \
+    $(_OBJ_DIR)\ppc\olecli2.obj \
+    $(_OBJ_DIR)\ppc\olecli3.obj \
+    $(_OBJ_DIR)\ppc\oledobj1.obj \
+    $(_OBJ_DIR)\ppc\oledobj2.obj \
+    $(_OBJ_DIR)\ppc\oledisp1.obj \
+    $(_OBJ_DIR)\ppc\oledisp2.obj \
+    $(_OBJ_DIR)\ppc\oledlgs1.obj \
+    $(_OBJ_DIR)\ppc\oledlgs2.obj \
+    $(_OBJ_DIR)\ppc\oledoc1.obj \
+    $(_OBJ_DIR)\ppc\oledoc2.obj \
+    $(_OBJ_DIR)\ppc\oledrop1.obj \
+    $(_OBJ_DIR)\ppc\oledrop2.obj \
+    $(_OBJ_DIR)\ppc\oleenum.obj \
+    $(_OBJ_DIR)\ppc\olefact.obj \
+    $(_OBJ_DIR)\ppc\oleinit.obj \
+    $(_OBJ_DIR)\ppc\oleipfrm.obj \
+    $(_OBJ_DIR)\ppc\olelink.obj \
+    $(_OBJ_DIR)\ppc\olemisc.obj \
+    $(_OBJ_DIR)\ppc\olemsgf.obj \
+    $(_OBJ_DIR)\ppc\olereg.obj \
+    $(_OBJ_DIR)\ppc\olestrm.obj \
+    $(_OBJ_DIR)\ppc\olesvr1.obj \
+    $(_OBJ_DIR)\ppc\olesvr2.obj \
+    $(_OBJ_DIR)\ppc\oletsvr.obj \
+    $(_OBJ_DIR)\ppc\oleui1.obj \
+    $(_OBJ_DIR)\ppc\oleui2.obj \
+    $(_OBJ_DIR)\ppc\oleunk.obj \
+    $(_OBJ_DIR)\ppc\olecallx.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,392 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining w:\nt\private\posix directory tree for files to compile.
+BUILD: w:\nt\private\posix\client\psxdll.rc: w:\nt\public\sdk\inc\windows.h: cannot find include file <excpt.h>
+BUILD: w:\nt\private\posix\client\psxdll.rc: w:\nt\public\sdk\inc\windows.h: cannot find include file <stdarg.h>
+BUILD: w:\nt\private\posix\client\psxdll.rc: w:\nt\public\sdk\inc\winnt.h: cannot find include file <ctype.h>
+BUILD: w:\nt\private\posix\client\psxdll.rc: w:\nt\public\sdk\inc\winnt.h: cannot find include file <string.h>
+BUILD: w:\nt\private\posix\client\psxdll.rc: w:\nt\public\sdk\inc\winuser.h: cannot find include file <stdarg.h>
+BUILD: w:\nt\private\posix\client\psxdll.rc: w:\nt\public\sdk\inc\rpc.h: cannot find include file <excpt.h>
+BUILD: w:\nt\private\posix\client\psxdll.rc: w:\nt\public\sdk\inc\objbase.h: cannot find include file <stdlib.h>
+BUILD: w:\nt\private\posix\client\coninit.c: cannot find include file <stdio.h>
+BUILD: w:\nt\private\posix\client\coninit.c: psxdll.h: cannot find include file <excpt.h>
+BUILD: w:\nt\private\posix\client\coninit.c: psxdll.h: cannot find include file <string.h>
+BUILD: w:\nt\private\posix\client\coninit.c: psxdll.h: cannot find include file <limits.h>
+BUILD: w:\nt\private\posix\client\coninit.c: w:\nt\public\sdk\inc\nt.h: cannot find include file <excpt.h>
+BUILD: w:\nt\private\posix\client\coninit.c: w:\nt\public\sdk\inc\nt.h: cannot find include file <stdarg.h>
+BUILD: w:\nt\private\posix\client\coninit.c: w:\nt\public\sdk\inc\ntdef.h: cannot find include file <ctype.h>
+BUILD: w:\nt\private\posix\client\coninit.c: w:\nt\public\sdk\inc\ntrtl.h: cannot find include file <string.h>
+BUILD: w:\nt\private\posix\client\coninit.c: w:\nt\public\sdk\inc\posix\dirent.h: cannot find include file <limits.h>
+BUILD: w:\nt\private\posix\client\dllext.c: cannot find include file <stdio.h>
+BUILD: w:\nt\private\posix\client\dllio.c: cannot find include file <stdarg.h>
+BUILD: w:\nt\private\posix\client\dllproc.c: cannot find include file <time.h>
+BUILD: w:\nt\private\posix\client\dllproc.c: cannot find include file <string.h>
+BUILD: w:\nt\private\posix\client\dllproc.c: cannot find include file <stdarg.h>
+BUILD: w:\nt\private\posix\client\dllproc.c: w:\nt\public\sdk\inc\posix\sys\utsname.h: cannot find include file <limits.h>
+BUILD: w:\nt\private\posix\client\dllsig.c: cannot find include file <excpt.h>
+BUILD: w:\nt\private\posix\client\dllreg.c: cannot find include file <string.h>
+BUILD: w:\nt\private\posix\client\dllreg.c: cannot find include file <stdarg.h>
+BUILD: w:\nt\private\posix\client\stubs.c: cannot find include file <stdio.h>
+BUILD: w:\nt\private\posix\client\stubs.c: cannot find include file <stdlib.h>
+BUILD: w:\nt\private\posix\client\stubs.c: cannot find include file <setjmpex.h>
+BUILD: w:\nt\private\posix\client\sysdb.c: cannot find include file <stdio.h>
+Building generated files in w:\nt\private\posix\client ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+Building generated files in w:\nt\private\posix\programs\psxses ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+
+Stop. 
+
+Stop. 
+BUILD: Examining w:\nt\private\posix directory tree for files to compile. (2nd Pass)
+BUILD: w:\nt\private\posix\programs\bsdlib\bcopy.c: cannot find include file <string.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\bzero.c: cannot find include file <string.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\for2bak.c: cannot find include file <stdio.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\fts.c: cannot find include file <sys\param.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\fts.c: cannot find include file <stdlib.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\fts.c: cannot find include file <string.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\fts.c: w:\nt\private\posix\programs\inc\df\misc.h: cannot find include file <limits.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\getenv.c: cannot find include file <stdlib.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\getenv.c: cannot find include file <stddef.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\getenv.c: cannot find include file <string.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\getopt.c: cannot find include file <stdio.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\getopt.c: cannot find include file <stdlib.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\getopt.c: cannot find include file <string.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\index.c: cannot find include file <stdio.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\putenv.c: cannot find include file <stdlib.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\putenv.c: cannot find include file <string.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\pwcache.c: cannot find include file <stdio.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\pwcache.c: cannot find include file <string.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\rindex.c: cannot find include file <string.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\scandir.c: cannot find include file <stdlib.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\scandir.c: cannot find include file <string.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\setenv.c: cannot find include file <stddef.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\setenv.c: cannot find include file <stdlib.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\setenv.c: cannot find include file <string.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\setmode.c: cannot find include file <sys\param.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\setmode.c: cannot find include file <stdio.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\setmode.c: cannot find include file <stdlib.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\setmode.c: cannot find include file <ctype.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\snprintf.c: cannot find include file <stdio.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\snprintf.c: cannot find include file <stdarg.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\snprintf.c: cannot find include file <varargs.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\strmode.c: cannot find include file <string.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\stubs.c: cannot find include file <stdio.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\utimes.c: cannot find include file <stdio.h>
+BUILD: w:\nt\private\posix\programs\bsdlib\utimes.c: cannot find include file <time.h>
+BUILD: w:\nt\private\posix\programs\pax\append.c: pax.h: cannot find include file "limits.h"
+BUILD: w:\nt\private\posix\programs\pax\append.c: pax.h: cannot find include file <stdio.h>
+BUILD: w:\nt\private\posix\programs\pax\append.c: pax.h: cannot find include file <stdlib.h>
+BUILD: w:\nt\private\posix\programs\pax\append.c: pax.h: cannot find include file <ctype.h>
+BUILD: w:\nt\private\posix\programs\pax\append.c: pax.h: cannot find include file <sys\ioctl.h>
+BUILD: w:\nt\private\posix\programs\pax\append.c: pax.h: cannot find include file <ndir.h>
+BUILD: w:\nt\private\posix\programs\pax\append.c: pax.h: cannot find include file <sys\ndir.h>
+BUILD: w:\nt\private\posix\programs\pax\append.c: pax.h: cannot find include file <sys\dir.h>
+BUILD: w:\nt\private\posix\programs\pax\append.c: pax.h: cannot find include file <sys\sysmacros.h>
+BUILD: w:\nt\private\posix\programs\pax\append.c: pax.h: cannot find include file <sys\time.h>
+BUILD: w:\nt\private\posix\programs\pax\append.c: pax.h: cannot find include file <time.h>
+BUILD: w:\nt\private\posix\programs\pax\append.c: pax.h: cannot find include file <sys\inode.h>
+BUILD: w:\nt\private\posix\programs\pax\append.c: pax.h: cannot find include file <sys\param.h>
+BUILD: w:\nt\private\posix\programs\pax\append.c: pax.h: cannot find include file <sys\file.h>
+BUILD: w:\nt\private\posix\programs\pax\append.c: port.h: cannot find include file <string.h>
+BUILD: w:\nt\private\posix\programs\pax\append.c: port.h: cannot find include file <memory.h>
+BUILD: w:\nt\private\posix\programs\pax\getopt.c: cannot find include file <stdio.h>
+BUILD: w:\nt\private\posix\programs\pax\getopt.c: cannot find include file <string.h>
+BUILD: w:\nt\private\posix\programs\hello\psxhello.c: cannot find include file <stdio.h>
+Compiling w:\nt\private\posix\client directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 NOPASS0=1 386=1'
+	ml -c -coff -Cx -nologo -Ii386\ -I. -I..\inc -I\nt\public\sdk\inc\posix -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\posix -IW:\nt\public\sdk\inc\crt -Zm  /Zi -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1  -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -Fow:\nt\private\posix\client\obj\i386\psxthunk.obj i386\psxthunk.asm
+ Assembling: i386\psxthunk.asm
+i386\psxthunk.asm(35) : warning A4004: cannot ASSUME CS
+	lib -out:\nt\public\sdk\lib\i386\psxdll.lib @W:\tmp\nma03552.
+Microsoft (R) 32-Bit Library Manager Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-debugtype:cv 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-nodefaultlib 
+-machine:i386 
+-def:obj\i386\psxdll.def 
+\nt\public\sdk\lib\i386\ntdll.lib 
+obj\i386\psxdll.res 
+obj\i386\psxthunk.obj 
+obj\i386\coninit.obj 
+obj\i386\conreqst.obj 
+obj\i386\crtsup.obj 
+obj\i386\dllext.obj 
+obj\i386\dllfile.obj 
+obj\i386\dllinit.obj 
+obj\i386\dllio.obj 
+obj\i386\dllname.obj 
+obj\i386\dllproc.obj 
+obj\i386\dllsig.obj 
+obj\i386\dlltc.obj 
+obj\i386\dlltimer.obj 
+obj\i386\dllreg.obj 
+obj\i386\stubs.obj 
+obj\i386\sysdb.obj 
+   Creating library \nt\public\sdk\lib\i386\psxdll.lib and object \nt\public\sdk\lib\i386\psxdll.exp
+
+Stop. 
+Linking w:\nt\private\posix\psxss directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Linking w:\nt\private\posix\client directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Linking w:\nt\private\posix\programs\psxses directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Linking w:\nt\private\posix\programs\pax directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Linking w:\nt\private\posix\programs\hello directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	link -out:obj\i386\posix.exe -machine:i386 @W:\tmp\nma03440.
+	link -out:\nt\public\sdk\lib\i386\psxdll.dll -machine:i386 @W:\tmp\nma01844.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:console,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:mainCRTStartup 
+-optidata 
+obj\i386\posix.res 
+obj\i386\conreqst.obj 
+obj\i386\error.obj 
+obj\i386\kbdutil.obj 
+obj\i386\ntinitss.obj 
+obj\i386\ntreqst.obj 
+obj\i386\posix.obj 
+obj\i386\tmreqst.obj 
+obj\i386\util.obj 
+obj\i386\tcreqst.obj 
+obj\i386\terminp.obj 
+obj\i386\termoutp.obj 
+W:\nt\public\sdk\lib\i386\libcmt.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\smdll.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,psxdll 
+-subsystem:posix 
+-entry:PsxDllInitialize@12 
+\nt\public\sdk\lib\i386\psxdll.exp 
+obj\i386\psxdll.res 
+obj\i386\psxthunk.obj 
+obj\i386\coninit.obj 
+obj\i386\conreqst.obj 
+obj\i386\crtsup.obj 
+obj\i386\dllext.obj 
+obj\i386\dllfile.obj 
+obj\i386\dllinit.obj 
+obj\i386\dllio.obj 
+obj\i386\dllname.obj 
+obj\i386\dllproc.obj 
+obj\i386\dllsig.obj 
+obj\i386\dlltc.obj 
+obj\i386\dlltimer.obj 
+obj\i386\dllreg.obj 
+obj\i386\stubs.obj 
+obj\i386\sysdb.obj 
+\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\libcpsx.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+	link -out:obj\i386\pax.exe -machine:i386 @W:\tmp\nma00928.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:posix 
+-base:0xa00000 
+-entry:__PosixProcessStartup 
+-optidata 
+obj\i386\pax.res 
+obj\i386\append.obj 
+obj\i386\buffer.obj 
+obj\i386\cpio.obj 
+obj\i386\create.obj 
+obj\i386\extract.obj 
+obj\i386\fileio.obj 
+obj\i386\getopt.obj 
+obj\i386\link.obj 
+obj\i386\list.obj 
+obj\i386\mem.obj 
+obj\i386\namelist.obj 
+obj\i386\names.obj 
+obj\i386\pass.obj 
+obj\i386\pathname.obj 
+obj\i386\pax.obj 
+obj\i386\port.obj 
+obj\i386\regexp.obj 
+obj\i386\replace.obj 
+obj\i386\tar.obj 
+obj\i386\ttyio.obj 
+obj\i386\warn.obj 
+obj\i386\wildmat.obj 
+..\bsdlib\obj\i386\bsdpsx.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\libcpsx.lib 
+W:\nt\public\sdk\lib\i386\psxdll.lib 
+W:\nt\public\sdk\lib\i386\psxrtl.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a \nt\public\sdk\lib\i386\psxdll.dll
+	link -out:obj\i386\psxss.exe -machine:i386 @W:\tmp\nma03040.
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\posix.exe
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:windows,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,psxss 
+-entry:mainCRTStartup 
+-optidata 
+obj\i386\psxss.res 
+obj\i386\acledit.obj 
+obj\i386\apiinit.obj 
+obj\i386\apilistn.obj 
+obj\i386\apireqst.obj 
+obj\i386\concreat.obj 
+obj\i386\coninit.obj 
+obj\i386\conio.obj 
+obj\i386\consignl.obj 
+obj\i386\conthrds.obj 
+obj\i386\fdio.obj 
+obj\i386\fileio.obj 
+obj\i386\flocks.obj 
+obj\i386\lpipeio.obj 
+obj\i386\nullio.obj 
+obj\i386\procblk.obj 
+obj\i386\process.obj 
+obj\i386\psxss.obj 
+obj\i386\psxsup.obj 
+obj\i386\sbapi.obj 
+obj\i386\sbinit.obj 
+obj\i386\sbreqst.obj 
+obj\i386\session.obj 
+obj\i386\sigapi.obj 
+obj\i386\sigsup.obj 
+obj\i386\srvdebug.obj 
+obj\i386\srvfile.obj 
+obj\i386\srvhandl.obj 
+obj\i386\srvinit.obj 
+obj\i386\srvtask.obj 
+obj\i386\srvtc.obj 
+obj\i386\stub.obj 
+obj\i386\sysdb.obj 
+obj\i386\timer.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\smdll.lib 
+W:\nt\public\sdk\lib\i386\netapi32.lib 
+W:\nt\public\sdk\lib\i386\samlib.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+libcpsx.lib(atox.obj) : warning LNK4006: _atoi already defined in ntdll.lib(ntdll.dll); second definition ignored
+obj\i386\pax.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+
+Stop. 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\pax.exe
+
+Stop. 
+	link -out:obj\i386\psxhello.exe -machine:i386 @W:\tmp\nma01424.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-optidata 
+-base:0xa00000 
+-subsystem:posix 
+-entry:__PosixProcessStartup 
+obj\i386\psxhello.obj 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\libcpsx.lib 
+W:\nt\public\sdk\lib\i386\psxdll.lib 
+W:\nt\public\sdk\lib\i386\psxrtl.lib 
+
+Stop. 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\psxhello.exe
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\psxss.exe
+
+Stop. 
+
+Stop. 

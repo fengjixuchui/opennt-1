@@ -1,0 +1,120 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\syncui.res \
+    $(_OBJ_DIR)\alpha\atoms.obj \
+    $(_OBJ_DIR)\alpha\cache.obj \
+    $(_OBJ_DIR)\alpha\cbs.obj \
+    $(_OBJ_DIR)\alpha\comm.obj \
+    $(_OBJ_DIR)\alpha\cpath.obj \
+    $(_OBJ_DIR)\alpha\crl.obj \
+    $(_OBJ_DIR)\alpha\cstrings.obj \
+    $(_OBJ_DIR)\alpha\da.obj \
+    $(_OBJ_DIR)\alpha\dobj.obj \
+    $(_OBJ_DIR)\alpha\err.obj \
+    $(_OBJ_DIR)\alpha\ibrfext.obj \
+    $(_OBJ_DIR)\alpha\ibrfstg.obj \
+    $(_OBJ_DIR)\alpha\info.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\mem.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\oledup.obj \
+    $(_OBJ_DIR)\alpha\path.obj \
+    $(_OBJ_DIR)\alpha\recact.obj \
+    $(_OBJ_DIR)\alpha\state.obj \
+    $(_OBJ_DIR)\alpha\status.obj \
+    $(_OBJ_DIR)\alpha\strings.obj \
+    $(_OBJ_DIR)\alpha\thread.obj \
+    $(_OBJ_DIR)\alpha\twin.obj \
+    $(_OBJ_DIR)\alpha\update.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\syncui.res \
+    $(_OBJ_DIR)\mips\atoms.obj \
+    $(_OBJ_DIR)\mips\cache.obj \
+    $(_OBJ_DIR)\mips\cbs.obj \
+    $(_OBJ_DIR)\mips\comm.obj \
+    $(_OBJ_DIR)\mips\cpath.obj \
+    $(_OBJ_DIR)\mips\crl.obj \
+    $(_OBJ_DIR)\mips\cstrings.obj \
+    $(_OBJ_DIR)\mips\da.obj \
+    $(_OBJ_DIR)\mips\dobj.obj \
+    $(_OBJ_DIR)\mips\err.obj \
+    $(_OBJ_DIR)\mips\ibrfext.obj \
+    $(_OBJ_DIR)\mips\ibrfstg.obj \
+    $(_OBJ_DIR)\mips\info.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\mem.obj \
+    $(_OBJ_DIR)\mips\misc.obj \
+    $(_OBJ_DIR)\mips\oledup.obj \
+    $(_OBJ_DIR)\mips\path.obj \
+    $(_OBJ_DIR)\mips\recact.obj \
+    $(_OBJ_DIR)\mips\state.obj \
+    $(_OBJ_DIR)\mips\status.obj \
+    $(_OBJ_DIR)\mips\strings.obj \
+    $(_OBJ_DIR)\mips\thread.obj \
+    $(_OBJ_DIR)\mips\twin.obj \
+    $(_OBJ_DIR)\mips\update.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\syncui.res \
+    $(_OBJ_DIR)\i386\atoms.obj \
+    $(_OBJ_DIR)\i386\cache.obj \
+    $(_OBJ_DIR)\i386\cbs.obj \
+    $(_OBJ_DIR)\i386\comm.obj \
+    $(_OBJ_DIR)\i386\cpath.obj \
+    $(_OBJ_DIR)\i386\crl.obj \
+    $(_OBJ_DIR)\i386\cstrings.obj \
+    $(_OBJ_DIR)\i386\da.obj \
+    $(_OBJ_DIR)\i386\dobj.obj \
+    $(_OBJ_DIR)\i386\err.obj \
+    $(_OBJ_DIR)\i386\ibrfext.obj \
+    $(_OBJ_DIR)\i386\ibrfstg.obj \
+    $(_OBJ_DIR)\i386\info.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\mem.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\oledup.obj \
+    $(_OBJ_DIR)\i386\path.obj \
+    $(_OBJ_DIR)\i386\recact.obj \
+    $(_OBJ_DIR)\i386\state.obj \
+    $(_OBJ_DIR)\i386\status.obj \
+    $(_OBJ_DIR)\i386\strings.obj \
+    $(_OBJ_DIR)\i386\thread.obj \
+    $(_OBJ_DIR)\i386\twin.obj \
+    $(_OBJ_DIR)\i386\update.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\syncui.res \
+    $(_OBJ_DIR)\ppc\atoms.obj \
+    $(_OBJ_DIR)\ppc\cache.obj \
+    $(_OBJ_DIR)\ppc\cbs.obj \
+    $(_OBJ_DIR)\ppc\comm.obj \
+    $(_OBJ_DIR)\ppc\cpath.obj \
+    $(_OBJ_DIR)\ppc\crl.obj \
+    $(_OBJ_DIR)\ppc\cstrings.obj \
+    $(_OBJ_DIR)\ppc\da.obj \
+    $(_OBJ_DIR)\ppc\dobj.obj \
+    $(_OBJ_DIR)\ppc\err.obj \
+    $(_OBJ_DIR)\ppc\ibrfext.obj \
+    $(_OBJ_DIR)\ppc\ibrfstg.obj \
+    $(_OBJ_DIR)\ppc\info.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\mem.obj \
+    $(_OBJ_DIR)\ppc\misc.obj \
+    $(_OBJ_DIR)\ppc\oledup.obj \
+    $(_OBJ_DIR)\ppc\path.obj \
+    $(_OBJ_DIR)\ppc\recact.obj \
+    $(_OBJ_DIR)\ppc\state.obj \
+    $(_OBJ_DIR)\ppc\status.obj \
+    $(_OBJ_DIR)\ppc\strings.obj \
+    $(_OBJ_DIR)\ppc\thread.obj \
+    $(_OBJ_DIR)\ppc\twin.obj \
+    $(_OBJ_DIR)\ppc\update.obj
+
+PASS0_PPC_OBJECTS=
+

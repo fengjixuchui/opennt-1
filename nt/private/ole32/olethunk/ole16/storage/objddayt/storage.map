@@ -1,0 +1,243 @@
+
+ STORAGE
+
+ Start     Length     Name                   Class
+ 0001:0000 00234H     SEG_CODE_TEXT          CODE
+ 0001:0240 0044CH     _TEXT                  CODE
+ 0002:0000 00010H     NULL                   BEGDATA
+ 0002:0010 00090H     _DATA                  DATA
+ 0002:00A0 0000EH     CDATA                  DATA
+ 0002:00AE 00000H     XIFB                   DATA
+ 0002:00AE 00000H     XIF                    DATA
+ 0002:00AE 00000H     XIFE                   DATA
+ 0002:00AE 00000H     XIB                    DATA
+ 0002:00AE 00000H     XI                     DATA
+ 0002:00AE 00000H     XIE                    DATA
+ 0002:00AE 00000H     XPB                    DATA
+ 0002:00AE 00000H     XP                     DATA
+ 0002:00AE 00000H     XPE                    DATA
+ 0002:00AE 00000H     XCB                    DATA
+ 0002:00AE 00000H     XC                     DATA
+ 0002:00AE 00000H     XCE                    DATA
+ 0002:00AE 00000H     XCFB                   DATA
+ 0002:00AE 00000H     XCF                    DATA
+ 0002:00AE 00000H     XCFE                   DATA
+ 0002:00AE 0000CH     DBDATA                 DATA
+ 0002:00BA 00002H     XIQC                   DATA
+ 0002:00BC 00000H     CONST                  CONST
+ 0002:00BC 00019H     HDR                    MSG
+ 0002:00D5 000B1H     MSG                    MSG
+ 0002:0186 00002H     PAD                    MSG
+ 0002:0188 00001H     EPAD                   MSG
+ 0002:0190 00020H     _BSS                   BSS
+ 0002:01B0 00000H     XOB                    BSS
+ 0002:01B0 00000H     XO                     BSS
+ 0002:01B0 00000H     XOE                    BSS
+
+ Origin   Group
+ 0002:0   DGROUP
+
+ Address   Export                  Alias
+
+ 0001:006A DLLGETCLASSOBJECT       DLLGETCLASSOBJECT
+ 0001:00A1 STGCREATEDOCFILE        STGCREATEDOCFILE
+ 0001:00D8 STGCREATEDOCFILEONILOCKBYTES  STGCREATEDOCFILEONILOCKBYTES
+ 0001:018F STGISSTORAGEFILE        STGISSTORAGEFILE
+ 0001:01C6 STGISSTORAGEILOCKBYTES  STGISSTORAGEILOCKBYTES
+ 0001:010F STGOPENSTORAGE          STGOPENSTORAGE
+ 0001:014F STGOPENSTORAGEONILOCKBYTES  STGOPENSTORAGEONILOCKBYTES
+ 0001:01FD STGSETTIMES             STGSETTIMES
+ 0001:0050 WEP                     WEP
+ 0001:0678 ___ExportedStub         ___ExportedStub
+
+  Address         Publics by Name
+
+ 0000:0000  Imp  CALLOBJECTINWOWCHECKTHKMGR (COMPOBJ.204)
+ 0000:0000  Imp  CALLPROC32W          (KERNEL.CALLPROC32W)
+ 0001:006A       DLLGETCLASSOBJECT
+ 0000:0000  Imp  DOS3CALL             (KERNEL.102)
+ 0000:0000  Imp  FATALAPPEXIT         (KERNEL.137)
+ 0000:0000  Imp  FATALEXIT            (KERNEL.1)
+ 0000:0000  Imp  FREELIBRARY32W       (KERNEL.FREELIBRARY32W)
+ 0000:0000  Imp  GETPROCADDRESS32W    (KERNEL.GETPROCADDRESS32W)
+ 0000:0000  Imp  GETPROFILESTRING     (KERNEL.58)
+ 0000:0000  Imp  GETVDMPOINTER32W     (KERNEL.GETVDMPOINTER32W)
+ 0001:0000       LIBMAIN
+ 0000:0000  Imp  LOADLIBRARYEX32W     (KERNEL.LOADLIBRARYEX32W)
+ 0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
+ 0000:0008  Abs  pAtomTable
+ 0000:0006  Abs  pLocalHeap
+ 0000:000E  Abs  pStackBot
+ 0000:000C  Abs  pStackMin
+ 0000:000A  Abs  pStackTop
+ 0002:0004       rsrvptrs
+ 0001:00A1       STGCREATEDOCFILE
+ 0001:00D8       STGCREATEDOCFILEONILOCKBYTES
+ 0001:018F       STGISSTORAGEFILE
+ 0001:01C6       STGISSTORAGEILOCKBYTES
+ 0001:010F       STGOPENSTORAGE
+ 0001:014F       STGOPENSTORAGEONILOCKBYTES
+ 0001:01FD       STGSETTIMES
+ 0002:0040       STKHQQ
+ 0001:0050       WEP
+ 0002:0190       _edata
+ 0002:01B0       _end
+ 0002:008B       _environ
+ 0002:0062       _errno
+ 0001:04F9       _exit
+ 0001:02B4       _strtol
+ 0001:02A8       _strtoul
+ 0002:0010       _thk1InfoLevel
+ 0002:001A       _thk1InfoLevelString
+ 0002:0042       __aaltstkovr
+ 0002:0046       __acfinfo
+ 0000:9876  Abs  __acrtmsg
+ 0000:9876  Abs  __acrtused
+ 0000:9876  Abs  __acrtused2
+ 0000:D6D6  Abs  __aDBdoswp
+ 0002:009C       __adbgmsg
+ 0002:00B2       __aDBrterr
+ 0001:0274       __aFchkstk
+ 0002:0054       __aintdiv
+ 0001:03F0       __amsg_exit
+ 0001:0254       __aNchkstk
+ 0002:00C4       __caption
+ 0001:0516       __cexit
+ 0002:0094       __child
+ 0001:0274       __chkstk
+ 0001:040E       __cinit
+ 0001:03E6       __cintDIV
+ 0001:0595       __ctermsub
+ 0001:0527       __c_exit
+ 0002:006D       __doserrno
+ 0002:006A       __dosvermajor
+ 0002:006B       __dosverminor
+ 0002:0190       __edata
+ 0002:01B0       __end
+ 0001:0507       __exit
+ 0002:0058       __fac
+ 0002:00A2       __fpinit
+ 0000:9876  Abs  __fptaskdata
+ 0001:05F6       __fptrap
+ 0001:0668       __GetDGROUP
+ 0002:0097       __intno
+ 0002:006F       __nfile
+ 0001:05FC       __NMSG_TEXT
+ 0001:0633       __NMSG_WRITE
+ 0002:006D       __oserr
+ 0002:0071       __osfile
+ 0002:006A       __osmajor
+ 0002:006B       __osminor
+ 0002:006C       __osmode
+ 0002:006A       __osversion
+ 0002:0096       __ovlflag
+ 0002:0098       __ovlvec
+ 0002:008F       __pgmptr
+ 0002:0068       __psp
+ 0002:0066       __pspadr
+ 0002:0064       __umaskval
+ 0001:0251       __wflags
+ 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 0002:00B4       ___aDBexit
+ 0002:00B0       ___aDBswpchk
+ 0002:00AE       ___aDBswpflg
+ 0002:0085       ___argc
+ 0002:0087       ___argv
+ 0001:0678       ___ExportedStub
+ 0002:00BA       ___qczrinit
+
+  Address         Publics by Value
+
+ 0000:0000  Imp  CALLOBJECTINWOWCHECKTHKMGR (COMPOBJ.204)
+ 0000:0000  Imp  FATALAPPEXIT         (KERNEL.137)
+ 0000:0000  Imp  GETPROCADDRESS32W    (KERNEL.GETPROCADDRESS32W)
+ 0000:0000  Imp  GETPROFILESTRING     (KERNEL.58)
+ 0000:0000  Imp  CALLPROC32W          (KERNEL.CALLPROC32W)
+ 0000:0000  Imp  LOADLIBRARYEX32W     (KERNEL.LOADLIBRARYEX32W)
+ 0000:0000  Imp  FATALEXIT            (KERNEL.1)
+ 0000:0000  Imp  FREELIBRARY32W       (KERNEL.FREELIBRARY32W)
+ 0000:0000  Imp  DOS3CALL             (KERNEL.102)
+ 0000:0000  Imp  GETVDMPOINTER32W     (KERNEL.GETVDMPOINTER32W)
+ 0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
+ 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 0000:0006  Abs  pLocalHeap
+ 0000:0008  Abs  pAtomTable
+ 0000:000A  Abs  pStackTop
+ 0000:000C  Abs  pStackMin
+ 0000:000E  Abs  pStackBot
+ 0000:9876  Abs  __acrtused
+ 0000:9876  Abs  __acrtmsg
+ 0000:9876  Abs  __fptaskdata
+ 0000:9876  Abs  __acrtused2
+ 0000:D6D6  Abs  __aDBdoswp
+ 0001:0000       LIBMAIN
+ 0001:0050       WEP
+ 0001:006A       DLLGETCLASSOBJECT
+ 0001:00A1       STGCREATEDOCFILE
+ 0001:00D8       STGCREATEDOCFILEONILOCKBYTES
+ 0001:010F       STGOPENSTORAGE
+ 0001:014F       STGOPENSTORAGEONILOCKBYTES
+ 0001:018F       STGISSTORAGEFILE
+ 0001:01C6       STGISSTORAGEILOCKBYTES
+ 0001:01FD       STGSETTIMES
+ 0001:0251       __wflags
+ 0001:0254       __aNchkstk
+ 0001:0274       __aFchkstk
+ 0001:0274       __chkstk
+ 0001:02A8       _strtoul
+ 0001:02B4       _strtol
+ 0001:03E6       __cintDIV
+ 0001:03F0       __amsg_exit
+ 0001:040E       __cinit
+ 0001:04F9       _exit
+ 0001:0507       __exit
+ 0001:0516       __cexit
+ 0001:0527       __c_exit
+ 0001:0595       __ctermsub
+ 0001:05F6       __fptrap
+ 0001:05FC       __NMSG_TEXT
+ 0001:0633       __NMSG_WRITE
+ 0001:0668       __GetDGROUP
+ 0001:0678       ___ExportedStub
+ 0002:0004       rsrvptrs
+ 0002:0010       _thk1InfoLevel
+ 0002:001A       _thk1InfoLevelString
+ 0002:0040       STKHQQ
+ 0002:0042       __aaltstkovr
+ 0002:0046       __acfinfo
+ 0002:0054       __aintdiv
+ 0002:0058       __fac
+ 0002:0062       _errno
+ 0002:0064       __umaskval
+ 0002:0066       __pspadr
+ 0002:0068       __psp
+ 0002:006A       __osversion
+ 0002:006A       __osmajor
+ 0002:006A       __dosvermajor
+ 0002:006B       __osminor
+ 0002:006B       __dosverminor
+ 0002:006C       __osmode
+ 0002:006D       __doserrno
+ 0002:006D       __oserr
+ 0002:006F       __nfile
+ 0002:0071       __osfile
+ 0002:0085       ___argc
+ 0002:0087       ___argv
+ 0002:008B       _environ
+ 0002:008F       __pgmptr
+ 0002:0094       __child
+ 0002:0096       __ovlflag
+ 0002:0097       __intno
+ 0002:0098       __ovlvec
+ 0002:009C       __adbgmsg
+ 0002:00A2       __fpinit
+ 0002:00AE       ___aDBswpflg
+ 0002:00B0       ___aDBswpchk
+ 0002:00B2       __aDBrterr
+ 0002:00B4       ___aDBexit
+ 0002:00BA       ___qczrinit
+ 0002:00C4       __caption
+ 0002:0190       __edata
+ 0002:0190       _edata
+ 0002:01B0       _end
+ 0002:01B0       __end

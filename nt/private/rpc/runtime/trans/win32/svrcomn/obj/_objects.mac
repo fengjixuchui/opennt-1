@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\rpcltscm.res \
+    $(_OBJ_DIR)\alpha\lttcpsvr.obj \
+    $(_OBJ_DIR)\alpha\atname.obj \
+    $(_OBJ_DIR)\alpha\svrat.obj \
+    $(_OBJ_DIR)\alpha\winsock.obj \
+    $(_OBJ_DIR)\alpha\ipxsock.obj \
+    $(_OBJ_DIR)\alpha\nbltsvr.obj \
+    $(_OBJ_DIR)\alpha\common.obj \
+    $(_OBJ_DIR)\alpha\ltspxsvr.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\rpcltscm.res \
+    $(_OBJ_DIR)\mips\lttcpsvr.obj \
+    $(_OBJ_DIR)\mips\atname.obj \
+    $(_OBJ_DIR)\mips\svrat.obj \
+    $(_OBJ_DIR)\mips\winsock.obj \
+    $(_OBJ_DIR)\mips\ipxsock.obj \
+    $(_OBJ_DIR)\mips\nbltsvr.obj \
+    $(_OBJ_DIR)\mips\common.obj \
+    $(_OBJ_DIR)\mips\ltspxsvr.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\rpcltscm.res \
+    $(_OBJ_DIR)\i386\lttcpsvr.obj \
+    $(_OBJ_DIR)\i386\atname.obj \
+    $(_OBJ_DIR)\i386\svrat.obj \
+    $(_OBJ_DIR)\i386\winsock.obj \
+    $(_OBJ_DIR)\i386\ipxsock.obj \
+    $(_OBJ_DIR)\i386\nbltsvr.obj \
+    $(_OBJ_DIR)\i386\common.obj \
+    $(_OBJ_DIR)\i386\ltspxsvr.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\rpcltscm.res \
+    $(_OBJ_DIR)\ppc\lttcpsvr.obj \
+    $(_OBJ_DIR)\ppc\atname.obj \
+    $(_OBJ_DIR)\ppc\svrat.obj \
+    $(_OBJ_DIR)\ppc\winsock.obj \
+    $(_OBJ_DIR)\ppc\ipxsock.obj \
+    $(_OBJ_DIR)\ppc\nbltsvr.obj \
+    $(_OBJ_DIR)\ppc\common.obj \
+    $(_OBJ_DIR)\ppc\ltspxsvr.obj
+
+PASS0_PPC_OBJECTS=
+

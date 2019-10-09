@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\qci.obj \
+    $(_OBJ_DIR)\alpha\comp.obj \
+    $(_OBJ_DIR)\alpha\arith.obj \
+    $(_OBJ_DIR)\alpha\lz.obj \
+    $(_OBJ_DIR)\alpha\bit.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\qci.obj \
+    $(_OBJ_DIR)\mips\comp.obj \
+    $(_OBJ_DIR)\mips\arith.obj \
+    $(_OBJ_DIR)\mips\lz.obj \
+    $(_OBJ_DIR)\mips\bit.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\qci.obj \
+    $(_OBJ_DIR)\i386\comp.obj \
+    $(_OBJ_DIR)\i386\arith.obj \
+    $(_OBJ_DIR)\i386\lz.obj \
+    $(_OBJ_DIR)\i386\bit.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\qci.obj \
+    $(_OBJ_DIR)\ppc\comp.obj \
+    $(_OBJ_DIR)\ppc\arith.obj \
+    $(_OBJ_DIR)\ppc\lz.obj \
+    $(_OBJ_DIR)\ppc\bit.obj
+
+PASS0_PPC_OBJECTS=
+

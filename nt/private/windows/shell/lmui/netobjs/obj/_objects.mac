@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\app.res \
+    $(_OBJ_DIR)\alpha\dllmain.obj \
+    $(_OBJ_DIR)\alpha\pages.obj \
+    $(_OBJ_DIR)\alpha\ext.obj \
+    $(_OBJ_DIR)\alpha\ole.obj \
+    $(_OBJ_DIR)\alpha\util.obj
+
+PASS0_ALPHA_OBJECTS= \
+    obj\messages.h \
+    obj\messages.rc
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\app.res \
+    $(_OBJ_DIR)\mips\dllmain.obj \
+    $(_OBJ_DIR)\mips\pages.obj \
+    $(_OBJ_DIR)\mips\ext.obj \
+    $(_OBJ_DIR)\mips\ole.obj \
+    $(_OBJ_DIR)\mips\util.obj
+
+PASS0_MIPS_OBJECTS= \
+    obj\messages.h \
+    obj\messages.rc
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\app.res \
+    $(_OBJ_DIR)\i386\dllmain.obj \
+    $(_OBJ_DIR)\i386\pages.obj \
+    $(_OBJ_DIR)\i386\ext.obj \
+    $(_OBJ_DIR)\i386\ole.obj \
+    $(_OBJ_DIR)\i386\util.obj
+
+PASS0_386_OBJECTS= \
+    obj\messages.h \
+    obj\messages.rc
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\app.res \
+    $(_OBJ_DIR)\ppc\dllmain.obj \
+    $(_OBJ_DIR)\ppc\pages.obj \
+    $(_OBJ_DIR)\ppc\ext.obj \
+    $(_OBJ_DIR)\ppc\ole.obj \
+    $(_OBJ_DIR)\ppc\util.obj
+
+PASS0_PPC_OBJECTS= \
+    obj\messages.h \
+    obj\messages.rc
+

@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\diskcomp.res \
+    $(_OBJ_DIR)\alpha\diskcomp.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\diskcomp.res \
+    $(_OBJ_DIR)\mips\diskcomp.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\diskcomp.res \
+    $(_OBJ_DIR)\i386\diskcomp.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\diskcomp.res \
+    $(_OBJ_DIR)\ppc\diskcomp.obj
+
+PASS0_PPC_OBJECTS=
+

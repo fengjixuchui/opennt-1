@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\oleimpl.obj \
+    $(_OBJ_DIR)\alpha\iclisite.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\oleimpl.obj \
+    $(_OBJ_DIR)\mips\iclisite.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\oleimpl.obj \
+    $(_OBJ_DIR)\i386\iclisite.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\oleimpl.obj \
+    $(_OBJ_DIR)\ppc\iclisite.obj
+
+PASS0_PPC_OBJECTS=
+

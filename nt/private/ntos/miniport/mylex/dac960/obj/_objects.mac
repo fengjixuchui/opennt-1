@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dac960nt.res \
+    $(_OBJ_DIR)\alpha\dac960nt.obj \
+    $(_OBJ_DIR)\alpha\dacioctl.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dac960nt.res \
+    $(_OBJ_DIR)\mips\dac960nt.obj \
+    $(_OBJ_DIR)\mips\dacioctl.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dac960nt.res \
+    $(_OBJ_DIR)\i386\dac960nt.obj \
+    $(_OBJ_DIR)\i386\dacioctl.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dac960nt.res \
+    $(_OBJ_DIR)\ppc\dac960nt.obj \
+    $(_OBJ_DIR)\ppc\dacioctl.obj
+
+PASS0_PPC_OBJECTS=
+

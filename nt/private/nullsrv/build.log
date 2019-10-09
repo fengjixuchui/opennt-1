@@ -1,0 +1,74 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining w:\nt\private\nullsrv directory tree for files to compile.
+Linking w:\nt\private\nullsrv\server directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Linking w:\nt\private\nullsrv\client directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	link -out:obj\i386\nullt.exe -machine:i386 @W:\tmp\nma03192.
+	link -out:obj\i386\nullss.exe -machine:i386 @W:\tmp\nma02236.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-subsystem:console,4.00 
+-entry:mainCRTStartup 
+obj\i386\nullt.obj 
+obj\i386\nulllib.lib 
+\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,dbgss 
+-subsystem:console,4.00 
+-entry:mainCRTStartup 
+obj\i386\nullss.obj 
+obj\i386\nullss.lib 
+\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\nullt.exe
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\nullss.exe
+BINPLACE : warning BNP0000: no version resource detected for "w:\nt\private\nullsrv\server\obj\i386\nullss.exe"
+BINPLACE : warning BNP0000: no version resource detected for "w:\nt\private\nullsrv\client\obj\i386\nullt.exe"
+
+Stop. 
+
+Stop. 

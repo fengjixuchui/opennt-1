@@ -1,0 +1,60 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\trace.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\sleepn.obj \
+    $(_OBJ_DIR)\alpha\clink.obj \
+    $(_OBJ_DIR)\alpha\mem.obj \
+    $(_OBJ_DIR)\alpha\exec.obj \
+    $(_OBJ_DIR)\alpha\state.obj \
+    $(_OBJ_DIR)\alpha\threadm.obj \
+    $(_OBJ_DIR)\alpha\splutil.obj \
+    $(_OBJ_DIR)\alpha\string.obj \
+    $(_OBJ_DIR)\alpha\memblock.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\trace.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\sleepn.obj \
+    $(_OBJ_DIR)\mips\clink.obj \
+    $(_OBJ_DIR)\mips\mem.obj \
+    $(_OBJ_DIR)\mips\exec.obj \
+    $(_OBJ_DIR)\mips\state.obj \
+    $(_OBJ_DIR)\mips\threadm.obj \
+    $(_OBJ_DIR)\mips\splutil.obj \
+    $(_OBJ_DIR)\mips\string.obj \
+    $(_OBJ_DIR)\mips\memblock.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\trace.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\sleepn.obj \
+    $(_OBJ_DIR)\i386\clink.obj \
+    $(_OBJ_DIR)\i386\mem.obj \
+    $(_OBJ_DIR)\i386\exec.obj \
+    $(_OBJ_DIR)\i386\state.obj \
+    $(_OBJ_DIR)\i386\threadm.obj \
+    $(_OBJ_DIR)\i386\splutil.obj \
+    $(_OBJ_DIR)\i386\string.obj \
+    $(_OBJ_DIR)\i386\memblock.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\trace.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\sleepn.obj \
+    $(_OBJ_DIR)\ppc\clink.obj \
+    $(_OBJ_DIR)\ppc\mem.obj \
+    $(_OBJ_DIR)\ppc\exec.obj \
+    $(_OBJ_DIR)\ppc\state.obj \
+    $(_OBJ_DIR)\ppc\threadm.obj \
+    $(_OBJ_DIR)\ppc\splutil.obj \
+    $(_OBJ_DIR)\ppc\string.obj \
+    $(_OBJ_DIR)\ppc\memblock.obj
+
+PASS0_PPC_OBJECTS=
+

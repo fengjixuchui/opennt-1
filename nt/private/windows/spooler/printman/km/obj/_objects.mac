@@ -1,0 +1,76 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\res.res \
+    $(_OBJ_DIR)\alpha\printer.obj \
+    $(_OBJ_DIR)\alpha\arrow.obj \
+    $(_OBJ_DIR)\alpha\dialogs.obj \
+    $(_OBJ_DIR)\alpha\forms.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\data.obj \
+    $(_OBJ_DIR)\alpha\toolbar.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\security.obj \
+    $(_OBJ_DIR)\alpha\threads.obj \
+    $(_OBJ_DIR)\alpha\password.obj \
+    $(_OBJ_DIR)\alpha\reconn.obj \
+    $(_OBJ_DIR)\alpha\setupdlg.obj \
+    $(_OBJ_DIR)\alpha\format.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\res.res \
+    $(_OBJ_DIR)\mips\printer.obj \
+    $(_OBJ_DIR)\mips\arrow.obj \
+    $(_OBJ_DIR)\mips\dialogs.obj \
+    $(_OBJ_DIR)\mips\forms.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\data.obj \
+    $(_OBJ_DIR)\mips\toolbar.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\security.obj \
+    $(_OBJ_DIR)\mips\threads.obj \
+    $(_OBJ_DIR)\mips\password.obj \
+    $(_OBJ_DIR)\mips\reconn.obj \
+    $(_OBJ_DIR)\mips\setupdlg.obj \
+    $(_OBJ_DIR)\mips\format.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\res.res \
+    $(_OBJ_DIR)\i386\printer.obj \
+    $(_OBJ_DIR)\i386\arrow.obj \
+    $(_OBJ_DIR)\i386\dialogs.obj \
+    $(_OBJ_DIR)\i386\forms.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\data.obj \
+    $(_OBJ_DIR)\i386\toolbar.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\security.obj \
+    $(_OBJ_DIR)\i386\threads.obj \
+    $(_OBJ_DIR)\i386\password.obj \
+    $(_OBJ_DIR)\i386\reconn.obj \
+    $(_OBJ_DIR)\i386\setupdlg.obj \
+    $(_OBJ_DIR)\i386\format.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\res.res \
+    $(_OBJ_DIR)\ppc\printer.obj \
+    $(_OBJ_DIR)\ppc\arrow.obj \
+    $(_OBJ_DIR)\ppc\dialogs.obj \
+    $(_OBJ_DIR)\ppc\forms.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\data.obj \
+    $(_OBJ_DIR)\ppc\toolbar.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\security.obj \
+    $(_OBJ_DIR)\ppc\threads.obj \
+    $(_OBJ_DIR)\ppc\password.obj \
+    $(_OBJ_DIR)\ppc\reconn.obj \
+    $(_OBJ_DIR)\ppc\setupdlg.obj \
+    $(_OBJ_DIR)\ppc\format.obj
+
+PASS0_PPC_OBJECTS=
+

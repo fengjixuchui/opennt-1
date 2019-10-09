@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\client.obj \
+    $(_OBJ_DIR)\alpha\pswrd.obj \
+    $(_OBJ_DIR)\alpha\reg.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\client.obj \
+    $(_OBJ_DIR)\mips\pswrd.obj \
+    $(_OBJ_DIR)\mips\reg.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\client.obj \
+    $(_OBJ_DIR)\i386\pswrd.obj \
+    $(_OBJ_DIR)\i386\reg.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\client.obj \
+    $(_OBJ_DIR)\ppc\pswrd.obj \
+    $(_OBJ_DIR)\ppc\reg.obj
+
+PASS0_PPC_OBJECTS=
+

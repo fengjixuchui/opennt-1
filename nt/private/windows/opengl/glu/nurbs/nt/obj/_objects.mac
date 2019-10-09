@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\glue.obj \
+    $(_OBJ_DIR)\alpha\errinit.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\glue.obj \
+    $(_OBJ_DIR)\mips\errinit.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\glue.obj \
+    $(_OBJ_DIR)\i386\errinit.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\glue.obj \
+    $(_OBJ_DIR)\ppc\errinit.obj
+
+PASS0_PPC_OBJECTS=
+

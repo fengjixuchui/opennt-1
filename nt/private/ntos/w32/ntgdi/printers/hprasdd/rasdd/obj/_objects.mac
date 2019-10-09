@@ -1,0 +1,160 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\rasdd.res \
+    $(_OBJ_DIR)\alpha\enabldrv.obj \
+    $(_OBJ_DIR)\alpha\enablpdv.obj \
+    $(_OBJ_DIR)\alpha\enablsrf.obj \
+    $(_OBJ_DIR)\alpha\udenable.obj \
+    $(_OBJ_DIR)\alpha\posnsort.obj \
+    $(_OBJ_DIR)\alpha\render.obj \
+    $(_OBJ_DIR)\alpha\whiteskp.obj \
+    $(_OBJ_DIR)\alpha\udphyscl.obj \
+    $(_OBJ_DIR)\alpha\page.obj \
+    $(_OBJ_DIR)\alpha\transpos.obj \
+    $(_OBJ_DIR)\alpha\escape.obj \
+    $(_OBJ_DIR)\alpha\udfntint.obj \
+    $(_OBJ_DIR)\alpha\qeryfont.obj \
+    $(_OBJ_DIR)\alpha\textout.obj \
+    $(_OBJ_DIR)\alpha\fonts.obj \
+    $(_OBJ_DIR)\alpha\qfontree.obj \
+    $(_OBJ_DIR)\alpha\qfontdat.obj \
+    $(_OBJ_DIR)\alpha\fontfree.obj \
+    $(_OBJ_DIR)\alpha\devmode.obj \
+    $(_OBJ_DIR)\alpha\rules.obj \
+    $(_OBJ_DIR)\alpha\stretch.obj \
+    $(_OBJ_DIR)\alpha\xtrafont.obj \
+    $(_OBJ_DIR)\alpha\download.obj \
+    $(_OBJ_DIR)\alpha\glyphmod.obj \
+    $(_OBJ_DIR)\alpha\compress.obj \
+    $(_OBJ_DIR)\alpha\dloadpcl.obj \
+    $(_OBJ_DIR)\alpha\ttdload.obj \
+    $(_OBJ_DIR)\alpha\qadvwdth.obj \
+    $(_OBJ_DIR)\alpha\uddjfont.obj \
+    $(_OBJ_DIR)\alpha\fntmanag.obj \
+    $(_OBJ_DIR)\alpha\lib.obj \
+    $(_OBJ_DIR)\alpha\render24.obj \
+    $(_OBJ_DIR)\alpha\initpal.obj \
+    $(_OBJ_DIR)\alpha\loadpal.obj \
+    $(_OBJ_DIR)\alpha\oem.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\rasdd.res \
+    $(_OBJ_DIR)\mips\enabldrv.obj \
+    $(_OBJ_DIR)\mips\enablpdv.obj \
+    $(_OBJ_DIR)\mips\enablsrf.obj \
+    $(_OBJ_DIR)\mips\udenable.obj \
+    $(_OBJ_DIR)\mips\posnsort.obj \
+    $(_OBJ_DIR)\mips\render.obj \
+    $(_OBJ_DIR)\mips\whiteskp.obj \
+    $(_OBJ_DIR)\mips\udphyscl.obj \
+    $(_OBJ_DIR)\mips\page.obj \
+    $(_OBJ_DIR)\mips\transpos.obj \
+    $(_OBJ_DIR)\mips\escape.obj \
+    $(_OBJ_DIR)\mips\udfntint.obj \
+    $(_OBJ_DIR)\mips\qeryfont.obj \
+    $(_OBJ_DIR)\mips\textout.obj \
+    $(_OBJ_DIR)\mips\fonts.obj \
+    $(_OBJ_DIR)\mips\qfontree.obj \
+    $(_OBJ_DIR)\mips\qfontdat.obj \
+    $(_OBJ_DIR)\mips\fontfree.obj \
+    $(_OBJ_DIR)\mips\devmode.obj \
+    $(_OBJ_DIR)\mips\rules.obj \
+    $(_OBJ_DIR)\mips\stretch.obj \
+    $(_OBJ_DIR)\mips\xtrafont.obj \
+    $(_OBJ_DIR)\mips\download.obj \
+    $(_OBJ_DIR)\mips\glyphmod.obj \
+    $(_OBJ_DIR)\mips\compress.obj \
+    $(_OBJ_DIR)\mips\dloadpcl.obj \
+    $(_OBJ_DIR)\mips\ttdload.obj \
+    $(_OBJ_DIR)\mips\qadvwdth.obj \
+    $(_OBJ_DIR)\mips\uddjfont.obj \
+    $(_OBJ_DIR)\mips\fntmanag.obj \
+    $(_OBJ_DIR)\mips\lib.obj \
+    $(_OBJ_DIR)\mips\render24.obj \
+    $(_OBJ_DIR)\mips\initpal.obj \
+    $(_OBJ_DIR)\mips\loadpal.obj \
+    $(_OBJ_DIR)\mips\oem.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\rasdd.res \
+    $(_OBJ_DIR)\i386\enabldrv.obj \
+    $(_OBJ_DIR)\i386\enablpdv.obj \
+    $(_OBJ_DIR)\i386\enablsrf.obj \
+    $(_OBJ_DIR)\i386\udenable.obj \
+    $(_OBJ_DIR)\i386\posnsort.obj \
+    $(_OBJ_DIR)\i386\render.obj \
+    $(_OBJ_DIR)\i386\whiteskp.obj \
+    $(_OBJ_DIR)\i386\udphyscl.obj \
+    $(_OBJ_DIR)\i386\page.obj \
+    $(_OBJ_DIR)\i386\transpos.obj \
+    $(_OBJ_DIR)\i386\escape.obj \
+    $(_OBJ_DIR)\i386\udfntint.obj \
+    $(_OBJ_DIR)\i386\qeryfont.obj \
+    $(_OBJ_DIR)\i386\textout.obj \
+    $(_OBJ_DIR)\i386\fonts.obj \
+    $(_OBJ_DIR)\i386\qfontree.obj \
+    $(_OBJ_DIR)\i386\qfontdat.obj \
+    $(_OBJ_DIR)\i386\fontfree.obj \
+    $(_OBJ_DIR)\i386\devmode.obj \
+    $(_OBJ_DIR)\i386\rules.obj \
+    $(_OBJ_DIR)\i386\stretch.obj \
+    $(_OBJ_DIR)\i386\xtrafont.obj \
+    $(_OBJ_DIR)\i386\download.obj \
+    $(_OBJ_DIR)\i386\glyphmod.obj \
+    $(_OBJ_DIR)\i386\compress.obj \
+    $(_OBJ_DIR)\i386\dloadpcl.obj \
+    $(_OBJ_DIR)\i386\ttdload.obj \
+    $(_OBJ_DIR)\i386\qadvwdth.obj \
+    $(_OBJ_DIR)\i386\uddjfont.obj \
+    $(_OBJ_DIR)\i386\fntmanag.obj \
+    $(_OBJ_DIR)\i386\lib.obj \
+    $(_OBJ_DIR)\i386\render24.obj \
+    $(_OBJ_DIR)\i386\initpal.obj \
+    $(_OBJ_DIR)\i386\loadpal.obj \
+    $(_OBJ_DIR)\i386\oem.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\rasdd.res \
+    $(_OBJ_DIR)\ppc\enabldrv.obj \
+    $(_OBJ_DIR)\ppc\enablpdv.obj \
+    $(_OBJ_DIR)\ppc\enablsrf.obj \
+    $(_OBJ_DIR)\ppc\udenable.obj \
+    $(_OBJ_DIR)\ppc\posnsort.obj \
+    $(_OBJ_DIR)\ppc\render.obj \
+    $(_OBJ_DIR)\ppc\whiteskp.obj \
+    $(_OBJ_DIR)\ppc\udphyscl.obj \
+    $(_OBJ_DIR)\ppc\page.obj \
+    $(_OBJ_DIR)\ppc\transpos.obj \
+    $(_OBJ_DIR)\ppc\escape.obj \
+    $(_OBJ_DIR)\ppc\udfntint.obj \
+    $(_OBJ_DIR)\ppc\qeryfont.obj \
+    $(_OBJ_DIR)\ppc\textout.obj \
+    $(_OBJ_DIR)\ppc\fonts.obj \
+    $(_OBJ_DIR)\ppc\qfontree.obj \
+    $(_OBJ_DIR)\ppc\qfontdat.obj \
+    $(_OBJ_DIR)\ppc\fontfree.obj \
+    $(_OBJ_DIR)\ppc\devmode.obj \
+    $(_OBJ_DIR)\ppc\rules.obj \
+    $(_OBJ_DIR)\ppc\stretch.obj \
+    $(_OBJ_DIR)\ppc\xtrafont.obj \
+    $(_OBJ_DIR)\ppc\download.obj \
+    $(_OBJ_DIR)\ppc\glyphmod.obj \
+    $(_OBJ_DIR)\ppc\compress.obj \
+    $(_OBJ_DIR)\ppc\dloadpcl.obj \
+    $(_OBJ_DIR)\ppc\ttdload.obj \
+    $(_OBJ_DIR)\ppc\qadvwdth.obj \
+    $(_OBJ_DIR)\ppc\uddjfont.obj \
+    $(_OBJ_DIR)\ppc\fntmanag.obj \
+    $(_OBJ_DIR)\ppc\lib.obj \
+    $(_OBJ_DIR)\ppc\render24.obj \
+    $(_OBJ_DIR)\ppc\initpal.obj \
+    $(_OBJ_DIR)\ppc\loadpal.obj \
+    $(_OBJ_DIR)\ppc\oem.obj
+
+PASS0_PPC_OBJECTS=
+

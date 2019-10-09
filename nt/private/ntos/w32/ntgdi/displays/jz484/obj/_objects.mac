@@ -1,0 +1,27 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\jaguars.obj \
+    $(_OBJ_DIR)\mips\res.res \
+    $(_OBJ_DIR)\mips\bitblt.obj \
+    $(_OBJ_DIR)\mips\color.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\enable.obj \
+    $(_OBJ_DIR)\mips\palette.obj \
+    $(_OBJ_DIR)\mips\pointer.obj \
+    $(_OBJ_DIR)\mips\screen.obj \
+    $(_OBJ_DIR)\mips\sync.obj \
+    $(_OBJ_DIR)\mips\text.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

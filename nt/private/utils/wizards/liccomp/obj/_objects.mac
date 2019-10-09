@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\lcwiz.res \
+    $(_OBJ_DIR)\alpha\lcwiz.obj \
+    $(_OBJ_DIR)\alpha\lcwizpgs.obj \
+    $(_OBJ_DIR)\alpha\lcwizsht.obj \
+    $(_OBJ_DIR)\alpha\nettree.obj \
+    $(_OBJ_DIR)\alpha\finpic.obj \
+    $(_OBJ_DIR)\alpha\transbmp.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\lcwiz.res \
+    $(_OBJ_DIR)\mips\lcwiz.obj \
+    $(_OBJ_DIR)\mips\lcwizpgs.obj \
+    $(_OBJ_DIR)\mips\lcwizsht.obj \
+    $(_OBJ_DIR)\mips\nettree.obj \
+    $(_OBJ_DIR)\mips\finpic.obj \
+    $(_OBJ_DIR)\mips\transbmp.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\lcwiz.res \
+    $(_OBJ_DIR)\i386\lcwiz.obj \
+    $(_OBJ_DIR)\i386\lcwizpgs.obj \
+    $(_OBJ_DIR)\i386\lcwizsht.obj \
+    $(_OBJ_DIR)\i386\nettree.obj \
+    $(_OBJ_DIR)\i386\finpic.obj \
+    $(_OBJ_DIR)\i386\transbmp.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\lcwiz.res \
+    $(_OBJ_DIR)\ppc\lcwiz.obj \
+    $(_OBJ_DIR)\ppc\lcwizpgs.obj \
+    $(_OBJ_DIR)\ppc\lcwizsht.obj \
+    $(_OBJ_DIR)\ppc\nettree.obj \
+    $(_OBJ_DIR)\ppc\finpic.obj \
+    $(_OBJ_DIR)\ppc\transbmp.obj
+
+PASS0_PPC_OBJECTS=
+

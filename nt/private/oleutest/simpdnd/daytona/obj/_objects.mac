@@ -1,0 +1,64 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\simpdnd.res \
+    $(_OBJ_DIR)\alpha\app.obj \
+    $(_OBJ_DIR)\alpha\doc.obj \
+    $(_OBJ_DIR)\alpha\dxferobj.obj \
+    $(_OBJ_DIR)\alpha\ias.obj \
+    $(_OBJ_DIR)\alpha\ids.obj \
+    $(_OBJ_DIR)\alpha\idt.obj \
+    $(_OBJ_DIR)\alpha\iocs.obj \
+    $(_OBJ_DIR)\alpha\pre.obj \
+    $(_OBJ_DIR)\alpha\simpdnd.obj \
+    $(_OBJ_DIR)\alpha\site.obj \
+    $(_OBJ_DIR)\alpha\tests.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\simpdnd.res \
+    $(_OBJ_DIR)\mips\app.obj \
+    $(_OBJ_DIR)\mips\doc.obj \
+    $(_OBJ_DIR)\mips\dxferobj.obj \
+    $(_OBJ_DIR)\mips\ias.obj \
+    $(_OBJ_DIR)\mips\ids.obj \
+    $(_OBJ_DIR)\mips\idt.obj \
+    $(_OBJ_DIR)\mips\iocs.obj \
+    $(_OBJ_DIR)\mips\pre.obj \
+    $(_OBJ_DIR)\mips\simpdnd.obj \
+    $(_OBJ_DIR)\mips\site.obj \
+    $(_OBJ_DIR)\mips\tests.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\simpdnd.res \
+    $(_OBJ_DIR)\i386\app.obj \
+    $(_OBJ_DIR)\i386\doc.obj \
+    $(_OBJ_DIR)\i386\dxferobj.obj \
+    $(_OBJ_DIR)\i386\ias.obj \
+    $(_OBJ_DIR)\i386\ids.obj \
+    $(_OBJ_DIR)\i386\idt.obj \
+    $(_OBJ_DIR)\i386\iocs.obj \
+    $(_OBJ_DIR)\i386\pre.obj \
+    $(_OBJ_DIR)\i386\simpdnd.obj \
+    $(_OBJ_DIR)\i386\site.obj \
+    $(_OBJ_DIR)\i386\tests.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\simpdnd.res \
+    $(_OBJ_DIR)\ppc\app.obj \
+    $(_OBJ_DIR)\ppc\doc.obj \
+    $(_OBJ_DIR)\ppc\dxferobj.obj \
+    $(_OBJ_DIR)\ppc\ias.obj \
+    $(_OBJ_DIR)\ppc\ids.obj \
+    $(_OBJ_DIR)\ppc\idt.obj \
+    $(_OBJ_DIR)\ppc\iocs.obj \
+    $(_OBJ_DIR)\ppc\pre.obj \
+    $(_OBJ_DIR)\ppc\simpdnd.obj \
+    $(_OBJ_DIR)\ppc\site.obj \
+    $(_OBJ_DIR)\ppc\tests.obj
+
+PASS0_PPC_OBJECTS=
+

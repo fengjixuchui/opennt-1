@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\always.res \
+    $(_OBJ_DIR)\alpha\33c93.obj \
+    $(_OBJ_DIR)\alpha\adapters.obj \
+    $(_OBJ_DIR)\alpha\in2000.obj \
+    $(_OBJ_DIR)\alpha\ntenv.obj \
+    $(_OBJ_DIR)\alpha\ntmgr.obj \
+    $(_OBJ_DIR)\alpha\rqm.obj \
+    $(_OBJ_DIR)\alpha\scsi.obj \
+    $(_OBJ_DIR)\alpha\intrlreq.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\always.res \
+    $(_OBJ_DIR)\mips\33c93.obj \
+    $(_OBJ_DIR)\mips\adapters.obj \
+    $(_OBJ_DIR)\mips\in2000.obj \
+    $(_OBJ_DIR)\mips\ntenv.obj \
+    $(_OBJ_DIR)\mips\ntmgr.obj \
+    $(_OBJ_DIR)\mips\rqm.obj \
+    $(_OBJ_DIR)\mips\scsi.obj \
+    $(_OBJ_DIR)\mips\intrlreq.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\always.res \
+    $(_OBJ_DIR)\i386\33c93.obj \
+    $(_OBJ_DIR)\i386\adapters.obj \
+    $(_OBJ_DIR)\i386\in2000.obj \
+    $(_OBJ_DIR)\i386\ntenv.obj \
+    $(_OBJ_DIR)\i386\ntmgr.obj \
+    $(_OBJ_DIR)\i386\rqm.obj \
+    $(_OBJ_DIR)\i386\scsi.obj \
+    $(_OBJ_DIR)\i386\intrlreq.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\always.res \
+    $(_OBJ_DIR)\ppc\33c93.obj \
+    $(_OBJ_DIR)\ppc\adapters.obj \
+    $(_OBJ_DIR)\ppc\in2000.obj \
+    $(_OBJ_DIR)\ppc\ntenv.obj \
+    $(_OBJ_DIR)\ppc\ntmgr.obj \
+    $(_OBJ_DIR)\ppc\rqm.obj \
+    $(_OBJ_DIR)\ppc\scsi.obj \
+    $(_OBJ_DIR)\ppc\intrlreq.obj
+
+PASS0_PPC_OBJECTS=
+

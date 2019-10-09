@@ -1,0 +1,136 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\res.res \
+    $(_OBJ_DIR)\alpha\lfn.obj \
+    $(_OBJ_DIR)\alpha\lfnmisc.obj \
+    $(_OBJ_DIR)\alpha\tbar.obj \
+    $(_OBJ_DIR)\alpha\treectl.obj \
+    $(_OBJ_DIR)\alpha\wfchgnot.obj \
+    $(_OBJ_DIR)\alpha\wfcomman.obj \
+    $(_OBJ_DIR)\alpha\wfdir.obj \
+    $(_OBJ_DIR)\alpha\wfdirsrc.obj \
+    $(_OBJ_DIR)\alpha\wfdlgs.obj \
+    $(_OBJ_DIR)\alpha\wfdlgs2.obj \
+    $(_OBJ_DIR)\alpha\wfdlgs3.obj \
+    $(_OBJ_DIR)\alpha\wfdos.obj \
+    $(_OBJ_DIR)\alpha\wfdrives.obj \
+    $(_OBJ_DIR)\alpha\wfext.obj \
+    $(_OBJ_DIR)\alpha\wffile.obj \
+    $(_OBJ_DIR)\alpha\wfinit.obj \
+    $(_OBJ_DIR)\alpha\wfprint.obj \
+    $(_OBJ_DIR)\alpha\wfsearch.obj \
+    $(_OBJ_DIR)\alpha\wftree.obj \
+    $(_OBJ_DIR)\alpha\wfutil.obj \
+    $(_OBJ_DIR)\alpha\wfcopy.obj \
+    $(_OBJ_DIR)\alpha\winfile.obj \
+    $(_OBJ_DIR)\alpha\numfmt.obj \
+    $(_OBJ_DIR)\alpha\suggest.obj \
+    $(_OBJ_DIR)\alpha\wfassoc.obj \
+    $(_OBJ_DIR)\alpha\wfinfo.obj \
+    $(_OBJ_DIR)\alpha\wnetcaps.obj \
+    $(_OBJ_DIR)\alpha\wfmem.obj \
+    $(_OBJ_DIR)\alpha\wfdirrd.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\res.res \
+    $(_OBJ_DIR)\mips\lfn.obj \
+    $(_OBJ_DIR)\mips\lfnmisc.obj \
+    $(_OBJ_DIR)\mips\tbar.obj \
+    $(_OBJ_DIR)\mips\treectl.obj \
+    $(_OBJ_DIR)\mips\wfchgnot.obj \
+    $(_OBJ_DIR)\mips\wfcomman.obj \
+    $(_OBJ_DIR)\mips\wfdir.obj \
+    $(_OBJ_DIR)\mips\wfdirsrc.obj \
+    $(_OBJ_DIR)\mips\wfdlgs.obj \
+    $(_OBJ_DIR)\mips\wfdlgs2.obj \
+    $(_OBJ_DIR)\mips\wfdlgs3.obj \
+    $(_OBJ_DIR)\mips\wfdos.obj \
+    $(_OBJ_DIR)\mips\wfdrives.obj \
+    $(_OBJ_DIR)\mips\wfext.obj \
+    $(_OBJ_DIR)\mips\wffile.obj \
+    $(_OBJ_DIR)\mips\wfinit.obj \
+    $(_OBJ_DIR)\mips\wfprint.obj \
+    $(_OBJ_DIR)\mips\wfsearch.obj \
+    $(_OBJ_DIR)\mips\wftree.obj \
+    $(_OBJ_DIR)\mips\wfutil.obj \
+    $(_OBJ_DIR)\mips\wfcopy.obj \
+    $(_OBJ_DIR)\mips\winfile.obj \
+    $(_OBJ_DIR)\mips\numfmt.obj \
+    $(_OBJ_DIR)\mips\suggest.obj \
+    $(_OBJ_DIR)\mips\wfassoc.obj \
+    $(_OBJ_DIR)\mips\wfinfo.obj \
+    $(_OBJ_DIR)\mips\wnetcaps.obj \
+    $(_OBJ_DIR)\mips\wfmem.obj \
+    $(_OBJ_DIR)\mips\wfdirrd.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\res.res \
+    $(_OBJ_DIR)\i386\lfn.obj \
+    $(_OBJ_DIR)\i386\lfnmisc.obj \
+    $(_OBJ_DIR)\i386\tbar.obj \
+    $(_OBJ_DIR)\i386\treectl.obj \
+    $(_OBJ_DIR)\i386\wfchgnot.obj \
+    $(_OBJ_DIR)\i386\wfcomman.obj \
+    $(_OBJ_DIR)\i386\wfdir.obj \
+    $(_OBJ_DIR)\i386\wfdirsrc.obj \
+    $(_OBJ_DIR)\i386\wfdlgs.obj \
+    $(_OBJ_DIR)\i386\wfdlgs2.obj \
+    $(_OBJ_DIR)\i386\wfdlgs3.obj \
+    $(_OBJ_DIR)\i386\wfdos.obj \
+    $(_OBJ_DIR)\i386\wfdrives.obj \
+    $(_OBJ_DIR)\i386\wfext.obj \
+    $(_OBJ_DIR)\i386\wffile.obj \
+    $(_OBJ_DIR)\i386\wfinit.obj \
+    $(_OBJ_DIR)\i386\wfprint.obj \
+    $(_OBJ_DIR)\i386\wfsearch.obj \
+    $(_OBJ_DIR)\i386\wftree.obj \
+    $(_OBJ_DIR)\i386\wfutil.obj \
+    $(_OBJ_DIR)\i386\wfcopy.obj \
+    $(_OBJ_DIR)\i386\winfile.obj \
+    $(_OBJ_DIR)\i386\numfmt.obj \
+    $(_OBJ_DIR)\i386\suggest.obj \
+    $(_OBJ_DIR)\i386\wfassoc.obj \
+    $(_OBJ_DIR)\i386\wfinfo.obj \
+    $(_OBJ_DIR)\i386\wnetcaps.obj \
+    $(_OBJ_DIR)\i386\wfmem.obj \
+    $(_OBJ_DIR)\i386\wfdirrd.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\res.res \
+    $(_OBJ_DIR)\ppc\lfn.obj \
+    $(_OBJ_DIR)\ppc\lfnmisc.obj \
+    $(_OBJ_DIR)\ppc\tbar.obj \
+    $(_OBJ_DIR)\ppc\treectl.obj \
+    $(_OBJ_DIR)\ppc\wfchgnot.obj \
+    $(_OBJ_DIR)\ppc\wfcomman.obj \
+    $(_OBJ_DIR)\ppc\wfdir.obj \
+    $(_OBJ_DIR)\ppc\wfdirsrc.obj \
+    $(_OBJ_DIR)\ppc\wfdlgs.obj \
+    $(_OBJ_DIR)\ppc\wfdlgs2.obj \
+    $(_OBJ_DIR)\ppc\wfdlgs3.obj \
+    $(_OBJ_DIR)\ppc\wfdos.obj \
+    $(_OBJ_DIR)\ppc\wfdrives.obj \
+    $(_OBJ_DIR)\ppc\wfext.obj \
+    $(_OBJ_DIR)\ppc\wffile.obj \
+    $(_OBJ_DIR)\ppc\wfinit.obj \
+    $(_OBJ_DIR)\ppc\wfprint.obj \
+    $(_OBJ_DIR)\ppc\wfsearch.obj \
+    $(_OBJ_DIR)\ppc\wftree.obj \
+    $(_OBJ_DIR)\ppc\wfutil.obj \
+    $(_OBJ_DIR)\ppc\wfcopy.obj \
+    $(_OBJ_DIR)\ppc\winfile.obj \
+    $(_OBJ_DIR)\ppc\numfmt.obj \
+    $(_OBJ_DIR)\ppc\suggest.obj \
+    $(_OBJ_DIR)\ppc\wfassoc.obj \
+    $(_OBJ_DIR)\ppc\wfinfo.obj \
+    $(_OBJ_DIR)\ppc\wnetcaps.obj \
+    $(_OBJ_DIR)\ppc\wfmem.obj \
+    $(_OBJ_DIR)\ppc\wfdirrd.obj
+
+PASS0_PPC_OBJECTS=
+

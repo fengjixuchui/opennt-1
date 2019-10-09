@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LIBRARY bttncur
+
+DESCRIPTION  'BTTNCUR'
+
+EXPORTS
+    UICursorLoad
+    UIToolConfigureForDisplay
+    UIToolButtonDraw
+    UIToolButtonDrawTDD
+
+

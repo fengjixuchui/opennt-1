@@ -1,0 +1,120 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\accessck.obj \
+    $(_OBJ_DIR)\alpha\capture.obj \
+    $(_OBJ_DIR)\alpha\privileg.obj \
+    $(_OBJ_DIR)\alpha\rmlogon.obj \
+    $(_OBJ_DIR)\alpha\rmmain.obj \
+    $(_OBJ_DIR)\alpha\rmvars.obj \
+    $(_OBJ_DIR)\alpha\seassign.obj \
+    $(_OBJ_DIR)\alpha\seaudit.obj \
+    $(_OBJ_DIR)\alpha\sepaudit.obj \
+    $(_OBJ_DIR)\alpha\seclient.obj \
+    $(_OBJ_DIR)\alpha\seglobal.obj \
+    $(_OBJ_DIR)\alpha\seinit.obj \
+    $(_OBJ_DIR)\alpha\semethod.obj \
+    $(_OBJ_DIR)\alpha\sep.obj \
+    $(_OBJ_DIR)\alpha\subject.obj \
+    $(_OBJ_DIR)\alpha\seastate.obj \
+    $(_OBJ_DIR)\alpha\token.obj \
+    $(_OBJ_DIR)\alpha\tokenadj.obj \
+    $(_OBJ_DIR)\alpha\tokendup.obj \
+    $(_OBJ_DIR)\alpha\tokenopn.obj \
+    $(_OBJ_DIR)\alpha\tokenqry.obj \
+    $(_OBJ_DIR)\alpha\tokenset.obj \
+    $(_OBJ_DIR)\alpha\adtlog.obj \
+    $(_OBJ_DIR)\alpha\adtinit.obj \
+    $(_OBJ_DIR)\alpha\adtvars.obj \
+    $(_OBJ_DIR)\alpha\rmaudit.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\accessck.obj \
+    $(_OBJ_DIR)\mips\capture.obj \
+    $(_OBJ_DIR)\mips\privileg.obj \
+    $(_OBJ_DIR)\mips\rmlogon.obj \
+    $(_OBJ_DIR)\mips\rmmain.obj \
+    $(_OBJ_DIR)\mips\rmvars.obj \
+    $(_OBJ_DIR)\mips\seassign.obj \
+    $(_OBJ_DIR)\mips\seaudit.obj \
+    $(_OBJ_DIR)\mips\sepaudit.obj \
+    $(_OBJ_DIR)\mips\seclient.obj \
+    $(_OBJ_DIR)\mips\seglobal.obj \
+    $(_OBJ_DIR)\mips\seinit.obj \
+    $(_OBJ_DIR)\mips\semethod.obj \
+    $(_OBJ_DIR)\mips\sep.obj \
+    $(_OBJ_DIR)\mips\subject.obj \
+    $(_OBJ_DIR)\mips\seastate.obj \
+    $(_OBJ_DIR)\mips\token.obj \
+    $(_OBJ_DIR)\mips\tokenadj.obj \
+    $(_OBJ_DIR)\mips\tokendup.obj \
+    $(_OBJ_DIR)\mips\tokenopn.obj \
+    $(_OBJ_DIR)\mips\tokenqry.obj \
+    $(_OBJ_DIR)\mips\tokenset.obj \
+    $(_OBJ_DIR)\mips\adtlog.obj \
+    $(_OBJ_DIR)\mips\adtinit.obj \
+    $(_OBJ_DIR)\mips\adtvars.obj \
+    $(_OBJ_DIR)\mips\rmaudit.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\accessck.obj \
+    $(_OBJ_DIR)\i386\capture.obj \
+    $(_OBJ_DIR)\i386\privileg.obj \
+    $(_OBJ_DIR)\i386\rmlogon.obj \
+    $(_OBJ_DIR)\i386\rmmain.obj \
+    $(_OBJ_DIR)\i386\rmvars.obj \
+    $(_OBJ_DIR)\i386\seassign.obj \
+    $(_OBJ_DIR)\i386\seaudit.obj \
+    $(_OBJ_DIR)\i386\sepaudit.obj \
+    $(_OBJ_DIR)\i386\seclient.obj \
+    $(_OBJ_DIR)\i386\seglobal.obj \
+    $(_OBJ_DIR)\i386\seinit.obj \
+    $(_OBJ_DIR)\i386\semethod.obj \
+    $(_OBJ_DIR)\i386\sep.obj \
+    $(_OBJ_DIR)\i386\subject.obj \
+    $(_OBJ_DIR)\i386\seastate.obj \
+    $(_OBJ_DIR)\i386\token.obj \
+    $(_OBJ_DIR)\i386\tokenadj.obj \
+    $(_OBJ_DIR)\i386\tokendup.obj \
+    $(_OBJ_DIR)\i386\tokenopn.obj \
+    $(_OBJ_DIR)\i386\tokenqry.obj \
+    $(_OBJ_DIR)\i386\tokenset.obj \
+    $(_OBJ_DIR)\i386\adtlog.obj \
+    $(_OBJ_DIR)\i386\adtinit.obj \
+    $(_OBJ_DIR)\i386\adtvars.obj \
+    $(_OBJ_DIR)\i386\rmaudit.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\accessck.obj \
+    $(_OBJ_DIR)\ppc\capture.obj \
+    $(_OBJ_DIR)\ppc\privileg.obj \
+    $(_OBJ_DIR)\ppc\rmlogon.obj \
+    $(_OBJ_DIR)\ppc\rmmain.obj \
+    $(_OBJ_DIR)\ppc\rmvars.obj \
+    $(_OBJ_DIR)\ppc\seassign.obj \
+    $(_OBJ_DIR)\ppc\seaudit.obj \
+    $(_OBJ_DIR)\ppc\sepaudit.obj \
+    $(_OBJ_DIR)\ppc\seclient.obj \
+    $(_OBJ_DIR)\ppc\seglobal.obj \
+    $(_OBJ_DIR)\ppc\seinit.obj \
+    $(_OBJ_DIR)\ppc\semethod.obj \
+    $(_OBJ_DIR)\ppc\sep.obj \
+    $(_OBJ_DIR)\ppc\subject.obj \
+    $(_OBJ_DIR)\ppc\seastate.obj \
+    $(_OBJ_DIR)\ppc\token.obj \
+    $(_OBJ_DIR)\ppc\tokenadj.obj \
+    $(_OBJ_DIR)\ppc\tokendup.obj \
+    $(_OBJ_DIR)\ppc\tokenopn.obj \
+    $(_OBJ_DIR)\ppc\tokenqry.obj \
+    $(_OBJ_DIR)\ppc\tokenset.obj \
+    $(_OBJ_DIR)\ppc\adtlog.obj \
+    $(_OBJ_DIR)\ppc\adtinit.obj \
+    $(_OBJ_DIR)\ppc\adtvars.obj \
+    $(_OBJ_DIR)\ppc\rmaudit.obj
+
+PASS0_PPC_OBJECTS=
+

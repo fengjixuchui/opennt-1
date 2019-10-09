@@ -1,0 +1,34 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\res.res \
+    $(_OBJ_DIR)\alpha\color.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\draw.obj \
+    $(_OBJ_DIR)\alpha\enable.obj \
+    $(_OBJ_DIR)\alpha\hardware.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\res.res \
+    $(_OBJ_DIR)\mips\color.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\draw.obj \
+    $(_OBJ_DIR)\mips\enable.obj \
+    $(_OBJ_DIR)\mips\hardware.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\res.res \
+    $(_OBJ_DIR)\ppc\color.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\draw.obj \
+    $(_OBJ_DIR)\ppc\enable.obj \
+    $(_OBJ_DIR)\ppc\hardware.obj
+
+PASS0_PPC_OBJECTS=
+

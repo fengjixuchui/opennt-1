@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\sstext3d.res \
+    $(_OBJ_DIR)\alpha\dialog.obj \
+    $(_OBJ_DIR)\alpha\sstext3d.obj \
+    $(_OBJ_DIR)\alpha\font.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\sstext3d.res \
+    $(_OBJ_DIR)\mips\dialog.obj \
+    $(_OBJ_DIR)\mips\sstext3d.obj \
+    $(_OBJ_DIR)\mips\font.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\sstext3d.res \
+    $(_OBJ_DIR)\i386\dialog.obj \
+    $(_OBJ_DIR)\i386\sstext3d.obj \
+    $(_OBJ_DIR)\i386\font.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\sstext3d.res \
+    $(_OBJ_DIR)\ppc\dialog.obj \
+    $(_OBJ_DIR)\ppc\sstext3d.obj \
+    $(_OBJ_DIR)\ppc\font.obj
+
+PASS0_PPC_OBJECTS=
+

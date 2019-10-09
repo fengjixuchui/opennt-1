@@ -1,0 +1,51 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining w:\nt\private\sm directory tree for files to compile.
+Linking w:\nt\private\sm\server directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	link -out:obj\i386\smss.exe -machine:i386 @W:\tmp\nma02828.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-WS:aggressive 
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:native,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,smss 
+-entry:NtProcessStartup@4 
+-optidata 
+obj\i386\smss.res 
+obj\i386\sminit.obj 
+obj\i386\smloop.obj 
+obj\i386\smsbapi.obj 
+obj\i386\smsmapi.obj 
+obj\i386\smsesnid.obj 
+obj\i386\smdbg.obj 
+obj\i386\dbginit.obj 
+obj\i386\dbgloop.obj 
+obj\i386\dbgssapi.obj 
+obj\i386\dbguiapi.obj 
+obj\i386\dbguisup.obj 
+obj\i386\dbgapsup.obj 
+obj\i386\smss.obj 
+obj\i386\dbgdump.obj 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\nt.lib 
+W:\nt\public\sdk\lib\i386\smdll.lib 
+W:\nt\public\sdk\lib\i386\int64.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\smss.exe
+
+Stop. 

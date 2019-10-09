@@ -1,0 +1,100 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\fontext.res \
+    $(_OBJ_DIR)\alpha\append.obj \
+    $(_OBJ_DIR)\alpha\cpsetup.obj \
+    $(_OBJ_DIR)\alpha\extinit.obj \
+    $(_OBJ_DIR)\alpha\fdir.obj \
+    $(_OBJ_DIR)\alpha\fontcl.obj \
+    $(_OBJ_DIR)\alpha\fontext.obj \
+    $(_OBJ_DIR)\alpha\fontlist.obj \
+    $(_OBJ_DIR)\alpha\fontman.obj \
+    $(_OBJ_DIR)\alpha\fontview.obj \
+    $(_OBJ_DIR)\alpha\fsnotify.obj \
+    $(_OBJ_DIR)\alpha\instfls.obj \
+    $(_OBJ_DIR)\alpha\lstrfns.obj \
+    $(_OBJ_DIR)\alpha\oeminf.obj \
+    $(_OBJ_DIR)\alpha\pfiles.obj \
+    $(_OBJ_DIR)\alpha\pfont.obj \
+    $(_OBJ_DIR)\alpha\pinstall.obj \
+    $(_OBJ_DIR)\alpha\putil.obj \
+    $(_OBJ_DIR)\alpha\strtab.obj \
+    $(_OBJ_DIR)\alpha\t1.obj \
+    $(_OBJ_DIR)\alpha\uimsg.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\fontext.res \
+    $(_OBJ_DIR)\mips\append.obj \
+    $(_OBJ_DIR)\mips\cpsetup.obj \
+    $(_OBJ_DIR)\mips\extinit.obj \
+    $(_OBJ_DIR)\mips\fdir.obj \
+    $(_OBJ_DIR)\mips\fontcl.obj \
+    $(_OBJ_DIR)\mips\fontext.obj \
+    $(_OBJ_DIR)\mips\fontlist.obj \
+    $(_OBJ_DIR)\mips\fontman.obj \
+    $(_OBJ_DIR)\mips\fontview.obj \
+    $(_OBJ_DIR)\mips\fsnotify.obj \
+    $(_OBJ_DIR)\mips\instfls.obj \
+    $(_OBJ_DIR)\mips\lstrfns.obj \
+    $(_OBJ_DIR)\mips\oeminf.obj \
+    $(_OBJ_DIR)\mips\pfiles.obj \
+    $(_OBJ_DIR)\mips\pfont.obj \
+    $(_OBJ_DIR)\mips\pinstall.obj \
+    $(_OBJ_DIR)\mips\putil.obj \
+    $(_OBJ_DIR)\mips\strtab.obj \
+    $(_OBJ_DIR)\mips\t1.obj \
+    $(_OBJ_DIR)\mips\uimsg.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\fontext.res \
+    $(_OBJ_DIR)\i386\append.obj \
+    $(_OBJ_DIR)\i386\cpsetup.obj \
+    $(_OBJ_DIR)\i386\extinit.obj \
+    $(_OBJ_DIR)\i386\fdir.obj \
+    $(_OBJ_DIR)\i386\fontcl.obj \
+    $(_OBJ_DIR)\i386\fontext.obj \
+    $(_OBJ_DIR)\i386\fontlist.obj \
+    $(_OBJ_DIR)\i386\fontman.obj \
+    $(_OBJ_DIR)\i386\fontview.obj \
+    $(_OBJ_DIR)\i386\fsnotify.obj \
+    $(_OBJ_DIR)\i386\instfls.obj \
+    $(_OBJ_DIR)\i386\lstrfns.obj \
+    $(_OBJ_DIR)\i386\oeminf.obj \
+    $(_OBJ_DIR)\i386\pfiles.obj \
+    $(_OBJ_DIR)\i386\pfont.obj \
+    $(_OBJ_DIR)\i386\pinstall.obj \
+    $(_OBJ_DIR)\i386\putil.obj \
+    $(_OBJ_DIR)\i386\strtab.obj \
+    $(_OBJ_DIR)\i386\t1.obj \
+    $(_OBJ_DIR)\i386\uimsg.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\fontext.res \
+    $(_OBJ_DIR)\ppc\append.obj \
+    $(_OBJ_DIR)\ppc\cpsetup.obj \
+    $(_OBJ_DIR)\ppc\extinit.obj \
+    $(_OBJ_DIR)\ppc\fdir.obj \
+    $(_OBJ_DIR)\ppc\fontcl.obj \
+    $(_OBJ_DIR)\ppc\fontext.obj \
+    $(_OBJ_DIR)\ppc\fontlist.obj \
+    $(_OBJ_DIR)\ppc\fontman.obj \
+    $(_OBJ_DIR)\ppc\fontview.obj \
+    $(_OBJ_DIR)\ppc\fsnotify.obj \
+    $(_OBJ_DIR)\ppc\instfls.obj \
+    $(_OBJ_DIR)\ppc\lstrfns.obj \
+    $(_OBJ_DIR)\ppc\oeminf.obj \
+    $(_OBJ_DIR)\ppc\pfiles.obj \
+    $(_OBJ_DIR)\ppc\pfont.obj \
+    $(_OBJ_DIR)\ppc\pinstall.obj \
+    $(_OBJ_DIR)\ppc\putil.obj \
+    $(_OBJ_DIR)\ppc\strtab.obj \
+    $(_OBJ_DIR)\ppc\t1.obj \
+    $(_OBJ_DIR)\ppc\uimsg.obj
+
+PASS0_PPC_OBJECTS=
+

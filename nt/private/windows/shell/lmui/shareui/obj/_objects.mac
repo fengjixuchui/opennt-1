@@ -1,0 +1,104 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\app.res \
+    $(_OBJ_DIR)\alpha\acl.obj \
+    $(_OBJ_DIR)\alpha\dlgbase.obj \
+    $(_OBJ_DIR)\alpha\dlgnew.obj \
+    $(_OBJ_DIR)\alpha\dllmain.obj \
+    $(_OBJ_DIR)\alpha\dutil.obj \
+    $(_OBJ_DIR)\alpha\enum.obj \
+    $(_OBJ_DIR)\alpha\ole.obj \
+    $(_OBJ_DIR)\alpha\menu.obj \
+    $(_OBJ_DIR)\alpha\menusp.obj \
+    $(_OBJ_DIR)\alpha\menubg.obj \
+    $(_OBJ_DIR)\alpha\menuutil.obj \
+    $(_OBJ_DIR)\alpha\pfolder.obj \
+    $(_OBJ_DIR)\alpha\rcomp.obj \
+    $(_OBJ_DIR)\alpha\sdetails.obj \
+    $(_OBJ_DIR)\alpha\sfolder.obj \
+    $(_OBJ_DIR)\alpha\shrinfo.obj \
+    $(_OBJ_DIR)\alpha\shrpage.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\xicon.obj
+
+PASS0_ALPHA_OBJECTS= \
+    obj\messages.h \
+    obj\messages.rc
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\app.res \
+    $(_OBJ_DIR)\mips\acl.obj \
+    $(_OBJ_DIR)\mips\dlgbase.obj \
+    $(_OBJ_DIR)\mips\dlgnew.obj \
+    $(_OBJ_DIR)\mips\dllmain.obj \
+    $(_OBJ_DIR)\mips\dutil.obj \
+    $(_OBJ_DIR)\mips\enum.obj \
+    $(_OBJ_DIR)\mips\ole.obj \
+    $(_OBJ_DIR)\mips\menu.obj \
+    $(_OBJ_DIR)\mips\menusp.obj \
+    $(_OBJ_DIR)\mips\menubg.obj \
+    $(_OBJ_DIR)\mips\menuutil.obj \
+    $(_OBJ_DIR)\mips\pfolder.obj \
+    $(_OBJ_DIR)\mips\rcomp.obj \
+    $(_OBJ_DIR)\mips\sdetails.obj \
+    $(_OBJ_DIR)\mips\sfolder.obj \
+    $(_OBJ_DIR)\mips\shrinfo.obj \
+    $(_OBJ_DIR)\mips\shrpage.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\xicon.obj
+
+PASS0_MIPS_OBJECTS= \
+    obj\messages.h \
+    obj\messages.rc
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\app.res \
+    $(_OBJ_DIR)\i386\acl.obj \
+    $(_OBJ_DIR)\i386\dlgbase.obj \
+    $(_OBJ_DIR)\i386\dlgnew.obj \
+    $(_OBJ_DIR)\i386\dllmain.obj \
+    $(_OBJ_DIR)\i386\dutil.obj \
+    $(_OBJ_DIR)\i386\enum.obj \
+    $(_OBJ_DIR)\i386\ole.obj \
+    $(_OBJ_DIR)\i386\menu.obj \
+    $(_OBJ_DIR)\i386\menusp.obj \
+    $(_OBJ_DIR)\i386\menubg.obj \
+    $(_OBJ_DIR)\i386\menuutil.obj \
+    $(_OBJ_DIR)\i386\pfolder.obj \
+    $(_OBJ_DIR)\i386\rcomp.obj \
+    $(_OBJ_DIR)\i386\sdetails.obj \
+    $(_OBJ_DIR)\i386\sfolder.obj \
+    $(_OBJ_DIR)\i386\shrinfo.obj \
+    $(_OBJ_DIR)\i386\shrpage.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\xicon.obj
+
+PASS0_386_OBJECTS= \
+    obj\messages.h \
+    obj\messages.rc
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\app.res \
+    $(_OBJ_DIR)\ppc\acl.obj \
+    $(_OBJ_DIR)\ppc\dlgbase.obj \
+    $(_OBJ_DIR)\ppc\dlgnew.obj \
+    $(_OBJ_DIR)\ppc\dllmain.obj \
+    $(_OBJ_DIR)\ppc\dutil.obj \
+    $(_OBJ_DIR)\ppc\enum.obj \
+    $(_OBJ_DIR)\ppc\ole.obj \
+    $(_OBJ_DIR)\ppc\menu.obj \
+    $(_OBJ_DIR)\ppc\menusp.obj \
+    $(_OBJ_DIR)\ppc\menubg.obj \
+    $(_OBJ_DIR)\ppc\menuutil.obj \
+    $(_OBJ_DIR)\ppc\pfolder.obj \
+    $(_OBJ_DIR)\ppc\rcomp.obj \
+    $(_OBJ_DIR)\ppc\sdetails.obj \
+    $(_OBJ_DIR)\ppc\sfolder.obj \
+    $(_OBJ_DIR)\ppc\shrinfo.obj \
+    $(_OBJ_DIR)\ppc\shrpage.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\xicon.obj
+
+PASS0_PPC_OBJECTS= \
+    obj\messages.h \
+    obj\messages.rc
+

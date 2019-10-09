@@ -1,0 +1,57 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\jxbeep.obj \
+    $(_OBJ_DIR)\mips\fxerrlog.obj \
+    $(_OBJ_DIR)\mips\fxbusdat.obj \
+    $(_OBJ_DIR)\mips\fxdat.obj \
+    $(_OBJ_DIR)\mips\fxinfo.obj \
+    $(_OBJ_DIR)\mips\fxnvram.obj \
+    $(_OBJ_DIR)\mips\jxenvirv.obj \
+    $(_OBJ_DIR)\mips\j4flshio.obj \
+    $(_OBJ_DIR)\mips\fxdisp.obj \
+    $(_OBJ_DIR)\mips\jxebsup.obj \
+    $(_OBJ_DIR)\mips\fxhwsup.obj \
+    $(_OBJ_DIR)\mips\fxpmpsup.obj \
+    $(_OBJ_DIR)\mips\fxpcibus.obj \
+    $(_OBJ_DIR)\mips\fxpcibrd.obj \
+    $(_OBJ_DIR)\mips\fxusage.obj \
+    $(_OBJ_DIR)\mips\jxmapio.obj \
+    $(_OBJ_DIR)\mips\jxmaptb.obj \
+    $(_OBJ_DIR)\mips\jxport.obj \
+    $(_OBJ_DIR)\mips\j4prof.obj \
+    $(_OBJ_DIR)\mips\jxreturn.obj \
+    $(_OBJ_DIR)\mips\jxsysint.obj \
+    $(_OBJ_DIR)\mips\jxtime.obj \
+    $(_OBJ_DIR)\mips\jxusage.obj \
+    $(_OBJ_DIR)\mips\rangesup.obj \
+    $(_OBJ_DIR)\mips\xxcalstl.obj \
+    $(_OBJ_DIR)\mips\xxinitnt.obj \
+    $(_OBJ_DIR)\mips\xxinithl.obj \
+    $(_OBJ_DIR)\mips\xxclock.obj \
+    $(_OBJ_DIR)\mips\x86bios.obj \
+    $(_OBJ_DIR)\mips\allstart.obj \
+    $(_OBJ_DIR)\mips\cacherr.obj \
+    $(_OBJ_DIR)\mips\fxintr.obj \
+    $(_OBJ_DIR)\mips\j4flshbf.obj \
+    $(_OBJ_DIR)\mips\j4cache.obj \
+    $(_OBJ_DIR)\mips\x4clock.obj \
+    $(_OBJ_DIR)\mips\xxipiint.obj \
+    $(_OBJ_DIR)\mips\x4tb.obj \
+    $(_OBJ_DIR)\mips\xxidle.obj \
+    $(_OBJ_DIR)\mips\hal.res \
+    $(_OBJ_DIR)\mips\drivesup.obj \
+    $(_OBJ_DIR)\mips\bushnd.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\res.res \
+    $(_OBJ_DIR)\alpha\fontview.obj \
+    $(_OBJ_DIR)\alpha\fmttools.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\res.res \
+    $(_OBJ_DIR)\mips\fontview.obj \
+    $(_OBJ_DIR)\mips\fmttools.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\res.res \
+    $(_OBJ_DIR)\i386\fontview.obj \
+    $(_OBJ_DIR)\i386\fmttools.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\res.res \
+    $(_OBJ_DIR)\ppc\fontview.obj \
+    $(_OBJ_DIR)\ppc\fmttools.obj
+
+PASS0_PPC_OBJECTS=
+

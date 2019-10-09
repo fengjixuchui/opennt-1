@@ -1,0 +1,60 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\midimap.res \
+    $(_OBJ_DIR)\alpha\drvproc.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\config.obj \
+    $(_OBJ_DIR)\alpha\modmsg.obj \
+    $(_OBJ_DIR)\alpha\modfix.obj \
+    $(_OBJ_DIR)\alpha\queue.obj \
+    $(_OBJ_DIR)\alpha\mididev.obj \
+    $(_OBJ_DIR)\alpha\file.obj \
+    $(_OBJ_DIR)\alpha\locks.obj \
+    $(_OBJ_DIR)\alpha\cookmap.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\midimap.res \
+    $(_OBJ_DIR)\mips\drvproc.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\config.obj \
+    $(_OBJ_DIR)\mips\modmsg.obj \
+    $(_OBJ_DIR)\mips\modfix.obj \
+    $(_OBJ_DIR)\mips\queue.obj \
+    $(_OBJ_DIR)\mips\mididev.obj \
+    $(_OBJ_DIR)\mips\file.obj \
+    $(_OBJ_DIR)\mips\locks.obj \
+    $(_OBJ_DIR)\mips\cookmap.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\midimap.res \
+    $(_OBJ_DIR)\i386\drvproc.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\modmsg.obj \
+    $(_OBJ_DIR)\i386\modfix.obj \
+    $(_OBJ_DIR)\i386\queue.obj \
+    $(_OBJ_DIR)\i386\mididev.obj \
+    $(_OBJ_DIR)\i386\file.obj \
+    $(_OBJ_DIR)\i386\locks.obj \
+    $(_OBJ_DIR)\i386\cookmap.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\midimap.res \
+    $(_OBJ_DIR)\ppc\drvproc.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\config.obj \
+    $(_OBJ_DIR)\ppc\modmsg.obj \
+    $(_OBJ_DIR)\ppc\modfix.obj \
+    $(_OBJ_DIR)\ppc\queue.obj \
+    $(_OBJ_DIR)\ppc\mididev.obj \
+    $(_OBJ_DIR)\ppc\file.obj \
+    $(_OBJ_DIR)\ppc\locks.obj \
+    $(_OBJ_DIR)\ppc\cookmap.obj
+
+PASS0_PPC_OBJECTS=
+

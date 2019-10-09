@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\kbdycc.res \
+    $(_OBJ_DIR)\alpha\kbdycc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\kbdycc.res \
+    $(_OBJ_DIR)\mips\kbdycc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\kbdycc.res \
+    $(_OBJ_DIR)\i386\kbdycc.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\kbdycc.res \
+    $(_OBJ_DIR)\ppc\kbdycc.obj
+
+PASS0_PPC_OBJECTS=
+

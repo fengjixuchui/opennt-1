@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ftdisk.res \
+    $(_OBJ_DIR)\alpha\config.obj \
+    $(_OBJ_DIR)\alpha\ftdisk.obj \
+    $(_OBJ_DIR)\alpha\ftutil.obj \
+    $(_OBJ_DIR)\alpha\mirror.obj \
+    $(_OBJ_DIR)\alpha\stripe.obj \
+    $(_OBJ_DIR)\alpha\thread.obj \
+    $(_OBJ_DIR)\alpha\volset.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ftdisk.res \
+    $(_OBJ_DIR)\mips\config.obj \
+    $(_OBJ_DIR)\mips\ftdisk.obj \
+    $(_OBJ_DIR)\mips\ftutil.obj \
+    $(_OBJ_DIR)\mips\mirror.obj \
+    $(_OBJ_DIR)\mips\stripe.obj \
+    $(_OBJ_DIR)\mips\thread.obj \
+    $(_OBJ_DIR)\mips\volset.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ftdisk.res \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\ftdisk.obj \
+    $(_OBJ_DIR)\i386\ftutil.obj \
+    $(_OBJ_DIR)\i386\mirror.obj \
+    $(_OBJ_DIR)\i386\stripe.obj \
+    $(_OBJ_DIR)\i386\thread.obj \
+    $(_OBJ_DIR)\i386\volset.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ftdisk.res \
+    $(_OBJ_DIR)\ppc\config.obj \
+    $(_OBJ_DIR)\ppc\ftdisk.obj \
+    $(_OBJ_DIR)\ppc\ftutil.obj \
+    $(_OBJ_DIR)\ppc\mirror.obj \
+    $(_OBJ_DIR)\ppc\stripe.obj \
+    $(_OBJ_DIR)\ppc\thread.obj \
+    $(_OBJ_DIR)\ppc\volset.obj
+
+PASS0_PPC_OBJECTS=
+

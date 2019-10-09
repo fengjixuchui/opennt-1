@@ -1,0 +1,88 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\eventlog.res \
+    $(_OBJ_DIR)\alpha\eventlog.obj \
+    $(_OBJ_DIR)\alpha\alert.obj \
+    $(_OBJ_DIR)\alpha\config.obj \
+    $(_OBJ_DIR)\alpha\control.obj \
+    $(_OBJ_DIR)\alpha\copy.obj \
+    $(_OBJ_DIR)\alpha\elfapi.obj \
+    $(_OBJ_DIR)\alpha\elfdata.obj \
+    $(_OBJ_DIR)\alpha\elflpc.obj \
+    $(_OBJ_DIR)\alpha\elfrpc.obj \
+    $(_OBJ_DIR)\alpha\elfsec.obj \
+    $(_OBJ_DIR)\alpha\elfutil.obj \
+    $(_OBJ_DIR)\alpha\elf_s.obj \
+    $(_OBJ_DIR)\alpha\file.obj \
+    $(_OBJ_DIR)\alpha\memory.obj \
+    $(_OBJ_DIR)\alpha\operate.obj \
+    $(_OBJ_DIR)\alpha\logclear.obj \
+    $(_OBJ_DIR)\alpha\terminat.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\eventlog.res \
+    $(_OBJ_DIR)\mips\eventlog.obj \
+    $(_OBJ_DIR)\mips\alert.obj \
+    $(_OBJ_DIR)\mips\config.obj \
+    $(_OBJ_DIR)\mips\control.obj \
+    $(_OBJ_DIR)\mips\copy.obj \
+    $(_OBJ_DIR)\mips\elfapi.obj \
+    $(_OBJ_DIR)\mips\elfdata.obj \
+    $(_OBJ_DIR)\mips\elflpc.obj \
+    $(_OBJ_DIR)\mips\elfrpc.obj \
+    $(_OBJ_DIR)\mips\elfsec.obj \
+    $(_OBJ_DIR)\mips\elfutil.obj \
+    $(_OBJ_DIR)\mips\elf_s.obj \
+    $(_OBJ_DIR)\mips\file.obj \
+    $(_OBJ_DIR)\mips\memory.obj \
+    $(_OBJ_DIR)\mips\operate.obj \
+    $(_OBJ_DIR)\mips\logclear.obj \
+    $(_OBJ_DIR)\mips\terminat.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\eventlog.res \
+    $(_OBJ_DIR)\i386\eventlog.obj \
+    $(_OBJ_DIR)\i386\alert.obj \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\control.obj \
+    $(_OBJ_DIR)\i386\copy.obj \
+    $(_OBJ_DIR)\i386\elfapi.obj \
+    $(_OBJ_DIR)\i386\elfdata.obj \
+    $(_OBJ_DIR)\i386\elflpc.obj \
+    $(_OBJ_DIR)\i386\elfrpc.obj \
+    $(_OBJ_DIR)\i386\elfsec.obj \
+    $(_OBJ_DIR)\i386\elfutil.obj \
+    $(_OBJ_DIR)\i386\elf_s.obj \
+    $(_OBJ_DIR)\i386\file.obj \
+    $(_OBJ_DIR)\i386\memory.obj \
+    $(_OBJ_DIR)\i386\operate.obj \
+    $(_OBJ_DIR)\i386\logclear.obj \
+    $(_OBJ_DIR)\i386\terminat.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\eventlog.res \
+    $(_OBJ_DIR)\ppc\eventlog.obj \
+    $(_OBJ_DIR)\ppc\alert.obj \
+    $(_OBJ_DIR)\ppc\config.obj \
+    $(_OBJ_DIR)\ppc\control.obj \
+    $(_OBJ_DIR)\ppc\copy.obj \
+    $(_OBJ_DIR)\ppc\elfapi.obj \
+    $(_OBJ_DIR)\ppc\elfdata.obj \
+    $(_OBJ_DIR)\ppc\elflpc.obj \
+    $(_OBJ_DIR)\ppc\elfrpc.obj \
+    $(_OBJ_DIR)\ppc\elfsec.obj \
+    $(_OBJ_DIR)\ppc\elfutil.obj \
+    $(_OBJ_DIR)\ppc\elf_s.obj \
+    $(_OBJ_DIR)\ppc\file.obj \
+    $(_OBJ_DIR)\ppc\memory.obj \
+    $(_OBJ_DIR)\ppc\operate.obj \
+    $(_OBJ_DIR)\ppc\logclear.obj \
+    $(_OBJ_DIR)\ppc\terminat.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\wterm.obj \
+    $(_OBJ_DIR)\alpha\olesrv.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\wterm.obj \
+    $(_OBJ_DIR)\mips\olesrv.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\wterm.obj \
+    $(_OBJ_DIR)\i386\olesrv.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\wterm.obj \
+    $(_OBJ_DIR)\ppc\olesrv.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\tidtable.obj \
+    $(_OBJ_DIR)\alpha\crt0fp.obj \
+    $(_OBJ_DIR)\alpha\chkstk.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\tidtable.obj \
+    $(_OBJ_DIR)\mips\crt0fp.obj \
+    $(_OBJ_DIR)\mips\chkstk.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\chkstk.obj \
+    $(_OBJ_DIR)\i386\tidtable.obj \
+    $(_OBJ_DIR)\i386\crt0fp.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\tidtable.obj \
+    $(_OBJ_DIR)\ppc\crt0fp.obj \
+    $(_OBJ_DIR)\ppc\chkstk.obj
+
+PASS0_PPC_OBJECTS=
+

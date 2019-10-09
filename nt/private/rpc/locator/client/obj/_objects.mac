@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\rpcns4.res \
+    $(_OBJ_DIR)\alpha\nsisvr_c.obj \
+    $(_OBJ_DIR)\alpha\nsiclt_c.obj \
+    $(_OBJ_DIR)\alpha\nsimgm_c.obj \
+    $(_OBJ_DIR)\alpha\mem.obj \
+    $(_OBJ_DIR)\alpha\startsvc.obj \
+    $(_OBJ_DIR)\alpha\nsisvr.obj \
+    $(_OBJ_DIR)\alpha\nsiclnt.obj \
+    $(_OBJ_DIR)\alpha\nsimgmt.obj \
+    $(_OBJ_DIR)\alpha\cbind.obj \
+    $(_OBJ_DIR)\alpha\sbind.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\autohand.obj \
+    $(_OBJ_DIR)\alpha\ntutil.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\rpcns4.res \
+    $(_OBJ_DIR)\mips\nsisvr_c.obj \
+    $(_OBJ_DIR)\mips\nsiclt_c.obj \
+    $(_OBJ_DIR)\mips\nsimgm_c.obj \
+    $(_OBJ_DIR)\mips\mem.obj \
+    $(_OBJ_DIR)\mips\startsvc.obj \
+    $(_OBJ_DIR)\mips\nsisvr.obj \
+    $(_OBJ_DIR)\mips\nsiclnt.obj \
+    $(_OBJ_DIR)\mips\nsimgmt.obj \
+    $(_OBJ_DIR)\mips\cbind.obj \
+    $(_OBJ_DIR)\mips\sbind.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\autohand.obj \
+    $(_OBJ_DIR)\mips\ntutil.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\rpcns4.res \
+    $(_OBJ_DIR)\i386\nsisvr_c.obj \
+    $(_OBJ_DIR)\i386\nsiclt_c.obj \
+    $(_OBJ_DIR)\i386\nsimgm_c.obj \
+    $(_OBJ_DIR)\i386\mem.obj \
+    $(_OBJ_DIR)\i386\startsvc.obj \
+    $(_OBJ_DIR)\i386\nsisvr.obj \
+    $(_OBJ_DIR)\i386\nsiclnt.obj \
+    $(_OBJ_DIR)\i386\nsimgmt.obj \
+    $(_OBJ_DIR)\i386\cbind.obj \
+    $(_OBJ_DIR)\i386\sbind.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\autohand.obj \
+    $(_OBJ_DIR)\i386\ntutil.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\rpcns4.res \
+    $(_OBJ_DIR)\ppc\nsisvr_c.obj \
+    $(_OBJ_DIR)\ppc\nsiclt_c.obj \
+    $(_OBJ_DIR)\ppc\nsimgm_c.obj \
+    $(_OBJ_DIR)\ppc\mem.obj \
+    $(_OBJ_DIR)\ppc\startsvc.obj \
+    $(_OBJ_DIR)\ppc\nsisvr.obj \
+    $(_OBJ_DIR)\ppc\nsiclnt.obj \
+    $(_OBJ_DIR)\ppc\nsimgmt.obj \
+    $(_OBJ_DIR)\ppc\cbind.obj \
+    $(_OBJ_DIR)\ppc\sbind.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\autohand.obj \
+    $(_OBJ_DIR)\ppc\ntutil.obj
+
+PASS0_PPC_OBJECTS=
+

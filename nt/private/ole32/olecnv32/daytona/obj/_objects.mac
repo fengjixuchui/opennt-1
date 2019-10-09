@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\olecnv32.res \
+    $(_OBJ_DIR)\alpha\api.obj \
+    $(_OBJ_DIR)\alpha\bufio.obj \
+    $(_OBJ_DIR)\alpha\cache.obj \
+    $(_OBJ_DIR)\alpha\error.obj \
+    $(_OBJ_DIR)\alpha\gdiprim.obj \
+    $(_OBJ_DIR)\alpha\getdata.obj \
+    $(_OBJ_DIR)\alpha\quickdrw.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\olecnv32.res \
+    $(_OBJ_DIR)\mips\api.obj \
+    $(_OBJ_DIR)\mips\bufio.obj \
+    $(_OBJ_DIR)\mips\cache.obj \
+    $(_OBJ_DIR)\mips\error.obj \
+    $(_OBJ_DIR)\mips\gdiprim.obj \
+    $(_OBJ_DIR)\mips\getdata.obj \
+    $(_OBJ_DIR)\mips\quickdrw.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\olecnv32.res \
+    $(_OBJ_DIR)\i386\api.obj \
+    $(_OBJ_DIR)\i386\bufio.obj \
+    $(_OBJ_DIR)\i386\cache.obj \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\gdiprim.obj \
+    $(_OBJ_DIR)\i386\getdata.obj \
+    $(_OBJ_DIR)\i386\quickdrw.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\olecnv32.res \
+    $(_OBJ_DIR)\ppc\api.obj \
+    $(_OBJ_DIR)\ppc\bufio.obj \
+    $(_OBJ_DIR)\ppc\cache.obj \
+    $(_OBJ_DIR)\ppc\error.obj \
+    $(_OBJ_DIR)\ppc\gdiprim.obj \
+    $(_OBJ_DIR)\ppc\getdata.obj \
+    $(_OBJ_DIR)\ppc\quickdrw.obj
+
+PASS0_PPC_OBJECTS=
+

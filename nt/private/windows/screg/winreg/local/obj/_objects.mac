@@ -1,0 +1,68 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dummy.obj \
+    $(_OBJ_DIR)\alpha\predefh.obj \
+    $(_OBJ_DIR)\alpha\regdkey.obj \
+    $(_OBJ_DIR)\alpha\regdval.obj \
+    $(_OBJ_DIR)\alpha\regekey.obj \
+    $(_OBJ_DIR)\alpha\regeval.obj \
+    $(_OBJ_DIR)\alpha\regkey.obj \
+    $(_OBJ_DIR)\alpha\reglukey.obj \
+    $(_OBJ_DIR)\alpha\regqkey.obj \
+    $(_OBJ_DIR)\alpha\regqval.obj \
+    $(_OBJ_DIR)\alpha\regsckey.obj \
+    $(_OBJ_DIR)\alpha\regsrkey.obj \
+    $(_OBJ_DIR)\alpha\regsval.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dummy.obj \
+    $(_OBJ_DIR)\mips\predefh.obj \
+    $(_OBJ_DIR)\mips\regdkey.obj \
+    $(_OBJ_DIR)\mips\regdval.obj \
+    $(_OBJ_DIR)\mips\regekey.obj \
+    $(_OBJ_DIR)\mips\regeval.obj \
+    $(_OBJ_DIR)\mips\regkey.obj \
+    $(_OBJ_DIR)\mips\reglukey.obj \
+    $(_OBJ_DIR)\mips\regqkey.obj \
+    $(_OBJ_DIR)\mips\regqval.obj \
+    $(_OBJ_DIR)\mips\regsckey.obj \
+    $(_OBJ_DIR)\mips\regsrkey.obj \
+    $(_OBJ_DIR)\mips\regsval.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dummy.obj \
+    $(_OBJ_DIR)\i386\predefh.obj \
+    $(_OBJ_DIR)\i386\regdkey.obj \
+    $(_OBJ_DIR)\i386\regdval.obj \
+    $(_OBJ_DIR)\i386\regekey.obj \
+    $(_OBJ_DIR)\i386\regeval.obj \
+    $(_OBJ_DIR)\i386\regkey.obj \
+    $(_OBJ_DIR)\i386\reglukey.obj \
+    $(_OBJ_DIR)\i386\regqkey.obj \
+    $(_OBJ_DIR)\i386\regqval.obj \
+    $(_OBJ_DIR)\i386\regsckey.obj \
+    $(_OBJ_DIR)\i386\regsrkey.obj \
+    $(_OBJ_DIR)\i386\regsval.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dummy.obj \
+    $(_OBJ_DIR)\ppc\predefh.obj \
+    $(_OBJ_DIR)\ppc\regdkey.obj \
+    $(_OBJ_DIR)\ppc\regdval.obj \
+    $(_OBJ_DIR)\ppc\regekey.obj \
+    $(_OBJ_DIR)\ppc\regeval.obj \
+    $(_OBJ_DIR)\ppc\regkey.obj \
+    $(_OBJ_DIR)\ppc\reglukey.obj \
+    $(_OBJ_DIR)\ppc\regqkey.obj \
+    $(_OBJ_DIR)\ppc\regqval.obj \
+    $(_OBJ_DIR)\ppc\regsckey.obj \
+    $(_OBJ_DIR)\ppc\regsrkey.obj \
+    $(_OBJ_DIR)\ppc\regsval.obj
+
+PASS0_PPC_OBJECTS=
+

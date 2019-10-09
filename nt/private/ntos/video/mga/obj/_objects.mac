@@ -1,0 +1,108 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mga.res \
+    $(_OBJ_DIR)\alpha\mga.obj \
+    $(_OBJ_DIR)\alpha\clock.obj \
+    $(_OBJ_DIR)\alpha\cnvinfo.obj \
+    $(_OBJ_DIR)\alpha\ddc.obj \
+    $(_OBJ_DIR)\alpha\fixed.obj \
+    $(_OBJ_DIR)\alpha\getcfg.obj \
+    $(_OBJ_DIR)\alpha\lut.obj \
+    $(_OBJ_DIR)\alpha\mctlwtst.obj \
+    $(_OBJ_DIR)\alpha\mgainfo.obj \
+    $(_OBJ_DIR)\alpha\mtxcurs.obj \
+    $(_OBJ_DIR)\alpha\mtxinit.obj \
+    $(_OBJ_DIR)\alpha\mtxpci.obj \
+    $(_OBJ_DIR)\alpha\mtxvga.obj \
+    $(_OBJ_DIR)\alpha\mtxvideo.obj \
+    $(_OBJ_DIR)\alpha\mtxvpro.obj \
+    $(_OBJ_DIR)\alpha\mvtovid.obj \
+    $(_OBJ_DIR)\alpha\sxci_nt.obj \
+    $(_OBJ_DIR)\alpha\sys.obj \
+    $(_OBJ_DIR)\alpha\tables.obj \
+    $(_OBJ_DIR)\alpha\vgadac.obj \
+    $(_OBJ_DIR)\alpha\vid.obj \
+    $(_OBJ_DIR)\alpha\vidfile.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mga.res \
+    $(_OBJ_DIR)\mips\mga.obj \
+    $(_OBJ_DIR)\mips\clock.obj \
+    $(_OBJ_DIR)\mips\cnvinfo.obj \
+    $(_OBJ_DIR)\mips\ddc.obj \
+    $(_OBJ_DIR)\mips\fixed.obj \
+    $(_OBJ_DIR)\mips\getcfg.obj \
+    $(_OBJ_DIR)\mips\lut.obj \
+    $(_OBJ_DIR)\mips\mctlwtst.obj \
+    $(_OBJ_DIR)\mips\mgainfo.obj \
+    $(_OBJ_DIR)\mips\mtxcurs.obj \
+    $(_OBJ_DIR)\mips\mtxinit.obj \
+    $(_OBJ_DIR)\mips\mtxpci.obj \
+    $(_OBJ_DIR)\mips\mtxvga.obj \
+    $(_OBJ_DIR)\mips\mtxvideo.obj \
+    $(_OBJ_DIR)\mips\mtxvpro.obj \
+    $(_OBJ_DIR)\mips\mvtovid.obj \
+    $(_OBJ_DIR)\mips\sxci_nt.obj \
+    $(_OBJ_DIR)\mips\sys.obj \
+    $(_OBJ_DIR)\mips\tables.obj \
+    $(_OBJ_DIR)\mips\vgadac.obj \
+    $(_OBJ_DIR)\mips\vid.obj \
+    $(_OBJ_DIR)\mips\vidfile.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mga.res \
+    $(_OBJ_DIR)\i386\mga.obj \
+    $(_OBJ_DIR)\i386\clock.obj \
+    $(_OBJ_DIR)\i386\cnvinfo.obj \
+    $(_OBJ_DIR)\i386\ddc.obj \
+    $(_OBJ_DIR)\i386\fixed.obj \
+    $(_OBJ_DIR)\i386\getcfg.obj \
+    $(_OBJ_DIR)\i386\lut.obj \
+    $(_OBJ_DIR)\i386\mctlwtst.obj \
+    $(_OBJ_DIR)\i386\mgainfo.obj \
+    $(_OBJ_DIR)\i386\mtxcurs.obj \
+    $(_OBJ_DIR)\i386\mtxinit.obj \
+    $(_OBJ_DIR)\i386\mtxpci.obj \
+    $(_OBJ_DIR)\i386\mtxvga.obj \
+    $(_OBJ_DIR)\i386\mtxvideo.obj \
+    $(_OBJ_DIR)\i386\mtxvpro.obj \
+    $(_OBJ_DIR)\i386\mvtovid.obj \
+    $(_OBJ_DIR)\i386\sxci_nt.obj \
+    $(_OBJ_DIR)\i386\sys.obj \
+    $(_OBJ_DIR)\i386\tables.obj \
+    $(_OBJ_DIR)\i386\vgadac.obj \
+    $(_OBJ_DIR)\i386\vid.obj \
+    $(_OBJ_DIR)\i386\vidfile.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mga.res \
+    $(_OBJ_DIR)\ppc\mga.obj \
+    $(_OBJ_DIR)\ppc\clock.obj \
+    $(_OBJ_DIR)\ppc\cnvinfo.obj \
+    $(_OBJ_DIR)\ppc\ddc.obj \
+    $(_OBJ_DIR)\ppc\fixed.obj \
+    $(_OBJ_DIR)\ppc\getcfg.obj \
+    $(_OBJ_DIR)\ppc\lut.obj \
+    $(_OBJ_DIR)\ppc\mctlwtst.obj \
+    $(_OBJ_DIR)\ppc\mgainfo.obj \
+    $(_OBJ_DIR)\ppc\mtxcurs.obj \
+    $(_OBJ_DIR)\ppc\mtxinit.obj \
+    $(_OBJ_DIR)\ppc\mtxpci.obj \
+    $(_OBJ_DIR)\ppc\mtxvga.obj \
+    $(_OBJ_DIR)\ppc\mtxvideo.obj \
+    $(_OBJ_DIR)\ppc\mtxvpro.obj \
+    $(_OBJ_DIR)\ppc\mvtovid.obj \
+    $(_OBJ_DIR)\ppc\sxci_nt.obj \
+    $(_OBJ_DIR)\ppc\sys.obj \
+    $(_OBJ_DIR)\ppc\tables.obj \
+    $(_OBJ_DIR)\ppc\vgadac.obj \
+    $(_OBJ_DIR)\ppc\vid.obj \
+    $(_OBJ_DIR)\ppc\vidfile.obj
+
+PASS0_PPC_OBJECTS=
+

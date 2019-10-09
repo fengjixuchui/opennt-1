@@ -1,0 +1,37 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LIBRARY oledll2
+
+DESCRIPTION  'OLEDLL2
+
+EXPORTS
+	FunctionInAnotherDLL             
+
+

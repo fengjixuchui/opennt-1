@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\access.res \
+    $(_OBJ_DIR)\alpha\access.obj \
+    $(_OBJ_DIR)\alpha\accrare.obj \
+    $(_OBJ_DIR)\alpha\display.obj \
+    $(_OBJ_DIR)\alpha\fltrkeys.obj \
+    $(_OBJ_DIR)\alpha\general.obj \
+    $(_OBJ_DIR)\alpha\keybd.obj \
+    $(_OBJ_DIR)\alpha\main.obj \
+    $(_OBJ_DIR)\alpha\mouse.obj \
+    $(_OBJ_DIR)\alpha\reg.obj \
+    $(_OBJ_DIR)\alpha\serlkey.obj \
+    $(_OBJ_DIR)\alpha\sound.obj \
+    $(_OBJ_DIR)\alpha\stkykey.obj \
+    $(_OBJ_DIR)\alpha\tgglkeys.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\access.res \
+    $(_OBJ_DIR)\mips\access.obj \
+    $(_OBJ_DIR)\mips\accrare.obj \
+    $(_OBJ_DIR)\mips\display.obj \
+    $(_OBJ_DIR)\mips\fltrkeys.obj \
+    $(_OBJ_DIR)\mips\general.obj \
+    $(_OBJ_DIR)\mips\keybd.obj \
+    $(_OBJ_DIR)\mips\main.obj \
+    $(_OBJ_DIR)\mips\mouse.obj \
+    $(_OBJ_DIR)\mips\reg.obj \
+    $(_OBJ_DIR)\mips\serlkey.obj \
+    $(_OBJ_DIR)\mips\sound.obj \
+    $(_OBJ_DIR)\mips\stkykey.obj \
+    $(_OBJ_DIR)\mips\tgglkeys.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\access.res \
+    $(_OBJ_DIR)\i386\access.obj \
+    $(_OBJ_DIR)\i386\accrare.obj \
+    $(_OBJ_DIR)\i386\display.obj \
+    $(_OBJ_DIR)\i386\fltrkeys.obj \
+    $(_OBJ_DIR)\i386\general.obj \
+    $(_OBJ_DIR)\i386\keybd.obj \
+    $(_OBJ_DIR)\i386\main.obj \
+    $(_OBJ_DIR)\i386\mouse.obj \
+    $(_OBJ_DIR)\i386\reg.obj \
+    $(_OBJ_DIR)\i386\serlkey.obj \
+    $(_OBJ_DIR)\i386\sound.obj \
+    $(_OBJ_DIR)\i386\stkykey.obj \
+    $(_OBJ_DIR)\i386\tgglkeys.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\access.res \
+    $(_OBJ_DIR)\ppc\access.obj \
+    $(_OBJ_DIR)\ppc\accrare.obj \
+    $(_OBJ_DIR)\ppc\display.obj \
+    $(_OBJ_DIR)\ppc\fltrkeys.obj \
+    $(_OBJ_DIR)\ppc\general.obj \
+    $(_OBJ_DIR)\ppc\keybd.obj \
+    $(_OBJ_DIR)\ppc\main.obj \
+    $(_OBJ_DIR)\ppc\mouse.obj \
+    $(_OBJ_DIR)\ppc\reg.obj \
+    $(_OBJ_DIR)\ppc\serlkey.obj \
+    $(_OBJ_DIR)\ppc\sound.obj \
+    $(_OBJ_DIR)\ppc\stkykey.obj \
+    $(_OBJ_DIR)\ppc\tgglkeys.obj
+
+PASS0_PPC_OBJECTS=
+

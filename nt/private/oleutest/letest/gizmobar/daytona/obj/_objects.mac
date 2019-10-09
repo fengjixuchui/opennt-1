@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\gizmobar.res \
+    $(_OBJ_DIR)\alpha\api.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\dllentry.obj \
+    $(_OBJ_DIR)\alpha\paint.obj \
+    $(_OBJ_DIR)\alpha\gizmo.obj \
+    $(_OBJ_DIR)\alpha\gizmobar.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\gizmobar.res \
+    $(_OBJ_DIR)\mips\api.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\dllentry.obj \
+    $(_OBJ_DIR)\mips\paint.obj \
+    $(_OBJ_DIR)\mips\gizmo.obj \
+    $(_OBJ_DIR)\mips\gizmobar.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\gizmobar.res \
+    $(_OBJ_DIR)\i386\api.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\dllentry.obj \
+    $(_OBJ_DIR)\i386\paint.obj \
+    $(_OBJ_DIR)\i386\gizmo.obj \
+    $(_OBJ_DIR)\i386\gizmobar.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\gizmobar.res \
+    $(_OBJ_DIR)\ppc\api.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\dllentry.obj \
+    $(_OBJ_DIR)\ppc\paint.obj \
+    $(_OBJ_DIR)\ppc\gizmo.obj \
+    $(_OBJ_DIR)\ppc\gizmobar.obj
+
+PASS0_PPC_OBJECTS=
+

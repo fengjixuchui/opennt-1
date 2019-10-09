@@ -1,0 +1,60 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\vw_w.obj \
+    $(_OBJ_DIR)\alpha\vwde.obj \
+    $(_OBJ_DIR)\alpha\vwdraw.obj \
+    $(_OBJ_DIR)\alpha\vwfatal.obj \
+    $(_OBJ_DIR)\alpha\vwfont.obj \
+    $(_OBJ_DIR)\alpha\vwinit.obj \
+    $(_OBJ_DIR)\alpha\vwmes.obj \
+    $(_OBJ_DIR)\alpha\vwms1.obj \
+    $(_OBJ_DIR)\alpha\vwopen.obj \
+    $(_OBJ_DIR)\alpha\vwent_n.obj \
+    $(_OBJ_DIR)\alpha\vwcapt_w.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\vw_w.obj \
+    $(_OBJ_DIR)\mips\vwde.obj \
+    $(_OBJ_DIR)\mips\vwdraw.obj \
+    $(_OBJ_DIR)\mips\vwfatal.obj \
+    $(_OBJ_DIR)\mips\vwfont.obj \
+    $(_OBJ_DIR)\mips\vwinit.obj \
+    $(_OBJ_DIR)\mips\vwmes.obj \
+    $(_OBJ_DIR)\mips\vwms1.obj \
+    $(_OBJ_DIR)\mips\vwopen.obj \
+    $(_OBJ_DIR)\mips\vwent_n.obj \
+    $(_OBJ_DIR)\mips\vwcapt_w.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\vw_w.obj \
+    $(_OBJ_DIR)\i386\vwde.obj \
+    $(_OBJ_DIR)\i386\vwdraw.obj \
+    $(_OBJ_DIR)\i386\vwfatal.obj \
+    $(_OBJ_DIR)\i386\vwfont.obj \
+    $(_OBJ_DIR)\i386\vwinit.obj \
+    $(_OBJ_DIR)\i386\vwmes.obj \
+    $(_OBJ_DIR)\i386\vwms1.obj \
+    $(_OBJ_DIR)\i386\vwopen.obj \
+    $(_OBJ_DIR)\i386\vwent_n.obj \
+    $(_OBJ_DIR)\i386\vwcapt_w.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\vw_w.obj \
+    $(_OBJ_DIR)\ppc\vwde.obj \
+    $(_OBJ_DIR)\ppc\vwdraw.obj \
+    $(_OBJ_DIR)\ppc\vwfatal.obj \
+    $(_OBJ_DIR)\ppc\vwfont.obj \
+    $(_OBJ_DIR)\ppc\vwinit.obj \
+    $(_OBJ_DIR)\ppc\vwmes.obj \
+    $(_OBJ_DIR)\ppc\vwms1.obj \
+    $(_OBJ_DIR)\ppc\vwopen.obj \
+    $(_OBJ_DIR)\ppc\vwent_n.obj \
+    $(_OBJ_DIR)\ppc\vwcapt_w.obj
+
+PASS0_PPC_OBJECTS=
+

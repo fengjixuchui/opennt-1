@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\spyclnt.obj \
+    $(_OBJ_DIR)\alpha\olespy.obj \
+    $(_OBJ_DIR)\alpha\time.obj \
+    $(_OBJ_DIR)\alpha\w32new.obj \
+    $(_OBJ_DIR)\alpha\info.obj \
+    $(_OBJ_DIR)\alpha\exports.obj \
+    $(_OBJ_DIR)\alpha\task.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\spyclnt.obj \
+    $(_OBJ_DIR)\mips\olespy.obj \
+    $(_OBJ_DIR)\mips\time.obj \
+    $(_OBJ_DIR)\mips\w32new.obj \
+    $(_OBJ_DIR)\mips\info.obj \
+    $(_OBJ_DIR)\mips\exports.obj \
+    $(_OBJ_DIR)\mips\task.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\spyclnt.obj \
+    $(_OBJ_DIR)\i386\olespy.obj \
+    $(_OBJ_DIR)\i386\time.obj \
+    $(_OBJ_DIR)\i386\w32new.obj \
+    $(_OBJ_DIR)\i386\info.obj \
+    $(_OBJ_DIR)\i386\exports.obj \
+    $(_OBJ_DIR)\i386\task.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\spyclnt.obj \
+    $(_OBJ_DIR)\ppc\olespy.obj \
+    $(_OBJ_DIR)\ppc\time.obj \
+    $(_OBJ_DIR)\ppc\w32new.obj \
+    $(_OBJ_DIR)\ppc\info.obj \
+    $(_OBJ_DIR)\ppc\exports.obj \
+    $(_OBJ_DIR)\ppc\task.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,116 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\avifile.res \
+    $(_OBJ_DIR)\alpha\avisave.obj \
+    $(_OBJ_DIR)\alpha\aviopts.obj \
+    $(_OBJ_DIR)\alpha\buffer.obj \
+    $(_OBJ_DIR)\alpha\enumfetc.obj \
+    $(_OBJ_DIR)\alpha\afclip.obj \
+    $(_OBJ_DIR)\alpha\avigraph.obj \
+    $(_OBJ_DIR)\alpha\wavefile.obj \
+    $(_OBJ_DIR)\alpha\profile.obj \
+    $(_OBJ_DIR)\alpha\classobj.obj \
+    $(_OBJ_DIR)\alpha\avilib.obj \
+    $(_OBJ_DIR)\alpha\avilibcf.obj \
+    $(_OBJ_DIR)\alpha\device.obj \
+    $(_OBJ_DIR)\alpha\avifile.obj \
+    $(_OBJ_DIR)\alpha\extra.obj \
+    $(_OBJ_DIR)\alpha\avicmprs.obj \
+    $(_OBJ_DIR)\alpha\avifps.obj \
+    $(_OBJ_DIR)\alpha\fakefile.obj \
+    $(_OBJ_DIR)\alpha\avimem.obj \
+    $(_OBJ_DIR)\alpha\editstrm.obj \
+    $(_OBJ_DIR)\alpha\getframe.obj \
+    $(_OBJ_DIR)\alpha\fileshar.obj \
+    $(_OBJ_DIR)\alpha\aviidx.obj \
+    $(_OBJ_DIR)\alpha\acmcmprs.obj \
+    $(_OBJ_DIR)\alpha\directio.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\avifile.res \
+    $(_OBJ_DIR)\mips\avisave.obj \
+    $(_OBJ_DIR)\mips\aviopts.obj \
+    $(_OBJ_DIR)\mips\buffer.obj \
+    $(_OBJ_DIR)\mips\enumfetc.obj \
+    $(_OBJ_DIR)\mips\afclip.obj \
+    $(_OBJ_DIR)\mips\avigraph.obj \
+    $(_OBJ_DIR)\mips\wavefile.obj \
+    $(_OBJ_DIR)\mips\profile.obj \
+    $(_OBJ_DIR)\mips\classobj.obj \
+    $(_OBJ_DIR)\mips\avilib.obj \
+    $(_OBJ_DIR)\mips\avilibcf.obj \
+    $(_OBJ_DIR)\mips\device.obj \
+    $(_OBJ_DIR)\mips\avifile.obj \
+    $(_OBJ_DIR)\mips\extra.obj \
+    $(_OBJ_DIR)\mips\avicmprs.obj \
+    $(_OBJ_DIR)\mips\avifps.obj \
+    $(_OBJ_DIR)\mips\fakefile.obj \
+    $(_OBJ_DIR)\mips\avimem.obj \
+    $(_OBJ_DIR)\mips\editstrm.obj \
+    $(_OBJ_DIR)\mips\getframe.obj \
+    $(_OBJ_DIR)\mips\fileshar.obj \
+    $(_OBJ_DIR)\mips\aviidx.obj \
+    $(_OBJ_DIR)\mips\acmcmprs.obj \
+    $(_OBJ_DIR)\mips\directio.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\avifile.res \
+    $(_OBJ_DIR)\i386\avisave.obj \
+    $(_OBJ_DIR)\i386\aviopts.obj \
+    $(_OBJ_DIR)\i386\buffer.obj \
+    $(_OBJ_DIR)\i386\enumfetc.obj \
+    $(_OBJ_DIR)\i386\afclip.obj \
+    $(_OBJ_DIR)\i386\avigraph.obj \
+    $(_OBJ_DIR)\i386\wavefile.obj \
+    $(_OBJ_DIR)\i386\profile.obj \
+    $(_OBJ_DIR)\i386\classobj.obj \
+    $(_OBJ_DIR)\i386\avilib.obj \
+    $(_OBJ_DIR)\i386\avilibcf.obj \
+    $(_OBJ_DIR)\i386\device.obj \
+    $(_OBJ_DIR)\i386\avifile.obj \
+    $(_OBJ_DIR)\i386\extra.obj \
+    $(_OBJ_DIR)\i386\avicmprs.obj \
+    $(_OBJ_DIR)\i386\avifps.obj \
+    $(_OBJ_DIR)\i386\fakefile.obj \
+    $(_OBJ_DIR)\i386\avimem.obj \
+    $(_OBJ_DIR)\i386\editstrm.obj \
+    $(_OBJ_DIR)\i386\getframe.obj \
+    $(_OBJ_DIR)\i386\fileshar.obj \
+    $(_OBJ_DIR)\i386\aviidx.obj \
+    $(_OBJ_DIR)\i386\acmcmprs.obj \
+    $(_OBJ_DIR)\i386\directio.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\avifile.res \
+    $(_OBJ_DIR)\ppc\avisave.obj \
+    $(_OBJ_DIR)\ppc\aviopts.obj \
+    $(_OBJ_DIR)\ppc\buffer.obj \
+    $(_OBJ_DIR)\ppc\enumfetc.obj \
+    $(_OBJ_DIR)\ppc\afclip.obj \
+    $(_OBJ_DIR)\ppc\avigraph.obj \
+    $(_OBJ_DIR)\ppc\wavefile.obj \
+    $(_OBJ_DIR)\ppc\profile.obj \
+    $(_OBJ_DIR)\ppc\classobj.obj \
+    $(_OBJ_DIR)\ppc\avilib.obj \
+    $(_OBJ_DIR)\ppc\avilibcf.obj \
+    $(_OBJ_DIR)\ppc\device.obj \
+    $(_OBJ_DIR)\ppc\avifile.obj \
+    $(_OBJ_DIR)\ppc\extra.obj \
+    $(_OBJ_DIR)\ppc\avicmprs.obj \
+    $(_OBJ_DIR)\ppc\avifps.obj \
+    $(_OBJ_DIR)\ppc\fakefile.obj \
+    $(_OBJ_DIR)\ppc\avimem.obj \
+    $(_OBJ_DIR)\ppc\editstrm.obj \
+    $(_OBJ_DIR)\ppc\getframe.obj \
+    $(_OBJ_DIR)\ppc\fileshar.obj \
+    $(_OBJ_DIR)\ppc\aviidx.obj \
+    $(_OBJ_DIR)\ppc\acmcmprs.obj \
+    $(_OBJ_DIR)\ppc\directio.obj
+
+PASS0_PPC_OBJECTS=
+

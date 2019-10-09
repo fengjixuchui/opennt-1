@@ -1,0 +1,127 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\xform.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\debugint.obj \
+    $(_OBJ_DIR)\alpha\pixelfmt.obj \
+    $(_OBJ_DIR)\alpha\wglsup.obj \
+    $(_OBJ_DIR)\alpha\dispatch.obj \
+    $(_OBJ_DIR)\alpha\genaccum.obj \
+    $(_OBJ_DIR)\alpha\genattri.obj \
+    $(_OBJ_DIR)\alpha\genci.obj \
+    $(_OBJ_DIR)\alpha\genclear.obj \
+    $(_OBJ_DIR)\alpha\gencx.obj \
+    $(_OBJ_DIR)\alpha\gendirty.obj \
+    $(_OBJ_DIR)\alpha\genimp.obj \
+    $(_OBJ_DIR)\alpha\genline.obj \
+    $(_OBJ_DIR)\alpha\genaline.obj \
+    $(_OBJ_DIR)\alpha\genpick.obj \
+    $(_OBJ_DIR)\alpha\genpxapi.obj \
+    $(_OBJ_DIR)\alpha\genrgb.obj \
+    $(_OBJ_DIR)\alpha\genspan.obj \
+    $(_OBJ_DIR)\alpha\genpoly.obj \
+    $(_OBJ_DIR)\alpha\genaccel.obj \
+    $(_OBJ_DIR)\alpha\gendepth.obj \
+    $(_OBJ_DIR)\alpha\genzippy.obj \
+    $(_OBJ_DIR)\alpha\mcdcx.obj \
+    $(_OBJ_DIR)\alpha\mcddepth.obj \
+    $(_OBJ_DIR)\alpha\_fpow.obj \
+    $(_OBJ_DIR)\alpha\_invsqrt.obj \
+    $(_OBJ_DIR)\alpha\_nnormal.obj \
+    $(_OBJ_DIR)\alpha\gencpu.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\debugint.obj \
+    $(_OBJ_DIR)\mips\pixelfmt.obj \
+    $(_OBJ_DIR)\mips\wglsup.obj \
+    $(_OBJ_DIR)\mips\dispatch.obj \
+    $(_OBJ_DIR)\mips\genaccum.obj \
+    $(_OBJ_DIR)\mips\genattri.obj \
+    $(_OBJ_DIR)\mips\genci.obj \
+    $(_OBJ_DIR)\mips\genclear.obj \
+    $(_OBJ_DIR)\mips\gencx.obj \
+    $(_OBJ_DIR)\mips\gendirty.obj \
+    $(_OBJ_DIR)\mips\genimp.obj \
+    $(_OBJ_DIR)\mips\genline.obj \
+    $(_OBJ_DIR)\mips\genaline.obj \
+    $(_OBJ_DIR)\mips\genpick.obj \
+    $(_OBJ_DIR)\mips\genpxapi.obj \
+    $(_OBJ_DIR)\mips\genrgb.obj \
+    $(_OBJ_DIR)\mips\genspan.obj \
+    $(_OBJ_DIR)\mips\genpoly.obj \
+    $(_OBJ_DIR)\mips\genaccel.obj \
+    $(_OBJ_DIR)\mips\gendepth.obj \
+    $(_OBJ_DIR)\mips\genzippy.obj \
+    $(_OBJ_DIR)\mips\mcdcx.obj \
+    $(_OBJ_DIR)\mips\mcddepth.obj \
+    $(_OBJ_DIR)\mips\matrix.obj \
+    $(_OBJ_DIR)\mips\xform.obj \
+    $(_OBJ_DIR)\mips\gencpu.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\xform.obj \
+    $(_OBJ_DIR)\i386\texspans.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\debugint.obj \
+    $(_OBJ_DIR)\i386\pixelfmt.obj \
+    $(_OBJ_DIR)\i386\wglsup.obj \
+    $(_OBJ_DIR)\i386\dispatch.obj \
+    $(_OBJ_DIR)\i386\genaccum.obj \
+    $(_OBJ_DIR)\i386\genattri.obj \
+    $(_OBJ_DIR)\i386\genci.obj \
+    $(_OBJ_DIR)\i386\genclear.obj \
+    $(_OBJ_DIR)\i386\gencx.obj \
+    $(_OBJ_DIR)\i386\gendirty.obj \
+    $(_OBJ_DIR)\i386\genimp.obj \
+    $(_OBJ_DIR)\i386\genline.obj \
+    $(_OBJ_DIR)\i386\genaline.obj \
+    $(_OBJ_DIR)\i386\genpick.obj \
+    $(_OBJ_DIR)\i386\genpxapi.obj \
+    $(_OBJ_DIR)\i386\genrgb.obj \
+    $(_OBJ_DIR)\i386\genspan.obj \
+    $(_OBJ_DIR)\i386\genpoly.obj \
+    $(_OBJ_DIR)\i386\genaccel.obj \
+    $(_OBJ_DIR)\i386\gendepth.obj \
+    $(_OBJ_DIR)\i386\genzippy.obj \
+    $(_OBJ_DIR)\i386\mcdcx.obj \
+    $(_OBJ_DIR)\i386\mcddepth.obj \
+    $(_OBJ_DIR)\i386\gencpu.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\debugint.obj \
+    $(_OBJ_DIR)\ppc\pixelfmt.obj \
+    $(_OBJ_DIR)\ppc\wglsup.obj \
+    $(_OBJ_DIR)\ppc\dispatch.obj \
+    $(_OBJ_DIR)\ppc\genaccum.obj \
+    $(_OBJ_DIR)\ppc\genattri.obj \
+    $(_OBJ_DIR)\ppc\genci.obj \
+    $(_OBJ_DIR)\ppc\genclear.obj \
+    $(_OBJ_DIR)\ppc\gencx.obj \
+    $(_OBJ_DIR)\ppc\gendirty.obj \
+    $(_OBJ_DIR)\ppc\genimp.obj \
+    $(_OBJ_DIR)\ppc\genline.obj \
+    $(_OBJ_DIR)\ppc\genaline.obj \
+    $(_OBJ_DIR)\ppc\genpick.obj \
+    $(_OBJ_DIR)\ppc\genpxapi.obj \
+    $(_OBJ_DIR)\ppc\genrgb.obj \
+    $(_OBJ_DIR)\ppc\genspan.obj \
+    $(_OBJ_DIR)\ppc\genpoly.obj \
+    $(_OBJ_DIR)\ppc\genaccel.obj \
+    $(_OBJ_DIR)\ppc\gendepth.obj \
+    $(_OBJ_DIR)\ppc\genzippy.obj \
+    $(_OBJ_DIR)\ppc\mcdcx.obj \
+    $(_OBJ_DIR)\ppc\mcddepth.obj \
+    $(_OBJ_DIR)\ppc\gencpu.obj \
+    $(_OBJ_DIR)\ppc\xform.obj \
+    $(_OBJ_DIR)\ppc\matrix.obj \
+    $(_OBJ_DIR)\ppc\miscasm.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,56 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\msv1_0.res \
+    $(_OBJ_DIR)\alpha\msv1_0.obj \
+    $(_OBJ_DIR)\alpha\msvars.obj \
+    $(_OBJ_DIR)\alpha\msvpaswd.obj \
+    $(_OBJ_DIR)\alpha\msvsam.obj \
+    $(_OBJ_DIR)\alpha\nlmain.obj \
+    $(_OBJ_DIR)\alpha\nlnetapi.obj \
+    $(_OBJ_DIR)\alpha\nlp.obj \
+    $(_OBJ_DIR)\alpha\nlpcache.obj \
+    $(_OBJ_DIR)\alpha\subauth.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\msv1_0.res \
+    $(_OBJ_DIR)\mips\msv1_0.obj \
+    $(_OBJ_DIR)\mips\msvars.obj \
+    $(_OBJ_DIR)\mips\msvpaswd.obj \
+    $(_OBJ_DIR)\mips\msvsam.obj \
+    $(_OBJ_DIR)\mips\nlmain.obj \
+    $(_OBJ_DIR)\mips\nlnetapi.obj \
+    $(_OBJ_DIR)\mips\nlp.obj \
+    $(_OBJ_DIR)\mips\nlpcache.obj \
+    $(_OBJ_DIR)\mips\subauth.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\msv1_0.res \
+    $(_OBJ_DIR)\i386\msv1_0.obj \
+    $(_OBJ_DIR)\i386\msvars.obj \
+    $(_OBJ_DIR)\i386\msvpaswd.obj \
+    $(_OBJ_DIR)\i386\msvsam.obj \
+    $(_OBJ_DIR)\i386\nlmain.obj \
+    $(_OBJ_DIR)\i386\nlnetapi.obj \
+    $(_OBJ_DIR)\i386\nlp.obj \
+    $(_OBJ_DIR)\i386\nlpcache.obj \
+    $(_OBJ_DIR)\i386\subauth.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\msv1_0.res \
+    $(_OBJ_DIR)\ppc\msv1_0.obj \
+    $(_OBJ_DIR)\ppc\msvars.obj \
+    $(_OBJ_DIR)\ppc\msvpaswd.obj \
+    $(_OBJ_DIR)\ppc\msvsam.obj \
+    $(_OBJ_DIR)\ppc\nlmain.obj \
+    $(_OBJ_DIR)\ppc\nlnetapi.obj \
+    $(_OBJ_DIR)\ppc\nlp.obj \
+    $(_OBJ_DIR)\ppc\nlpcache.obj \
+    $(_OBJ_DIR)\ppc\subauth.obj
+
+PASS0_PPC_OBJECTS=
+

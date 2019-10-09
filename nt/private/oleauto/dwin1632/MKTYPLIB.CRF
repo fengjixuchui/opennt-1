@@ -1,0 +1,11 @@
+LEXER.OBJ +
+INTLSTR.OBJ +
+MKTYPLIB.OBJ +
+PARSER.OBJ +
+HOUT.OBJ +
+TYPOUT.OBJ +
+dimalloc.obj
+MKTYPLIB.EXE
+mktyplib.map
+mlibcew oldnames libw commdlg toolhelp typelib ole2disp ole2 ole2nls
+W:\nt\private\oleauto\src\mktyplib\MKTYPLIB.DEF;

@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mmdrv.res \
+    $(_OBJ_DIR)\alpha\mmdrv.obj \
+    $(_OBJ_DIR)\alpha\wavedd.obj \
+    $(_OBJ_DIR)\alpha\mididd.obj \
+    $(_OBJ_DIR)\alpha\auxdd.obj \
+    $(_OBJ_DIR)\alpha\drvutil.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mmdrv.res \
+    $(_OBJ_DIR)\mips\mmdrv.obj \
+    $(_OBJ_DIR)\mips\wavedd.obj \
+    $(_OBJ_DIR)\mips\mididd.obj \
+    $(_OBJ_DIR)\mips\auxdd.obj \
+    $(_OBJ_DIR)\mips\drvutil.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mmdrv.res \
+    $(_OBJ_DIR)\i386\mmdrv.obj \
+    $(_OBJ_DIR)\i386\wavedd.obj \
+    $(_OBJ_DIR)\i386\mididd.obj \
+    $(_OBJ_DIR)\i386\auxdd.obj \
+    $(_OBJ_DIR)\i386\drvutil.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mmdrv.res \
+    $(_OBJ_DIR)\ppc\mmdrv.obj \
+    $(_OBJ_DIR)\ppc\wavedd.obj \
+    $(_OBJ_DIR)\ppc\mididd.obj \
+    $(_OBJ_DIR)\ppc\auxdd.obj \
+    $(_OBJ_DIR)\ppc\drvutil.obj
+
+PASS0_PPC_OBJECTS=
+

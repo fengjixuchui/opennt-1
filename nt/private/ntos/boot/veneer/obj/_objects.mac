@@ -1,0 +1,38 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\verno.obj \
+    $(_OBJ_DIR)\ppc\vrstart.obj \
+    $(_OBJ_DIR)\ppc\vrmp.obj \
+    $(_OBJ_DIR)\ppc\pxcache.obj \
+    $(_OBJ_DIR)\ppc\pxutil.obj \
+    $(_OBJ_DIR)\ppc\vrmain.obj \
+    $(_OBJ_DIR)\ppc\vrconfig.obj \
+    $(_OBJ_DIR)\ppc\vrcons.obj \
+    $(_OBJ_DIR)\ppc\vrcpiwrp.obj \
+    $(_OBJ_DIR)\ppc\vrdumptr.obj \
+    $(_OBJ_DIR)\ppc\vrenv.obj \
+    $(_OBJ_DIR)\ppc\vrio.obj \
+    $(_OBJ_DIR)\ppc\vrdisp.obj \
+    $(_OBJ_DIR)\ppc\vrlib.obj \
+    $(_OBJ_DIR)\ppc\vrmalloc.obj \
+    $(_OBJ_DIR)\ppc\vrmemory.obj \
+    $(_OBJ_DIR)\ppc\vrload.obj \
+    $(_OBJ_DIR)\ppc\vrrstart.obj \
+    $(_OBJ_DIR)\ppc\vrmisc.obj \
+    $(_OBJ_DIR)\ppc\vrpehdr.obj \
+    $(_OBJ_DIR)\ppc\vrsup.obj \
+    $(_OBJ_DIR)\ppc\vrtree.obj
+
+PASS0_PPC_OBJECTS=
+

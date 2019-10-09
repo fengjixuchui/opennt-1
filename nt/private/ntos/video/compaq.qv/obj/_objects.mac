@@ -1,0 +1,23 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\qvhard.obj \
+    $(_OBJ_DIR)\i386\qvision.res \
+    $(_OBJ_DIR)\i386\qvision.obj \
+    $(_OBJ_DIR)\i386\modeset.obj \
+    $(_OBJ_DIR)\i386\dactype.obj \
+    $(_OBJ_DIR)\i386\ctlrtype.obj \
+    $(_OBJ_DIR)\i386\ctlrasic.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

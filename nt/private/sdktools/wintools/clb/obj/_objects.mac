@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\clb.res \
+    $(_OBJ_DIR)\alpha\clb.obj \
+    $(_OBJ_DIR)\alpha\dlgedit.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\clb.res \
+    $(_OBJ_DIR)\mips\clb.obj \
+    $(_OBJ_DIR)\mips\dlgedit.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\clb.res \
+    $(_OBJ_DIR)\i386\clb.obj \
+    $(_OBJ_DIR)\i386\dlgedit.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\clb.res \
+    $(_OBJ_DIR)\ppc\clb.obj \
+    $(_OBJ_DIR)\ppc\dlgedit.obj
+
+PASS0_PPC_OBJECTS=
+

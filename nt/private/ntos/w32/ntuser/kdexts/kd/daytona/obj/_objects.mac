@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\userexts.res \
+    $(_OBJ_DIR)\alpha\kdexts.obj \
+    $(_OBJ_DIR)\alpha\userexts.obj \
+    $(_OBJ_DIR)\alpha\i386.obj \
+    $(_OBJ_DIR)\alpha\mips.obj \
+    $(_OBJ_DIR)\alpha\alpha.obj \
+    $(_OBJ_DIR)\alpha\ppc.obj \
+    $(_OBJ_DIR)\alpha\dsotable.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\userexts.res \
+    $(_OBJ_DIR)\mips\kdexts.obj \
+    $(_OBJ_DIR)\mips\userexts.obj \
+    $(_OBJ_DIR)\mips\i386.obj \
+    $(_OBJ_DIR)\mips\mips.obj \
+    $(_OBJ_DIR)\mips\alpha.obj \
+    $(_OBJ_DIR)\mips\ppc.obj \
+    $(_OBJ_DIR)\mips\dsotable.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\userexts.res \
+    $(_OBJ_DIR)\i386\kdexts.obj \
+    $(_OBJ_DIR)\i386\userexts.obj \
+    $(_OBJ_DIR)\i386\i386.obj \
+    $(_OBJ_DIR)\i386\mips.obj \
+    $(_OBJ_DIR)\i386\alpha.obj \
+    $(_OBJ_DIR)\i386\ppc.obj \
+    $(_OBJ_DIR)\i386\dsotable.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\userexts.res \
+    $(_OBJ_DIR)\ppc\kdexts.obj \
+    $(_OBJ_DIR)\ppc\userexts.obj \
+    $(_OBJ_DIR)\ppc\i386.obj \
+    $(_OBJ_DIR)\ppc\mips.obj \
+    $(_OBJ_DIR)\ppc\alpha.obj \
+    $(_OBJ_DIR)\ppc\ppc.obj \
+    $(_OBJ_DIR)\ppc\dsotable.obj
+
+PASS0_PPC_OBJECTS=
+

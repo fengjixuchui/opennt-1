@@ -1,0 +1,68 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\lpcinit.obj \
+    $(_OBJ_DIR)\alpha\lpccreat.obj \
+    $(_OBJ_DIR)\alpha\lpclistn.obj \
+    $(_OBJ_DIR)\alpha\lpcconn.obj \
+    $(_OBJ_DIR)\alpha\lpccompl.obj \
+    $(_OBJ_DIR)\alpha\lpcsend.obj \
+    $(_OBJ_DIR)\alpha\lpcrecv.obj \
+    $(_OBJ_DIR)\alpha\lpcreply.obj \
+    $(_OBJ_DIR)\alpha\lpcquery.obj \
+    $(_OBJ_DIR)\alpha\lpcqueue.obj \
+    $(_OBJ_DIR)\alpha\lpcclose.obj \
+    $(_OBJ_DIR)\alpha\lpcpriv.obj \
+    $(_OBJ_DIR)\alpha\lpcmove.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\lpcinit.obj \
+    $(_OBJ_DIR)\mips\lpccreat.obj \
+    $(_OBJ_DIR)\mips\lpclistn.obj \
+    $(_OBJ_DIR)\mips\lpcconn.obj \
+    $(_OBJ_DIR)\mips\lpccompl.obj \
+    $(_OBJ_DIR)\mips\lpcsend.obj \
+    $(_OBJ_DIR)\mips\lpcrecv.obj \
+    $(_OBJ_DIR)\mips\lpcreply.obj \
+    $(_OBJ_DIR)\mips\lpcquery.obj \
+    $(_OBJ_DIR)\mips\lpcqueue.obj \
+    $(_OBJ_DIR)\mips\lpcclose.obj \
+    $(_OBJ_DIR)\mips\lpcpriv.obj \
+    $(_OBJ_DIR)\mips\lpcmove.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\lpcmove.obj \
+    $(_OBJ_DIR)\i386\lpcinit.obj \
+    $(_OBJ_DIR)\i386\lpccreat.obj \
+    $(_OBJ_DIR)\i386\lpclistn.obj \
+    $(_OBJ_DIR)\i386\lpcconn.obj \
+    $(_OBJ_DIR)\i386\lpccompl.obj \
+    $(_OBJ_DIR)\i386\lpcsend.obj \
+    $(_OBJ_DIR)\i386\lpcrecv.obj \
+    $(_OBJ_DIR)\i386\lpcreply.obj \
+    $(_OBJ_DIR)\i386\lpcquery.obj \
+    $(_OBJ_DIR)\i386\lpcqueue.obj \
+    $(_OBJ_DIR)\i386\lpcclose.obj \
+    $(_OBJ_DIR)\i386\lpcpriv.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\lpcinit.obj \
+    $(_OBJ_DIR)\ppc\lpccreat.obj \
+    $(_OBJ_DIR)\ppc\lpclistn.obj \
+    $(_OBJ_DIR)\ppc\lpcconn.obj \
+    $(_OBJ_DIR)\ppc\lpccompl.obj \
+    $(_OBJ_DIR)\ppc\lpcsend.obj \
+    $(_OBJ_DIR)\ppc\lpcrecv.obj \
+    $(_OBJ_DIR)\ppc\lpcreply.obj \
+    $(_OBJ_DIR)\ppc\lpcquery.obj \
+    $(_OBJ_DIR)\ppc\lpcqueue.obj \
+    $(_OBJ_DIR)\ppc\lpcclose.obj \
+    $(_OBJ_DIR)\ppc\lpcpriv.obj \
+    $(_OBJ_DIR)\ppc\lpcmove.obj
+
+PASS0_PPC_OBJECTS=
+

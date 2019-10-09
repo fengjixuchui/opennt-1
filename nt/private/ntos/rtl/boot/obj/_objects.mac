@@ -1,0 +1,77 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\assert.obj \
+    $(_OBJ_DIR)\alpha\bitmap.obj \
+    $(_OBJ_DIR)\alpha\cnvint.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\imagedir.obj \
+    $(_OBJ_DIR)\alpha\checksum.obj \
+    $(_OBJ_DIR)\alpha\compress.obj \
+    $(_OBJ_DIR)\alpha\ldrreloc.obj \
+    $(_OBJ_DIR)\alpha\lznt1.obj \
+    $(_OBJ_DIR)\alpha\time.obj \
+    $(_OBJ_DIR)\alpha\debugstb.obj \
+    $(_OBJ_DIR)\alpha\largeint.obj \
+    $(_OBJ_DIR)\alpha\lzntaxp.obj \
+    $(_OBJ_DIR)\alpha\ntcurteb.obj \
+    $(_OBJ_DIR)\alpha\mvmem.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\assert.obj \
+    $(_OBJ_DIR)\mips\bitmap.obj \
+    $(_OBJ_DIR)\mips\cnvint.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\imagedir.obj \
+    $(_OBJ_DIR)\mips\checksum.obj \
+    $(_OBJ_DIR)\mips\compress.obj \
+    $(_OBJ_DIR)\mips\ldrreloc.obj \
+    $(_OBJ_DIR)\mips\lznt1.obj \
+    $(_OBJ_DIR)\mips\time.obj \
+    $(_OBJ_DIR)\mips\debugstb.obj \
+    $(_OBJ_DIR)\mips\largeint.obj \
+    $(_OBJ_DIR)\mips\lzntmips.obj \
+    $(_OBJ_DIR)\mips\xxmvmem.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\debug2.obj \
+    $(_OBJ_DIR)\i386\ioaccess.obj \
+    $(_OBJ_DIR)\i386\largeint.obj \
+    $(_OBJ_DIR)\i386\lzntx86.obj \
+    $(_OBJ_DIR)\i386\movemem.obj \
+    $(_OBJ_DIR)\i386\ntcurteb.obj \
+    $(_OBJ_DIR)\i386\divlarge.obj \
+    $(_OBJ_DIR)\i386\debug3.obj \
+    $(_OBJ_DIR)\i386\assert.obj \
+    $(_OBJ_DIR)\i386\bitmap.obj \
+    $(_OBJ_DIR)\i386\cnvint.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\imagedir.obj \
+    $(_OBJ_DIR)\i386\checksum.obj \
+    $(_OBJ_DIR)\i386\compress.obj \
+    $(_OBJ_DIR)\i386\ldrreloc.obj \
+    $(_OBJ_DIR)\i386\lznt1.obj \
+    $(_OBJ_DIR)\i386\time.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\assert.obj \
+    $(_OBJ_DIR)\ppc\bitmap.obj \
+    $(_OBJ_DIR)\ppc\cnvint.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\imagedir.obj \
+    $(_OBJ_DIR)\ppc\checksum.obj \
+    $(_OBJ_DIR)\ppc\compress.obj \
+    $(_OBJ_DIR)\ppc\ldrreloc.obj \
+    $(_OBJ_DIR)\ppc\lznt1.obj \
+    $(_OBJ_DIR)\ppc\time.obj \
+    $(_OBJ_DIR)\ppc\debugstb.obj \
+    $(_OBJ_DIR)\ppc\largeint.obj \
+    $(_OBJ_DIR)\ppc\lzntppc.obj \
+    $(_OBJ_DIR)\ppc\movemem.obj
+
+PASS0_PPC_OBJECTS=
+

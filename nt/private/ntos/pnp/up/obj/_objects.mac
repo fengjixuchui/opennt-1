@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\pnpinit.obj \
+    $(_OBJ_DIR)\alpha\busenum.obj \
+    $(_OBJ_DIR)\alpha\control.obj \
+    $(_OBJ_DIR)\alpha\pnpevent.obj \
+    $(_OBJ_DIR)\alpha\devices.obj \
+    $(_OBJ_DIR)\alpha\internal.obj \
+    $(_OBJ_DIR)\alpha\enumsys.obj \
+    $(_OBJ_DIR)\alpha\pnpdata.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\pnpinit.obj \
+    $(_OBJ_DIR)\mips\busenum.obj \
+    $(_OBJ_DIR)\mips\control.obj \
+    $(_OBJ_DIR)\mips\pnpevent.obj \
+    $(_OBJ_DIR)\mips\devices.obj \
+    $(_OBJ_DIR)\mips\internal.obj \
+    $(_OBJ_DIR)\mips\enumsys.obj \
+    $(_OBJ_DIR)\mips\pnpdata.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\pnpinit.obj \
+    $(_OBJ_DIR)\i386\busenum.obj \
+    $(_OBJ_DIR)\i386\control.obj \
+    $(_OBJ_DIR)\i386\pnpevent.obj \
+    $(_OBJ_DIR)\i386\devices.obj \
+    $(_OBJ_DIR)\i386\internal.obj \
+    $(_OBJ_DIR)\i386\enumsys.obj \
+    $(_OBJ_DIR)\i386\pnpdata.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\pnpinit.obj \
+    $(_OBJ_DIR)\ppc\busenum.obj \
+    $(_OBJ_DIR)\ppc\control.obj \
+    $(_OBJ_DIR)\ppc\pnpevent.obj \
+    $(_OBJ_DIR)\ppc\devices.obj \
+    $(_OBJ_DIR)\ppc\internal.obj \
+    $(_OBJ_DIR)\ppc\enumsys.obj \
+    $(_OBJ_DIR)\ppc\pnpdata.obj
+
+PASS0_PPC_OBJECTS=
+

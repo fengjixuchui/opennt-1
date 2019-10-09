@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\nwlnkflt.res \
+    $(_OBJ_DIR)\alpha\driver.obj \
+    $(_OBJ_DIR)\alpha\filter.obj \
+    $(_OBJ_DIR)\alpha\fwdbind.obj \
+    $(_OBJ_DIR)\alpha\debug.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\nwlnkflt.res \
+    $(_OBJ_DIR)\mips\driver.obj \
+    $(_OBJ_DIR)\mips\filter.obj \
+    $(_OBJ_DIR)\mips\fwdbind.obj \
+    $(_OBJ_DIR)\mips\debug.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\nwlnkflt.res \
+    $(_OBJ_DIR)\i386\driver.obj \
+    $(_OBJ_DIR)\i386\filter.obj \
+    $(_OBJ_DIR)\i386\fwdbind.obj \
+    $(_OBJ_DIR)\i386\debug.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\nwlnkflt.res \
+    $(_OBJ_DIR)\ppc\driver.obj \
+    $(_OBJ_DIR)\ppc\filter.obj \
+    $(_OBJ_DIR)\ppc\fwdbind.obj \
+    $(_OBJ_DIR)\ppc\debug.obj
+
+PASS0_PPC_OBJECTS=
+

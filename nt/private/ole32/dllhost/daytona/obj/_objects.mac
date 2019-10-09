@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dllhost.res \
+    $(_OBJ_DIR)\alpha\surrogat.obj \
+    $(_OBJ_DIR)\alpha\libtable.obj \
+    $(_OBJ_DIR)\alpha\csrgt.obj \
+    $(_OBJ_DIR)\alpha\cmonitor.obj \
+    $(_OBJ_DIR)\alpha\cdllsrv.obj \
+    $(_OBJ_DIR)\alpha\srgtfact.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dllhost.res \
+    $(_OBJ_DIR)\mips\surrogat.obj \
+    $(_OBJ_DIR)\mips\libtable.obj \
+    $(_OBJ_DIR)\mips\csrgt.obj \
+    $(_OBJ_DIR)\mips\cmonitor.obj \
+    $(_OBJ_DIR)\mips\cdllsrv.obj \
+    $(_OBJ_DIR)\mips\srgtfact.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dllhost.res \
+    $(_OBJ_DIR)\i386\surrogat.obj \
+    $(_OBJ_DIR)\i386\libtable.obj \
+    $(_OBJ_DIR)\i386\csrgt.obj \
+    $(_OBJ_DIR)\i386\cmonitor.obj \
+    $(_OBJ_DIR)\i386\cdllsrv.obj \
+    $(_OBJ_DIR)\i386\srgtfact.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dllhost.res \
+    $(_OBJ_DIR)\ppc\surrogat.obj \
+    $(_OBJ_DIR)\ppc\libtable.obj \
+    $(_OBJ_DIR)\ppc\csrgt.obj \
+    $(_OBJ_DIR)\ppc\cmonitor.obj \
+    $(_OBJ_DIR)\ppc\cdllsrv.obj \
+    $(_OBJ_DIR)\ppc\srgtfact.obj
+
+PASS0_PPC_OBJECTS=
+

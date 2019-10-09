@@ -1,0 +1,76 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\client.res \
+    $(_OBJ_DIR)\alpha\client.obj \
+    $(_OBJ_DIR)\alpha\tapsrv_c.obj \
+    $(_OBJ_DIR)\alpha\dial.obj \
+    $(_OBJ_DIR)\alpha\card.obj \
+    $(_OBJ_DIR)\alpha\copy.obj \
+    $(_OBJ_DIR)\alpha\cpl.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\drv.obj \
+    $(_OBJ_DIR)\alpha\exe.obj \
+    $(_OBJ_DIR)\alpha\filecopy.obj \
+    $(_OBJ_DIR)\alpha\inf.obj \
+    $(_OBJ_DIR)\alpha\insdisk.obj \
+    $(_OBJ_DIR)\alpha\mmdriver.obj \
+    $(_OBJ_DIR)\alpha\util.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\client.res \
+    $(_OBJ_DIR)\mips\client.obj \
+    $(_OBJ_DIR)\mips\tapsrv_c.obj \
+    $(_OBJ_DIR)\mips\dial.obj \
+    $(_OBJ_DIR)\mips\card.obj \
+    $(_OBJ_DIR)\mips\copy.obj \
+    $(_OBJ_DIR)\mips\cpl.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\drv.obj \
+    $(_OBJ_DIR)\mips\exe.obj \
+    $(_OBJ_DIR)\mips\filecopy.obj \
+    $(_OBJ_DIR)\mips\inf.obj \
+    $(_OBJ_DIR)\mips\insdisk.obj \
+    $(_OBJ_DIR)\mips\mmdriver.obj \
+    $(_OBJ_DIR)\mips\util.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\client.res \
+    $(_OBJ_DIR)\i386\client.obj \
+    $(_OBJ_DIR)\i386\tapsrv_c.obj \
+    $(_OBJ_DIR)\i386\dial.obj \
+    $(_OBJ_DIR)\i386\card.obj \
+    $(_OBJ_DIR)\i386\copy.obj \
+    $(_OBJ_DIR)\i386\cpl.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\drv.obj \
+    $(_OBJ_DIR)\i386\exe.obj \
+    $(_OBJ_DIR)\i386\filecopy.obj \
+    $(_OBJ_DIR)\i386\inf.obj \
+    $(_OBJ_DIR)\i386\insdisk.obj \
+    $(_OBJ_DIR)\i386\mmdriver.obj \
+    $(_OBJ_DIR)\i386\util.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\client.res \
+    $(_OBJ_DIR)\ppc\client.obj \
+    $(_OBJ_DIR)\ppc\tapsrv_c.obj \
+    $(_OBJ_DIR)\ppc\dial.obj \
+    $(_OBJ_DIR)\ppc\card.obj \
+    $(_OBJ_DIR)\ppc\copy.obj \
+    $(_OBJ_DIR)\ppc\cpl.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\drv.obj \
+    $(_OBJ_DIR)\ppc\exe.obj \
+    $(_OBJ_DIR)\ppc\filecopy.obj \
+    $(_OBJ_DIR)\ppc\inf.obj \
+    $(_OBJ_DIR)\ppc\insdisk.obj \
+    $(_OBJ_DIR)\ppc\mmdriver.obj \
+    $(_OBJ_DIR)\ppc\util.obj
+
+PASS0_PPC_OBJECTS=
+

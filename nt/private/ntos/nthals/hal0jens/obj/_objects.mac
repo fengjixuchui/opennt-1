@@ -1,0 +1,50 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\allstart.obj \
+    $(_OBJ_DIR)\alpha\axlbsup.obj \
+    $(_OBJ_DIR)\alpha\axsysint.obj \
+    $(_OBJ_DIR)\alpha\bios.obj \
+    $(_OBJ_DIR)\alpha\ev4prof.obj \
+    $(_OBJ_DIR)\alpha\jxbeep.obj \
+    $(_OBJ_DIR)\alpha\jxcalstl.obj \
+    $(_OBJ_DIR)\alpha\jxdisp.obj \
+    $(_OBJ_DIR)\alpha\jxhwsup.obj \
+    $(_OBJ_DIR)\alpha\jxhltsup.obj \
+    $(_OBJ_DIR)\alpha\jxinfo.obj \
+    $(_OBJ_DIR)\alpha\jxinitnt.obj \
+    $(_OBJ_DIR)\alpha\jxmapio.obj \
+    $(_OBJ_DIR)\alpha\jxport.obj \
+    $(_OBJ_DIR)\alpha\jxtime.obj \
+    $(_OBJ_DIR)\alpha\jxusage.obj \
+    $(_OBJ_DIR)\alpha\xxmemory.obj \
+    $(_OBJ_DIR)\alpha\axebsup.obj \
+    $(_OBJ_DIR)\alpha\jxcache.obj \
+    $(_OBJ_DIR)\alpha\xxenvirv.obj \
+    $(_OBJ_DIR)\alpha\jxprom.obj \
+    $(_OBJ_DIR)\alpha\xxinithl.obj \
+    $(_OBJ_DIR)\alpha\xxreturn.obj \
+    $(_OBJ_DIR)\alpha\jxmchk.obj \
+    $(_OBJ_DIR)\alpha\jxclock.obj \
+    $(_OBJ_DIR)\alpha\ev4ints.obj \
+    $(_OBJ_DIR)\alpha\idle.obj \
+    $(_OBJ_DIR)\alpha\jxioacc.obj \
+    $(_OBJ_DIR)\alpha\halpal.obj \
+    $(_OBJ_DIR)\alpha\jxvtisup.obj \
+    $(_OBJ_DIR)\alpha\jxintsup.obj \
+    $(_OBJ_DIR)\alpha\hal.res \
+    $(_OBJ_DIR)\alpha\bushnd.obj \
+    $(_OBJ_DIR)\alpha\drivesup.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

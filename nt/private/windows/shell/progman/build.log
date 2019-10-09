@@ -1,0 +1,104 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining w:\nt\private\windows\shell\progman directory for files to compile.
+Compiling w:\nt\private\windows\shell\progman directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 NOPASS0=1 386=1'
+	rc -l 409 -z "MS Sans Serif,Helv/MS Shell Dlg"  -r -fo obj\i386\progmn.tmp -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -DWIN32 -DUNICODE -D_UNICODE  -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt .\progmn.rc
+warning RC4005: 'WIN32' : redefinition
+cl -nologo -Ii386\ -I. -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -DWIN32 -DUNICODE -D_UNICODE    /c /Zel /Zp8 /Gy   /WX /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  .\shutdown.c
+shutdown.c
+cl -nologo -Ii386\ -I. -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -DWIN32 -DUNICODE -D_UNICODE    /c /Zel /Zp8 /Gy   /WX /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  .\progman.c
+progman.c
+cl -nologo -Ii386\ -I. -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -DWIN32 -DUNICODE -D_UNICODE    /c /Zel /Zp8 /Gy   /WX /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  .\hotkey.c
+hotkey.c
+cl -nologo -Ii386\ -I. -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -DWIN32 -DUNICODE -D_UNICODE    /c /Zel /Zp8 /Gy   /WX /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  .\pmwprocs.c
+pmwprocs.c
+cl -nologo -Ii386\ -I. -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -DWIN32 -DUNICODE -D_UNICODE    /c /Zel /Zp8 /Gy   /WX /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  .\pmcomman.c
+pmcomman.c
+cl -nologo -Ii386\ -I. -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -DWIN32 -DUNICODE -D_UNICODE    /c /Zel /Zp8 /Gy   /WX /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  .\pminit.c
+pminit.c
+cl -nologo -Ii386\ -I. -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -DWIN32 -DUNICODE -D_UNICODE    /c /Zel /Zp8 /Gy   /WX /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  .\pmgroup.c
+pmgroup.c
+cl -nologo -Ii386\ -I. -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -DWIN32 -DUNICODE -D_UNICODE    /c /Zel /Zp8 /Gy   /WX /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  .\pmdlgs.c
+pmdlgs.c
+cl -nologo -Ii386\ -I. -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -DWIN32 -DUNICODE -D_UNICODE    /c /Zel /Zp8 /Gy   /WX /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  .\pmgseg.c
+pmgseg.c
+cl -nologo -Ii386\ -I. -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -DWIN32 -DUNICODE -D_UNICODE    /c /Zel /Zp8 /Gy   /WX /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  .\pmdde.c
+pmdde.c
+cl -nologo -Ii386\ -I. -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -DWIN32 -DUNICODE -D_UNICODE    /c /Zel /Zp8 /Gy   /WX /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  .\security.c
+security.c
+cl -nologo -Ii386\ -I. -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -DWIN32 -DUNICODE -D_UNICODE    /c /Zel /Zp8 /Gy   /WX /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  .\secdesc.c
+secdesc.c
+cl -nologo -Ii386\ -I. -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -DWIN32 -DUNICODE -D_UNICODE    /c /Zel /Zp8 /Gy   /WX /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  .\util.c
+util.c
+cl -nologo -Ii386\ -I. -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -DWIN32 -DUNICODE -D_UNICODE    /c /Zel /Zp8 /Gy   /WX /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  .\notify.c
+notify.c
+cl -nologo -Ii386\ -I. -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -DWIN32 -DUNICODE -D_UNICODE    /c /Zel /Zp8 /Gy   /WX /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  .\taskman.c
+taskman.c
+cl -nologo -Ii386\ -I. -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -DWIN32 -DUNICODE -D_UNICODE    /c /Zel /Zp8 /Gy   /WX /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  .\convgrp.c
+convgrp.c
+	lib -out:obj\i386\progman.lib -debugtype:cv  -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 -nodefaultlib -machine:i386 @W:\tmp\nma01288.
+Microsoft (R) 32-Bit Library Manager Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+obj\i386\progmn.res 
+obj\i386\shutdown.obj 
+obj\i386\progman.obj 
+obj\i386\hotkey.obj 
+obj\i386\pmwprocs.obj 
+obj\i386\pmcomman.obj 
+obj\i386\pminit.obj 
+obj\i386\pmgroup.obj 
+obj\i386\pmdlgs.obj 
+obj\i386\pmgseg.obj 
+obj\i386\pmdde.obj 
+obj\i386\security.obj 
+obj\i386\secdesc.obj 
+obj\i386\util.obj 
+obj\i386\notify.obj 
+obj\i386\taskman.obj 
+obj\i386\convgrp.obj 
+
+Stop. 
+Linking w:\nt\private\windows\shell\progman directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	link -out:obj\i386\progman.exe -machine:i386 @W:\tmp\nma02464.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-order:@progman.prf 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-subsystem:windows,4.00 
+-entry:mainCRTStartup 
+obj\i386\progman.obj 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\user32p.lib 
+W:\nt\public\sdk\lib\i386\pwin32.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+..\userpri\obj\i386\unicrt.obj 
+obj\i386\progmn.res 
+obj\i386\progman.lib 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\progman.exe
+
+Stop. 

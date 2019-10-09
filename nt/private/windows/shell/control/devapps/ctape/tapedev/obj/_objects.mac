@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\qic117.obj \
+    $(_OBJ_DIR)\alpha\detect.obj \
+    $(_OBJ_DIR)\alpha\rescan.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\qic117.obj \
+    $(_OBJ_DIR)\mips\detect.obj \
+    $(_OBJ_DIR)\mips\rescan.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\qic117.obj \
+    $(_OBJ_DIR)\i386\detect.obj \
+    $(_OBJ_DIR)\i386\rescan.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\qic117.obj \
+    $(_OBJ_DIR)\ppc\detect.obj \
+    $(_OBJ_DIR)\ppc\rescan.obj
+
+PASS0_PPC_OBJECTS=
+

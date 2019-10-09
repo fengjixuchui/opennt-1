@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\shole.res \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\sccls.obj \
+    $(_OBJ_DIR)\alpha\sccreate.obj \
+    $(_OBJ_DIR)\alpha\scdata.obj \
+    $(_OBJ_DIR)\alpha\shole.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\shole.res \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\sccls.obj \
+    $(_OBJ_DIR)\mips\sccreate.obj \
+    $(_OBJ_DIR)\mips\scdata.obj \
+    $(_OBJ_DIR)\mips\shole.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\shole.res \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\sccls.obj \
+    $(_OBJ_DIR)\i386\sccreate.obj \
+    $(_OBJ_DIR)\i386\scdata.obj \
+    $(_OBJ_DIR)\i386\shole.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\shole.res \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\sccls.obj \
+    $(_OBJ_DIR)\ppc\sccreate.obj \
+    $(_OBJ_DIR)\ppc\scdata.obj \
+    $(_OBJ_DIR)\ppc\shole.obj
+
+PASS0_PPC_OBJECTS=
+

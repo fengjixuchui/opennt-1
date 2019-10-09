@@ -1,0 +1,144 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\arcsec.obj \
+    $(_OBJ_DIR)\alpha\assign.obj \
+    $(_OBJ_DIR)\alpha\complete.obj \
+    $(_OBJ_DIR)\alpha\create.obj \
+    $(_OBJ_DIR)\alpha\devctrl.obj \
+    $(_OBJ_DIR)\alpha\dir.obj \
+    $(_OBJ_DIR)\alpha\dumpctl.obj \
+    $(_OBJ_DIR)\alpha\errorlog.obj \
+    $(_OBJ_DIR)\alpha\filter.obj \
+    $(_OBJ_DIR)\alpha\fsctrl.obj \
+    $(_OBJ_DIR)\alpha\internal.obj \
+    $(_OBJ_DIR)\alpha\iodata.obj \
+    $(_OBJ_DIR)\alpha\ioinit.obj \
+    $(_OBJ_DIR)\alpha\iosubs.obj \
+    $(_OBJ_DIR)\alpha\loadunld.obj \
+    $(_OBJ_DIR)\alpha\lock.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\objsup.obj \
+    $(_OBJ_DIR)\alpha\open.obj \
+    $(_OBJ_DIR)\alpha\parse.obj \
+    $(_OBJ_DIR)\alpha\pnpdata.obj \
+    $(_OBJ_DIR)\alpha\pnpdd.obj \
+    $(_OBJ_DIR)\alpha\pnpinit.obj \
+    $(_OBJ_DIR)\alpha\pnpioapi.obj \
+    $(_OBJ_DIR)\alpha\pnpsubs.obj \
+    $(_OBJ_DIR)\alpha\qsea.obj \
+    $(_OBJ_DIR)\alpha\qsfs.obj \
+    $(_OBJ_DIR)\alpha\qsinfo.obj \
+    $(_OBJ_DIR)\alpha\query.obj \
+    $(_OBJ_DIR)\alpha\read.obj \
+    $(_OBJ_DIR)\alpha\report.obj \
+    $(_OBJ_DIR)\alpha\write.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\arcsec.obj \
+    $(_OBJ_DIR)\mips\assign.obj \
+    $(_OBJ_DIR)\mips\complete.obj \
+    $(_OBJ_DIR)\mips\create.obj \
+    $(_OBJ_DIR)\mips\devctrl.obj \
+    $(_OBJ_DIR)\mips\dir.obj \
+    $(_OBJ_DIR)\mips\dumpctl.obj \
+    $(_OBJ_DIR)\mips\errorlog.obj \
+    $(_OBJ_DIR)\mips\filter.obj \
+    $(_OBJ_DIR)\mips\fsctrl.obj \
+    $(_OBJ_DIR)\mips\internal.obj \
+    $(_OBJ_DIR)\mips\iodata.obj \
+    $(_OBJ_DIR)\mips\ioinit.obj \
+    $(_OBJ_DIR)\mips\iosubs.obj \
+    $(_OBJ_DIR)\mips\loadunld.obj \
+    $(_OBJ_DIR)\mips\lock.obj \
+    $(_OBJ_DIR)\mips\misc.obj \
+    $(_OBJ_DIR)\mips\objsup.obj \
+    $(_OBJ_DIR)\mips\open.obj \
+    $(_OBJ_DIR)\mips\parse.obj \
+    $(_OBJ_DIR)\mips\pnpdata.obj \
+    $(_OBJ_DIR)\mips\pnpdd.obj \
+    $(_OBJ_DIR)\mips\pnpinit.obj \
+    $(_OBJ_DIR)\mips\pnpioapi.obj \
+    $(_OBJ_DIR)\mips\pnpsubs.obj \
+    $(_OBJ_DIR)\mips\qsea.obj \
+    $(_OBJ_DIR)\mips\qsfs.obj \
+    $(_OBJ_DIR)\mips\qsinfo.obj \
+    $(_OBJ_DIR)\mips\query.obj \
+    $(_OBJ_DIR)\mips\read.obj \
+    $(_OBJ_DIR)\mips\report.obj \
+    $(_OBJ_DIR)\mips\write.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\arcsec.obj \
+    $(_OBJ_DIR)\i386\assign.obj \
+    $(_OBJ_DIR)\i386\complete.obj \
+    $(_OBJ_DIR)\i386\create.obj \
+    $(_OBJ_DIR)\i386\devctrl.obj \
+    $(_OBJ_DIR)\i386\dir.obj \
+    $(_OBJ_DIR)\i386\dumpctl.obj \
+    $(_OBJ_DIR)\i386\errorlog.obj \
+    $(_OBJ_DIR)\i386\filter.obj \
+    $(_OBJ_DIR)\i386\fsctrl.obj \
+    $(_OBJ_DIR)\i386\internal.obj \
+    $(_OBJ_DIR)\i386\iodata.obj \
+    $(_OBJ_DIR)\i386\ioinit.obj \
+    $(_OBJ_DIR)\i386\iosubs.obj \
+    $(_OBJ_DIR)\i386\loadunld.obj \
+    $(_OBJ_DIR)\i386\lock.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\objsup.obj \
+    $(_OBJ_DIR)\i386\open.obj \
+    $(_OBJ_DIR)\i386\parse.obj \
+    $(_OBJ_DIR)\i386\pnpdata.obj \
+    $(_OBJ_DIR)\i386\pnpdd.obj \
+    $(_OBJ_DIR)\i386\pnpinit.obj \
+    $(_OBJ_DIR)\i386\pnpioapi.obj \
+    $(_OBJ_DIR)\i386\pnpsubs.obj \
+    $(_OBJ_DIR)\i386\qsea.obj \
+    $(_OBJ_DIR)\i386\qsfs.obj \
+    $(_OBJ_DIR)\i386\qsinfo.obj \
+    $(_OBJ_DIR)\i386\query.obj \
+    $(_OBJ_DIR)\i386\read.obj \
+    $(_OBJ_DIR)\i386\report.obj \
+    $(_OBJ_DIR)\i386\write.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\arcsec.obj \
+    $(_OBJ_DIR)\ppc\assign.obj \
+    $(_OBJ_DIR)\ppc\complete.obj \
+    $(_OBJ_DIR)\ppc\create.obj \
+    $(_OBJ_DIR)\ppc\devctrl.obj \
+    $(_OBJ_DIR)\ppc\dir.obj \
+    $(_OBJ_DIR)\ppc\dumpctl.obj \
+    $(_OBJ_DIR)\ppc\errorlog.obj \
+    $(_OBJ_DIR)\ppc\filter.obj \
+    $(_OBJ_DIR)\ppc\fsctrl.obj \
+    $(_OBJ_DIR)\ppc\internal.obj \
+    $(_OBJ_DIR)\ppc\iodata.obj \
+    $(_OBJ_DIR)\ppc\ioinit.obj \
+    $(_OBJ_DIR)\ppc\iosubs.obj \
+    $(_OBJ_DIR)\ppc\loadunld.obj \
+    $(_OBJ_DIR)\ppc\lock.obj \
+    $(_OBJ_DIR)\ppc\misc.obj \
+    $(_OBJ_DIR)\ppc\objsup.obj \
+    $(_OBJ_DIR)\ppc\open.obj \
+    $(_OBJ_DIR)\ppc\parse.obj \
+    $(_OBJ_DIR)\ppc\pnpdata.obj \
+    $(_OBJ_DIR)\ppc\pnpdd.obj \
+    $(_OBJ_DIR)\ppc\pnpinit.obj \
+    $(_OBJ_DIR)\ppc\pnpioapi.obj \
+    $(_OBJ_DIR)\ppc\pnpsubs.obj \
+    $(_OBJ_DIR)\ppc\qsea.obj \
+    $(_OBJ_DIR)\ppc\qsfs.obj \
+    $(_OBJ_DIR)\ppc\qsinfo.obj \
+    $(_OBJ_DIR)\ppc\query.obj \
+    $(_OBJ_DIR)\ppc\read.obj \
+    $(_OBJ_DIR)\ppc\report.obj \
+    $(_OBJ_DIR)\ppc\write.obj
+
+PASS0_PPC_OBJECTS=
+

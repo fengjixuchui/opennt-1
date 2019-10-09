@@ -1,0 +1,41 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cirrus.res \
+    $(_OBJ_DIR)\alpha\cirrus.obj \
+    $(_OBJ_DIR)\alpha\modeset.obj \
+    $(_OBJ_DIR)\alpha\cldata.obj \
+    $(_OBJ_DIR)\alpha\sr754x.obj \
+    $(_OBJ_DIR)\alpha\clddc2b.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\cirrus.res \
+    $(_OBJ_DIR)\mips\cirrus.obj \
+    $(_OBJ_DIR)\mips\modeset.obj \
+    $(_OBJ_DIR)\mips\cldata.obj \
+    $(_OBJ_DIR)\mips\sr754x.obj \
+    $(_OBJ_DIR)\mips\clddc2b.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cirrus.res \
+    $(_OBJ_DIR)\i386\clhard.obj \
+    $(_OBJ_DIR)\i386\cirrus.obj \
+    $(_OBJ_DIR)\i386\modeset.obj \
+    $(_OBJ_DIR)\i386\cldata.obj \
+    $(_OBJ_DIR)\i386\sr754x.obj \
+    $(_OBJ_DIR)\i386\clddc2b.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\cirrus.res \
+    $(_OBJ_DIR)\ppc\cirrus.obj \
+    $(_OBJ_DIR)\ppc\modeset.obj \
+    $(_OBJ_DIR)\ppc\cldata.obj \
+    $(_OBJ_DIR)\ppc\sr754x.obj \
+    $(_OBJ_DIR)\ppc\clddc2b.obj
+
+PASS0_PPC_OBJECTS=
+

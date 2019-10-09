@@ -1,0 +1,112 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ndis.res \
+    $(_OBJ_DIR)\alpha\ndis.obj \
+    $(_OBJ_DIR)\alpha\data.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\initpnp.obj \
+    $(_OBJ_DIR)\alpha\common.obj \
+    $(_OBJ_DIR)\alpha\config.obj \
+    $(_OBJ_DIR)\alpha\configm.obj \
+    $(_OBJ_DIR)\alpha\bus.obj \
+    $(_OBJ_DIR)\alpha\timer.obj \
+    $(_OBJ_DIR)\alpha\timerm.obj \
+    $(_OBJ_DIR)\alpha\miniport.obj \
+    $(_OBJ_DIR)\alpha\minint.obj \
+    $(_OBJ_DIR)\alpha\ndis_co.obj \
+    $(_OBJ_DIR)\alpha\requestm.obj \
+    $(_OBJ_DIR)\alpha\sendm.obj \
+    $(_OBJ_DIR)\alpha\minisub.obj \
+    $(_OBJ_DIR)\alpha\mac.obj \
+    $(_OBJ_DIR)\alpha\protocol.obj \
+    $(_OBJ_DIR)\alpha\efilter.obj \
+    $(_OBJ_DIR)\alpha\ffilter.obj \
+    $(_OBJ_DIR)\alpha\tfilter.obj \
+    $(_OBJ_DIR)\alpha\afilter.obj \
+    $(_OBJ_DIR)\alpha\debug.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ndis.res \
+    $(_OBJ_DIR)\mips\ndis.obj \
+    $(_OBJ_DIR)\mips\data.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\initpnp.obj \
+    $(_OBJ_DIR)\mips\common.obj \
+    $(_OBJ_DIR)\mips\config.obj \
+    $(_OBJ_DIR)\mips\configm.obj \
+    $(_OBJ_DIR)\mips\bus.obj \
+    $(_OBJ_DIR)\mips\timer.obj \
+    $(_OBJ_DIR)\mips\timerm.obj \
+    $(_OBJ_DIR)\mips\miniport.obj \
+    $(_OBJ_DIR)\mips\minint.obj \
+    $(_OBJ_DIR)\mips\ndis_co.obj \
+    $(_OBJ_DIR)\mips\requestm.obj \
+    $(_OBJ_DIR)\mips\sendm.obj \
+    $(_OBJ_DIR)\mips\minisub.obj \
+    $(_OBJ_DIR)\mips\mac.obj \
+    $(_OBJ_DIR)\mips\protocol.obj \
+    $(_OBJ_DIR)\mips\efilter.obj \
+    $(_OBJ_DIR)\mips\ffilter.obj \
+    $(_OBJ_DIR)\mips\tfilter.obj \
+    $(_OBJ_DIR)\mips\afilter.obj \
+    $(_OBJ_DIR)\mips\debug.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ndis.res \
+    $(_OBJ_DIR)\i386\ndis.obj \
+    $(_OBJ_DIR)\i386\data.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\initpnp.obj \
+    $(_OBJ_DIR)\i386\common.obj \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\configm.obj \
+    $(_OBJ_DIR)\i386\bus.obj \
+    $(_OBJ_DIR)\i386\timer.obj \
+    $(_OBJ_DIR)\i386\timerm.obj \
+    $(_OBJ_DIR)\i386\miniport.obj \
+    $(_OBJ_DIR)\i386\minint.obj \
+    $(_OBJ_DIR)\i386\ndis_co.obj \
+    $(_OBJ_DIR)\i386\requestm.obj \
+    $(_OBJ_DIR)\i386\sendm.obj \
+    $(_OBJ_DIR)\i386\minisub.obj \
+    $(_OBJ_DIR)\i386\mac.obj \
+    $(_OBJ_DIR)\i386\protocol.obj \
+    $(_OBJ_DIR)\i386\efilter.obj \
+    $(_OBJ_DIR)\i386\ffilter.obj \
+    $(_OBJ_DIR)\i386\tfilter.obj \
+    $(_OBJ_DIR)\i386\afilter.obj \
+    $(_OBJ_DIR)\i386\debug.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ndis.res \
+    $(_OBJ_DIR)\ppc\ndis.obj \
+    $(_OBJ_DIR)\ppc\data.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\initpnp.obj \
+    $(_OBJ_DIR)\ppc\common.obj \
+    $(_OBJ_DIR)\ppc\config.obj \
+    $(_OBJ_DIR)\ppc\configm.obj \
+    $(_OBJ_DIR)\ppc\bus.obj \
+    $(_OBJ_DIR)\ppc\timer.obj \
+    $(_OBJ_DIR)\ppc\timerm.obj \
+    $(_OBJ_DIR)\ppc\miniport.obj \
+    $(_OBJ_DIR)\ppc\minint.obj \
+    $(_OBJ_DIR)\ppc\ndis_co.obj \
+    $(_OBJ_DIR)\ppc\requestm.obj \
+    $(_OBJ_DIR)\ppc\sendm.obj \
+    $(_OBJ_DIR)\ppc\minisub.obj \
+    $(_OBJ_DIR)\ppc\mac.obj \
+    $(_OBJ_DIR)\ppc\protocol.obj \
+    $(_OBJ_DIR)\ppc\efilter.obj \
+    $(_OBJ_DIR)\ppc\ffilter.obj \
+    $(_OBJ_DIR)\ppc\tfilter.obj \
+    $(_OBJ_DIR)\ppc\afilter.obj \
+    $(_OBJ_DIR)\ppc\debug.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\splexts.res \
+    $(_OBJ_DIR)\alpha\dbgmain.obj \
+    $(_OBJ_DIR)\alpha\dbginit.obj \
+    $(_OBJ_DIR)\alpha\dbgutil.obj \
+    $(_OBJ_DIR)\alpha\dbgspl.obj \
+    $(_OBJ_DIR)\alpha\dbgsec.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\splexts.res \
+    $(_OBJ_DIR)\mips\dbgmain.obj \
+    $(_OBJ_DIR)\mips\dbginit.obj \
+    $(_OBJ_DIR)\mips\dbgutil.obj \
+    $(_OBJ_DIR)\mips\dbgspl.obj \
+    $(_OBJ_DIR)\mips\dbgsec.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\splexts.res \
+    $(_OBJ_DIR)\i386\dbgmain.obj \
+    $(_OBJ_DIR)\i386\dbginit.obj \
+    $(_OBJ_DIR)\i386\dbgutil.obj \
+    $(_OBJ_DIR)\i386\dbgspl.obj \
+    $(_OBJ_DIR)\i386\dbgsec.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\splexts.res \
+    $(_OBJ_DIR)\ppc\dbgmain.obj \
+    $(_OBJ_DIR)\ppc\dbginit.obj \
+    $(_OBJ_DIR)\ppc\dbgutil.obj \
+    $(_OBJ_DIR)\ppc\dbgspl.obj \
+    $(_OBJ_DIR)\ppc\dbgsec.obj
+
+PASS0_PPC_OBJECTS=
+

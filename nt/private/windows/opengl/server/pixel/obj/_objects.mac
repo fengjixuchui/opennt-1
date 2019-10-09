@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\px_api.obj \
+    $(_OBJ_DIR)\alpha\px_fast.obj \
+    $(_OBJ_DIR)\alpha\px_modif.obj \
+    $(_OBJ_DIR)\alpha\px_pack.obj \
+    $(_OBJ_DIR)\alpha\px_paths.obj \
+    $(_OBJ_DIR)\alpha\px_read.obj \
+    $(_OBJ_DIR)\alpha\px_rende.obj \
+    $(_OBJ_DIR)\alpha\px_unpac.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\px_api.obj \
+    $(_OBJ_DIR)\mips\px_fast.obj \
+    $(_OBJ_DIR)\mips\px_modif.obj \
+    $(_OBJ_DIR)\mips\px_pack.obj \
+    $(_OBJ_DIR)\mips\px_paths.obj \
+    $(_OBJ_DIR)\mips\px_read.obj \
+    $(_OBJ_DIR)\mips\px_rende.obj \
+    $(_OBJ_DIR)\mips\px_unpac.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\px_api.obj \
+    $(_OBJ_DIR)\i386\px_fast.obj \
+    $(_OBJ_DIR)\i386\px_modif.obj \
+    $(_OBJ_DIR)\i386\px_pack.obj \
+    $(_OBJ_DIR)\i386\px_paths.obj \
+    $(_OBJ_DIR)\i386\px_read.obj \
+    $(_OBJ_DIR)\i386\px_rende.obj \
+    $(_OBJ_DIR)\i386\px_unpac.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\px_api.obj \
+    $(_OBJ_DIR)\ppc\px_fast.obj \
+    $(_OBJ_DIR)\ppc\px_modif.obj \
+    $(_OBJ_DIR)\ppc\px_pack.obj \
+    $(_OBJ_DIR)\ppc\px_paths.obj \
+    $(_OBJ_DIR)\ppc\px_read.obj \
+    $(_OBJ_DIR)\ppc\px_rende.obj \
+    $(_OBJ_DIR)\ppc\px_unpac.obj
+
+PASS0_PPC_OBJECTS=
+

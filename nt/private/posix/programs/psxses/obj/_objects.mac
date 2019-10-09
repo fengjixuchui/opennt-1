@@ -1,0 +1,64 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\posix.res \
+    $(_OBJ_DIR)\alpha\conreqst.obj \
+    $(_OBJ_DIR)\alpha\error.obj \
+    $(_OBJ_DIR)\alpha\kbdutil.obj \
+    $(_OBJ_DIR)\alpha\ntinitss.obj \
+    $(_OBJ_DIR)\alpha\ntreqst.obj \
+    $(_OBJ_DIR)\alpha\posix.obj \
+    $(_OBJ_DIR)\alpha\tmreqst.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\tcreqst.obj \
+    $(_OBJ_DIR)\alpha\terminp.obj \
+    $(_OBJ_DIR)\alpha\termoutp.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\posix.res \
+    $(_OBJ_DIR)\mips\conreqst.obj \
+    $(_OBJ_DIR)\mips\error.obj \
+    $(_OBJ_DIR)\mips\kbdutil.obj \
+    $(_OBJ_DIR)\mips\ntinitss.obj \
+    $(_OBJ_DIR)\mips\ntreqst.obj \
+    $(_OBJ_DIR)\mips\posix.obj \
+    $(_OBJ_DIR)\mips\tmreqst.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\tcreqst.obj \
+    $(_OBJ_DIR)\mips\terminp.obj \
+    $(_OBJ_DIR)\mips\termoutp.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\posix.res \
+    $(_OBJ_DIR)\i386\conreqst.obj \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\kbdutil.obj \
+    $(_OBJ_DIR)\i386\ntinitss.obj \
+    $(_OBJ_DIR)\i386\ntreqst.obj \
+    $(_OBJ_DIR)\i386\posix.obj \
+    $(_OBJ_DIR)\i386\tmreqst.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\tcreqst.obj \
+    $(_OBJ_DIR)\i386\terminp.obj \
+    $(_OBJ_DIR)\i386\termoutp.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\posix.res \
+    $(_OBJ_DIR)\ppc\conreqst.obj \
+    $(_OBJ_DIR)\ppc\error.obj \
+    $(_OBJ_DIR)\ppc\kbdutil.obj \
+    $(_OBJ_DIR)\ppc\ntinitss.obj \
+    $(_OBJ_DIR)\ppc\ntreqst.obj \
+    $(_OBJ_DIR)\ppc\posix.obj \
+    $(_OBJ_DIR)\ppc\tmreqst.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\tcreqst.obj \
+    $(_OBJ_DIR)\ppc\terminp.obj \
+    $(_OBJ_DIR)\ppc\termoutp.obj
+
+PASS0_PPC_OBJECTS=
+

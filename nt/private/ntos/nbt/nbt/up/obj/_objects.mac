@@ -1,0 +1,60 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\hashtbl.obj \
+    $(_OBJ_DIR)\alpha\hndlrs.obj \
+    $(_OBJ_DIR)\alpha\inbound.obj \
+    $(_OBJ_DIR)\alpha\name.obj \
+    $(_OBJ_DIR)\alpha\namesrv.obj \
+    $(_OBJ_DIR)\alpha\nbtutils.obj \
+    $(_OBJ_DIR)\alpha\proxy.obj \
+    $(_OBJ_DIR)\alpha\timer.obj \
+    $(_OBJ_DIR)\alpha\udpsend.obj \
+    $(_OBJ_DIR)\alpha\parse.obj \
+    $(_OBJ_DIR)\alpha\init.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\hashtbl.obj \
+    $(_OBJ_DIR)\mips\hndlrs.obj \
+    $(_OBJ_DIR)\mips\inbound.obj \
+    $(_OBJ_DIR)\mips\name.obj \
+    $(_OBJ_DIR)\mips\namesrv.obj \
+    $(_OBJ_DIR)\mips\nbtutils.obj \
+    $(_OBJ_DIR)\mips\proxy.obj \
+    $(_OBJ_DIR)\mips\timer.obj \
+    $(_OBJ_DIR)\mips\udpsend.obj \
+    $(_OBJ_DIR)\mips\parse.obj \
+    $(_OBJ_DIR)\mips\init.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\hashtbl.obj \
+    $(_OBJ_DIR)\i386\hndlrs.obj \
+    $(_OBJ_DIR)\i386\inbound.obj \
+    $(_OBJ_DIR)\i386\name.obj \
+    $(_OBJ_DIR)\i386\namesrv.obj \
+    $(_OBJ_DIR)\i386\nbtutils.obj \
+    $(_OBJ_DIR)\i386\proxy.obj \
+    $(_OBJ_DIR)\i386\timer.obj \
+    $(_OBJ_DIR)\i386\udpsend.obj \
+    $(_OBJ_DIR)\i386\parse.obj \
+    $(_OBJ_DIR)\i386\init.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\hashtbl.obj \
+    $(_OBJ_DIR)\ppc\hndlrs.obj \
+    $(_OBJ_DIR)\ppc\inbound.obj \
+    $(_OBJ_DIR)\ppc\name.obj \
+    $(_OBJ_DIR)\ppc\namesrv.obj \
+    $(_OBJ_DIR)\ppc\nbtutils.obj \
+    $(_OBJ_DIR)\ppc\proxy.obj \
+    $(_OBJ_DIR)\ppc\timer.obj \
+    $(_OBJ_DIR)\ppc\udpsend.obj \
+    $(_OBJ_DIR)\ppc\parse.obj \
+    $(_OBJ_DIR)\ppc\init.obj
+
+PASS0_PPC_OBJECTS=
+

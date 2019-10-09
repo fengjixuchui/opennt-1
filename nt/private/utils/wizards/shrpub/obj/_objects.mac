@@ -1,0 +1,68 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\turtle.res \
+    $(_OBJ_DIR)\alpha\dirtree.obj \
+    $(_OBJ_DIR)\alpha\finish.obj \
+    $(_OBJ_DIR)\alpha\howtoshd.obj \
+    $(_OBJ_DIR)\alpha\nettree.obj \
+    $(_OBJ_DIR)\alpha\permtype.obj \
+    $(_OBJ_DIR)\alpha\transbmp.obj \
+    $(_OBJ_DIR)\alpha\turtle.obj \
+    $(_OBJ_DIR)\alpha\wait.obj \
+    $(_OBJ_DIR)\alpha\welcomed.obj \
+    $(_OBJ_DIR)\alpha\whattosh.obj \
+    $(_OBJ_DIR)\alpha\wizbased.obj \
+    $(_OBJ_DIR)\alpha\where.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\turtle.res \
+    $(_OBJ_DIR)\mips\dirtree.obj \
+    $(_OBJ_DIR)\mips\finish.obj \
+    $(_OBJ_DIR)\mips\howtoshd.obj \
+    $(_OBJ_DIR)\mips\nettree.obj \
+    $(_OBJ_DIR)\mips\permtype.obj \
+    $(_OBJ_DIR)\mips\transbmp.obj \
+    $(_OBJ_DIR)\mips\turtle.obj \
+    $(_OBJ_DIR)\mips\wait.obj \
+    $(_OBJ_DIR)\mips\welcomed.obj \
+    $(_OBJ_DIR)\mips\whattosh.obj \
+    $(_OBJ_DIR)\mips\wizbased.obj \
+    $(_OBJ_DIR)\mips\where.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\turtle.res \
+    $(_OBJ_DIR)\i386\dirtree.obj \
+    $(_OBJ_DIR)\i386\finish.obj \
+    $(_OBJ_DIR)\i386\howtoshd.obj \
+    $(_OBJ_DIR)\i386\nettree.obj \
+    $(_OBJ_DIR)\i386\permtype.obj \
+    $(_OBJ_DIR)\i386\transbmp.obj \
+    $(_OBJ_DIR)\i386\turtle.obj \
+    $(_OBJ_DIR)\i386\wait.obj \
+    $(_OBJ_DIR)\i386\welcomed.obj \
+    $(_OBJ_DIR)\i386\whattosh.obj \
+    $(_OBJ_DIR)\i386\wizbased.obj \
+    $(_OBJ_DIR)\i386\where.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\turtle.res \
+    $(_OBJ_DIR)\ppc\dirtree.obj \
+    $(_OBJ_DIR)\ppc\finish.obj \
+    $(_OBJ_DIR)\ppc\howtoshd.obj \
+    $(_OBJ_DIR)\ppc\nettree.obj \
+    $(_OBJ_DIR)\ppc\permtype.obj \
+    $(_OBJ_DIR)\ppc\transbmp.obj \
+    $(_OBJ_DIR)\ppc\turtle.obj \
+    $(_OBJ_DIR)\ppc\wait.obj \
+    $(_OBJ_DIR)\ppc\welcomed.obj \
+    $(_OBJ_DIR)\ppc\whattosh.obj \
+    $(_OBJ_DIR)\ppc\wizbased.obj \
+    $(_OBJ_DIR)\ppc\where.obj
+
+PASS0_PPC_OBJECTS=
+

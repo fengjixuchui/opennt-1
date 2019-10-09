@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\lsa_rev.res \
+    $(_OBJ_DIR)\alpha\lsass.obj \
+    $(_OBJ_DIR)\alpha\main.obj
+
+PASS0_ALPHA_OBJECTS= \
+    .\lsapmsgs.h \
+    .\lsapmsgs.rc
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\lsa_rev.res \
+    $(_OBJ_DIR)\mips\lsass.obj \
+    $(_OBJ_DIR)\mips\main.obj
+
+PASS0_MIPS_OBJECTS= \
+    .\lsapmsgs.h \
+    .\lsapmsgs.rc
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\lsa_rev.res \
+    $(_OBJ_DIR)\i386\lsass.obj \
+    $(_OBJ_DIR)\i386\main.obj
+
+PASS0_386_OBJECTS= \
+    .\lsapmsgs.h \
+    .\lsapmsgs.rc
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\lsa_rev.res \
+    $(_OBJ_DIR)\ppc\lsass.obj \
+    $(_OBJ_DIR)\ppc\main.obj
+
+PASS0_PPC_OBJECTS= \
+    .\lsapmsgs.h \
+    .\lsapmsgs.rc
+

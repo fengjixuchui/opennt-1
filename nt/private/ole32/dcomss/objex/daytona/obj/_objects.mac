@@ -1,0 +1,76 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\locks.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\callid.obj \
+    $(_OBJ_DIR)\alpha\string.obj \
+    $(_OBJ_DIR)\alpha\plist.obj \
+    $(_OBJ_DIR)\alpha\blist.obj \
+    $(_OBJ_DIR)\alpha\gentable.obj \
+    $(_OBJ_DIR)\alpha\mid.obj \
+    $(_OBJ_DIR)\alpha\token.obj \
+    $(_OBJ_DIR)\alpha\process.obj \
+    $(_OBJ_DIR)\alpha\objex.obj \
+    $(_OBJ_DIR)\alpha\orclnt.obj \
+    $(_OBJ_DIR)\alpha\orsvr.obj \
+    $(_OBJ_DIR)\alpha\worker.obj \
+    $(_OBJ_DIR)\alpha\manager.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\locks.obj \
+    $(_OBJ_DIR)\mips\misc.obj \
+    $(_OBJ_DIR)\mips\callid.obj \
+    $(_OBJ_DIR)\mips\string.obj \
+    $(_OBJ_DIR)\mips\plist.obj \
+    $(_OBJ_DIR)\mips\blist.obj \
+    $(_OBJ_DIR)\mips\gentable.obj \
+    $(_OBJ_DIR)\mips\mid.obj \
+    $(_OBJ_DIR)\mips\token.obj \
+    $(_OBJ_DIR)\mips\process.obj \
+    $(_OBJ_DIR)\mips\objex.obj \
+    $(_OBJ_DIR)\mips\orclnt.obj \
+    $(_OBJ_DIR)\mips\orsvr.obj \
+    $(_OBJ_DIR)\mips\worker.obj \
+    $(_OBJ_DIR)\mips\manager.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\locks.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\callid.obj \
+    $(_OBJ_DIR)\i386\string.obj \
+    $(_OBJ_DIR)\i386\plist.obj \
+    $(_OBJ_DIR)\i386\blist.obj \
+    $(_OBJ_DIR)\i386\gentable.obj \
+    $(_OBJ_DIR)\i386\mid.obj \
+    $(_OBJ_DIR)\i386\token.obj \
+    $(_OBJ_DIR)\i386\process.obj \
+    $(_OBJ_DIR)\i386\objex.obj \
+    $(_OBJ_DIR)\i386\orclnt.obj \
+    $(_OBJ_DIR)\i386\orsvr.obj \
+    $(_OBJ_DIR)\i386\worker.obj \
+    $(_OBJ_DIR)\i386\manager.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\locks.obj \
+    $(_OBJ_DIR)\ppc\misc.obj \
+    $(_OBJ_DIR)\ppc\callid.obj \
+    $(_OBJ_DIR)\ppc\string.obj \
+    $(_OBJ_DIR)\ppc\plist.obj \
+    $(_OBJ_DIR)\ppc\blist.obj \
+    $(_OBJ_DIR)\ppc\gentable.obj \
+    $(_OBJ_DIR)\ppc\mid.obj \
+    $(_OBJ_DIR)\ppc\token.obj \
+    $(_OBJ_DIR)\ppc\process.obj \
+    $(_OBJ_DIR)\ppc\objex.obj \
+    $(_OBJ_DIR)\ppc\orclnt.obj \
+    $(_OBJ_DIR)\ppc\orsvr.obj \
+    $(_OBJ_DIR)\ppc\worker.obj \
+    $(_OBJ_DIR)\ppc\manager.obj
+
+PASS0_PPC_OBJECTS=
+

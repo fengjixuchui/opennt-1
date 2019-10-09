@@ -1,0 +1,11 @@
++
+objddayt\storage.obj+
+objddayt\stgdthk.obj
+objddayt\storage.dll
+objddayt\storage.map
++
+..\lib\compobj.lib+
+W:\nt\private\ole32\olethunk\debnot\objddayt\debnot.lib+
+W:\nt\private\ole32\olethunk\ole16\lib\ldllcew.lib+
+W:\nt\private\ole32\olethunk\ole16\lib\libw.lib
+storage.def

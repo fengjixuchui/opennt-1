@@ -1,0 +1,1769 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining w:\nt\private\oleutest directory tree for files to compile.
+Building generated files in w:\nt\private\oleutest ********************
+'nmake.exe /c BUILDMSG=Stop. -i -f makefil0. NOLINK=1 386=1'
+Build_Status Build 16 bit spdnd16 under NTVDM.
+	cd utests16\simpdnd
+	nmake
+
+Microsoft (R) Program Maintenance Utility   Version 1.50.4048
+Copyright (c) Microsoft Corp 1988-93. All rights reserved.
+
+	binplace objd\spdnd16.exe
+	binplace objd\spdnd16.sym
+	binplace objd\spdnd16.map
+	cd ..\..\utests16\simpsvr
+Build_Status Build 16 bit spsvr16 under NTVDM.
+	nmake
+
+Microsoft (R) Program Maintenance Utility   Version 1.50.4048
+Copyright (c) Microsoft Corp 1988-93. All rights reserved.
+
+	binplace objd\spsvr16.exe
+	binplace objd\spsvr16.sym
+	binplace objd\spsvr16.map
+	cd ..
+
+Stop. 
+Building generated files in w:\nt\private\oleutest\act ********************
+'nmake.exe /c BUILDMSG=Stop. -i -f makefil0. NOLINK=1 386=1'
+Building generated files in w:\nt\private\oleutest\dll\daytona ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+
+Stop. 
+Building generated files in w:\nt\private\oleutest\letest\bttncur\daytona ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+Building generated files in w:\nt\private\oleutest\letest\gizmobar\daytona ********************
+
+Stop. 
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+
+Stop. 
+Building generated files in w:\nt\private\oleutest\letest\outline\cntroutl\daytona ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+	xcopy /y ..\..\*.c . /D
+0 File(s) copied
+
+Stop. 
+Building generated files in w:\nt\private\oleutest\letest\outline\icntrotl\daytona ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+Building generated files in w:\nt\private\oleutest\letest\outline\isvrotl\daytona ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+Building generated files in w:\nt\private\oleutest\letest\outline\svroutl\daytona ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+	xcopy /y ..\..\*.c . /D
+	xcopy /y ..\..\*.c . /D
+	xcopy /y ..\..\*.c . /D
+0 File(s) copied
+0 File(s) copied
+0 File(s) copied
+
+Stop. 
+
+Stop. 
+
+Stop. 
+BUILD: Examining w:\nt\private\oleutest directory tree for files to compile. (2nd Pass)
+BUILD: w:\nt\private\oleutest\letest\ole2ui\ole2ui.rc: cannot find include file "ole2ui.rcv"
+BUILD: w:\nt\private\oleutest\letest\ole2ui\busy.c: cannot find include file <toolhelp.h>
+BUILD: w:\nt\private\oleutest\letest\ole2ui\targtdev.c: cannot find include file <print.h>
+BUILD: w:\nt\private\oleutest\letest\outline\cntroutl\daytona\outlapp.c: cannot find include file <print.h>
+BUILD: w:\nt\private\oleutest\letest\outline\icntrotl\daytona\outlapp.c: cannot find include file <print.h>
+BUILD: w:\nt\private\oleutest\letest\outline\isvrotl\daytona\outlapp.c: cannot find include file <print.h>
+BUILD: w:\nt\private\oleutest\letest\outline\svroutl\daytona\outlapp.c: cannot find include file <print.h>
+BUILD: w:\nt\private\oleutest\oletest\oletest.cpp: oletest.h: cannot find include file <toolhelp.h>
+Linking w:\nt\private\oleutest\act\dllsrv\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Linking w:\nt\private\oleutest\act\client\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Linking w:\nt\private\oleutest\act\dll\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Linking w:\nt\private\oleutest\act\server\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Linking w:\nt\private\oleutest\assert directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	lib -out:.\i386\goober.lib @W:\tmp\nma01340.
+	lib -out:.\i386\ActSrvD.lib @W:\tmp\nma01148.
+	link -out:.\i386\actsrv.exe -machine:i386 @W:\tmp\nma02096.
+	link -out:.\i386\actclt.exe -machine:i386 @W:\tmp\nma03192.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:console,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:mainCRTStartup 
+-optidata 
+obj\i386\server.obj 
+obj\i386\pswrd.obj 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+..\..\srvcore\daytona\obj\i386\srvcore.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+..\..\common\daytona\i386\common.lib 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:console,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:mainCRTStartup 
+-optidata 
+obj\i386\client.obj 
+obj\i386\pswrd.obj 
+obj\i386\reg.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+W:\nt\public\sdk\lib\i386\mpr.lib 
+..\..\common\daytona\i386\common.lib 
+Microsoft (R) 32-Bit Library Manager Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-debugtype:cv 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-nodefaultlib 
+-machine:i386 
+-def:..\ActSrvD.def 
+..\..\srvcore\daytona\obj\i386\srvcore.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+..\..\common\daytona\i386\common.lib 
+obj\i386\dllgco.obj 
+Microsoft (R) 32-Bit Library Manager Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-debugtype:cv 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-nodefaultlib 
+-machine:i386 
+-def:..\goober.def 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+..\..\common\daytona\i386\common.lib 
+obj\i386\dlldata.obj 
+obj\i386\goober_p.obj 
+   Creating library .\i386\goober.lib and object .\i386\goober.exp
+   Creating library .\i386\ActSrvD.lib and object .\i386\ActSrvD.exp
+	link -out:.\i386\ActSrvD.dll -machine:i386 @W:\tmp\nmb01148.
+	link -out:.\i386\goober.dll -machine:i386 @W:\tmp\nmb01340.
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a .\i386\actsrv.exe
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a .\i386\actclt.exe
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\PUBLIC\SDK\LIB\coffbase.txt,usermode 
+-subsystem:windows,4.00 
+-noentry 
+.\i386\ActSrvD.exp 
+obj\i386\dllgco.obj 
+..\..\srvcore\daytona\obj\i386\srvcore.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+..\..\common\daytona\i386\common.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\PUBLIC\SDK\LIB\coffbase.txt,usermode 
+-subsystem:console,4.00 
+-noentry 
+.\i386\goober.exp 
+obj\i386\dlldata.obj 
+obj\i386\goober_p.obj 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+..\..\common\daytona\i386\common.lib 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a .\i386\goober.dll
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a .\i386\ActSrvD.dll
+BINPLACE : warning BNP0000: no version resource detected for "w:\nt\private\oleutest\act\server\daytona\i386\actsrv.exe"
+BINPLACE : warning BNP0000: no version resource detected for "w:\nt\private\oleutest\act\client\daytona\i386\actclt.exe"
+
+Stop. 
+
+Stop. 
+Linking w:\nt\private\oleutest\oledll2\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+
+Stop. 
+Linking w:\nt\private\oleutest\dll\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Linking w:\nt\private\oleutest\olebind\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+
+Stop. 
+Linking w:\nt\private\oleutest\server1\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	echo Stop.
+Stop.
+Linking w:\nt\private\oleutest\server2\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	link -out:obj\i386\oledll2.dll -machine:i386 @W:\tmp\nma03456.
+	lib -out:obj\i386\oleimpl.lib @W:\tmp\nma01740.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\PUBLIC\SDK\LIB\coffbase.txt,usermode 
+-subsystem:windows,4.00 
+-entry:_DllMainCRTStartup@12 
+obj\i386\oledll2.exp 
+obj\i386\oledll2.obj 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+..\..\..\ole32\common\daytona\obj\i386\common.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+	link -out:obj\i386\olebind.exe -machine:i386 @W:\tmp\nma02896.
+Microsoft (R) 32-Bit Library Manager Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-debugtype:cv 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-nodefaultlib 
+-machine:i386 
+-def:obj\i386\oleimpl.def 
+..\..\assert\daytona\obj\i386\assert.lib 
+..\..\oledll2\daytona\obj\i386\oledll2.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+obj\i386\oleimpl.obj 
+obj\i386\iclisite.obj 
+   Creating library obj\i386\oleimpl.lib and object obj\i386\oleimpl.exp
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:console,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:mainCRTStartup 
+-optidata 
+obj\i386\olebind.obj 
+obj\i386\rot.obj 
+obj\i386\tmoniker.obj 
+obj\i386\tmalloc.obj 
+..\..\assert\daytona\obj\i386\assert.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\oledll2.dll
+	link -out:obj\i386\oleimpl.dll -machine:i386 @W:\tmp\nmb01740.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-verbose 
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\PUBLIC\SDK\LIB\coffbase.txt,usermode 
+-subsystem:windows,4.00 
+-entry:_DllMainCRTStartup@12 
+obj\i386\oleimpl.exp 
+obj\i386\oleimpl.obj 
+obj\i386\iclisite.obj 
+..\..\assert\daytona\obj\i386\assert.lib 
+..\..\oledll2\daytona\obj\i386\oledll2.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+Processed /NODEFAULTLIB (suppressing all default libs)
+
+Start Pass1
+	link -out:obj\i386\testsrv.exe -machine:i386 @W:\tmp\nma01880.
+
+Searching Libraries
+    Searching ..\..\assert\daytona\obj\i386\assert.lib:
+    Searching ..\..\oledll2\daytona\obj\i386\oledll2.lib:
+      Found _FunctionInAnotherDLL@0
+        Referenced in oleimpl.obj
+        Loaded oledll2.lib(oledll2.dll)
+      Found __IMPORT_DESCRIPTOR_oledll2
+        Referenced in oledll2.lib(oledll2.dll)
+        Loaded oledll2.lib(oledll2.dll)
+      Found __NULL_IMPORT_DESCRIPTOR
+        Referenced in oledll2.lib(oledll2.dll)
+        Loaded oledll2.lib(oledll2.dll)
+      Found oledll2_NULL_THUNK_DATA
+        Referenced in oledll2.lib(oledll2.dll)
+        Loaded oledll2.lib(oledll2.dll)
+    Searching W:\nt\public\sdk\lib\i386\uuid.lib:
+      Found _IID_IClassFactory
+        Referenced in oleimpl.obj
+        Loaded uuid.lib(unknwn_i_guid1.obj)
+      Found _IID_IUnknown
+        Referenced in oleimpl.obj
+        Loaded uuid.lib(unknwn_i_guid0.obj)
+      Found _IID_IOleObject
+        Referenced in oleimpl.obj
+        Loaded uuid.lib(oleidl_i_guid7.obj)
+      Found _IID_IOleClientSite
+        Referenced in oleimpl.obj
+        Loaded uuid.lib(oleidl_i_guid6.obj)
+      Found _IID_IParseDisplayName
+        Referenced in oleimpl.obj
+        Loaded uuid.lib(oleidl_i_guid4.obj)
+      Found _IID_IOleContainer
+        Referenced in oleimpl.obj
+        Referenced in iclisite.obj
+        Loaded uuid.lib(oleidl_i_guid5.obj)
+      Found _IID_IOleItemContainer
+        Referenced in oleimpl.obj
+        Loaded uuid.lib(oleidl_i_guid10.obj)
+      Found _IID_IPersist
+        Referenced in oleimpl.obj
+        Loaded uuid.lib(objidl_i_guid11.obj)
+      Found _IID_IPersistFile
+        Referenced in oleimpl.obj
+        Loaded uuid.lib(objidl_i_guid20.obj)
+    Searching W:\nt\public\sdk\lib\i386\ole32.lib:
+      Found __imp__CoTaskMemAlloc@4
+        Referenced in oleimpl.obj
+        Referenced in iclisite.obj
+        Loaded ole32.lib(ole32.dll)
+      Found __imp__CoTaskMemFree@4
+        Referenced in oleimpl.obj
+        Referenced in iclisite.obj
+        Loaded ole32.lib(ole32.dll)
+      Found __imp__StgCreateDocfile@16
+        Referenced in oleimpl.obj
+        Loaded ole32.lib(ole32.dll)
+      Found __imp__CreateItemMoniker@12
+        Referenced in oleimpl.obj
+        Loaded ole32.lib(ole32.dll)
+      Found __imp__OleRun@4
+        Referenced in oleimpl.obj
+        Loaded ole32.lib(ole32.dll)
+      Found __imp__OleCreate@28
+        Referenced in oleimpl.obj
+        Loaded ole32.lib(ole32.dll)
+      Found __IMPORT_DESCRIPTOR_ole32
+        Referenced in ole32.lib(ole32.dll)
+        Referenced in ole32.lib(ole32.dll)
+        Referenced in ole32.lib(ole32.dll)
+        Referenced in ole32.lib(ole32.dll)
+        Referenced in ole32.lib(ole32.dll)
+        Referenced in ole32.lib(ole32.dll)
+        Loaded ole32.lib(ole32.dll)
+      Found ole32_NULL_THUNK_DATA
+        Referenced in ole32.lib(ole32.dll)
+        Loaded ole32.lib(ole32.dll)
+    Searching W:\nt\public\sdk\lib\i386\gdi32.lib:
+    Searching W:\nt\public\sdk\lib\i386\kernel32.lib:
+    Searching W:\nt\public\sdk\lib\i386\user32.lib:
+      Found __imp__MessageBoxA@16
+        Referenced in oleimpl.obj
+        Loaded user32.lib(USER32.dll)
+      Found __imp__wsprintfA
+        Referenced in oleimpl.obj
+        Loaded user32.lib(USER32.dll)
+      Found __IMPORT_DESCRIPTOR_USER32
+        Referenced in user32.lib(USER32.dll)
+        Referenced in user32.lib(USER32.dll)
+        Loaded user32.lib(USER32.dll)
+      Found USER32_NULL_THUNK_DATA
+        Referenced in user32.lib(USER32.dll)
+        Loaded user32.lib(USER32.dll)
+    Searching W:\nt\public\sdk\lib\i386\advapi32.lib:
+    Searching W:\nt\public\sdk\lib\i386\crtdll.lib:
+      Found __DllMainCRTStartup@12
+        Loaded crtdll.lib(crtdll.obj)
+      Found __purecall
+        Referenced in oleimpl.obj
+        Loaded crtdll.lib(msvcrt.dll)
+      Found __imp__wcslen
+        Referenced in oleimpl.obj
+        Loaded crtdll.lib(msvcrt.dll)
+      Found __imp__wcscmp
+        Referenced in oleimpl.obj
+        Loaded crtdll.lib(msvcrt.dll)
+      Found ___onexitbegin
+        Referenced in crtdll.lib(crtdll.obj)
+        Loaded crtdll.lib(atonexit.obj)
+      Found __imp__free
+        Referenced in crtdll.lib(crtdll.obj)
+        Loaded crtdll.lib(msvcrt.dll)
+      Found __initterm
+        Referenced in crtdll.lib(crtdll.obj)
+        Loaded crtdll.lib(msvcrt.dll)
+      Found ___xc_a
+        Referenced in crtdll.lib(crtdll.obj)
+        Loaded crtdll.lib(cinitexe.obj)
+      Found __imp__malloc
+        Referenced in crtdll.lib(crtdll.obj)
+        Loaded crtdll.lib(msvcrt.dll)
+      Found _DllMain@12
+        Referenced in crtdll.lib(crtdll.obj)
+        Loaded crtdll.lib(dllmain.obj)
+      Found __IMPORT_DESCRIPTOR_msvcrt
+        Referenced in crtdll.lib(msvcrt.dll)
+        Referenced in crtdll.lib(msvcrt.dll)
+        Referenced in crtdll.lib(msvcrt.dll)
+        Referenced in crtdll.lib(msvcrt.dll)
+        Referenced in crtdll.lib(msvcrt.dll)
+        Referenced in crtdll.lib(msvcrt.dll)
+        Loaded crtdll.lib(msvcrt.dll)
+      Found ___dllonexit
+        Referenced in crtdll.lib(atonexit.obj)
+        Loaded crtdll.lib(msvcrt.dll)
+      Found __imp___onexit
+        Referenced in crtdll.lib(atonexit.obj)
+        Loaded crtdll.lib(msvcrt.dll)
+      Found msvcrt_NULL_THUNK_DATA
+        Referenced in crtdll.lib(msvcrt.dll)
+        Loaded crtdll.lib(msvcrt.dll)
+    Searching W:\nt\public\sdk\lib\i386\msvcirt.lib:
+    Searching W:\nt\public\sdk\lib\i386\ntdll.lib:
+    Searching ..\..\assert\daytona\obj\i386\assert.lib:
+    Searching ..\..\oledll2\daytona\obj\i386\oledll2.lib:
+    Searching W:\nt\public\sdk\lib\i386\uuid.lib:
+    Searching W:\nt\public\sdk\lib\i386\ole32.lib:
+    Searching W:\nt\public\sdk\lib\i386\gdi32.lib:
+    Searching W:\nt\public\sdk\lib\i386\kernel32.lib:
+      Found __imp__DisableThreadLibraryCalls@4
+        Referenced in crtdll.lib(dllmain.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __IMPORT_DESCRIPTOR_KERNEL32
+        Referenced in kernel32.lib(KERNEL32.dll)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found KERNEL32_NULL_THUNK_DATA
+        Referenced in kernel32.lib(KERNEL32.dll)
+        Loaded kernel32.lib(KERNEL32.dll)
+
+Done Searching Libraries
+
+End Pass1
+
+    Discarded _DisableThreadLibraryCalls@4 from kernel32.lib(KERNEL32.dll)
+    Discarded ".idata$6" from crtdll.lib(msvcrt.dll)
+    Discarded ".idata$4" from crtdll.lib(msvcrt.dll)
+    Discarded __imp___onexit from crtdll.lib(msvcrt.dll)
+    Discarded ".idata$6" from crtdll.lib(msvcrt.dll)
+    Discarded ".idata$4" from crtdll.lib(msvcrt.dll)
+    Discarded __imp____dllonexit from crtdll.lib(msvcrt.dll)
+    Discarded ___dllonexit from crtdll.lib(msvcrt.dll)
+    Discarded _malloc from crtdll.lib(msvcrt.dll)
+    Discarded _free from crtdll.lib(msvcrt.dll)
+    Discarded _atexit from crtdll.lib(atonexit.obj)
+    Discarded __onexit from crtdll.lib(atonexit.obj)
+    Discarded _wcscmp from crtdll.lib(msvcrt.dll)
+    Discarded _wcslen from crtdll.lib(msvcrt.dll)
+    Discarded _wsprintfA from user32.lib(USER32.dll)
+    Discarded _MessageBoxA@16 from user32.lib(USER32.dll)
+    Discarded _OleCreate@28 from ole32.lib(ole32.dll)
+    Discarded _OleRun@4 from ole32.lib(ole32.dll)
+    Discarded _CreateItemMoniker@12 from ole32.lib(ole32.dll)
+    Discarded _StgCreateDocfile@16 from ole32.lib(ole32.dll)
+    Discarded _CoTaskMemFree@4 from ole32.lib(ole32.dll)
+    Discarded _CoTaskMemAlloc@4 from ole32.lib(ole32.dll)
+    Discarded ".idata$6" from oledll2.lib(oledll2.dll)
+    Discarded ".idata$4" from oledll2.lib(oledll2.dll)
+    Discarded __imp__FunctionInAnotherDLL@0 from oledll2.lib(oledll2.dll)
+    Discarded _FunctionInAnotherDLL@0 from oledll2.lib(oledll2.dll)
+    Discarded _DeRegisterWithCommnot@0 from oleimpl.obj
+    Discarded _RegisterWithCommnot@0 from oleimpl.obj
+    Discarded _LibMain from oleimpl.obj
+    Discarded "void __stdcall MsgBox(char *)"(?MsgBox@@YGXPAD@Z) from oleimpl.obj
+Start Pass2
+     iclisite.obj
+     oleimpl.obj
+     oleimpl.exp
+     oledll2.lib(oledll2.dll)
+     oledll2.lib(oledll2.dll)
+     oledll2.lib(oledll2.dll)
+     oledll2.lib(oledll2.dll)
+     uuid.lib(objidl_i_guid20.obj)
+     uuid.lib(objidl_i_guid11.obj)
+     uuid.lib(oleidl_i_guid10.obj)
+     uuid.lib(oleidl_i_guid5.obj)
+     uuid.lib(oleidl_i_guid4.obj)
+     uuid.lib(oleidl_i_guid6.obj)
+     uuid.lib(oleidl_i_guid7.obj)
+     uuid.lib(unknwn_i_guid0.obj)
+     uuid.lib(unknwn_i_guid1.obj)
+     ole32.lib(ole32.dll)
+     ole32.lib(ole32.dll)
+     ole32.lib(ole32.dll)
+     ole32.lib(ole32.dll)
+     ole32.lib(ole32.dll)
+     ole32.lib(ole32.dll)
+     ole32.lib(ole32.dll)
+     ole32.lib(ole32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     user32.lib(USER32.dll)
+     user32.lib(USER32.dll)
+     user32.lib(USER32.dll)
+     user32.lib(USER32.dll)
+     crtdll.lib(msvcrt.dll)
+     crtdll.lib(msvcrt.dll)
+     crtdll.lib(msvcrt.dll)
+     crtdll.lib(msvcrt.dll)
+     crtdll.lib(dllmain.obj)
+     crtdll.lib(msvcrt.dll)
+     crtdll.lib(cinitexe.obj)
+     crtdll.lib(msvcrt.dll)
+     crtdll.lib(msvcrt.dll)
+     crtdll.lib(atonexit.obj)
+     crtdll.lib(msvcrt.dll)
+     crtdll.lib(msvcrt.dll)
+     crtdll.lib(msvcrt.dll)
+     crtdll.lib(crtdll.obj)
+End Pass2
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:windows,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:WinMainCRTStartup 
+-optidata 
+obj\i386\testsrv.res 
+obj\i386\testsrv.obj 
+obj\i386\csrvapp.obj 
+obj\i386\ctestemb.obj 
+obj\i386\ipersist.obj 
+obj\i386\ioleobj.obj 
+obj\i386\idataobj.obj 
+obj\i386\ctestcf.obj 
+..\..\assert\daytona\obj\i386\assert.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\oleimpl.dll
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\olebind.exe
+
+Stop. 
+Linking w:\nt\private\oleutest\server3\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+BINPLACE : warning BNP0000: no version resource detected for "w:\nt\private\oleutest\olebind\daytona\obj\i386\olebind.exe"
+
+Stop. 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\testsrv.exe
+Linking w:\nt\private\oleutest\stgdrt\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+
+Stop. 
+Linking w:\nt\private\oleutest\letest\bttncur directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	link -out:obj\i386\olesrv.exe -machine:i386 @W:\tmp\nma02768.
+BINPLACE : warning BNP0000: no version resource detected for "w:\nt\private\oleutest\server1\daytona\obj\i386\testsrv.exe"
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:windows,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:WinMainCRTStartup 
+-optidata 
+obj\i386\wterm.obj 
+obj\i386\olesrv.obj 
+..\..\assert\daytona\obj\i386\assert.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+	link -out:obj\i386\fail.exe -machine:i386 @W:\tmp\nma02232.
+
+Stop. 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:windows,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:WinMainCRTStartup 
+-optidata 
+obj\i386\fail.obj 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+Linking w:\nt\private\oleutest\letest\bttncur\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	echo Stop.
+Stop.
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\fail.exe
+Linking w:\nt\private\oleutest\letest\ole2ui directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\olesrv.exe
+BINPLACE : warning BNP0000: no version resource detected for "w:\nt\private\oleutest\server3\daytona\obj\i386\fail.exe"
+BINPLACE : warning BNP0000: no version resource detected for "w:\nt\private\oleutest\server2\daytona\obj\i386\olesrv.exe"
+	link -out:obj\i386\stgdrt.exe -machine:i386 @W:\tmp\nma03992.
+
+Stop. 
+Linking w:\nt\private\oleutest\letest\ole2ui\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	link -out:obj\i386\bttncur.dll -machine:i386 @W:\tmp\nma03592.
+
+Stop. 
+Linking w:\nt\private\oleutest\letest\gizmobar\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	echo Stop.
+Stop.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:console,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:mainCRTStartup 
+-optidata 
+obj\i386\drt.obj 
+obj\i386\tests.obj 
+obj\i386\illeg.obj 
+obj\i386\util.obj 
+obj\i386\wrap.obj 
+obj\i386\strlist.obj 
+obj\i386\drtguid.obj 
+obj\i386\ilb.obj 
+..\..\assert\daytona\obj\i386\assert.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\PUBLIC\SDK\LIB\coffbase.txt,usermode 
+-subsystem:windows,4.00 
+-entry:DllEntryPoint@12 
+obj\i386\bttncur.exp 
+obj\i386\bttncur.res 
+obj\i386\bttncur.obj 
+obj\i386\dllentry.obj 
+obj\i386\cursors.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+Linking w:\nt\private\oleutest\letest\outline\cntroutl\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\bttncur.dll
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\stgdrt.exe
+	link -out:obj\i386\gizmobar.dll -machine:i386 @W:\tmp\nma02996.
+BINPLACE : warning BNP0000: no version resource detected for "w:\nt\private\oleutest\stgdrt\daytona\obj\i386\stgdrt.exe"
+
+Stop. 
+Linking w:\nt\private\oleutest\letest\outline\icntrotl\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+
+Stop. 
+Linking w:\nt\private\oleutest\letest\outline\isvrotl\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\PUBLIC\SDK\LIB\coffbase.txt,usermode 
+-subsystem:windows,4.00 
+-entry:DllEntryPoint@12 
+obj\i386\gizmobar.exp 
+obj\i386\gizmobar.res 
+obj\i386\api.obj 
+obj\i386\init.obj 
+obj\i386\dllentry.obj 
+obj\i386\paint.obj 
+obj\i386\gizmo.obj 
+obj\i386\gizmobar.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+..\..\bttncur\daytona\obj\i386\bttncur.lib 
+	xcopy /y ..\..\*.c . /D
+	xcopy /y ..\..\*.c . /D
+0 File(s) copied
+0 File(s) copied
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\gizmobar.dll
+	link -out:obj\i386\ole2u32a.dll -machine:i386 @W:\tmp\nma03460.
+
+Stop. 
+Linking w:\nt\private\oleutest\letest\outline\svroutl\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\PUBLIC\SDK\LIB\coffbase.txt,usermode 
+-subsystem:windows,4.00 
+-entry:DllEntryPoint@12 
+obj\i386\ole2u32a.exp 
+obj\i386\ole2ui.res 
+obj\i386\busy.obj 
+obj\i386\common.obj 
+obj\i386\convert.obj 
+obj\i386\dbgutil.obj 
+obj\i386\dllentry.obj 
+obj\i386\dllfuncs.obj 
+obj\i386\drawicon.obj 
+obj\i386\enumfetc.obj 
+obj\i386\enumstat.obj 
+obj\i386\geticon.obj 
+obj\i386\hatch.obj 
+obj\i386\icon.obj 
+obj\i386\iconbox.obj 
+obj\i386\insobj.obj 
+obj\i386\links.obj 
+obj\i386\msgfiltr.obj 
+obj\i386\objfdbk.obj 
+obj\i386\ole2ui.obj 
+obj\i386\olestd.obj 
+obj\i386\olethunk.obj 
+obj\i386\oleutl.obj 
+obj\i386\pastespl.obj 
+obj\i386\precomp.obj 
+obj\i386\regdb.obj 
+obj\i386\resimage.obj 
+obj\i386\stdpal.obj 
+obj\i386\targtdev.obj 
+obj\i386\utility.obj 
+obj\i386\dballoc.obj 
+obj\i386\suminfo.obj 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\comdlg32.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+	xcopy /y ..\..\*.c . /D
+	link -out:obj\i386\cntroutl.exe -machine:i386 @W:\tmp\nma01964.
+	link -out:obj\i386\icntrotl.exe -machine:i386 @W:\tmp\nma04068.
+0 File(s) copied
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:windows,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:WinMainCRTStartup 
+-optidata 
+obj\i386\cntroutl.res 
+obj\i386\classfac.obj 
+obj\i386\clipbrd.obj 
+obj\i386\cntrbase.obj 
+obj\i386\cntrline.obj 
+obj\i386\debug.obj 
+obj\i386\debug2.obj 
+obj\i386\dialogs.obj 
+obj\i386\dragdrop.obj 
+obj\i386\frametls.obj 
+obj\i386\heading.obj 
+obj\i386\linking.obj 
+obj\i386\main.obj 
+obj\i386\memmgr.obj 
+obj\i386\oleapp.obj 
+obj\i386\oledoc.obj 
+obj\i386\outlapp.obj 
+obj\i386\outldoc.obj 
+obj\i386\outlline.obj 
+obj\i386\outllist.obj 
+obj\i386\outlname.obj 
+obj\i386\outlntbl.obj 
+obj\i386\outltxtl.obj 
+obj\i386\status.obj 
+obj\i386\tests.obj 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+..\..\..\ole2ui\daytona\obj\i386\ole2u32a.lib 
+..\..\..\gizmobar\daytona\obj\i386\gizmobar.lib 
+..\..\..\bttncur\daytona\obj\i386\bttncur.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\comdlg32.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:windows,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:WinMainCRTStartup 
+-optidata 
+obj\i386\icntrotl.res 
+obj\i386\classfac.obj 
+obj\i386\clipbrd.obj 
+obj\i386\cntrbase.obj 
+obj\i386\cntrinpl.obj 
+obj\i386\cntrline.obj 
+obj\i386\debug.obj 
+obj\i386\debug2.obj 
+obj\i386\dialogs.obj 
+obj\i386\dragdrop.obj 
+obj\i386\frametls.obj 
+obj\i386\heading.obj 
+obj\i386\linking.obj 
+obj\i386\main.obj 
+obj\i386\memmgr.obj 
+obj\i386\oleapp.obj 
+obj\i386\oledoc.obj 
+obj\i386\outlapp.obj 
+obj\i386\outldoc.obj 
+obj\i386\outlline.obj 
+obj\i386\outllist.obj 
+obj\i386\outlname.obj 
+obj\i386\outlntbl.obj 
+obj\i386\outltxtl.obj 
+obj\i386\status.obj 
+obj\i386\tests.obj 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+..\..\..\ole2ui\daytona\obj\i386\ole2u32a.lib 
+..\..\..\gizmobar\daytona\obj\i386\gizmobar.lib 
+..\..\..\bttncur\daytona\obj\i386\bttncur.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\comdlg32.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\ole2u32a.dll
+	link -out:obj\i386\isvrotl.exe -machine:i386 @W:\tmp\nma01856.
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\cntroutl.exe
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:windows,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:WinMainCRTStartup 
+-optidata 
+obj\i386\isvrotl.res 
+obj\i386\classfac.obj 
+obj\i386\clipbrd.obj 
+obj\i386\debug.obj 
+obj\i386\debug2.obj 
+obj\i386\dialogs.obj 
+obj\i386\dragdrop.obj 
+obj\i386\frametls.obj 
+obj\i386\heading.obj 
+obj\i386\linking.obj 
+obj\i386\main.obj 
+obj\i386\memmgr.obj 
+obj\i386\oleapp.obj 
+obj\i386\oledoc.obj 
+obj\i386\outlapp.obj 
+obj\i386\outldoc.obj 
+obj\i386\outlline.obj 
+obj\i386\outllist.obj 
+obj\i386\outlname.obj 
+obj\i386\outlntbl.obj 
+obj\i386\outltxtl.obj 
+obj\i386\svrbase.obj 
+obj\i386\svrinpl.obj 
+obj\i386\svrpsobj.obj 
+obj\i386\status.obj 
+obj\i386\tests.obj 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+..\..\..\ole2ui\daytona\obj\i386\ole2u32a.lib 
+..\..\..\gizmobar\daytona\obj\i386\gizmobar.lib 
+..\..\..\bttncur\daytona\obj\i386\bttncur.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\comdlg32.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+binplace -R W:\binaries\nt -P W:\nt\public\sdk\lib\placefil.txt -a -S W:\binaries\nt\Symbols ..\..\data\letest12.olc 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\icntrotl.exe
+
+Stop. 
+Linking w:\nt\private\oleutest\simpdnd\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+BINPLACE : warning BNP0000: no version resource detected for "w:\nt\private\oleutest\letest\outline\cntroutl\daytona\obj\i386\cntroutl.exe"
+
+Stop. 
+BINPLACE : warning BNP0000: no version resource detected for "w:\nt\private\oleutest\letest\outline\icntrotl\daytona\obj\i386\icntrotl.exe"
+Linking w:\nt\private\oleutest\simpsvr directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	xcopy /y ..\..\*.c . /D
+
+Stop. 
+Linking w:\nt\private\oleutest\simpsvr\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	echo Stop.
+Stop.
+0 File(s) copied
+Linking w:\nt\private\oleutest\simpcntr\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\isvrotl.exe
+	link -out:obj\i386\SIMPDND.exe -machine:i386 @W:\tmp\nma02028.
+	link -out:obj\i386\svroutl.exe -machine:i386 @W:\tmp\nma03216.
+BINPLACE : warning BNP0000: no version resource detected for "w:\nt\private\oleutest\letest\outline\isvrotl\daytona\obj\i386\isvrotl.exe"
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:windows,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:WinMainCRTStartup 
+-optidata 
+obj\i386\simpdnd.res 
+obj\i386\app.obj 
+obj\i386\doc.obj 
+obj\i386\dxferobj.obj 
+obj\i386\ias.obj 
+obj\i386\ids.obj 
+obj\i386\idt.obj 
+obj\i386\iocs.obj 
+obj\i386\pre.obj 
+obj\i386\simpdnd.obj 
+obj\i386\site.obj 
+obj\i386\tests.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\nt.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\comdlg32.lib 
+..\..\letest\ole2ui\daytona\obj\i386\ole2u32a.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+	link -out:obj\i386\SIMPSVR.exe -machine:i386 @W:\tmp\nma03088.
+
+Stop. 
+Linking w:\nt\private\oleutest\uthread\at directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:windows,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:WinMainCRTStartup 
+-optidata 
+obj\i386\svroutl.res 
+obj\i386\classfac.obj 
+obj\i386\clipbrd.obj 
+obj\i386\debug.obj 
+obj\i386\debug2.obj 
+obj\i386\dialogs.obj 
+obj\i386\dragdrop.obj 
+obj\i386\frametls.obj 
+obj\i386\heading.obj 
+obj\i386\linking.obj 
+obj\i386\main.obj 
+obj\i386\memmgr.obj 
+obj\i386\oleapp.obj 
+obj\i386\oledoc.obj 
+obj\i386\outlapp.obj 
+obj\i386\outldoc.obj 
+obj\i386\outlline.obj 
+obj\i386\outllist.obj 
+obj\i386\outlname.obj 
+obj\i386\outlntbl.obj 
+obj\i386\outltxtl.obj 
+obj\i386\svrbase.obj 
+obj\i386\svrpsobj.obj 
+obj\i386\status.obj 
+obj\i386\tests.obj 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+..\..\..\ole2ui\daytona\obj\i386\ole2u32a.lib 
+..\..\..\gizmobar\daytona\obj\i386\gizmobar.lib 
+..\..\..\bttncur\daytona\obj\i386\bttncur.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\comdlg32.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:windows,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:WinMainCRTStartup 
+-optidata 
+obj\i386\simpsvr.res 
+obj\i386\app.obj 
+obj\i386\doc.obj 
+obj\i386\icf.obj 
+obj\i386\ido.obj 
+obj\i386\iec.obj 
+obj\i386\ioipao.obj 
+obj\i386\ioipo.obj 
+obj\i386\ioo.obj 
+obj\i386\ips.obj 
+obj\i386\obj.obj 
+obj\i386\pre.obj 
+obj\i386\simpsvr.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\nt.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\comdlg32.lib 
+..\..\letest\ole2ui\daytona\obj\i386\ole2u32a.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\SIMPDND.exe
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\SIMPSVR.exe
+	link -out:obj\i386\SIMPCNTR.exe -machine:i386 @W:\tmp\nma02988.
+BINPLACE : warning BNP0000: no version resource detected for "w:\nt\private\oleutest\simpdnd\daytona\obj\i386\SIMPDND.exe"
+BINPLACE : warning BNP0000: no version resource detected for "w:\nt\private\oleutest\simpsvr\daytona\obj\i386\SIMPSVR.exe"
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:windows,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:WinMainCRTStartup 
+-optidata 
+obj\i386\simpcntr.res 
+obj\i386\app.obj 
+obj\i386\doc.obj 
+obj\i386\ias.obj 
+obj\i386\ioipf.obj 
+obj\i386\ioips.obj 
+obj\i386\iocs.obj 
+obj\i386\pre.obj 
+obj\i386\simpcntr.obj 
+obj\i386\site.obj 
+obj\i386\tests.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\nt.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\comdlg32.lib 
+..\..\letest\ole2ui\daytona\obj\i386\ole2u32a.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+
+Stop. 
+
+Stop. 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\svroutl.exe
+Linking w:\nt\private\oleutest\uthread\bt directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Linking w:\nt\private\oleutest\uthread\st directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	lib -out:obj\i386\oleat.lib @W:\tmp\nma01720.
+	lib -out:obj\i386\olebt.lib @W:\tmp\nma02184.
+BINPLACE : warning BNP0000: no version resource detected for "w:\nt\private\oleutest\letest\outline\svroutl\daytona\obj\i386\svroutl.exe"
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\SIMPCNTR.exe
+
+Stop. 
+Linking w:\nt\private\oleutest\oletest\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Microsoft (R) 32-Bit Library Manager Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-debugtype:cv 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-nodefaultlib 
+-machine:i386 
+-def:obj\i386\oleat.def 
+..\common\obj\i386\common.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+obj\i386\oleat.obj 
+Microsoft (R) 32-Bit Library Manager Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-debugtype:cv 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-nodefaultlib 
+-machine:i386 
+-def:obj\i386\olebt.def 
+..\common\obj\i386\common.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+obj\i386\olebt.obj 
+   Creating library obj\i386\oleat.lib and object obj\i386\oleat.exp
+   Creating library obj\i386\olebt.lib and object obj\i386\olebt.exp
+BINPLACE : warning BNP0000: no version resource detected for "w:\nt\private\oleutest\simpcntr\daytona\obj\i386\SIMPCNTR.exe"
+	link -out:obj\i386\oleat.dll -machine:i386 @W:\tmp\nmb01720.
+	link -out:obj\i386\olebt.dll -machine:i386 @W:\tmp\nmb02184.
+
+Stop. 
+	lib -out:obj\i386\olest.lib @W:\tmp\nma02332.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\PUBLIC\SDK\LIB\coffbase.txt,usermode 
+-subsystem:windows,4.00 
+-entry:_DllMainCRTStartup@12 
+obj\i386\oleat.exp 
+obj\i386\oleat.obj 
+..\common\obj\i386\common.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\PUBLIC\SDK\LIB\coffbase.txt,usermode 
+-subsystem:windows,4.00 
+-entry:_DllMainCRTStartup@12 
+obj\i386\olebt.exp 
+obj\i386\olebt.obj 
+..\common\obj\i386\common.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+Microsoft (R) 32-Bit Library Manager Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-debugtype:cv 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-nodefaultlib 
+-machine:i386 
+-def:obj\i386\olest.def 
+..\common\obj\i386\common.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+obj\i386\olest.obj 
+   Creating library obj\i386\olest.lib and object obj\i386\olest.exp
+	link -out:obj\i386\olest.dll -machine:i386 @W:\tmp\nmb02332.
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\oleat.dll
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\olebt.dll
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\PUBLIC\SDK\LIB\coffbase.txt,usermode 
+-subsystem:windows,4.00 
+-entry:_DllMainCRTStartup@12 
+obj\i386\olest.exp 
+obj\i386\olest.obj 
+..\common\obj\i386\common.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\olest.dll
+
+Stop. 
+
+Stop. 
+
+Stop. 
+	link -out:obj\i386\oletest.exe -machine:i386 @W:\tmp\nma04036.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:windows,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:WinMainCRTStartup 
+-optidata 
+obj\i386\oletest.res 
+obj\i386\oletest.obj 
+obj\i386\stack.obj 
+obj\i386\task.obj 
+obj\i386\app.obj 
+obj\i386\output.obj 
+obj\i386\cliptest.obj 
+obj\i386\gendata.obj 
+obj\i386\letests.obj 
+obj\i386\attest.obj 
+obj\i386\genenum.obj 
+obj\i386\dataadv.obj 
+obj\i386\oleadv.obj 
+obj\i386\uthread.obj 
+obj\i386\utils.obj 
+obj\i386\assert.obj 
+..\..\uthread\common\obj\i386\common.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\comdlg32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\oletest.exe
+BINPLACE : warning BNP0000: no version resource detected for "w:\nt\private\oleutest\oletest\daytona\obj\i386\oletest.exe"
+
+Stop. 

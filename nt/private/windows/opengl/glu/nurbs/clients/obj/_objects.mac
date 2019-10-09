@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\glcurvev.obj \
+    $(_OBJ_DIR)\alpha\glinterf.obj \
+    $(_OBJ_DIR)\alpha\glrender.obj \
+    $(_OBJ_DIR)\alpha\glsurfev.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\glcurvev.obj \
+    $(_OBJ_DIR)\mips\glinterf.obj \
+    $(_OBJ_DIR)\mips\glrender.obj \
+    $(_OBJ_DIR)\mips\glsurfev.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\glcurvev.obj \
+    $(_OBJ_DIR)\i386\glinterf.obj \
+    $(_OBJ_DIR)\i386\glrender.obj \
+    $(_OBJ_DIR)\i386\glsurfev.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\glcurvev.obj \
+    $(_OBJ_DIR)\ppc\glinterf.obj \
+    $(_OBJ_DIR)\ppc\glrender.obj \
+    $(_OBJ_DIR)\ppc\glsurfev.obj
+
+PASS0_PPC_OBJECTS=
+

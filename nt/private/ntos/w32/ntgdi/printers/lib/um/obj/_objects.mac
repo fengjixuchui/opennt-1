@@ -1,0 +1,64 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mapfile.obj \
+    $(_OBJ_DIR)\alpha\halftone.obj \
+    $(_OBJ_DIR)\alpha\devmode.obj \
+    $(_OBJ_DIR)\alpha\dqpfunc.obj \
+    $(_OBJ_DIR)\alpha\fontfile.obj \
+    $(_OBJ_DIR)\alpha\fontread.obj \
+    $(_OBJ_DIR)\alpha\bwrite.obj \
+    $(_OBJ_DIR)\alpha\hndcopy.obj \
+    $(_OBJ_DIR)\alpha\hndncopy.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\wsz2heap.obj \
+    $(_OBJ_DIR)\alpha\str2wchr.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mapfile.obj \
+    $(_OBJ_DIR)\mips\halftone.obj \
+    $(_OBJ_DIR)\mips\devmode.obj \
+    $(_OBJ_DIR)\mips\dqpfunc.obj \
+    $(_OBJ_DIR)\mips\fontfile.obj \
+    $(_OBJ_DIR)\mips\fontread.obj \
+    $(_OBJ_DIR)\mips\bwrite.obj \
+    $(_OBJ_DIR)\mips\hndcopy.obj \
+    $(_OBJ_DIR)\mips\hndncopy.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\wsz2heap.obj \
+    $(_OBJ_DIR)\mips\str2wchr.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mapfile.obj \
+    $(_OBJ_DIR)\i386\halftone.obj \
+    $(_OBJ_DIR)\i386\devmode.obj \
+    $(_OBJ_DIR)\i386\dqpfunc.obj \
+    $(_OBJ_DIR)\i386\fontfile.obj \
+    $(_OBJ_DIR)\i386\fontread.obj \
+    $(_OBJ_DIR)\i386\bwrite.obj \
+    $(_OBJ_DIR)\i386\hndcopy.obj \
+    $(_OBJ_DIR)\i386\hndncopy.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\wsz2heap.obj \
+    $(_OBJ_DIR)\i386\str2wchr.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mapfile.obj \
+    $(_OBJ_DIR)\ppc\halftone.obj \
+    $(_OBJ_DIR)\ppc\devmode.obj \
+    $(_OBJ_DIR)\ppc\dqpfunc.obj \
+    $(_OBJ_DIR)\ppc\fontfile.obj \
+    $(_OBJ_DIR)\ppc\fontread.obj \
+    $(_OBJ_DIR)\ppc\bwrite.obj \
+    $(_OBJ_DIR)\ppc\hndcopy.obj \
+    $(_OBJ_DIR)\ppc\hndncopy.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\wsz2heap.obj \
+    $(_OBJ_DIR)\ppc\str2wchr.obj
+
+PASS0_PPC_OBJECTS=
+

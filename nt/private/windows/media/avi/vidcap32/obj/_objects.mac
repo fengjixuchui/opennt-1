@@ -1,0 +1,56 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\vidcap.res \
+    $(_OBJ_DIR)\alpha\vidcap.obj \
+    $(_OBJ_DIR)\alpha\dialogs.obj \
+    $(_OBJ_DIR)\alpha\vidframe.obj \
+    $(_OBJ_DIR)\alpha\toolbar.obj \
+    $(_OBJ_DIR)\alpha\status.obj \
+    $(_OBJ_DIR)\alpha\profile.obj \
+    $(_OBJ_DIR)\alpha\arrow.obj \
+    $(_OBJ_DIR)\alpha\rlmeter.obj \
+    $(_OBJ_DIR)\alpha\help.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\vidcap.res \
+    $(_OBJ_DIR)\mips\vidcap.obj \
+    $(_OBJ_DIR)\mips\dialogs.obj \
+    $(_OBJ_DIR)\mips\vidframe.obj \
+    $(_OBJ_DIR)\mips\toolbar.obj \
+    $(_OBJ_DIR)\mips\status.obj \
+    $(_OBJ_DIR)\mips\profile.obj \
+    $(_OBJ_DIR)\mips\arrow.obj \
+    $(_OBJ_DIR)\mips\rlmeter.obj \
+    $(_OBJ_DIR)\mips\help.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\vidcap.res \
+    $(_OBJ_DIR)\i386\vidcap.obj \
+    $(_OBJ_DIR)\i386\dialogs.obj \
+    $(_OBJ_DIR)\i386\vidframe.obj \
+    $(_OBJ_DIR)\i386\toolbar.obj \
+    $(_OBJ_DIR)\i386\status.obj \
+    $(_OBJ_DIR)\i386\profile.obj \
+    $(_OBJ_DIR)\i386\arrow.obj \
+    $(_OBJ_DIR)\i386\rlmeter.obj \
+    $(_OBJ_DIR)\i386\help.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\vidcap.res \
+    $(_OBJ_DIR)\ppc\vidcap.obj \
+    $(_OBJ_DIR)\ppc\dialogs.obj \
+    $(_OBJ_DIR)\ppc\vidframe.obj \
+    $(_OBJ_DIR)\ppc\toolbar.obj \
+    $(_OBJ_DIR)\ppc\status.obj \
+    $(_OBJ_DIR)\ppc\profile.obj \
+    $(_OBJ_DIR)\ppc\arrow.obj \
+    $(_OBJ_DIR)\ppc\rlmeter.obj \
+    $(_OBJ_DIR)\ppc\help.obj
+
+PASS0_PPC_OBJECTS=
+

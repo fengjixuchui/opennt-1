@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\crash.obj \
+    $(_OBJ_DIR)\alpha\crashx86.obj \
+    $(_OBJ_DIR)\alpha\crashmip.obj \
+    $(_OBJ_DIR)\alpha\crashalp.obj \
+    $(_OBJ_DIR)\alpha\crashppc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\crash.obj \
+    $(_OBJ_DIR)\mips\crashx86.obj \
+    $(_OBJ_DIR)\mips\crashmip.obj \
+    $(_OBJ_DIR)\mips\crashalp.obj \
+    $(_OBJ_DIR)\mips\crashppc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\crash.obj \
+    $(_OBJ_DIR)\i386\crashx86.obj \
+    $(_OBJ_DIR)\i386\crashmip.obj \
+    $(_OBJ_DIR)\i386\crashalp.obj \
+    $(_OBJ_DIR)\i386\crashppc.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\crash.obj \
+    $(_OBJ_DIR)\ppc\crashx86.obj \
+    $(_OBJ_DIR)\ppc\crashmip.obj \
+    $(_OBJ_DIR)\ppc\crashalp.obj \
+    $(_OBJ_DIR)\ppc\crashppc.obj
+
+PASS0_PPC_OBJECTS=
+

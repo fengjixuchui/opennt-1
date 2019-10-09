@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\poinit.obj \
+    $(_OBJ_DIR)\alpha\podata.obj \
+    $(_OBJ_DIR)\alpha\postate.obj \
+    $(_OBJ_DIR)\alpha\idle.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\suspend.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\poinit.obj \
+    $(_OBJ_DIR)\mips\podata.obj \
+    $(_OBJ_DIR)\mips\postate.obj \
+    $(_OBJ_DIR)\mips\idle.obj \
+    $(_OBJ_DIR)\mips\misc.obj \
+    $(_OBJ_DIR)\mips\suspend.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\poinit.obj \
+    $(_OBJ_DIR)\i386\podata.obj \
+    $(_OBJ_DIR)\i386\postate.obj \
+    $(_OBJ_DIR)\i386\idle.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\suspend.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\poinit.obj \
+    $(_OBJ_DIR)\ppc\podata.obj \
+    $(_OBJ_DIR)\ppc\postate.obj \
+    $(_OBJ_DIR)\ppc\idle.obj \
+    $(_OBJ_DIR)\ppc\misc.obj \
+    $(_OBJ_DIR)\ppc\suspend.obj
+
+PASS0_PPC_OBJECTS=
+

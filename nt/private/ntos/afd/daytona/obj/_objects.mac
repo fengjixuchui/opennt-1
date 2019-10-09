@@ -1,0 +1,112 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\afd.res \
+    $(_OBJ_DIR)\alpha\accept.obj \
+    $(_OBJ_DIR)\alpha\afddata.obj \
+    $(_OBJ_DIR)\alpha\bind.obj \
+    $(_OBJ_DIR)\alpha\blkconn.obj \
+    $(_OBJ_DIR)\alpha\blkendp.obj \
+    $(_OBJ_DIR)\alpha\buffer.obj \
+    $(_OBJ_DIR)\alpha\close.obj \
+    $(_OBJ_DIR)\alpha\connect.obj \
+    $(_OBJ_DIR)\alpha\create.obj \
+    $(_OBJ_DIR)\alpha\disconn.obj \
+    $(_OBJ_DIR)\alpha\dispatch.obj \
+    $(_OBJ_DIR)\alpha\eventsel.obj \
+    $(_OBJ_DIR)\alpha\fastio.obj \
+    $(_OBJ_DIR)\alpha\group.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\listen.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\poll.obj \
+    $(_OBJ_DIR)\alpha\receive.obj \
+    $(_OBJ_DIR)\alpha\recvdg.obj \
+    $(_OBJ_DIR)\alpha\recvvc.obj \
+    $(_OBJ_DIR)\alpha\send.obj \
+    $(_OBJ_DIR)\alpha\tranfile.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\afd.res \
+    $(_OBJ_DIR)\mips\accept.obj \
+    $(_OBJ_DIR)\mips\afddata.obj \
+    $(_OBJ_DIR)\mips\bind.obj \
+    $(_OBJ_DIR)\mips\blkconn.obj \
+    $(_OBJ_DIR)\mips\blkendp.obj \
+    $(_OBJ_DIR)\mips\buffer.obj \
+    $(_OBJ_DIR)\mips\close.obj \
+    $(_OBJ_DIR)\mips\connect.obj \
+    $(_OBJ_DIR)\mips\create.obj \
+    $(_OBJ_DIR)\mips\disconn.obj \
+    $(_OBJ_DIR)\mips\dispatch.obj \
+    $(_OBJ_DIR)\mips\eventsel.obj \
+    $(_OBJ_DIR)\mips\fastio.obj \
+    $(_OBJ_DIR)\mips\group.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\listen.obj \
+    $(_OBJ_DIR)\mips\misc.obj \
+    $(_OBJ_DIR)\mips\poll.obj \
+    $(_OBJ_DIR)\mips\receive.obj \
+    $(_OBJ_DIR)\mips\recvdg.obj \
+    $(_OBJ_DIR)\mips\recvvc.obj \
+    $(_OBJ_DIR)\mips\send.obj \
+    $(_OBJ_DIR)\mips\tranfile.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\afd.res \
+    $(_OBJ_DIR)\i386\accept.obj \
+    $(_OBJ_DIR)\i386\afddata.obj \
+    $(_OBJ_DIR)\i386\bind.obj \
+    $(_OBJ_DIR)\i386\blkconn.obj \
+    $(_OBJ_DIR)\i386\blkendp.obj \
+    $(_OBJ_DIR)\i386\buffer.obj \
+    $(_OBJ_DIR)\i386\close.obj \
+    $(_OBJ_DIR)\i386\connect.obj \
+    $(_OBJ_DIR)\i386\create.obj \
+    $(_OBJ_DIR)\i386\disconn.obj \
+    $(_OBJ_DIR)\i386\dispatch.obj \
+    $(_OBJ_DIR)\i386\eventsel.obj \
+    $(_OBJ_DIR)\i386\fastio.obj \
+    $(_OBJ_DIR)\i386\group.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\listen.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\poll.obj \
+    $(_OBJ_DIR)\i386\receive.obj \
+    $(_OBJ_DIR)\i386\recvdg.obj \
+    $(_OBJ_DIR)\i386\recvvc.obj \
+    $(_OBJ_DIR)\i386\send.obj \
+    $(_OBJ_DIR)\i386\tranfile.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\afd.res \
+    $(_OBJ_DIR)\ppc\accept.obj \
+    $(_OBJ_DIR)\ppc\afddata.obj \
+    $(_OBJ_DIR)\ppc\bind.obj \
+    $(_OBJ_DIR)\ppc\blkconn.obj \
+    $(_OBJ_DIR)\ppc\blkendp.obj \
+    $(_OBJ_DIR)\ppc\buffer.obj \
+    $(_OBJ_DIR)\ppc\close.obj \
+    $(_OBJ_DIR)\ppc\connect.obj \
+    $(_OBJ_DIR)\ppc\create.obj \
+    $(_OBJ_DIR)\ppc\disconn.obj \
+    $(_OBJ_DIR)\ppc\dispatch.obj \
+    $(_OBJ_DIR)\ppc\eventsel.obj \
+    $(_OBJ_DIR)\ppc\fastio.obj \
+    $(_OBJ_DIR)\ppc\group.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\listen.obj \
+    $(_OBJ_DIR)\ppc\misc.obj \
+    $(_OBJ_DIR)\ppc\poll.obj \
+    $(_OBJ_DIR)\ppc\receive.obj \
+    $(_OBJ_DIR)\ppc\recvdg.obj \
+    $(_OBJ_DIR)\ppc\recvvc.obj \
+    $(_OBJ_DIR)\ppc\send.obj \
+    $(_OBJ_DIR)\ppc\tranfile.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,92 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\atimp.res \
+    $(_OBJ_DIR)\alpha\atimp.obj \
+    $(_OBJ_DIR)\alpha\eeprom.obj \
+    $(_OBJ_DIR)\alpha\eevga.obj \
+    $(_OBJ_DIR)\alpha\cvtvga.obj \
+    $(_OBJ_DIR)\alpha\modes_m.obj \
+    $(_OBJ_DIR)\alpha\atioem.obj \
+    $(_OBJ_DIR)\alpha\vdptocrt.obj \
+    $(_OBJ_DIR)\alpha\cvtddc.obj \
+    $(_OBJ_DIR)\alpha\cvtvdif.obj \
+    $(_OBJ_DIR)\alpha\detect_m.obj \
+    $(_OBJ_DIR)\alpha\init_m.obj \
+    $(_OBJ_DIR)\alpha\query_m.obj \
+    $(_OBJ_DIR)\alpha\services.obj \
+    $(_OBJ_DIR)\alpha\setup_m.obj \
+    $(_OBJ_DIR)\alpha\setup_cx.obj \
+    $(_OBJ_DIR)\alpha\query_cx.obj \
+    $(_OBJ_DIR)\alpha\init_cx.obj \
+    $(_OBJ_DIR)\alpha\diskutil.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\atimp.res \
+    $(_OBJ_DIR)\mips\atimp.obj \
+    $(_OBJ_DIR)\mips\eeprom.obj \
+    $(_OBJ_DIR)\mips\eevga.obj \
+    $(_OBJ_DIR)\mips\cvtvga.obj \
+    $(_OBJ_DIR)\mips\modes_m.obj \
+    $(_OBJ_DIR)\mips\atioem.obj \
+    $(_OBJ_DIR)\mips\vdptocrt.obj \
+    $(_OBJ_DIR)\mips\cvtddc.obj \
+    $(_OBJ_DIR)\mips\cvtvdif.obj \
+    $(_OBJ_DIR)\mips\detect_m.obj \
+    $(_OBJ_DIR)\mips\init_m.obj \
+    $(_OBJ_DIR)\mips\query_m.obj \
+    $(_OBJ_DIR)\mips\services.obj \
+    $(_OBJ_DIR)\mips\setup_m.obj \
+    $(_OBJ_DIR)\mips\setup_cx.obj \
+    $(_OBJ_DIR)\mips\query_cx.obj \
+    $(_OBJ_DIR)\mips\init_cx.obj \
+    $(_OBJ_DIR)\mips\diskutil.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\atimp.res \
+    $(_OBJ_DIR)\i386\atimp.obj \
+    $(_OBJ_DIR)\i386\eeprom.obj \
+    $(_OBJ_DIR)\i386\eevga.obj \
+    $(_OBJ_DIR)\i386\cvtvga.obj \
+    $(_OBJ_DIR)\i386\modes_m.obj \
+    $(_OBJ_DIR)\i386\atioem.obj \
+    $(_OBJ_DIR)\i386\vdptocrt.obj \
+    $(_OBJ_DIR)\i386\cvtddc.obj \
+    $(_OBJ_DIR)\i386\cvtvdif.obj \
+    $(_OBJ_DIR)\i386\detect_m.obj \
+    $(_OBJ_DIR)\i386\init_m.obj \
+    $(_OBJ_DIR)\i386\query_m.obj \
+    $(_OBJ_DIR)\i386\services.obj \
+    $(_OBJ_DIR)\i386\setup_m.obj \
+    $(_OBJ_DIR)\i386\setup_cx.obj \
+    $(_OBJ_DIR)\i386\query_cx.obj \
+    $(_OBJ_DIR)\i386\init_cx.obj \
+    $(_OBJ_DIR)\i386\diskutil.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\atimp.res \
+    $(_OBJ_DIR)\ppc\atimp.obj \
+    $(_OBJ_DIR)\ppc\eeprom.obj \
+    $(_OBJ_DIR)\ppc\eevga.obj \
+    $(_OBJ_DIR)\ppc\cvtvga.obj \
+    $(_OBJ_DIR)\ppc\modes_m.obj \
+    $(_OBJ_DIR)\ppc\atioem.obj \
+    $(_OBJ_DIR)\ppc\vdptocrt.obj \
+    $(_OBJ_DIR)\ppc\cvtddc.obj \
+    $(_OBJ_DIR)\ppc\cvtvdif.obj \
+    $(_OBJ_DIR)\ppc\detect_m.obj \
+    $(_OBJ_DIR)\ppc\init_m.obj \
+    $(_OBJ_DIR)\ppc\query_m.obj \
+    $(_OBJ_DIR)\ppc\services.obj \
+    $(_OBJ_DIR)\ppc\setup_m.obj \
+    $(_OBJ_DIR)\ppc\setup_cx.obj \
+    $(_OBJ_DIR)\ppc\query_cx.obj \
+    $(_OBJ_DIR)\ppc\init_cx.obj \
+    $(_OBJ_DIR)\ppc\diskutil.obj
+
+PASS0_PPC_OBJECTS=
+

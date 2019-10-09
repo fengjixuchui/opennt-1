@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\rovcomm.obj \
+    $(_OBJ_DIR)\alpha\rovmem.obj \
+    $(_OBJ_DIR)\alpha\rovini.obj \
+    $(_OBJ_DIR)\alpha\rovdi.obj \
+    $(_OBJ_DIR)\alpha\slot.obj \
+    $(_OBJ_DIR)\alpha\sec.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\rovcomm.obj \
+    $(_OBJ_DIR)\mips\rovmem.obj \
+    $(_OBJ_DIR)\mips\rovini.obj \
+    $(_OBJ_DIR)\mips\rovdi.obj \
+    $(_OBJ_DIR)\mips\slot.obj \
+    $(_OBJ_DIR)\mips\sec.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\rovcomm.obj \
+    $(_OBJ_DIR)\i386\rovmem.obj \
+    $(_OBJ_DIR)\i386\rovini.obj \
+    $(_OBJ_DIR)\i386\rovdi.obj \
+    $(_OBJ_DIR)\i386\slot.obj \
+    $(_OBJ_DIR)\i386\sec.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\rovcomm.obj \
+    $(_OBJ_DIR)\ppc\rovmem.obj \
+    $(_OBJ_DIR)\ppc\rovini.obj \
+    $(_OBJ_DIR)\ppc\rovdi.obj \
+    $(_OBJ_DIR)\ppc\slot.obj \
+    $(_OBJ_DIR)\ppc\sec.obj
+
+PASS0_PPC_OBJECTS=
+

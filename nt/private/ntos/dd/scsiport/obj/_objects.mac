@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\scsiport.res \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\port.obj \
+    $(_OBJ_DIR)\alpha\internal.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\scsiport.res \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\port.obj \
+    $(_OBJ_DIR)\mips\internal.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\scsiport.res \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\port.obj \
+    $(_OBJ_DIR)\i386\internal.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\scsiport.res \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\port.obj \
+    $(_OBJ_DIR)\ppc\internal.obj
+
+PASS0_PPC_OBJECTS=
+

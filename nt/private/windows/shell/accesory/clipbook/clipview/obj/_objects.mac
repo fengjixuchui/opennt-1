@@ -1,0 +1,68 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\clipbook.res \
+    $(_OBJ_DIR)\alpha\clipdsp.obj \
+    $(_OBJ_DIR)\alpha\cvcomman.obj \
+    $(_OBJ_DIR)\alpha\cvinit.obj \
+    $(_OBJ_DIR)\alpha\cvutil.obj \
+    $(_OBJ_DIR)\alpha\dialogs.obj \
+    $(_OBJ_DIR)\alpha\vclpbrd.obj \
+    $(_OBJ_DIR)\alpha\callback.obj \
+    $(_OBJ_DIR)\alpha\strtok.obj \
+    $(_OBJ_DIR)\alpha\shares.obj \
+    $(_OBJ_DIR)\alpha\auditchk.obj \
+    $(_OBJ_DIR)\alpha\initmenu.obj \
+    $(_OBJ_DIR)\alpha\ismember.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\clipbook.res \
+    $(_OBJ_DIR)\mips\clipdsp.obj \
+    $(_OBJ_DIR)\mips\cvcomman.obj \
+    $(_OBJ_DIR)\mips\cvinit.obj \
+    $(_OBJ_DIR)\mips\cvutil.obj \
+    $(_OBJ_DIR)\mips\dialogs.obj \
+    $(_OBJ_DIR)\mips\vclpbrd.obj \
+    $(_OBJ_DIR)\mips\callback.obj \
+    $(_OBJ_DIR)\mips\strtok.obj \
+    $(_OBJ_DIR)\mips\shares.obj \
+    $(_OBJ_DIR)\mips\auditchk.obj \
+    $(_OBJ_DIR)\mips\initmenu.obj \
+    $(_OBJ_DIR)\mips\ismember.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\clipbook.res \
+    $(_OBJ_DIR)\i386\clipdsp.obj \
+    $(_OBJ_DIR)\i386\cvcomman.obj \
+    $(_OBJ_DIR)\i386\cvinit.obj \
+    $(_OBJ_DIR)\i386\cvutil.obj \
+    $(_OBJ_DIR)\i386\dialogs.obj \
+    $(_OBJ_DIR)\i386\vclpbrd.obj \
+    $(_OBJ_DIR)\i386\callback.obj \
+    $(_OBJ_DIR)\i386\strtok.obj \
+    $(_OBJ_DIR)\i386\shares.obj \
+    $(_OBJ_DIR)\i386\auditchk.obj \
+    $(_OBJ_DIR)\i386\initmenu.obj \
+    $(_OBJ_DIR)\i386\ismember.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\clipbook.res \
+    $(_OBJ_DIR)\ppc\clipdsp.obj \
+    $(_OBJ_DIR)\ppc\cvcomman.obj \
+    $(_OBJ_DIR)\ppc\cvinit.obj \
+    $(_OBJ_DIR)\ppc\cvutil.obj \
+    $(_OBJ_DIR)\ppc\dialogs.obj \
+    $(_OBJ_DIR)\ppc\vclpbrd.obj \
+    $(_OBJ_DIR)\ppc\callback.obj \
+    $(_OBJ_DIR)\ppc\strtok.obj \
+    $(_OBJ_DIR)\ppc\shares.obj \
+    $(_OBJ_DIR)\ppc\auditchk.obj \
+    $(_OBJ_DIR)\ppc\initmenu.obj \
+    $(_OBJ_DIR)\ppc\ismember.obj
+
+PASS0_PPC_OBJECTS=
+

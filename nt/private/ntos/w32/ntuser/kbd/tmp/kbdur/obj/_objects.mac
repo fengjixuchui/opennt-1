@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\kbdur.res \
+    $(_OBJ_DIR)\alpha\kbdur.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\kbdur.res \
+    $(_OBJ_DIR)\mips\kbdur.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\kbdur.res \
+    $(_OBJ_DIR)\i386\kbdur.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\kbdur.res \
+    $(_OBJ_DIR)\ppc\kbdur.obj
+
+PASS0_PPC_OBJECTS=
+

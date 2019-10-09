@@ -1,0 +1,156 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\printui.res \
+    $(_OBJ_DIR)\alpha\portslv.obj \
+    $(_OBJ_DIR)\alpha\prtshare.obj \
+    $(_OBJ_DIR)\alpha\propmgr.obj \
+    $(_OBJ_DIR)\alpha\prtprops.obj \
+    $(_OBJ_DIR)\alpha\compinfo.obj \
+    $(_OBJ_DIR)\alpha\psetup.obj \
+    $(_OBJ_DIR)\alpha\instarch.obj \
+    $(_OBJ_DIR)\alpha\drvver.obj \
+    $(_OBJ_DIR)\alpha\svrprop.obj \
+    $(_OBJ_DIR)\alpha\tstpage.obj \
+    $(_OBJ_DIR)\alpha\folder.obj \
+    $(_OBJ_DIR)\alpha\data.obj \
+    $(_OBJ_DIR)\alpha\datan.obj \
+    $(_OBJ_DIR)\alpha\datar.obj \
+    $(_OBJ_DIR)\alpha\printer.obj \
+    $(_OBJ_DIR)\alpha\queue.obj \
+    $(_OBJ_DIR)\alpha\docdef.obj \
+    $(_OBJ_DIR)\alpha\prtprop.obj \
+    $(_OBJ_DIR)\alpha\setup.obj \
+    $(_OBJ_DIR)\alpha\time.obj \
+    $(_OBJ_DIR)\alpha\prtsec.obj \
+    $(_OBJ_DIR)\alpha\printui.obj \
+    $(_OBJ_DIR)\alpha\genwin.obj \
+    $(_OBJ_DIR)\alpha\notify.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\ctl.obj \
+    $(_OBJ_DIR)\alpha\docprop.obj \
+    $(_OBJ_DIR)\alpha\docdata.obj \
+    $(_OBJ_DIR)\alpha\portdlg.obj \
+    $(_OBJ_DIR)\alpha\sepdlg.obj \
+    $(_OBJ_DIR)\alpha\procdlg.obj \
+    $(_OBJ_DIR)\alpha\help.obj \
+    $(_OBJ_DIR)\alpha\forms.obj \
+    $(_OBJ_DIR)\alpha\select.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\printui.res \
+    $(_OBJ_DIR)\mips\portslv.obj \
+    $(_OBJ_DIR)\mips\prtshare.obj \
+    $(_OBJ_DIR)\mips\propmgr.obj \
+    $(_OBJ_DIR)\mips\prtprops.obj \
+    $(_OBJ_DIR)\mips\compinfo.obj \
+    $(_OBJ_DIR)\mips\psetup.obj \
+    $(_OBJ_DIR)\mips\instarch.obj \
+    $(_OBJ_DIR)\mips\drvver.obj \
+    $(_OBJ_DIR)\mips\svrprop.obj \
+    $(_OBJ_DIR)\mips\tstpage.obj \
+    $(_OBJ_DIR)\mips\folder.obj \
+    $(_OBJ_DIR)\mips\data.obj \
+    $(_OBJ_DIR)\mips\datan.obj \
+    $(_OBJ_DIR)\mips\datar.obj \
+    $(_OBJ_DIR)\mips\printer.obj \
+    $(_OBJ_DIR)\mips\queue.obj \
+    $(_OBJ_DIR)\mips\docdef.obj \
+    $(_OBJ_DIR)\mips\prtprop.obj \
+    $(_OBJ_DIR)\mips\setup.obj \
+    $(_OBJ_DIR)\mips\time.obj \
+    $(_OBJ_DIR)\mips\prtsec.obj \
+    $(_OBJ_DIR)\mips\printui.obj \
+    $(_OBJ_DIR)\mips\genwin.obj \
+    $(_OBJ_DIR)\mips\notify.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\ctl.obj \
+    $(_OBJ_DIR)\mips\docprop.obj \
+    $(_OBJ_DIR)\mips\docdata.obj \
+    $(_OBJ_DIR)\mips\portdlg.obj \
+    $(_OBJ_DIR)\mips\sepdlg.obj \
+    $(_OBJ_DIR)\mips\procdlg.obj \
+    $(_OBJ_DIR)\mips\help.obj \
+    $(_OBJ_DIR)\mips\forms.obj \
+    $(_OBJ_DIR)\mips\select.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\printui.res \
+    $(_OBJ_DIR)\i386\portslv.obj \
+    $(_OBJ_DIR)\i386\prtshare.obj \
+    $(_OBJ_DIR)\i386\propmgr.obj \
+    $(_OBJ_DIR)\i386\prtprops.obj \
+    $(_OBJ_DIR)\i386\compinfo.obj \
+    $(_OBJ_DIR)\i386\psetup.obj \
+    $(_OBJ_DIR)\i386\instarch.obj \
+    $(_OBJ_DIR)\i386\drvver.obj \
+    $(_OBJ_DIR)\i386\svrprop.obj \
+    $(_OBJ_DIR)\i386\tstpage.obj \
+    $(_OBJ_DIR)\i386\folder.obj \
+    $(_OBJ_DIR)\i386\data.obj \
+    $(_OBJ_DIR)\i386\datan.obj \
+    $(_OBJ_DIR)\i386\datar.obj \
+    $(_OBJ_DIR)\i386\printer.obj \
+    $(_OBJ_DIR)\i386\queue.obj \
+    $(_OBJ_DIR)\i386\docdef.obj \
+    $(_OBJ_DIR)\i386\prtprop.obj \
+    $(_OBJ_DIR)\i386\setup.obj \
+    $(_OBJ_DIR)\i386\time.obj \
+    $(_OBJ_DIR)\i386\prtsec.obj \
+    $(_OBJ_DIR)\i386\printui.obj \
+    $(_OBJ_DIR)\i386\genwin.obj \
+    $(_OBJ_DIR)\i386\notify.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\ctl.obj \
+    $(_OBJ_DIR)\i386\docprop.obj \
+    $(_OBJ_DIR)\i386\docdata.obj \
+    $(_OBJ_DIR)\i386\portdlg.obj \
+    $(_OBJ_DIR)\i386\sepdlg.obj \
+    $(_OBJ_DIR)\i386\procdlg.obj \
+    $(_OBJ_DIR)\i386\help.obj \
+    $(_OBJ_DIR)\i386\forms.obj \
+    $(_OBJ_DIR)\i386\select.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\printui.res \
+    $(_OBJ_DIR)\ppc\portslv.obj \
+    $(_OBJ_DIR)\ppc\prtshare.obj \
+    $(_OBJ_DIR)\ppc\propmgr.obj \
+    $(_OBJ_DIR)\ppc\prtprops.obj \
+    $(_OBJ_DIR)\ppc\compinfo.obj \
+    $(_OBJ_DIR)\ppc\psetup.obj \
+    $(_OBJ_DIR)\ppc\instarch.obj \
+    $(_OBJ_DIR)\ppc\drvver.obj \
+    $(_OBJ_DIR)\ppc\svrprop.obj \
+    $(_OBJ_DIR)\ppc\tstpage.obj \
+    $(_OBJ_DIR)\ppc\folder.obj \
+    $(_OBJ_DIR)\ppc\data.obj \
+    $(_OBJ_DIR)\ppc\datan.obj \
+    $(_OBJ_DIR)\ppc\datar.obj \
+    $(_OBJ_DIR)\ppc\printer.obj \
+    $(_OBJ_DIR)\ppc\queue.obj \
+    $(_OBJ_DIR)\ppc\docdef.obj \
+    $(_OBJ_DIR)\ppc\prtprop.obj \
+    $(_OBJ_DIR)\ppc\setup.obj \
+    $(_OBJ_DIR)\ppc\time.obj \
+    $(_OBJ_DIR)\ppc\prtsec.obj \
+    $(_OBJ_DIR)\ppc\printui.obj \
+    $(_OBJ_DIR)\ppc\genwin.obj \
+    $(_OBJ_DIR)\ppc\notify.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\ctl.obj \
+    $(_OBJ_DIR)\ppc\docprop.obj \
+    $(_OBJ_DIR)\ppc\docdata.obj \
+    $(_OBJ_DIR)\ppc\portdlg.obj \
+    $(_OBJ_DIR)\ppc\sepdlg.obj \
+    $(_OBJ_DIR)\ppc\procdlg.obj \
+    $(_OBJ_DIR)\ppc\help.obj \
+    $(_OBJ_DIR)\ppc\forms.obj \
+    $(_OBJ_DIR)\ppc\select.obj
+
+PASS0_PPC_OBJECTS=
+

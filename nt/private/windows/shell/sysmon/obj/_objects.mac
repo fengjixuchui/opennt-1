@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\main.obj \
+    $(_OBJ_DIR)\alpha\perfpage.obj \
+    $(_OBJ_DIR)\alpha\procpage.obj \
+    $(_OBJ_DIR)\alpha\ptrarray.obj \
+    $(_OBJ_DIR)\alpha\taskpage.obj \
+    $(_OBJ_DIR)\alpha\trayicon.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\main.obj \
+    $(_OBJ_DIR)\mips\perfpage.obj \
+    $(_OBJ_DIR)\mips\procpage.obj \
+    $(_OBJ_DIR)\mips\ptrarray.obj \
+    $(_OBJ_DIR)\mips\taskpage.obj \
+    $(_OBJ_DIR)\mips\trayicon.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\main.obj \
+    $(_OBJ_DIR)\i386\perfpage.obj \
+    $(_OBJ_DIR)\i386\procpage.obj \
+    $(_OBJ_DIR)\i386\ptrarray.obj \
+    $(_OBJ_DIR)\i386\taskpage.obj \
+    $(_OBJ_DIR)\i386\trayicon.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\main.obj \
+    $(_OBJ_DIR)\ppc\perfpage.obj \
+    $(_OBJ_DIR)\ppc\procpage.obj \
+    $(_OBJ_DIR)\ppc\ptrarray.obj \
+    $(_OBJ_DIR)\ppc\taskpage.obj \
+    $(_OBJ_DIR)\ppc\trayicon.obj
+
+PASS0_PPC_OBJECTS=
+

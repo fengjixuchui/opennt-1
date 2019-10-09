@@ -1,0 +1,88 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\nwlnkspx.res \
+    $(_OBJ_DIR)\alpha\spxdrvr.obj \
+    $(_OBJ_DIR)\alpha\spxreg.obj \
+    $(_OBJ_DIR)\alpha\spxdev.obj \
+    $(_OBJ_DIR)\alpha\spxbind.obj \
+    $(_OBJ_DIR)\alpha\spxaddr.obj \
+    $(_OBJ_DIR)\alpha\spxconn.obj \
+    $(_OBJ_DIR)\alpha\spxcutil.obj \
+    $(_OBJ_DIR)\alpha\spxcpkt.obj \
+    $(_OBJ_DIR)\alpha\spxrecv.obj \
+    $(_OBJ_DIR)\alpha\spxsend.obj \
+    $(_OBJ_DIR)\alpha\spxquery.obj \
+    $(_OBJ_DIR)\alpha\spxutils.obj \
+    $(_OBJ_DIR)\alpha\spxmem.obj \
+    $(_OBJ_DIR)\alpha\spxtimer.obj \
+    $(_OBJ_DIR)\alpha\spxpkt.obj \
+    $(_OBJ_DIR)\alpha\globals.obj \
+    $(_OBJ_DIR)\alpha\spxerror.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\nwlnkspx.res \
+    $(_OBJ_DIR)\mips\spxdrvr.obj \
+    $(_OBJ_DIR)\mips\spxreg.obj \
+    $(_OBJ_DIR)\mips\spxdev.obj \
+    $(_OBJ_DIR)\mips\spxbind.obj \
+    $(_OBJ_DIR)\mips\spxaddr.obj \
+    $(_OBJ_DIR)\mips\spxconn.obj \
+    $(_OBJ_DIR)\mips\spxcutil.obj \
+    $(_OBJ_DIR)\mips\spxcpkt.obj \
+    $(_OBJ_DIR)\mips\spxrecv.obj \
+    $(_OBJ_DIR)\mips\spxsend.obj \
+    $(_OBJ_DIR)\mips\spxquery.obj \
+    $(_OBJ_DIR)\mips\spxutils.obj \
+    $(_OBJ_DIR)\mips\spxmem.obj \
+    $(_OBJ_DIR)\mips\spxtimer.obj \
+    $(_OBJ_DIR)\mips\spxpkt.obj \
+    $(_OBJ_DIR)\mips\globals.obj \
+    $(_OBJ_DIR)\mips\spxerror.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\nwlnkspx.res \
+    $(_OBJ_DIR)\i386\spxdrvr.obj \
+    $(_OBJ_DIR)\i386\spxreg.obj \
+    $(_OBJ_DIR)\i386\spxdev.obj \
+    $(_OBJ_DIR)\i386\spxbind.obj \
+    $(_OBJ_DIR)\i386\spxaddr.obj \
+    $(_OBJ_DIR)\i386\spxconn.obj \
+    $(_OBJ_DIR)\i386\spxcutil.obj \
+    $(_OBJ_DIR)\i386\spxcpkt.obj \
+    $(_OBJ_DIR)\i386\spxrecv.obj \
+    $(_OBJ_DIR)\i386\spxsend.obj \
+    $(_OBJ_DIR)\i386\spxquery.obj \
+    $(_OBJ_DIR)\i386\spxutils.obj \
+    $(_OBJ_DIR)\i386\spxmem.obj \
+    $(_OBJ_DIR)\i386\spxtimer.obj \
+    $(_OBJ_DIR)\i386\spxpkt.obj \
+    $(_OBJ_DIR)\i386\globals.obj \
+    $(_OBJ_DIR)\i386\spxerror.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\nwlnkspx.res \
+    $(_OBJ_DIR)\ppc\spxdrvr.obj \
+    $(_OBJ_DIR)\ppc\spxreg.obj \
+    $(_OBJ_DIR)\ppc\spxdev.obj \
+    $(_OBJ_DIR)\ppc\spxbind.obj \
+    $(_OBJ_DIR)\ppc\spxaddr.obj \
+    $(_OBJ_DIR)\ppc\spxconn.obj \
+    $(_OBJ_DIR)\ppc\spxcutil.obj \
+    $(_OBJ_DIR)\ppc\spxcpkt.obj \
+    $(_OBJ_DIR)\ppc\spxrecv.obj \
+    $(_OBJ_DIR)\ppc\spxsend.obj \
+    $(_OBJ_DIR)\ppc\spxquery.obj \
+    $(_OBJ_DIR)\ppc\spxutils.obj \
+    $(_OBJ_DIR)\ppc\spxmem.obj \
+    $(_OBJ_DIR)\ppc\spxtimer.obj \
+    $(_OBJ_DIR)\ppc\spxpkt.obj \
+    $(_OBJ_DIR)\ppc\globals.obj \
+    $(_OBJ_DIR)\ppc\spxerror.obj
+
+PASS0_PPC_OBJECTS=
+

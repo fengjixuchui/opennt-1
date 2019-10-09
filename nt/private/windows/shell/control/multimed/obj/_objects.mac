@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\multimed.res \
+    $(_OBJ_DIR)\alpha\multimed.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\multimed.res \
+    $(_OBJ_DIR)\mips\multimed.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\multimed.res \
+    $(_OBJ_DIR)\i386\multimed.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\multimed.res \
+    $(_OBJ_DIR)\ppc\multimed.obj
+
+PASS0_PPC_OBJECTS=
+

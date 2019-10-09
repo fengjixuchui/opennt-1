@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\chartns.obj \
+    $(_OBJ_DIR)\alpha\chbmrtns.obj \
+    $(_OBJ_DIR)\alpha\chdbrtns.obj \
+    $(_OBJ_DIR)\alpha\chprtns.obj \
+    $(_OBJ_DIR)\alpha\chssrtns.obj \
+    $(_OBJ_DIR)\alpha\chunker.obj \
+    $(_OBJ_DIR)\alpha\chvrtns.obj \
+    $(_OBJ_DIR)\alpha\sccss.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\chartns.obj \
+    $(_OBJ_DIR)\mips\chbmrtns.obj \
+    $(_OBJ_DIR)\mips\chdbrtns.obj \
+    $(_OBJ_DIR)\mips\chprtns.obj \
+    $(_OBJ_DIR)\mips\chssrtns.obj \
+    $(_OBJ_DIR)\mips\chunker.obj \
+    $(_OBJ_DIR)\mips\chvrtns.obj \
+    $(_OBJ_DIR)\mips\sccss.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\chartns.obj \
+    $(_OBJ_DIR)\i386\chbmrtns.obj \
+    $(_OBJ_DIR)\i386\chdbrtns.obj \
+    $(_OBJ_DIR)\i386\chprtns.obj \
+    $(_OBJ_DIR)\i386\chssrtns.obj \
+    $(_OBJ_DIR)\i386\chunker.obj \
+    $(_OBJ_DIR)\i386\chvrtns.obj \
+    $(_OBJ_DIR)\i386\sccss.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\chartns.obj \
+    $(_OBJ_DIR)\ppc\chbmrtns.obj \
+    $(_OBJ_DIR)\ppc\chdbrtns.obj \
+    $(_OBJ_DIR)\ppc\chprtns.obj \
+    $(_OBJ_DIR)\ppc\chssrtns.obj \
+    $(_OBJ_DIR)\ppc\chunker.obj \
+    $(_OBJ_DIR)\ppc\chvrtns.obj \
+    $(_OBJ_DIR)\ppc\sccss.obj
+
+PASS0_PPC_OBJECTS=
+

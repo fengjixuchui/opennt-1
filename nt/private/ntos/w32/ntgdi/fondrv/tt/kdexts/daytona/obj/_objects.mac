@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\kdexts.res \
+    $(_OBJ_DIR)\alpha\ttexts.obj \
+    $(_OBJ_DIR)\alpha\kdexts.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\kdexts.res \
+    $(_OBJ_DIR)\mips\ttexts.obj \
+    $(_OBJ_DIR)\mips\kdexts.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\kdexts.res \
+    $(_OBJ_DIR)\i386\ttexts.obj \
+    $(_OBJ_DIR)\i386\kdexts.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\kdexts.res \
+    $(_OBJ_DIR)\ppc\ttexts.obj \
+    $(_OBJ_DIR)\ppc\kdexts.obj
+
+PASS0_PPC_OBJECTS=
+

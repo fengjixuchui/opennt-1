@@ -1,0 +1,30 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\rectops.obj \
+    $(_OBJ_DIR)\ppc\pat8.obj \
+    $(_OBJ_DIR)\ppc\pat16.obj \
+    $(_OBJ_DIR)\ppc\pat32.obj \
+    $(_OBJ_DIR)\ppc\patop.obj \
+    $(_OBJ_DIR)\ppc\textsub.obj \
+    $(_OBJ_DIR)\ppc\res.res \
+    $(_OBJ_DIR)\ppc\color.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\enable.obj \
+    $(_OBJ_DIR)\ppc\palette.obj \
+    $(_OBJ_DIR)\ppc\brush.obj \
+    $(_OBJ_DIR)\ppc\screen.obj \
+    $(_OBJ_DIR)\ppc\hooks.obj
+
+PASS0_PPC_OBJECTS=
+

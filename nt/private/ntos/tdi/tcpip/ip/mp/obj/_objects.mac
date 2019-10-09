@@ -1,0 +1,68 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\arp.obj \
+    $(_OBJ_DIR)\alpha\icmp.obj \
+    $(_OBJ_DIR)\alpha\igmp.obj \
+    $(_OBJ_DIR)\alpha\info.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\iploop.obj \
+    $(_OBJ_DIR)\alpha\iprcv.obj \
+    $(_OBJ_DIR)\alpha\iproute.obj \
+    $(_OBJ_DIR)\alpha\ipstatus.obj \
+    $(_OBJ_DIR)\alpha\ipxmit.obj \
+    $(_OBJ_DIR)\alpha\ntip.obj \
+    $(_OBJ_DIR)\alpha\ntirp.obj \
+    $(_OBJ_DIR)\alpha\ntreg.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\arp.obj \
+    $(_OBJ_DIR)\mips\icmp.obj \
+    $(_OBJ_DIR)\mips\igmp.obj \
+    $(_OBJ_DIR)\mips\info.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\iploop.obj \
+    $(_OBJ_DIR)\mips\iprcv.obj \
+    $(_OBJ_DIR)\mips\iproute.obj \
+    $(_OBJ_DIR)\mips\ipstatus.obj \
+    $(_OBJ_DIR)\mips\ipxmit.obj \
+    $(_OBJ_DIR)\mips\ntip.obj \
+    $(_OBJ_DIR)\mips\ntirp.obj \
+    $(_OBJ_DIR)\mips\ntreg.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\arp.obj \
+    $(_OBJ_DIR)\i386\icmp.obj \
+    $(_OBJ_DIR)\i386\igmp.obj \
+    $(_OBJ_DIR)\i386\info.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\iploop.obj \
+    $(_OBJ_DIR)\i386\iprcv.obj \
+    $(_OBJ_DIR)\i386\iproute.obj \
+    $(_OBJ_DIR)\i386\ipstatus.obj \
+    $(_OBJ_DIR)\i386\ipxmit.obj \
+    $(_OBJ_DIR)\i386\ntip.obj \
+    $(_OBJ_DIR)\i386\ntirp.obj \
+    $(_OBJ_DIR)\i386\ntreg.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\arp.obj \
+    $(_OBJ_DIR)\ppc\icmp.obj \
+    $(_OBJ_DIR)\ppc\igmp.obj \
+    $(_OBJ_DIR)\ppc\info.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\iploop.obj \
+    $(_OBJ_DIR)\ppc\iprcv.obj \
+    $(_OBJ_DIR)\ppc\iproute.obj \
+    $(_OBJ_DIR)\ppc\ipstatus.obj \
+    $(_OBJ_DIR)\ppc\ipxmit.obj \
+    $(_OBJ_DIR)\ppc\ntip.obj \
+    $(_OBJ_DIR)\ppc\ntirp.obj \
+    $(_OBJ_DIR)\ppc\ntreg.obj
+
+PASS0_PPC_OBJECTS=
+

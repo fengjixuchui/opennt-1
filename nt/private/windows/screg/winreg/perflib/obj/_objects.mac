@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mondata.obj \
+    $(_OBJ_DIR)\alpha\perflib.obj \
+    $(_OBJ_DIR)\alpha\perfva.obj \
+    $(_OBJ_DIR)\alpha\module.obj \
+    $(_OBJ_DIR)\alpha\perfname.obj \
+    $(_OBJ_DIR)\alpha\perfsec.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mondata.obj \
+    $(_OBJ_DIR)\mips\perflib.obj \
+    $(_OBJ_DIR)\mips\perfva.obj \
+    $(_OBJ_DIR)\mips\module.obj \
+    $(_OBJ_DIR)\mips\perfname.obj \
+    $(_OBJ_DIR)\mips\perfsec.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mondata.obj \
+    $(_OBJ_DIR)\i386\perflib.obj \
+    $(_OBJ_DIR)\i386\perfva.obj \
+    $(_OBJ_DIR)\i386\module.obj \
+    $(_OBJ_DIR)\i386\perfname.obj \
+    $(_OBJ_DIR)\i386\perfsec.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mondata.obj \
+    $(_OBJ_DIR)\ppc\perflib.obj \
+    $(_OBJ_DIR)\ppc\perfva.obj \
+    $(_OBJ_DIR)\ppc\module.obj \
+    $(_OBJ_DIR)\ppc\perfname.obj \
+    $(_OBJ_DIR)\ppc\perfsec.obj
+
+PASS0_PPC_OBJECTS=
+

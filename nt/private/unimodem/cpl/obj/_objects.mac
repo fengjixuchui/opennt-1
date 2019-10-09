@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\modem.res \
+    $(_OBJ_DIR)\alpha\dll.obj \
+    $(_OBJ_DIR)\alpha\cpl.obj \
+    $(_OBJ_DIR)\alpha\ci.obj \
+    $(_OBJ_DIR)\alpha\ui.obj \
+    $(_OBJ_DIR)\alpha\detect.obj \
+    $(_OBJ_DIR)\alpha\util.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\modem.res \
+    $(_OBJ_DIR)\mips\dll.obj \
+    $(_OBJ_DIR)\mips\cpl.obj \
+    $(_OBJ_DIR)\mips\ci.obj \
+    $(_OBJ_DIR)\mips\ui.obj \
+    $(_OBJ_DIR)\mips\detect.obj \
+    $(_OBJ_DIR)\mips\util.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\modem.res \
+    $(_OBJ_DIR)\i386\dll.obj \
+    $(_OBJ_DIR)\i386\cpl.obj \
+    $(_OBJ_DIR)\i386\ci.obj \
+    $(_OBJ_DIR)\i386\ui.obj \
+    $(_OBJ_DIR)\i386\detect.obj \
+    $(_OBJ_DIR)\i386\util.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\modem.res \
+    $(_OBJ_DIR)\ppc\dll.obj \
+    $(_OBJ_DIR)\ppc\cpl.obj \
+    $(_OBJ_DIR)\ppc\ci.obj \
+    $(_OBJ_DIR)\ppc\ui.obj \
+    $(_OBJ_DIR)\ppc\detect.obj \
+    $(_OBJ_DIR)\ppc\util.obj
+
+PASS0_PPC_OBJECTS=
+

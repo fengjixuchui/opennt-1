@@ -1,0 +1,140 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ole2ui.res \
+    $(_OBJ_DIR)\alpha\busy.obj \
+    $(_OBJ_DIR)\alpha\common.obj \
+    $(_OBJ_DIR)\alpha\convert.obj \
+    $(_OBJ_DIR)\alpha\dbgutil.obj \
+    $(_OBJ_DIR)\alpha\dllentry.obj \
+    $(_OBJ_DIR)\alpha\dllfuncs.obj \
+    $(_OBJ_DIR)\alpha\drawicon.obj \
+    $(_OBJ_DIR)\alpha\enumfetc.obj \
+    $(_OBJ_DIR)\alpha\enumstat.obj \
+    $(_OBJ_DIR)\alpha\geticon.obj \
+    $(_OBJ_DIR)\alpha\hatch.obj \
+    $(_OBJ_DIR)\alpha\icon.obj \
+    $(_OBJ_DIR)\alpha\iconbox.obj \
+    $(_OBJ_DIR)\alpha\insobj.obj \
+    $(_OBJ_DIR)\alpha\links.obj \
+    $(_OBJ_DIR)\alpha\msgfiltr.obj \
+    $(_OBJ_DIR)\alpha\objfdbk.obj \
+    $(_OBJ_DIR)\alpha\ole2ui.obj \
+    $(_OBJ_DIR)\alpha\olestd.obj \
+    $(_OBJ_DIR)\alpha\olethunk.obj \
+    $(_OBJ_DIR)\alpha\oleutl.obj \
+    $(_OBJ_DIR)\alpha\pastespl.obj \
+    $(_OBJ_DIR)\alpha\precomp.obj \
+    $(_OBJ_DIR)\alpha\regdb.obj \
+    $(_OBJ_DIR)\alpha\resimage.obj \
+    $(_OBJ_DIR)\alpha\stdpal.obj \
+    $(_OBJ_DIR)\alpha\targtdev.obj \
+    $(_OBJ_DIR)\alpha\utility.obj \
+    $(_OBJ_DIR)\alpha\dballoc.obj \
+    $(_OBJ_DIR)\alpha\suminfo.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ole2ui.res \
+    $(_OBJ_DIR)\mips\busy.obj \
+    $(_OBJ_DIR)\mips\common.obj \
+    $(_OBJ_DIR)\mips\convert.obj \
+    $(_OBJ_DIR)\mips\dbgutil.obj \
+    $(_OBJ_DIR)\mips\dllentry.obj \
+    $(_OBJ_DIR)\mips\dllfuncs.obj \
+    $(_OBJ_DIR)\mips\drawicon.obj \
+    $(_OBJ_DIR)\mips\enumfetc.obj \
+    $(_OBJ_DIR)\mips\enumstat.obj \
+    $(_OBJ_DIR)\mips\geticon.obj \
+    $(_OBJ_DIR)\mips\hatch.obj \
+    $(_OBJ_DIR)\mips\icon.obj \
+    $(_OBJ_DIR)\mips\iconbox.obj \
+    $(_OBJ_DIR)\mips\insobj.obj \
+    $(_OBJ_DIR)\mips\links.obj \
+    $(_OBJ_DIR)\mips\msgfiltr.obj \
+    $(_OBJ_DIR)\mips\objfdbk.obj \
+    $(_OBJ_DIR)\mips\ole2ui.obj \
+    $(_OBJ_DIR)\mips\olestd.obj \
+    $(_OBJ_DIR)\mips\olethunk.obj \
+    $(_OBJ_DIR)\mips\oleutl.obj \
+    $(_OBJ_DIR)\mips\pastespl.obj \
+    $(_OBJ_DIR)\mips\precomp.obj \
+    $(_OBJ_DIR)\mips\regdb.obj \
+    $(_OBJ_DIR)\mips\resimage.obj \
+    $(_OBJ_DIR)\mips\stdpal.obj \
+    $(_OBJ_DIR)\mips\targtdev.obj \
+    $(_OBJ_DIR)\mips\utility.obj \
+    $(_OBJ_DIR)\mips\dballoc.obj \
+    $(_OBJ_DIR)\mips\suminfo.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ole2ui.res \
+    $(_OBJ_DIR)\i386\busy.obj \
+    $(_OBJ_DIR)\i386\common.obj \
+    $(_OBJ_DIR)\i386\convert.obj \
+    $(_OBJ_DIR)\i386\dbgutil.obj \
+    $(_OBJ_DIR)\i386\dllentry.obj \
+    $(_OBJ_DIR)\i386\dllfuncs.obj \
+    $(_OBJ_DIR)\i386\drawicon.obj \
+    $(_OBJ_DIR)\i386\enumfetc.obj \
+    $(_OBJ_DIR)\i386\enumstat.obj \
+    $(_OBJ_DIR)\i386\geticon.obj \
+    $(_OBJ_DIR)\i386\hatch.obj \
+    $(_OBJ_DIR)\i386\icon.obj \
+    $(_OBJ_DIR)\i386\iconbox.obj \
+    $(_OBJ_DIR)\i386\insobj.obj \
+    $(_OBJ_DIR)\i386\links.obj \
+    $(_OBJ_DIR)\i386\msgfiltr.obj \
+    $(_OBJ_DIR)\i386\objfdbk.obj \
+    $(_OBJ_DIR)\i386\ole2ui.obj \
+    $(_OBJ_DIR)\i386\olestd.obj \
+    $(_OBJ_DIR)\i386\olethunk.obj \
+    $(_OBJ_DIR)\i386\oleutl.obj \
+    $(_OBJ_DIR)\i386\pastespl.obj \
+    $(_OBJ_DIR)\i386\precomp.obj \
+    $(_OBJ_DIR)\i386\regdb.obj \
+    $(_OBJ_DIR)\i386\resimage.obj \
+    $(_OBJ_DIR)\i386\stdpal.obj \
+    $(_OBJ_DIR)\i386\targtdev.obj \
+    $(_OBJ_DIR)\i386\utility.obj \
+    $(_OBJ_DIR)\i386\dballoc.obj \
+    $(_OBJ_DIR)\i386\suminfo.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ole2ui.res \
+    $(_OBJ_DIR)\ppc\busy.obj \
+    $(_OBJ_DIR)\ppc\common.obj \
+    $(_OBJ_DIR)\ppc\convert.obj \
+    $(_OBJ_DIR)\ppc\dbgutil.obj \
+    $(_OBJ_DIR)\ppc\dllentry.obj \
+    $(_OBJ_DIR)\ppc\dllfuncs.obj \
+    $(_OBJ_DIR)\ppc\drawicon.obj \
+    $(_OBJ_DIR)\ppc\enumfetc.obj \
+    $(_OBJ_DIR)\ppc\enumstat.obj \
+    $(_OBJ_DIR)\ppc\geticon.obj \
+    $(_OBJ_DIR)\ppc\hatch.obj \
+    $(_OBJ_DIR)\ppc\icon.obj \
+    $(_OBJ_DIR)\ppc\iconbox.obj \
+    $(_OBJ_DIR)\ppc\insobj.obj \
+    $(_OBJ_DIR)\ppc\links.obj \
+    $(_OBJ_DIR)\ppc\msgfiltr.obj \
+    $(_OBJ_DIR)\ppc\objfdbk.obj \
+    $(_OBJ_DIR)\ppc\ole2ui.obj \
+    $(_OBJ_DIR)\ppc\olestd.obj \
+    $(_OBJ_DIR)\ppc\olethunk.obj \
+    $(_OBJ_DIR)\ppc\oleutl.obj \
+    $(_OBJ_DIR)\ppc\pastespl.obj \
+    $(_OBJ_DIR)\ppc\precomp.obj \
+    $(_OBJ_DIR)\ppc\regdb.obj \
+    $(_OBJ_DIR)\ppc\resimage.obj \
+    $(_OBJ_DIR)\ppc\stdpal.obj \
+    $(_OBJ_DIR)\ppc\targtdev.obj \
+    $(_OBJ_DIR)\ppc\utility.obj \
+    $(_OBJ_DIR)\ppc\dballoc.obj \
+    $(_OBJ_DIR)\ppc\suminfo.obj
+
+PASS0_PPC_OBJECTS=
+

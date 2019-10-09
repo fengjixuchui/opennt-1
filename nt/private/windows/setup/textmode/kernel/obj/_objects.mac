@@ -1,0 +1,179 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\spres.res \
+    $(_OBJ_DIR)\alpha\diamond.obj \
+    $(_OBJ_DIR)\alpha\sparc.obj \
+    $(_OBJ_DIR)\alpha\spboot.obj \
+    $(_OBJ_DIR)\alpha\spconfig.obj \
+    $(_OBJ_DIR)\alpha\spcopy.obj \
+    $(_OBJ_DIR)\alpha\spdblspc.obj \
+    $(_OBJ_DIR)\alpha\spdbsfmt.obj \
+    $(_OBJ_DIR)\alpha\spdisk.obj \
+    $(_OBJ_DIR)\alpha\spdriver.obj \
+    $(_OBJ_DIR)\alpha\spdsputl.obj \
+    $(_OBJ_DIR)\alpha\spformat.obj \
+    $(_OBJ_DIR)\alpha\spfile.obj \
+    $(_OBJ_DIR)\alpha\spfontup.obj \
+    $(_OBJ_DIR)\alpha\spfsrec.obj \
+    $(_OBJ_DIR)\alpha\spgauge.obj \
+    $(_OBJ_DIR)\alpha\sphelp.obj \
+    $(_OBJ_DIR)\alpha\sphw.obj \
+    $(_OBJ_DIR)\alpha\spkbd.obj \
+    $(_OBJ_DIR)\alpha\splddrv.obj \
+    $(_OBJ_DIR)\alpha\spmemory.obj \
+    $(_OBJ_DIR)\alpha\spmenu.obj \
+    $(_OBJ_DIR)\alpha\spmsg.obj \
+    $(_OBJ_DIR)\alpha\spnetupg.obj \
+    $(_OBJ_DIR)\alpha\spntfix.obj \
+    $(_OBJ_DIR)\alpha\spnttree.obj \
+    $(_OBJ_DIR)\alpha\spntupg.obj \
+    $(_OBJ_DIR)\alpha\sppart2.obj \
+    $(_OBJ_DIR)\alpha\sppartit.obj \
+    $(_OBJ_DIR)\alpha\spreg.obj \
+    $(_OBJ_DIR)\alpha\spsetup.obj \
+    $(_OBJ_DIR)\alpha\spsif.obj \
+    $(_OBJ_DIR)\alpha\spstring.obj \
+    $(_OBJ_DIR)\alpha\sptarget.obj \
+    $(_OBJ_DIR)\alpha\sptxtfil.obj \
+    $(_OBJ_DIR)\alpha\spupgcfg.obj \
+    $(_OBJ_DIR)\alpha\sputil.obj \
+    $(_OBJ_DIR)\alpha\spvideo.obj \
+    $(_OBJ_DIR)\alpha\spvidfb.obj \
+    $(_OBJ_DIR)\alpha\spvidvga.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\spres.res \
+    $(_OBJ_DIR)\mips\diamond.obj \
+    $(_OBJ_DIR)\mips\sparc.obj \
+    $(_OBJ_DIR)\mips\spboot.obj \
+    $(_OBJ_DIR)\mips\spconfig.obj \
+    $(_OBJ_DIR)\mips\spcopy.obj \
+    $(_OBJ_DIR)\mips\spdblspc.obj \
+    $(_OBJ_DIR)\mips\spdbsfmt.obj \
+    $(_OBJ_DIR)\mips\spdisk.obj \
+    $(_OBJ_DIR)\mips\spdriver.obj \
+    $(_OBJ_DIR)\mips\spdsputl.obj \
+    $(_OBJ_DIR)\mips\spformat.obj \
+    $(_OBJ_DIR)\mips\spfile.obj \
+    $(_OBJ_DIR)\mips\spfontup.obj \
+    $(_OBJ_DIR)\mips\spfsrec.obj \
+    $(_OBJ_DIR)\mips\spgauge.obj \
+    $(_OBJ_DIR)\mips\sphelp.obj \
+    $(_OBJ_DIR)\mips\sphw.obj \
+    $(_OBJ_DIR)\mips\spkbd.obj \
+    $(_OBJ_DIR)\mips\splddrv.obj \
+    $(_OBJ_DIR)\mips\spmemory.obj \
+    $(_OBJ_DIR)\mips\spmenu.obj \
+    $(_OBJ_DIR)\mips\spmsg.obj \
+    $(_OBJ_DIR)\mips\spnetupg.obj \
+    $(_OBJ_DIR)\mips\spntfix.obj \
+    $(_OBJ_DIR)\mips\spnttree.obj \
+    $(_OBJ_DIR)\mips\spntupg.obj \
+    $(_OBJ_DIR)\mips\sppart2.obj \
+    $(_OBJ_DIR)\mips\sppartit.obj \
+    $(_OBJ_DIR)\mips\spreg.obj \
+    $(_OBJ_DIR)\mips\spsetup.obj \
+    $(_OBJ_DIR)\mips\spsif.obj \
+    $(_OBJ_DIR)\mips\spstring.obj \
+    $(_OBJ_DIR)\mips\sptarget.obj \
+    $(_OBJ_DIR)\mips\sptxtfil.obj \
+    $(_OBJ_DIR)\mips\spupgcfg.obj \
+    $(_OBJ_DIR)\mips\sputil.obj \
+    $(_OBJ_DIR)\mips\spvideo.obj \
+    $(_OBJ_DIR)\mips\spvidfb.obj \
+    $(_OBJ_DIR)\mips\spvidvga.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\spres.res \
+    $(_OBJ_DIR)\i386\bootini.obj \
+    $(_OBJ_DIR)\i386\smashlck.obj \
+    $(_OBJ_DIR)\i386\win31upg.obj \
+    $(_OBJ_DIR)\i386\diamond.obj \
+    $(_OBJ_DIR)\i386\sparc.obj \
+    $(_OBJ_DIR)\i386\spboot.obj \
+    $(_OBJ_DIR)\i386\spconfig.obj \
+    $(_OBJ_DIR)\i386\spcopy.obj \
+    $(_OBJ_DIR)\i386\spdblspc.obj \
+    $(_OBJ_DIR)\i386\spdbsfmt.obj \
+    $(_OBJ_DIR)\i386\spdisk.obj \
+    $(_OBJ_DIR)\i386\spdriver.obj \
+    $(_OBJ_DIR)\i386\spdsputl.obj \
+    $(_OBJ_DIR)\i386\spformat.obj \
+    $(_OBJ_DIR)\i386\spfile.obj \
+    $(_OBJ_DIR)\i386\spfontup.obj \
+    $(_OBJ_DIR)\i386\spfsrec.obj \
+    $(_OBJ_DIR)\i386\spgauge.obj \
+    $(_OBJ_DIR)\i386\sphelp.obj \
+    $(_OBJ_DIR)\i386\sphw.obj \
+    $(_OBJ_DIR)\i386\spkbd.obj \
+    $(_OBJ_DIR)\i386\splddrv.obj \
+    $(_OBJ_DIR)\i386\spmemory.obj \
+    $(_OBJ_DIR)\i386\spmenu.obj \
+    $(_OBJ_DIR)\i386\spmsg.obj \
+    $(_OBJ_DIR)\i386\spnetupg.obj \
+    $(_OBJ_DIR)\i386\spntfix.obj \
+    $(_OBJ_DIR)\i386\spnttree.obj \
+    $(_OBJ_DIR)\i386\spntupg.obj \
+    $(_OBJ_DIR)\i386\sppart2.obj \
+    $(_OBJ_DIR)\i386\sppartit.obj \
+    $(_OBJ_DIR)\i386\spreg.obj \
+    $(_OBJ_DIR)\i386\spsetup.obj \
+    $(_OBJ_DIR)\i386\spsif.obj \
+    $(_OBJ_DIR)\i386\spstring.obj \
+    $(_OBJ_DIR)\i386\sptarget.obj \
+    $(_OBJ_DIR)\i386\sptxtfil.obj \
+    $(_OBJ_DIR)\i386\spupgcfg.obj \
+    $(_OBJ_DIR)\i386\sputil.obj \
+    $(_OBJ_DIR)\i386\spvideo.obj \
+    $(_OBJ_DIR)\i386\spvidfb.obj \
+    $(_OBJ_DIR)\i386\spvidvga.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\spres.res \
+    $(_OBJ_DIR)\ppc\diamond.obj \
+    $(_OBJ_DIR)\ppc\sparc.obj \
+    $(_OBJ_DIR)\ppc\spboot.obj \
+    $(_OBJ_DIR)\ppc\spconfig.obj \
+    $(_OBJ_DIR)\ppc\spcopy.obj \
+    $(_OBJ_DIR)\ppc\spdblspc.obj \
+    $(_OBJ_DIR)\ppc\spdbsfmt.obj \
+    $(_OBJ_DIR)\ppc\spdisk.obj \
+    $(_OBJ_DIR)\ppc\spdriver.obj \
+    $(_OBJ_DIR)\ppc\spdsputl.obj \
+    $(_OBJ_DIR)\ppc\spformat.obj \
+    $(_OBJ_DIR)\ppc\spfile.obj \
+    $(_OBJ_DIR)\ppc\spfontup.obj \
+    $(_OBJ_DIR)\ppc\spfsrec.obj \
+    $(_OBJ_DIR)\ppc\spgauge.obj \
+    $(_OBJ_DIR)\ppc\sphelp.obj \
+    $(_OBJ_DIR)\ppc\sphw.obj \
+    $(_OBJ_DIR)\ppc\spkbd.obj \
+    $(_OBJ_DIR)\ppc\splddrv.obj \
+    $(_OBJ_DIR)\ppc\spmemory.obj \
+    $(_OBJ_DIR)\ppc\spmenu.obj \
+    $(_OBJ_DIR)\ppc\spmsg.obj \
+    $(_OBJ_DIR)\ppc\spnetupg.obj \
+    $(_OBJ_DIR)\ppc\spntfix.obj \
+    $(_OBJ_DIR)\ppc\spnttree.obj \
+    $(_OBJ_DIR)\ppc\spntupg.obj \
+    $(_OBJ_DIR)\ppc\sppart2.obj \
+    $(_OBJ_DIR)\ppc\sppartit.obj \
+    $(_OBJ_DIR)\ppc\spreg.obj \
+    $(_OBJ_DIR)\ppc\spsetup.obj \
+    $(_OBJ_DIR)\ppc\spsif.obj \
+    $(_OBJ_DIR)\ppc\spstring.obj \
+    $(_OBJ_DIR)\ppc\sptarget.obj \
+    $(_OBJ_DIR)\ppc\sptxtfil.obj \
+    $(_OBJ_DIR)\ppc\spupgcfg.obj \
+    $(_OBJ_DIR)\ppc\sputil.obj \
+    $(_OBJ_DIR)\ppc\spvideo.obj \
+    $(_OBJ_DIR)\ppc\spvidfb.obj \
+    $(_OBJ_DIR)\ppc\spvidvga.obj
+
+PASS0_PPC_OBJECTS=
+

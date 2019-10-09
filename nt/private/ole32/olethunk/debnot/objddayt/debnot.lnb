@@ -1,0 +1,10 @@
+objddayt\debnot.lib
+y
+ &
+objddayt\output.obj &
+objddayt\dprintf.obj &
+objddayt\sprintf.obj &
+objddayt\assert.obj&
+&
+
+objddayt\debnot.lls

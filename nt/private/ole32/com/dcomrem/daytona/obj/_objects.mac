@@ -1,0 +1,100 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\orpc_dbg.obj \
+    $(_OBJ_DIR)\alpha\callctrl.obj \
+    $(_OBJ_DIR)\alpha\chancont.obj \
+    $(_OBJ_DIR)\alpha\channelb.obj \
+    $(_OBJ_DIR)\alpha\chock.obj \
+    $(_OBJ_DIR)\alpha\coapi.obj \
+    $(_OBJ_DIR)\alpha\hash.obj \
+    $(_OBJ_DIR)\alpha\idtable.obj \
+    $(_OBJ_DIR)\alpha\ipidtbl.obj \
+    $(_OBJ_DIR)\alpha\ipmrshl.obj \
+    $(_OBJ_DIR)\alpha\locks.obj \
+    $(_OBJ_DIR)\alpha\marshal.obj \
+    $(_OBJ_DIR)\alpha\pgalloc.obj \
+    $(_OBJ_DIR)\alpha\remoteu.obj \
+    $(_OBJ_DIR)\alpha\resolver.obj \
+    $(_OBJ_DIR)\alpha\riftbl.obj \
+    $(_OBJ_DIR)\alpha\security.obj \
+    $(_OBJ_DIR)\alpha\service.obj \
+    $(_OBJ_DIR)\alpha\stdid.obj \
+    $(_OBJ_DIR)\alpha\stream.obj \
+    $(_OBJ_DIR)\alpha\threads.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\orpc_dbg.obj \
+    $(_OBJ_DIR)\mips\callctrl.obj \
+    $(_OBJ_DIR)\mips\chancont.obj \
+    $(_OBJ_DIR)\mips\channelb.obj \
+    $(_OBJ_DIR)\mips\chock.obj \
+    $(_OBJ_DIR)\mips\coapi.obj \
+    $(_OBJ_DIR)\mips\hash.obj \
+    $(_OBJ_DIR)\mips\idtable.obj \
+    $(_OBJ_DIR)\mips\ipidtbl.obj \
+    $(_OBJ_DIR)\mips\ipmrshl.obj \
+    $(_OBJ_DIR)\mips\locks.obj \
+    $(_OBJ_DIR)\mips\marshal.obj \
+    $(_OBJ_DIR)\mips\pgalloc.obj \
+    $(_OBJ_DIR)\mips\remoteu.obj \
+    $(_OBJ_DIR)\mips\resolver.obj \
+    $(_OBJ_DIR)\mips\riftbl.obj \
+    $(_OBJ_DIR)\mips\security.obj \
+    $(_OBJ_DIR)\mips\service.obj \
+    $(_OBJ_DIR)\mips\stdid.obj \
+    $(_OBJ_DIR)\mips\stream.obj \
+    $(_OBJ_DIR)\mips\threads.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\orpc_dbg.obj \
+    $(_OBJ_DIR)\i386\callctrl.obj \
+    $(_OBJ_DIR)\i386\chancont.obj \
+    $(_OBJ_DIR)\i386\channelb.obj \
+    $(_OBJ_DIR)\i386\chock.obj \
+    $(_OBJ_DIR)\i386\coapi.obj \
+    $(_OBJ_DIR)\i386\hash.obj \
+    $(_OBJ_DIR)\i386\idtable.obj \
+    $(_OBJ_DIR)\i386\ipidtbl.obj \
+    $(_OBJ_DIR)\i386\ipmrshl.obj \
+    $(_OBJ_DIR)\i386\locks.obj \
+    $(_OBJ_DIR)\i386\marshal.obj \
+    $(_OBJ_DIR)\i386\pgalloc.obj \
+    $(_OBJ_DIR)\i386\remoteu.obj \
+    $(_OBJ_DIR)\i386\resolver.obj \
+    $(_OBJ_DIR)\i386\riftbl.obj \
+    $(_OBJ_DIR)\i386\security.obj \
+    $(_OBJ_DIR)\i386\service.obj \
+    $(_OBJ_DIR)\i386\stdid.obj \
+    $(_OBJ_DIR)\i386\stream.obj \
+    $(_OBJ_DIR)\i386\threads.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\orpc_dbg.obj \
+    $(_OBJ_DIR)\ppc\callctrl.obj \
+    $(_OBJ_DIR)\ppc\chancont.obj \
+    $(_OBJ_DIR)\ppc\channelb.obj \
+    $(_OBJ_DIR)\ppc\chock.obj \
+    $(_OBJ_DIR)\ppc\coapi.obj \
+    $(_OBJ_DIR)\ppc\hash.obj \
+    $(_OBJ_DIR)\ppc\idtable.obj \
+    $(_OBJ_DIR)\ppc\ipidtbl.obj \
+    $(_OBJ_DIR)\ppc\ipmrshl.obj \
+    $(_OBJ_DIR)\ppc\locks.obj \
+    $(_OBJ_DIR)\ppc\marshal.obj \
+    $(_OBJ_DIR)\ppc\pgalloc.obj \
+    $(_OBJ_DIR)\ppc\remoteu.obj \
+    $(_OBJ_DIR)\ppc\resolver.obj \
+    $(_OBJ_DIR)\ppc\riftbl.obj \
+    $(_OBJ_DIR)\ppc\security.obj \
+    $(_OBJ_DIR)\ppc\service.obj \
+    $(_OBJ_DIR)\ppc\stdid.obj \
+    $(_OBJ_DIR)\ppc\stream.obj \
+    $(_OBJ_DIR)\ppc\threads.obj
+
+PASS0_PPC_OBJECTS=
+

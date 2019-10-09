@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\crclient.obj \
+    $(_OBJ_DIR)\alpha\rpcapi.obj \
+    $(_OBJ_DIR)\alpha\rpcapi2.obj \
+    $(_OBJ_DIR)\alpha\rpcbind.obj \
+    $(_OBJ_DIR)\alpha\lsarpc_c.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\crclient.obj \
+    $(_OBJ_DIR)\mips\rpcapi.obj \
+    $(_OBJ_DIR)\mips\rpcapi2.obj \
+    $(_OBJ_DIR)\mips\rpcbind.obj \
+    $(_OBJ_DIR)\mips\lsarpc_c.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\crclient.obj \
+    $(_OBJ_DIR)\i386\rpcapi.obj \
+    $(_OBJ_DIR)\i386\rpcapi2.obj \
+    $(_OBJ_DIR)\i386\rpcbind.obj \
+    $(_OBJ_DIR)\i386\lsarpc_c.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\crclient.obj \
+    $(_OBJ_DIR)\ppc\rpcapi.obj \
+    $(_OBJ_DIR)\ppc\rpcapi2.obj \
+    $(_OBJ_DIR)\ppc\rpcbind.obj \
+    $(_OBJ_DIR)\ppc\lsarpc_c.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,36 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LIBRARY OLECNV32
+
+DESCRIPTION  'QuickDraw to GDI Conversion DLL for 32-bit OLE'
+
+EXPORTS
+        QD2GDI  PRIVATE
+
+

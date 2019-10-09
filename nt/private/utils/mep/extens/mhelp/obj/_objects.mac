@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mhelp.res \
+    $(_OBJ_DIR)\alpha\mhcore.obj \
+    $(_OBJ_DIR)\alpha\mhdisp.obj \
+    $(_OBJ_DIR)\alpha\mhevt.obj \
+    $(_OBJ_DIR)\alpha\mhfile.obj \
+    $(_OBJ_DIR)\alpha\mhlook.obj \
+    $(_OBJ_DIR)\alpha\mhutil.obj \
+    $(_OBJ_DIR)\alpha\mhwin.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mhelp.res \
+    $(_OBJ_DIR)\mips\mhcore.obj \
+    $(_OBJ_DIR)\mips\mhdisp.obj \
+    $(_OBJ_DIR)\mips\mhevt.obj \
+    $(_OBJ_DIR)\mips\mhfile.obj \
+    $(_OBJ_DIR)\mips\mhlook.obj \
+    $(_OBJ_DIR)\mips\mhutil.obj \
+    $(_OBJ_DIR)\mips\mhwin.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mhelp.res \
+    $(_OBJ_DIR)\i386\mhcore.obj \
+    $(_OBJ_DIR)\i386\mhdisp.obj \
+    $(_OBJ_DIR)\i386\mhevt.obj \
+    $(_OBJ_DIR)\i386\mhfile.obj \
+    $(_OBJ_DIR)\i386\mhlook.obj \
+    $(_OBJ_DIR)\i386\mhutil.obj \
+    $(_OBJ_DIR)\i386\mhwin.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mhelp.res \
+    $(_OBJ_DIR)\ppc\mhcore.obj \
+    $(_OBJ_DIR)\ppc\mhdisp.obj \
+    $(_OBJ_DIR)\ppc\mhevt.obj \
+    $(_OBJ_DIR)\ppc\mhfile.obj \
+    $(_OBJ_DIR)\ppc\mhlook.obj \
+    $(_OBJ_DIR)\ppc\mhutil.obj \
+    $(_OBJ_DIR)\ppc\mhwin.obj
+
+PASS0_PPC_OBJECTS=
+

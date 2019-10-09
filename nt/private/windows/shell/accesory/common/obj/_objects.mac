@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\datein.obj \
+    $(_OBJ_DIR)\alpha\dateinit.obj \
+    $(_OBJ_DIR)\alpha\datelini.obj \
+    $(_OBJ_DIR)\alpha\dateout.obj \
+    $(_OBJ_DIR)\alpha\dateoutl.obj \
+    $(_OBJ_DIR)\alpha\help.obj \
+    $(_OBJ_DIR)\alpha\ll.obj \
+    $(_OBJ_DIR)\alpha\message.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\datein.obj \
+    $(_OBJ_DIR)\mips\dateinit.obj \
+    $(_OBJ_DIR)\mips\datelini.obj \
+    $(_OBJ_DIR)\mips\dateout.obj \
+    $(_OBJ_DIR)\mips\dateoutl.obj \
+    $(_OBJ_DIR)\mips\help.obj \
+    $(_OBJ_DIR)\mips\ll.obj \
+    $(_OBJ_DIR)\mips\message.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\datein.obj \
+    $(_OBJ_DIR)\i386\dateinit.obj \
+    $(_OBJ_DIR)\i386\datelini.obj \
+    $(_OBJ_DIR)\i386\dateout.obj \
+    $(_OBJ_DIR)\i386\dateoutl.obj \
+    $(_OBJ_DIR)\i386\help.obj \
+    $(_OBJ_DIR)\i386\ll.obj \
+    $(_OBJ_DIR)\i386\message.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\datein.obj \
+    $(_OBJ_DIR)\ppc\dateinit.obj \
+    $(_OBJ_DIR)\ppc\datelini.obj \
+    $(_OBJ_DIR)\ppc\dateout.obj \
+    $(_OBJ_DIR)\ppc\dateoutl.obj \
+    $(_OBJ_DIR)\ppc\help.obj \
+    $(_OBJ_DIR)\ppc\ll.obj \
+    $(_OBJ_DIR)\ppc\message.obj
+
+PASS0_PPC_OBJECTS=
+

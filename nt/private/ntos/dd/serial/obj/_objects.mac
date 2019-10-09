@@ -1,0 +1,76 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\serial.res \
+    $(_OBJ_DIR)\alpha\error.obj \
+    $(_OBJ_DIR)\alpha\flush.obj \
+    $(_OBJ_DIR)\alpha\immediat.obj \
+    $(_OBJ_DIR)\alpha\initunlo.obj \
+    $(_OBJ_DIR)\alpha\ioctl.obj \
+    $(_OBJ_DIR)\alpha\isr.obj \
+    $(_OBJ_DIR)\alpha\modmflow.obj \
+    $(_OBJ_DIR)\alpha\openclos.obj \
+    $(_OBJ_DIR)\alpha\purge.obj \
+    $(_OBJ_DIR)\alpha\qsfile.obj \
+    $(_OBJ_DIR)\alpha\read.obj \
+    $(_OBJ_DIR)\alpha\utils.obj \
+    $(_OBJ_DIR)\alpha\waitmask.obj \
+    $(_OBJ_DIR)\alpha\write.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\serial.res \
+    $(_OBJ_DIR)\mips\error.obj \
+    $(_OBJ_DIR)\mips\flush.obj \
+    $(_OBJ_DIR)\mips\immediat.obj \
+    $(_OBJ_DIR)\mips\initunlo.obj \
+    $(_OBJ_DIR)\mips\ioctl.obj \
+    $(_OBJ_DIR)\mips\isr.obj \
+    $(_OBJ_DIR)\mips\modmflow.obj \
+    $(_OBJ_DIR)\mips\openclos.obj \
+    $(_OBJ_DIR)\mips\purge.obj \
+    $(_OBJ_DIR)\mips\qsfile.obj \
+    $(_OBJ_DIR)\mips\read.obj \
+    $(_OBJ_DIR)\mips\utils.obj \
+    $(_OBJ_DIR)\mips\waitmask.obj \
+    $(_OBJ_DIR)\mips\write.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\serial.res \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\flush.obj \
+    $(_OBJ_DIR)\i386\immediat.obj \
+    $(_OBJ_DIR)\i386\initunlo.obj \
+    $(_OBJ_DIR)\i386\ioctl.obj \
+    $(_OBJ_DIR)\i386\isr.obj \
+    $(_OBJ_DIR)\i386\modmflow.obj \
+    $(_OBJ_DIR)\i386\openclos.obj \
+    $(_OBJ_DIR)\i386\purge.obj \
+    $(_OBJ_DIR)\i386\qsfile.obj \
+    $(_OBJ_DIR)\i386\read.obj \
+    $(_OBJ_DIR)\i386\utils.obj \
+    $(_OBJ_DIR)\i386\waitmask.obj \
+    $(_OBJ_DIR)\i386\write.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\serial.res \
+    $(_OBJ_DIR)\ppc\error.obj \
+    $(_OBJ_DIR)\ppc\flush.obj \
+    $(_OBJ_DIR)\ppc\immediat.obj \
+    $(_OBJ_DIR)\ppc\initunlo.obj \
+    $(_OBJ_DIR)\ppc\ioctl.obj \
+    $(_OBJ_DIR)\ppc\isr.obj \
+    $(_OBJ_DIR)\ppc\modmflow.obj \
+    $(_OBJ_DIR)\ppc\openclos.obj \
+    $(_OBJ_DIR)\ppc\purge.obj \
+    $(_OBJ_DIR)\ppc\qsfile.obj \
+    $(_OBJ_DIR)\ppc\read.obj \
+    $(_OBJ_DIR)\ppc\utils.obj \
+    $(_OBJ_DIR)\ppc\waitmask.obj \
+    $(_OBJ_DIR)\ppc\write.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cachesup.obj \
+    $(_OBJ_DIR)\alpha\lbcbsup.obj \
+    $(_OBJ_DIR)\alpha\lfsdata.obj \
+    $(_OBJ_DIR)\alpha\logpgsup.obj \
+    $(_OBJ_DIR)\alpha\logrcsup.obj \
+    $(_OBJ_DIR)\alpha\lsnsup.obj \
+    $(_OBJ_DIR)\alpha\querylog.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\restart.obj \
+    $(_OBJ_DIR)\alpha\rstrtsup.obj \
+    $(_OBJ_DIR)\alpha\strucsup.obj \
+    $(_OBJ_DIR)\alpha\sysinit.obj \
+    $(_OBJ_DIR)\alpha\verfysup.obj \
+    $(_OBJ_DIR)\alpha\write.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\cachesup.obj \
+    $(_OBJ_DIR)\mips\lbcbsup.obj \
+    $(_OBJ_DIR)\mips\lfsdata.obj \
+    $(_OBJ_DIR)\mips\logpgsup.obj \
+    $(_OBJ_DIR)\mips\logrcsup.obj \
+    $(_OBJ_DIR)\mips\lsnsup.obj \
+    $(_OBJ_DIR)\mips\querylog.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\restart.obj \
+    $(_OBJ_DIR)\mips\rstrtsup.obj \
+    $(_OBJ_DIR)\mips\strucsup.obj \
+    $(_OBJ_DIR)\mips\sysinit.obj \
+    $(_OBJ_DIR)\mips\verfysup.obj \
+    $(_OBJ_DIR)\mips\write.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cachesup.obj \
+    $(_OBJ_DIR)\i386\lbcbsup.obj \
+    $(_OBJ_DIR)\i386\lfsdata.obj \
+    $(_OBJ_DIR)\i386\logpgsup.obj \
+    $(_OBJ_DIR)\i386\logrcsup.obj \
+    $(_OBJ_DIR)\i386\lsnsup.obj \
+    $(_OBJ_DIR)\i386\querylog.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\restart.obj \
+    $(_OBJ_DIR)\i386\rstrtsup.obj \
+    $(_OBJ_DIR)\i386\strucsup.obj \
+    $(_OBJ_DIR)\i386\sysinit.obj \
+    $(_OBJ_DIR)\i386\verfysup.obj \
+    $(_OBJ_DIR)\i386\write.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\cachesup.obj \
+    $(_OBJ_DIR)\ppc\lbcbsup.obj \
+    $(_OBJ_DIR)\ppc\lfsdata.obj \
+    $(_OBJ_DIR)\ppc\logpgsup.obj \
+    $(_OBJ_DIR)\ppc\logrcsup.obj \
+    $(_OBJ_DIR)\ppc\lsnsup.obj \
+    $(_OBJ_DIR)\ppc\querylog.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\restart.obj \
+    $(_OBJ_DIR)\ppc\rstrtsup.obj \
+    $(_OBJ_DIR)\ppc\strucsup.obj \
+    $(_OBJ_DIR)\ppc\sysinit.obj \
+    $(_OBJ_DIR)\ppc\verfysup.obj \
+    $(_OBJ_DIR)\ppc\write.obj
+
+PASS0_PPC_OBJECTS=
+

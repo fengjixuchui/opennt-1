@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ddeshare.res \
+    $(_OBJ_DIR)\alpha\ddeshare.obj \
+    $(_OBJ_DIR)\alpha\dialogs.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ddeshare.res \
+    $(_OBJ_DIR)\mips\ddeshare.obj \
+    $(_OBJ_DIR)\mips\dialogs.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ddeshare.res \
+    $(_OBJ_DIR)\i386\ddeshare.obj \
+    $(_OBJ_DIR)\i386\dialogs.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ddeshare.res \
+    $(_OBJ_DIR)\ppc\ddeshare.obj \
+    $(_OBJ_DIR)\ppc\dialogs.obj
+
+PASS0_PPC_OBJECTS=
+

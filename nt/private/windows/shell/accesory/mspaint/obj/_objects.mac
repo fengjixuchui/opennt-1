@@ -1,0 +1,184 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mspaint.res \
+    $(_OBJ_DIR)\alpha\loadimag.obj \
+    $(_OBJ_DIR)\alpha\bar.obj \
+    $(_OBJ_DIR)\alpha\bmobject.obj \
+    $(_OBJ_DIR)\alpha\cmpmsg.obj \
+    $(_OBJ_DIR)\alpha\colorsrc.obj \
+    $(_OBJ_DIR)\alpha\docking.obj \
+    $(_OBJ_DIR)\alpha\global.obj \
+    $(_OBJ_DIR)\alpha\imageatt.obj \
+    $(_OBJ_DIR)\alpha\imgbrush.obj \
+    $(_OBJ_DIR)\alpha\imgcolor.obj \
+    $(_OBJ_DIR)\alpha\imgcpyps.obj \
+    $(_OBJ_DIR)\alpha\imgdlgs.obj \
+    $(_OBJ_DIR)\alpha\imgfile.obj \
+    $(_OBJ_DIR)\alpha\imgsuprt.obj \
+    $(_OBJ_DIR)\alpha\imgtools.obj \
+    $(_OBJ_DIR)\alpha\imgwell.obj \
+    $(_OBJ_DIR)\alpha\imgwnd.obj \
+    $(_OBJ_DIR)\alpha\ipframe.obj \
+    $(_OBJ_DIR)\alpha\minifwnd.obj \
+    $(_OBJ_DIR)\alpha\pbrusdoc.obj \
+    $(_OBJ_DIR)\alpha\pbrusfrm.obj \
+    $(_OBJ_DIR)\alpha\pbrush.obj \
+    $(_OBJ_DIR)\alpha\pbrusvw.obj \
+    $(_OBJ_DIR)\alpha\pictures.obj \
+    $(_OBJ_DIR)\alpha\printres.obj \
+    $(_OBJ_DIR)\alpha\rotate.obj \
+    $(_OBJ_DIR)\alpha\settings.obj \
+    $(_OBJ_DIR)\alpha\skew.obj \
+    $(_OBJ_DIR)\alpha\sprite.obj \
+    $(_OBJ_DIR)\alpha\srvritem.obj \
+    $(_OBJ_DIR)\alpha\tedit.obj \
+    $(_OBJ_DIR)\alpha\tfont.obj \
+    $(_OBJ_DIR)\alpha\thumnail.obj \
+    $(_OBJ_DIR)\alpha\toolbox.obj \
+    $(_OBJ_DIR)\alpha\tracker.obj \
+    $(_OBJ_DIR)\alpha\t_curve.obj \
+    $(_OBJ_DIR)\alpha\t_fhsel.obj \
+    $(_OBJ_DIR)\alpha\t_poly.obj \
+    $(_OBJ_DIR)\alpha\t_text.obj \
+    $(_OBJ_DIR)\alpha\undo.obj \
+    $(_OBJ_DIR)\alpha\fixhelp.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mspaint.res \
+    $(_OBJ_DIR)\mips\loadimag.obj \
+    $(_OBJ_DIR)\mips\bar.obj \
+    $(_OBJ_DIR)\mips\bmobject.obj \
+    $(_OBJ_DIR)\mips\cmpmsg.obj \
+    $(_OBJ_DIR)\mips\colorsrc.obj \
+    $(_OBJ_DIR)\mips\docking.obj \
+    $(_OBJ_DIR)\mips\global.obj \
+    $(_OBJ_DIR)\mips\imageatt.obj \
+    $(_OBJ_DIR)\mips\imgbrush.obj \
+    $(_OBJ_DIR)\mips\imgcolor.obj \
+    $(_OBJ_DIR)\mips\imgcpyps.obj \
+    $(_OBJ_DIR)\mips\imgdlgs.obj \
+    $(_OBJ_DIR)\mips\imgfile.obj \
+    $(_OBJ_DIR)\mips\imgsuprt.obj \
+    $(_OBJ_DIR)\mips\imgtools.obj \
+    $(_OBJ_DIR)\mips\imgwell.obj \
+    $(_OBJ_DIR)\mips\imgwnd.obj \
+    $(_OBJ_DIR)\mips\ipframe.obj \
+    $(_OBJ_DIR)\mips\minifwnd.obj \
+    $(_OBJ_DIR)\mips\pbrusdoc.obj \
+    $(_OBJ_DIR)\mips\pbrusfrm.obj \
+    $(_OBJ_DIR)\mips\pbrush.obj \
+    $(_OBJ_DIR)\mips\pbrusvw.obj \
+    $(_OBJ_DIR)\mips\pictures.obj \
+    $(_OBJ_DIR)\mips\printres.obj \
+    $(_OBJ_DIR)\mips\rotate.obj \
+    $(_OBJ_DIR)\mips\settings.obj \
+    $(_OBJ_DIR)\mips\skew.obj \
+    $(_OBJ_DIR)\mips\sprite.obj \
+    $(_OBJ_DIR)\mips\srvritem.obj \
+    $(_OBJ_DIR)\mips\tedit.obj \
+    $(_OBJ_DIR)\mips\tfont.obj \
+    $(_OBJ_DIR)\mips\thumnail.obj \
+    $(_OBJ_DIR)\mips\toolbox.obj \
+    $(_OBJ_DIR)\mips\tracker.obj \
+    $(_OBJ_DIR)\mips\t_curve.obj \
+    $(_OBJ_DIR)\mips\t_fhsel.obj \
+    $(_OBJ_DIR)\mips\t_poly.obj \
+    $(_OBJ_DIR)\mips\t_text.obj \
+    $(_OBJ_DIR)\mips\undo.obj \
+    $(_OBJ_DIR)\mips\fixhelp.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mspaint.res \
+    $(_OBJ_DIR)\i386\loadimag.obj \
+    $(_OBJ_DIR)\i386\bar.obj \
+    $(_OBJ_DIR)\i386\bmobject.obj \
+    $(_OBJ_DIR)\i386\cmpmsg.obj \
+    $(_OBJ_DIR)\i386\colorsrc.obj \
+    $(_OBJ_DIR)\i386\docking.obj \
+    $(_OBJ_DIR)\i386\global.obj \
+    $(_OBJ_DIR)\i386\imageatt.obj \
+    $(_OBJ_DIR)\i386\imgbrush.obj \
+    $(_OBJ_DIR)\i386\imgcolor.obj \
+    $(_OBJ_DIR)\i386\imgcpyps.obj \
+    $(_OBJ_DIR)\i386\imgdlgs.obj \
+    $(_OBJ_DIR)\i386\imgfile.obj \
+    $(_OBJ_DIR)\i386\imgsuprt.obj \
+    $(_OBJ_DIR)\i386\imgtools.obj \
+    $(_OBJ_DIR)\i386\imgwell.obj \
+    $(_OBJ_DIR)\i386\imgwnd.obj \
+    $(_OBJ_DIR)\i386\ipframe.obj \
+    $(_OBJ_DIR)\i386\minifwnd.obj \
+    $(_OBJ_DIR)\i386\pbrusdoc.obj \
+    $(_OBJ_DIR)\i386\pbrusfrm.obj \
+    $(_OBJ_DIR)\i386\pbrush.obj \
+    $(_OBJ_DIR)\i386\pbrusvw.obj \
+    $(_OBJ_DIR)\i386\pictures.obj \
+    $(_OBJ_DIR)\i386\printres.obj \
+    $(_OBJ_DIR)\i386\rotate.obj \
+    $(_OBJ_DIR)\i386\settings.obj \
+    $(_OBJ_DIR)\i386\skew.obj \
+    $(_OBJ_DIR)\i386\sprite.obj \
+    $(_OBJ_DIR)\i386\srvritem.obj \
+    $(_OBJ_DIR)\i386\tedit.obj \
+    $(_OBJ_DIR)\i386\tfont.obj \
+    $(_OBJ_DIR)\i386\thumnail.obj \
+    $(_OBJ_DIR)\i386\toolbox.obj \
+    $(_OBJ_DIR)\i386\tracker.obj \
+    $(_OBJ_DIR)\i386\t_curve.obj \
+    $(_OBJ_DIR)\i386\t_fhsel.obj \
+    $(_OBJ_DIR)\i386\t_poly.obj \
+    $(_OBJ_DIR)\i386\t_text.obj \
+    $(_OBJ_DIR)\i386\undo.obj \
+    $(_OBJ_DIR)\i386\fixhelp.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mspaint.res \
+    $(_OBJ_DIR)\ppc\loadimag.obj \
+    $(_OBJ_DIR)\ppc\bar.obj \
+    $(_OBJ_DIR)\ppc\bmobject.obj \
+    $(_OBJ_DIR)\ppc\cmpmsg.obj \
+    $(_OBJ_DIR)\ppc\colorsrc.obj \
+    $(_OBJ_DIR)\ppc\docking.obj \
+    $(_OBJ_DIR)\ppc\global.obj \
+    $(_OBJ_DIR)\ppc\imageatt.obj \
+    $(_OBJ_DIR)\ppc\imgbrush.obj \
+    $(_OBJ_DIR)\ppc\imgcolor.obj \
+    $(_OBJ_DIR)\ppc\imgcpyps.obj \
+    $(_OBJ_DIR)\ppc\imgdlgs.obj \
+    $(_OBJ_DIR)\ppc\imgfile.obj \
+    $(_OBJ_DIR)\ppc\imgsuprt.obj \
+    $(_OBJ_DIR)\ppc\imgtools.obj \
+    $(_OBJ_DIR)\ppc\imgwell.obj \
+    $(_OBJ_DIR)\ppc\imgwnd.obj \
+    $(_OBJ_DIR)\ppc\ipframe.obj \
+    $(_OBJ_DIR)\ppc\minifwnd.obj \
+    $(_OBJ_DIR)\ppc\pbrusdoc.obj \
+    $(_OBJ_DIR)\ppc\pbrusfrm.obj \
+    $(_OBJ_DIR)\ppc\pbrush.obj \
+    $(_OBJ_DIR)\ppc\pbrusvw.obj \
+    $(_OBJ_DIR)\ppc\pictures.obj \
+    $(_OBJ_DIR)\ppc\printres.obj \
+    $(_OBJ_DIR)\ppc\rotate.obj \
+    $(_OBJ_DIR)\ppc\settings.obj \
+    $(_OBJ_DIR)\ppc\skew.obj \
+    $(_OBJ_DIR)\ppc\sprite.obj \
+    $(_OBJ_DIR)\ppc\srvritem.obj \
+    $(_OBJ_DIR)\ppc\tedit.obj \
+    $(_OBJ_DIR)\ppc\tfont.obj \
+    $(_OBJ_DIR)\ppc\thumnail.obj \
+    $(_OBJ_DIR)\ppc\toolbox.obj \
+    $(_OBJ_DIR)\ppc\tracker.obj \
+    $(_OBJ_DIR)\ppc\t_curve.obj \
+    $(_OBJ_DIR)\ppc\t_fhsel.obj \
+    $(_OBJ_DIR)\ppc\t_poly.obj \
+    $(_OBJ_DIR)\ppc\t_text.obj \
+    $(_OBJ_DIR)\ppc\undo.obj \
+    $(_OBJ_DIR)\ppc\fixhelp.obj
+
+PASS0_PPC_OBJECTS=
+

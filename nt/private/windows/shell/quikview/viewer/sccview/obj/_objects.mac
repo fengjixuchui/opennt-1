@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\sccview.res \
+    $(_OBJ_DIR)\alpha\ifilevw.obj \
+    $(_OBJ_DIR)\alpha\fvproc.obj \
+    $(_OBJ_DIR)\alpha\sccview.obj \
+    $(_OBJ_DIR)\alpha\cstathlp.obj \
+    $(_OBJ_DIR)\alpha\cstrtabl.obj \
+    $(_OBJ_DIR)\alpha\fvinit.obj \
+    $(_OBJ_DIR)\alpha\iperfile.obj \
+    $(_OBJ_DIR)\alpha\fileview.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\sccview.res \
+    $(_OBJ_DIR)\mips\ifilevw.obj \
+    $(_OBJ_DIR)\mips\fvproc.obj \
+    $(_OBJ_DIR)\mips\sccview.obj \
+    $(_OBJ_DIR)\mips\cstathlp.obj \
+    $(_OBJ_DIR)\mips\cstrtabl.obj \
+    $(_OBJ_DIR)\mips\fvinit.obj \
+    $(_OBJ_DIR)\mips\iperfile.obj \
+    $(_OBJ_DIR)\mips\fileview.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\sccview.res \
+    $(_OBJ_DIR)\i386\ifilevw.obj \
+    $(_OBJ_DIR)\i386\fvproc.obj \
+    $(_OBJ_DIR)\i386\sccview.obj \
+    $(_OBJ_DIR)\i386\cstathlp.obj \
+    $(_OBJ_DIR)\i386\cstrtabl.obj \
+    $(_OBJ_DIR)\i386\fvinit.obj \
+    $(_OBJ_DIR)\i386\iperfile.obj \
+    $(_OBJ_DIR)\i386\fileview.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\sccview.res \
+    $(_OBJ_DIR)\ppc\ifilevw.obj \
+    $(_OBJ_DIR)\ppc\fvproc.obj \
+    $(_OBJ_DIR)\ppc\sccview.obj \
+    $(_OBJ_DIR)\ppc\cstathlp.obj \
+    $(_OBJ_DIR)\ppc\cstrtabl.obj \
+    $(_OBJ_DIR)\ppc\fvinit.obj \
+    $(_OBJ_DIR)\ppc\iperfile.obj \
+    $(_OBJ_DIR)\ppc\fileview.obj
+
+PASS0_PPC_OBJECTS=
+

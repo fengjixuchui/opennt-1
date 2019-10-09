@@ -1,0 +1,84 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\desk.res \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\backdlg.obj \
+    $(_OBJ_DIR)\alpha\globals.obj \
+    $(_OBJ_DIR)\alpha\desk.obj \
+    $(_OBJ_DIR)\alpha\pattern.obj \
+    $(_OBJ_DIR)\alpha\backprev.obj \
+    $(_OBJ_DIR)\alpha\ssdlg.obj \
+    $(_OBJ_DIR)\alpha\exe.obj \
+    $(_OBJ_DIR)\alpha\lookdlg.obj \
+    $(_OBJ_DIR)\alpha\lookprev.obj \
+    $(_OBJ_DIR)\alpha\color2.obj \
+    $(_OBJ_DIR)\alpha\colorpic.obj \
+    $(_OBJ_DIR)\alpha\setdrw.obj \
+    $(_OBJ_DIR)\alpha\setinit.obj \
+    $(_OBJ_DIR)\alpha\install.obj \
+    $(_OBJ_DIR)\alpha\settings.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\desk.res \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\backdlg.obj \
+    $(_OBJ_DIR)\mips\globals.obj \
+    $(_OBJ_DIR)\mips\desk.obj \
+    $(_OBJ_DIR)\mips\pattern.obj \
+    $(_OBJ_DIR)\mips\backprev.obj \
+    $(_OBJ_DIR)\mips\ssdlg.obj \
+    $(_OBJ_DIR)\mips\exe.obj \
+    $(_OBJ_DIR)\mips\lookdlg.obj \
+    $(_OBJ_DIR)\mips\lookprev.obj \
+    $(_OBJ_DIR)\mips\color2.obj \
+    $(_OBJ_DIR)\mips\colorpic.obj \
+    $(_OBJ_DIR)\mips\setdrw.obj \
+    $(_OBJ_DIR)\mips\setinit.obj \
+    $(_OBJ_DIR)\mips\install.obj \
+    $(_OBJ_DIR)\mips\settings.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\desk.res \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\backdlg.obj \
+    $(_OBJ_DIR)\i386\globals.obj \
+    $(_OBJ_DIR)\i386\desk.obj \
+    $(_OBJ_DIR)\i386\pattern.obj \
+    $(_OBJ_DIR)\i386\backprev.obj \
+    $(_OBJ_DIR)\i386\ssdlg.obj \
+    $(_OBJ_DIR)\i386\exe.obj \
+    $(_OBJ_DIR)\i386\lookdlg.obj \
+    $(_OBJ_DIR)\i386\lookprev.obj \
+    $(_OBJ_DIR)\i386\color2.obj \
+    $(_OBJ_DIR)\i386\colorpic.obj \
+    $(_OBJ_DIR)\i386\setdrw.obj \
+    $(_OBJ_DIR)\i386\setinit.obj \
+    $(_OBJ_DIR)\i386\install.obj \
+    $(_OBJ_DIR)\i386\settings.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\desk.res \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\backdlg.obj \
+    $(_OBJ_DIR)\ppc\globals.obj \
+    $(_OBJ_DIR)\ppc\desk.obj \
+    $(_OBJ_DIR)\ppc\pattern.obj \
+    $(_OBJ_DIR)\ppc\backprev.obj \
+    $(_OBJ_DIR)\ppc\ssdlg.obj \
+    $(_OBJ_DIR)\ppc\exe.obj \
+    $(_OBJ_DIR)\ppc\lookdlg.obj \
+    $(_OBJ_DIR)\ppc\lookprev.obj \
+    $(_OBJ_DIR)\ppc\color2.obj \
+    $(_OBJ_DIR)\ppc\colorpic.obj \
+    $(_OBJ_DIR)\ppc\setdrw.obj \
+    $(_OBJ_DIR)\ppc\setinit.obj \
+    $(_OBJ_DIR)\ppc\install.obj \
+    $(_OBJ_DIR)\ppc\settings.obj
+
+PASS0_PPC_OBJECTS=
+

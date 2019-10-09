@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\pcmcia.res \
+    $(_OBJ_DIR)\alpha\pcmcia.obj \
+    $(_OBJ_DIR)\alpha\tuples.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\pcicsup.obj \
+    $(_OBJ_DIR)\alpha\detect.obj \
+    $(_OBJ_DIR)\alpha\tcicsup.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\pcmcia.res \
+    $(_OBJ_DIR)\mips\pcmcia.obj \
+    $(_OBJ_DIR)\mips\tuples.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\pcicsup.obj \
+    $(_OBJ_DIR)\mips\detect.obj \
+    $(_OBJ_DIR)\mips\tcicsup.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\pcmcia.res \
+    $(_OBJ_DIR)\i386\pcmcia.obj \
+    $(_OBJ_DIR)\i386\tuples.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\pcicsup.obj \
+    $(_OBJ_DIR)\i386\detect.obj \
+    $(_OBJ_DIR)\i386\tcicsup.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\pcmcia.res \
+    $(_OBJ_DIR)\ppc\pcmcia.obj \
+    $(_OBJ_DIR)\ppc\tuples.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\pcicsup.obj \
+    $(_OBJ_DIR)\ppc\detect.obj \
+    $(_OBJ_DIR)\ppc\tcicsup.obj
+
+PASS0_PPC_OBJECTS=
+

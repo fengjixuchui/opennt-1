@@ -1,0 +1,76 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\regbined.obj \
+    $(_OBJ_DIR)\alpha\regcdhk.obj \
+    $(_OBJ_DIR)\alpha\regdebug.obj \
+    $(_OBJ_DIR)\alpha\regdwded.obj \
+    $(_OBJ_DIR)\alpha\regedit.obj \
+    $(_OBJ_DIR)\alpha\regfile.obj \
+    $(_OBJ_DIR)\alpha\regfind.obj \
+    $(_OBJ_DIR)\alpha\regkey.obj \
+    $(_OBJ_DIR)\alpha\regmain.obj \
+    $(_OBJ_DIR)\alpha\regmisc.obj \
+    $(_OBJ_DIR)\alpha\regnet.obj \
+    $(_OBJ_DIR)\alpha\regporte.obj \
+    $(_OBJ_DIR)\alpha\regprint.obj \
+    $(_OBJ_DIR)\alpha\regstred.obj \
+    $(_OBJ_DIR)\alpha\regvalue.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\regbined.obj \
+    $(_OBJ_DIR)\mips\regcdhk.obj \
+    $(_OBJ_DIR)\mips\regdebug.obj \
+    $(_OBJ_DIR)\mips\regdwded.obj \
+    $(_OBJ_DIR)\mips\regedit.obj \
+    $(_OBJ_DIR)\mips\regfile.obj \
+    $(_OBJ_DIR)\mips\regfind.obj \
+    $(_OBJ_DIR)\mips\regkey.obj \
+    $(_OBJ_DIR)\mips\regmain.obj \
+    $(_OBJ_DIR)\mips\regmisc.obj \
+    $(_OBJ_DIR)\mips\regnet.obj \
+    $(_OBJ_DIR)\mips\regporte.obj \
+    $(_OBJ_DIR)\mips\regprint.obj \
+    $(_OBJ_DIR)\mips\regstred.obj \
+    $(_OBJ_DIR)\mips\regvalue.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\regbined.obj \
+    $(_OBJ_DIR)\i386\regcdhk.obj \
+    $(_OBJ_DIR)\i386\regdebug.obj \
+    $(_OBJ_DIR)\i386\regdwded.obj \
+    $(_OBJ_DIR)\i386\regedit.obj \
+    $(_OBJ_DIR)\i386\regfile.obj \
+    $(_OBJ_DIR)\i386\regfind.obj \
+    $(_OBJ_DIR)\i386\regkey.obj \
+    $(_OBJ_DIR)\i386\regmain.obj \
+    $(_OBJ_DIR)\i386\regmisc.obj \
+    $(_OBJ_DIR)\i386\regnet.obj \
+    $(_OBJ_DIR)\i386\regporte.obj \
+    $(_OBJ_DIR)\i386\regprint.obj \
+    $(_OBJ_DIR)\i386\regstred.obj \
+    $(_OBJ_DIR)\i386\regvalue.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\regbined.obj \
+    $(_OBJ_DIR)\ppc\regcdhk.obj \
+    $(_OBJ_DIR)\ppc\regdebug.obj \
+    $(_OBJ_DIR)\ppc\regdwded.obj \
+    $(_OBJ_DIR)\ppc\regedit.obj \
+    $(_OBJ_DIR)\ppc\regfile.obj \
+    $(_OBJ_DIR)\ppc\regfind.obj \
+    $(_OBJ_DIR)\ppc\regkey.obj \
+    $(_OBJ_DIR)\ppc\regmain.obj \
+    $(_OBJ_DIR)\ppc\regmisc.obj \
+    $(_OBJ_DIR)\ppc\regnet.obj \
+    $(_OBJ_DIR)\ppc\regporte.obj \
+    $(_OBJ_DIR)\ppc\regprint.obj \
+    $(_OBJ_DIR)\ppc\regstred.obj \
+    $(_OBJ_DIR)\ppc\regvalue.obj
+
+PASS0_PPC_OBJECTS=
+

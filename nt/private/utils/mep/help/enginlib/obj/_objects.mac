@@ -1,0 +1,68 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mshelp.res \
+    $(_OBJ_DIR)\alpha\hback.obj \
+    $(_OBJ_DIR)\alpha\hctl.obj \
+    $(_OBJ_DIR)\alpha\hdata.obj \
+    $(_OBJ_DIR)\alpha\helpcell.obj \
+    $(_OBJ_DIR)\alpha\helpcnt.obj \
+    $(_OBJ_DIR)\alpha\helpdec.obj \
+    $(_OBJ_DIR)\alpha\helpdll.obj \
+    $(_OBJ_DIR)\alpha\helpif.obj \
+    $(_OBJ_DIR)\alpha\hinfo.obj \
+    $(_OBJ_DIR)\alpha\hline.obj \
+    $(_OBJ_DIR)\alpha\hloc.obj \
+    $(_OBJ_DIR)\alpha\help.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mshelp.res \
+    $(_OBJ_DIR)\mips\hback.obj \
+    $(_OBJ_DIR)\mips\hctl.obj \
+    $(_OBJ_DIR)\mips\hdata.obj \
+    $(_OBJ_DIR)\mips\helpcell.obj \
+    $(_OBJ_DIR)\mips\helpcnt.obj \
+    $(_OBJ_DIR)\mips\helpdec.obj \
+    $(_OBJ_DIR)\mips\helpdll.obj \
+    $(_OBJ_DIR)\mips\helpif.obj \
+    $(_OBJ_DIR)\mips\hinfo.obj \
+    $(_OBJ_DIR)\mips\hline.obj \
+    $(_OBJ_DIR)\mips\hloc.obj \
+    $(_OBJ_DIR)\mips\help.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mshelp.res \
+    $(_OBJ_DIR)\i386\hback.obj \
+    $(_OBJ_DIR)\i386\hctl.obj \
+    $(_OBJ_DIR)\i386\hdata.obj \
+    $(_OBJ_DIR)\i386\helpcell.obj \
+    $(_OBJ_DIR)\i386\helpcnt.obj \
+    $(_OBJ_DIR)\i386\helpdec.obj \
+    $(_OBJ_DIR)\i386\helpdll.obj \
+    $(_OBJ_DIR)\i386\helpif.obj \
+    $(_OBJ_DIR)\i386\hinfo.obj \
+    $(_OBJ_DIR)\i386\hline.obj \
+    $(_OBJ_DIR)\i386\hloc.obj \
+    $(_OBJ_DIR)\i386\help.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mshelp.res \
+    $(_OBJ_DIR)\ppc\hback.obj \
+    $(_OBJ_DIR)\ppc\hctl.obj \
+    $(_OBJ_DIR)\ppc\hdata.obj \
+    $(_OBJ_DIR)\ppc\helpcell.obj \
+    $(_OBJ_DIR)\ppc\helpcnt.obj \
+    $(_OBJ_DIR)\ppc\helpdec.obj \
+    $(_OBJ_DIR)\ppc\helpdll.obj \
+    $(_OBJ_DIR)\ppc\helpif.obj \
+    $(_OBJ_DIR)\ppc\hinfo.obj \
+    $(_OBJ_DIR)\ppc\hline.obj \
+    $(_OBJ_DIR)\ppc\hloc.obj \
+    $(_OBJ_DIR)\ppc\help.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\afdkd.res \
+    $(_OBJ_DIR)\alpha\addr.obj \
+    $(_OBJ_DIR)\alpha\afdutil.obj \
+    $(_OBJ_DIR)\alpha\buffer.obj \
+    $(_OBJ_DIR)\alpha\conn.obj \
+    $(_OBJ_DIR)\alpha\dbgutil.obj \
+    $(_OBJ_DIR)\alpha\endp.obj \
+    $(_OBJ_DIR)\alpha\enumendp.obj \
+    $(_OBJ_DIR)\alpha\help.obj \
+    $(_OBJ_DIR)\alpha\kdexts.obj \
+    $(_OBJ_DIR)\alpha\ref.obj \
+    $(_OBJ_DIR)\alpha\stats.obj \
+    $(_OBJ_DIR)\alpha\tdiutil.obj \
+    $(_OBJ_DIR)\alpha\tranfile.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\afdkd.res \
+    $(_OBJ_DIR)\mips\addr.obj \
+    $(_OBJ_DIR)\mips\afdutil.obj \
+    $(_OBJ_DIR)\mips\buffer.obj \
+    $(_OBJ_DIR)\mips\conn.obj \
+    $(_OBJ_DIR)\mips\dbgutil.obj \
+    $(_OBJ_DIR)\mips\endp.obj \
+    $(_OBJ_DIR)\mips\enumendp.obj \
+    $(_OBJ_DIR)\mips\help.obj \
+    $(_OBJ_DIR)\mips\kdexts.obj \
+    $(_OBJ_DIR)\mips\ref.obj \
+    $(_OBJ_DIR)\mips\stats.obj \
+    $(_OBJ_DIR)\mips\tdiutil.obj \
+    $(_OBJ_DIR)\mips\tranfile.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\afdkd.res \
+    $(_OBJ_DIR)\i386\addr.obj \
+    $(_OBJ_DIR)\i386\afdutil.obj \
+    $(_OBJ_DIR)\i386\buffer.obj \
+    $(_OBJ_DIR)\i386\conn.obj \
+    $(_OBJ_DIR)\i386\dbgutil.obj \
+    $(_OBJ_DIR)\i386\endp.obj \
+    $(_OBJ_DIR)\i386\enumendp.obj \
+    $(_OBJ_DIR)\i386\help.obj \
+    $(_OBJ_DIR)\i386\kdexts.obj \
+    $(_OBJ_DIR)\i386\ref.obj \
+    $(_OBJ_DIR)\i386\stats.obj \
+    $(_OBJ_DIR)\i386\tdiutil.obj \
+    $(_OBJ_DIR)\i386\tranfile.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\afdkd.res \
+    $(_OBJ_DIR)\ppc\addr.obj \
+    $(_OBJ_DIR)\ppc\afdutil.obj \
+    $(_OBJ_DIR)\ppc\buffer.obj \
+    $(_OBJ_DIR)\ppc\conn.obj \
+    $(_OBJ_DIR)\ppc\dbgutil.obj \
+    $(_OBJ_DIR)\ppc\endp.obj \
+    $(_OBJ_DIR)\ppc\enumendp.obj \
+    $(_OBJ_DIR)\ppc\help.obj \
+    $(_OBJ_DIR)\ppc\kdexts.obj \
+    $(_OBJ_DIR)\ppc\ref.obj \
+    $(_OBJ_DIR)\ppc\stats.obj \
+    $(_OBJ_DIR)\ppc\tdiutil.obj \
+    $(_OBJ_DIR)\ppc\tranfile.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\access.obj \
+    $(_OBJ_DIR)\alpha\caller.obj \
+    $(_OBJ_DIR)\alpha\crot.obj \
+    $(_OBJ_DIR)\alpha\crothint.obj \
+    $(_OBJ_DIR)\alpha\getif.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\access.obj \
+    $(_OBJ_DIR)\mips\caller.obj \
+    $(_OBJ_DIR)\mips\crot.obj \
+    $(_OBJ_DIR)\mips\crothint.obj \
+    $(_OBJ_DIR)\mips\getif.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\access.obj \
+    $(_OBJ_DIR)\i386\caller.obj \
+    $(_OBJ_DIR)\i386\crot.obj \
+    $(_OBJ_DIR)\i386\crothint.obj \
+    $(_OBJ_DIR)\i386\getif.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\access.obj \
+    $(_OBJ_DIR)\ppc\caller.obj \
+    $(_OBJ_DIR)\ppc\crot.obj \
+    $(_OBJ_DIR)\ppc\crothint.obj \
+    $(_OBJ_DIR)\ppc\getif.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,80 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\spoolss.res \
+    $(_OBJ_DIR)\alpha\splmain.obj \
+    $(_OBJ_DIR)\alpha\splinit.obj \
+    $(_OBJ_DIR)\alpha\splrpc.obj \
+    $(_OBJ_DIR)\alpha\splctrlh.obj \
+    $(_OBJ_DIR)\alpha\splstat.obj \
+    $(_OBJ_DIR)\alpha\spldata.obj \
+    $(_OBJ_DIR)\alpha\data.obj \
+    $(_OBJ_DIR)\alpha\midluser.obj \
+    $(_OBJ_DIR)\alpha\winspl_s.obj \
+    $(_OBJ_DIR)\alpha\change.obj \
+    $(_OBJ_DIR)\alpha\spoolss.obj \
+    $(_OBJ_DIR)\alpha\rpcspool.obj \
+    $(_OBJ_DIR)\alpha\yspool.obj \
+    $(_OBJ_DIR)\alpha\kmspool.obj \
+    $(_OBJ_DIR)\alpha\splkernl.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\spoolss.res \
+    $(_OBJ_DIR)\mips\splmain.obj \
+    $(_OBJ_DIR)\mips\splinit.obj \
+    $(_OBJ_DIR)\mips\splrpc.obj \
+    $(_OBJ_DIR)\mips\splctrlh.obj \
+    $(_OBJ_DIR)\mips\splstat.obj \
+    $(_OBJ_DIR)\mips\spldata.obj \
+    $(_OBJ_DIR)\mips\data.obj \
+    $(_OBJ_DIR)\mips\midluser.obj \
+    $(_OBJ_DIR)\mips\winspl_s.obj \
+    $(_OBJ_DIR)\mips\change.obj \
+    $(_OBJ_DIR)\mips\spoolss.obj \
+    $(_OBJ_DIR)\mips\rpcspool.obj \
+    $(_OBJ_DIR)\mips\yspool.obj \
+    $(_OBJ_DIR)\mips\kmspool.obj \
+    $(_OBJ_DIR)\mips\splkernl.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\spoolss.res \
+    $(_OBJ_DIR)\i386\splmain.obj \
+    $(_OBJ_DIR)\i386\splinit.obj \
+    $(_OBJ_DIR)\i386\splrpc.obj \
+    $(_OBJ_DIR)\i386\splctrlh.obj \
+    $(_OBJ_DIR)\i386\splstat.obj \
+    $(_OBJ_DIR)\i386\spldata.obj \
+    $(_OBJ_DIR)\i386\data.obj \
+    $(_OBJ_DIR)\i386\midluser.obj \
+    $(_OBJ_DIR)\i386\winspl_s.obj \
+    $(_OBJ_DIR)\i386\change.obj \
+    $(_OBJ_DIR)\i386\spoolss.obj \
+    $(_OBJ_DIR)\i386\rpcspool.obj \
+    $(_OBJ_DIR)\i386\yspool.obj \
+    $(_OBJ_DIR)\i386\kmspool.obj \
+    $(_OBJ_DIR)\i386\splkernl.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\spoolss.res \
+    $(_OBJ_DIR)\ppc\splmain.obj \
+    $(_OBJ_DIR)\ppc\splinit.obj \
+    $(_OBJ_DIR)\ppc\splrpc.obj \
+    $(_OBJ_DIR)\ppc\splctrlh.obj \
+    $(_OBJ_DIR)\ppc\splstat.obj \
+    $(_OBJ_DIR)\ppc\spldata.obj \
+    $(_OBJ_DIR)\ppc\data.obj \
+    $(_OBJ_DIR)\ppc\midluser.obj \
+    $(_OBJ_DIR)\ppc\winspl_s.obj \
+    $(_OBJ_DIR)\ppc\change.obj \
+    $(_OBJ_DIR)\ppc\spoolss.obj \
+    $(_OBJ_DIR)\ppc\rpcspool.obj \
+    $(_OBJ_DIR)\ppc\yspool.obj \
+    $(_OBJ_DIR)\ppc\kmspool.obj \
+    $(_OBJ_DIR)\ppc\splkernl.obj
+
+PASS0_PPC_OBJECTS=
+

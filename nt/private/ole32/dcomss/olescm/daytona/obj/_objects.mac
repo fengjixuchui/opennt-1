@@ -1,0 +1,116 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\irot_s.obj \
+    $(_OBJ_DIR)\alpha\scm_s.obj \
+    $(_OBJ_DIR)\alpha\scm_z.obj \
+    $(_OBJ_DIR)\alpha\dscm_s.obj \
+    $(_OBJ_DIR)\alpha\objsrv_c.obj \
+    $(_OBJ_DIR)\alpha\array_fv.obj \
+    $(_OBJ_DIR)\alpha\clckpath.obj \
+    $(_OBJ_DIR)\alpha\cls.obj \
+    $(_OBJ_DIR)\alpha\clsdata.obj \
+    $(_OBJ_DIR)\alpha\dbgprt.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\port.obj \
+    $(_OBJ_DIR)\alpha\rpcalloc.obj \
+    $(_OBJ_DIR)\alpha\rotif.obj \
+    $(_OBJ_DIR)\alpha\scmhash.obj \
+    $(_OBJ_DIR)\alpha\scmrot.obj \
+    $(_OBJ_DIR)\alpha\scmsvc.obj \
+    $(_OBJ_DIR)\alpha\srothint.obj \
+    $(_OBJ_DIR)\alpha\srvreg.obj \
+    $(_OBJ_DIR)\alpha\scmif.obj \
+    $(_OBJ_DIR)\alpha\dscmif.obj \
+    $(_OBJ_DIR)\alpha\remactif.obj \
+    $(_OBJ_DIR)\alpha\net.obj \
+    $(_OBJ_DIR)\alpha\remact.obj \
+    $(_OBJ_DIR)\alpha\dfsext.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\irot_s.obj \
+    $(_OBJ_DIR)\mips\scm_s.obj \
+    $(_OBJ_DIR)\mips\scm_z.obj \
+    $(_OBJ_DIR)\mips\dscm_s.obj \
+    $(_OBJ_DIR)\mips\objsrv_c.obj \
+    $(_OBJ_DIR)\mips\array_fv.obj \
+    $(_OBJ_DIR)\mips\clckpath.obj \
+    $(_OBJ_DIR)\mips\cls.obj \
+    $(_OBJ_DIR)\mips\clsdata.obj \
+    $(_OBJ_DIR)\mips\dbgprt.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\port.obj \
+    $(_OBJ_DIR)\mips\rpcalloc.obj \
+    $(_OBJ_DIR)\mips\rotif.obj \
+    $(_OBJ_DIR)\mips\scmhash.obj \
+    $(_OBJ_DIR)\mips\scmrot.obj \
+    $(_OBJ_DIR)\mips\scmsvc.obj \
+    $(_OBJ_DIR)\mips\srothint.obj \
+    $(_OBJ_DIR)\mips\srvreg.obj \
+    $(_OBJ_DIR)\mips\scmif.obj \
+    $(_OBJ_DIR)\mips\dscmif.obj \
+    $(_OBJ_DIR)\mips\remactif.obj \
+    $(_OBJ_DIR)\mips\net.obj \
+    $(_OBJ_DIR)\mips\remact.obj \
+    $(_OBJ_DIR)\mips\dfsext.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\irot_s.obj \
+    $(_OBJ_DIR)\i386\scm_s.obj \
+    $(_OBJ_DIR)\i386\scm_z.obj \
+    $(_OBJ_DIR)\i386\dscm_s.obj \
+    $(_OBJ_DIR)\i386\objsrv_c.obj \
+    $(_OBJ_DIR)\i386\array_fv.obj \
+    $(_OBJ_DIR)\i386\clckpath.obj \
+    $(_OBJ_DIR)\i386\cls.obj \
+    $(_OBJ_DIR)\i386\clsdata.obj \
+    $(_OBJ_DIR)\i386\dbgprt.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\port.obj \
+    $(_OBJ_DIR)\i386\rpcalloc.obj \
+    $(_OBJ_DIR)\i386\rotif.obj \
+    $(_OBJ_DIR)\i386\scmhash.obj \
+    $(_OBJ_DIR)\i386\scmrot.obj \
+    $(_OBJ_DIR)\i386\scmsvc.obj \
+    $(_OBJ_DIR)\i386\srothint.obj \
+    $(_OBJ_DIR)\i386\srvreg.obj \
+    $(_OBJ_DIR)\i386\scmif.obj \
+    $(_OBJ_DIR)\i386\dscmif.obj \
+    $(_OBJ_DIR)\i386\remactif.obj \
+    $(_OBJ_DIR)\i386\net.obj \
+    $(_OBJ_DIR)\i386\remact.obj \
+    $(_OBJ_DIR)\i386\dfsext.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\irot_s.obj \
+    $(_OBJ_DIR)\ppc\scm_s.obj \
+    $(_OBJ_DIR)\ppc\scm_z.obj \
+    $(_OBJ_DIR)\ppc\dscm_s.obj \
+    $(_OBJ_DIR)\ppc\objsrv_c.obj \
+    $(_OBJ_DIR)\ppc\array_fv.obj \
+    $(_OBJ_DIR)\ppc\clckpath.obj \
+    $(_OBJ_DIR)\ppc\cls.obj \
+    $(_OBJ_DIR)\ppc\clsdata.obj \
+    $(_OBJ_DIR)\ppc\dbgprt.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\port.obj \
+    $(_OBJ_DIR)\ppc\rpcalloc.obj \
+    $(_OBJ_DIR)\ppc\rotif.obj \
+    $(_OBJ_DIR)\ppc\scmhash.obj \
+    $(_OBJ_DIR)\ppc\scmrot.obj \
+    $(_OBJ_DIR)\ppc\scmsvc.obj \
+    $(_OBJ_DIR)\ppc\srothint.obj \
+    $(_OBJ_DIR)\ppc\srvreg.obj \
+    $(_OBJ_DIR)\ppc\scmif.obj \
+    $(_OBJ_DIR)\ppc\dscmif.obj \
+    $(_OBJ_DIR)\ppc\remactif.obj \
+    $(_OBJ_DIR)\ppc\net.obj \
+    $(_OBJ_DIR)\ppc\remact.obj \
+    $(_OBJ_DIR)\ppc\dfsext.obj
+
+PASS0_PPC_OBJECTS=
+

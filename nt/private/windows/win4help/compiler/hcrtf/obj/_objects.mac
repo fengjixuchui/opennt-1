@@ -1,0 +1,200 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\hcrtf.res \
+    $(_OBJ_DIR)\alpha\btkey.obj \
+    $(_OBJ_DIR)\alpha\btlookup.obj \
+    $(_OBJ_DIR)\alpha\btree.obj \
+    $(_OBJ_DIR)\alpha\cbm.obj \
+    $(_OBJ_DIR)\alpha\cbmpinfo.obj \
+    $(_OBJ_DIR)\alpha\cbuf.obj \
+    $(_OBJ_DIR)\alpha\cfontmap.obj \
+    $(_OBJ_DIR)\alpha\charattr.obj \
+    $(_OBJ_DIR)\alpha\chkmacro.obj \
+    $(_OBJ_DIR)\alpha\cjdecomp.obj \
+    $(_OBJ_DIR)\alpha\cnttest.obj \
+    $(_OBJ_DIR)\alpha\cphrase.obj \
+    $(_OBJ_DIR)\alpha\cstream.obj \
+    $(_OBJ_DIR)\alpha\ctx.obj \
+    $(_OBJ_DIR)\alpha\cwinfile.obj \
+    $(_OBJ_DIR)\alpha\decomp.obj \
+    $(_OBJ_DIR)\alpha\delay.obj \
+    $(_OBJ_DIR)\alpha\drg.obj \
+    $(_OBJ_DIR)\alpha\error.obj \
+    $(_OBJ_DIR)\alpha\expand.obj \
+    $(_OBJ_DIR)\alpha\fm.obj \
+    $(_OBJ_DIR)\alpha\forage.obj \
+    $(_OBJ_DIR)\alpha\fragesup.obj \
+    $(_OBJ_DIR)\alpha\fscreate.obj \
+    $(_OBJ_DIR)\alpha\fsread.obj \
+    $(_OBJ_DIR)\alpha\fswrite.obj \
+    $(_OBJ_DIR)\alpha\global.obj \
+    $(_OBJ_DIR)\alpha\grind.obj \
+    $(_OBJ_DIR)\alpha\hccomprs.obj \
+    $(_OBJ_DIR)\alpha\hcfile.obj \
+    $(_OBJ_DIR)\alpha\hcmisc.obj \
+    $(_OBJ_DIR)\alpha\hotspot.obj \
+    $(_OBJ_DIR)\alpha\hpj.obj \
+    $(_OBJ_DIR)\alpha\image.obj \
+    $(_OBJ_DIR)\alpha\keyword.obj \
+    $(_OBJ_DIR)\alpha\lex.obj \
+    $(_OBJ_DIR)\alpha\makephr.obj \
+    $(_OBJ_DIR)\alpha\nextlist.obj \
+    $(_OBJ_DIR)\alpha\outtext.obj \
+    $(_OBJ_DIR)\alpha\parsebld.obj \
+    $(_OBJ_DIR)\alpha\shared.obj \
+    $(_OBJ_DIR)\alpha\table.obj \
+    $(_OBJ_DIR)\alpha\title.obj \
+    $(_OBJ_DIR)\alpha\wmain.obj \
+    $(_OBJ_DIR)\alpha\zeck2.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\hcrtf.res \
+    $(_OBJ_DIR)\mips\btkey.obj \
+    $(_OBJ_DIR)\mips\btlookup.obj \
+    $(_OBJ_DIR)\mips\btree.obj \
+    $(_OBJ_DIR)\mips\cbm.obj \
+    $(_OBJ_DIR)\mips\cbmpinfo.obj \
+    $(_OBJ_DIR)\mips\cbuf.obj \
+    $(_OBJ_DIR)\mips\cfontmap.obj \
+    $(_OBJ_DIR)\mips\charattr.obj \
+    $(_OBJ_DIR)\mips\chkmacro.obj \
+    $(_OBJ_DIR)\mips\cjdecomp.obj \
+    $(_OBJ_DIR)\mips\cnttest.obj \
+    $(_OBJ_DIR)\mips\cphrase.obj \
+    $(_OBJ_DIR)\mips\cstream.obj \
+    $(_OBJ_DIR)\mips\ctx.obj \
+    $(_OBJ_DIR)\mips\cwinfile.obj \
+    $(_OBJ_DIR)\mips\decomp.obj \
+    $(_OBJ_DIR)\mips\delay.obj \
+    $(_OBJ_DIR)\mips\drg.obj \
+    $(_OBJ_DIR)\mips\error.obj \
+    $(_OBJ_DIR)\mips\expand.obj \
+    $(_OBJ_DIR)\mips\fm.obj \
+    $(_OBJ_DIR)\mips\forage.obj \
+    $(_OBJ_DIR)\mips\fragesup.obj \
+    $(_OBJ_DIR)\mips\fscreate.obj \
+    $(_OBJ_DIR)\mips\fsread.obj \
+    $(_OBJ_DIR)\mips\fswrite.obj \
+    $(_OBJ_DIR)\mips\global.obj \
+    $(_OBJ_DIR)\mips\grind.obj \
+    $(_OBJ_DIR)\mips\hccomprs.obj \
+    $(_OBJ_DIR)\mips\hcfile.obj \
+    $(_OBJ_DIR)\mips\hcmisc.obj \
+    $(_OBJ_DIR)\mips\hotspot.obj \
+    $(_OBJ_DIR)\mips\hpj.obj \
+    $(_OBJ_DIR)\mips\image.obj \
+    $(_OBJ_DIR)\mips\keyword.obj \
+    $(_OBJ_DIR)\mips\lex.obj \
+    $(_OBJ_DIR)\mips\makephr.obj \
+    $(_OBJ_DIR)\mips\nextlist.obj \
+    $(_OBJ_DIR)\mips\outtext.obj \
+    $(_OBJ_DIR)\mips\parsebld.obj \
+    $(_OBJ_DIR)\mips\shared.obj \
+    $(_OBJ_DIR)\mips\table.obj \
+    $(_OBJ_DIR)\mips\title.obj \
+    $(_OBJ_DIR)\mips\wmain.obj \
+    $(_OBJ_DIR)\mips\zeck2.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\hcrtf.res \
+    $(_OBJ_DIR)\i386\btkey.obj \
+    $(_OBJ_DIR)\i386\btlookup.obj \
+    $(_OBJ_DIR)\i386\btree.obj \
+    $(_OBJ_DIR)\i386\cbm.obj \
+    $(_OBJ_DIR)\i386\cbmpinfo.obj \
+    $(_OBJ_DIR)\i386\cbuf.obj \
+    $(_OBJ_DIR)\i386\cfontmap.obj \
+    $(_OBJ_DIR)\i386\charattr.obj \
+    $(_OBJ_DIR)\i386\chkmacro.obj \
+    $(_OBJ_DIR)\i386\cjdecomp.obj \
+    $(_OBJ_DIR)\i386\cnttest.obj \
+    $(_OBJ_DIR)\i386\cphrase.obj \
+    $(_OBJ_DIR)\i386\cstream.obj \
+    $(_OBJ_DIR)\i386\ctx.obj \
+    $(_OBJ_DIR)\i386\cwinfile.obj \
+    $(_OBJ_DIR)\i386\decomp.obj \
+    $(_OBJ_DIR)\i386\delay.obj \
+    $(_OBJ_DIR)\i386\drg.obj \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\expand.obj \
+    $(_OBJ_DIR)\i386\fm.obj \
+    $(_OBJ_DIR)\i386\forage.obj \
+    $(_OBJ_DIR)\i386\fragesup.obj \
+    $(_OBJ_DIR)\i386\fscreate.obj \
+    $(_OBJ_DIR)\i386\fsread.obj \
+    $(_OBJ_DIR)\i386\fswrite.obj \
+    $(_OBJ_DIR)\i386\global.obj \
+    $(_OBJ_DIR)\i386\grind.obj \
+    $(_OBJ_DIR)\i386\hccomprs.obj \
+    $(_OBJ_DIR)\i386\hcfile.obj \
+    $(_OBJ_DIR)\i386\hcmisc.obj \
+    $(_OBJ_DIR)\i386\hotspot.obj \
+    $(_OBJ_DIR)\i386\hpj.obj \
+    $(_OBJ_DIR)\i386\image.obj \
+    $(_OBJ_DIR)\i386\keyword.obj \
+    $(_OBJ_DIR)\i386\lex.obj \
+    $(_OBJ_DIR)\i386\makephr.obj \
+    $(_OBJ_DIR)\i386\nextlist.obj \
+    $(_OBJ_DIR)\i386\outtext.obj \
+    $(_OBJ_DIR)\i386\parsebld.obj \
+    $(_OBJ_DIR)\i386\shared.obj \
+    $(_OBJ_DIR)\i386\table.obj \
+    $(_OBJ_DIR)\i386\title.obj \
+    $(_OBJ_DIR)\i386\wmain.obj \
+    $(_OBJ_DIR)\i386\zeck2.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\hcrtf.res \
+    $(_OBJ_DIR)\ppc\btkey.obj \
+    $(_OBJ_DIR)\ppc\btlookup.obj \
+    $(_OBJ_DIR)\ppc\btree.obj \
+    $(_OBJ_DIR)\ppc\cbm.obj \
+    $(_OBJ_DIR)\ppc\cbmpinfo.obj \
+    $(_OBJ_DIR)\ppc\cbuf.obj \
+    $(_OBJ_DIR)\ppc\cfontmap.obj \
+    $(_OBJ_DIR)\ppc\charattr.obj \
+    $(_OBJ_DIR)\ppc\chkmacro.obj \
+    $(_OBJ_DIR)\ppc\cjdecomp.obj \
+    $(_OBJ_DIR)\ppc\cnttest.obj \
+    $(_OBJ_DIR)\ppc\cphrase.obj \
+    $(_OBJ_DIR)\ppc\cstream.obj \
+    $(_OBJ_DIR)\ppc\ctx.obj \
+    $(_OBJ_DIR)\ppc\cwinfile.obj \
+    $(_OBJ_DIR)\ppc\decomp.obj \
+    $(_OBJ_DIR)\ppc\delay.obj \
+    $(_OBJ_DIR)\ppc\drg.obj \
+    $(_OBJ_DIR)\ppc\error.obj \
+    $(_OBJ_DIR)\ppc\expand.obj \
+    $(_OBJ_DIR)\ppc\fm.obj \
+    $(_OBJ_DIR)\ppc\forage.obj \
+    $(_OBJ_DIR)\ppc\fragesup.obj \
+    $(_OBJ_DIR)\ppc\fscreate.obj \
+    $(_OBJ_DIR)\ppc\fsread.obj \
+    $(_OBJ_DIR)\ppc\fswrite.obj \
+    $(_OBJ_DIR)\ppc\global.obj \
+    $(_OBJ_DIR)\ppc\grind.obj \
+    $(_OBJ_DIR)\ppc\hccomprs.obj \
+    $(_OBJ_DIR)\ppc\hcfile.obj \
+    $(_OBJ_DIR)\ppc\hcmisc.obj \
+    $(_OBJ_DIR)\ppc\hotspot.obj \
+    $(_OBJ_DIR)\ppc\hpj.obj \
+    $(_OBJ_DIR)\ppc\image.obj \
+    $(_OBJ_DIR)\ppc\keyword.obj \
+    $(_OBJ_DIR)\ppc\lex.obj \
+    $(_OBJ_DIR)\ppc\makephr.obj \
+    $(_OBJ_DIR)\ppc\nextlist.obj \
+    $(_OBJ_DIR)\ppc\outtext.obj \
+    $(_OBJ_DIR)\ppc\parsebld.obj \
+    $(_OBJ_DIR)\ppc\shared.obj \
+    $(_OBJ_DIR)\ppc\table.obj \
+    $(_OBJ_DIR)\ppc\title.obj \
+    $(_OBJ_DIR)\ppc\wmain.obj \
+    $(_OBJ_DIR)\ppc\zeck2.obj
+
+PASS0_PPC_OBJECTS=
+

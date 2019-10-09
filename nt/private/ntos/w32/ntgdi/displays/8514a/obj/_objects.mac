@@ -1,0 +1,38 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\fastfill.obj \
+    $(_OBJ_DIR)\i386\fastline.obj \
+    $(_OBJ_DIR)\i386\fasttext.obj \
+    $(_OBJ_DIR)\i386\lines.obj \
+    $(_OBJ_DIR)\i386\res.res \
+    $(_OBJ_DIR)\i386\bitblt.obj \
+    $(_OBJ_DIR)\i386\bltio.obj \
+    $(_OBJ_DIR)\i386\brush.obj \
+    $(_OBJ_DIR)\i386\color.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\enable.obj \
+    $(_OBJ_DIR)\i386\fillpath.obj \
+    $(_OBJ_DIR)\i386\heap.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\paint.obj \
+    $(_OBJ_DIR)\i386\palette.obj \
+    $(_OBJ_DIR)\i386\pointer.obj \
+    $(_OBJ_DIR)\i386\stretch.obj \
+    $(_OBJ_DIR)\i386\strips.obj \
+    $(_OBJ_DIR)\i386\stroke.obj \
+    $(_OBJ_DIR)\i386\textout.obj \
+    $(_OBJ_DIR)\i386\thunk.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

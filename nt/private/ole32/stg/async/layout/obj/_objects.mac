@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\layout.res \
+    $(_OBJ_DIR)\alpha\cruntime.obj \
+    $(_OBJ_DIR)\alpha\layapi.obj \
+    $(_OBJ_DIR)\alpha\layout.obj \
+    $(_OBJ_DIR)\alpha\mapfile.obj \
+    $(_OBJ_DIR)\alpha\layouter.obj \
+    $(_OBJ_DIR)\alpha\laylkb.obj \
+    $(_OBJ_DIR)\alpha\laywrap.obj \
+    $(_OBJ_DIR)\alpha\layscrpt.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\layout.res \
+    $(_OBJ_DIR)\mips\cruntime.obj \
+    $(_OBJ_DIR)\mips\layapi.obj \
+    $(_OBJ_DIR)\mips\layout.obj \
+    $(_OBJ_DIR)\mips\mapfile.obj \
+    $(_OBJ_DIR)\mips\layouter.obj \
+    $(_OBJ_DIR)\mips\laylkb.obj \
+    $(_OBJ_DIR)\mips\laywrap.obj \
+    $(_OBJ_DIR)\mips\layscrpt.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\layout.res \
+    $(_OBJ_DIR)\i386\cruntime.obj \
+    $(_OBJ_DIR)\i386\layapi.obj \
+    $(_OBJ_DIR)\i386\layout.obj \
+    $(_OBJ_DIR)\i386\mapfile.obj \
+    $(_OBJ_DIR)\i386\layouter.obj \
+    $(_OBJ_DIR)\i386\laylkb.obj \
+    $(_OBJ_DIR)\i386\laywrap.obj \
+    $(_OBJ_DIR)\i386\layscrpt.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\layout.res \
+    $(_OBJ_DIR)\ppc\cruntime.obj \
+    $(_OBJ_DIR)\ppc\layapi.obj \
+    $(_OBJ_DIR)\ppc\layout.obj \
+    $(_OBJ_DIR)\ppc\mapfile.obj \
+    $(_OBJ_DIR)\ppc\layouter.obj \
+    $(_OBJ_DIR)\ppc\laylkb.obj \
+    $(_OBJ_DIR)\ppc\laywrap.obj \
+    $(_OBJ_DIR)\ppc\layscrpt.obj
+
+PASS0_PPC_OBJECTS=
+

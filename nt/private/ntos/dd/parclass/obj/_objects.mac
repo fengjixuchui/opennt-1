@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\parclass.res \
+    $(_OBJ_DIR)\alpha\parclass.obj \
+    $(_OBJ_DIR)\alpha\parloop.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\parclass.res \
+    $(_OBJ_DIR)\mips\parclass.obj \
+    $(_OBJ_DIR)\mips\parloop.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\parclass.res \
+    $(_OBJ_DIR)\i386\parloopa.obj \
+    $(_OBJ_DIR)\i386\parclass.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\parclass.res \
+    $(_OBJ_DIR)\ppc\parclass.obj \
+    $(_OBJ_DIR)\ppc\parloop.obj
+
+PASS0_PPC_OBJECTS=
+

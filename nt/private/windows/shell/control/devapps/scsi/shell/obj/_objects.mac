@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\devtree.obj \
+    $(_OBJ_DIR)\alpha\scsi.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\devtree.obj \
+    $(_OBJ_DIR)\mips\scsi.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\devtree.obj \
+    $(_OBJ_DIR)\i386\scsi.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\devtree.obj \
+    $(_OBJ_DIR)\ppc\scsi.obj
+
+PASS0_PPC_OBJECTS=
+

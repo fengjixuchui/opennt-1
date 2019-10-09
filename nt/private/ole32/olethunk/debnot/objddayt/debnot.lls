@@ -1,0 +1,26 @@
+unsigned long __far Win4AssertLevel..assert  unsigned long __far Win4InfoLevel..assert
+unsigned long __far Win4InfoMask..assert  int __far __cdecl _PopUpError(char const __far*,int,char const __far*)..assert
+unsigned long __far __cdecl _SetWin4InfoMask(unsigned long)..assert
+_nullstring.......output            _SetWin4AssertLevel..assert
+_SetWin4InfoLevel..assert           _vdprintf.........assert
+_w4dprintf........dprintf           _w4iooutput.......output
+_w4sprintf........sprintf           _w4vdprintf.......dprintf
+_w4vsprintf.......sprintf           _Win4AssertEx.....assert
+__dflushbuf.......dprintf           __dwritechar......dprintf
+__swritechar......sprintf           
+
+output            Offset: 00000010H  Code and data size: ccdH
+  _nullstring       _w4iooutput     
+
+dprintf           Offset: 000015a0H  Code and data size: 6e9H
+  _w4dprintf        _w4vdprintf       __dflushbuf       __dwritechar
+
+sprintf           Offset: 000020b0H  Code and data size: 5e4H
+  _w4sprintf        _w4vsprintf       __swritechar    
+
+assert            Offset: 000029d0H  Code and data size: 90aH
+  unsigned long __far Win4AssertLevel                   unsigned long __far Win4InfoLevel
+  unsigned long __far Win4InfoMask    int __far __cdecl _PopUpError(char const __far*,int,char const __far*)
+  unsigned long __far __cdecl _SetWin4InfoMask(unsigned long)
+  _SetWin4AssertLevel                 _SetWin4InfoLevel
+  _vdprintf         _Win4AssertEx   

@@ -1,0 +1,112 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cabinet.res \
+    $(_OBJ_DIR)\alpha\cabwnd.obj \
+    $(_OBJ_DIR)\alpha\cfgstart.obj \
+    $(_OBJ_DIR)\alpha\command.obj \
+    $(_OBJ_DIR)\alpha\cstrings.obj \
+    $(_OBJ_DIR)\alpha\dde.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\desktop.obj \
+    $(_OBJ_DIR)\alpha\drivlist.obj \
+    $(_OBJ_DIR)\alpha\fcext.obj \
+    $(_OBJ_DIR)\alpha\initcab.obj \
+    $(_OBJ_DIR)\alpha\mainloop.obj \
+    $(_OBJ_DIR)\alpha\message.obj \
+    $(_OBJ_DIR)\alpha\onetree.obj \
+    $(_OBJ_DIR)\alpha\sfcache.obj \
+    $(_OBJ_DIR)\alpha\task.obj \
+    $(_OBJ_DIR)\alpha\tray.obj \
+    $(_OBJ_DIR)\alpha\trayclok.obj \
+    $(_OBJ_DIR)\alpha\traynot.obj \
+    $(_OBJ_DIR)\alpha\tree.obj \
+    $(_OBJ_DIR)\alpha\treedrop.obj \
+    $(_OBJ_DIR)\alpha\fldrlist.obj \
+    $(_OBJ_DIR)\alpha\nothunk.obj \
+    $(_OBJ_DIR)\alpha\recent.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\cabinet.res \
+    $(_OBJ_DIR)\mips\cabwnd.obj \
+    $(_OBJ_DIR)\mips\cfgstart.obj \
+    $(_OBJ_DIR)\mips\command.obj \
+    $(_OBJ_DIR)\mips\cstrings.obj \
+    $(_OBJ_DIR)\mips\dde.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\desktop.obj \
+    $(_OBJ_DIR)\mips\drivlist.obj \
+    $(_OBJ_DIR)\mips\fcext.obj \
+    $(_OBJ_DIR)\mips\initcab.obj \
+    $(_OBJ_DIR)\mips\mainloop.obj \
+    $(_OBJ_DIR)\mips\message.obj \
+    $(_OBJ_DIR)\mips\onetree.obj \
+    $(_OBJ_DIR)\mips\sfcache.obj \
+    $(_OBJ_DIR)\mips\task.obj \
+    $(_OBJ_DIR)\mips\tray.obj \
+    $(_OBJ_DIR)\mips\trayclok.obj \
+    $(_OBJ_DIR)\mips\traynot.obj \
+    $(_OBJ_DIR)\mips\tree.obj \
+    $(_OBJ_DIR)\mips\treedrop.obj \
+    $(_OBJ_DIR)\mips\fldrlist.obj \
+    $(_OBJ_DIR)\mips\nothunk.obj \
+    $(_OBJ_DIR)\mips\recent.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cabinet.res \
+    $(_OBJ_DIR)\i386\cabwnd.obj \
+    $(_OBJ_DIR)\i386\cfgstart.obj \
+    $(_OBJ_DIR)\i386\command.obj \
+    $(_OBJ_DIR)\i386\cstrings.obj \
+    $(_OBJ_DIR)\i386\dde.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\desktop.obj \
+    $(_OBJ_DIR)\i386\drivlist.obj \
+    $(_OBJ_DIR)\i386\fcext.obj \
+    $(_OBJ_DIR)\i386\initcab.obj \
+    $(_OBJ_DIR)\i386\mainloop.obj \
+    $(_OBJ_DIR)\i386\message.obj \
+    $(_OBJ_DIR)\i386\onetree.obj \
+    $(_OBJ_DIR)\i386\sfcache.obj \
+    $(_OBJ_DIR)\i386\task.obj \
+    $(_OBJ_DIR)\i386\tray.obj \
+    $(_OBJ_DIR)\i386\trayclok.obj \
+    $(_OBJ_DIR)\i386\traynot.obj \
+    $(_OBJ_DIR)\i386\tree.obj \
+    $(_OBJ_DIR)\i386\treedrop.obj \
+    $(_OBJ_DIR)\i386\fldrlist.obj \
+    $(_OBJ_DIR)\i386\nothunk.obj \
+    $(_OBJ_DIR)\i386\recent.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\cabinet.res \
+    $(_OBJ_DIR)\ppc\cabwnd.obj \
+    $(_OBJ_DIR)\ppc\cfgstart.obj \
+    $(_OBJ_DIR)\ppc\command.obj \
+    $(_OBJ_DIR)\ppc\cstrings.obj \
+    $(_OBJ_DIR)\ppc\dde.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\desktop.obj \
+    $(_OBJ_DIR)\ppc\drivlist.obj \
+    $(_OBJ_DIR)\ppc\fcext.obj \
+    $(_OBJ_DIR)\ppc\initcab.obj \
+    $(_OBJ_DIR)\ppc\mainloop.obj \
+    $(_OBJ_DIR)\ppc\message.obj \
+    $(_OBJ_DIR)\ppc\onetree.obj \
+    $(_OBJ_DIR)\ppc\sfcache.obj \
+    $(_OBJ_DIR)\ppc\task.obj \
+    $(_OBJ_DIR)\ppc\tray.obj \
+    $(_OBJ_DIR)\ppc\trayclok.obj \
+    $(_OBJ_DIR)\ppc\traynot.obj \
+    $(_OBJ_DIR)\ppc\tree.obj \
+    $(_OBJ_DIR)\ppc\treedrop.obj \
+    $(_OBJ_DIR)\ppc\fldrlist.obj \
+    $(_OBJ_DIR)\ppc\nothunk.obj \
+    $(_OBJ_DIR)\ppc\recent.obj
+
+PASS0_PPC_OBJECTS=
+

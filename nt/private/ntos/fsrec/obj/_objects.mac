@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\fs_rec.res \
+    $(_OBJ_DIR)\alpha\fs_rec.obj \
+    $(_OBJ_DIR)\alpha\cdfs_rec.obj \
+    $(_OBJ_DIR)\alpha\fat_rec.obj \
+    $(_OBJ_DIR)\alpha\ntfs_rec.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\fs_rec.res \
+    $(_OBJ_DIR)\mips\fs_rec.obj \
+    $(_OBJ_DIR)\mips\cdfs_rec.obj \
+    $(_OBJ_DIR)\mips\fat_rec.obj \
+    $(_OBJ_DIR)\mips\ntfs_rec.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\fs_rec.res \
+    $(_OBJ_DIR)\i386\fs_rec.obj \
+    $(_OBJ_DIR)\i386\cdfs_rec.obj \
+    $(_OBJ_DIR)\i386\fat_rec.obj \
+    $(_OBJ_DIR)\i386\ntfs_rec.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\fs_rec.res \
+    $(_OBJ_DIR)\ppc\fs_rec.obj \
+    $(_OBJ_DIR)\ppc\cdfs_rec.obj \
+    $(_OBJ_DIR)\ppc\fat_rec.obj \
+    $(_OBJ_DIR)\ppc\ntfs_rec.obj
+
+PASS0_PPC_OBJECTS=
+

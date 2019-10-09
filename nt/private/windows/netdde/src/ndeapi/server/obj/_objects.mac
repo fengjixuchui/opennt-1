@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\nddeapir.res \
+    $(_OBJ_DIR)\alpha\ndeapi_s.obj \
+    $(_OBJ_DIR)\alpha\nddeapis.obj \
+    $(_OBJ_DIR)\alpha\nddeapiu.obj \
+    $(_OBJ_DIR)\alpha\nddeapip.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\nddeapir.res \
+    $(_OBJ_DIR)\mips\ndeapi_s.obj \
+    $(_OBJ_DIR)\mips\nddeapis.obj \
+    $(_OBJ_DIR)\mips\nddeapiu.obj \
+    $(_OBJ_DIR)\mips\nddeapip.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\nddeapir.res \
+    $(_OBJ_DIR)\i386\ndeapi_s.obj \
+    $(_OBJ_DIR)\i386\nddeapis.obj \
+    $(_OBJ_DIR)\i386\nddeapiu.obj \
+    $(_OBJ_DIR)\i386\nddeapip.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\nddeapir.res \
+    $(_OBJ_DIR)\ppc\ndeapi_s.obj \
+    $(_OBJ_DIR)\ppc\nddeapis.obj \
+    $(_OBJ_DIR)\ppc\nddeapiu.obj \
+    $(_OBJ_DIR)\ppc\nddeapip.obj
+
+PASS0_PPC_OBJECTS=
+

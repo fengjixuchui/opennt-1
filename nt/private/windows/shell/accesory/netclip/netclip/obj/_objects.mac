@@ -1,0 +1,60 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\netclip.res \
+    $(_OBJ_DIR)\alpha\cntritem.obj \
+    $(_OBJ_DIR)\alpha\netclip.obj \
+    $(_OBJ_DIR)\alpha\dataobj.obj \
+    $(_OBJ_DIR)\alpha\doc.obj \
+    $(_OBJ_DIR)\alpha\mainfrm.obj \
+    $(_OBJ_DIR)\alpha\server.obj \
+    $(_OBJ_DIR)\alpha\svrdlg.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\view.obj \
+    $(_OBJ_DIR)\alpha\guids.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\netclip.res \
+    $(_OBJ_DIR)\mips\cntritem.obj \
+    $(_OBJ_DIR)\mips\netclip.obj \
+    $(_OBJ_DIR)\mips\dataobj.obj \
+    $(_OBJ_DIR)\mips\doc.obj \
+    $(_OBJ_DIR)\mips\mainfrm.obj \
+    $(_OBJ_DIR)\mips\server.obj \
+    $(_OBJ_DIR)\mips\svrdlg.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\view.obj \
+    $(_OBJ_DIR)\mips\guids.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\netclip.res \
+    $(_OBJ_DIR)\i386\cntritem.obj \
+    $(_OBJ_DIR)\i386\netclip.obj \
+    $(_OBJ_DIR)\i386\dataobj.obj \
+    $(_OBJ_DIR)\i386\doc.obj \
+    $(_OBJ_DIR)\i386\mainfrm.obj \
+    $(_OBJ_DIR)\i386\server.obj \
+    $(_OBJ_DIR)\i386\svrdlg.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\view.obj \
+    $(_OBJ_DIR)\i386\guids.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\netclip.res \
+    $(_OBJ_DIR)\ppc\cntritem.obj \
+    $(_OBJ_DIR)\ppc\netclip.obj \
+    $(_OBJ_DIR)\ppc\dataobj.obj \
+    $(_OBJ_DIR)\ppc\doc.obj \
+    $(_OBJ_DIR)\ppc\mainfrm.obj \
+    $(_OBJ_DIR)\ppc\server.obj \
+    $(_OBJ_DIR)\ppc\svrdlg.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\view.obj \
+    $(_OBJ_DIR)\ppc\guids.obj
+
+PASS0_PPC_OBJECTS=
+

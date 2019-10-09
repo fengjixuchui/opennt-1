@@ -1,0 +1,104 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\pscript.res \
+    $(_OBJ_DIR)\alpha\enable.obj \
+    $(_OBJ_DIR)\alpha\output.obj \
+    $(_OBJ_DIR)\alpha\brush.obj \
+    $(_OBJ_DIR)\alpha\bitblt.obj \
+    $(_OBJ_DIR)\alpha\pslayer.obj \
+    $(_OBJ_DIR)\alpha\escape.obj \
+    $(_OBJ_DIR)\alpha\textout.obj \
+    $(_OBJ_DIR)\alpha\quryfont.obj \
+    $(_OBJ_DIR)\alpha\fonttree.obj \
+    $(_OBJ_DIR)\alpha\fontdata.obj \
+    $(_OBJ_DIR)\alpha\page.obj \
+    $(_OBJ_DIR)\alpha\paths.obj \
+    $(_OBJ_DIR)\alpha\patfill.obj \
+    $(_OBJ_DIR)\alpha\fntmanag.obj \
+    $(_OBJ_DIR)\alpha\type1.obj \
+    $(_OBJ_DIR)\alpha\filter.obj \
+    $(_OBJ_DIR)\alpha\ropdsa.obj \
+    $(_OBJ_DIR)\alpha\header.obj \
+    $(_OBJ_DIR)\alpha\softfont.obj \
+    $(_OBJ_DIR)\alpha\utils.obj \
+    $(_OBJ_DIR)\alpha\dsc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\pscript.res \
+    $(_OBJ_DIR)\mips\enable.obj \
+    $(_OBJ_DIR)\mips\output.obj \
+    $(_OBJ_DIR)\mips\brush.obj \
+    $(_OBJ_DIR)\mips\bitblt.obj \
+    $(_OBJ_DIR)\mips\pslayer.obj \
+    $(_OBJ_DIR)\mips\escape.obj \
+    $(_OBJ_DIR)\mips\textout.obj \
+    $(_OBJ_DIR)\mips\quryfont.obj \
+    $(_OBJ_DIR)\mips\fonttree.obj \
+    $(_OBJ_DIR)\mips\fontdata.obj \
+    $(_OBJ_DIR)\mips\page.obj \
+    $(_OBJ_DIR)\mips\paths.obj \
+    $(_OBJ_DIR)\mips\patfill.obj \
+    $(_OBJ_DIR)\mips\fntmanag.obj \
+    $(_OBJ_DIR)\mips\type1.obj \
+    $(_OBJ_DIR)\mips\filter.obj \
+    $(_OBJ_DIR)\mips\ropdsa.obj \
+    $(_OBJ_DIR)\mips\header.obj \
+    $(_OBJ_DIR)\mips\softfont.obj \
+    $(_OBJ_DIR)\mips\utils.obj \
+    $(_OBJ_DIR)\mips\dsc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\pscript.res \
+    $(_OBJ_DIR)\i386\enable.obj \
+    $(_OBJ_DIR)\i386\output.obj \
+    $(_OBJ_DIR)\i386\brush.obj \
+    $(_OBJ_DIR)\i386\bitblt.obj \
+    $(_OBJ_DIR)\i386\pslayer.obj \
+    $(_OBJ_DIR)\i386\escape.obj \
+    $(_OBJ_DIR)\i386\textout.obj \
+    $(_OBJ_DIR)\i386\quryfont.obj \
+    $(_OBJ_DIR)\i386\fonttree.obj \
+    $(_OBJ_DIR)\i386\fontdata.obj \
+    $(_OBJ_DIR)\i386\page.obj \
+    $(_OBJ_DIR)\i386\paths.obj \
+    $(_OBJ_DIR)\i386\patfill.obj \
+    $(_OBJ_DIR)\i386\fntmanag.obj \
+    $(_OBJ_DIR)\i386\type1.obj \
+    $(_OBJ_DIR)\i386\filter.obj \
+    $(_OBJ_DIR)\i386\ropdsa.obj \
+    $(_OBJ_DIR)\i386\header.obj \
+    $(_OBJ_DIR)\i386\softfont.obj \
+    $(_OBJ_DIR)\i386\utils.obj \
+    $(_OBJ_DIR)\i386\dsc.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\pscript.res \
+    $(_OBJ_DIR)\ppc\enable.obj \
+    $(_OBJ_DIR)\ppc\output.obj \
+    $(_OBJ_DIR)\ppc\brush.obj \
+    $(_OBJ_DIR)\ppc\bitblt.obj \
+    $(_OBJ_DIR)\ppc\pslayer.obj \
+    $(_OBJ_DIR)\ppc\escape.obj \
+    $(_OBJ_DIR)\ppc\textout.obj \
+    $(_OBJ_DIR)\ppc\quryfont.obj \
+    $(_OBJ_DIR)\ppc\fonttree.obj \
+    $(_OBJ_DIR)\ppc\fontdata.obj \
+    $(_OBJ_DIR)\ppc\page.obj \
+    $(_OBJ_DIR)\ppc\paths.obj \
+    $(_OBJ_DIR)\ppc\patfill.obj \
+    $(_OBJ_DIR)\ppc\fntmanag.obj \
+    $(_OBJ_DIR)\ppc\type1.obj \
+    $(_OBJ_DIR)\ppc\filter.obj \
+    $(_OBJ_DIR)\ppc\ropdsa.obj \
+    $(_OBJ_DIR)\ppc\header.obj \
+    $(_OBJ_DIR)\ppc\softfont.obj \
+    $(_OBJ_DIR)\ppc\utils.obj \
+    $(_OBJ_DIR)\ppc\dsc.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,111 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\winnt32.res \
+    $(_OBJ_DIR)\alpha\argvw.obj \
+    $(_OBJ_DIR)\alpha\askrebut.obj \
+    $(_OBJ_DIR)\alpha\dnmem.obj \
+    $(_OBJ_DIR)\alpha\dnutil.obj \
+    $(_OBJ_DIR)\alpha\dninf.obj \
+    $(_OBJ_DIR)\alpha\dnfile.obj \
+    $(_OBJ_DIR)\alpha\dnarc.obj \
+    $(_OBJ_DIR)\alpha\dncopy.obj \
+    $(_OBJ_DIR)\alpha\copying.obj \
+    $(_OBJ_DIR)\alpha\copyerr.obj \
+    $(_OBJ_DIR)\alpha\multisrc.obj \
+    $(_OBJ_DIR)\alpha\options.obj \
+    $(_OBJ_DIR)\alpha\loadinf.obj \
+    $(_OBJ_DIR)\alpha\inspect.obj \
+    $(_OBJ_DIR)\alpha\nwsvc.obj \
+    $(_OBJ_DIR)\alpha\string.obj \
+    $(_OBJ_DIR)\alpha\delnode.obj \
+    $(_OBJ_DIR)\alpha\security.obj \
+    $(_OBJ_DIR)\alpha\internal.obj \
+    $(_OBJ_DIR)\alpha\winnt32.obj
+
+PASS0_ALPHA_OBJECTS= \
+    .\msg.h \
+    .\msg.rc
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\winnt32.res \
+    $(_OBJ_DIR)\mips\argvw.obj \
+    $(_OBJ_DIR)\mips\askrebut.obj \
+    $(_OBJ_DIR)\mips\dnmem.obj \
+    $(_OBJ_DIR)\mips\dnutil.obj \
+    $(_OBJ_DIR)\mips\dninf.obj \
+    $(_OBJ_DIR)\mips\dnfile.obj \
+    $(_OBJ_DIR)\mips\dnarc.obj \
+    $(_OBJ_DIR)\mips\dncopy.obj \
+    $(_OBJ_DIR)\mips\copying.obj \
+    $(_OBJ_DIR)\mips\copyerr.obj \
+    $(_OBJ_DIR)\mips\multisrc.obj \
+    $(_OBJ_DIR)\mips\options.obj \
+    $(_OBJ_DIR)\mips\loadinf.obj \
+    $(_OBJ_DIR)\mips\inspect.obj \
+    $(_OBJ_DIR)\mips\nwsvc.obj \
+    $(_OBJ_DIR)\mips\string.obj \
+    $(_OBJ_DIR)\mips\delnode.obj \
+    $(_OBJ_DIR)\mips\security.obj \
+    $(_OBJ_DIR)\mips\internal.obj \
+    $(_OBJ_DIR)\mips\winnt32.obj
+
+PASS0_MIPS_OBJECTS= \
+    .\msg.h \
+    .\msg.rc
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\winnt32.res \
+    $(_OBJ_DIR)\i386\bootini.obj \
+    $(_OBJ_DIR)\i386\dnflop.obj \
+    $(_OBJ_DIR)\i386\syspart.obj \
+    $(_OBJ_DIR)\i386\argvw.obj \
+    $(_OBJ_DIR)\i386\askrebut.obj \
+    $(_OBJ_DIR)\i386\dnmem.obj \
+    $(_OBJ_DIR)\i386\dnutil.obj \
+    $(_OBJ_DIR)\i386\dninf.obj \
+    $(_OBJ_DIR)\i386\dnfile.obj \
+    $(_OBJ_DIR)\i386\dnarc.obj \
+    $(_OBJ_DIR)\i386\dncopy.obj \
+    $(_OBJ_DIR)\i386\copying.obj \
+    $(_OBJ_DIR)\i386\copyerr.obj \
+    $(_OBJ_DIR)\i386\multisrc.obj \
+    $(_OBJ_DIR)\i386\options.obj \
+    $(_OBJ_DIR)\i386\loadinf.obj \
+    $(_OBJ_DIR)\i386\inspect.obj \
+    $(_OBJ_DIR)\i386\nwsvc.obj \
+    $(_OBJ_DIR)\i386\string.obj \
+    $(_OBJ_DIR)\i386\delnode.obj \
+    $(_OBJ_DIR)\i386\security.obj \
+    $(_OBJ_DIR)\i386\internal.obj \
+    $(_OBJ_DIR)\i386\winnt32.obj
+
+PASS0_386_OBJECTS= \
+    .\msg.h \
+    .\msg.rc
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\winnt32.res \
+    $(_OBJ_DIR)\ppc\argvw.obj \
+    $(_OBJ_DIR)\ppc\askrebut.obj \
+    $(_OBJ_DIR)\ppc\dnmem.obj \
+    $(_OBJ_DIR)\ppc\dnutil.obj \
+    $(_OBJ_DIR)\ppc\dninf.obj \
+    $(_OBJ_DIR)\ppc\dnfile.obj \
+    $(_OBJ_DIR)\ppc\dnarc.obj \
+    $(_OBJ_DIR)\ppc\dncopy.obj \
+    $(_OBJ_DIR)\ppc\copying.obj \
+    $(_OBJ_DIR)\ppc\copyerr.obj \
+    $(_OBJ_DIR)\ppc\multisrc.obj \
+    $(_OBJ_DIR)\ppc\options.obj \
+    $(_OBJ_DIR)\ppc\loadinf.obj \
+    $(_OBJ_DIR)\ppc\inspect.obj \
+    $(_OBJ_DIR)\ppc\nwsvc.obj \
+    $(_OBJ_DIR)\ppc\string.obj \
+    $(_OBJ_DIR)\ppc\delnode.obj \
+    $(_OBJ_DIR)\ppc\security.obj \
+    $(_OBJ_DIR)\ppc\internal.obj \
+    $(_OBJ_DIR)\ppc\winnt32.obj
+
+PASS0_PPC_OBJECTS= \
+    .\msg.h \
+    .\msg.rc
+

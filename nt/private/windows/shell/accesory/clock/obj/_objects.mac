@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\clockres.res \
+    $(_OBJ_DIR)\alpha\clock.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\clockres.res \
+    $(_OBJ_DIR)\mips\clock.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\clockres.res \
+    $(_OBJ_DIR)\i386\clock.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\clockres.res \
+    $(_OBJ_DIR)\ppc\clock.obj
+
+PASS0_PPC_OBJECTS=
+

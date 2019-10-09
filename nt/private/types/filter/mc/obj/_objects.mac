@@ -1,0 +1,24 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS= \
+    w:\nt\public\sdk\inc\filterr.h \
+    obj\filterr.rc
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS= \
+    w:\nt\public\sdk\inc\filterr.h \
+    obj\filterr.rc
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS= \
+    w:\nt\public\sdk\inc\filterr.h \
+    obj\filterr.rc
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS= \
+    w:\nt\public\sdk\inc\filterr.h \
+    obj\filterr.rc
+

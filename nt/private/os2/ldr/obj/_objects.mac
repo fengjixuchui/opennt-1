@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ldrmte.obj \
+    $(_OBJ_DIR)\alpha\ldrste.obj \
+    $(_OBJ_DIR)\alpha\ldrsubr.obj \
+    $(_OBJ_DIR)\alpha\ldrinit.obj \
+    $(_OBJ_DIR)\alpha\ldrutil.obj \
+    $(_OBJ_DIR)\alpha\ldrfixup.obj \
+    $(_OBJ_DIR)\alpha\ldrdbcs.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ldrmte.obj \
+    $(_OBJ_DIR)\mips\ldrste.obj \
+    $(_OBJ_DIR)\mips\ldrsubr.obj \
+    $(_OBJ_DIR)\mips\ldrinit.obj \
+    $(_OBJ_DIR)\mips\ldrutil.obj \
+    $(_OBJ_DIR)\mips\ldrfixup.obj \
+    $(_OBJ_DIR)\mips\ldrdbcs.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ldrmte.obj \
+    $(_OBJ_DIR)\i386\ldrste.obj \
+    $(_OBJ_DIR)\i386\ldrsubr.obj \
+    $(_OBJ_DIR)\i386\ldrinit.obj \
+    $(_OBJ_DIR)\i386\ldrutil.obj \
+    $(_OBJ_DIR)\i386\ldrfixup.obj \
+    $(_OBJ_DIR)\i386\ldrdbcs.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ldrmte.obj \
+    $(_OBJ_DIR)\ppc\ldrste.obj \
+    $(_OBJ_DIR)\ppc\ldrsubr.obj \
+    $(_OBJ_DIR)\ppc\ldrinit.obj \
+    $(_OBJ_DIR)\ppc\ldrutil.obj \
+    $(_OBJ_DIR)\ppc\ldrfixup.obj \
+    $(_OBJ_DIR)\ppc\ldrdbcs.obj
+
+PASS0_PPC_OBJECTS=
+

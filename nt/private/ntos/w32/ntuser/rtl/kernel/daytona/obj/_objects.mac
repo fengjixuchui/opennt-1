@@ -1,0 +1,76 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\chartran.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\draw.obj \
+    $(_OBJ_DIR)\alpha\drawtext.obj \
+    $(_OBJ_DIR)\alpha\getset.obj \
+    $(_OBJ_DIR)\alpha\help.obj \
+    $(_OBJ_DIR)\alpha\input.obj \
+    $(_OBJ_DIR)\alpha\menu.obj \
+    $(_OBJ_DIR)\alpha\random.obj \
+    $(_OBJ_DIR)\alpha\rect.obj \
+    $(_OBJ_DIR)\alpha\text.obj \
+    $(_OBJ_DIR)\alpha\winmgr.obj \
+    $(_OBJ_DIR)\alpha\winprop.obj \
+    $(_OBJ_DIR)\alpha\wow.obj \
+    $(_OBJ_DIR)\alpha\wsprintf.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\chartran.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\draw.obj \
+    $(_OBJ_DIR)\mips\drawtext.obj \
+    $(_OBJ_DIR)\mips\getset.obj \
+    $(_OBJ_DIR)\mips\help.obj \
+    $(_OBJ_DIR)\mips\input.obj \
+    $(_OBJ_DIR)\mips\menu.obj \
+    $(_OBJ_DIR)\mips\random.obj \
+    $(_OBJ_DIR)\mips\rect.obj \
+    $(_OBJ_DIR)\mips\text.obj \
+    $(_OBJ_DIR)\mips\winmgr.obj \
+    $(_OBJ_DIR)\mips\winprop.obj \
+    $(_OBJ_DIR)\mips\wow.obj \
+    $(_OBJ_DIR)\mips\wsprintf.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\chartran.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\draw.obj \
+    $(_OBJ_DIR)\i386\drawtext.obj \
+    $(_OBJ_DIR)\i386\getset.obj \
+    $(_OBJ_DIR)\i386\help.obj \
+    $(_OBJ_DIR)\i386\input.obj \
+    $(_OBJ_DIR)\i386\menu.obj \
+    $(_OBJ_DIR)\i386\random.obj \
+    $(_OBJ_DIR)\i386\rect.obj \
+    $(_OBJ_DIR)\i386\text.obj \
+    $(_OBJ_DIR)\i386\winmgr.obj \
+    $(_OBJ_DIR)\i386\winprop.obj \
+    $(_OBJ_DIR)\i386\wow.obj \
+    $(_OBJ_DIR)\i386\wsprintf.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\chartran.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\draw.obj \
+    $(_OBJ_DIR)\ppc\drawtext.obj \
+    $(_OBJ_DIR)\ppc\getset.obj \
+    $(_OBJ_DIR)\ppc\help.obj \
+    $(_OBJ_DIR)\ppc\input.obj \
+    $(_OBJ_DIR)\ppc\menu.obj \
+    $(_OBJ_DIR)\ppc\random.obj \
+    $(_OBJ_DIR)\ppc\rect.obj \
+    $(_OBJ_DIR)\ppc\text.obj \
+    $(_OBJ_DIR)\ppc\winmgr.obj \
+    $(_OBJ_DIR)\ppc\winprop.obj \
+    $(_OBJ_DIR)\ppc\wow.obj \
+    $(_OBJ_DIR)\ppc\wsprintf.obj
+
+PASS0_PPC_OBJECTS=
+

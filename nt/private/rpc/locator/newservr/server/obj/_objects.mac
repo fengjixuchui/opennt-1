@@ -1,0 +1,88 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\locator.res \
+    $(_OBJ_DIR)\alpha\nsiclt_s.obj \
+    $(_OBJ_DIR)\alpha\nsisvr_s.obj \
+    $(_OBJ_DIR)\alpha\nsimgm_s.obj \
+    $(_OBJ_DIR)\alpha\locloc_c.obj \
+    $(_OBJ_DIR)\alpha\locloc_s.obj \
+    $(_OBJ_DIR)\alpha\locator.obj \
+    $(_OBJ_DIR)\alpha\api.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\mailslot.obj \
+    $(_OBJ_DIR)\alpha\brodcast.obj \
+    $(_OBJ_DIR)\alpha\objects.obj \
+    $(_OBJ_DIR)\alpha\master.obj \
+    $(_OBJ_DIR)\alpha\utils.obj \
+    $(_OBJ_DIR)\alpha\stubs.obj \
+    $(_OBJ_DIR)\alpha\switch.obj \
+    $(_OBJ_DIR)\alpha\lsa.obj \
+    $(_OBJ_DIR)\alpha\respond.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\locator.res \
+    $(_OBJ_DIR)\mips\nsiclt_s.obj \
+    $(_OBJ_DIR)\mips\nsisvr_s.obj \
+    $(_OBJ_DIR)\mips\nsimgm_s.obj \
+    $(_OBJ_DIR)\mips\locloc_c.obj \
+    $(_OBJ_DIR)\mips\locloc_s.obj \
+    $(_OBJ_DIR)\mips\locator.obj \
+    $(_OBJ_DIR)\mips\api.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\mailslot.obj \
+    $(_OBJ_DIR)\mips\brodcast.obj \
+    $(_OBJ_DIR)\mips\objects.obj \
+    $(_OBJ_DIR)\mips\master.obj \
+    $(_OBJ_DIR)\mips\utils.obj \
+    $(_OBJ_DIR)\mips\stubs.obj \
+    $(_OBJ_DIR)\mips\switch.obj \
+    $(_OBJ_DIR)\mips\lsa.obj \
+    $(_OBJ_DIR)\mips\respond.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\locator.res \
+    $(_OBJ_DIR)\i386\nsiclt_s.obj \
+    $(_OBJ_DIR)\i386\nsisvr_s.obj \
+    $(_OBJ_DIR)\i386\nsimgm_s.obj \
+    $(_OBJ_DIR)\i386\locloc_c.obj \
+    $(_OBJ_DIR)\i386\locloc_s.obj \
+    $(_OBJ_DIR)\i386\locator.obj \
+    $(_OBJ_DIR)\i386\api.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\mailslot.obj \
+    $(_OBJ_DIR)\i386\brodcast.obj \
+    $(_OBJ_DIR)\i386\objects.obj \
+    $(_OBJ_DIR)\i386\master.obj \
+    $(_OBJ_DIR)\i386\utils.obj \
+    $(_OBJ_DIR)\i386\stubs.obj \
+    $(_OBJ_DIR)\i386\switch.obj \
+    $(_OBJ_DIR)\i386\lsa.obj \
+    $(_OBJ_DIR)\i386\respond.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\locator.res \
+    $(_OBJ_DIR)\ppc\nsiclt_s.obj \
+    $(_OBJ_DIR)\ppc\nsisvr_s.obj \
+    $(_OBJ_DIR)\ppc\nsimgm_s.obj \
+    $(_OBJ_DIR)\ppc\locloc_c.obj \
+    $(_OBJ_DIR)\ppc\locloc_s.obj \
+    $(_OBJ_DIR)\ppc\locator.obj \
+    $(_OBJ_DIR)\ppc\api.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\mailslot.obj \
+    $(_OBJ_DIR)\ppc\brodcast.obj \
+    $(_OBJ_DIR)\ppc\objects.obj \
+    $(_OBJ_DIR)\ppc\master.obj \
+    $(_OBJ_DIR)\ppc\utils.obj \
+    $(_OBJ_DIR)\ppc\stubs.obj \
+    $(_OBJ_DIR)\ppc\switch.obj \
+    $(_OBJ_DIR)\ppc\lsa.obj \
+    $(_OBJ_DIR)\ppc\respond.obj
+
+PASS0_PPC_OBJECTS=
+

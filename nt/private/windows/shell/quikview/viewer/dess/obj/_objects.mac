@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dess.res \
+    $(_OBJ_DIR)\alpha\oisanno.obj \
+    $(_OBJ_DIR)\alpha\oisdraw.obj \
+    $(_OBJ_DIR)\alpha\oisinit.obj \
+    $(_OBJ_DIR)\alpha\oisnp_w.obj \
+    $(_OBJ_DIR)\alpha\oisproc.obj \
+    $(_OBJ_DIR)\alpha\oisrtns.obj \
+    $(_OBJ_DIR)\alpha\oisutil.obj \
+    $(_OBJ_DIR)\alpha\oirange.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dess.res \
+    $(_OBJ_DIR)\mips\oisanno.obj \
+    $(_OBJ_DIR)\mips\oisdraw.obj \
+    $(_OBJ_DIR)\mips\oisinit.obj \
+    $(_OBJ_DIR)\mips\oisnp_w.obj \
+    $(_OBJ_DIR)\mips\oisproc.obj \
+    $(_OBJ_DIR)\mips\oisrtns.obj \
+    $(_OBJ_DIR)\mips\oisutil.obj \
+    $(_OBJ_DIR)\mips\oirange.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dess.res \
+    $(_OBJ_DIR)\i386\oisanno.obj \
+    $(_OBJ_DIR)\i386\oisdraw.obj \
+    $(_OBJ_DIR)\i386\oisinit.obj \
+    $(_OBJ_DIR)\i386\oisnp_w.obj \
+    $(_OBJ_DIR)\i386\oisproc.obj \
+    $(_OBJ_DIR)\i386\oisrtns.obj \
+    $(_OBJ_DIR)\i386\oisutil.obj \
+    $(_OBJ_DIR)\i386\oirange.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dess.res \
+    $(_OBJ_DIR)\ppc\oisanno.obj \
+    $(_OBJ_DIR)\ppc\oisdraw.obj \
+    $(_OBJ_DIR)\ppc\oisinit.obj \
+    $(_OBJ_DIR)\ppc\oisnp_w.obj \
+    $(_OBJ_DIR)\ppc\oisproc.obj \
+    $(_OBJ_DIR)\ppc\oisrtns.obj \
+    $(_OBJ_DIR)\ppc\oisutil.obj \
+    $(_OBJ_DIR)\ppc\oirange.obj
+
+PASS0_PPC_OBJECTS=
+

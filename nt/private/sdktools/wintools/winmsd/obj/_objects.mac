@@ -1,0 +1,88 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\winmsd.res \
+    $(_OBJ_DIR)\alpha\computer.obj \
+    $(_OBJ_DIR)\alpha\drives.obj \
+    $(_OBJ_DIR)\alpha\environ.obj \
+    $(_OBJ_DIR)\alpha\hardware.obj \
+    $(_OBJ_DIR)\alpha\mem.obj \
+    $(_OBJ_DIR)\alpha\network.obj \
+    $(_OBJ_DIR)\alpha\osver.obj \
+    $(_OBJ_DIR)\alpha\printer.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\report.obj \
+    $(_OBJ_DIR)\alpha\resource.obj \
+    $(_OBJ_DIR)\alpha\resprint.obj \
+    $(_OBJ_DIR)\alpha\service.obj \
+    $(_OBJ_DIR)\alpha\strtab.obj \
+    $(_OBJ_DIR)\alpha\svc.obj \
+    $(_OBJ_DIR)\alpha\winmsd.obj \
+    $(_OBJ_DIR)\alpha\video.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\winmsd.res \
+    $(_OBJ_DIR)\mips\computer.obj \
+    $(_OBJ_DIR)\mips\drives.obj \
+    $(_OBJ_DIR)\mips\environ.obj \
+    $(_OBJ_DIR)\mips\hardware.obj \
+    $(_OBJ_DIR)\mips\mem.obj \
+    $(_OBJ_DIR)\mips\network.obj \
+    $(_OBJ_DIR)\mips\osver.obj \
+    $(_OBJ_DIR)\mips\printer.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\report.obj \
+    $(_OBJ_DIR)\mips\resource.obj \
+    $(_OBJ_DIR)\mips\resprint.obj \
+    $(_OBJ_DIR)\mips\service.obj \
+    $(_OBJ_DIR)\mips\strtab.obj \
+    $(_OBJ_DIR)\mips\svc.obj \
+    $(_OBJ_DIR)\mips\winmsd.obj \
+    $(_OBJ_DIR)\mips\video.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\winmsd.res \
+    $(_OBJ_DIR)\i386\computer.obj \
+    $(_OBJ_DIR)\i386\drives.obj \
+    $(_OBJ_DIR)\i386\environ.obj \
+    $(_OBJ_DIR)\i386\hardware.obj \
+    $(_OBJ_DIR)\i386\mem.obj \
+    $(_OBJ_DIR)\i386\network.obj \
+    $(_OBJ_DIR)\i386\osver.obj \
+    $(_OBJ_DIR)\i386\printer.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\report.obj \
+    $(_OBJ_DIR)\i386\resource.obj \
+    $(_OBJ_DIR)\i386\resprint.obj \
+    $(_OBJ_DIR)\i386\service.obj \
+    $(_OBJ_DIR)\i386\strtab.obj \
+    $(_OBJ_DIR)\i386\svc.obj \
+    $(_OBJ_DIR)\i386\winmsd.obj \
+    $(_OBJ_DIR)\i386\video.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\winmsd.res \
+    $(_OBJ_DIR)\ppc\computer.obj \
+    $(_OBJ_DIR)\ppc\drives.obj \
+    $(_OBJ_DIR)\ppc\environ.obj \
+    $(_OBJ_DIR)\ppc\hardware.obj \
+    $(_OBJ_DIR)\ppc\mem.obj \
+    $(_OBJ_DIR)\ppc\network.obj \
+    $(_OBJ_DIR)\ppc\osver.obj \
+    $(_OBJ_DIR)\ppc\printer.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\report.obj \
+    $(_OBJ_DIR)\ppc\resource.obj \
+    $(_OBJ_DIR)\ppc\resprint.obj \
+    $(_OBJ_DIR)\ppc\service.obj \
+    $(_OBJ_DIR)\ppc\strtab.obj \
+    $(_OBJ_DIR)\ppc\svc.obj \
+    $(_OBJ_DIR)\ppc\winmsd.obj \
+    $(_OBJ_DIR)\ppc\video.obj
+
+PASS0_PPC_OBJECTS=
+

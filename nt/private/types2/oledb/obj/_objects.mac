@@ -1,0 +1,24 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS= \
+    w:\nt\public\sdk\inc\oledb.h \
+    w:\nt\public\sdk\inc\transact.h
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS= \
+    w:\nt\public\sdk\inc\oledb.h \
+    w:\nt\public\sdk\inc\transact.h
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS= \
+    w:\nt\public\sdk\inc\oledb.h \
+    w:\nt\public\sdk\inc\transact.h
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS= \
+    w:\nt\public\sdk\inc\oledb.h \
+    w:\nt\public\sdk\inc\transact.h
+

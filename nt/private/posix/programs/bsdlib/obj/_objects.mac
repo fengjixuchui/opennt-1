@@ -1,0 +1,108 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\bcopy.obj \
+    $(_OBJ_DIR)\alpha\bzero.obj \
+    $(_OBJ_DIR)\alpha\for2bak.obj \
+    $(_OBJ_DIR)\alpha\fts.obj \
+    $(_OBJ_DIR)\alpha\getenv.obj \
+    $(_OBJ_DIR)\alpha\getopt.obj \
+    $(_OBJ_DIR)\alpha\getwd.obj \
+    $(_OBJ_DIR)\alpha\index.obj \
+    $(_OBJ_DIR)\alpha\lstat.obj \
+    $(_OBJ_DIR)\alpha\mknod.obj \
+    $(_OBJ_DIR)\alpha\putenv.obj \
+    $(_OBJ_DIR)\alpha\pwcache.obj \
+    $(_OBJ_DIR)\alpha\rindex.obj \
+    $(_OBJ_DIR)\alpha\scandir.obj \
+    $(_OBJ_DIR)\alpha\seekdir.obj \
+    $(_OBJ_DIR)\alpha\setenv.obj \
+    $(_OBJ_DIR)\alpha\setmode.obj \
+    $(_OBJ_DIR)\alpha\snprintf.obj \
+    $(_OBJ_DIR)\alpha\strmode.obj \
+    $(_OBJ_DIR)\alpha\stubs.obj \
+    $(_OBJ_DIR)\alpha\telldir.obj \
+    $(_OBJ_DIR)\alpha\utimes.obj \
+    $(_OBJ_DIR)\alpha\vfork.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\bcopy.obj \
+    $(_OBJ_DIR)\mips\bzero.obj \
+    $(_OBJ_DIR)\mips\for2bak.obj \
+    $(_OBJ_DIR)\mips\fts.obj \
+    $(_OBJ_DIR)\mips\getenv.obj \
+    $(_OBJ_DIR)\mips\getopt.obj \
+    $(_OBJ_DIR)\mips\getwd.obj \
+    $(_OBJ_DIR)\mips\index.obj \
+    $(_OBJ_DIR)\mips\lstat.obj \
+    $(_OBJ_DIR)\mips\mknod.obj \
+    $(_OBJ_DIR)\mips\putenv.obj \
+    $(_OBJ_DIR)\mips\pwcache.obj \
+    $(_OBJ_DIR)\mips\rindex.obj \
+    $(_OBJ_DIR)\mips\scandir.obj \
+    $(_OBJ_DIR)\mips\seekdir.obj \
+    $(_OBJ_DIR)\mips\setenv.obj \
+    $(_OBJ_DIR)\mips\setmode.obj \
+    $(_OBJ_DIR)\mips\snprintf.obj \
+    $(_OBJ_DIR)\mips\strmode.obj \
+    $(_OBJ_DIR)\mips\stubs.obj \
+    $(_OBJ_DIR)\mips\telldir.obj \
+    $(_OBJ_DIR)\mips\utimes.obj \
+    $(_OBJ_DIR)\mips\vfork.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\bcopy.obj \
+    $(_OBJ_DIR)\i386\bzero.obj \
+    $(_OBJ_DIR)\i386\for2bak.obj \
+    $(_OBJ_DIR)\i386\fts.obj \
+    $(_OBJ_DIR)\i386\getenv.obj \
+    $(_OBJ_DIR)\i386\getopt.obj \
+    $(_OBJ_DIR)\i386\getwd.obj \
+    $(_OBJ_DIR)\i386\index.obj \
+    $(_OBJ_DIR)\i386\lstat.obj \
+    $(_OBJ_DIR)\i386\mknod.obj \
+    $(_OBJ_DIR)\i386\putenv.obj \
+    $(_OBJ_DIR)\i386\pwcache.obj \
+    $(_OBJ_DIR)\i386\rindex.obj \
+    $(_OBJ_DIR)\i386\scandir.obj \
+    $(_OBJ_DIR)\i386\seekdir.obj \
+    $(_OBJ_DIR)\i386\setenv.obj \
+    $(_OBJ_DIR)\i386\setmode.obj \
+    $(_OBJ_DIR)\i386\snprintf.obj \
+    $(_OBJ_DIR)\i386\strmode.obj \
+    $(_OBJ_DIR)\i386\stubs.obj \
+    $(_OBJ_DIR)\i386\telldir.obj \
+    $(_OBJ_DIR)\i386\utimes.obj \
+    $(_OBJ_DIR)\i386\vfork.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\bcopy.obj \
+    $(_OBJ_DIR)\ppc\bzero.obj \
+    $(_OBJ_DIR)\ppc\for2bak.obj \
+    $(_OBJ_DIR)\ppc\fts.obj \
+    $(_OBJ_DIR)\ppc\getenv.obj \
+    $(_OBJ_DIR)\ppc\getopt.obj \
+    $(_OBJ_DIR)\ppc\getwd.obj \
+    $(_OBJ_DIR)\ppc\index.obj \
+    $(_OBJ_DIR)\ppc\lstat.obj \
+    $(_OBJ_DIR)\ppc\mknod.obj \
+    $(_OBJ_DIR)\ppc\putenv.obj \
+    $(_OBJ_DIR)\ppc\pwcache.obj \
+    $(_OBJ_DIR)\ppc\rindex.obj \
+    $(_OBJ_DIR)\ppc\scandir.obj \
+    $(_OBJ_DIR)\ppc\seekdir.obj \
+    $(_OBJ_DIR)\ppc\setenv.obj \
+    $(_OBJ_DIR)\ppc\setmode.obj \
+    $(_OBJ_DIR)\ppc\snprintf.obj \
+    $(_OBJ_DIR)\ppc\strmode.obj \
+    $(_OBJ_DIR)\ppc\stubs.obj \
+    $(_OBJ_DIR)\ppc\telldir.obj \
+    $(_OBJ_DIR)\ppc\utimes.obj \
+    $(_OBJ_DIR)\ppc\vfork.obj
+
+PASS0_PPC_OBJECTS=
+

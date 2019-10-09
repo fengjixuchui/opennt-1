@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\books.res \
+    $(_OBJ_DIR)\alpha\bkutils.obj \
+    $(_OBJ_DIR)\alpha\bkprof.obj \
+    $(_OBJ_DIR)\alpha\bkmem.obj \
+    $(_OBJ_DIR)\alpha\bkhlpfil.obj \
+    $(_OBJ_DIR)\alpha\bkres.obj \
+    $(_OBJ_DIR)\alpha\bkthrdlg.obj \
+    $(_OBJ_DIR)\alpha\bkinst.obj \
+    $(_OBJ_DIR)\alpha\ntbooks.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\books.res \
+    $(_OBJ_DIR)\mips\bkutils.obj \
+    $(_OBJ_DIR)\mips\bkprof.obj \
+    $(_OBJ_DIR)\mips\bkmem.obj \
+    $(_OBJ_DIR)\mips\bkhlpfil.obj \
+    $(_OBJ_DIR)\mips\bkres.obj \
+    $(_OBJ_DIR)\mips\bkthrdlg.obj \
+    $(_OBJ_DIR)\mips\bkinst.obj \
+    $(_OBJ_DIR)\mips\ntbooks.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\books.res \
+    $(_OBJ_DIR)\i386\bkutils.obj \
+    $(_OBJ_DIR)\i386\bkprof.obj \
+    $(_OBJ_DIR)\i386\bkmem.obj \
+    $(_OBJ_DIR)\i386\bkhlpfil.obj \
+    $(_OBJ_DIR)\i386\bkres.obj \
+    $(_OBJ_DIR)\i386\bkthrdlg.obj \
+    $(_OBJ_DIR)\i386\bkinst.obj \
+    $(_OBJ_DIR)\i386\ntbooks.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\books.res \
+    $(_OBJ_DIR)\ppc\bkutils.obj \
+    $(_OBJ_DIR)\ppc\bkprof.obj \
+    $(_OBJ_DIR)\ppc\bkmem.obj \
+    $(_OBJ_DIR)\ppc\bkhlpfil.obj \
+    $(_OBJ_DIR)\ppc\bkres.obj \
+    $(_OBJ_DIR)\ppc\bkthrdlg.obj \
+    $(_OBJ_DIR)\ppc\bkinst.obj \
+    $(_OBJ_DIR)\ppc\ntbooks.obj
+
+PASS0_PPC_OBJECTS=
+

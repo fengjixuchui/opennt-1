@@ -1,0 +1,46 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining w:\nt\private\sam directory tree for files to compile.
+Linking w:\nt\private\sam\icfg32 directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	link -out:obj\i386\icfg32.dll -machine:i386 @W:\tmp\nma03344.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:0x2000000 
+-subsystem:native,4.00 
+-noentry 
+obj\i386\icfg32.exp 
+obj\i386\version.res 
+obj\i386\icfg32.obj 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\comdlg32.lib 
+W:\nt\public\sdk\lib\i386\comctl32.lib 
+W:\nt\public\sdk\lib\i386\version.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\icfg32.dll
+
+Stop. 

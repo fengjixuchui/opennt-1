@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\tok162.res \
+    $(_OBJ_DIR)\alpha\command.obj \
+    $(_OBJ_DIR)\alpha\interrup.obj \
+    $(_OBJ_DIR)\alpha\tok162.obj \
+    $(_OBJ_DIR)\alpha\request.obj \
+    $(_OBJ_DIR)\alpha\reset.obj \
+    $(_OBJ_DIR)\alpha\send.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\tok162.res \
+    $(_OBJ_DIR)\mips\command.obj \
+    $(_OBJ_DIR)\mips\interrup.obj \
+    $(_OBJ_DIR)\mips\tok162.obj \
+    $(_OBJ_DIR)\mips\request.obj \
+    $(_OBJ_DIR)\mips\reset.obj \
+    $(_OBJ_DIR)\mips\send.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\tok162.res \
+    $(_OBJ_DIR)\i386\command.obj \
+    $(_OBJ_DIR)\i386\interrup.obj \
+    $(_OBJ_DIR)\i386\tok162.obj \
+    $(_OBJ_DIR)\i386\request.obj \
+    $(_OBJ_DIR)\i386\reset.obj \
+    $(_OBJ_DIR)\i386\send.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\tok162.res \
+    $(_OBJ_DIR)\ppc\command.obj \
+    $(_OBJ_DIR)\ppc\interrup.obj \
+    $(_OBJ_DIR)\ppc\tok162.obj \
+    $(_OBJ_DIR)\ppc\request.obj \
+    $(_OBJ_DIR)\ppc\reset.obj \
+    $(_OBJ_DIR)\ppc\send.obj
+
+PASS0_PPC_OBJECTS=
+

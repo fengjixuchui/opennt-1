@@ -1,0 +1,118 @@
+
+
+
+
+[
+    uuid(00020430-0000-0000-C000-000000000046),
+    lcid(0x0000),           
+    helpstring("OLE Automation"),
+    version(1.0),
+    restricted
+]
+library stdole
+{
+    typedef unsigned long DWORD;        
+    typedef unsigned long ULONG;
+    typedef unsigned short WORD;
+    typedef unsigned char BYTE;
+    typedef unsigned int UINT;
+    typedef DWORD LCID;
+
+    typedef struct GUID
+    {
+      DWORD Data1;
+      WORD  Data2;
+      WORD  Data3;
+      BYTE  Data4[8];
+    } GUID;
+
+    typedef GUID IID;               
+    typedef IID _far * REFIID;
+    typedef LONG DISPID;
+
+    
+    
+
+    typedef VARIANT VARIANTARG;
+
+    typedef struct tagDISPPARAMS{
+      VARIANTARG _far* rgvarg;
+      DISPID _far* rgdispidNamedArgs;
+      UINT cArgs;
+      UINT cNamedArgs;
+    } DISPPARAMS;
+
+
+    typedef struct tagEXCEPINFO {
+      WORD wCode;
+      WORD wReserved;
+      BSTR bstrSource;
+      BSTR bstrDescription;
+      BSTR bstrHelpFile;
+      DWORD dwHelpContext;
+      void _far* pvReserved;
+
+
+
+
+
+      void _far* pfnDeferredFillIn;
+
+      SCODE scode;
+    } EXCEPINFO;
+
+    [uuid(00000000-0000-0000-C000-000000000046), odl]
+    interface IUnknown
+    {
+      [restricted] HRESULT QueryInterface([in] REFIID riid, [out] void _far* _far* ppvObj);
+      [restricted] ULONG AddRef(void);
+      [restricted] ULONG Release(void);
+    };
+
+    [uuid(00020400-0000-0000-C000-000000000046), odl]
+    interface IDispatch:IUnknown
+    {
+      [restricted] HRESULT GetTypeInfoCount([out]UINT _far* pctinfo);
+
+      [restricted] HRESULT GetTypeInfo(
+        [in] UINT itinfo,
+        [in] LCID lcid,
+        [out] void _far* _far* pptinfo);
+
+      [restricted] HRESULT GetIDsOfNames(
+        [in] REFIID riid,
+        [in] char _far* _far* rgszNames,
+        [in] UINT cNames,
+        [in] LCID lcid,
+        [out] DISPID _far* rgdispid);
+
+      [restricted] HRESULT Invoke(
+        [in] DISPID dispidMember,
+        [in] REFIID riid,
+        [in] LCID lcid,
+        [in] WORD wFlags,
+        [in] DISPPARAMS _far* pdispparams,
+        [out] VARIANT _far* pvarResult,
+        [out] EXCEPINFO _far* pexcepinfo,
+        [out] UINT _far* puArgErr);
+    };
+
+    [uuid(00020404-0000-0000-C000-000000000046), odl]
+    interface IEnumVARIANT:IUnknown
+    {
+
+      HRESULT Next(
+	[in] unsigned long celt,
+	[in] VARIANT _far* rgvar,
+	[out] unsigned long _far* pceltFetched);
+
+      HRESULT Skip([in] unsigned long celt);
+
+      HRESULT Reset(void);
+
+      HRESULT Clone([out] IEnumVARIANT _far* _far* ppenum);
+
+    };
+
+
+}   

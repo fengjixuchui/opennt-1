@@ -1,0 +1,56 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mdgncdet.res \
+    $(_OBJ_DIR)\alpha\mdgncdet.obj \
+    $(_OBJ_DIR)\alpha\mdgeisa.obj \
+    $(_OBJ_DIR)\alpha\mdgat.obj \
+    $(_OBJ_DIR)\alpha\mdgsm16.obj \
+    $(_OBJ_DIR)\alpha\mdgpnp.obj \
+    $(_OBJ_DIR)\alpha\mdgmc.obj \
+    $(_OBJ_DIR)\alpha\mdgpci.obj \
+    $(_OBJ_DIR)\alpha\mdgpcmc.obj \
+    $(_OBJ_DIR)\alpha\mdgutils.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mdgncdet.res \
+    $(_OBJ_DIR)\mips\mdgncdet.obj \
+    $(_OBJ_DIR)\mips\mdgeisa.obj \
+    $(_OBJ_DIR)\mips\mdgat.obj \
+    $(_OBJ_DIR)\mips\mdgsm16.obj \
+    $(_OBJ_DIR)\mips\mdgpnp.obj \
+    $(_OBJ_DIR)\mips\mdgmc.obj \
+    $(_OBJ_DIR)\mips\mdgpci.obj \
+    $(_OBJ_DIR)\mips\mdgpcmc.obj \
+    $(_OBJ_DIR)\mips\mdgutils.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mdgncdet.res \
+    $(_OBJ_DIR)\i386\mdgncdet.obj \
+    $(_OBJ_DIR)\i386\mdgeisa.obj \
+    $(_OBJ_DIR)\i386\mdgat.obj \
+    $(_OBJ_DIR)\i386\mdgsm16.obj \
+    $(_OBJ_DIR)\i386\mdgpnp.obj \
+    $(_OBJ_DIR)\i386\mdgmc.obj \
+    $(_OBJ_DIR)\i386\mdgpci.obj \
+    $(_OBJ_DIR)\i386\mdgpcmc.obj \
+    $(_OBJ_DIR)\i386\mdgutils.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mdgncdet.res \
+    $(_OBJ_DIR)\ppc\mdgncdet.obj \
+    $(_OBJ_DIR)\ppc\mdgeisa.obj \
+    $(_OBJ_DIR)\ppc\mdgat.obj \
+    $(_OBJ_DIR)\ppc\mdgsm16.obj \
+    $(_OBJ_DIR)\ppc\mdgpnp.obj \
+    $(_OBJ_DIR)\ppc\mdgmc.obj \
+    $(_OBJ_DIR)\ppc\mdgpci.obj \
+    $(_OBJ_DIR)\ppc\mdgpcmc.obj \
+    $(_OBJ_DIR)\ppc\mdgutils.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,80 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ndiswan.res \
+    $(_OBJ_DIR)\alpha\ndiswan.obj \
+    $(_OBJ_DIR)\alpha\send.obj \
+    $(_OBJ_DIR)\alpha\compress.obj \
+    $(_OBJ_DIR)\alpha\receive.obj \
+    $(_OBJ_DIR)\alpha\io.obj \
+    $(_OBJ_DIR)\alpha\miniport.obj \
+    $(_OBJ_DIR)\alpha\protocol.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\request.obj \
+    $(_OBJ_DIR)\alpha\memory.obj \
+    $(_OBJ_DIR)\alpha\indicate.obj \
+    $(_OBJ_DIR)\alpha\vjslip.obj \
+    $(_OBJ_DIR)\alpha\tapi.obj \
+    $(_OBJ_DIR)\alpha\ccp.obj \
+    $(_OBJ_DIR)\alpha\loopback.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ndiswan.res \
+    $(_OBJ_DIR)\mips\ndiswan.obj \
+    $(_OBJ_DIR)\mips\send.obj \
+    $(_OBJ_DIR)\mips\compress.obj \
+    $(_OBJ_DIR)\mips\receive.obj \
+    $(_OBJ_DIR)\mips\io.obj \
+    $(_OBJ_DIR)\mips\miniport.obj \
+    $(_OBJ_DIR)\mips\protocol.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\request.obj \
+    $(_OBJ_DIR)\mips\memory.obj \
+    $(_OBJ_DIR)\mips\indicate.obj \
+    $(_OBJ_DIR)\mips\vjslip.obj \
+    $(_OBJ_DIR)\mips\tapi.obj \
+    $(_OBJ_DIR)\mips\ccp.obj \
+    $(_OBJ_DIR)\mips\loopback.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ndiswan.res \
+    $(_OBJ_DIR)\i386\ndiswan.obj \
+    $(_OBJ_DIR)\i386\send.obj \
+    $(_OBJ_DIR)\i386\compress.obj \
+    $(_OBJ_DIR)\i386\receive.obj \
+    $(_OBJ_DIR)\i386\io.obj \
+    $(_OBJ_DIR)\i386\miniport.obj \
+    $(_OBJ_DIR)\i386\protocol.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\request.obj \
+    $(_OBJ_DIR)\i386\memory.obj \
+    $(_OBJ_DIR)\i386\indicate.obj \
+    $(_OBJ_DIR)\i386\vjslip.obj \
+    $(_OBJ_DIR)\i386\tapi.obj \
+    $(_OBJ_DIR)\i386\ccp.obj \
+    $(_OBJ_DIR)\i386\loopback.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ndiswan.res \
+    $(_OBJ_DIR)\ppc\ndiswan.obj \
+    $(_OBJ_DIR)\ppc\send.obj \
+    $(_OBJ_DIR)\ppc\compress.obj \
+    $(_OBJ_DIR)\ppc\receive.obj \
+    $(_OBJ_DIR)\ppc\io.obj \
+    $(_OBJ_DIR)\ppc\miniport.obj \
+    $(_OBJ_DIR)\ppc\protocol.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\request.obj \
+    $(_OBJ_DIR)\ppc\memory.obj \
+    $(_OBJ_DIR)\ppc\indicate.obj \
+    $(_OBJ_DIR)\ppc\vjslip.obj \
+    $(_OBJ_DIR)\ppc\tapi.obj \
+    $(_OBJ_DIR)\ppc\ccp.obj \
+    $(_OBJ_DIR)\ppc\loopback.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,80 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\p9.res \
+    $(_OBJ_DIR)\alpha\p9.obj \
+    $(_OBJ_DIR)\alpha\p9gbl.obj \
+    $(_OBJ_DIR)\alpha\p9000.obj \
+    $(_OBJ_DIR)\alpha\p91clock.obj \
+    $(_OBJ_DIR)\alpha\vga.obj \
+    $(_OBJ_DIR)\alpha\bt485.obj \
+    $(_OBJ_DIR)\alpha\ibm525.obj \
+    $(_OBJ_DIR)\alpha\pci.obj \
+    $(_OBJ_DIR)\alpha\wtkp90vl.obj \
+    $(_OBJ_DIR)\alpha\wtkp91vl.obj \
+    $(_OBJ_DIR)\alpha\p91supp.obj \
+    $(_OBJ_DIR)\alpha\p9100.obj \
+    $(_OBJ_DIR)\alpha\p91bt485.obj \
+    $(_OBJ_DIR)\alpha\p91bt489.obj \
+    $(_OBJ_DIR)\alpha\viper.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\p9.res \
+    $(_OBJ_DIR)\mips\p9.obj \
+    $(_OBJ_DIR)\mips\p9gbl.obj \
+    $(_OBJ_DIR)\mips\p9000.obj \
+    $(_OBJ_DIR)\mips\p91clock.obj \
+    $(_OBJ_DIR)\mips\vga.obj \
+    $(_OBJ_DIR)\mips\bt485.obj \
+    $(_OBJ_DIR)\mips\ibm525.obj \
+    $(_OBJ_DIR)\mips\pci.obj \
+    $(_OBJ_DIR)\mips\wtkp90vl.obj \
+    $(_OBJ_DIR)\mips\wtkp91vl.obj \
+    $(_OBJ_DIR)\mips\p91supp.obj \
+    $(_OBJ_DIR)\mips\p9100.obj \
+    $(_OBJ_DIR)\mips\p91bt485.obj \
+    $(_OBJ_DIR)\mips\p91bt489.obj \
+    $(_OBJ_DIR)\mips\viper.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\p9.res \
+    $(_OBJ_DIR)\i386\p9.obj \
+    $(_OBJ_DIR)\i386\p9gbl.obj \
+    $(_OBJ_DIR)\i386\p9000.obj \
+    $(_OBJ_DIR)\i386\p91clock.obj \
+    $(_OBJ_DIR)\i386\vga.obj \
+    $(_OBJ_DIR)\i386\bt485.obj \
+    $(_OBJ_DIR)\i386\ibm525.obj \
+    $(_OBJ_DIR)\i386\pci.obj \
+    $(_OBJ_DIR)\i386\wtkp90vl.obj \
+    $(_OBJ_DIR)\i386\wtkp91vl.obj \
+    $(_OBJ_DIR)\i386\p91supp.obj \
+    $(_OBJ_DIR)\i386\p9100.obj \
+    $(_OBJ_DIR)\i386\p91bt485.obj \
+    $(_OBJ_DIR)\i386\p91bt489.obj \
+    $(_OBJ_DIR)\i386\viper.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\p9.res \
+    $(_OBJ_DIR)\ppc\p9.obj \
+    $(_OBJ_DIR)\ppc\p9gbl.obj \
+    $(_OBJ_DIR)\ppc\p9000.obj \
+    $(_OBJ_DIR)\ppc\p91clock.obj \
+    $(_OBJ_DIR)\ppc\vga.obj \
+    $(_OBJ_DIR)\ppc\bt485.obj \
+    $(_OBJ_DIR)\ppc\ibm525.obj \
+    $(_OBJ_DIR)\ppc\pci.obj \
+    $(_OBJ_DIR)\ppc\wtkp90vl.obj \
+    $(_OBJ_DIR)\ppc\wtkp91vl.obj \
+    $(_OBJ_DIR)\ppc\p91supp.obj \
+    $(_OBJ_DIR)\ppc\p9100.obj \
+    $(_OBJ_DIR)\ppc\p91bt485.obj \
+    $(_OBJ_DIR)\ppc\p91bt489.obj \
+    $(_OBJ_DIR)\ppc\viper.obj
+
+PASS0_PPC_OBJECTS=
+

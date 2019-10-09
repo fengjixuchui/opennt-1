@@ -1,0 +1,100 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\unimdm.res \
+    $(_OBJ_DIR)\alpha\common.obj \
+    $(_OBJ_DIR)\alpha\log.obj \
+    $(_OBJ_DIR)\alpha\unimdm.obj \
+    $(_OBJ_DIR)\alpha\mdmutil.obj \
+    $(_OBJ_DIR)\alpha\modem.obj \
+    $(_OBJ_DIR)\alpha\devioctl.obj \
+    $(_OBJ_DIR)\alpha\mdmasyn.obj \
+    $(_OBJ_DIR)\alpha\mcxstate.obj \
+    $(_OBJ_DIR)\alpha\mcxutil.obj \
+    $(_OBJ_DIR)\alpha\mcxapi.obj \
+    $(_OBJ_DIR)\alpha\mcxrw.obj \
+    $(_OBJ_DIR)\alpha\wndthrd.obj \
+    $(_OBJ_DIR)\alpha\cfgdlg.obj \
+    $(_OBJ_DIR)\alpha\terminal.obj \
+    $(_OBJ_DIR)\alpha\talkdrop.obj \
+    $(_OBJ_DIR)\alpha\manual.obj \
+    $(_OBJ_DIR)\alpha\umdminit.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\ov_pool.obj \
+    $(_OBJ_DIR)\alpha\tracing.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\unimdm.res \
+    $(_OBJ_DIR)\mips\common.obj \
+    $(_OBJ_DIR)\mips\log.obj \
+    $(_OBJ_DIR)\mips\unimdm.obj \
+    $(_OBJ_DIR)\mips\mdmutil.obj \
+    $(_OBJ_DIR)\mips\modem.obj \
+    $(_OBJ_DIR)\mips\devioctl.obj \
+    $(_OBJ_DIR)\mips\mdmasyn.obj \
+    $(_OBJ_DIR)\mips\mcxstate.obj \
+    $(_OBJ_DIR)\mips\mcxutil.obj \
+    $(_OBJ_DIR)\mips\mcxapi.obj \
+    $(_OBJ_DIR)\mips\mcxrw.obj \
+    $(_OBJ_DIR)\mips\wndthrd.obj \
+    $(_OBJ_DIR)\mips\cfgdlg.obj \
+    $(_OBJ_DIR)\mips\terminal.obj \
+    $(_OBJ_DIR)\mips\talkdrop.obj \
+    $(_OBJ_DIR)\mips\manual.obj \
+    $(_OBJ_DIR)\mips\umdminit.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\ov_pool.obj \
+    $(_OBJ_DIR)\mips\tracing.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\unimdm.res \
+    $(_OBJ_DIR)\i386\common.obj \
+    $(_OBJ_DIR)\i386\log.obj \
+    $(_OBJ_DIR)\i386\unimdm.obj \
+    $(_OBJ_DIR)\i386\mdmutil.obj \
+    $(_OBJ_DIR)\i386\modem.obj \
+    $(_OBJ_DIR)\i386\devioctl.obj \
+    $(_OBJ_DIR)\i386\mdmasyn.obj \
+    $(_OBJ_DIR)\i386\mcxstate.obj \
+    $(_OBJ_DIR)\i386\mcxutil.obj \
+    $(_OBJ_DIR)\i386\mcxapi.obj \
+    $(_OBJ_DIR)\i386\mcxrw.obj \
+    $(_OBJ_DIR)\i386\wndthrd.obj \
+    $(_OBJ_DIR)\i386\cfgdlg.obj \
+    $(_OBJ_DIR)\i386\terminal.obj \
+    $(_OBJ_DIR)\i386\talkdrop.obj \
+    $(_OBJ_DIR)\i386\manual.obj \
+    $(_OBJ_DIR)\i386\umdminit.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\ov_pool.obj \
+    $(_OBJ_DIR)\i386\tracing.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\unimdm.res \
+    $(_OBJ_DIR)\ppc\common.obj \
+    $(_OBJ_DIR)\ppc\log.obj \
+    $(_OBJ_DIR)\ppc\unimdm.obj \
+    $(_OBJ_DIR)\ppc\mdmutil.obj \
+    $(_OBJ_DIR)\ppc\modem.obj \
+    $(_OBJ_DIR)\ppc\devioctl.obj \
+    $(_OBJ_DIR)\ppc\mdmasyn.obj \
+    $(_OBJ_DIR)\ppc\mcxstate.obj \
+    $(_OBJ_DIR)\ppc\mcxutil.obj \
+    $(_OBJ_DIR)\ppc\mcxapi.obj \
+    $(_OBJ_DIR)\ppc\mcxrw.obj \
+    $(_OBJ_DIR)\ppc\wndthrd.obj \
+    $(_OBJ_DIR)\ppc\cfgdlg.obj \
+    $(_OBJ_DIR)\ppc\terminal.obj \
+    $(_OBJ_DIR)\ppc\talkdrop.obj \
+    $(_OBJ_DIR)\ppc\manual.obj \
+    $(_OBJ_DIR)\ppc\umdminit.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\ov_pool.obj \
+    $(_OBJ_DIR)\ppc\tracing.obj
+
+PASS0_PPC_OBJECTS=
+

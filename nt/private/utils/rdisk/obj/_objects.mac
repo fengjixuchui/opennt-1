@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\resource.res \
+    $(_OBJ_DIR)\alpha\config.obj \
+    $(_OBJ_DIR)\alpha\format.obj \
+    $(_OBJ_DIR)\alpha\floppyop.obj \
+    $(_OBJ_DIR)\alpha\help.obj \
+    $(_OBJ_DIR)\alpha\diamond.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\resource.res \
+    $(_OBJ_DIR)\mips\config.obj \
+    $(_OBJ_DIR)\mips\format.obj \
+    $(_OBJ_DIR)\mips\floppyop.obj \
+    $(_OBJ_DIR)\mips\help.obj \
+    $(_OBJ_DIR)\mips\diamond.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\resource.res \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\format.obj \
+    $(_OBJ_DIR)\i386\floppyop.obj \
+    $(_OBJ_DIR)\i386\help.obj \
+    $(_OBJ_DIR)\i386\diamond.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\resource.res \
+    $(_OBJ_DIR)\ppc\config.obj \
+    $(_OBJ_DIR)\ppc\format.obj \
+    $(_OBJ_DIR)\ppc\floppyop.obj \
+    $(_OBJ_DIR)\ppc\help.obj \
+    $(_OBJ_DIR)\ppc\diamond.obj
+
+PASS0_PPC_OBJECTS=
+

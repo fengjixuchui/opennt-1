@@ -1,0 +1,22 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\wdhard.obj \
+    $(_OBJ_DIR)\i386\lcd.obj \
+    $(_OBJ_DIR)\i386\wdvga.res \
+    $(_OBJ_DIR)\i386\modeset.obj \
+    $(_OBJ_DIR)\i386\wdvga.obj \
+    $(_OBJ_DIR)\i386\wddata.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,172 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dynacomm.res \
+    $(_OBJ_DIR)\alpha\asm2c_32.obj \
+    $(_OBJ_DIR)\alpha\chrpaint.obj \
+    $(_OBJ_DIR)\alpha\connect.obj \
+    $(_OBJ_DIR)\alpha\datestuf.obj \
+    $(_OBJ_DIR)\alpha\dcutil0.obj \
+    $(_OBJ_DIR)\alpha\dcutil1.obj \
+    $(_OBJ_DIR)\alpha\dcutil2.obj \
+    $(_OBJ_DIR)\alpha\dcutil3.obj \
+    $(_OBJ_DIR)\alpha\dofile.obj \
+    $(_OBJ_DIR)\alpha\fileopen.obj \
+    $(_OBJ_DIR)\alpha\icon.obj \
+    $(_OBJ_DIR)\alpha\kermit.obj \
+    $(_OBJ_DIR)\alpha\keyboard.obj \
+    $(_OBJ_DIR)\alpha\mdmutil.obj \
+    $(_OBJ_DIR)\alpha\menus.obj \
+    $(_OBJ_DIR)\alpha\messages.obj \
+    $(_OBJ_DIR)\alpha\modeminp.obj \
+    $(_OBJ_DIR)\alpha\phone.obj \
+    $(_OBJ_DIR)\alpha\printfil.obj \
+    $(_OBJ_DIR)\alpha\prtsetup.obj \
+    $(_OBJ_DIR)\alpha\pwin32.obj \
+    $(_OBJ_DIR)\alpha\rcvbfile.obj \
+    $(_OBJ_DIR)\alpha\rdmodem.obj \
+    $(_OBJ_DIR)\alpha\scroll.obj \
+    $(_OBJ_DIR)\alpha\serial.obj \
+    $(_OBJ_DIR)\alpha\settings.obj \
+    $(_OBJ_DIR)\alpha\showstat.obj \
+    $(_OBJ_DIR)\alpha\sndbfile.obj \
+    $(_OBJ_DIR)\alpha\term.obj \
+    $(_OBJ_DIR)\alpha\termfile.obj \
+    $(_OBJ_DIR)\alpha\terminal.obj \
+    $(_OBJ_DIR)\alpha\textxfer.obj \
+    $(_OBJ_DIR)\alpha\trmspcl.obj \
+    $(_OBJ_DIR)\alpha\tskctrl.obj \
+    $(_OBJ_DIR)\alpha\winmain.obj \
+    $(_OBJ_DIR)\alpha\wndproc.obj \
+    $(_OBJ_DIR)\alpha\xferutil.obj \
+    $(_OBJ_DIR)\alpha\xmodem.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dynacomm.res \
+    $(_OBJ_DIR)\mips\asm2c_32.obj \
+    $(_OBJ_DIR)\mips\chrpaint.obj \
+    $(_OBJ_DIR)\mips\connect.obj \
+    $(_OBJ_DIR)\mips\datestuf.obj \
+    $(_OBJ_DIR)\mips\dcutil0.obj \
+    $(_OBJ_DIR)\mips\dcutil1.obj \
+    $(_OBJ_DIR)\mips\dcutil2.obj \
+    $(_OBJ_DIR)\mips\dcutil3.obj \
+    $(_OBJ_DIR)\mips\dofile.obj \
+    $(_OBJ_DIR)\mips\fileopen.obj \
+    $(_OBJ_DIR)\mips\icon.obj \
+    $(_OBJ_DIR)\mips\kermit.obj \
+    $(_OBJ_DIR)\mips\keyboard.obj \
+    $(_OBJ_DIR)\mips\mdmutil.obj \
+    $(_OBJ_DIR)\mips\menus.obj \
+    $(_OBJ_DIR)\mips\messages.obj \
+    $(_OBJ_DIR)\mips\modeminp.obj \
+    $(_OBJ_DIR)\mips\phone.obj \
+    $(_OBJ_DIR)\mips\printfil.obj \
+    $(_OBJ_DIR)\mips\prtsetup.obj \
+    $(_OBJ_DIR)\mips\pwin32.obj \
+    $(_OBJ_DIR)\mips\rcvbfile.obj \
+    $(_OBJ_DIR)\mips\rdmodem.obj \
+    $(_OBJ_DIR)\mips\scroll.obj \
+    $(_OBJ_DIR)\mips\serial.obj \
+    $(_OBJ_DIR)\mips\settings.obj \
+    $(_OBJ_DIR)\mips\showstat.obj \
+    $(_OBJ_DIR)\mips\sndbfile.obj \
+    $(_OBJ_DIR)\mips\term.obj \
+    $(_OBJ_DIR)\mips\termfile.obj \
+    $(_OBJ_DIR)\mips\terminal.obj \
+    $(_OBJ_DIR)\mips\textxfer.obj \
+    $(_OBJ_DIR)\mips\trmspcl.obj \
+    $(_OBJ_DIR)\mips\tskctrl.obj \
+    $(_OBJ_DIR)\mips\winmain.obj \
+    $(_OBJ_DIR)\mips\wndproc.obj \
+    $(_OBJ_DIR)\mips\xferutil.obj \
+    $(_OBJ_DIR)\mips\xmodem.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dynacomm.res \
+    $(_OBJ_DIR)\i386\asm2c_32.obj \
+    $(_OBJ_DIR)\i386\chrpaint.obj \
+    $(_OBJ_DIR)\i386\connect.obj \
+    $(_OBJ_DIR)\i386\datestuf.obj \
+    $(_OBJ_DIR)\i386\dcutil0.obj \
+    $(_OBJ_DIR)\i386\dcutil1.obj \
+    $(_OBJ_DIR)\i386\dcutil2.obj \
+    $(_OBJ_DIR)\i386\dcutil3.obj \
+    $(_OBJ_DIR)\i386\dofile.obj \
+    $(_OBJ_DIR)\i386\fileopen.obj \
+    $(_OBJ_DIR)\i386\icon.obj \
+    $(_OBJ_DIR)\i386\kermit.obj \
+    $(_OBJ_DIR)\i386\keyboard.obj \
+    $(_OBJ_DIR)\i386\mdmutil.obj \
+    $(_OBJ_DIR)\i386\menus.obj \
+    $(_OBJ_DIR)\i386\messages.obj \
+    $(_OBJ_DIR)\i386\modeminp.obj \
+    $(_OBJ_DIR)\i386\phone.obj \
+    $(_OBJ_DIR)\i386\printfil.obj \
+    $(_OBJ_DIR)\i386\prtsetup.obj \
+    $(_OBJ_DIR)\i386\pwin32.obj \
+    $(_OBJ_DIR)\i386\rcvbfile.obj \
+    $(_OBJ_DIR)\i386\rdmodem.obj \
+    $(_OBJ_DIR)\i386\scroll.obj \
+    $(_OBJ_DIR)\i386\serial.obj \
+    $(_OBJ_DIR)\i386\settings.obj \
+    $(_OBJ_DIR)\i386\showstat.obj \
+    $(_OBJ_DIR)\i386\sndbfile.obj \
+    $(_OBJ_DIR)\i386\term.obj \
+    $(_OBJ_DIR)\i386\termfile.obj \
+    $(_OBJ_DIR)\i386\terminal.obj \
+    $(_OBJ_DIR)\i386\textxfer.obj \
+    $(_OBJ_DIR)\i386\trmspcl.obj \
+    $(_OBJ_DIR)\i386\tskctrl.obj \
+    $(_OBJ_DIR)\i386\winmain.obj \
+    $(_OBJ_DIR)\i386\wndproc.obj \
+    $(_OBJ_DIR)\i386\xferutil.obj \
+    $(_OBJ_DIR)\i386\xmodem.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dynacomm.res \
+    $(_OBJ_DIR)\ppc\asm2c_32.obj \
+    $(_OBJ_DIR)\ppc\chrpaint.obj \
+    $(_OBJ_DIR)\ppc\connect.obj \
+    $(_OBJ_DIR)\ppc\datestuf.obj \
+    $(_OBJ_DIR)\ppc\dcutil0.obj \
+    $(_OBJ_DIR)\ppc\dcutil1.obj \
+    $(_OBJ_DIR)\ppc\dcutil2.obj \
+    $(_OBJ_DIR)\ppc\dcutil3.obj \
+    $(_OBJ_DIR)\ppc\dofile.obj \
+    $(_OBJ_DIR)\ppc\fileopen.obj \
+    $(_OBJ_DIR)\ppc\icon.obj \
+    $(_OBJ_DIR)\ppc\kermit.obj \
+    $(_OBJ_DIR)\ppc\keyboard.obj \
+    $(_OBJ_DIR)\ppc\mdmutil.obj \
+    $(_OBJ_DIR)\ppc\menus.obj \
+    $(_OBJ_DIR)\ppc\messages.obj \
+    $(_OBJ_DIR)\ppc\modeminp.obj \
+    $(_OBJ_DIR)\ppc\phone.obj \
+    $(_OBJ_DIR)\ppc\printfil.obj \
+    $(_OBJ_DIR)\ppc\prtsetup.obj \
+    $(_OBJ_DIR)\ppc\pwin32.obj \
+    $(_OBJ_DIR)\ppc\rcvbfile.obj \
+    $(_OBJ_DIR)\ppc\rdmodem.obj \
+    $(_OBJ_DIR)\ppc\scroll.obj \
+    $(_OBJ_DIR)\ppc\serial.obj \
+    $(_OBJ_DIR)\ppc\settings.obj \
+    $(_OBJ_DIR)\ppc\showstat.obj \
+    $(_OBJ_DIR)\ppc\sndbfile.obj \
+    $(_OBJ_DIR)\ppc\term.obj \
+    $(_OBJ_DIR)\ppc\termfile.obj \
+    $(_OBJ_DIR)\ppc\terminal.obj \
+    $(_OBJ_DIR)\ppc\textxfer.obj \
+    $(_OBJ_DIR)\ppc\trmspcl.obj \
+    $(_OBJ_DIR)\ppc\tskctrl.obj \
+    $(_OBJ_DIR)\ppc\winmain.obj \
+    $(_OBJ_DIR)\ppc\wndproc.obj \
+    $(_OBJ_DIR)\ppc\xferutil.obj \
+    $(_OBJ_DIR)\ppc\xmodem.obj
+
+PASS0_PPC_OBJECTS=
+

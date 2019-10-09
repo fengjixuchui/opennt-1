@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\netbios.res \
+    $(_OBJ_DIR)\alpha\dllmain.obj \
+    $(_OBJ_DIR)\alpha\netbios.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\netbios.res \
+    $(_OBJ_DIR)\mips\dllmain.obj \
+    $(_OBJ_DIR)\mips\netbios.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\netbios.res \
+    $(_OBJ_DIR)\i386\dllmain.obj \
+    $(_OBJ_DIR)\i386\netbios.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\netbios.res \
+    $(_OBJ_DIR)\ppc\dllmain.obj \
+    $(_OBJ_DIR)\ppc\netbios.obj
+
+PASS0_PPC_OBJECTS=
+

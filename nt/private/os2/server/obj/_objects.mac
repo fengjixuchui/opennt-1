@@ -1,0 +1,124 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\os2srv.res \
+    $(_OBJ_DIR)\alpha\srvdebug.obj \
+    $(_OBJ_DIR)\alpha\srvnls.obj \
+    $(_OBJ_DIR)\alpha\srvevent.obj \
+    $(_OBJ_DIR)\alpha\srvinit.obj \
+    $(_OBJ_DIR)\alpha\srvcnfg.obj \
+    $(_OBJ_DIR)\alpha\srvnet.obj \
+    $(_OBJ_DIR)\alpha\srvfile.obj \
+    $(_OBJ_DIR)\alpha\srvmutex.obj \
+    $(_OBJ_DIR)\alpha\srvmuxwt.obj \
+    $(_OBJ_DIR)\alpha\srvname.obj \
+    $(_OBJ_DIR)\alpha\srvobjmn.obj \
+    $(_OBJ_DIR)\alpha\srvque.obj \
+    $(_OBJ_DIR)\alpha\srvsem.obj \
+    $(_OBJ_DIR)\alpha\srvsm.obj \
+    $(_OBJ_DIR)\alpha\srvtask.obj \
+    $(_OBJ_DIR)\alpha\srvvm.obj \
+    $(_OBJ_DIR)\alpha\srvxcpt.obj \
+    $(_OBJ_DIR)\alpha\srvwin.obj \
+    $(_OBJ_DIR)\alpha\apiinit.obj \
+    $(_OBJ_DIR)\alpha\apireqst.obj \
+    $(_OBJ_DIR)\alpha\process.obj \
+    $(_OBJ_DIR)\alpha\wait.obj \
+    $(_OBJ_DIR)\alpha\coninit.obj \
+    $(_OBJ_DIR)\alpha\conthrds.obj \
+    $(_OBJ_DIR)\alpha\concreat.obj \
+    $(_OBJ_DIR)\alpha\consignl.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\os2srv.res \
+    $(_OBJ_DIR)\mips\srvdebug.obj \
+    $(_OBJ_DIR)\mips\srvnls.obj \
+    $(_OBJ_DIR)\mips\srvevent.obj \
+    $(_OBJ_DIR)\mips\srvinit.obj \
+    $(_OBJ_DIR)\mips\srvcnfg.obj \
+    $(_OBJ_DIR)\mips\srvnet.obj \
+    $(_OBJ_DIR)\mips\srvfile.obj \
+    $(_OBJ_DIR)\mips\srvmutex.obj \
+    $(_OBJ_DIR)\mips\srvmuxwt.obj \
+    $(_OBJ_DIR)\mips\srvname.obj \
+    $(_OBJ_DIR)\mips\srvobjmn.obj \
+    $(_OBJ_DIR)\mips\srvque.obj \
+    $(_OBJ_DIR)\mips\srvsem.obj \
+    $(_OBJ_DIR)\mips\srvsm.obj \
+    $(_OBJ_DIR)\mips\srvtask.obj \
+    $(_OBJ_DIR)\mips\srvvm.obj \
+    $(_OBJ_DIR)\mips\srvxcpt.obj \
+    $(_OBJ_DIR)\mips\srvwin.obj \
+    $(_OBJ_DIR)\mips\apiinit.obj \
+    $(_OBJ_DIR)\mips\apireqst.obj \
+    $(_OBJ_DIR)\mips\process.obj \
+    $(_OBJ_DIR)\mips\wait.obj \
+    $(_OBJ_DIR)\mips\coninit.obj \
+    $(_OBJ_DIR)\mips\conthrds.obj \
+    $(_OBJ_DIR)\mips\concreat.obj \
+    $(_OBJ_DIR)\mips\consignl.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\os2srv.res \
+    $(_OBJ_DIR)\i386\srvdebug.obj \
+    $(_OBJ_DIR)\i386\srvnls.obj \
+    $(_OBJ_DIR)\i386\srvevent.obj \
+    $(_OBJ_DIR)\i386\srvinit.obj \
+    $(_OBJ_DIR)\i386\srvcnfg.obj \
+    $(_OBJ_DIR)\i386\srvnet.obj \
+    $(_OBJ_DIR)\i386\srvfile.obj \
+    $(_OBJ_DIR)\i386\srvmutex.obj \
+    $(_OBJ_DIR)\i386\srvmuxwt.obj \
+    $(_OBJ_DIR)\i386\srvname.obj \
+    $(_OBJ_DIR)\i386\srvobjmn.obj \
+    $(_OBJ_DIR)\i386\srvque.obj \
+    $(_OBJ_DIR)\i386\srvsem.obj \
+    $(_OBJ_DIR)\i386\srvsm.obj \
+    $(_OBJ_DIR)\i386\srvtask.obj \
+    $(_OBJ_DIR)\i386\srvvm.obj \
+    $(_OBJ_DIR)\i386\srvxcpt.obj \
+    $(_OBJ_DIR)\i386\srvwin.obj \
+    $(_OBJ_DIR)\i386\apiinit.obj \
+    $(_OBJ_DIR)\i386\apireqst.obj \
+    $(_OBJ_DIR)\i386\process.obj \
+    $(_OBJ_DIR)\i386\wait.obj \
+    $(_OBJ_DIR)\i386\coninit.obj \
+    $(_OBJ_DIR)\i386\conthrds.obj \
+    $(_OBJ_DIR)\i386\concreat.obj \
+    $(_OBJ_DIR)\i386\consignl.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\os2srv.res \
+    $(_OBJ_DIR)\ppc\srvdebug.obj \
+    $(_OBJ_DIR)\ppc\srvnls.obj \
+    $(_OBJ_DIR)\ppc\srvevent.obj \
+    $(_OBJ_DIR)\ppc\srvinit.obj \
+    $(_OBJ_DIR)\ppc\srvcnfg.obj \
+    $(_OBJ_DIR)\ppc\srvnet.obj \
+    $(_OBJ_DIR)\ppc\srvfile.obj \
+    $(_OBJ_DIR)\ppc\srvmutex.obj \
+    $(_OBJ_DIR)\ppc\srvmuxwt.obj \
+    $(_OBJ_DIR)\ppc\srvname.obj \
+    $(_OBJ_DIR)\ppc\srvobjmn.obj \
+    $(_OBJ_DIR)\ppc\srvque.obj \
+    $(_OBJ_DIR)\ppc\srvsem.obj \
+    $(_OBJ_DIR)\ppc\srvsm.obj \
+    $(_OBJ_DIR)\ppc\srvtask.obj \
+    $(_OBJ_DIR)\ppc\srvvm.obj \
+    $(_OBJ_DIR)\ppc\srvxcpt.obj \
+    $(_OBJ_DIR)\ppc\srvwin.obj \
+    $(_OBJ_DIR)\ppc\apiinit.obj \
+    $(_OBJ_DIR)\ppc\apireqst.obj \
+    $(_OBJ_DIR)\ppc\process.obj \
+    $(_OBJ_DIR)\ppc\wait.obj \
+    $(_OBJ_DIR)\ppc\coninit.obj \
+    $(_OBJ_DIR)\ppc\conthrds.obj \
+    $(_OBJ_DIR)\ppc\concreat.obj \
+    $(_OBJ_DIR)\ppc\consignl.obj
+
+PASS0_PPC_OBJECTS=
+

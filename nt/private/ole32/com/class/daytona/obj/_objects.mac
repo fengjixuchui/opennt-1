@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\getif_i.obj \
+    $(_OBJ_DIR)\alpha\irot_c.obj \
+    $(_OBJ_DIR)\alpha\scm_c.obj \
+    $(_OBJ_DIR)\alpha\alocdbg.obj \
+    $(_OBJ_DIR)\alpha\cerror.obj \
+    $(_OBJ_DIR)\alpha\cocrguid.obj \
+    $(_OBJ_DIR)\alpha\compapi.obj \
+    $(_OBJ_DIR)\alpha\compobj.obj \
+    $(_OBJ_DIR)\alpha\cspytbl.obj \
+    $(_OBJ_DIR)\alpha\longpath.obj \
+    $(_OBJ_DIR)\alpha\memapi.obj \
+    $(_OBJ_DIR)\alpha\ole1guid.obj \
+    $(_OBJ_DIR)\alpha\tls.obj \
+    $(_OBJ_DIR)\alpha\tracelog.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\getif_i.obj \
+    $(_OBJ_DIR)\mips\irot_c.obj \
+    $(_OBJ_DIR)\mips\scm_c.obj \
+    $(_OBJ_DIR)\mips\alocdbg.obj \
+    $(_OBJ_DIR)\mips\cerror.obj \
+    $(_OBJ_DIR)\mips\cocrguid.obj \
+    $(_OBJ_DIR)\mips\compapi.obj \
+    $(_OBJ_DIR)\mips\compobj.obj \
+    $(_OBJ_DIR)\mips\cspytbl.obj \
+    $(_OBJ_DIR)\mips\longpath.obj \
+    $(_OBJ_DIR)\mips\memapi.obj \
+    $(_OBJ_DIR)\mips\ole1guid.obj \
+    $(_OBJ_DIR)\mips\tls.obj \
+    $(_OBJ_DIR)\mips\tracelog.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\getif_i.obj \
+    $(_OBJ_DIR)\i386\irot_c.obj \
+    $(_OBJ_DIR)\i386\scm_c.obj \
+    $(_OBJ_DIR)\i386\alocdbg.obj \
+    $(_OBJ_DIR)\i386\cerror.obj \
+    $(_OBJ_DIR)\i386\cocrguid.obj \
+    $(_OBJ_DIR)\i386\compapi.obj \
+    $(_OBJ_DIR)\i386\compobj.obj \
+    $(_OBJ_DIR)\i386\cspytbl.obj \
+    $(_OBJ_DIR)\i386\longpath.obj \
+    $(_OBJ_DIR)\i386\memapi.obj \
+    $(_OBJ_DIR)\i386\ole1guid.obj \
+    $(_OBJ_DIR)\i386\tls.obj \
+    $(_OBJ_DIR)\i386\tracelog.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\getif_i.obj \
+    $(_OBJ_DIR)\ppc\irot_c.obj \
+    $(_OBJ_DIR)\ppc\scm_c.obj \
+    $(_OBJ_DIR)\ppc\alocdbg.obj \
+    $(_OBJ_DIR)\ppc\cerror.obj \
+    $(_OBJ_DIR)\ppc\cocrguid.obj \
+    $(_OBJ_DIR)\ppc\compapi.obj \
+    $(_OBJ_DIR)\ppc\compobj.obj \
+    $(_OBJ_DIR)\ppc\cspytbl.obj \
+    $(_OBJ_DIR)\ppc\longpath.obj \
+    $(_OBJ_DIR)\ppc\memapi.obj \
+    $(_OBJ_DIR)\ppc\ole1guid.obj \
+    $(_OBJ_DIR)\ppc\tls.obj \
+    $(_OBJ_DIR)\ppc\tracelog.obj
+
+PASS0_PPC_OBJECTS=
+

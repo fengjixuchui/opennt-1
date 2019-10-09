@@ -1,0 +1,54 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\empty.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\lldiv.obj \
+    $(_OBJ_DIR)\mips\llbit.obj \
+    $(_OBJ_DIR)\mips\llabsdiv.obj \
+    $(_OBJ_DIR)\mips\empty.obj \
+    $(_OBJ_DIR)\mips\llcvt.obj \
+    $(_OBJ_DIR)\mips\lldivrem.obj \
+    $(_OBJ_DIR)\mips\llmul.obj \
+    $(_OBJ_DIR)\mips\llshift.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\lldiv.obj \
+    $(_OBJ_DIR)\i386\llmul.obj \
+    $(_OBJ_DIR)\i386\llrem.obj \
+    $(_OBJ_DIR)\i386\llshl.obj \
+    $(_OBJ_DIR)\i386\llshr.obj \
+    $(_OBJ_DIR)\i386\ulldiv.obj \
+    $(_OBJ_DIR)\i386\ullrem.obj \
+    $(_OBJ_DIR)\i386\ullshr.obj \
+    $(_OBJ_DIR)\i386\empty.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\empty.obj \
+    $(_OBJ_DIR)\ppc\dtoi.obj \
+    $(_OBJ_DIR)\ppc\dtoi64.obj \
+    $(_OBJ_DIR)\ppc\dtou.obj \
+    $(_OBJ_DIR)\ppc\dtou64.obj \
+    $(_OBJ_DIR)\ppc\i64div.obj \
+    $(_OBJ_DIR)\ppc\i64rem.obj \
+    $(_OBJ_DIR)\ppc\i64tod.obj \
+    $(_OBJ_DIR)\ppc\icall.obj \
+    $(_OBJ_DIR)\ppc\itod.obj \
+    $(_OBJ_DIR)\ppc\itof.obj \
+    $(_OBJ_DIR)\ppc\restfpr.obj \
+    $(_OBJ_DIR)\ppc\restgpr.obj \
+    $(_OBJ_DIR)\ppc\savefpr.obj \
+    $(_OBJ_DIR)\ppc\savegpr.obj \
+    $(_OBJ_DIR)\ppc\u64div.obj \
+    $(_OBJ_DIR)\ppc\u64rem.obj \
+    $(_OBJ_DIR)\ppc\u64tod.obj \
+    $(_OBJ_DIR)\ppc\utod.obj \
+    $(_OBJ_DIR)\ppc\utof.obj
+
+PASS0_PPC_OBJECTS=
+

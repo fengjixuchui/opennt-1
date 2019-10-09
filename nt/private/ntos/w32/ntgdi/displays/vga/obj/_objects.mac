@@ -1,0 +1,59 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\res.res \
+    $(_OBJ_DIR)\i386\alignblt.obj \
+    $(_OBJ_DIR)\i386\blt.obj \
+    $(_OBJ_DIR)\i386\brushes.obj \
+    $(_OBJ_DIR)\i386\cblt.obj \
+    $(_OBJ_DIR)\i386\colorpat.obj \
+    $(_OBJ_DIR)\i386\cpybits.obj \
+    $(_OBJ_DIR)\i386\dfb2dfb.obj \
+    $(_OBJ_DIR)\i386\dfb2dib.obj \
+    $(_OBJ_DIR)\i386\dfb2vga.obj \
+    $(_OBJ_DIR)\i386\dfbfill.obj \
+    $(_OBJ_DIR)\i386\dfbline.obj \
+    $(_OBJ_DIR)\i386\dfbpat.obj \
+    $(_OBJ_DIR)\i386\dib2vga.obj \
+    $(_OBJ_DIR)\i386\dibs.obj \
+    $(_OBJ_DIR)\i386\fasttext.obj \
+    $(_OBJ_DIR)\i386\nalgnblt.obj \
+    $(_OBJ_DIR)\i386\patblt.obj \
+    $(_OBJ_DIR)\i386\pointer.obj \
+    $(_OBJ_DIR)\i386\restscrn.obj \
+    $(_OBJ_DIR)\i386\rleblts.obj \
+    $(_OBJ_DIR)\i386\savescrn.obj \
+    $(_OBJ_DIR)\i386\vgablts.obj \
+    $(_OBJ_DIR)\i386\vgalines.obj \
+    $(_OBJ_DIR)\i386\vgaregs.obj \
+    $(_OBJ_DIR)\i386\vgastrps.obj \
+    $(_OBJ_DIR)\i386\bank.obj \
+    $(_OBJ_DIR)\i386\bitblt.obj \
+    $(_OBJ_DIR)\i386\brush.obj \
+    $(_OBJ_DIR)\i386\color.obj \
+    $(_OBJ_DIR)\i386\copybits.obj \
+    $(_OBJ_DIR)\i386\creatdfb.obj \
+    $(_OBJ_DIR)\i386\cursor.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\enable.obj \
+    $(_OBJ_DIR)\i386\fillpath.obj \
+    $(_OBJ_DIR)\i386\gdiinfo.obj \
+    $(_OBJ_DIR)\i386\hardware.obj \
+    $(_OBJ_DIR)\i386\paint.obj \
+    $(_OBJ_DIR)\i386\rleblt.obj \
+    $(_OBJ_DIR)\i386\savescr.obj \
+    $(_OBJ_DIR)\i386\stroke.obj \
+    $(_OBJ_DIR)\i386\textout.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

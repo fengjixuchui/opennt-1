@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\stripinf.res \
+    $(_OBJ_DIR)\alpha\stripinf.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\stripinf.res \
+    $(_OBJ_DIR)\mips\stripinf.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\stripinf.res \
+    $(_OBJ_DIR)\i386\stripinf.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\stripinf.res \
+    $(_OBJ_DIR)\ppc\stripinf.obj
+
+PASS0_PPC_OBJECTS=
+

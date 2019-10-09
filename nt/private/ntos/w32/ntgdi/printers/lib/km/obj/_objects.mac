@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mapfile.obj \
+    $(_OBJ_DIR)\alpha\halftone.obj \
+    $(_OBJ_DIR)\alpha\devmode.obj \
+    $(_OBJ_DIR)\alpha\str.obj \
+    $(_OBJ_DIR)\alpha\memory.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mapfile.obj \
+    $(_OBJ_DIR)\mips\halftone.obj \
+    $(_OBJ_DIR)\mips\devmode.obj \
+    $(_OBJ_DIR)\mips\str.obj \
+    $(_OBJ_DIR)\mips\memory.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mapfile.obj \
+    $(_OBJ_DIR)\i386\halftone.obj \
+    $(_OBJ_DIR)\i386\devmode.obj \
+    $(_OBJ_DIR)\i386\str.obj \
+    $(_OBJ_DIR)\i386\memory.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mapfile.obj \
+    $(_OBJ_DIR)\ppc\halftone.obj \
+    $(_OBJ_DIR)\ppc\devmode.obj \
+    $(_OBJ_DIR)\ppc\str.obj \
+    $(_OBJ_DIR)\ppc\memory.obj
+
+PASS0_PPC_OBJECTS=
+

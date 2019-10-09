@@ -1,0 +1,80 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dprintf.obj \
+    $(_OBJ_DIR)\alpha\output.obj \
+    $(_OBJ_DIR)\alpha\printf.obj \
+    $(_OBJ_DIR)\alpha\sprintf.obj \
+    $(_OBJ_DIR)\alpha\outfuncs.obj \
+    $(_OBJ_DIR)\alpha\assert.obj \
+    $(_OBJ_DIR)\alpha\ccompapi.obj \
+    $(_OBJ_DIR)\alpha\eqguid.obj \
+    $(_OBJ_DIR)\alpha\olesem.obj \
+    $(_OBJ_DIR)\alpha\buffer.obj \
+    $(_OBJ_DIR)\alpha\oleprint.obj \
+    $(_OBJ_DIR)\alpha\oletype.obj \
+    $(_OBJ_DIR)\alpha\dynload.obj \
+    $(_OBJ_DIR)\alpha\trace.obj \
+    $(_OBJ_DIR)\alpha\olescm.obj \
+    $(_OBJ_DIR)\alpha\comsrgt.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dprintf.obj \
+    $(_OBJ_DIR)\mips\output.obj \
+    $(_OBJ_DIR)\mips\printf.obj \
+    $(_OBJ_DIR)\mips\sprintf.obj \
+    $(_OBJ_DIR)\mips\outfuncs.obj \
+    $(_OBJ_DIR)\mips\assert.obj \
+    $(_OBJ_DIR)\mips\ccompapi.obj \
+    $(_OBJ_DIR)\mips\eqguid.obj \
+    $(_OBJ_DIR)\mips\olesem.obj \
+    $(_OBJ_DIR)\mips\buffer.obj \
+    $(_OBJ_DIR)\mips\oleprint.obj \
+    $(_OBJ_DIR)\mips\oletype.obj \
+    $(_OBJ_DIR)\mips\dynload.obj \
+    $(_OBJ_DIR)\mips\trace.obj \
+    $(_OBJ_DIR)\mips\olescm.obj \
+    $(_OBJ_DIR)\mips\comsrgt.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dprintf.obj \
+    $(_OBJ_DIR)\i386\output.obj \
+    $(_OBJ_DIR)\i386\printf.obj \
+    $(_OBJ_DIR)\i386\sprintf.obj \
+    $(_OBJ_DIR)\i386\outfuncs.obj \
+    $(_OBJ_DIR)\i386\assert.obj \
+    $(_OBJ_DIR)\i386\ccompapi.obj \
+    $(_OBJ_DIR)\i386\eqguid.obj \
+    $(_OBJ_DIR)\i386\olesem.obj \
+    $(_OBJ_DIR)\i386\buffer.obj \
+    $(_OBJ_DIR)\i386\oleprint.obj \
+    $(_OBJ_DIR)\i386\oletype.obj \
+    $(_OBJ_DIR)\i386\dynload.obj \
+    $(_OBJ_DIR)\i386\trace.obj \
+    $(_OBJ_DIR)\i386\olescm.obj \
+    $(_OBJ_DIR)\i386\comsrgt.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dprintf.obj \
+    $(_OBJ_DIR)\ppc\output.obj \
+    $(_OBJ_DIR)\ppc\printf.obj \
+    $(_OBJ_DIR)\ppc\sprintf.obj \
+    $(_OBJ_DIR)\ppc\outfuncs.obj \
+    $(_OBJ_DIR)\ppc\assert.obj \
+    $(_OBJ_DIR)\ppc\ccompapi.obj \
+    $(_OBJ_DIR)\ppc\eqguid.obj \
+    $(_OBJ_DIR)\ppc\olesem.obj \
+    $(_OBJ_DIR)\ppc\buffer.obj \
+    $(_OBJ_DIR)\ppc\oleprint.obj \
+    $(_OBJ_DIR)\ppc\oletype.obj \
+    $(_OBJ_DIR)\ppc\dynload.obj \
+    $(_OBJ_DIR)\ppc\trace.obj \
+    $(_OBJ_DIR)\ppc\olescm.obj \
+    $(_OBJ_DIR)\ppc\comsrgt.obj
+
+PASS0_PPC_OBJECTS=
+

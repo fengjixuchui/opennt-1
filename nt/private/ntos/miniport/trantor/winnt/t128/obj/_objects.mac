@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\t128.res \
+    $(_OBJ_DIR)\alpha\trantor.obj \
+    $(_OBJ_DIR)\alpha\scsifnc.obj \
+    $(_OBJ_DIR)\alpha\n5380.obj \
+    $(_OBJ_DIR)\alpha\card.obj \
+    $(_OBJ_DIR)\alpha\t128.obj \
+    $(_OBJ_DIR)\alpha\portmem.obj \
+    $(_OBJ_DIR)\alpha\cardutil.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\t128.res \
+    $(_OBJ_DIR)\mips\trantor.obj \
+    $(_OBJ_DIR)\mips\scsifnc.obj \
+    $(_OBJ_DIR)\mips\n5380.obj \
+    $(_OBJ_DIR)\mips\card.obj \
+    $(_OBJ_DIR)\mips\t128.obj \
+    $(_OBJ_DIR)\mips\portmem.obj \
+    $(_OBJ_DIR)\mips\cardutil.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\t128.res \
+    $(_OBJ_DIR)\i386\trantor.obj \
+    $(_OBJ_DIR)\i386\scsifnc.obj \
+    $(_OBJ_DIR)\i386\n5380.obj \
+    $(_OBJ_DIR)\i386\card.obj \
+    $(_OBJ_DIR)\i386\t128.obj \
+    $(_OBJ_DIR)\i386\portmem.obj \
+    $(_OBJ_DIR)\i386\cardutil.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\t128.res \
+    $(_OBJ_DIR)\ppc\trantor.obj \
+    $(_OBJ_DIR)\ppc\scsifnc.obj \
+    $(_OBJ_DIR)\ppc\n5380.obj \
+    $(_OBJ_DIR)\ppc\card.obj \
+    $(_OBJ_DIR)\ppc\t128.obj \
+    $(_OBJ_DIR)\ppc\portmem.obj \
+    $(_OBJ_DIR)\ppc\cardutil.obj
+
+PASS0_PPC_OBJECTS=
+

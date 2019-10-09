@@ -1,0 +1,136 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\nbf.res \
+    $(_OBJ_DIR)\alpha\action.obj \
+    $(_OBJ_DIR)\alpha\address.obj \
+    $(_OBJ_DIR)\alpha\autodial.obj \
+    $(_OBJ_DIR)\alpha\connect.obj \
+    $(_OBJ_DIR)\alpha\connobj.obj \
+    $(_OBJ_DIR)\alpha\devctx.obj \
+    $(_OBJ_DIR)\alpha\dlc.obj \
+    $(_OBJ_DIR)\alpha\event.obj \
+    $(_OBJ_DIR)\alpha\framecon.obj \
+    $(_OBJ_DIR)\alpha\framesnd.obj \
+    $(_OBJ_DIR)\alpha\iframes.obj \
+    $(_OBJ_DIR)\alpha\info.obj \
+    $(_OBJ_DIR)\alpha\link.obj \
+    $(_OBJ_DIR)\alpha\linktree.obj \
+    $(_OBJ_DIR)\alpha\nbfcnfg.obj \
+    $(_OBJ_DIR)\alpha\nbfdrvr.obj \
+    $(_OBJ_DIR)\alpha\nbfdebug.obj \
+    $(_OBJ_DIR)\alpha\nbfmac.obj \
+    $(_OBJ_DIR)\alpha\nbfndis.obj \
+    $(_OBJ_DIR)\alpha\nbfpnp.obj \
+    $(_OBJ_DIR)\alpha\packet.obj \
+    $(_OBJ_DIR)\alpha\rcv.obj \
+    $(_OBJ_DIR)\alpha\rcveng.obj \
+    $(_OBJ_DIR)\alpha\request.obj \
+    $(_OBJ_DIR)\alpha\send.obj \
+    $(_OBJ_DIR)\alpha\sendeng.obj \
+    $(_OBJ_DIR)\alpha\spnlckdb.obj \
+    $(_OBJ_DIR)\alpha\timer.obj \
+    $(_OBJ_DIR)\alpha\uframes.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\nbf.res \
+    $(_OBJ_DIR)\mips\action.obj \
+    $(_OBJ_DIR)\mips\address.obj \
+    $(_OBJ_DIR)\mips\autodial.obj \
+    $(_OBJ_DIR)\mips\connect.obj \
+    $(_OBJ_DIR)\mips\connobj.obj \
+    $(_OBJ_DIR)\mips\devctx.obj \
+    $(_OBJ_DIR)\mips\dlc.obj \
+    $(_OBJ_DIR)\mips\event.obj \
+    $(_OBJ_DIR)\mips\framecon.obj \
+    $(_OBJ_DIR)\mips\framesnd.obj \
+    $(_OBJ_DIR)\mips\iframes.obj \
+    $(_OBJ_DIR)\mips\info.obj \
+    $(_OBJ_DIR)\mips\link.obj \
+    $(_OBJ_DIR)\mips\linktree.obj \
+    $(_OBJ_DIR)\mips\nbfcnfg.obj \
+    $(_OBJ_DIR)\mips\nbfdrvr.obj \
+    $(_OBJ_DIR)\mips\nbfdebug.obj \
+    $(_OBJ_DIR)\mips\nbfmac.obj \
+    $(_OBJ_DIR)\mips\nbfndis.obj \
+    $(_OBJ_DIR)\mips\nbfpnp.obj \
+    $(_OBJ_DIR)\mips\packet.obj \
+    $(_OBJ_DIR)\mips\rcv.obj \
+    $(_OBJ_DIR)\mips\rcveng.obj \
+    $(_OBJ_DIR)\mips\request.obj \
+    $(_OBJ_DIR)\mips\send.obj \
+    $(_OBJ_DIR)\mips\sendeng.obj \
+    $(_OBJ_DIR)\mips\spnlckdb.obj \
+    $(_OBJ_DIR)\mips\timer.obj \
+    $(_OBJ_DIR)\mips\uframes.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\nbf.res \
+    $(_OBJ_DIR)\i386\action.obj \
+    $(_OBJ_DIR)\i386\address.obj \
+    $(_OBJ_DIR)\i386\autodial.obj \
+    $(_OBJ_DIR)\i386\connect.obj \
+    $(_OBJ_DIR)\i386\connobj.obj \
+    $(_OBJ_DIR)\i386\devctx.obj \
+    $(_OBJ_DIR)\i386\dlc.obj \
+    $(_OBJ_DIR)\i386\event.obj \
+    $(_OBJ_DIR)\i386\framecon.obj \
+    $(_OBJ_DIR)\i386\framesnd.obj \
+    $(_OBJ_DIR)\i386\iframes.obj \
+    $(_OBJ_DIR)\i386\info.obj \
+    $(_OBJ_DIR)\i386\link.obj \
+    $(_OBJ_DIR)\i386\linktree.obj \
+    $(_OBJ_DIR)\i386\nbfcnfg.obj \
+    $(_OBJ_DIR)\i386\nbfdrvr.obj \
+    $(_OBJ_DIR)\i386\nbfdebug.obj \
+    $(_OBJ_DIR)\i386\nbfmac.obj \
+    $(_OBJ_DIR)\i386\nbfndis.obj \
+    $(_OBJ_DIR)\i386\nbfpnp.obj \
+    $(_OBJ_DIR)\i386\packet.obj \
+    $(_OBJ_DIR)\i386\rcv.obj \
+    $(_OBJ_DIR)\i386\rcveng.obj \
+    $(_OBJ_DIR)\i386\request.obj \
+    $(_OBJ_DIR)\i386\send.obj \
+    $(_OBJ_DIR)\i386\sendeng.obj \
+    $(_OBJ_DIR)\i386\spnlckdb.obj \
+    $(_OBJ_DIR)\i386\timer.obj \
+    $(_OBJ_DIR)\i386\uframes.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\nbf.res \
+    $(_OBJ_DIR)\ppc\action.obj \
+    $(_OBJ_DIR)\ppc\address.obj \
+    $(_OBJ_DIR)\ppc\autodial.obj \
+    $(_OBJ_DIR)\ppc\connect.obj \
+    $(_OBJ_DIR)\ppc\connobj.obj \
+    $(_OBJ_DIR)\ppc\devctx.obj \
+    $(_OBJ_DIR)\ppc\dlc.obj \
+    $(_OBJ_DIR)\ppc\event.obj \
+    $(_OBJ_DIR)\ppc\framecon.obj \
+    $(_OBJ_DIR)\ppc\framesnd.obj \
+    $(_OBJ_DIR)\ppc\iframes.obj \
+    $(_OBJ_DIR)\ppc\info.obj \
+    $(_OBJ_DIR)\ppc\link.obj \
+    $(_OBJ_DIR)\ppc\linktree.obj \
+    $(_OBJ_DIR)\ppc\nbfcnfg.obj \
+    $(_OBJ_DIR)\ppc\nbfdrvr.obj \
+    $(_OBJ_DIR)\ppc\nbfdebug.obj \
+    $(_OBJ_DIR)\ppc\nbfmac.obj \
+    $(_OBJ_DIR)\ppc\nbfndis.obj \
+    $(_OBJ_DIR)\ppc\nbfpnp.obj \
+    $(_OBJ_DIR)\ppc\packet.obj \
+    $(_OBJ_DIR)\ppc\rcv.obj \
+    $(_OBJ_DIR)\ppc\rcveng.obj \
+    $(_OBJ_DIR)\ppc\request.obj \
+    $(_OBJ_DIR)\ppc\send.obj \
+    $(_OBJ_DIR)\ppc\sendeng.obj \
+    $(_OBJ_DIR)\ppc\spnlckdb.obj \
+    $(_OBJ_DIR)\ppc\timer.obj \
+    $(_OBJ_DIR)\ppc\uframes.obj
+
+PASS0_PPC_OBJECTS=
+

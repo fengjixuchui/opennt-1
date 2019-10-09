@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\kbdne.res \
+    $(_OBJ_DIR)\alpha\kbdne.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\kbdne.res \
+    $(_OBJ_DIR)\mips\kbdne.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\kbdne.res \
+    $(_OBJ_DIR)\i386\kbdne.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\kbdne.res \
+    $(_OBJ_DIR)\ppc\kbdne.obj
+
+PASS0_PPC_OBJECTS=
+

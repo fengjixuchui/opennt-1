@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\findstr.res \
+    $(_OBJ_DIR)\alpha\qmatch.obj \
+    $(_OBJ_DIR)\alpha\recurse.obj \
+    $(_OBJ_DIR)\alpha\findstr.obj
+
+PASS0_ALPHA_OBJECTS= \
+    .\fsmsg.h \
+    .\fsmsg.rc
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\findstr.res \
+    $(_OBJ_DIR)\mips\qmatch.obj \
+    $(_OBJ_DIR)\mips\recurse.obj \
+    $(_OBJ_DIR)\mips\findstr.obj
+
+PASS0_MIPS_OBJECTS= \
+    .\fsmsg.h \
+    .\fsmsg.rc
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\findstr.res \
+    $(_OBJ_DIR)\i386\qmatch.obj \
+    $(_OBJ_DIR)\i386\recurse.obj \
+    $(_OBJ_DIR)\i386\findstr.obj
+
+PASS0_386_OBJECTS= \
+    .\fsmsg.h \
+    .\fsmsg.rc
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\findstr.res \
+    $(_OBJ_DIR)\ppc\qmatch.obj \
+    $(_OBJ_DIR)\ppc\recurse.obj \
+    $(_OBJ_DIR)\ppc\findstr.obj
+
+PASS0_PPC_OBJECTS= \
+    .\fsmsg.h \
+    .\fsmsg.rc
+

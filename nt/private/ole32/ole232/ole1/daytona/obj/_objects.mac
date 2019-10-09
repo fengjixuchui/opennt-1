@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ddecnvrt.obj \
+    $(_OBJ_DIR)\alpha\ostm2stg.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ddecnvrt.obj \
+    $(_OBJ_DIR)\mips\ostm2stg.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ddecnvrt.obj \
+    $(_OBJ_DIR)\i386\ostm2stg.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ddecnvrt.obj \
+    $(_OBJ_DIR)\ppc\ostm2stg.obj
+
+PASS0_PPC_OBJECTS=
+

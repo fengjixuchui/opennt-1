@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\umpnpmgr.res \
+    $(_OBJ_DIR)\alpha\srventry.obj \
+    $(_OBJ_DIR)\alpha\pnp_s.obj \
+    $(_OBJ_DIR)\alpha\main.obj \
+    $(_OBJ_DIR)\alpha\rutil.obj \
+    $(_OBJ_DIR)\alpha\rtravers.obj \
+    $(_OBJ_DIR)\alpha\rregprop.obj \
+    $(_OBJ_DIR)\alpha\rdevnode.obj \
+    $(_OBJ_DIR)\alpha\rhwprof.obj \
+    $(_OBJ_DIR)\alpha\rlogconf.obj \
+    $(_OBJ_DIR)\alpha\rresdes.obj \
+    $(_OBJ_DIR)\alpha\rmisc.obj \
+    $(_OBJ_DIR)\alpha\revent.obj \
+    $(_OBJ_DIR)\alpha\umpnpdat.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\umpnpmgr.res \
+    $(_OBJ_DIR)\mips\srventry.obj \
+    $(_OBJ_DIR)\mips\pnp_s.obj \
+    $(_OBJ_DIR)\mips\main.obj \
+    $(_OBJ_DIR)\mips\rutil.obj \
+    $(_OBJ_DIR)\mips\rtravers.obj \
+    $(_OBJ_DIR)\mips\rregprop.obj \
+    $(_OBJ_DIR)\mips\rdevnode.obj \
+    $(_OBJ_DIR)\mips\rhwprof.obj \
+    $(_OBJ_DIR)\mips\rlogconf.obj \
+    $(_OBJ_DIR)\mips\rresdes.obj \
+    $(_OBJ_DIR)\mips\rmisc.obj \
+    $(_OBJ_DIR)\mips\revent.obj \
+    $(_OBJ_DIR)\mips\umpnpdat.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\umpnpmgr.res \
+    $(_OBJ_DIR)\i386\srventry.obj \
+    $(_OBJ_DIR)\i386\pnp_s.obj \
+    $(_OBJ_DIR)\i386\main.obj \
+    $(_OBJ_DIR)\i386\rutil.obj \
+    $(_OBJ_DIR)\i386\rtravers.obj \
+    $(_OBJ_DIR)\i386\rregprop.obj \
+    $(_OBJ_DIR)\i386\rdevnode.obj \
+    $(_OBJ_DIR)\i386\rhwprof.obj \
+    $(_OBJ_DIR)\i386\rlogconf.obj \
+    $(_OBJ_DIR)\i386\rresdes.obj \
+    $(_OBJ_DIR)\i386\rmisc.obj \
+    $(_OBJ_DIR)\i386\revent.obj \
+    $(_OBJ_DIR)\i386\umpnpdat.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\umpnpmgr.res \
+    $(_OBJ_DIR)\ppc\srventry.obj \
+    $(_OBJ_DIR)\ppc\pnp_s.obj \
+    $(_OBJ_DIR)\ppc\main.obj \
+    $(_OBJ_DIR)\ppc\rutil.obj \
+    $(_OBJ_DIR)\ppc\rtravers.obj \
+    $(_OBJ_DIR)\ppc\rregprop.obj \
+    $(_OBJ_DIR)\ppc\rdevnode.obj \
+    $(_OBJ_DIR)\ppc\rhwprof.obj \
+    $(_OBJ_DIR)\ppc\rlogconf.obj \
+    $(_OBJ_DIR)\ppc\rresdes.obj \
+    $(_OBJ_DIR)\ppc\rmisc.obj \
+    $(_OBJ_DIR)\ppc\revent.obj \
+    $(_OBJ_DIR)\ppc\umpnpdat.obj
+
+PASS0_PPC_OBJECTS=
+

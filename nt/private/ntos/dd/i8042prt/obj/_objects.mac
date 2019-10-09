@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\i8042prt.res \
+    $(_OBJ_DIR)\alpha\i8042cmn.obj \
+    $(_OBJ_DIR)\alpha\i8042dep.obj \
+    $(_OBJ_DIR)\alpha\kbdcmn.obj \
+    $(_OBJ_DIR)\alpha\kbddep.obj \
+    $(_OBJ_DIR)\alpha\moucmn.obj \
+    $(_OBJ_DIR)\alpha\moudep.obj \
+    $(_OBJ_DIR)\alpha\devdesc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\i8042prt.res \
+    $(_OBJ_DIR)\mips\i8042cmn.obj \
+    $(_OBJ_DIR)\mips\i8042dep.obj \
+    $(_OBJ_DIR)\mips\kbdcmn.obj \
+    $(_OBJ_DIR)\mips\kbddep.obj \
+    $(_OBJ_DIR)\mips\moucmn.obj \
+    $(_OBJ_DIR)\mips\moudep.obj \
+    $(_OBJ_DIR)\mips\devdesc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\i8042prt.res \
+    $(_OBJ_DIR)\i386\i8042cmn.obj \
+    $(_OBJ_DIR)\i386\i8042dep.obj \
+    $(_OBJ_DIR)\i386\kbdcmn.obj \
+    $(_OBJ_DIR)\i386\kbddep.obj \
+    $(_OBJ_DIR)\i386\moucmn.obj \
+    $(_OBJ_DIR)\i386\moudep.obj \
+    $(_OBJ_DIR)\i386\devdesc.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\i8042prt.res \
+    $(_OBJ_DIR)\ppc\i8042cmn.obj \
+    $(_OBJ_DIR)\ppc\i8042dep.obj \
+    $(_OBJ_DIR)\ppc\kbdcmn.obj \
+    $(_OBJ_DIR)\ppc\kbddep.obj \
+    $(_OBJ_DIR)\ppc\moucmn.obj \
+    $(_OBJ_DIR)\ppc\moudep.obj \
+    $(_OBJ_DIR)\ppc\devdesc.obj
+
+PASS0_PPC_OBJECTS=
+

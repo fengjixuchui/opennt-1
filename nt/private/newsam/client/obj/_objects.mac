@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\sam_rev.res \
+    $(_OBJ_DIR)\alpha\bind.obj \
+    $(_OBJ_DIR)\alpha\samrpc_c.obj \
+    $(_OBJ_DIR)\alpha\wrappers.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\sam_rev.res \
+    $(_OBJ_DIR)\mips\bind.obj \
+    $(_OBJ_DIR)\mips\samrpc_c.obj \
+    $(_OBJ_DIR)\mips\wrappers.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\sam_rev.res \
+    $(_OBJ_DIR)\i386\bind.obj \
+    $(_OBJ_DIR)\i386\samrpc_c.obj \
+    $(_OBJ_DIR)\i386\wrappers.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\sam_rev.res \
+    $(_OBJ_DIR)\ppc\bind.obj \
+    $(_OBJ_DIR)\ppc\samrpc_c.obj \
+    $(_OBJ_DIR)\ppc\wrappers.obj
+
+PASS0_PPC_OBJECTS=
+

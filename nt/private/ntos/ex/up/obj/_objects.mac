@@ -1,0 +1,172 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\probe.obj \
+    $(_OBJ_DIR)\alpha\raisests.obj \
+    $(_OBJ_DIR)\alpha\splocks.obj \
+    $(_OBJ_DIR)\alpha\callback.obj \
+    $(_OBJ_DIR)\alpha\callperf.obj \
+    $(_OBJ_DIR)\alpha\dbgctrl.obj \
+    $(_OBJ_DIR)\alpha\ddkresrc.obj \
+    $(_OBJ_DIR)\alpha\delay.obj \
+    $(_OBJ_DIR)\alpha\event.obj \
+    $(_OBJ_DIR)\alpha\eventpr.obj \
+    $(_OBJ_DIR)\alpha\exatom.obj \
+    $(_OBJ_DIR)\alpha\exdata.obj \
+    $(_OBJ_DIR)\alpha\exinfo.obj \
+    $(_OBJ_DIR)\alpha\exinit.obj \
+    $(_OBJ_DIR)\alpha\handle.obj \
+    $(_OBJ_DIR)\alpha\harderr.obj \
+    $(_OBJ_DIR)\alpha\lookasid.obj \
+    $(_OBJ_DIR)\alpha\luid.obj \
+    $(_OBJ_DIR)\alpha\memprint.obj \
+    $(_OBJ_DIR)\alpha\mutant.obj \
+    $(_OBJ_DIR)\alpha\pool.obj \
+    $(_OBJ_DIR)\alpha\profile.obj \
+    $(_OBJ_DIR)\alpha\raise.obj \
+    $(_OBJ_DIR)\alpha\resource.obj \
+    $(_OBJ_DIR)\alpha\semphore.obj \
+    $(_OBJ_DIR)\alpha\sysenv.obj \
+    $(_OBJ_DIR)\alpha\sysevent.obj \
+    $(_OBJ_DIR)\alpha\sysinfo.obj \
+    $(_OBJ_DIR)\alpha\systime.obj \
+    $(_OBJ_DIR)\alpha\timer.obj \
+    $(_OBJ_DIR)\alpha\worker.obj \
+    $(_OBJ_DIR)\alpha\zone.obj \
+    $(_OBJ_DIR)\alpha\uuid.obj \
+    $(_OBJ_DIR)\alpha\win32.obj \
+    $(_OBJ_DIR)\alpha\fmutex.obj \
+    $(_OBJ_DIR)\alpha\evpair.obj \
+    $(_OBJ_DIR)\alpha\gettick.obj \
+    $(_OBJ_DIR)\alpha\hifreqlk.obj \
+    $(_OBJ_DIR)\alpha\intrlock.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\probe.obj \
+    $(_OBJ_DIR)\mips\raisests.obj \
+    $(_OBJ_DIR)\mips\splocks.obj \
+    $(_OBJ_DIR)\mips\callback.obj \
+    $(_OBJ_DIR)\mips\callperf.obj \
+    $(_OBJ_DIR)\mips\dbgctrl.obj \
+    $(_OBJ_DIR)\mips\ddkresrc.obj \
+    $(_OBJ_DIR)\mips\delay.obj \
+    $(_OBJ_DIR)\mips\event.obj \
+    $(_OBJ_DIR)\mips\eventpr.obj \
+    $(_OBJ_DIR)\mips\exatom.obj \
+    $(_OBJ_DIR)\mips\exdata.obj \
+    $(_OBJ_DIR)\mips\exinfo.obj \
+    $(_OBJ_DIR)\mips\exinit.obj \
+    $(_OBJ_DIR)\mips\handle.obj \
+    $(_OBJ_DIR)\mips\harderr.obj \
+    $(_OBJ_DIR)\mips\lookasid.obj \
+    $(_OBJ_DIR)\mips\luid.obj \
+    $(_OBJ_DIR)\mips\memprint.obj \
+    $(_OBJ_DIR)\mips\mutant.obj \
+    $(_OBJ_DIR)\mips\pool.obj \
+    $(_OBJ_DIR)\mips\profile.obj \
+    $(_OBJ_DIR)\mips\raise.obj \
+    $(_OBJ_DIR)\mips\resource.obj \
+    $(_OBJ_DIR)\mips\semphore.obj \
+    $(_OBJ_DIR)\mips\sysenv.obj \
+    $(_OBJ_DIR)\mips\sysevent.obj \
+    $(_OBJ_DIR)\mips\sysinfo.obj \
+    $(_OBJ_DIR)\mips\systime.obj \
+    $(_OBJ_DIR)\mips\timer.obj \
+    $(_OBJ_DIR)\mips\worker.obj \
+    $(_OBJ_DIR)\mips\zone.obj \
+    $(_OBJ_DIR)\mips\uuid.obj \
+    $(_OBJ_DIR)\mips\win32.obj \
+    $(_OBJ_DIR)\mips\evpair.obj \
+    $(_OBJ_DIR)\mips\fmutex.obj \
+    $(_OBJ_DIR)\mips\gettick.obj \
+    $(_OBJ_DIR)\mips\hifreqlk.obj \
+    $(_OBJ_DIR)\mips\x4intrlk.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\evpair.obj \
+    $(_OBJ_DIR)\i386\fmutex.obj \
+    $(_OBJ_DIR)\i386\intrlock.obj \
+    $(_OBJ_DIR)\i386\intrlfst.obj \
+    $(_OBJ_DIR)\i386\raisests.obj \
+    $(_OBJ_DIR)\i386\splocks.obj \
+    $(_OBJ_DIR)\i386\resoura.obj \
+    $(_OBJ_DIR)\i386\probe.obj \
+    $(_OBJ_DIR)\i386\callback.obj \
+    $(_OBJ_DIR)\i386\callperf.obj \
+    $(_OBJ_DIR)\i386\dbgctrl.obj \
+    $(_OBJ_DIR)\i386\ddkresrc.obj \
+    $(_OBJ_DIR)\i386\delay.obj \
+    $(_OBJ_DIR)\i386\event.obj \
+    $(_OBJ_DIR)\i386\eventpr.obj \
+    $(_OBJ_DIR)\i386\exatom.obj \
+    $(_OBJ_DIR)\i386\exdata.obj \
+    $(_OBJ_DIR)\i386\exinfo.obj \
+    $(_OBJ_DIR)\i386\exinit.obj \
+    $(_OBJ_DIR)\i386\handle.obj \
+    $(_OBJ_DIR)\i386\harderr.obj \
+    $(_OBJ_DIR)\i386\lookasid.obj \
+    $(_OBJ_DIR)\i386\luid.obj \
+    $(_OBJ_DIR)\i386\memprint.obj \
+    $(_OBJ_DIR)\i386\mutant.obj \
+    $(_OBJ_DIR)\i386\pool.obj \
+    $(_OBJ_DIR)\i386\profile.obj \
+    $(_OBJ_DIR)\i386\raise.obj \
+    $(_OBJ_DIR)\i386\resource.obj \
+    $(_OBJ_DIR)\i386\semphore.obj \
+    $(_OBJ_DIR)\i386\sysenv.obj \
+    $(_OBJ_DIR)\i386\sysevent.obj \
+    $(_OBJ_DIR)\i386\sysinfo.obj \
+    $(_OBJ_DIR)\i386\systime.obj \
+    $(_OBJ_DIR)\i386\timer.obj \
+    $(_OBJ_DIR)\i386\worker.obj \
+    $(_OBJ_DIR)\i386\zone.obj \
+    $(_OBJ_DIR)\i386\uuid.obj \
+    $(_OBJ_DIR)\i386\win32.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\probe.obj \
+    $(_OBJ_DIR)\ppc\raisests.obj \
+    $(_OBJ_DIR)\ppc\splocks.obj \
+    $(_OBJ_DIR)\ppc\callback.obj \
+    $(_OBJ_DIR)\ppc\callperf.obj \
+    $(_OBJ_DIR)\ppc\dbgctrl.obj \
+    $(_OBJ_DIR)\ppc\ddkresrc.obj \
+    $(_OBJ_DIR)\ppc\delay.obj \
+    $(_OBJ_DIR)\ppc\event.obj \
+    $(_OBJ_DIR)\ppc\eventpr.obj \
+    $(_OBJ_DIR)\ppc\exatom.obj \
+    $(_OBJ_DIR)\ppc\exdata.obj \
+    $(_OBJ_DIR)\ppc\exinfo.obj \
+    $(_OBJ_DIR)\ppc\exinit.obj \
+    $(_OBJ_DIR)\ppc\handle.obj \
+    $(_OBJ_DIR)\ppc\harderr.obj \
+    $(_OBJ_DIR)\ppc\lookasid.obj \
+    $(_OBJ_DIR)\ppc\luid.obj \
+    $(_OBJ_DIR)\ppc\memprint.obj \
+    $(_OBJ_DIR)\ppc\mutant.obj \
+    $(_OBJ_DIR)\ppc\pool.obj \
+    $(_OBJ_DIR)\ppc\profile.obj \
+    $(_OBJ_DIR)\ppc\raise.obj \
+    $(_OBJ_DIR)\ppc\resource.obj \
+    $(_OBJ_DIR)\ppc\semphore.obj \
+    $(_OBJ_DIR)\ppc\sysenv.obj \
+    $(_OBJ_DIR)\ppc\sysevent.obj \
+    $(_OBJ_DIR)\ppc\sysinfo.obj \
+    $(_OBJ_DIR)\ppc\systime.obj \
+    $(_OBJ_DIR)\ppc\timer.obj \
+    $(_OBJ_DIR)\ppc\worker.obj \
+    $(_OBJ_DIR)\ppc\zone.obj \
+    $(_OBJ_DIR)\ppc\uuid.obj \
+    $(_OBJ_DIR)\ppc\win32.obj \
+    $(_OBJ_DIR)\ppc\evpair.obj \
+    $(_OBJ_DIR)\ppc\fmutex.obj \
+    $(_OBJ_DIR)\ppc\gettick.obj \
+    $(_OBJ_DIR)\ppc\hifreqlk.obj \
+    $(_OBJ_DIR)\ppc\intrlock.obj
+
+PASS0_PPC_OBJECTS=
+

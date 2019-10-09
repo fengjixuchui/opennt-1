@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mustard.res \
+    $(_OBJ_DIR)\alpha\mustard.obj \
+    $(_OBJ_DIR)\alpha\startd.obj \
+    $(_OBJ_DIR)\alpha\wizlist.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mustard.res \
+    $(_OBJ_DIR)\mips\mustard.obj \
+    $(_OBJ_DIR)\mips\startd.obj \
+    $(_OBJ_DIR)\mips\wizlist.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mustard.res \
+    $(_OBJ_DIR)\i386\mustard.obj \
+    $(_OBJ_DIR)\i386\startd.obj \
+    $(_OBJ_DIR)\i386\wizlist.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mustard.res \
+    $(_OBJ_DIR)\ppc\mustard.obj \
+    $(_OBJ_DIR)\ppc\startd.obj \
+    $(_OBJ_DIR)\ppc\wizlist.obj
+
+PASS0_PPC_OBJECTS=
+

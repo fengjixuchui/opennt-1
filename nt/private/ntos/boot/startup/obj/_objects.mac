@@ -1,0 +1,28 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\su.obj \
+    $(_OBJ_DIR)\i386\exp.obj \
+    $(_OBJ_DIR)\i386\abiosa.obj \
+    $(_OBJ_DIR)\i386\sudata.obj \
+    $(_OBJ_DIR)\i386\eisaa.obj \
+    $(_OBJ_DIR)\i386\a20.obj \
+    $(_OBJ_DIR)\i386\trap.obj \
+    $(_OBJ_DIR)\i386\backend.obj \
+    $(_OBJ_DIR)\i386\eisac.obj \
+    $(_OBJ_DIR)\i386\main.obj \
+    $(_OBJ_DIR)\i386\trapdump.obj \
+    $(_OBJ_DIR)\i386\display.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\vstiff.res \
+    $(_OBJ_DIR)\alpha\vsd_tiff.obj \
+    $(_OBJ_DIR)\alpha\vs_tiff.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\vstiff.res \
+    $(_OBJ_DIR)\mips\vsd_tiff.obj \
+    $(_OBJ_DIR)\mips\vs_tiff.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\vstiff.res \
+    $(_OBJ_DIR)\i386\vsd_tiff.obj \
+    $(_OBJ_DIR)\i386\vs_tiff.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\vstiff.res \
+    $(_OBJ_DIR)\ppc\vsd_tiff.obj \
+    $(_OBJ_DIR)\ppc\vs_tiff.obj
+
+PASS0_PPC_OBJECTS=
+

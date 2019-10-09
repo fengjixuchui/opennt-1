@@ -1,0 +1,64 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\appwiz.res \
+    $(_OBJ_DIR)\alpha\applist.obj \
+    $(_OBJ_DIR)\alpha\appwiz.obj \
+    $(_OBJ_DIR)\alpha\browse.obj \
+    $(_OBJ_DIR)\alpha\confopt.obj \
+    $(_OBJ_DIR)\alpha\folder.obj \
+    $(_OBJ_DIR)\alpha\gettitle.obj \
+    $(_OBJ_DIR)\alpha\link.obj \
+    $(_OBJ_DIR)\alpha\msdos.obj \
+    $(_OBJ_DIR)\alpha\pickicon.obj \
+    $(_OBJ_DIR)\alpha\setup.obj \
+    $(_OBJ_DIR)\alpha\uninstal.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\appwiz.res \
+    $(_OBJ_DIR)\mips\applist.obj \
+    $(_OBJ_DIR)\mips\appwiz.obj \
+    $(_OBJ_DIR)\mips\browse.obj \
+    $(_OBJ_DIR)\mips\confopt.obj \
+    $(_OBJ_DIR)\mips\folder.obj \
+    $(_OBJ_DIR)\mips\gettitle.obj \
+    $(_OBJ_DIR)\mips\link.obj \
+    $(_OBJ_DIR)\mips\msdos.obj \
+    $(_OBJ_DIR)\mips\pickicon.obj \
+    $(_OBJ_DIR)\mips\setup.obj \
+    $(_OBJ_DIR)\mips\uninstal.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\appwiz.res \
+    $(_OBJ_DIR)\i386\applist.obj \
+    $(_OBJ_DIR)\i386\appwiz.obj \
+    $(_OBJ_DIR)\i386\browse.obj \
+    $(_OBJ_DIR)\i386\confopt.obj \
+    $(_OBJ_DIR)\i386\folder.obj \
+    $(_OBJ_DIR)\i386\gettitle.obj \
+    $(_OBJ_DIR)\i386\link.obj \
+    $(_OBJ_DIR)\i386\msdos.obj \
+    $(_OBJ_DIR)\i386\pickicon.obj \
+    $(_OBJ_DIR)\i386\setup.obj \
+    $(_OBJ_DIR)\i386\uninstal.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\appwiz.res \
+    $(_OBJ_DIR)\ppc\applist.obj \
+    $(_OBJ_DIR)\ppc\appwiz.obj \
+    $(_OBJ_DIR)\ppc\browse.obj \
+    $(_OBJ_DIR)\ppc\confopt.obj \
+    $(_OBJ_DIR)\ppc\folder.obj \
+    $(_OBJ_DIR)\ppc\gettitle.obj \
+    $(_OBJ_DIR)\ppc\link.obj \
+    $(_OBJ_DIR)\ppc\msdos.obj \
+    $(_OBJ_DIR)\ppc\pickicon.obj \
+    $(_OBJ_DIR)\ppc\setup.obj \
+    $(_OBJ_DIR)\ppc\uninstal.obj
+
+PASS0_PPC_OBJECTS=
+

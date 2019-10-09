@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cachenod.obj \
+    $(_OBJ_DIR)\alpha\dacache.obj \
+    $(_OBJ_DIR)\alpha\olecache.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\cachenod.obj \
+    $(_OBJ_DIR)\mips\dacache.obj \
+    $(_OBJ_DIR)\mips\olecache.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cachenod.obj \
+    $(_OBJ_DIR)\i386\dacache.obj \
+    $(_OBJ_DIR)\i386\olecache.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\cachenod.obj \
+    $(_OBJ_DIR)\ppc\dacache.obj \
+    $(_OBJ_DIR)\ppc\olecache.obj
+
+PASS0_PPC_OBJECTS=
+

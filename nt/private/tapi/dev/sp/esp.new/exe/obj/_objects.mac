@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\espexe.res \
+    $(_OBJ_DIR)\alpha\espexe.obj \
+    $(_OBJ_DIR)\alpha\espidl_c.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\espexe.res \
+    $(_OBJ_DIR)\mips\espexe.obj \
+    $(_OBJ_DIR)\mips\espidl_c.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\espexe.res \
+    $(_OBJ_DIR)\i386\espexe.obj \
+    $(_OBJ_DIR)\i386\espidl_c.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\espexe.res \
+    $(_OBJ_DIR)\ppc\espexe.obj \
+    $(_OBJ_DIR)\ppc\espidl_c.obj
+
+PASS0_PPC_OBJECTS=
+

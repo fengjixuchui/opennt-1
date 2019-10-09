@@ -1,0 +1,172 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cdrom.obj \
+    $(_OBJ_DIR)\alpha\cm.obj \
+    $(_OBJ_DIR)\alpha\commit.obj \
+    $(_OBJ_DIR)\alpha\data.obj \
+    $(_OBJ_DIR)\alpha\dblspace.obj \
+    $(_OBJ_DIR)\alpha\dispinfo.obj \
+    $(_OBJ_DIR)\alpha\dlgs.obj \
+    $(_OBJ_DIR)\alpha\drives.obj \
+    $(_OBJ_DIR)\alpha\engine.obj \
+    $(_OBJ_DIR)\alpha\fill.obj \
+    $(_OBJ_DIR)\alpha\fmifs.obj \
+    $(_OBJ_DIR)\alpha\format.obj \
+    $(_OBJ_DIR)\alpha\fs.obj \
+    $(_OBJ_DIR)\alpha\ft.obj \
+    $(_OBJ_DIR)\alpha\ftreg.obj \
+    $(_OBJ_DIR)\alpha\help.obj \
+    $(_OBJ_DIR)\alpha\help2.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\listbox.obj \
+    $(_OBJ_DIR)\alpha\log.obj \
+    $(_OBJ_DIR)\alpha\mem.obj \
+    $(_OBJ_DIR)\alpha\menudict.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\network.obj \
+    $(_OBJ_DIR)\alpha\nt.obj \
+    $(_OBJ_DIR)\alpha\ntlow.obj \
+    $(_OBJ_DIR)\alpha\oleclass.obj \
+    $(_OBJ_DIR)\alpha\ops.obj \
+    $(_OBJ_DIR)\alpha\popup.obj \
+    $(_OBJ_DIR)\alpha\profile.obj \
+    $(_OBJ_DIR)\alpha\ps.obj \
+    $(_OBJ_DIR)\alpha\rect.obj \
+    $(_OBJ_DIR)\alpha\select.obj \
+    $(_OBJ_DIR)\alpha\stleg.obj \
+    $(_OBJ_DIR)\alpha\tbar.obj \
+    $(_OBJ_DIR)\alpha\volview.obj \
+    $(_OBJ_DIR)\alpha\windisk.obj
+
+PASS0_ALPHA_OBJECTS= \
+    obj\messages.h \
+    obj\messages.rc
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\cdrom.obj \
+    $(_OBJ_DIR)\mips\cm.obj \
+    $(_OBJ_DIR)\mips\commit.obj \
+    $(_OBJ_DIR)\mips\data.obj \
+    $(_OBJ_DIR)\mips\dblspace.obj \
+    $(_OBJ_DIR)\mips\dispinfo.obj \
+    $(_OBJ_DIR)\mips\dlgs.obj \
+    $(_OBJ_DIR)\mips\drives.obj \
+    $(_OBJ_DIR)\mips\engine.obj \
+    $(_OBJ_DIR)\mips\fill.obj \
+    $(_OBJ_DIR)\mips\fmifs.obj \
+    $(_OBJ_DIR)\mips\format.obj \
+    $(_OBJ_DIR)\mips\fs.obj \
+    $(_OBJ_DIR)\mips\ft.obj \
+    $(_OBJ_DIR)\mips\ftreg.obj \
+    $(_OBJ_DIR)\mips\help.obj \
+    $(_OBJ_DIR)\mips\help2.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\listbox.obj \
+    $(_OBJ_DIR)\mips\log.obj \
+    $(_OBJ_DIR)\mips\mem.obj \
+    $(_OBJ_DIR)\mips\menudict.obj \
+    $(_OBJ_DIR)\mips\misc.obj \
+    $(_OBJ_DIR)\mips\network.obj \
+    $(_OBJ_DIR)\mips\nt.obj \
+    $(_OBJ_DIR)\mips\ntlow.obj \
+    $(_OBJ_DIR)\mips\oleclass.obj \
+    $(_OBJ_DIR)\mips\ops.obj \
+    $(_OBJ_DIR)\mips\popup.obj \
+    $(_OBJ_DIR)\mips\profile.obj \
+    $(_OBJ_DIR)\mips\ps.obj \
+    $(_OBJ_DIR)\mips\rect.obj \
+    $(_OBJ_DIR)\mips\select.obj \
+    $(_OBJ_DIR)\mips\stleg.obj \
+    $(_OBJ_DIR)\mips\tbar.obj \
+    $(_OBJ_DIR)\mips\volview.obj \
+    $(_OBJ_DIR)\mips\windisk.obj
+
+PASS0_MIPS_OBJECTS= \
+    obj\messages.h \
+    obj\messages.rc
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cdrom.obj \
+    $(_OBJ_DIR)\i386\cm.obj \
+    $(_OBJ_DIR)\i386\commit.obj \
+    $(_OBJ_DIR)\i386\data.obj \
+    $(_OBJ_DIR)\i386\dblspace.obj \
+    $(_OBJ_DIR)\i386\dispinfo.obj \
+    $(_OBJ_DIR)\i386\dlgs.obj \
+    $(_OBJ_DIR)\i386\drives.obj \
+    $(_OBJ_DIR)\i386\engine.obj \
+    $(_OBJ_DIR)\i386\fill.obj \
+    $(_OBJ_DIR)\i386\fmifs.obj \
+    $(_OBJ_DIR)\i386\format.obj \
+    $(_OBJ_DIR)\i386\fs.obj \
+    $(_OBJ_DIR)\i386\ft.obj \
+    $(_OBJ_DIR)\i386\ftreg.obj \
+    $(_OBJ_DIR)\i386\help.obj \
+    $(_OBJ_DIR)\i386\help2.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\listbox.obj \
+    $(_OBJ_DIR)\i386\log.obj \
+    $(_OBJ_DIR)\i386\mem.obj \
+    $(_OBJ_DIR)\i386\menudict.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\network.obj \
+    $(_OBJ_DIR)\i386\nt.obj \
+    $(_OBJ_DIR)\i386\ntlow.obj \
+    $(_OBJ_DIR)\i386\oleclass.obj \
+    $(_OBJ_DIR)\i386\ops.obj \
+    $(_OBJ_DIR)\i386\popup.obj \
+    $(_OBJ_DIR)\i386\profile.obj \
+    $(_OBJ_DIR)\i386\ps.obj \
+    $(_OBJ_DIR)\i386\rect.obj \
+    $(_OBJ_DIR)\i386\select.obj \
+    $(_OBJ_DIR)\i386\stleg.obj \
+    $(_OBJ_DIR)\i386\tbar.obj \
+    $(_OBJ_DIR)\i386\volview.obj \
+    $(_OBJ_DIR)\i386\windisk.obj
+
+PASS0_386_OBJECTS= \
+    obj\messages.h \
+    obj\messages.rc
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\cdrom.obj \
+    $(_OBJ_DIR)\ppc\cm.obj \
+    $(_OBJ_DIR)\ppc\commit.obj \
+    $(_OBJ_DIR)\ppc\data.obj \
+    $(_OBJ_DIR)\ppc\dblspace.obj \
+    $(_OBJ_DIR)\ppc\dispinfo.obj \
+    $(_OBJ_DIR)\ppc\dlgs.obj \
+    $(_OBJ_DIR)\ppc\drives.obj \
+    $(_OBJ_DIR)\ppc\engine.obj \
+    $(_OBJ_DIR)\ppc\fill.obj \
+    $(_OBJ_DIR)\ppc\fmifs.obj \
+    $(_OBJ_DIR)\ppc\format.obj \
+    $(_OBJ_DIR)\ppc\fs.obj \
+    $(_OBJ_DIR)\ppc\ft.obj \
+    $(_OBJ_DIR)\ppc\ftreg.obj \
+    $(_OBJ_DIR)\ppc\help.obj \
+    $(_OBJ_DIR)\ppc\help2.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\listbox.obj \
+    $(_OBJ_DIR)\ppc\log.obj \
+    $(_OBJ_DIR)\ppc\mem.obj \
+    $(_OBJ_DIR)\ppc\menudict.obj \
+    $(_OBJ_DIR)\ppc\misc.obj \
+    $(_OBJ_DIR)\ppc\network.obj \
+    $(_OBJ_DIR)\ppc\nt.obj \
+    $(_OBJ_DIR)\ppc\ntlow.obj \
+    $(_OBJ_DIR)\ppc\oleclass.obj \
+    $(_OBJ_DIR)\ppc\ops.obj \
+    $(_OBJ_DIR)\ppc\popup.obj \
+    $(_OBJ_DIR)\ppc\profile.obj \
+    $(_OBJ_DIR)\ppc\ps.obj \
+    $(_OBJ_DIR)\ppc\rect.obj \
+    $(_OBJ_DIR)\ppc\select.obj \
+    $(_OBJ_DIR)\ppc\stleg.obj \
+    $(_OBJ_DIR)\ppc\tbar.obj \
+    $(_OBJ_DIR)\ppc\volview.obj \
+    $(_OBJ_DIR)\ppc\windisk.obj
+
+PASS0_PPC_OBJECTS= \
+    obj\messages.h \
+    obj\messages.rc
+

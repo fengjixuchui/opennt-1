@@ -1,0 +1,11 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining w:\nt\private\types directory tree for files to compile.
+Building generated files in w:\nt\private\types\idl ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+
+Stop. 
+BUILD: Examining w:\nt\private\types directory tree for files to compile. (2nd Pass)
+Linking w:\nt\private\types\uuid directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+
+Stop. 

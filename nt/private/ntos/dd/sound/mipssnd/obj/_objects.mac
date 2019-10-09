@@ -1,0 +1,32 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mipssnd.res \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\openclse.obj \
+    $(_OBJ_DIR)\mips\devcaps.obj \
+    $(_OBJ_DIR)\mips\dma.obj \
+    $(_OBJ_DIR)\mips\position.obj \
+    $(_OBJ_DIR)\mips\play.obj \
+    $(_OBJ_DIR)\mips\state.obj \
+    $(_OBJ_DIR)\mips\unload.obj \
+    $(_OBJ_DIR)\mips\dispatch.obj \
+    $(_OBJ_DIR)\mips\isr.obj \
+    $(_OBJ_DIR)\mips\record.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\snd.obj \
+    $(_OBJ_DIR)\mips\support.obj \
+    $(_OBJ_DIR)\mips\debug.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

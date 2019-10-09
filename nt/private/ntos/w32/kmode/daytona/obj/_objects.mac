@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\w32rc.res \
+    $(_OBJ_DIR)\alpha\w32init.obj \
+    $(_OBJ_DIR)\alpha\systable.obj \
+    $(_OBJ_DIR)\alpha\sysstubs.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\w32rc.res \
+    $(_OBJ_DIR)\mips\w32init.obj \
+    $(_OBJ_DIR)\mips\systable.obj \
+    $(_OBJ_DIR)\mips\sysstubs.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\w32rc.res \
+    $(_OBJ_DIR)\i386\systable.obj \
+    $(_OBJ_DIR)\i386\sysstubs.obj \
+    $(_OBJ_DIR)\i386\w32init.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\w32rc.res \
+    $(_OBJ_DIR)\ppc\w32init.obj \
+    $(_OBJ_DIR)\ppc\systable.obj \
+    $(_OBJ_DIR)\ppc\sysstubs.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,124 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mplayer.res \
+    $(_OBJ_DIR)\alpha\alloc.obj \
+    $(_OBJ_DIR)\alpha\arrow.obj \
+    $(_OBJ_DIR)\alpha\avocado.obj \
+    $(_OBJ_DIR)\alpha\bltprop.obj \
+    $(_OBJ_DIR)\alpha\cdrag.obj \
+    $(_OBJ_DIR)\alpha\ctrls.obj \
+    $(_OBJ_DIR)\alpha\dlgs.obj \
+    $(_OBJ_DIR)\alpha\doverb.obj \
+    $(_OBJ_DIR)\alpha\dynalink.obj \
+    $(_OBJ_DIR)\alpha\errorbox.obj \
+    $(_OBJ_DIR)\alpha\fixreg.obj \
+    $(_OBJ_DIR)\alpha\framebox.obj \
+    $(_OBJ_DIR)\alpha\hatch.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\inplace.obj \
+    $(_OBJ_DIR)\alpha\mci.obj \
+    $(_OBJ_DIR)\alpha\mplayer.obj \
+    $(_OBJ_DIR)\alpha\obj.obj \
+    $(_OBJ_DIR)\alpha\objfdbk.obj \
+    $(_OBJ_DIR)\alpha\open.obj \
+    $(_OBJ_DIR)\alpha\persist.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\server.obj \
+    $(_OBJ_DIR)\alpha\track.obj \
+    $(_OBJ_DIR)\alpha\trackmap.obj \
+    $(_OBJ_DIR)\alpha\unicode.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mplayer.res \
+    $(_OBJ_DIR)\mips\alloc.obj \
+    $(_OBJ_DIR)\mips\arrow.obj \
+    $(_OBJ_DIR)\mips\avocado.obj \
+    $(_OBJ_DIR)\mips\bltprop.obj \
+    $(_OBJ_DIR)\mips\cdrag.obj \
+    $(_OBJ_DIR)\mips\ctrls.obj \
+    $(_OBJ_DIR)\mips\dlgs.obj \
+    $(_OBJ_DIR)\mips\doverb.obj \
+    $(_OBJ_DIR)\mips\dynalink.obj \
+    $(_OBJ_DIR)\mips\errorbox.obj \
+    $(_OBJ_DIR)\mips\fixreg.obj \
+    $(_OBJ_DIR)\mips\framebox.obj \
+    $(_OBJ_DIR)\mips\hatch.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\inplace.obj \
+    $(_OBJ_DIR)\mips\mci.obj \
+    $(_OBJ_DIR)\mips\mplayer.obj \
+    $(_OBJ_DIR)\mips\obj.obj \
+    $(_OBJ_DIR)\mips\objfdbk.obj \
+    $(_OBJ_DIR)\mips\open.obj \
+    $(_OBJ_DIR)\mips\persist.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\server.obj \
+    $(_OBJ_DIR)\mips\track.obj \
+    $(_OBJ_DIR)\mips\trackmap.obj \
+    $(_OBJ_DIR)\mips\unicode.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mplayer.res \
+    $(_OBJ_DIR)\i386\alloc.obj \
+    $(_OBJ_DIR)\i386\arrow.obj \
+    $(_OBJ_DIR)\i386\avocado.obj \
+    $(_OBJ_DIR)\i386\bltprop.obj \
+    $(_OBJ_DIR)\i386\cdrag.obj \
+    $(_OBJ_DIR)\i386\ctrls.obj \
+    $(_OBJ_DIR)\i386\dlgs.obj \
+    $(_OBJ_DIR)\i386\doverb.obj \
+    $(_OBJ_DIR)\i386\dynalink.obj \
+    $(_OBJ_DIR)\i386\errorbox.obj \
+    $(_OBJ_DIR)\i386\fixreg.obj \
+    $(_OBJ_DIR)\i386\framebox.obj \
+    $(_OBJ_DIR)\i386\hatch.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\inplace.obj \
+    $(_OBJ_DIR)\i386\mci.obj \
+    $(_OBJ_DIR)\i386\mplayer.obj \
+    $(_OBJ_DIR)\i386\obj.obj \
+    $(_OBJ_DIR)\i386\objfdbk.obj \
+    $(_OBJ_DIR)\i386\open.obj \
+    $(_OBJ_DIR)\i386\persist.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\server.obj \
+    $(_OBJ_DIR)\i386\track.obj \
+    $(_OBJ_DIR)\i386\trackmap.obj \
+    $(_OBJ_DIR)\i386\unicode.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mplayer.res \
+    $(_OBJ_DIR)\ppc\alloc.obj \
+    $(_OBJ_DIR)\ppc\arrow.obj \
+    $(_OBJ_DIR)\ppc\avocado.obj \
+    $(_OBJ_DIR)\ppc\bltprop.obj \
+    $(_OBJ_DIR)\ppc\cdrag.obj \
+    $(_OBJ_DIR)\ppc\ctrls.obj \
+    $(_OBJ_DIR)\ppc\dlgs.obj \
+    $(_OBJ_DIR)\ppc\doverb.obj \
+    $(_OBJ_DIR)\ppc\dynalink.obj \
+    $(_OBJ_DIR)\ppc\errorbox.obj \
+    $(_OBJ_DIR)\ppc\fixreg.obj \
+    $(_OBJ_DIR)\ppc\framebox.obj \
+    $(_OBJ_DIR)\ppc\hatch.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\inplace.obj \
+    $(_OBJ_DIR)\ppc\mci.obj \
+    $(_OBJ_DIR)\ppc\mplayer.obj \
+    $(_OBJ_DIR)\ppc\obj.obj \
+    $(_OBJ_DIR)\ppc\objfdbk.obj \
+    $(_OBJ_DIR)\ppc\open.obj \
+    $(_OBJ_DIR)\ppc\persist.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\server.obj \
+    $(_OBJ_DIR)\ppc\track.obj \
+    $(_OBJ_DIR)\ppc\trackmap.obj \
+    $(_OBJ_DIR)\ppc\unicode.obj
+
+PASS0_PPC_OBJECTS=
+

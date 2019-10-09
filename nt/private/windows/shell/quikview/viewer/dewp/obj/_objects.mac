@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dewp.res \
+    $(_OBJ_DIR)\alpha\oiwdraw.obj \
+    $(_OBJ_DIR)\alpha\oiwinit.obj \
+    $(_OBJ_DIR)\alpha\oiwnp_w.obj \
+    $(_OBJ_DIR)\alpha\oiwproc.obj \
+    $(_OBJ_DIR)\alpha\oiwrtns.obj \
+    $(_OBJ_DIR)\alpha\oiwwrap.obj \
+    $(_OBJ_DIR)\alpha\oiwwrap2.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dewp.res \
+    $(_OBJ_DIR)\mips\oiwdraw.obj \
+    $(_OBJ_DIR)\mips\oiwinit.obj \
+    $(_OBJ_DIR)\mips\oiwnp_w.obj \
+    $(_OBJ_DIR)\mips\oiwproc.obj \
+    $(_OBJ_DIR)\mips\oiwrtns.obj \
+    $(_OBJ_DIR)\mips\oiwwrap.obj \
+    $(_OBJ_DIR)\mips\oiwwrap2.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dewp.res \
+    $(_OBJ_DIR)\i386\oiwdraw.obj \
+    $(_OBJ_DIR)\i386\oiwinit.obj \
+    $(_OBJ_DIR)\i386\oiwnp_w.obj \
+    $(_OBJ_DIR)\i386\oiwproc.obj \
+    $(_OBJ_DIR)\i386\oiwrtns.obj \
+    $(_OBJ_DIR)\i386\oiwwrap.obj \
+    $(_OBJ_DIR)\i386\oiwwrap2.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dewp.res \
+    $(_OBJ_DIR)\ppc\oiwdraw.obj \
+    $(_OBJ_DIR)\ppc\oiwinit.obj \
+    $(_OBJ_DIR)\ppc\oiwnp_w.obj \
+    $(_OBJ_DIR)\ppc\oiwproc.obj \
+    $(_OBJ_DIR)\ppc\oiwrtns.obj \
+    $(_OBJ_DIR)\ppc\oiwwrap.obj \
+    $(_OBJ_DIR)\ppc\oiwwrap2.obj
+
+PASS0_PPC_OBJECTS=
+

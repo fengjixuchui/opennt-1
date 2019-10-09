@@ -1,0 +1,68 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\simpsvr.res \
+    $(_OBJ_DIR)\alpha\app.obj \
+    $(_OBJ_DIR)\alpha\doc.obj \
+    $(_OBJ_DIR)\alpha\icf.obj \
+    $(_OBJ_DIR)\alpha\ido.obj \
+    $(_OBJ_DIR)\alpha\iec.obj \
+    $(_OBJ_DIR)\alpha\ioipao.obj \
+    $(_OBJ_DIR)\alpha\ioipo.obj \
+    $(_OBJ_DIR)\alpha\ioo.obj \
+    $(_OBJ_DIR)\alpha\ips.obj \
+    $(_OBJ_DIR)\alpha\obj.obj \
+    $(_OBJ_DIR)\alpha\pre.obj \
+    $(_OBJ_DIR)\alpha\simpsvr.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\simpsvr.res \
+    $(_OBJ_DIR)\mips\app.obj \
+    $(_OBJ_DIR)\mips\doc.obj \
+    $(_OBJ_DIR)\mips\icf.obj \
+    $(_OBJ_DIR)\mips\ido.obj \
+    $(_OBJ_DIR)\mips\iec.obj \
+    $(_OBJ_DIR)\mips\ioipao.obj \
+    $(_OBJ_DIR)\mips\ioipo.obj \
+    $(_OBJ_DIR)\mips\ioo.obj \
+    $(_OBJ_DIR)\mips\ips.obj \
+    $(_OBJ_DIR)\mips\obj.obj \
+    $(_OBJ_DIR)\mips\pre.obj \
+    $(_OBJ_DIR)\mips\simpsvr.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\simpsvr.res \
+    $(_OBJ_DIR)\i386\app.obj \
+    $(_OBJ_DIR)\i386\doc.obj \
+    $(_OBJ_DIR)\i386\icf.obj \
+    $(_OBJ_DIR)\i386\ido.obj \
+    $(_OBJ_DIR)\i386\iec.obj \
+    $(_OBJ_DIR)\i386\ioipao.obj \
+    $(_OBJ_DIR)\i386\ioipo.obj \
+    $(_OBJ_DIR)\i386\ioo.obj \
+    $(_OBJ_DIR)\i386\ips.obj \
+    $(_OBJ_DIR)\i386\obj.obj \
+    $(_OBJ_DIR)\i386\pre.obj \
+    $(_OBJ_DIR)\i386\simpsvr.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\simpsvr.res \
+    $(_OBJ_DIR)\ppc\app.obj \
+    $(_OBJ_DIR)\ppc\doc.obj \
+    $(_OBJ_DIR)\ppc\icf.obj \
+    $(_OBJ_DIR)\ppc\ido.obj \
+    $(_OBJ_DIR)\ppc\iec.obj \
+    $(_OBJ_DIR)\ppc\ioipao.obj \
+    $(_OBJ_DIR)\ppc\ioipo.obj \
+    $(_OBJ_DIR)\ppc\ioo.obj \
+    $(_OBJ_DIR)\ppc\ips.obj \
+    $(_OBJ_DIR)\ppc\obj.obj \
+    $(_OBJ_DIR)\ppc\pre.obj \
+    $(_OBJ_DIR)\ppc\simpsvr.obj
+
+PASS0_PPC_OBJECTS=
+

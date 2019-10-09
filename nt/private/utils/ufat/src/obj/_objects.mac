@@ -1,0 +1,84 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ufat.res \
+    $(_OBJ_DIR)\alpha\cluster.obj \
+    $(_OBJ_DIR)\alpha\eaheader.obj \
+    $(_OBJ_DIR)\alpha\easet.obj \
+    $(_OBJ_DIR)\alpha\entry.obj \
+    $(_OBJ_DIR)\alpha\fat.obj \
+    $(_OBJ_DIR)\alpha\fatdent.obj \
+    $(_OBJ_DIR)\alpha\fatdir.obj \
+    $(_OBJ_DIR)\alpha\fatsa.obj \
+    $(_OBJ_DIR)\alpha\fatsachk.obj \
+    $(_OBJ_DIR)\alpha\fatsacnv.obj \
+    $(_OBJ_DIR)\alpha\fatvol.obj \
+    $(_OBJ_DIR)\alpha\filedir.obj \
+    $(_OBJ_DIR)\alpha\reloclus.obj \
+    $(_OBJ_DIR)\alpha\rfatsa.obj \
+    $(_OBJ_DIR)\alpha\rootdir.obj \
+    $(_OBJ_DIR)\alpha\ufat.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ufat.res \
+    $(_OBJ_DIR)\mips\cluster.obj \
+    $(_OBJ_DIR)\mips\eaheader.obj \
+    $(_OBJ_DIR)\mips\easet.obj \
+    $(_OBJ_DIR)\mips\entry.obj \
+    $(_OBJ_DIR)\mips\fat.obj \
+    $(_OBJ_DIR)\mips\fatdent.obj \
+    $(_OBJ_DIR)\mips\fatdir.obj \
+    $(_OBJ_DIR)\mips\fatsa.obj \
+    $(_OBJ_DIR)\mips\fatsachk.obj \
+    $(_OBJ_DIR)\mips\fatsacnv.obj \
+    $(_OBJ_DIR)\mips\fatvol.obj \
+    $(_OBJ_DIR)\mips\filedir.obj \
+    $(_OBJ_DIR)\mips\reloclus.obj \
+    $(_OBJ_DIR)\mips\rfatsa.obj \
+    $(_OBJ_DIR)\mips\rootdir.obj \
+    $(_OBJ_DIR)\mips\ufat.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ufat.res \
+    $(_OBJ_DIR)\i386\cluster.obj \
+    $(_OBJ_DIR)\i386\eaheader.obj \
+    $(_OBJ_DIR)\i386\easet.obj \
+    $(_OBJ_DIR)\i386\entry.obj \
+    $(_OBJ_DIR)\i386\fat.obj \
+    $(_OBJ_DIR)\i386\fatdent.obj \
+    $(_OBJ_DIR)\i386\fatdir.obj \
+    $(_OBJ_DIR)\i386\fatsa.obj \
+    $(_OBJ_DIR)\i386\fatsachk.obj \
+    $(_OBJ_DIR)\i386\fatsacnv.obj \
+    $(_OBJ_DIR)\i386\fatvol.obj \
+    $(_OBJ_DIR)\i386\filedir.obj \
+    $(_OBJ_DIR)\i386\reloclus.obj \
+    $(_OBJ_DIR)\i386\rfatsa.obj \
+    $(_OBJ_DIR)\i386\rootdir.obj \
+    $(_OBJ_DIR)\i386\ufat.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ufat.res \
+    $(_OBJ_DIR)\ppc\cluster.obj \
+    $(_OBJ_DIR)\ppc\eaheader.obj \
+    $(_OBJ_DIR)\ppc\easet.obj \
+    $(_OBJ_DIR)\ppc\entry.obj \
+    $(_OBJ_DIR)\ppc\fat.obj \
+    $(_OBJ_DIR)\ppc\fatdent.obj \
+    $(_OBJ_DIR)\ppc\fatdir.obj \
+    $(_OBJ_DIR)\ppc\fatsa.obj \
+    $(_OBJ_DIR)\ppc\fatsachk.obj \
+    $(_OBJ_DIR)\ppc\fatsacnv.obj \
+    $(_OBJ_DIR)\ppc\fatvol.obj \
+    $(_OBJ_DIR)\ppc\filedir.obj \
+    $(_OBJ_DIR)\ppc\reloclus.obj \
+    $(_OBJ_DIR)\ppc\rfatsa.obj \
+    $(_OBJ_DIR)\ppc\rootdir.obj \
+    $(_OBJ_DIR)\ppc\ufat.obj
+
+PASS0_PPC_OBJECTS=
+

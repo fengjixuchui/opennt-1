@@ -1,0 +1,76 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\handler.obj \
+    $(_OBJ_DIR)\alpha\defsrv.obj \
+    $(_OBJ_DIR)\alpha\clthndlr.obj \
+    $(_OBJ_DIR)\alpha\srvhndlr.obj \
+    $(_OBJ_DIR)\alpha\defcf.obj \
+    $(_OBJ_DIR)\alpha\defhndlr.obj \
+    $(_OBJ_DIR)\alpha\deflink.obj \
+    $(_OBJ_DIR)\alpha\defutil.obj \
+    $(_OBJ_DIR)\alpha\gen.obj \
+    $(_OBJ_DIR)\alpha\icon.obj \
+    $(_OBJ_DIR)\alpha\mf.obj \
+    $(_OBJ_DIR)\alpha\emf.obj \
+    $(_OBJ_DIR)\alpha\olereg.obj \
+    $(_OBJ_DIR)\alpha\oregfmt.obj \
+    $(_OBJ_DIR)\alpha\oregverb.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\handler.obj \
+    $(_OBJ_DIR)\mips\defsrv.obj \
+    $(_OBJ_DIR)\mips\clthndlr.obj \
+    $(_OBJ_DIR)\mips\srvhndlr.obj \
+    $(_OBJ_DIR)\mips\defcf.obj \
+    $(_OBJ_DIR)\mips\defhndlr.obj \
+    $(_OBJ_DIR)\mips\deflink.obj \
+    $(_OBJ_DIR)\mips\defutil.obj \
+    $(_OBJ_DIR)\mips\gen.obj \
+    $(_OBJ_DIR)\mips\icon.obj \
+    $(_OBJ_DIR)\mips\mf.obj \
+    $(_OBJ_DIR)\mips\emf.obj \
+    $(_OBJ_DIR)\mips\olereg.obj \
+    $(_OBJ_DIR)\mips\oregfmt.obj \
+    $(_OBJ_DIR)\mips\oregverb.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\handler.obj \
+    $(_OBJ_DIR)\i386\defsrv.obj \
+    $(_OBJ_DIR)\i386\clthndlr.obj \
+    $(_OBJ_DIR)\i386\srvhndlr.obj \
+    $(_OBJ_DIR)\i386\defcf.obj \
+    $(_OBJ_DIR)\i386\defhndlr.obj \
+    $(_OBJ_DIR)\i386\deflink.obj \
+    $(_OBJ_DIR)\i386\defutil.obj \
+    $(_OBJ_DIR)\i386\gen.obj \
+    $(_OBJ_DIR)\i386\icon.obj \
+    $(_OBJ_DIR)\i386\mf.obj \
+    $(_OBJ_DIR)\i386\emf.obj \
+    $(_OBJ_DIR)\i386\olereg.obj \
+    $(_OBJ_DIR)\i386\oregfmt.obj \
+    $(_OBJ_DIR)\i386\oregverb.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\handler.obj \
+    $(_OBJ_DIR)\ppc\defsrv.obj \
+    $(_OBJ_DIR)\ppc\clthndlr.obj \
+    $(_OBJ_DIR)\ppc\srvhndlr.obj \
+    $(_OBJ_DIR)\ppc\defcf.obj \
+    $(_OBJ_DIR)\ppc\defhndlr.obj \
+    $(_OBJ_DIR)\ppc\deflink.obj \
+    $(_OBJ_DIR)\ppc\defutil.obj \
+    $(_OBJ_DIR)\ppc\gen.obj \
+    $(_OBJ_DIR)\ppc\icon.obj \
+    $(_OBJ_DIR)\ppc\mf.obj \
+    $(_OBJ_DIR)\ppc\emf.obj \
+    $(_OBJ_DIR)\ppc\olereg.obj \
+    $(_OBJ_DIR)\ppc\oregfmt.obj \
+    $(_OBJ_DIR)\ppc\oregverb.obj
+
+PASS0_PPC_OBJECTS=
+

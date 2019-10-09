@@ -1,0 +1,84 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\asrt.obj \
+    $(_OBJ_DIR)\alpha\command.obj \
+    $(_OBJ_DIR)\alpha\error.obj \
+    $(_OBJ_DIR)\alpha\filelist.obj \
+    $(_OBJ_DIR)\alpha\fileutil.obj \
+    $(_OBJ_DIR)\alpha\filever.obj \
+    $(_OBJ_DIR)\alpha\format.obj \
+    $(_OBJ_DIR)\alpha\glist.obj \
+    $(_OBJ_DIR)\alpha\message.obj \
+    $(_OBJ_DIR)\alpha\mem.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\dfparse.obj \
+    $(_OBJ_DIR)\alpha\layout.obj \
+    $(_OBJ_DIR)\alpha\textfile.obj \
+    $(_OBJ_DIR)\alpha\ttfver.obj \
+    $(_OBJ_DIR)\alpha\variable.obj \
+    $(_OBJ_DIR)\alpha\inf.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\asrt.obj \
+    $(_OBJ_DIR)\mips\command.obj \
+    $(_OBJ_DIR)\mips\error.obj \
+    $(_OBJ_DIR)\mips\filelist.obj \
+    $(_OBJ_DIR)\mips\fileutil.obj \
+    $(_OBJ_DIR)\mips\filever.obj \
+    $(_OBJ_DIR)\mips\format.obj \
+    $(_OBJ_DIR)\mips\glist.obj \
+    $(_OBJ_DIR)\mips\message.obj \
+    $(_OBJ_DIR)\mips\mem.obj \
+    $(_OBJ_DIR)\mips\misc.obj \
+    $(_OBJ_DIR)\mips\dfparse.obj \
+    $(_OBJ_DIR)\mips\layout.obj \
+    $(_OBJ_DIR)\mips\textfile.obj \
+    $(_OBJ_DIR)\mips\ttfver.obj \
+    $(_OBJ_DIR)\mips\variable.obj \
+    $(_OBJ_DIR)\mips\inf.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\asrt.obj \
+    $(_OBJ_DIR)\i386\command.obj \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\filelist.obj \
+    $(_OBJ_DIR)\i386\fileutil.obj \
+    $(_OBJ_DIR)\i386\filever.obj \
+    $(_OBJ_DIR)\i386\format.obj \
+    $(_OBJ_DIR)\i386\glist.obj \
+    $(_OBJ_DIR)\i386\message.obj \
+    $(_OBJ_DIR)\i386\mem.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\dfparse.obj \
+    $(_OBJ_DIR)\i386\layout.obj \
+    $(_OBJ_DIR)\i386\textfile.obj \
+    $(_OBJ_DIR)\i386\ttfver.obj \
+    $(_OBJ_DIR)\i386\variable.obj \
+    $(_OBJ_DIR)\i386\inf.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\asrt.obj \
+    $(_OBJ_DIR)\ppc\command.obj \
+    $(_OBJ_DIR)\ppc\error.obj \
+    $(_OBJ_DIR)\ppc\filelist.obj \
+    $(_OBJ_DIR)\ppc\fileutil.obj \
+    $(_OBJ_DIR)\ppc\filever.obj \
+    $(_OBJ_DIR)\ppc\format.obj \
+    $(_OBJ_DIR)\ppc\glist.obj \
+    $(_OBJ_DIR)\ppc\message.obj \
+    $(_OBJ_DIR)\ppc\mem.obj \
+    $(_OBJ_DIR)\ppc\misc.obj \
+    $(_OBJ_DIR)\ppc\dfparse.obj \
+    $(_OBJ_DIR)\ppc\layout.obj \
+    $(_OBJ_DIR)\ppc\textfile.obj \
+    $(_OBJ_DIR)\ppc\ttfver.obj \
+    $(_OBJ_DIR)\ppc\variable.obj \
+    $(_OBJ_DIR)\ppc\inf.obj
+
+PASS0_PPC_OBJECTS=
+

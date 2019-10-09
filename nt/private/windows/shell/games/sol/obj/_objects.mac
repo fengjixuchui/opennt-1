@@ -1,0 +1,56 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\sol_new.res \
+    $(_OBJ_DIR)\alpha\sol.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\game.obj \
+    $(_OBJ_DIR)\alpha\col.obj \
+    $(_OBJ_DIR)\alpha\klond.obj \
+    $(_OBJ_DIR)\alpha\undo.obj \
+    $(_OBJ_DIR)\alpha\marq.obj \
+    $(_OBJ_DIR)\alpha\stat.obj \
+    $(_OBJ_DIR)\alpha\debug.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\sol_new.res \
+    $(_OBJ_DIR)\mips\sol.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\game.obj \
+    $(_OBJ_DIR)\mips\col.obj \
+    $(_OBJ_DIR)\mips\klond.obj \
+    $(_OBJ_DIR)\mips\undo.obj \
+    $(_OBJ_DIR)\mips\marq.obj \
+    $(_OBJ_DIR)\mips\stat.obj \
+    $(_OBJ_DIR)\mips\debug.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\sol_new.res \
+    $(_OBJ_DIR)\i386\sol.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\game.obj \
+    $(_OBJ_DIR)\i386\col.obj \
+    $(_OBJ_DIR)\i386\klond.obj \
+    $(_OBJ_DIR)\i386\undo.obj \
+    $(_OBJ_DIR)\i386\marq.obj \
+    $(_OBJ_DIR)\i386\stat.obj \
+    $(_OBJ_DIR)\i386\debug.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\sol_new.res \
+    $(_OBJ_DIR)\ppc\sol.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\game.obj \
+    $(_OBJ_DIR)\ppc\col.obj \
+    $(_OBJ_DIR)\ppc\klond.obj \
+    $(_OBJ_DIR)\ppc\undo.obj \
+    $(_OBJ_DIR)\ppc\marq.obj \
+    $(_OBJ_DIR)\ppc\stat.obj \
+    $(_OBJ_DIR)\ppc\debug.obj
+
+PASS0_PPC_OBJECTS=
+

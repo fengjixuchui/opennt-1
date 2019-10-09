@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ndrd.res \
+    $(_OBJ_DIR)\alpha\ndrdbg.obj \
+    $(_OBJ_DIR)\alpha\bufout.obj \
+    $(_OBJ_DIR)\alpha\pointer.obj \
+    $(_OBJ_DIR)\alpha\string.obj \
+    $(_OBJ_DIR)\alpha\struct.obj \
+    $(_OBJ_DIR)\alpha\array.obj \
+    $(_OBJ_DIR)\alpha\union.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\pdict.obj \
+    $(_OBJ_DIR)\alpha\dict.obj \
+    $(_OBJ_DIR)\alpha\regkeys.obj \
+    $(_OBJ_DIR)\alpha\print.obj \
+    $(_OBJ_DIR)\alpha\xmit.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ndrd.res \
+    $(_OBJ_DIR)\mips\ndrdbg.obj \
+    $(_OBJ_DIR)\mips\bufout.obj \
+    $(_OBJ_DIR)\mips\pointer.obj \
+    $(_OBJ_DIR)\mips\string.obj \
+    $(_OBJ_DIR)\mips\struct.obj \
+    $(_OBJ_DIR)\mips\array.obj \
+    $(_OBJ_DIR)\mips\union.obj \
+    $(_OBJ_DIR)\mips\misc.obj \
+    $(_OBJ_DIR)\mips\pdict.obj \
+    $(_OBJ_DIR)\mips\dict.obj \
+    $(_OBJ_DIR)\mips\regkeys.obj \
+    $(_OBJ_DIR)\mips\print.obj \
+    $(_OBJ_DIR)\mips\xmit.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ndrd.res \
+    $(_OBJ_DIR)\i386\ndrdbg.obj \
+    $(_OBJ_DIR)\i386\bufout.obj \
+    $(_OBJ_DIR)\i386\pointer.obj \
+    $(_OBJ_DIR)\i386\string.obj \
+    $(_OBJ_DIR)\i386\struct.obj \
+    $(_OBJ_DIR)\i386\array.obj \
+    $(_OBJ_DIR)\i386\union.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\pdict.obj \
+    $(_OBJ_DIR)\i386\dict.obj \
+    $(_OBJ_DIR)\i386\regkeys.obj \
+    $(_OBJ_DIR)\i386\print.obj \
+    $(_OBJ_DIR)\i386\xmit.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ndrd.res \
+    $(_OBJ_DIR)\ppc\ndrdbg.obj \
+    $(_OBJ_DIR)\ppc\bufout.obj \
+    $(_OBJ_DIR)\ppc\pointer.obj \
+    $(_OBJ_DIR)\ppc\string.obj \
+    $(_OBJ_DIR)\ppc\struct.obj \
+    $(_OBJ_DIR)\ppc\array.obj \
+    $(_OBJ_DIR)\ppc\union.obj \
+    $(_OBJ_DIR)\ppc\misc.obj \
+    $(_OBJ_DIR)\ppc\pdict.obj \
+    $(_OBJ_DIR)\ppc\dict.obj \
+    $(_OBJ_DIR)\ppc\regkeys.obj \
+    $(_OBJ_DIR)\ppc\print.obj \
+    $(_OBJ_DIR)\ppc\xmit.obj
+
+PASS0_PPC_OBJECTS=
+

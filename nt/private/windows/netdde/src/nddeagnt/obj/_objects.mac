@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\nddeagnt.res \
+    $(_OBJ_DIR)\alpha\nddeagnt.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\nddeagnt.res \
+    $(_OBJ_DIR)\mips\nddeagnt.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\nddeagnt.res \
+    $(_OBJ_DIR)\i386\nddeagnt.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\nddeagnt.res \
+    $(_OBJ_DIR)\ppc\nddeagnt.obj
+
+PASS0_PPC_OBJECTS=
+

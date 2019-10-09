@@ -1,0 +1,1085 @@
+Stack Allocation = 32768 bytes
+
+ MKTYPLIB
+
+ Start     Length     Name                   Class
+ 0001:0000 00E42H     LEXER_TEXT             CODE
+ 0001:0E42 00000H     INTLSTR_TEXT           CODE
+ 0001:0E42 01170H     MKTYPLIB_TEXT          CODE
+ 0001:1FB2 04C25H     PARSER_TEXT            CODE
+ 0001:6BD8 014E5H     HOUT_TEXT              CODE
+ 0001:80BE 02697H     TYPOUT_TEXT            CODE
+ 0001:A756 01657H     DIMALLOC_TEXT          CODE
+ 0001:BDAE 02B0CH     _TEXT                  CODE
+ 0001:E8C0 0036CH     COMDAT_SEG1            CODE
+ 0002:0000 00010H     NULL                   BEGDATA
+ 0002:0010 0372AH     _DATA                  DATA
+ 0002:373A 0000EH     CDATA                  DATA
+ 0002:3748 00000H     XIFB                   DATA
+ 0002:3748 00000H     XIF                    DATA
+ 0002:3748 00000H     XIFE                   DATA
+ 0002:3748 00000H     XIB                    DATA
+ 0002:3748 00000H     XI                     DATA
+ 0002:3748 00000H     XIE                    DATA
+ 0002:3748 00000H     XPB                    DATA
+ 0002:3748 00008H     XP                     DATA
+ 0002:3750 00000H     XPE                    DATA
+ 0002:3750 00000H     XCB                    DATA
+ 0002:3750 00000H     XC                     DATA
+ 0002:3750 00000H     XCE                    DATA
+ 0002:3750 00000H     XCFB                   DATA
+ 0002:3750 00000H     XCFCRT                 DATA
+ 0002:3750 00000H     XCF                    DATA
+ 0002:3750 00000H     XCFE                   DATA
+ 0002:3750 00000H     XIFCB                  DATA
+ 0002:3750 00000H     XIFU                   DATA
+ 0002:3750 00000H     XIFL                   DATA
+ 0002:3750 00000H     XIFM                   DATA
+ 0002:3750 00000H     XIFCE                  DATA
+ 0002:3750 00000H     DBDATA                 DATA
+ 0002:3750 00098H     IOB                    DATA
+ 0002:37E8 00000H     IOBX                   DATA
+ 0002:37E8 00008H     IOBE                   DATA
+ 0002:37F0 00098H     IOB2                   DATA
+ 0002:3888 00000H     IOB2X                  DATA
+ 0002:3888 00008H     IOB2E                  DATA
+ 0002:3890 00000H     CONST                  CONST
+ 0002:3890 00008H     HDR                    MSG
+ 0002:3898 0016EH     MSG                    MSG
+ 0002:3A06 00002H     PAD                    MSG
+ 0002:3A08 00001H     EPAD                   MSG
+ 0002:3A0A 00034H     _BSS                   BSS
+ 0002:3A3E 00000H     XOB                    BSS
+ 0002:3A3E 00000H     XO                     BSS
+ 0002:3A3E 00000H     XOE                    BSS
+ 0002:3A3E 00000H     XOFB                   BSS
+ 0002:3A3E 00000H     XOF                    BSS
+ 0002:3A3E 00000H     XOFE                   BSS
+ 0002:3A40 00266H     c_common               BSS
+
+ Origin   Group
+ 0002:0   DGROUP
+
+ Address   Export                  Alias
+
+ 0001:0E42 WEP                     WEP
+
+  Address         Publics by Name
+
+ 0001:EA78       ??0CDbAlloc@@REC@XZ
+ 0001:E940       ??0CStdDbOutput@@REC@XZ
+ 0001:EB1A       ??0IDbOutput@@REC@XZ
+ 0001:EB50       ??0IMalloc@@REC@XZ
+ 0001:EB86       ??0IUnknown@@REC@XZ
+ 0001:E984       ??2CAddrNode@@TAPEXI@Z
+ 0001:E9C6       ??2CDbAlloc@@TAPEXI@Z
+ 0001:E8FE       ??2CStdDbOutput@@TAPEXI@Z
+ 0001:E9A4       ??3CAddrNode@@TAXPEX@Z
+ 0001:E9E6       ??3CDbAlloc@@TAXPEX@Z
+ 0001:E91E       ??3CStdDbOutput@@TAXPEX@Z
+ 0001:E8C0       ??8GUID@@RFCHAFU0@@Z
+ 0001:EBD4       ??_7CDbAlloc@@6B@
+ 0001:EBF8       ??_7CStdDbOutput@@6B@
+ 0001:EC18       ??_7IDbOutput@@6B@
+ 0001:EBB0       ??_7IMalloc@@6B@
+ 0001:EC0C       ??_7IUnknown@@6B@
+ 0001:B300       ?AddInst@CDbAlloc@@BECXPEXKK@Z
+ 0001:A910       ?AddRef@CDbAlloc@@VEAKXZ
+ 0001:BA18       ?AddRef@CStdDbOutput@@VEAKXZ
+ 0001:AA28       ?Alloc@CDbAlloc@@VEAPEXK@Z
+ 0001:EA36       ?Assertion@CDbAlloc@@BECXHPED0I0@Z
+ 0001:BB4C       ?Assertion@CStdDbOutput@@VEAXHPED0I0@Z
+ 0001:A790       ?Create@CDbAlloc@@TAPEXKPEUIDbOutput@@PEPEUIMalloc@@@Z
+ 0001:B96C       ?Create@CStdDbOutput@@TAPEUIDbOutput@@XZ
+ 0001:B430       ?DelInst@CDbAlloc@@BECXPEX@Z
+ 0001:B2BE       ?DidAlloc@CDbAlloc@@VEAHPEX@Z
+ 0001:B622       ?DumpInst@CDbAlloc@@BECXPEVCAddrNode@@@Z
+ 0001:B6E6       ?DumpInstTable@CDbAlloc@@BECXXZ
+ 0001:AF8C       ?Free@CDbAlloc@@VEAXPEX@Z
+ 0001:B57C       ?GetInst@CDbAlloc@@BECPEVCAddrNode@@PEX@Z
+ 0001:B220       ?GetSize@CDbAlloc@@VEAKPEX@Z
+ 0001:EA08       ?HashInst@CDbAlloc@@BFCIPEX@Z
+ 0001:B2DE       ?HeapMinimize@CDbAlloc@@VEAXXZ
+ 0001:BBF4       ?HugeAlloc@@ZAPEXK@Z
+ 0001:BD20       ?HugeFree@@ZAPEXPEX@Z
+ 0001:BC5C       ?HugeRealloc@@ZAPEXPEXK@Z
+ 0001:B76E       ?IMallocHeapChecker@CDbAlloc@@RECXXZ
+ 0001:B688       ?IsEmpty@CDbAlloc@@BECHXZ
+ 0001:B29A       ?MemInstance@CDbAlloc@@RECXXZ
+ 0001:BABC       ?Printf@CStdDbOutput@@VEAXPEDZZ
+ 0001:A89E       ?QueryInterface@CDbAlloc@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:B9B4       ?QueryInterface@CStdDbOutput@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:ABB4       ?Realloc@CDbAlloc@@VEAPEXPEXK@Z
+ 0001:A942       ?Release@CDbAlloc@@VEAKXZ
+ 0001:BA4A       ?Release@CStdDbOutput@@VEAKXZ
+ 0000:0000  Imp  ANSITOOEM            (KEYBOARD.5)
+ 0000:0000  Imp  CLSIDFROMSTRING      (COMPOBJ.20)
+ 0000:0000  Imp  COINITIALIZE         (COMPOBJ.2)
+ 0000:0000  Imp  COMPARESTRINGA       (OLE2NLS.8)
+ 0000:0000  Imp  COUNINITIALIZE       (COMPOBJ.3)
+ 0001:A756       CREATEDBALLOC
+ 0000:0000  Imp  CREATETYPELIB        (TYPELIB.2)
+ 0000:0000  Imp  DOS3CALL             (KERNEL.102)
+ 0000:0000  Imp  FATALAPPEXIT         (KERNEL.137)
+ 0000:0000  Imp  FATALEXIT            (KERNEL.1)
+ 0000:0000  Imp  GETDOSENVIRONMENT    (KERNEL.131)
+ 0000:0000  Imp  GETMODULEFILENAME    (KERNEL.49)
+ 0000:0000  Imp  GETOPENFILENAME      (COMMDLG.1)
+ 0000:0000  Imp  GETVERSION           (KERNEL.3)
+ 0000:0000  Imp  GETWINDEBUGINFO      (KERNEL.355)
+ 0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
+ 0000:0000  Imp  GLOBALFREE           (KERNEL.17)
+ 0000:0000  Imp  GLOBALHANDLE         (KERNEL.21)
+ 0000:0000  Imp  GLOBALLOCK           (KERNEL.18)
+ 0000:0000  Imp  GLOBALREALLOC        (KERNEL.16)
+ 0000:0000  Imp  GLOBALSIZE           (KERNEL.20)
+ 0000:0000  Imp  GLOBALUNLOCK         (KERNEL.19)
+ 0000:0000  Imp  INITAPP              (USER.5)
+ 0000:0000  Imp  INITTASK             (KERNEL.91)
+ 0000:0000  Imp  ISDBCSLEADBYTE       (KERNEL.207)
+ 0000:0000  Imp  ISTASK               (KERNEL.320)
+ 0000:0000  Imp  LHASHVALOFNAMESYS    (TYPELIB.4)
+ 0000:0000  Imp  LOADCURSOR           (USER.173)
+ 0000:0000  Imp  LOADTYPELIB          (TYPELIB.3)
+ 0000:0000  Imp  LOCALALLOC           (KERNEL.5)
+ 0000:0000  Imp  LOCALFREE            (KERNEL.7)
+ 0000:0000  Imp  LOCALREALLOC         (KERNEL.6)
+ 0000:0000  Imp  LOCALSIZE            (KERNEL.10)
+ 0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
+ 0000:0000  Imp  MESSAGEBOX           (USER.1)
+ 0000:0000  Imp  OEMTOANSI            (KEYBOARD.6)
+ 0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
+ 0000:0008  Abs  pAtomTable
+ 0000:0006  Abs  pLocalHeap
+ 0000:000E  Abs  pStackBot
+ 0000:000C  Abs  pStackMin
+ 0000:000A  Abs  pStackTop
+ 0002:0004       rsrvptrs
+ 0000:0000  Imp  SETCURSOR            (USER.69)
+ 0000:0000  Imp  SETWINDEBUGINFO      (KERNEL.356)
+ 0000:0000  Imp  SYSALLOCSTRINGLEN    (OLE2DISP.4)
+ 0000:0000  Imp  SYSFREESTRING        (OLE2DISP.6)
+ 0000:0000  Imp  SYSSTRINGLEN         (OLE2DISP.7)
+ 0000:0000  Imp  TASKFINDHANDLE       (TOOLHELP.65)
+ 0000:0000  Imp  TASKFIRST            (TOOLHELP.63)
+ 0000:0000  Imp  TASKNEXT             (TOOLHELP.64)
+ 0000:0000  Imp  UNLOCKSEGMENT        (KERNEL.24)
+ 0000:0000  Imp  WAITEVENT            (KERNEL.30)
+ 0001:0E42       WEP
+ 0000:0000  Imp  WINEXEC              (KERNEL.166)
+ 0000:0000  Imp  YIELD                (KERNEL.29)
+ 0002:34E4       _aseghi
+ 0002:34E2       _aseglo
+ 0001:1EAA       _AssertFail
+ 0001:DC3E       _atoi
+ 0002:1E28       _cArgsMax
+ 0001:6364       _CheckAttr
+ 0001:63C8       _CheckAttrTokLast
+ 0001:6852       _CheckForwardMatch
+ 0001:A118       _CleanupImportedTypeLibs
+ 0001:1470       _CloneNameAddExt
+ 0002:1B34       _colCur
+ 0002:3B96       _colLast
+ 0001:64FA       _ConsumeId
+ 0001:64C6       _ConsumeRCurlyOptSemi
+ 0001:00F4       _ConsumeTok
+ 0001:1E72       _DebAssertShow
+ 0001:1DF8       _DisplayLine
+ 0001:11A8       _DisplaySuccess
+ 0001:1532       _DoPreProcess
+ 0002:3A0A       _edata
+ 0002:3CA6       _end
+ 0001:4F14       _EnsureIDispatchType
+ 0001:3710       _EnsureNoDupElem
+ 0001:6540       _EnsureNoDupEntries
+ 0001:4F48       _EnsureOAType
+ 0002:3506       _errno
+ 0001:13D0       _ErrorExit
+ 0001:BF7D       _exit
+ 0002:1B56       _f2DefaultCC
+ 0001:C430       _fclose
+ 0001:68A2       _FCmpCaseIns
+ 0002:1B5A       _fCPP
+ 0002:1B82       _fDebug
+ 0002:3B9A       _fDirectiveOK
+ 0002:2E60       _fDoingOutput
+ 0001:CA88       _fflush
+ 0001:DD56       _fgets
+ 0002:1B4C       _fGiveUsage
+ 0001:3B38       _FHandleForwardDecl
+ 0002:1B48       _fHFile
+ 0001:008A       _FillLine
+ 0001:A2BA       _FindExtType
+ 0001:6AF4       _FindIDispatch
+ 0001:2B78       _FindType
+ 0001:2E82       _FindTypeArray
+ 0001:2CB8       _FindTypeInd
+ 0002:1B4A       _fNologo
+ 0002:1B80       _fOLEInitialized
+ 0001:C554       _fopen
+ 0001:1878       _FParseCl
+ 0001:DDD6       _fputs
+ 0002:1E2E       _fSpecifiedInterCC
+ 0002:1B54       _fSuppressWarnings
+ 0001:0992       _FValidIdCh
+ 0001:C56E       _fwrite
+ 0001:BB90       _GetDebIMalloc
+ 0001:DCB2       _getenv
+ 0001:349E       _GetStringType
+ 0001:4F8E       _GetTypeCompatibility
+ 0001:642C       _GotAttr
+ 0001:6478       _GotAttr2
+ 0002:1E2A       _g_lcidCompare
+ 0002:3BA2       _g_rgchLeadBytes
+ 0001:0C86       _HandleDirective
+ 0001:08D4       _HandleEscape
+ 0001:0BB4       _HandleHexNum
+ 0001:077A       _HandleId
+ 0001:0A02       _HandleNumericLit
+ 0001:0654       _HandleString
+ 0002:3B98       _hcrsWait
+ 0002:1B3A       _hFileInput
+ 0002:1B3E       _hFileOutput
+ 0002:1B3C       _hHFile
+ 0001:808A       _HOut
+ 0001:741C       _HOutBaseInter
+ 0001:7058       _HOutCoclass
+ 0001:7AD2       _HOutElems
+ 0001:6E5E       _HOutEnum
+ 0001:8058       _HOutF
+ 0001:75B6       _HOutFuncs
+ 0001:7F6A       _HOutGuid
+ 0001:70C0       _HOutInterface
+ 0001:7A76       _HOutLongNum
+ 0001:6FD6       _HOutModule
+ 0001:79A2       _HOutPropPrefix
+ 0001:7A38       _HOutShortNum
+ 0001:6F10       _HOutStructUnion
+ 0001:7DFC       _HOutType
+ 0001:6DF0       _HOutTypedef
+ 0002:3B94       _hTaskCpp
+ 0002:1B52       _iAlignDef
+ 0002:1B50       _iAlignMax
+ 0000:0000  Imp  _IID_ITypeInfo       (TYPELIB.8)
+ 0000:0000  Imp  _IID_IUnknown        (COMPOBJ.38)
+ 0001:2AE0       _InitIntrinsic
+ 0001:2A4A       _InitIntrinsicTypes
+ 0001:2140       _InitNewEntry
+ 0001:52D0       _IsObjectType
+ 0001:4EC6       _IsType
+ 0001:134C       _ItemError
+ 0001:68E8       _ListInsert
+ 0002:1B30       _lnCur
+ 0002:3B9E       _lnLast
+ 0001:9B38       _LoadElemDesc
+ 0001:9F6A       _LoadExtTypeLib
+ 0001:6294       _lParseNumber
+ 0001:61F0       _lParseNumericExpr
+ 0002:3A2A       _lpszItemCur
+ 0001:6196       _lpszParseStringExpr
+ 0001:3ACE       _lpTypePublic
+ 0001:0E62       _main
+ 0001:E24C       _memcmp
+ 0001:E274       _memcpy
+ 0001:E2A0       _memset
+ 0001:A66E       _MethodError
+ 0002:3AC2       _Olddebuginfo
+ 0001:9AB6       _OutputAlias
+ 0001:9D2A       _OutputBaseInterfaces
+ 0001:9D02       _OutputClass
+ 0001:9CA2       _OutputDispinter
+ 0001:94F2       _OutputElems
+ 0001:8E60       _OutputFuncs
+ 0001:6BD8       _OutputHFile
+ 0001:9C44       _OutputInterface
+ 0001:85E2       _OutputTypeInfos
+ 0001:80BE       _OutputTyplib
+ 0001:3D8C       _ParseAlias
+ 0001:5DB0       _ParseCoclass
+ 0001:4130       _ParseConstant
+ 0001:59D6       _ParseDispinterface
+ 0001:3A12       _ParseElem
+ 0001:3558       _ParseElemName
+ 0001:1200       _ParseError
+ 0001:1226       _ParseErrorLnCol
+ 0001:11DA       _ParseErrorTokLast
+ 0001:447A       _ParseFunction
+ 0001:60F6       _ParseImportlib
+ 0001:0000       _ParseInit
+ 0001:55A6       _ParseInterface
+ 0001:2F94       _ParseKnownType
+ 0001:1FF8       _ParseLibrary
+ 0001:0D86       _ParseMalloc
+ 0001:53DE       _ParseModule
+ 0001:3998       _ParseNewElem
+ 0001:3F6A       _ParseNewEnumElem
+ 0001:1FB2       _ParseOdlFile
+ 0001:21D6       _ParseOptAttr
+ 0001:3E0A       _ParseStructEnumUnion
+ 0001:3CA6       _ParseTypedef
+ 0002:3B9C       _pLine
+ 0002:3AC0       _pLineBuf
+ 0001:E334       _remove
+ 0002:02DA       _rgAttrs
+ 0002:3A22       _rgFuncArgs
+ 0002:010A       _rgRws
+ 0002:16B6       _rgszErr
+ 0002:3A26       _rgszFuncArgNames
+ 0002:2E76       _rgtentrykind
+ 0002:2E66       _rgtkind
+ 0001:0D32       _RwLookup
+ 0001:017A       _ScanTok
+ 0002:3CA2       _scodeErrCur
+ 0001:7926       _SetCallType
+ 0001:DE2E       _sprintf
+ 0002:34D6       _STKHQQ
+ 0001:DB4A       _strcat
+ 0001:DBBC       _strcmp
+ 0001:DB8A       _strcpy
+ 0001:DBE8       _strlen
+ 0001:DC04       _strncmp
+ 0002:1B4E       _SysKind
+ 0002:07FC       _szAppTitle
+ 0002:0478       _szBanner
+ 0002:1B2E       _szBatchEnd
+ 0002:1AF8       _szBatchStart
+ 0002:3A40       _szCppDefs
+ 0002:1B64       _szCppExe
+ 0002:1B7C       _szCppOpts
+ 0002:1B38       _szExpected
+ 0002:3B0C       _szFileCur
+ 0002:183C       _szFmtErrFileLineCol
+ 0002:1996       _szFmtErrGeneral
+ 0002:1918       _szFmtErrImportlib
+ 0002:18D6       _szFmtErrOutput
+ 0002:197E       _szFmtErrUnknown
+ 0002:17EE       _szFmtSuccess
+ 0002:1880       _szFmtWarnFileLineCol
+ 0002:19AA       _szFmtWarnGeneral
+ 0002:1AEA       _szHeadDispatchable
+ 0002:1A72       _szHeadDispinter
+ 0002:1A04       _szHeadFile
+ 0002:1A48       _szHeadInter
+ 0002:1AAE       _szHeadMethods
+ 0002:1A28       _szHeadModule
+ 0002:1B44       _szHFile
+ 0002:1B40       _szInputFile
+ 0002:1B46       _szOutputFile
+ 0002:1B7E       _szTempFile
+ 0002:1B42       _szTypeLibFile
+ 0002:07F0       _szUsage
+ 0002:3B8C       _tok
+ 0002:3ADC       _typlib
+ 0001:990A       _UpdateHRefType
+ 0001:6974       _VerifyLcid
+ 0001:DE8C       _vsprintf
+ 0001:0DCC       _XStrChr
+ 0001:1F70       _XStrInc
+ 0002:3558       __aaltstkovr
+ 0001:E844       __access
+ 0002:34EA       __acfinfo
+ 0000:9876  Abs  __acrtmsg
+ 0000:9876  Abs  __acrtused
+ 0000:D6D6  Abs  __aDBdoswp
+ 0002:3554       __adbgmsg
+ 0000:D6D6  Abs  __aDBused
+ 0001:C0A2       __aFchkstk
+ 0001:E37C       __aFlmul
+ 0001:E3AE       __aFlshl
+ 0001:E37C       __aFulmul
+ 0001:E3BA       __aFulshr
+ 0000:0000  Imp  __AHINCR             (KERNEL.114)
+ 0002:34F8       __aintdiv
+ 0002:35FC       __amblksiz
+ 0001:C2ED       __amsg_exit
+ 0001:C082       __aNchkstk
+ 0002:361E       __asizeC
+ 0002:361F       __asizeD
+ 0001:BDC8       __astart
+ 0001:DC42       __catox
+ 0001:BF9A       __cexit
+ 0002:35FE       __cfltcvt_tab
+ 0002:3578       __cflush
+ 0002:3551       __child
+ 0001:C0A2       __chkstk
+ 0001:BE9E       __cinit
+ 0001:C2E8       __cintDIV
+ 0001:D108       __close
+ 0001:E2CE       __cltoasub
+ 0002:34E0       __cmdShow
+ 0001:DEE6       __commit
+ 0002:35E6       __commode
+ 0002:3515       __cpumode
+ 0001:C01B       __ctermsub
+ 0002:3620       __ctype
+ 0002:3620       __ctype_
+ 0001:D4DF       __cXENIXtoDOSmode
+ 0001:E2DA       __cxtoa
+ 0001:BFAB       __c_exit
+ 0002:3516       __doserrno
+ 0001:C3D2       __dosret0
+ 0001:C3F1       __dosretax
+ 0001:C3DF       __dosreturn
+ 0001:E358       __dos_commit
+ 0002:3A0A       __edata
+ 0002:3CA6       __end
+ 0001:C67E       __endstdio
+ 0002:354A       __environ
+ 0001:BF8B       __exit
+ 0002:3553       __exitflag
+ 0002:34FC       __fac
+ 0001:DD18       __fcloseall
+ 0001:D808       __ffree
+ 0001:C058       __FF_MSGBANNER
+ 0002:35EE       __fheap
+ 0001:E0DC       __fheapmin
+ 0001:C694       __filbuf
+ 0001:DAA8       __findlast
+ 0001:E0B2       __findseg
+ 0001:C738       __flsbuf
+ 0001:CADE       __flush
+ 0001:CB56       __flushall
+ 0001:D829       __fmalloc
+ 0001:E3C6       __fmemcmp
+ 0001:E422       __fmemcpy
+ 0001:E500       __fmemset
+ 0002:35E4       __fmode
+ 0002:373C       __fpinit
+ 0000:9876  Abs  __fptaskdata
+ 0001:C07C       __fptrap
+ 0001:E32E       __fpurecall
+ 0001:DF56       __frealloc
+ 0001:C82A       __freebuf
+ 0001:C524       __fsopen
+ 0001:E49A       __fstrcmp
+ 0001:E4C4       __fstrcpy
+ 0001:E206       __fstrdup
+ 0001:E480       __fstrlen
+ 0001:CA4A       __ftbuf
+ 0001:C856       __getbuf
+ 0001:D0CC       __getstream
+ 0001:D9B6       __growseg
+ 0002:34DA       __hInstance
+ 0002:34D8       __hPrevInstance
+ 0001:DA42       __incseg
+ 0001:D8D0       __initseg
+ 0002:3750       __iob
+ 0002:37F0       __iob2
+ 0002:35E4       __iomode
+ 0001:DC96       __itoa
+ 0002:357A       __lastiob
+ 0001:D904       __linkseg
+ 0002:34DC       __lpszCmdLine
+ 0001:D140       __lseek
+ 0002:35E8       __lseekchk
+ 0001:C403       __maperror
+ 0001:E114       __minseg
+ 0001:C3A4       __myalloc
+ 0001:DAC8       __newseg
+ 0002:3518       __nfile
+ 0001:E5B0       __nfree
+ 0001:E554       __nmalloc
+ 0001:C330       __NMSG_TEXT
+ 0001:C367       __NMSG_WRITE
+ 0001:E638       __nmsize
+ 0001:BE6B       __nomain
+ 0001:E32E       __npurecall
+ 0001:E5CA       __nrealloc
+ 0002:3738       __old_pfxlen
+ 0001:D22C       __open
+ 0001:C89A       __openfile
+ 0002:3516       __oserr
+ 0002:351E       __osfile
+ 0002:3511       __osmajor
+ 0002:3510       __osminor
+ 0002:3514       __osmode
+ 0002:3510       __osver
+ 0002:3512       __osversion
+ 0001:CBE4       __output
+ 0002:354C       __pgmptr
+ 0002:35EA       __pnhFarHeap
+ 0002:3724       __pnhNearHeap
+ 0002:350C       __psp
+ 0002:350A       __pspadr
+ 0001:E32E       __purecall
+ 0001:E54D       __QWINClose
+ 0001:E54D       __QWINExit
+ 0001:E54D       __QWINGetBuffSize
+ 0001:E54D       __QWINGetFocus
+ 0001:E54D       __QWINGetSize
+ 0001:E54D       __QWINInit
+ 0001:E54D       __QWINIsQWINin
+ 0001:E54D       __QWINMenuClick
+ 0001:E54D       __QWINOpen
+ 0001:E54D       __QWINRead
+ 0001:E54D       __QWINSetAboutString
+ 0001:E54D       __QWINSetBuffSize
+ 0001:E54D       __QWINSetFocus
+ 0001:E54D       __QWINSetSize
+ 0001:E54D       __QWINTerm
+ 0002:3722       __qwinused
+ 0001:E54D       __QWINWrite
+ 0001:E54D       __QWINYield
+ 0001:D4F0       __read
+ 0001:DFEA       __resize
+ 0001:E87A       __rmtmp
+ 0001:D93A       __searchseg
+ 0001:C0D6       __setargv
+ 0001:C258       __setenvp
+ 0002:361C       __sigintoff
+ 0002:361A       __sigintseg
+ 0000:0001  Abs  __sizec
+ 0000:0000  Abs  __sized
+ 0001:D214       __sopen
+ 0001:D7F4       __stackavail
+ 0001:C9CC       __stbuf
+ 0001:E7CC       __strcmpi
+ 0001:E80E       __strdup
+ 0001:E7CC       __stricmp
+ 0001:BE72       __stubmain
+ 0001:E64C       __tempnam
+ 0002:3736       __tempoff
+ 0002:3734       __tmpoff
+ 0002:3508       __umaskval
+ 0001:E334       __unlink
+ 0001:E194       __unlinkseg
+ 0001:E54D       __wabout
+ 0001:E548       __wcexit
+ 0001:E548       __wcinit
+ 0001:E54D       __wclose
+ 0002:351A       __wfile
+ 0001:BDBE       __wflags
+ 0001:E54D       __wgetfocus
+ 0001:E54D       __wgetscreenbuf
+ 0001:E54D       __wgetsize
+ 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 0002:350F       __winmajor
+ 0002:350E       __winminor
+ 0002:350E       __winver
+ 0000:0000  Abs  __wiobused
+ 0001:E54D       __wmenuclick
+ 0002:351C       __wnfile
+ 0001:E54D       __wopen
+ 0001:E54D       __wread
+ 0001:D65A       __write
+ 0001:E54D       __wsetfocus
+ 0001:E54D       __wsetscreenbuf
+ 0001:E54D       __wsetsize
+ 0002:3532       __wsfile
+ 0001:E54D       __wterm
+ 0001:E54D       __wwrite
+ 0002:34E8       ___aDBrterr
+ 0002:34E6       ___aDBswpflg
+ 0002:3546       ___argc
+ 0002:3548       ___argv
+
+  Address         Publics by Value
+
+ 0000:0000  Imp  GLOBALHANDLE         (KERNEL.21)
+ 0000:0000  Imp  _IID_IUnknown        (COMPOBJ.38)
+ 0000:0000  Imp  LOCALSIZE            (KERNEL.10)
+ 0000:0000  Imp  FATALAPPEXIT         (KERNEL.137)
+ 0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
+ 0000:0000  Imp  WINEXEC              (KERNEL.166)
+ 0000:0000  Imp  ISTASK               (KERNEL.320)
+ 0000:0000  Imp  GLOBALLOCK           (KERNEL.18)
+ 0000:0000  Imp  UNLOCKSEGMENT        (KERNEL.24)
+ 0000:0000  Imp  LOCALFREE            (KERNEL.7)
+ 0000:0000  Imp  LOCALREALLOC         (KERNEL.6)
+ 0000:0000  Imp  YIELD                (KERNEL.29)
+ 0000:0000  Imp  GLOBALUNLOCK         (KERNEL.19)
+ 0000:0000  Imp  LHASHVALOFNAMESYS    (TYPELIB.4)
+ 0000:0000  Imp  GETDOSENVIRONMENT    (KERNEL.131)
+ 0000:0000  Imp  GETOPENFILENAME      (COMMDLG.1)
+ 0000:0000  Imp  GLOBALFREE           (KERNEL.17)
+ 0000:0000  Imp  TASKFINDHANDLE       (TOOLHELP.65)
+ 0000:0000  Imp  GLOBALSIZE           (KERNEL.20)
+ 0000:0000  Imp  OEMTOANSI            (KEYBOARD.6)
+ 0000:0000  Imp  GETMODULEFILENAME    (KERNEL.49)
+ 0000:0000  Imp  CLSIDFROMSTRING      (COMPOBJ.20)
+ 0000:0000  Imp  INITAPP              (USER.5)
+ 0000:0000  Imp  COUNINITIALIZE       (COMPOBJ.3)
+ 0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
+ 0000:0000  Imp  COINITIALIZE         (COMPOBJ.2)
+ 0000:0000  Imp  SYSFREESTRING        (OLE2DISP.6)
+ 0000:0000  Imp  TASKNEXT             (TOOLHELP.64)
+ 0000:0000  Imp  SYSALLOCSTRINGLEN    (OLE2DISP.4)
+ 0000:0000  Imp  __AHINCR             (KERNEL.114)
+ 0000:0000  Imp  GETWINDEBUGINFO      (KERNEL.355)
+ 0000:0000  Abs  __wiobused
+ 0000:0000  Imp  FATALEXIT            (KERNEL.1)
+ 0000:0000  Imp  ISDBCSLEADBYTE       (KERNEL.207)
+ 0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
+ 0000:0000  Imp  SETWINDEBUGINFO      (KERNEL.356)
+ 0000:0000  Imp  LOADCURSOR           (USER.173)
+ 0000:0000  Imp  _IID_ITypeInfo       (TYPELIB.8)
+ 0000:0000  Imp  SYSSTRINGLEN         (OLE2DISP.7)
+ 0000:0000  Imp  SETCURSOR            (USER.69)
+ 0000:0000  Imp  MESSAGEBOX           (USER.1)
+ 0000:0000  Imp  DOS3CALL             (KERNEL.102)
+ 0000:0000  Imp  ANSITOOEM            (KEYBOARD.5)
+ 0000:0000  Imp  WAITEVENT            (KERNEL.30)
+ 0000:0000  Imp  GLOBALREALLOC        (KERNEL.16)
+ 0000:0000  Imp  INITTASK             (KERNEL.91)
+ 0000:0000  Imp  CREATETYPELIB        (TYPELIB.2)
+ 0000:0000  Imp  GETVERSION           (KERNEL.3)
+ 0000:0000  Imp  TASKFIRST            (TOOLHELP.63)
+ 0000:0000  Imp  LOCALALLOC           (KERNEL.5)
+ 0000:0000  Imp  LOADTYPELIB          (TYPELIB.3)
+ 0000:0000  Imp  COMPARESTRINGA       (OLE2NLS.8)
+ 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 0000:0000  Abs  __sized
+ 0000:0001  Abs  __sizec
+ 0000:0006  Abs  pLocalHeap
+ 0000:0008  Abs  pAtomTable
+ 0000:000A  Abs  pStackTop
+ 0000:000C  Abs  pStackMin
+ 0000:000E  Abs  pStackBot
+ 0000:9876  Abs  __acrtmsg
+ 0000:9876  Abs  __acrtused
+ 0000:9876  Abs  __fptaskdata
+ 0000:D6D6  Abs  __aDBused
+ 0000:D6D6  Abs  __aDBdoswp
+ 0001:0000       _ParseInit
+ 0001:008A       _FillLine
+ 0001:00F4       _ConsumeTok
+ 0001:017A       _ScanTok
+ 0001:0654       _HandleString
+ 0001:077A       _HandleId
+ 0001:08D4       _HandleEscape
+ 0001:0992       _FValidIdCh
+ 0001:0A02       _HandleNumericLit
+ 0001:0BB4       _HandleHexNum
+ 0001:0C86       _HandleDirective
+ 0001:0D32       _RwLookup
+ 0001:0D86       _ParseMalloc
+ 0001:0DCC       _XStrChr
+ 0001:0E42       WEP
+ 0001:0E62       _main
+ 0001:11A8       _DisplaySuccess
+ 0001:11DA       _ParseErrorTokLast
+ 0001:1200       _ParseError
+ 0001:1226       _ParseErrorLnCol
+ 0001:134C       _ItemError
+ 0001:13D0       _ErrorExit
+ 0001:1470       _CloneNameAddExt
+ 0001:1532       _DoPreProcess
+ 0001:1878       _FParseCl
+ 0001:1DF8       _DisplayLine
+ 0001:1E72       _DebAssertShow
+ 0001:1EAA       _AssertFail
+ 0001:1F70       _XStrInc
+ 0001:1FB2       _ParseOdlFile
+ 0001:1FF8       _ParseLibrary
+ 0001:2140       _InitNewEntry
+ 0001:21D6       _ParseOptAttr
+ 0001:2A4A       _InitIntrinsicTypes
+ 0001:2AE0       _InitIntrinsic
+ 0001:2B78       _FindType
+ 0001:2CB8       _FindTypeInd
+ 0001:2E82       _FindTypeArray
+ 0001:2F94       _ParseKnownType
+ 0001:349E       _GetStringType
+ 0001:3558       _ParseElemName
+ 0001:3710       _EnsureNoDupElem
+ 0001:3998       _ParseNewElem
+ 0001:3A12       _ParseElem
+ 0001:3ACE       _lpTypePublic
+ 0001:3B38       _FHandleForwardDecl
+ 0001:3CA6       _ParseTypedef
+ 0001:3D8C       _ParseAlias
+ 0001:3E0A       _ParseStructEnumUnion
+ 0001:3F6A       _ParseNewEnumElem
+ 0001:4130       _ParseConstant
+ 0001:447A       _ParseFunction
+ 0001:4EC6       _IsType
+ 0001:4F14       _EnsureIDispatchType
+ 0001:4F48       _EnsureOAType
+ 0001:4F8E       _GetTypeCompatibility
+ 0001:52D0       _IsObjectType
+ 0001:53DE       _ParseModule
+ 0001:55A6       _ParseInterface
+ 0001:59D6       _ParseDispinterface
+ 0001:5DB0       _ParseCoclass
+ 0001:60F6       _ParseImportlib
+ 0001:6196       _lpszParseStringExpr
+ 0001:61F0       _lParseNumericExpr
+ 0001:6294       _lParseNumber
+ 0001:6364       _CheckAttr
+ 0001:63C8       _CheckAttrTokLast
+ 0001:642C       _GotAttr
+ 0001:6478       _GotAttr2
+ 0001:64C6       _ConsumeRCurlyOptSemi
+ 0001:64FA       _ConsumeId
+ 0001:6540       _EnsureNoDupEntries
+ 0001:6852       _CheckForwardMatch
+ 0001:68A2       _FCmpCaseIns
+ 0001:68E8       _ListInsert
+ 0001:6974       _VerifyLcid
+ 0001:6AF4       _FindIDispatch
+ 0001:6BD8       _OutputHFile
+ 0001:6DF0       _HOutTypedef
+ 0001:6E5E       _HOutEnum
+ 0001:6F10       _HOutStructUnion
+ 0001:6FD6       _HOutModule
+ 0001:7058       _HOutCoclass
+ 0001:70C0       _HOutInterface
+ 0001:741C       _HOutBaseInter
+ 0001:75B6       _HOutFuncs
+ 0001:7926       _SetCallType
+ 0001:79A2       _HOutPropPrefix
+ 0001:7A38       _HOutShortNum
+ 0001:7A76       _HOutLongNum
+ 0001:7AD2       _HOutElems
+ 0001:7DFC       _HOutType
+ 0001:7F6A       _HOutGuid
+ 0001:8058       _HOutF
+ 0001:808A       _HOut
+ 0001:80BE       _OutputTyplib
+ 0001:85E2       _OutputTypeInfos
+ 0001:8E60       _OutputFuncs
+ 0001:94F2       _OutputElems
+ 0001:990A       _UpdateHRefType
+ 0001:9AB6       _OutputAlias
+ 0001:9B38       _LoadElemDesc
+ 0001:9C44       _OutputInterface
+ 0001:9CA2       _OutputDispinter
+ 0001:9D02       _OutputClass
+ 0001:9D2A       _OutputBaseInterfaces
+ 0001:9F6A       _LoadExtTypeLib
+ 0001:A118       _CleanupImportedTypeLibs
+ 0001:A2BA       _FindExtType
+ 0001:A66E       _MethodError
+ 0001:A756       CREATEDBALLOC
+ 0001:A790       ?Create@CDbAlloc@@TAPEXKPEUIDbOutput@@PEPEUIMalloc@@@Z
+ 0001:A89E       ?QueryInterface@CDbAlloc@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:A910       ?AddRef@CDbAlloc@@VEAKXZ
+ 0001:A942       ?Release@CDbAlloc@@VEAKXZ
+ 0001:AA28       ?Alloc@CDbAlloc@@VEAPEXK@Z
+ 0001:ABB4       ?Realloc@CDbAlloc@@VEAPEXPEXK@Z
+ 0001:AF8C       ?Free@CDbAlloc@@VEAXPEX@Z
+ 0001:B220       ?GetSize@CDbAlloc@@VEAKPEX@Z
+ 0001:B29A       ?MemInstance@CDbAlloc@@RECXXZ
+ 0001:B2BE       ?DidAlloc@CDbAlloc@@VEAHPEX@Z
+ 0001:B2DE       ?HeapMinimize@CDbAlloc@@VEAXXZ
+ 0001:B300       ?AddInst@CDbAlloc@@BECXPEXKK@Z
+ 0001:B430       ?DelInst@CDbAlloc@@BECXPEX@Z
+ 0001:B57C       ?GetInst@CDbAlloc@@BECPEVCAddrNode@@PEX@Z
+ 0001:B622       ?DumpInst@CDbAlloc@@BECXPEVCAddrNode@@@Z
+ 0001:B688       ?IsEmpty@CDbAlloc@@BECHXZ
+ 0001:B6E6       ?DumpInstTable@CDbAlloc@@BECXXZ
+ 0001:B76E       ?IMallocHeapChecker@CDbAlloc@@RECXXZ
+ 0001:B96C       ?Create@CStdDbOutput@@TAPEUIDbOutput@@XZ
+ 0001:B9B4       ?QueryInterface@CStdDbOutput@@VEAPEXAFUGUID@@PEPEX@Z
+ 0001:BA18       ?AddRef@CStdDbOutput@@VEAKXZ
+ 0001:BA4A       ?Release@CStdDbOutput@@VEAKXZ
+ 0001:BABC       ?Printf@CStdDbOutput@@VEAXPEDZZ
+ 0001:BB4C       ?Assertion@CStdDbOutput@@VEAXHPED0I0@Z
+ 0001:BB90       _GetDebIMalloc
+ 0001:BBF4       ?HugeAlloc@@ZAPEXK@Z
+ 0001:BC5C       ?HugeRealloc@@ZAPEXPEXK@Z
+ 0001:BD20       ?HugeFree@@ZAPEXPEX@Z
+ 0001:BDBE       __wflags
+ 0001:BDC8       __astart
+ 0001:BE6B       __nomain
+ 0001:BE72       __stubmain
+ 0001:BE9E       __cinit
+ 0001:BF7D       _exit
+ 0001:BF8B       __exit
+ 0001:BF9A       __cexit
+ 0001:BFAB       __c_exit
+ 0001:C01B       __ctermsub
+ 0001:C058       __FF_MSGBANNER
+ 0001:C07C       __fptrap
+ 0001:C082       __aNchkstk
+ 0001:C0A2       __chkstk
+ 0001:C0A2       __aFchkstk
+ 0001:C0D6       __setargv
+ 0001:C258       __setenvp
+ 0001:C2E8       __cintDIV
+ 0001:C2ED       __amsg_exit
+ 0001:C330       __NMSG_TEXT
+ 0001:C367       __NMSG_WRITE
+ 0001:C3A4       __myalloc
+ 0001:C3D2       __dosret0
+ 0001:C3DF       __dosreturn
+ 0001:C3F1       __dosretax
+ 0001:C403       __maperror
+ 0001:C430       _fclose
+ 0001:C524       __fsopen
+ 0001:C554       _fopen
+ 0001:C56E       _fwrite
+ 0001:C67E       __endstdio
+ 0001:C694       __filbuf
+ 0001:C738       __flsbuf
+ 0001:C82A       __freebuf
+ 0001:C856       __getbuf
+ 0001:C89A       __openfile
+ 0001:C9CC       __stbuf
+ 0001:CA4A       __ftbuf
+ 0001:CA88       _fflush
+ 0001:CADE       __flush
+ 0001:CB56       __flushall
+ 0001:CBE4       __output
+ 0001:D0CC       __getstream
+ 0001:D108       __close
+ 0001:D140       __lseek
+ 0001:D214       __sopen
+ 0001:D22C       __open
+ 0001:D4DF       __cXENIXtoDOSmode
+ 0001:D4F0       __read
+ 0001:D65A       __write
+ 0001:D7F4       __stackavail
+ 0001:D808       __ffree
+ 0001:D829       __fmalloc
+ 0001:D8D0       __initseg
+ 0001:D904       __linkseg
+ 0001:D93A       __searchseg
+ 0001:D9B6       __growseg
+ 0001:DA42       __incseg
+ 0001:DAA8       __findlast
+ 0001:DAC8       __newseg
+ 0001:DB4A       _strcat
+ 0001:DB8A       _strcpy
+ 0001:DBBC       _strcmp
+ 0001:DBE8       _strlen
+ 0001:DC04       _strncmp
+ 0001:DC3E       _atoi
+ 0001:DC42       __catox
+ 0001:DC96       __itoa
+ 0001:DCB2       _getenv
+ 0001:DD18       __fcloseall
+ 0001:DD56       _fgets
+ 0001:DDD6       _fputs
+ 0001:DE2E       _sprintf
+ 0001:DE8C       _vsprintf
+ 0001:DEE6       __commit
+ 0001:DF56       __frealloc
+ 0001:DFEA       __resize
+ 0001:E0B2       __findseg
+ 0001:E0DC       __fheapmin
+ 0001:E114       __minseg
+ 0001:E194       __unlinkseg
+ 0001:E206       __fstrdup
+ 0001:E24C       _memcmp
+ 0001:E274       _memcpy
+ 0001:E2A0       _memset
+ 0001:E2CE       __cltoasub
+ 0001:E2DA       __cxtoa
+ 0001:E32E       __fpurecall
+ 0001:E32E       __purecall
+ 0001:E32E       __npurecall
+ 0001:E334       __unlink
+ 0001:E334       _remove
+ 0001:E358       __dos_commit
+ 0001:E37C       __aFulmul
+ 0001:E37C       __aFlmul
+ 0001:E3AE       __aFlshl
+ 0001:E3BA       __aFulshr
+ 0001:E3C6       __fmemcmp
+ 0001:E422       __fmemcpy
+ 0001:E480       __fstrlen
+ 0001:E49A       __fstrcmp
+ 0001:E4C4       __fstrcpy
+ 0001:E500       __fmemset
+ 0001:E548       __wcinit
+ 0001:E548       __wcexit
+ 0001:E54D       __wread
+ 0001:E54D       __QWINRead
+ 0001:E54D       __wsetsize
+ 0001:E54D       __wwrite
+ 0001:E54D       __QWINMenuClick
+ 0001:E54D       __wabout
+ 0001:E54D       __QWINClose
+ 0001:E54D       __QWINInit
+ 0001:E54D       __wterm
+ 0001:E54D       __wgetscreenbuf
+ 0001:E54D       __QWINIsQWINin
+ 0001:E54D       __QWINTerm
+ 0001:E54D       __QWINGetSize
+ 0001:E54D       __QWINSetAboutString
+ 0001:E54D       __wclose
+ 0001:E54D       __wsetfocus
+ 0001:E54D       __QWINOpen
+ 0001:E54D       __QWINYield
+ 0001:E54D       __wsetscreenbuf
+ 0001:E54D       __wopen
+ 0001:E54D       __QWINSetSize
+ 0001:E54D       __QWINSetFocus
+ 0001:E54D       __wgetfocus
+ 0001:E54D       __wmenuclick
+ 0001:E54D       __QWINExit
+ 0001:E54D       __QWINGetBuffSize
+ 0001:E54D       __wgetsize
+ 0001:E54D       __QWINGetFocus
+ 0001:E54D       __QWINWrite
+ 0001:E54D       __QWINSetBuffSize
+ 0001:E554       __nmalloc
+ 0001:E5B0       __nfree
+ 0001:E5CA       __nrealloc
+ 0001:E638       __nmsize
+ 0001:E64C       __tempnam
+ 0001:E7CC       __strcmpi
+ 0001:E7CC       __stricmp
+ 0001:E80E       __strdup
+ 0001:E844       __access
+ 0001:E87A       __rmtmp
+ 0001:E8C0       ??8GUID@@RFCHAFU0@@Z
+ 0001:E8FE       ??2CStdDbOutput@@TAPEXI@Z
+ 0001:E91E       ??3CStdDbOutput@@TAXPEX@Z
+ 0001:E940       ??0CStdDbOutput@@REC@XZ
+ 0001:E984       ??2CAddrNode@@TAPEXI@Z
+ 0001:E9A4       ??3CAddrNode@@TAXPEX@Z
+ 0001:E9C6       ??2CDbAlloc@@TAPEXI@Z
+ 0001:E9E6       ??3CDbAlloc@@TAXPEX@Z
+ 0001:EA08       ?HashInst@CDbAlloc@@BFCIPEX@Z
+ 0001:EA36       ?Assertion@CDbAlloc@@BECXHPED0I0@Z
+ 0001:EA78       ??0CDbAlloc@@REC@XZ
+ 0001:EB1A       ??0IDbOutput@@REC@XZ
+ 0001:EB50       ??0IMalloc@@REC@XZ
+ 0001:EB86       ??0IUnknown@@REC@XZ
+ 0001:EBB0       ??_7IMalloc@@6B@
+ 0001:EBD4       ??_7CDbAlloc@@6B@
+ 0001:EBF8       ??_7CStdDbOutput@@6B@
+ 0001:EC0C       ??_7IUnknown@@6B@
+ 0001:EC18       ??_7IDbOutput@@6B@
+ 0002:0004       rsrvptrs
+ 0002:010A       _rgRws
+ 0002:02DA       _rgAttrs
+ 0002:0478       _szBanner
+ 0002:07F0       _szUsage
+ 0002:07FC       _szAppTitle
+ 0002:16B6       _rgszErr
+ 0002:17EE       _szFmtSuccess
+ 0002:183C       _szFmtErrFileLineCol
+ 0002:1880       _szFmtWarnFileLineCol
+ 0002:18D6       _szFmtErrOutput
+ 0002:1918       _szFmtErrImportlib
+ 0002:197E       _szFmtErrUnknown
+ 0002:1996       _szFmtErrGeneral
+ 0002:19AA       _szFmtWarnGeneral
+ 0002:1A04       _szHeadFile
+ 0002:1A28       _szHeadModule
+ 0002:1A48       _szHeadInter
+ 0002:1A72       _szHeadDispinter
+ 0002:1AAE       _szHeadMethods
+ 0002:1AEA       _szHeadDispatchable
+ 0002:1AF8       _szBatchStart
+ 0002:1B2E       _szBatchEnd
+ 0002:1B30       _lnCur
+ 0002:1B34       _colCur
+ 0002:1B38       _szExpected
+ 0002:1B3A       _hFileInput
+ 0002:1B3C       _hHFile
+ 0002:1B3E       _hFileOutput
+ 0002:1B40       _szInputFile
+ 0002:1B42       _szTypeLibFile
+ 0002:1B44       _szHFile
+ 0002:1B46       _szOutputFile
+ 0002:1B48       _fHFile
+ 0002:1B4A       _fNologo
+ 0002:1B4C       _fGiveUsage
+ 0002:1B4E       _SysKind
+ 0002:1B50       _iAlignMax
+ 0002:1B52       _iAlignDef
+ 0002:1B54       _fSuppressWarnings
+ 0002:1B56       _f2DefaultCC
+ 0002:1B5A       _fCPP
+ 0002:1B64       _szCppExe
+ 0002:1B7C       _szCppOpts
+ 0002:1B7E       _szTempFile
+ 0002:1B80       _fOLEInitialized
+ 0002:1B82       _fDebug
+ 0002:1E28       _cArgsMax
+ 0002:1E2A       _g_lcidCompare
+ 0002:1E2E       _fSpecifiedInterCC
+ 0002:2E60       _fDoingOutput
+ 0002:2E66       _rgtkind
+ 0002:2E76       _rgtentrykind
+ 0002:34D6       _STKHQQ
+ 0002:34D8       __hPrevInstance
+ 0002:34DA       __hInstance
+ 0002:34DC       __lpszCmdLine
+ 0002:34E0       __cmdShow
+ 0002:34E2       _aseglo
+ 0002:34E4       _aseghi
+ 0002:34E6       ___aDBswpflg
+ 0002:34E8       ___aDBrterr
+ 0002:34EA       __acfinfo
+ 0002:34F8       __aintdiv
+ 0002:34FC       __fac
+ 0002:3506       _errno
+ 0002:3508       __umaskval
+ 0002:350A       __pspadr
+ 0002:350C       __psp
+ 0002:350E       __winver
+ 0002:350E       __winminor
+ 0002:350F       __winmajor
+ 0002:3510       __osminor
+ 0002:3510       __osver
+ 0002:3511       __osmajor
+ 0002:3512       __osversion
+ 0002:3514       __osmode
+ 0002:3515       __cpumode
+ 0002:3516       __doserrno
+ 0002:3516       __oserr
+ 0002:3518       __nfile
+ 0002:351A       __wfile
+ 0002:351C       __wnfile
+ 0002:351E       __osfile
+ 0002:3532       __wsfile
+ 0002:3546       ___argc
+ 0002:3548       ___argv
+ 0002:354A       __environ
+ 0002:354C       __pgmptr
+ 0002:3551       __child
+ 0002:3553       __exitflag
+ 0002:3554       __adbgmsg
+ 0002:3558       __aaltstkovr
+ 0002:3578       __cflush
+ 0002:357A       __lastiob
+ 0002:35E4       __fmode
+ 0002:35E4       __iomode
+ 0002:35E6       __commode
+ 0002:35E8       __lseekchk
+ 0002:35EA       __pnhFarHeap
+ 0002:35EE       __fheap
+ 0002:35FC       __amblksiz
+ 0002:35FE       __cfltcvt_tab
+ 0002:361A       __sigintseg
+ 0002:361C       __sigintoff
+ 0002:361E       __asizeC
+ 0002:361F       __asizeD
+ 0002:3620       __ctype_
+ 0002:3620       __ctype
+ 0002:3722       __qwinused
+ 0002:3724       __pnhNearHeap
+ 0002:3734       __tmpoff
+ 0002:3736       __tempoff
+ 0002:3738       __old_pfxlen
+ 0002:373C       __fpinit
+ 0002:3750       __iob
+ 0002:37F0       __iob2
+ 0002:3A0A       __edata
+ 0002:3A0A       _edata
+ 0002:3A22       _rgFuncArgs
+ 0002:3A26       _rgszFuncArgNames
+ 0002:3A2A       _lpszItemCur
+ 0002:3A40       _szCppDefs
+ 0002:3AC0       _pLineBuf
+ 0002:3AC2       _Olddebuginfo
+ 0002:3ADC       _typlib
+ 0002:3B0C       _szFileCur
+ 0002:3B8C       _tok
+ 0002:3B94       _hTaskCpp
+ 0002:3B96       _colLast
+ 0002:3B98       _hcrsWait
+ 0002:3B9A       _fDirectiveOK
+ 0002:3B9C       _pLine
+ 0002:3B9E       _lnLast
+ 0002:3BA2       _g_rgchLeadBytes
+ 0002:3CA2       _scodeErrCur
+ 0002:3CA6       __end
+ 0002:3CA6       _end
+
+Program entry point at 0001:bdc8

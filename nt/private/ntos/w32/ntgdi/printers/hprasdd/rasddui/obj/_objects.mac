@@ -1,0 +1,96 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\rasddui.res \
+    $(_OBJ_DIR)\alpha\initdll.obj \
+    $(_OBJ_DIR)\alpha\readres.obj \
+    $(_OBJ_DIR)\alpha\rasddui.obj \
+    $(_OBJ_DIR)\alpha\docprop.obj \
+    $(_OBJ_DIR)\alpha\adocprop.obj \
+    $(_OBJ_DIR)\alpha\regdata.obj \
+    $(_OBJ_DIR)\alpha\utils.obj \
+    $(_OBJ_DIR)\alpha\fontinst.obj \
+    $(_OBJ_DIR)\alpha\softfont.obj \
+    $(_OBJ_DIR)\alpha\forms.obj \
+    $(_OBJ_DIR)\alpha\qryprint.obj \
+    $(_OBJ_DIR)\alpha\halftone.obj \
+    $(_OBJ_DIR)\alpha\cleanup.obj \
+    $(_OBJ_DIR)\alpha\help.obj \
+    $(_OBJ_DIR)\alpha\devcaps.obj \
+    $(_OBJ_DIR)\alpha\upgrade.obj \
+    $(_OBJ_DIR)\alpha\commonui.obj \
+    $(_OBJ_DIR)\alpha\uiinfo.obj \
+    $(_OBJ_DIR)\alpha\oemdm.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\rasddui.res \
+    $(_OBJ_DIR)\mips\initdll.obj \
+    $(_OBJ_DIR)\mips\readres.obj \
+    $(_OBJ_DIR)\mips\rasddui.obj \
+    $(_OBJ_DIR)\mips\docprop.obj \
+    $(_OBJ_DIR)\mips\adocprop.obj \
+    $(_OBJ_DIR)\mips\regdata.obj \
+    $(_OBJ_DIR)\mips\utils.obj \
+    $(_OBJ_DIR)\mips\fontinst.obj \
+    $(_OBJ_DIR)\mips\softfont.obj \
+    $(_OBJ_DIR)\mips\forms.obj \
+    $(_OBJ_DIR)\mips\qryprint.obj \
+    $(_OBJ_DIR)\mips\halftone.obj \
+    $(_OBJ_DIR)\mips\cleanup.obj \
+    $(_OBJ_DIR)\mips\help.obj \
+    $(_OBJ_DIR)\mips\devcaps.obj \
+    $(_OBJ_DIR)\mips\upgrade.obj \
+    $(_OBJ_DIR)\mips\commonui.obj \
+    $(_OBJ_DIR)\mips\uiinfo.obj \
+    $(_OBJ_DIR)\mips\oemdm.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\rasddui.res \
+    $(_OBJ_DIR)\i386\initdll.obj \
+    $(_OBJ_DIR)\i386\readres.obj \
+    $(_OBJ_DIR)\i386\rasddui.obj \
+    $(_OBJ_DIR)\i386\docprop.obj \
+    $(_OBJ_DIR)\i386\adocprop.obj \
+    $(_OBJ_DIR)\i386\regdata.obj \
+    $(_OBJ_DIR)\i386\utils.obj \
+    $(_OBJ_DIR)\i386\fontinst.obj \
+    $(_OBJ_DIR)\i386\softfont.obj \
+    $(_OBJ_DIR)\i386\forms.obj \
+    $(_OBJ_DIR)\i386\qryprint.obj \
+    $(_OBJ_DIR)\i386\halftone.obj \
+    $(_OBJ_DIR)\i386\cleanup.obj \
+    $(_OBJ_DIR)\i386\help.obj \
+    $(_OBJ_DIR)\i386\devcaps.obj \
+    $(_OBJ_DIR)\i386\upgrade.obj \
+    $(_OBJ_DIR)\i386\commonui.obj \
+    $(_OBJ_DIR)\i386\uiinfo.obj \
+    $(_OBJ_DIR)\i386\oemdm.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\rasddui.res \
+    $(_OBJ_DIR)\ppc\initdll.obj \
+    $(_OBJ_DIR)\ppc\readres.obj \
+    $(_OBJ_DIR)\ppc\rasddui.obj \
+    $(_OBJ_DIR)\ppc\docprop.obj \
+    $(_OBJ_DIR)\ppc\adocprop.obj \
+    $(_OBJ_DIR)\ppc\regdata.obj \
+    $(_OBJ_DIR)\ppc\utils.obj \
+    $(_OBJ_DIR)\ppc\fontinst.obj \
+    $(_OBJ_DIR)\ppc\softfont.obj \
+    $(_OBJ_DIR)\ppc\forms.obj \
+    $(_OBJ_DIR)\ppc\qryprint.obj \
+    $(_OBJ_DIR)\ppc\halftone.obj \
+    $(_OBJ_DIR)\ppc\cleanup.obj \
+    $(_OBJ_DIR)\ppc\help.obj \
+    $(_OBJ_DIR)\ppc\devcaps.obj \
+    $(_OBJ_DIR)\ppc\upgrade.obj \
+    $(_OBJ_DIR)\ppc\commonui.obj \
+    $(_OBJ_DIR)\ppc\uiinfo.obj \
+    $(_OBJ_DIR)\ppc\oemdm.obj
+
+PASS0_PPC_OBJECTS=
+

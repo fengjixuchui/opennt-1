@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\layoutui.res \
+    $(_OBJ_DIR)\alpha\cruntime.obj \
+    $(_OBJ_DIR)\alpha\laymain.obj \
+    $(_OBJ_DIR)\alpha\layoutui.obj \
+    $(_OBJ_DIR)\alpha\olesite.obj \
+    $(_OBJ_DIR)\alpha\cklayout.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\layoutui.res \
+    $(_OBJ_DIR)\mips\cruntime.obj \
+    $(_OBJ_DIR)\mips\laymain.obj \
+    $(_OBJ_DIR)\mips\layoutui.obj \
+    $(_OBJ_DIR)\mips\olesite.obj \
+    $(_OBJ_DIR)\mips\cklayout.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\layoutui.res \
+    $(_OBJ_DIR)\i386\cruntime.obj \
+    $(_OBJ_DIR)\i386\laymain.obj \
+    $(_OBJ_DIR)\i386\layoutui.obj \
+    $(_OBJ_DIR)\i386\olesite.obj \
+    $(_OBJ_DIR)\i386\cklayout.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\layoutui.res \
+    $(_OBJ_DIR)\ppc\cruntime.obj \
+    $(_OBJ_DIR)\ppc\laymain.obj \
+    $(_OBJ_DIR)\ppc\layoutui.obj \
+    $(_OBJ_DIR)\ppc\olesite.obj \
+    $(_OBJ_DIR)\ppc\cklayout.obj
+
+PASS0_PPC_OBJECTS=
+

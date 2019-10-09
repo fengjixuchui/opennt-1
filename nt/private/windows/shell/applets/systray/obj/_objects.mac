@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\systray.res \
+    $(_OBJ_DIR)\alpha\pccard.obj \
+    $(_OBJ_DIR)\alpha\power.obj \
+    $(_OBJ_DIR)\alpha\systray.obj \
+    $(_OBJ_DIR)\alpha\volume.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\systray.res \
+    $(_OBJ_DIR)\mips\pccard.obj \
+    $(_OBJ_DIR)\mips\power.obj \
+    $(_OBJ_DIR)\mips\systray.obj \
+    $(_OBJ_DIR)\mips\volume.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\systray.res \
+    $(_OBJ_DIR)\i386\pccard.obj \
+    $(_OBJ_DIR)\i386\power.obj \
+    $(_OBJ_DIR)\i386\systray.obj \
+    $(_OBJ_DIR)\i386\volume.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\systray.res \
+    $(_OBJ_DIR)\ppc\pccard.obj \
+    $(_OBJ_DIR)\ppc\power.obj \
+    $(_OBJ_DIR)\ppc\systray.obj \
+    $(_OBJ_DIR)\ppc\volume.obj
+
+PASS0_PPC_OBJECTS=
+

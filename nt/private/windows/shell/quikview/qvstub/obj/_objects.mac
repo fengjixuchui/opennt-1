@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\qvstub.res \
+    $(_OBJ_DIR)\alpha\qvstub.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\qvmisc.obj \
+    $(_OBJ_DIR)\alpha\oledup.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\qvstub.res \
+    $(_OBJ_DIR)\mips\qvstub.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\qvmisc.obj \
+    $(_OBJ_DIR)\mips\oledup.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\qvstub.res \
+    $(_OBJ_DIR)\i386\qvstub.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\qvmisc.obj \
+    $(_OBJ_DIR)\i386\oledup.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\qvstub.res \
+    $(_OBJ_DIR)\ppc\qvstub.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\qvmisc.obj \
+    $(_OBJ_DIR)\ppc\oledup.obj
+
+PASS0_PPC_OBJECTS=
+

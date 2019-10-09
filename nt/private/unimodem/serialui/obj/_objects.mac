@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\serialui.res \
+    $(_OBJ_DIR)\alpha\serialui.obj \
+    $(_OBJ_DIR)\alpha\dll.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\cstrings.obj \
+    $(_OBJ_DIR)\alpha\port.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\serialui.res \
+    $(_OBJ_DIR)\mips\serialui.obj \
+    $(_OBJ_DIR)\mips\dll.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\cstrings.obj \
+    $(_OBJ_DIR)\mips\port.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\serialui.res \
+    $(_OBJ_DIR)\i386\serialui.obj \
+    $(_OBJ_DIR)\i386\dll.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\cstrings.obj \
+    $(_OBJ_DIR)\i386\port.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\serialui.res \
+    $(_OBJ_DIR)\ppc\serialui.obj \
+    $(_OBJ_DIR)\ppc\dll.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\cstrings.obj \
+    $(_OBJ_DIR)\ppc\port.obj
+
+PASS0_PPC_OBJECTS=
+

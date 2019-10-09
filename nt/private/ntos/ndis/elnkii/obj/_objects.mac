@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\elnkii.res \
+    $(_OBJ_DIR)\alpha\elnkii.obj \
+    $(_OBJ_DIR)\alpha\interrup.obj \
+    $(_OBJ_DIR)\alpha\card.obj \
+    $(_OBJ_DIR)\alpha\pend.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\elnkii.res \
+    $(_OBJ_DIR)\mips\elnkii.obj \
+    $(_OBJ_DIR)\mips\interrup.obj \
+    $(_OBJ_DIR)\mips\card.obj \
+    $(_OBJ_DIR)\mips\pend.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\elnkii.res \
+    $(_OBJ_DIR)\i386\elnkii.obj \
+    $(_OBJ_DIR)\i386\interrup.obj \
+    $(_OBJ_DIR)\i386\card.obj \
+    $(_OBJ_DIR)\i386\pend.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\elnkii.res \
+    $(_OBJ_DIR)\ppc\elnkii.obj \
+    $(_OBJ_DIR)\ppc\interrup.obj \
+    $(_OBJ_DIR)\ppc\card.obj \
+    $(_OBJ_DIR)\ppc\pend.obj
+
+PASS0_PPC_OBJECTS=
+

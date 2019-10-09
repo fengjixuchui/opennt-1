@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\vsword.res \
+    $(_OBJ_DIR)\alpha\vsd_word.obj \
+    $(_OBJ_DIR)\alpha\vs_word.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\vsword.res \
+    $(_OBJ_DIR)\mips\vsd_word.obj \
+    $(_OBJ_DIR)\mips\vs_word.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\vsword.res \
+    $(_OBJ_DIR)\i386\vsd_word.obj \
+    $(_OBJ_DIR)\i386\vs_word.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\vsword.res \
+    $(_OBJ_DIR)\ppc\vsd_word.obj \
+    $(_OBJ_DIR)\ppc\vs_word.obj
+
+PASS0_PPC_OBJECTS=
+

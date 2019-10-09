@@ -1,0 +1,92 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ole.res \
+    $(_OBJ_DIR)\alpha\emf.obj \
+    $(_OBJ_DIR)\alpha\bm.obj \
+    $(_OBJ_DIR)\alpha\checkptr.obj \
+    $(_OBJ_DIR)\alpha\dde.obj \
+    $(_OBJ_DIR)\alpha\defcreat.obj \
+    $(_OBJ_DIR)\alpha\dib.obj \
+    $(_OBJ_DIR)\alpha\doc.obj \
+    $(_OBJ_DIR)\alpha\draw.obj \
+    $(_OBJ_DIR)\alpha\error.obj \
+    $(_OBJ_DIR)\alpha\generic.obj \
+    $(_OBJ_DIR)\alpha\le.obj \
+    $(_OBJ_DIR)\alpha\ledde.obj \
+    $(_OBJ_DIR)\alpha\main.obj \
+    $(_OBJ_DIR)\alpha\mf.obj \
+    $(_OBJ_DIR)\alpha\net.obj \
+    $(_OBJ_DIR)\alpha\ole.obj \
+    $(_OBJ_DIR)\alpha\pbhandlr.obj \
+    $(_OBJ_DIR)\alpha\utils.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ole.res \
+    $(_OBJ_DIR)\mips\emf.obj \
+    $(_OBJ_DIR)\mips\bm.obj \
+    $(_OBJ_DIR)\mips\checkptr.obj \
+    $(_OBJ_DIR)\mips\dde.obj \
+    $(_OBJ_DIR)\mips\defcreat.obj \
+    $(_OBJ_DIR)\mips\dib.obj \
+    $(_OBJ_DIR)\mips\doc.obj \
+    $(_OBJ_DIR)\mips\draw.obj \
+    $(_OBJ_DIR)\mips\error.obj \
+    $(_OBJ_DIR)\mips\generic.obj \
+    $(_OBJ_DIR)\mips\le.obj \
+    $(_OBJ_DIR)\mips\ledde.obj \
+    $(_OBJ_DIR)\mips\main.obj \
+    $(_OBJ_DIR)\mips\mf.obj \
+    $(_OBJ_DIR)\mips\net.obj \
+    $(_OBJ_DIR)\mips\ole.obj \
+    $(_OBJ_DIR)\mips\pbhandlr.obj \
+    $(_OBJ_DIR)\mips\utils.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ole.res \
+    $(_OBJ_DIR)\i386\emf.obj \
+    $(_OBJ_DIR)\i386\bm.obj \
+    $(_OBJ_DIR)\i386\checkptr.obj \
+    $(_OBJ_DIR)\i386\dde.obj \
+    $(_OBJ_DIR)\i386\defcreat.obj \
+    $(_OBJ_DIR)\i386\dib.obj \
+    $(_OBJ_DIR)\i386\doc.obj \
+    $(_OBJ_DIR)\i386\draw.obj \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\generic.obj \
+    $(_OBJ_DIR)\i386\le.obj \
+    $(_OBJ_DIR)\i386\ledde.obj \
+    $(_OBJ_DIR)\i386\main.obj \
+    $(_OBJ_DIR)\i386\mf.obj \
+    $(_OBJ_DIR)\i386\net.obj \
+    $(_OBJ_DIR)\i386\ole.obj \
+    $(_OBJ_DIR)\i386\pbhandlr.obj \
+    $(_OBJ_DIR)\i386\utils.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ole.res \
+    $(_OBJ_DIR)\ppc\emf.obj \
+    $(_OBJ_DIR)\ppc\bm.obj \
+    $(_OBJ_DIR)\ppc\checkptr.obj \
+    $(_OBJ_DIR)\ppc\dde.obj \
+    $(_OBJ_DIR)\ppc\defcreat.obj \
+    $(_OBJ_DIR)\ppc\dib.obj \
+    $(_OBJ_DIR)\ppc\doc.obj \
+    $(_OBJ_DIR)\ppc\draw.obj \
+    $(_OBJ_DIR)\ppc\error.obj \
+    $(_OBJ_DIR)\ppc\generic.obj \
+    $(_OBJ_DIR)\ppc\le.obj \
+    $(_OBJ_DIR)\ppc\ledde.obj \
+    $(_OBJ_DIR)\ppc\main.obj \
+    $(_OBJ_DIR)\ppc\mf.obj \
+    $(_OBJ_DIR)\ppc\net.obj \
+    $(_OBJ_DIR)\ppc\ole.obj \
+    $(_OBJ_DIR)\ppc\pbhandlr.obj \
+    $(_OBJ_DIR)\ppc\utils.obj
+
+PASS0_PPC_OBJECTS=
+

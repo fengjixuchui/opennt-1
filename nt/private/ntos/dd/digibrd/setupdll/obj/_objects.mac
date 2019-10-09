@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dgconfig.res \
+    $(_OBJ_DIR)\alpha\dgconfig.obj \
+    $(_OBJ_DIR)\alpha\hierdraw.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dgconfig.res \
+    $(_OBJ_DIR)\mips\dgconfig.obj \
+    $(_OBJ_DIR)\mips\hierdraw.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dgconfig.res \
+    $(_OBJ_DIR)\i386\dgconfig.obj \
+    $(_OBJ_DIR)\i386\hierdraw.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dgconfig.res \
+    $(_OBJ_DIR)\ppc\dgconfig.obj \
+    $(_OBJ_DIR)\ppc\hierdraw.obj
+
+PASS0_PPC_OBJECTS=
+

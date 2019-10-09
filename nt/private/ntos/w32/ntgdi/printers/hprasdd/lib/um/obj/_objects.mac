@@ -1,0 +1,92 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cfontres.obj \
+    $(_OBJ_DIR)\alpha\pfm2ifi.obj \
+    $(_OBJ_DIR)\alpha\widthvec.obj \
+    $(_OBJ_DIR)\alpha\fontsel.obj \
+    $(_OBJ_DIR)\alpha\align2.obj \
+    $(_OBJ_DIR)\alpha\align4.obj \
+    $(_OBJ_DIR)\alpha\writefnt.obj \
+    $(_OBJ_DIR)\alpha\udtabinf.obj \
+    $(_OBJ_DIR)\alpha\getmodel.obj \
+    $(_OBJ_DIR)\alpha\dxdeflt.obj \
+    $(_OBJ_DIR)\alpha\regkeys.obj \
+    $(_OBJ_DIR)\alpha\dxval.obj \
+    $(_OBJ_DIR)\alpha\ctt2rle.obj \
+    $(_OBJ_DIR)\alpha\mergedm.obj \
+    $(_OBJ_DIR)\alpha\dmsetres.obj \
+    $(_OBJ_DIR)\alpha\dm.obj \
+    $(_OBJ_DIR)\alpha\utils.obj \
+    $(_OBJ_DIR)\alpha\ntgpc.obj \
+    $(_OBJ_DIR)\alpha\winres.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\cfontres.obj \
+    $(_OBJ_DIR)\mips\pfm2ifi.obj \
+    $(_OBJ_DIR)\mips\widthvec.obj \
+    $(_OBJ_DIR)\mips\fontsel.obj \
+    $(_OBJ_DIR)\mips\align2.obj \
+    $(_OBJ_DIR)\mips\align4.obj \
+    $(_OBJ_DIR)\mips\writefnt.obj \
+    $(_OBJ_DIR)\mips\udtabinf.obj \
+    $(_OBJ_DIR)\mips\getmodel.obj \
+    $(_OBJ_DIR)\mips\dxdeflt.obj \
+    $(_OBJ_DIR)\mips\regkeys.obj \
+    $(_OBJ_DIR)\mips\dxval.obj \
+    $(_OBJ_DIR)\mips\ctt2rle.obj \
+    $(_OBJ_DIR)\mips\mergedm.obj \
+    $(_OBJ_DIR)\mips\dmsetres.obj \
+    $(_OBJ_DIR)\mips\dm.obj \
+    $(_OBJ_DIR)\mips\utils.obj \
+    $(_OBJ_DIR)\mips\ntgpc.obj \
+    $(_OBJ_DIR)\mips\winres.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cfontres.obj \
+    $(_OBJ_DIR)\i386\pfm2ifi.obj \
+    $(_OBJ_DIR)\i386\widthvec.obj \
+    $(_OBJ_DIR)\i386\fontsel.obj \
+    $(_OBJ_DIR)\i386\align2.obj \
+    $(_OBJ_DIR)\i386\align4.obj \
+    $(_OBJ_DIR)\i386\writefnt.obj \
+    $(_OBJ_DIR)\i386\udtabinf.obj \
+    $(_OBJ_DIR)\i386\getmodel.obj \
+    $(_OBJ_DIR)\i386\dxdeflt.obj \
+    $(_OBJ_DIR)\i386\regkeys.obj \
+    $(_OBJ_DIR)\i386\dxval.obj \
+    $(_OBJ_DIR)\i386\ctt2rle.obj \
+    $(_OBJ_DIR)\i386\mergedm.obj \
+    $(_OBJ_DIR)\i386\dmsetres.obj \
+    $(_OBJ_DIR)\i386\dm.obj \
+    $(_OBJ_DIR)\i386\utils.obj \
+    $(_OBJ_DIR)\i386\ntgpc.obj \
+    $(_OBJ_DIR)\i386\winres.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\cfontres.obj \
+    $(_OBJ_DIR)\ppc\pfm2ifi.obj \
+    $(_OBJ_DIR)\ppc\widthvec.obj \
+    $(_OBJ_DIR)\ppc\fontsel.obj \
+    $(_OBJ_DIR)\ppc\align2.obj \
+    $(_OBJ_DIR)\ppc\align4.obj \
+    $(_OBJ_DIR)\ppc\writefnt.obj \
+    $(_OBJ_DIR)\ppc\udtabinf.obj \
+    $(_OBJ_DIR)\ppc\getmodel.obj \
+    $(_OBJ_DIR)\ppc\dxdeflt.obj \
+    $(_OBJ_DIR)\ppc\regkeys.obj \
+    $(_OBJ_DIR)\ppc\dxval.obj \
+    $(_OBJ_DIR)\ppc\ctt2rle.obj \
+    $(_OBJ_DIR)\ppc\mergedm.obj \
+    $(_OBJ_DIR)\ppc\dmsetres.obj \
+    $(_OBJ_DIR)\ppc\dm.obj \
+    $(_OBJ_DIR)\ppc\utils.obj \
+    $(_OBJ_DIR)\ppc\ntgpc.obj \
+    $(_OBJ_DIR)\ppc\winres.obj
+
+PASS0_PPC_OBJECTS=
+

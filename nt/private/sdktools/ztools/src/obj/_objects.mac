@@ -1,0 +1,164 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ctime2l.obj \
+    $(_OBJ_DIR)\alpha\cvtoem.obj \
+    $(_OBJ_DIR)\alpha\curdir.obj \
+    $(_OBJ_DIR)\alpha\dodel.obj \
+    $(_OBJ_DIR)\alpha\error.obj \
+    $(_OBJ_DIR)\alpha\exetype.obj \
+    $(_OBJ_DIR)\alpha\fappend.obj \
+    $(_OBJ_DIR)\alpha\fastcopy.obj \
+    $(_OBJ_DIR)\alpha\fcopy.obj \
+    $(_OBJ_DIR)\alpha\fdelete.obj \
+    $(_OBJ_DIR)\alpha\fexpunge.obj \
+    $(_OBJ_DIR)\alpha\fgetl.obj \
+    $(_OBJ_DIR)\alpha\find.obj \
+    $(_OBJ_DIR)\alpha\fmove.obj \
+    $(_OBJ_DIR)\alpha\forfile.obj \
+    $(_OBJ_DIR)\alpha\forsemi.obj \
+    $(_OBJ_DIR)\alpha\fputl.obj \
+    $(_OBJ_DIR)\alpha\freespac.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\match.obj \
+    $(_OBJ_DIR)\alpha\ntoi.obj \
+    $(_OBJ_DIR)\alpha\pathcat.obj \
+    $(_OBJ_DIR)\alpha\pathchr.obj \
+    $(_OBJ_DIR)\alpha\pathopen.obj \
+    $(_OBJ_DIR)\alpha\pname.obj \
+    $(_OBJ_DIR)\alpha\re_mi.obj \
+    $(_OBJ_DIR)\alpha\reparse.obj \
+    $(_OBJ_DIR)\alpha\root.obj \
+    $(_OBJ_DIR)\alpha\strcmps.obj \
+    $(_OBJ_DIR)\alpha\string.obj \
+    $(_OBJ_DIR)\alpha\update.obj \
+    $(_OBJ_DIR)\alpha\xtab.obj \
+    $(_OBJ_DIR)\alpha\zalloc.obj \
+    $(_OBJ_DIR)\alpha\mgetl.obj \
+    $(_OBJ_DIR)\alpha\swchng.obj \
+    $(_OBJ_DIR)\alpha\vector.obj \
+    $(_OBJ_DIR)\alpha\ztoolasm.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ctime2l.obj \
+    $(_OBJ_DIR)\mips\cvtoem.obj \
+    $(_OBJ_DIR)\mips\curdir.obj \
+    $(_OBJ_DIR)\mips\dodel.obj \
+    $(_OBJ_DIR)\mips\error.obj \
+    $(_OBJ_DIR)\mips\exetype.obj \
+    $(_OBJ_DIR)\mips\fappend.obj \
+    $(_OBJ_DIR)\mips\fastcopy.obj \
+    $(_OBJ_DIR)\mips\fcopy.obj \
+    $(_OBJ_DIR)\mips\fdelete.obj \
+    $(_OBJ_DIR)\mips\fexpunge.obj \
+    $(_OBJ_DIR)\mips\fgetl.obj \
+    $(_OBJ_DIR)\mips\find.obj \
+    $(_OBJ_DIR)\mips\fmove.obj \
+    $(_OBJ_DIR)\mips\forfile.obj \
+    $(_OBJ_DIR)\mips\forsemi.obj \
+    $(_OBJ_DIR)\mips\fputl.obj \
+    $(_OBJ_DIR)\mips\freespac.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\match.obj \
+    $(_OBJ_DIR)\mips\ntoi.obj \
+    $(_OBJ_DIR)\mips\pathcat.obj \
+    $(_OBJ_DIR)\mips\pathchr.obj \
+    $(_OBJ_DIR)\mips\pathopen.obj \
+    $(_OBJ_DIR)\mips\pname.obj \
+    $(_OBJ_DIR)\mips\re_mi.obj \
+    $(_OBJ_DIR)\mips\reparse.obj \
+    $(_OBJ_DIR)\mips\root.obj \
+    $(_OBJ_DIR)\mips\strcmps.obj \
+    $(_OBJ_DIR)\mips\string.obj \
+    $(_OBJ_DIR)\mips\update.obj \
+    $(_OBJ_DIR)\mips\xtab.obj \
+    $(_OBJ_DIR)\mips\zalloc.obj \
+    $(_OBJ_DIR)\mips\mgetl.obj \
+    $(_OBJ_DIR)\mips\swchng.obj \
+    $(_OBJ_DIR)\mips\vector.obj \
+    $(_OBJ_DIR)\mips\ztoolasm.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ctime2l.obj \
+    $(_OBJ_DIR)\i386\cvtoem.obj \
+    $(_OBJ_DIR)\i386\curdir.obj \
+    $(_OBJ_DIR)\i386\dodel.obj \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\exetype.obj \
+    $(_OBJ_DIR)\i386\fappend.obj \
+    $(_OBJ_DIR)\i386\fastcopy.obj \
+    $(_OBJ_DIR)\i386\fcopy.obj \
+    $(_OBJ_DIR)\i386\fdelete.obj \
+    $(_OBJ_DIR)\i386\fexpunge.obj \
+    $(_OBJ_DIR)\i386\fgetl.obj \
+    $(_OBJ_DIR)\i386\find.obj \
+    $(_OBJ_DIR)\i386\fmove.obj \
+    $(_OBJ_DIR)\i386\forfile.obj \
+    $(_OBJ_DIR)\i386\forsemi.obj \
+    $(_OBJ_DIR)\i386\fputl.obj \
+    $(_OBJ_DIR)\i386\freespac.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\match.obj \
+    $(_OBJ_DIR)\i386\ntoi.obj \
+    $(_OBJ_DIR)\i386\pathcat.obj \
+    $(_OBJ_DIR)\i386\pathchr.obj \
+    $(_OBJ_DIR)\i386\pathopen.obj \
+    $(_OBJ_DIR)\i386\pname.obj \
+    $(_OBJ_DIR)\i386\re_mi.obj \
+    $(_OBJ_DIR)\i386\reparse.obj \
+    $(_OBJ_DIR)\i386\root.obj \
+    $(_OBJ_DIR)\i386\strcmps.obj \
+    $(_OBJ_DIR)\i386\string.obj \
+    $(_OBJ_DIR)\i386\update.obj \
+    $(_OBJ_DIR)\i386\xtab.obj \
+    $(_OBJ_DIR)\i386\zalloc.obj \
+    $(_OBJ_DIR)\i386\mgetl.obj \
+    $(_OBJ_DIR)\i386\swchng.obj \
+    $(_OBJ_DIR)\i386\vector.obj \
+    $(_OBJ_DIR)\i386\ztoolasm.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ctime2l.obj \
+    $(_OBJ_DIR)\ppc\cvtoem.obj \
+    $(_OBJ_DIR)\ppc\curdir.obj \
+    $(_OBJ_DIR)\ppc\dodel.obj \
+    $(_OBJ_DIR)\ppc\error.obj \
+    $(_OBJ_DIR)\ppc\exetype.obj \
+    $(_OBJ_DIR)\ppc\fappend.obj \
+    $(_OBJ_DIR)\ppc\fastcopy.obj \
+    $(_OBJ_DIR)\ppc\fcopy.obj \
+    $(_OBJ_DIR)\ppc\fdelete.obj \
+    $(_OBJ_DIR)\ppc\fexpunge.obj \
+    $(_OBJ_DIR)\ppc\fgetl.obj \
+    $(_OBJ_DIR)\ppc\find.obj \
+    $(_OBJ_DIR)\ppc\fmove.obj \
+    $(_OBJ_DIR)\ppc\forfile.obj \
+    $(_OBJ_DIR)\ppc\forsemi.obj \
+    $(_OBJ_DIR)\ppc\fputl.obj \
+    $(_OBJ_DIR)\ppc\freespac.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\match.obj \
+    $(_OBJ_DIR)\ppc\ntoi.obj \
+    $(_OBJ_DIR)\ppc\pathcat.obj \
+    $(_OBJ_DIR)\ppc\pathchr.obj \
+    $(_OBJ_DIR)\ppc\pathopen.obj \
+    $(_OBJ_DIR)\ppc\pname.obj \
+    $(_OBJ_DIR)\ppc\re_mi.obj \
+    $(_OBJ_DIR)\ppc\reparse.obj \
+    $(_OBJ_DIR)\ppc\root.obj \
+    $(_OBJ_DIR)\ppc\strcmps.obj \
+    $(_OBJ_DIR)\ppc\string.obj \
+    $(_OBJ_DIR)\ppc\update.obj \
+    $(_OBJ_DIR)\ppc\xtab.obj \
+    $(_OBJ_DIR)\ppc\zalloc.obj \
+    $(_OBJ_DIR)\ppc\mgetl.obj \
+    $(_OBJ_DIR)\ppc\swchng.obj \
+    $(_OBJ_DIR)\ppc\vector.obj \
+    $(_OBJ_DIR)\ppc\ztoolasm.obj
+
+PASS0_PPC_OBJECTS=
+

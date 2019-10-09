@@ -1,0 +1,92 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\plotter.res \
+    $(_OBJ_DIR)\alpha\pdevinfo.obj \
+    $(_OBJ_DIR)\alpha\enable.obj \
+    $(_OBJ_DIR)\alpha\plotform.obj \
+    $(_OBJ_DIR)\alpha\bitblt.obj \
+    $(_OBJ_DIR)\alpha\ropblt.obj \
+    $(_OBJ_DIR)\alpha\htblt.obj \
+    $(_OBJ_DIR)\alpha\transpos.obj \
+    $(_OBJ_DIR)\alpha\htbmp1.obj \
+    $(_OBJ_DIR)\alpha\htbmp4.obj \
+    $(_OBJ_DIR)\alpha\compress.obj \
+    $(_OBJ_DIR)\alpha\brush.obj \
+    $(_OBJ_DIR)\alpha\pencolor.obj \
+    $(_OBJ_DIR)\alpha\output.obj \
+    $(_OBJ_DIR)\alpha\page.obj \
+    $(_OBJ_DIR)\alpha\path.obj \
+    $(_OBJ_DIR)\alpha\polygon.obj \
+    $(_OBJ_DIR)\alpha\textout.obj \
+    $(_OBJ_DIR)\alpha\escape.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\plotter.res \
+    $(_OBJ_DIR)\mips\pdevinfo.obj \
+    $(_OBJ_DIR)\mips\enable.obj \
+    $(_OBJ_DIR)\mips\plotform.obj \
+    $(_OBJ_DIR)\mips\bitblt.obj \
+    $(_OBJ_DIR)\mips\ropblt.obj \
+    $(_OBJ_DIR)\mips\htblt.obj \
+    $(_OBJ_DIR)\mips\transpos.obj \
+    $(_OBJ_DIR)\mips\htbmp1.obj \
+    $(_OBJ_DIR)\mips\htbmp4.obj \
+    $(_OBJ_DIR)\mips\compress.obj \
+    $(_OBJ_DIR)\mips\brush.obj \
+    $(_OBJ_DIR)\mips\pencolor.obj \
+    $(_OBJ_DIR)\mips\output.obj \
+    $(_OBJ_DIR)\mips\page.obj \
+    $(_OBJ_DIR)\mips\path.obj \
+    $(_OBJ_DIR)\mips\polygon.obj \
+    $(_OBJ_DIR)\mips\textout.obj \
+    $(_OBJ_DIR)\mips\escape.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\plotter.res \
+    $(_OBJ_DIR)\i386\pdevinfo.obj \
+    $(_OBJ_DIR)\i386\enable.obj \
+    $(_OBJ_DIR)\i386\plotform.obj \
+    $(_OBJ_DIR)\i386\bitblt.obj \
+    $(_OBJ_DIR)\i386\ropblt.obj \
+    $(_OBJ_DIR)\i386\htblt.obj \
+    $(_OBJ_DIR)\i386\transpos.obj \
+    $(_OBJ_DIR)\i386\htbmp1.obj \
+    $(_OBJ_DIR)\i386\htbmp4.obj \
+    $(_OBJ_DIR)\i386\compress.obj \
+    $(_OBJ_DIR)\i386\brush.obj \
+    $(_OBJ_DIR)\i386\pencolor.obj \
+    $(_OBJ_DIR)\i386\output.obj \
+    $(_OBJ_DIR)\i386\page.obj \
+    $(_OBJ_DIR)\i386\path.obj \
+    $(_OBJ_DIR)\i386\polygon.obj \
+    $(_OBJ_DIR)\i386\textout.obj \
+    $(_OBJ_DIR)\i386\escape.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\plotter.res \
+    $(_OBJ_DIR)\ppc\pdevinfo.obj \
+    $(_OBJ_DIR)\ppc\enable.obj \
+    $(_OBJ_DIR)\ppc\plotform.obj \
+    $(_OBJ_DIR)\ppc\bitblt.obj \
+    $(_OBJ_DIR)\ppc\ropblt.obj \
+    $(_OBJ_DIR)\ppc\htblt.obj \
+    $(_OBJ_DIR)\ppc\transpos.obj \
+    $(_OBJ_DIR)\ppc\htbmp1.obj \
+    $(_OBJ_DIR)\ppc\htbmp4.obj \
+    $(_OBJ_DIR)\ppc\compress.obj \
+    $(_OBJ_DIR)\ppc\brush.obj \
+    $(_OBJ_DIR)\ppc\pencolor.obj \
+    $(_OBJ_DIR)\ppc\output.obj \
+    $(_OBJ_DIR)\ppc\page.obj \
+    $(_OBJ_DIR)\ppc\path.obj \
+    $(_OBJ_DIR)\ppc\polygon.obj \
+    $(_OBJ_DIR)\ppc\textout.obj \
+    $(_OBJ_DIR)\ppc\escape.obj
+
+PASS0_PPC_OBJECTS=
+

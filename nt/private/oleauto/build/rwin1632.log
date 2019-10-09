@@ -1,0 +1,11 @@
+
+Microsoft (R) Program Maintenance Utility   Version 1.50.4048
+Copyright (c) Microsoft Corp 1988-93. All rights reserved.
+
+REM WARNING: depend.mak empty. 
+	set LIB=W:\nt\private\oleauto\tools\win16\HDOS\C800\LIB;W:\nt\private\oleauto\ole\win16\LIB
+	set PATH=W:\nt\private\oleauto\tools\win16\HDOS\BIN;W:\nt\private\oleauto\tools\win16\HDOS\C800\BIN
+	set INCLUDE=W:\nt\private\oleauto\ole\win16;W:\nt\private\oleauto\src\dispatch;W:\nt\private\oleauto\src\inc;W:\nt\private\oleauto\tools\win16\HDOS\C800\INCLUDE
+	set LIB=
+	set PATH=W:\tools\x86\mstools;W:\tools\x86\idw
+	set INCLUDE=

@@ -1,0 +1,148 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\fastfat.res \
+    $(_OBJ_DIR)\alpha\acchksup.obj \
+    $(_OBJ_DIR)\alpha\allocsup.obj \
+    $(_OBJ_DIR)\alpha\cachesup.obj \
+    $(_OBJ_DIR)\alpha\cleanup.obj \
+    $(_OBJ_DIR)\alpha\close.obj \
+    $(_OBJ_DIR)\alpha\create.obj \
+    $(_OBJ_DIR)\alpha\devctrl.obj \
+    $(_OBJ_DIR)\alpha\deviosup.obj \
+    $(_OBJ_DIR)\alpha\dirctrl.obj \
+    $(_OBJ_DIR)\alpha\dirsup.obj \
+    $(_OBJ_DIR)\alpha\dumpsup.obj \
+    $(_OBJ_DIR)\alpha\ea.obj \
+    $(_OBJ_DIR)\alpha\easup.obj \
+    $(_OBJ_DIR)\alpha\fatdata.obj \
+    $(_OBJ_DIR)\alpha\fatinit.obj \
+    $(_OBJ_DIR)\alpha\fileinfo.obj \
+    $(_OBJ_DIR)\alpha\filobsup.obj \
+    $(_OBJ_DIR)\alpha\flush.obj \
+    $(_OBJ_DIR)\alpha\fsctrl.obj \
+    $(_OBJ_DIR)\alpha\fspdisp.obj \
+    $(_OBJ_DIR)\alpha\lockctrl.obj \
+    $(_OBJ_DIR)\alpha\namesup.obj \
+    $(_OBJ_DIR)\alpha\read.obj \
+    $(_OBJ_DIR)\alpha\resrcsup.obj \
+    $(_OBJ_DIR)\alpha\shutdown.obj \
+    $(_OBJ_DIR)\alpha\strucsup.obj \
+    $(_OBJ_DIR)\alpha\splaysup.obj \
+    $(_OBJ_DIR)\alpha\timesup.obj \
+    $(_OBJ_DIR)\alpha\verfysup.obj \
+    $(_OBJ_DIR)\alpha\volinfo.obj \
+    $(_OBJ_DIR)\alpha\workque.obj \
+    $(_OBJ_DIR)\alpha\write.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\fastfat.res \
+    $(_OBJ_DIR)\mips\acchksup.obj \
+    $(_OBJ_DIR)\mips\allocsup.obj \
+    $(_OBJ_DIR)\mips\cachesup.obj \
+    $(_OBJ_DIR)\mips\cleanup.obj \
+    $(_OBJ_DIR)\mips\close.obj \
+    $(_OBJ_DIR)\mips\create.obj \
+    $(_OBJ_DIR)\mips\devctrl.obj \
+    $(_OBJ_DIR)\mips\deviosup.obj \
+    $(_OBJ_DIR)\mips\dirctrl.obj \
+    $(_OBJ_DIR)\mips\dirsup.obj \
+    $(_OBJ_DIR)\mips\dumpsup.obj \
+    $(_OBJ_DIR)\mips\ea.obj \
+    $(_OBJ_DIR)\mips\easup.obj \
+    $(_OBJ_DIR)\mips\fatdata.obj \
+    $(_OBJ_DIR)\mips\fatinit.obj \
+    $(_OBJ_DIR)\mips\fileinfo.obj \
+    $(_OBJ_DIR)\mips\filobsup.obj \
+    $(_OBJ_DIR)\mips\flush.obj \
+    $(_OBJ_DIR)\mips\fsctrl.obj \
+    $(_OBJ_DIR)\mips\fspdisp.obj \
+    $(_OBJ_DIR)\mips\lockctrl.obj \
+    $(_OBJ_DIR)\mips\namesup.obj \
+    $(_OBJ_DIR)\mips\read.obj \
+    $(_OBJ_DIR)\mips\resrcsup.obj \
+    $(_OBJ_DIR)\mips\shutdown.obj \
+    $(_OBJ_DIR)\mips\strucsup.obj \
+    $(_OBJ_DIR)\mips\splaysup.obj \
+    $(_OBJ_DIR)\mips\timesup.obj \
+    $(_OBJ_DIR)\mips\verfysup.obj \
+    $(_OBJ_DIR)\mips\volinfo.obj \
+    $(_OBJ_DIR)\mips\workque.obj \
+    $(_OBJ_DIR)\mips\write.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\fastfat.res \
+    $(_OBJ_DIR)\i386\acchksup.obj \
+    $(_OBJ_DIR)\i386\allocsup.obj \
+    $(_OBJ_DIR)\i386\cachesup.obj \
+    $(_OBJ_DIR)\i386\cleanup.obj \
+    $(_OBJ_DIR)\i386\close.obj \
+    $(_OBJ_DIR)\i386\create.obj \
+    $(_OBJ_DIR)\i386\devctrl.obj \
+    $(_OBJ_DIR)\i386\deviosup.obj \
+    $(_OBJ_DIR)\i386\dirctrl.obj \
+    $(_OBJ_DIR)\i386\dirsup.obj \
+    $(_OBJ_DIR)\i386\dumpsup.obj \
+    $(_OBJ_DIR)\i386\ea.obj \
+    $(_OBJ_DIR)\i386\easup.obj \
+    $(_OBJ_DIR)\i386\fatdata.obj \
+    $(_OBJ_DIR)\i386\fatinit.obj \
+    $(_OBJ_DIR)\i386\fileinfo.obj \
+    $(_OBJ_DIR)\i386\filobsup.obj \
+    $(_OBJ_DIR)\i386\flush.obj \
+    $(_OBJ_DIR)\i386\fsctrl.obj \
+    $(_OBJ_DIR)\i386\fspdisp.obj \
+    $(_OBJ_DIR)\i386\lockctrl.obj \
+    $(_OBJ_DIR)\i386\namesup.obj \
+    $(_OBJ_DIR)\i386\read.obj \
+    $(_OBJ_DIR)\i386\resrcsup.obj \
+    $(_OBJ_DIR)\i386\shutdown.obj \
+    $(_OBJ_DIR)\i386\strucsup.obj \
+    $(_OBJ_DIR)\i386\splaysup.obj \
+    $(_OBJ_DIR)\i386\timesup.obj \
+    $(_OBJ_DIR)\i386\verfysup.obj \
+    $(_OBJ_DIR)\i386\volinfo.obj \
+    $(_OBJ_DIR)\i386\workque.obj \
+    $(_OBJ_DIR)\i386\write.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\fastfat.res \
+    $(_OBJ_DIR)\ppc\acchksup.obj \
+    $(_OBJ_DIR)\ppc\allocsup.obj \
+    $(_OBJ_DIR)\ppc\cachesup.obj \
+    $(_OBJ_DIR)\ppc\cleanup.obj \
+    $(_OBJ_DIR)\ppc\close.obj \
+    $(_OBJ_DIR)\ppc\create.obj \
+    $(_OBJ_DIR)\ppc\devctrl.obj \
+    $(_OBJ_DIR)\ppc\deviosup.obj \
+    $(_OBJ_DIR)\ppc\dirctrl.obj \
+    $(_OBJ_DIR)\ppc\dirsup.obj \
+    $(_OBJ_DIR)\ppc\dumpsup.obj \
+    $(_OBJ_DIR)\ppc\ea.obj \
+    $(_OBJ_DIR)\ppc\easup.obj \
+    $(_OBJ_DIR)\ppc\fatdata.obj \
+    $(_OBJ_DIR)\ppc\fatinit.obj \
+    $(_OBJ_DIR)\ppc\fileinfo.obj \
+    $(_OBJ_DIR)\ppc\filobsup.obj \
+    $(_OBJ_DIR)\ppc\flush.obj \
+    $(_OBJ_DIR)\ppc\fsctrl.obj \
+    $(_OBJ_DIR)\ppc\fspdisp.obj \
+    $(_OBJ_DIR)\ppc\lockctrl.obj \
+    $(_OBJ_DIR)\ppc\namesup.obj \
+    $(_OBJ_DIR)\ppc\read.obj \
+    $(_OBJ_DIR)\ppc\resrcsup.obj \
+    $(_OBJ_DIR)\ppc\shutdown.obj \
+    $(_OBJ_DIR)\ppc\strucsup.obj \
+    $(_OBJ_DIR)\ppc\splaysup.obj \
+    $(_OBJ_DIR)\ppc\timesup.obj \
+    $(_OBJ_DIR)\ppc\verfysup.obj \
+    $(_OBJ_DIR)\ppc\volinfo.obj \
+    $(_OBJ_DIR)\ppc\workque.obj \
+    $(_OBJ_DIR)\ppc\write.obj
+
+PASS0_PPC_OBJECTS=
+

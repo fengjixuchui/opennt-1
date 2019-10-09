@@ -1,0 +1,72 @@
+
+ STDOLE
+
+ Start     Length     Name                   Class
+ 0001:0000 00042H     _TEXT                  CODE
+ 0002:0000 00010H     NULL                   BEGDATA
+ 0002:0010 00014H     _DATA                  DATA
+ 0002:0024 00000H     CDATA                  DATA
+ 0002:0024 00000H     CONST                  CONST
+ 0002:0024 00000H     _BSS                   BSS
+
+ Origin   Group
+ 0002:0   DGROUP
+
+ Address   Export                  Alias
+
+ 0001:0010 LIBMAIN                 LIBMAIN
+ 0001:0028 WEP                     WEP
+
+  Address         Publics by Name
+
+ 0001:0010       LIBMAIN
+ 0002:0004       rsrvptrs
+ 0001:0028       WEP
+ 0002:001E       _aseghi
+ 0002:001C       _aseglo
+ 0002:0024       _edata
+ 0002:0024       _end
+ 0002:0010       _STKHQQ
+ 0000:9876  Abs  __acrtused
+ 0000:D6D6  Abs  __aDBdoswp
+ 0000:D6D6  Abs  __aDBused
+ 0002:0024       __edata
+ 0002:0024       __end
+ 0000:9876  Abs  __fptaskdata
+ 0002:0012       __hModule
+ 0002:0018       __lpszCmdLine
+ 0000:0000  Abs  __sizec
+ 0000:0000  Abs  __sized
+ 0002:0014       __wDataSeg
+ 0001:0040       __wflags
+ 0002:0016       __wHeapSize
+ 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 0002:0022       ___aDBrterr
+ 0002:0020       ___aDBswpflg
+
+  Address         Publics by Value
+
+ 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 0000:0000  Abs  __sized
+ 0000:0000  Abs  __sizec
+ 0000:9876  Abs  __acrtused
+ 0000:9876  Abs  __fptaskdata
+ 0000:D6D6  Abs  __aDBused
+ 0000:D6D6  Abs  __aDBdoswp
+ 0001:0010       LIBMAIN
+ 0001:0028       WEP
+ 0001:0040       __wflags
+ 0002:0004       rsrvptrs
+ 0002:0010       _STKHQQ
+ 0002:0012       __hModule
+ 0002:0014       __wDataSeg
+ 0002:0016       __wHeapSize
+ 0002:0018       __lpszCmdLine
+ 0002:001C       _aseglo
+ 0002:001E       _aseghi
+ 0002:0020       ___aDBswpflg
+ 0002:0022       ___aDBrterr
+ 0002:0024       _edata
+ 0002:0024       _end
+ 0002:0024       __edata
+ 0002:0024       __end

@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mdm.res \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\ioctl.obj \
+    $(_OBJ_DIR)\alpha\mask.obj \
+    $(_OBJ_DIR)\alpha\open.obj \
+    $(_OBJ_DIR)\alpha\qsfile.obj \
+    $(_OBJ_DIR)\alpha\readwrit.obj \
+    $(_OBJ_DIR)\alpha\utils.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mdm.res \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\ioctl.obj \
+    $(_OBJ_DIR)\mips\mask.obj \
+    $(_OBJ_DIR)\mips\open.obj \
+    $(_OBJ_DIR)\mips\qsfile.obj \
+    $(_OBJ_DIR)\mips\readwrit.obj \
+    $(_OBJ_DIR)\mips\utils.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mdm.res \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\ioctl.obj \
+    $(_OBJ_DIR)\i386\mask.obj \
+    $(_OBJ_DIR)\i386\open.obj \
+    $(_OBJ_DIR)\i386\qsfile.obj \
+    $(_OBJ_DIR)\i386\readwrit.obj \
+    $(_OBJ_DIR)\i386\utils.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mdm.res \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\ioctl.obj \
+    $(_OBJ_DIR)\ppc\mask.obj \
+    $(_OBJ_DIR)\ppc\open.obj \
+    $(_OBJ_DIR)\ppc\qsfile.obj \
+    $(_OBJ_DIR)\ppc\readwrit.obj \
+    $(_OBJ_DIR)\ppc\utils.obj
+
+PASS0_PPC_OBJECTS=
+

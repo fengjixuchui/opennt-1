@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dith666.obj \
+    $(_OBJ_DIR)\alpha\dither.obj \
+    $(_OBJ_DIR)\alpha\drawdib.obj \
+    $(_OBJ_DIR)\alpha\profdisp.obj \
+    $(_OBJ_DIR)\alpha\setdi.obj \
+    $(_OBJ_DIR)\alpha\lockbm.obj \
+    $(_OBJ_DIR)\alpha\stretchc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dith666.obj \
+    $(_OBJ_DIR)\mips\dither.obj \
+    $(_OBJ_DIR)\mips\drawdib.obj \
+    $(_OBJ_DIR)\mips\profdisp.obj \
+    $(_OBJ_DIR)\mips\setdi.obj \
+    $(_OBJ_DIR)\mips\lockbm.obj \
+    $(_OBJ_DIR)\mips\stretchc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dith666.obj \
+    $(_OBJ_DIR)\i386\dither.obj \
+    $(_OBJ_DIR)\i386\drawdib.obj \
+    $(_OBJ_DIR)\i386\profdisp.obj \
+    $(_OBJ_DIR)\i386\setdi.obj \
+    $(_OBJ_DIR)\i386\lockbm.obj \
+    $(_OBJ_DIR)\i386\stretchc.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dith666.obj \
+    $(_OBJ_DIR)\ppc\dither.obj \
+    $(_OBJ_DIR)\ppc\drawdib.obj \
+    $(_OBJ_DIR)\ppc\profdisp.obj \
+    $(_OBJ_DIR)\ppc\setdi.obj \
+    $(_OBJ_DIR)\ppc\lockbm.obj \
+    $(_OBJ_DIR)\ppc\stretchc.obj
+
+PASS0_PPC_OBJECTS=
+

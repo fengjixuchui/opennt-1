@@ -1,0 +1,84 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dc21x4.res \
+    $(_OBJ_DIR)\alpha\alloc.obj \
+    $(_OBJ_DIR)\alpha\copy.obj \
+    $(_OBJ_DIR)\alpha\dc21x4.obj \
+    $(_OBJ_DIR)\alpha\filter.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\interrup.obj \
+    $(_OBJ_DIR)\alpha\media.obj \
+    $(_OBJ_DIR)\alpha\monitor.obj \
+    $(_OBJ_DIR)\alpha\register.obj \
+    $(_OBJ_DIR)\alpha\request.obj \
+    $(_OBJ_DIR)\alpha\reset.obj \
+    $(_OBJ_DIR)\alpha\send.obj \
+    $(_OBJ_DIR)\alpha\srom.obj \
+    $(_OBJ_DIR)\alpha\mactophy.obj \
+    $(_OBJ_DIR)\alpha\miigen.obj \
+    $(_OBJ_DIR)\alpha\miiphy.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dc21x4.res \
+    $(_OBJ_DIR)\mips\alloc.obj \
+    $(_OBJ_DIR)\mips\copy.obj \
+    $(_OBJ_DIR)\mips\dc21x4.obj \
+    $(_OBJ_DIR)\mips\filter.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\interrup.obj \
+    $(_OBJ_DIR)\mips\media.obj \
+    $(_OBJ_DIR)\mips\monitor.obj \
+    $(_OBJ_DIR)\mips\register.obj \
+    $(_OBJ_DIR)\mips\request.obj \
+    $(_OBJ_DIR)\mips\reset.obj \
+    $(_OBJ_DIR)\mips\send.obj \
+    $(_OBJ_DIR)\mips\srom.obj \
+    $(_OBJ_DIR)\mips\mactophy.obj \
+    $(_OBJ_DIR)\mips\miigen.obj \
+    $(_OBJ_DIR)\mips\miiphy.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dc21x4.res \
+    $(_OBJ_DIR)\i386\alloc.obj \
+    $(_OBJ_DIR)\i386\copy.obj \
+    $(_OBJ_DIR)\i386\dc21x4.obj \
+    $(_OBJ_DIR)\i386\filter.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\interrup.obj \
+    $(_OBJ_DIR)\i386\media.obj \
+    $(_OBJ_DIR)\i386\monitor.obj \
+    $(_OBJ_DIR)\i386\register.obj \
+    $(_OBJ_DIR)\i386\request.obj \
+    $(_OBJ_DIR)\i386\reset.obj \
+    $(_OBJ_DIR)\i386\send.obj \
+    $(_OBJ_DIR)\i386\srom.obj \
+    $(_OBJ_DIR)\i386\mactophy.obj \
+    $(_OBJ_DIR)\i386\miigen.obj \
+    $(_OBJ_DIR)\i386\miiphy.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dc21x4.res \
+    $(_OBJ_DIR)\ppc\alloc.obj \
+    $(_OBJ_DIR)\ppc\copy.obj \
+    $(_OBJ_DIR)\ppc\dc21x4.obj \
+    $(_OBJ_DIR)\ppc\filter.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\interrup.obj \
+    $(_OBJ_DIR)\ppc\media.obj \
+    $(_OBJ_DIR)\ppc\monitor.obj \
+    $(_OBJ_DIR)\ppc\register.obj \
+    $(_OBJ_DIR)\ppc\request.obj \
+    $(_OBJ_DIR)\ppc\reset.obj \
+    $(_OBJ_DIR)\ppc\send.obj \
+    $(_OBJ_DIR)\ppc\srom.obj \
+    $(_OBJ_DIR)\ppc\mactophy.obj \
+    $(_OBJ_DIR)\ppc\miigen.obj \
+    $(_OBJ_DIR)\ppc\miiphy.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\res.res \
+    $(_OBJ_DIR)\alpha\ksecdd.obj \
+    $(_OBJ_DIR)\alpha\stubs.obj \
+    $(_OBJ_DIR)\alpha\support.obj \
+    $(_OBJ_DIR)\alpha\userstub.obj \
+    $(_OBJ_DIR)\alpha\memmgr.obj \
+    $(_OBJ_DIR)\alpha\connmgr.obj \
+    $(_OBJ_DIR)\alpha\ntlm.obj \
+    $(_OBJ_DIR)\alpha\context.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\res.res \
+    $(_OBJ_DIR)\mips\ksecdd.obj \
+    $(_OBJ_DIR)\mips\stubs.obj \
+    $(_OBJ_DIR)\mips\support.obj \
+    $(_OBJ_DIR)\mips\userstub.obj \
+    $(_OBJ_DIR)\mips\memmgr.obj \
+    $(_OBJ_DIR)\mips\connmgr.obj \
+    $(_OBJ_DIR)\mips\ntlm.obj \
+    $(_OBJ_DIR)\mips\context.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\res.res \
+    $(_OBJ_DIR)\i386\ksecdd.obj \
+    $(_OBJ_DIR)\i386\stubs.obj \
+    $(_OBJ_DIR)\i386\support.obj \
+    $(_OBJ_DIR)\i386\userstub.obj \
+    $(_OBJ_DIR)\i386\memmgr.obj \
+    $(_OBJ_DIR)\i386\connmgr.obj \
+    $(_OBJ_DIR)\i386\ntlm.obj \
+    $(_OBJ_DIR)\i386\context.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\res.res \
+    $(_OBJ_DIR)\ppc\ksecdd.obj \
+    $(_OBJ_DIR)\ppc\stubs.obj \
+    $(_OBJ_DIR)\ppc\support.obj \
+    $(_OBJ_DIR)\ppc\userstub.obj \
+    $(_OBJ_DIR)\ppc\memmgr.obj \
+    $(_OBJ_DIR)\ppc\connmgr.obj \
+    $(_OBJ_DIR)\ppc\ntlm.obj \
+    $(_OBJ_DIR)\ppc\context.obj
+
+PASS0_PPC_OBJECTS=
+

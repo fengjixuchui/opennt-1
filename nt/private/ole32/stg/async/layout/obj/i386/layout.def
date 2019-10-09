@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LIBRARY         dflayout
+
+DESCRIPTION  'Microsoft (R) Docfile Layout Tool for OLE'
+
+
+
+
+
+
+
+
+
+EXPORTS
+
+	StgOpenLayoutDocfile
+
+	StgLayoutDocfile
+

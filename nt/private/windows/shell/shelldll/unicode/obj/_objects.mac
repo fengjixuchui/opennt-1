@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\exec2nt.obj \
+    $(_OBJ_DIR)\alpha\argvw.obj \
+    $(_OBJ_DIR)\alpha\execnt.obj \
+    $(_OBJ_DIR)\alpha\expenv.obj \
+    $(_OBJ_DIR)\alpha\format.obj \
+    $(_OBJ_DIR)\alpha\lstrfns.obj \
+    $(_OBJ_DIR)\alpha\psdocurd.obj \
+    $(_OBJ_DIR)\alpha\regenv.obj \
+    $(_OBJ_DIR)\alpha\utilnt.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\exec2nt.obj \
+    $(_OBJ_DIR)\mips\argvw.obj \
+    $(_OBJ_DIR)\mips\execnt.obj \
+    $(_OBJ_DIR)\mips\expenv.obj \
+    $(_OBJ_DIR)\mips\format.obj \
+    $(_OBJ_DIR)\mips\lstrfns.obj \
+    $(_OBJ_DIR)\mips\psdocurd.obj \
+    $(_OBJ_DIR)\mips\regenv.obj \
+    $(_OBJ_DIR)\mips\utilnt.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\exec2nt.obj \
+    $(_OBJ_DIR)\i386\argvw.obj \
+    $(_OBJ_DIR)\i386\execnt.obj \
+    $(_OBJ_DIR)\i386\expenv.obj \
+    $(_OBJ_DIR)\i386\format.obj \
+    $(_OBJ_DIR)\i386\lstrfns.obj \
+    $(_OBJ_DIR)\i386\psdocurd.obj \
+    $(_OBJ_DIR)\i386\regenv.obj \
+    $(_OBJ_DIR)\i386\utilnt.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\exec2nt.obj \
+    $(_OBJ_DIR)\ppc\argvw.obj \
+    $(_OBJ_DIR)\ppc\execnt.obj \
+    $(_OBJ_DIR)\ppc\expenv.obj \
+    $(_OBJ_DIR)\ppc\format.obj \
+    $(_OBJ_DIR)\ppc\lstrfns.obj \
+    $(_OBJ_DIR)\ppc\psdocurd.obj \
+    $(_OBJ_DIR)\ppc\regenv.obj \
+    $(_OBJ_DIR)\ppc\utilnt.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,14 @@
+-GD
+-G2
+-Alfw
+/D_DAYTONA_
+-IW:\nt\private\ole32\olethunk\ole16\inc
+-IW:\nt\private\ole32\olethunk\h
+-IW:\nt\private\cinc
+/NMSEG_CODE
+/Odi
+/Zip
+-DDBG=1
+-DDEVL=1
+-Foobjddayt\cdebug.obj
+-Tpcdebug.cxx

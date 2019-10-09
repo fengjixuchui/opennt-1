@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mcicda.res \
+    $(_OBJ_DIR)\alpha\mcicda.obj \
+    $(_OBJ_DIR)\alpha\cddrvr.obj \
+    $(_OBJ_DIR)\alpha\cda.obj \
+    $(_OBJ_DIR)\alpha\cdio.obj \
+    $(_OBJ_DIR)\alpha\debug.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mcicda.res \
+    $(_OBJ_DIR)\mips\mcicda.obj \
+    $(_OBJ_DIR)\mips\cddrvr.obj \
+    $(_OBJ_DIR)\mips\cda.obj \
+    $(_OBJ_DIR)\mips\cdio.obj \
+    $(_OBJ_DIR)\mips\debug.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mcicda.res \
+    $(_OBJ_DIR)\i386\mcicda.obj \
+    $(_OBJ_DIR)\i386\cddrvr.obj \
+    $(_OBJ_DIR)\i386\cda.obj \
+    $(_OBJ_DIR)\i386\cdio.obj \
+    $(_OBJ_DIR)\i386\debug.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mcicda.res \
+    $(_OBJ_DIR)\ppc\mcicda.obj \
+    $(_OBJ_DIR)\ppc\cddrvr.obj \
+    $(_OBJ_DIR)\ppc\cda.obj \
+    $(_OBJ_DIR)\ppc\cdio.obj \
+    $(_OBJ_DIR)\ppc\debug.obj
+
+PASS0_PPC_OBJECTS=
+

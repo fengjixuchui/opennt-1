@@ -1,0 +1,112 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\sam_rev.res \
+    $(_OBJ_DIR)\alpha\display.obj \
+    $(_OBJ_DIR)\alpha\alias.obj \
+    $(_OBJ_DIR)\alpha\almember.obj \
+    $(_OBJ_DIR)\alpha\attr.obj \
+    $(_OBJ_DIR)\alpha\bldsam3.obj \
+    $(_OBJ_DIR)\alpha\close.obj \
+    $(_OBJ_DIR)\alpha\context.obj \
+    $(_OBJ_DIR)\alpha\domain.obj \
+    $(_OBJ_DIR)\alpha\gentab2.obj \
+    $(_OBJ_DIR)\alpha\global.obj \
+    $(_OBJ_DIR)\alpha\group.obj \
+    $(_OBJ_DIR)\alpha\notify.obj \
+    $(_OBJ_DIR)\alpha\oldstub.obj \
+    $(_OBJ_DIR)\alpha\rundown.obj \
+    $(_OBJ_DIR)\alpha\samifree.obj \
+    $(_OBJ_DIR)\alpha\samrpc_s.obj \
+    $(_OBJ_DIR)\alpha\samss.obj \
+    $(_OBJ_DIR)\alpha\secdescr.obj \
+    $(_OBJ_DIR)\alpha\security.obj \
+    $(_OBJ_DIR)\alpha\server.obj \
+    $(_OBJ_DIR)\alpha\user.obj \
+    $(_OBJ_DIR)\alpha\utility.obj \
+    $(_OBJ_DIR)\alpha\upgrade.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\sam_rev.res \
+    $(_OBJ_DIR)\mips\display.obj \
+    $(_OBJ_DIR)\mips\alias.obj \
+    $(_OBJ_DIR)\mips\almember.obj \
+    $(_OBJ_DIR)\mips\attr.obj \
+    $(_OBJ_DIR)\mips\bldsam3.obj \
+    $(_OBJ_DIR)\mips\close.obj \
+    $(_OBJ_DIR)\mips\context.obj \
+    $(_OBJ_DIR)\mips\domain.obj \
+    $(_OBJ_DIR)\mips\gentab2.obj \
+    $(_OBJ_DIR)\mips\global.obj \
+    $(_OBJ_DIR)\mips\group.obj \
+    $(_OBJ_DIR)\mips\notify.obj \
+    $(_OBJ_DIR)\mips\oldstub.obj \
+    $(_OBJ_DIR)\mips\rundown.obj \
+    $(_OBJ_DIR)\mips\samifree.obj \
+    $(_OBJ_DIR)\mips\samrpc_s.obj \
+    $(_OBJ_DIR)\mips\samss.obj \
+    $(_OBJ_DIR)\mips\secdescr.obj \
+    $(_OBJ_DIR)\mips\security.obj \
+    $(_OBJ_DIR)\mips\server.obj \
+    $(_OBJ_DIR)\mips\user.obj \
+    $(_OBJ_DIR)\mips\utility.obj \
+    $(_OBJ_DIR)\mips\upgrade.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\sam_rev.res \
+    $(_OBJ_DIR)\i386\display.obj \
+    $(_OBJ_DIR)\i386\alias.obj \
+    $(_OBJ_DIR)\i386\almember.obj \
+    $(_OBJ_DIR)\i386\attr.obj \
+    $(_OBJ_DIR)\i386\bldsam3.obj \
+    $(_OBJ_DIR)\i386\close.obj \
+    $(_OBJ_DIR)\i386\context.obj \
+    $(_OBJ_DIR)\i386\domain.obj \
+    $(_OBJ_DIR)\i386\gentab2.obj \
+    $(_OBJ_DIR)\i386\global.obj \
+    $(_OBJ_DIR)\i386\group.obj \
+    $(_OBJ_DIR)\i386\notify.obj \
+    $(_OBJ_DIR)\i386\oldstub.obj \
+    $(_OBJ_DIR)\i386\rundown.obj \
+    $(_OBJ_DIR)\i386\samifree.obj \
+    $(_OBJ_DIR)\i386\samrpc_s.obj \
+    $(_OBJ_DIR)\i386\samss.obj \
+    $(_OBJ_DIR)\i386\secdescr.obj \
+    $(_OBJ_DIR)\i386\security.obj \
+    $(_OBJ_DIR)\i386\server.obj \
+    $(_OBJ_DIR)\i386\user.obj \
+    $(_OBJ_DIR)\i386\utility.obj \
+    $(_OBJ_DIR)\i386\upgrade.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\sam_rev.res \
+    $(_OBJ_DIR)\ppc\display.obj \
+    $(_OBJ_DIR)\ppc\alias.obj \
+    $(_OBJ_DIR)\ppc\almember.obj \
+    $(_OBJ_DIR)\ppc\attr.obj \
+    $(_OBJ_DIR)\ppc\bldsam3.obj \
+    $(_OBJ_DIR)\ppc\close.obj \
+    $(_OBJ_DIR)\ppc\context.obj \
+    $(_OBJ_DIR)\ppc\domain.obj \
+    $(_OBJ_DIR)\ppc\gentab2.obj \
+    $(_OBJ_DIR)\ppc\global.obj \
+    $(_OBJ_DIR)\ppc\group.obj \
+    $(_OBJ_DIR)\ppc\notify.obj \
+    $(_OBJ_DIR)\ppc\oldstub.obj \
+    $(_OBJ_DIR)\ppc\rundown.obj \
+    $(_OBJ_DIR)\ppc\samifree.obj \
+    $(_OBJ_DIR)\ppc\samrpc_s.obj \
+    $(_OBJ_DIR)\ppc\samss.obj \
+    $(_OBJ_DIR)\ppc\secdescr.obj \
+    $(_OBJ_DIR)\ppc\security.obj \
+    $(_OBJ_DIR)\ppc\server.obj \
+    $(_OBJ_DIR)\ppc\user.obj \
+    $(_OBJ_DIR)\ppc\utility.obj \
+    $(_OBJ_DIR)\ppc\upgrade.obj
+
+PASS0_PPC_OBJECTS=
+

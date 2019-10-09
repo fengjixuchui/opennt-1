@@ -1,0 +1,72 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\drivesup.obj \
+    $(_OBJ_DIR)\ppc\bushnd.obj \
+    $(_OBJ_DIR)\ppc\pxport.obj \
+    $(_OBJ_DIR)\ppc\pxinithl.obj \
+    $(_OBJ_DIR)\ppc\x86bios.obj \
+    $(_OBJ_DIR)\ppc\pxenviro.obj \
+    $(_OBJ_DIR)\ppc\pxbeep.obj \
+    $(_OBJ_DIR)\ppc\pxnatsup.obj \
+    $(_OBJ_DIR)\ppc\pxsiosup.obj \
+    $(_OBJ_DIR)\ppc\pxmemctl.obj \
+    $(_OBJ_DIR)\ppc\pxdisp.obj \
+    $(_OBJ_DIR)\ppc\pxclock.obj \
+    $(_OBJ_DIR)\ppc\pxcalstl.obj \
+    $(_OBJ_DIR)\ppc\pxhwsup.obj \
+    $(_OBJ_DIR)\ppc\pxprof.obj \
+    $(_OBJ_DIR)\ppc\pxmapio.obj \
+    $(_OBJ_DIR)\ppc\pxsysint.obj \
+    $(_OBJ_DIR)\ppc\pxtime.obj \
+    $(_OBJ_DIR)\ppc\pxreturn.obj \
+    $(_OBJ_DIR)\ppc\pxirql.obj \
+    $(_OBJ_DIR)\ppc\pxusage.obj \
+    $(_OBJ_DIR)\ppc\pxbusdat.obj \
+    $(_OBJ_DIR)\ppc\pxpcibus.obj \
+    $(_OBJ_DIR)\ppc\pxpciint.obj \
+    $(_OBJ_DIR)\ppc\pxisabus.obj \
+    $(_OBJ_DIR)\ppc\pxidle.obj \
+    $(_OBJ_DIR)\ppc\pxsysbus.obj \
+    $(_OBJ_DIR)\ppc\pxproc.obj \
+    $(_OBJ_DIR)\ppc\pxdat.obj \
+    $(_OBJ_DIR)\ppc\pxflshio.obj \
+    $(_OBJ_DIR)\ppc\pxpcisup.obj \
+    $(_OBJ_DIR)\ppc\fpi2c.obj \
+    $(_OBJ_DIR)\ppc\fp82091.obj \
+    $(_OBJ_DIR)\ppc\fpds1385.obj \
+    $(_OBJ_DIR)\ppc\fpdcc.obj \
+    $(_OBJ_DIR)\ppc\fpbat.obj \
+    $(_OBJ_DIR)\ppc\fppcisup.obj \
+    $(_OBJ_DIR)\ppc\fpbt445.obj \
+    $(_OBJ_DIR)\ppc\fplibc.obj \
+    $(_OBJ_DIR)\ppc\fprgstry.obj \
+    $(_OBJ_DIR)\ppc\fpints.obj \
+    $(_OBJ_DIR)\ppc\phprods.obj \
+    $(_OBJ_DIR)\ppc\phcalls.obj \
+    $(_OBJ_DIR)\ppc\ctrlops.obj \
+    $(_OBJ_DIR)\ppc\sysbios.obj \
+    $(_OBJ_DIR)\ppc\pcibios.obj \
+    $(_OBJ_DIR)\ppc\phvrsion.obj \
+    $(_OBJ_DIR)\ppc\pxstall.obj \
+    $(_OBJ_DIR)\ppc\pxcache.obj \
+    $(_OBJ_DIR)\ppc\pxclksup.obj \
+    $(_OBJ_DIR)\ppc\pxflshbf.obj \
+    $(_OBJ_DIR)\ppc\pxintsup.obj \
+    $(_OBJ_DIR)\ppc\pxmisc.obj \
+    $(_OBJ_DIR)\ppc\fpcpu.obj \
+    $(_OBJ_DIR)\ppc\phsystem.obj \
+    $(_OBJ_DIR)\ppc\hal.res
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,105 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining w:\nt\private\eventlog directory tree for files to compile.
+Building generated files in w:\nt\private\eventlog ********************
+'nmake.exe /c BUILDMSG=Stop. -i -f makefil0. NOLINK=1 386=1'
+	del elf_c.c elf_s.c 1> NUL 2>NUL
+
+Stop. 
+Building generated files in w:\nt\private\eventlog\netevent ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+
+Stop. 
+BUILD: Examining w:\nt\private\eventlog directory tree for files to compile. (2nd Pass)
+Linking w:\nt\private\eventlog\server\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Linking w:\nt\private\eventlog\netevent directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	link -out:W:\nt\public\sdk\lib\i386\netevent.dll -machine:i386 @W:\tmp\nma03756.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,netevent 
+-subsystem:native,4.00 
+-noentry 
+W:\nt\public\sdk\lib\i386\netevent.exp 
+obj\i386\event.res 
+obj\i386\dummy.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\netevent.dll
+
+Stop. 
+	link -out:obj\i386\eventlog.dll -machine:i386 @W:\tmp\nma01800.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,eventlog 
+-subsystem:windows,4.00 
+-noentry 
+obj\i386\eventlog.exp 
+obj\i386\eventlog.res 
+obj\i386\eventlog.obj 
+obj\i386\alert.obj 
+obj\i386\config.obj 
+obj\i386\control.obj 
+obj\i386\copy.obj 
+obj\i386\elfapi.obj 
+obj\i386\elfdata.obj 
+obj\i386\elflpc.obj 
+obj\i386\elfrpc.obj 
+obj\i386\elfsec.obj 
+obj\i386\elfutil.obj 
+obj\i386\elf_s.obj 
+obj\i386\file.obj 
+obj\i386\memory.obj 
+obj\i386\operate.obj 
+obj\i386\logclear.obj 
+obj\i386\terminat.obj 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\rpcndr.lib 
+W:\nt\public\sdk\lib\i386\rpcutil.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\eventlog.dll
+
+Stop. 

@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\midint.obj \
+    $(_OBJ_DIR)\alpha\midi.obj \
+    $(_OBJ_DIR)\alpha\adlib.obj \
+    $(_OBJ_DIR)\alpha\opl3.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\midint.obj \
+    $(_OBJ_DIR)\mips\midi.obj \
+    $(_OBJ_DIR)\mips\adlib.obj \
+    $(_OBJ_DIR)\mips\opl3.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\midint.obj \
+    $(_OBJ_DIR)\i386\midi.obj \
+    $(_OBJ_DIR)\i386\adlib.obj \
+    $(_OBJ_DIR)\i386\opl3.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\midint.obj \
+    $(_OBJ_DIR)\ppc\midi.obj \
+    $(_OBJ_DIR)\ppc\adlib.obj \
+    $(_OBJ_DIR)\ppc\opl3.obj
+
+PASS0_PPC_OBJECTS=
+

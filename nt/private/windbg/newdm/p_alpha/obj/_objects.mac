@@ -1,0 +1,80 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dmkd.res \
+    $(_OBJ_DIR)\alpha\kdapi.obj \
+    $(_OBJ_DIR)\alpha\bp.obj \
+    $(_OBJ_DIR)\alpha\cache.obj \
+    $(_OBJ_DIR)\alpha\com.obj \
+    $(_OBJ_DIR)\alpha\dmx32.obj \
+    $(_OBJ_DIR)\alpha\event.obj \
+    $(_OBJ_DIR)\alpha\funccall.obj \
+    $(_OBJ_DIR)\alpha\packet.obj \
+    $(_OBJ_DIR)\alpha\procem.obj \
+    $(_OBJ_DIR)\alpha\support.obj \
+    $(_OBJ_DIR)\alpha\step.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\walk.obj \
+    $(_OBJ_DIR)\alpha\kdwow.obj \
+    $(_OBJ_DIR)\alpha\alpmach.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dmkd.res \
+    $(_OBJ_DIR)\mips\kdapi.obj \
+    $(_OBJ_DIR)\mips\bp.obj \
+    $(_OBJ_DIR)\mips\cache.obj \
+    $(_OBJ_DIR)\mips\com.obj \
+    $(_OBJ_DIR)\mips\dmx32.obj \
+    $(_OBJ_DIR)\mips\event.obj \
+    $(_OBJ_DIR)\mips\funccall.obj \
+    $(_OBJ_DIR)\mips\packet.obj \
+    $(_OBJ_DIR)\mips\procem.obj \
+    $(_OBJ_DIR)\mips\support.obj \
+    $(_OBJ_DIR)\mips\step.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\walk.obj \
+    $(_OBJ_DIR)\mips\kdwow.obj \
+    $(_OBJ_DIR)\mips\alpmach.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dmkd.res \
+    $(_OBJ_DIR)\i386\kdapi.obj \
+    $(_OBJ_DIR)\i386\bp.obj \
+    $(_OBJ_DIR)\i386\cache.obj \
+    $(_OBJ_DIR)\i386\com.obj \
+    $(_OBJ_DIR)\i386\dmx32.obj \
+    $(_OBJ_DIR)\i386\event.obj \
+    $(_OBJ_DIR)\i386\funccall.obj \
+    $(_OBJ_DIR)\i386\packet.obj \
+    $(_OBJ_DIR)\i386\procem.obj \
+    $(_OBJ_DIR)\i386\support.obj \
+    $(_OBJ_DIR)\i386\step.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\walk.obj \
+    $(_OBJ_DIR)\i386\kdwow.obj \
+    $(_OBJ_DIR)\i386\alpmach.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dmkd.res \
+    $(_OBJ_DIR)\ppc\kdapi.obj \
+    $(_OBJ_DIR)\ppc\bp.obj \
+    $(_OBJ_DIR)\ppc\cache.obj \
+    $(_OBJ_DIR)\ppc\com.obj \
+    $(_OBJ_DIR)\ppc\dmx32.obj \
+    $(_OBJ_DIR)\ppc\event.obj \
+    $(_OBJ_DIR)\ppc\funccall.obj \
+    $(_OBJ_DIR)\ppc\packet.obj \
+    $(_OBJ_DIR)\ppc\procem.obj \
+    $(_OBJ_DIR)\ppc\support.obj \
+    $(_OBJ_DIR)\ppc\step.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\walk.obj \
+    $(_OBJ_DIR)\ppc\kdwow.obj \
+    $(_OBJ_DIR)\ppc\alpmach.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,84 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cevent.obj \
+    $(_OBJ_DIR)\alpha\compname.obj \
+    $(_OBJ_DIR)\alpha\dbgpopup.obj \
+    $(_OBJ_DIR)\alpha\exttbl.obj \
+    $(_OBJ_DIR)\alpha\pathkey.obj \
+    $(_OBJ_DIR)\alpha\pattbl.obj \
+    $(_OBJ_DIR)\alpha\psctbl.obj \
+    $(_OBJ_DIR)\alpha\rotdata.obj \
+    $(_OBJ_DIR)\alpha\rothelp.obj \
+    $(_OBJ_DIR)\alpha\shrtblc.obj \
+    $(_OBJ_DIR)\alpha\shrtbls.obj \
+    $(_OBJ_DIR)\alpha\skiplist.obj \
+    $(_OBJ_DIR)\alpha\smblock.obj \
+    $(_OBJ_DIR)\alpha\smcreate.obj \
+    $(_OBJ_DIR)\alpha\smmutex.obj \
+    $(_OBJ_DIR)\alpha\smstack.obj \
+    $(_OBJ_DIR)\alpha\xmit.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\cevent.obj \
+    $(_OBJ_DIR)\mips\compname.obj \
+    $(_OBJ_DIR)\mips\dbgpopup.obj \
+    $(_OBJ_DIR)\mips\exttbl.obj \
+    $(_OBJ_DIR)\mips\pathkey.obj \
+    $(_OBJ_DIR)\mips\pattbl.obj \
+    $(_OBJ_DIR)\mips\psctbl.obj \
+    $(_OBJ_DIR)\mips\rotdata.obj \
+    $(_OBJ_DIR)\mips\rothelp.obj \
+    $(_OBJ_DIR)\mips\shrtblc.obj \
+    $(_OBJ_DIR)\mips\shrtbls.obj \
+    $(_OBJ_DIR)\mips\skiplist.obj \
+    $(_OBJ_DIR)\mips\smblock.obj \
+    $(_OBJ_DIR)\mips\smcreate.obj \
+    $(_OBJ_DIR)\mips\smmutex.obj \
+    $(_OBJ_DIR)\mips\smstack.obj \
+    $(_OBJ_DIR)\mips\xmit.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cevent.obj \
+    $(_OBJ_DIR)\i386\compname.obj \
+    $(_OBJ_DIR)\i386\dbgpopup.obj \
+    $(_OBJ_DIR)\i386\exttbl.obj \
+    $(_OBJ_DIR)\i386\pathkey.obj \
+    $(_OBJ_DIR)\i386\pattbl.obj \
+    $(_OBJ_DIR)\i386\psctbl.obj \
+    $(_OBJ_DIR)\i386\rotdata.obj \
+    $(_OBJ_DIR)\i386\rothelp.obj \
+    $(_OBJ_DIR)\i386\shrtblc.obj \
+    $(_OBJ_DIR)\i386\shrtbls.obj \
+    $(_OBJ_DIR)\i386\skiplist.obj \
+    $(_OBJ_DIR)\i386\smblock.obj \
+    $(_OBJ_DIR)\i386\smcreate.obj \
+    $(_OBJ_DIR)\i386\smmutex.obj \
+    $(_OBJ_DIR)\i386\smstack.obj \
+    $(_OBJ_DIR)\i386\xmit.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\cevent.obj \
+    $(_OBJ_DIR)\ppc\compname.obj \
+    $(_OBJ_DIR)\ppc\dbgpopup.obj \
+    $(_OBJ_DIR)\ppc\exttbl.obj \
+    $(_OBJ_DIR)\ppc\pathkey.obj \
+    $(_OBJ_DIR)\ppc\pattbl.obj \
+    $(_OBJ_DIR)\ppc\psctbl.obj \
+    $(_OBJ_DIR)\ppc\rotdata.obj \
+    $(_OBJ_DIR)\ppc\rothelp.obj \
+    $(_OBJ_DIR)\ppc\shrtblc.obj \
+    $(_OBJ_DIR)\ppc\shrtbls.obj \
+    $(_OBJ_DIR)\ppc\skiplist.obj \
+    $(_OBJ_DIR)\ppc\smblock.obj \
+    $(_OBJ_DIR)\ppc\smcreate.obj \
+    $(_OBJ_DIR)\ppc\smmutex.obj \
+    $(_OBJ_DIR)\ppc\smstack.obj \
+    $(_OBJ_DIR)\ppc\xmit.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,160 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\localspl.res \
+    $(_OBJ_DIR)\alpha\printer.obj \
+    $(_OBJ_DIR)\alpha\openprn.obj \
+    $(_OBJ_DIR)\alpha\setprn.obj \
+    $(_OBJ_DIR)\alpha\getprn.obj \
+    $(_OBJ_DIR)\alpha\job.obj \
+    $(_OBJ_DIR)\alpha\msgbox.obj \
+    $(_OBJ_DIR)\alpha\spooler.obj \
+    $(_OBJ_DIR)\alpha\addjob.obj \
+    $(_OBJ_DIR)\alpha\driver.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\schedule.obj \
+    $(_OBJ_DIR)\alpha\port.obj \
+    $(_OBJ_DIR)\alpha\prndata.obj \
+    $(_OBJ_DIR)\alpha\monitor.obj \
+    $(_OBJ_DIR)\alpha\prtproc.obj \
+    $(_OBJ_DIR)\alpha\data.obj \
+    $(_OBJ_DIR)\alpha\net.obj \
+    $(_OBJ_DIR)\alpha\forms.obj \
+    $(_OBJ_DIR)\alpha\gdi.obj \
+    $(_OBJ_DIR)\alpha\separate.obj \
+    $(_OBJ_DIR)\alpha\fonts.obj \
+    $(_OBJ_DIR)\alpha\security.obj \
+    $(_OBJ_DIR)\alpha\server.obj \
+    $(_OBJ_DIR)\alpha\eventlog.obj \
+    $(_OBJ_DIR)\alpha\change.obj \
+    $(_OBJ_DIR)\alpha\copyreg.obj \
+    $(_OBJ_DIR)\alpha\version.obj \
+    $(_OBJ_DIR)\alpha\copyfile.obj \
+    $(_OBJ_DIR)\alpha\upgrade.obj \
+    $(_OBJ_DIR)\alpha\sizethrd.obj \
+    $(_OBJ_DIR)\alpha\devqury.obj \
+    $(_OBJ_DIR)\alpha\mapsd.obj \
+    $(_OBJ_DIR)\alpha\drvupgrd.obj \
+    $(_OBJ_DIR)\alpha\portredn.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\localspl.res \
+    $(_OBJ_DIR)\mips\printer.obj \
+    $(_OBJ_DIR)\mips\openprn.obj \
+    $(_OBJ_DIR)\mips\setprn.obj \
+    $(_OBJ_DIR)\mips\getprn.obj \
+    $(_OBJ_DIR)\mips\job.obj \
+    $(_OBJ_DIR)\mips\msgbox.obj \
+    $(_OBJ_DIR)\mips\spooler.obj \
+    $(_OBJ_DIR)\mips\addjob.obj \
+    $(_OBJ_DIR)\mips\driver.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\schedule.obj \
+    $(_OBJ_DIR)\mips\port.obj \
+    $(_OBJ_DIR)\mips\prndata.obj \
+    $(_OBJ_DIR)\mips\monitor.obj \
+    $(_OBJ_DIR)\mips\prtproc.obj \
+    $(_OBJ_DIR)\mips\data.obj \
+    $(_OBJ_DIR)\mips\net.obj \
+    $(_OBJ_DIR)\mips\forms.obj \
+    $(_OBJ_DIR)\mips\gdi.obj \
+    $(_OBJ_DIR)\mips\separate.obj \
+    $(_OBJ_DIR)\mips\fonts.obj \
+    $(_OBJ_DIR)\mips\security.obj \
+    $(_OBJ_DIR)\mips\server.obj \
+    $(_OBJ_DIR)\mips\eventlog.obj \
+    $(_OBJ_DIR)\mips\change.obj \
+    $(_OBJ_DIR)\mips\copyreg.obj \
+    $(_OBJ_DIR)\mips\version.obj \
+    $(_OBJ_DIR)\mips\copyfile.obj \
+    $(_OBJ_DIR)\mips\upgrade.obj \
+    $(_OBJ_DIR)\mips\sizethrd.obj \
+    $(_OBJ_DIR)\mips\devqury.obj \
+    $(_OBJ_DIR)\mips\mapsd.obj \
+    $(_OBJ_DIR)\mips\drvupgrd.obj \
+    $(_OBJ_DIR)\mips\portredn.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\localspl.res \
+    $(_OBJ_DIR)\i386\printer.obj \
+    $(_OBJ_DIR)\i386\openprn.obj \
+    $(_OBJ_DIR)\i386\setprn.obj \
+    $(_OBJ_DIR)\i386\getprn.obj \
+    $(_OBJ_DIR)\i386\job.obj \
+    $(_OBJ_DIR)\i386\msgbox.obj \
+    $(_OBJ_DIR)\i386\spooler.obj \
+    $(_OBJ_DIR)\i386\addjob.obj \
+    $(_OBJ_DIR)\i386\driver.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\schedule.obj \
+    $(_OBJ_DIR)\i386\port.obj \
+    $(_OBJ_DIR)\i386\prndata.obj \
+    $(_OBJ_DIR)\i386\monitor.obj \
+    $(_OBJ_DIR)\i386\prtproc.obj \
+    $(_OBJ_DIR)\i386\data.obj \
+    $(_OBJ_DIR)\i386\net.obj \
+    $(_OBJ_DIR)\i386\forms.obj \
+    $(_OBJ_DIR)\i386\gdi.obj \
+    $(_OBJ_DIR)\i386\separate.obj \
+    $(_OBJ_DIR)\i386\fonts.obj \
+    $(_OBJ_DIR)\i386\security.obj \
+    $(_OBJ_DIR)\i386\server.obj \
+    $(_OBJ_DIR)\i386\eventlog.obj \
+    $(_OBJ_DIR)\i386\change.obj \
+    $(_OBJ_DIR)\i386\copyreg.obj \
+    $(_OBJ_DIR)\i386\version.obj \
+    $(_OBJ_DIR)\i386\copyfile.obj \
+    $(_OBJ_DIR)\i386\upgrade.obj \
+    $(_OBJ_DIR)\i386\sizethrd.obj \
+    $(_OBJ_DIR)\i386\devqury.obj \
+    $(_OBJ_DIR)\i386\mapsd.obj \
+    $(_OBJ_DIR)\i386\drvupgrd.obj \
+    $(_OBJ_DIR)\i386\portredn.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\localspl.res \
+    $(_OBJ_DIR)\ppc\printer.obj \
+    $(_OBJ_DIR)\ppc\openprn.obj \
+    $(_OBJ_DIR)\ppc\setprn.obj \
+    $(_OBJ_DIR)\ppc\getprn.obj \
+    $(_OBJ_DIR)\ppc\job.obj \
+    $(_OBJ_DIR)\ppc\msgbox.obj \
+    $(_OBJ_DIR)\ppc\spooler.obj \
+    $(_OBJ_DIR)\ppc\addjob.obj \
+    $(_OBJ_DIR)\ppc\driver.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\schedule.obj \
+    $(_OBJ_DIR)\ppc\port.obj \
+    $(_OBJ_DIR)\ppc\prndata.obj \
+    $(_OBJ_DIR)\ppc\monitor.obj \
+    $(_OBJ_DIR)\ppc\prtproc.obj \
+    $(_OBJ_DIR)\ppc\data.obj \
+    $(_OBJ_DIR)\ppc\net.obj \
+    $(_OBJ_DIR)\ppc\forms.obj \
+    $(_OBJ_DIR)\ppc\gdi.obj \
+    $(_OBJ_DIR)\ppc\separate.obj \
+    $(_OBJ_DIR)\ppc\fonts.obj \
+    $(_OBJ_DIR)\ppc\security.obj \
+    $(_OBJ_DIR)\ppc\server.obj \
+    $(_OBJ_DIR)\ppc\eventlog.obj \
+    $(_OBJ_DIR)\ppc\change.obj \
+    $(_OBJ_DIR)\ppc\copyreg.obj \
+    $(_OBJ_DIR)\ppc\version.obj \
+    $(_OBJ_DIR)\ppc\copyfile.obj \
+    $(_OBJ_DIR)\ppc\upgrade.obj \
+    $(_OBJ_DIR)\ppc\sizethrd.obj \
+    $(_OBJ_DIR)\ppc\devqury.obj \
+    $(_OBJ_DIR)\ppc\mapsd.obj \
+    $(_OBJ_DIR)\ppc\drvupgrd.obj \
+    $(_OBJ_DIR)\ppc\portredn.obj
+
+PASS0_PPC_OBJECTS=
+

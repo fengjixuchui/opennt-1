@@ -1,0 +1,152 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\midl.res \
+    $(_OBJ_DIR)\alpha\nkeyw.obj \
+    $(_OBJ_DIR)\alpha\grammar.obj \
+    $(_OBJ_DIR)\alpha\acfgram.obj \
+    $(_OBJ_DIR)\alpha\semantic.obj \
+    $(_OBJ_DIR)\alpha\main.obj \
+    $(_OBJ_DIR)\alpha\cmdana.obj \
+    $(_OBJ_DIR)\alpha\filehndl.obj \
+    $(_OBJ_DIR)\alpha\errhndl.obj \
+    $(_OBJ_DIR)\alpha\listhndl.obj \
+    $(_OBJ_DIR)\alpha\lextable.obj \
+    $(_OBJ_DIR)\alpha\lex.obj \
+    $(_OBJ_DIR)\alpha\lexutils.obj \
+    $(_OBJ_DIR)\alpha\dict.obj \
+    $(_OBJ_DIR)\alpha\gramutil.obj \
+    $(_OBJ_DIR)\alpha\symtable.obj \
+    $(_OBJ_DIR)\alpha\erep.obj \
+    $(_OBJ_DIR)\alpha\idict.obj \
+    $(_OBJ_DIR)\alpha\ppcmd.obj \
+    $(_OBJ_DIR)\alpha\attrnode.obj \
+    $(_OBJ_DIR)\alpha\nodeskl.obj \
+    $(_OBJ_DIR)\alpha\acfattr.obj \
+    $(_OBJ_DIR)\alpha\miscnode.obj \
+    $(_OBJ_DIR)\alpha\compnode.obj \
+    $(_OBJ_DIR)\alpha\procnode.obj \
+    $(_OBJ_DIR)\alpha\pass1.obj \
+    $(_OBJ_DIR)\alpha\pass2.obj \
+    $(_OBJ_DIR)\alpha\pass3.obj \
+    $(_OBJ_DIR)\alpha\prttype.obj \
+    $(_OBJ_DIR)\alpha\fldattr.obj \
+    $(_OBJ_DIR)\alpha\walkctxt.obj \
+    $(_OBJ_DIR)\alpha\semutil.obj \
+    $(_OBJ_DIR)\alpha\linenum.obj \
+    $(_OBJ_DIR)\alpha\data.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\midl.res \
+    $(_OBJ_DIR)\mips\nkeyw.obj \
+    $(_OBJ_DIR)\mips\grammar.obj \
+    $(_OBJ_DIR)\mips\acfgram.obj \
+    $(_OBJ_DIR)\mips\semantic.obj \
+    $(_OBJ_DIR)\mips\main.obj \
+    $(_OBJ_DIR)\mips\cmdana.obj \
+    $(_OBJ_DIR)\mips\filehndl.obj \
+    $(_OBJ_DIR)\mips\errhndl.obj \
+    $(_OBJ_DIR)\mips\listhndl.obj \
+    $(_OBJ_DIR)\mips\lextable.obj \
+    $(_OBJ_DIR)\mips\lex.obj \
+    $(_OBJ_DIR)\mips\lexutils.obj \
+    $(_OBJ_DIR)\mips\dict.obj \
+    $(_OBJ_DIR)\mips\gramutil.obj \
+    $(_OBJ_DIR)\mips\symtable.obj \
+    $(_OBJ_DIR)\mips\erep.obj \
+    $(_OBJ_DIR)\mips\idict.obj \
+    $(_OBJ_DIR)\mips\ppcmd.obj \
+    $(_OBJ_DIR)\mips\attrnode.obj \
+    $(_OBJ_DIR)\mips\nodeskl.obj \
+    $(_OBJ_DIR)\mips\acfattr.obj \
+    $(_OBJ_DIR)\mips\miscnode.obj \
+    $(_OBJ_DIR)\mips\compnode.obj \
+    $(_OBJ_DIR)\mips\procnode.obj \
+    $(_OBJ_DIR)\mips\pass1.obj \
+    $(_OBJ_DIR)\mips\pass2.obj \
+    $(_OBJ_DIR)\mips\pass3.obj \
+    $(_OBJ_DIR)\mips\prttype.obj \
+    $(_OBJ_DIR)\mips\fldattr.obj \
+    $(_OBJ_DIR)\mips\walkctxt.obj \
+    $(_OBJ_DIR)\mips\semutil.obj \
+    $(_OBJ_DIR)\mips\linenum.obj \
+    $(_OBJ_DIR)\mips\data.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\midl.res \
+    $(_OBJ_DIR)\i386\nkeyw.obj \
+    $(_OBJ_DIR)\i386\grammar.obj \
+    $(_OBJ_DIR)\i386\acfgram.obj \
+    $(_OBJ_DIR)\i386\semantic.obj \
+    $(_OBJ_DIR)\i386\main.obj \
+    $(_OBJ_DIR)\i386\cmdana.obj \
+    $(_OBJ_DIR)\i386\filehndl.obj \
+    $(_OBJ_DIR)\i386\errhndl.obj \
+    $(_OBJ_DIR)\i386\listhndl.obj \
+    $(_OBJ_DIR)\i386\lextable.obj \
+    $(_OBJ_DIR)\i386\lex.obj \
+    $(_OBJ_DIR)\i386\lexutils.obj \
+    $(_OBJ_DIR)\i386\dict.obj \
+    $(_OBJ_DIR)\i386\gramutil.obj \
+    $(_OBJ_DIR)\i386\symtable.obj \
+    $(_OBJ_DIR)\i386\erep.obj \
+    $(_OBJ_DIR)\i386\idict.obj \
+    $(_OBJ_DIR)\i386\ppcmd.obj \
+    $(_OBJ_DIR)\i386\attrnode.obj \
+    $(_OBJ_DIR)\i386\nodeskl.obj \
+    $(_OBJ_DIR)\i386\acfattr.obj \
+    $(_OBJ_DIR)\i386\miscnode.obj \
+    $(_OBJ_DIR)\i386\compnode.obj \
+    $(_OBJ_DIR)\i386\procnode.obj \
+    $(_OBJ_DIR)\i386\pass1.obj \
+    $(_OBJ_DIR)\i386\pass2.obj \
+    $(_OBJ_DIR)\i386\pass3.obj \
+    $(_OBJ_DIR)\i386\prttype.obj \
+    $(_OBJ_DIR)\i386\fldattr.obj \
+    $(_OBJ_DIR)\i386\walkctxt.obj \
+    $(_OBJ_DIR)\i386\semutil.obj \
+    $(_OBJ_DIR)\i386\linenum.obj \
+    $(_OBJ_DIR)\i386\data.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\midl.res \
+    $(_OBJ_DIR)\ppc\nkeyw.obj \
+    $(_OBJ_DIR)\ppc\grammar.obj \
+    $(_OBJ_DIR)\ppc\acfgram.obj \
+    $(_OBJ_DIR)\ppc\semantic.obj \
+    $(_OBJ_DIR)\ppc\main.obj \
+    $(_OBJ_DIR)\ppc\cmdana.obj \
+    $(_OBJ_DIR)\ppc\filehndl.obj \
+    $(_OBJ_DIR)\ppc\errhndl.obj \
+    $(_OBJ_DIR)\ppc\listhndl.obj \
+    $(_OBJ_DIR)\ppc\lextable.obj \
+    $(_OBJ_DIR)\ppc\lex.obj \
+    $(_OBJ_DIR)\ppc\lexutils.obj \
+    $(_OBJ_DIR)\ppc\dict.obj \
+    $(_OBJ_DIR)\ppc\gramutil.obj \
+    $(_OBJ_DIR)\ppc\symtable.obj \
+    $(_OBJ_DIR)\ppc\erep.obj \
+    $(_OBJ_DIR)\ppc\idict.obj \
+    $(_OBJ_DIR)\ppc\ppcmd.obj \
+    $(_OBJ_DIR)\ppc\attrnode.obj \
+    $(_OBJ_DIR)\ppc\nodeskl.obj \
+    $(_OBJ_DIR)\ppc\acfattr.obj \
+    $(_OBJ_DIR)\ppc\miscnode.obj \
+    $(_OBJ_DIR)\ppc\compnode.obj \
+    $(_OBJ_DIR)\ppc\procnode.obj \
+    $(_OBJ_DIR)\ppc\pass1.obj \
+    $(_OBJ_DIR)\ppc\pass2.obj \
+    $(_OBJ_DIR)\ppc\pass3.obj \
+    $(_OBJ_DIR)\ppc\prttype.obj \
+    $(_OBJ_DIR)\ppc\fldattr.obj \
+    $(_OBJ_DIR)\ppc\walkctxt.obj \
+    $(_OBJ_DIR)\ppc\semutil.obj \
+    $(_OBJ_DIR)\ppc\linenum.obj \
+    $(_OBJ_DIR)\ppc\data.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\internat.res \
+    $(_OBJ_DIR)\alpha\internat.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\internat.res \
+    $(_OBJ_DIR)\mips\internat.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\internat.res \
+    $(_OBJ_DIR)\i386\internat.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\internat.res \
+    $(_OBJ_DIR)\ppc\internat.obj
+
+PASS0_PPC_OBJECTS=
+

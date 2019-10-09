@@ -1,0 +1,3 @@
+client\i386\psxthunk.asm(35) : warning A4004: cannot ASSUME CS
+programs\pax\libcpsx.lib(atox.obj) : warning LNK4006: _atoi already defined in ntdll.lib(ntdll.dll); second definition ignored
+programs\pax\obj\i386\pax.exe() : warning LNK4088: image being generated due to /FORCE option; image may not run

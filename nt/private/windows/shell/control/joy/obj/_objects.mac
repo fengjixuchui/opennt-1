@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\joy.res \
+    $(_OBJ_DIR)\alpha\main.obj \
+    $(_OBJ_DIR)\alpha\joycpl.obj \
+    $(_OBJ_DIR)\alpha\joytest.obj \
+    $(_OBJ_DIR)\alpha\joycal.obj \
+    $(_OBJ_DIR)\alpha\joymisc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\joy.res \
+    $(_OBJ_DIR)\mips\main.obj \
+    $(_OBJ_DIR)\mips\joycpl.obj \
+    $(_OBJ_DIR)\mips\joytest.obj \
+    $(_OBJ_DIR)\mips\joycal.obj \
+    $(_OBJ_DIR)\mips\joymisc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\joy.res \
+    $(_OBJ_DIR)\i386\main.obj \
+    $(_OBJ_DIR)\i386\joycpl.obj \
+    $(_OBJ_DIR)\i386\joytest.obj \
+    $(_OBJ_DIR)\i386\joycal.obj \
+    $(_OBJ_DIR)\i386\joymisc.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\joy.res \
+    $(_OBJ_DIR)\ppc\main.obj \
+    $(_OBJ_DIR)\ppc\joycpl.obj \
+    $(_OBJ_DIR)\ppc\joytest.obj \
+    $(_OBJ_DIR)\ppc\joycal.obj \
+    $(_OBJ_DIR)\ppc\joymisc.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,92 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\bitmap.obj \
+    $(_OBJ_DIR)\alpha\clipbrd.obj \
+    $(_OBJ_DIR)\alpha\cmdline.obj \
+    $(_OBJ_DIR)\alpha\cursor.obj \
+    $(_OBJ_DIR)\alpha\directio.obj \
+    $(_OBJ_DIR)\alpha\getset.obj \
+    $(_OBJ_DIR)\alpha\handle.obj \
+    $(_OBJ_DIR)\alpha\input.obj \
+    $(_OBJ_DIR)\alpha\link.obj \
+    $(_OBJ_DIR)\alpha\menu.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\output.obj \
+    $(_OBJ_DIR)\alpha\private.obj \
+    $(_OBJ_DIR)\alpha\resize.obj \
+    $(_OBJ_DIR)\alpha\share.obj \
+    $(_OBJ_DIR)\alpha\srvinit.obj \
+    $(_OBJ_DIR)\alpha\srvvdm.obj \
+    $(_OBJ_DIR)\alpha\stream.obj \
+    $(_OBJ_DIR)\alpha\thunk.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\bitmap.obj \
+    $(_OBJ_DIR)\mips\clipbrd.obj \
+    $(_OBJ_DIR)\mips\cmdline.obj \
+    $(_OBJ_DIR)\mips\cursor.obj \
+    $(_OBJ_DIR)\mips\directio.obj \
+    $(_OBJ_DIR)\mips\getset.obj \
+    $(_OBJ_DIR)\mips\handle.obj \
+    $(_OBJ_DIR)\mips\input.obj \
+    $(_OBJ_DIR)\mips\link.obj \
+    $(_OBJ_DIR)\mips\menu.obj \
+    $(_OBJ_DIR)\mips\misc.obj \
+    $(_OBJ_DIR)\mips\output.obj \
+    $(_OBJ_DIR)\mips\private.obj \
+    $(_OBJ_DIR)\mips\resize.obj \
+    $(_OBJ_DIR)\mips\share.obj \
+    $(_OBJ_DIR)\mips\srvinit.obj \
+    $(_OBJ_DIR)\mips\srvvdm.obj \
+    $(_OBJ_DIR)\mips\stream.obj \
+    $(_OBJ_DIR)\mips\thunk.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\thunk.obj \
+    $(_OBJ_DIR)\i386\bitmap.obj \
+    $(_OBJ_DIR)\i386\clipbrd.obj \
+    $(_OBJ_DIR)\i386\cmdline.obj \
+    $(_OBJ_DIR)\i386\cursor.obj \
+    $(_OBJ_DIR)\i386\directio.obj \
+    $(_OBJ_DIR)\i386\getset.obj \
+    $(_OBJ_DIR)\i386\handle.obj \
+    $(_OBJ_DIR)\i386\input.obj \
+    $(_OBJ_DIR)\i386\link.obj \
+    $(_OBJ_DIR)\i386\menu.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\output.obj \
+    $(_OBJ_DIR)\i386\private.obj \
+    $(_OBJ_DIR)\i386\resize.obj \
+    $(_OBJ_DIR)\i386\share.obj \
+    $(_OBJ_DIR)\i386\srvinit.obj \
+    $(_OBJ_DIR)\i386\srvvdm.obj \
+    $(_OBJ_DIR)\i386\stream.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\bitmap.obj \
+    $(_OBJ_DIR)\ppc\clipbrd.obj \
+    $(_OBJ_DIR)\ppc\cmdline.obj \
+    $(_OBJ_DIR)\ppc\cursor.obj \
+    $(_OBJ_DIR)\ppc\directio.obj \
+    $(_OBJ_DIR)\ppc\getset.obj \
+    $(_OBJ_DIR)\ppc\handle.obj \
+    $(_OBJ_DIR)\ppc\input.obj \
+    $(_OBJ_DIR)\ppc\link.obj \
+    $(_OBJ_DIR)\ppc\menu.obj \
+    $(_OBJ_DIR)\ppc\misc.obj \
+    $(_OBJ_DIR)\ppc\output.obj \
+    $(_OBJ_DIR)\ppc\private.obj \
+    $(_OBJ_DIR)\ppc\resize.obj \
+    $(_OBJ_DIR)\ppc\share.obj \
+    $(_OBJ_DIR)\ppc\srvinit.obj \
+    $(_OBJ_DIR)\ppc\srvvdm.obj \
+    $(_OBJ_DIR)\ppc\stream.obj \
+    $(_OBJ_DIR)\ppc\thunk.obj
+
+PASS0_PPC_OBJECTS=
+

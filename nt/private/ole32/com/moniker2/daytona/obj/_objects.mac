@@ -1,0 +1,68 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cantimon.obj \
+    $(_OBJ_DIR)\alpha\cbindctx.obj \
+    $(_OBJ_DIR)\alpha\ccompmon.obj \
+    $(_OBJ_DIR)\alpha\cfactory.obj \
+    $(_OBJ_DIR)\alpha\cfilemon.obj \
+    $(_OBJ_DIR)\alpha\classmon.obj \
+    $(_OBJ_DIR)\alpha\extents.obj \
+    $(_OBJ_DIR)\alpha\citemmon.obj \
+    $(_OBJ_DIR)\alpha\cmonimp.obj \
+    $(_OBJ_DIR)\alpha\cptrmon.obj \
+    $(_OBJ_DIR)\alpha\mkparse.obj \
+    $(_OBJ_DIR)\alpha\cbasemon.obj \
+    $(_OBJ_DIR)\alpha\cmarshal.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\cantimon.obj \
+    $(_OBJ_DIR)\mips\cbindctx.obj \
+    $(_OBJ_DIR)\mips\ccompmon.obj \
+    $(_OBJ_DIR)\mips\cfactory.obj \
+    $(_OBJ_DIR)\mips\cfilemon.obj \
+    $(_OBJ_DIR)\mips\classmon.obj \
+    $(_OBJ_DIR)\mips\extents.obj \
+    $(_OBJ_DIR)\mips\citemmon.obj \
+    $(_OBJ_DIR)\mips\cmonimp.obj \
+    $(_OBJ_DIR)\mips\cptrmon.obj \
+    $(_OBJ_DIR)\mips\mkparse.obj \
+    $(_OBJ_DIR)\mips\cbasemon.obj \
+    $(_OBJ_DIR)\mips\cmarshal.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cantimon.obj \
+    $(_OBJ_DIR)\i386\cbindctx.obj \
+    $(_OBJ_DIR)\i386\ccompmon.obj \
+    $(_OBJ_DIR)\i386\cfactory.obj \
+    $(_OBJ_DIR)\i386\cfilemon.obj \
+    $(_OBJ_DIR)\i386\classmon.obj \
+    $(_OBJ_DIR)\i386\extents.obj \
+    $(_OBJ_DIR)\i386\citemmon.obj \
+    $(_OBJ_DIR)\i386\cmonimp.obj \
+    $(_OBJ_DIR)\i386\cptrmon.obj \
+    $(_OBJ_DIR)\i386\mkparse.obj \
+    $(_OBJ_DIR)\i386\cbasemon.obj \
+    $(_OBJ_DIR)\i386\cmarshal.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\cantimon.obj \
+    $(_OBJ_DIR)\ppc\cbindctx.obj \
+    $(_OBJ_DIR)\ppc\ccompmon.obj \
+    $(_OBJ_DIR)\ppc\cfactory.obj \
+    $(_OBJ_DIR)\ppc\cfilemon.obj \
+    $(_OBJ_DIR)\ppc\classmon.obj \
+    $(_OBJ_DIR)\ppc\extents.obj \
+    $(_OBJ_DIR)\ppc\citemmon.obj \
+    $(_OBJ_DIR)\ppc\cmonimp.obj \
+    $(_OBJ_DIR)\ppc\cptrmon.obj \
+    $(_OBJ_DIR)\ppc\mkparse.obj \
+    $(_OBJ_DIR)\ppc\cbasemon.obj \
+    $(_OBJ_DIR)\ppc\cmarshal.obj
+
+PASS0_PPC_OBJECTS=
+

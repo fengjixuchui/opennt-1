@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\plotgpc.res \
+    $(_OBJ_DIR)\alpha\plotgpc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\plotgpc.res \
+    $(_OBJ_DIR)\mips\plotgpc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\plotgpc.res \
+    $(_OBJ_DIR)\i386\plotgpc.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\plotgpc.res \
+    $(_OBJ_DIR)\ppc\plotgpc.obj
+
+PASS0_PPC_OBJECTS=
+

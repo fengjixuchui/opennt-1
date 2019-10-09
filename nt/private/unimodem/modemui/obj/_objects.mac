@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\modemui.res \
+    $(_OBJ_DIR)\alpha\modemui.obj \
+    $(_OBJ_DIR)\alpha\dll.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\cstrings.obj \
+    $(_OBJ_DIR)\alpha\gen.obj \
+    $(_OBJ_DIR)\alpha\sett.obj \
+    $(_OBJ_DIR)\alpha\advsett.obj \
+    $(_OBJ_DIR)\alpha\ring.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\modemui.res \
+    $(_OBJ_DIR)\mips\modemui.obj \
+    $(_OBJ_DIR)\mips\dll.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\cstrings.obj \
+    $(_OBJ_DIR)\mips\gen.obj \
+    $(_OBJ_DIR)\mips\sett.obj \
+    $(_OBJ_DIR)\mips\advsett.obj \
+    $(_OBJ_DIR)\mips\ring.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\modemui.res \
+    $(_OBJ_DIR)\i386\modemui.obj \
+    $(_OBJ_DIR)\i386\dll.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\cstrings.obj \
+    $(_OBJ_DIR)\i386\gen.obj \
+    $(_OBJ_DIR)\i386\sett.obj \
+    $(_OBJ_DIR)\i386\advsett.obj \
+    $(_OBJ_DIR)\i386\ring.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\modemui.res \
+    $(_OBJ_DIR)\ppc\modemui.obj \
+    $(_OBJ_DIR)\ppc\dll.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\cstrings.obj \
+    $(_OBJ_DIR)\ppc\gen.obj \
+    $(_OBJ_DIR)\ppc\sett.obj \
+    $(_OBJ_DIR)\ppc\advsett.obj \
+    $(_OBJ_DIR)\ppc\ring.obj
+
+PASS0_PPC_OBJECTS=
+

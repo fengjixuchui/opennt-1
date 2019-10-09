@@ -1,0 +1,983 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining w:\nt\private\rpc directory tree for files to compile.
+BUILD: w:\nt\private\rpc\ndrlib\scontext.cxx: w:\nt\private\rpc\runtime\mtrt\sysinc.h: cannot find include file <msvcmac.h>
+BUILD: w:\nt\private\rpc\ndrlib\scontext.cxx: w:\nt\private\rpc\runtime\mtrt\sysinc.h: cannot find include file <types.h>
+BUILD: w:\nt\private\rpc\ndrlib\scontext.cxx: w:\nt\private\rpc\runtime\mtrt\sysinc.h: cannot find include file <gestaltequ.h>
+BUILD: w:\nt\private\rpc\ndrlib\scontext.cxx: w:\nt\private\rpc\runtime\mtrt\sysinc.h: cannot find include file <processes.h>
+BUILD: w:\nt\private\rpc\ndrlib\scontext.cxx: w:\nt\private\rpc\runtime\mtrt\sysinc.h: cannot find include file <events.h>
+BUILD: w:\nt\private\rpc\ndrlib\scontext.cxx: w:\nt\private\rpc\runtime\mtrt\sysinc.h: cannot find include file <lowmem.h>
+BUILD: w:\nt\private\rpc\ndr20\auxilary.c: cannot find include file <errors.h>
+BUILD: w:\nt\private\rpc\ndr20\auxilary.c: cannot find include file <codefrag.h>
+BUILD: w:\nt\private\rpc\ndr20\typeinfo.cxx: cannot find include file <critsec.hxx>
+Building generated files in w:\nt\private\rpc\runtime\rtifs ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+Building generated files in w:\nt\private\rpc\midlnew ********************
+'nmake.exe /c BUILDMSG=Stop. -i -f makefil0. NOLINK=1 386=1'
+NTPROFILEINPUT s/b removed in: w:\nt\private\rpc\runtime\rtifs.
+
+Stop. 
+Building generated files in w:\nt\private\rpc\midl20 ********************
+'nmake.exe /c BUILDMSG=Stop. -i -f makefil0. NOLINK=1 386=1'
+
+Stop. 
+
+Stop. 
+Building generated files in w:\nt\private\rpc\wx86rpc\rtdll ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+Building generated files in w:\nt\private\rpc\locator ********************
+'nmake.exe /c BUILDMSG=Stop. -i -f makefil0. NOLINK=1 386=1'
+
+Stop. 
+Building generated files in w:\nt\private\rpc\locator\newservr ********************
+'nmake.exe /c BUILDMSG=Stop. -i -f makefil0. NOLINK=1 386=1'
+
+Stop. 
+
+Stop. 
+BUILD: Examining w:\nt\private\rpc directory tree for files to compile. (2nd Pass)
+BUILD: w:\nt\private\rpc\runtime\mtrt\handle.cxx: cannot find include file "dosdll.h"
+BUILD: w:\nt\private\rpc\runtime\mtrt\hndlsvr.cxx: cannot find include file <critsec.hxx>
+BUILD: w:\nt\private\rpc\runtime\mtrt\hndlsvr.cxx: cannot find include file <wmsgheap.hxx>
+BUILD: w:\nt\private\rpc\runtime\mtrt\hndlsvr.cxx: cannot find include file <wmsgport.hxx>
+BUILD: w:\nt\private\rpc\runtime\mtrt\hndlsvr.cxx: cannot find include file <wmsgthrd.hxx>
+BUILD: w:\nt\private\rpc\runtime\mtrt\hndlsvr.cxx: cannot find include file <wmsgproc.hxx>
+BUILD: w:\nt\private\rpc\runtime\mtrt\hndlsvr.cxx: cannot find include file <wmsgsys.hxx>
+BUILD: w:\nt\private\rpc\runtime\trans\win32\clntnb\nbltclnt.c: w:\nt\private\rpc\runtime\mtrt\os2.12\netbcom.h: cannot find include file <netcons.h>
+BUILD: w:\nt\private\rpc\runtime\trans\win32\clntnb\nbltclnt.c: w:\nt\private\rpc\runtime\mtrt\os2.12\netbcom.h: cannot find include file <ncb.h>
+BUILD: w:\nt\private\rpc\runtime\trans\win32\clntnb\nbltclnt.c: w:\nt\private\rpc\runtime\mtrt\os2.12\netbcom.h: cannot find include file <netbios.h>
+BUILD: w:\nt\private\rpc\runtime\trans\win32\clntnb\nbltclnt.c: w:\nt\private\rpc\runtime\mtrt\os2.12\netbcom.h: cannot find include file <wksta.h>
+BUILD: w:\nt\private\rpc\runtime\trans\win32\clntnb\nbltclnt.c: w:\nt\private\rpc\runtime\mtrt\os2.12\netbcom.h: cannot find include file <regapi.h>
+BUILD: w:\nt\private\rpc\runtime\trans\win32\clntcomn\rpcltccm.rc: cannot find include file <version.h>
+BUILD: w:\nt\private\rpc\runtime\trans\win32\svrcomn\rpcltscm.rc: cannot find include file <version.h>
+BUILD: w:\nt\private\rpc\locator\client\cbind.cxx: cannot find include file <netcons.h>
+BUILD: w:\nt\private\rpc\locator\client\cbind.cxx: cannot find include file <neterr.h>
+BUILD: w:\nt\private\rpc\locator\client\cbind.cxx: cannot find include file <server.h>
+BUILD: w:\nt\private\rpc\locator\client\cbind.cxx: cannot find include file <access.h>
+BUILD: w:\nt\private\rpc\locator\client\cbind.cxx: cannot find include file <regapi.h>
+BUILD: w:\nt\private\rpc\locator\client\cbind.cxx: cannot find include file <mailslot.h>
+BUILD: w:\nt\private\rpc\locator\client\cbind.cxx: cannot find include file <wksta.h>
+Linking w:\nt\private\rpc directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Linking w:\nt\private\rpc\ndrlib directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Linking w:\nt\private\rpc\ndrmem directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Linking w:\nt\private\rpc\runtime directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Linking w:\nt\private\rpc\runtime\rtdll directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	echo Stop.
+	echo Stop.
+Stop.
+Linking w:\nt\private\rpc\runtime\trans directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Stop.
+NTPROFILEINPUT s/b removed in: w:\nt\private\rpc\ndrmem.
+Linking w:\nt\private\rpc\runtime\trans\win32 directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	echo Stop.
+Stop.
+Linking w:\nt\private\rpc\runtime\trans\win32\clntnp directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+
+Stop. 
+	link -out:W:\nt\public\sdk\lib\i386\rpcrt4.dll -machine:i386 @W:\tmp\nma02116.
+Linking w:\nt\private\rpc\runtime\trans\win32\svrnp directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	echo Stop.
+Stop.
+Linking w:\nt\private\rpc\runtime\trans\win32\clntnb directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-order:@rpcrt4.prf 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,rpcrt4 
+-subsystem:native,4.00 
+-entry:InitializeDLL@12 
+W:\nt\public\sdk\lib\i386\rpcrt4.exp 
+obj\i386\rpcrt4.res 
+i386\rpcmtrt.lib 
+W:\nt\public\sdk\lib\i386\rpcndrp.lib 
+W:\nt\public\sdk\lib\i386\rpcndr.lib 
+W:\nt\private\rpc\runtime\rtifs\i386\rtifs.lib 
+W:\nt\public\sdk\lib\i386\rpcndr20.lib 
+W:\nt\public\sdk\lib\i386\int64.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+	link -out:W:\nt\public\sdk\lib\i386\rpcltc1.dll -machine:i386 @W:\tmp\nma03584.
+
+Stop. 
+Linking w:\nt\private\rpc\runtime\trans\win32\clntcomn directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	link -out:\nt\public\sdk\lib\i386\rpclts1.dll -machine:i386 @W:\tmp\nma00376.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-order:@rpcltc1.prf 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,rpcltc1 
+-subsystem:console,4.00 
+-noentry 
+W:\nt\public\sdk\lib\i386\rpcltc1.exp 
+obj\i386\rpcltc1.res 
+obj\i386\ltnpclnt.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-order:@rpclts1.prf 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,rpclts1 
+-subsystem:console,4.00 
+-noentry 
+\nt\public\sdk\lib\i386\rpclts1.exp 
+obj\i386\rpclts1.res 
+obj\i386\ltnpsvr.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\rpcltc1.dll
+	link -out:\nt\public\sdk\lib\i386\rpcltc5.dll -machine:i386 @W:\tmp\nma02740.
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a \nt\public\sdk\lib\i386\rpclts1.dll
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,rpcltc5 
+-subsystem:console,4.00 
+-noentry 
+\nt\public\sdk\lib\i386\rpcltc5.exp 
+obj\i386\rpcltc5.res 
+obj\i386\nbltclnt.obj 
+obj\i386\netbcom.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\netapi32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a \nt\public\sdk\lib\i386\rpcltc5.dll
+
+Stop. 
+
+Stop. 
+Linking w:\nt\private\rpc\runtime\trans\win32\svrcomn directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Linking w:\nt\private\rpc\runtime\trans\win32\clntvns directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+
+Stop. 
+LINK : warning LNK4013: image size 0x8f000 exceeds specified maximum 0x80000
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\rpcrt4.dll
+Linking w:\nt\private\rpc\runtime\trans\win32\svrvns directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	link -out:W:\nt\public\sdk\lib\i386\rpcltscm.dll -machine:i386 @W:\tmp\nma00480.
+	link -out:W:\nt\public\sdk\lib\i386\rpcltccm.dll -machine:i386 @W:\tmp\nma01940.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-order:@rpcltscm.prf 
+-optidata 
+-base:0x76d00000 
+-subsystem:console,4.00 
+-noentry 
+W:\nt\public\sdk\lib\i386\rpcltscm.exp 
+obj\i386\rpcltscm.res 
+obj\i386\lttcpsvr.obj 
+obj\i386\atname.obj 
+obj\i386\svrat.obj 
+obj\i386\winsock.obj 
+obj\i386\ipxsock.obj 
+obj\i386\nbltsvr.obj 
+obj\i386\common.obj 
+obj\i386\ltspxsvr.obj 
+W:\nt\public\sdk\lib\i386\int64.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\wsock32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+	link -out:\nt\public\sdk\lib\i386\rpcltc8.dll -machine:i386 @W:\tmp\nma02500.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-order:@rpcltccm.prf 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,rpcltccm 
+-subsystem:console,4.00 
+-noentry 
+W:\nt\public\sdk\lib\i386\rpcltccm.exp 
+obj\i386\rpcltccm.res 
+obj\i386\gethost.obj 
+obj\i386\nbltclnt.obj 
+obj\i386\cmltclnt.obj 
+obj\i386\clntat.obj 
+obj\i386\spxclnt.obj 
+obj\i386\atname.obj 
+obj\i386\dgudpc.obj 
+obj\i386\dgipxc.obj 
+obj\i386\common.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\wsock32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,rpcltc8 
+-subsystem:console,4.00 
+-noentry 
+\nt\public\sdk\lib\i386\rpcltc8.exp 
+obj\i386\rpcltc8.res 
+obj\i386\clntvns.obj 
+obj\i386\stname.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\wsock32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a \nt\public\sdk\lib\i386\rpcltc8.dll
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\rpcltscm.dll
+
+Stop. 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\rpcltccm.dll
+Linking w:\nt\private\rpc\runtime\dce directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+
+Stop. 
+Linking w:\nt\private\rpc\midlnew directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+
+Stop. 
+Linking w:\nt\private\rpc\midlnew\yacc directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+
+Stop. 
+	link -out:\nt\public\sdk\lib\i386\rpclts8.dll -machine:i386 @W:\tmp\nma02044.
+Linking w:\nt\private\rpc\midlnew\pg directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	echo Stop.
+Stop.
+Linking w:\nt\private\rpc\midlnew\erec directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	link -out:\nt\public\sdk\lib\i386\rpcdce4.dll -machine:i386 @W:\tmp\nma02936.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,rpclts8 
+-subsystem:console,4.00 
+-noentry 
+\nt\public\sdk\lib\i386\rpclts8.exp 
+obj\i386\rpclts8.res 
+obj\i386\svrvns.obj 
+obj\i386\stname.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\wsock32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,rpcdce4 
+-subsystem:console,4.00 
+-noentry 
+\nt\public\sdk\lib\i386\rpcdce4.exp 
+obj\i386\rpcdce4.res 
+obj\i386\comments.obj 
+W:\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a \nt\public\sdk\lib\i386\rpcdce4.dll
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a \nt\public\sdk\lib\i386\rpclts8.dll
+	link -out:obj\i386\midlpg.exe -machine:i386 @W:\tmp\nma02236.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:console,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:mainCRTStartup 
+-optidata 
+obj\i386\midlpg.res 
+obj\i386\gram.obj 
+obj\i386\lexyy.obj 
+obj\i386\main.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+
+Stop. 
+
+Stop. 
+Linking w:\nt\private\rpc\midl20 directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Linking w:\nt\private\rpc\midl20\front directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	echo Stop.
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\midlpg.exe
+Stop.
+Linking w:\nt\private\rpc\uuidgen directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	link -out:obj\i386\midleb.exe -machine:i386 @W:\tmp\nma00264.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:console,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:mainCRTStartup 
+-optidata 
+obj\i386\midleb.res 
+obj\i386\ebase.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+
+Stop. 
+Linking w:\nt\private\rpc\wx86rpc\rtdll directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\midleb.exe
+	link -out:obj\i386\midlyacc.exe -machine:i386 @W:\tmp\nma02596.
+	link -out:.\i386\uuidgen.exe -machine:i386 @W:\tmp\nma00444.
+
+Stop. 
+Linking w:\nt\private\rpc\wx86rpc\ndrdll directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:console,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:mainCRTStartup 
+-optidata 
+obj\i386\uuidgen.res 
+obj\i386\uuidgen.obj 
+obj\i386\uuidfmt.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:console,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:mainCRTStartup 
+-optidata 
+obj\i386\midlyacc.res 
+obj\i386\y1imp.obj 
+obj\i386\yaryfl.obj 
+obj\i386\ycpfir.obj 
+obj\i386\yacc.obj 
+obj\i386\ysmnam.obj 
+obj\i386\ysumry.obj 
+obj\i386\ycpuni.obj 
+obj\i386\ydfout.obj 
+obj\i386\ysetup.obj 
+obj\i386\yg2out.obj 
+obj\i386\ywarry.obj 
+obj\i386\yclopt.obj 
+obj\i386\yosmry.obj 
+obj\i386\y2imp.obj 
+obj\i386\ycemty.obj 
+obj\i386\ycpres.obj 
+obj\i386\yothrs.obj 
+obj\i386\ystagn.obj 
+obj\i386\ywritm.obj 
+obj\i386\ycpycd.obj 
+obj\i386\yfdtyp.obj 
+obj\i386\yskpcm.obj 
+obj\i386\yhdprd.obj 
+obj\i386\ywract.obj 
+obj\i386\ygin.obj 
+obj\i386\ystin.obj 
+obj\i386\y3imp.obj 
+obj\i386\ychcpy.obj 
+obj\i386\yerror.obj 
+obj\i386\yprlok.obj 
+obj\i386\ystate.obj 
+obj\i386\ychfnd.obj 
+obj\i386\ycstsh.obj 
+obj\i386\yfnact.obj 
+obj\i386\yapack.obj 
+obj\i386\youtpt.obj 
+obj\i386\ywstat.obj 
+obj\i386\ygtnm.obj 
+obj\i386\yarout.obj 
+obj\i386\y4imp.obj 
+obj\i386\yclsur.obj 
+obj\i386\yflset.obj 
+obj\i386\yptitm.obj 
+obj\i386\ystuni.obj 
+obj\i386\ycpact.obj 
+obj\i386\ydefin.obj 
+obj\i386\ygttok.obj 
+obj\i386\yg2gen.obj 
+obj\i386\yprcft.obj 
+obj\i386\yaoput.obj 
+obj\i386\ynxti.obj 
+obj\i386\util.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a .\i386\uuidgen.exe
+	link -out:W:\nt\public\sdk\lib\i386\wxrtdll.dll -machine:i386 @W:\tmp\nma04080.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:0x20000000 
+-subsystem:native,4.00 
+-entry:InitializeDLL@12 
+W:\nt\public\sdk\lib\i386\wxrtdll.exp 
+obj\i386\wxrtdll.res 
+..\..\runtime\rtdll\i386\rpcmtrt.lib 
+W:\nt\public\sdk\lib\i386\rpcndrp.lib 
+W:\nt\public\sdk\lib\i386\rpcndr.lib 
+W:\nt\private\rpc\runtime\rtifs\i386\rtifs.lib 
+W:\nt\public\sdk\lib\i386\rpcndr20.lib 
+W:\nt\public\sdk\lib\i386\int64.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+
+Stop. 
+Linking w:\nt\private\rpc\locator directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+CVPACK : warning CK4002: duplicate public symbol  in module obj\i386\ysetup.obj
+CVPACK : warning CK4002: duplicate public symbol  in module obj\i386\ysetup.obj
+CVPACK : warning CK4002: duplicate public symbol  in module obj\i386\ysetup.obj
+CVPACK : warning CK4002: duplicate public symbol  in module obj\i386\ysetup.obj
+CVPACK : warning CK4002: duplicate public symbol  in module obj\i386\ysetup.obj
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\midlyacc.exe
+	link -out:W:\nt\public\sdk\lib\i386\wxndrdll.dll -machine:i386 @W:\tmp\nma03328.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:0x20000000 
+-subsystem:native,4.00 
+-noentry 
+W:\nt\public\sdk\lib\i386\wxndrdll.exp 
+obj\i386\wxndrdll.res 
+obj\i386\chkheap.obj 
+W:\nt\public\sdk\lib\i386\wxndr20.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\wxrtdll.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+
+Stop. 
+Linking w:\nt\private\rpc\locator\client directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	echo Stop.
+Stop.
+Linking w:\nt\private\rpc\locator\newservr\server directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	link -out:..\lib\i386\midl.exe -machine:i386 @W:\tmp\nma02056.
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\wxrtdll.dll
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\wxndrdll.dll
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:console,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:mainCRTStartup 
+-optidata 
+obj\i386\midl.res 
+obj\i386\nkeyw.obj 
+obj\i386\grammar.obj 
+obj\i386\acfgram.obj 
+obj\i386\semantic.obj 
+obj\i386\main.obj 
+obj\i386\cmdana.obj 
+obj\i386\filehndl.obj 
+obj\i386\errhndl.obj 
+obj\i386\listhndl.obj 
+obj\i386\lextable.obj 
+obj\i386\lex.obj 
+obj\i386\lexutils.obj 
+obj\i386\dict.obj 
+obj\i386\gramutil.obj 
+obj\i386\symtable.obj 
+obj\i386\erep.obj 
+obj\i386\idict.obj 
+obj\i386\ppcmd.obj 
+obj\i386\attrnode.obj 
+obj\i386\nodeskl.obj 
+obj\i386\acfattr.obj 
+obj\i386\miscnode.obj 
+obj\i386\compnode.obj 
+obj\i386\procnode.obj 
+obj\i386\pass1.obj 
+obj\i386\pass2.obj 
+obj\i386\pass3.obj 
+obj\i386\prttype.obj 
+obj\i386\fldattr.obj 
+obj\i386\walkctxt.obj 
+obj\i386\semutil.obj 
+obj\i386\linenum.obj 
+obj\i386\data.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+..\lib\i386\typelib.lib 
+..\lib\i386\codegen.lib 
+..\lib\i386\analysis.lib 
+..\lib\i386\exprlib.lib 
+..\lib\i386\support.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+
+Stop. 
+Linking w:\nt\private\rpc\locator\newservr\data directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+
+Stop. 
+Linking w:\nt\private\rpc\ndrdbg directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	link -out:\nt\public\sdk\lib\i386\RpcNs4.dll -machine:i386 @W:\tmp\nma01992.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:0x10000000 
+-subsystem:console,4.00 
+-entry:InitializeDLL@12 
+\nt\public\sdk\lib\i386\RpcNs4.exp 
+obj\i386\rpcns4.res 
+obj\i386\nsisvr_c.obj 
+obj\i386\nsiclt_c.obj 
+obj\i386\nsimgm_c.obj 
+obj\i386\mem.obj 
+obj\i386\startsvc.obj 
+obj\i386\nsisvr.obj 
+obj\i386\nsiclnt.obj 
+obj\i386\nsimgmt.obj 
+obj\i386\cbind.obj 
+obj\i386\sbind.obj 
+obj\i386\util.obj 
+obj\i386\autohand.obj 
+obj\i386\ntutil.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+\nt\public\sdk\lib\i386\Rpcrt4.lib 
+\nt\public\sdk\lib\i386\RpcNdr.lib 
+W:\nt\public\sdk\lib\i386\netapi32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a \nt\public\sdk\lib\i386\RpcNs4.dll
+
+Stop. 
+
+Stop. 
+	link -out:..\..\lib\i386\locator.exe -machine:i386 @W:\tmp\nma00720.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-map 
+-subsystem:console,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:mainCRTStartup 
+-optidata 
+obj\i386\locator.res 
+obj\i386\nsiclt_s.obj 
+obj\i386\nsisvr_s.obj 
+obj\i386\nsimgm_s.obj 
+obj\i386\locloc_c.obj 
+obj\i386\locloc_s.obj 
+obj\i386\locator.obj 
+obj\i386\api.obj 
+obj\i386\debug.obj 
+obj\i386\mailslot.obj 
+obj\i386\brodcast.obj 
+obj\i386\objects.obj 
+obj\i386\master.obj 
+obj\i386\utils.obj 
+obj\i386\stubs.obj 
+obj\i386\switch.obj 
+obj\i386\lsa.obj 
+obj\i386\respond.obj 
+W:\nt\public\sdk\lib\i386\libcmt.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\Rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\RpcNdr.lib 
+W:\nt\public\sdk\lib\i386\netapi32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+..\data\i386\data.lib 
+	link -out:\nt\public\sdk\lib\i386\ndrd.dll -machine:i386 @W:\tmp\nma03536.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,ndrd 
+-subsystem:console,4.00 
+-noentry 
+\nt\public\sdk\lib\i386\ndrd.exp 
+obj\i386\ndrd.res 
+obj\i386\ndrdbg.obj 
+obj\i386\bufout.obj 
+obj\i386\pointer.obj 
+obj\i386\string.obj 
+obj\i386\struct.obj 
+obj\i386\array.obj 
+obj\i386\union.obj 
+obj\i386\misc.obj 
+obj\i386\pdict.obj 
+obj\i386\dict.obj 
+obj\i386\regkeys.obj 
+obj\i386\print.obj 
+obj\i386\xmit.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+\nt\public\sdk\lib\i386\kernel32.lib 
+\nt\public\sdk\lib\i386\advapi32.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a \nt\public\sdk\lib\i386\ndrd.dll
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a ..\..\lib\i386\locator.exe
+
+Stop. 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a ..\lib\i386\midl.exe
+
+Stop. 
+
+Stop. 

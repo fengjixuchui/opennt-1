@@ -1,0 +1,100 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ole2ui.res \
+    $(_OBJ_DIR)\alpha\chngsrc.obj \
+    $(_OBJ_DIR)\alpha\objprop.obj \
+    $(_OBJ_DIR)\alpha\busy.obj \
+    $(_OBJ_DIR)\alpha\common.obj \
+    $(_OBJ_DIR)\alpha\convert.obj \
+    $(_OBJ_DIR)\alpha\drawicon.obj \
+    $(_OBJ_DIR)\alpha\icon.obj \
+    $(_OBJ_DIR)\alpha\iconbox.obj \
+    $(_OBJ_DIR)\alpha\insobj.obj \
+    $(_OBJ_DIR)\alpha\links.obj \
+    $(_OBJ_DIR)\alpha\ole2ui.obj \
+    $(_OBJ_DIR)\alpha\olestd.obj \
+    $(_OBJ_DIR)\alpha\pastespl.obj \
+    $(_OBJ_DIR)\alpha\targtdev.obj \
+    $(_OBJ_DIR)\alpha\oleutl.obj \
+    $(_OBJ_DIR)\alpha\resimage.obj \
+    $(_OBJ_DIR)\alpha\utility.obj \
+    $(_OBJ_DIR)\alpha\dllfuncs.obj \
+    $(_OBJ_DIR)\alpha\geticon.obj \
+    $(_OBJ_DIR)\alpha\wrapstub.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ole2ui.res \
+    $(_OBJ_DIR)\mips\chngsrc.obj \
+    $(_OBJ_DIR)\mips\objprop.obj \
+    $(_OBJ_DIR)\mips\busy.obj \
+    $(_OBJ_DIR)\mips\common.obj \
+    $(_OBJ_DIR)\mips\convert.obj \
+    $(_OBJ_DIR)\mips\drawicon.obj \
+    $(_OBJ_DIR)\mips\icon.obj \
+    $(_OBJ_DIR)\mips\iconbox.obj \
+    $(_OBJ_DIR)\mips\insobj.obj \
+    $(_OBJ_DIR)\mips\links.obj \
+    $(_OBJ_DIR)\mips\ole2ui.obj \
+    $(_OBJ_DIR)\mips\olestd.obj \
+    $(_OBJ_DIR)\mips\pastespl.obj \
+    $(_OBJ_DIR)\mips\targtdev.obj \
+    $(_OBJ_DIR)\mips\oleutl.obj \
+    $(_OBJ_DIR)\mips\resimage.obj \
+    $(_OBJ_DIR)\mips\utility.obj \
+    $(_OBJ_DIR)\mips\dllfuncs.obj \
+    $(_OBJ_DIR)\mips\geticon.obj \
+    $(_OBJ_DIR)\mips\wrapstub.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ole2ui.res \
+    $(_OBJ_DIR)\i386\chngsrc.obj \
+    $(_OBJ_DIR)\i386\objprop.obj \
+    $(_OBJ_DIR)\i386\busy.obj \
+    $(_OBJ_DIR)\i386\common.obj \
+    $(_OBJ_DIR)\i386\convert.obj \
+    $(_OBJ_DIR)\i386\drawicon.obj \
+    $(_OBJ_DIR)\i386\icon.obj \
+    $(_OBJ_DIR)\i386\iconbox.obj \
+    $(_OBJ_DIR)\i386\insobj.obj \
+    $(_OBJ_DIR)\i386\links.obj \
+    $(_OBJ_DIR)\i386\ole2ui.obj \
+    $(_OBJ_DIR)\i386\olestd.obj \
+    $(_OBJ_DIR)\i386\pastespl.obj \
+    $(_OBJ_DIR)\i386\targtdev.obj \
+    $(_OBJ_DIR)\i386\oleutl.obj \
+    $(_OBJ_DIR)\i386\resimage.obj \
+    $(_OBJ_DIR)\i386\utility.obj \
+    $(_OBJ_DIR)\i386\dllfuncs.obj \
+    $(_OBJ_DIR)\i386\geticon.obj \
+    $(_OBJ_DIR)\i386\wrapstub.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ole2ui.res \
+    $(_OBJ_DIR)\ppc\chngsrc.obj \
+    $(_OBJ_DIR)\ppc\objprop.obj \
+    $(_OBJ_DIR)\ppc\busy.obj \
+    $(_OBJ_DIR)\ppc\common.obj \
+    $(_OBJ_DIR)\ppc\convert.obj \
+    $(_OBJ_DIR)\ppc\drawicon.obj \
+    $(_OBJ_DIR)\ppc\icon.obj \
+    $(_OBJ_DIR)\ppc\iconbox.obj \
+    $(_OBJ_DIR)\ppc\insobj.obj \
+    $(_OBJ_DIR)\ppc\links.obj \
+    $(_OBJ_DIR)\ppc\ole2ui.obj \
+    $(_OBJ_DIR)\ppc\olestd.obj \
+    $(_OBJ_DIR)\ppc\pastespl.obj \
+    $(_OBJ_DIR)\ppc\targtdev.obj \
+    $(_OBJ_DIR)\ppc\oleutl.obj \
+    $(_OBJ_DIR)\ppc\resimage.obj \
+    $(_OBJ_DIR)\ppc\utility.obj \
+    $(_OBJ_DIR)\ppc\dllfuncs.obj \
+    $(_OBJ_DIR)\ppc\geticon.obj \
+    $(_OBJ_DIR)\ppc\wrapstub.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,59 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\allstart.obj \
+    $(_OBJ_DIR)\mips\jxbeep.obj \
+    $(_OBJ_DIR)\mips\jxenvirv.obj \
+    $(_OBJ_DIR)\mips\j4flshio.obj \
+    $(_OBJ_DIR)\mips\jxdisp.obj \
+    $(_OBJ_DIR)\mips\jxebsup.obj \
+    $(_OBJ_DIR)\mips\r98hwsup.obj \
+    $(_OBJ_DIR)\mips\jxmapio.obj \
+    $(_OBJ_DIR)\mips\jxmaptb.obj \
+    $(_OBJ_DIR)\mips\jxport.obj \
+    $(_OBJ_DIR)\mips\j4prof.obj \
+    $(_OBJ_DIR)\mips\jxreturn.obj \
+    $(_OBJ_DIR)\mips\jxsysint.obj \
+    $(_OBJ_DIR)\mips\jxtime.obj \
+    $(_OBJ_DIR)\mips\x86bios.obj \
+    $(_OBJ_DIR)\mips\xxcalstl.obj \
+    $(_OBJ_DIR)\mips\xxclock.obj \
+    $(_OBJ_DIR)\mips\xxinitnt.obj \
+    $(_OBJ_DIR)\mips\xxinithl.obj \
+    $(_OBJ_DIR)\mips\r98info.obj \
+    $(_OBJ_DIR)\mips\r98pci.obj \
+    $(_OBJ_DIR)\mips\r98eif.obj \
+    $(_OBJ_DIR)\mips\r98dspt.obj \
+    $(_OBJ_DIR)\mips\r98led.obj \
+    $(_OBJ_DIR)\mips\r98busdt.obj \
+    $(_OBJ_DIR)\mips\r98pcint.obj \
+    $(_OBJ_DIR)\mips\r98pcibs.obj \
+    $(_OBJ_DIR)\mips\pcibrd.obj \
+    $(_OBJ_DIR)\mips\xxmemory.obj \
+    $(_OBJ_DIR)\mips\jxusage.obj \
+    $(_OBJ_DIR)\mips\mipsdat.obj \
+    $(_OBJ_DIR)\mips\r98esm.obj \
+    $(_OBJ_DIR)\mips\cacherr.obj \
+    $(_OBJ_DIR)\mips\j4flshbf.obj \
+    $(_OBJ_DIR)\mips\j4cache.obj \
+    $(_OBJ_DIR)\mips\r98clock.obj \
+    $(_OBJ_DIR)\mips\xxidle.obj \
+    $(_OBJ_DIR)\mips\r98ipint.obj \
+    $(_OBJ_DIR)\mips\r98int.obj \
+    $(_OBJ_DIR)\mips\hal.res \
+    $(_OBJ_DIR)\mips\drivesup.obj \
+    $(_OBJ_DIR)\mips\bushnd.obj \
+    $(_OBJ_DIR)\mips\rangesup.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

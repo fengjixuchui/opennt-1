@@ -1,0 +1,68 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\obinit.obj \
+    $(_OBJ_DIR)\alpha\obcreate.obj \
+    $(_OBJ_DIR)\alpha\obhandle.obj \
+    $(_OBJ_DIR)\alpha\obinsert.obj \
+    $(_OBJ_DIR)\alpha\obref.obj \
+    $(_OBJ_DIR)\alpha\obse.obj \
+    $(_OBJ_DIR)\alpha\obtype.obj \
+    $(_OBJ_DIR)\alpha\obdir.obj \
+    $(_OBJ_DIR)\alpha\oblink.obj \
+    $(_OBJ_DIR)\alpha\obclose.obj \
+    $(_OBJ_DIR)\alpha\obquery.obj \
+    $(_OBJ_DIR)\alpha\obsdata.obj \
+    $(_OBJ_DIR)\alpha\obwait.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\obinit.obj \
+    $(_OBJ_DIR)\mips\obcreate.obj \
+    $(_OBJ_DIR)\mips\obhandle.obj \
+    $(_OBJ_DIR)\mips\obinsert.obj \
+    $(_OBJ_DIR)\mips\obref.obj \
+    $(_OBJ_DIR)\mips\obse.obj \
+    $(_OBJ_DIR)\mips\obtype.obj \
+    $(_OBJ_DIR)\mips\obdir.obj \
+    $(_OBJ_DIR)\mips\oblink.obj \
+    $(_OBJ_DIR)\mips\obclose.obj \
+    $(_OBJ_DIR)\mips\obquery.obj \
+    $(_OBJ_DIR)\mips\obsdata.obj \
+    $(_OBJ_DIR)\mips\obwait.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\obinit.obj \
+    $(_OBJ_DIR)\i386\obcreate.obj \
+    $(_OBJ_DIR)\i386\obhandle.obj \
+    $(_OBJ_DIR)\i386\obinsert.obj \
+    $(_OBJ_DIR)\i386\obref.obj \
+    $(_OBJ_DIR)\i386\obse.obj \
+    $(_OBJ_DIR)\i386\obtype.obj \
+    $(_OBJ_DIR)\i386\obdir.obj \
+    $(_OBJ_DIR)\i386\oblink.obj \
+    $(_OBJ_DIR)\i386\obclose.obj \
+    $(_OBJ_DIR)\i386\obquery.obj \
+    $(_OBJ_DIR)\i386\obsdata.obj \
+    $(_OBJ_DIR)\i386\obwait.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\obinit.obj \
+    $(_OBJ_DIR)\ppc\obcreate.obj \
+    $(_OBJ_DIR)\ppc\obhandle.obj \
+    $(_OBJ_DIR)\ppc\obinsert.obj \
+    $(_OBJ_DIR)\ppc\obref.obj \
+    $(_OBJ_DIR)\ppc\obse.obj \
+    $(_OBJ_DIR)\ppc\obtype.obj \
+    $(_OBJ_DIR)\ppc\obdir.obj \
+    $(_OBJ_DIR)\ppc\oblink.obj \
+    $(_OBJ_DIR)\ppc\obclose.obj \
+    $(_OBJ_DIR)\ppc\obquery.obj \
+    $(_OBJ_DIR)\ppc\obsdata.obj \
+    $(_OBJ_DIR)\ppc\obwait.obj
+
+PASS0_PPC_OBJECTS=
+

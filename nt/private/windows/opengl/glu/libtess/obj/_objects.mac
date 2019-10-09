@@ -1,0 +1,60 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\geom.obj \
+    $(_OBJ_DIR)\alpha\errorstr.obj \
+    $(_OBJ_DIR)\alpha\mesh.obj \
+    $(_OBJ_DIR)\alpha\render.obj \
+    $(_OBJ_DIR)\alpha\sweep.obj \
+    $(_OBJ_DIR)\alpha\tess.obj \
+    $(_OBJ_DIR)\alpha\tessmono.obj \
+    $(_OBJ_DIR)\alpha\dict.obj \
+    $(_OBJ_DIR)\alpha\priority.obj \
+    $(_OBJ_DIR)\alpha\normal.obj \
+    $(_OBJ_DIR)\alpha\mem-simp.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\geom.obj \
+    $(_OBJ_DIR)\mips\errorstr.obj \
+    $(_OBJ_DIR)\mips\mesh.obj \
+    $(_OBJ_DIR)\mips\render.obj \
+    $(_OBJ_DIR)\mips\sweep.obj \
+    $(_OBJ_DIR)\mips\tess.obj \
+    $(_OBJ_DIR)\mips\tessmono.obj \
+    $(_OBJ_DIR)\mips\dict.obj \
+    $(_OBJ_DIR)\mips\priority.obj \
+    $(_OBJ_DIR)\mips\normal.obj \
+    $(_OBJ_DIR)\mips\mem-simp.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\geom.obj \
+    $(_OBJ_DIR)\i386\errorstr.obj \
+    $(_OBJ_DIR)\i386\mesh.obj \
+    $(_OBJ_DIR)\i386\render.obj \
+    $(_OBJ_DIR)\i386\sweep.obj \
+    $(_OBJ_DIR)\i386\tess.obj \
+    $(_OBJ_DIR)\i386\tessmono.obj \
+    $(_OBJ_DIR)\i386\dict.obj \
+    $(_OBJ_DIR)\i386\priority.obj \
+    $(_OBJ_DIR)\i386\normal.obj \
+    $(_OBJ_DIR)\i386\mem-simp.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\geom.obj \
+    $(_OBJ_DIR)\ppc\errorstr.obj \
+    $(_OBJ_DIR)\ppc\mesh.obj \
+    $(_OBJ_DIR)\ppc\render.obj \
+    $(_OBJ_DIR)\ppc\sweep.obj \
+    $(_OBJ_DIR)\ppc\tess.obj \
+    $(_OBJ_DIR)\ppc\tessmono.obj \
+    $(_OBJ_DIR)\ppc\dict.obj \
+    $(_OBJ_DIR)\ppc\priority.obj \
+    $(_OBJ_DIR)\ppc\normal.obj \
+    $(_OBJ_DIR)\ppc\mem-simp.obj
+
+PASS0_PPC_OBJECTS=
+

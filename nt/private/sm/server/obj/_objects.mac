@@ -1,0 +1,76 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\smss.res \
+    $(_OBJ_DIR)\alpha\sminit.obj \
+    $(_OBJ_DIR)\alpha\smloop.obj \
+    $(_OBJ_DIR)\alpha\smsbapi.obj \
+    $(_OBJ_DIR)\alpha\smsmapi.obj \
+    $(_OBJ_DIR)\alpha\smsesnid.obj \
+    $(_OBJ_DIR)\alpha\smdbg.obj \
+    $(_OBJ_DIR)\alpha\dbginit.obj \
+    $(_OBJ_DIR)\alpha\dbgloop.obj \
+    $(_OBJ_DIR)\alpha\dbgssapi.obj \
+    $(_OBJ_DIR)\alpha\dbguiapi.obj \
+    $(_OBJ_DIR)\alpha\dbguisup.obj \
+    $(_OBJ_DIR)\alpha\dbgapsup.obj \
+    $(_OBJ_DIR)\alpha\smss.obj \
+    $(_OBJ_DIR)\alpha\dbgdump.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\smss.res \
+    $(_OBJ_DIR)\mips\sminit.obj \
+    $(_OBJ_DIR)\mips\smloop.obj \
+    $(_OBJ_DIR)\mips\smsbapi.obj \
+    $(_OBJ_DIR)\mips\smsmapi.obj \
+    $(_OBJ_DIR)\mips\smsesnid.obj \
+    $(_OBJ_DIR)\mips\smdbg.obj \
+    $(_OBJ_DIR)\mips\dbginit.obj \
+    $(_OBJ_DIR)\mips\dbgloop.obj \
+    $(_OBJ_DIR)\mips\dbgssapi.obj \
+    $(_OBJ_DIR)\mips\dbguiapi.obj \
+    $(_OBJ_DIR)\mips\dbguisup.obj \
+    $(_OBJ_DIR)\mips\dbgapsup.obj \
+    $(_OBJ_DIR)\mips\smss.obj \
+    $(_OBJ_DIR)\mips\dbgdump.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\smss.res \
+    $(_OBJ_DIR)\i386\sminit.obj \
+    $(_OBJ_DIR)\i386\smloop.obj \
+    $(_OBJ_DIR)\i386\smsbapi.obj \
+    $(_OBJ_DIR)\i386\smsmapi.obj \
+    $(_OBJ_DIR)\i386\smsesnid.obj \
+    $(_OBJ_DIR)\i386\smdbg.obj \
+    $(_OBJ_DIR)\i386\dbginit.obj \
+    $(_OBJ_DIR)\i386\dbgloop.obj \
+    $(_OBJ_DIR)\i386\dbgssapi.obj \
+    $(_OBJ_DIR)\i386\dbguiapi.obj \
+    $(_OBJ_DIR)\i386\dbguisup.obj \
+    $(_OBJ_DIR)\i386\dbgapsup.obj \
+    $(_OBJ_DIR)\i386\smss.obj \
+    $(_OBJ_DIR)\i386\dbgdump.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\smss.res \
+    $(_OBJ_DIR)\ppc\sminit.obj \
+    $(_OBJ_DIR)\ppc\smloop.obj \
+    $(_OBJ_DIR)\ppc\smsbapi.obj \
+    $(_OBJ_DIR)\ppc\smsmapi.obj \
+    $(_OBJ_DIR)\ppc\smsesnid.obj \
+    $(_OBJ_DIR)\ppc\smdbg.obj \
+    $(_OBJ_DIR)\ppc\dbginit.obj \
+    $(_OBJ_DIR)\ppc\dbgloop.obj \
+    $(_OBJ_DIR)\ppc\dbgssapi.obj \
+    $(_OBJ_DIR)\ppc\dbguiapi.obj \
+    $(_OBJ_DIR)\ppc\dbguisup.obj \
+    $(_OBJ_DIR)\ppc\dbgapsup.obj \
+    $(_OBJ_DIR)\ppc\smss.obj \
+    $(_OBJ_DIR)\ppc\dbgdump.obj
+
+PASS0_PPC_OBJECTS=
+

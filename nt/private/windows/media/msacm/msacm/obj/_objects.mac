@@ -1,0 +1,80 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\msacm.res \
+    $(_OBJ_DIR)\alpha\acm.obj \
+    $(_OBJ_DIR)\alpha\acmdrvr.obj \
+    $(_OBJ_DIR)\alpha\acmfltr.obj \
+    $(_OBJ_DIR)\alpha\acmfmt.obj \
+    $(_OBJ_DIR)\alpha\acmstrm.obj \
+    $(_OBJ_DIR)\alpha\acmthunk.obj \
+    $(_OBJ_DIR)\alpha\chooser.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\pcm.obj \
+    $(_OBJ_DIR)\alpha\pcmconv.obj \
+    $(_OBJ_DIR)\alpha\prmval32.obj \
+    $(_OBJ_DIR)\alpha\locks.obj \
+    $(_OBJ_DIR)\alpha\uchelp.obj \
+    $(_OBJ_DIR)\alpha\profile.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\msacm.res \
+    $(_OBJ_DIR)\mips\acm.obj \
+    $(_OBJ_DIR)\mips\acmdrvr.obj \
+    $(_OBJ_DIR)\mips\acmfltr.obj \
+    $(_OBJ_DIR)\mips\acmfmt.obj \
+    $(_OBJ_DIR)\mips\acmstrm.obj \
+    $(_OBJ_DIR)\mips\acmthunk.obj \
+    $(_OBJ_DIR)\mips\chooser.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\pcm.obj \
+    $(_OBJ_DIR)\mips\pcmconv.obj \
+    $(_OBJ_DIR)\mips\prmval32.obj \
+    $(_OBJ_DIR)\mips\locks.obj \
+    $(_OBJ_DIR)\mips\uchelp.obj \
+    $(_OBJ_DIR)\mips\profile.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\msacm.res \
+    $(_OBJ_DIR)\i386\acm.obj \
+    $(_OBJ_DIR)\i386\acmdrvr.obj \
+    $(_OBJ_DIR)\i386\acmfltr.obj \
+    $(_OBJ_DIR)\i386\acmfmt.obj \
+    $(_OBJ_DIR)\i386\acmstrm.obj \
+    $(_OBJ_DIR)\i386\acmthunk.obj \
+    $(_OBJ_DIR)\i386\chooser.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\pcm.obj \
+    $(_OBJ_DIR)\i386\pcmconv.obj \
+    $(_OBJ_DIR)\i386\prmval32.obj \
+    $(_OBJ_DIR)\i386\locks.obj \
+    $(_OBJ_DIR)\i386\uchelp.obj \
+    $(_OBJ_DIR)\i386\profile.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\msacm.res \
+    $(_OBJ_DIR)\ppc\acm.obj \
+    $(_OBJ_DIR)\ppc\acmdrvr.obj \
+    $(_OBJ_DIR)\ppc\acmfltr.obj \
+    $(_OBJ_DIR)\ppc\acmfmt.obj \
+    $(_OBJ_DIR)\ppc\acmstrm.obj \
+    $(_OBJ_DIR)\ppc\acmthunk.obj \
+    $(_OBJ_DIR)\ppc\chooser.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\pcm.obj \
+    $(_OBJ_DIR)\ppc\pcmconv.obj \
+    $(_OBJ_DIR)\ppc\prmval32.obj \
+    $(_OBJ_DIR)\ppc\locks.obj \
+    $(_OBJ_DIR)\ppc\uchelp.obj \
+    $(_OBJ_DIR)\ppc\profile.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ndistapi.res \
+    $(_OBJ_DIR)\alpha\ndistapi.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ndistapi.res \
+    $(_OBJ_DIR)\mips\ndistapi.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ndistapi.res \
+    $(_OBJ_DIR)\i386\ndistapi.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ndistapi.res \
+    $(_OBJ_DIR)\ppc\ndistapi.obj
+
+PASS0_PPC_OBJECTS=
+

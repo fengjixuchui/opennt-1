@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\winchat.res \
+    $(_OBJ_DIR)\alpha\dde.obj \
+    $(_OBJ_DIR)\alpha\dialogs.obj \
+    $(_OBJ_DIR)\alpha\wcinit.obj \
+    $(_OBJ_DIR)\alpha\winchat.obj \
+    $(_OBJ_DIR)\alpha\globals.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\winchat.res \
+    $(_OBJ_DIR)\mips\dde.obj \
+    $(_OBJ_DIR)\mips\dialogs.obj \
+    $(_OBJ_DIR)\mips\wcinit.obj \
+    $(_OBJ_DIR)\mips\winchat.obj \
+    $(_OBJ_DIR)\mips\globals.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\winchat.res \
+    $(_OBJ_DIR)\i386\dde.obj \
+    $(_OBJ_DIR)\i386\dialogs.obj \
+    $(_OBJ_DIR)\i386\wcinit.obj \
+    $(_OBJ_DIR)\i386\winchat.obj \
+    $(_OBJ_DIR)\i386\globals.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\winchat.res \
+    $(_OBJ_DIR)\ppc\dde.obj \
+    $(_OBJ_DIR)\ppc\dialogs.obj \
+    $(_OBJ_DIR)\ppc\wcinit.obj \
+    $(_OBJ_DIR)\ppc\winchat.obj \
+    $(_OBJ_DIR)\ppc\globals.obj
+
+PASS0_PPC_OBJECTS=
+

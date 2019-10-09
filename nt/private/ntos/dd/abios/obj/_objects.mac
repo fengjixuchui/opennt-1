@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\abiosdsk.res \
+    $(_OBJ_DIR)\alpha\abiosdsk.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\abiosdsk.res \
+    $(_OBJ_DIR)\mips\abiosdsk.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\abiosdsk.res \
+    $(_OBJ_DIR)\i386\abiosdsk.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\abiosdsk.res \
+    $(_OBJ_DIR)\ppc\abiosdsk.obj
+
+PASS0_PPC_OBJECTS=
+

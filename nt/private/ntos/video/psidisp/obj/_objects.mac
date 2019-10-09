@@ -1,0 +1,19 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\psidisp.res \
+    $(_OBJ_DIR)\ppc\psidisp.obj \
+    $(_OBJ_DIR)\ppc\spregs.obj
+
+PASS0_PPC_OBJECTS=
+

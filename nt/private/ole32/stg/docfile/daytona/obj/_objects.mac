@@ -1,0 +1,120 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cdocfile.obj \
+    $(_OBJ_DIR)\alpha\chinst.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\dfbasis.obj \
+    $(_OBJ_DIR)\alpha\dffuncs.obj \
+    $(_OBJ_DIR)\alpha\dfiter.obj \
+    $(_OBJ_DIR)\alpha\dfname.obj \
+    $(_OBJ_DIR)\alpha\dfstream.obj \
+    $(_OBJ_DIR)\alpha\dfxact.obj \
+    $(_OBJ_DIR)\alpha\entry.obj \
+    $(_OBJ_DIR)\alpha\freelist.obj \
+    $(_OBJ_DIR)\alpha\funcs.obj \
+    $(_OBJ_DIR)\alpha\mem.obj \
+    $(_OBJ_DIR)\alpha\smalloc.obj \
+    $(_OBJ_DIR)\alpha\pdffuncs.obj \
+    $(_OBJ_DIR)\alpha\publicdf.obj \
+    $(_OBJ_DIR)\alpha\rpubdf.obj \
+    $(_OBJ_DIR)\alpha\tlsets.obj \
+    $(_OBJ_DIR)\alpha\tset.obj \
+    $(_OBJ_DIR)\alpha\ulist.obj \
+    $(_OBJ_DIR)\alpha\wdffuncs.obj \
+    $(_OBJ_DIR)\alpha\wdfiter.obj \
+    $(_OBJ_DIR)\alpha\wdfstrm.obj \
+    $(_OBJ_DIR)\alpha\wdfxact.obj \
+    $(_OBJ_DIR)\alpha\wdocfile.obj \
+    $(_OBJ_DIR)\alpha\fastlock.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\cdocfile.obj \
+    $(_OBJ_DIR)\mips\chinst.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\dfbasis.obj \
+    $(_OBJ_DIR)\mips\dffuncs.obj \
+    $(_OBJ_DIR)\mips\dfiter.obj \
+    $(_OBJ_DIR)\mips\dfname.obj \
+    $(_OBJ_DIR)\mips\dfstream.obj \
+    $(_OBJ_DIR)\mips\dfxact.obj \
+    $(_OBJ_DIR)\mips\entry.obj \
+    $(_OBJ_DIR)\mips\freelist.obj \
+    $(_OBJ_DIR)\mips\funcs.obj \
+    $(_OBJ_DIR)\mips\mem.obj \
+    $(_OBJ_DIR)\mips\smalloc.obj \
+    $(_OBJ_DIR)\mips\pdffuncs.obj \
+    $(_OBJ_DIR)\mips\publicdf.obj \
+    $(_OBJ_DIR)\mips\rpubdf.obj \
+    $(_OBJ_DIR)\mips\tlsets.obj \
+    $(_OBJ_DIR)\mips\tset.obj \
+    $(_OBJ_DIR)\mips\ulist.obj \
+    $(_OBJ_DIR)\mips\wdffuncs.obj \
+    $(_OBJ_DIR)\mips\wdfiter.obj \
+    $(_OBJ_DIR)\mips\wdfstrm.obj \
+    $(_OBJ_DIR)\mips\wdfxact.obj \
+    $(_OBJ_DIR)\mips\wdocfile.obj \
+    $(_OBJ_DIR)\mips\fastlock.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cdocfile.obj \
+    $(_OBJ_DIR)\i386\chinst.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\dfbasis.obj \
+    $(_OBJ_DIR)\i386\dffuncs.obj \
+    $(_OBJ_DIR)\i386\dfiter.obj \
+    $(_OBJ_DIR)\i386\dfname.obj \
+    $(_OBJ_DIR)\i386\dfstream.obj \
+    $(_OBJ_DIR)\i386\dfxact.obj \
+    $(_OBJ_DIR)\i386\entry.obj \
+    $(_OBJ_DIR)\i386\freelist.obj \
+    $(_OBJ_DIR)\i386\funcs.obj \
+    $(_OBJ_DIR)\i386\mem.obj \
+    $(_OBJ_DIR)\i386\smalloc.obj \
+    $(_OBJ_DIR)\i386\pdffuncs.obj \
+    $(_OBJ_DIR)\i386\publicdf.obj \
+    $(_OBJ_DIR)\i386\rpubdf.obj \
+    $(_OBJ_DIR)\i386\tlsets.obj \
+    $(_OBJ_DIR)\i386\tset.obj \
+    $(_OBJ_DIR)\i386\ulist.obj \
+    $(_OBJ_DIR)\i386\wdffuncs.obj \
+    $(_OBJ_DIR)\i386\wdfiter.obj \
+    $(_OBJ_DIR)\i386\wdfstrm.obj \
+    $(_OBJ_DIR)\i386\wdfxact.obj \
+    $(_OBJ_DIR)\i386\wdocfile.obj \
+    $(_OBJ_DIR)\i386\fastlock.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\cdocfile.obj \
+    $(_OBJ_DIR)\ppc\chinst.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\dfbasis.obj \
+    $(_OBJ_DIR)\ppc\dffuncs.obj \
+    $(_OBJ_DIR)\ppc\dfiter.obj \
+    $(_OBJ_DIR)\ppc\dfname.obj \
+    $(_OBJ_DIR)\ppc\dfstream.obj \
+    $(_OBJ_DIR)\ppc\dfxact.obj \
+    $(_OBJ_DIR)\ppc\entry.obj \
+    $(_OBJ_DIR)\ppc\freelist.obj \
+    $(_OBJ_DIR)\ppc\funcs.obj \
+    $(_OBJ_DIR)\ppc\mem.obj \
+    $(_OBJ_DIR)\ppc\smalloc.obj \
+    $(_OBJ_DIR)\ppc\pdffuncs.obj \
+    $(_OBJ_DIR)\ppc\publicdf.obj \
+    $(_OBJ_DIR)\ppc\rpubdf.obj \
+    $(_OBJ_DIR)\ppc\tlsets.obj \
+    $(_OBJ_DIR)\ppc\tset.obj \
+    $(_OBJ_DIR)\ppc\ulist.obj \
+    $(_OBJ_DIR)\ppc\wdffuncs.obj \
+    $(_OBJ_DIR)\ppc\wdfiter.obj \
+    $(_OBJ_DIR)\ppc\wdfstrm.obj \
+    $(_OBJ_DIR)\ppc\wdfxact.obj \
+    $(_OBJ_DIR)\ppc\wdocfile.obj \
+    $(_OBJ_DIR)\ppc\fastlock.obj
+
+PASS0_PPC_OBJECTS=
+

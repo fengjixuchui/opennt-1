@@ -1,0 +1,60 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\intl.res \
+    $(_OBJ_DIR)\alpha\curdlg.obj \
+    $(_OBJ_DIR)\alpha\datedlg.obj \
+    $(_OBJ_DIR)\alpha\intl.obj \
+    $(_OBJ_DIR)\alpha\intlsup.obj \
+    $(_OBJ_DIR)\alpha\mapctl.obj \
+    $(_OBJ_DIR)\alpha\numdlg.obj \
+    $(_OBJ_DIR)\alpha\regdlg.obj \
+    $(_OBJ_DIR)\alpha\timedlg.obj \
+    $(_OBJ_DIR)\alpha\worldmap.obj \
+    $(_OBJ_DIR)\alpha\locdlg.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\intl.res \
+    $(_OBJ_DIR)\mips\curdlg.obj \
+    $(_OBJ_DIR)\mips\datedlg.obj \
+    $(_OBJ_DIR)\mips\intl.obj \
+    $(_OBJ_DIR)\mips\intlsup.obj \
+    $(_OBJ_DIR)\mips\mapctl.obj \
+    $(_OBJ_DIR)\mips\numdlg.obj \
+    $(_OBJ_DIR)\mips\regdlg.obj \
+    $(_OBJ_DIR)\mips\timedlg.obj \
+    $(_OBJ_DIR)\mips\worldmap.obj \
+    $(_OBJ_DIR)\mips\locdlg.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\intl.res \
+    $(_OBJ_DIR)\i386\curdlg.obj \
+    $(_OBJ_DIR)\i386\datedlg.obj \
+    $(_OBJ_DIR)\i386\intl.obj \
+    $(_OBJ_DIR)\i386\intlsup.obj \
+    $(_OBJ_DIR)\i386\mapctl.obj \
+    $(_OBJ_DIR)\i386\numdlg.obj \
+    $(_OBJ_DIR)\i386\regdlg.obj \
+    $(_OBJ_DIR)\i386\timedlg.obj \
+    $(_OBJ_DIR)\i386\worldmap.obj \
+    $(_OBJ_DIR)\i386\locdlg.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\intl.res \
+    $(_OBJ_DIR)\ppc\curdlg.obj \
+    $(_OBJ_DIR)\ppc\datedlg.obj \
+    $(_OBJ_DIR)\ppc\intl.obj \
+    $(_OBJ_DIR)\ppc\intlsup.obj \
+    $(_OBJ_DIR)\ppc\mapctl.obj \
+    $(_OBJ_DIR)\ppc\numdlg.obj \
+    $(_OBJ_DIR)\ppc\regdlg.obj \
+    $(_OBJ_DIR)\ppc\timedlg.obj \
+    $(_OBJ_DIR)\ppc\worldmap.obj \
+    $(_OBJ_DIR)\ppc\locdlg.obj
+
+PASS0_PPC_OBJECTS=
+

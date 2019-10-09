@@ -1,0 +1,30 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\math.obj \
+    $(_OBJ_DIR)\alpha\xformer.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\softsqrt.obj \
+    $(_OBJ_DIR)\mips\math.obj \
+    $(_OBJ_DIR)\mips\xformer.obj \
+    $(_OBJ_DIR)\mips\convert.obj \
+    $(_OBJ_DIR)\mips\hardsqrt.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\math.obj \
+    $(_OBJ_DIR)\i386\xform.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\softsqrt.obj \
+    $(_OBJ_DIR)\ppc\sqrt.obj \
+    $(_OBJ_DIR)\ppc\math.obj \
+    $(_OBJ_DIR)\ppc\xformer.obj \
+    $(_OBJ_DIR)\ppc\convert.obj
+
+PASS0_PPC_OBJECTS=
+

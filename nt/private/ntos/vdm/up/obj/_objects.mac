@@ -1,0 +1,31 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\vdm.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\vdm.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\vdmop0f.obj \
+    $(_OBJ_DIR)\i386\vdmoprnd.obj \
+    $(_OBJ_DIR)\i386\vdmmisc.obj \
+    $(_OBJ_DIR)\i386\vdmentry.obj \
+    $(_OBJ_DIR)\i386\vdminit.obj \
+    $(_OBJ_DIR)\i386\vdmnpx.obj \
+    $(_OBJ_DIR)\i386\vdmfault.obj \
+    $(_OBJ_DIR)\i386\vdmprint.obj \
+    $(_OBJ_DIR)\i386\strtexec.obj \
+    $(_OBJ_DIR)\i386\rdwr.obj \
+    $(_OBJ_DIR)\i386\vdmints.obj \
+    $(_OBJ_DIR)\i386\vdm.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\vdm.obj
+
+PASS0_PPC_OBJECTS=
+

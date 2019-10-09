@@ -1,0 +1,130 @@
+
+
+NAME VIDEOPRT.SYS
+
+DESCRIPTION 'VIDEOPRT.SYS'
+
+EXPORTS
+    VideoPortCompareMemory = NTOSKRNL.RtlCompareMemory
+    VideoPortDebugPrint
+    VideoPortDisableInterrupt
+    VideoPortEnableInterrupt
+    VideoPortFreeDeviceBase
+    VideoPortGetAccessRanges
+    VideoPortGetBusData
+    VideoPortGetCurrentIrql
+    VideoPortGetDeviceBase
+    VideoPortGetDeviceData
+    VideoPortGetRegistryParameters
+    VideoPortInitialize
+    VideoPortInt10
+    VideoPortLogError
+    VideoPortMapBankedMemory
+    VideoPortMapMemory
+    VideoPortMoveMemory = NTOSKRNL.RtlMoveMemory
+    VideoPortScanRom
+    VideoPortSetBusData
+    VideoPortSetTrappedEmulatorPorts
+    VideoPortSetRegistryParameters
+    VideoPortStallExecution = HAL.KeStallExecutionProcessor
+    VideoPortStartTimer
+    VideoPortStopTimer
+    VideoPortSynchronizeExecution
+    VideoPortUnmapMemory
+    VideoPortVerifyAccessRanges
+    VideoPortZeroMemory = NTOSKRNL.RtlZeroMemory
+    VideoPortZeroDeviceMemory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    VideoPortReadPortUchar
+    VideoPortReadPortUshort
+    VideoPortReadPortUlong
+    VideoPortReadPortBufferUchar
+    VideoPortReadPortBufferUshort
+    VideoPortReadPortBufferUlong
+    VideoPortReadRegisterUchar
+    VideoPortReadRegisterUshort
+    VideoPortReadRegisterUlong
+    VideoPortReadRegisterBufferUchar
+    VideoPortReadRegisterBufferUshort
+    VideoPortReadRegisterBufferUlong
+    VideoPortWritePortUchar
+    VideoPortWritePortUshort
+    VideoPortWritePortUlong
+    VideoPortWritePortBufferUchar
+    VideoPortWritePortBufferUshort
+    VideoPortWritePortBufferUlong
+    VideoPortWriteRegisterUchar
+    VideoPortWriteRegisterUshort
+    VideoPortWriteRegisterUlong
+    VideoPortWriteRegisterBufferUchar
+    VideoPortWriteRegisterBufferUshort
+    VideoPortWriteRegisterBufferUlong
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

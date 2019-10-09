@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\windbgrm.res \
+    $(_OBJ_DIR)\alpha\windbgrm.obj \
+    $(_OBJ_DIR)\alpha\gui.obj \
+    $(_OBJ_DIR)\alpha\debugger.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\dbgdll.obj \
+    $(_OBJ_DIR)\alpha\kdopt.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\windbgrm.res \
+    $(_OBJ_DIR)\mips\windbgrm.obj \
+    $(_OBJ_DIR)\mips\gui.obj \
+    $(_OBJ_DIR)\mips\debugger.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\dbgdll.obj \
+    $(_OBJ_DIR)\mips\kdopt.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\windbgrm.res \
+    $(_OBJ_DIR)\i386\windbgrm.obj \
+    $(_OBJ_DIR)\i386\gui.obj \
+    $(_OBJ_DIR)\i386\debugger.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\dbgdll.obj \
+    $(_OBJ_DIR)\i386\kdopt.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\windbgrm.res \
+    $(_OBJ_DIR)\ppc\windbgrm.obj \
+    $(_OBJ_DIR)\ppc\gui.obj \
+    $(_OBJ_DIR)\ppc\debugger.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\dbgdll.obj \
+    $(_OBJ_DIR)\ppc\kdopt.obj
+
+PASS0_PPC_OBJECTS=
+

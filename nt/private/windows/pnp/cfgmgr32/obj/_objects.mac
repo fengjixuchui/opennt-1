@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cfgmgr32.res \
+    $(_OBJ_DIR)\alpha\main.obj \
+    $(_OBJ_DIR)\alpha\pnp_c.obj \
+    $(_OBJ_DIR)\alpha\rpcbind.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\traverse.obj \
+    $(_OBJ_DIR)\alpha\regprop.obj \
+    $(_OBJ_DIR)\alpha\logconf.obj \
+    $(_OBJ_DIR)\alpha\range.obj \
+    $(_OBJ_DIR)\alpha\hwprof.obj \
+    $(_OBJ_DIR)\alpha\resdes.obj \
+    $(_OBJ_DIR)\alpha\devnode.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\cmdat.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\cfgmgr32.res \
+    $(_OBJ_DIR)\mips\main.obj \
+    $(_OBJ_DIR)\mips\pnp_c.obj \
+    $(_OBJ_DIR)\mips\rpcbind.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\traverse.obj \
+    $(_OBJ_DIR)\mips\regprop.obj \
+    $(_OBJ_DIR)\mips\logconf.obj \
+    $(_OBJ_DIR)\mips\range.obj \
+    $(_OBJ_DIR)\mips\hwprof.obj \
+    $(_OBJ_DIR)\mips\resdes.obj \
+    $(_OBJ_DIR)\mips\devnode.obj \
+    $(_OBJ_DIR)\mips\misc.obj \
+    $(_OBJ_DIR)\mips\cmdat.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cfgmgr32.res \
+    $(_OBJ_DIR)\i386\main.obj \
+    $(_OBJ_DIR)\i386\pnp_c.obj \
+    $(_OBJ_DIR)\i386\rpcbind.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\traverse.obj \
+    $(_OBJ_DIR)\i386\regprop.obj \
+    $(_OBJ_DIR)\i386\logconf.obj \
+    $(_OBJ_DIR)\i386\range.obj \
+    $(_OBJ_DIR)\i386\hwprof.obj \
+    $(_OBJ_DIR)\i386\resdes.obj \
+    $(_OBJ_DIR)\i386\devnode.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\cmdat.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\cfgmgr32.res \
+    $(_OBJ_DIR)\ppc\main.obj \
+    $(_OBJ_DIR)\ppc\pnp_c.obj \
+    $(_OBJ_DIR)\ppc\rpcbind.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\traverse.obj \
+    $(_OBJ_DIR)\ppc\regprop.obj \
+    $(_OBJ_DIR)\ppc\logconf.obj \
+    $(_OBJ_DIR)\ppc\range.obj \
+    $(_OBJ_DIR)\ppc\hwprof.obj \
+    $(_OBJ_DIR)\ppc\resdes.obj \
+    $(_OBJ_DIR)\ppc\devnode.obj \
+    $(_OBJ_DIR)\ppc\misc.obj \
+    $(_OBJ_DIR)\ppc\cmdat.obj
+
+PASS0_PPC_OBJECTS=
+

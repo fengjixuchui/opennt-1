@@ -1,0 +1,64 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\router.obj \
+    $(_OBJ_DIR)\alpha\chksum32.obj \
+    $(_OBJ_DIR)\alpha\crc_16.obj \
+    $(_OBJ_DIR)\alpha\getroute.obj \
+    $(_OBJ_DIR)\alpha\connects.obj \
+    $(_OBJ_DIR)\alpha\userdde.obj \
+    $(_OBJ_DIR)\alpha\dder.obj \
+    $(_OBJ_DIR)\alpha\pktz.obj \
+    $(_OBJ_DIR)\alpha\lsaval.obj \
+    $(_OBJ_DIR)\alpha\timer.obj \
+    $(_OBJ_DIR)\alpha\csv.obj \
+    $(_OBJ_DIR)\alpha\verify.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\router.obj \
+    $(_OBJ_DIR)\mips\chksum32.obj \
+    $(_OBJ_DIR)\mips\crc_16.obj \
+    $(_OBJ_DIR)\mips\getroute.obj \
+    $(_OBJ_DIR)\mips\connects.obj \
+    $(_OBJ_DIR)\mips\userdde.obj \
+    $(_OBJ_DIR)\mips\dder.obj \
+    $(_OBJ_DIR)\mips\pktz.obj \
+    $(_OBJ_DIR)\mips\lsaval.obj \
+    $(_OBJ_DIR)\mips\timer.obj \
+    $(_OBJ_DIR)\mips\csv.obj \
+    $(_OBJ_DIR)\mips\verify.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\router.obj \
+    $(_OBJ_DIR)\i386\chksum32.obj \
+    $(_OBJ_DIR)\i386\crc_16.obj \
+    $(_OBJ_DIR)\i386\getroute.obj \
+    $(_OBJ_DIR)\i386\connects.obj \
+    $(_OBJ_DIR)\i386\userdde.obj \
+    $(_OBJ_DIR)\i386\dder.obj \
+    $(_OBJ_DIR)\i386\pktz.obj \
+    $(_OBJ_DIR)\i386\lsaval.obj \
+    $(_OBJ_DIR)\i386\timer.obj \
+    $(_OBJ_DIR)\i386\csv.obj \
+    $(_OBJ_DIR)\i386\verify.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\router.obj \
+    $(_OBJ_DIR)\ppc\chksum32.obj \
+    $(_OBJ_DIR)\ppc\crc_16.obj \
+    $(_OBJ_DIR)\ppc\getroute.obj \
+    $(_OBJ_DIR)\ppc\connects.obj \
+    $(_OBJ_DIR)\ppc\userdde.obj \
+    $(_OBJ_DIR)\ppc\dder.obj \
+    $(_OBJ_DIR)\ppc\pktz.obj \
+    $(_OBJ_DIR)\ppc\lsaval.obj \
+    $(_OBJ_DIR)\ppc\timer.obj \
+    $(_OBJ_DIR)\ppc\csv.obj \
+    $(_OBJ_DIR)\ppc\verify.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,8 @@
+
+LIBRARY         shareui
+DESCRIPTION     'shareui - Shell extension for sharing'
+
+EXPORTS
+    DllGetClassObject PRIVATE
+    DllCanUnloadNow   PRIVATE
+	Uninstall

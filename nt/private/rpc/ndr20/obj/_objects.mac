@@ -1,0 +1,152 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\auxilary.obj \
+    $(_OBJ_DIR)\alpha\bufsize.obj \
+    $(_OBJ_DIR)\alpha\cltcall.obj \
+    $(_OBJ_DIR)\alpha\cvtf.obj \
+    $(_OBJ_DIR)\alpha\cvtg.obj \
+    $(_OBJ_DIR)\alpha\cvtglo.obj \
+    $(_OBJ_DIR)\alpha\endian.obj \
+    $(_OBJ_DIR)\alpha\factory.obj \
+    $(_OBJ_DIR)\alpha\free.obj \
+    $(_OBJ_DIR)\alpha\fullptr.obj \
+    $(_OBJ_DIR)\alpha\global.obj \
+    $(_OBJ_DIR)\alpha\hndl.obj \
+    $(_OBJ_DIR)\alpha\iid.obj \
+    $(_OBJ_DIR)\alpha\memsize.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\mrshl.obj \
+    $(_OBJ_DIR)\alpha\mrshlp.obj \
+    $(_OBJ_DIR)\alpha\proxy.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\sh.obj \
+    $(_OBJ_DIR)\alpha\srvcall.obj \
+    $(_OBJ_DIR)\alpha\srvout.obj \
+    $(_OBJ_DIR)\alpha\stblsclt.obj \
+    $(_OBJ_DIR)\alpha\stub.obj \
+    $(_OBJ_DIR)\alpha\unmrshl.obj \
+    $(_OBJ_DIR)\alpha\unmrshlp.obj \
+    $(_OBJ_DIR)\alpha\pickle.obj \
+    $(_OBJ_DIR)\alpha\pipes.obj \
+    $(_OBJ_DIR)\alpha\rpcssm.obj \
+    $(_OBJ_DIR)\alpha\stream.obj \
+    $(_OBJ_DIR)\alpha\tiutil.obj \
+    $(_OBJ_DIR)\alpha\typeinfo.obj \
+    $(_OBJ_DIR)\alpha\forward.obj \
+    $(_OBJ_DIR)\alpha\stubless.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\auxilary.obj \
+    $(_OBJ_DIR)\mips\bufsize.obj \
+    $(_OBJ_DIR)\mips\cltcall.obj \
+    $(_OBJ_DIR)\mips\cvtf.obj \
+    $(_OBJ_DIR)\mips\cvtg.obj \
+    $(_OBJ_DIR)\mips\cvtglo.obj \
+    $(_OBJ_DIR)\mips\endian.obj \
+    $(_OBJ_DIR)\mips\factory.obj \
+    $(_OBJ_DIR)\mips\free.obj \
+    $(_OBJ_DIR)\mips\fullptr.obj \
+    $(_OBJ_DIR)\mips\global.obj \
+    $(_OBJ_DIR)\mips\hndl.obj \
+    $(_OBJ_DIR)\mips\iid.obj \
+    $(_OBJ_DIR)\mips\memsize.obj \
+    $(_OBJ_DIR)\mips\misc.obj \
+    $(_OBJ_DIR)\mips\mrshl.obj \
+    $(_OBJ_DIR)\mips\mrshlp.obj \
+    $(_OBJ_DIR)\mips\proxy.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\sh.obj \
+    $(_OBJ_DIR)\mips\srvcall.obj \
+    $(_OBJ_DIR)\mips\srvout.obj \
+    $(_OBJ_DIR)\mips\stblsclt.obj \
+    $(_OBJ_DIR)\mips\stub.obj \
+    $(_OBJ_DIR)\mips\unmrshl.obj \
+    $(_OBJ_DIR)\mips\unmrshlp.obj \
+    $(_OBJ_DIR)\mips\pickle.obj \
+    $(_OBJ_DIR)\mips\pipes.obj \
+    $(_OBJ_DIR)\mips\rpcssm.obj \
+    $(_OBJ_DIR)\mips\stream.obj \
+    $(_OBJ_DIR)\mips\tiutil.obj \
+    $(_OBJ_DIR)\mips\typeinfo.obj \
+    $(_OBJ_DIR)\mips\forward.obj \
+    $(_OBJ_DIR)\mips\stubless.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\stubless.obj \
+    $(_OBJ_DIR)\i386\forward.obj \
+    $(_OBJ_DIR)\i386\auxilary.obj \
+    $(_OBJ_DIR)\i386\bufsize.obj \
+    $(_OBJ_DIR)\i386\cltcall.obj \
+    $(_OBJ_DIR)\i386\cvtf.obj \
+    $(_OBJ_DIR)\i386\cvtg.obj \
+    $(_OBJ_DIR)\i386\cvtglo.obj \
+    $(_OBJ_DIR)\i386\endian.obj \
+    $(_OBJ_DIR)\i386\factory.obj \
+    $(_OBJ_DIR)\i386\free.obj \
+    $(_OBJ_DIR)\i386\fullptr.obj \
+    $(_OBJ_DIR)\i386\global.obj \
+    $(_OBJ_DIR)\i386\hndl.obj \
+    $(_OBJ_DIR)\i386\iid.obj \
+    $(_OBJ_DIR)\i386\memsize.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\mrshl.obj \
+    $(_OBJ_DIR)\i386\mrshlp.obj \
+    $(_OBJ_DIR)\i386\proxy.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\sh.obj \
+    $(_OBJ_DIR)\i386\srvcall.obj \
+    $(_OBJ_DIR)\i386\srvout.obj \
+    $(_OBJ_DIR)\i386\stblsclt.obj \
+    $(_OBJ_DIR)\i386\stub.obj \
+    $(_OBJ_DIR)\i386\unmrshl.obj \
+    $(_OBJ_DIR)\i386\unmrshlp.obj \
+    $(_OBJ_DIR)\i386\pickle.obj \
+    $(_OBJ_DIR)\i386\pipes.obj \
+    $(_OBJ_DIR)\i386\rpcssm.obj \
+    $(_OBJ_DIR)\i386\stream.obj \
+    $(_OBJ_DIR)\i386\tiutil.obj \
+    $(_OBJ_DIR)\i386\typeinfo.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\auxilary.obj \
+    $(_OBJ_DIR)\ppc\bufsize.obj \
+    $(_OBJ_DIR)\ppc\cltcall.obj \
+    $(_OBJ_DIR)\ppc\cvtf.obj \
+    $(_OBJ_DIR)\ppc\cvtg.obj \
+    $(_OBJ_DIR)\ppc\cvtglo.obj \
+    $(_OBJ_DIR)\ppc\endian.obj \
+    $(_OBJ_DIR)\ppc\factory.obj \
+    $(_OBJ_DIR)\ppc\free.obj \
+    $(_OBJ_DIR)\ppc\fullptr.obj \
+    $(_OBJ_DIR)\ppc\global.obj \
+    $(_OBJ_DIR)\ppc\hndl.obj \
+    $(_OBJ_DIR)\ppc\iid.obj \
+    $(_OBJ_DIR)\ppc\memsize.obj \
+    $(_OBJ_DIR)\ppc\misc.obj \
+    $(_OBJ_DIR)\ppc\mrshl.obj \
+    $(_OBJ_DIR)\ppc\mrshlp.obj \
+    $(_OBJ_DIR)\ppc\proxy.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\sh.obj \
+    $(_OBJ_DIR)\ppc\srvcall.obj \
+    $(_OBJ_DIR)\ppc\srvout.obj \
+    $(_OBJ_DIR)\ppc\stblsclt.obj \
+    $(_OBJ_DIR)\ppc\stub.obj \
+    $(_OBJ_DIR)\ppc\unmrshl.obj \
+    $(_OBJ_DIR)\ppc\unmrshlp.obj \
+    $(_OBJ_DIR)\ppc\pickle.obj \
+    $(_OBJ_DIR)\ppc\pipes.obj \
+    $(_OBJ_DIR)\ppc\rpcssm.obj \
+    $(_OBJ_DIR)\ppc\stream.obj \
+    $(_OBJ_DIR)\ppc\tiutil.obj \
+    $(_OBJ_DIR)\ppc\typeinfo.obj \
+    $(_OBJ_DIR)\ppc\forward.obj \
+    $(_OBJ_DIR)\ppc\stubless.obj
+
+PASS0_PPC_OBJECTS=
+

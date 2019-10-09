@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\version.res \
+    $(_OBJ_DIR)\alpha\ansi.obj \
+    $(_OBJ_DIR)\alpha\diamond.obj \
+    $(_OBJ_DIR)\alpha\filever.obj \
+    $(_OBJ_DIR)\alpha\ifhelp.obj \
+    $(_OBJ_DIR)\alpha\instfile.obj \
+    $(_OBJ_DIR)\alpha\version.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\version.res \
+    $(_OBJ_DIR)\mips\ansi.obj \
+    $(_OBJ_DIR)\mips\diamond.obj \
+    $(_OBJ_DIR)\mips\filever.obj \
+    $(_OBJ_DIR)\mips\ifhelp.obj \
+    $(_OBJ_DIR)\mips\instfile.obj \
+    $(_OBJ_DIR)\mips\version.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\version.res \
+    $(_OBJ_DIR)\i386\ansi.obj \
+    $(_OBJ_DIR)\i386\diamond.obj \
+    $(_OBJ_DIR)\i386\filever.obj \
+    $(_OBJ_DIR)\i386\ifhelp.obj \
+    $(_OBJ_DIR)\i386\instfile.obj \
+    $(_OBJ_DIR)\i386\version.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\version.res \
+    $(_OBJ_DIR)\ppc\ansi.obj \
+    $(_OBJ_DIR)\ppc\diamond.obj \
+    $(_OBJ_DIR)\ppc\filever.obj \
+    $(_OBJ_DIR)\ppc\ifhelp.obj \
+    $(_OBJ_DIR)\ppc\instfile.obj \
+    $(_OBJ_DIR)\ppc\version.obj
+
+PASS0_PPC_OBJECTS=
+

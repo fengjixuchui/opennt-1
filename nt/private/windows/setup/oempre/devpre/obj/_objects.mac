@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\devpre.res \
+    $(_OBJ_DIR)\alpha\window.obj \
+    $(_OBJ_DIR)\alpha\resource.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\devpre.res \
+    $(_OBJ_DIR)\mips\window.obj \
+    $(_OBJ_DIR)\mips\resource.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\devpre.res \
+    $(_OBJ_DIR)\i386\window.obj \
+    $(_OBJ_DIR)\i386\resource.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\devpre.res \
+    $(_OBJ_DIR)\ppc\window.obj \
+    $(_OBJ_DIR)\ppc\resource.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\vga.res \
+    $(_OBJ_DIR)\alpha\modeset.obj \
+    $(_OBJ_DIR)\alpha\vga.obj \
+    $(_OBJ_DIR)\alpha\vgadata.obj \
+    $(_OBJ_DIR)\alpha\vgahard.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\vga.res \
+    $(_OBJ_DIR)\mips\modeset.obj \
+    $(_OBJ_DIR)\mips\vga.obj \
+    $(_OBJ_DIR)\mips\vgadata.obj \
+    $(_OBJ_DIR)\mips\vgahard.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\vga.res \
+    $(_OBJ_DIR)\i386\vgahard.obj \
+    $(_OBJ_DIR)\i386\modeset.obj \
+    $(_OBJ_DIR)\i386\vga.obj \
+    $(_OBJ_DIR)\i386\vgadata.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\vga.res \
+    $(_OBJ_DIR)\ppc\modeset.obj \
+    $(_OBJ_DIR)\ppc\vga.obj \
+    $(_OBJ_DIR)\ppc\vgadata.obj \
+    $(_OBJ_DIR)\ppc\vgahard.obj
+
+PASS0_PPC_OBJECTS=
+

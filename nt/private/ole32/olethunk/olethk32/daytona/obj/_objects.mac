@@ -1,0 +1,120 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\olethk32.res \
+    $(_OBJ_DIR)\alpha\dllentry.obj \
+    $(_OBJ_DIR)\alpha\tlsthk.obj \
+    $(_OBJ_DIR)\alpha\thkmgr.obj \
+    $(_OBJ_DIR)\alpha\freelist.obj \
+    $(_OBJ_DIR)\alpha\cthkmgr.obj \
+    $(_OBJ_DIR)\alpha\olethk32.obj \
+    $(_OBJ_DIR)\alpha\inv16.obj \
+    $(_OBJ_DIR)\alpha\inv32.obj \
+    $(_OBJ_DIR)\alpha\thoputil.obj \
+    $(_OBJ_DIR)\alpha\thop16.obj \
+    $(_OBJ_DIR)\alpha\thop32.obj \
+    $(_OBJ_DIR)\alpha\thopiint.obj \
+    $(_OBJ_DIR)\alpha\tc1632.obj \
+    $(_OBJ_DIR)\alpha\thtblapi.obj \
+    $(_OBJ_DIR)\alpha\vtblapi.obj \
+    $(_OBJ_DIR)\alpha\iidtothi.obj \
+    $(_OBJ_DIR)\alpha\dbgapi.obj \
+    $(_OBJ_DIR)\alpha\dbgitbl.obj \
+    $(_OBJ_DIR)\alpha\map_kv.obj \
+    $(_OBJ_DIR)\alpha\plex.obj \
+    $(_OBJ_DIR)\alpha\apinot.obj \
+    $(_OBJ_DIR)\alpha\alias.obj \
+    $(_OBJ_DIR)\alpha\mmodel.obj \
+    $(_OBJ_DIR)\alpha\stalloc.obj \
+    $(_OBJ_DIR)\alpha\heap.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\olethk32.res \
+    $(_OBJ_DIR)\mips\dllentry.obj \
+    $(_OBJ_DIR)\mips\tlsthk.obj \
+    $(_OBJ_DIR)\mips\thkmgr.obj \
+    $(_OBJ_DIR)\mips\freelist.obj \
+    $(_OBJ_DIR)\mips\cthkmgr.obj \
+    $(_OBJ_DIR)\mips\olethk32.obj \
+    $(_OBJ_DIR)\mips\inv16.obj \
+    $(_OBJ_DIR)\mips\inv32.obj \
+    $(_OBJ_DIR)\mips\thoputil.obj \
+    $(_OBJ_DIR)\mips\thop16.obj \
+    $(_OBJ_DIR)\mips\thop32.obj \
+    $(_OBJ_DIR)\mips\thopiint.obj \
+    $(_OBJ_DIR)\mips\tc1632.obj \
+    $(_OBJ_DIR)\mips\thtblapi.obj \
+    $(_OBJ_DIR)\mips\vtblapi.obj \
+    $(_OBJ_DIR)\mips\iidtothi.obj \
+    $(_OBJ_DIR)\mips\dbgapi.obj \
+    $(_OBJ_DIR)\mips\dbgitbl.obj \
+    $(_OBJ_DIR)\mips\map_kv.obj \
+    $(_OBJ_DIR)\mips\plex.obj \
+    $(_OBJ_DIR)\mips\apinot.obj \
+    $(_OBJ_DIR)\mips\alias.obj \
+    $(_OBJ_DIR)\mips\mmodel.obj \
+    $(_OBJ_DIR)\mips\stalloc.obj \
+    $(_OBJ_DIR)\mips\heap.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\olethk32.res \
+    $(_OBJ_DIR)\i386\dllentry.obj \
+    $(_OBJ_DIR)\i386\tlsthk.obj \
+    $(_OBJ_DIR)\i386\thkmgr.obj \
+    $(_OBJ_DIR)\i386\freelist.obj \
+    $(_OBJ_DIR)\i386\cthkmgr.obj \
+    $(_OBJ_DIR)\i386\olethk32.obj \
+    $(_OBJ_DIR)\i386\inv16.obj \
+    $(_OBJ_DIR)\i386\inv32.obj \
+    $(_OBJ_DIR)\i386\thoputil.obj \
+    $(_OBJ_DIR)\i386\thop16.obj \
+    $(_OBJ_DIR)\i386\thop32.obj \
+    $(_OBJ_DIR)\i386\thopiint.obj \
+    $(_OBJ_DIR)\i386\tc1632.obj \
+    $(_OBJ_DIR)\i386\thtblapi.obj \
+    $(_OBJ_DIR)\i386\vtblapi.obj \
+    $(_OBJ_DIR)\i386\iidtothi.obj \
+    $(_OBJ_DIR)\i386\dbgapi.obj \
+    $(_OBJ_DIR)\i386\dbgitbl.obj \
+    $(_OBJ_DIR)\i386\map_kv.obj \
+    $(_OBJ_DIR)\i386\plex.obj \
+    $(_OBJ_DIR)\i386\apinot.obj \
+    $(_OBJ_DIR)\i386\alias.obj \
+    $(_OBJ_DIR)\i386\mmodel.obj \
+    $(_OBJ_DIR)\i386\stalloc.obj \
+    $(_OBJ_DIR)\i386\heap.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\olethk32.res \
+    $(_OBJ_DIR)\ppc\dllentry.obj \
+    $(_OBJ_DIR)\ppc\tlsthk.obj \
+    $(_OBJ_DIR)\ppc\thkmgr.obj \
+    $(_OBJ_DIR)\ppc\freelist.obj \
+    $(_OBJ_DIR)\ppc\cthkmgr.obj \
+    $(_OBJ_DIR)\ppc\olethk32.obj \
+    $(_OBJ_DIR)\ppc\inv16.obj \
+    $(_OBJ_DIR)\ppc\inv32.obj \
+    $(_OBJ_DIR)\ppc\thoputil.obj \
+    $(_OBJ_DIR)\ppc\thop16.obj \
+    $(_OBJ_DIR)\ppc\thop32.obj \
+    $(_OBJ_DIR)\ppc\thopiint.obj \
+    $(_OBJ_DIR)\ppc\tc1632.obj \
+    $(_OBJ_DIR)\ppc\thtblapi.obj \
+    $(_OBJ_DIR)\ppc\vtblapi.obj \
+    $(_OBJ_DIR)\ppc\iidtothi.obj \
+    $(_OBJ_DIR)\ppc\dbgapi.obj \
+    $(_OBJ_DIR)\ppc\dbgitbl.obj \
+    $(_OBJ_DIR)\ppc\map_kv.obj \
+    $(_OBJ_DIR)\ppc\plex.obj \
+    $(_OBJ_DIR)\ppc\apinot.obj \
+    $(_OBJ_DIR)\ppc\alias.obj \
+    $(_OBJ_DIR)\ppc\mmodel.obj \
+    $(_OBJ_DIR)\ppc\stalloc.obj \
+    $(_OBJ_DIR)\ppc\heap.obj
+
+PASS0_PPC_OBJECTS=
+

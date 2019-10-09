@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\fdfon.obj \
+    $(_OBJ_DIR)\alpha\fdfc.obj \
+    $(_OBJ_DIR)\alpha\fd_query.obj \
+    $(_OBJ_DIR)\alpha\fontfile.obj \
+    $(_OBJ_DIR)\alpha\service.obj \
+    $(_OBJ_DIR)\alpha\fd_poly.obj \
+    $(_OBJ_DIR)\alpha\vdmx.obj \
+    $(_OBJ_DIR)\alpha\vertical.obj \
+    $(_OBJ_DIR)\alpha\dbg.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\fdfon.obj \
+    $(_OBJ_DIR)\mips\fdfc.obj \
+    $(_OBJ_DIR)\mips\fd_query.obj \
+    $(_OBJ_DIR)\mips\fontfile.obj \
+    $(_OBJ_DIR)\mips\service.obj \
+    $(_OBJ_DIR)\mips\fd_poly.obj \
+    $(_OBJ_DIR)\mips\vdmx.obj \
+    $(_OBJ_DIR)\mips\vertical.obj \
+    $(_OBJ_DIR)\mips\dbg.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\fdfon.obj \
+    $(_OBJ_DIR)\i386\fdfc.obj \
+    $(_OBJ_DIR)\i386\fd_query.obj \
+    $(_OBJ_DIR)\i386\fontfile.obj \
+    $(_OBJ_DIR)\i386\service.obj \
+    $(_OBJ_DIR)\i386\fd_poly.obj \
+    $(_OBJ_DIR)\i386\vdmx.obj \
+    $(_OBJ_DIR)\i386\vertical.obj \
+    $(_OBJ_DIR)\i386\dbg.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\fdfon.obj \
+    $(_OBJ_DIR)\ppc\fdfc.obj \
+    $(_OBJ_DIR)\ppc\fd_query.obj \
+    $(_OBJ_DIR)\ppc\fontfile.obj \
+    $(_OBJ_DIR)\ppc\service.obj \
+    $(_OBJ_DIR)\ppc\fd_poly.obj \
+    $(_OBJ_DIR)\ppc\vdmx.obj \
+    $(_OBJ_DIR)\ppc\vertical.obj \
+    $(_OBJ_DIR)\ppc\dbg.obj
+
+PASS0_PPC_OBJECTS=
+

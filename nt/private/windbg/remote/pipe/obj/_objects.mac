@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\tlpipe.res \
+    $(_OBJ_DIR)\alpha\control.obj \
+    $(_OBJ_DIR)\alpha\tlpipe.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\tlpipe.res \
+    $(_OBJ_DIR)\mips\control.obj \
+    $(_OBJ_DIR)\mips\tlpipe.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\tlpipe.res \
+    $(_OBJ_DIR)\i386\control.obj \
+    $(_OBJ_DIR)\i386\tlpipe.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\tlpipe.res \
+    $(_OBJ_DIR)\ppc\control.obj \
+    $(_OBJ_DIR)\ppc\tlpipe.obj
+
+PASS0_PPC_OBJECTS=
+

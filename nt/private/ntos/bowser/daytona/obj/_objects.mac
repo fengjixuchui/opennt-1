@@ -1,0 +1,100 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\bowser.res \
+    $(_OBJ_DIR)\alpha\announce.obj \
+    $(_OBJ_DIR)\alpha\bowdata.obj \
+    $(_OBJ_DIR)\alpha\bowbackp.obj \
+    $(_OBJ_DIR)\alpha\bowelect.obj \
+    $(_OBJ_DIR)\alpha\bowipx.obj \
+    $(_OBJ_DIR)\alpha\bowmastr.obj \
+    $(_OBJ_DIR)\alpha\bowname.obj \
+    $(_OBJ_DIR)\alpha\bowtdi.obj \
+    $(_OBJ_DIR)\alpha\bowtimer.obj \
+    $(_OBJ_DIR)\alpha\bowutils.obj \
+    $(_OBJ_DIR)\alpha\brsrvlst.obj \
+    $(_OBJ_DIR)\alpha\errorlog.obj \
+    $(_OBJ_DIR)\alpha\fileinfo.obj \
+    $(_OBJ_DIR)\alpha\fsctl.obj \
+    $(_OBJ_DIR)\alpha\fsddisp.obj \
+    $(_OBJ_DIR)\alpha\fspdisp.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\mailslot.obj \
+    $(_OBJ_DIR)\alpha\receive.obj \
+    $(_OBJ_DIR)\alpha\workque.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\bowser.res \
+    $(_OBJ_DIR)\mips\announce.obj \
+    $(_OBJ_DIR)\mips\bowdata.obj \
+    $(_OBJ_DIR)\mips\bowbackp.obj \
+    $(_OBJ_DIR)\mips\bowelect.obj \
+    $(_OBJ_DIR)\mips\bowipx.obj \
+    $(_OBJ_DIR)\mips\bowmastr.obj \
+    $(_OBJ_DIR)\mips\bowname.obj \
+    $(_OBJ_DIR)\mips\bowtdi.obj \
+    $(_OBJ_DIR)\mips\bowtimer.obj \
+    $(_OBJ_DIR)\mips\bowutils.obj \
+    $(_OBJ_DIR)\mips\brsrvlst.obj \
+    $(_OBJ_DIR)\mips\errorlog.obj \
+    $(_OBJ_DIR)\mips\fileinfo.obj \
+    $(_OBJ_DIR)\mips\fsctl.obj \
+    $(_OBJ_DIR)\mips\fsddisp.obj \
+    $(_OBJ_DIR)\mips\fspdisp.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\mailslot.obj \
+    $(_OBJ_DIR)\mips\receive.obj \
+    $(_OBJ_DIR)\mips\workque.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\bowser.res \
+    $(_OBJ_DIR)\i386\announce.obj \
+    $(_OBJ_DIR)\i386\bowdata.obj \
+    $(_OBJ_DIR)\i386\bowbackp.obj \
+    $(_OBJ_DIR)\i386\bowelect.obj \
+    $(_OBJ_DIR)\i386\bowipx.obj \
+    $(_OBJ_DIR)\i386\bowmastr.obj \
+    $(_OBJ_DIR)\i386\bowname.obj \
+    $(_OBJ_DIR)\i386\bowtdi.obj \
+    $(_OBJ_DIR)\i386\bowtimer.obj \
+    $(_OBJ_DIR)\i386\bowutils.obj \
+    $(_OBJ_DIR)\i386\brsrvlst.obj \
+    $(_OBJ_DIR)\i386\errorlog.obj \
+    $(_OBJ_DIR)\i386\fileinfo.obj \
+    $(_OBJ_DIR)\i386\fsctl.obj \
+    $(_OBJ_DIR)\i386\fsddisp.obj \
+    $(_OBJ_DIR)\i386\fspdisp.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\mailslot.obj \
+    $(_OBJ_DIR)\i386\receive.obj \
+    $(_OBJ_DIR)\i386\workque.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\bowser.res \
+    $(_OBJ_DIR)\ppc\announce.obj \
+    $(_OBJ_DIR)\ppc\bowdata.obj \
+    $(_OBJ_DIR)\ppc\bowbackp.obj \
+    $(_OBJ_DIR)\ppc\bowelect.obj \
+    $(_OBJ_DIR)\ppc\bowipx.obj \
+    $(_OBJ_DIR)\ppc\bowmastr.obj \
+    $(_OBJ_DIR)\ppc\bowname.obj \
+    $(_OBJ_DIR)\ppc\bowtdi.obj \
+    $(_OBJ_DIR)\ppc\bowtimer.obj \
+    $(_OBJ_DIR)\ppc\bowutils.obj \
+    $(_OBJ_DIR)\ppc\brsrvlst.obj \
+    $(_OBJ_DIR)\ppc\errorlog.obj \
+    $(_OBJ_DIR)\ppc\fileinfo.obj \
+    $(_OBJ_DIR)\ppc\fsctl.obj \
+    $(_OBJ_DIR)\ppc\fsddisp.obj \
+    $(_OBJ_DIR)\ppc\fspdisp.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\mailslot.obj \
+    $(_OBJ_DIR)\ppc\receive.obj \
+    $(_OBJ_DIR)\ppc\workque.obj
+
+PASS0_PPC_OBJECTS=
+

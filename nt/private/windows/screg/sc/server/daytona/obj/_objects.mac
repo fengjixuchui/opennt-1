@@ -1,0 +1,100 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\services.res \
+    $(_OBJ_DIR)\alpha\bootcfg.obj \
+    $(_OBJ_DIR)\alpha\dataman.obj \
+    $(_OBJ_DIR)\alpha\groupman.obj \
+    $(_OBJ_DIR)\alpha\scopen.obj \
+    $(_OBJ_DIR)\alpha\cfgapi.obj \
+    $(_OBJ_DIR)\alpha\control.obj \
+    $(_OBJ_DIR)\alpha\depend.obj \
+    $(_OBJ_DIR)\alpha\driver.obj \
+    $(_OBJ_DIR)\alpha\lockapi.obj \
+    $(_OBJ_DIR)\alpha\start.obj \
+    $(_OBJ_DIR)\alpha\info.obj \
+    $(_OBJ_DIR)\alpha\scansi.obj \
+    $(_OBJ_DIR)\alpha\status.obj \
+    $(_OBJ_DIR)\alpha\scbsm.obj \
+    $(_OBJ_DIR)\alpha\scconfig.obj \
+    $(_OBJ_DIR)\alpha\scsec.obj \
+    $(_OBJ_DIR)\alpha\account.obj \
+    $(_OBJ_DIR)\alpha\svcctrl.obj \
+    $(_OBJ_DIR)\alpha\svcctl_s.obj \
+    $(_OBJ_DIR)\alpha\services.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\services.res \
+    $(_OBJ_DIR)\mips\bootcfg.obj \
+    $(_OBJ_DIR)\mips\dataman.obj \
+    $(_OBJ_DIR)\mips\groupman.obj \
+    $(_OBJ_DIR)\mips\scopen.obj \
+    $(_OBJ_DIR)\mips\cfgapi.obj \
+    $(_OBJ_DIR)\mips\control.obj \
+    $(_OBJ_DIR)\mips\depend.obj \
+    $(_OBJ_DIR)\mips\driver.obj \
+    $(_OBJ_DIR)\mips\lockapi.obj \
+    $(_OBJ_DIR)\mips\start.obj \
+    $(_OBJ_DIR)\mips\info.obj \
+    $(_OBJ_DIR)\mips\scansi.obj \
+    $(_OBJ_DIR)\mips\status.obj \
+    $(_OBJ_DIR)\mips\scbsm.obj \
+    $(_OBJ_DIR)\mips\scconfig.obj \
+    $(_OBJ_DIR)\mips\scsec.obj \
+    $(_OBJ_DIR)\mips\account.obj \
+    $(_OBJ_DIR)\mips\svcctrl.obj \
+    $(_OBJ_DIR)\mips\svcctl_s.obj \
+    $(_OBJ_DIR)\mips\services.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\services.res \
+    $(_OBJ_DIR)\i386\bootcfg.obj \
+    $(_OBJ_DIR)\i386\dataman.obj \
+    $(_OBJ_DIR)\i386\groupman.obj \
+    $(_OBJ_DIR)\i386\scopen.obj \
+    $(_OBJ_DIR)\i386\cfgapi.obj \
+    $(_OBJ_DIR)\i386\control.obj \
+    $(_OBJ_DIR)\i386\depend.obj \
+    $(_OBJ_DIR)\i386\driver.obj \
+    $(_OBJ_DIR)\i386\lockapi.obj \
+    $(_OBJ_DIR)\i386\start.obj \
+    $(_OBJ_DIR)\i386\info.obj \
+    $(_OBJ_DIR)\i386\scansi.obj \
+    $(_OBJ_DIR)\i386\status.obj \
+    $(_OBJ_DIR)\i386\scbsm.obj \
+    $(_OBJ_DIR)\i386\scconfig.obj \
+    $(_OBJ_DIR)\i386\scsec.obj \
+    $(_OBJ_DIR)\i386\account.obj \
+    $(_OBJ_DIR)\i386\svcctrl.obj \
+    $(_OBJ_DIR)\i386\svcctl_s.obj \
+    $(_OBJ_DIR)\i386\services.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\services.res \
+    $(_OBJ_DIR)\ppc\bootcfg.obj \
+    $(_OBJ_DIR)\ppc\dataman.obj \
+    $(_OBJ_DIR)\ppc\groupman.obj \
+    $(_OBJ_DIR)\ppc\scopen.obj \
+    $(_OBJ_DIR)\ppc\cfgapi.obj \
+    $(_OBJ_DIR)\ppc\control.obj \
+    $(_OBJ_DIR)\ppc\depend.obj \
+    $(_OBJ_DIR)\ppc\driver.obj \
+    $(_OBJ_DIR)\ppc\lockapi.obj \
+    $(_OBJ_DIR)\ppc\start.obj \
+    $(_OBJ_DIR)\ppc\info.obj \
+    $(_OBJ_DIR)\ppc\scansi.obj \
+    $(_OBJ_DIR)\ppc\status.obj \
+    $(_OBJ_DIR)\ppc\scbsm.obj \
+    $(_OBJ_DIR)\ppc\scconfig.obj \
+    $(_OBJ_DIR)\ppc\scsec.obj \
+    $(_OBJ_DIR)\ppc\account.obj \
+    $(_OBJ_DIR)\ppc\svcctrl.obj \
+    $(_OBJ_DIR)\ppc\svcctl_s.obj \
+    $(_OBJ_DIR)\ppc\services.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\pjlmon.res \
+    $(_OBJ_DIR)\alpha\pjlmon.obj \
+    $(_OBJ_DIR)\alpha\parsepjl.obj \
+    $(_OBJ_DIR)\alpha\util.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\pjlmon.res \
+    $(_OBJ_DIR)\mips\pjlmon.obj \
+    $(_OBJ_DIR)\mips\parsepjl.obj \
+    $(_OBJ_DIR)\mips\util.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\pjlmon.res \
+    $(_OBJ_DIR)\i386\pjlmon.obj \
+    $(_OBJ_DIR)\i386\parsepjl.obj \
+    $(_OBJ_DIR)\i386\util.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\pjlmon.res \
+    $(_OBJ_DIR)\ppc\pjlmon.obj \
+    $(_OBJ_DIR)\ppc\parsepjl.obj \
+    $(_OBJ_DIR)\ppc\util.obj
+
+PASS0_PPC_OBJECTS=
+

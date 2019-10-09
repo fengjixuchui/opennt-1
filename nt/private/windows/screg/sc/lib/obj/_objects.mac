@@ -1,0 +1,64 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\acctname.obj \
+    $(_OBJ_DIR)\alpha\confparm.obj \
+    $(_OBJ_DIR)\alpha\convert.obj \
+    $(_OBJ_DIR)\alpha\drivname.obj \
+    $(_OBJ_DIR)\alpha\packstr.obj \
+    $(_OBJ_DIR)\alpha\path.obj \
+    $(_OBJ_DIR)\alpha\scseclib.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\valid.obj \
+    $(_OBJ_DIR)\alpha\ultow.obj \
+    $(_OBJ_DIR)\alpha\sccrypt.obj \
+    $(_OBJ_DIR)\alpha\strarray.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\acctname.obj \
+    $(_OBJ_DIR)\mips\confparm.obj \
+    $(_OBJ_DIR)\mips\convert.obj \
+    $(_OBJ_DIR)\mips\drivname.obj \
+    $(_OBJ_DIR)\mips\packstr.obj \
+    $(_OBJ_DIR)\mips\path.obj \
+    $(_OBJ_DIR)\mips\scseclib.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\valid.obj \
+    $(_OBJ_DIR)\mips\ultow.obj \
+    $(_OBJ_DIR)\mips\sccrypt.obj \
+    $(_OBJ_DIR)\mips\strarray.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\acctname.obj \
+    $(_OBJ_DIR)\i386\confparm.obj \
+    $(_OBJ_DIR)\i386\convert.obj \
+    $(_OBJ_DIR)\i386\drivname.obj \
+    $(_OBJ_DIR)\i386\packstr.obj \
+    $(_OBJ_DIR)\i386\path.obj \
+    $(_OBJ_DIR)\i386\scseclib.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\valid.obj \
+    $(_OBJ_DIR)\i386\ultow.obj \
+    $(_OBJ_DIR)\i386\sccrypt.obj \
+    $(_OBJ_DIR)\i386\strarray.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\acctname.obj \
+    $(_OBJ_DIR)\ppc\confparm.obj \
+    $(_OBJ_DIR)\ppc\convert.obj \
+    $(_OBJ_DIR)\ppc\drivname.obj \
+    $(_OBJ_DIR)\ppc\packstr.obj \
+    $(_OBJ_DIR)\ppc\path.obj \
+    $(_OBJ_DIR)\ppc\scseclib.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\valid.obj \
+    $(_OBJ_DIR)\ppc\ultow.obj \
+    $(_OBJ_DIR)\ppc\sccrypt.obj \
+    $(_OBJ_DIR)\ppc\strarray.obj
+
+PASS0_PPC_OBJECTS=
+

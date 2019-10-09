@@ -1,0 +1,60 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\glaux.obj \
+    $(_OBJ_DIR)\alpha\font.obj \
+    $(_OBJ_DIR)\alpha\image.obj \
+    $(_OBJ_DIR)\alpha\shapes.obj \
+    $(_OBJ_DIR)\alpha\teapot.obj \
+    $(_OBJ_DIR)\alpha\vect3d.obj \
+    $(_OBJ_DIR)\alpha\xform.obj \
+    $(_OBJ_DIR)\alpha\tkdib.obj \
+    $(_OBJ_DIR)\alpha\tkfont.obj \
+    $(_OBJ_DIR)\alpha\tkimage.obj \
+    $(_OBJ_DIR)\alpha\tk.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\glaux.obj \
+    $(_OBJ_DIR)\mips\font.obj \
+    $(_OBJ_DIR)\mips\image.obj \
+    $(_OBJ_DIR)\mips\shapes.obj \
+    $(_OBJ_DIR)\mips\teapot.obj \
+    $(_OBJ_DIR)\mips\vect3d.obj \
+    $(_OBJ_DIR)\mips\xform.obj \
+    $(_OBJ_DIR)\mips\tkdib.obj \
+    $(_OBJ_DIR)\mips\tkfont.obj \
+    $(_OBJ_DIR)\mips\tkimage.obj \
+    $(_OBJ_DIR)\mips\tk.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\glaux.obj \
+    $(_OBJ_DIR)\i386\font.obj \
+    $(_OBJ_DIR)\i386\image.obj \
+    $(_OBJ_DIR)\i386\shapes.obj \
+    $(_OBJ_DIR)\i386\teapot.obj \
+    $(_OBJ_DIR)\i386\vect3d.obj \
+    $(_OBJ_DIR)\i386\xform.obj \
+    $(_OBJ_DIR)\i386\tkdib.obj \
+    $(_OBJ_DIR)\i386\tkfont.obj \
+    $(_OBJ_DIR)\i386\tkimage.obj \
+    $(_OBJ_DIR)\i386\tk.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\glaux.obj \
+    $(_OBJ_DIR)\ppc\font.obj \
+    $(_OBJ_DIR)\ppc\image.obj \
+    $(_OBJ_DIR)\ppc\shapes.obj \
+    $(_OBJ_DIR)\ppc\teapot.obj \
+    $(_OBJ_DIR)\ppc\vect3d.obj \
+    $(_OBJ_DIR)\ppc\xform.obj \
+    $(_OBJ_DIR)\ppc\tkdib.obj \
+    $(_OBJ_DIR)\ppc\tkfont.obj \
+    $(_OBJ_DIR)\ppc\tkimage.obj \
+    $(_OBJ_DIR)\ppc\tk.obj
+
+PASS0_PPC_OBJECTS=
+

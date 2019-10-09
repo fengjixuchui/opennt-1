@@ -1,0 +1,87 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ehunwind.obj \
+    $(_OBJ_DIR)\alpha\trnsctrl.obj \
+    $(_OBJ_DIR)\alpha\ehvecctr.obj \
+    $(_OBJ_DIR)\alpha\ehvecdtr.obj \
+    $(_OBJ_DIR)\alpha\ehveccvb.obj \
+    $(_OBJ_DIR)\alpha\frame.obj \
+    $(_OBJ_DIR)\alpha\hooks.obj \
+    $(_OBJ_DIR)\alpha\rtti.obj \
+    $(_OBJ_DIR)\alpha\stdexcpt.obj \
+    $(_OBJ_DIR)\alpha\throw.obj \
+    $(_OBJ_DIR)\alpha\typinfo.obj \
+    $(_OBJ_DIR)\alpha\typname.obj \
+    $(_OBJ_DIR)\alpha\unhandld.obj \
+    $(_OBJ_DIR)\alpha\user.obj \
+    $(_OBJ_DIR)\alpha\validate.obj \
+    $(_OBJ_DIR)\alpha\xundname.obj \
+    $(_OBJ_DIR)\alpha\bridge.obj \
+    $(_OBJ_DIR)\alpha\xcptmisc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\trnsctrl.obj \
+    $(_OBJ_DIR)\mips\ehstate.obj \
+    $(_OBJ_DIR)\mips\ehvecctr.obj \
+    $(_OBJ_DIR)\mips\ehvecdtr.obj \
+    $(_OBJ_DIR)\mips\ehveccvb.obj \
+    $(_OBJ_DIR)\mips\frame.obj \
+    $(_OBJ_DIR)\mips\hooks.obj \
+    $(_OBJ_DIR)\mips\rtti.obj \
+    $(_OBJ_DIR)\mips\stdexcpt.obj \
+    $(_OBJ_DIR)\mips\throw.obj \
+    $(_OBJ_DIR)\mips\typinfo.obj \
+    $(_OBJ_DIR)\mips\typname.obj \
+    $(_OBJ_DIR)\mips\unhandld.obj \
+    $(_OBJ_DIR)\mips\user.obj \
+    $(_OBJ_DIR)\mips\validate.obj \
+    $(_OBJ_DIR)\mips\xundname.obj \
+    $(_OBJ_DIR)\mips\handlers.obj \
+    $(_OBJ_DIR)\mips\rtlmisc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\lowhelpr.obj \
+    $(_OBJ_DIR)\i386\ehprolog.obj \
+    $(_OBJ_DIR)\i386\trnsctrl.obj \
+    $(_OBJ_DIR)\i386\ehvecctr.obj \
+    $(_OBJ_DIR)\i386\ehvecdtr.obj \
+    $(_OBJ_DIR)\i386\ehveccvb.obj \
+    $(_OBJ_DIR)\i386\frame.obj \
+    $(_OBJ_DIR)\i386\hooks.obj \
+    $(_OBJ_DIR)\i386\rtti.obj \
+    $(_OBJ_DIR)\i386\stdexcpt.obj \
+    $(_OBJ_DIR)\i386\throw.obj \
+    $(_OBJ_DIR)\i386\typinfo.obj \
+    $(_OBJ_DIR)\i386\typname.obj \
+    $(_OBJ_DIR)\i386\unhandld.obj \
+    $(_OBJ_DIR)\i386\user.obj \
+    $(_OBJ_DIR)\i386\validate.obj \
+    $(_OBJ_DIR)\i386\xundname.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\trnsctrl.obj \
+    $(_OBJ_DIR)\ppc\ehstate.obj \
+    $(_OBJ_DIR)\ppc\ehvecctr.obj \
+    $(_OBJ_DIR)\ppc\ehvecdtr.obj \
+    $(_OBJ_DIR)\ppc\ehveccvb.obj \
+    $(_OBJ_DIR)\ppc\frame.obj \
+    $(_OBJ_DIR)\ppc\hooks.obj \
+    $(_OBJ_DIR)\ppc\rtti.obj \
+    $(_OBJ_DIR)\ppc\stdexcpt.obj \
+    $(_OBJ_DIR)\ppc\throw.obj \
+    $(_OBJ_DIR)\ppc\typinfo.obj \
+    $(_OBJ_DIR)\ppc\typname.obj \
+    $(_OBJ_DIR)\ppc\unhandld.obj \
+    $(_OBJ_DIR)\ppc\user.obj \
+    $(_OBJ_DIR)\ppc\validate.obj \
+    $(_OBJ_DIR)\ppc\xundname.obj \
+    $(_OBJ_DIR)\ppc\handlers.obj \
+    $(_OBJ_DIR)\ppc\unwind.obj
+
+PASS0_PPC_OBJECTS=
+

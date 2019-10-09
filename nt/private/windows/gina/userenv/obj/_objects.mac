@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\userenv.res \
+    $(_OBJ_DIR)\alpha\userenv.obj \
+    $(_OBJ_DIR)\alpha\globals.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\stubs.obj \
+    $(_OBJ_DIR)\alpha\copydir.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\policy.obj \
+    $(_OBJ_DIR)\alpha\profile.obj \
+    $(_OBJ_DIR)\alpha\sid.obj \
+    $(_OBJ_DIR)\alpha\setup.obj \
+    $(_OBJ_DIR)\alpha\events.obj \
+    $(_OBJ_DIR)\alpha\userdiff.obj \
+    $(_OBJ_DIR)\alpha\envvar.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\userenv.res \
+    $(_OBJ_DIR)\mips\userenv.obj \
+    $(_OBJ_DIR)\mips\globals.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\stubs.obj \
+    $(_OBJ_DIR)\mips\copydir.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\policy.obj \
+    $(_OBJ_DIR)\mips\profile.obj \
+    $(_OBJ_DIR)\mips\sid.obj \
+    $(_OBJ_DIR)\mips\setup.obj \
+    $(_OBJ_DIR)\mips\events.obj \
+    $(_OBJ_DIR)\mips\userdiff.obj \
+    $(_OBJ_DIR)\mips\envvar.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\userenv.res \
+    $(_OBJ_DIR)\i386\userenv.obj \
+    $(_OBJ_DIR)\i386\globals.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\stubs.obj \
+    $(_OBJ_DIR)\i386\copydir.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\policy.obj \
+    $(_OBJ_DIR)\i386\profile.obj \
+    $(_OBJ_DIR)\i386\sid.obj \
+    $(_OBJ_DIR)\i386\setup.obj \
+    $(_OBJ_DIR)\i386\events.obj \
+    $(_OBJ_DIR)\i386\userdiff.obj \
+    $(_OBJ_DIR)\i386\envvar.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\userenv.res \
+    $(_OBJ_DIR)\ppc\userenv.obj \
+    $(_OBJ_DIR)\ppc\globals.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\stubs.obj \
+    $(_OBJ_DIR)\ppc\copydir.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\policy.obj \
+    $(_OBJ_DIR)\ppc\profile.obj \
+    $(_OBJ_DIR)\ppc\sid.obj \
+    $(_OBJ_DIR)\ppc\setup.obj \
+    $(_OBJ_DIR)\ppc\events.obj \
+    $(_OBJ_DIR)\ppc\userdiff.obj \
+    $(_OBJ_DIR)\ppc\envvar.obj
+
+PASS0_PPC_OBJECTS=
+

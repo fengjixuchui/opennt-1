@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\kbdhe220.res \
+    $(_OBJ_DIR)\alpha\kbdhe220.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\kbdhe220.res \
+    $(_OBJ_DIR)\mips\kbdhe220.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\kbdhe220.res \
+    $(_OBJ_DIR)\i386\kbdhe220.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\kbdhe220.res \
+    $(_OBJ_DIR)\ppc\kbdhe220.obj
+
+PASS0_PPC_OBJECTS=
+

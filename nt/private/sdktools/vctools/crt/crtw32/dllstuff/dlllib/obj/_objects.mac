@@ -1,0 +1,70 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\atonexit.obj \
+    $(_OBJ_DIR)\alpha\cinitexe.obj \
+    $(_OBJ_DIR)\alpha\crtdll.obj \
+    $(_OBJ_DIR)\alpha\crtexe.obj \
+    $(_OBJ_DIR)\alpha\crtexew.obj \
+    $(_OBJ_DIR)\alpha\dll_argv.obj \
+    $(_OBJ_DIR)\alpha\dllargv.obj \
+    $(_OBJ_DIR)\alpha\merr.obj \
+    $(_OBJ_DIR)\alpha\wcrtexe.obj \
+    $(_OBJ_DIR)\alpha\wcrtexew.obj \
+    $(_OBJ_DIR)\alpha\wdllargv.obj \
+    $(_OBJ_DIR)\alpha\wildcard.obj \
+    $(_OBJ_DIR)\alpha\ti_inst.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\atonexit.obj \
+    $(_OBJ_DIR)\mips\cinitexe.obj \
+    $(_OBJ_DIR)\mips\crtdll.obj \
+    $(_OBJ_DIR)\mips\crtexe.obj \
+    $(_OBJ_DIR)\mips\crtexew.obj \
+    $(_OBJ_DIR)\mips\dll_argv.obj \
+    $(_OBJ_DIR)\mips\dllargv.obj \
+    $(_OBJ_DIR)\mips\merr.obj \
+    $(_OBJ_DIR)\mips\wcrtexe.obj \
+    $(_OBJ_DIR)\mips\wcrtexew.obj \
+    $(_OBJ_DIR)\mips\wdllargv.obj \
+    $(_OBJ_DIR)\mips\wildcard.obj \
+    $(_OBJ_DIR)\mips\ti_inst.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dllsupp.obj \
+    $(_OBJ_DIR)\i386\atonexit.obj \
+    $(_OBJ_DIR)\i386\cinitexe.obj \
+    $(_OBJ_DIR)\i386\crtdll.obj \
+    $(_OBJ_DIR)\i386\crtexe.obj \
+    $(_OBJ_DIR)\i386\crtexew.obj \
+    $(_OBJ_DIR)\i386\dll_argv.obj \
+    $(_OBJ_DIR)\i386\dllargv.obj \
+    $(_OBJ_DIR)\i386\merr.obj \
+    $(_OBJ_DIR)\i386\wcrtexe.obj \
+    $(_OBJ_DIR)\i386\wcrtexew.obj \
+    $(_OBJ_DIR)\i386\wdllargv.obj \
+    $(_OBJ_DIR)\i386\wildcard.obj \
+    $(_OBJ_DIR)\i386\adjustfd.obj \
+    $(_OBJ_DIR)\i386\ti_inst.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\atonexit.obj \
+    $(_OBJ_DIR)\ppc\cinitexe.obj \
+    $(_OBJ_DIR)\ppc\crtdll.obj \
+    $(_OBJ_DIR)\ppc\crtexe.obj \
+    $(_OBJ_DIR)\ppc\crtexew.obj \
+    $(_OBJ_DIR)\ppc\dll_argv.obj \
+    $(_OBJ_DIR)\ppc\dllargv.obj \
+    $(_OBJ_DIR)\ppc\merr.obj \
+    $(_OBJ_DIR)\ppc\wcrtexe.obj \
+    $(_OBJ_DIR)\ppc\wcrtexew.obj \
+    $(_OBJ_DIR)\ppc\wdllargv.obj \
+    $(_OBJ_DIR)\ppc\wildcard.obj \
+    $(_OBJ_DIR)\ppc\ti_inst.obj
+
+PASS0_PPC_OBJECTS=
+

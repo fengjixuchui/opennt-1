@@ -1,0 +1,80 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\oletest.res \
+    $(_OBJ_DIR)\alpha\oletest.obj \
+    $(_OBJ_DIR)\alpha\stack.obj \
+    $(_OBJ_DIR)\alpha\task.obj \
+    $(_OBJ_DIR)\alpha\app.obj \
+    $(_OBJ_DIR)\alpha\output.obj \
+    $(_OBJ_DIR)\alpha\cliptest.obj \
+    $(_OBJ_DIR)\alpha\gendata.obj \
+    $(_OBJ_DIR)\alpha\letests.obj \
+    $(_OBJ_DIR)\alpha\attest.obj \
+    $(_OBJ_DIR)\alpha\genenum.obj \
+    $(_OBJ_DIR)\alpha\dataadv.obj \
+    $(_OBJ_DIR)\alpha\oleadv.obj \
+    $(_OBJ_DIR)\alpha\uthread.obj \
+    $(_OBJ_DIR)\alpha\utils.obj \
+    $(_OBJ_DIR)\alpha\assert.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\oletest.res \
+    $(_OBJ_DIR)\mips\oletest.obj \
+    $(_OBJ_DIR)\mips\stack.obj \
+    $(_OBJ_DIR)\mips\task.obj \
+    $(_OBJ_DIR)\mips\app.obj \
+    $(_OBJ_DIR)\mips\output.obj \
+    $(_OBJ_DIR)\mips\cliptest.obj \
+    $(_OBJ_DIR)\mips\gendata.obj \
+    $(_OBJ_DIR)\mips\letests.obj \
+    $(_OBJ_DIR)\mips\attest.obj \
+    $(_OBJ_DIR)\mips\genenum.obj \
+    $(_OBJ_DIR)\mips\dataadv.obj \
+    $(_OBJ_DIR)\mips\oleadv.obj \
+    $(_OBJ_DIR)\mips\uthread.obj \
+    $(_OBJ_DIR)\mips\utils.obj \
+    $(_OBJ_DIR)\mips\assert.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\oletest.res \
+    $(_OBJ_DIR)\i386\oletest.obj \
+    $(_OBJ_DIR)\i386\stack.obj \
+    $(_OBJ_DIR)\i386\task.obj \
+    $(_OBJ_DIR)\i386\app.obj \
+    $(_OBJ_DIR)\i386\output.obj \
+    $(_OBJ_DIR)\i386\cliptest.obj \
+    $(_OBJ_DIR)\i386\gendata.obj \
+    $(_OBJ_DIR)\i386\letests.obj \
+    $(_OBJ_DIR)\i386\attest.obj \
+    $(_OBJ_DIR)\i386\genenum.obj \
+    $(_OBJ_DIR)\i386\dataadv.obj \
+    $(_OBJ_DIR)\i386\oleadv.obj \
+    $(_OBJ_DIR)\i386\uthread.obj \
+    $(_OBJ_DIR)\i386\utils.obj \
+    $(_OBJ_DIR)\i386\assert.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\oletest.res \
+    $(_OBJ_DIR)\ppc\oletest.obj \
+    $(_OBJ_DIR)\ppc\stack.obj \
+    $(_OBJ_DIR)\ppc\task.obj \
+    $(_OBJ_DIR)\ppc\app.obj \
+    $(_OBJ_DIR)\ppc\output.obj \
+    $(_OBJ_DIR)\ppc\cliptest.obj \
+    $(_OBJ_DIR)\ppc\gendata.obj \
+    $(_OBJ_DIR)\ppc\letests.obj \
+    $(_OBJ_DIR)\ppc\attest.obj \
+    $(_OBJ_DIR)\ppc\genenum.obj \
+    $(_OBJ_DIR)\ppc\dataadv.obj \
+    $(_OBJ_DIR)\ppc\oleadv.obj \
+    $(_OBJ_DIR)\ppc\uthread.obj \
+    $(_OBJ_DIR)\ppc\utils.obj \
+    $(_OBJ_DIR)\ppc\assert.obj
+
+PASS0_PPC_OBJECTS=
+

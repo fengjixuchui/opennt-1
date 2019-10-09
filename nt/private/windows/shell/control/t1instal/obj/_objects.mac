@@ -1,0 +1,96 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\t1instal.res \
+    $(_OBJ_DIR)\alpha\atmpfm.obj \
+    $(_OBJ_DIR)\alpha\builder.obj \
+    $(_OBJ_DIR)\alpha\charstr.obj \
+    $(_OBJ_DIR)\alpha\encoding.obj \
+    $(_OBJ_DIR)\alpha\errors.obj \
+    $(_OBJ_DIR)\alpha\freader.obj \
+    $(_OBJ_DIR)\alpha\fwriter.obj \
+    $(_OBJ_DIR)\alpha\hints.obj \
+    $(_OBJ_DIR)\alpha\makepfm.obj \
+    $(_OBJ_DIR)\alpha\mreader.obj \
+    $(_OBJ_DIR)\alpha\pfb.obj \
+    $(_OBJ_DIR)\alpha\pfm.obj \
+    $(_OBJ_DIR)\alpha\t1instal.obj \
+    $(_OBJ_DIR)\alpha\t1parser.obj \
+    $(_OBJ_DIR)\alpha\titott.obj \
+    $(_OBJ_DIR)\alpha\trans.obj \
+    $(_OBJ_DIR)\alpha\trig.obj \
+    $(_OBJ_DIR)\alpha\ttprog.obj \
+    $(_OBJ_DIR)\alpha\winio.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\t1instal.res \
+    $(_OBJ_DIR)\mips\atmpfm.obj \
+    $(_OBJ_DIR)\mips\builder.obj \
+    $(_OBJ_DIR)\mips\charstr.obj \
+    $(_OBJ_DIR)\mips\encoding.obj \
+    $(_OBJ_DIR)\mips\errors.obj \
+    $(_OBJ_DIR)\mips\freader.obj \
+    $(_OBJ_DIR)\mips\fwriter.obj \
+    $(_OBJ_DIR)\mips\hints.obj \
+    $(_OBJ_DIR)\mips\makepfm.obj \
+    $(_OBJ_DIR)\mips\mreader.obj \
+    $(_OBJ_DIR)\mips\pfb.obj \
+    $(_OBJ_DIR)\mips\pfm.obj \
+    $(_OBJ_DIR)\mips\t1instal.obj \
+    $(_OBJ_DIR)\mips\t1parser.obj \
+    $(_OBJ_DIR)\mips\titott.obj \
+    $(_OBJ_DIR)\mips\trans.obj \
+    $(_OBJ_DIR)\mips\trig.obj \
+    $(_OBJ_DIR)\mips\ttprog.obj \
+    $(_OBJ_DIR)\mips\winio.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\t1instal.res \
+    $(_OBJ_DIR)\i386\atmpfm.obj \
+    $(_OBJ_DIR)\i386\builder.obj \
+    $(_OBJ_DIR)\i386\charstr.obj \
+    $(_OBJ_DIR)\i386\encoding.obj \
+    $(_OBJ_DIR)\i386\errors.obj \
+    $(_OBJ_DIR)\i386\freader.obj \
+    $(_OBJ_DIR)\i386\fwriter.obj \
+    $(_OBJ_DIR)\i386\hints.obj \
+    $(_OBJ_DIR)\i386\makepfm.obj \
+    $(_OBJ_DIR)\i386\mreader.obj \
+    $(_OBJ_DIR)\i386\pfb.obj \
+    $(_OBJ_DIR)\i386\pfm.obj \
+    $(_OBJ_DIR)\i386\t1instal.obj \
+    $(_OBJ_DIR)\i386\t1parser.obj \
+    $(_OBJ_DIR)\i386\titott.obj \
+    $(_OBJ_DIR)\i386\trans.obj \
+    $(_OBJ_DIR)\i386\trig.obj \
+    $(_OBJ_DIR)\i386\ttprog.obj \
+    $(_OBJ_DIR)\i386\winio.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\t1instal.res \
+    $(_OBJ_DIR)\ppc\atmpfm.obj \
+    $(_OBJ_DIR)\ppc\builder.obj \
+    $(_OBJ_DIR)\ppc\charstr.obj \
+    $(_OBJ_DIR)\ppc\encoding.obj \
+    $(_OBJ_DIR)\ppc\errors.obj \
+    $(_OBJ_DIR)\ppc\freader.obj \
+    $(_OBJ_DIR)\ppc\fwriter.obj \
+    $(_OBJ_DIR)\ppc\hints.obj \
+    $(_OBJ_DIR)\ppc\makepfm.obj \
+    $(_OBJ_DIR)\ppc\mreader.obj \
+    $(_OBJ_DIR)\ppc\pfb.obj \
+    $(_OBJ_DIR)\ppc\pfm.obj \
+    $(_OBJ_DIR)\ppc\t1instal.obj \
+    $(_OBJ_DIR)\ppc\t1parser.obj \
+    $(_OBJ_DIR)\ppc\titott.obj \
+    $(_OBJ_DIR)\ppc\trans.obj \
+    $(_OBJ_DIR)\ppc\trig.obj \
+    $(_OBJ_DIR)\ppc\ttprog.obj \
+    $(_OBJ_DIR)\ppc\winio.obj
+
+PASS0_PPC_OBJECTS=
+

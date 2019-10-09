@@ -1,0 +1,8 @@
+-machine:i386 -dll
+-map:W:\nt\private\oleauto\rwin32\stdole32.MAP -nodefaultlib 
+-debug:none
+-noentry
+-out:W:\nt\private\oleauto\rwin32\stdole32.tlb
+-heap:0,0
+-stack:0,0
+W:\nt\private\oleauto\rwin32\_resfile.obj

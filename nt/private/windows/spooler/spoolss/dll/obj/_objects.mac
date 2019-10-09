@@ -1,0 +1,100 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\spoolss.res \
+    $(_OBJ_DIR)\alpha\winspool.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\change.obj \
+    $(_OBJ_DIR)\alpha\reply.obj \
+    $(_OBJ_DIR)\alpha\winsplc.obj \
+    $(_OBJ_DIR)\alpha\bind.obj \
+    $(_OBJ_DIR)\alpha\threads.obj \
+    $(_OBJ_DIR)\alpha\threadm.obj \
+    $(_OBJ_DIR)\alpha\netid.obj \
+    $(_OBJ_DIR)\alpha\reghand.obj \
+    $(_OBJ_DIR)\alpha\memory.obj \
+    $(_OBJ_DIR)\alpha\midluser.obj \
+    $(_OBJ_DIR)\alpha\splinit.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\spooler.obj \
+    $(_OBJ_DIR)\alpha\printer.obj \
+    $(_OBJ_DIR)\alpha\job.obj \
+    $(_OBJ_DIR)\alpha\monitor.obj \
+    $(_OBJ_DIR)\alpha\info.obj \
+    $(_OBJ_DIR)\alpha\nullpp.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\spoolss.res \
+    $(_OBJ_DIR)\mips\winspool.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\change.obj \
+    $(_OBJ_DIR)\mips\reply.obj \
+    $(_OBJ_DIR)\mips\winsplc.obj \
+    $(_OBJ_DIR)\mips\bind.obj \
+    $(_OBJ_DIR)\mips\threads.obj \
+    $(_OBJ_DIR)\mips\threadm.obj \
+    $(_OBJ_DIR)\mips\netid.obj \
+    $(_OBJ_DIR)\mips\reghand.obj \
+    $(_OBJ_DIR)\mips\memory.obj \
+    $(_OBJ_DIR)\mips\midluser.obj \
+    $(_OBJ_DIR)\mips\splinit.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\spooler.obj \
+    $(_OBJ_DIR)\mips\printer.obj \
+    $(_OBJ_DIR)\mips\job.obj \
+    $(_OBJ_DIR)\mips\monitor.obj \
+    $(_OBJ_DIR)\mips\info.obj \
+    $(_OBJ_DIR)\mips\nullpp.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\spoolss.res \
+    $(_OBJ_DIR)\i386\winspool.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\change.obj \
+    $(_OBJ_DIR)\i386\reply.obj \
+    $(_OBJ_DIR)\i386\winsplc.obj \
+    $(_OBJ_DIR)\i386\bind.obj \
+    $(_OBJ_DIR)\i386\threads.obj \
+    $(_OBJ_DIR)\i386\threadm.obj \
+    $(_OBJ_DIR)\i386\netid.obj \
+    $(_OBJ_DIR)\i386\reghand.obj \
+    $(_OBJ_DIR)\i386\memory.obj \
+    $(_OBJ_DIR)\i386\midluser.obj \
+    $(_OBJ_DIR)\i386\splinit.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\spooler.obj \
+    $(_OBJ_DIR)\i386\printer.obj \
+    $(_OBJ_DIR)\i386\job.obj \
+    $(_OBJ_DIR)\i386\monitor.obj \
+    $(_OBJ_DIR)\i386\info.obj \
+    $(_OBJ_DIR)\i386\nullpp.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\spoolss.res \
+    $(_OBJ_DIR)\ppc\winspool.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\change.obj \
+    $(_OBJ_DIR)\ppc\reply.obj \
+    $(_OBJ_DIR)\ppc\winsplc.obj \
+    $(_OBJ_DIR)\ppc\bind.obj \
+    $(_OBJ_DIR)\ppc\threads.obj \
+    $(_OBJ_DIR)\ppc\threadm.obj \
+    $(_OBJ_DIR)\ppc\netid.obj \
+    $(_OBJ_DIR)\ppc\reghand.obj \
+    $(_OBJ_DIR)\ppc\memory.obj \
+    $(_OBJ_DIR)\ppc\midluser.obj \
+    $(_OBJ_DIR)\ppc\splinit.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\spooler.obj \
+    $(_OBJ_DIR)\ppc\printer.obj \
+    $(_OBJ_DIR)\ppc\job.obj \
+    $(_OBJ_DIR)\ppc\monitor.obj \
+    $(_OBJ_DIR)\ppc\info.obj \
+    $(_OBJ_DIR)\ppc\nullpp.obj
+
+PASS0_PPC_OBJECTS=
+

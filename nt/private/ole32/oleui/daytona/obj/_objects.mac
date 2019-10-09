@@ -1,0 +1,64 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dcomcnfg.res \
+    $(_OBJ_DIR)\alpha\clspsht.obj \
+    $(_OBJ_DIR)\alpha\cnfgpsht.obj \
+    $(_OBJ_DIR)\alpha\creg.obj \
+    $(_OBJ_DIR)\alpha\cstrings.obj \
+    $(_OBJ_DIR)\alpha\locppg.obj \
+    $(_OBJ_DIR)\alpha\srvppg.obj \
+    $(_OBJ_DIR)\alpha\newsrvr.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\virtreg.obj \
+    $(_OBJ_DIR)\alpha\datapkt.obj \
+    $(_OBJ_DIR)\alpha\dcomcnfg.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dcomcnfg.res \
+    $(_OBJ_DIR)\mips\clspsht.obj \
+    $(_OBJ_DIR)\mips\cnfgpsht.obj \
+    $(_OBJ_DIR)\mips\creg.obj \
+    $(_OBJ_DIR)\mips\cstrings.obj \
+    $(_OBJ_DIR)\mips\locppg.obj \
+    $(_OBJ_DIR)\mips\srvppg.obj \
+    $(_OBJ_DIR)\mips\newsrvr.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\virtreg.obj \
+    $(_OBJ_DIR)\mips\datapkt.obj \
+    $(_OBJ_DIR)\mips\dcomcnfg.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dcomcnfg.res \
+    $(_OBJ_DIR)\i386\clspsht.obj \
+    $(_OBJ_DIR)\i386\cnfgpsht.obj \
+    $(_OBJ_DIR)\i386\creg.obj \
+    $(_OBJ_DIR)\i386\cstrings.obj \
+    $(_OBJ_DIR)\i386\locppg.obj \
+    $(_OBJ_DIR)\i386\srvppg.obj \
+    $(_OBJ_DIR)\i386\newsrvr.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\virtreg.obj \
+    $(_OBJ_DIR)\i386\datapkt.obj \
+    $(_OBJ_DIR)\i386\dcomcnfg.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dcomcnfg.res \
+    $(_OBJ_DIR)\ppc\clspsht.obj \
+    $(_OBJ_DIR)\ppc\cnfgpsht.obj \
+    $(_OBJ_DIR)\ppc\creg.obj \
+    $(_OBJ_DIR)\ppc\cstrings.obj \
+    $(_OBJ_DIR)\ppc\locppg.obj \
+    $(_OBJ_DIR)\ppc\srvppg.obj \
+    $(_OBJ_DIR)\ppc\newsrvr.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\virtreg.obj \
+    $(_OBJ_DIR)\ppc\datapkt.obj \
+    $(_OBJ_DIR)\ppc\dcomcnfg.obj
+
+PASS0_PPC_OBJECTS=
+

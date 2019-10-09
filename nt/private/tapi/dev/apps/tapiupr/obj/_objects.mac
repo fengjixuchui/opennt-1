@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\tapiupr.res \
+    $(_OBJ_DIR)\alpha\tapiupr.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\tapiupr.res \
+    $(_OBJ_DIR)\mips\tapiupr.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\tapiupr.res \
+    $(_OBJ_DIR)\i386\tapiupr.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\tapiupr.res \
+    $(_OBJ_DIR)\ppc\tapiupr.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\rpcltc8.res \
+    $(_OBJ_DIR)\alpha\clntvns.obj \
+    $(_OBJ_DIR)\alpha\stname.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\rpcltc8.res \
+    $(_OBJ_DIR)\mips\clntvns.obj \
+    $(_OBJ_DIR)\mips\stname.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\rpcltc8.res \
+    $(_OBJ_DIR)\i386\clntvns.obj \
+    $(_OBJ_DIR)\i386\stname.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\rpcltc8.res \
+    $(_OBJ_DIR)\ppc\clntvns.obj \
+    $(_OBJ_DIR)\ppc\stname.obj
+
+PASS0_PPC_OBJECTS=
+

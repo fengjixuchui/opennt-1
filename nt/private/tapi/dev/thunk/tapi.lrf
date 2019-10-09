@@ -1,0 +1,5 @@
+W:\nt\private\mvdm\wow16\lib\libentry.obj thunk 
+tapi.dll/align:16
+tapi /map /align:16 /LI
+W:\nt\private\mvdm\wow16\lib\ldllcew.lib W:\nt\private\mvdm\wow16\lib\libw.lib /map /nod
+tapi;

@@ -1,0 +1,112 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\accacc.obj \
+    $(_OBJ_DIR)\alpha\aclapi.obj \
+    $(_OBJ_DIR)\alpha\aclbuild.obj \
+    $(_OBJ_DIR)\alpha\aclutil.obj \
+    $(_OBJ_DIR)\alpha\common.obj \
+    $(_OBJ_DIR)\alpha\file.obj \
+    $(_OBJ_DIR)\alpha\helper.obj \
+    $(_OBJ_DIR)\alpha\iterator.obj \
+    $(_OBJ_DIR)\alpha\kernel.obj \
+    $(_OBJ_DIR)\alpha\lmshare.obj \
+    $(_OBJ_DIR)\alpha\member.obj \
+    $(_OBJ_DIR)\alpha\memory.obj \
+    $(_OBJ_DIR)\alpha\namebase.obj \
+    $(_OBJ_DIR)\alpha\ntprov.obj \
+    $(_OBJ_DIR)\alpha\ntspec.obj \
+    $(_OBJ_DIR)\alpha\printer.obj \
+    $(_OBJ_DIR)\alpha\provapi.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\secapi.obj \
+    $(_OBJ_DIR)\alpha\service.obj \
+    $(_OBJ_DIR)\alpha\srvapi.obj \
+    $(_OBJ_DIR)\alpha\target.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\window.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\accacc.obj \
+    $(_OBJ_DIR)\mips\aclapi.obj \
+    $(_OBJ_DIR)\mips\aclbuild.obj \
+    $(_OBJ_DIR)\mips\aclutil.obj \
+    $(_OBJ_DIR)\mips\common.obj \
+    $(_OBJ_DIR)\mips\file.obj \
+    $(_OBJ_DIR)\mips\helper.obj \
+    $(_OBJ_DIR)\mips\iterator.obj \
+    $(_OBJ_DIR)\mips\kernel.obj \
+    $(_OBJ_DIR)\mips\lmshare.obj \
+    $(_OBJ_DIR)\mips\member.obj \
+    $(_OBJ_DIR)\mips\memory.obj \
+    $(_OBJ_DIR)\mips\namebase.obj \
+    $(_OBJ_DIR)\mips\ntprov.obj \
+    $(_OBJ_DIR)\mips\ntspec.obj \
+    $(_OBJ_DIR)\mips\printer.obj \
+    $(_OBJ_DIR)\mips\provapi.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\secapi.obj \
+    $(_OBJ_DIR)\mips\service.obj \
+    $(_OBJ_DIR)\mips\srvapi.obj \
+    $(_OBJ_DIR)\mips\target.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\window.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\accacc.obj \
+    $(_OBJ_DIR)\i386\aclapi.obj \
+    $(_OBJ_DIR)\i386\aclbuild.obj \
+    $(_OBJ_DIR)\i386\aclutil.obj \
+    $(_OBJ_DIR)\i386\common.obj \
+    $(_OBJ_DIR)\i386\file.obj \
+    $(_OBJ_DIR)\i386\helper.obj \
+    $(_OBJ_DIR)\i386\iterator.obj \
+    $(_OBJ_DIR)\i386\kernel.obj \
+    $(_OBJ_DIR)\i386\lmshare.obj \
+    $(_OBJ_DIR)\i386\member.obj \
+    $(_OBJ_DIR)\i386\memory.obj \
+    $(_OBJ_DIR)\i386\namebase.obj \
+    $(_OBJ_DIR)\i386\ntprov.obj \
+    $(_OBJ_DIR)\i386\ntspec.obj \
+    $(_OBJ_DIR)\i386\printer.obj \
+    $(_OBJ_DIR)\i386\provapi.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\secapi.obj \
+    $(_OBJ_DIR)\i386\service.obj \
+    $(_OBJ_DIR)\i386\srvapi.obj \
+    $(_OBJ_DIR)\i386\target.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\window.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\accacc.obj \
+    $(_OBJ_DIR)\ppc\aclapi.obj \
+    $(_OBJ_DIR)\ppc\aclbuild.obj \
+    $(_OBJ_DIR)\ppc\aclutil.obj \
+    $(_OBJ_DIR)\ppc\common.obj \
+    $(_OBJ_DIR)\ppc\file.obj \
+    $(_OBJ_DIR)\ppc\helper.obj \
+    $(_OBJ_DIR)\ppc\iterator.obj \
+    $(_OBJ_DIR)\ppc\kernel.obj \
+    $(_OBJ_DIR)\ppc\lmshare.obj \
+    $(_OBJ_DIR)\ppc\member.obj \
+    $(_OBJ_DIR)\ppc\memory.obj \
+    $(_OBJ_DIR)\ppc\namebase.obj \
+    $(_OBJ_DIR)\ppc\ntprov.obj \
+    $(_OBJ_DIR)\ppc\ntspec.obj \
+    $(_OBJ_DIR)\ppc\printer.obj \
+    $(_OBJ_DIR)\ppc\provapi.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\secapi.obj \
+    $(_OBJ_DIR)\ppc\service.obj \
+    $(_OBJ_DIR)\ppc\srvapi.obj \
+    $(_OBJ_DIR)\ppc\target.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\window.obj
+
+PASS0_PPC_OBJECTS=
+

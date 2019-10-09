@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\plotdbg.obj \
+    $(_OBJ_DIR)\alpha\readgpc.obj \
+    $(_OBJ_DIR)\alpha\widechar.obj \
+    $(_OBJ_DIR)\alpha\file.obj \
+    $(_OBJ_DIR)\alpha\forms.obj \
+    $(_OBJ_DIR)\alpha\regdata.obj \
+    $(_OBJ_DIR)\alpha\plotdm.obj \
+    $(_OBJ_DIR)\alpha\drvinfo.obj \
+    $(_OBJ_DIR)\alpha\cachegpc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\plotdbg.obj \
+    $(_OBJ_DIR)\mips\readgpc.obj \
+    $(_OBJ_DIR)\mips\widechar.obj \
+    $(_OBJ_DIR)\mips\file.obj \
+    $(_OBJ_DIR)\mips\forms.obj \
+    $(_OBJ_DIR)\mips\regdata.obj \
+    $(_OBJ_DIR)\mips\plotdm.obj \
+    $(_OBJ_DIR)\mips\drvinfo.obj \
+    $(_OBJ_DIR)\mips\cachegpc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\plotdbg.obj \
+    $(_OBJ_DIR)\i386\readgpc.obj \
+    $(_OBJ_DIR)\i386\widechar.obj \
+    $(_OBJ_DIR)\i386\file.obj \
+    $(_OBJ_DIR)\i386\forms.obj \
+    $(_OBJ_DIR)\i386\regdata.obj \
+    $(_OBJ_DIR)\i386\plotdm.obj \
+    $(_OBJ_DIR)\i386\drvinfo.obj \
+    $(_OBJ_DIR)\i386\cachegpc.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\plotdbg.obj \
+    $(_OBJ_DIR)\ppc\readgpc.obj \
+    $(_OBJ_DIR)\ppc\widechar.obj \
+    $(_OBJ_DIR)\ppc\file.obj \
+    $(_OBJ_DIR)\ppc\forms.obj \
+    $(_OBJ_DIR)\ppc\regdata.obj \
+    $(_OBJ_DIR)\ppc\plotdm.obj \
+    $(_OBJ_DIR)\ppc\drvinfo.obj \
+    $(_OBJ_DIR)\ppc\cachegpc.obj
+
+PASS0_PPC_OBJECTS=
+

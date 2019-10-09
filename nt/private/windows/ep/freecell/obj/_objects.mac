@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\freecell.res \
+    $(_OBJ_DIR)\alpha\freecell.obj \
+    $(_OBJ_DIR)\alpha\dialog.obj \
+    $(_OBJ_DIR)\alpha\display.obj \
+    $(_OBJ_DIR)\alpha\game.obj \
+    $(_OBJ_DIR)\alpha\game2.obj \
+    $(_OBJ_DIR)\alpha\glide.obj \
+    $(_OBJ_DIR)\alpha\transfer.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\freecell.res \
+    $(_OBJ_DIR)\mips\freecell.obj \
+    $(_OBJ_DIR)\mips\dialog.obj \
+    $(_OBJ_DIR)\mips\display.obj \
+    $(_OBJ_DIR)\mips\game.obj \
+    $(_OBJ_DIR)\mips\game2.obj \
+    $(_OBJ_DIR)\mips\glide.obj \
+    $(_OBJ_DIR)\mips\transfer.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\freecell.res \
+    $(_OBJ_DIR)\i386\freecell.obj \
+    $(_OBJ_DIR)\i386\dialog.obj \
+    $(_OBJ_DIR)\i386\display.obj \
+    $(_OBJ_DIR)\i386\game.obj \
+    $(_OBJ_DIR)\i386\game2.obj \
+    $(_OBJ_DIR)\i386\glide.obj \
+    $(_OBJ_DIR)\i386\transfer.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\freecell.res \
+    $(_OBJ_DIR)\ppc\freecell.obj \
+    $(_OBJ_DIR)\ppc\dialog.obj \
+    $(_OBJ_DIR)\ppc\display.obj \
+    $(_OBJ_DIR)\ppc\game.obj \
+    $(_OBJ_DIR)\ppc\game2.obj \
+    $(_OBJ_DIR)\ppc\glide.obj \
+    $(_OBJ_DIR)\ppc\transfer.obj
+
+PASS0_PPC_OBJECTS=
+

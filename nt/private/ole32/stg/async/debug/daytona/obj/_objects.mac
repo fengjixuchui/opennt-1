@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dprintf.obj \
+    $(_OBJ_DIR)\alpha\output.obj \
+    $(_OBJ_DIR)\alpha\printf.obj \
+    $(_OBJ_DIR)\alpha\sprintf.obj \
+    $(_OBJ_DIR)\alpha\assert.obj \
+    $(_OBJ_DIR)\alpha\eqguid.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dprintf.obj \
+    $(_OBJ_DIR)\mips\output.obj \
+    $(_OBJ_DIR)\mips\printf.obj \
+    $(_OBJ_DIR)\mips\sprintf.obj \
+    $(_OBJ_DIR)\mips\assert.obj \
+    $(_OBJ_DIR)\mips\eqguid.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dprintf.obj \
+    $(_OBJ_DIR)\i386\output.obj \
+    $(_OBJ_DIR)\i386\printf.obj \
+    $(_OBJ_DIR)\i386\sprintf.obj \
+    $(_OBJ_DIR)\i386\assert.obj \
+    $(_OBJ_DIR)\i386\eqguid.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dprintf.obj \
+    $(_OBJ_DIR)\ppc\output.obj \
+    $(_OBJ_DIR)\ppc\printf.obj \
+    $(_OBJ_DIR)\ppc\sprintf.obj \
+    $(_OBJ_DIR)\ppc\assert.obj \
+    $(_OBJ_DIR)\ppc\eqguid.obj
+
+PASS0_PPC_OBJECTS=
+

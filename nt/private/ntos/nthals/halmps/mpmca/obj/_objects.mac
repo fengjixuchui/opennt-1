@@ -1,0 +1,71 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ixbeep.obj \
+    $(_OBJ_DIR)\i386\ixcmos.obj \
+    $(_OBJ_DIR)\i386\ixidle.obj \
+    $(_OBJ_DIR)\i386\ixmcaa.obj \
+    $(_OBJ_DIR)\i386\xxbiosa.obj \
+    $(_OBJ_DIR)\i386\xxioacc.obj \
+    $(_OBJ_DIR)\i386\mpclock.obj \
+    $(_OBJ_DIR)\i386\mpipi.obj \
+    $(_OBJ_DIR)\i386\mpirql.obj \
+    $(_OBJ_DIR)\i386\mpsproca.obj \
+    $(_OBJ_DIR)\i386\mpswint.obj \
+    $(_OBJ_DIR)\i386\mpsysint.obj \
+    $(_OBJ_DIR)\i386\mpconfig.obj \
+    $(_OBJ_DIR)\i386\mpprofil.obj \
+    $(_OBJ_DIR)\i386\mpspin.obj \
+    $(_OBJ_DIR)\i386\ixbusdat.obj \
+    $(_OBJ_DIR)\i386\ixenvirv.obj \
+    $(_OBJ_DIR)\i386\ixfirm.obj \
+    $(_OBJ_DIR)\i386\ixhwsup.obj \
+    $(_OBJ_DIR)\i386\ixinfo.obj \
+    $(_OBJ_DIR)\i386\ixisabus.obj \
+    $(_OBJ_DIR)\i386\ixisasup.obj \
+    $(_OBJ_DIR)\i386\ixkdcom.obj \
+    $(_OBJ_DIR)\i386\ixmca.obj \
+    $(_OBJ_DIR)\i386\ixmcasup.obj \
+    $(_OBJ_DIR)\i386\ixmcabus.obj \
+    $(_OBJ_DIR)\i386\ixpcibus.obj \
+    $(_OBJ_DIR)\i386\ixpciint.obj \
+    $(_OBJ_DIR)\i386\ixpcibrd.obj \
+    $(_OBJ_DIR)\i386\ixphwsup.obj \
+    $(_OBJ_DIR)\i386\ixreboot.obj \
+    $(_OBJ_DIR)\i386\ixthunk.obj \
+    $(_OBJ_DIR)\i386\ixusage.obj \
+    $(_OBJ_DIR)\i386\xxbiosc.obj \
+    $(_OBJ_DIR)\i386\xxdisp.obj \
+    $(_OBJ_DIR)\i386\xxkdsup.obj \
+    $(_OBJ_DIR)\i386\xxmemory.obj \
+    $(_OBJ_DIR)\i386\xxstubs.obj \
+    $(_OBJ_DIR)\i386\xxtime.obj \
+    $(_OBJ_DIR)\i386\mpaddr.obj \
+    $(_OBJ_DIR)\i386\mpinfo.obj \
+    $(_OBJ_DIR)\i386\mpsproc.obj \
+    $(_OBJ_DIR)\i386\mpsysbus.obj \
+    $(_OBJ_DIR)\i386\mphal.obj \
+    $(_OBJ_DIR)\i386\mppciint.obj \
+    $(_OBJ_DIR)\i386\mpdetect.obj \
+    $(_OBJ_DIR)\i386\mpdebug.obj \
+    $(_OBJ_DIR)\i386\mpclockc.obj \
+    $(_OBJ_DIR)\i386\mpdat.obj \
+    $(_OBJ_DIR)\i386\ixnmi.obj \
+    $(_OBJ_DIR)\i386\mpsys.obj \
+    $(_OBJ_DIR)\i386\hal.res \
+    $(_OBJ_DIR)\i386\drivesup.obj \
+    $(_OBJ_DIR)\i386\bushnd.obj \
+    $(_OBJ_DIR)\i386\rangesup.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,56 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\wd90c24a.res \
+    $(_OBJ_DIR)\alpha\color.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\enable.obj \
+    $(_OBJ_DIR)\alpha\palette.obj \
+    $(_OBJ_DIR)\alpha\pointer.obj \
+    $(_OBJ_DIR)\alpha\screen.obj \
+    $(_OBJ_DIR)\alpha\bitblt.obj \
+    $(_OBJ_DIR)\alpha\sync.obj \
+    $(_OBJ_DIR)\alpha\hooks.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\wd90c24a.res \
+    $(_OBJ_DIR)\mips\color.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\enable.obj \
+    $(_OBJ_DIR)\mips\palette.obj \
+    $(_OBJ_DIR)\mips\pointer.obj \
+    $(_OBJ_DIR)\mips\screen.obj \
+    $(_OBJ_DIR)\mips\bitblt.obj \
+    $(_OBJ_DIR)\mips\sync.obj \
+    $(_OBJ_DIR)\mips\hooks.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\wd90c24a.res \
+    $(_OBJ_DIR)\i386\color.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\enable.obj \
+    $(_OBJ_DIR)\i386\palette.obj \
+    $(_OBJ_DIR)\i386\pointer.obj \
+    $(_OBJ_DIR)\i386\screen.obj \
+    $(_OBJ_DIR)\i386\bitblt.obj \
+    $(_OBJ_DIR)\i386\sync.obj \
+    $(_OBJ_DIR)\i386\hooks.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\wd90c24a.res \
+    $(_OBJ_DIR)\ppc\color.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\enable.obj \
+    $(_OBJ_DIR)\ppc\palette.obj \
+    $(_OBJ_DIR)\ppc\pointer.obj \
+    $(_OBJ_DIR)\ppc\screen.obj \
+    $(_OBJ_DIR)\ppc\bitblt.obj \
+    $(_OBJ_DIR)\ppc\sync.obj \
+    $(_OBJ_DIR)\ppc\hooks.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\videosim.res \
+    $(_OBJ_DIR)\alpha\videosim.obj \
+    $(_OBJ_DIR)\alpha\videodat.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\videosim.res \
+    $(_OBJ_DIR)\mips\videosim.obj \
+    $(_OBJ_DIR)\mips\videodat.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\videosim.res \
+    $(_OBJ_DIR)\i386\videosim.obj \
+    $(_OBJ_DIR)\i386\videodat.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\videosim.res \
+    $(_OBJ_DIR)\ppc\videosim.obj \
+    $(_OBJ_DIR)\ppc\videodat.obj
+
+PASS0_PPC_OBJECTS=
+

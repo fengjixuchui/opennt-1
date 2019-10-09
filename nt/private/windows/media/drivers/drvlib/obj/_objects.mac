@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\reslist.obj \
+    $(_OBJ_DIR)\alpha\reslist1.obj \
+    $(_OBJ_DIR)\alpha\drvlib.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\mixerdd.obj \
+    $(_OBJ_DIR)\alpha\wavedd.obj \
+    $(_OBJ_DIR)\alpha\mididd.obj \
+    $(_OBJ_DIR)\alpha\auxdd.obj \
+    $(_OBJ_DIR)\alpha\drvutil.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\reslist.obj \
+    $(_OBJ_DIR)\mips\reslist1.obj \
+    $(_OBJ_DIR)\mips\drvlib.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\mixerdd.obj \
+    $(_OBJ_DIR)\mips\wavedd.obj \
+    $(_OBJ_DIR)\mips\mididd.obj \
+    $(_OBJ_DIR)\mips\auxdd.obj \
+    $(_OBJ_DIR)\mips\drvutil.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\reslist.obj \
+    $(_OBJ_DIR)\i386\reslist1.obj \
+    $(_OBJ_DIR)\i386\drvlib.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\mixerdd.obj \
+    $(_OBJ_DIR)\i386\wavedd.obj \
+    $(_OBJ_DIR)\i386\mididd.obj \
+    $(_OBJ_DIR)\i386\auxdd.obj \
+    $(_OBJ_DIR)\i386\drvutil.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\reslist.obj \
+    $(_OBJ_DIR)\ppc\reslist1.obj \
+    $(_OBJ_DIR)\ppc\drvlib.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\mixerdd.obj \
+    $(_OBJ_DIR)\ppc\wavedd.obj \
+    $(_OBJ_DIR)\ppc\mididd.obj \
+    $(_OBJ_DIR)\ppc\auxdd.obj \
+    $(_OBJ_DIR)\ppc\drvutil.obj
+
+PASS0_PPC_OBJECTS=
+

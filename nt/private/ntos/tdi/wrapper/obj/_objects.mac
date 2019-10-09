@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\tdi.res \
+    $(_OBJ_DIR)\alpha\tdi.obj \
+    $(_OBJ_DIR)\alpha\cxport.obj \
+    $(_OBJ_DIR)\alpha\tdipnp.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\tdi.res \
+    $(_OBJ_DIR)\mips\tdi.obj \
+    $(_OBJ_DIR)\mips\cxport.obj \
+    $(_OBJ_DIR)\mips\tdipnp.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\tdi.res \
+    $(_OBJ_DIR)\i386\tdi.obj \
+    $(_OBJ_DIR)\i386\cxport.obj \
+    $(_OBJ_DIR)\i386\tdipnp.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\tdi.res \
+    $(_OBJ_DIR)\ppc\tdi.obj \
+    $(_OBJ_DIR)\ppc\cxport.obj \
+    $(_OBJ_DIR)\ppc\tdipnp.obj
+
+PASS0_PPC_OBJECTS=
+

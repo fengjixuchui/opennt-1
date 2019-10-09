@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\msacmmap.res \
+    $(_OBJ_DIR)\alpha\msacmmap.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\wavein.obj \
+    $(_OBJ_DIR)\alpha\waveout.obj \
+    $(_OBJ_DIR)\alpha\profile.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\msacmmap.res \
+    $(_OBJ_DIR)\mips\msacmmap.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\wavein.obj \
+    $(_OBJ_DIR)\mips\waveout.obj \
+    $(_OBJ_DIR)\mips\profile.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\msacmmap.res \
+    $(_OBJ_DIR)\i386\msacmmap.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\wavein.obj \
+    $(_OBJ_DIR)\i386\waveout.obj \
+    $(_OBJ_DIR)\i386\profile.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\msacmmap.res \
+    $(_OBJ_DIR)\ppc\msacmmap.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\wavein.obj \
+    $(_OBJ_DIR)\ppc\waveout.obj \
+    $(_OBJ_DIR)\ppc\profile.obj
+
+PASS0_PPC_OBJECTS=
+

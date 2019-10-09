@@ -1,0 +1,60 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\psui.res \
+    $(_OBJ_DIR)\alpha\initdll.obj \
+    $(_OBJ_DIR)\alpha\psui.obj \
+    $(_OBJ_DIR)\alpha\devcaps.obj \
+    $(_OBJ_DIR)\alpha\quryprnt.obj \
+    $(_OBJ_DIR)\alpha\docprop.obj \
+    $(_OBJ_DIR)\alpha\prnprop.obj \
+    $(_OBJ_DIR)\alpha\upgrade.obj \
+    $(_OBJ_DIR)\alpha\prnevent.obj \
+    $(_OBJ_DIR)\alpha\fontsub.obj \
+    $(_OBJ_DIR)\alpha\formtray.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\psui.res \
+    $(_OBJ_DIR)\mips\initdll.obj \
+    $(_OBJ_DIR)\mips\psui.obj \
+    $(_OBJ_DIR)\mips\devcaps.obj \
+    $(_OBJ_DIR)\mips\quryprnt.obj \
+    $(_OBJ_DIR)\mips\docprop.obj \
+    $(_OBJ_DIR)\mips\prnprop.obj \
+    $(_OBJ_DIR)\mips\upgrade.obj \
+    $(_OBJ_DIR)\mips\prnevent.obj \
+    $(_OBJ_DIR)\mips\fontsub.obj \
+    $(_OBJ_DIR)\mips\formtray.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\psui.res \
+    $(_OBJ_DIR)\i386\initdll.obj \
+    $(_OBJ_DIR)\i386\psui.obj \
+    $(_OBJ_DIR)\i386\devcaps.obj \
+    $(_OBJ_DIR)\i386\quryprnt.obj \
+    $(_OBJ_DIR)\i386\docprop.obj \
+    $(_OBJ_DIR)\i386\prnprop.obj \
+    $(_OBJ_DIR)\i386\upgrade.obj \
+    $(_OBJ_DIR)\i386\prnevent.obj \
+    $(_OBJ_DIR)\i386\fontsub.obj \
+    $(_OBJ_DIR)\i386\formtray.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\psui.res \
+    $(_OBJ_DIR)\ppc\initdll.obj \
+    $(_OBJ_DIR)\ppc\psui.obj \
+    $(_OBJ_DIR)\ppc\devcaps.obj \
+    $(_OBJ_DIR)\ppc\quryprnt.obj \
+    $(_OBJ_DIR)\ppc\docprop.obj \
+    $(_OBJ_DIR)\ppc\prnprop.obj \
+    $(_OBJ_DIR)\ppc\upgrade.obj \
+    $(_OBJ_DIR)\ppc\prnevent.obj \
+    $(_OBJ_DIR)\ppc\fontsub.obj \
+    $(_OBJ_DIR)\ppc\formtray.obj
+
+PASS0_PPC_OBJECTS=
+

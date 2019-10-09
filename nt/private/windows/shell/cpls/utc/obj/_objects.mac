@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\timedate.res \
+    $(_OBJ_DIR)\alpha\calendar.obj \
+    $(_OBJ_DIR)\alpha\clock.obj \
+    $(_OBJ_DIR)\alpha\date.obj \
+    $(_OBJ_DIR)\alpha\main.obj \
+    $(_OBJ_DIR)\alpha\mapctl.obj \
+    $(_OBJ_DIR)\alpha\worldmap.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\timedate.res \
+    $(_OBJ_DIR)\mips\calendar.obj \
+    $(_OBJ_DIR)\mips\clock.obj \
+    $(_OBJ_DIR)\mips\date.obj \
+    $(_OBJ_DIR)\mips\main.obj \
+    $(_OBJ_DIR)\mips\mapctl.obj \
+    $(_OBJ_DIR)\mips\worldmap.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\timedate.res \
+    $(_OBJ_DIR)\i386\calendar.obj \
+    $(_OBJ_DIR)\i386\clock.obj \
+    $(_OBJ_DIR)\i386\date.obj \
+    $(_OBJ_DIR)\i386\main.obj \
+    $(_OBJ_DIR)\i386\mapctl.obj \
+    $(_OBJ_DIR)\i386\worldmap.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\timedate.res \
+    $(_OBJ_DIR)\ppc\calendar.obj \
+    $(_OBJ_DIR)\ppc\clock.obj \
+    $(_OBJ_DIR)\ppc\date.obj \
+    $(_OBJ_DIR)\ppc\main.obj \
+    $(_OBJ_DIR)\ppc\mapctl.obj \
+    $(_OBJ_DIR)\ppc\worldmap.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\skeys.res \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\gide.obj \
+    $(_OBJ_DIR)\alpha\initgide.obj \
+    $(_OBJ_DIR)\alpha\kbd.obj \
+    $(_OBJ_DIR)\alpha\mou.obj \
+    $(_OBJ_DIR)\alpha\sk_comm.obj \
+    $(_OBJ_DIR)\alpha\sk_dll.obj \
+    $(_OBJ_DIR)\alpha\sk_ex.obj \
+    $(_OBJ_DIR)\alpha\sk_login.obj \
+    $(_OBJ_DIR)\alpha\sk_reg.obj \
+    $(_OBJ_DIR)\alpha\skeys.obj \
+    $(_OBJ_DIR)\alpha\tables.obj \
+    $(_OBJ_DIR)\alpha\vars.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\skeys.res \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\gide.obj \
+    $(_OBJ_DIR)\mips\initgide.obj \
+    $(_OBJ_DIR)\mips\kbd.obj \
+    $(_OBJ_DIR)\mips\mou.obj \
+    $(_OBJ_DIR)\mips\sk_comm.obj \
+    $(_OBJ_DIR)\mips\sk_dll.obj \
+    $(_OBJ_DIR)\mips\sk_ex.obj \
+    $(_OBJ_DIR)\mips\sk_login.obj \
+    $(_OBJ_DIR)\mips\sk_reg.obj \
+    $(_OBJ_DIR)\mips\skeys.obj \
+    $(_OBJ_DIR)\mips\tables.obj \
+    $(_OBJ_DIR)\mips\vars.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\skeys.res \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\gide.obj \
+    $(_OBJ_DIR)\i386\initgide.obj \
+    $(_OBJ_DIR)\i386\kbd.obj \
+    $(_OBJ_DIR)\i386\mou.obj \
+    $(_OBJ_DIR)\i386\sk_comm.obj \
+    $(_OBJ_DIR)\i386\sk_dll.obj \
+    $(_OBJ_DIR)\i386\sk_ex.obj \
+    $(_OBJ_DIR)\i386\sk_login.obj \
+    $(_OBJ_DIR)\i386\sk_reg.obj \
+    $(_OBJ_DIR)\i386\skeys.obj \
+    $(_OBJ_DIR)\i386\tables.obj \
+    $(_OBJ_DIR)\i386\vars.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\skeys.res \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\gide.obj \
+    $(_OBJ_DIR)\ppc\initgide.obj \
+    $(_OBJ_DIR)\ppc\kbd.obj \
+    $(_OBJ_DIR)\ppc\mou.obj \
+    $(_OBJ_DIR)\ppc\sk_comm.obj \
+    $(_OBJ_DIR)\ppc\sk_dll.obj \
+    $(_OBJ_DIR)\ppc\sk_ex.obj \
+    $(_OBJ_DIR)\ppc\sk_login.obj \
+    $(_OBJ_DIR)\ppc\sk_reg.obj \
+    $(_OBJ_DIR)\ppc\skeys.obj \
+    $(_OBJ_DIR)\ppc\tables.obj \
+    $(_OBJ_DIR)\ppc\vars.obj
+
+PASS0_PPC_OBJECTS=
+

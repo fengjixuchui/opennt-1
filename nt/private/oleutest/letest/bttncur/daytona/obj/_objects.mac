@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\bttncur.res \
+    $(_OBJ_DIR)\alpha\bttncur.obj \
+    $(_OBJ_DIR)\alpha\dllentry.obj \
+    $(_OBJ_DIR)\alpha\cursors.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\bttncur.res \
+    $(_OBJ_DIR)\mips\bttncur.obj \
+    $(_OBJ_DIR)\mips\dllentry.obj \
+    $(_OBJ_DIR)\mips\cursors.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\bttncur.res \
+    $(_OBJ_DIR)\i386\bttncur.obj \
+    $(_OBJ_DIR)\i386\dllentry.obj \
+    $(_OBJ_DIR)\i386\cursors.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\bttncur.res \
+    $(_OBJ_DIR)\ppc\bttncur.obj \
+    $(_OBJ_DIR)\ppc\dllentry.obj \
+    $(_OBJ_DIR)\ppc\cursors.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\hticons.res \
+    $(_OBJ_DIR)\alpha\defclsf.obj \
+    $(_OBJ_DIR)\alpha\iconext.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\hticons.res \
+    $(_OBJ_DIR)\mips\defclsf.obj \
+    $(_OBJ_DIR)\mips\iconext.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\hticons.res \
+    $(_OBJ_DIR)\i386\defclsf.obj \
+    $(_OBJ_DIR)\i386\iconext.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\hticons.res \
+    $(_OBJ_DIR)\ppc\defclsf.obj \
+    $(_OBJ_DIR)\ppc\iconext.obj
+
+PASS0_PPC_OBJECTS=
+

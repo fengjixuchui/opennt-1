@@ -1,0 +1,68 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\netdde.res \
+    $(_OBJ_DIR)\alpha\cfconvrt.obj \
+    $(_OBJ_DIR)\alpha\ddeintf.obj \
+    $(_OBJ_DIR)\alpha\ddeq.obj \
+    $(_OBJ_DIR)\alpha\des.obj \
+    $(_OBJ_DIR)\alpha\encrypt.obj \
+    $(_OBJ_DIR)\alpha\enkrypt.obj \
+    $(_OBJ_DIR)\alpha\hndltokn.obj \
+    $(_OBJ_DIR)\alpha\nddeserv.obj \
+    $(_OBJ_DIR)\alpha\netdde.obj \
+    $(_OBJ_DIR)\alpha\password.obj \
+    $(_OBJ_DIR)\alpha\shareif.obj \
+    $(_OBJ_DIR)\alpha\uservald.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\netdde.res \
+    $(_OBJ_DIR)\mips\cfconvrt.obj \
+    $(_OBJ_DIR)\mips\ddeintf.obj \
+    $(_OBJ_DIR)\mips\ddeq.obj \
+    $(_OBJ_DIR)\mips\des.obj \
+    $(_OBJ_DIR)\mips\encrypt.obj \
+    $(_OBJ_DIR)\mips\enkrypt.obj \
+    $(_OBJ_DIR)\mips\hndltokn.obj \
+    $(_OBJ_DIR)\mips\nddeserv.obj \
+    $(_OBJ_DIR)\mips\netdde.obj \
+    $(_OBJ_DIR)\mips\password.obj \
+    $(_OBJ_DIR)\mips\shareif.obj \
+    $(_OBJ_DIR)\mips\uservald.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\netdde.res \
+    $(_OBJ_DIR)\i386\cfconvrt.obj \
+    $(_OBJ_DIR)\i386\ddeintf.obj \
+    $(_OBJ_DIR)\i386\ddeq.obj \
+    $(_OBJ_DIR)\i386\des.obj \
+    $(_OBJ_DIR)\i386\encrypt.obj \
+    $(_OBJ_DIR)\i386\enkrypt.obj \
+    $(_OBJ_DIR)\i386\hndltokn.obj \
+    $(_OBJ_DIR)\i386\nddeserv.obj \
+    $(_OBJ_DIR)\i386\netdde.obj \
+    $(_OBJ_DIR)\i386\password.obj \
+    $(_OBJ_DIR)\i386\shareif.obj \
+    $(_OBJ_DIR)\i386\uservald.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\netdde.res \
+    $(_OBJ_DIR)\ppc\cfconvrt.obj \
+    $(_OBJ_DIR)\ppc\ddeintf.obj \
+    $(_OBJ_DIR)\ppc\ddeq.obj \
+    $(_OBJ_DIR)\ppc\des.obj \
+    $(_OBJ_DIR)\ppc\encrypt.obj \
+    $(_OBJ_DIR)\ppc\enkrypt.obj \
+    $(_OBJ_DIR)\ppc\hndltokn.obj \
+    $(_OBJ_DIR)\ppc\nddeserv.obj \
+    $(_OBJ_DIR)\ppc\netdde.obj \
+    $(_OBJ_DIR)\ppc\password.obj \
+    $(_OBJ_DIR)\ppc\shareif.obj \
+    $(_OBJ_DIR)\ppc\uservald.obj
+
+PASS0_PPC_OBJECTS=
+

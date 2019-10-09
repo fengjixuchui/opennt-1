@@ -1,0 +1,100 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\regedit.res \
+    $(_OBJ_DIR)\alpha\datavw.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\editor.obj \
+    $(_OBJ_DIR)\alpha\printman.obj \
+    $(_OBJ_DIR)\alpha\regdata.obj \
+    $(_OBJ_DIR)\alpha\regdesc.obj \
+    $(_OBJ_DIR)\alpha\regedir.obj \
+    $(_OBJ_DIR)\alpha\regednod.obj \
+    $(_OBJ_DIR)\alpha\regedval.obj \
+    $(_OBJ_DIR)\alpha\regfdesc.obj \
+    $(_OBJ_DIR)\alpha\regiodsc.obj \
+    $(_OBJ_DIR)\alpha\regiodls.obj \
+    $(_OBJ_DIR)\alpha\regioreq.obj \
+    $(_OBJ_DIR)\alpha\regresls.obj \
+    $(_OBJ_DIR)\alpha\regsys.obj \
+    $(_OBJ_DIR)\alpha\regwin.obj \
+    $(_OBJ_DIR)\alpha\treevw.obj \
+    $(_OBJ_DIR)\alpha\uapp.obj \
+    $(_OBJ_DIR)\alpha\winapp.obj \
+    $(_OBJ_DIR)\alpha\window.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\regedit.res \
+    $(_OBJ_DIR)\mips\datavw.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\editor.obj \
+    $(_OBJ_DIR)\mips\printman.obj \
+    $(_OBJ_DIR)\mips\regdata.obj \
+    $(_OBJ_DIR)\mips\regdesc.obj \
+    $(_OBJ_DIR)\mips\regedir.obj \
+    $(_OBJ_DIR)\mips\regednod.obj \
+    $(_OBJ_DIR)\mips\regedval.obj \
+    $(_OBJ_DIR)\mips\regfdesc.obj \
+    $(_OBJ_DIR)\mips\regiodsc.obj \
+    $(_OBJ_DIR)\mips\regiodls.obj \
+    $(_OBJ_DIR)\mips\regioreq.obj \
+    $(_OBJ_DIR)\mips\regresls.obj \
+    $(_OBJ_DIR)\mips\regsys.obj \
+    $(_OBJ_DIR)\mips\regwin.obj \
+    $(_OBJ_DIR)\mips\treevw.obj \
+    $(_OBJ_DIR)\mips\uapp.obj \
+    $(_OBJ_DIR)\mips\winapp.obj \
+    $(_OBJ_DIR)\mips\window.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\regedit.res \
+    $(_OBJ_DIR)\i386\datavw.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\editor.obj \
+    $(_OBJ_DIR)\i386\printman.obj \
+    $(_OBJ_DIR)\i386\regdata.obj \
+    $(_OBJ_DIR)\i386\regdesc.obj \
+    $(_OBJ_DIR)\i386\regedir.obj \
+    $(_OBJ_DIR)\i386\regednod.obj \
+    $(_OBJ_DIR)\i386\regedval.obj \
+    $(_OBJ_DIR)\i386\regfdesc.obj \
+    $(_OBJ_DIR)\i386\regiodsc.obj \
+    $(_OBJ_DIR)\i386\regiodls.obj \
+    $(_OBJ_DIR)\i386\regioreq.obj \
+    $(_OBJ_DIR)\i386\regresls.obj \
+    $(_OBJ_DIR)\i386\regsys.obj \
+    $(_OBJ_DIR)\i386\regwin.obj \
+    $(_OBJ_DIR)\i386\treevw.obj \
+    $(_OBJ_DIR)\i386\uapp.obj \
+    $(_OBJ_DIR)\i386\winapp.obj \
+    $(_OBJ_DIR)\i386\window.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\regedit.res \
+    $(_OBJ_DIR)\ppc\datavw.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\editor.obj \
+    $(_OBJ_DIR)\ppc\printman.obj \
+    $(_OBJ_DIR)\ppc\regdata.obj \
+    $(_OBJ_DIR)\ppc\regdesc.obj \
+    $(_OBJ_DIR)\ppc\regedir.obj \
+    $(_OBJ_DIR)\ppc\regednod.obj \
+    $(_OBJ_DIR)\ppc\regedval.obj \
+    $(_OBJ_DIR)\ppc\regfdesc.obj \
+    $(_OBJ_DIR)\ppc\regiodsc.obj \
+    $(_OBJ_DIR)\ppc\regiodls.obj \
+    $(_OBJ_DIR)\ppc\regioreq.obj \
+    $(_OBJ_DIR)\ppc\regresls.obj \
+    $(_OBJ_DIR)\ppc\regsys.obj \
+    $(_OBJ_DIR)\ppc\regwin.obj \
+    $(_OBJ_DIR)\ppc\treevw.obj \
+    $(_OBJ_DIR)\ppc\uapp.obj \
+    $(_OBJ_DIR)\ppc\winapp.obj \
+    $(_OBJ_DIR)\ppc\window.obj
+
+PASS0_PPC_OBJECTS=
+

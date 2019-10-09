@@ -1,0 +1,7 @@
+
+LIBRARY         netobjs
+DESCRIPTION     'NETOBJS - Shell extensions for network objects'
+
+EXPORTS
+    DllGetClassObject PRIVATE
+    DllCanUnloadNow   PRIVATE

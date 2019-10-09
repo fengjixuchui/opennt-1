@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\sermouse.res \
+    $(_OBJ_DIR)\alpha\cseries.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\mseries.obj \
+    $(_OBJ_DIR)\alpha\sermcmn.obj \
+    $(_OBJ_DIR)\alpha\sermdep.obj \
+    $(_OBJ_DIR)\alpha\uart.obj \
+    $(_OBJ_DIR)\alpha\devdesc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\sermouse.res \
+    $(_OBJ_DIR)\mips\cseries.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\mseries.obj \
+    $(_OBJ_DIR)\mips\sermcmn.obj \
+    $(_OBJ_DIR)\mips\sermdep.obj \
+    $(_OBJ_DIR)\mips\uart.obj \
+    $(_OBJ_DIR)\mips\devdesc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\sermouse.res \
+    $(_OBJ_DIR)\i386\cseries.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\mseries.obj \
+    $(_OBJ_DIR)\i386\sermcmn.obj \
+    $(_OBJ_DIR)\i386\sermdep.obj \
+    $(_OBJ_DIR)\i386\uart.obj \
+    $(_OBJ_DIR)\i386\devdesc.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\sermouse.res \
+    $(_OBJ_DIR)\ppc\cseries.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\mseries.obj \
+    $(_OBJ_DIR)\ppc\sermcmn.obj \
+    $(_OBJ_DIR)\ppc\sermdep.obj \
+    $(_OBJ_DIR)\ppc\uart.obj \
+    $(_OBJ_DIR)\ppc\devdesc.obj
+
+PASS0_PPC_OBJECTS=
+

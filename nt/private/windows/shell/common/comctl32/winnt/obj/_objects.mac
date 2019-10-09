@@ -1,0 +1,192 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\commctrl.res \
+    $(_OBJ_DIR)\alpha\commctrl.obj \
+    $(_OBJ_DIR)\alpha\mem.obj \
+    $(_OBJ_DIR)\alpha\mru.obj \
+    $(_OBJ_DIR)\alpha\cstrings.obj \
+    $(_OBJ_DIR)\alpha\da.obj \
+    $(_OBJ_DIR)\alpha\header.obj \
+    $(_OBJ_DIR)\alpha\treeview.obj \
+    $(_OBJ_DIR)\alpha\tvmem.obj \
+    $(_OBJ_DIR)\alpha\tvpaint.obj \
+    $(_OBJ_DIR)\alpha\tvscroll.obj \
+    $(_OBJ_DIR)\alpha\tab.obj \
+    $(_OBJ_DIR)\alpha\listview.obj \
+    $(_OBJ_DIR)\alpha\lvrept.obj \
+    $(_OBJ_DIR)\alpha\lvicon.obj \
+    $(_OBJ_DIR)\alpha\lvlist.obj \
+    $(_OBJ_DIR)\alpha\lvsmall.obj \
+    $(_OBJ_DIR)\alpha\cutils.obj \
+    $(_OBJ_DIR)\alpha\draglist.obj \
+    $(_OBJ_DIR)\alpha\hotkey.obj \
+    $(_OBJ_DIR)\alpha\menuhelp.obj \
+    $(_OBJ_DIR)\alpha\progress.obj \
+    $(_OBJ_DIR)\alpha\status.obj \
+    $(_OBJ_DIR)\alpha\tbcust.obj \
+    $(_OBJ_DIR)\alpha\toolbar.obj \
+    $(_OBJ_DIR)\alpha\tooltips.obj \
+    $(_OBJ_DIR)\alpha\trackbar.obj \
+    $(_OBJ_DIR)\alpha\rebar.obj \
+    $(_OBJ_DIR)\alpha\updown.obj \
+    $(_OBJ_DIR)\alpha\trackme.obj \
+    $(_OBJ_DIR)\alpha\strings.obj \
+    $(_OBJ_DIR)\alpha\subclass.obj \
+    $(_OBJ_DIR)\alpha\image.obj \
+    $(_OBJ_DIR)\alpha\prsht.obj \
+    $(_OBJ_DIR)\alpha\prsht1.obj \
+    $(_OBJ_DIR)\alpha\animate.obj \
+    $(_OBJ_DIR)\alpha\reader.obj \
+    $(_OBJ_DIR)\alpha\rlefile.obj \
+    $(_OBJ_DIR)\alpha\thunk.obj \
+    $(_OBJ_DIR)\alpha\selrange.obj \
+    $(_OBJ_DIR)\alpha\notify.obj \
+    $(_OBJ_DIR)\alpha\monthcal.obj \
+    $(_OBJ_DIR)\alpha\scdttime.obj \
+    $(_OBJ_DIR)\alpha\comboex.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\commctrl.res \
+    $(_OBJ_DIR)\mips\commctrl.obj \
+    $(_OBJ_DIR)\mips\mem.obj \
+    $(_OBJ_DIR)\mips\mru.obj \
+    $(_OBJ_DIR)\mips\cstrings.obj \
+    $(_OBJ_DIR)\mips\da.obj \
+    $(_OBJ_DIR)\mips\header.obj \
+    $(_OBJ_DIR)\mips\treeview.obj \
+    $(_OBJ_DIR)\mips\tvmem.obj \
+    $(_OBJ_DIR)\mips\tvpaint.obj \
+    $(_OBJ_DIR)\mips\tvscroll.obj \
+    $(_OBJ_DIR)\mips\tab.obj \
+    $(_OBJ_DIR)\mips\listview.obj \
+    $(_OBJ_DIR)\mips\lvrept.obj \
+    $(_OBJ_DIR)\mips\lvicon.obj \
+    $(_OBJ_DIR)\mips\lvlist.obj \
+    $(_OBJ_DIR)\mips\lvsmall.obj \
+    $(_OBJ_DIR)\mips\cutils.obj \
+    $(_OBJ_DIR)\mips\draglist.obj \
+    $(_OBJ_DIR)\mips\hotkey.obj \
+    $(_OBJ_DIR)\mips\menuhelp.obj \
+    $(_OBJ_DIR)\mips\progress.obj \
+    $(_OBJ_DIR)\mips\status.obj \
+    $(_OBJ_DIR)\mips\tbcust.obj \
+    $(_OBJ_DIR)\mips\toolbar.obj \
+    $(_OBJ_DIR)\mips\tooltips.obj \
+    $(_OBJ_DIR)\mips\trackbar.obj \
+    $(_OBJ_DIR)\mips\rebar.obj \
+    $(_OBJ_DIR)\mips\updown.obj \
+    $(_OBJ_DIR)\mips\trackme.obj \
+    $(_OBJ_DIR)\mips\strings.obj \
+    $(_OBJ_DIR)\mips\subclass.obj \
+    $(_OBJ_DIR)\mips\image.obj \
+    $(_OBJ_DIR)\mips\prsht.obj \
+    $(_OBJ_DIR)\mips\prsht1.obj \
+    $(_OBJ_DIR)\mips\animate.obj \
+    $(_OBJ_DIR)\mips\reader.obj \
+    $(_OBJ_DIR)\mips\rlefile.obj \
+    $(_OBJ_DIR)\mips\thunk.obj \
+    $(_OBJ_DIR)\mips\selrange.obj \
+    $(_OBJ_DIR)\mips\notify.obj \
+    $(_OBJ_DIR)\mips\monthcal.obj \
+    $(_OBJ_DIR)\mips\scdttime.obj \
+    $(_OBJ_DIR)\mips\comboex.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\commctrl.res \
+    $(_OBJ_DIR)\i386\commctrl.obj \
+    $(_OBJ_DIR)\i386\mem.obj \
+    $(_OBJ_DIR)\i386\mru.obj \
+    $(_OBJ_DIR)\i386\cstrings.obj \
+    $(_OBJ_DIR)\i386\da.obj \
+    $(_OBJ_DIR)\i386\header.obj \
+    $(_OBJ_DIR)\i386\treeview.obj \
+    $(_OBJ_DIR)\i386\tvmem.obj \
+    $(_OBJ_DIR)\i386\tvpaint.obj \
+    $(_OBJ_DIR)\i386\tvscroll.obj \
+    $(_OBJ_DIR)\i386\tab.obj \
+    $(_OBJ_DIR)\i386\listview.obj \
+    $(_OBJ_DIR)\i386\lvrept.obj \
+    $(_OBJ_DIR)\i386\lvicon.obj \
+    $(_OBJ_DIR)\i386\lvlist.obj \
+    $(_OBJ_DIR)\i386\lvsmall.obj \
+    $(_OBJ_DIR)\i386\cutils.obj \
+    $(_OBJ_DIR)\i386\draglist.obj \
+    $(_OBJ_DIR)\i386\hotkey.obj \
+    $(_OBJ_DIR)\i386\menuhelp.obj \
+    $(_OBJ_DIR)\i386\progress.obj \
+    $(_OBJ_DIR)\i386\status.obj \
+    $(_OBJ_DIR)\i386\tbcust.obj \
+    $(_OBJ_DIR)\i386\toolbar.obj \
+    $(_OBJ_DIR)\i386\tooltips.obj \
+    $(_OBJ_DIR)\i386\trackbar.obj \
+    $(_OBJ_DIR)\i386\rebar.obj \
+    $(_OBJ_DIR)\i386\updown.obj \
+    $(_OBJ_DIR)\i386\trackme.obj \
+    $(_OBJ_DIR)\i386\strings.obj \
+    $(_OBJ_DIR)\i386\subclass.obj \
+    $(_OBJ_DIR)\i386\image.obj \
+    $(_OBJ_DIR)\i386\prsht.obj \
+    $(_OBJ_DIR)\i386\prsht1.obj \
+    $(_OBJ_DIR)\i386\animate.obj \
+    $(_OBJ_DIR)\i386\reader.obj \
+    $(_OBJ_DIR)\i386\rlefile.obj \
+    $(_OBJ_DIR)\i386\thunk.obj \
+    $(_OBJ_DIR)\i386\selrange.obj \
+    $(_OBJ_DIR)\i386\notify.obj \
+    $(_OBJ_DIR)\i386\monthcal.obj \
+    $(_OBJ_DIR)\i386\scdttime.obj \
+    $(_OBJ_DIR)\i386\comboex.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\commctrl.res \
+    $(_OBJ_DIR)\ppc\commctrl.obj \
+    $(_OBJ_DIR)\ppc\mem.obj \
+    $(_OBJ_DIR)\ppc\mru.obj \
+    $(_OBJ_DIR)\ppc\cstrings.obj \
+    $(_OBJ_DIR)\ppc\da.obj \
+    $(_OBJ_DIR)\ppc\header.obj \
+    $(_OBJ_DIR)\ppc\treeview.obj \
+    $(_OBJ_DIR)\ppc\tvmem.obj \
+    $(_OBJ_DIR)\ppc\tvpaint.obj \
+    $(_OBJ_DIR)\ppc\tvscroll.obj \
+    $(_OBJ_DIR)\ppc\tab.obj \
+    $(_OBJ_DIR)\ppc\listview.obj \
+    $(_OBJ_DIR)\ppc\lvrept.obj \
+    $(_OBJ_DIR)\ppc\lvicon.obj \
+    $(_OBJ_DIR)\ppc\lvlist.obj \
+    $(_OBJ_DIR)\ppc\lvsmall.obj \
+    $(_OBJ_DIR)\ppc\cutils.obj \
+    $(_OBJ_DIR)\ppc\draglist.obj \
+    $(_OBJ_DIR)\ppc\hotkey.obj \
+    $(_OBJ_DIR)\ppc\menuhelp.obj \
+    $(_OBJ_DIR)\ppc\progress.obj \
+    $(_OBJ_DIR)\ppc\status.obj \
+    $(_OBJ_DIR)\ppc\tbcust.obj \
+    $(_OBJ_DIR)\ppc\toolbar.obj \
+    $(_OBJ_DIR)\ppc\tooltips.obj \
+    $(_OBJ_DIR)\ppc\trackbar.obj \
+    $(_OBJ_DIR)\ppc\rebar.obj \
+    $(_OBJ_DIR)\ppc\updown.obj \
+    $(_OBJ_DIR)\ppc\trackme.obj \
+    $(_OBJ_DIR)\ppc\strings.obj \
+    $(_OBJ_DIR)\ppc\subclass.obj \
+    $(_OBJ_DIR)\ppc\image.obj \
+    $(_OBJ_DIR)\ppc\prsht.obj \
+    $(_OBJ_DIR)\ppc\prsht1.obj \
+    $(_OBJ_DIR)\ppc\animate.obj \
+    $(_OBJ_DIR)\ppc\reader.obj \
+    $(_OBJ_DIR)\ppc\rlefile.obj \
+    $(_OBJ_DIR)\ppc\thunk.obj \
+    $(_OBJ_DIR)\ppc\selrange.obj \
+    $(_OBJ_DIR)\ppc\notify.obj \
+    $(_OBJ_DIR)\ppc\monthcal.obj \
+    $(_OBJ_DIR)\ppc\scdttime.obj \
+    $(_OBJ_DIR)\ppc\comboex.obj
+
+PASS0_PPC_OBJECTS=
+

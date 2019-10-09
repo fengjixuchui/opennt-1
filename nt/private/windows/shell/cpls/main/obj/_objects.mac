@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\main.res \
+    $(_OBJ_DIR)\alpha\drvaplet.obj \
+    $(_OBJ_DIR)\alpha\fake.obj \
+    $(_OBJ_DIR)\alpha\keybd.obj \
+    $(_OBJ_DIR)\alpha\keybdspd.obj \
+    $(_OBJ_DIR)\alpha\keybddrv.obj \
+    $(_OBJ_DIR)\alpha\main.obj \
+    $(_OBJ_DIR)\alpha\mouse.obj \
+    $(_OBJ_DIR)\alpha\mousebut.obj \
+    $(_OBJ_DIR)\alpha\mousectl.obj \
+    $(_OBJ_DIR)\alpha\mousemov.obj \
+    $(_OBJ_DIR)\alpha\mouseptr.obj \
+    $(_OBJ_DIR)\alpha\mousedev.obj \
+    $(_OBJ_DIR)\alpha\util.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\main.res \
+    $(_OBJ_DIR)\mips\drvaplet.obj \
+    $(_OBJ_DIR)\mips\fake.obj \
+    $(_OBJ_DIR)\mips\keybd.obj \
+    $(_OBJ_DIR)\mips\keybdspd.obj \
+    $(_OBJ_DIR)\mips\keybddrv.obj \
+    $(_OBJ_DIR)\mips\main.obj \
+    $(_OBJ_DIR)\mips\mouse.obj \
+    $(_OBJ_DIR)\mips\mousebut.obj \
+    $(_OBJ_DIR)\mips\mousectl.obj \
+    $(_OBJ_DIR)\mips\mousemov.obj \
+    $(_OBJ_DIR)\mips\mouseptr.obj \
+    $(_OBJ_DIR)\mips\mousedev.obj \
+    $(_OBJ_DIR)\mips\util.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\main.res \
+    $(_OBJ_DIR)\i386\drvaplet.obj \
+    $(_OBJ_DIR)\i386\fake.obj \
+    $(_OBJ_DIR)\i386\keybd.obj \
+    $(_OBJ_DIR)\i386\keybdspd.obj \
+    $(_OBJ_DIR)\i386\keybddrv.obj \
+    $(_OBJ_DIR)\i386\main.obj \
+    $(_OBJ_DIR)\i386\mouse.obj \
+    $(_OBJ_DIR)\i386\mousebut.obj \
+    $(_OBJ_DIR)\i386\mousectl.obj \
+    $(_OBJ_DIR)\i386\mousemov.obj \
+    $(_OBJ_DIR)\i386\mouseptr.obj \
+    $(_OBJ_DIR)\i386\mousedev.obj \
+    $(_OBJ_DIR)\i386\util.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\main.res \
+    $(_OBJ_DIR)\ppc\drvaplet.obj \
+    $(_OBJ_DIR)\ppc\fake.obj \
+    $(_OBJ_DIR)\ppc\keybd.obj \
+    $(_OBJ_DIR)\ppc\keybdspd.obj \
+    $(_OBJ_DIR)\ppc\keybddrv.obj \
+    $(_OBJ_DIR)\ppc\main.obj \
+    $(_OBJ_DIR)\ppc\mouse.obj \
+    $(_OBJ_DIR)\ppc\mousebut.obj \
+    $(_OBJ_DIR)\ppc\mousectl.obj \
+    $(_OBJ_DIR)\ppc\mousemov.obj \
+    $(_OBJ_DIR)\ppc\mouseptr.obj \
+    $(_OBJ_DIR)\ppc\mousedev.obj \
+    $(_OBJ_DIR)\ppc\util.obj
+
+PASS0_PPC_OBJECTS=
+

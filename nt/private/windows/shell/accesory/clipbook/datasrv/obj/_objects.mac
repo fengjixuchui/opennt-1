@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\clipsrv.res \
+    $(_OBJ_DIR)\alpha\callback.obj \
+    $(_OBJ_DIR)\alpha\ddeutil.obj \
+    $(_OBJ_DIR)\alpha\islocal.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\clipsrv.res \
+    $(_OBJ_DIR)\mips\callback.obj \
+    $(_OBJ_DIR)\mips\ddeutil.obj \
+    $(_OBJ_DIR)\mips\islocal.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\clipsrv.res \
+    $(_OBJ_DIR)\i386\callback.obj \
+    $(_OBJ_DIR)\i386\ddeutil.obj \
+    $(_OBJ_DIR)\i386\islocal.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\clipsrv.res \
+    $(_OBJ_DIR)\ppc\callback.obj \
+    $(_OBJ_DIR)\ppc\ddeutil.obj \
+    $(_OBJ_DIR)\ppc\islocal.obj
+
+PASS0_PPC_OBJECTS=
+

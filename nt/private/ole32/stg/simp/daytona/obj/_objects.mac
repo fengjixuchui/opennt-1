@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\simpdf.obj \
+    $(_OBJ_DIR)\alpha\simpstg.obj \
+    $(_OBJ_DIR)\alpha\simpstm.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\simpdf.obj \
+    $(_OBJ_DIR)\mips\simpstg.obj \
+    $(_OBJ_DIR)\mips\simpstm.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\simpdf.obj \
+    $(_OBJ_DIR)\i386\simpstg.obj \
+    $(_OBJ_DIR)\i386\simpstm.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\simpdf.obj \
+    $(_OBJ_DIR)\ppc\simpstg.obj \
+    $(_OBJ_DIR)\ppc\simpstm.obj
+
+PASS0_PPC_OBJECTS=
+

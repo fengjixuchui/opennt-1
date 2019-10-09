@@ -1,0 +1,120 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\speckle.res \
+    $(_OBJ_DIR)\alpha\accexp.obj \
+    $(_OBJ_DIR)\alpha\finish.obj \
+    $(_OBJ_DIR)\alpha\fpinfo.obj \
+    $(_OBJ_DIR)\alpha\ginfo.obj \
+    $(_OBJ_DIR)\alpha\hours.obj \
+    $(_OBJ_DIR)\alpha\hours1.obj \
+    $(_OBJ_DIR)\alpha\limit.obj \
+    $(_OBJ_DIR)\alpha\nwwks.obj \
+    $(_OBJ_DIR)\alpha\optdlg.obj \
+    $(_OBJ_DIR)\alpha\profile.obj \
+    $(_OBJ_DIR)\alpha\prsinfo.obj \
+    $(_OBJ_DIR)\alpha\pwinfo.obj \
+    $(_OBJ_DIR)\alpha\rasperm.obj \
+    $(_OBJ_DIR)\alpha\speckle.obj \
+    $(_OBJ_DIR)\alpha\timelist.obj \
+    $(_OBJ_DIR)\alpha\transbmp.obj \
+    $(_OBJ_DIR)\alpha\userlist.obj \
+    $(_OBJ_DIR)\alpha\welcome.obj \
+    $(_OBJ_DIR)\alpha\wizbased.obj \
+    $(_OBJ_DIR)\alpha\exch.obj \
+    $(_OBJ_DIR)\alpha\homedir.obj \
+    $(_OBJ_DIR)\alpha\nwlim.obj \
+    $(_OBJ_DIR)\alpha\restrct.obj \
+    $(_OBJ_DIR)\alpha\lscript.obj \
+    $(_OBJ_DIR)\alpha\trstlist.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\speckle.res \
+    $(_OBJ_DIR)\mips\accexp.obj \
+    $(_OBJ_DIR)\mips\finish.obj \
+    $(_OBJ_DIR)\mips\fpinfo.obj \
+    $(_OBJ_DIR)\mips\ginfo.obj \
+    $(_OBJ_DIR)\mips\hours.obj \
+    $(_OBJ_DIR)\mips\hours1.obj \
+    $(_OBJ_DIR)\mips\limit.obj \
+    $(_OBJ_DIR)\mips\nwwks.obj \
+    $(_OBJ_DIR)\mips\optdlg.obj \
+    $(_OBJ_DIR)\mips\profile.obj \
+    $(_OBJ_DIR)\mips\prsinfo.obj \
+    $(_OBJ_DIR)\mips\pwinfo.obj \
+    $(_OBJ_DIR)\mips\rasperm.obj \
+    $(_OBJ_DIR)\mips\speckle.obj \
+    $(_OBJ_DIR)\mips\timelist.obj \
+    $(_OBJ_DIR)\mips\transbmp.obj \
+    $(_OBJ_DIR)\mips\userlist.obj \
+    $(_OBJ_DIR)\mips\welcome.obj \
+    $(_OBJ_DIR)\mips\wizbased.obj \
+    $(_OBJ_DIR)\mips\exch.obj \
+    $(_OBJ_DIR)\mips\homedir.obj \
+    $(_OBJ_DIR)\mips\nwlim.obj \
+    $(_OBJ_DIR)\mips\restrct.obj \
+    $(_OBJ_DIR)\mips\lscript.obj \
+    $(_OBJ_DIR)\mips\trstlist.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\speckle.res \
+    $(_OBJ_DIR)\i386\accexp.obj \
+    $(_OBJ_DIR)\i386\finish.obj \
+    $(_OBJ_DIR)\i386\fpinfo.obj \
+    $(_OBJ_DIR)\i386\ginfo.obj \
+    $(_OBJ_DIR)\i386\hours.obj \
+    $(_OBJ_DIR)\i386\hours1.obj \
+    $(_OBJ_DIR)\i386\limit.obj \
+    $(_OBJ_DIR)\i386\nwwks.obj \
+    $(_OBJ_DIR)\i386\optdlg.obj \
+    $(_OBJ_DIR)\i386\profile.obj \
+    $(_OBJ_DIR)\i386\prsinfo.obj \
+    $(_OBJ_DIR)\i386\pwinfo.obj \
+    $(_OBJ_DIR)\i386\rasperm.obj \
+    $(_OBJ_DIR)\i386\speckle.obj \
+    $(_OBJ_DIR)\i386\timelist.obj \
+    $(_OBJ_DIR)\i386\transbmp.obj \
+    $(_OBJ_DIR)\i386\userlist.obj \
+    $(_OBJ_DIR)\i386\welcome.obj \
+    $(_OBJ_DIR)\i386\wizbased.obj \
+    $(_OBJ_DIR)\i386\exch.obj \
+    $(_OBJ_DIR)\i386\homedir.obj \
+    $(_OBJ_DIR)\i386\nwlim.obj \
+    $(_OBJ_DIR)\i386\restrct.obj \
+    $(_OBJ_DIR)\i386\lscript.obj \
+    $(_OBJ_DIR)\i386\trstlist.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\speckle.res \
+    $(_OBJ_DIR)\ppc\accexp.obj \
+    $(_OBJ_DIR)\ppc\finish.obj \
+    $(_OBJ_DIR)\ppc\fpinfo.obj \
+    $(_OBJ_DIR)\ppc\ginfo.obj \
+    $(_OBJ_DIR)\ppc\hours.obj \
+    $(_OBJ_DIR)\ppc\hours1.obj \
+    $(_OBJ_DIR)\ppc\limit.obj \
+    $(_OBJ_DIR)\ppc\nwwks.obj \
+    $(_OBJ_DIR)\ppc\optdlg.obj \
+    $(_OBJ_DIR)\ppc\profile.obj \
+    $(_OBJ_DIR)\ppc\prsinfo.obj \
+    $(_OBJ_DIR)\ppc\pwinfo.obj \
+    $(_OBJ_DIR)\ppc\rasperm.obj \
+    $(_OBJ_DIR)\ppc\speckle.obj \
+    $(_OBJ_DIR)\ppc\timelist.obj \
+    $(_OBJ_DIR)\ppc\transbmp.obj \
+    $(_OBJ_DIR)\ppc\userlist.obj \
+    $(_OBJ_DIR)\ppc\welcome.obj \
+    $(_OBJ_DIR)\ppc\wizbased.obj \
+    $(_OBJ_DIR)\ppc\exch.obj \
+    $(_OBJ_DIR)\ppc\homedir.obj \
+    $(_OBJ_DIR)\ppc\nwlim.obj \
+    $(_OBJ_DIR)\ppc\restrct.obj \
+    $(_OBJ_DIR)\ppc\lscript.obj \
+    $(_OBJ_DIR)\ppc\trstlist.obj
+
+PASS0_PPC_OBJECTS=
+

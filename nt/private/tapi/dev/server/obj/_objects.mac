@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\server.res \
+    $(_OBJ_DIR)\alpha\server.obj \
+    $(_OBJ_DIR)\alpha\line.obj \
+    $(_OBJ_DIR)\alpha\phone.obj \
+    $(_OBJ_DIR)\alpha\tapi.obj \
+    $(_OBJ_DIR)\alpha\tapsrv_s.obj \
+    $(_OBJ_DIR)\alpha\rmotsp_c.obj \
+    $(_OBJ_DIR)\alpha\dial.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\server.res \
+    $(_OBJ_DIR)\mips\server.obj \
+    $(_OBJ_DIR)\mips\line.obj \
+    $(_OBJ_DIR)\mips\phone.obj \
+    $(_OBJ_DIR)\mips\tapi.obj \
+    $(_OBJ_DIR)\mips\tapsrv_s.obj \
+    $(_OBJ_DIR)\mips\rmotsp_c.obj \
+    $(_OBJ_DIR)\mips\dial.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\server.res \
+    $(_OBJ_DIR)\i386\server.obj \
+    $(_OBJ_DIR)\i386\line.obj \
+    $(_OBJ_DIR)\i386\phone.obj \
+    $(_OBJ_DIR)\i386\tapi.obj \
+    $(_OBJ_DIR)\i386\tapsrv_s.obj \
+    $(_OBJ_DIR)\i386\rmotsp_c.obj \
+    $(_OBJ_DIR)\i386\dial.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\server.res \
+    $(_OBJ_DIR)\ppc\server.obj \
+    $(_OBJ_DIR)\ppc\line.obj \
+    $(_OBJ_DIR)\ppc\phone.obj \
+    $(_OBJ_DIR)\ppc\tapi.obj \
+    $(_OBJ_DIR)\ppc\tapsrv_s.obj \
+    $(_OBJ_DIR)\ppc\rmotsp_c.obj \
+    $(_OBJ_DIR)\ppc\dial.obj
+
+PASS0_PPC_OBJECTS=
+

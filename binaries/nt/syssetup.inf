@@ -1,0 +1,353 @@
+[Version]
+signature="$Windows NT$"
+ClassGUID={00000000-0000-0000-0000-000000000000}
+layoutfile=LAYOUT.INF
+
+;
+;   The following section lists all the groups and items that must be deleted
+;   on upgrade. The format of the items in this section is:
+;
+;   [StartMenu.ObjectsToDelete]
+;   <object type>,<description>,<path>,<common_group>
+;
+;   where:
+;
+;       <object type> is a number:  0 indicates a menu group
+;                                   1 indicates a menu item
+;       <description> is the name of the group or item to be deleted;
+;       <path> is the path to the group or item to be deleted (it does not
+;              include the gropu or item name;
+;       <common_group> is a number: 0 indicates private group
+;                                   1 indicates common group
+;
+;
+[StartMenu.ObjectsToDelete]
+1,%intro%,%main%,0
+1,%pifedit%,%main%,0
+1,%control%,%main%,0
+1,%winfile%,%main%,0
+1,%cmd%,%main%,0
+1,%setup%,%main%,0
+1,%readme%,%main%,0
+1,%ntbooks%,%main%,0
+1,%cmdref%,%main%,0
+1,%printman%,%main%,0
+1,%clipbrd%,%main%,0
+; 1,%msmail32%,%main%,0
+; 1,%schdpl32%,%main%,0
+1,%terminal%,%accessories%,0
+1,%mplayer%,%accessories%,0
+1,%sndrec32%,%accessories%,0
+1,%sndvol32%,%accessories%,0
+1,%cdplayer%,%accessories%,0
+1,%pbrush%,%accessories%,0
+1,%printman%,%accessories%,0
+1,%write%,%accessories%,0
+1,%sol%,%games%,0
+1,%winmine%,%games%,0
+1,%freecell%,%games%,0
+1,%dcomcnfg%,%admintools%,1
+1,%ntbooks%,,0
+
+;
+; Items moved from personal Administrative Tools group to
+; Administrative Tools (Common) group
+;
+1,%windisk%,%admintools%,0
+1,%perfmon%,%admintools%,0
+1,%ntbackup%,%admintools%,0
+1,%eventvwr%,%admintools%,0
+1,%winmsd%,%admintools%,0
+1,%rasadmin%,%admintools%,0
+1,%musrmgr%,%admintools%,0
+1,%dcomcnfg%,%admintools%,0
+;
+;   Items moved from Network Administration (Common) group to
+;   Administrative Tools (Common)
+;
+
+
+;
+;   The following section lists all the items under 'Start Menu\Programs' that should
+;   be created on a clean install and upgrade. The format of the items in this section
+;   is:
+;
+; [StartMenuItems]
+; <description> = <binary>,<commandline>,<iconfile>,<iconnum>,<upgrade>
+;
+; Binary is the file whose presence in \system32 means that we need
+; to create the program item. Commandline is the actual command line
+; passed to progman for the item. Iconfile is optional and overrides
+; the default icon that progman gives the item.
+;
+; If <upgrade> is non-0, then this item gets upgraded during upgrade.
+;
+[StartMenuItems]
+%cmd% = cmd.exe,cmd.exe,progman.exe,10
+%explorer% = explorer.exe,explorer.exe,explorer.exe,1
+
+;
+;   The following section lists all the groups under 'Start Menu\Programs' that should
+;   be created on a clean install and upgrade. The format of the items in this section
+;   is:
+;
+;   [StartMenuGroups]
+;   <group_name_id> = <description>,<common_group>
+;
+;   where:
+;
+;       <description> is the name of the group to be created;
+;       <common_group> is a number: 0 indicates private group
+;                                   1 indicates common group
+;
+;
+[StartMenuGroups]
+Accessories = %accessories%,0
+Startup = %startup%,0
+AdminTools = %admintools%,1
+
+;
+; Sections that follow are for program group items that are
+; always added, and are in the following format:
+;
+; [<group_name_id>]
+; <description> = <binary>,<commandline>,<iconfile>,<iconnum>,<upgrade>
+;
+; Binary is the file whose presence in \system32 means that we need
+; to create the program item. Commandline is the actual command line
+; passed to progman for the item. Iconfile is optional and overrides
+; the default icon that progman gives the item.
+;
+; If <upgrade> is non-0, then this item gets upgraded during upgrade.
+;
+[AdminTools]
+%windisk% = windisk.exe,windisk.exe,,0
+%perfmon% = perfmon.exe,perfmon.exe,,0
+%ntbackup% = ntbackup.exe,ntbackup.exe,,0
+%eventvwr% = eventvwr.exe,eventvwr.exe,,0
+%winmsd% = winmsd.exe,winmsd.exe,,0
+%rasadmin% = rasadmin.exe,rasadmin.exe,,0
+%musrmgr% = musrmgr.exe,musrmgr.exe,,0
+
+[Accessories]
+%notepad% = notepad.exe,notepad.exe,,0
+%du_networking% = rasphone.exe,rasphone.exe,,0
+
+;
+; Device Installer Migration
+;
+; The following section is used to migrate legacy INFs/devices into a PnP-installed
+; state, so that the appropriate class installers always see devices of their class in
+; a consistent state.
+;
+; (We're currently migrating only SCSI and TAPE classes.)
+;
+[LegacyPnPMigration]
+ClassesToSweep = oemscs*.inf, oemtap*.inf
+ClassesToMigrate = {4D36E97B-E325-11CE-BFC1-08002BE10318}, {6D807884-7D21-11CF-801C-08002BE10318}
+
+;
+; Fonts.
+;
+[InstallFonts]
+UpdateInis=Fonts.Install
+
+[UpgradeFonts]
+UpdateInis=Fonts.Upgrade
+
+[Fonts.Install]
+;
+; These are fonts that GUI setup installs on non-upgrades.
+;
+win.ini,Fonts,,"Roman (All res)=ROMAN.FON"
+win.ini,Fonts,,"Script (All res)=SCRIPT.FON"
+win.ini,Fonts,,"Modern (All res)=MODERN.FON"
+win.ini,Fonts,,"Small Fonts (VGA res)=SMALLE.FON"
+win.ini,Fonts,,"Arial (TrueType)=ARIAL.TTF"
+win.ini,Fonts,,"Arial Bold (TrueType)=ARIALBD.TTF"
+win.ini,Fonts,,"Arial Bold Italic (TrueType)=ARIALBI.TTF"
+win.ini,Fonts,,"Arial Italic (TrueType)=ARIALI.TTF"
+win.ini,Fonts,,"Courier New (TrueType)=COUR.TTF"
+win.ini,Fonts,,"Courier New Bold (TrueType)=COURBD.TTF"
+win.ini,Fonts,,"Courier New Bold Italic (TrueType)=COURBI.TTF"
+win.ini,Fonts,,"Courier New Italic (TrueType)=COURI.TTF"
+win.ini,Fonts,,"Lucida Console (TrueType)=LUCON.TTF"
+win.ini,Fonts,,"Lucida Sans Unicode (TrueType)=L_10646.TTF"
+win.ini,Fonts,,"Times New Roman (TrueType)=TIMES.TTF"
+win.ini,Fonts,,"Times New Roman Bold (TrueType)=TIMESBD.TTF"
+win.ini,Fonts,,"Times New Roman Bold Italic (TrueType)=TIMESBI.TTF"
+win.ini,Fonts,,"Times New Roman Italic (TrueType)=TIMESI.TTF"
+win.ini,Fonts,,"WingDings (TrueType)=WINGDING.TTF"
+win.ini,Fonts,,"Symbol (TrueType)=SYMBOL.TTF"
+win.ini,Fonts,,"Symbol 8,10,12,14,18,24 (VGA res)=SYMBOLE.FON"
+
+[Fonts.Upgrade]
+;
+; These are fonts that are installed/deleted/changed on upgrade.
+;
+win.ini,Fonts,"Roman (Plotter)=","Roman (All res)=ROMAN.FON"
+win.ini,Fonts,"Script (Plotter)=","Script (All res)=SCRIPT.FON"
+win.ini,Fonts,"Modern (Plotter)=","Modern (All res)=MODERN.FON"
+;win.ini,Fonts,"MS Console (TrueType)=","Lucida Console (TrueType)=LUCON.TTF"
+
+[DestinationDirs]
+Files.System = 10,system32
+Files.System.CopyAlways = 10,system32
+Files.NoWin31.System32ToSysroot = 10
+Files.NoWin31.System32ToSystem = 10,system
+Files.NoWin31.SetupToSysroot = 10
+Files.NoWin31.SetupToSystem = 10,system
+Files.NoWin31CopyAlways.SetupToSysroot = 10
+Files.NoWin31CopyAlways.SetupToHelp = 10,help
+Files.NoWin31DeleteAlways.Sysroot = 10
+Files.Win31CopyAlways.SetupToSysroot = 10
+
+[Files.NoWin31.System32ToSysroot]
+NOTEPAD.EXE
+TASKMAN.EXE
+
+[Files.NoWin31.System32ToSystem]
+AVICAP.DLL
+AVIFILE.DLL
+COMMDLG.DLL
+LZEXPAND.DLL
+KEYBOARD.DRV
+MCIAVI.DRV
+MCISEQ.DRV
+MCIWAVE.DRV
+MMSYSTEM.DLL
+MMTASK.TSK
+MOUSE.DRV
+MSVIDEO.DLL
+OLECLI.DLL
+OLESVR.DLL
+SHELL.DLL
+SOUND.DRV
+SYSTEM.DRV
+TAPI.DLL
+TIMER.DRV
+VER.DLL
+VGA.DRV
+WFWNET.DRV
+WINSPOOL.DRV
+
+[Files.NoWin31.SetupToSysroot]
+_DEFAULT.PIF
+WINHELP.EXE
+WIN.INI
+WINFILE.INI
+WINHELP.EXE
+
+[Files.NoWin31CopyAlways.SetupToSysroot]
+REGEDIT.EXE
+
+[Files.NoWin31CopyAlways.SetupToHelp]
+REGEDIT.CNT
+REGEDIT.HLP
+
+[Files.NoWin31DeleteAlways.Sysroot]
+CANYON.MID
+CHIMES.WAV
+DING.WAV
+RINGIN.WAV
+RINGOUT.WAV
+
+[Files.Win31CopyAlways.SetupToSysroot]
+REGEDIT.EXE,REGEDT16.EXE
+REGEDIT.HLP,REGEDT16.HLP
+REGEDITV.CNT
+REGEDITV.HLP
+
+[Files.System]
+SPOOLSS.EXE
+SPOOLSS.DLL
+AUTOEXEC.TMP,AUTOEXEC.NT
+CONFIG.TMP,CONFIG.NT
+
+[Files.System.CopyAlways]
+
+;
+; List of infs we load and run BaseWinOptions at Setup time.
+;
+[BaseWinOptionsInfs]
+accessor.inf
+communic.inf
+games.inf
+imagevue.inf
+mmopt.inf
+msmail.inf
+multimed.inf
+optional.inf
+pinball.inf
+wordpad.inf
+
+;
+; Infs that get run at optional components time,
+; in initial and upgrade cases.
+;
+[Infs.Always]
+iexplore.inf,DefaultInstall
+
+
+[ServicesToRename]
+OLE = RpcSs
+
+[Strings]
+;
+; Names of program groups
+;
+main = "Main"
+games = "Games"
+accessories = "Accessories"
+accessories_games = "Accessories\Games"
+accessories_multimedia = "Accessories\Multimedia"
+startup = "Startup"
+admintools = "Administrative Tools"
+
+;
+; Names of program group items
+;
+winfile = "File Manager"
+control = "Control Panel"
+printman = "Print Manager"
+clipbrd = "ClipBook Viewer"
+dialer = "Phone Dialer"
+cmd = "Command Prompt"
+explorer = "Windows NT Explorer"
+setup = "Windows NT Setup"
+pifedit = "PIF Editor"
+msmail32 = "Mail"
+schdpl32 = "Schedule+"
+intro = "Introducing Windows NT"
+readme = "Read Me"
+ntbooks = "Books Online"
+cmdref = "Windows NT Help"
+windisk = "Disk Administrator"
+perfmon = "Performance Monitor"
+ntbackup = "Backup"
+eventvwr = "Event Viewer"
+dcomcnfg = "DCOM Configuration"
+winmsd = "Windows NT Diagnostics"
+musrmgr = "User Manager"
+pbrush = "Paintbrush"
+paint = "Paint"
+winchat = "Chat"
+terminal = "Terminal"
+notepad = "Notepad"
+cardfile = "Cardfile"
+calc = "Calculator"
+clock = "Clock"
+charmap = "Character Map"
+mplayer = "Media Player"
+sndrec32 = "Sound Recorder"
+sndvol32 = "Volume Control"
+cdplayer = "CD Player"
+write = "Write"
+packgr32 = "Object Packager"
+hyperterm = "HyperTerminal"
+sol = "Solitaire"
+winmine = "Minesweeper"
+freecell = "Freecell"
+rasadmin = "Remote Access Admin"
+du_networking = "Dial-Up Networking"
+admin_wiz = "Administrative Wizards"

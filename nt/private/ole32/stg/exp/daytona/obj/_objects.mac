@@ -1,0 +1,92 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dfguid.obj \
+    $(_OBJ_DIR)\alpha\docfile.obj \
+    $(_OBJ_DIR)\alpha\filest.obj \
+    $(_OBJ_DIR)\alpha\filest32.obj \
+    $(_OBJ_DIR)\alpha\time32.obj \
+    $(_OBJ_DIR)\alpha\context.obj \
+    $(_OBJ_DIR)\alpha\cntxlist.obj \
+    $(_OBJ_DIR)\alpha\lock.obj \
+    $(_OBJ_DIR)\alpha\marshl.obj \
+    $(_OBJ_DIR)\alpha\dfunmfct.obj \
+    $(_OBJ_DIR)\alpha\seekptr.obj \
+    $(_OBJ_DIR)\alpha\expst.obj \
+    $(_OBJ_DIR)\alpha\peiter.obj \
+    $(_OBJ_DIR)\alpha\expiter.obj \
+    $(_OBJ_DIR)\alpha\expdf.obj \
+    $(_OBJ_DIR)\alpha\ptrcache.obj \
+    $(_OBJ_DIR)\alpha\storage.obj \
+    $(_OBJ_DIR)\alpha\mrshlist.obj \
+    $(_OBJ_DIR)\alpha\astgconn.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dfguid.obj \
+    $(_OBJ_DIR)\mips\docfile.obj \
+    $(_OBJ_DIR)\mips\filest.obj \
+    $(_OBJ_DIR)\mips\filest32.obj \
+    $(_OBJ_DIR)\mips\time32.obj \
+    $(_OBJ_DIR)\mips\context.obj \
+    $(_OBJ_DIR)\mips\cntxlist.obj \
+    $(_OBJ_DIR)\mips\lock.obj \
+    $(_OBJ_DIR)\mips\marshl.obj \
+    $(_OBJ_DIR)\mips\dfunmfct.obj \
+    $(_OBJ_DIR)\mips\seekptr.obj \
+    $(_OBJ_DIR)\mips\expst.obj \
+    $(_OBJ_DIR)\mips\peiter.obj \
+    $(_OBJ_DIR)\mips\expiter.obj \
+    $(_OBJ_DIR)\mips\expdf.obj \
+    $(_OBJ_DIR)\mips\ptrcache.obj \
+    $(_OBJ_DIR)\mips\storage.obj \
+    $(_OBJ_DIR)\mips\mrshlist.obj \
+    $(_OBJ_DIR)\mips\astgconn.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dfguid.obj \
+    $(_OBJ_DIR)\i386\docfile.obj \
+    $(_OBJ_DIR)\i386\filest.obj \
+    $(_OBJ_DIR)\i386\filest32.obj \
+    $(_OBJ_DIR)\i386\time32.obj \
+    $(_OBJ_DIR)\i386\context.obj \
+    $(_OBJ_DIR)\i386\cntxlist.obj \
+    $(_OBJ_DIR)\i386\lock.obj \
+    $(_OBJ_DIR)\i386\marshl.obj \
+    $(_OBJ_DIR)\i386\dfunmfct.obj \
+    $(_OBJ_DIR)\i386\seekptr.obj \
+    $(_OBJ_DIR)\i386\expst.obj \
+    $(_OBJ_DIR)\i386\peiter.obj \
+    $(_OBJ_DIR)\i386\expiter.obj \
+    $(_OBJ_DIR)\i386\expdf.obj \
+    $(_OBJ_DIR)\i386\ptrcache.obj \
+    $(_OBJ_DIR)\i386\storage.obj \
+    $(_OBJ_DIR)\i386\mrshlist.obj \
+    $(_OBJ_DIR)\i386\astgconn.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dfguid.obj \
+    $(_OBJ_DIR)\ppc\docfile.obj \
+    $(_OBJ_DIR)\ppc\filest.obj \
+    $(_OBJ_DIR)\ppc\filest32.obj \
+    $(_OBJ_DIR)\ppc\time32.obj \
+    $(_OBJ_DIR)\ppc\context.obj \
+    $(_OBJ_DIR)\ppc\cntxlist.obj \
+    $(_OBJ_DIR)\ppc\lock.obj \
+    $(_OBJ_DIR)\ppc\marshl.obj \
+    $(_OBJ_DIR)\ppc\dfunmfct.obj \
+    $(_OBJ_DIR)\ppc\seekptr.obj \
+    $(_OBJ_DIR)\ppc\expst.obj \
+    $(_OBJ_DIR)\ppc\peiter.obj \
+    $(_OBJ_DIR)\ppc\expiter.obj \
+    $(_OBJ_DIR)\ppc\expdf.obj \
+    $(_OBJ_DIR)\ppc\ptrcache.obj \
+    $(_OBJ_DIR)\ppc\storage.obj \
+    $(_OBJ_DIR)\ppc\mrshlist.obj \
+    $(_OBJ_DIR)\ppc\astgconn.obj
+
+PASS0_PPC_OBJECTS=
+

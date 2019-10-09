@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\midleb.res \
+    $(_OBJ_DIR)\alpha\ebase.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\midleb.res \
+    $(_OBJ_DIR)\mips\ebase.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\midleb.res \
+    $(_OBJ_DIR)\i386\ebase.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\midleb.res \
+    $(_OBJ_DIR)\ppc\ebase.obj
+
+PASS0_PPC_OBJECTS=
+

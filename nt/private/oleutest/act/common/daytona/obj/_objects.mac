@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\clsid.obj \
+    $(_OBJ_DIR)\alpha\reg.obj \
+    $(_OBJ_DIR)\alpha\goober_i.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\clsid.obj \
+    $(_OBJ_DIR)\mips\reg.obj \
+    $(_OBJ_DIR)\mips\goober_i.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\clsid.obj \
+    $(_OBJ_DIR)\i386\reg.obj \
+    $(_OBJ_DIR)\i386\goober_i.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\clsid.obj \
+    $(_OBJ_DIR)\ppc\reg.obj \
+    $(_OBJ_DIR)\ppc\goober_i.obj
+
+PASS0_PPC_OBJECTS=
+

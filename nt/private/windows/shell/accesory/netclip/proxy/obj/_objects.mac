@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\nclipps.res \
+    $(_OBJ_DIR)\alpha\netclip_i.obj \
+    $(_OBJ_DIR)\alpha\netclip_p.obj \
+    $(_OBJ_DIR)\alpha\dlldata.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\nclipps.res \
+    $(_OBJ_DIR)\mips\netclip_i.obj \
+    $(_OBJ_DIR)\mips\netclip_p.obj \
+    $(_OBJ_DIR)\mips\dlldata.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\nclipps.res \
+    $(_OBJ_DIR)\i386\netclip_i.obj \
+    $(_OBJ_DIR)\i386\netclip_p.obj \
+    $(_OBJ_DIR)\i386\dlldata.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\nclipps.res \
+    $(_OBJ_DIR)\ppc\netclip_i.obj \
+    $(_OBJ_DIR)\ppc\netclip_p.obj \
+    $(_OBJ_DIR)\ppc\dlldata.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cmdline.obj \
+    $(_OBJ_DIR)\alpha\ctrlc.obj \
+    $(_OBJ_DIR)\alpha\convdm.obj \
+    $(_OBJ_DIR)\alpha\dllinit.obj \
+    $(_OBJ_DIR)\alpha\iostubs.obj \
+    $(_OBJ_DIR)\alpha\getset.obj \
+    $(_OBJ_DIR)\alpha\private.obj \
+    $(_OBJ_DIR)\alpha\stream.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\cmdline.obj \
+    $(_OBJ_DIR)\mips\ctrlc.obj \
+    $(_OBJ_DIR)\mips\convdm.obj \
+    $(_OBJ_DIR)\mips\dllinit.obj \
+    $(_OBJ_DIR)\mips\iostubs.obj \
+    $(_OBJ_DIR)\mips\getset.obj \
+    $(_OBJ_DIR)\mips\private.obj \
+    $(_OBJ_DIR)\mips\stream.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cmdline.obj \
+    $(_OBJ_DIR)\i386\ctrlc.obj \
+    $(_OBJ_DIR)\i386\convdm.obj \
+    $(_OBJ_DIR)\i386\dllinit.obj \
+    $(_OBJ_DIR)\i386\iostubs.obj \
+    $(_OBJ_DIR)\i386\getset.obj \
+    $(_OBJ_DIR)\i386\private.obj \
+    $(_OBJ_DIR)\i386\stream.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\cmdline.obj \
+    $(_OBJ_DIR)\ppc\ctrlc.obj \
+    $(_OBJ_DIR)\ppc\convdm.obj \
+    $(_OBJ_DIR)\ppc\dllinit.obj \
+    $(_OBJ_DIR)\ppc\iostubs.obj \
+    $(_OBJ_DIR)\ppc\getset.obj \
+    $(_OBJ_DIR)\ppc\private.obj \
+    $(_OBJ_DIR)\ppc\stream.obj
+
+PASS0_PPC_OBJECTS=
+

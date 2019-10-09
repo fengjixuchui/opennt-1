@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\infsize.res \
+    $(_OBJ_DIR)\alpha\infsize.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\infsize.res \
+    $(_OBJ_DIR)\mips\infsize.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\infsize.res \
+    $(_OBJ_DIR)\i386\infsize.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\infsize.res \
+    $(_OBJ_DIR)\ppc\infsize.obj
+
+PASS0_PPC_OBJECTS=
+

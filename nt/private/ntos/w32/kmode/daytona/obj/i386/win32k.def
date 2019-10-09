@@ -1,0 +1,291 @@
+
+NAME WIN32K.SYS
+
+DESCRIPTION 'WIN32K.SYS'
+
+EXPORTS
+
+;
+; ********** NEW OS SUPPORT ROUTINES FOR DISPLAY DRIVERS ******
+;
+
+    RtlRaiseException            = NTOSKRNL.RtlRaiseException
+    RtlUnwind                    = NTOSKRNL.RtlUnwind
+    RtlAnsiCharToUnicodeChar     = NTOSKRNL.RtlAnsiCharToUnicodeChar
+    RtlMultiByteToUnicodeN       = NTOSKRNL.RtlMultiByteToUnicodeN
+    RtlUpcaseUnicodeChar         = NTOSKRNL.RtlUpcaseUnicodeChar
+    RtlUpcaseUnicodeToMultiByteN = NTOSKRNL.RtlUpcaseUnicodeToMultiByteN
+    RtlUnicodeToMultiByteSize    = NTOSKRNL.RtlUnicodeToMultiByteSize
+    RtlUnicodeToMultiByteN       = NTOSKRNL.RtlUnicodeToMultiByteN
+
+    EngDebugBreak           = NTOSKRNL.DbgBreakPoint
+    EngDebugPrint
+
+    EngAllocMem
+    EngFreeMem
+    EngAllocUserMem
+    EngFreeUserMem
+
+    EngProbeForRead
+    EngProbeForReadAndWrite = NTOSKRNL.ProbeForWrite
+    EngSecureMem
+    EngUnsecureMem          = NTOSKRNL.MmUnsecureVirtualMemory
+
+    EngDeviceIoControl
+
+    EngCreateSemaphore
+    EngAcquireSemaphore
+    EngReleaseSemaphore
+    EngDeleteSemaphore
+
+
+
+;
+; ********** GDI ENTRY POINTS **************
+;
+
+;
+; Engine callbacks for drivers
+;
+    EngCreateDeviceBitmap
+    EngCreateDeviceSurface
+    EngCreateBitmap
+    EngCreatePath
+    EngDeletePath
+    EngDeleteSurface
+    EngLockSurface
+    EngMarkBandingSurface
+    EngUnlockSurface
+    EngCopyBits
+    EngBitBlt
+    EngStretchBlt
+    EngPaint
+    EngTextOut
+    EngEraseSurface
+    EngAssociateSurface
+    EngCheckAbort
+    EngCreatePalette
+    EngDeletePalette
+    EngCreateClip
+    EngDeleteClip
+    EngFillPath
+    EngLineTo
+    EngStrokePath
+    EngStrokeAndFillPath
+    EngSetLastError
+    EngGetLastError
+    EngGetProcessHandle
+    EngCreateDriverObj
+    EngDeleteDriverObj
+    EngLockDriverObj
+    EngUnlockDriverObj
+    EngGetType1FontList
+    EngComputeGlyphSet
+    EngGetCurrentCodePage
+    EngMultiByteToWideChar
+    EngWideCharToMultiByte
+    EngLoadModuleForWrite
+    EngGetFileChangeTime
+    EngGetFilePath
+
+    BRUSHOBJ_pvAllocRbrush
+    BRUSHOBJ_pvGetRbrush
+
+    CLIPOBJ_cEnumStart
+    CLIPOBJ_bEnum
+    CLIPOBJ_ppoGetPath
+
+    PALOBJ_cGetColors
+
+    XLATEOBJ_iXlate
+    XLATEOBJ_piVector
+    XLATEOBJ_cGetPalette
+
+    XFORMOBJ_bApplyXform
+    XFORMOBJ_iGetXform
+    XFORMOBJ_iGetFloatObjXform
+
+    FONTOBJ_cGetAllGlyphHandles
+    FONTOBJ_vGetInfo
+    FONTOBJ_cGetGlyphs
+    FONTOBJ_pxoGetXform
+    FONTOBJ_pifi
+    FONTOBJ_pvTrueTypeFontFile
+
+    STROBJ_vEnumStart
+    STROBJ_bEnum
+    STROBJ_dwGetCodePage
+
+    PATHOBJ_vEnumStart
+    PATHOBJ_bEnum
+    PATHOBJ_vEnumStartClipLines
+    PATHOBJ_bEnumClipLines
+    PATHOBJ_vGetBounds
+    PATHOBJ_bMoveTo
+    PATHOBJ_bPolyLineTo
+    PATHOBJ_bPolyBezierTo
+    PATHOBJ_bCloseFigure
+
+    EngCreateWnd
+    WNDOBJ_cEnumStart
+    WNDOBJ_bEnum
+    WNDOBJ_vSetConsumer
+
+;
+; ********** NEW OS SUPPORT ROUTINES FOR PRINTER DRIVERS ******
+;
+
+
+    EngGetPrinterData
+    EngSetPrinterData
+    EngGetPrinter
+    EngGetForm
+    EngWritePrinter
+    EngEnumForms
+
+    EngMulDiv
+    EngSort
+
+    EngLoadModule
+    EngMapModule
+    EngFindResource
+    EngFreeModule
+
+    EngGetPrinterDataFileName
+    EngGetDriverName
+
+    EngLoadImage
+    EngFindImageProcAddress
+    EngUnloadImage
+
+    EngMapFontFile
+    EngUnmapFontFile
+
+    EngQueryPerformanceCounter
+    EngQueryPerformanceFrequency
+
+    EngUnicodeToMultiByteN
+    EngMultiByteToUnicodeN
+
+    EngQueryLocalTime
+
+    HT_Get8BPPFormatPalette
+    HT_ComputeRGBGammaTable
+
+
+
+    FLOATOBJ_Add
+    FLOATOBJ_AddFloat
+    FLOATOBJ_AddLong
+    FLOATOBJ_AddFloatObj
+    FLOATOBJ_Div
+    FLOATOBJ_DivFloat
+    FLOATOBJ_DivLong
+    FLOATOBJ_DivFloatObj
+    FLOATOBJ_Equal
+    FLOATOBJ_EqualLong
+    FLOATOBJ_GetFloat
+    FLOATOBJ_GetLong
+    FLOATOBJ_GreaterThan
+    FLOATOBJ_GreaterThanLong
+    FLOATOBJ_LessThan
+    FLOATOBJ_LessThanLong
+    FLOATOBJ_Mul
+    FLOATOBJ_MulFloat
+    FLOATOBJ_MulLong
+    FLOATOBJ_MulFloatObj
+    FLOATOBJ_Neg
+    FLOATOBJ_SetFloat
+    FLOATOBJ_SetLong
+    FLOATOBJ_Sub
+    FLOATOBJ_SubFloat
+    FLOATOBJ_SubLong
+    FLOATOBJ_SubFloatObj
+
+    _abnormal_termination   = NTOSKRNL._abnormal_termination
+    _except_handler2        = NTOSKRNL._except_handler2
+    _global_unwind2         = NTOSKRNL._global_unwind2
+    _local_unwind2          = NTOSKRNL._local_unwind2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

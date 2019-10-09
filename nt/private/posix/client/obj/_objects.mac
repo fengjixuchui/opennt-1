@@ -1,0 +1,84 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\psxdll.res \
+    $(_OBJ_DIR)\alpha\psxthunk.obj \
+    $(_OBJ_DIR)\alpha\coninit.obj \
+    $(_OBJ_DIR)\alpha\conreqst.obj \
+    $(_OBJ_DIR)\alpha\crtsup.obj \
+    $(_OBJ_DIR)\alpha\dllext.obj \
+    $(_OBJ_DIR)\alpha\dllfile.obj \
+    $(_OBJ_DIR)\alpha\dllinit.obj \
+    $(_OBJ_DIR)\alpha\dllio.obj \
+    $(_OBJ_DIR)\alpha\dllname.obj \
+    $(_OBJ_DIR)\alpha\dllproc.obj \
+    $(_OBJ_DIR)\alpha\dllsig.obj \
+    $(_OBJ_DIR)\alpha\dlltc.obj \
+    $(_OBJ_DIR)\alpha\dlltimer.obj \
+    $(_OBJ_DIR)\alpha\dllreg.obj \
+    $(_OBJ_DIR)\alpha\stubs.obj \
+    $(_OBJ_DIR)\alpha\sysdb.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\psxdll.res \
+    $(_OBJ_DIR)\mips\psxthunk.obj \
+    $(_OBJ_DIR)\mips\coninit.obj \
+    $(_OBJ_DIR)\mips\conreqst.obj \
+    $(_OBJ_DIR)\mips\crtsup.obj \
+    $(_OBJ_DIR)\mips\dllext.obj \
+    $(_OBJ_DIR)\mips\dllfile.obj \
+    $(_OBJ_DIR)\mips\dllinit.obj \
+    $(_OBJ_DIR)\mips\dllio.obj \
+    $(_OBJ_DIR)\mips\dllname.obj \
+    $(_OBJ_DIR)\mips\dllproc.obj \
+    $(_OBJ_DIR)\mips\dllsig.obj \
+    $(_OBJ_DIR)\mips\dlltc.obj \
+    $(_OBJ_DIR)\mips\dlltimer.obj \
+    $(_OBJ_DIR)\mips\dllreg.obj \
+    $(_OBJ_DIR)\mips\stubs.obj \
+    $(_OBJ_DIR)\mips\sysdb.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\psxdll.res \
+    $(_OBJ_DIR)\i386\psxthunk.obj \
+    $(_OBJ_DIR)\i386\coninit.obj \
+    $(_OBJ_DIR)\i386\conreqst.obj \
+    $(_OBJ_DIR)\i386\crtsup.obj \
+    $(_OBJ_DIR)\i386\dllext.obj \
+    $(_OBJ_DIR)\i386\dllfile.obj \
+    $(_OBJ_DIR)\i386\dllinit.obj \
+    $(_OBJ_DIR)\i386\dllio.obj \
+    $(_OBJ_DIR)\i386\dllname.obj \
+    $(_OBJ_DIR)\i386\dllproc.obj \
+    $(_OBJ_DIR)\i386\dllsig.obj \
+    $(_OBJ_DIR)\i386\dlltc.obj \
+    $(_OBJ_DIR)\i386\dlltimer.obj \
+    $(_OBJ_DIR)\i386\dllreg.obj \
+    $(_OBJ_DIR)\i386\stubs.obj \
+    $(_OBJ_DIR)\i386\sysdb.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\psxdll.res \
+    $(_OBJ_DIR)\ppc\coninit.obj \
+    $(_OBJ_DIR)\ppc\conreqst.obj \
+    $(_OBJ_DIR)\ppc\crtsup.obj \
+    $(_OBJ_DIR)\ppc\dllext.obj \
+    $(_OBJ_DIR)\ppc\dllfile.obj \
+    $(_OBJ_DIR)\ppc\dllinit.obj \
+    $(_OBJ_DIR)\ppc\dllio.obj \
+    $(_OBJ_DIR)\ppc\dllname.obj \
+    $(_OBJ_DIR)\ppc\dllproc.obj \
+    $(_OBJ_DIR)\ppc\dllsig.obj \
+    $(_OBJ_DIR)\ppc\dlltc.obj \
+    $(_OBJ_DIR)\ppc\dlltimer.obj \
+    $(_OBJ_DIR)\ppc\dllreg.obj \
+    $(_OBJ_DIR)\ppc\stubs.obj \
+    $(_OBJ_DIR)\ppc\sysdb.obj \
+    $(_OBJ_DIR)\ppc\psxthunk.obj
+
+PASS0_PPC_OBJECTS=
+

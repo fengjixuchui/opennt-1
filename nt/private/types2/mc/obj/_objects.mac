@@ -1,0 +1,24 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS= \
+    w:\nt\public\sdk\inc\allerror.h \
+    ..\proxy\proxy\allerror.rc
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS= \
+    w:\nt\public\sdk\inc\allerror.h \
+    ..\proxy\proxy\allerror.rc
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS= \
+    w:\nt\public\sdk\inc\allerror.h \
+    ..\proxy\proxy\allerror.rc
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS= \
+    w:\nt\public\sdk\inc\allerror.h \
+    ..\proxy\proxy\allerror.rc
+

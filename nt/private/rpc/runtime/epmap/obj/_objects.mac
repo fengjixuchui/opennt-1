@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\epmap.obj \
+    $(_OBJ_DIR)\alpha\worker.obj \
+    $(_OBJ_DIR)\alpha\epmp_s.obj \
+    $(_OBJ_DIR)\alpha\util.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\epmap.obj \
+    $(_OBJ_DIR)\mips\worker.obj \
+    $(_OBJ_DIR)\mips\epmp_s.obj \
+    $(_OBJ_DIR)\mips\util.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\epmap.obj \
+    $(_OBJ_DIR)\i386\worker.obj \
+    $(_OBJ_DIR)\i386\epmp_s.obj \
+    $(_OBJ_DIR)\i386\util.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\epmap.obj \
+    $(_OBJ_DIR)\ppc\worker.obj \
+    $(_OBJ_DIR)\ppc\epmp_s.obj \
+    $(_OBJ_DIR)\ppc\util.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mcpyfile.res \
+    $(_OBJ_DIR)\alpha\mcpyfile.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mcpyfile.res \
+    $(_OBJ_DIR)\mips\mcpyfile.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mcpyfile.res \
+    $(_OBJ_DIR)\i386\mcpyfile.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mcpyfile.res \
+    $(_OBJ_DIR)\ppc\mcpyfile.obj
+
+PASS0_PPC_OBJECTS=
+

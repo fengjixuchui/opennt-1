@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\res.res \
+    $(_OBJ_DIR)\alpha\userinit.obj \
+    $(_OBJ_DIR)\alpha\msgalias.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\res.res \
+    $(_OBJ_DIR)\mips\userinit.obj \
+    $(_OBJ_DIR)\mips\msgalias.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\res.res \
+    $(_OBJ_DIR)\i386\userinit.obj \
+    $(_OBJ_DIR)\i386\msgalias.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\res.res \
+    $(_OBJ_DIR)\ppc\userinit.obj \
+    $(_OBJ_DIR)\ppc\msgalias.obj
+
+PASS0_PPC_OBJECTS=
+

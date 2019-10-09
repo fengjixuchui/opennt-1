@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\basesrv.res \
+    $(_OBJ_DIR)\alpha\srvinit.obj \
+    $(_OBJ_DIR)\alpha\srvtask.obj \
+    $(_OBJ_DIR)\alpha\srvvdm.obj \
+    $(_OBJ_DIR)\alpha\srvnls.obj \
+    $(_OBJ_DIR)\alpha\srvini.obj \
+    $(_OBJ_DIR)\alpha\srvacces.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\basesrv.res \
+    $(_OBJ_DIR)\mips\srvinit.obj \
+    $(_OBJ_DIR)\mips\srvtask.obj \
+    $(_OBJ_DIR)\mips\srvvdm.obj \
+    $(_OBJ_DIR)\mips\srvnls.obj \
+    $(_OBJ_DIR)\mips\srvini.obj \
+    $(_OBJ_DIR)\mips\srvacces.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\basesrv.res \
+    $(_OBJ_DIR)\i386\srvinit.obj \
+    $(_OBJ_DIR)\i386\srvtask.obj \
+    $(_OBJ_DIR)\i386\srvvdm.obj \
+    $(_OBJ_DIR)\i386\srvnls.obj \
+    $(_OBJ_DIR)\i386\srvini.obj \
+    $(_OBJ_DIR)\i386\srvacces.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\basesrv.res \
+    $(_OBJ_DIR)\ppc\srvinit.obj \
+    $(_OBJ_DIR)\ppc\srvtask.obj \
+    $(_OBJ_DIR)\ppc\srvvdm.obj \
+    $(_OBJ_DIR)\ppc\srvnls.obj \
+    $(_OBJ_DIR)\ppc\srvini.obj \
+    $(_OBJ_DIR)\ppc\srvacces.obj
+
+PASS0_PPC_OBJECTS=
+

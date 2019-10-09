@@ -1,0 +1,6 @@
+/BA /onerror:noexe /noe /nod /map /far /packc /packd /align:4 +
+W:\nt\private\oleauto\dwin16\resstub.obj
+W:\nt\private\oleauto\dwin16\stdole.tlb
+W:\nt\private\oleauto\dwin16\stdole.MAP
+W:\nt\private\oleauto\tools\win16\os2\lib\libw.lib W:\nt\private\oleauto\tools\win16\os2\lib\snocrtdw.lib
+W:\nt\private\oleauto\src\mktyplib\stdole.def

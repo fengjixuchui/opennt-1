@@ -1,0 +1,69 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ixbeep.obj \
+    $(_OBJ_DIR)\i386\ixcmos.obj \
+    $(_OBJ_DIR)\i386\ixidle.obj \
+    $(_OBJ_DIR)\i386\ixprofil.obj \
+    $(_OBJ_DIR)\i386\ixstall.obj \
+    $(_OBJ_DIR)\i386\ixswint.obj \
+    $(_OBJ_DIR)\i386\xxbiosa.obj \
+    $(_OBJ_DIR)\i386\ncrclock.obj \
+    $(_OBJ_DIR)\i386\ncrintr.obj \
+    $(_OBJ_DIR)\i386\ncripi.obj \
+    $(_OBJ_DIR)\i386\ncrirql.obj \
+    $(_OBJ_DIR)\i386\ncrlock.obj \
+    $(_OBJ_DIR)\i386\ncrsyint.obj \
+    $(_OBJ_DIR)\i386\ncrstart.obj \
+    $(_OBJ_DIR)\i386\ncrcatlk.obj \
+    $(_OBJ_DIR)\i386\ncrioacc.obj \
+    $(_OBJ_DIR)\i386\ixbusdat.obj \
+    $(_OBJ_DIR)\i386\ixdat.obj \
+    $(_OBJ_DIR)\i386\ixisabus.obj \
+    $(_OBJ_DIR)\i386\ixinfo.obj \
+    $(_OBJ_DIR)\i386\ixpcibus.obj \
+    $(_OBJ_DIR)\i386\ixpciint.obj \
+    $(_OBJ_DIR)\i386\ixpcibrd.obj \
+    $(_OBJ_DIR)\i386\ixsysbus.obj \
+    $(_OBJ_DIR)\i386\ixenvirv.obj \
+    $(_OBJ_DIR)\i386\ixhwsup.obj \
+    $(_OBJ_DIR)\i386\ixkdcom.obj \
+    $(_OBJ_DIR)\i386\ixphwsup.obj \
+    $(_OBJ_DIR)\i386\ixmcabus.obj \
+    $(_OBJ_DIR)\i386\ixmcasup.obj \
+    $(_OBJ_DIR)\i386\ixthunk.obj \
+    $(_OBJ_DIR)\i386\ixusage.obj \
+    $(_OBJ_DIR)\i386\xxbiosc.obj \
+    $(_OBJ_DIR)\i386\xxdisp.obj \
+    $(_OBJ_DIR)\i386\xxhal.obj \
+    $(_OBJ_DIR)\i386\xxkdsup.obj \
+    $(_OBJ_DIR)\i386\xxmemory.obj \
+    $(_OBJ_DIR)\i386\xxstubs.obj \
+    $(_OBJ_DIR)\i386\xxtime.obj \
+    $(_OBJ_DIR)\i386\ncrdetct.obj \
+    $(_OBJ_DIR)\i386\ncrhwsup.obj \
+    $(_OBJ_DIR)\i386\ncrnmi.obj \
+    $(_OBJ_DIR)\i386\ncrstop.obj \
+    $(_OBJ_DIR)\i386\ncrmp.obj \
+    $(_OBJ_DIR)\i386\ncrcat.obj \
+    $(_OBJ_DIR)\i386\ncrsus.obj \
+    $(_OBJ_DIR)\i386\ncrmcabs.obj \
+    $(_OBJ_DIR)\i386\ncrqic.obj \
+    $(_OBJ_DIR)\i386\ncrlarc.obj \
+    $(_OBJ_DIR)\i386\hal.res \
+    $(_OBJ_DIR)\i386\drivesup.obj \
+    $(_OBJ_DIR)\i386\bushnd.obj \
+    $(_OBJ_DIR)\i386\rangesup.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

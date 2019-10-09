@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ntgpcedt.res \
+    $(_OBJ_DIR)\alpha\ntgpcedt.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ntgpcedt.res \
+    $(_OBJ_DIR)\mips\ntgpcedt.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ntgpcedt.res \
+    $(_OBJ_DIR)\i386\ntgpcedt.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ntgpcedt.res \
+    $(_OBJ_DIR)\ppc\ntgpcedt.obj
+
+PASS0_PPC_OBJECTS=
+

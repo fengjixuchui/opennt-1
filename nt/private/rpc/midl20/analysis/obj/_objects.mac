@@ -1,0 +1,56 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\auxana.obj \
+    $(_OBJ_DIR)\alpha\stana.obj \
+    $(_OBJ_DIR)\alpha\typeana.obj \
+    $(_OBJ_DIR)\alpha\arrayana.obj \
+    $(_OBJ_DIR)\alpha\ptrana.obj \
+    $(_OBJ_DIR)\alpha\opinfo.obj \
+    $(_OBJ_DIR)\alpha\analysis.obj \
+    $(_OBJ_DIR)\alpha\procana.obj \
+    $(_OBJ_DIR)\alpha\btana.obj \
+    $(_OBJ_DIR)\alpha\alstmc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\auxana.obj \
+    $(_OBJ_DIR)\mips\stana.obj \
+    $(_OBJ_DIR)\mips\typeana.obj \
+    $(_OBJ_DIR)\mips\arrayana.obj \
+    $(_OBJ_DIR)\mips\ptrana.obj \
+    $(_OBJ_DIR)\mips\opinfo.obj \
+    $(_OBJ_DIR)\mips\analysis.obj \
+    $(_OBJ_DIR)\mips\procana.obj \
+    $(_OBJ_DIR)\mips\btana.obj \
+    $(_OBJ_DIR)\mips\alstmc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\auxana.obj \
+    $(_OBJ_DIR)\i386\stana.obj \
+    $(_OBJ_DIR)\i386\typeana.obj \
+    $(_OBJ_DIR)\i386\arrayana.obj \
+    $(_OBJ_DIR)\i386\ptrana.obj \
+    $(_OBJ_DIR)\i386\opinfo.obj \
+    $(_OBJ_DIR)\i386\analysis.obj \
+    $(_OBJ_DIR)\i386\procana.obj \
+    $(_OBJ_DIR)\i386\btana.obj \
+    $(_OBJ_DIR)\i386\alstmc.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\auxana.obj \
+    $(_OBJ_DIR)\ppc\stana.obj \
+    $(_OBJ_DIR)\ppc\typeana.obj \
+    $(_OBJ_DIR)\ppc\arrayana.obj \
+    $(_OBJ_DIR)\ppc\ptrana.obj \
+    $(_OBJ_DIR)\ppc\opinfo.obj \
+    $(_OBJ_DIR)\ppc\analysis.obj \
+    $(_OBJ_DIR)\ppc\procana.obj \
+    $(_OBJ_DIR)\ppc\btana.obj \
+    $(_OBJ_DIR)\ppc\alstmc.obj
+
+PASS0_PPC_OBJECTS=
+

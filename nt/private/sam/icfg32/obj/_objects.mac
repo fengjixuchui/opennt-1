@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\version.res \
+    $(_OBJ_DIR)\alpha\icfg32.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\version.res \
+    $(_OBJ_DIR)\mips\icfg32.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\version.res \
+    $(_OBJ_DIR)\i386\icfg32.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\version.res \
+    $(_OBJ_DIR)\ppc\icfg32.obj
+
+PASS0_PPC_OBJECTS=
+

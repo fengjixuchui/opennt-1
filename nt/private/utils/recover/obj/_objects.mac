@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\recover.res \
+    $(_OBJ_DIR)\alpha\recover.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\recover.res \
+    $(_OBJ_DIR)\mips\recover.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\recover.res \
+    $(_OBJ_DIR)\i386\recover.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\recover.res \
+    $(_OBJ_DIR)\ppc\recover.obj
+
+PASS0_PPC_OBJECTS=
+

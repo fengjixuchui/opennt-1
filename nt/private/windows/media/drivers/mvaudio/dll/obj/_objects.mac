@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mvaudio.res \
+    $(_OBJ_DIR)\alpha\initc.obj \
+    $(_OBJ_DIR)\alpha\drvproc.obj \
+    $(_OBJ_DIR)\alpha\config.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mvaudio.res \
+    $(_OBJ_DIR)\mips\initc.obj \
+    $(_OBJ_DIR)\mips\drvproc.obj \
+    $(_OBJ_DIR)\mips\config.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mvaudio.res \
+    $(_OBJ_DIR)\i386\initc.obj \
+    $(_OBJ_DIR)\i386\drvproc.obj \
+    $(_OBJ_DIR)\i386\config.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mvaudio.res \
+    $(_OBJ_DIR)\ppc\initc.obj \
+    $(_OBJ_DIR)\ppc\drvproc.obj \
+    $(_OBJ_DIR)\ppc\config.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,60 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\lt200.res \
+    $(_OBJ_DIR)\alpha\ltinit.obj \
+    $(_OBJ_DIR)\alpha\ltfirm.obj \
+    $(_OBJ_DIR)\alpha\lttimer.obj \
+    $(_OBJ_DIR)\alpha\ltloop.obj \
+    $(_OBJ_DIR)\alpha\ltsend.obj \
+    $(_OBJ_DIR)\alpha\ltrecv.obj \
+    $(_OBJ_DIR)\alpha\ltreg.obj \
+    $(_OBJ_DIR)\alpha\ltreq.obj \
+    $(_OBJ_DIR)\alpha\ltreset.obj \
+    $(_OBJ_DIR)\alpha\ltutils.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\lt200.res \
+    $(_OBJ_DIR)\mips\ltinit.obj \
+    $(_OBJ_DIR)\mips\ltfirm.obj \
+    $(_OBJ_DIR)\mips\lttimer.obj \
+    $(_OBJ_DIR)\mips\ltloop.obj \
+    $(_OBJ_DIR)\mips\ltsend.obj \
+    $(_OBJ_DIR)\mips\ltrecv.obj \
+    $(_OBJ_DIR)\mips\ltreg.obj \
+    $(_OBJ_DIR)\mips\ltreq.obj \
+    $(_OBJ_DIR)\mips\ltreset.obj \
+    $(_OBJ_DIR)\mips\ltutils.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\lt200.res \
+    $(_OBJ_DIR)\i386\ltinit.obj \
+    $(_OBJ_DIR)\i386\ltfirm.obj \
+    $(_OBJ_DIR)\i386\lttimer.obj \
+    $(_OBJ_DIR)\i386\ltloop.obj \
+    $(_OBJ_DIR)\i386\ltsend.obj \
+    $(_OBJ_DIR)\i386\ltrecv.obj \
+    $(_OBJ_DIR)\i386\ltreg.obj \
+    $(_OBJ_DIR)\i386\ltreq.obj \
+    $(_OBJ_DIR)\i386\ltreset.obj \
+    $(_OBJ_DIR)\i386\ltutils.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\lt200.res \
+    $(_OBJ_DIR)\ppc\ltinit.obj \
+    $(_OBJ_DIR)\ppc\ltfirm.obj \
+    $(_OBJ_DIR)\ppc\lttimer.obj \
+    $(_OBJ_DIR)\ppc\ltloop.obj \
+    $(_OBJ_DIR)\ppc\ltsend.obj \
+    $(_OBJ_DIR)\ppc\ltrecv.obj \
+    $(_OBJ_DIR)\ppc\ltreg.obj \
+    $(_OBJ_DIR)\ppc\ltreq.obj \
+    $(_OBJ_DIR)\ppc\ltreset.obj \
+    $(_OBJ_DIR)\ppc\ltutils.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,136 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\pcimac.res \
+    $(_OBJ_DIR)\alpha\pcimac.obj \
+    $(_OBJ_DIR)\alpha\ansihelp.obj \
+    $(_OBJ_DIR)\alpha\idd_init.obj \
+    $(_OBJ_DIR)\alpha\idd_nv.obj \
+    $(_OBJ_DIR)\alpha\idd_io.obj \
+    $(_OBJ_DIR)\alpha\idd_run.obj \
+    $(_OBJ_DIR)\alpha\idd_proc.obj \
+    $(_OBJ_DIR)\alpha\idd_msg.obj \
+    $(_OBJ_DIR)\alpha\mtl_tx.obj \
+    $(_OBJ_DIR)\alpha\mtl_init.obj \
+    $(_OBJ_DIR)\alpha\mtl_set.obj \
+    $(_OBJ_DIR)\alpha\mtl_rx.obj \
+    $(_OBJ_DIR)\alpha\mtl_tick.obj \
+    $(_OBJ_DIR)\alpha\cm_init.obj \
+    $(_OBJ_DIR)\alpha\cm_prof.obj \
+    $(_OBJ_DIR)\alpha\cm_stat.obj \
+    $(_OBJ_DIR)\alpha\cm_timer.obj \
+    $(_OBJ_DIR)\alpha\cm_state.obj \
+    $(_OBJ_DIR)\alpha\cm_q931.obj \
+    $(_OBJ_DIR)\alpha\cm_conn.obj \
+    $(_OBJ_DIR)\alpha\cm_chan.obj \
+    $(_OBJ_DIR)\alpha\res_core.obj \
+    $(_OBJ_DIR)\alpha\io_core.obj \
+    $(_OBJ_DIR)\alpha\wan_conn.obj \
+    $(_OBJ_DIR)\alpha\trc_core.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\wanoid.obj \
+    $(_OBJ_DIR)\alpha\tapioid.obj \
+    $(_OBJ_DIR)\alpha\lanoid.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\pcimac.res \
+    $(_OBJ_DIR)\mips\pcimac.obj \
+    $(_OBJ_DIR)\mips\ansihelp.obj \
+    $(_OBJ_DIR)\mips\idd_init.obj \
+    $(_OBJ_DIR)\mips\idd_nv.obj \
+    $(_OBJ_DIR)\mips\idd_io.obj \
+    $(_OBJ_DIR)\mips\idd_run.obj \
+    $(_OBJ_DIR)\mips\idd_proc.obj \
+    $(_OBJ_DIR)\mips\idd_msg.obj \
+    $(_OBJ_DIR)\mips\mtl_tx.obj \
+    $(_OBJ_DIR)\mips\mtl_init.obj \
+    $(_OBJ_DIR)\mips\mtl_set.obj \
+    $(_OBJ_DIR)\mips\mtl_rx.obj \
+    $(_OBJ_DIR)\mips\mtl_tick.obj \
+    $(_OBJ_DIR)\mips\cm_init.obj \
+    $(_OBJ_DIR)\mips\cm_prof.obj \
+    $(_OBJ_DIR)\mips\cm_stat.obj \
+    $(_OBJ_DIR)\mips\cm_timer.obj \
+    $(_OBJ_DIR)\mips\cm_state.obj \
+    $(_OBJ_DIR)\mips\cm_q931.obj \
+    $(_OBJ_DIR)\mips\cm_conn.obj \
+    $(_OBJ_DIR)\mips\cm_chan.obj \
+    $(_OBJ_DIR)\mips\res_core.obj \
+    $(_OBJ_DIR)\mips\io_core.obj \
+    $(_OBJ_DIR)\mips\wan_conn.obj \
+    $(_OBJ_DIR)\mips\trc_core.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\wanoid.obj \
+    $(_OBJ_DIR)\mips\tapioid.obj \
+    $(_OBJ_DIR)\mips\lanoid.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\pcimac.res \
+    $(_OBJ_DIR)\i386\pcimac.obj \
+    $(_OBJ_DIR)\i386\ansihelp.obj \
+    $(_OBJ_DIR)\i386\idd_init.obj \
+    $(_OBJ_DIR)\i386\idd_nv.obj \
+    $(_OBJ_DIR)\i386\idd_io.obj \
+    $(_OBJ_DIR)\i386\idd_run.obj \
+    $(_OBJ_DIR)\i386\idd_proc.obj \
+    $(_OBJ_DIR)\i386\idd_msg.obj \
+    $(_OBJ_DIR)\i386\mtl_tx.obj \
+    $(_OBJ_DIR)\i386\mtl_init.obj \
+    $(_OBJ_DIR)\i386\mtl_set.obj \
+    $(_OBJ_DIR)\i386\mtl_rx.obj \
+    $(_OBJ_DIR)\i386\mtl_tick.obj \
+    $(_OBJ_DIR)\i386\cm_init.obj \
+    $(_OBJ_DIR)\i386\cm_prof.obj \
+    $(_OBJ_DIR)\i386\cm_stat.obj \
+    $(_OBJ_DIR)\i386\cm_timer.obj \
+    $(_OBJ_DIR)\i386\cm_state.obj \
+    $(_OBJ_DIR)\i386\cm_q931.obj \
+    $(_OBJ_DIR)\i386\cm_conn.obj \
+    $(_OBJ_DIR)\i386\cm_chan.obj \
+    $(_OBJ_DIR)\i386\res_core.obj \
+    $(_OBJ_DIR)\i386\io_core.obj \
+    $(_OBJ_DIR)\i386\wan_conn.obj \
+    $(_OBJ_DIR)\i386\trc_core.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\wanoid.obj \
+    $(_OBJ_DIR)\i386\tapioid.obj \
+    $(_OBJ_DIR)\i386\lanoid.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\pcimac.res \
+    $(_OBJ_DIR)\ppc\pcimac.obj \
+    $(_OBJ_DIR)\ppc\ansihelp.obj \
+    $(_OBJ_DIR)\ppc\idd_init.obj \
+    $(_OBJ_DIR)\ppc\idd_nv.obj \
+    $(_OBJ_DIR)\ppc\idd_io.obj \
+    $(_OBJ_DIR)\ppc\idd_run.obj \
+    $(_OBJ_DIR)\ppc\idd_proc.obj \
+    $(_OBJ_DIR)\ppc\idd_msg.obj \
+    $(_OBJ_DIR)\ppc\mtl_tx.obj \
+    $(_OBJ_DIR)\ppc\mtl_init.obj \
+    $(_OBJ_DIR)\ppc\mtl_set.obj \
+    $(_OBJ_DIR)\ppc\mtl_rx.obj \
+    $(_OBJ_DIR)\ppc\mtl_tick.obj \
+    $(_OBJ_DIR)\ppc\cm_init.obj \
+    $(_OBJ_DIR)\ppc\cm_prof.obj \
+    $(_OBJ_DIR)\ppc\cm_stat.obj \
+    $(_OBJ_DIR)\ppc\cm_timer.obj \
+    $(_OBJ_DIR)\ppc\cm_state.obj \
+    $(_OBJ_DIR)\ppc\cm_q931.obj \
+    $(_OBJ_DIR)\ppc\cm_conn.obj \
+    $(_OBJ_DIR)\ppc\cm_chan.obj \
+    $(_OBJ_DIR)\ppc\res_core.obj \
+    $(_OBJ_DIR)\ppc\io_core.obj \
+    $(_OBJ_DIR)\ppc\wan_conn.obj \
+    $(_OBJ_DIR)\ppc\trc_core.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\wanoid.obj \
+    $(_OBJ_DIR)\ppc\tapioid.obj \
+    $(_OBJ_DIR)\ppc\lanoid.obj
+
+PASS0_PPC_OBJECTS=
+

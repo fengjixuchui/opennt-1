@@ -1,0 +1,81 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\fnterr.obj \
+    $(_OBJ_DIR)\alpha\fontmath.obj \
+    $(_OBJ_DIR)\alpha\fscaler.obj \
+    $(_OBJ_DIR)\alpha\fsglue.obj \
+    $(_OBJ_DIR)\alpha\interp.obj \
+    $(_OBJ_DIR)\alpha\scale.obj \
+    $(_OBJ_DIR)\alpha\scanlist.obj \
+    $(_OBJ_DIR)\alpha\scbitmap.obj \
+    $(_OBJ_DIR)\alpha\scendpt.obj \
+    $(_OBJ_DIR)\alpha\scentry.obj \
+    $(_OBJ_DIR)\alpha\scline.obj \
+    $(_OBJ_DIR)\alpha\scmemory.obj \
+    $(_OBJ_DIR)\alpha\scspline.obj \
+    $(_OBJ_DIR)\alpha\sfntaccs.obj \
+    $(_OBJ_DIR)\alpha\sbit.obj \
+    $(_OBJ_DIR)\alpha\muldiv.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\fnterr.obj \
+    $(_OBJ_DIR)\mips\fontmath.obj \
+    $(_OBJ_DIR)\mips\fscaler.obj \
+    $(_OBJ_DIR)\mips\fsglue.obj \
+    $(_OBJ_DIR)\mips\interp.obj \
+    $(_OBJ_DIR)\mips\scale.obj \
+    $(_OBJ_DIR)\mips\scanlist.obj \
+    $(_OBJ_DIR)\mips\scbitmap.obj \
+    $(_OBJ_DIR)\mips\scendpt.obj \
+    $(_OBJ_DIR)\mips\scentry.obj \
+    $(_OBJ_DIR)\mips\scline.obj \
+    $(_OBJ_DIR)\mips\scmemory.obj \
+    $(_OBJ_DIR)\mips\scspline.obj \
+    $(_OBJ_DIR)\mips\sfntaccs.obj \
+    $(_OBJ_DIR)\mips\sbit.obj \
+    $(_OBJ_DIR)\mips\fracsqrt.obj \
+    $(_OBJ_DIR)\mips\muldiv.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\math386.obj \
+    $(_OBJ_DIR)\i386\fnterr.obj \
+    $(_OBJ_DIR)\i386\fontmath.obj \
+    $(_OBJ_DIR)\i386\fscaler.obj \
+    $(_OBJ_DIR)\i386\fsglue.obj \
+    $(_OBJ_DIR)\i386\interp.obj \
+    $(_OBJ_DIR)\i386\scale.obj \
+    $(_OBJ_DIR)\i386\scanlist.obj \
+    $(_OBJ_DIR)\i386\scbitmap.obj \
+    $(_OBJ_DIR)\i386\scendpt.obj \
+    $(_OBJ_DIR)\i386\scentry.obj \
+    $(_OBJ_DIR)\i386\scline.obj \
+    $(_OBJ_DIR)\i386\scmemory.obj \
+    $(_OBJ_DIR)\i386\scspline.obj \
+    $(_OBJ_DIR)\i386\sfntaccs.obj \
+    $(_OBJ_DIR)\i386\sbit.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\fnterr.obj \
+    $(_OBJ_DIR)\ppc\fontmath.obj \
+    $(_OBJ_DIR)\ppc\fscaler.obj \
+    $(_OBJ_DIR)\ppc\fsglue.obj \
+    $(_OBJ_DIR)\ppc\interp.obj \
+    $(_OBJ_DIR)\ppc\scale.obj \
+    $(_OBJ_DIR)\ppc\scanlist.obj \
+    $(_OBJ_DIR)\ppc\scbitmap.obj \
+    $(_OBJ_DIR)\ppc\scendpt.obj \
+    $(_OBJ_DIR)\ppc\scentry.obj \
+    $(_OBJ_DIR)\ppc\scline.obj \
+    $(_OBJ_DIR)\ppc\scmemory.obj \
+    $(_OBJ_DIR)\ppc\scspline.obj \
+    $(_OBJ_DIR)\ppc\sfntaccs.obj \
+    $(_OBJ_DIR)\ppc\sbit.obj \
+    $(_OBJ_DIR)\ppc\muldiv.obj
+
+PASS0_PPC_OBJECTS=
+

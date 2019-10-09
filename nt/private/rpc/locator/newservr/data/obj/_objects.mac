@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mutex.obj \
+    $(_OBJ_DIR)\alpha\linklist.obj \
+    $(_OBJ_DIR)\alpha\simplell.obj \
+    $(_OBJ_DIR)\alpha\skiplist.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mutex.obj \
+    $(_OBJ_DIR)\mips\linklist.obj \
+    $(_OBJ_DIR)\mips\simplell.obj \
+    $(_OBJ_DIR)\mips\skiplist.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mutex.obj \
+    $(_OBJ_DIR)\i386\linklist.obj \
+    $(_OBJ_DIR)\i386\simplell.obj \
+    $(_OBJ_DIR)\i386\skiplist.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mutex.obj \
+    $(_OBJ_DIR)\ppc\linklist.obj \
+    $(_OBJ_DIR)\ppc\simplell.obj \
+    $(_OBJ_DIR)\ppc\skiplist.obj
+
+PASS0_PPC_OBJECTS=
+

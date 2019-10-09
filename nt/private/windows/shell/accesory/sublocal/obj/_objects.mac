@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\sublocal.res \
+    $(_OBJ_DIR)\alpha\sublocal.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\sublocal.res \
+    $(_OBJ_DIR)\mips\sublocal.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\sublocal.res \
+    $(_OBJ_DIR)\i386\sublocal.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\sublocal.res \
+    $(_OBJ_DIR)\ppc\sublocal.obj
+
+PASS0_PPC_OBJECTS=
+

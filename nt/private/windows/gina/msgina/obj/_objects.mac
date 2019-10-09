@@ -1,0 +1,88 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\res.res \
+    $(_OBJ_DIR)\alpha\msgina.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\winutil.obj \
+    $(_OBJ_DIR)\alpha\welcome.obj \
+    $(_OBJ_DIR)\alpha\mslogon.obj \
+    $(_OBJ_DIR)\alpha\mslock.obj \
+    $(_OBJ_DIR)\alpha\options.obj \
+    $(_OBJ_DIR)\alpha\audit.obj \
+    $(_OBJ_DIR)\alpha\domain.obj \
+    $(_OBJ_DIR)\alpha\lsa.obj \
+    $(_OBJ_DIR)\alpha\netwait.obj \
+    $(_OBJ_DIR)\alpha\chngepwd.obj \
+    $(_OBJ_DIR)\alpha\lockout.obj \
+    $(_OBJ_DIR)\alpha\wlsec.obj \
+    $(_OBJ_DIR)\alpha\shell.obj \
+    $(_OBJ_DIR)\alpha\envvar.obj \
+    $(_OBJ_DIR)\alpha\ras.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\res.res \
+    $(_OBJ_DIR)\mips\msgina.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\winutil.obj \
+    $(_OBJ_DIR)\mips\welcome.obj \
+    $(_OBJ_DIR)\mips\mslogon.obj \
+    $(_OBJ_DIR)\mips\mslock.obj \
+    $(_OBJ_DIR)\mips\options.obj \
+    $(_OBJ_DIR)\mips\audit.obj \
+    $(_OBJ_DIR)\mips\domain.obj \
+    $(_OBJ_DIR)\mips\lsa.obj \
+    $(_OBJ_DIR)\mips\netwait.obj \
+    $(_OBJ_DIR)\mips\chngepwd.obj \
+    $(_OBJ_DIR)\mips\lockout.obj \
+    $(_OBJ_DIR)\mips\wlsec.obj \
+    $(_OBJ_DIR)\mips\shell.obj \
+    $(_OBJ_DIR)\mips\envvar.obj \
+    $(_OBJ_DIR)\mips\ras.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\res.res \
+    $(_OBJ_DIR)\i386\msgina.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\winutil.obj \
+    $(_OBJ_DIR)\i386\welcome.obj \
+    $(_OBJ_DIR)\i386\mslogon.obj \
+    $(_OBJ_DIR)\i386\mslock.obj \
+    $(_OBJ_DIR)\i386\options.obj \
+    $(_OBJ_DIR)\i386\audit.obj \
+    $(_OBJ_DIR)\i386\domain.obj \
+    $(_OBJ_DIR)\i386\lsa.obj \
+    $(_OBJ_DIR)\i386\netwait.obj \
+    $(_OBJ_DIR)\i386\chngepwd.obj \
+    $(_OBJ_DIR)\i386\lockout.obj \
+    $(_OBJ_DIR)\i386\wlsec.obj \
+    $(_OBJ_DIR)\i386\shell.obj \
+    $(_OBJ_DIR)\i386\envvar.obj \
+    $(_OBJ_DIR)\i386\ras.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\res.res \
+    $(_OBJ_DIR)\ppc\msgina.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\winutil.obj \
+    $(_OBJ_DIR)\ppc\welcome.obj \
+    $(_OBJ_DIR)\ppc\mslogon.obj \
+    $(_OBJ_DIR)\ppc\mslock.obj \
+    $(_OBJ_DIR)\ppc\options.obj \
+    $(_OBJ_DIR)\ppc\audit.obj \
+    $(_OBJ_DIR)\ppc\domain.obj \
+    $(_OBJ_DIR)\ppc\lsa.obj \
+    $(_OBJ_DIR)\ppc\netwait.obj \
+    $(_OBJ_DIR)\ppc\chngepwd.obj \
+    $(_OBJ_DIR)\ppc\lockout.obj \
+    $(_OBJ_DIR)\ppc\wlsec.obj \
+    $(_OBJ_DIR)\ppc\shell.obj \
+    $(_OBJ_DIR)\ppc\envvar.obj \
+    $(_OBJ_DIR)\ppc\ras.obj
+
+PASS0_PPC_OBJECTS=
+

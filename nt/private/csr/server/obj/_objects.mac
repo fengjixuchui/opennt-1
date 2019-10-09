@@ -1,0 +1,65 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\csrss.res \
+    $(_OBJ_DIR)\alpha\srvinit.obj \
+    $(_OBJ_DIR)\alpha\srvloadr.obj \
+    $(_OBJ_DIR)\alpha\sbinit.obj \
+    $(_OBJ_DIR)\alpha\sbreqst.obj \
+    $(_OBJ_DIR)\alpha\sbapi.obj \
+    $(_OBJ_DIR)\alpha\apiinit.obj \
+    $(_OBJ_DIR)\alpha\apireqst.obj \
+    $(_OBJ_DIR)\alpha\session.obj \
+    $(_OBJ_DIR)\alpha\process.obj \
+    $(_OBJ_DIR)\alpha\csrdebug.obj \
+    $(_OBJ_DIR)\alpha\wait.obj \
+    $(_OBJ_DIR)\alpha\evpair.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\csrss.res \
+    $(_OBJ_DIR)\mips\srvinit.obj \
+    $(_OBJ_DIR)\mips\srvloadr.obj \
+    $(_OBJ_DIR)\mips\sbinit.obj \
+    $(_OBJ_DIR)\mips\sbreqst.obj \
+    $(_OBJ_DIR)\mips\sbapi.obj \
+    $(_OBJ_DIR)\mips\apiinit.obj \
+    $(_OBJ_DIR)\mips\apireqst.obj \
+    $(_OBJ_DIR)\mips\session.obj \
+    $(_OBJ_DIR)\mips\process.obj \
+    $(_OBJ_DIR)\mips\csrdebug.obj \
+    $(_OBJ_DIR)\mips\wait.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\csrss.res \
+    $(_OBJ_DIR)\i386\srvinit.obj \
+    $(_OBJ_DIR)\i386\srvloadr.obj \
+    $(_OBJ_DIR)\i386\sbinit.obj \
+    $(_OBJ_DIR)\i386\sbreqst.obj \
+    $(_OBJ_DIR)\i386\sbapi.obj \
+    $(_OBJ_DIR)\i386\apiinit.obj \
+    $(_OBJ_DIR)\i386\apireqst.obj \
+    $(_OBJ_DIR)\i386\session.obj \
+    $(_OBJ_DIR)\i386\process.obj \
+    $(_OBJ_DIR)\i386\csrdebug.obj \
+    $(_OBJ_DIR)\i386\wait.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\csrss.res \
+    $(_OBJ_DIR)\ppc\srvinit.obj \
+    $(_OBJ_DIR)\ppc\srvloadr.obj \
+    $(_OBJ_DIR)\ppc\sbinit.obj \
+    $(_OBJ_DIR)\ppc\sbreqst.obj \
+    $(_OBJ_DIR)\ppc\sbapi.obj \
+    $(_OBJ_DIR)\ppc\apiinit.obj \
+    $(_OBJ_DIR)\ppc\apireqst.obj \
+    $(_OBJ_DIR)\ppc\session.obj \
+    $(_OBJ_DIR)\ppc\process.obj \
+    $(_OBJ_DIR)\ppc\csrdebug.obj \
+    $(_OBJ_DIR)\ppc\wait.obj
+
+PASS0_PPC_OBJECTS=
+

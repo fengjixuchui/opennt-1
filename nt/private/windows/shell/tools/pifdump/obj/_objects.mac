@@ -1,0 +1,20 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\pifdump.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\pifdump.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\pifdump.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\pifdump.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,196 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\setupapi.res \
+    $(_OBJ_DIR)\alpha\dll.obj \
+    $(_OBJ_DIR)\alpha\fileutil.obj \
+    $(_OBJ_DIR)\alpha\miscutil.obj \
+    $(_OBJ_DIR)\alpha\memory.obj \
+    $(_OBJ_DIR)\alpha\strtab.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\infload.obj \
+    $(_OBJ_DIR)\alpha\infold.obj \
+    $(_OBJ_DIR)\alpha\infopenv.obj \
+    $(_OBJ_DIR)\alpha\infline.obj \
+    $(_OBJ_DIR)\alpha\inflogcf.obj \
+    $(_OBJ_DIR)\alpha\infvalue.obj \
+    $(_OBJ_DIR)\alpha\infflist.obj \
+    $(_OBJ_DIR)\alpha\infsdisk.obj \
+    $(_OBJ_DIR)\alpha\infinst.obj \
+    $(_OBJ_DIR)\alpha\diamond.obj \
+    $(_OBJ_DIR)\alpha\decomp.obj \
+    $(_OBJ_DIR)\alpha\copy.obj \
+    $(_OBJ_DIR)\alpha\filelog.obj \
+    $(_OBJ_DIR)\alpha\mru.obj \
+    $(_OBJ_DIR)\alpha\resource.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\security.obj \
+    $(_OBJ_DIR)\alpha\prompt.obj \
+    $(_OBJ_DIR)\alpha\fileq1.obj \
+    $(_OBJ_DIR)\alpha\fileq2.obj \
+    $(_OBJ_DIR)\alpha\fileq3.obj \
+    $(_OBJ_DIR)\alpha\fileq4.obj \
+    $(_OBJ_DIR)\alpha\fileq5.obj \
+    $(_OBJ_DIR)\alpha\fileq6.obj \
+    $(_OBJ_DIR)\alpha\fileqcb.obj \
+    $(_OBJ_DIR)\alpha\diansicv.obj \
+    $(_OBJ_DIR)\alpha\diutil.obj \
+    $(_OBJ_DIR)\alpha\devclass.obj \
+    $(_OBJ_DIR)\alpha\devinfo.obj \
+    $(_OBJ_DIR)\alpha\devreg.obj \
+    $(_OBJ_DIR)\alpha\devdrv.obj \
+    $(_OBJ_DIR)\alpha\devicon.obj \
+    $(_OBJ_DIR)\alpha\devinst.obj \
+    $(_OBJ_DIR)\alpha\devinstd.obj \
+    $(_OBJ_DIR)\alpha\devoem.obj \
+    $(_OBJ_DIR)\alpha\devprop.obj \
+    $(_OBJ_DIR)\alpha\devwiz.obj \
+    $(_OBJ_DIR)\alpha\devres.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\setupapi.res \
+    $(_OBJ_DIR)\mips\dll.obj \
+    $(_OBJ_DIR)\mips\fileutil.obj \
+    $(_OBJ_DIR)\mips\miscutil.obj \
+    $(_OBJ_DIR)\mips\memory.obj \
+    $(_OBJ_DIR)\mips\strtab.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\infload.obj \
+    $(_OBJ_DIR)\mips\infold.obj \
+    $(_OBJ_DIR)\mips\infopenv.obj \
+    $(_OBJ_DIR)\mips\infline.obj \
+    $(_OBJ_DIR)\mips\inflogcf.obj \
+    $(_OBJ_DIR)\mips\infvalue.obj \
+    $(_OBJ_DIR)\mips\infflist.obj \
+    $(_OBJ_DIR)\mips\infsdisk.obj \
+    $(_OBJ_DIR)\mips\infinst.obj \
+    $(_OBJ_DIR)\mips\diamond.obj \
+    $(_OBJ_DIR)\mips\decomp.obj \
+    $(_OBJ_DIR)\mips\copy.obj \
+    $(_OBJ_DIR)\mips\filelog.obj \
+    $(_OBJ_DIR)\mips\mru.obj \
+    $(_OBJ_DIR)\mips\resource.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\security.obj \
+    $(_OBJ_DIR)\mips\prompt.obj \
+    $(_OBJ_DIR)\mips\fileq1.obj \
+    $(_OBJ_DIR)\mips\fileq2.obj \
+    $(_OBJ_DIR)\mips\fileq3.obj \
+    $(_OBJ_DIR)\mips\fileq4.obj \
+    $(_OBJ_DIR)\mips\fileq5.obj \
+    $(_OBJ_DIR)\mips\fileq6.obj \
+    $(_OBJ_DIR)\mips\fileqcb.obj \
+    $(_OBJ_DIR)\mips\diansicv.obj \
+    $(_OBJ_DIR)\mips\diutil.obj \
+    $(_OBJ_DIR)\mips\devclass.obj \
+    $(_OBJ_DIR)\mips\devinfo.obj \
+    $(_OBJ_DIR)\mips\devreg.obj \
+    $(_OBJ_DIR)\mips\devdrv.obj \
+    $(_OBJ_DIR)\mips\devicon.obj \
+    $(_OBJ_DIR)\mips\devinst.obj \
+    $(_OBJ_DIR)\mips\devinstd.obj \
+    $(_OBJ_DIR)\mips\devoem.obj \
+    $(_OBJ_DIR)\mips\devprop.obj \
+    $(_OBJ_DIR)\mips\devwiz.obj \
+    $(_OBJ_DIR)\mips\devres.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\setupapi.res \
+    $(_OBJ_DIR)\i386\dll.obj \
+    $(_OBJ_DIR)\i386\fileutil.obj \
+    $(_OBJ_DIR)\i386\miscutil.obj \
+    $(_OBJ_DIR)\i386\memory.obj \
+    $(_OBJ_DIR)\i386\strtab.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\infload.obj \
+    $(_OBJ_DIR)\i386\infold.obj \
+    $(_OBJ_DIR)\i386\infopenv.obj \
+    $(_OBJ_DIR)\i386\infline.obj \
+    $(_OBJ_DIR)\i386\inflogcf.obj \
+    $(_OBJ_DIR)\i386\infvalue.obj \
+    $(_OBJ_DIR)\i386\infflist.obj \
+    $(_OBJ_DIR)\i386\infsdisk.obj \
+    $(_OBJ_DIR)\i386\infinst.obj \
+    $(_OBJ_DIR)\i386\diamond.obj \
+    $(_OBJ_DIR)\i386\decomp.obj \
+    $(_OBJ_DIR)\i386\copy.obj \
+    $(_OBJ_DIR)\i386\filelog.obj \
+    $(_OBJ_DIR)\i386\mru.obj \
+    $(_OBJ_DIR)\i386\resource.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\security.obj \
+    $(_OBJ_DIR)\i386\prompt.obj \
+    $(_OBJ_DIR)\i386\fileq1.obj \
+    $(_OBJ_DIR)\i386\fileq2.obj \
+    $(_OBJ_DIR)\i386\fileq3.obj \
+    $(_OBJ_DIR)\i386\fileq4.obj \
+    $(_OBJ_DIR)\i386\fileq5.obj \
+    $(_OBJ_DIR)\i386\fileq6.obj \
+    $(_OBJ_DIR)\i386\fileqcb.obj \
+    $(_OBJ_DIR)\i386\diansicv.obj \
+    $(_OBJ_DIR)\i386\diutil.obj \
+    $(_OBJ_DIR)\i386\devclass.obj \
+    $(_OBJ_DIR)\i386\devinfo.obj \
+    $(_OBJ_DIR)\i386\devreg.obj \
+    $(_OBJ_DIR)\i386\devdrv.obj \
+    $(_OBJ_DIR)\i386\devicon.obj \
+    $(_OBJ_DIR)\i386\devinst.obj \
+    $(_OBJ_DIR)\i386\devinstd.obj \
+    $(_OBJ_DIR)\i386\devoem.obj \
+    $(_OBJ_DIR)\i386\devprop.obj \
+    $(_OBJ_DIR)\i386\devwiz.obj \
+    $(_OBJ_DIR)\i386\devres.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\setupapi.res \
+    $(_OBJ_DIR)\ppc\dll.obj \
+    $(_OBJ_DIR)\ppc\fileutil.obj \
+    $(_OBJ_DIR)\ppc\miscutil.obj \
+    $(_OBJ_DIR)\ppc\memory.obj \
+    $(_OBJ_DIR)\ppc\strtab.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\infload.obj \
+    $(_OBJ_DIR)\ppc\infold.obj \
+    $(_OBJ_DIR)\ppc\infopenv.obj \
+    $(_OBJ_DIR)\ppc\infline.obj \
+    $(_OBJ_DIR)\ppc\inflogcf.obj \
+    $(_OBJ_DIR)\ppc\infvalue.obj \
+    $(_OBJ_DIR)\ppc\infflist.obj \
+    $(_OBJ_DIR)\ppc\infsdisk.obj \
+    $(_OBJ_DIR)\ppc\infinst.obj \
+    $(_OBJ_DIR)\ppc\diamond.obj \
+    $(_OBJ_DIR)\ppc\decomp.obj \
+    $(_OBJ_DIR)\ppc\copy.obj \
+    $(_OBJ_DIR)\ppc\filelog.obj \
+    $(_OBJ_DIR)\ppc\mru.obj \
+    $(_OBJ_DIR)\ppc\resource.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\security.obj \
+    $(_OBJ_DIR)\ppc\prompt.obj \
+    $(_OBJ_DIR)\ppc\fileq1.obj \
+    $(_OBJ_DIR)\ppc\fileq2.obj \
+    $(_OBJ_DIR)\ppc\fileq3.obj \
+    $(_OBJ_DIR)\ppc\fileq4.obj \
+    $(_OBJ_DIR)\ppc\fileq5.obj \
+    $(_OBJ_DIR)\ppc\fileq6.obj \
+    $(_OBJ_DIR)\ppc\fileqcb.obj \
+    $(_OBJ_DIR)\ppc\diansicv.obj \
+    $(_OBJ_DIR)\ppc\diutil.obj \
+    $(_OBJ_DIR)\ppc\devclass.obj \
+    $(_OBJ_DIR)\ppc\devinfo.obj \
+    $(_OBJ_DIR)\ppc\devreg.obj \
+    $(_OBJ_DIR)\ppc\devdrv.obj \
+    $(_OBJ_DIR)\ppc\devicon.obj \
+    $(_OBJ_DIR)\ppc\devinst.obj \
+    $(_OBJ_DIR)\ppc\devinstd.obj \
+    $(_OBJ_DIR)\ppc\devoem.obj \
+    $(_OBJ_DIR)\ppc\devprop.obj \
+    $(_OBJ_DIR)\ppc\devwiz.obj \
+    $(_OBJ_DIR)\ppc\devres.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,68 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dbcsname.obj \
+    $(_OBJ_DIR)\alpha\fastio.obj \
+    $(_OBJ_DIR)\alpha\faulttol.obj \
+    $(_OBJ_DIR)\alpha\filelock.obj \
+    $(_OBJ_DIR)\alpha\filter.obj \
+    $(_OBJ_DIR)\alpha\fsrtlpc.obj \
+    $(_OBJ_DIR)\alpha\largemcb.obj \
+    $(_OBJ_DIR)\alpha\name.obj \
+    $(_OBJ_DIR)\alpha\notify.obj \
+    $(_OBJ_DIR)\alpha\oplock.obj \
+    $(_OBJ_DIR)\alpha\unc.obj \
+    $(_OBJ_DIR)\alpha\tunnel.obj \
+    $(_OBJ_DIR)\alpha\stackovf.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dbcsname.obj \
+    $(_OBJ_DIR)\mips\fastio.obj \
+    $(_OBJ_DIR)\mips\faulttol.obj \
+    $(_OBJ_DIR)\mips\filelock.obj \
+    $(_OBJ_DIR)\mips\filter.obj \
+    $(_OBJ_DIR)\mips\fsrtlpc.obj \
+    $(_OBJ_DIR)\mips\largemcb.obj \
+    $(_OBJ_DIR)\mips\name.obj \
+    $(_OBJ_DIR)\mips\notify.obj \
+    $(_OBJ_DIR)\mips\oplock.obj \
+    $(_OBJ_DIR)\mips\unc.obj \
+    $(_OBJ_DIR)\mips\tunnel.obj \
+    $(_OBJ_DIR)\mips\stackovf.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dbcsname.obj \
+    $(_OBJ_DIR)\i386\fastio.obj \
+    $(_OBJ_DIR)\i386\faulttol.obj \
+    $(_OBJ_DIR)\i386\filelock.obj \
+    $(_OBJ_DIR)\i386\filter.obj \
+    $(_OBJ_DIR)\i386\fsrtlpc.obj \
+    $(_OBJ_DIR)\i386\largemcb.obj \
+    $(_OBJ_DIR)\i386\name.obj \
+    $(_OBJ_DIR)\i386\notify.obj \
+    $(_OBJ_DIR)\i386\oplock.obj \
+    $(_OBJ_DIR)\i386\unc.obj \
+    $(_OBJ_DIR)\i386\tunnel.obj \
+    $(_OBJ_DIR)\i386\stackovf.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dbcsname.obj \
+    $(_OBJ_DIR)\ppc\fastio.obj \
+    $(_OBJ_DIR)\ppc\faulttol.obj \
+    $(_OBJ_DIR)\ppc\filelock.obj \
+    $(_OBJ_DIR)\ppc\filter.obj \
+    $(_OBJ_DIR)\ppc\fsrtlpc.obj \
+    $(_OBJ_DIR)\ppc\largemcb.obj \
+    $(_OBJ_DIR)\ppc\name.obj \
+    $(_OBJ_DIR)\ppc\notify.obj \
+    $(_OBJ_DIR)\ppc\oplock.obj \
+    $(_OBJ_DIR)\ppc\unc.obj \
+    $(_OBJ_DIR)\ppc\tunnel.obj \
+    $(_OBJ_DIR)\ppc\stackovf.obj
+
+PASS0_PPC_OBJECTS=
+

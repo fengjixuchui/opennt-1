@@ -1,0 +1,80 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\win32spl.res \
+    $(_OBJ_DIR)\alpha\winspl_c.obj \
+    $(_OBJ_DIR)\alpha\win32.obj \
+    $(_OBJ_DIR)\alpha\trueconn.obj \
+    $(_OBJ_DIR)\alpha\bind.obj \
+    $(_OBJ_DIR)\alpha\midluser.obj \
+    $(_OBJ_DIR)\alpha\data.obj \
+    $(_OBJ_DIR)\alpha\prnfile.obj \
+    $(_OBJ_DIR)\alpha\lmprn.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\lmjob.obj \
+    $(_OBJ_DIR)\alpha\lmspl.obj \
+    $(_OBJ_DIR)\alpha\port.obj \
+    $(_OBJ_DIR)\alpha\change.obj \
+    $(_OBJ_DIR)\alpha\cache.obj \
+    $(_OBJ_DIR)\alpha\cachemon.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\win32spl.res \
+    $(_OBJ_DIR)\mips\winspl_c.obj \
+    $(_OBJ_DIR)\mips\win32.obj \
+    $(_OBJ_DIR)\mips\trueconn.obj \
+    $(_OBJ_DIR)\mips\bind.obj \
+    $(_OBJ_DIR)\mips\midluser.obj \
+    $(_OBJ_DIR)\mips\data.obj \
+    $(_OBJ_DIR)\mips\prnfile.obj \
+    $(_OBJ_DIR)\mips\lmprn.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\lmjob.obj \
+    $(_OBJ_DIR)\mips\lmspl.obj \
+    $(_OBJ_DIR)\mips\port.obj \
+    $(_OBJ_DIR)\mips\change.obj \
+    $(_OBJ_DIR)\mips\cache.obj \
+    $(_OBJ_DIR)\mips\cachemon.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\win32spl.res \
+    $(_OBJ_DIR)\i386\winspl_c.obj \
+    $(_OBJ_DIR)\i386\win32.obj \
+    $(_OBJ_DIR)\i386\trueconn.obj \
+    $(_OBJ_DIR)\i386\bind.obj \
+    $(_OBJ_DIR)\i386\midluser.obj \
+    $(_OBJ_DIR)\i386\data.obj \
+    $(_OBJ_DIR)\i386\prnfile.obj \
+    $(_OBJ_DIR)\i386\lmprn.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\lmjob.obj \
+    $(_OBJ_DIR)\i386\lmspl.obj \
+    $(_OBJ_DIR)\i386\port.obj \
+    $(_OBJ_DIR)\i386\change.obj \
+    $(_OBJ_DIR)\i386\cache.obj \
+    $(_OBJ_DIR)\i386\cachemon.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\win32spl.res \
+    $(_OBJ_DIR)\ppc\winspl_c.obj \
+    $(_OBJ_DIR)\ppc\win32.obj \
+    $(_OBJ_DIR)\ppc\trueconn.obj \
+    $(_OBJ_DIR)\ppc\bind.obj \
+    $(_OBJ_DIR)\ppc\midluser.obj \
+    $(_OBJ_DIR)\ppc\data.obj \
+    $(_OBJ_DIR)\ppc\prnfile.obj \
+    $(_OBJ_DIR)\ppc\lmprn.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\lmjob.obj \
+    $(_OBJ_DIR)\ppc\lmspl.obj \
+    $(_OBJ_DIR)\ppc\port.obj \
+    $(_OBJ_DIR)\ppc\change.obj \
+    $(_OBJ_DIR)\ppc\cache.obj \
+    $(_OBJ_DIR)\ppc\cachemon.obj
+
+PASS0_PPC_OBJECTS=
+

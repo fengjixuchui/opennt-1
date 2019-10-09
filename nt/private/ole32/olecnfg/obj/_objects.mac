@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\olecnfg.res \
+    $(_OBJ_DIR)\alpha\main.obj \
+    $(_OBJ_DIR)\alpha\treemgmt.obj \
+    $(_OBJ_DIR)\alpha\clshive.obj \
+    $(_OBJ_DIR)\alpha\sid.obj \
+    $(_OBJ_DIR)\alpha\olecnfg.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\olecnfg.res \
+    $(_OBJ_DIR)\mips\main.obj \
+    $(_OBJ_DIR)\mips\treemgmt.obj \
+    $(_OBJ_DIR)\mips\clshive.obj \
+    $(_OBJ_DIR)\mips\sid.obj \
+    $(_OBJ_DIR)\mips\olecnfg.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\olecnfg.res \
+    $(_OBJ_DIR)\i386\main.obj \
+    $(_OBJ_DIR)\i386\treemgmt.obj \
+    $(_OBJ_DIR)\i386\clshive.obj \
+    $(_OBJ_DIR)\i386\sid.obj \
+    $(_OBJ_DIR)\i386\olecnfg.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\olecnfg.res \
+    $(_OBJ_DIR)\ppc\main.obj \
+    $(_OBJ_DIR)\ppc\treemgmt.obj \
+    $(_OBJ_DIR)\ppc\clshive.obj \
+    $(_OBJ_DIR)\ppc\sid.obj \
+    $(_OBJ_DIR)\ppc\olecnfg.obj
+
+PASS0_PPC_OBJECTS=
+

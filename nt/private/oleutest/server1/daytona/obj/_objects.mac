@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\testsrv.res \
+    $(_OBJ_DIR)\alpha\testsrv.obj \
+    $(_OBJ_DIR)\alpha\csrvapp.obj \
+    $(_OBJ_DIR)\alpha\ctestemb.obj \
+    $(_OBJ_DIR)\alpha\ipersist.obj \
+    $(_OBJ_DIR)\alpha\ioleobj.obj \
+    $(_OBJ_DIR)\alpha\idataobj.obj \
+    $(_OBJ_DIR)\alpha\ctestcf.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\testsrv.res \
+    $(_OBJ_DIR)\mips\testsrv.obj \
+    $(_OBJ_DIR)\mips\csrvapp.obj \
+    $(_OBJ_DIR)\mips\ctestemb.obj \
+    $(_OBJ_DIR)\mips\ipersist.obj \
+    $(_OBJ_DIR)\mips\ioleobj.obj \
+    $(_OBJ_DIR)\mips\idataobj.obj \
+    $(_OBJ_DIR)\mips\ctestcf.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\testsrv.res \
+    $(_OBJ_DIR)\i386\testsrv.obj \
+    $(_OBJ_DIR)\i386\csrvapp.obj \
+    $(_OBJ_DIR)\i386\ctestemb.obj \
+    $(_OBJ_DIR)\i386\ipersist.obj \
+    $(_OBJ_DIR)\i386\ioleobj.obj \
+    $(_OBJ_DIR)\i386\idataobj.obj \
+    $(_OBJ_DIR)\i386\ctestcf.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\testsrv.res \
+    $(_OBJ_DIR)\ppc\testsrv.obj \
+    $(_OBJ_DIR)\ppc\csrvapp.obj \
+    $(_OBJ_DIR)\ppc\ctestemb.obj \
+    $(_OBJ_DIR)\ppc\ipersist.obj \
+    $(_OBJ_DIR)\ppc\ioleobj.obj \
+    $(_OBJ_DIR)\ppc\idataobj.obj \
+    $(_OBJ_DIR)\ppc\ctestcf.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,188 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\base.res \
+    $(_OBJ_DIR)\alpha\context.obj \
+    $(_OBJ_DIR)\alpha\beep.obj \
+    $(_OBJ_DIR)\alpha\compname.obj \
+    $(_OBJ_DIR)\alpha\curdir.obj \
+    $(_OBJ_DIR)\alpha\datetime.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\dir.obj \
+    $(_OBJ_DIR)\alpha\dllatom.obj \
+    $(_OBJ_DIR)\alpha\dllini.obj \
+    $(_OBJ_DIR)\alpha\dosdev.obj \
+    $(_OBJ_DIR)\alpha\error.obj \
+    $(_OBJ_DIR)\alpha\filefind.obj \
+    $(_OBJ_DIR)\alpha\filehops.obj \
+    $(_OBJ_DIR)\alpha\filemap.obj \
+    $(_OBJ_DIR)\alpha\filemisc.obj \
+    $(_OBJ_DIR)\alpha\fileopcr.obj \
+    $(_OBJ_DIR)\alpha\gmem.obj \
+    $(_OBJ_DIR)\alpha\handle.obj \
+    $(_OBJ_DIR)\alpha\baseinit.obj \
+    $(_OBJ_DIR)\alpha\lcompat.obj \
+    $(_OBJ_DIR)\alpha\lmem.obj \
+    $(_OBJ_DIR)\alpha\mailslot.obj \
+    $(_OBJ_DIR)\alpha\message.obj \
+    $(_OBJ_DIR)\alpha\module.obj \
+    $(_OBJ_DIR)\alpha\namepipe.obj \
+    $(_OBJ_DIR)\alpha\pathmisc.obj \
+    $(_OBJ_DIR)\alpha\perfctr.obj \
+    $(_OBJ_DIR)\alpha\pipe.obj \
+    $(_OBJ_DIR)\alpha\power.obj \
+    $(_OBJ_DIR)\alpha\process.obj \
+    $(_OBJ_DIR)\alpha\support.obj \
+    $(_OBJ_DIR)\alpha\synch.obj \
+    $(_OBJ_DIR)\alpha\thread.obj \
+    $(_OBJ_DIR)\alpha\ustubs.obj \
+    $(_OBJ_DIR)\alpha\comm.obj \
+    $(_OBJ_DIR)\alpha\vdm.obj \
+    $(_OBJ_DIR)\alpha\updres.obj \
+    $(_OBJ_DIR)\alpha\blddcb.obj \
+    $(_OBJ_DIR)\alpha\tapeapi.obj \
+    $(_OBJ_DIR)\alpha\backup.obj \
+    $(_OBJ_DIR)\alpha\critsect.obj \
+    $(_OBJ_DIR)\alpha\thunk.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\base.res \
+    $(_OBJ_DIR)\mips\context.obj \
+    $(_OBJ_DIR)\mips\beep.obj \
+    $(_OBJ_DIR)\mips\compname.obj \
+    $(_OBJ_DIR)\mips\curdir.obj \
+    $(_OBJ_DIR)\mips\datetime.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\dir.obj \
+    $(_OBJ_DIR)\mips\dllatom.obj \
+    $(_OBJ_DIR)\mips\dllini.obj \
+    $(_OBJ_DIR)\mips\dosdev.obj \
+    $(_OBJ_DIR)\mips\error.obj \
+    $(_OBJ_DIR)\mips\filefind.obj \
+    $(_OBJ_DIR)\mips\filehops.obj \
+    $(_OBJ_DIR)\mips\filemap.obj \
+    $(_OBJ_DIR)\mips\filemisc.obj \
+    $(_OBJ_DIR)\mips\fileopcr.obj \
+    $(_OBJ_DIR)\mips\gmem.obj \
+    $(_OBJ_DIR)\mips\handle.obj \
+    $(_OBJ_DIR)\mips\baseinit.obj \
+    $(_OBJ_DIR)\mips\lcompat.obj \
+    $(_OBJ_DIR)\mips\lmem.obj \
+    $(_OBJ_DIR)\mips\mailslot.obj \
+    $(_OBJ_DIR)\mips\message.obj \
+    $(_OBJ_DIR)\mips\module.obj \
+    $(_OBJ_DIR)\mips\namepipe.obj \
+    $(_OBJ_DIR)\mips\pathmisc.obj \
+    $(_OBJ_DIR)\mips\perfctr.obj \
+    $(_OBJ_DIR)\mips\pipe.obj \
+    $(_OBJ_DIR)\mips\power.obj \
+    $(_OBJ_DIR)\mips\process.obj \
+    $(_OBJ_DIR)\mips\support.obj \
+    $(_OBJ_DIR)\mips\synch.obj \
+    $(_OBJ_DIR)\mips\thread.obj \
+    $(_OBJ_DIR)\mips\ustubs.obj \
+    $(_OBJ_DIR)\mips\comm.obj \
+    $(_OBJ_DIR)\mips\vdm.obj \
+    $(_OBJ_DIR)\mips\updres.obj \
+    $(_OBJ_DIR)\mips\blddcb.obj \
+    $(_OBJ_DIR)\mips\tapeapi.obj \
+    $(_OBJ_DIR)\mips\backup.obj \
+    $(_OBJ_DIR)\mips\critsect.obj \
+    $(_OBJ_DIR)\mips\thunk.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\base.res \
+    $(_OBJ_DIR)\i386\critsect.obj \
+    $(_OBJ_DIR)\i386\thunk.obj \
+    $(_OBJ_DIR)\i386\context.obj \
+    $(_OBJ_DIR)\i386\beep.obj \
+    $(_OBJ_DIR)\i386\compname.obj \
+    $(_OBJ_DIR)\i386\curdir.obj \
+    $(_OBJ_DIR)\i386\datetime.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\dir.obj \
+    $(_OBJ_DIR)\i386\dllatom.obj \
+    $(_OBJ_DIR)\i386\dllini.obj \
+    $(_OBJ_DIR)\i386\dosdev.obj \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\filefind.obj \
+    $(_OBJ_DIR)\i386\filehops.obj \
+    $(_OBJ_DIR)\i386\filemap.obj \
+    $(_OBJ_DIR)\i386\filemisc.obj \
+    $(_OBJ_DIR)\i386\fileopcr.obj \
+    $(_OBJ_DIR)\i386\gmem.obj \
+    $(_OBJ_DIR)\i386\handle.obj \
+    $(_OBJ_DIR)\i386\baseinit.obj \
+    $(_OBJ_DIR)\i386\lcompat.obj \
+    $(_OBJ_DIR)\i386\lmem.obj \
+    $(_OBJ_DIR)\i386\mailslot.obj \
+    $(_OBJ_DIR)\i386\message.obj \
+    $(_OBJ_DIR)\i386\module.obj \
+    $(_OBJ_DIR)\i386\namepipe.obj \
+    $(_OBJ_DIR)\i386\pathmisc.obj \
+    $(_OBJ_DIR)\i386\perfctr.obj \
+    $(_OBJ_DIR)\i386\pipe.obj \
+    $(_OBJ_DIR)\i386\power.obj \
+    $(_OBJ_DIR)\i386\process.obj \
+    $(_OBJ_DIR)\i386\support.obj \
+    $(_OBJ_DIR)\i386\synch.obj \
+    $(_OBJ_DIR)\i386\thread.obj \
+    $(_OBJ_DIR)\i386\ustubs.obj \
+    $(_OBJ_DIR)\i386\comm.obj \
+    $(_OBJ_DIR)\i386\vdm.obj \
+    $(_OBJ_DIR)\i386\updres.obj \
+    $(_OBJ_DIR)\i386\blddcb.obj \
+    $(_OBJ_DIR)\i386\tapeapi.obj \
+    $(_OBJ_DIR)\i386\backup.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\base.res \
+    $(_OBJ_DIR)\ppc\context.obj \
+    $(_OBJ_DIR)\ppc\beep.obj \
+    $(_OBJ_DIR)\ppc\compname.obj \
+    $(_OBJ_DIR)\ppc\curdir.obj \
+    $(_OBJ_DIR)\ppc\datetime.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\dir.obj \
+    $(_OBJ_DIR)\ppc\dllatom.obj \
+    $(_OBJ_DIR)\ppc\dllini.obj \
+    $(_OBJ_DIR)\ppc\dosdev.obj \
+    $(_OBJ_DIR)\ppc\error.obj \
+    $(_OBJ_DIR)\ppc\filefind.obj \
+    $(_OBJ_DIR)\ppc\filehops.obj \
+    $(_OBJ_DIR)\ppc\filemap.obj \
+    $(_OBJ_DIR)\ppc\filemisc.obj \
+    $(_OBJ_DIR)\ppc\fileopcr.obj \
+    $(_OBJ_DIR)\ppc\gmem.obj \
+    $(_OBJ_DIR)\ppc\handle.obj \
+    $(_OBJ_DIR)\ppc\baseinit.obj \
+    $(_OBJ_DIR)\ppc\lcompat.obj \
+    $(_OBJ_DIR)\ppc\lmem.obj \
+    $(_OBJ_DIR)\ppc\mailslot.obj \
+    $(_OBJ_DIR)\ppc\message.obj \
+    $(_OBJ_DIR)\ppc\module.obj \
+    $(_OBJ_DIR)\ppc\namepipe.obj \
+    $(_OBJ_DIR)\ppc\pathmisc.obj \
+    $(_OBJ_DIR)\ppc\perfctr.obj \
+    $(_OBJ_DIR)\ppc\pipe.obj \
+    $(_OBJ_DIR)\ppc\power.obj \
+    $(_OBJ_DIR)\ppc\process.obj \
+    $(_OBJ_DIR)\ppc\support.obj \
+    $(_OBJ_DIR)\ppc\synch.obj \
+    $(_OBJ_DIR)\ppc\thread.obj \
+    $(_OBJ_DIR)\ppc\ustubs.obj \
+    $(_OBJ_DIR)\ppc\comm.obj \
+    $(_OBJ_DIR)\ppc\vdm.obj \
+    $(_OBJ_DIR)\ppc\updres.obj \
+    $(_OBJ_DIR)\ppc\blddcb.obj \
+    $(_OBJ_DIR)\ppc\tapeapi.obj \
+    $(_OBJ_DIR)\ppc\backup.obj \
+    $(_OBJ_DIR)\ppc\critsect.obj \
+    $(_OBJ_DIR)\ppc\thunk.obj
+
+PASS0_PPC_OBJECTS=
+

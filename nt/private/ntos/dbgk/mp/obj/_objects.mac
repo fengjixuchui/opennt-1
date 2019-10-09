@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dbgkport.obj \
+    $(_OBJ_DIR)\alpha\dbgkproc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dbgkport.obj \
+    $(_OBJ_DIR)\mips\dbgkproc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dbgkport.obj \
+    $(_OBJ_DIR)\i386\dbgkproc.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dbgkport.obj \
+    $(_OBJ_DIR)\ppc\dbgkproc.obj
+
+PASS0_PPC_OBJECTS=
+

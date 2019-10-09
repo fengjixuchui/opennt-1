@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\tb.res \
+    $(_OBJ_DIR)\alpha\tb.obj \
+    $(_OBJ_DIR)\alpha\tb2.obj \
+    $(_OBJ_DIR)\alpha\ui.obj \
+    $(_OBJ_DIR)\alpha\vars.obj \
+    $(_OBJ_DIR)\alpha\widget.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\tb.res \
+    $(_OBJ_DIR)\mips\tb.obj \
+    $(_OBJ_DIR)\mips\tb2.obj \
+    $(_OBJ_DIR)\mips\ui.obj \
+    $(_OBJ_DIR)\mips\vars.obj \
+    $(_OBJ_DIR)\mips\widget.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\tb.res \
+    $(_OBJ_DIR)\i386\tb.obj \
+    $(_OBJ_DIR)\i386\tb2.obj \
+    $(_OBJ_DIR)\i386\ui.obj \
+    $(_OBJ_DIR)\i386\vars.obj \
+    $(_OBJ_DIR)\i386\widget.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\tb.res \
+    $(_OBJ_DIR)\ppc\tb.obj \
+    $(_OBJ_DIR)\ppc\tb2.obj \
+    $(_OBJ_DIR)\ppc\ui.obj \
+    $(_OBJ_DIR)\ppc\vars.obj \
+    $(_OBJ_DIR)\ppc\widget.obj
+
+PASS0_PPC_OBJECTS=
+

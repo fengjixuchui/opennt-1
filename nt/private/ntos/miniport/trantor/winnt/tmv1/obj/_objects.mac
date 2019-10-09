@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\tmv1.res \
+    $(_OBJ_DIR)\alpha\trantor.obj \
+    $(_OBJ_DIR)\alpha\scsifnc.obj \
+    $(_OBJ_DIR)\alpha\n5380.obj \
+    $(_OBJ_DIR)\alpha\card.obj \
+    $(_OBJ_DIR)\alpha\findpas.obj \
+    $(_OBJ_DIR)\alpha\portio.obj \
+    $(_OBJ_DIR)\alpha\mv101.obj \
+    $(_OBJ_DIR)\alpha\cardutil.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\tmv1.res \
+    $(_OBJ_DIR)\mips\trantor.obj \
+    $(_OBJ_DIR)\mips\scsifnc.obj \
+    $(_OBJ_DIR)\mips\n5380.obj \
+    $(_OBJ_DIR)\mips\card.obj \
+    $(_OBJ_DIR)\mips\findpas.obj \
+    $(_OBJ_DIR)\mips\portio.obj \
+    $(_OBJ_DIR)\mips\mv101.obj \
+    $(_OBJ_DIR)\mips\cardutil.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\tmv1.res \
+    $(_OBJ_DIR)\i386\trantor.obj \
+    $(_OBJ_DIR)\i386\scsifnc.obj \
+    $(_OBJ_DIR)\i386\n5380.obj \
+    $(_OBJ_DIR)\i386\card.obj \
+    $(_OBJ_DIR)\i386\findpas.obj \
+    $(_OBJ_DIR)\i386\portio.obj \
+    $(_OBJ_DIR)\i386\mv101.obj \
+    $(_OBJ_DIR)\i386\cardutil.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\tmv1.res \
+    $(_OBJ_DIR)\ppc\trantor.obj \
+    $(_OBJ_DIR)\ppc\scsifnc.obj \
+    $(_OBJ_DIR)\ppc\n5380.obj \
+    $(_OBJ_DIR)\ppc\card.obj \
+    $(_OBJ_DIR)\ppc\findpas.obj \
+    $(_OBJ_DIR)\ppc\portio.obj \
+    $(_OBJ_DIR)\ppc\mv101.obj \
+    $(_OBJ_DIR)\ppc\cardutil.obj
+
+PASS0_PPC_OBJECTS=
+

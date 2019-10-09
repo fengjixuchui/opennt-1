@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\s3.res \
+    $(_OBJ_DIR)\alpha\nnclk.obj \
+    $(_OBJ_DIR)\alpha\s3.obj \
+    $(_OBJ_DIR)\alpha\s3data.obj \
+    $(_OBJ_DIR)\alpha\sdac.obj \
+    $(_OBJ_DIR)\alpha\misc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\s3.res \
+    $(_OBJ_DIR)\mips\nnclk.obj \
+    $(_OBJ_DIR)\mips\s3.obj \
+    $(_OBJ_DIR)\mips\s3data.obj \
+    $(_OBJ_DIR)\mips\sdac.obj \
+    $(_OBJ_DIR)\mips\misc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\s3.res \
+    $(_OBJ_DIR)\i386\nnclk.obj \
+    $(_OBJ_DIR)\i386\s3.obj \
+    $(_OBJ_DIR)\i386\s3data.obj \
+    $(_OBJ_DIR)\i386\sdac.obj \
+    $(_OBJ_DIR)\i386\misc.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\s3.res \
+    $(_OBJ_DIR)\ppc\nnclk.obj \
+    $(_OBJ_DIR)\ppc\s3.obj \
+    $(_OBJ_DIR)\ppc\s3data.obj \
+    $(_OBJ_DIR)\ppc\sdac.obj \
+    $(_OBJ_DIR)\ppc\misc.obj
+
+PASS0_PPC_OBJECTS=
+

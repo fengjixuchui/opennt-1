@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\notepad.res \
+    $(_OBJ_DIR)\alpha\notepad.obj \
+    $(_OBJ_DIR)\alpha\npinit.obj \
+    $(_OBJ_DIR)\alpha\npfile.obj \
+    $(_OBJ_DIR)\alpha\npmisc.obj \
+    $(_OBJ_DIR)\alpha\npprint.obj \
+    $(_OBJ_DIR)\alpha\npdate.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\notepad.res \
+    $(_OBJ_DIR)\mips\notepad.obj \
+    $(_OBJ_DIR)\mips\npinit.obj \
+    $(_OBJ_DIR)\mips\npfile.obj \
+    $(_OBJ_DIR)\mips\npmisc.obj \
+    $(_OBJ_DIR)\mips\npprint.obj \
+    $(_OBJ_DIR)\mips\npdate.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\notepad.res \
+    $(_OBJ_DIR)\i386\notepad.obj \
+    $(_OBJ_DIR)\i386\npinit.obj \
+    $(_OBJ_DIR)\i386\npfile.obj \
+    $(_OBJ_DIR)\i386\npmisc.obj \
+    $(_OBJ_DIR)\i386\npprint.obj \
+    $(_OBJ_DIR)\i386\npdate.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\notepad.res \
+    $(_OBJ_DIR)\ppc\notepad.obj \
+    $(_OBJ_DIR)\ppc\npinit.obj \
+    $(_OBJ_DIR)\ppc\npfile.obj \
+    $(_OBJ_DIR)\ppc\npmisc.obj \
+    $(_OBJ_DIR)\ppc\npprint.obj \
+    $(_OBJ_DIR)\ppc\npdate.obj
+
+PASS0_PPC_OBJECTS=
+

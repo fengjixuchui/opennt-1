@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LIBRARY oleimpl
+
+DESCRIPTION  'OLEIMPL'
+
+EXPORTS
+	DllGetClassObject                PRIVATE
+	DllCanUnloadNow                  PRIVATE
+
+

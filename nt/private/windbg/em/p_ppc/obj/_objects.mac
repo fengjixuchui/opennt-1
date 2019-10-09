@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\em.res \
+    $(_OBJ_DIR)\alpha\asm.obj \
+    $(_OBJ_DIR)\alpha\d3.obj \
+    $(_OBJ_DIR)\alpha\emdp.obj \
+    $(_OBJ_DIR)\alpha\emdp2.obj \
+    $(_OBJ_DIR)\alpha\emdp3.obj \
+    $(_OBJ_DIR)\alpha\emdpdev.obj \
+    $(_OBJ_DIR)\alpha\strings.obj \
+    $(_OBJ_DIR)\alpha\wintrans.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\em.res \
+    $(_OBJ_DIR)\mips\asm.obj \
+    $(_OBJ_DIR)\mips\d3.obj \
+    $(_OBJ_DIR)\mips\emdp.obj \
+    $(_OBJ_DIR)\mips\emdp2.obj \
+    $(_OBJ_DIR)\mips\emdp3.obj \
+    $(_OBJ_DIR)\mips\emdpdev.obj \
+    $(_OBJ_DIR)\mips\strings.obj \
+    $(_OBJ_DIR)\mips\wintrans.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\em.res \
+    $(_OBJ_DIR)\i386\asm.obj \
+    $(_OBJ_DIR)\i386\d3.obj \
+    $(_OBJ_DIR)\i386\emdp.obj \
+    $(_OBJ_DIR)\i386\emdp2.obj \
+    $(_OBJ_DIR)\i386\emdp3.obj \
+    $(_OBJ_DIR)\i386\emdpdev.obj \
+    $(_OBJ_DIR)\i386\strings.obj \
+    $(_OBJ_DIR)\i386\wintrans.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\em.res \
+    $(_OBJ_DIR)\ppc\asm.obj \
+    $(_OBJ_DIR)\ppc\d3.obj \
+    $(_OBJ_DIR)\ppc\emdp.obj \
+    $(_OBJ_DIR)\ppc\emdp2.obj \
+    $(_OBJ_DIR)\ppc\emdp3.obj \
+    $(_OBJ_DIR)\ppc\emdpdev.obj \
+    $(_OBJ_DIR)\ppc\strings.obj \
+    $(_OBJ_DIR)\ppc\wintrans.obj
+
+PASS0_PPC_OBJECTS=
+

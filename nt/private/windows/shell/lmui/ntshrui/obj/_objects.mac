@@ -1,0 +1,80 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\app.res \
+    $(_OBJ_DIR)\alpha\acl.obj \
+    $(_OBJ_DIR)\alpha\api.obj \
+    $(_OBJ_DIR)\alpha\cache.obj \
+    $(_OBJ_DIR)\alpha\copyhook.obj \
+    $(_OBJ_DIR)\alpha\dlgbase.obj \
+    $(_OBJ_DIR)\alpha\dlgnew.obj \
+    $(_OBJ_DIR)\alpha\dllmain.obj \
+    $(_OBJ_DIR)\alpha\ole.obj \
+    $(_OBJ_DIR)\alpha\share.obj \
+    $(_OBJ_DIR)\alpha\shrinfo.obj \
+    $(_OBJ_DIR)\alpha\shrpage.obj \
+    $(_OBJ_DIR)\alpha\strhash.obj \
+    $(_OBJ_DIR)\alpha\util.obj
+
+PASS0_ALPHA_OBJECTS= \
+    obj\messages.h \
+    obj\messages.rc
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\app.res \
+    $(_OBJ_DIR)\mips\acl.obj \
+    $(_OBJ_DIR)\mips\api.obj \
+    $(_OBJ_DIR)\mips\cache.obj \
+    $(_OBJ_DIR)\mips\copyhook.obj \
+    $(_OBJ_DIR)\mips\dlgbase.obj \
+    $(_OBJ_DIR)\mips\dlgnew.obj \
+    $(_OBJ_DIR)\mips\dllmain.obj \
+    $(_OBJ_DIR)\mips\ole.obj \
+    $(_OBJ_DIR)\mips\share.obj \
+    $(_OBJ_DIR)\mips\shrinfo.obj \
+    $(_OBJ_DIR)\mips\shrpage.obj \
+    $(_OBJ_DIR)\mips\strhash.obj \
+    $(_OBJ_DIR)\mips\util.obj
+
+PASS0_MIPS_OBJECTS= \
+    obj\messages.h \
+    obj\messages.rc
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\app.res \
+    $(_OBJ_DIR)\i386\acl.obj \
+    $(_OBJ_DIR)\i386\api.obj \
+    $(_OBJ_DIR)\i386\cache.obj \
+    $(_OBJ_DIR)\i386\copyhook.obj \
+    $(_OBJ_DIR)\i386\dlgbase.obj \
+    $(_OBJ_DIR)\i386\dlgnew.obj \
+    $(_OBJ_DIR)\i386\dllmain.obj \
+    $(_OBJ_DIR)\i386\ole.obj \
+    $(_OBJ_DIR)\i386\share.obj \
+    $(_OBJ_DIR)\i386\shrinfo.obj \
+    $(_OBJ_DIR)\i386\shrpage.obj \
+    $(_OBJ_DIR)\i386\strhash.obj \
+    $(_OBJ_DIR)\i386\util.obj
+
+PASS0_386_OBJECTS= \
+    obj\messages.h \
+    obj\messages.rc
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\app.res \
+    $(_OBJ_DIR)\ppc\acl.obj \
+    $(_OBJ_DIR)\ppc\api.obj \
+    $(_OBJ_DIR)\ppc\cache.obj \
+    $(_OBJ_DIR)\ppc\copyhook.obj \
+    $(_OBJ_DIR)\ppc\dlgbase.obj \
+    $(_OBJ_DIR)\ppc\dlgnew.obj \
+    $(_OBJ_DIR)\ppc\dllmain.obj \
+    $(_OBJ_DIR)\ppc\ole.obj \
+    $(_OBJ_DIR)\ppc\share.obj \
+    $(_OBJ_DIR)\ppc\shrinfo.obj \
+    $(_OBJ_DIR)\ppc\shrpage.obj \
+    $(_OBJ_DIR)\ppc\strhash.obj \
+    $(_OBJ_DIR)\ppc\util.obj
+
+PASS0_PPC_OBJECTS= \
+    obj\messages.h \
+    obj\messages.rc
+

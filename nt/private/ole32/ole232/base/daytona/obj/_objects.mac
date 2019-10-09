@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\privstm.obj \
+    $(_OBJ_DIR)\alpha\api.obj \
+    $(_OBJ_DIR)\alpha\create.obj \
+    $(_OBJ_DIR)\alpha\lockbyte.obj \
+    $(_OBJ_DIR)\alpha\memstm.obj \
+    $(_OBJ_DIR)\alpha\ole2.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\privstm.obj \
+    $(_OBJ_DIR)\mips\api.obj \
+    $(_OBJ_DIR)\mips\create.obj \
+    $(_OBJ_DIR)\mips\lockbyte.obj \
+    $(_OBJ_DIR)\mips\memstm.obj \
+    $(_OBJ_DIR)\mips\ole2.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\privstm.obj \
+    $(_OBJ_DIR)\i386\api.obj \
+    $(_OBJ_DIR)\i386\create.obj \
+    $(_OBJ_DIR)\i386\lockbyte.obj \
+    $(_OBJ_DIR)\i386\memstm.obj \
+    $(_OBJ_DIR)\i386\ole2.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\privstm.obj \
+    $(_OBJ_DIR)\ppc\api.obj \
+    $(_OBJ_DIR)\ppc\create.obj \
+    $(_OBJ_DIR)\ppc\lockbyte.obj \
+    $(_OBJ_DIR)\ppc\memstm.obj \
+    $(_OBJ_DIR)\ppc\ole2.obj
+
+PASS0_PPC_OBJECTS=
+

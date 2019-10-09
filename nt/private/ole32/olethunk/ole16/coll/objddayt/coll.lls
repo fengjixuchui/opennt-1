@@ -1,0 +1,86 @@
+public: __far __pascal CArrayFValue::CArrayFValue(unsigned long,unsigned int)__far..array_fv
+public: __far __pascal CMapKeyToValue::CMapKeyToValue(unsigned long,unsigned int,unsigned int,int,unsigned int (__far __pascal*)(void __far*,unsigned int),unsigned int)__far..map_kv
+public: __far __pascal CArrayFValue::~CArrayFValue(void)__far..array_fv
+public: __far __pascal CMapKeyToValue::~CMapKeyToValue(void)__far..map_kv
+public: void __far __pascal CArrayFValue::AssertValid(void)const __far..array_fv
+public: void __far __pascal CMapKeyToValue::AssertValid(void)const __far..map_kv
+private: int __far __pascal CMapKeyToValue::CompareAssocKey(struct CMapKeyToValue::CAssoc __far*,void __far*,unsigned int)const __far..map_kv
+public: static struct CPlex __far* __far __cdecl CPlex::Create(struct CPlex __far* __far&,unsigned long,unsigned int,unsigned int)..plex
+private: void __far __pascal CMapKeyToValue::FreeAssoc(struct CMapKeyToValue::CAssoc __far*)__far..map_kv
+private: void __far __pascal CMapKeyToValue::FreeAssocKey(struct CMapKeyToValue::CAssoc __far*)const __far..map_kv
+public: void __far __pascal CPlex::FreeDataChain(unsigned long)__far..plex
+public: void __far __pascal CArrayFValue::FreeExtra(void)__far..array_fv
+private: struct CMapKeyToValue::CAssoc __far* __far __pascal CMapKeyToValue::GetAssocAt(void __far*,unsigned int,unsigned int __far&)const __far..map_kv
+private: void __far __pascal CMapKeyToValue::GetAssocKeyPtr(struct CMapKeyToValue::CAssoc __far*,void __far* __far*,unsigned int __far*)const __far..map_kv
+private: void __far __pascal CMapKeyToValue::GetAssocValue(struct CMapKeyToValue::CAssoc __far*,void __far*)const __far..map_kv
+private: void __far __pascal CMapKeyToValue::GetAssocValuePtr(struct CMapKeyToValue::CAssoc __far*,void __far* __far*)const __far..map_kv
+public: unsigned long __far __pascal CMapKeyToValue::GetHKey(void __far*,unsigned int)const __far..map_kv
+public: void __far __pascal CMapKeyToValue::GetNextAssoc(void __far* __far*,void __far*,unsigned int __far*,void __far*)const __far..map_kv
+public: int __far __pascal CArrayFValue::GetSize(void)const __far..array_fv
+public: void __far* __far __pascal CMapKeyToValue::GetStartPosition(void)const __far..map_kv
+public: int __far __pascal CArrayFValue::IndexOf(void __far*,unsigned int,unsigned int)__far..array_fv
+private: int __far __pascal CMapKeyToValue::InitHashTable(void)__far..map_kv
+public: int __far __pascal CArrayFValue::InsertAt(int,void __far*,int)__far..array_fv
+public: int __far __pascal CMapKeyToValue::Lookup(void __far*,unsigned int,void __far*)const __far..map_kv
+public: int __far __pascal CMapKeyToValue::LookupAdd(void __far*,unsigned int,void __far*)const __far..map_kv
+public: int __far __pascal CMapKeyToValue::LookupHKey(unsigned long,void __far*)const __far..map_kv
+private: struct CMapKeyToValue::CAssoc __far* __far __pascal CMapKeyToValue::NewAssoc(unsigned int,void __far*,unsigned int,unsigned int)__far..map_kv
+public: void __far __pascal CMapKeyToValue::RemoveAll(void)__far..map_kv
+public: void __far __pascal CArrayFValue::RemoveAt(int,int)__far..array_fv
+public: int __far __pascal CMapKeyToValue::RemoveHKey(unsigned long)__far..map_kv
+public: int __far __pascal CMapKeyToValue::RemoveKey(void __far*,unsigned int)__far..map_kv
+private: int __far __pascal CMapKeyToValue::SetAssocKey(struct CMapKeyToValue::CAssoc __far*,void __far*,unsigned int)const __far..map_kv
+private: void __far __pascal CMapKeyToValue::SetAssocValue(struct CMapKeyToValue::CAssoc __far*,void __far*)const __far..map_kv
+public: void __far __pascal CArrayFValue::SetAt(int,void __far*)__far..array_fv
+public: int __far __pascal CMapKeyToValue::SetAt(void __far*,unsigned int,void __far*)__far..map_kv
+public: int __far __pascal CArrayFValue::SetAtGrow(int,void __far*)__far..array_fv
+public: int __far __pascal CMapKeyToValue::SetAtHKey(unsigned long,void __far*)__far..map_kv
+public: int __far __pascal CArrayFValue::SetSize(int,int)__far..array_fv
+public: void __far* __far __pascal CArrayFValue::_GetAt(int)const __far..array_fv
+MKVDEFAULTHASHKEY..map_kv           
+
+array_fv          Offset: 00000010H  Code and data size: 11d6H
+  public: __far __pascal CArrayFValue::CArrayFValue(unsigned long,unsigned int)__far
+  public: __far __pascal CArrayFValue::~CArrayFValue(void)__far
+  public: void __far __pascal CArrayFValue::AssertValid(void)const __far
+  public: void __far __pascal CArrayFValue::FreeExtra(void)__far
+  public: int __far __pascal CArrayFValue::GetSize(void)const __far
+  public: int __far __pascal CArrayFValue::IndexOf(void __far*,unsigned int,unsigned int)__far
+  public: int __far __pascal CArrayFValue::InsertAt(int,void __far*,int)__far
+  public: void __far __pascal CArrayFValue::RemoveAt(int,int)__far
+  public: void __far __pascal CArrayFValue::SetAt(int,void __far*)__far
+  public: int __far __pascal CArrayFValue::SetAtGrow(int,void __far*)__far
+  public: int __far __pascal CArrayFValue::SetSize(int,int)__far
+  public: void __far* __far __pascal CArrayFValue::_GetAt(int)const __far
+
+map_kv            Offset: 00001e80H  Code and data size: 20fbH
+  public: __far __pascal CMapKeyToValue::CMapKeyToValue(unsigned long,unsigned int,unsigned int,int,unsigned int (__far __pascal*)(void __far*,unsigned int),unsigned int)__far
+  public: __far __pascal CMapKeyToValue::~CMapKeyToValue(void)__far
+  public: void __far __pascal CMapKeyToValue::AssertValid(void)const __far
+  private: int __far __pascal CMapKeyToValue::CompareAssocKey(struct CMapKeyToValue::CAssoc __far*,void __far*,unsigned int)const __far
+  private: void __far __pascal CMapKeyToValue::FreeAssoc(struct CMapKeyToValue::CAssoc __far*)__far
+  private: void __far __pascal CMapKeyToValue::FreeAssocKey(struct CMapKeyToValue::CAssoc __far*)const __far
+  private: struct CMapKeyToValue::CAssoc __far* __far __pascal CMapKeyToValue::GetAssocAt(void __far*,unsigned int,unsigned int __far&)const __far
+  private: void __far __pascal CMapKeyToValue::GetAssocKeyPtr(struct CMapKeyToValue::CAssoc __far*,void __far* __far*,unsigned int __far*)const __far
+  private: void __far __pascal CMapKeyToValue::GetAssocValue(struct CMapKeyToValue::CAssoc __far*,void __far*)const __far
+  private: void __far __pascal CMapKeyToValue::GetAssocValuePtr(struct CMapKeyToValue::CAssoc __far*,void __far* __far*)const __far
+  public: unsigned long __far __pascal CMapKeyToValue::GetHKey(void __far*,unsigned int)const __far
+  public: void __far __pascal CMapKeyToValue::GetNextAssoc(void __far* __far*,void __far*,unsigned int __far*,void __far*)const __far
+  public: void __far* __far __pascal CMapKeyToValue::GetStartPosition(void)const __far
+  private: int __far __pascal CMapKeyToValue::InitHashTable(void)__far
+  public: int __far __pascal CMapKeyToValue::Lookup(void __far*,unsigned int,void __far*)const __far
+  public: int __far __pascal CMapKeyToValue::LookupAdd(void __far*,unsigned int,void __far*)const __far
+  public: int __far __pascal CMapKeyToValue::LookupHKey(unsigned long,void __far*)const __far
+  private: struct CMapKeyToValue::CAssoc __far* __far __pascal CMapKeyToValue::NewAssoc(unsigned int,void __far*,unsigned int,unsigned int)__far
+  public: void __far __pascal CMapKeyToValue::RemoveAll(void)__far
+  public: int __far __pascal CMapKeyToValue::RemoveHKey(unsigned long)__far
+  public: int __far __pascal CMapKeyToValue::RemoveKey(void __far*,unsigned int)__far
+  private: int __far __pascal CMapKeyToValue::SetAssocKey(struct CMapKeyToValue::CAssoc __far*,void __far*,unsigned int)const __far
+  private: void __far __pascal CMapKeyToValue::SetAssocValue(struct CMapKeyToValue::CAssoc __far*,void __far*)const __far
+  public: int __far __pascal CMapKeyToValue::SetAt(void __far*,unsigned int,void __far*)__far
+  public: int __far __pascal CMapKeyToValue::SetAtHKey(unsigned long,void __far*)__far
+  MKVDEFAULTHASHKEY                 
+
+plex              Offset: 00005e10H  Code and data size: 657H
+  public: static struct CPlex __far* __far __cdecl CPlex::Create(struct CPlex __far* __far&,unsigned long,unsigned int,unsigned int)
+  public: void __far __pascal CPlex::FreeDataChain(unsigned long)__far

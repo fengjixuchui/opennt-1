@@ -1,0 +1,56 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\actapi.obj \
+    $(_OBJ_DIR)\alpha\cobjact.obj \
+    $(_OBJ_DIR)\alpha\distname.obj \
+    $(_OBJ_DIR)\alpha\dllapi.obj \
+    $(_OBJ_DIR)\alpha\dllcache.obj \
+    $(_OBJ_DIR)\alpha\dllhost.obj \
+    $(_OBJ_DIR)\alpha\hobjact.obj \
+    $(_OBJ_DIR)\alpha\smstg.obj \
+    $(_OBJ_DIR)\alpha\sobjact.obj \
+    $(_OBJ_DIR)\alpha\treat.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\actapi.obj \
+    $(_OBJ_DIR)\mips\cobjact.obj \
+    $(_OBJ_DIR)\mips\distname.obj \
+    $(_OBJ_DIR)\mips\dllapi.obj \
+    $(_OBJ_DIR)\mips\dllcache.obj \
+    $(_OBJ_DIR)\mips\dllhost.obj \
+    $(_OBJ_DIR)\mips\hobjact.obj \
+    $(_OBJ_DIR)\mips\smstg.obj \
+    $(_OBJ_DIR)\mips\sobjact.obj \
+    $(_OBJ_DIR)\mips\treat.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\actapi.obj \
+    $(_OBJ_DIR)\i386\cobjact.obj \
+    $(_OBJ_DIR)\i386\distname.obj \
+    $(_OBJ_DIR)\i386\dllapi.obj \
+    $(_OBJ_DIR)\i386\dllcache.obj \
+    $(_OBJ_DIR)\i386\dllhost.obj \
+    $(_OBJ_DIR)\i386\hobjact.obj \
+    $(_OBJ_DIR)\i386\smstg.obj \
+    $(_OBJ_DIR)\i386\sobjact.obj \
+    $(_OBJ_DIR)\i386\treat.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\actapi.obj \
+    $(_OBJ_DIR)\ppc\cobjact.obj \
+    $(_OBJ_DIR)\ppc\distname.obj \
+    $(_OBJ_DIR)\ppc\dllapi.obj \
+    $(_OBJ_DIR)\ppc\dllcache.obj \
+    $(_OBJ_DIR)\ppc\dllhost.obj \
+    $(_OBJ_DIR)\ppc\hobjact.obj \
+    $(_OBJ_DIR)\ppc\smstg.obj \
+    $(_OBJ_DIR)\ppc\sobjact.obj \
+    $(_OBJ_DIR)\ppc\treat.obj
+
+PASS0_PPC_OBJECTS=
+

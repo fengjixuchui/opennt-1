@@ -1,0 +1,1248 @@
+
+Microsoft (R) Program Maintenance Utility   Version 1.50.4048
+Copyright (c) Microsoft Corp 1988-93. All rights reserved.
+
+	for %i in (ndrlib ndr20 ndrmem runtime locator uuidgen midl20 install) do (cd %i && (nmake -nologo -                clean || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd ndrlib   && (nmake -nologo - clean   || exit  )  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo -L              clean || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\ndrlib>(cd WIN   && (nmake -nologo -L clean   || exit  )  && cd .. ) 
+	del *.obj *.i *.cod *.map *.sym *.res *.lnk 2>nul
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd ndr20   && (nmake -nologo - clean   || exit  )  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo -L              clean || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\ndr20>(cd WIN   && (nmake -nologo -L clean   || exit  )  && cd .. ) 
+	del *.obj *.i *.cod *.map *.sym *.res *.lnk 2>nul
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd ndrmem   && (nmake -nologo - clean   || exit  )  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo -L              clean || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\ndrmem>(cd WIN   && (nmake -nologo -L clean   || exit  )  && cd .. ) 
+	del *.obj *.i *.cod *.map *.sym *.res *.lnk 2>nul
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd runtime   && (nmake -nologo - clean   || exit  )  && cd .. ) 
+	for %i in (rpcreg rtifs security mtrt) do (cd %i && (nmake -nologo -L               clean || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime>(cd rpcreg   && (nmake -nologo -L clean   || exit  )  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo -L               clean || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\rpcreg>(cd WIN   && (nmake -nologo -L clean   || exit  )  && cd .. ) 
+	del *.obj *.i *.cod *.map *.sym *.res *.lnk 2>nul
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime>(cd rtifs   && (nmake -nologo -L clean   || exit  )  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo -L               clean || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\rtifs>(cd WIN   && (nmake -nologo -L clean   || exit  )  && cd .. ) 
+	del *.obj *.i *.cod *.map *.sym *.res *.lnk 2>nul
+	del W:\nt\private\rpc\runtime\mtrt\win\nbase.h W:\nt\private\rpc\runtime\mtrt\win\epmp_c.gen W:\nt\private\rpc\runtime\mtrt\win\epmp.h W:\nt\private\rpc\runtime\mtrt\win\conv_s.c W:\nt\private\rpc\runtime\mtrt\win\conv.h >nul 2>&1
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime>(cd security   && (nmake -nologo -L clean   || exit  )  && cd .. ) 
+	for %i in (ntlmssp win) do (cd %i && (nmake -nologo -L               clean || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\security>(cd ntlmssp   && (nmake -nologo -L clean   || exit  )  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo -L               clean || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\security\ntlmssp>(cd WIN   && (nmake -nologo -L clean   || exit  )  && cd .. ) 
+	del *.obj *.i *.cod *.map *.sym *.res *.lnk 2>nul
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\security>(cd win   && (nmake -nologo -L clean   || exit  )  && cd .. ) 
+	del *.obj *.i *.cod *.map *.sym *.res *.lnk 2>nul
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime>(cd mtrt   && (nmake -nologo -L clean   || exit  )  && cd .. ) 
+	(cd win\stdio && (nmake -nologo -L               clean || exit) && cd ..\..)
+	del *.obj *.i *.cod *.map *.sym *.res *.lnk 2>nul
+	for %i in (WIN) do (cd %i && (nmake -nologo -L               clean || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\mtrt>(cd WIN   && (nmake -nologo -L clean   || exit  )  && cd .. ) 
+	del *.obj *.i *.cod *.map *.sym *.res *.lnk 2>nul
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd locator   && (nmake -nologo - clean   || exit  )  && cd .. ) 
+	for %i in (client) do (cd %i && (nmake -nologo -L               clean || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\locator>(cd client   && (nmake -nologo -L clean   || exit  )  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo -L               clean || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\locator\client>(cd WIN   && (nmake -nologo -L clean   || exit  )  && cd .. ) 
+	del *.obj *.i *.cod *.map *.sym *.res *.lnk 2>nul
+	del nsicom.h nsiclt.h nsiclt_c.c nsimgm.h nsimgm_c.c 2> nul
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd uuidgen   && (nmake -nologo - clean   || exit  )  && cd .. ) 
+	for %i in (dos) do (cd %i && (nmake -nologo -L               clean || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\uuidgen>(cd dos   && (nmake -nologo -L clean   || exit  )  && cd .. ) 
+	del *.obj *.i *.cod *.map 2>nul
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd midl20   && (nmake -nologo - clean   || exit  )  && cd .. ) 
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd install   && (nmake -nologo - clean   || exit  )  && cd .. ) 
+	for %i in (win sdk) do (cd %i && (nmake -nologo -L               clean || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\install>(cd win   && (nmake -nologo -L clean   || exit  )  && cd .. ) 
+	del *.obj *.i *.cod *.map *.sym *.res *.lnk 2>nul
+
+(RPC Free 16bit) W:\nt\private\rpc\install>(cd sdk   && (nmake -nologo -L clean   || exit  )  && cd .. ) 
+	del *.obj *.i *.cod *.map *.sym *.res *.lnk 2>nul
+	delnode /q sdk.new stage
+	for %i in (ndrlib ndr20 ndrmem runtime locator uuidgen midl20 install) do (cd %i && (nmake -nologo -                || exit)  && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd ndrlib   && (nmake -nologo -   || exit)  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo  -L              || exit)	&& cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\ndrlib>(cd WIN   && (nmake -nologo -L   || exit)  && cd .. ) 
+	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Foccontext.obj -c ..\ccontext.cxx
+..\ccontext.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Focharconv.obj -c ..\charconv.cxx
+..\charconv.cxx
+..\charconv.cxx(95) : warning C4028: formal parameter 1 different from declaration
+..\charconv.cxx(226) : warning C4028: formal parameter 4 different from declaration
+	W:\nt\private\rpc\import\masm\bin\ml  -c -Fohelpx86.obj ..\helpx86.asm
+Microsoft (R) Macro Assembler Version 6.11d
+Copyright (C) Microsoft Corp 1981-1995.  All rights reserved.
+
+ Assembling: ..\helpx86.asm
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Fofloatc.obj -c ..\floatc.cxx
+..\floatc.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Fodataconv.obj -c ..\dataconv.cxx
+..\dataconv.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Fointconv.obj -c ..\intconv.cxx
+..\intconv.cxx
+	del RpcNdrp.lib  2>nul
+	W:\nt\private\rpc\import\msvc15\bin\lib  RpcNdrp.lib+ccontext.obj+charconv.obj+helpx86.obj+floatc.obj+dataconv.obj+intconv.obj;
+
+Microsoft (R) Library Manager  Version 3.40
+Copyright (C) Microsoft Corp 1983-1993.  All rights reserved.
+
+	set PATH=
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd ndr20   && (nmake -nologo -   || exit)  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo  -L              all || exit)	&& cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\ndr20>(cd WIN   && (nmake -nologo -L all   || exit)  && cd .. ) 
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Foglobal.obj -c ..\global.c
+..\global.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Fomrshl.obj -c ..\mrshl.c
+..\mrshl.c
+..\mrshl.c(1257) : warning C4713: NdrpConformantStringMarshall: internal compiler error; restarting
+		(compiler file '@(#)grammar.c:1.147', line 168)
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Fomemsize.obj -c ..\memsize.c
+..\memsize.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Founmrshl.obj -c ..\unmrshl.c
+..\unmrshl.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Foendian.obj -c ..\endian.c
+..\endian.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Foauxilary.obj -c ..\auxilary.c
+..\auxilary.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Fomrshlp.obj -c ..\mrshlp.c
+..\mrshlp.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Founmrshlp.obj -c ..\unmrshlp.c
+..\unmrshlp.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Fosh.obj -c ..\sh.c
+..\sh.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Fofree.obj -c ..\free.c
+..\free.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Fobufsize.obj -c ..\bufsize.c
+..\bufsize.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Focltcall.obj -c ..\cltcall.c
+..\cltcall.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Fohndl.obj -c ..\hndl.c
+..\hndl.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Forpcssm.obj -c ..\rpcssm.cxx
+..\rpcssm.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Fomisc.obj -c ..\misc.c
+..\misc.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Fofullptr.obj -c ..\fullptr.c
+..\fullptr.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Fosdict2.obj -c ..\sdict2.cxx
+..\sdict2.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Fopickle.obj -c ..\pickle.cxx
+..\pickle.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Fopipes.obj -c ..\pipes.cxx
+..\pipes.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Focvtf.obj -c ..\cvtf.c
+..\cvtf.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Focvtg.obj -c ..\cvtg.c
+..\cvtg.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -I..\..\midl20\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Focvtglo.obj -c ..\cvtglo.c
+..\cvtglo.c
+	del rpcndr20.lib  2>nul
+	W:\nt\private\rpc\import\msvc15\bin\lib  rpcndr20.lib+global.obj+mrshl.obj+memsize.obj+unmrshl.obj+endian.obj+auxilary.obj+mrshlp.obj+unmrshlp.obj+sh.obj+free.obj+bufsize.obj+cltcall.obj+hndl.obj+rpcssm.obj+misc.obj+fullptr.obj+sdict2.obj+pickle.obj+pipes.obj+cvtf.obj+cvtg.obj+cvtglo.obj;
+
+Microsoft (R) Library Manager  Version 3.40
+Copyright (C) Microsoft Corp 1983-1993.  All rights reserved.
+
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd ndrmem   && (nmake -nologo -   || exit)  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo  -L              || exit)	&& cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\ndrmem>(cd WIN   && (nmake -nologo -L   || exit)  && cd .. ) 
+	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -NTNDRLIB_Text -Fondrmem.obj -c ..\ndrmem.cxx
+..\ndrmem.cxx
+	del RpcNdr.lib  2>nul
+	W:\nt\private\rpc\import\msvc15\bin\lib  RpcNdr.lib+ndrmem.obj ;
+
+Microsoft (R) Library Manager  Version 3.40
+Copyright (C) Microsoft Corp 1983-1993.  All rights reserved.
+
+	set PATH=
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd runtime   && (nmake -nologo -   || exit)  && cd .. ) 
+	for %i in (rpcreg rtifs security mtrt) do (cd %i && (nmake -nologo -L               || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime>(cd rpcreg   && (nmake -nologo -L   || exit  )  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo -L               || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\rpcreg>(cd WIN   && (nmake -nologo -L   || exit  )  && cd .. ) 
+	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -AMw -Foclose.obj -c ..\close.c
+..\close.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -AMw -Focreate.obj -c ..\create.c
+..\create.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -AMw -Foglobals.obj -c ..\globals.c
+..\globals.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -AMw -Foopen.obj -c ..\open.c
+..\open.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -AMw -Fosetval.obj -c ..\setval.c
+..\setval.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -AMw -Foqueryval.obj -c ..\queryval.c
+..\queryval.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -AMw -Foregutil.obj -c ..\regutil.c
+..\regutil.c
+	del W:\nt\private\rpc\runtime\bin\win\rpcreg.lib 2> nul
+	W:\nt\private\rpc\import\msvc15\bin\lib  W:\nt\private\rpc\runtime\bin\win\rpcreg.lib close.obj  create.obj  globals.obj  open.obj  setval.obj  queryval.obj  regutil.obj;
+
+Microsoft (R) Library Manager  Version 3.40
+Copyright (C) Microsoft Corp 1983-1993.  All rights reserved.
+
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -AMw -Foregtest.obj -c ..\regtest.c
+..\regtest.c
+	copy W:\nt\private\rpc\import\msvc15\bin\winstub.exe
+        1 file(s) copied.
+	W:\nt\private\rpc\import\msvc15\bin\link  /nol/nod/noe/map/ba regtest.obj ..\..\mtrt\win\stdio\MstdioW.lib,,,	 W:\nt\private\rpc\runtime\bin\win\rpcreg.lib+W:\nt\private\rpc\import\msvc15\lib\libw+W:\nt\private\rpc\import\msvc15\lib\mlibcew, regtest.def;
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo regtest.exe
+RC : warning RW4005: Segment 1 (offset 3359) contains a
+	  relocation record pointing to the automatic
+	  data segment.	 This will cause the program to crash
+	  if the instruction being fixed up is executed in a
+	  multi-instance application.  If this fixup is
+	  necessary, the program should be restricted to run
+	  only a single instance.
+	del winstub.exe
+	set PATH=
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime>(cd rtifs   && (nmake -nologo -L   || exit  )  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo -L               || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\rtifs>(cd WIN   && (nmake -nologo -L   || exit  )  && cd .. ) 
+	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	midl  -Zp2 -env win16 -DDOS -DWIN -I.. -cpp_cmd W:\nt\private\rpc\import\msvc15\bin\cl -c_ext -ms_ext -oldnames   -header W:\nt\private\rpc\runtime\mtrt\win\nbase.h -server none -client none ..\nbase.idl
+Microsoft (R) MIDL Compiler Version 3.00.44  
+Copyright (c) Microsoft Corp 1991-1995. All rights reserved.
+Processing ..\nbase.idl
+	midl  -Zp2 -env win16 -DDOS -DWIN -I.. -cpp_cmd W:\nt\private\rpc\import\msvc15\bin\cl -c_ext -ms_ext -oldnames  -header W:\nt\private\rpc\runtime\mtrt\win\conv.h -server stub -sstub W:\nt\private\rpc\runtime\mtrt\win\conv_s.c   -cstub nul -prefix client _  ..\conv.idl
+Microsoft (R) MIDL Compiler Version 3.00.44  
+Copyright (c) Microsoft Corp 1991-1995. All rights reserved.
+Processing ..\conv.idl
+Processing ..\nbase.idl
+Processing ..\conv.acf
+	midl  -Zp2 -env win16 -DDOS -DWIN -I.. -cpp_cmd W:\nt\private\rpc\import\msvc15\bin\cl -c_ext -ms_ext -oldnames  -header W:\nt\private\rpc\runtime\mtrt\win\epmp.h -cstub W:\nt\private\rpc\runtime\mtrt\win\epmp_c.gen  -sstub nul  ..\epmp.idl
+Microsoft (R) MIDL Compiler Version 3.00.44  
+Copyright (c) Microsoft Corp 1991-1995. All rights reserved.
+Processing ..\epmp.idl
+Processing ..\nbase.idl
+Processing ..\epmp.acf
+	set PATH=
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime>(cd security   && (nmake -nologo -L   || exit  )  && cd .. ) 
+	for %i in (ntlmssp win) do (cd %i && (nmake -nologo -L               || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\security>(cd ntlmssp   && (nmake -nologo -L   || exit  )  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo -L               || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\security\ntlmssp>(cd WIN   && (nmake -nologo -L   || exit  )  && cd .. ) 
+	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	copy ..\libentry.i16 libentry.obj
+        1 file(s) copied.
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -DSECURITY_WIN16 -ALw -IW:\nt\private\rpc\common\include -NT_TEXT -Fontlmssp.obj -c ..\ntlmssp.c
+..\ntlmssp.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -DSECURITY_WIN16 -ALw -IW:\nt\private\rpc\common\include -NT_TEXT -Foalloc.obj -c alloc.c
+alloc.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -DSECURITY_WIN16 -ALw -IW:\nt\private\rpc\common\include -NT_TEXT -Fosspstrng.obj -c ..\sspstrng.c
+..\sspstrng.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -DSECURITY_WIN16 -ALw -IW:\nt\private\rpc\common\include -NT_TEXT -Fogetuser.obj -c getuser.c
+getuser.c
+W:/nt/private/rpc/import/msvc15/include\windows.h(119) : warning C4005: 'FAR' : macro redefinition
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -DSECURITY_WIN16 -ALw -IW:\nt\private\rpc\common\include -NT_TEXT -Focache.obj -c cache.c
+cache.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -DSECURITY_WIN16 -ALw -IW:\nt\private\rpc\common\include -NT_TEXT -Fopersist.obj -c persist.c
+persist.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -DSECURITY_WIN16 -ALw -IW:\nt\private\rpc\common\include -NT_TEXT -Focontext.obj -c ..\context.c
+..\context.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -DSECURITY_WIN16 -ALw -IW:\nt\private\rpc\common\include -NT_TEXT -Focred.obj -c ..\cred.c
+..\cred.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -DSECURITY_WIN16 -ALw -IW:\nt\private\rpc\common\include -NT_TEXT -Fodlgcred.obj -c dlgcred.c
+dlgcred.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -DSECURITY_WIN16 -ALw -IW:\nt\private\rpc\common\include -NT_TEXT -Foowf.obj -c ..\owf.c
+..\owf.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -DSECURITY_WIN16 -ALw -IW:\nt\private\rpc\common\include -NT_TEXT -Foresponse.obj -c ..\response.c
+..\response.c
+	copy ..\ecb.i16 ecb.obj
+        1 file(s) copied.
+	copy ..\des.i16 des.obj
+        1 file(s) copied.
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -DSECURITY_WIN16 -ALw -IW:\nt\private\rpc\common\include -NT_TEXT -Fodebug.obj -c debug.c
+debug.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -DSECURITY_WIN16 -ALw -IW:\nt\private\rpc\common\include -NT_TEXT -Foticks.obj -c ticks.c
+ticks.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -DSECURITY_WIN16 -ALw -IW:\nt\private\rpc\common\include -NT_TEXT -Focrc32.obj -c ..\crc32.c
+..\crc32.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -DSECURITY_WIN16 -ALw -IW:\nt\private\rpc\common\include -NT_TEXT -Forc4c.obj -c ..\rc4c.c
+..\rc4c.c
+	set INCLUDE=W:\nt\private\rpc\import\msvc15\include
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo -IW:\nt\private\rpc\runtime\mtrt\win -r security.rc
+	W:\nt\private\rpc\import\msvc15\bin\link  /nol/nod/noe/map/ba libentry.obj+ntlmssp.obj+alloc.obj+sspstrng.obj+getuser.obj+cache.obj+persist.obj+context.obj+cred.obj+dlgcred.obj+owf.obj+response.obj+ecb.obj+des.obj+debug.obj+ticks.obj+crc32.obj+rc4c.obj,security.dll,security.map, W:\nt\private\rpc\import\msvc15\lib\sdllcew+W:\nt\private\rpc\import\msvc15\lib\libw+ W:\nt\private\rpc\common\lib\wfwnet, rpcssp.def
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo -IW:\nt\private\rpc\runtime\mtrt\win security.res security.dll
+RC: warning RW4002: Entry point segment 1 set to PRELOAD
+RC: warning RW4002: Non-discardable segment 3 set to PRELOAD
+	forcedos W:\nt\private\rpc\import\msvc15\bin\mapsym security.map
+Microsoft (R) Symbol File Generator  Version 4.11
+Copyright (C) Microsoft Corp 1984-1988.  All rights reserved.
+
+	Program entry point at 0001:3046
+	copy security.dll W:\nt\private\rpc\runtime\bin\win\security.dll
+        1 file(s) copied.
+	copy security.map W:\nt\private\rpc\runtime\bin\win\security.map
+        1 file(s) copied.
+	copy security.sym W:\nt\private\rpc\runtime\bin\win\security.sym
+        1 file(s) copied.
+	set PATH=
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\security>(cd win   && (nmake -nologo -L   || exit  )  && cd .. ) 
+	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ASw -Fosecurity.obj -c ..\security.c
+..\security.c
+	W:\nt\private\rpc\import\msvc15\bin\link  /nol/nod/noe/map/ba security.obj,security.dll,security.map, W:\nt\private\rpc\import\msvc15\lib\sdllcew+W:\nt\private\rpc\import\msvc15\lib\libw+W:\nt\private\rpc\common\lib\wnetapi, rpcssp.def;
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo security.dll
+RC: warning RW4002: Entry point segment 1 set to PRELOAD
+RC: warning RW4002: Non-discardable segment 2 set to PRELOAD
+	forcedos W:\nt\private\rpc\import\msvc15\bin\mapsym security.map
+Microsoft (R) Symbol File Generator  Version 4.11
+Copyright (C) Microsoft Corp 1984-1988.  All rights reserved.
+
+	Program entry point at 0001:0364
+	set PATH=
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime>(cd mtrt   && (nmake -nologo -L   || exit  )  && cd .. ) 
+	(cd win\stdio && (nmake -nologo -L               MOD=S all || exit) && cd ..\..)
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2  -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -AS /FoSwinmain.obj -c winmain.c
+winmain.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2  -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -AS /FoSwstdio.obj -c wstdio.c
+wstdio.c
+	del Sstdiow.lib 2> nul
+	W:\nt\private\rpc\import\msvc15\bin\lib  Sstdiow.lib+Swinmain.obj+Swstdio.obj;
+
+Microsoft (R) Library Manager  Version 3.40
+Copyright (C) Microsoft Corp 1983-1993.  All rights reserved.
+
+	set INCLUDE=W:\nt\private\rpc\import\msvc15\include
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo -r winmain.rc
+	(cd win\stdio && (nmake -nologo -L               MOD=M all || exit) && cd ..\..)
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2  -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -AM /FoMwinmain.obj -c winmain.c
+winmain.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2  -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -AM /FoMwstdio.obj -c wstdio.c
+wstdio.c
+	del Mstdiow.lib 2> nul
+	W:\nt\private\rpc\import\msvc15\bin\lib  Mstdiow.lib+Mwinmain.obj+Mwstdio.obj;
+
+Microsoft (R) Library Manager  Version 3.40
+Copyright (C) Microsoft Corp 1983-1993.  All rights reserved.
+
+	(cd win\stdio && (nmake -nologo -L               MOD=L all || exit) && cd ..\..)
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2  -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -AL /FoLwinmain.obj -c winmain.c
+winmain.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2  -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -AL /FoLwstdio.obj -c wstdio.c
+wstdio.c
+	del Lstdiow.lib 2> nul
+	W:\nt\private\rpc\import\msvc15\bin\lib  Lstdiow.lib+Lwinmain.obj+Lwstdio.obj;
+
+Microsoft (R) Library Manager  Version 3.40
+Copyright (C) Microsoft Corp 1983-1993.  All rights reserved.
+
+	for %i in (WIN) do (cd %i && (nmake -nologo -L               || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\mtrt>(cd WIN   && (nmake -nologo -L   || exit  )  && cd .. ) 
+	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fobinding.obj -c ..\binding.cxx
+..\binding.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fobitset.obj -c ..\bitset.cxx
+..\bitset.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fobufapi.obj -c ..\bufapi.cxx
+..\bufapi.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Foclntapip.obj -c ..\clntapip.cxx
+..\clntapip.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Foconv_s.obj -c conv_s.c
+conv_s.c
+conv_s.c(325) : warning C4761: integral size mismatch in argument; conversion supplied
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fodcebind.obj -c ..\dcebind.cxx
+..\dcebind.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fodcecclnt.obj -c ..\dcecclnt.cxx
+..\dcecclnt.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fodcecmisc.obj -c ..\dcecmisc.cxx
+..\dcecmisc.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fodcestrng.obj -c ..\dcestrng.cxx
+..\dcestrng.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fodceuuid.obj -c ..\dceuuid.cxx
+..\dceuuid.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fodgclnt.obj -c ..\dgclnt.cxx
+..\dgclnt.cxx
+..\dgclnt.cxx(2194) : warning C4028: formal parameter 4 different from declaration
+..\dgclnt.cxx(2194) : warning C4028: formal parameter 9 different from declaration
+..\dgclnt.cxx(1086) : warning C4759: segment lost in conversion
+..\dgclnt.cxx(3795) : warning C4756: overflow in constant arithmetic
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fodgpkt.obj -c ..\dgpkt.cxx
+..\dgpkt.cxx
+..\dgpkt.cxx(1267) : warning C4756: overflow in constant arithmetic
+..\dgpkt.cxx(1343) : warning C4756: overflow in constant arithmetic
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fodllmgmt.obj -c dllmgmt.c
+dllmgmt.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fodthreads.obj -c ..\dos\dthreads.c
+..\dos\dthreads.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Foepclnt.obj -c ..\epclnt.cxx
+..\epclnt.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -ALw -Foepmp_c.obj -c epmp_c.c
+epmp_c.c
+	W:\nt\private\rpc\import\masm\bin\ml  -c except86.asm
+Microsoft (R) Macro Assembler Version 6.11d
+Copyright (C) Microsoft Corp 1981-1995.  All rights reserved.
+
+ Assembling: except86.asm
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fohandle.obj -c ..\handle.cxx
+..\handle.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fomemory.obj -c memory.c
+memory.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fomiscwin.obj -c miscwin.cxx
+miscwin.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fomsgapi.obj -c ..\msgapi.cxx
+..\msgapi.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Foosfclnt.obj -c ..\osfclnt.cxx
+..\osfclnt.cxx
+..\osfclnt.cxx(2030) : warning C4769: conversion of near pointer to long integer
+..\osfclnt.cxx(3358) : warning C4769: conversion of near pointer to long integer
+..\osfclnt.cxx(3762) : warning C4769: conversion of near pointer to long integer
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Foosfpcket.obj -c ..\osfpcket.cxx
+..\osfpcket.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Forpcuuid.obj -c ..\rpcuuid.cxx
+..\rpcuuid.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fosdict.obj -c ..\sdict.cxx
+..\sdict.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fosecclnt.obj -c ..\secclnt.cxx
+..\secclnt.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fotower.obj -c ..\tower.c
+..\tower.c
+..\tower.c(104) : warning C4309: 'return' : truncation of constant value
+..\tower.c(363) : warning C4309: '=' : truncation of constant value
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fotranclnt.obj -c ..\tranclnt.cxx
+..\tranclnt.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Foulong64.obj -c ..\dos\ulong64.cxx
+..\dos\ulong64.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Foutil.obj -c ..\util.cxx
+..\util.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fouuid16.obj -c ..\dos\uuid16.cxx
+..\dos\uuid16.cxx
+..\dos\uuid16.cxx(409) : warning C4759: segment lost in conversion
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fowdatexit.obj -c wdatexit.c
+wdatexit.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fowinexcpt.obj -c winexcpt.c
+winexcpt.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fowinutil.obj -c winutil.c
+winutil.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fowinyield.obj -c winyield.c
+winyield.c
+winyield.c(1129) : warning C4133: 'argument' : incompatible types - from 'void (__far __pascal *)(unsigned int ,unsigned int ,unsigned int ,unsigned long  ... ' to 'int (__far __pascal *)(void)'
+winyield.c(1377) : warning C4133: 'initializing' : incompatible types - from 'void __far *(__far __pascal *)(unsigned int )' to 'int __far *(__far __pascal *)(unsigned int )'
+winyield.c(1381) : warning C4090: 'argument' : different 'const' qualifiers
+winyield.c(1381) : warning C4028: formal parameter 3 different from declaration
+winyield.c(1384) : warning C4028: formal parameter 1 different from declaration
+	echo @rpcrt1.lnk
+@rpcrt1.lnk
+	set INCLUDE=W:\nt\private\rpc\import\msvc15\include
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo -r rpcwin.rc
+	W:\nt\private\rpc\import\msvc15\bin\link  /nol/nod/noe/map/ba @rpcrt1.lnk
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo -k rpcwin.res rpcrt1.dll
+RC: warning RW4002: Entry point segment 4 set to PRELOAD
+RC: warning RW4002: Non-discardable segment 14 set to PRELOAD
+	forcedos W:\nt\private\rpc\import\msvc15\bin\mapsym  rpcrt1.map
+Microsoft (R) Symbol File Generator  Version 4.11
+Copyright (C) Microsoft Corp 1984-1988.  All rights reserved.
+
+	Program entry point at 0004:0054
+	copy rpcrt1.dll W:\nt\private\rpc\runtime\bin\win\rpcrt1.dll
+        1 file(s) copied.
+	copy rpcrt1.map W:\nt\private\rpc\runtime\bin\win\rpcrt1.map
+        1 file(s) copied.
+	copy rpcrt1.sym W:\nt\private\rpc\runtime\bin\win\rpcrt1.sym
+        1 file(s) copied.
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fonpltclnt.obj -c npltclnt.c
+npltclnt.c
+npltclnt.c(424) : warning C4090: 'argument' : different 'volatile' qualifiers
+npltclnt.c(424) : warning C4024: 'DosReadAsyncNmPipe' : different types for formal and actual parameter 3
+npltclnt.c(428) : warning C4090: 'argument' : different 'volatile' qualifiers
+npltclnt.c(428) : warning C4024: 'DosWriteAsyncNmPipe' : different types for formal and actual parameter 3
+npltclnt.c(578) : warning C4133: '=' : incompatible types - from 'int __far *' to 'char __far *'
+npltclnt.c(590) : warning C4133: '=' : incompatible types - from 'int __far *' to 'char __far *'
+npltclnt.c(662) : warning C4133: 'argument' : incompatible types - from 'struct wksta_info_0 __near *' to 'char __far *'
+	W:\nt\private\rpc\import\masm\bin\ml  -c ltstart.asm
+Microsoft (R) Macro Assembler Version 6.11d
+Copyright (C) Microsoft Corp 1981-1995.  All rights reserved.
+
+ Assembling: ltstart.asm
+	set INCLUDE=W:\nt\private\rpc\import\msvc15\include
+	W:\nt\private\rpc\import\msvc15\bin\rc   -dRPC16C1 -fo"RPC16C1.res" -r rpcwinlt.rc
+Microsoft (R) Windows Resource Compiler Version 3.11
+Copyright (C) Microsoft Corp. 1985-1992. All rights reserved.
+
+	W:\nt\private\rpc\import\msvc15\bin\link  /nol/nod/noe/map/ba npltclnt+ltstart,rpc16C1.dll,rpc16C1.map, W:\nt\private\rpc\import\msvc15\lib\sdllcew.lib W:\nt\private\rpc\import\msvc15\lib\libw.lib W:\nt\private\rpc\common\lib\wnetapi W:\nt\private\rpc\common\lib\wfwnet, npltc.def;
+LINK : warning L4022: RESIDENTGROUP, DGROUP : groups overlap
+npltclnt.obj(npltclnt.c) : warning L4001: frame-relative fixup, frame ignored near 0001 in segment COMDAT_SEG1
+ frame segment CONST, target segment _DATA, target offset 1694
+npltclnt.obj(npltclnt.c) : warning L4001: frame-relative fixup, frame ignored near 0147 in segment COMDAT_SEG1
+ frame segment CONST, target segment _DATA, target offset 1694
+npltclnt.obj(npltclnt.c) : warning L4001: frame-relative fixup, frame ignored near 0163 in segment COMDAT_SEG1
+ frame segment CONST, target segment _DATA, target offset 1694
+npltclnt.obj(npltclnt.c) : warning L4001: frame-relative fixup, frame ignored near 029D in segment COMDAT_SEG1
+ frame segment CONST, target segment _DATA, target offset 1694
+npltclnt.obj(npltclnt.c) : warning L4001: frame-relative fixup, frame ignored near 01CC in segment COMDAT_SEG1
+ frame segment CONST, target segment _DATA, target offset 1694
+npltclnt.obj(npltclnt.c) : warning L4001: frame-relative fixup, frame ignored near 01BF in segment COMDAT_SEG1
+ frame segment CONST, target segment _DATA, target offset 1694
+npltclnt.obj(npltclnt.c) : warning L4001: frame-relative fixup, frame ignored near 01A3 in segment COMDAT_SEG1
+ frame segment CONST, target segment _DATA, target offset 1694
+npltclnt.obj(npltclnt.c) : warning L4001: frame-relative fixup, frame ignored near 041F in segment COMDAT_SEG1
+ frame segment CONST, target segment _DATA, target offset 1694
+npltclnt.obj(npltclnt.c) : warning L4001: frame-relative fixup, frame ignored near 0597 in segment COMDAT_SEG1
+ frame segment CONST, target segment _DATA, target offset 1694
+npltclnt.obj(npltclnt.c) : warning L4001: frame-relative fixup, frame ignored near 06EB in segment COMDAT_SEG1
+ frame segment CONST, target segment _DATA, target offset 1694
+npltclnt.obj(npltclnt.c) : warning L4001: frame-relative fixup, frame ignored near 06CE in segment COMDAT_SEG1
+ frame segment CONST, target segment _DATA, target offset 1694
+npltclnt.obj(npltclnt.c) : warning L4001: frame-relative fixup, frame ignored near 069C in segment COMDAT_SEG1
+ frame segment CONST, target segment _DATA, target offset 1694
+npltclnt.obj(npltclnt.c) : warning L4001: frame-relative fixup, frame ignored near 0687 in segment COMDAT_SEG1
+ frame segment CONST, target segment _DATA, target offset 1694
+ltstart.obj(ltstart.asm) : warning L4001: frame-relative fixup, frame ignored near 0002 in segment _TEXT
+ frame segment CONST, target segment _DATA, target offset 16C4
+ltstart.obj(ltstart.asm) : warning L4001: frame-relative fixup, frame ignored near 0020 in segment _TEXT
+ frame segment CONST, target segment _DATA, target offset 16C4
+ltstart.obj(ltstart.asm) : warning L4001: frame-relative fixup, frame ignored near 0027 in segment _TEXT
+ frame segment CONST, target segment _DATA, target offset 16C4
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo rpc16C1.res rpc16C1.dll
+RC: warning RW4002: Non-discardable segment 1 set to PRELOAD
+RC: warning RW4002: Non-discardable segment 2 set to PRELOAD
+	forcedos W:\nt\private\rpc\import\msvc15\bin\mapsym rpc16C1.map
+Microsoft (R) Symbol File Generator  Version 4.11
+Copyright (C) Microsoft Corp 1984-1988.  All rights reserved.
+
+	Program entry point at 0001:0000
+	copy rpc16c1.dll W:\nt\private\rpc\runtime\bin\win\rpc16c1.dll
+        1 file(s) copied.
+	copy rpc16c1.map W:\nt\private\rpc\runtime\bin\win\rpc16c1.map
+        1 file(s) copied.
+	copy rpc16c1.sym W:\nt\private\rpc\runtime\bin\win\rpc16c1.sym
+        1 file(s) copied.
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -ALw -Fotcltclnt.obj -c tcltclnt.c
+tcltclnt.c
+	set INCLUDE=W:\nt\private\rpc\import\msvc15\include
+	W:\nt\private\rpc\import\msvc15\bin\rc   -dRPC16C3 -fo"RPC16C3.res" -r rpcwinlt.rc
+Microsoft (R) Windows Resource Compiler Version 3.11
+Copyright (C) Microsoft Corp. 1985-1992. All rights reserved.
+
+	W:\nt\private\rpc\import\msvc15\bin\link  /nol/nod/noe/map/ba tcltclnt+ltstart,rpc16C3.dll,rpc16C3.map, W:\nt\private\rpc\import\msvc15\lib\ldllcew+W:\nt\private\rpc\common\lib\winsock+W:\nt\private\rpc\import\msvc15\lib\libw, tcltc.def;
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo rpc16C3.res rpc16C3.dll
+RC: warning RW4002: Non-discardable segment 1 set to PRELOAD
+RC: warning RW4002: Non-discardable segment 2 set to PRELOAD
+	forcedos W:\nt\private\rpc\import\msvc15\bin\mapsym rpc16C3.map
+Microsoft (R) Symbol File Generator  Version 4.11
+Copyright (C) Microsoft Corp 1984-1988.  All rights reserved.
+
+	Program entry point at 0001:0010
+	copy rpc16c3.dll W:\nt\private\rpc\runtime\bin\win\rpc16c3.dll
+        1 file(s) copied.
+	copy rpc16c3.map W:\nt\private\rpc\runtime\bin\win\rpc16c3.map
+        1 file(s) copied.
+	copy rpc16c3.sym W:\nt\private\rpc\runtime\bin\win\rpc16c3.sym
+        1 file(s) copied.
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -ALw -Fodgudpc.obj -c dgudpc.c
+dgudpc.c
+dgudpc.c(36) : warning C4028: formal parameter 1 different from declaration
+dgudpc.c(975) : warning C4113: '=' differs in parameter lists from 'void (__far __pascal *)(void)'
+	set INCLUDE=W:\nt\private\rpc\import\msvc15\include
+	W:\nt\private\rpc\import\msvc15\bin\rc   -dRPC16DG3 -fo"RPC16DG3.res" -r rpcwinlt.rc
+Microsoft (R) Windows Resource Compiler Version 3.11
+Copyright (C) Microsoft Corp. 1985-1992. All rights reserved.
+
+	W:\nt\private\rpc\import\msvc15\bin\link  /nol/nod/noe/map/ba dgudpc+ltstart,rpc16dg3.dll,rpc16dg3.map, W:\nt\private\rpc\import\msvc15\lib\ldllcew+W:\nt\private\rpc\common\lib\winsock+W:\nt\private\rpc\import\msvc15\lib\libw, dgudpc.def;
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo rpc16dg3.res rpc16dg3.dll
+RC: warning RW4002: Non-discardable segment 1 set to PRELOAD
+RC: warning RW4002: Non-discardable segment 2 set to PRELOAD
+	forcedos W:\nt\private\rpc\import\msvc15\bin\mapsym rpc16dg3.map
+Microsoft (R) Symbol File Generator  Version 4.11
+Copyright (C) Microsoft Corp 1984-1988.  All rights reserved.
+
+	Program entry point at 0001:0000
+	copy rpc16dg3.dll W:\nt\private\rpc\runtime\bin\win\rpc16dg3.dll
+        1 file(s) copied.
+	copy rpc16dg3.map W:\nt\private\rpc\runtime\bin\win\rpc16dg3.map
+        1 file(s) copied.
+	copy rpc16dg3.sym W:\nt\private\rpc\runtime\bin\win\rpc16dg3.sym
+        1 file(s) copied.
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -ALw -Fonbltclnt.obj -c nbltclnt.c
+nbltclnt.c
+nbltclnt.c(2156) : warning C4133: '=' : incompatible types - from 'int __far *' to 'char __far *'
+nbltclnt.c(2197) : warning C4133: '=' : incompatible types - from 'int __far *' to 'char __far *'
+	set INCLUDE=W:\nt\private\rpc\import\msvc15\include
+	W:\nt\private\rpc\import\msvc15\bin\rc   -dRPC16C5 -fo"RPC16C5.res" -r rpcwinlt.rc
+Microsoft (R) Windows Resource Compiler Version 3.11
+Copyright (C) Microsoft Corp. 1985-1992. All rights reserved.
+
+	W:\nt\private\rpc\import\msvc15\bin\link  /nol/nod/noe/map/ba nbltclnt.obj+ ltstart.obj,rpc16C5.dll,rpc16C5.map, W:\nt\private\rpc\import\msvc15\lib\ldllcew+W:\nt\private\rpc\import\msvc15\lib\libw+W:\nt\private\rpc\common\lib\wnetapi, nbltc.def;
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo rpc16C5.res rpc16C5.dll
+RC: warning RW4002: Non-discardable segment 1 set to PRELOAD
+RC: warning RW4002: Entry point segment 2 set to PRELOAD
+RC: warning RW4002: Non-discardable segment 4 set to PRELOAD
+	forcedos W:\nt\private\rpc\import\msvc15\bin\mapsym rpc16C5.map
+Microsoft (R) Symbol File Generator  Version 4.11
+Copyright (C) Microsoft Corp 1984-1988.  All rights reserved.
+
+	Program entry point at 0002:0000
+	copy rpc16c5.dll W:\nt\private\rpc\runtime\bin\win\rpc16c5.dll
+        1 file(s) copied.
+	copy rpc16c5.map W:\nt\private\rpc\runtime\bin\win\rpc16c5.map
+        1 file(s) copied.
+	copy rpc16c5.sym W:\nt\private\rpc\runtime\bin\win\rpc16c5.sym
+        1 file(s) copied.
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -ALw -Fospxclnt.obj -c spxclnt.c
+spxclnt.c
+spxclnt.c(399) : warning C4002: too many actual parameters for macro 'do_popup'
+	copy ..\dos\gethost.c .
+        1 file(s) copied.
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -ALw -Fogethost.obj -c gethost.c
+gethost.c
+gethost.c(386) : warning C4133: '=' : incompatible types - from 'int __far *' to 'struct SAP_RESPONSE_ECB __far *'
+	del gethost.c
+	copy ..\dos\novell.c .
+        1 file(s) copied.
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -ALw -Fonovell.obj -c novell.c
+novell.c
+novell.c(54) : warning C4142: benign redefinition of type
+novell.c(727) : warning C4133: '=' : incompatible types - from 'int __far *' to 'struct __far *'
+novell.c(968) : warning C4133: 'argument' : incompatible types - from 'struct IPX_ADDRESS __far *' to 'unsigned char __far *'
+novell.c(1337) : warning C4142: benign redefinition of type
+	del novell.c
+	set INCLUDE=W:\nt\private\rpc\import\msvc15\include
+	W:\nt\private\rpc\import\msvc15\bin\rc   -dRPC16C6 -fo"RPC16C6.res" -r rpcwinlt.rc
+Microsoft (R) Windows Resource Compiler Version 3.11
+Copyright (C) Microsoft Corp. 1985-1992. All rights reserved.
+
+	W:\nt\private\rpc\import\msvc15\bin\link  /nol/nod/noe/map/ba spxclnt+gethost+novell+ltstart,rpc16C6.dll,rpc16C6.map, W:\nt\private\rpc\import\msvc15\lib\ldllcew+W:\nt\private\rpc\import\msvc15\lib\libw, spxltc.def;
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo rpc16C6.res rpc16C6.dll
+RC: warning RW4002: Non-discardable segment 4 set to PRELOAD
+	forcedos W:\nt\private\rpc\import\msvc15\bin\mapsym rpc16C6.map
+Microsoft (R) Symbol File Generator  Version 4.11
+Copyright (C) Microsoft Corp 1984-1988.  All rights reserved.
+
+	Program entry point at 0002:0000
+	copy rpc16c6.dll W:\nt\private\rpc\runtime\bin\win\rpc16c6.dll
+        1 file(s) copied.
+	copy rpc16c6.map W:\nt\private\rpc\runtime\bin\win\rpc16c6.map
+        1 file(s) copied.
+	copy rpc16c6.sym W:\nt\private\rpc\runtime\bin\win\rpc16c6.sym
+        1 file(s) copied.
+	copy ..\dos\ipxclnt.c .
+        1 file(s) copied.
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -ALw -Foipxclnt.obj -c ipxclnt.c
+ipxclnt.c
+ipxclnt.c(1173) : warning C4113: '=' differs in parameter lists from 'unsigned short (__far __pascal *)(void)'
+	del ipxclnt.c
+	set INCLUDE=W:\nt\private\rpc\import\msvc15\include
+	W:\nt\private\rpc\import\msvc15\bin\rc   -dRPC16DG6 -fo"RPC16DG6.res" -r rpcwinlt.rc
+Microsoft (R) Windows Resource Compiler Version 3.11
+Copyright (C) Microsoft Corp. 1985-1992. All rights reserved.
+
+	W:\nt\private\rpc\import\msvc15\bin\link  /nol/nod/noe/map/ba ipxclnt+gethost+novell+ltstart,rpc16dg6.dll,rpc16dg6.map, W:\nt\private\rpc\import\msvc15\lib\ldllcew+W:\nt\private\rpc\import\msvc15\lib\libw, ipxltc.def;
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo rpc16dg6.res rpc16dg6.dll
+RC: warning RW4002: Non-discardable segment 4 set to PRELOAD
+	forcedos W:\nt\private\rpc\import\msvc15\bin\mapsym rpc16dg6.map
+Microsoft (R) Symbol File Generator  Version 4.11
+Copyright (C) Microsoft Corp 1984-1988.  All rights reserved.
+
+	Program entry point at 0002:0000
+	copy rpc16dg6.dll W:\nt\private\rpc\runtime\bin\win\rpc16dg6.dll
+        1 file(s) copied.
+	copy rpc16dg6.map W:\nt\private\rpc\runtime\bin\win\rpc16dg6.map
+        1 file(s) copied.
+	copy rpc16dg6.sym W:\nt\private\rpc\runtime\bin\win\rpc16dg6.sym
+        1 file(s) copied.
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fonetapi.obj -c netapi.c
+netapi.c
+	W:\nt\private\rpc\import\msvc15\bin\link  /nol/nod/noe/map/ba netapi.obj+ltstart.obj,netapi.dll,netapi.map, W:\nt\private\rpc\import\msvc15\lib\sdllcew W:\nt\private\rpc\import\msvc15\lib\libw, netapi.def;
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo netapi.dll
+RC: warning RW4002: Non-discardable segment 1 set to PRELOAD
+	copy netapi.dll W:\nt\private\rpc\runtime\bin\win\netapi.dll
+        1 file(s) copied.
+	set PATH=
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd locator   && (nmake -nologo -   || exit)  && cd .. ) 
+	for %i in (client) do (cd %i && (nmake -nologo -L               || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\locator>(cd client   && (nmake -nologo -L   || exit  )  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo -L               || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\locator\client>(cd WIN   && (nmake -nologo -L   || exit  )  && cd .. ) 
+	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	midl  -Zp2 -env win16 -DDOS -DWIN -I.. -cpp_cmd W:\nt\private\rpc\import\msvc15\bin\cl -c_ext -ms_ext -oldnames -I..\.. ..\..\nsicom.idl  -header nsicom.h -client none -server none
+Microsoft (R) MIDL Compiler Version 3.00.44  
+Copyright (c) Microsoft Corp 1991-1995. All rights reserved.
+Processing ..\..\nsicom.idl
+Processing ..\..\nsicom.acf
+	midl  -Zp2 -env win16 -DDOS -DWIN -I.. -cpp_cmd W:\nt\private\rpc\import\msvc15\bin\cl -c_ext -ms_ext -oldnames -I..\.. ..\..\nsiclt.idl  -cstub nsiclt_c.c -header nsiclt.h
+Microsoft (R) MIDL Compiler Version 3.00.44  
+Copyright (c) Microsoft Corp 1991-1995. All rights reserved.
+Processing ..\..\nsiclt.idl
+Processing ..\..\nsicom.idl
+Processing ..\..\nsicom.acf
+Processing ..\..\nsiclt.acf
+	midl  -Zp2 -env win16 -DDOS -DWIN -I.. -cpp_cmd W:\nt\private\rpc\import\msvc15\bin\cl -c_ext -ms_ext -oldnames -I..\.. ..\..\nsimgm.idl  -cstub nsimgm_c.c -header nsimgm.h
+Microsoft (R) MIDL Compiler Version 3.00.44  
+Copyright (c) Microsoft Corp 1991-1995. All rights reserved.
+Processing ..\..\nsimgm.idl
+Processing ..\..\nsicom.idl
+Processing ..\..\nsicom.acf
+Processing ..\..\nsimgm.acf
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\.. -IW:\nt\private\rpc\common\include -I\h -I..\..\..\runtime\rpcreg -IW:\nt\private\rpc\import\lmsdk\h  -DDOS -DWIN -ALw -Fonsiclnt.obj -c ..\nsiclnt.cxx
+..\nsiclnt.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\.. -IW:\nt\private\rpc\common\include -I\h -I..\..\..\runtime\rpcreg -IW:\nt\private\rpc\import\lmsdk\h  -DDOS -DWIN -ALw -Fonsimgmt.obj -c ..\nsimgmt.cxx
+..\nsimgmt.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\.. -IW:\nt\private\rpc\common\include -I\h -I..\..\..\runtime\rpcreg -IW:\nt\private\rpc\import\lmsdk\h  -DDOS -DWIN -ALw -Fonsiclt_c.obj -c nsiclt_c.c
+nsiclt_c.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\.. -IW:\nt\private\rpc\common\include -I\h -I..\..\..\runtime\rpcreg -IW:\nt\private\rpc\import\lmsdk\h  -DDOS -DWIN -ALw -Fonsimgm_c.obj -c nsimgm_c.c
+nsimgm_c.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\.. -IW:\nt\private\rpc\common\include -I\h -I..\..\..\runtime\rpcreg -IW:\nt\private\rpc\import\lmsdk\h  -DDOS -DWIN -ALw -Focbind.obj -c ..\cbind.cxx
+..\cbind.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\.. -IW:\nt\private\rpc\common\include -I\h -I..\..\..\runtime\rpcreg -IW:\nt\private\rpc\import\lmsdk\h  -DDOS -DWIN -ALw -Foutil.obj -c ..\util.cxx
+..\util.cxx
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\.. -IW:\nt\private\rpc\common\include -I\h -I..\..\..\runtime\rpcreg -IW:\nt\private\rpc\import\lmsdk\h  -DDOS -DWIN -ALw -Fomem.obj -c ..\mem.c
+..\mem.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\.. -IW:\nt\private\rpc\common\include -I\h -I..\..\..\runtime\rpcreg -IW:\nt\private\rpc\import\lmsdk\h  -DDOS -DWIN -ALw -Foautohand.obj -c ..\autohand.cxx
+..\autohand.cxx
+	W:\nt\private\rpc\import\masm\bin\ml  -c start.asm
+Microsoft (R) Macro Assembler Version 6.11d
+Copyright (C) Microsoft Corp 1981-1995.  All rights reserved.
+
+ Assembling: start.asm
+	set INCLUDE=W:\nt\private\rpc\import\msvc15\include
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo -IW:\nt\private\rpc\runtime\mtrt\win -r rpcns1.rc
+	W:\nt\private\rpc\import\msvc15\bin\link  /nol/nod/noe/map/ba /packcode /farcall nsiclnt.obj+nsimgmt.obj+nsiclt_c.obj+nsimgm_c.obj+cbind.obj+util.obj+mem.obj+++ autohand.obj+start.obj,rpcns1.dll,rpcns1.map,W:\nt\private\rpc\import\msvc15\lib\ldllcew+W:\nt\private\rpc\import\msvc15\lib\libw+W:\nt\private\rpc\runtime\bin\win\rpcraw+W:\nt\private\rpc\common\lib\wnetapi,rpcns.def;
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo -IW:\nt\private\rpc\runtime\mtrt\win rpcns1.res rpcns1.dll
+RC: warning RW4002: Entry point segment 1 set to PRELOAD
+RC: warning RW4002: Non-discardable segment 2 set to PRELOAD
+	forcedos W:\nt\private\rpc\import\msvc15\bin\mapsym rpcns1.map
+Microsoft (R) Symbol File Generator  Version 4.11
+Copyright (C) Microsoft Corp 1984-1988.  All rights reserved.
+
+	Program entry point at 0001:0000
+	copy rpcns1.dll W:\nt\private\rpc\runtime\bin\win\rpcns1.dll
+        1 file(s) copied.
+	copy rpcns1.map W:\nt\private\rpc\runtime\bin\win\rpcns1.map
+        1 file(s) copied.
+	copy rpcns1.sym W:\nt\private\rpc\runtime\bin\win\rpcns1.sym
+        1 file(s) copied.
+	set PATH=
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd uuidgen   && (nmake -nologo -   || exit)  && cd .. ) 
+	for %i in (dos) do (cd %i && (nmake -nologo -L               || exit)  && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\uuidgen>(cd dos   && (nmake -nologo -L   || exit)  && cd .. ) 
+	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -ALw -Zpe -W2 -O1 -Ob1 -Gsy2  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\dos -IW:\nt\public\sdk\inc  -DDOS -DUNALIGNED= -Fouuidgen.obj -c ..\uuidgen.c
+..\uuidgen.c
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -ALw -Zpe -W2 -O1 -Ob1 -Gsy2  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\dos -IW:\nt\public\sdk\inc  -DDOS -DUNALIGNED= -Fouuidfmt.obj -c ..\uuidfmt.c
+..\uuidfmt.c
+	W:\nt\private\rpc\import\msvc15\bin\link  /nologo /nod /map /batch /stack:4000 /pm:vio uuidgen+uuidfmt,,, W:\nt\private\rpc\runtime\bin\dos\rpc+W:\nt\private\rpc\ndrmem\dos\rpcndr+W:\nt\private\rpc\import\msvc15\lib\llibce.lib;
+	set PATH=
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd midl20   && (nmake -nologo -   || exit)  && cd .. ) 
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd install   && (nmake -nologo -   || exit)  && cd .. ) 
+	for %i in (win sdk) do (cd %i && (nmake -nologo -L               all || exit)  && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\install>(cd win   && (nmake -nologo -L all   || exit)  && cd .. ) 
+	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -Gw -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -AM -Fodlgprocs.obj -c dlgprocs.c
+dlgprocs.c
+	set INCLUDE=W:\nt\private\rpc\import\msvc15\include
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo -r dialogs2.rc
+	W:\nt\private\rpc\import\msvc15\bin\link  /nol/nod/noe/map/ba dlgprocs.obj,mscuistf.dll,mscuistf.map, W:\nt\private\rpc\import\msvc15\lib\mdllcew+W:\nt\private\rpc\import\msvc15\lib\libw+mscomstf+msuilstf+msshlstf, mscuistf.def
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo dialogs2.res mscuistf.dll
+
+(RPC Free 16bit) W:\nt\private\rpc\install>(cd sdk   && (nmake -nologo -L all   || exit)  && cd .. ) 
+A subdirectory or file W:\nt\public\sdk\rpc16\dos already exists.
+A subdirectory or file W:\nt\public\sdk\rpc16\dos\bin already exists.
+A subdirectory or file W:\nt\public\sdk\rpc16\dos\dll already exists.
+A subdirectory or file W:\nt\public\sdk\rpc16\dos\lib already exists.
+A subdirectory or file W:\nt\public\sdk\rpc16\dos\inc already exists.
+A subdirectory or file W:\nt\public\sdk\rpc16\win already exists.
+A subdirectory or file W:\nt\public\sdk\rpc16\win\dll already exists.
+A subdirectory or file W:\nt\public\sdk\rpc16\win\lib already exists.
+A subdirectory or file W:\nt\public\sdk\rpc16\win\inc already exists.
+A subdirectory or file W:\nt\public\sdk\rpc16\mac already exists.
+A subdirectory or file W:\nt\public\sdk\rpc16\mac\lib already exists.
+A subdirectory or file W:\nt\public\sdk\rpc16\mac\inc already exists.
+A subdirectory or file W:\nt\public\sdk\rpc16\mppc already exists.
+A subdirectory or file W:\nt\public\sdk\rpc16\mppc\lib already exists.
+A subdirectory or file W:\nt\public\sdk\rpc16\mppc\inc already exists.
+A subdirectory or file W:\nt\public\sdk\rpc16\mppc\dll already exists.
+A subdirectory or file W:\nt\public\sdk\rpc16\ct already exists.
+	for %i in (ndrlib ndr20 ndrmem runtime locator uuidgen midl20 install) do (cd %i && (nmake -nologo -               tree || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd ndrlib   && (nmake -nologo - tree   || exit  )  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo -L              tree || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\ndrlib>(cd WIN   && (nmake -nologo -L tree   || exit  )  && cd .. ) 
+No Publics Built Here
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd ndr20   && (nmake -nologo - tree   || exit  )  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo -L              tree || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\ndr20>(cd WIN   && (nmake -nologo -L tree   || exit  )  && cd .. ) 
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd ndrmem   && (nmake -nologo - tree   || exit  )  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo -L              tree || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\ndrmem>(cd WIN   && (nmake -nologo -L tree   || exit  )  && cd .. ) 
+	copy RpcNdr.lib W:\nt\public\sdk\rpc16\Win\lib
+        1 file(s) copied.
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd runtime   && (nmake -nologo - tree   || exit  )  && cd .. ) 
+	for %i in (rpcreg rtifs security mtrt) do (cd %i && (nmake -nologo -L               tree || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime>(cd rpcreg   && (nmake -nologo -L tree   || exit  )  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo -L               tree || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\rpcreg>(cd WIN   && (nmake -nologo -L tree   || exit  )  && cd .. ) 
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime>(cd rtifs   && (nmake -nologo -L tree   || exit  )  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo -L               tree || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\rtifs>(cd WIN   && (nmake -nologo -L tree   || exit  )  && cd .. ) 
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime>(cd security   && (nmake -nologo -L tree   || exit  )  && cd .. ) 
+	for %i in (ntlmssp win) do (cd %i && (nmake -nologo -L               tree || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\security>(cd ntlmssp   && (nmake -nologo -L tree   || exit  )  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo -L               tree || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\security\ntlmssp>(cd WIN   && (nmake -nologo -L tree   || exit  )  && cd .. ) 
+	copy W:\nt\private\rpc\runtime\bin\win\security.dll W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\security.map W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\security.sym W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\security>(cd win   && (nmake -nologo -L tree   || exit  )  && cd .. ) 
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime>(cd mtrt   && (nmake -nologo -L tree   || exit  )  && cd .. ) 
+	for %f in (Win Dos Mac Mppc) do  copy W:\nt\public\sdk\inc\rpcdce.h W:\nt\public\sdk\rpc16\%f\inc &  copy W:\nt\public\sdk\inc\rpcdcep.h W:\nt\public\sdk\rpc16\%f\inc &  copy rpcerr.h W:\nt\public\sdk\rpc16\%f\inc &  copy W:\nt\public\sdk\inc\rpcndr.h W:\nt\public\sdk\rpc16\%f\inc &  copy W:\nt\public\sdk\inc\midles.h W:\nt\public\sdk\rpc16\%f\inc &  copy rpcx86.h W:\nt\public\sdk\rpc16\%f\inc &  copy W:\nt\public\sdk\inc\rpcnsi.h W:\nt\public\sdk\rpc16\%f\inc &  copy W:\nt\public\sdk\inc\rpcnsip.h W:\nt\public\sdk\rpc16\%f\inc
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\mtrt>copy W:\nt\public\sdk\inc\rpcdce.h W:\nt\public\sdk\rpc16\Win\inc   & copy W:\nt\public\sdk\inc\rpcdcep.h W:\nt\public\sdk\rpc16\Win\inc   & copy rpcerr.h W:\nt\public\sdk\rpc16\Win\inc   & copy W:\nt\public\sdk\inc\rpcndr.h W:\nt\public\sdk\rpc16\Win\inc   & copy W:\nt\public\sdk\inc\midles.h W:\nt\public\sdk\rpc16\Win\inc   & copy rpcx86.h W:\nt\public\sdk\rpc16\Win\inc   & copy W:\nt\public\sdk\inc\rpcnsi.h W:\nt\public\sdk\rpc16\Win\inc   & copy W:\nt\public\sdk\inc\rpcnsip.h W:\nt\public\sdk\rpc16\Win\inc 
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\mtrt>copy W:\nt\public\sdk\inc\rpcdce.h W:\nt\public\sdk\rpc16\Dos\inc   & copy W:\nt\public\sdk\inc\rpcdcep.h W:\nt\public\sdk\rpc16\Dos\inc   & copy rpcerr.h W:\nt\public\sdk\rpc16\Dos\inc   & copy W:\nt\public\sdk\inc\rpcndr.h W:\nt\public\sdk\rpc16\Dos\inc   & copy W:\nt\public\sdk\inc\midles.h W:\nt\public\sdk\rpc16\Dos\inc   & copy rpcx86.h W:\nt\public\sdk\rpc16\Dos\inc   & copy W:\nt\public\sdk\inc\rpcnsi.h W:\nt\public\sdk\rpc16\Dos\inc   & copy W:\nt\public\sdk\inc\rpcnsip.h W:\nt\public\sdk\rpc16\Dos\inc 
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\mtrt>copy W:\nt\public\sdk\inc\rpcdce.h W:\nt\public\sdk\rpc16\Mac\inc   & copy W:\nt\public\sdk\inc\rpcdcep.h W:\nt\public\sdk\rpc16\Mac\inc   & copy rpcerr.h W:\nt\public\sdk\rpc16\Mac\inc   & copy W:\nt\public\sdk\inc\rpcndr.h W:\nt\public\sdk\rpc16\Mac\inc   & copy W:\nt\public\sdk\inc\midles.h W:\nt\public\sdk\rpc16\Mac\inc   & copy rpcx86.h W:\nt\public\sdk\rpc16\Mac\inc   & copy W:\nt\public\sdk\inc\rpcnsi.h W:\nt\public\sdk\rpc16\Mac\inc   & copy W:\nt\public\sdk\inc\rpcnsip.h W:\nt\public\sdk\rpc16\Mac\inc 
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\mtrt>copy W:\nt\public\sdk\inc\rpcdce.h W:\nt\public\sdk\rpc16\Mppc\inc   & copy W:\nt\public\sdk\inc\rpcdcep.h W:\nt\public\sdk\rpc16\Mppc\inc   & copy rpcerr.h W:\nt\public\sdk\rpc16\Mppc\inc   & copy W:\nt\public\sdk\inc\rpcndr.h W:\nt\public\sdk\rpc16\Mppc\inc   & copy W:\nt\public\sdk\inc\midles.h W:\nt\public\sdk\rpc16\Mppc\inc   & copy rpcx86.h W:\nt\public\sdk\rpc16\Mppc\inc   & copy W:\nt\public\sdk\inc\rpcnsi.h W:\nt\public\sdk\rpc16\Mppc\inc   & copy W:\nt\public\sdk\inc\rpcnsip.h W:\nt\public\sdk\rpc16\Mppc\inc 
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+	for %i in (WIN) do (cd %i && (nmake -nologo -L               tree || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\runtime\mtrt>(cd WIN   && (nmake -nologo -L tree   || exit  )  && cd .. ) 
+	copy Rpc.h                      W:\nt\public\sdk\rpc16\win\inc\Rpc.h
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\Rpc.lib           W:\nt\public\sdk\rpc16\win\lib
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpcrt1.dll        W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16C1.dll       W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16C3.dll       W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16dg3.dll      W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16C5.dll       W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpcrt1.map       W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16C1.map      W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16C3.map      W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16dg3.map     W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16C4.map      W:\nt\public\sdk\rpc16\win\dll
+The system cannot find the file specified.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16C5.map      W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpcrt1.sym       W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16C1.sym      W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16C3.sym      W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16dg3.sym     W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16C4.sym      W:\nt\public\sdk\rpc16\win\dll
+The system cannot find the file specified.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16C5.sym      W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16C6.dll       W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16dg6.dll      W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16C6.map      W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16dg6.map     W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16C6.sym      W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16c8.map      W:\nt\public\sdk\rpc16\win\dll
+The system cannot find the file specified.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16c8.sym      W:\nt\public\sdk\rpc16\win\dll
+The system cannot find the file specified.
+	copy W:\nt\private\rpc\runtime\bin\win\rpc16dg6.sym     W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\netapi.dll        W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy stdio\sStdioW.lib                  W:\nt\public\sdk\rpc16\win\lib
+        1 file(s) copied.
+	copy stdio\lStdioW.lib                  W:\nt\public\sdk\rpc16\win\lib
+        1 file(s) copied.
+	copy stdio\WinMain.def                  W:\nt\public\sdk\rpc16\win\lib
+        1 file(s) copied.
+	copy stdio\WinMain.res                  W:\nt\public\sdk\rpc16\win\lib
+        1 file(s) copied.
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd locator   && (nmake -nologo - tree   || exit  )  && cd .. ) 
+	for %i in (client) do (cd %i && (nmake -nologo -L               tree || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\locator>(cd client   && (nmake -nologo -L tree   || exit  )  && cd .. ) 
+	for %i in (WIN) do (cd %i && (nmake -nologo -L               tree || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\locator\client>(cd WIN   && (nmake -nologo -L tree   || exit  )  && cd .. ) 
+	copy W:\nt\private\rpc\runtime\bin\win\RpcNs1.dll        W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\RpcNs1.map        W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+	copy W:\nt\private\rpc\runtime\bin\win\RpcNs1.sym        W:\nt\public\sdk\rpc16\win\dll
+        1 file(s) copied.
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd uuidgen   && (nmake -nologo - tree   || exit  )  && cd .. ) 
+	for %i in (dos) do (cd %i && (nmake -nologo -L              tree || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\uuidgen>(cd dos   && (nmake -nologo -L tree   || exit  )  && cd .. ) 
+	copy uuidgen.exe W:\nt\public\sdk\rpc16\dos\bin
+        1 file(s) copied.
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd midl20   && (nmake -nologo - tree   || exit  )  && cd .. ) 
+	copy include\errors.hxx W:\nt\public\sdk\rpc16\ct
+        1 file(s) copied.
+	copy include\errdb.h    W:\nt\public\sdk\rpc16\ct
+        1 file(s) copied.
+
+(RPC Free 16bit) W:\nt\private\rpc>(cd install   && (nmake -nologo - tree   || exit  )  && cd .. ) 
+	for %i in (win sdk) do (cd %i && (nmake -nologo -L              tree || exit ) && cd ..)
+
+(RPC Free 16bit) W:\nt\private\rpc\install>(cd win   && (nmake -nologo -L tree   || exit  )  && cd .. ) 
+
+(RPC Free 16bit) W:\nt\private\rpc\install>(cd sdk   && (nmake -nologo -L tree   || exit  )  && cd .. ) 
+	delnode /q stage
+	md stage
+	copy ..\win\rpcsdk.mst            stage
+        1 file(s) copied.
+	copy ..\win\rpcsdk.lyt            stage
+        1 file(s) copied.
+	copy ..\win\*.dll                 stage
+..\win\dnetapi.dll
+..\win\mscomstf.dll
+..\win\MSCUISTF.DLL
+..\win\msdetstf.dll
+..\win\msinsstf.dll
+..\win\msshlstf.dll
+..\win\msuilstf.dll
+        7 file(s) copied.
+	copy ..\win\*.exe                 stage
+..\win\setup.exe
+..\win\_mstest.exe
+        2 file(s) copied.
+	copy ..\win\setup.lst             stage
+        1 file(s) copied.
+	copy ..\win\setupapi.inc          stage
+        1 file(s) copied.
+	copy ..\win\msdetect.inc          stage
+        1 file(s) copied.
+	copy ..\win\readme.txt            stage
+        1 file(s) copied.
+	copy ..\win\setuprun.lst          stage
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\dos\inc\rpc.h        stage\drpc.h
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\dos\inc\rpcdce.h     stage
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\dos\inc\rpcdcep.h    stage
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\dos\inc\rpcerr.h     stage
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\dos\inc\rpcndr.h     stage
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\dos\inc\rpcnsi.h     stage
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\dos\inc\rpcnsip.h    stage
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\dos\inc\rpcx86.h     stage
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\dos\inc\midles.h     stage
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\dos\dll\rpc16c?.rpc  stage
+W:\nt\public\sdk\rpc16\dos\dll\rpc16c1.rpc
+W:\nt\public\sdk\rpc16\dos\dll\rpc16c3.rpc
+W:\nt\public\sdk\rpc16\dos\dll\rpc16c4.rpc
+W:\nt\public\sdk\rpc16\dos\dll\rpc16c5.rpc
+W:\nt\public\sdk\rpc16\dos\dll\rpc16c6.rpc
+        5 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\dos\dll\rpc16dg?.rpc stage
+W:\nt\public\sdk\rpc16\dos\dll\rpc16dg3.rpc
+W:\nt\public\sdk\rpc16\dos\dll\rpc16dg6.rpc
+        2 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\dos\dll\rpcns.rpc    stage
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\dos\dll\rpcnslm.rpc  stage
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\dos\dll\rpcnsmgm.rpc stage
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\dos\dll\security.rpc stage
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\dos\bin\uuidgen.exe  stage
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\dos\lib\rpc.lib      stage\drpc.lib
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\dos\lib\rpcndr.lib   stage\drpcndr.lib
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\win\inc\rpc.h        stage\wrpc.h
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\win\lib\rpc.lib      stage\wrpc.lib
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\win\lib\rpcndr.lib   stage\wrpcndr.lib
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\mac\inc\rpc.h        stage\mrpc.h
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\mac\inc\rpcmac.h     stage
+        1 file(s) copied.
+	copy W:\nt\public\sdk\rpc16\mac\lib\rpc.lib      stage\mrpc.lib
+        1 file(s) copied.
+	delnode /q sdk.new
+	cd stage
+	..\dsklayt2 rpcsdk.lyt rpcsdk.inf /k12 /f /d ..\sdk.new /v /w 1 /c .\comp
+Reading layout file
+Starting layout: 10/09/19 01:22:01
+Compressing files
+Compressing file .\dnetapi.dll
+System command: compress.exe \2 \3 > NUL
+Compressing file .\drpc.h
+System command: compress.exe \2 \3 > NUL
+Compressing file .\drpc.lib
+System command: compress.exe \2 \3 > NUL
+Compressing file .\drpcndr.lib
+System command: compress.exe \2 \3 > NUL
+Compressing file .\uuidgen.exe
+System command: compress.exe \2 \3 > NUL
+Compressing file .\mscuistf.dll
+System command: compress.exe \2 \3 > NUL
+Compressing file .\rpcdce.h
+System command: compress.exe \2 \3 > NUL
+Compressing file .\rpcdcep.h
+System command: compress.exe \2 \3 > NUL
+Compressing file .\rpcerr.h
+System command: compress.exe \2 \3 > NUL
+Compressing file .\midles.h
+System command: compress.exe \2 \3 > NUL
+Compressing file .\rpcndr.h
+System command: compress.exe \2 \3 > NUL
+Compressing file .\rpcnsi.h
+System command: compress.exe \2 \3 > NUL
+Compressing file .\rpcnsip.h
+System command: compress.exe \2 \3 > NUL
+Compressing file .\rpcx86.h
+System command: compress.exe \2 \3 > NUL
+Compressing file .\wrpc.h
+System command: compress.exe \2 \3 > NUL
+Compressing file .\wrpc.lib
+System command: compress.exe \2 \3 > NUL
+Compressing file .\wrpcndr.lib
+System command: compress.exe \2 \3 > NUL
+Compressing file .\mrpc.h
+System command: compress.exe \2 \3 > NUL
+Compressing file .\rpcmac.h
+System command: compress.exe \2 \3 > NUL
+Compressing file .\mrpc.lib
+System command: compress.exe \2 \3 > NUL
+Laying out files
+Laying out readme.txt
+Laying out _mstest.exe
+Assigning _mstest.exe to disk with ID = 1
+Laying out mscomstf.dll
+Assigning mscomstf.dll to disk with ID = 1
+Laying out mscuistf.dll
+Assigning mscuistf.dll to disk with ID = 1
+Laying out msdetect.inc
+Assigning msdetect.inc to disk with ID = 1
+Laying out msdetstf.dll
+Assigning msdetstf.dll to disk with ID = 1
+Laying out msinsstf.dll
+Assigning msinsstf.dll to disk with ID = 1
+Laying out msshlstf.dll
+Assigning msshlstf.dll to disk with ID = 1
+Laying out msuilstf.dll
+Assigning msuilstf.dll to disk with ID = 1
+Laying out rpcsdk.mst
+Assigning rpcsdk.mst to disk with ID = 1
+Laying out setup.exe
+Assigning setup.exe to disk with ID = 1
+Laying out setup.lst
+Assigning setup.lst to disk with ID = 1
+Laying out setupapi.inc
+Assigning setupapi.inc to disk with ID = 1
+Laying out setuprun.lst
+Assigning setuprun.lst to disk with ID = 1
+Laying out uuidgen.exe
+Laying out rpcerr.h
+Laying out drpc.h
+Laying out drpc.lib
+Laying out drpcndr.lib
+Laying out dnetapi.dll
+Assigning dnetapi.dll to disk with ID = 1
+Laying out rpcdce.h
+Laying out rpcdcep.h
+Laying out midles.h
+Laying out rpcndr.h
+Laying out rpcnsi.h
+Laying out rpcnsip.h
+Laying out rpcx86.h
+Laying out mrpc.h
+Laying out rpcmac.h
+Laying out mrpc.lib
+Laying out wrpc.h
+Laying out wrpc.lib
+Laying out wrpcndr.lib
+System command: compress.exe dummy.___ \3 > NUL
+Compressed dummy INF file size is 905
+Assigning drpcndr.lib to disk with ID = 1
+Assigning drpc.lib to disk with ID = 1
+Assigning mrpc.lib to disk with ID = 1
+Assigning uuidgen.exe to disk with ID = 1
+Assigning rpcnsip.h to disk with ID = 1
+Assigning rpcx86.h to disk with ID = 1
+Assigning midles.h to disk with ID = 1
+Assigning rpcnsi.h to disk with ID = 1
+Assigning rpcdcep.h to disk with ID = 1
+Assigning rpcdce.h to disk with ID = 1
+Assigning rpcndr.h to disk with ID = 1
+Assigning wrpcndr.lib to disk with ID = 1
+Assigning wrpc.lib to disk with ID = 1
+Assigning readme.txt to disk with ID = 1
+Assigning rpcerr.h to disk with ID = 1
+Assigning mrpc.h to disk with ID = 1
+Assigning rpcmac.h to disk with ID = 1
+Assigning drpc.h to disk with ID = 1
+Assigning wrpc.h to disk with ID = 1
+Creating destination files
+System command: compress.exe rpcsdk.inf ..\sdk.new\disk1\rpcsdk.in_ > NUL
+Ending layout: 10/09/19 01:22:05
+	cd ..
+	md W:\nt\public\sdk\rpc16\sdk
+A subdirectory or file W:\nt\public\sdk\rpc16\sdk already exists.
+	xcopy /y /s sdk.new\disk1 W:\nt\public\sdk\rpc16\sdk
+sdk.new\disk1\DNETAPI.DL_
+sdk.new\disk1\DRPC.H_
+sdk.new\disk1\DRPC.LI_
+sdk.new\disk1\DRPCNDR.LI_
+sdk.new\disk1\MIDLES.H_
+sdk.new\disk1\MRPC.H_
+sdk.new\disk1\MRPC.LI_
+sdk.new\disk1\MSCOMSTF.DLL
+sdk.new\disk1\MSCUISTF.DL_
+sdk.new\disk1\MSDETECT.INC
+sdk.new\disk1\MSDETSTF.DLL
+sdk.new\disk1\MSINSSTF.DLL
+sdk.new\disk1\MSSHLSTF.DLL
+sdk.new\disk1\MSUILSTF.DLL
+sdk.new\disk1\README.TXT
+sdk.new\disk1\RPCDCE.H_
+sdk.new\disk1\RPCDCEP.H_
+sdk.new\disk1\RPCERR.H_
+sdk.new\disk1\RPCMAC.H_
+sdk.new\disk1\RPCNDR.H_
+sdk.new\disk1\RPCNSI.H_
+sdk.new\disk1\RPCNSIP.H_
+sdk.new\disk1\rpcsdk.in_
+sdk.new\disk1\RPCSDK.MST
+sdk.new\disk1\RPCX86.H_
+sdk.new\disk1\SETUP.EXE
+sdk.new\disk1\SETUP.LST
+sdk.new\disk1\SETUPAPI.INC
+sdk.new\disk1\SETUPRUN.LST
+sdk.new\disk1\UUIDGEN.EX_
+sdk.new\disk1\WRPC.H_
+sdk.new\disk1\WRPC.LI_
+sdk.new\disk1\WRPCNDR.LI_
+sdk.new\disk1\_MSTEST.EXE
+34 File(s) copied

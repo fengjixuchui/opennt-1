@@ -1,0 +1,60 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\restore.res \
+    $(_OBJ_DIR)\alpha\exit.obj \
+    $(_OBJ_DIR)\alpha\filecopy.obj \
+    $(_OBJ_DIR)\alpha\generic.obj \
+    $(_OBJ_DIR)\alpha\match.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\msg.obj \
+    $(_OBJ_DIR)\alpha\new.obj \
+    $(_OBJ_DIR)\alpha\old.obj \
+    $(_OBJ_DIR)\alpha\parse.obj \
+    $(_OBJ_DIR)\alpha\mbcs.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\restore.res \
+    $(_OBJ_DIR)\mips\exit.obj \
+    $(_OBJ_DIR)\mips\filecopy.obj \
+    $(_OBJ_DIR)\mips\generic.obj \
+    $(_OBJ_DIR)\mips\match.obj \
+    $(_OBJ_DIR)\mips\misc.obj \
+    $(_OBJ_DIR)\mips\msg.obj \
+    $(_OBJ_DIR)\mips\new.obj \
+    $(_OBJ_DIR)\mips\old.obj \
+    $(_OBJ_DIR)\mips\parse.obj \
+    $(_OBJ_DIR)\mips\mbcs.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\restore.res \
+    $(_OBJ_DIR)\i386\exit.obj \
+    $(_OBJ_DIR)\i386\filecopy.obj \
+    $(_OBJ_DIR)\i386\generic.obj \
+    $(_OBJ_DIR)\i386\match.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\msg.obj \
+    $(_OBJ_DIR)\i386\new.obj \
+    $(_OBJ_DIR)\i386\old.obj \
+    $(_OBJ_DIR)\i386\parse.obj \
+    $(_OBJ_DIR)\i386\mbcs.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\restore.res \
+    $(_OBJ_DIR)\ppc\exit.obj \
+    $(_OBJ_DIR)\ppc\filecopy.obj \
+    $(_OBJ_DIR)\ppc\generic.obj \
+    $(_OBJ_DIR)\ppc\match.obj \
+    $(_OBJ_DIR)\ppc\misc.obj \
+    $(_OBJ_DIR)\ppc\msg.obj \
+    $(_OBJ_DIR)\ppc\new.obj \
+    $(_OBJ_DIR)\ppc\old.obj \
+    $(_OBJ_DIR)\ppc\parse.obj \
+    $(_OBJ_DIR)\ppc\mbcs.obj
+
+PASS0_PPC_OBJECTS=
+

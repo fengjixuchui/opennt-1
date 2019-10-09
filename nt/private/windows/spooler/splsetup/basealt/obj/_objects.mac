@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\splsetup.res \
+    $(_OBJ_DIR)\alpha\billbrd.obj \
+    $(_OBJ_DIR)\alpha\ntprint.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\utildi.obj \
+    $(_OBJ_DIR)\alpha\win95.obj \
+    $(_OBJ_DIR)\alpha\monitor.obj \
+    $(_OBJ_DIR)\alpha\upgrade.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\splsetup.res \
+    $(_OBJ_DIR)\mips\billbrd.obj \
+    $(_OBJ_DIR)\mips\ntprint.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\utildi.obj \
+    $(_OBJ_DIR)\mips\win95.obj \
+    $(_OBJ_DIR)\mips\monitor.obj \
+    $(_OBJ_DIR)\mips\upgrade.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\splsetup.res \
+    $(_OBJ_DIR)\i386\billbrd.obj \
+    $(_OBJ_DIR)\i386\ntprint.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\utildi.obj \
+    $(_OBJ_DIR)\i386\win95.obj \
+    $(_OBJ_DIR)\i386\monitor.obj \
+    $(_OBJ_DIR)\i386\upgrade.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\splsetup.res \
+    $(_OBJ_DIR)\ppc\billbrd.obj \
+    $(_OBJ_DIR)\ppc\ntprint.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\utildi.obj \
+    $(_OBJ_DIR)\ppc\win95.obj \
+    $(_OBJ_DIR)\ppc\monitor.obj \
+    $(_OBJ_DIR)\ppc\upgrade.obj
+
+PASS0_PPC_OBJECTS=
+

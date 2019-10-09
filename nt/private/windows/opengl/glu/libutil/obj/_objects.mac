@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\error.obj \
+    $(_OBJ_DIR)\alpha\mipmap.obj \
+    $(_OBJ_DIR)\alpha\project.obj \
+    $(_OBJ_DIR)\alpha\quad.obj \
+    $(_OBJ_DIR)\alpha\registry.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\error.obj \
+    $(_OBJ_DIR)\mips\mipmap.obj \
+    $(_OBJ_DIR)\mips\project.obj \
+    $(_OBJ_DIR)\mips\quad.obj \
+    $(_OBJ_DIR)\mips\registry.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\mipmap.obj \
+    $(_OBJ_DIR)\i386\project.obj \
+    $(_OBJ_DIR)\i386\quad.obj \
+    $(_OBJ_DIR)\i386\registry.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\error.obj \
+    $(_OBJ_DIR)\ppc\mipmap.obj \
+    $(_OBJ_DIR)\ppc\project.obj \
+    $(_OBJ_DIR)\ppc\quad.obj \
+    $(_OBJ_DIR)\ppc\registry.obj
+
+PASS0_PPC_OBJECTS=
+

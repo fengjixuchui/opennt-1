@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cufat.res \
+    $(_OBJ_DIR)\alpha\convfat.obj \
+    $(_OBJ_DIR)\alpha\cufat.obj \
+    $(_OBJ_DIR)\alpha\fatntfs.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\cufat.res \
+    $(_OBJ_DIR)\mips\convfat.obj \
+    $(_OBJ_DIR)\mips\cufat.obj \
+    $(_OBJ_DIR)\mips\fatntfs.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cufat.res \
+    $(_OBJ_DIR)\i386\convfat.obj \
+    $(_OBJ_DIR)\i386\cufat.obj \
+    $(_OBJ_DIR)\i386\fatntfs.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\cufat.res \
+    $(_OBJ_DIR)\ppc\convfat.obj \
+    $(_OBJ_DIR)\ppc\cufat.obj \
+    $(_OBJ_DIR)\ppc\fatntfs.obj
+
+PASS0_PPC_OBJECTS=
+

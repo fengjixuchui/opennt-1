@@ -1,0 +1,188 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\tga.res \
+    $(_OBJ_DIR)\alpha\bitblt.obj \
+    $(_OBJ_DIR)\alpha\bltexp1.obj \
+    $(_OBJ_DIR)\alpha\bltexp2.obj \
+    $(_OBJ_DIR)\alpha\bltss1.obj \
+    $(_OBJ_DIR)\alpha\bltss2.obj \
+    $(_OBJ_DIR)\alpha\bltssc1.obj \
+    $(_OBJ_DIR)\alpha\bltssc2.obj \
+    $(_OBJ_DIR)\alpha\blths48.obj \
+    $(_OBJ_DIR)\alpha\blths88.obj \
+    $(_OBJ_DIR)\alpha\blths43.obj \
+    $(_OBJ_DIR)\alpha\blths83.obj \
+    $(_OBJ_DIR)\alpha\blths33.obj \
+    $(_OBJ_DIR)\alpha\bltsh1.obj \
+    $(_OBJ_DIR)\alpha\bltsh2.obj \
+    $(_OBJ_DIR)\alpha\blthsdm1.obj \
+    $(_OBJ_DIR)\alpha\blthsdm2.obj \
+    $(_OBJ_DIR)\alpha\bltshdm1.obj \
+    $(_OBJ_DIR)\alpha\bltshdm2.obj \
+    $(_OBJ_DIR)\alpha\brush.obj \
+    $(_OBJ_DIR)\alpha\color.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\ddisup.obj \
+    $(_OBJ_DIR)\alpha\enable.obj \
+    $(_OBJ_DIR)\alpha\escape.obj \
+    $(_OBJ_DIR)\alpha\fastfill.obj \
+    $(_OBJ_DIR)\alpha\fillpath.obj \
+    $(_OBJ_DIR)\alpha\fillutil.obj \
+    $(_OBJ_DIR)\alpha\glsup.obj \
+    $(_OBJ_DIR)\alpha\offscrn.obj \
+    $(_OBJ_DIR)\alpha\paint.obj \
+    $(_OBJ_DIR)\alpha\palette.obj \
+    $(_OBJ_DIR)\alpha\pattern.obj \
+    $(_OBJ_DIR)\alpha\pointer.obj \
+    $(_OBJ_DIR)\alpha\punt.obj \
+    $(_OBJ_DIR)\alpha\screen.obj \
+    $(_OBJ_DIR)\alpha\stroke.obj \
+    $(_OBJ_DIR)\alpha\support.obj \
+    $(_OBJ_DIR)\alpha\table.obj \
+    $(_OBJ_DIR)\alpha\text.obj \
+    $(_OBJ_DIR)\alpha\tga.obj \
+    $(_OBJ_DIR)\alpha\tgastats.obj \
+    $(_OBJ_DIR)\alpha\wid.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\tga.res \
+    $(_OBJ_DIR)\mips\bitblt.obj \
+    $(_OBJ_DIR)\mips\bltexp1.obj \
+    $(_OBJ_DIR)\mips\bltexp2.obj \
+    $(_OBJ_DIR)\mips\bltss1.obj \
+    $(_OBJ_DIR)\mips\bltss2.obj \
+    $(_OBJ_DIR)\mips\bltssc1.obj \
+    $(_OBJ_DIR)\mips\bltssc2.obj \
+    $(_OBJ_DIR)\mips\blths48.obj \
+    $(_OBJ_DIR)\mips\blths88.obj \
+    $(_OBJ_DIR)\mips\blths43.obj \
+    $(_OBJ_DIR)\mips\blths83.obj \
+    $(_OBJ_DIR)\mips\blths33.obj \
+    $(_OBJ_DIR)\mips\bltsh1.obj \
+    $(_OBJ_DIR)\mips\bltsh2.obj \
+    $(_OBJ_DIR)\mips\blthsdm1.obj \
+    $(_OBJ_DIR)\mips\blthsdm2.obj \
+    $(_OBJ_DIR)\mips\bltshdm1.obj \
+    $(_OBJ_DIR)\mips\bltshdm2.obj \
+    $(_OBJ_DIR)\mips\brush.obj \
+    $(_OBJ_DIR)\mips\color.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\ddisup.obj \
+    $(_OBJ_DIR)\mips\enable.obj \
+    $(_OBJ_DIR)\mips\escape.obj \
+    $(_OBJ_DIR)\mips\fastfill.obj \
+    $(_OBJ_DIR)\mips\fillpath.obj \
+    $(_OBJ_DIR)\mips\fillutil.obj \
+    $(_OBJ_DIR)\mips\glsup.obj \
+    $(_OBJ_DIR)\mips\offscrn.obj \
+    $(_OBJ_DIR)\mips\paint.obj \
+    $(_OBJ_DIR)\mips\palette.obj \
+    $(_OBJ_DIR)\mips\pattern.obj \
+    $(_OBJ_DIR)\mips\pointer.obj \
+    $(_OBJ_DIR)\mips\punt.obj \
+    $(_OBJ_DIR)\mips\screen.obj \
+    $(_OBJ_DIR)\mips\stroke.obj \
+    $(_OBJ_DIR)\mips\support.obj \
+    $(_OBJ_DIR)\mips\table.obj \
+    $(_OBJ_DIR)\mips\text.obj \
+    $(_OBJ_DIR)\mips\tga.obj \
+    $(_OBJ_DIR)\mips\tgastats.obj \
+    $(_OBJ_DIR)\mips\wid.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\tga.res \
+    $(_OBJ_DIR)\i386\bitblt.obj \
+    $(_OBJ_DIR)\i386\bltexp1.obj \
+    $(_OBJ_DIR)\i386\bltexp2.obj \
+    $(_OBJ_DIR)\i386\bltss1.obj \
+    $(_OBJ_DIR)\i386\bltss2.obj \
+    $(_OBJ_DIR)\i386\bltssc1.obj \
+    $(_OBJ_DIR)\i386\bltssc2.obj \
+    $(_OBJ_DIR)\i386\blths48.obj \
+    $(_OBJ_DIR)\i386\blths88.obj \
+    $(_OBJ_DIR)\i386\blths43.obj \
+    $(_OBJ_DIR)\i386\blths83.obj \
+    $(_OBJ_DIR)\i386\blths33.obj \
+    $(_OBJ_DIR)\i386\bltsh1.obj \
+    $(_OBJ_DIR)\i386\bltsh2.obj \
+    $(_OBJ_DIR)\i386\blthsdm1.obj \
+    $(_OBJ_DIR)\i386\blthsdm2.obj \
+    $(_OBJ_DIR)\i386\bltshdm1.obj \
+    $(_OBJ_DIR)\i386\bltshdm2.obj \
+    $(_OBJ_DIR)\i386\brush.obj \
+    $(_OBJ_DIR)\i386\color.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\ddisup.obj \
+    $(_OBJ_DIR)\i386\enable.obj \
+    $(_OBJ_DIR)\i386\escape.obj \
+    $(_OBJ_DIR)\i386\fastfill.obj \
+    $(_OBJ_DIR)\i386\fillpath.obj \
+    $(_OBJ_DIR)\i386\fillutil.obj \
+    $(_OBJ_DIR)\i386\glsup.obj \
+    $(_OBJ_DIR)\i386\offscrn.obj \
+    $(_OBJ_DIR)\i386\paint.obj \
+    $(_OBJ_DIR)\i386\palette.obj \
+    $(_OBJ_DIR)\i386\pattern.obj \
+    $(_OBJ_DIR)\i386\pointer.obj \
+    $(_OBJ_DIR)\i386\punt.obj \
+    $(_OBJ_DIR)\i386\screen.obj \
+    $(_OBJ_DIR)\i386\stroke.obj \
+    $(_OBJ_DIR)\i386\support.obj \
+    $(_OBJ_DIR)\i386\table.obj \
+    $(_OBJ_DIR)\i386\text.obj \
+    $(_OBJ_DIR)\i386\tga.obj \
+    $(_OBJ_DIR)\i386\tgastats.obj \
+    $(_OBJ_DIR)\i386\wid.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\tga.res \
+    $(_OBJ_DIR)\ppc\bitblt.obj \
+    $(_OBJ_DIR)\ppc\bltexp1.obj \
+    $(_OBJ_DIR)\ppc\bltexp2.obj \
+    $(_OBJ_DIR)\ppc\bltss1.obj \
+    $(_OBJ_DIR)\ppc\bltss2.obj \
+    $(_OBJ_DIR)\ppc\bltssc1.obj \
+    $(_OBJ_DIR)\ppc\bltssc2.obj \
+    $(_OBJ_DIR)\ppc\blths48.obj \
+    $(_OBJ_DIR)\ppc\blths88.obj \
+    $(_OBJ_DIR)\ppc\blths43.obj \
+    $(_OBJ_DIR)\ppc\blths83.obj \
+    $(_OBJ_DIR)\ppc\blths33.obj \
+    $(_OBJ_DIR)\ppc\bltsh1.obj \
+    $(_OBJ_DIR)\ppc\bltsh2.obj \
+    $(_OBJ_DIR)\ppc\blthsdm1.obj \
+    $(_OBJ_DIR)\ppc\blthsdm2.obj \
+    $(_OBJ_DIR)\ppc\bltshdm1.obj \
+    $(_OBJ_DIR)\ppc\bltshdm2.obj \
+    $(_OBJ_DIR)\ppc\brush.obj \
+    $(_OBJ_DIR)\ppc\color.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\ddisup.obj \
+    $(_OBJ_DIR)\ppc\enable.obj \
+    $(_OBJ_DIR)\ppc\escape.obj \
+    $(_OBJ_DIR)\ppc\fastfill.obj \
+    $(_OBJ_DIR)\ppc\fillpath.obj \
+    $(_OBJ_DIR)\ppc\fillutil.obj \
+    $(_OBJ_DIR)\ppc\glsup.obj \
+    $(_OBJ_DIR)\ppc\offscrn.obj \
+    $(_OBJ_DIR)\ppc\paint.obj \
+    $(_OBJ_DIR)\ppc\palette.obj \
+    $(_OBJ_DIR)\ppc\pattern.obj \
+    $(_OBJ_DIR)\ppc\pointer.obj \
+    $(_OBJ_DIR)\ppc\punt.obj \
+    $(_OBJ_DIR)\ppc\screen.obj \
+    $(_OBJ_DIR)\ppc\stroke.obj \
+    $(_OBJ_DIR)\ppc\support.obj \
+    $(_OBJ_DIR)\ppc\table.obj \
+    $(_OBJ_DIR)\ppc\text.obj \
+    $(_OBJ_DIR)\ppc\tga.obj \
+    $(_OBJ_DIR)\ppc\tgastats.obj \
+    $(_OBJ_DIR)\ppc\wid.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,92 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\propstm.obj \
+    $(_OBJ_DIR)\alpha\ntprop.obj \
+    $(_OBJ_DIR)\alpha\ntpropb.obj \
+    $(_OBJ_DIR)\alpha\propvar.obj \
+    $(_OBJ_DIR)\alpha\stgvarb.obj \
+    $(_OBJ_DIR)\alpha\psetstg.obj \
+    $(_OBJ_DIR)\alpha\propstg.obj \
+    $(_OBJ_DIR)\alpha\utils.obj \
+    $(_OBJ_DIR)\alpha\propapi.obj \
+    $(_OBJ_DIR)\alpha\cfmapstm.obj \
+    $(_OBJ_DIR)\alpha\reserved.obj \
+    $(_OBJ_DIR)\alpha\privoa.obj \
+    $(_OBJ_DIR)\alpha\iprop.res \
+    $(_OBJ_DIR)\alpha\call_as.obj \
+    $(_OBJ_DIR)\alpha\prstg_ca.obj \
+    $(_OBJ_DIR)\alpha\dlldata.obj \
+    $(_OBJ_DIR)\alpha\ipropidl_i.obj \
+    $(_OBJ_DIR)\alpha\ipropidl_p.obj \
+    $(_OBJ_DIR)\alpha\dllmain.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\propstm.obj \
+    $(_OBJ_DIR)\mips\ntprop.obj \
+    $(_OBJ_DIR)\mips\ntpropb.obj \
+    $(_OBJ_DIR)\mips\propvar.obj \
+    $(_OBJ_DIR)\mips\stgvarb.obj \
+    $(_OBJ_DIR)\mips\psetstg.obj \
+    $(_OBJ_DIR)\mips\propstg.obj \
+    $(_OBJ_DIR)\mips\utils.obj \
+    $(_OBJ_DIR)\mips\propapi.obj \
+    $(_OBJ_DIR)\mips\cfmapstm.obj \
+    $(_OBJ_DIR)\mips\reserved.obj \
+    $(_OBJ_DIR)\mips\privoa.obj \
+    $(_OBJ_DIR)\mips\iprop.res \
+    $(_OBJ_DIR)\mips\call_as.obj \
+    $(_OBJ_DIR)\mips\prstg_ca.obj \
+    $(_OBJ_DIR)\mips\dlldata.obj \
+    $(_OBJ_DIR)\mips\ipropidl_i.obj \
+    $(_OBJ_DIR)\mips\ipropidl_p.obj \
+    $(_OBJ_DIR)\mips\dllmain.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\propstm.obj \
+    $(_OBJ_DIR)\i386\ntprop.obj \
+    $(_OBJ_DIR)\i386\ntpropb.obj \
+    $(_OBJ_DIR)\i386\propvar.obj \
+    $(_OBJ_DIR)\i386\stgvarb.obj \
+    $(_OBJ_DIR)\i386\psetstg.obj \
+    $(_OBJ_DIR)\i386\propstg.obj \
+    $(_OBJ_DIR)\i386\utils.obj \
+    $(_OBJ_DIR)\i386\propapi.obj \
+    $(_OBJ_DIR)\i386\cfmapstm.obj \
+    $(_OBJ_DIR)\i386\reserved.obj \
+    $(_OBJ_DIR)\i386\privoa.obj \
+    $(_OBJ_DIR)\i386\iprop.res \
+    $(_OBJ_DIR)\i386\call_as.obj \
+    $(_OBJ_DIR)\i386\prstg_ca.obj \
+    $(_OBJ_DIR)\i386\dlldata.obj \
+    $(_OBJ_DIR)\i386\ipropidl_i.obj \
+    $(_OBJ_DIR)\i386\ipropidl_p.obj \
+    $(_OBJ_DIR)\i386\dllmain.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\propstm.obj \
+    $(_OBJ_DIR)\ppc\ntprop.obj \
+    $(_OBJ_DIR)\ppc\ntpropb.obj \
+    $(_OBJ_DIR)\ppc\propvar.obj \
+    $(_OBJ_DIR)\ppc\stgvarb.obj \
+    $(_OBJ_DIR)\ppc\psetstg.obj \
+    $(_OBJ_DIR)\ppc\propstg.obj \
+    $(_OBJ_DIR)\ppc\utils.obj \
+    $(_OBJ_DIR)\ppc\propapi.obj \
+    $(_OBJ_DIR)\ppc\cfmapstm.obj \
+    $(_OBJ_DIR)\ppc\reserved.obj \
+    $(_OBJ_DIR)\ppc\privoa.obj \
+    $(_OBJ_DIR)\ppc\iprop.res \
+    $(_OBJ_DIR)\ppc\call_as.obj \
+    $(_OBJ_DIR)\ppc\prstg_ca.obj \
+    $(_OBJ_DIR)\ppc\dlldata.obj \
+    $(_OBJ_DIR)\ppc\ipropidl_i.obj \
+    $(_OBJ_DIR)\ppc\ipropidl_p.obj \
+    $(_OBJ_DIR)\ppc\dllmain.obj
+
+PASS0_PPC_OBJECTS=
+

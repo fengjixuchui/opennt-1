@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\kdexts.res \
+    $(_OBJ_DIR)\alpha\help.obj \
+    $(_OBJ_DIR)\alpha\kdexts.obj \
+    $(_OBJ_DIR)\alpha\gdiexts.obj \
+    $(_OBJ_DIR)\alpha\fontexts.obj \
+    $(_OBJ_DIR)\alpha\flags.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\kdexts.res \
+    $(_OBJ_DIR)\mips\help.obj \
+    $(_OBJ_DIR)\mips\kdexts.obj \
+    $(_OBJ_DIR)\mips\gdiexts.obj \
+    $(_OBJ_DIR)\mips\fontexts.obj \
+    $(_OBJ_DIR)\mips\flags.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\kdexts.res \
+    $(_OBJ_DIR)\i386\help.obj \
+    $(_OBJ_DIR)\i386\kdexts.obj \
+    $(_OBJ_DIR)\i386\gdiexts.obj \
+    $(_OBJ_DIR)\i386\fontexts.obj \
+    $(_OBJ_DIR)\i386\flags.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\kdexts.res \
+    $(_OBJ_DIR)\ppc\help.obj \
+    $(_OBJ_DIR)\ppc\kdexts.obj \
+    $(_OBJ_DIR)\ppc\gdiexts.obj \
+    $(_OBJ_DIR)\ppc\fontexts.obj \
+    $(_OBJ_DIR)\ppc\flags.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\winprint.res \
+    $(_OBJ_DIR)\alpha\parsparm.obj \
+    $(_OBJ_DIR)\alpha\raw.obj \
+    $(_OBJ_DIR)\alpha\support.obj \
+    $(_OBJ_DIR)\alpha\text.obj \
+    $(_OBJ_DIR)\alpha\winprint.obj \
+    $(_OBJ_DIR)\alpha\msnull.obj \
+    $(_OBJ_DIR)\alpha\emf.obj \
+    $(_OBJ_DIR)\alpha\journal.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\winprint.res \
+    $(_OBJ_DIR)\mips\parsparm.obj \
+    $(_OBJ_DIR)\mips\raw.obj \
+    $(_OBJ_DIR)\mips\support.obj \
+    $(_OBJ_DIR)\mips\text.obj \
+    $(_OBJ_DIR)\mips\winprint.obj \
+    $(_OBJ_DIR)\mips\msnull.obj \
+    $(_OBJ_DIR)\mips\emf.obj \
+    $(_OBJ_DIR)\mips\journal.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\winprint.res \
+    $(_OBJ_DIR)\i386\parsparm.obj \
+    $(_OBJ_DIR)\i386\raw.obj \
+    $(_OBJ_DIR)\i386\support.obj \
+    $(_OBJ_DIR)\i386\text.obj \
+    $(_OBJ_DIR)\i386\winprint.obj \
+    $(_OBJ_DIR)\i386\msnull.obj \
+    $(_OBJ_DIR)\i386\emf.obj \
+    $(_OBJ_DIR)\i386\journal.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\winprint.res \
+    $(_OBJ_DIR)\ppc\parsparm.obj \
+    $(_OBJ_DIR)\ppc\raw.obj \
+    $(_OBJ_DIR)\ppc\support.obj \
+    $(_OBJ_DIR)\ppc\text.obj \
+    $(_OBJ_DIR)\ppc\winprint.obj \
+    $(_OBJ_DIR)\ppc\msnull.obj \
+    $(_OBJ_DIR)\ppc\emf.obj \
+    $(_OBJ_DIR)\ppc\journal.obj
+
+PASS0_PPC_OBJECTS=
+

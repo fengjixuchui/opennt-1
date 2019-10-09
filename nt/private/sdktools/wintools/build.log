@@ -1,0 +1,118 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining w:\nt\private\sdktools\wintools directory tree for files to compile.
+Building generated files in w:\nt\private\sdktools\wintools ********************
+'nmake.exe /c BUILDMSG=Stop. -i -f makefil0. NOLINK=1 386=1'
+
+Stop. 
+Building generated files in w:\nt\private\sdktools\wintools\lib ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+Building generated files in w:\nt\private\sdktools\wintools\winmsd ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+
+Stop. 
+
+Stop. 
+BUILD: Examining w:\nt\private\sdktools\wintools directory tree for files to compile. (2nd Pass)
+Linking w:\nt\private\sdktools\wintools\clb directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Linking w:\nt\private\sdktools\wintools\winmsd directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	link -out:obj\i386\clb.dll -machine:i386 @W:\tmp\nma01752.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:0x10000000 
+-subsystem:windows,4.00 
+-entry:ClbEntryPoint@12 
+obj\i386\clb.exp 
+obj\i386\clb.res 
+obj\i386\clb.obj 
+obj\i386\dlgedit.obj 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+..\lib\obj\i386\wintools.lib 
+W:\nt\public\sdk\lib\i386\comctl32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+	link -out:obj\i386\winmsd.exe -machine:i386 @W:\tmp\nma03864.
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\clb.dll
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:windows,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:mainCRTStartup 
+-optidata 
+obj\i386\winmsd.res 
+obj\i386\computer.obj 
+obj\i386\drives.obj 
+obj\i386\environ.obj 
+obj\i386\hardware.obj 
+obj\i386\mem.obj 
+obj\i386\network.obj 
+obj\i386\osver.obj 
+obj\i386\printer.obj 
+obj\i386\registry.obj 
+obj\i386\report.obj 
+obj\i386\resource.obj 
+obj\i386\resprint.obj 
+obj\i386\service.obj 
+obj\i386\strtab.obj 
+obj\i386\svc.obj 
+obj\i386\winmsd.obj 
+obj\i386\video.obj 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\comdlg32.lib 
+W:\nt\public\sdk\lib\i386\comctl32.lib 
+W:\nt\public\sdk\lib\i386\netapi32.lib 
+W:\nt\public\sdk\lib\i386\mpr.lib 
+W:\nt\public\sdk\lib\i386\version.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+..\lib\obj\i386\wintools.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+
+Stop. 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\winmsd.exe
+
+Stop. 

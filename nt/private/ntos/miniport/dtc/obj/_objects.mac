@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dtc329x.res \
+    $(_OBJ_DIR)\alpha\dtc329x.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dtc329x.res \
+    $(_OBJ_DIR)\mips\dtc329x.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dtc329x.res \
+    $(_OBJ_DIR)\i386\dtc329x.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dtc329x.res \
+    $(_OBJ_DIR)\ppc\dtc329x.obj
+
+PASS0_PPC_OBJECTS=
+

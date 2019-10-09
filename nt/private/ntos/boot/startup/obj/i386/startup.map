@@ -1,0 +1,13 @@
+
+ Start  Stop   Length Name                   Class
+ 00000H 03236H 03237H _TEXT                  CODE
+ 03240H 03316H 000D7H _TEXT32                CODE
+ 03320H 0512FH 01E10H _DATA                  DATA
+ 05130H 0513FH 00010H CONST                  CONST
+ 05140H 05140H 00000H _BSS                   BSS
+ 05140H 05143H 00004H c_common               BSS
+
+ Origin   Group
+ 0332:0   DGROUP
+
+Program entry point at 0000:0000

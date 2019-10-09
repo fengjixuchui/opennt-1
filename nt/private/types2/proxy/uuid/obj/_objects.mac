@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\oledbdat.obj \
+    $(_OBJ_DIR)\alpha\oleext_i.obj \
+    $(_OBJ_DIR)\alpha\query_i.obj \
+    $(_OBJ_DIR)\alpha\oledb_i.obj \
+    $(_OBJ_DIR)\alpha\sysmgmt_i.obj \
+    $(_OBJ_DIR)\alpha\transact_i.obj \
+    $(_OBJ_DIR)\alpha\catstg_i.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\oledbdat.obj \
+    $(_OBJ_DIR)\mips\oleext_i.obj \
+    $(_OBJ_DIR)\mips\query_i.obj \
+    $(_OBJ_DIR)\mips\oledb_i.obj \
+    $(_OBJ_DIR)\mips\sysmgmt_i.obj \
+    $(_OBJ_DIR)\mips\transact_i.obj \
+    $(_OBJ_DIR)\mips\catstg_i.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\oledbdat.obj \
+    $(_OBJ_DIR)\i386\oleext_i.obj \
+    $(_OBJ_DIR)\i386\query_i.obj \
+    $(_OBJ_DIR)\i386\oledb_i.obj \
+    $(_OBJ_DIR)\i386\sysmgmt_i.obj \
+    $(_OBJ_DIR)\i386\transact_i.obj \
+    $(_OBJ_DIR)\i386\catstg_i.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\oledbdat.obj \
+    $(_OBJ_DIR)\ppc\oleext_i.obj \
+    $(_OBJ_DIR)\ppc\query_i.obj \
+    $(_OBJ_DIR)\ppc\oledb_i.obj \
+    $(_OBJ_DIR)\ppc\sysmgmt_i.obj \
+    $(_OBJ_DIR)\ppc\transact_i.obj \
+    $(_OBJ_DIR)\ppc\catstg_i.obj
+
+PASS0_PPC_OBJECTS=
+

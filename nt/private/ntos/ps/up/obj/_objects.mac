@@ -1,0 +1,78 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\psctxalp.obj \
+    $(_OBJ_DIR)\alpha\psldt.obj \
+    $(_OBJ_DIR)\alpha\psvdm.obj \
+    $(_OBJ_DIR)\alpha\psspnd.obj \
+    $(_OBJ_DIR)\alpha\pscid.obj \
+    $(_OBJ_DIR)\alpha\psimpers.obj \
+    $(_OBJ_DIR)\alpha\psinit.obj \
+    $(_OBJ_DIR)\alpha\psdelete.obj \
+    $(_OBJ_DIR)\alpha\psquery.obj \
+    $(_OBJ_DIR)\alpha\create.obj \
+    $(_OBJ_DIR)\alpha\kulookup.obj \
+    $(_OBJ_DIR)\alpha\psquota.obj \
+    $(_OBJ_DIR)\alpha\psctx.obj \
+    $(_OBJ_DIR)\alpha\psopen.obj \
+    $(_OBJ_DIR)\alpha\security.obj \
+    $(_OBJ_DIR)\alpha\pswrap.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\psctxmip.obj \
+    $(_OBJ_DIR)\mips\psldt.obj \
+    $(_OBJ_DIR)\mips\psvdm.obj \
+    $(_OBJ_DIR)\mips\psspnd.obj \
+    $(_OBJ_DIR)\mips\pscid.obj \
+    $(_OBJ_DIR)\mips\psimpers.obj \
+    $(_OBJ_DIR)\mips\psinit.obj \
+    $(_OBJ_DIR)\mips\psdelete.obj \
+    $(_OBJ_DIR)\mips\psquery.obj \
+    $(_OBJ_DIR)\mips\create.obj \
+    $(_OBJ_DIR)\mips\kulookup.obj \
+    $(_OBJ_DIR)\mips\psquota.obj \
+    $(_OBJ_DIR)\mips\psctx.obj \
+    $(_OBJ_DIR)\mips\psopen.obj \
+    $(_OBJ_DIR)\mips\security.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\psctx386.obj \
+    $(_OBJ_DIR)\i386\psldt.obj \
+    $(_OBJ_DIR)\i386\psvdm.obj \
+    $(_OBJ_DIR)\i386\psspnd.obj \
+    $(_OBJ_DIR)\i386\pscid.obj \
+    $(_OBJ_DIR)\i386\psimpers.obj \
+    $(_OBJ_DIR)\i386\psinit.obj \
+    $(_OBJ_DIR)\i386\psdelete.obj \
+    $(_OBJ_DIR)\i386\psquery.obj \
+    $(_OBJ_DIR)\i386\create.obj \
+    $(_OBJ_DIR)\i386\kulookup.obj \
+    $(_OBJ_DIR)\i386\psquota.obj \
+    $(_OBJ_DIR)\i386\psctx.obj \
+    $(_OBJ_DIR)\i386\psopen.obj \
+    $(_OBJ_DIR)\i386\security.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\psctxppc.obj \
+    $(_OBJ_DIR)\ppc\psldt.obj \
+    $(_OBJ_DIR)\ppc\psvdm.obj \
+    $(_OBJ_DIR)\ppc\psspnd.obj \
+    $(_OBJ_DIR)\ppc\pscid.obj \
+    $(_OBJ_DIR)\ppc\psimpers.obj \
+    $(_OBJ_DIR)\ppc\psinit.obj \
+    $(_OBJ_DIR)\ppc\psdelete.obj \
+    $(_OBJ_DIR)\ppc\psquery.obj \
+    $(_OBJ_DIR)\ppc\create.obj \
+    $(_OBJ_DIR)\ppc\kulookup.obj \
+    $(_OBJ_DIR)\ppc\psquota.obj \
+    $(_OBJ_DIR)\ppc\psctx.obj \
+    $(_OBJ_DIR)\ppc\psopen.obj \
+    $(_OBJ_DIR)\ppc\security.obj \
+    $(_OBJ_DIR)\ppc\psapcppc.obj
+
+PASS0_PPC_OBJECTS=
+

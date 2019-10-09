@@ -1,0 +1,96 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\hwdll.res \
+    $(_OBJ_DIR)\alpha\bevel.obj \
+    $(_OBJ_DIR)\alpha\bmio.obj \
+    $(_OBJ_DIR)\alpha\cbrdcast.obj \
+    $(_OBJ_DIR)\alpha\cinput.obj \
+    $(_OBJ_DIR)\alpha\common.obj \
+    $(_OBJ_DIR)\alpha\coutput.obj \
+    $(_OBJ_DIR)\alpha\cpaldc.obj \
+    $(_OBJ_DIR)\alpha\cstr.obj \
+    $(_OBJ_DIR)\alpha\ctable.obj \
+    $(_OBJ_DIR)\alpha\ctmpfile.obj \
+    $(_OBJ_DIR)\alpha\filter.obj \
+    $(_OBJ_DIR)\alpha\fm.obj \
+    $(_OBJ_DIR)\alpha\hccom.obj \
+    $(_OBJ_DIR)\alpha\hook.obj \
+    $(_OBJ_DIR)\alpha\hwmsg.obj \
+    $(_OBJ_DIR)\alpha\lcmem.obj \
+    $(_OBJ_DIR)\alpha\private.obj \
+    $(_OBJ_DIR)\alpha\timerepo.obj \
+    $(_OBJ_DIR)\alpha\zeck.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\hwdll.res \
+    $(_OBJ_DIR)\mips\bevel.obj \
+    $(_OBJ_DIR)\mips\bmio.obj \
+    $(_OBJ_DIR)\mips\cbrdcast.obj \
+    $(_OBJ_DIR)\mips\cinput.obj \
+    $(_OBJ_DIR)\mips\common.obj \
+    $(_OBJ_DIR)\mips\coutput.obj \
+    $(_OBJ_DIR)\mips\cpaldc.obj \
+    $(_OBJ_DIR)\mips\cstr.obj \
+    $(_OBJ_DIR)\mips\ctable.obj \
+    $(_OBJ_DIR)\mips\ctmpfile.obj \
+    $(_OBJ_DIR)\mips\filter.obj \
+    $(_OBJ_DIR)\mips\fm.obj \
+    $(_OBJ_DIR)\mips\hccom.obj \
+    $(_OBJ_DIR)\mips\hook.obj \
+    $(_OBJ_DIR)\mips\hwmsg.obj \
+    $(_OBJ_DIR)\mips\lcmem.obj \
+    $(_OBJ_DIR)\mips\private.obj \
+    $(_OBJ_DIR)\mips\timerepo.obj \
+    $(_OBJ_DIR)\mips\zeck.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\hwdll.res \
+    $(_OBJ_DIR)\i386\bevel.obj \
+    $(_OBJ_DIR)\i386\bmio.obj \
+    $(_OBJ_DIR)\i386\cbrdcast.obj \
+    $(_OBJ_DIR)\i386\cinput.obj \
+    $(_OBJ_DIR)\i386\common.obj \
+    $(_OBJ_DIR)\i386\coutput.obj \
+    $(_OBJ_DIR)\i386\cpaldc.obj \
+    $(_OBJ_DIR)\i386\cstr.obj \
+    $(_OBJ_DIR)\i386\ctable.obj \
+    $(_OBJ_DIR)\i386\ctmpfile.obj \
+    $(_OBJ_DIR)\i386\filter.obj \
+    $(_OBJ_DIR)\i386\fm.obj \
+    $(_OBJ_DIR)\i386\hccom.obj \
+    $(_OBJ_DIR)\i386\hook.obj \
+    $(_OBJ_DIR)\i386\hwmsg.obj \
+    $(_OBJ_DIR)\i386\lcmem.obj \
+    $(_OBJ_DIR)\i386\private.obj \
+    $(_OBJ_DIR)\i386\timerepo.obj \
+    $(_OBJ_DIR)\i386\zeck.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\hwdll.res \
+    $(_OBJ_DIR)\ppc\bevel.obj \
+    $(_OBJ_DIR)\ppc\bmio.obj \
+    $(_OBJ_DIR)\ppc\cbrdcast.obj \
+    $(_OBJ_DIR)\ppc\cinput.obj \
+    $(_OBJ_DIR)\ppc\common.obj \
+    $(_OBJ_DIR)\ppc\coutput.obj \
+    $(_OBJ_DIR)\ppc\cpaldc.obj \
+    $(_OBJ_DIR)\ppc\cstr.obj \
+    $(_OBJ_DIR)\ppc\ctable.obj \
+    $(_OBJ_DIR)\ppc\ctmpfile.obj \
+    $(_OBJ_DIR)\ppc\filter.obj \
+    $(_OBJ_DIR)\ppc\fm.obj \
+    $(_OBJ_DIR)\ppc\hccom.obj \
+    $(_OBJ_DIR)\ppc\hook.obj \
+    $(_OBJ_DIR)\ppc\hwmsg.obj \
+    $(_OBJ_DIR)\ppc\lcmem.obj \
+    $(_OBJ_DIR)\ppc\private.obj \
+    $(_OBJ_DIR)\ppc\timerepo.obj \
+    $(_OBJ_DIR)\ppc\zeck.obj
+
+PASS0_PPC_OBJECTS=
+

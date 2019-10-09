@@ -1,0 +1,66 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\kdtrap.obj \
+    $(_OBJ_DIR)\alpha\kdreboot.obj \
+    $(_OBJ_DIR)\alpha\kdcpuapi.obj \
+    $(_OBJ_DIR)\alpha\kdcmsup.obj \
+    $(_OBJ_DIR)\alpha\kdinit.obj \
+    $(_OBJ_DIR)\alpha\kdbreak.obj \
+    $(_OBJ_DIR)\alpha\kdlock.obj \
+    $(_OBJ_DIR)\alpha\kdmove.obj \
+    $(_OBJ_DIR)\alpha\kddbgio.obj \
+    $(_OBJ_DIR)\alpha\kdapi.obj \
+    $(_OBJ_DIR)\alpha\kdcomio.obj \
+    $(_OBJ_DIR)\alpha\kddata.obj \
+    $(_OBJ_DIR)\alpha\kdppcr.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\kdtrap.obj \
+    $(_OBJ_DIR)\mips\kdreboot.obj \
+    $(_OBJ_DIR)\mips\kdcpuapi.obj \
+    $(_OBJ_DIR)\mips\kdcmsup.obj \
+    $(_OBJ_DIR)\mips\kdinit.obj \
+    $(_OBJ_DIR)\mips\kdbreak.obj \
+    $(_OBJ_DIR)\mips\kdlock.obj \
+    $(_OBJ_DIR)\mips\kdmove.obj \
+    $(_OBJ_DIR)\mips\kddbgio.obj \
+    $(_OBJ_DIR)\mips\kdapi.obj \
+    $(_OBJ_DIR)\mips\kdcomio.obj \
+    $(_OBJ_DIR)\mips\kddata.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\kdstr.obj \
+    $(_OBJ_DIR)\i386\kdtrap.obj \
+    $(_OBJ_DIR)\i386\kdcmsup.obj \
+    $(_OBJ_DIR)\i386\kdreboot.obj \
+    $(_OBJ_DIR)\i386\kdcpuapi.obj \
+    $(_OBJ_DIR)\i386\kdinit.obj \
+    $(_OBJ_DIR)\i386\kdbreak.obj \
+    $(_OBJ_DIR)\i386\kdlock.obj \
+    $(_OBJ_DIR)\i386\kdmove.obj \
+    $(_OBJ_DIR)\i386\kddbgio.obj \
+    $(_OBJ_DIR)\i386\kdapi.obj \
+    $(_OBJ_DIR)\i386\kdcomio.obj \
+    $(_OBJ_DIR)\i386\kddata.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\kdtrap.obj \
+    $(_OBJ_DIR)\ppc\kdreboot.obj \
+    $(_OBJ_DIR)\ppc\kdcpuapi.obj \
+    $(_OBJ_DIR)\ppc\kdcmsup.obj \
+    $(_OBJ_DIR)\ppc\kdinit.obj \
+    $(_OBJ_DIR)\ppc\kdbreak.obj \
+    $(_OBJ_DIR)\ppc\kdlock.obj \
+    $(_OBJ_DIR)\ppc\kdmove.obj \
+    $(_OBJ_DIR)\ppc\kddbgio.obj \
+    $(_OBJ_DIR)\ppc\kdapi.obj \
+    $(_OBJ_DIR)\ppc\kdcomio.obj \
+    $(_OBJ_DIR)\ppc\kddata.obj
+
+PASS0_PPC_OBJECTS=
+

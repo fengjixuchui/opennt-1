@@ -1,0 +1,76 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\res.res \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\help.obj \
+    $(_OBJ_DIR)\alpha\validate.obj \
+    $(_OBJ_DIR)\alpha\dlgctrl.obj \
+    $(_OBJ_DIR)\alpha\resource.obj \
+    $(_OBJ_DIR)\alpha\stdpage.obj \
+    $(_OBJ_DIR)\alpha\proppage.obj \
+    $(_OBJ_DIR)\alpha\image.obj \
+    $(_OBJ_DIR)\alpha\treeview.obj \
+    $(_OBJ_DIR)\alpha\compstui.obj \
+    $(_OBJ_DIR)\alpha\convert.obj \
+    $(_OBJ_DIR)\alpha\tvctrl.obj \
+    $(_OBJ_DIR)\alpha\handle.obj \
+    $(_OBJ_DIR)\alpha\apilayer.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\res.res \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\help.obj \
+    $(_OBJ_DIR)\mips\validate.obj \
+    $(_OBJ_DIR)\mips\dlgctrl.obj \
+    $(_OBJ_DIR)\mips\resource.obj \
+    $(_OBJ_DIR)\mips\stdpage.obj \
+    $(_OBJ_DIR)\mips\proppage.obj \
+    $(_OBJ_DIR)\mips\image.obj \
+    $(_OBJ_DIR)\mips\treeview.obj \
+    $(_OBJ_DIR)\mips\compstui.obj \
+    $(_OBJ_DIR)\mips\convert.obj \
+    $(_OBJ_DIR)\mips\tvctrl.obj \
+    $(_OBJ_DIR)\mips\handle.obj \
+    $(_OBJ_DIR)\mips\apilayer.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\res.res \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\help.obj \
+    $(_OBJ_DIR)\i386\validate.obj \
+    $(_OBJ_DIR)\i386\dlgctrl.obj \
+    $(_OBJ_DIR)\i386\resource.obj \
+    $(_OBJ_DIR)\i386\stdpage.obj \
+    $(_OBJ_DIR)\i386\proppage.obj \
+    $(_OBJ_DIR)\i386\image.obj \
+    $(_OBJ_DIR)\i386\treeview.obj \
+    $(_OBJ_DIR)\i386\compstui.obj \
+    $(_OBJ_DIR)\i386\convert.obj \
+    $(_OBJ_DIR)\i386\tvctrl.obj \
+    $(_OBJ_DIR)\i386\handle.obj \
+    $(_OBJ_DIR)\i386\apilayer.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\res.res \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\help.obj \
+    $(_OBJ_DIR)\ppc\validate.obj \
+    $(_OBJ_DIR)\ppc\dlgctrl.obj \
+    $(_OBJ_DIR)\ppc\resource.obj \
+    $(_OBJ_DIR)\ppc\stdpage.obj \
+    $(_OBJ_DIR)\ppc\proppage.obj \
+    $(_OBJ_DIR)\ppc\image.obj \
+    $(_OBJ_DIR)\ppc\treeview.obj \
+    $(_OBJ_DIR)\ppc\compstui.obj \
+    $(_OBJ_DIR)\ppc\convert.obj \
+    $(_OBJ_DIR)\ppc\tvctrl.obj \
+    $(_OBJ_DIR)\ppc\handle.obj \
+    $(_OBJ_DIR)\ppc\apilayer.obj
+
+PASS0_PPC_OBJECTS=
+

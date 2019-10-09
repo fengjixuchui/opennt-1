@@ -1,0 +1,30 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\osloader.res \
+    $(_OBJ_DIR)\alpha\osloader.obj \
+    $(_OBJ_DIR)\alpha\regboot.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\osloader.res \
+    $(_OBJ_DIR)\mips\osloader.obj \
+    $(_OBJ_DIR)\mips\regboot.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\osloader.res \
+    $(_OBJ_DIR)\i386\initx86.obj \
+    $(_OBJ_DIR)\i386\parsboot.obj \
+    $(_OBJ_DIR)\i386\osloader.obj \
+    $(_OBJ_DIR)\i386\regboot.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\osloader.res \
+    $(_OBJ_DIR)\ppc\osloader.obj \
+    $(_OBJ_DIR)\ppc\regboot.obj
+
+PASS0_PPC_OBJECTS=
+

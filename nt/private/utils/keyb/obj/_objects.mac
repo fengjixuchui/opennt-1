@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\keyb.res \
+    $(_OBJ_DIR)\alpha\keyb.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\keyb.res \
+    $(_OBJ_DIR)\mips\keyb.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\keyb.res \
+    $(_OBJ_DIR)\i386\keyb.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\keyb.res \
+    $(_OBJ_DIR)\ppc\keyb.obj
+
+PASS0_PPC_OBJECTS=
+

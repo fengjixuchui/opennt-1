@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\userkey.obj \
+    $(_OBJ_DIR)\alpha\data.obj \
+    $(_OBJ_DIR)\alpha\data2.obj \
+    $(_OBJ_DIR)\alpha\block.obj \
+    $(_OBJ_DIR)\alpha\owf.obj \
+    $(_OBJ_DIR)\alpha\response.obj \
+    $(_OBJ_DIR)\alpha\owfcrypt.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\userkey.obj \
+    $(_OBJ_DIR)\mips\data.obj \
+    $(_OBJ_DIR)\mips\data2.obj \
+    $(_OBJ_DIR)\mips\block.obj \
+    $(_OBJ_DIR)\mips\owf.obj \
+    $(_OBJ_DIR)\mips\response.obj \
+    $(_OBJ_DIR)\mips\owfcrypt.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\userkey.obj \
+    $(_OBJ_DIR)\i386\data.obj \
+    $(_OBJ_DIR)\i386\data2.obj \
+    $(_OBJ_DIR)\i386\block.obj \
+    $(_OBJ_DIR)\i386\owf.obj \
+    $(_OBJ_DIR)\i386\response.obj \
+    $(_OBJ_DIR)\i386\owfcrypt.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\userkey.obj \
+    $(_OBJ_DIR)\ppc\data.obj \
+    $(_OBJ_DIR)\ppc\data2.obj \
+    $(_OBJ_DIR)\ppc\block.obj \
+    $(_OBJ_DIR)\ppc\owf.obj \
+    $(_OBJ_DIR)\ppc\response.obj \
+    $(_OBJ_DIR)\ppc\owfcrypt.obj
+
+PASS0_PPC_OBJECTS=
+

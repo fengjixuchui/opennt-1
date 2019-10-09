@@ -1,0 +1,168 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\synceng.res \
+    $(_OBJ_DIR)\alpha\brfcase.obj \
+    $(_OBJ_DIR)\alpha\clsiface.obj \
+    $(_OBJ_DIR)\alpha\comc.obj \
+    $(_OBJ_DIR)\alpha\copy.obj \
+    $(_OBJ_DIR)\alpha\db.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\dllinit.obj \
+    $(_OBJ_DIR)\alpha\expandft.obj \
+    $(_OBJ_DIR)\alpha\fcache.obj \
+    $(_OBJ_DIR)\alpha\findbc.obj \
+    $(_OBJ_DIR)\alpha\foldtwin.obj \
+    $(_OBJ_DIR)\alpha\guids.obj \
+    $(_OBJ_DIR)\alpha\hndtrans.obj \
+    $(_OBJ_DIR)\alpha\inifile.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\irecinit.obj \
+    $(_OBJ_DIR)\alpha\list.obj \
+    $(_OBJ_DIR)\alpha\memmgr.obj \
+    $(_OBJ_DIR)\alpha\merge.obj \
+    $(_OBJ_DIR)\alpha\olepig.obj \
+    $(_OBJ_DIR)\alpha\oleutil.obj \
+    $(_OBJ_DIR)\alpha\path.obj \
+    $(_OBJ_DIR)\alpha\ptrarray.obj \
+    $(_OBJ_DIR)\alpha\reclist.obj \
+    $(_OBJ_DIR)\alpha\recon.obj \
+    $(_OBJ_DIR)\alpha\resstr.obj \
+    $(_OBJ_DIR)\alpha\serial.obj \
+    $(_OBJ_DIR)\alpha\sortsrch.obj \
+    $(_OBJ_DIR)\alpha\storage.obj \
+    $(_OBJ_DIR)\alpha\string.obj \
+    $(_OBJ_DIR)\alpha\stub.obj \
+    $(_OBJ_DIR)\alpha\subcycle.obj \
+    $(_OBJ_DIR)\alpha\twin.obj \
+    $(_OBJ_DIR)\alpha\twinlist.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\volume.obj \
+    $(_OBJ_DIR)\alpha\valid.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\synceng.res \
+    $(_OBJ_DIR)\mips\brfcase.obj \
+    $(_OBJ_DIR)\mips\clsiface.obj \
+    $(_OBJ_DIR)\mips\comc.obj \
+    $(_OBJ_DIR)\mips\copy.obj \
+    $(_OBJ_DIR)\mips\db.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\dllinit.obj \
+    $(_OBJ_DIR)\mips\expandft.obj \
+    $(_OBJ_DIR)\mips\fcache.obj \
+    $(_OBJ_DIR)\mips\findbc.obj \
+    $(_OBJ_DIR)\mips\foldtwin.obj \
+    $(_OBJ_DIR)\mips\guids.obj \
+    $(_OBJ_DIR)\mips\hndtrans.obj \
+    $(_OBJ_DIR)\mips\inifile.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\irecinit.obj \
+    $(_OBJ_DIR)\mips\list.obj \
+    $(_OBJ_DIR)\mips\memmgr.obj \
+    $(_OBJ_DIR)\mips\merge.obj \
+    $(_OBJ_DIR)\mips\olepig.obj \
+    $(_OBJ_DIR)\mips\oleutil.obj \
+    $(_OBJ_DIR)\mips\path.obj \
+    $(_OBJ_DIR)\mips\ptrarray.obj \
+    $(_OBJ_DIR)\mips\reclist.obj \
+    $(_OBJ_DIR)\mips\recon.obj \
+    $(_OBJ_DIR)\mips\resstr.obj \
+    $(_OBJ_DIR)\mips\serial.obj \
+    $(_OBJ_DIR)\mips\sortsrch.obj \
+    $(_OBJ_DIR)\mips\storage.obj \
+    $(_OBJ_DIR)\mips\string.obj \
+    $(_OBJ_DIR)\mips\stub.obj \
+    $(_OBJ_DIR)\mips\subcycle.obj \
+    $(_OBJ_DIR)\mips\twin.obj \
+    $(_OBJ_DIR)\mips\twinlist.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\volume.obj \
+    $(_OBJ_DIR)\mips\valid.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\synceng.res \
+    $(_OBJ_DIR)\i386\brfcase.obj \
+    $(_OBJ_DIR)\i386\clsiface.obj \
+    $(_OBJ_DIR)\i386\comc.obj \
+    $(_OBJ_DIR)\i386\copy.obj \
+    $(_OBJ_DIR)\i386\db.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\dllinit.obj \
+    $(_OBJ_DIR)\i386\expandft.obj \
+    $(_OBJ_DIR)\i386\fcache.obj \
+    $(_OBJ_DIR)\i386\findbc.obj \
+    $(_OBJ_DIR)\i386\foldtwin.obj \
+    $(_OBJ_DIR)\i386\guids.obj \
+    $(_OBJ_DIR)\i386\hndtrans.obj \
+    $(_OBJ_DIR)\i386\inifile.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\irecinit.obj \
+    $(_OBJ_DIR)\i386\list.obj \
+    $(_OBJ_DIR)\i386\memmgr.obj \
+    $(_OBJ_DIR)\i386\merge.obj \
+    $(_OBJ_DIR)\i386\olepig.obj \
+    $(_OBJ_DIR)\i386\oleutil.obj \
+    $(_OBJ_DIR)\i386\path.obj \
+    $(_OBJ_DIR)\i386\ptrarray.obj \
+    $(_OBJ_DIR)\i386\reclist.obj \
+    $(_OBJ_DIR)\i386\recon.obj \
+    $(_OBJ_DIR)\i386\resstr.obj \
+    $(_OBJ_DIR)\i386\serial.obj \
+    $(_OBJ_DIR)\i386\sortsrch.obj \
+    $(_OBJ_DIR)\i386\storage.obj \
+    $(_OBJ_DIR)\i386\string.obj \
+    $(_OBJ_DIR)\i386\stub.obj \
+    $(_OBJ_DIR)\i386\subcycle.obj \
+    $(_OBJ_DIR)\i386\twin.obj \
+    $(_OBJ_DIR)\i386\twinlist.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\volume.obj \
+    $(_OBJ_DIR)\i386\valid.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\synceng.res \
+    $(_OBJ_DIR)\ppc\brfcase.obj \
+    $(_OBJ_DIR)\ppc\clsiface.obj \
+    $(_OBJ_DIR)\ppc\comc.obj \
+    $(_OBJ_DIR)\ppc\copy.obj \
+    $(_OBJ_DIR)\ppc\db.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\dllinit.obj \
+    $(_OBJ_DIR)\ppc\expandft.obj \
+    $(_OBJ_DIR)\ppc\fcache.obj \
+    $(_OBJ_DIR)\ppc\findbc.obj \
+    $(_OBJ_DIR)\ppc\foldtwin.obj \
+    $(_OBJ_DIR)\ppc\guids.obj \
+    $(_OBJ_DIR)\ppc\hndtrans.obj \
+    $(_OBJ_DIR)\ppc\inifile.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\irecinit.obj \
+    $(_OBJ_DIR)\ppc\list.obj \
+    $(_OBJ_DIR)\ppc\memmgr.obj \
+    $(_OBJ_DIR)\ppc\merge.obj \
+    $(_OBJ_DIR)\ppc\olepig.obj \
+    $(_OBJ_DIR)\ppc\oleutil.obj \
+    $(_OBJ_DIR)\ppc\path.obj \
+    $(_OBJ_DIR)\ppc\ptrarray.obj \
+    $(_OBJ_DIR)\ppc\reclist.obj \
+    $(_OBJ_DIR)\ppc\recon.obj \
+    $(_OBJ_DIR)\ppc\resstr.obj \
+    $(_OBJ_DIR)\ppc\serial.obj \
+    $(_OBJ_DIR)\ppc\sortsrch.obj \
+    $(_OBJ_DIR)\ppc\storage.obj \
+    $(_OBJ_DIR)\ppc\string.obj \
+    $(_OBJ_DIR)\ppc\stub.obj \
+    $(_OBJ_DIR)\ppc\subcycle.obj \
+    $(_OBJ_DIR)\ppc\twin.obj \
+    $(_OBJ_DIR)\ppc\twinlist.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\volume.obj \
+    $(_OBJ_DIR)\ppc\valid.obj
+
+PASS0_PPC_OBJECTS=
+

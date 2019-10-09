@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\symcvt.res \
+    $(_OBJ_DIR)\alpha\cofftocv.obj \
+    $(_OBJ_DIR)\alpha\cvcommon.obj \
+    $(_OBJ_DIR)\alpha\file.obj \
+    $(_OBJ_DIR)\alpha\symcvt.obj \
+    $(_OBJ_DIR)\alpha\symtocv.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\symcvt.res \
+    $(_OBJ_DIR)\mips\cofftocv.obj \
+    $(_OBJ_DIR)\mips\cvcommon.obj \
+    $(_OBJ_DIR)\mips\file.obj \
+    $(_OBJ_DIR)\mips\symcvt.obj \
+    $(_OBJ_DIR)\mips\symtocv.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\symcvt.res \
+    $(_OBJ_DIR)\i386\cofftocv.obj \
+    $(_OBJ_DIR)\i386\cvcommon.obj \
+    $(_OBJ_DIR)\i386\file.obj \
+    $(_OBJ_DIR)\i386\symcvt.obj \
+    $(_OBJ_DIR)\i386\symtocv.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\symcvt.res \
+    $(_OBJ_DIR)\ppc\cofftocv.obj \
+    $(_OBJ_DIR)\ppc\cvcommon.obj \
+    $(_OBJ_DIR)\ppc\file.obj \
+    $(_OBJ_DIR)\ppc\symcvt.obj \
+    $(_OBJ_DIR)\ppc\symtocv.obj
+
+PASS0_PPC_OBJECTS=
+

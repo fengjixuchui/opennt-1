@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\console.res \
+    $(_OBJ_DIR)\alpha\console.obj \
+    $(_OBJ_DIR)\alpha\fontdlg.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\link.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\preview.obj \
+    $(_OBJ_DIR)\alpha\registry.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\console.res \
+    $(_OBJ_DIR)\mips\console.obj \
+    $(_OBJ_DIR)\mips\fontdlg.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\link.obj \
+    $(_OBJ_DIR)\mips\misc.obj \
+    $(_OBJ_DIR)\mips\preview.obj \
+    $(_OBJ_DIR)\mips\registry.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\console.res \
+    $(_OBJ_DIR)\i386\console.obj \
+    $(_OBJ_DIR)\i386\fontdlg.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\link.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\preview.obj \
+    $(_OBJ_DIR)\i386\registry.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\console.res \
+    $(_OBJ_DIR)\ppc\console.obj \
+    $(_OBJ_DIR)\ppc\fontdlg.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\link.obj \
+    $(_OBJ_DIR)\ppc\misc.obj \
+    $(_OBJ_DIR)\ppc\preview.obj \
+    $(_OBJ_DIR)\ppc\registry.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,126 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\res.res \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\doslog.obj \
+    $(_OBJ_DIR)\alpha\envvar.obj \
+    $(_OBJ_DIR)\alpha\ginamgr.obj \
+    $(_OBJ_DIR)\alpha\logoff.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\monitor.obj \
+    $(_OBJ_DIR)\alpha\msgalias.obj \
+    $(_OBJ_DIR)\alpha\provider.obj \
+    $(_OBJ_DIR)\alpha\regini.obj \
+    $(_OBJ_DIR)\alpha\removabl.obj \
+    $(_OBJ_DIR)\alpha\sas.obj \
+    $(_OBJ_DIR)\alpha\scrnsave.obj \
+    $(_OBJ_DIR)\alpha\secutil.obj \
+    $(_OBJ_DIR)\alpha\setup.obj \
+    $(_OBJ_DIR)\alpha\shell.obj \
+    $(_OBJ_DIR)\alpha\sysinit.obj \
+    $(_OBJ_DIR)\alpha\sysshut.obj \
+    $(_OBJ_DIR)\alpha\timeout.obj \
+    $(_OBJ_DIR)\alpha\usrenv.obj \
+    $(_OBJ_DIR)\alpha\usrpro.obj \
+    $(_OBJ_DIR)\alpha\win31mig.obj \
+    $(_OBJ_DIR)\alpha\winlogon.obj \
+    $(_OBJ_DIR)\alpha\winutil.obj \
+    $(_OBJ_DIR)\alpha\wlx.obj \
+    $(_OBJ_DIR)\alpha\wlxutil.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\res.res \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\doslog.obj \
+    $(_OBJ_DIR)\mips\envvar.obj \
+    $(_OBJ_DIR)\mips\ginamgr.obj \
+    $(_OBJ_DIR)\mips\logoff.obj \
+    $(_OBJ_DIR)\mips\misc.obj \
+    $(_OBJ_DIR)\mips\monitor.obj \
+    $(_OBJ_DIR)\mips\msgalias.obj \
+    $(_OBJ_DIR)\mips\provider.obj \
+    $(_OBJ_DIR)\mips\regini.obj \
+    $(_OBJ_DIR)\mips\removabl.obj \
+    $(_OBJ_DIR)\mips\sas.obj \
+    $(_OBJ_DIR)\mips\scrnsave.obj \
+    $(_OBJ_DIR)\mips\secutil.obj \
+    $(_OBJ_DIR)\mips\setup.obj \
+    $(_OBJ_DIR)\mips\shell.obj \
+    $(_OBJ_DIR)\mips\sysinit.obj \
+    $(_OBJ_DIR)\mips\sysshut.obj \
+    $(_OBJ_DIR)\mips\timeout.obj \
+    $(_OBJ_DIR)\mips\usrenv.obj \
+    $(_OBJ_DIR)\mips\usrpro.obj \
+    $(_OBJ_DIR)\mips\win31mig.obj \
+    $(_OBJ_DIR)\mips\winlogon.obj \
+    $(_OBJ_DIR)\mips\winutil.obj \
+    $(_OBJ_DIR)\mips\wlx.obj \
+    $(_OBJ_DIR)\mips\wlxutil.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\res.res \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\doslog.obj \
+    $(_OBJ_DIR)\i386\envvar.obj \
+    $(_OBJ_DIR)\i386\ginamgr.obj \
+    $(_OBJ_DIR)\i386\logoff.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\monitor.obj \
+    $(_OBJ_DIR)\i386\msgalias.obj \
+    $(_OBJ_DIR)\i386\provider.obj \
+    $(_OBJ_DIR)\i386\regini.obj \
+    $(_OBJ_DIR)\i386\removabl.obj \
+    $(_OBJ_DIR)\i386\sas.obj \
+    $(_OBJ_DIR)\i386\scrnsave.obj \
+    $(_OBJ_DIR)\i386\secutil.obj \
+    $(_OBJ_DIR)\i386\setup.obj \
+    $(_OBJ_DIR)\i386\shell.obj \
+    $(_OBJ_DIR)\i386\sysinit.obj \
+    $(_OBJ_DIR)\i386\sysshut.obj \
+    $(_OBJ_DIR)\i386\timeout.obj \
+    $(_OBJ_DIR)\i386\usrenv.obj \
+    $(_OBJ_DIR)\i386\usrpro.obj \
+    $(_OBJ_DIR)\i386\win31mig.obj \
+    $(_OBJ_DIR)\i386\winlogon.obj \
+    $(_OBJ_DIR)\i386\winutil.obj \
+    $(_OBJ_DIR)\i386\wlx.obj \
+    $(_OBJ_DIR)\i386\wlxutil.obj \
+    $(_OBJ_DIR)\i386\os2ssmig.obj \
+    $(_OBJ_DIR)\i386\os2ssrtl.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\res.res \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\doslog.obj \
+    $(_OBJ_DIR)\ppc\envvar.obj \
+    $(_OBJ_DIR)\ppc\ginamgr.obj \
+    $(_OBJ_DIR)\ppc\logoff.obj \
+    $(_OBJ_DIR)\ppc\misc.obj \
+    $(_OBJ_DIR)\ppc\monitor.obj \
+    $(_OBJ_DIR)\ppc\msgalias.obj \
+    $(_OBJ_DIR)\ppc\provider.obj \
+    $(_OBJ_DIR)\ppc\regini.obj \
+    $(_OBJ_DIR)\ppc\removabl.obj \
+    $(_OBJ_DIR)\ppc\sas.obj \
+    $(_OBJ_DIR)\ppc\scrnsave.obj \
+    $(_OBJ_DIR)\ppc\secutil.obj \
+    $(_OBJ_DIR)\ppc\setup.obj \
+    $(_OBJ_DIR)\ppc\shell.obj \
+    $(_OBJ_DIR)\ppc\sysinit.obj \
+    $(_OBJ_DIR)\ppc\sysshut.obj \
+    $(_OBJ_DIR)\ppc\timeout.obj \
+    $(_OBJ_DIR)\ppc\usrenv.obj \
+    $(_OBJ_DIR)\ppc\usrpro.obj \
+    $(_OBJ_DIR)\ppc\win31mig.obj \
+    $(_OBJ_DIR)\ppc\winlogon.obj \
+    $(_OBJ_DIR)\ppc\winutil.obj \
+    $(_OBJ_DIR)\ppc\wlx.obj \
+    $(_OBJ_DIR)\ppc\wlxutil.obj
+
+PASS0_PPC_OBJECTS=
+

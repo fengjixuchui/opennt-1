@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\msrle.res \
+    $(_OBJ_DIR)\alpha\drvproc.obj \
+    $(_OBJ_DIR)\alpha\msrle.obj \
+    $(_OBJ_DIR)\alpha\rlec.obj \
+    $(_OBJ_DIR)\alpha\rle.obj \
+    $(_OBJ_DIR)\alpha\profile.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\msrle.res \
+    $(_OBJ_DIR)\mips\drvproc.obj \
+    $(_OBJ_DIR)\mips\msrle.obj \
+    $(_OBJ_DIR)\mips\rlec.obj \
+    $(_OBJ_DIR)\mips\rle.obj \
+    $(_OBJ_DIR)\mips\profile.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\msrle.res \
+    $(_OBJ_DIR)\i386\drvproc.obj \
+    $(_OBJ_DIR)\i386\msrle.obj \
+    $(_OBJ_DIR)\i386\rlec.obj \
+    $(_OBJ_DIR)\i386\rle.obj \
+    $(_OBJ_DIR)\i386\profile.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\msrle.res \
+    $(_OBJ_DIR)\ppc\drvproc.obj \
+    $(_OBJ_DIR)\ppc\msrle.obj \
+    $(_OBJ_DIR)\ppc\rlec.obj \
+    $(_OBJ_DIR)\ppc\rle.obj \
+    $(_OBJ_DIR)\ppc\profile.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\panmap.res \
+    $(_OBJ_DIR)\alpha\elsepan.obj \
+    $(_OBJ_DIR)\alpha\panmap.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\panmap.res \
+    $(_OBJ_DIR)\mips\elsepan.obj \
+    $(_OBJ_DIR)\mips\panmap.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\panmap.res \
+    $(_OBJ_DIR)\i386\elsepan.obj \
+    $(_OBJ_DIR)\i386\panmap.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\panmap.res \
+    $(_OBJ_DIR)\ppc\elsepan.obj \
+    $(_OBJ_DIR)\ppc\panmap.obj
+
+PASS0_PPC_OBJECTS=
+

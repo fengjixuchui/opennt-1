@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\plustab.res \
+    $(_OBJ_DIR)\alpha\clssfact.obj \
+    $(_OBJ_DIR)\alpha\pickicon.obj \
+    $(_OBJ_DIR)\alpha\plustab.obj \
+    $(_OBJ_DIR)\alpha\propsext.obj \
+    $(_OBJ_DIR)\alpha\regutils.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\plustab.res \
+    $(_OBJ_DIR)\mips\clssfact.obj \
+    $(_OBJ_DIR)\mips\pickicon.obj \
+    $(_OBJ_DIR)\mips\plustab.obj \
+    $(_OBJ_DIR)\mips\propsext.obj \
+    $(_OBJ_DIR)\mips\regutils.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\plustab.res \
+    $(_OBJ_DIR)\i386\clssfact.obj \
+    $(_OBJ_DIR)\i386\pickicon.obj \
+    $(_OBJ_DIR)\i386\plustab.obj \
+    $(_OBJ_DIR)\i386\propsext.obj \
+    $(_OBJ_DIR)\i386\regutils.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\plustab.res \
+    $(_OBJ_DIR)\ppc\clssfact.obj \
+    $(_OBJ_DIR)\ppc\pickicon.obj \
+    $(_OBJ_DIR)\ppc\plustab.obj \
+    $(_OBJ_DIR)\ppc\propsext.obj \
+    $(_OBJ_DIR)\ppc\regutils.obj
+
+PASS0_PPC_OBJECTS=
+

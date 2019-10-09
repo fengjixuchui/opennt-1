@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\classdef.obj \
+    $(_OBJ_DIR)\alpha\comclass.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\classdef.obj \
+    $(_OBJ_DIR)\mips\comclass.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\classdef.obj \
+    $(_OBJ_DIR)\i386\comclass.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\classdef.obj \
+    $(_OBJ_DIR)\ppc\comclass.obj
+
+PASS0_PPC_OBJECTS=
+

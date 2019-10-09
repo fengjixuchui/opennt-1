@@ -1,0 +1,34 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\fdengine.obj \
+    $(_OBJ_DIR)\alpha\memory.obj \
+    $(_OBJ_DIR)\alpha\almisc.obj \
+    $(_OBJ_DIR)\alpha\fmtexp.obj \
+    $(_OBJ_DIR)\alpha\low.obj \
+    $(_OBJ_DIR)\alpha\nlsboot.obj \
+    $(_OBJ_DIR)\alpha\partit.obj \
+    $(_OBJ_DIR)\alpha\jzcrap.obj \
+    $(_OBJ_DIR)\alpha\arcinst.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\fdengine.obj \
+    $(_OBJ_DIR)\mips\memory.obj \
+    $(_OBJ_DIR)\mips\almisc.obj \
+    $(_OBJ_DIR)\mips\fmtexp.obj \
+    $(_OBJ_DIR)\mips\low.obj \
+    $(_OBJ_DIR)\mips\nlsboot.obj \
+    $(_OBJ_DIR)\mips\partit.obj \
+    $(_OBJ_DIR)\mips\jzcrap.obj \
+    $(_OBJ_DIR)\mips\arcinst.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS=
+

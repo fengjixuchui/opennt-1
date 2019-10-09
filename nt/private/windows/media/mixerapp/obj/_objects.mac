@@ -1,0 +1,56 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\volume.res \
+    $(_OBJ_DIR)\alpha\volume.obj \
+    $(_OBJ_DIR)\alpha\dlg.obj \
+    $(_OBJ_DIR)\alpha\choice.obj \
+    $(_OBJ_DIR)\alpha\reg.obj \
+    $(_OBJ_DIR)\alpha\vu.obj \
+    $(_OBJ_DIR)\alpha\pvcd.obj \
+    $(_OBJ_DIR)\alpha\mixer.obj \
+    $(_OBJ_DIR)\alpha\nonmixer.obj \
+    $(_OBJ_DIR)\alpha\utils.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\volume.res \
+    $(_OBJ_DIR)\mips\volume.obj \
+    $(_OBJ_DIR)\mips\dlg.obj \
+    $(_OBJ_DIR)\mips\choice.obj \
+    $(_OBJ_DIR)\mips\reg.obj \
+    $(_OBJ_DIR)\mips\vu.obj \
+    $(_OBJ_DIR)\mips\pvcd.obj \
+    $(_OBJ_DIR)\mips\mixer.obj \
+    $(_OBJ_DIR)\mips\nonmixer.obj \
+    $(_OBJ_DIR)\mips\utils.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\volume.res \
+    $(_OBJ_DIR)\i386\volume.obj \
+    $(_OBJ_DIR)\i386\dlg.obj \
+    $(_OBJ_DIR)\i386\choice.obj \
+    $(_OBJ_DIR)\i386\reg.obj \
+    $(_OBJ_DIR)\i386\vu.obj \
+    $(_OBJ_DIR)\i386\pvcd.obj \
+    $(_OBJ_DIR)\i386\mixer.obj \
+    $(_OBJ_DIR)\i386\nonmixer.obj \
+    $(_OBJ_DIR)\i386\utils.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\volume.res \
+    $(_OBJ_DIR)\ppc\volume.obj \
+    $(_OBJ_DIR)\ppc\dlg.obj \
+    $(_OBJ_DIR)\ppc\choice.obj \
+    $(_OBJ_DIR)\ppc\reg.obj \
+    $(_OBJ_DIR)\ppc\vu.obj \
+    $(_OBJ_DIR)\ppc\pvcd.obj \
+    $(_OBJ_DIR)\ppc\mixer.obj \
+    $(_OBJ_DIR)\ppc\nonmixer.obj \
+    $(_OBJ_DIR)\ppc\utils.obj
+
+PASS0_PPC_OBJECTS=
+

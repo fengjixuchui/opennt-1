@@ -1,0 +1,80 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cache.obj \
+    $(_OBJ_DIR)\alpha\difat.obj \
+    $(_OBJ_DIR)\alpha\dir.obj \
+    $(_OBJ_DIR)\alpha\dirp.obj \
+    $(_OBJ_DIR)\alpha\dl.obj \
+    $(_OBJ_DIR)\alpha\fat.obj \
+    $(_OBJ_DIR)\alpha\header.obj \
+    $(_OBJ_DIR)\alpha\msf.obj \
+    $(_OBJ_DIR)\alpha\msfnew.obj \
+    $(_OBJ_DIR)\alpha\mstream.obj \
+    $(_OBJ_DIR)\alpha\page.obj \
+    $(_OBJ_DIR)\alpha\pbstream.obj \
+    $(_OBJ_DIR)\alpha\sstream.obj \
+    $(_OBJ_DIR)\alpha\tstream.obj \
+    $(_OBJ_DIR)\alpha\vect.obj \
+    $(_OBJ_DIR)\alpha\wep.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\cache.obj \
+    $(_OBJ_DIR)\mips\difat.obj \
+    $(_OBJ_DIR)\mips\dir.obj \
+    $(_OBJ_DIR)\mips\dirp.obj \
+    $(_OBJ_DIR)\mips\dl.obj \
+    $(_OBJ_DIR)\mips\fat.obj \
+    $(_OBJ_DIR)\mips\header.obj \
+    $(_OBJ_DIR)\mips\msf.obj \
+    $(_OBJ_DIR)\mips\msfnew.obj \
+    $(_OBJ_DIR)\mips\mstream.obj \
+    $(_OBJ_DIR)\mips\page.obj \
+    $(_OBJ_DIR)\mips\pbstream.obj \
+    $(_OBJ_DIR)\mips\sstream.obj \
+    $(_OBJ_DIR)\mips\tstream.obj \
+    $(_OBJ_DIR)\mips\vect.obj \
+    $(_OBJ_DIR)\mips\wep.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cache.obj \
+    $(_OBJ_DIR)\i386\difat.obj \
+    $(_OBJ_DIR)\i386\dir.obj \
+    $(_OBJ_DIR)\i386\dirp.obj \
+    $(_OBJ_DIR)\i386\dl.obj \
+    $(_OBJ_DIR)\i386\fat.obj \
+    $(_OBJ_DIR)\i386\header.obj \
+    $(_OBJ_DIR)\i386\msf.obj \
+    $(_OBJ_DIR)\i386\msfnew.obj \
+    $(_OBJ_DIR)\i386\mstream.obj \
+    $(_OBJ_DIR)\i386\page.obj \
+    $(_OBJ_DIR)\i386\pbstream.obj \
+    $(_OBJ_DIR)\i386\sstream.obj \
+    $(_OBJ_DIR)\i386\tstream.obj \
+    $(_OBJ_DIR)\i386\vect.obj \
+    $(_OBJ_DIR)\i386\wep.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\cache.obj \
+    $(_OBJ_DIR)\ppc\difat.obj \
+    $(_OBJ_DIR)\ppc\dir.obj \
+    $(_OBJ_DIR)\ppc\dirp.obj \
+    $(_OBJ_DIR)\ppc\dl.obj \
+    $(_OBJ_DIR)\ppc\fat.obj \
+    $(_OBJ_DIR)\ppc\header.obj \
+    $(_OBJ_DIR)\ppc\msf.obj \
+    $(_OBJ_DIR)\ppc\msfnew.obj \
+    $(_OBJ_DIR)\ppc\mstream.obj \
+    $(_OBJ_DIR)\ppc\page.obj \
+    $(_OBJ_DIR)\ppc\pbstream.obj \
+    $(_OBJ_DIR)\ppc\sstream.obj \
+    $(_OBJ_DIR)\ppc\tstream.obj \
+    $(_OBJ_DIR)\ppc\vect.obj \
+    $(_OBJ_DIR)\ppc\wep.obj
+
+PASS0_PPC_OBJECTS=
+

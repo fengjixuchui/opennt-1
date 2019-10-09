@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\propapi.obj \
+    $(_OBJ_DIR)\alpha\propstg.obj \
+    $(_OBJ_DIR)\alpha\psetstg.obj \
+    $(_OBJ_DIR)\alpha\utils.obj \
+    $(_OBJ_DIR)\alpha\reserved.obj \
+    $(_OBJ_DIR)\alpha\cfmapstm.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\propapi.obj \
+    $(_OBJ_DIR)\mips\propstg.obj \
+    $(_OBJ_DIR)\mips\psetstg.obj \
+    $(_OBJ_DIR)\mips\utils.obj \
+    $(_OBJ_DIR)\mips\reserved.obj \
+    $(_OBJ_DIR)\mips\cfmapstm.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\propapi.obj \
+    $(_OBJ_DIR)\i386\propstg.obj \
+    $(_OBJ_DIR)\i386\psetstg.obj \
+    $(_OBJ_DIR)\i386\utils.obj \
+    $(_OBJ_DIR)\i386\reserved.obj \
+    $(_OBJ_DIR)\i386\cfmapstm.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\propapi.obj \
+    $(_OBJ_DIR)\ppc\propstg.obj \
+    $(_OBJ_DIR)\ppc\psetstg.obj \
+    $(_OBJ_DIR)\ppc\utils.obj \
+    $(_OBJ_DIR)\ppc\reserved.obj \
+    $(_OBJ_DIR)\ppc\cfmapstm.obj
+
+PASS0_PPC_OBJECTS=
+

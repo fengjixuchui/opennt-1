@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\lance.res \
+    $(_OBJ_DIR)\alpha\lance.obj \
+    $(_OBJ_DIR)\alpha\send.obj \
+    $(_OBJ_DIR)\alpha\transfer.obj \
+    $(_OBJ_DIR)\alpha\details.obj \
+    $(_OBJ_DIR)\alpha\dectc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\lance.res \
+    $(_OBJ_DIR)\mips\lance.obj \
+    $(_OBJ_DIR)\mips\send.obj \
+    $(_OBJ_DIR)\mips\transfer.obj \
+    $(_OBJ_DIR)\mips\details.obj \
+    $(_OBJ_DIR)\mips\dectc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\lance.res \
+    $(_OBJ_DIR)\i386\lance.obj \
+    $(_OBJ_DIR)\i386\send.obj \
+    $(_OBJ_DIR)\i386\transfer.obj \
+    $(_OBJ_DIR)\i386\details.obj \
+    $(_OBJ_DIR)\i386\dectc.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\lance.res \
+    $(_OBJ_DIR)\ppc\lance.obj \
+    $(_OBJ_DIR)\ppc\send.obj \
+    $(_OBJ_DIR)\ppc\transfer.obj \
+    $(_OBJ_DIR)\ppc\details.obj \
+    $(_OBJ_DIR)\ppc\dectc.obj
+
+PASS0_PPC_OBJECTS=
+

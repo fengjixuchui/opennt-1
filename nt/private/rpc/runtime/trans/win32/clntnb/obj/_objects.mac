@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\rpcltc5.res \
+    $(_OBJ_DIR)\alpha\nbltclnt.obj \
+    $(_OBJ_DIR)\alpha\netbcom.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\rpcltc5.res \
+    $(_OBJ_DIR)\mips\nbltclnt.obj \
+    $(_OBJ_DIR)\mips\netbcom.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\rpcltc5.res \
+    $(_OBJ_DIR)\i386\nbltclnt.obj \
+    $(_OBJ_DIR)\i386\netbcom.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\rpcltc5.res \
+    $(_OBJ_DIR)\ppc\nbltclnt.obj \
+    $(_OBJ_DIR)\ppc\netbcom.obj
+
+PASS0_PPC_OBJECTS=
+

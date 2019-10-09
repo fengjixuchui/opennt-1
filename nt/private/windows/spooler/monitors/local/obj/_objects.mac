@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\localmon.res \
+    $(_OBJ_DIR)\alpha\localmon.obj \
+    $(_OBJ_DIR)\alpha\winspool.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\dialogs.obj \
+    $(_OBJ_DIR)\alpha\config.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\localmon.res \
+    $(_OBJ_DIR)\mips\localmon.obj \
+    $(_OBJ_DIR)\mips\winspool.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\dialogs.obj \
+    $(_OBJ_DIR)\mips\config.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\localmon.res \
+    $(_OBJ_DIR)\i386\localmon.obj \
+    $(_OBJ_DIR)\i386\winspool.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\dialogs.obj \
+    $(_OBJ_DIR)\i386\config.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\localmon.res \
+    $(_OBJ_DIR)\ppc\localmon.obj \
+    $(_OBJ_DIR)\ppc\winspool.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\dialogs.obj \
+    $(_OBJ_DIR)\ppc\config.obj
+
+PASS0_PPC_OBJECTS=
+

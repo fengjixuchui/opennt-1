@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\autoconv.res \
+    $(_OBJ_DIR)\alpha\autoconv.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\autoconv.res \
+    $(_OBJ_DIR)\mips\autoconv.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\autoconv.res \
+    $(_OBJ_DIR)\i386\autoconv.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\autoconv.res \
+    $(_OBJ_DIR)\ppc\autoconv.obj
+
+PASS0_PPC_OBJECTS=
+

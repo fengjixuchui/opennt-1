@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\winrange.obj \
+    $(_OBJ_DIR)\alpha\pcmdev.obj \
+    $(_OBJ_DIR)\alpha\support.obj \
+    $(_OBJ_DIR)\alpha\getconf.obj \
+    $(_OBJ_DIR)\alpha\reslist.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\winrange.obj \
+    $(_OBJ_DIR)\mips\pcmdev.obj \
+    $(_OBJ_DIR)\mips\support.obj \
+    $(_OBJ_DIR)\mips\getconf.obj \
+    $(_OBJ_DIR)\mips\reslist.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\winrange.obj \
+    $(_OBJ_DIR)\i386\pcmdev.obj \
+    $(_OBJ_DIR)\i386\support.obj \
+    $(_OBJ_DIR)\i386\getconf.obj \
+    $(_OBJ_DIR)\i386\reslist.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\winrange.obj \
+    $(_OBJ_DIR)\ppc\pcmdev.obj \
+    $(_OBJ_DIR)\ppc\support.obj \
+    $(_OBJ_DIR)\ppc\getconf.obj \
+    $(_OBJ_DIR)\ppc\reslist.obj
+
+PASS0_PPC_OBJECTS=
+

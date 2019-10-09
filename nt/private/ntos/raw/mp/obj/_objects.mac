@@ -1,0 +1,56 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cleanup.obj \
+    $(_OBJ_DIR)\alpha\close.obj \
+    $(_OBJ_DIR)\alpha\create.obj \
+    $(_OBJ_DIR)\alpha\fileinfo.obj \
+    $(_OBJ_DIR)\alpha\fsctrl.obj \
+    $(_OBJ_DIR)\alpha\strucsup.obj \
+    $(_OBJ_DIR)\alpha\rawdisp.obj \
+    $(_OBJ_DIR)\alpha\rawinit.obj \
+    $(_OBJ_DIR)\alpha\readwrit.obj \
+    $(_OBJ_DIR)\alpha\volinfo.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\cleanup.obj \
+    $(_OBJ_DIR)\mips\close.obj \
+    $(_OBJ_DIR)\mips\create.obj \
+    $(_OBJ_DIR)\mips\fileinfo.obj \
+    $(_OBJ_DIR)\mips\fsctrl.obj \
+    $(_OBJ_DIR)\mips\strucsup.obj \
+    $(_OBJ_DIR)\mips\rawdisp.obj \
+    $(_OBJ_DIR)\mips\rawinit.obj \
+    $(_OBJ_DIR)\mips\readwrit.obj \
+    $(_OBJ_DIR)\mips\volinfo.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cleanup.obj \
+    $(_OBJ_DIR)\i386\close.obj \
+    $(_OBJ_DIR)\i386\create.obj \
+    $(_OBJ_DIR)\i386\fileinfo.obj \
+    $(_OBJ_DIR)\i386\fsctrl.obj \
+    $(_OBJ_DIR)\i386\strucsup.obj \
+    $(_OBJ_DIR)\i386\rawdisp.obj \
+    $(_OBJ_DIR)\i386\rawinit.obj \
+    $(_OBJ_DIR)\i386\readwrit.obj \
+    $(_OBJ_DIR)\i386\volinfo.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\cleanup.obj \
+    $(_OBJ_DIR)\ppc\close.obj \
+    $(_OBJ_DIR)\ppc\create.obj \
+    $(_OBJ_DIR)\ppc\fileinfo.obj \
+    $(_OBJ_DIR)\ppc\fsctrl.obj \
+    $(_OBJ_DIR)\ppc\strucsup.obj \
+    $(_OBJ_DIR)\ppc\rawdisp.obj \
+    $(_OBJ_DIR)\ppc\rawinit.obj \
+    $(_OBJ_DIR)\ppc\readwrit.obj \
+    $(_OBJ_DIR)\ppc\volinfo.obj
+
+PASS0_PPC_OBJECTS=
+

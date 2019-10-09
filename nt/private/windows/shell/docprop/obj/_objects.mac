@@ -1,0 +1,68 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\docprop.res \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\offglue.obj \
+    $(_OBJ_DIR)\alpha\propdlg.obj \
+    $(_OBJ_DIR)\alpha\propio.obj \
+    $(_OBJ_DIR)\alpha\propmisc.obj \
+    $(_OBJ_DIR)\alpha\sinfo.obj \
+    $(_OBJ_DIR)\alpha\docsum.obj \
+    $(_OBJ_DIR)\alpha\userdef.obj \
+    $(_OBJ_DIR)\alpha\defclsf.obj \
+    $(_OBJ_DIR)\alpha\newglue.obj \
+    $(_OBJ_DIR)\alpha\docprop.obj \
+    $(_OBJ_DIR)\alpha\propvar.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\docprop.res \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\offglue.obj \
+    $(_OBJ_DIR)\mips\propdlg.obj \
+    $(_OBJ_DIR)\mips\propio.obj \
+    $(_OBJ_DIR)\mips\propmisc.obj \
+    $(_OBJ_DIR)\mips\sinfo.obj \
+    $(_OBJ_DIR)\mips\docsum.obj \
+    $(_OBJ_DIR)\mips\userdef.obj \
+    $(_OBJ_DIR)\mips\defclsf.obj \
+    $(_OBJ_DIR)\mips\newglue.obj \
+    $(_OBJ_DIR)\mips\docprop.obj \
+    $(_OBJ_DIR)\mips\propvar.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\docprop.res \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\offglue.obj \
+    $(_OBJ_DIR)\i386\propdlg.obj \
+    $(_OBJ_DIR)\i386\propio.obj \
+    $(_OBJ_DIR)\i386\propmisc.obj \
+    $(_OBJ_DIR)\i386\sinfo.obj \
+    $(_OBJ_DIR)\i386\docsum.obj \
+    $(_OBJ_DIR)\i386\userdef.obj \
+    $(_OBJ_DIR)\i386\defclsf.obj \
+    $(_OBJ_DIR)\i386\newglue.obj \
+    $(_OBJ_DIR)\i386\docprop.obj \
+    $(_OBJ_DIR)\i386\propvar.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\docprop.res \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\offglue.obj \
+    $(_OBJ_DIR)\ppc\propdlg.obj \
+    $(_OBJ_DIR)\ppc\propio.obj \
+    $(_OBJ_DIR)\ppc\propmisc.obj \
+    $(_OBJ_DIR)\ppc\sinfo.obj \
+    $(_OBJ_DIR)\ppc\docsum.obj \
+    $(_OBJ_DIR)\ppc\userdef.obj \
+    $(_OBJ_DIR)\ppc\defclsf.obj \
+    $(_OBJ_DIR)\ppc\newglue.obj \
+    $(_OBJ_DIR)\ppc\docprop.obj \
+    $(_OBJ_DIR)\ppc\propvar.obj
+
+PASS0_PPC_OBJECTS=
+

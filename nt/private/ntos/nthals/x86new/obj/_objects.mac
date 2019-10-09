@@ -1,0 +1,88 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\emulate.obj \
+    $(_OBJ_DIR)\mips\addops.obj \
+    $(_OBJ_DIR)\mips\asciiops.obj \
+    $(_OBJ_DIR)\mips\bitops.obj \
+    $(_OBJ_DIR)\mips\condops.obj \
+    $(_OBJ_DIR)\mips\ctrlops.obj \
+    $(_OBJ_DIR)\mips\data.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\divops.obj \
+    $(_OBJ_DIR)\mips\inoutops.obj \
+    $(_OBJ_DIR)\mips\jmpops.obj \
+    $(_OBJ_DIR)\mips\logops.obj \
+    $(_OBJ_DIR)\mips\miscops.obj \
+    $(_OBJ_DIR)\mips\moveops.obj \
+    $(_OBJ_DIR)\mips\mulops.obj \
+    $(_OBJ_DIR)\mips\operand.obj \
+    $(_OBJ_DIR)\mips\pcibios.obj \
+    $(_OBJ_DIR)\mips\regmode.obj \
+    $(_OBJ_DIR)\mips\setops.obj \
+    $(_OBJ_DIR)\mips\shiftops.obj \
+    $(_OBJ_DIR)\mips\stackops.obj \
+    $(_OBJ_DIR)\mips\stringop.obj \
+    $(_OBJ_DIR)\mips\utility.obj \
+    $(_OBJ_DIR)\mips\x86bios.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\emulate.obj \
+    $(_OBJ_DIR)\i386\addops.obj \
+    $(_OBJ_DIR)\i386\asciiops.obj \
+    $(_OBJ_DIR)\i386\bitops.obj \
+    $(_OBJ_DIR)\i386\condops.obj \
+    $(_OBJ_DIR)\i386\ctrlops.obj \
+    $(_OBJ_DIR)\i386\data.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\divops.obj \
+    $(_OBJ_DIR)\i386\inoutops.obj \
+    $(_OBJ_DIR)\i386\jmpops.obj \
+    $(_OBJ_DIR)\i386\logops.obj \
+    $(_OBJ_DIR)\i386\miscops.obj \
+    $(_OBJ_DIR)\i386\moveops.obj \
+    $(_OBJ_DIR)\i386\mulops.obj \
+    $(_OBJ_DIR)\i386\operand.obj \
+    $(_OBJ_DIR)\i386\pcibios.obj \
+    $(_OBJ_DIR)\i386\regmode.obj \
+    $(_OBJ_DIR)\i386\setops.obj \
+    $(_OBJ_DIR)\i386\shiftops.obj \
+    $(_OBJ_DIR)\i386\stackops.obj \
+    $(_OBJ_DIR)\i386\stringop.obj \
+    $(_OBJ_DIR)\i386\utility.obj \
+    $(_OBJ_DIR)\i386\x86bios.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\emulate.obj \
+    $(_OBJ_DIR)\ppc\addops.obj \
+    $(_OBJ_DIR)\ppc\asciiops.obj \
+    $(_OBJ_DIR)\ppc\bitops.obj \
+    $(_OBJ_DIR)\ppc\condops.obj \
+    $(_OBJ_DIR)\ppc\ctrlops.obj \
+    $(_OBJ_DIR)\ppc\data.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\divops.obj \
+    $(_OBJ_DIR)\ppc\inoutops.obj \
+    $(_OBJ_DIR)\ppc\jmpops.obj \
+    $(_OBJ_DIR)\ppc\logops.obj \
+    $(_OBJ_DIR)\ppc\miscops.obj \
+    $(_OBJ_DIR)\ppc\moveops.obj \
+    $(_OBJ_DIR)\ppc\mulops.obj \
+    $(_OBJ_DIR)\ppc\operand.obj \
+    $(_OBJ_DIR)\ppc\pcibios.obj \
+    $(_OBJ_DIR)\ppc\regmode.obj \
+    $(_OBJ_DIR)\ppc\setops.obj \
+    $(_OBJ_DIR)\ppc\shiftops.obj \
+    $(_OBJ_DIR)\ppc\stackops.obj \
+    $(_OBJ_DIR)\ppc\stringop.obj \
+    $(_OBJ_DIR)\ppc\utility.obj \
+    $(_OBJ_DIR)\ppc\x86bios.obj
+
+PASS0_PPC_OBJECTS=
+

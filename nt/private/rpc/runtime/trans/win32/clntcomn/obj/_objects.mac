@@ -1,0 +1,56 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\rpcltccm.res \
+    $(_OBJ_DIR)\alpha\gethost.obj \
+    $(_OBJ_DIR)\alpha\nbltclnt.obj \
+    $(_OBJ_DIR)\alpha\cmltclnt.obj \
+    $(_OBJ_DIR)\alpha\clntat.obj \
+    $(_OBJ_DIR)\alpha\spxclnt.obj \
+    $(_OBJ_DIR)\alpha\atname.obj \
+    $(_OBJ_DIR)\alpha\dgudpc.obj \
+    $(_OBJ_DIR)\alpha\dgipxc.obj \
+    $(_OBJ_DIR)\alpha\common.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\rpcltccm.res \
+    $(_OBJ_DIR)\mips\gethost.obj \
+    $(_OBJ_DIR)\mips\nbltclnt.obj \
+    $(_OBJ_DIR)\mips\cmltclnt.obj \
+    $(_OBJ_DIR)\mips\clntat.obj \
+    $(_OBJ_DIR)\mips\spxclnt.obj \
+    $(_OBJ_DIR)\mips\atname.obj \
+    $(_OBJ_DIR)\mips\dgudpc.obj \
+    $(_OBJ_DIR)\mips\dgipxc.obj \
+    $(_OBJ_DIR)\mips\common.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\rpcltccm.res \
+    $(_OBJ_DIR)\i386\gethost.obj \
+    $(_OBJ_DIR)\i386\nbltclnt.obj \
+    $(_OBJ_DIR)\i386\cmltclnt.obj \
+    $(_OBJ_DIR)\i386\clntat.obj \
+    $(_OBJ_DIR)\i386\spxclnt.obj \
+    $(_OBJ_DIR)\i386\atname.obj \
+    $(_OBJ_DIR)\i386\dgudpc.obj \
+    $(_OBJ_DIR)\i386\dgipxc.obj \
+    $(_OBJ_DIR)\i386\common.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\rpcltccm.res \
+    $(_OBJ_DIR)\ppc\gethost.obj \
+    $(_OBJ_DIR)\ppc\nbltclnt.obj \
+    $(_OBJ_DIR)\ppc\cmltclnt.obj \
+    $(_OBJ_DIR)\ppc\clntat.obj \
+    $(_OBJ_DIR)\ppc\spxclnt.obj \
+    $(_OBJ_DIR)\ppc\atname.obj \
+    $(_OBJ_DIR)\ppc\dgudpc.obj \
+    $(_OBJ_DIR)\ppc\dgipxc.obj \
+    $(_OBJ_DIR)\ppc\common.obj
+
+PASS0_PPC_OBJECTS=
+

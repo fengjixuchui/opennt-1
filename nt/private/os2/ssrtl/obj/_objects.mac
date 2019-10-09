@@ -1,0 +1,45 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\shandle.obj \
+    $(_OBJ_DIR)\alpha\qhandle.obj \
+    $(_OBJ_DIR)\alpha\nls.obj \
+    $(_OBJ_DIR)\alpha\ntmap.obj \
+    $(_OBJ_DIR)\alpha\consys.obj \
+    $(_OBJ_DIR)\alpha\sswinapi.obj \
+    $(_OBJ_DIR)\alpha\datetime.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\shandle.obj \
+    $(_OBJ_DIR)\mips\qhandle.obj \
+    $(_OBJ_DIR)\mips\nls.obj \
+    $(_OBJ_DIR)\mips\ntmap.obj \
+    $(_OBJ_DIR)\mips\consys.obj \
+    $(_OBJ_DIR)\mips\sswinapi.obj \
+    $(_OBJ_DIR)\mips\datetime.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\setjmp.obj \
+    $(_OBJ_DIR)\i386\shandle.obj \
+    $(_OBJ_DIR)\i386\qhandle.obj \
+    $(_OBJ_DIR)\i386\nls.obj \
+    $(_OBJ_DIR)\i386\ntmap.obj \
+    $(_OBJ_DIR)\i386\consys.obj \
+    $(_OBJ_DIR)\i386\sswinapi.obj \
+    $(_OBJ_DIR)\i386\datetime.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\shandle.obj \
+    $(_OBJ_DIR)\ppc\qhandle.obj \
+    $(_OBJ_DIR)\ppc\nls.obj \
+    $(_OBJ_DIR)\ppc\ntmap.obj \
+    $(_OBJ_DIR)\ppc\consys.obj \
+    $(_OBJ_DIR)\ppc\sswinapi.obj \
+    $(_OBJ_DIR)\ppc\datetime.obj
+
+PASS0_PPC_OBJECTS=
+

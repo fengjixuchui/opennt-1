@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\netbt.res \
+    $(_OBJ_DIR)\alpha\ctestuff.obj \
+    $(_OBJ_DIR)\alpha\driver.obj \
+    $(_OBJ_DIR)\alpha\ntisol.obj \
+    $(_OBJ_DIR)\alpha\ntutil.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\tdiaddr.obj \
+    $(_OBJ_DIR)\alpha\tdicnct.obj \
+    $(_OBJ_DIR)\alpha\tdihndlr.obj \
+    $(_OBJ_DIR)\alpha\fileio.obj \
+    $(_OBJ_DIR)\alpha\winsif.obj \
+    $(_OBJ_DIR)\alpha\tdiout.obj \
+    $(_OBJ_DIR)\alpha\ntpnp.obj \
+    $(_OBJ_DIR)\alpha\autodial.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\netbt.res \
+    $(_OBJ_DIR)\mips\ctestuff.obj \
+    $(_OBJ_DIR)\mips\driver.obj \
+    $(_OBJ_DIR)\mips\ntisol.obj \
+    $(_OBJ_DIR)\mips\ntutil.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\tdiaddr.obj \
+    $(_OBJ_DIR)\mips\tdicnct.obj \
+    $(_OBJ_DIR)\mips\tdihndlr.obj \
+    $(_OBJ_DIR)\mips\fileio.obj \
+    $(_OBJ_DIR)\mips\winsif.obj \
+    $(_OBJ_DIR)\mips\tdiout.obj \
+    $(_OBJ_DIR)\mips\ntpnp.obj \
+    $(_OBJ_DIR)\mips\autodial.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\netbt.res \
+    $(_OBJ_DIR)\i386\ctestuff.obj \
+    $(_OBJ_DIR)\i386\driver.obj \
+    $(_OBJ_DIR)\i386\ntisol.obj \
+    $(_OBJ_DIR)\i386\ntutil.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\tdiaddr.obj \
+    $(_OBJ_DIR)\i386\tdicnct.obj \
+    $(_OBJ_DIR)\i386\tdihndlr.obj \
+    $(_OBJ_DIR)\i386\fileio.obj \
+    $(_OBJ_DIR)\i386\winsif.obj \
+    $(_OBJ_DIR)\i386\tdiout.obj \
+    $(_OBJ_DIR)\i386\ntpnp.obj \
+    $(_OBJ_DIR)\i386\autodial.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\netbt.res \
+    $(_OBJ_DIR)\ppc\ctestuff.obj \
+    $(_OBJ_DIR)\ppc\driver.obj \
+    $(_OBJ_DIR)\ppc\ntisol.obj \
+    $(_OBJ_DIR)\ppc\ntutil.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\tdiaddr.obj \
+    $(_OBJ_DIR)\ppc\tdicnct.obj \
+    $(_OBJ_DIR)\ppc\tdihndlr.obj \
+    $(_OBJ_DIR)\ppc\fileio.obj \
+    $(_OBJ_DIR)\ppc\winsif.obj \
+    $(_OBJ_DIR)\ppc\tdiout.obj \
+    $(_OBJ_DIR)\ppc\ntpnp.obj \
+    $(_OBJ_DIR)\ppc\autodial.obj
+
+PASS0_PPC_OBJECTS=
+

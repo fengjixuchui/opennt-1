@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\stress.res \
+    $(_OBJ_DIR)\alpha\stress.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\stress.res \
+    $(_OBJ_DIR)\mips\stress.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\stress.res \
+    $(_OBJ_DIR)\i386\stress.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\stress.res \
+    $(_OBJ_DIR)\ppc\stress.obj
+
+PASS0_PPC_OBJECTS=
+

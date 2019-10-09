@@ -1,0 +1,60 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\devapps.res \
+    $(_OBJ_DIR)\alpha\scsidev.obj \
+    $(_OBJ_DIR)\alpha\device.obj \
+    $(_OBJ_DIR)\alpha\reslist.obj \
+    $(_OBJ_DIR)\alpha\tapedev.obj \
+    $(_OBJ_DIR)\alpha\expcla.obj \
+    $(_OBJ_DIR)\alpha\od_lb.obj \
+    $(_OBJ_DIR)\alpha\resorces.obj \
+    $(_OBJ_DIR)\alpha\mycpl.obj \
+    $(_OBJ_DIR)\alpha\tapsetup.obj \
+    $(_OBJ_DIR)\alpha\debug.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\devapps.res \
+    $(_OBJ_DIR)\mips\scsidev.obj \
+    $(_OBJ_DIR)\mips\device.obj \
+    $(_OBJ_DIR)\mips\reslist.obj \
+    $(_OBJ_DIR)\mips\tapedev.obj \
+    $(_OBJ_DIR)\mips\expcla.obj \
+    $(_OBJ_DIR)\mips\od_lb.obj \
+    $(_OBJ_DIR)\mips\resorces.obj \
+    $(_OBJ_DIR)\mips\mycpl.obj \
+    $(_OBJ_DIR)\mips\tapsetup.obj \
+    $(_OBJ_DIR)\mips\debug.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\devapps.res \
+    $(_OBJ_DIR)\i386\scsidev.obj \
+    $(_OBJ_DIR)\i386\device.obj \
+    $(_OBJ_DIR)\i386\reslist.obj \
+    $(_OBJ_DIR)\i386\tapedev.obj \
+    $(_OBJ_DIR)\i386\expcla.obj \
+    $(_OBJ_DIR)\i386\od_lb.obj \
+    $(_OBJ_DIR)\i386\resorces.obj \
+    $(_OBJ_DIR)\i386\mycpl.obj \
+    $(_OBJ_DIR)\i386\tapsetup.obj \
+    $(_OBJ_DIR)\i386\debug.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\devapps.res \
+    $(_OBJ_DIR)\ppc\scsidev.obj \
+    $(_OBJ_DIR)\ppc\device.obj \
+    $(_OBJ_DIR)\ppc\reslist.obj \
+    $(_OBJ_DIR)\ppc\tapedev.obj \
+    $(_OBJ_DIR)\ppc\expcla.obj \
+    $(_OBJ_DIR)\ppc\od_lb.obj \
+    $(_OBJ_DIR)\ppc\resorces.obj \
+    $(_OBJ_DIR)\ppc\mycpl.obj \
+    $(_OBJ_DIR)\ppc\tapsetup.obj \
+    $(_OBJ_DIR)\ppc\debug.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\rasacd.res \
+    $(_OBJ_DIR)\alpha\ntinit.obj \
+    $(_OBJ_DIR)\alpha\ntdisp.obj \
+    $(_OBJ_DIR)\alpha\api.obj \
+    $(_OBJ_DIR)\alpha\request.obj \
+    $(_OBJ_DIR)\alpha\timer.obj \
+    $(_OBJ_DIR)\alpha\mem.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\rasacd.res \
+    $(_OBJ_DIR)\mips\ntinit.obj \
+    $(_OBJ_DIR)\mips\ntdisp.obj \
+    $(_OBJ_DIR)\mips\api.obj \
+    $(_OBJ_DIR)\mips\request.obj \
+    $(_OBJ_DIR)\mips\timer.obj \
+    $(_OBJ_DIR)\mips\mem.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\rasacd.res \
+    $(_OBJ_DIR)\i386\ntinit.obj \
+    $(_OBJ_DIR)\i386\ntdisp.obj \
+    $(_OBJ_DIR)\i386\api.obj \
+    $(_OBJ_DIR)\i386\request.obj \
+    $(_OBJ_DIR)\i386\timer.obj \
+    $(_OBJ_DIR)\i386\mem.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\rasacd.res \
+    $(_OBJ_DIR)\ppc\ntinit.obj \
+    $(_OBJ_DIR)\ppc\ntdisp.obj \
+    $(_OBJ_DIR)\ppc\api.obj \
+    $(_OBJ_DIR)\ppc\request.obj \
+    $(_OBJ_DIR)\ppc\timer.obj \
+    $(_OBJ_DIR)\ppc\mem.obj
+
+PASS0_PPC_OBJECTS=
+

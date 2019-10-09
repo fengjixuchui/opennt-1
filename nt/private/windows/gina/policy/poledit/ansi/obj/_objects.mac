@@ -1,0 +1,124 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\admincfg.res \
+    $(_OBJ_DIR)\alpha\poledit.obj \
+    $(_OBJ_DIR)\alpha\main.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\strings.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\user.obj \
+    $(_OBJ_DIR)\alpha\infmgr.obj \
+    $(_OBJ_DIR)\alpha\memory.obj \
+    $(_OBJ_DIR)\alpha\parse.obj \
+    $(_OBJ_DIR)\alpha\treeview.obj \
+    $(_OBJ_DIR)\alpha\treectrl.obj \
+    $(_OBJ_DIR)\alpha\listctrl.obj \
+    $(_OBJ_DIR)\alpha\policy.obj \
+    $(_OBJ_DIR)\alpha\settings.obj \
+    $(_OBJ_DIR)\alpha\add.obj \
+    $(_OBJ_DIR)\alpha\view.obj \
+    $(_OBJ_DIR)\alpha\filecmd.obj \
+    $(_OBJ_DIR)\alpha\regutil.obj \
+    $(_OBJ_DIR)\alpha\save.obj \
+    $(_OBJ_DIR)\alpha\load.obj \
+    $(_OBJ_DIR)\alpha\remove.obj \
+    $(_OBJ_DIR)\alpha\options.obj \
+    $(_OBJ_DIR)\alpha\connect.obj \
+    $(_OBJ_DIR)\alpha\listbox.obj \
+    $(_OBJ_DIR)\alpha\copy.obj \
+    $(_OBJ_DIR)\alpha\grouppri.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\admincfg.res \
+    $(_OBJ_DIR)\mips\poledit.obj \
+    $(_OBJ_DIR)\mips\main.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\strings.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\user.obj \
+    $(_OBJ_DIR)\mips\infmgr.obj \
+    $(_OBJ_DIR)\mips\memory.obj \
+    $(_OBJ_DIR)\mips\parse.obj \
+    $(_OBJ_DIR)\mips\treeview.obj \
+    $(_OBJ_DIR)\mips\treectrl.obj \
+    $(_OBJ_DIR)\mips\listctrl.obj \
+    $(_OBJ_DIR)\mips\policy.obj \
+    $(_OBJ_DIR)\mips\settings.obj \
+    $(_OBJ_DIR)\mips\add.obj \
+    $(_OBJ_DIR)\mips\view.obj \
+    $(_OBJ_DIR)\mips\filecmd.obj \
+    $(_OBJ_DIR)\mips\regutil.obj \
+    $(_OBJ_DIR)\mips\save.obj \
+    $(_OBJ_DIR)\mips\load.obj \
+    $(_OBJ_DIR)\mips\remove.obj \
+    $(_OBJ_DIR)\mips\options.obj \
+    $(_OBJ_DIR)\mips\connect.obj \
+    $(_OBJ_DIR)\mips\listbox.obj \
+    $(_OBJ_DIR)\mips\copy.obj \
+    $(_OBJ_DIR)\mips\grouppri.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\admincfg.res \
+    $(_OBJ_DIR)\i386\poledit.obj \
+    $(_OBJ_DIR)\i386\main.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\strings.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\user.obj \
+    $(_OBJ_DIR)\i386\infmgr.obj \
+    $(_OBJ_DIR)\i386\memory.obj \
+    $(_OBJ_DIR)\i386\parse.obj \
+    $(_OBJ_DIR)\i386\treeview.obj \
+    $(_OBJ_DIR)\i386\treectrl.obj \
+    $(_OBJ_DIR)\i386\listctrl.obj \
+    $(_OBJ_DIR)\i386\policy.obj \
+    $(_OBJ_DIR)\i386\settings.obj \
+    $(_OBJ_DIR)\i386\add.obj \
+    $(_OBJ_DIR)\i386\view.obj \
+    $(_OBJ_DIR)\i386\filecmd.obj \
+    $(_OBJ_DIR)\i386\regutil.obj \
+    $(_OBJ_DIR)\i386\save.obj \
+    $(_OBJ_DIR)\i386\load.obj \
+    $(_OBJ_DIR)\i386\remove.obj \
+    $(_OBJ_DIR)\i386\options.obj \
+    $(_OBJ_DIR)\i386\connect.obj \
+    $(_OBJ_DIR)\i386\listbox.obj \
+    $(_OBJ_DIR)\i386\copy.obj \
+    $(_OBJ_DIR)\i386\grouppri.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\admincfg.res \
+    $(_OBJ_DIR)\ppc\poledit.obj \
+    $(_OBJ_DIR)\ppc\main.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\strings.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\user.obj \
+    $(_OBJ_DIR)\ppc\infmgr.obj \
+    $(_OBJ_DIR)\ppc\memory.obj \
+    $(_OBJ_DIR)\ppc\parse.obj \
+    $(_OBJ_DIR)\ppc\treeview.obj \
+    $(_OBJ_DIR)\ppc\treectrl.obj \
+    $(_OBJ_DIR)\ppc\listctrl.obj \
+    $(_OBJ_DIR)\ppc\policy.obj \
+    $(_OBJ_DIR)\ppc\settings.obj \
+    $(_OBJ_DIR)\ppc\add.obj \
+    $(_OBJ_DIR)\ppc\view.obj \
+    $(_OBJ_DIR)\ppc\filecmd.obj \
+    $(_OBJ_DIR)\ppc\regutil.obj \
+    $(_OBJ_DIR)\ppc\save.obj \
+    $(_OBJ_DIR)\ppc\load.obj \
+    $(_OBJ_DIR)\ppc\remove.obj \
+    $(_OBJ_DIR)\ppc\options.obj \
+    $(_OBJ_DIR)\ppc\connect.obj \
+    $(_OBJ_DIR)\ppc\listbox.obj \
+    $(_OBJ_DIR)\ppc\copy.obj \
+    $(_OBJ_DIR)\ppc\grouppri.obj
+
+PASS0_PPC_OBJECTS=
+

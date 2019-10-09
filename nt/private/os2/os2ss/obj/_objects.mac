@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\os2ss.res \
+    $(_OBJ_DIR)\alpha\sbinit.obj \
+    $(_OBJ_DIR)\alpha\sbreqst.obj \
+    $(_OBJ_DIR)\alpha\sbcnfg.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\os2ss.res \
+    $(_OBJ_DIR)\mips\sbinit.obj \
+    $(_OBJ_DIR)\mips\sbreqst.obj \
+    $(_OBJ_DIR)\mips\sbcnfg.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\os2ss.res \
+    $(_OBJ_DIR)\i386\sbinit.obj \
+    $(_OBJ_DIR)\i386\sbreqst.obj \
+    $(_OBJ_DIR)\i386\sbcnfg.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\os2ss.res \
+    $(_OBJ_DIR)\ppc\sbinit.obj \
+    $(_OBJ_DIR)\ppc\sbreqst.obj \
+    $(_OBJ_DIR)\ppc\sbcnfg.obj
+
+PASS0_PPC_OBJECTS=
+

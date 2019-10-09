@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dbgdde.obj \
+    $(_OBJ_DIR)\alpha\ntdebug.obj \
+    $(_OBJ_DIR)\alpha\proflspt.obj \
+    $(_OBJ_DIR)\alpha\udspt.obj \
+    $(_OBJ_DIR)\alpha\hexdump.obj \
+    $(_OBJ_DIR)\alpha\nddelog.obj \
+    $(_OBJ_DIR)\alpha\nscommn.obj \
+    $(_OBJ_DIR)\alpha\dump.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dbgdde.obj \
+    $(_OBJ_DIR)\mips\ntdebug.obj \
+    $(_OBJ_DIR)\mips\proflspt.obj \
+    $(_OBJ_DIR)\mips\udspt.obj \
+    $(_OBJ_DIR)\mips\hexdump.obj \
+    $(_OBJ_DIR)\mips\nddelog.obj \
+    $(_OBJ_DIR)\mips\nscommn.obj \
+    $(_OBJ_DIR)\mips\dump.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dbgdde.obj \
+    $(_OBJ_DIR)\i386\ntdebug.obj \
+    $(_OBJ_DIR)\i386\proflspt.obj \
+    $(_OBJ_DIR)\i386\udspt.obj \
+    $(_OBJ_DIR)\i386\hexdump.obj \
+    $(_OBJ_DIR)\i386\nddelog.obj \
+    $(_OBJ_DIR)\i386\nscommn.obj \
+    $(_OBJ_DIR)\i386\dump.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dbgdde.obj \
+    $(_OBJ_DIR)\ppc\ntdebug.obj \
+    $(_OBJ_DIR)\ppc\proflspt.obj \
+    $(_OBJ_DIR)\ppc\udspt.obj \
+    $(_OBJ_DIR)\ppc\hexdump.obj \
+    $(_OBJ_DIR)\ppc\nddelog.obj \
+    $(_OBJ_DIR)\ppc\nscommn.obj \
+    $(_OBJ_DIR)\ppc\dump.obj
+
+PASS0_PPC_OBJECTS=
+

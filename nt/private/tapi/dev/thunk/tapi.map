@@ -1,0 +1,746 @@
+
+ tapi
+
+ Start     Length     Name                   Class
+ 0001:0000 0020AH     _TEXT                  CODE
+ 0001:020A 00074H     INIT_TEXT              CODE
+ 0001:027E 03127H     THUNK_TEXT             CODE
+ 0002:0000 00010H     NULL                   BEGDATA
+ 0002:0010 00B08H     _DATA                  DATA
+ 0002:0B18 00000H     CDATA                  DATA
+ 0002:0B18 00000H     XIFB                   DATA
+ 0002:0B18 00000H     XIF                    DATA
+ 0002:0B18 00000H     XIFE                   DATA
+ 0002:0B18 00000H     XIB                    DATA
+ 0002:0B18 00000H     XI                     DATA
+ 0002:0B18 00000H     XIE                    DATA
+ 0002:0B18 00000H     XPB                    DATA
+ 0002:0B18 00000H     XP                     DATA
+ 0002:0B18 00000H     XPE                    DATA
+ 0002:0B18 00000H     XCB                    DATA
+ 0002:0B18 00000H     XC                     DATA
+ 0002:0B18 00000H     XCE                    DATA
+ 0002:0B18 00000H     XCFB                   DATA
+ 0002:0B18 00000H     XCF                    DATA
+ 0002:0B18 00000H     XCFE                   DATA
+ 0002:0B18 0000CH     DBDATA                 DATA
+ 0002:0B24 00000H     CONST                  CONST
+ 0002:0B24 00019H     HDR                    MSG
+ 0002:0B3D 00082H     MSG                    MSG
+ 0002:0BBF 00002H     PAD                    MSG
+ 0002:0BC1 00001H     EPAD                   MSG
+ 0002:0BD0 00000H     _BSS                   BSS
+ 0002:0BD0 00000H     XOB                    BSS
+ 0002:0BD0 00000H     XO                     BSS
+ 0002:0BD0 00000H     XOE                    BSS
+ 0002:0BD0 001DAH     c_common               BSS
+
+ Origin   Group
+ 0002:0   DGROUP
+
+ Address   Export                  Alias
+
+ 0001:330C LAddrParamsInited       LAddrParamsInited
+ 0001:027E LibMain                 LibMain
+ 0001:08A5 lineAccept              lineAccept
+ 0001:08F5 lineAddProvider         lineAddProvider
+ 0001:0944 lineAddToConference     lineAddToConference
+ 0001:098E lineAnswer              lineAnswer
+ 0001:09DE lineBlindTransfer       lineBlindTransfer
+ 0001:0A2E lineClose               lineClose
+ 0001:0A72 lineCompleteCall        lineCompleteCall
+ 0001:0AEA lineCompleteTransfer    lineCompleteTransfer
+ 0001:0B6B lineConfigDialog        lineConfigDialog
+ 0001:0C1B lineConfigProvider      lineConfigProvider
+ 0001:0C64 lineDeallocateCall      lineDeallocateCall
+ 0001:0CA8 lineDevSpecific         lineDevSpecific
+ 0001:0D27 lineDevSpecificFeature  lineDevSpecificFeature
+ 0001:0DA0 lineDial                lineDial
+ 0001:0DF0 lineDrop                lineDrop
+ 0001:0E40 lineForward             lineForward
+ 0001:0ECA lineGatherDigits        lineGatherDigits
+ 0001:0F60 lineGenerateDigits      lineGenerateDigits
+ 0001:0FB6 lineGenerateTone        lineGenerateTone
+ 0001:1012 lineGetAddressCaps      lineGetAddressCaps
+ 0001:109E lineGetAddressID        lineGetAddressID
+ 0001:10FA lineGetAddressStatus    lineGetAddressStatus
+ 0001:114A lineGetAppPriority      lineGetAppPriority
+ 0001:11AC lineGetCallInfo         lineGetCallInfo
+ 0001:11F6 lineGetCallStatus       lineGetCallStatus
+ 0001:1240 lineGetConfRelatedCalls  lineGetConfRelatedCalls
+ 0001:128A lineGetCountry          lineGetCountry
+ 0001:12DA lineGetDevCaps          lineGetDevCaps
+ 0001:1360 lineGetDevConfig        lineGetDevConfig
+ 0001:13B0 lineGetIcon             lineGetIcon
+ 0001:1400 lineGetID               lineGetID
+ 0001:1462 lineGetLineDevStatus    lineGetLineDevStatus
+ 0001:14AC lineGetNewCalls         lineGetNewCalls
+ 0001:1502 lineGetNumRings         lineGetNumRings
+ 0001:1552 lineGetProviderList     lineGetProviderList
+ 0001:159C lineGetRequest          lineGetRequest
+ 0001:1616 lineGetStatusMessages   lineGetStatusMessages
+ 0001:1666 lineGetTranslateCaps    lineGetTranslateCaps
+ 0001:170B lineHandoff             lineHandoff
+ 0001:175B lineHold                lineHold
+ 0001:179F lineInitialize          lineInitialize
+ 0001:17DF lineMakeCall            lineMakeCall
+ 0001:185D lineMonitorDigits       lineMonitorDigits
+ 0001:18A7 lineMonitorMedia        lineMonitorMedia
+ 0001:18F1 lineMonitorTones        lineMonitorTones
+ 0001:1941 lineNegotiateAPIVersion  lineNegotiateAPIVersion
+ 0001:19CD lineNegotiateExtVersion  lineNegotiateExtVersion
+ 0001:1A59 lineOpen                lineOpen
+ 0001:1AF7 linePark                linePark
+ 0001:1B4D linePickup              linePickup
+ 0001:1BCB linePrepareAddToConference  linePrepareAddToConference
+ 0001:1C3D lineRedirect            lineRedirect
+ 0001:1C8D lineRegisterRequestRecipient  lineRegisterRequestRecipient
+ 0001:1D0D lineReleaseUserUserInfo  lineReleaseUserUserInfo
+ 0001:1D51 lineRemoveFromConference  lineRemoveFromConference
+ 0001:1D95 lineRemoveProvider      lineRemoveProvider
+ 0001:1DDE lineSecureCall          lineSecureCall
+ 0001:1E22 lineSendUserUserInfo    lineSendUserUserInfo
+ 0001:1E72 lineSetAppPriority      lineSetAppPriority
+ 0001:1ED4 lineSetAppSpecific      lineSetAppSpecific
+ 0001:1F1E lineSetCallParams       lineSetCallParams
+ 0001:1F7A lineSetCallPrivilege    lineSetCallPrivilege
+ 0001:1FC4 lineSetCurrentLocation  lineSetCurrentLocation
+ 0001:2038 lineSetDevConfig        lineSetDevConfig
+ 0001:208E lineSetMediaControl     lineSetMediaControl
+ 0001:2115 lineSetMediaMode        lineSetMediaMode
+ 0001:215F lineSetNumRings         lineSetNumRings
+ 0001:21AF lineSetStatusMessages   lineSetStatusMessages
+ 0001:21FF lineSetTerminal         lineSetTerminal
+ 0001:2267 lineSetTollList         lineSetTollList
+ 0001:22E7 lineSetupConference     lineSetupConference
+ 0001:2380 lineSetupTransfer       lineSetupTransfer
+ 0001:23F2 lineShutdown            lineShutdown
+ 0001:248F lineSwapHold            lineSwapHold
+ 0001:24D9 lineTranslateAddress    lineTranslateAddress
+ 0001:256B lineTranslateDialog     lineTranslateDialog
+ 0001:25F0 lineUncompleteCall      lineUncompleteCall
+ 0001:263A lineUnhold              lineUnhold
+ 0001:267E lineUnpark              lineUnpark
+ 0001:3350 LOpenDialAsst           LOpenDialAsst
+ 0001:26F6 phoneClose              phoneClose
+ 0001:273A phoneConfigDialog       phoneConfigDialog
+ 0001:2789 phoneDevSpecific        phoneDevSpecific
+ 0001:27FC phoneGetButtonInfo      phoneGetButtonInfo
+ 0001:284C phoneGetData            phoneGetData
+ 0001:28A2 phoneGetDevCaps         phoneGetDevCaps
+ 0001:2928 phoneGetDisplay         phoneGetDisplay
+ 0001:2972 phoneGetGain            phoneGetGain
+ 0001:29C2 phoneGetHookSwitch      phoneGetHookSwitch
+ 0001:2A0C phoneGetIcon            phoneGetIcon
+ 0001:2A5C phoneGetID              phoneGetID
+ 0001:2AAC phoneGetLamp            phoneGetLamp
+ 0001:2AFC phoneGetRing            phoneGetRing
+ 0001:2B4C phoneGetStatus          phoneGetStatus
+ 0001:2B96 phoneGetStatusMessages  phoneGetStatusMessages
+ 0001:2BEC phoneGetVolume          phoneGetVolume
+ 0001:2C3C phoneInitialize         phoneInitialize
+ 0001:2C7C phoneNegotiateAPIVersion  phoneNegotiateAPIVersion
+ 0001:2D08 phoneNegotiateExtVersion  phoneNegotiateExtVersion
+ 0001:2D94 phoneOpen               phoneOpen
+ 0001:2E26 phoneSetButtonInfo      phoneSetButtonInfo
+ 0001:2E76 phoneSetData            phoneSetData
+ 0001:2ECC phoneSetDisplay         phoneSetDisplay
+ 0001:2F28 phoneSetGain            phoneSetGain
+ 0001:2F78 phoneSetHookSwitch      phoneSetHookSwitch
+ 0001:2FC8 phoneSetLamp            phoneSetLamp
+ 0001:3018 phoneSetRing            phoneSetRing
+ 0001:3068 phoneSetStatusMessages  phoneSetStatusMessages
+ 0001:30BE phoneSetVolume          phoneSetVolume
+ 0001:310E phoneShutdown           phoneShutdown
+ 0001:03E0 Tapi16HiddenWndProc     Tapi16HiddenWndProc
+ 0001:32C2 tapiGetLocationInfo     tapiGetLocationInfo
+ 0001:327A tapiRequestDrop         tapiRequestDrop
+ 0001:31AB tapiRequestMakeCall     tapiRequestMakeCall
+ 0001:3201 tapiRequestMediaCall    tapiRequestMediaCall
+ 0001:03B2 WEP                     WEP
+
+  Address         Publics by Name
+
+ 0000:0000  Imp  CALLPROC32W          (KERNEL.CALLPROC32W)
+ 0000:0000  Imp  CREATEWINDOW         (USER.41)
+ 0000:0000  Imp  DEFWINDOWPROC        (USER.107)
+ 0000:0000  Imp  DESTROYWINDOW        (USER.53)
+ 0000:0000  Imp  FREELIBRARY32W       (KERNEL.FREELIBRARY32W)
+ 0000:0000  Imp  GETMODULEFILENAME    (KERNEL.49)
+ 0000:0000  Imp  GETMODULEUSAGE       (KERNEL.48)
+ 0000:0000  Imp  GETPROCADDRESS32W    (KERNEL.GETPROCADDRESS32W)
+ 0000:0000  Imp  GETWINDOWLONG        (USER.135)
+ 0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
+ 0000:0000  Imp  GLOBALFREE           (KERNEL.17)
+ 0000:0000  Imp  GLOBALREALLOC        (KERNEL.16)
+ 0000:0000  Imp  INITTASK             (KERNEL.91)
+ 0000:0000  Imp  ISBADCODEPTR         (KERNEL.336)
+ 0000:0000  Imp  ISBADREADPTR         (KERNEL.334)
+ 0000:0000  Imp  ISBADSTRINGPTR       (KERNEL.337)
+ 0000:0000  Imp  ISBADWRITEPTR        (KERNEL.335)
+ 0001:084B       ISVALIDXXXAPP
+ 0001:330C       LAddrParamsInited
+ 0001:024C       LibEntry
+ 0001:027E       LibMain
+ 0001:08A5       lineAccept
+ 0001:08F5       lineAddProvider
+ 0001:0944       lineAddToConference
+ 0001:098E       lineAnswer
+ 0001:09DE       lineBlindTransfer
+ 0001:0A2E       lineClose
+ 0001:0A72       lineCompleteCall
+ 0001:0AEA       lineCompleteTransfer
+ 0001:0B6B       lineConfigDialog
+ 0001:0BBA       LINECONFIGDIALOGEDIT
+ 0001:0C1B       lineConfigProvider
+ 0001:0C64       lineDeallocateCall
+ 0001:0CA8       lineDevSpecific
+ 0001:0D27       lineDevSpecificFeature
+ 0001:0DA0       lineDial
+ 0001:0DF0       lineDrop
+ 0001:0E40       lineForward
+ 0001:0ECA       lineGatherDigits
+ 0001:0F60       lineGenerateDigits
+ 0001:0FB6       lineGenerateTone
+ 0001:1012       lineGetAddressCaps
+ 0001:109E       lineGetAddressID
+ 0001:10FA       lineGetAddressStatus
+ 0001:114A       lineGetAppPriority
+ 0001:11AC       lineGetCallInfo
+ 0001:11F6       lineGetCallStatus
+ 0001:1240       lineGetConfRelatedCalls
+ 0001:128A       lineGetCountry
+ 0001:12DA       lineGetDevCaps
+ 0001:1360       lineGetDevConfig
+ 0001:13B0       lineGetIcon
+ 0001:1400       lineGetID
+ 0001:1462       lineGetLineDevStatus
+ 0001:14AC       lineGetNewCalls
+ 0001:1502       lineGetNumRings
+ 0001:1552       lineGetProviderList
+ 0001:159C       lineGetRequest
+ 0001:1616       lineGetStatusMessages
+ 0001:1666       lineGetTranslateCaps
+ 0001:170B       lineHandoff
+ 0001:175B       lineHold
+ 0001:179F       lineInitialize
+ 0001:17DF       lineMakeCall
+ 0001:185D       lineMonitorDigits
+ 0001:18A7       lineMonitorMedia
+ 0001:18F1       lineMonitorTones
+ 0001:1941       lineNegotiateAPIVersion
+ 0001:19CD       lineNegotiateExtVersion
+ 0001:1A59       lineOpen
+ 0001:1AF7       linePark
+ 0001:1B4D       linePickup
+ 0001:1BCB       linePrepareAddToConference
+ 0001:1C3D       lineRedirect
+ 0001:1C8D       lineRegisterRequestRecipient
+ 0001:1D0D       lineReleaseUserUserInfo
+ 0001:1D51       lineRemoveFromConference
+ 0001:1D95       lineRemoveProvider
+ 0001:1DDE       lineSecureCall
+ 0001:1E22       lineSendUserUserInfo
+ 0001:1E72       lineSetAppPriority
+ 0001:1ED4       lineSetAppSpecific
+ 0001:1F1E       lineSetCallParams
+ 0001:1F7A       lineSetCallPrivilege
+ 0001:1FC4       lineSetCurrentLocation
+ 0001:2038       lineSetDevConfig
+ 0001:208E       lineSetMediaControl
+ 0001:2115       lineSetMediaMode
+ 0001:215F       lineSetNumRings
+ 0001:21AF       lineSetStatusMessages
+ 0001:21FF       lineSetTerminal
+ 0001:2267       lineSetTollList
+ 0001:22E7       lineSetupConference
+ 0001:2380       lineSetupTransfer
+ 0001:23F2       lineShutdown
+ 0001:248F       lineSwapHold
+ 0001:24D9       lineTranslateAddress
+ 0001:256B       lineTranslateDialog
+ 0001:25F0       lineUncompleteCall
+ 0001:263A       lineUnhold
+ 0001:267E       lineUnpark
+ 0000:0000  Imp  LOADLIBRARYEX32W     (KERNEL.LOADLIBRARYEX32W)
+ 0000:0000  Imp  LOCALALLOC           (KERNEL.5)
+ 0000:0000  Imp  LOCALFREE            (KERNEL.7)
+ 0000:0000  Imp  LocalInit            (KERNEL.4)
+ 0000:0000  Imp  LOCALREALLOC         (KERNEL.6)
+ 0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
+ 0001:3350       LOpenDialAsst
+ 0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
+ 0000:0008  Abs  pAtomTable
+ 0001:26F6       phoneClose
+ 0001:273A       phoneConfigDialog
+ 0001:2789       phoneDevSpecific
+ 0001:27FC       phoneGetButtonInfo
+ 0001:284C       phoneGetData
+ 0001:28A2       phoneGetDevCaps
+ 0001:2928       phoneGetDisplay
+ 0001:2972       phoneGetGain
+ 0001:29C2       phoneGetHookSwitch
+ 0001:2A0C       phoneGetIcon
+ 0001:2A5C       phoneGetID
+ 0001:2AAC       phoneGetLamp
+ 0001:2AFC       phoneGetRing
+ 0001:2B4C       phoneGetStatus
+ 0001:2B96       phoneGetStatusMessages
+ 0001:2BEC       phoneGetVolume
+ 0001:2C3C       phoneInitialize
+ 0001:2C7C       phoneNegotiateAPIVersion
+ 0001:2D08       phoneNegotiateExtVersion
+ 0001:2D94       phoneOpen
+ 0001:2E26       phoneSetButtonInfo
+ 0001:2E76       phoneSetData
+ 0001:2ECC       phoneSetDisplay
+ 0001:2F28       phoneSetGain
+ 0001:2F78       phoneSetHookSwitch
+ 0001:2FC8       phoneSetLamp
+ 0001:3018       phoneSetRing
+ 0001:3068       phoneSetStatusMessages
+ 0001:30BE       phoneSetVolume
+ 0001:310E       phoneShutdown
+ 0000:0006  Abs  pLocalHeap
+ 0000:0000  Imp  POSTMESSAGE          (USER.110)
+ 0000:000E  Abs  pStackBot
+ 0000:000C  Abs  pStackMin
+ 0000:000A  Abs  pStackTop
+ 0000:0000  Imp  REGISTERCLASS        (USER.57)
+ 0002:0004       rsrvptrs
+ 0000:0000  Imp  SETWINDOWLONG        (USER.136)
+ 0002:0B10       STKHQQ
+ 0001:03E0       Tapi16HiddenWndProc
+ 0001:32C2       tapiGetLocationInfo
+ 0001:327A       tapiRequestDrop
+ 0001:31AB       tapiRequestMakeCall
+ 0001:3201       tapiRequestMediaCall
+ 0000:0000  Imp  UNLOCKSEGMENT        (KERNEL.24)
+ 0001:03B2       WEP
+ 0001:04C9       XXXINITIALIZE
+ 0000:0000  Imp  _CallProcEx32W       (KERNEL.518)
+ 0002:0BD0       _edata
+ 0002:0DAA       _end
+ 0001:0086       _free
+ 0002:07D2       _gaFuncNames
+ 0002:0BD2       _gaProcs
+ 0002:0BD0       _ghInst
+ 0002:0DA6       _ghLib
+ 0002:09D6       _gszWndClass
+ 0001:0080       _malloc
+ 0002:09A6       _pfnCallProc1
+ 0002:09CA       _pfnCallProc10
+ 0002:09CE       _pfnCallProc11
+ 0002:09D2       _pfnCallProc12
+ 0002:09AA       _pfnCallProc2
+ 0002:09AE       _pfnCallProc3
+ 0002:09B2       _pfnCallProc4
+ 0002:09B6       _pfnCallProc5
+ 0002:09BA       _pfnCallProc6
+ 0002:09BE       _pfnCallProc7
+ 0002:09C2       _pfnCallProc8
+ 0002:09C6       _pfnCallProc9
+ 0001:01B2       _strncpy
+ 0000:9876  Abs  __acrtmsg
+ 0000:9876  Abs  __acrtused
+ 0000:9876  Abs  __acrtused2
+ 0000:D6D6  Abs  __aDBdoswp
+ 0002:0B12       __adbgmsg
+ 0002:0B1C       __aDBrterr
+ 0002:0B16       __amblksiz
+ 0002:0B2C       __caption
+ 0002:0BD0       __edata
+ 0002:0DAA       __end
+ 0001:0108       __ffree
+ 0001:00DC       __fmalloc
+ 0000:9876  Abs  __fptaskdata
+ 0001:016E       __frealloc
+ 0001:01DC       __fstrrchr
+ 0001:00CA       __nfree
+ 0001:008C       __nmalloc
+ 0001:0014       __NMSG_TEXT
+ 0001:004B       __NMSG_WRITE
+ 0001:011A       __nrealloc
+ 0001:0011       __wflags
+ 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 0002:0B1E       ___aDBexit
+ 0002:0B1A       ___aDBswpchk
+ 0002:0B18       ___aDBswpflg
+
+  Address         Publics by Value
+
+ 0000:0000  Imp  SETWINDOWLONG        (USER.136)
+ 0000:0000  Imp  ISBADCODEPTR         (KERNEL.336)
+ 0000:0000  Imp  ISBADREADPTR         (KERNEL.334)
+ 0000:0000  Imp  GETMODULEUSAGE       (KERNEL.48)
+ 0000:0000  Imp  ISBADWRITEPTR        (KERNEL.335)
+ 0000:0000  Imp  REGISTERCLASS        (USER.57)
+ 0000:0000  Imp  LOCALALLOC           (KERNEL.5)
+ 0000:0000  Imp  GLOBALFREE           (KERNEL.17)
+ 0000:0000  Imp  _CallProcEx32W       (KERNEL.518)
+ 0000:0000  Imp  LOCALREALLOC         (KERNEL.6)
+ 0000:0000  Imp  UNLOCKSEGMENT        (KERNEL.24)
+ 0000:0000  Imp  LOCALFREE            (KERNEL.7)
+ 0000:0000  Imp  FREELIBRARY32W       (KERNEL.FREELIBRARY32W)
+ 0000:0000  Imp  LOADLIBRARYEX32W     (KERNEL.LOADLIBRARYEX32W)
+ 0000:0000  Imp  DESTROYWINDOW        (USER.53)
+ 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
+ 0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
+ 0000:0000  Imp  GLOBALREALLOC        (KERNEL.16)
+ 0000:0000  Imp  INITTASK             (KERNEL.91)
+ 0000:0000  Imp  GETPROCADDRESS32W    (KERNEL.GETPROCADDRESS32W)
+ 0000:0000  Imp  LocalInit            (KERNEL.4)
+ 0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
+ 0000:0000  Imp  GETWINDOWLONG        (USER.135)
+ 0000:0000  Imp  POSTMESSAGE          (USER.110)
+ 0000:0000  Imp  DEFWINDOWPROC        (USER.107)
+ 0000:0000  Imp  ISBADSTRINGPTR       (KERNEL.337)
+ 0000:0000  Imp  GETMODULEFILENAME    (KERNEL.49)
+ 0000:0000  Imp  CREATEWINDOW         (USER.41)
+ 0000:0000  Imp  CALLPROC32W          (KERNEL.CALLPROC32W)
+ 0000:0006  Abs  pLocalHeap
+ 0000:0008  Abs  pAtomTable
+ 0000:000A  Abs  pStackTop
+ 0000:000C  Abs  pStackMin
+ 0000:000E  Abs  pStackBot
+ 0000:9876  Abs  __acrtused
+ 0000:9876  Abs  __fptaskdata
+ 0000:9876  Abs  __acrtused2
+ 0000:9876  Abs  __acrtmsg
+ 0000:D6D6  Abs  __aDBdoswp
+ 0001:0011       __wflags
+ 0001:0014       __NMSG_TEXT
+ 0001:004B       __NMSG_WRITE
+ 0001:0080       _malloc
+ 0001:0086       _free
+ 0001:008C       __nmalloc
+ 0001:00CA       __nfree
+ 0001:00DC       __fmalloc
+ 0001:0108       __ffree
+ 0001:011A       __nrealloc
+ 0001:016E       __frealloc
+ 0001:01B2       _strncpy
+ 0001:01DC       __fstrrchr
+ 0001:024C       LibEntry
+ 0001:027E       LibMain
+ 0001:03B2       WEP
+ 0001:03E0       Tapi16HiddenWndProc
+ 0001:04C9       XXXINITIALIZE
+ 0001:084B       ISVALIDXXXAPP
+ 0001:08A5       lineAccept
+ 0001:08F5       lineAddProvider
+ 0001:0944       lineAddToConference
+ 0001:098E       lineAnswer
+ 0001:09DE       lineBlindTransfer
+ 0001:0A2E       lineClose
+ 0001:0A72       lineCompleteCall
+ 0001:0AEA       lineCompleteTransfer
+ 0001:0B6B       lineConfigDialog
+ 0001:0BBA       LINECONFIGDIALOGEDIT
+ 0001:0C1B       lineConfigProvider
+ 0001:0C64       lineDeallocateCall
+ 0001:0CA8       lineDevSpecific
+ 0001:0D27       lineDevSpecificFeature
+ 0001:0DA0       lineDial
+ 0001:0DF0       lineDrop
+ 0001:0E40       lineForward
+ 0001:0ECA       lineGatherDigits
+ 0001:0F60       lineGenerateDigits
+ 0001:0FB6       lineGenerateTone
+ 0001:1012       lineGetAddressCaps
+ 0001:109E       lineGetAddressID
+ 0001:10FA       lineGetAddressStatus
+ 0001:114A       lineGetAppPriority
+ 0001:11AC       lineGetCallInfo
+ 0001:11F6       lineGetCallStatus
+ 0001:1240       lineGetConfRelatedCalls
+ 0001:128A       lineGetCountry
+ 0001:12DA       lineGetDevCaps
+ 0001:1360       lineGetDevConfig
+ 0001:13B0       lineGetIcon
+ 0001:1400       lineGetID
+ 0001:1462       lineGetLineDevStatus
+ 0001:14AC       lineGetNewCalls
+ 0001:1502       lineGetNumRings
+ 0001:1552       lineGetProviderList
+ 0001:159C       lineGetRequest
+ 0001:1616       lineGetStatusMessages
+ 0001:1666       lineGetTranslateCaps
+ 0001:170B       lineHandoff
+ 0001:175B       lineHold
+ 0001:179F       lineInitialize
+ 0001:17DF       lineMakeCall
+ 0001:185D       lineMonitorDigits
+ 0001:18A7       lineMonitorMedia
+ 0001:18F1       lineMonitorTones
+ 0001:1941       lineNegotiateAPIVersion
+ 0001:19CD       lineNegotiateExtVersion
+ 0001:1A59       lineOpen
+ 0001:1AF7       linePark
+ 0001:1B4D       linePickup
+ 0001:1BCB       linePrepareAddToConference
+ 0001:1C3D       lineRedirect
+ 0001:1C8D       lineRegisterRequestRecipient
+ 0001:1D0D       lineReleaseUserUserInfo
+ 0001:1D51       lineRemoveFromConference
+ 0001:1D95       lineRemoveProvider
+ 0001:1DDE       lineSecureCall
+ 0001:1E22       lineSendUserUserInfo
+ 0001:1E72       lineSetAppPriority
+ 0001:1ED4       lineSetAppSpecific
+ 0001:1F1E       lineSetCallParams
+ 0001:1F7A       lineSetCallPrivilege
+ 0001:1FC4       lineSetCurrentLocation
+ 0001:2038       lineSetDevConfig
+ 0001:208E       lineSetMediaControl
+ 0001:2115       lineSetMediaMode
+ 0001:215F       lineSetNumRings
+ 0001:21AF       lineSetStatusMessages
+ 0001:21FF       lineSetTerminal
+ 0001:2267       lineSetTollList
+ 0001:22E7       lineSetupConference
+ 0001:2380       lineSetupTransfer
+ 0001:23F2       lineShutdown
+ 0001:248F       lineSwapHold
+ 0001:24D9       lineTranslateAddress
+ 0001:256B       lineTranslateDialog
+ 0001:25F0       lineUncompleteCall
+ 0001:263A       lineUnhold
+ 0001:267E       lineUnpark
+ 0001:26F6       phoneClose
+ 0001:273A       phoneConfigDialog
+ 0001:2789       phoneDevSpecific
+ 0001:27FC       phoneGetButtonInfo
+ 0001:284C       phoneGetData
+ 0001:28A2       phoneGetDevCaps
+ 0001:2928       phoneGetDisplay
+ 0001:2972       phoneGetGain
+ 0001:29C2       phoneGetHookSwitch
+ 0001:2A0C       phoneGetIcon
+ 0001:2A5C       phoneGetID
+ 0001:2AAC       phoneGetLamp
+ 0001:2AFC       phoneGetRing
+ 0001:2B4C       phoneGetStatus
+ 0001:2B96       phoneGetStatusMessages
+ 0001:2BEC       phoneGetVolume
+ 0001:2C3C       phoneInitialize
+ 0001:2C7C       phoneNegotiateAPIVersion
+ 0001:2D08       phoneNegotiateExtVersion
+ 0001:2D94       phoneOpen
+ 0001:2E26       phoneSetButtonInfo
+ 0001:2E76       phoneSetData
+ 0001:2ECC       phoneSetDisplay
+ 0001:2F28       phoneSetGain
+ 0001:2F78       phoneSetHookSwitch
+ 0001:2FC8       phoneSetLamp
+ 0001:3018       phoneSetRing
+ 0001:3068       phoneSetStatusMessages
+ 0001:30BE       phoneSetVolume
+ 0001:310E       phoneShutdown
+ 0001:31AB       tapiRequestMakeCall
+ 0001:3201       tapiRequestMediaCall
+ 0001:327A       tapiRequestDrop
+ 0001:32C2       tapiGetLocationInfo
+ 0001:330C       LAddrParamsInited
+ 0001:3350       LOpenDialAsst
+ 0002:0004       rsrvptrs
+ 0002:07D2       _gaFuncNames
+ 0002:09A6       _pfnCallProc1
+ 0002:09AA       _pfnCallProc2
+ 0002:09AE       _pfnCallProc3
+ 0002:09B2       _pfnCallProc4
+ 0002:09B6       _pfnCallProc5
+ 0002:09BA       _pfnCallProc6
+ 0002:09BE       _pfnCallProc7
+ 0002:09C2       _pfnCallProc8
+ 0002:09C6       _pfnCallProc9
+ 0002:09CA       _pfnCallProc10
+ 0002:09CE       _pfnCallProc11
+ 0002:09D2       _pfnCallProc12
+ 0002:09D6       _gszWndClass
+ 0002:0B10       STKHQQ
+ 0002:0B12       __adbgmsg
+ 0002:0B16       __amblksiz
+ 0002:0B18       ___aDBswpflg
+ 0002:0B1A       ___aDBswpchk
+ 0002:0B1C       __aDBrterr
+ 0002:0B1E       ___aDBexit
+ 0002:0B2C       __caption
+ 0002:0BD0       _ghInst
+ 0002:0BD0       _edata
+ 0002:0BD0       __edata
+ 0002:0BD2       _gaProcs
+ 0002:0DA6       _ghLib
+ 0002:0DAA       _end
+ 0002:0DAA       __end
+
+Program entry point at 0001:024c
+
+Line numbers for thunk.obj(thunk.c) segment THUNK_TEXT
+
+    67 0001:027e    93 0001:028e   101 0001:0294   102 0001:0299
+   103 0001:02a3   104 0001:02a8   105 0001:02ad   106 0001:02b3
+   107 0001:02b8   108 0001:02bd   109 0001:02c2   110 0001:02ca
+   112 0001:02d2   122 0001:02e4   124 0001:02fc   129 0001:0310
+   130 0001:0339   144 0001:033c   148 0001:035a   151 0001:035d
+   155 0001:0379   162 0001:037c   165 0001:0396   169 0001:03a1
+   170 0001:03a7   179 0001:03b2   180 0001:03c2   182 0001:03cf
+   183 0001:03d5   194 0001:03e0   195 0001:03f0   207 0001:03f6
+   211 0001:0406   219 0001:040f   221 0001:0435   223 0001:0442
+   224 0001:044b   237 0001:045f   238 0001:048a   240 0001:048d
+   244 0001:0490   246 0001:04a7   248 0001:04b5   249 0001:04be
+   363 0001:04c9   364 0001:04d9   366 0001:04de   368 0001:04e6
+   369 0001:04ee   390 0001:04f6   392 0001:053e   393 0001:055c
+   402 0001:055f   404 0001:0577   406 0001:0590   408 0001:05a7
+   417 0001:05bf   419 0001:05f1   421 0001:05f9   426 0001:0609
+   428 0001:0637   430 0001:063a   431 0001:0658   434 0001:065b
+   439 0001:065e   440 0001:067c   443 0001:067f   445 0001:0682
+   446 0001:06a0   467 0001:06a3   469 0001:06d8   473 0001:06f6
+   481 0001:06f9   483 0001:0710   487 0001:072e   490 0001:0731
+   491 0001:073f   492 0001:0749   493 0001:0752   495 0001:0763
+   511 0001:0773   515 0001:07bd   517 0001:07c8   519 0001:07d6
+   521 0001:07e1   525 0001:07ef   532 0001:07fa   534 0001:080a
+   536 0001:0816   538 0001:081e   540 0001:0829   559 0001:0837
+   560 0001:0840   569 0001:084b   571 0001:085b   573 0001:0888
+   576 0001:0891   577 0001:089a   587 0001:08a5   595 0001:08b5
+   599 0001:08e1   600 0001:08ea   610 0001:08f5   618 0001:0905
+   622 0001:0930   623 0001:0939   632 0001:0944   639 0001:0954
+   643 0001:097a   644 0001:0983   654 0001:098e   662 0001:099e
+   666 0001:09ca   667 0001:09d3   677 0001:09de   685 0001:09ee
+   689 0001:0a1a   690 0001:0a23   698 0001:0a2e   704 0001:0a3e
+   708 0001:0a5e   709 0001:0a67   720 0001:0a72   724 0001:0a82
+   726 0001:0a97   728 0001:0aa1   738 0001:0aa4   742 0001:0ad6
+   743 0001:0adf   754 0001:0aea   768 0001:0afa   771 0001:0b18
+   772 0001:0b22   783 0001:0b25   788 0001:0b57   789 0001:0b60
+   799 0001:0b6b   807 0001:0b7b   811 0001:0ba6   812 0001:0baf
+   825 0001:0bba   836 0001:0bca   840 0001:0c07   841 0001:0c10
+   850 0001:0c1b   857 0001:0c2b   861 0001:0c50   862 0001:0c59
+   870 0001:0c64   876 0001:0c74   880 0001:0c94   881 0001:0c9d
+   893 0001:0ca8   897 0001:0cb8   899 0001:0cce   901 0001:0cd8
+   912 0001:0cdb   917 0001:0d13   918 0001:0d1c   929 0001:0d27
+   933 0001:0d37   935 0001:0d4d   937 0001:0d57   947 0001:0d5a
+   952 0001:0d8c   953 0001:0d95   963 0001:0da0   971 0001:0db0
+   975 0001:0ddc   976 0001:0de5   986 0001:0df0   994 0001:0e00
+   998 0001:0e2c   999 0001:0e35  1013 0001:0e40  1023 0001:0e50
+  1025 0001:0e65  1027 0001:0e6f  1040 0001:0e72  1045 0001:0eb6
+  1046 0001:0ebf  1060 0001:0eca  1064 0001:0eda  1066 0001:0efb
+  1068 0001:0f05  1081 0001:0f08  1086 0001:0f4c  1087 0001:0f55
+  1098 0001:0f60  1107 0001:0f70  1111 0001:0fa2  1112 0001:0fab
+  1124 0001:0fb6  1134 0001:0fc6  1138 0001:0ffe  1139 0001:1007
+  1152 0001:1012  1156 0001:1022  1168 0001:103a  1170 0001:107d
+  1172 0001:1080  1177 0001:108a  1178 0001:1093  1190 0001:109e
+  1200 0001:10ae  1204 0001:10e6  1205 0001:10ef  1215 0001:10fa
+  1223 0001:110a  1227 0001:1136  1228 0001:113f  1241 0001:114a
+  1252 0001:115a  1256 0001:1198  1257 0001:11a1  1266 0001:11ac
+  1273 0001:11bc  1277 0001:11e2  1278 0001:11eb  1287 0001:11f6
+  1294 0001:1206  1298 0001:122c  1299 0001:1235  1308 0001:1240
+  1315 0001:1250  1319 0001:1276  1320 0001:127f  1330 0001:128a
+  1338 0001:129a  1342 0001:12c6  1343 0001:12cf  1355 0001:12da
+  1359 0001:12ea  1370 0001:1302  1372 0001:133f  1374 0001:1342
+  1379 0001:134c  1380 0001:1355  1390 0001:1360  1398 0001:1370
+  1402 0001:139c  1403 0001:13a5  1413 0001:13b0  1421 0001:13c0
+  1425 0001:13ec  1426 0001:13f5  1439 0001:1400  1450 0001:1410
+  1454 0001:144e  1455 0001:1457  1464 0001:1462  1471 0001:1472
+  1475 0001:1498  1476 0001:14a1  1487 0001:14ac  1496 0001:14bc
+  1500 0001:14ee  1501 0001:14f7  1511 0001:1502  1519 0001:1512
+  1523 0001:153e  1524 0001:1547  1533 0001:1552  1540 0001:1562
+  1544 0001:1588  1545 0001:1591  1555 0001:159c  1559 0001:15ac
+  1568 0001:15c4  1570 0001:15f5  1572 0001:15f8  1577 0001:1602
+  1578 0001:160b  1588 0001:1616  1596 0001:1626  1600 0001:1652
+  1601 0001:165b  1611 0001:1666  1616 0001:1676  1625 0001:1699
+  1627 0001:16ea  1629 0001:16ed  1634 0001:16f7  1635 0001:1700
+  1645 0001:170b  1653 0001:171b  1657 0001:1747  1658 0001:1750
+  1666 0001:175b  1672 0001:176b  1676 0001:178b  1677 0001:1794
+  1689 0001:179f  1697 0001:17af  1698 0001:17d4  1710 0001:17df
+  1720 0001:17ef  1722 0001:1804  1724 0001:180e  1735 0001:1811
+  1740 0001:1849  1741 0001:1852  1750 0001:185d  1757 0001:186d
+  1761 0001:1893  1762 0001:189c  1771 0001:18a7  1778 0001:18b7
+  1782 0001:18dd  1783 0001:18e6  1793 0001:18f1  1801 0001:1901
+  1805 0001:192d  1806 0001:1936  1819 0001:1941  1824 0001:1951
+  1836 0001:1969  1838 0001:19ac  1840 0001:19af  1845 0001:19b9
+  1846 0001:19c2  1859 0001:19cd  1864 0001:19dd  1876 0001:19f5
+  1878 0001:1a38  1880 0001:1a3b  1885 0001:1a45  1886 0001:1a4e
+  1902 0001:1a59  1907 0001:1a69  1922 0001:1a81  1924 0001:1ad6
+  1926 0001:1ad9  1931 0001:1ae3  1932 0001:1aec  1943 0001:1af7
+  1952 0001:1b07  1956 0001:1b39  1957 0001:1b42  1969 0001:1b4d
+  1979 0001:1b5d  1981 0001:1b72  1983 0001:1b7c  1994 0001:1b7f
+  1999 0001:1bb7  2000 0001:1bc0  2010 0001:1bcb  2020 0001:1bdb
+  2022 0001:1bf0  2024 0001:1bfa  2033 0001:1bfd  2038 0001:1c29
+  2039 0001:1c32  2049 0001:1c3d  2057 0001:1c4d  2061 0001:1c79
+  2062 0001:1c82  2073 0001:1c8d  2078 0001:1c9d  2088 0001:1cb5
+  2090 0001:1cec  2092 0001:1cef  2097 0001:1cf9  2098 0001:1d02
+  2106 0001:1d0d  2112 0001:1d1d  2116 0001:1d3d  2117 0001:1d46
+  2125 0001:1d51  2131 0001:1d61  2135 0001:1d81  2136 0001:1d8a
+  2145 0001:1d95  2152 0001:1da5  2156 0001:1dca  2157 0001:1dd3
+  2165 0001:1dde  2171 0001:1dee  2175 0001:1e0e  2176 0001:1e17
+  2186 0001:1e22  2194 0001:1e32  2198 0001:1e5e  2199 0001:1e67
+  2212 0001:1e72  2223 0001:1e82  2227 0001:1ec0  2228 0001:1ec9
+  2237 0001:1ed4  2244 0001:1ee4  2248 0001:1f0a  2249 0001:1f13
+  2261 0001:1f1e  2271 0001:1f2e  2275 0001:1f66  2276 0001:1f6f
+  2285 0001:1f7a  2292 0001:1f8a  2296 0001:1fb0  2297 0001:1fb9
+  2306 0001:1fc4  2311 0001:1fd4  2319 0001:1fec  2321 0001:2017
+  2323 0001:201a  2328 0001:2024  2329 0001:202d  2340 0001:2038
+  2349 0001:2048  2353 0001:207a  2354 0001:2083  2373 0001:208e
+  2390 0001:209e  2394 0001:2101  2395 0001:210a  2404 0001:2115
+  2411 0001:2125  2415 0001:214b  2416 0001:2154  2426 0001:215f
+  2434 0001:216f  2438 0001:219b  2439 0001:21a4  2449 0001:21af
+  2457 0001:21bf  2461 0001:21eb  2462 0001:21f4  2476 0001:21ff
+  2488 0001:220f  2492 0001:2253  2493 0001:225c  2504 0001:2267
+  2509 0001:2277  2519 0001:228f  2521 0001:22c6  2523 0001:22c9
+  2528 0001:22d3  2529 0001:22dc  2542 0001:22e7  2553 0001:22f7
+  2555 0001:2321  2557 0001:232b  2569 0001:232e  2574 0001:236c
+  2575 0001:2375  2585 0001:2380  2595 0001:2390  2597 0001:23a5
+  2599 0001:23af  2608 0001:23b2  2613 0001:23de  2614 0001:23e7
+  2622 0001:23f2  2627 0001:2402  2635 0001:241a  2641 0001:2446
+  2642 0001:2452  2643 0001:2460  2646 0001:246e  2648 0001:2471
+  2653 0001:247b  2654 0001:2484  2663 0001:248f  2670 0001:249f
+  2674 0001:24c5  2675 0001:24ce  2689 0001:24d9  2694 0001:24e9
+  2707 0001:2501  2709 0001:254a  2711 0001:254d  2716 0001:2557
+  2717 0001:2560  2729 0001:256b  2734 0001:257b  2745 0001:2593
+  2747 0001:25cf  2749 0001:25d2  2754 0001:25dc  2755 0001:25e5
+  2764 0001:25f0  2771 0001:2600  2775 0001:2626  2776 0001:262f
+  2784 0001:263a  2790 0001:264a  2794 0001:266a  2795 0001:2673
+  2806 0001:267e  2816 0001:268e  2818 0001:26a3  2820 0001:26ad
+  2830 0001:26b0  2835 0001:26e2  2836 0001:26eb  2844 0001:26f6
+  2850 0001:2706  2854 0001:2726  2855 0001:272f  2865 0001:273a
+  2873 0001:274a  2877 0001:2775  2878 0001:277e  2889 0001:2789
+  2893 0001:2799  2895 0001:27af  2897 0001:27b9  2906 0001:27bc
+  2911 0001:27e8  2912 0001:27f1  2922 0001:27fc  2930 0001:280c
+  2934 0001:2838  2935 0001:2841  2946 0001:284c  2955 0001:285c
+  2959 0001:288e  2960 0001:2897  2972 0001:28a2  2977 0001:28b2
+  2988 0001:28ca  2990 0001:2907  2992 0001:290a  2997 0001:2914
+  2998 0001:291d  3007 0001:2928  3014 0001:2938  3018 0001:295e
+  3019 0001:2967  3029 0001:2972  3037 0001:2982  3041 0001:29ae
+  3042 0001:29b7  3051 0001:29c2  3058 0001:29d2  3062 0001:29f8
+  3063 0001:2a01  3073 0001:2a0c  3081 0001:2a1c  3085 0001:2a48
+  3086 0001:2a51  3096 0001:2a5c  3104 0001:2a6c  3108 0001:2a98
+  3109 0001:2aa1  3119 0001:2aac  3127 0001:2abc  3131 0001:2ae8
+  3132 0001:2af1  3142 0001:2afc  3150 0001:2b0c  3154 0001:2b38
+  3155 0001:2b41  3164 0001:2b4c  3171 0001:2b5c  3175 0001:2b82
+  3176 0001:2b8b  3187 0001:2b96  3196 0001:2ba6  3200 0001:2bd8
+  3201 0001:2be1  3211 0001:2bec  3219 0001:2bfc  3223 0001:2c28
+  3224 0001:2c31  3236 0001:2c3c  3244 0001:2c4c  3245 0001:2c71
+  3258 0001:2c7c  3263 0001:2c8c  3275 0001:2ca4  3277 0001:2ce7
+  3279 0001:2cea  3284 0001:2cf4  3285 0001:2cfd  3298 0001:2d08
+  3303 0001:2d18  3315 0001:2d30  3317 0001:2d73  3319 0001:2d76
+  3324 0001:2d80  3325 0001:2d89  3339 0001:2d94  3344 0001:2da4
+  3357 0001:2dbc  3359 0001:2e05  3361 0001:2e08  3366 0001:2e12
+  3367 0001:2e1b  3377 0001:2e26  3385 0001:2e36  3389 0001:2e62
+  3390 0001:2e6b  3401 0001:2e76  3410 0001:2e86  3414 0001:2eb8
+  3415 0001:2ec1  3427 0001:2ecc  3437 0001:2edc  3441 0001:2f14
+  3442 0001:2f1d  3452 0001:2f28  3460 0001:2f38  3464 0001:2f64
+  3465 0001:2f6d  3475 0001:2f78  3483 0001:2f88  3487 0001:2fb4
+  3488 0001:2fbd  3498 0001:2fc8  3506 0001:2fd8  3510 0001:3004
+  3511 0001:300d  3521 0001:3018  3529 0001:3028  3533 0001:3054
+  3534 0001:305d  3545 0001:3068  3554 0001:3078  3558 0001:30aa
+  3559 0001:30b3  3569 0001:30be  3577 0001:30ce  3581 0001:30fa
+  3582 0001:3103  3590 0001:310e  3595 0001:311e  3603 0001:3136
+  3609 0001:3162  3610 0001:316e  3611 0001:317c  3614 0001:318a
+  3616 0001:318d  3621 0001:3197  3622 0001:31a0  3633 0001:31ab
+  3642 0001:31bb  3646 0001:31ed  3647 0001:31f6  3664 0001:3201
+  3679 0001:3211  3683 0001:3266  3684 0001:326f  3693 0001:327a
+  3700 0001:328a  3704 0001:32ae  3705 0001:32b7  3714 0001:32c2
+  3721 0001:32d2  3725 0001:32f8  3726 0001:3301  3736 0001:330c
+  3742 0001:331c  3746 0001:333c  3747 0001:3345  3757 0001:3350
+  3766 0001:3360  3770 0001:3391  3771 0001:339a

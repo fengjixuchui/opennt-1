@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ido.obj \
+    $(_OBJ_DIR)\alpha\drag.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ido.obj \
+    $(_OBJ_DIR)\mips\drag.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ido.obj \
+    $(_OBJ_DIR)\i386\drag.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ido.obj \
+    $(_OBJ_DIR)\ppc\drag.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\clipfile.obj \
+    $(_OBJ_DIR)\alpha\debugout.obj \
+    $(_OBJ_DIR)\alpha\security.obj \
+    $(_OBJ_DIR)\alpha\render.obj \
+    $(_OBJ_DIR)\alpha\dib.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\clipfile.obj \
+    $(_OBJ_DIR)\mips\debugout.obj \
+    $(_OBJ_DIR)\mips\security.obj \
+    $(_OBJ_DIR)\mips\render.obj \
+    $(_OBJ_DIR)\mips\dib.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\clipfile.obj \
+    $(_OBJ_DIR)\i386\debugout.obj \
+    $(_OBJ_DIR)\i386\security.obj \
+    $(_OBJ_DIR)\i386\render.obj \
+    $(_OBJ_DIR)\i386\dib.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\clipfile.obj \
+    $(_OBJ_DIR)\ppc\debugout.obj \
+    $(_OBJ_DIR)\ppc\security.obj \
+    $(_OBJ_DIR)\ppc\render.obj \
+    $(_OBJ_DIR)\ppc\dib.obj
+
+PASS0_PPC_OBJECTS=
+

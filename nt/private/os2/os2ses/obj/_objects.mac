@@ -1,0 +1,119 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\os2.res \
+    $(_OBJ_DIR)\alpha\prtrqust.obj \
+    $(_OBJ_DIR)\alpha\os2.obj \
+    $(_OBJ_DIR)\alpha\nls.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\viotty.obj \
+    $(_OBJ_DIR)\alpha\kbdtable.obj \
+    $(_OBJ_DIR)\alpha\trans.obj \
+    $(_OBJ_DIR)\alpha\violvb.obj \
+    $(_OBJ_DIR)\alpha\ntinitss.obj \
+    $(_OBJ_DIR)\alpha\ntrqust.obj \
+    $(_OBJ_DIR)\alpha\conrqust.obj \
+    $(_OBJ_DIR)\alpha\tmrqust.obj \
+    $(_OBJ_DIR)\alpha\event.obj \
+    $(_OBJ_DIR)\alpha\kbdrqust.obj \
+    $(_OBJ_DIR)\alpha\mourqust.obj \
+    $(_OBJ_DIR)\alpha\monrqust.obj \
+    $(_OBJ_DIR)\alpha\viorqust.obj \
+    $(_OBJ_DIR)\alpha\imrqust.obj \
+    $(_OBJ_DIR)\alpha\kbdnls.obj \
+    $(_OBJ_DIR)\alpha\vionls.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\os2.res \
+    $(_OBJ_DIR)\mips\prtrqust.obj \
+    $(_OBJ_DIR)\mips\os2.obj \
+    $(_OBJ_DIR)\mips\nls.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\viotty.obj \
+    $(_OBJ_DIR)\mips\kbdtable.obj \
+    $(_OBJ_DIR)\mips\trans.obj \
+    $(_OBJ_DIR)\mips\violvb.obj \
+    $(_OBJ_DIR)\mips\ntinitss.obj \
+    $(_OBJ_DIR)\mips\ntrqust.obj \
+    $(_OBJ_DIR)\mips\conrqust.obj \
+    $(_OBJ_DIR)\mips\tmrqust.obj \
+    $(_OBJ_DIR)\mips\event.obj \
+    $(_OBJ_DIR)\mips\kbdrqust.obj \
+    $(_OBJ_DIR)\mips\mourqust.obj \
+    $(_OBJ_DIR)\mips\monrqust.obj \
+    $(_OBJ_DIR)\mips\viorqust.obj \
+    $(_OBJ_DIR)\mips\imrqust.obj \
+    $(_OBJ_DIR)\mips\kbdnls.obj \
+    $(_OBJ_DIR)\mips\vionls.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\os2.res \
+    $(_OBJ_DIR)\i386\kbdxlat.obj \
+    $(_OBJ_DIR)\i386\bekbd.obj \
+    $(_OBJ_DIR)\i386\cfkbd.obj \
+    $(_OBJ_DIR)\i386\dkkbd.obj \
+    $(_OBJ_DIR)\i386\frkbd.obj \
+    $(_OBJ_DIR)\i386\grkbd.obj \
+    $(_OBJ_DIR)\i386\itkbd.obj \
+    $(_OBJ_DIR)\i386\lakbd.obj \
+    $(_OBJ_DIR)\i386\nlkbd.obj \
+    $(_OBJ_DIR)\i386\nokbd.obj \
+    $(_OBJ_DIR)\i386\pokbd.obj \
+    $(_OBJ_DIR)\i386\sfkbd.obj \
+    $(_OBJ_DIR)\i386\sgkbd.obj \
+    $(_OBJ_DIR)\i386\spkbd.obj \
+    $(_OBJ_DIR)\i386\sukbd.obj \
+    $(_OBJ_DIR)\i386\svkbd.obj \
+    $(_OBJ_DIR)\i386\ukkbd.obj \
+    $(_OBJ_DIR)\i386\uskbd.obj \
+    $(_OBJ_DIR)\i386\jpkbd.obj \
+    $(_OBJ_DIR)\i386\prtrqust.obj \
+    $(_OBJ_DIR)\i386\os2.obj \
+    $(_OBJ_DIR)\i386\nls.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\viotty.obj \
+    $(_OBJ_DIR)\i386\kbdtable.obj \
+    $(_OBJ_DIR)\i386\trans.obj \
+    $(_OBJ_DIR)\i386\violvb.obj \
+    $(_OBJ_DIR)\i386\ntinitss.obj \
+    $(_OBJ_DIR)\i386\ntrqust.obj \
+    $(_OBJ_DIR)\i386\conrqust.obj \
+    $(_OBJ_DIR)\i386\tmrqust.obj \
+    $(_OBJ_DIR)\i386\event.obj \
+    $(_OBJ_DIR)\i386\kbdrqust.obj \
+    $(_OBJ_DIR)\i386\mourqust.obj \
+    $(_OBJ_DIR)\i386\monrqust.obj \
+    $(_OBJ_DIR)\i386\viorqust.obj \
+    $(_OBJ_DIR)\i386\imrqust.obj \
+    $(_OBJ_DIR)\i386\kbdnls.obj \
+    $(_OBJ_DIR)\i386\vionls.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\os2.res \
+    $(_OBJ_DIR)\ppc\prtrqust.obj \
+    $(_OBJ_DIR)\ppc\os2.obj \
+    $(_OBJ_DIR)\ppc\nls.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\viotty.obj \
+    $(_OBJ_DIR)\ppc\kbdtable.obj \
+    $(_OBJ_DIR)\ppc\trans.obj \
+    $(_OBJ_DIR)\ppc\violvb.obj \
+    $(_OBJ_DIR)\ppc\ntinitss.obj \
+    $(_OBJ_DIR)\ppc\ntrqust.obj \
+    $(_OBJ_DIR)\ppc\conrqust.obj \
+    $(_OBJ_DIR)\ppc\tmrqust.obj \
+    $(_OBJ_DIR)\ppc\event.obj \
+    $(_OBJ_DIR)\ppc\kbdrqust.obj \
+    $(_OBJ_DIR)\ppc\mourqust.obj \
+    $(_OBJ_DIR)\ppc\monrqust.obj \
+    $(_OBJ_DIR)\ppc\viorqust.obj \
+    $(_OBJ_DIR)\ppc\imrqust.obj \
+    $(_OBJ_DIR)\ppc\kbdnls.obj \
+    $(_OBJ_DIR)\ppc\vionls.obj
+
+PASS0_PPC_OBJECTS=
+

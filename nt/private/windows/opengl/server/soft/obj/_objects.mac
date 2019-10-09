@@ -1,0 +1,184 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\so_accum.obj \
+    $(_OBJ_DIR)\alpha\so_alpha.obj \
+    $(_OBJ_DIR)\alpha\so_attri.obj \
+    $(_OBJ_DIR)\alpha\so_bitdr.obj \
+    $(_OBJ_DIR)\alpha\so_bitma.obj \
+    $(_OBJ_DIR)\alpha\so_blend.obj \
+    $(_OBJ_DIR)\alpha\so_buffe.obj \
+    $(_OBJ_DIR)\alpha\so_clear.obj \
+    $(_OBJ_DIR)\alpha\so_clip.obj \
+    $(_OBJ_DIR)\alpha\so_conte.obj \
+    $(_OBJ_DIR)\alpha\so_depth.obj \
+    $(_OBJ_DIR)\alpha\so_eval.obj \
+    $(_OBJ_DIR)\alpha\so_feedb.obj \
+    $(_OBJ_DIR)\alpha\so_finis.obj \
+    $(_OBJ_DIR)\alpha\so_fog.obj \
+    $(_OBJ_DIR)\alpha\so_get.obj \
+    $(_OBJ_DIR)\alpha\so_globa.obj \
+    $(_OBJ_DIR)\alpha\so_image.obj \
+    $(_OBJ_DIR)\alpha\so_light.obj \
+    $(_OBJ_DIR)\alpha\so_linec.obj \
+    $(_OBJ_DIR)\alpha\so_lined.obj \
+    $(_OBJ_DIR)\alpha\so_lines.obj \
+    $(_OBJ_DIR)\alpha\so_math.obj \
+    $(_OBJ_DIR)\alpha\so_memmg.obj \
+    $(_OBJ_DIR)\alpha\so_names.obj \
+    $(_OBJ_DIR)\alpha\so_pick.obj \
+    $(_OBJ_DIR)\alpha\so_pntaa.obj \
+    $(_OBJ_DIR)\alpha\so_pntdr.obj \
+    $(_OBJ_DIR)\alpha\so_polya.obj \
+    $(_OBJ_DIR)\alpha\so_polyc.obj \
+    $(_OBJ_DIR)\alpha\so_polyd.obj \
+    $(_OBJ_DIR)\alpha\so_polym.obj \
+    $(_OBJ_DIR)\alpha\so_polys.obj \
+    $(_OBJ_DIR)\alpha\so_prim.obj \
+    $(_OBJ_DIR)\alpha\so_selec.obj \
+    $(_OBJ_DIR)\alpha\so_slows.obj \
+    $(_OBJ_DIR)\alpha\so_specc.obj \
+    $(_OBJ_DIR)\alpha\so_stenc.obj \
+    $(_OBJ_DIR)\alpha\so_store.obj \
+    $(_OBJ_DIR)\alpha\so_textu.obj \
+    $(_OBJ_DIR)\alpha\so_xform.obj \
+    $(_OBJ_DIR)\alpha\so_zfunc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\so_accum.obj \
+    $(_OBJ_DIR)\mips\so_alpha.obj \
+    $(_OBJ_DIR)\mips\so_attri.obj \
+    $(_OBJ_DIR)\mips\so_bitdr.obj \
+    $(_OBJ_DIR)\mips\so_bitma.obj \
+    $(_OBJ_DIR)\mips\so_blend.obj \
+    $(_OBJ_DIR)\mips\so_buffe.obj \
+    $(_OBJ_DIR)\mips\so_clear.obj \
+    $(_OBJ_DIR)\mips\so_clip.obj \
+    $(_OBJ_DIR)\mips\so_conte.obj \
+    $(_OBJ_DIR)\mips\so_depth.obj \
+    $(_OBJ_DIR)\mips\so_eval.obj \
+    $(_OBJ_DIR)\mips\so_feedb.obj \
+    $(_OBJ_DIR)\mips\so_finis.obj \
+    $(_OBJ_DIR)\mips\so_fog.obj \
+    $(_OBJ_DIR)\mips\so_get.obj \
+    $(_OBJ_DIR)\mips\so_globa.obj \
+    $(_OBJ_DIR)\mips\so_image.obj \
+    $(_OBJ_DIR)\mips\so_light.obj \
+    $(_OBJ_DIR)\mips\so_linec.obj \
+    $(_OBJ_DIR)\mips\so_lined.obj \
+    $(_OBJ_DIR)\mips\so_lines.obj \
+    $(_OBJ_DIR)\mips\so_math.obj \
+    $(_OBJ_DIR)\mips\so_memmg.obj \
+    $(_OBJ_DIR)\mips\so_names.obj \
+    $(_OBJ_DIR)\mips\so_pick.obj \
+    $(_OBJ_DIR)\mips\so_pntaa.obj \
+    $(_OBJ_DIR)\mips\so_pntdr.obj \
+    $(_OBJ_DIR)\mips\so_polya.obj \
+    $(_OBJ_DIR)\mips\so_polyc.obj \
+    $(_OBJ_DIR)\mips\so_polyd.obj \
+    $(_OBJ_DIR)\mips\so_polym.obj \
+    $(_OBJ_DIR)\mips\so_polys.obj \
+    $(_OBJ_DIR)\mips\so_prim.obj \
+    $(_OBJ_DIR)\mips\so_selec.obj \
+    $(_OBJ_DIR)\mips\so_slows.obj \
+    $(_OBJ_DIR)\mips\so_specc.obj \
+    $(_OBJ_DIR)\mips\so_stenc.obj \
+    $(_OBJ_DIR)\mips\so_store.obj \
+    $(_OBJ_DIR)\mips\so_textu.obj \
+    $(_OBJ_DIR)\mips\so_xform.obj \
+    $(_OBJ_DIR)\mips\so_zfunc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\so_accum.obj \
+    $(_OBJ_DIR)\i386\so_alpha.obj \
+    $(_OBJ_DIR)\i386\so_attri.obj \
+    $(_OBJ_DIR)\i386\so_bitdr.obj \
+    $(_OBJ_DIR)\i386\so_bitma.obj \
+    $(_OBJ_DIR)\i386\so_blend.obj \
+    $(_OBJ_DIR)\i386\so_buffe.obj \
+    $(_OBJ_DIR)\i386\so_clear.obj \
+    $(_OBJ_DIR)\i386\so_clip.obj \
+    $(_OBJ_DIR)\i386\so_conte.obj \
+    $(_OBJ_DIR)\i386\so_depth.obj \
+    $(_OBJ_DIR)\i386\so_eval.obj \
+    $(_OBJ_DIR)\i386\so_feedb.obj \
+    $(_OBJ_DIR)\i386\so_finis.obj \
+    $(_OBJ_DIR)\i386\so_fog.obj \
+    $(_OBJ_DIR)\i386\so_get.obj \
+    $(_OBJ_DIR)\i386\so_globa.obj \
+    $(_OBJ_DIR)\i386\so_image.obj \
+    $(_OBJ_DIR)\i386\so_light.obj \
+    $(_OBJ_DIR)\i386\so_linec.obj \
+    $(_OBJ_DIR)\i386\so_lined.obj \
+    $(_OBJ_DIR)\i386\so_lines.obj \
+    $(_OBJ_DIR)\i386\so_math.obj \
+    $(_OBJ_DIR)\i386\so_memmg.obj \
+    $(_OBJ_DIR)\i386\so_names.obj \
+    $(_OBJ_DIR)\i386\so_pick.obj \
+    $(_OBJ_DIR)\i386\so_pntaa.obj \
+    $(_OBJ_DIR)\i386\so_pntdr.obj \
+    $(_OBJ_DIR)\i386\so_polya.obj \
+    $(_OBJ_DIR)\i386\so_polyc.obj \
+    $(_OBJ_DIR)\i386\so_polyd.obj \
+    $(_OBJ_DIR)\i386\so_polym.obj \
+    $(_OBJ_DIR)\i386\so_polys.obj \
+    $(_OBJ_DIR)\i386\so_prim.obj \
+    $(_OBJ_DIR)\i386\so_selec.obj \
+    $(_OBJ_DIR)\i386\so_slows.obj \
+    $(_OBJ_DIR)\i386\so_specc.obj \
+    $(_OBJ_DIR)\i386\so_stenc.obj \
+    $(_OBJ_DIR)\i386\so_store.obj \
+    $(_OBJ_DIR)\i386\so_textu.obj \
+    $(_OBJ_DIR)\i386\so_xform.obj \
+    $(_OBJ_DIR)\i386\so_zfunc.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\so_accum.obj \
+    $(_OBJ_DIR)\ppc\so_alpha.obj \
+    $(_OBJ_DIR)\ppc\so_attri.obj \
+    $(_OBJ_DIR)\ppc\so_bitdr.obj \
+    $(_OBJ_DIR)\ppc\so_bitma.obj \
+    $(_OBJ_DIR)\ppc\so_blend.obj \
+    $(_OBJ_DIR)\ppc\so_buffe.obj \
+    $(_OBJ_DIR)\ppc\so_clear.obj \
+    $(_OBJ_DIR)\ppc\so_clip.obj \
+    $(_OBJ_DIR)\ppc\so_conte.obj \
+    $(_OBJ_DIR)\ppc\so_depth.obj \
+    $(_OBJ_DIR)\ppc\so_eval.obj \
+    $(_OBJ_DIR)\ppc\so_feedb.obj \
+    $(_OBJ_DIR)\ppc\so_finis.obj \
+    $(_OBJ_DIR)\ppc\so_fog.obj \
+    $(_OBJ_DIR)\ppc\so_get.obj \
+    $(_OBJ_DIR)\ppc\so_globa.obj \
+    $(_OBJ_DIR)\ppc\so_image.obj \
+    $(_OBJ_DIR)\ppc\so_light.obj \
+    $(_OBJ_DIR)\ppc\so_linec.obj \
+    $(_OBJ_DIR)\ppc\so_lined.obj \
+    $(_OBJ_DIR)\ppc\so_lines.obj \
+    $(_OBJ_DIR)\ppc\so_math.obj \
+    $(_OBJ_DIR)\ppc\so_memmg.obj \
+    $(_OBJ_DIR)\ppc\so_names.obj \
+    $(_OBJ_DIR)\ppc\so_pick.obj \
+    $(_OBJ_DIR)\ppc\so_pntaa.obj \
+    $(_OBJ_DIR)\ppc\so_pntdr.obj \
+    $(_OBJ_DIR)\ppc\so_polya.obj \
+    $(_OBJ_DIR)\ppc\so_polyc.obj \
+    $(_OBJ_DIR)\ppc\so_polyd.obj \
+    $(_OBJ_DIR)\ppc\so_polym.obj \
+    $(_OBJ_DIR)\ppc\so_polys.obj \
+    $(_OBJ_DIR)\ppc\so_prim.obj \
+    $(_OBJ_DIR)\ppc\so_selec.obj \
+    $(_OBJ_DIR)\ppc\so_slows.obj \
+    $(_OBJ_DIR)\ppc\so_specc.obj \
+    $(_OBJ_DIR)\ppc\so_stenc.obj \
+    $(_OBJ_DIR)\ppc\so_store.obj \
+    $(_OBJ_DIR)\ppc\so_textu.obj \
+    $(_OBJ_DIR)\ppc\so_xform.obj \
+    $(_OBJ_DIR)\ppc\so_zfunc.obj
+
+PASS0_PPC_OBJECTS=
+

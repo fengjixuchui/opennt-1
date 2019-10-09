@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\htrn_jis.res \
+    $(_OBJ_DIR)\alpha\htrn_jis.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\htrn_jis.res \
+    $(_OBJ_DIR)\mips\htrn_jis.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\htrn_jis.res \
+    $(_OBJ_DIR)\i386\htrn_jis.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\htrn_jis.res \
+    $(_OBJ_DIR)\ppc\htrn_jis.obj
+
+PASS0_PPC_OBJECTS=
+

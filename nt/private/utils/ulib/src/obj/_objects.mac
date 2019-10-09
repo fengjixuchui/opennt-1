@@ -1,0 +1,201 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\rtmsg.res \
+    $(_OBJ_DIR)\alpha\arg.obj \
+    $(_OBJ_DIR)\alpha\array.obj \
+    $(_OBJ_DIR)\alpha\arrayit.obj \
+    $(_OBJ_DIR)\alpha\basesys.obj \
+    $(_OBJ_DIR)\alpha\bitvect.obj \
+    $(_OBJ_DIR)\alpha\bytestrm.obj \
+    $(_OBJ_DIR)\alpha\bufstrm.obj \
+    $(_OBJ_DIR)\alpha\clasdesc.obj \
+    $(_OBJ_DIR)\alpha\cmem.obj \
+    $(_OBJ_DIR)\alpha\comm.obj \
+    $(_OBJ_DIR)\alpha\contain.obj \
+    $(_OBJ_DIR)\alpha\dir.obj \
+    $(_OBJ_DIR)\alpha\file.obj \
+    $(_OBJ_DIR)\alpha\filestrm.obj \
+    $(_OBJ_DIR)\alpha\filter.obj \
+    $(_OBJ_DIR)\alpha\fsnode.obj \
+    $(_OBJ_DIR)\alpha\hmem.obj \
+    $(_OBJ_DIR)\alpha\iterator.obj \
+    $(_OBJ_DIR)\alpha\keyboard.obj \
+    $(_OBJ_DIR)\alpha\list.obj \
+    $(_OBJ_DIR)\alpha\listit.obj \
+    $(_OBJ_DIR)\alpha\machine.obj \
+    $(_OBJ_DIR)\alpha\mbstr.obj \
+    $(_OBJ_DIR)\alpha\mem.obj \
+    $(_OBJ_DIR)\alpha\membmgr.obj \
+    $(_OBJ_DIR)\alpha\message.obj \
+    $(_OBJ_DIR)\alpha\newdel.obj \
+    $(_OBJ_DIR)\alpha\object.obj \
+    $(_OBJ_DIR)\alpha\path.obj \
+    $(_OBJ_DIR)\alpha\pipe.obj \
+    $(_OBJ_DIR)\alpha\pipestrm.obj \
+    $(_OBJ_DIR)\alpha\program.obj \
+    $(_OBJ_DIR)\alpha\prtstrm.obj \
+    $(_OBJ_DIR)\alpha\screen.obj \
+    $(_OBJ_DIR)\alpha\seqcnt.obj \
+    $(_OBJ_DIR)\alpha\smsg.obj \
+    $(_OBJ_DIR)\alpha\sortcnt.obj \
+    $(_OBJ_DIR)\alpha\sortlist.obj \
+    $(_OBJ_DIR)\alpha\sortlit.obj \
+    $(_OBJ_DIR)\alpha\stream.obj \
+    $(_OBJ_DIR)\alpha\stringar.obj \
+    $(_OBJ_DIR)\alpha\system.obj \
+    $(_OBJ_DIR)\alpha\timeinfo.obj \
+    $(_OBJ_DIR)\alpha\ulib.obj \
+    $(_OBJ_DIR)\alpha\wstring.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\rtmsg.res \
+    $(_OBJ_DIR)\mips\arg.obj \
+    $(_OBJ_DIR)\mips\array.obj \
+    $(_OBJ_DIR)\mips\arrayit.obj \
+    $(_OBJ_DIR)\mips\basesys.obj \
+    $(_OBJ_DIR)\mips\bitvect.obj \
+    $(_OBJ_DIR)\mips\bytestrm.obj \
+    $(_OBJ_DIR)\mips\bufstrm.obj \
+    $(_OBJ_DIR)\mips\clasdesc.obj \
+    $(_OBJ_DIR)\mips\cmem.obj \
+    $(_OBJ_DIR)\mips\comm.obj \
+    $(_OBJ_DIR)\mips\contain.obj \
+    $(_OBJ_DIR)\mips\dir.obj \
+    $(_OBJ_DIR)\mips\file.obj \
+    $(_OBJ_DIR)\mips\filestrm.obj \
+    $(_OBJ_DIR)\mips\filter.obj \
+    $(_OBJ_DIR)\mips\fsnode.obj \
+    $(_OBJ_DIR)\mips\hmem.obj \
+    $(_OBJ_DIR)\mips\iterator.obj \
+    $(_OBJ_DIR)\mips\keyboard.obj \
+    $(_OBJ_DIR)\mips\list.obj \
+    $(_OBJ_DIR)\mips\listit.obj \
+    $(_OBJ_DIR)\mips\machine.obj \
+    $(_OBJ_DIR)\mips\mbstr.obj \
+    $(_OBJ_DIR)\mips\mem.obj \
+    $(_OBJ_DIR)\mips\membmgr.obj \
+    $(_OBJ_DIR)\mips\message.obj \
+    $(_OBJ_DIR)\mips\newdel.obj \
+    $(_OBJ_DIR)\mips\object.obj \
+    $(_OBJ_DIR)\mips\path.obj \
+    $(_OBJ_DIR)\mips\pipe.obj \
+    $(_OBJ_DIR)\mips\pipestrm.obj \
+    $(_OBJ_DIR)\mips\program.obj \
+    $(_OBJ_DIR)\mips\prtstrm.obj \
+    $(_OBJ_DIR)\mips\screen.obj \
+    $(_OBJ_DIR)\mips\seqcnt.obj \
+    $(_OBJ_DIR)\mips\smsg.obj \
+    $(_OBJ_DIR)\mips\sortcnt.obj \
+    $(_OBJ_DIR)\mips\sortlist.obj \
+    $(_OBJ_DIR)\mips\sortlit.obj \
+    $(_OBJ_DIR)\mips\stream.obj \
+    $(_OBJ_DIR)\mips\stringar.obj \
+    $(_OBJ_DIR)\mips\system.obj \
+    $(_OBJ_DIR)\mips\timeinfo.obj \
+    $(_OBJ_DIR)\mips\ulib.obj \
+    $(_OBJ_DIR)\mips\wstring.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\rtmsg.res \
+    $(_OBJ_DIR)\i386\dosttr.obj \
+    $(_OBJ_DIR)\i386\arg.obj \
+    $(_OBJ_DIR)\i386\array.obj \
+    $(_OBJ_DIR)\i386\arrayit.obj \
+    $(_OBJ_DIR)\i386\basesys.obj \
+    $(_OBJ_DIR)\i386\bitvect.obj \
+    $(_OBJ_DIR)\i386\bytestrm.obj \
+    $(_OBJ_DIR)\i386\bufstrm.obj \
+    $(_OBJ_DIR)\i386\clasdesc.obj \
+    $(_OBJ_DIR)\i386\cmem.obj \
+    $(_OBJ_DIR)\i386\comm.obj \
+    $(_OBJ_DIR)\i386\contain.obj \
+    $(_OBJ_DIR)\i386\dir.obj \
+    $(_OBJ_DIR)\i386\file.obj \
+    $(_OBJ_DIR)\i386\filestrm.obj \
+    $(_OBJ_DIR)\i386\filter.obj \
+    $(_OBJ_DIR)\i386\fsnode.obj \
+    $(_OBJ_DIR)\i386\hmem.obj \
+    $(_OBJ_DIR)\i386\iterator.obj \
+    $(_OBJ_DIR)\i386\keyboard.obj \
+    $(_OBJ_DIR)\i386\list.obj \
+    $(_OBJ_DIR)\i386\listit.obj \
+    $(_OBJ_DIR)\i386\machine.obj \
+    $(_OBJ_DIR)\i386\mbstr.obj \
+    $(_OBJ_DIR)\i386\mem.obj \
+    $(_OBJ_DIR)\i386\membmgr.obj \
+    $(_OBJ_DIR)\i386\message.obj \
+    $(_OBJ_DIR)\i386\newdel.obj \
+    $(_OBJ_DIR)\i386\object.obj \
+    $(_OBJ_DIR)\i386\path.obj \
+    $(_OBJ_DIR)\i386\pipe.obj \
+    $(_OBJ_DIR)\i386\pipestrm.obj \
+    $(_OBJ_DIR)\i386\program.obj \
+    $(_OBJ_DIR)\i386\prtstrm.obj \
+    $(_OBJ_DIR)\i386\screen.obj \
+    $(_OBJ_DIR)\i386\seqcnt.obj \
+    $(_OBJ_DIR)\i386\smsg.obj \
+    $(_OBJ_DIR)\i386\sortcnt.obj \
+    $(_OBJ_DIR)\i386\sortlist.obj \
+    $(_OBJ_DIR)\i386\sortlit.obj \
+    $(_OBJ_DIR)\i386\stream.obj \
+    $(_OBJ_DIR)\i386\stringar.obj \
+    $(_OBJ_DIR)\i386\system.obj \
+    $(_OBJ_DIR)\i386\timeinfo.obj \
+    $(_OBJ_DIR)\i386\ulib.obj \
+    $(_OBJ_DIR)\i386\wstring.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\rtmsg.res \
+    $(_OBJ_DIR)\ppc\arg.obj \
+    $(_OBJ_DIR)\ppc\array.obj \
+    $(_OBJ_DIR)\ppc\arrayit.obj \
+    $(_OBJ_DIR)\ppc\basesys.obj \
+    $(_OBJ_DIR)\ppc\bitvect.obj \
+    $(_OBJ_DIR)\ppc\bytestrm.obj \
+    $(_OBJ_DIR)\ppc\bufstrm.obj \
+    $(_OBJ_DIR)\ppc\clasdesc.obj \
+    $(_OBJ_DIR)\ppc\cmem.obj \
+    $(_OBJ_DIR)\ppc\comm.obj \
+    $(_OBJ_DIR)\ppc\contain.obj \
+    $(_OBJ_DIR)\ppc\dir.obj \
+    $(_OBJ_DIR)\ppc\file.obj \
+    $(_OBJ_DIR)\ppc\filestrm.obj \
+    $(_OBJ_DIR)\ppc\filter.obj \
+    $(_OBJ_DIR)\ppc\fsnode.obj \
+    $(_OBJ_DIR)\ppc\hmem.obj \
+    $(_OBJ_DIR)\ppc\iterator.obj \
+    $(_OBJ_DIR)\ppc\keyboard.obj \
+    $(_OBJ_DIR)\ppc\list.obj \
+    $(_OBJ_DIR)\ppc\listit.obj \
+    $(_OBJ_DIR)\ppc\machine.obj \
+    $(_OBJ_DIR)\ppc\mbstr.obj \
+    $(_OBJ_DIR)\ppc\mem.obj \
+    $(_OBJ_DIR)\ppc\membmgr.obj \
+    $(_OBJ_DIR)\ppc\message.obj \
+    $(_OBJ_DIR)\ppc\newdel.obj \
+    $(_OBJ_DIR)\ppc\object.obj \
+    $(_OBJ_DIR)\ppc\path.obj \
+    $(_OBJ_DIR)\ppc\pipe.obj \
+    $(_OBJ_DIR)\ppc\pipestrm.obj \
+    $(_OBJ_DIR)\ppc\program.obj \
+    $(_OBJ_DIR)\ppc\prtstrm.obj \
+    $(_OBJ_DIR)\ppc\screen.obj \
+    $(_OBJ_DIR)\ppc\seqcnt.obj \
+    $(_OBJ_DIR)\ppc\smsg.obj \
+    $(_OBJ_DIR)\ppc\sortcnt.obj \
+    $(_OBJ_DIR)\ppc\sortlist.obj \
+    $(_OBJ_DIR)\ppc\sortlit.obj \
+    $(_OBJ_DIR)\ppc\stream.obj \
+    $(_OBJ_DIR)\ppc\stringar.obj \
+    $(_OBJ_DIR)\ppc\system.obj \
+    $(_OBJ_DIR)\ppc\timeinfo.obj \
+    $(_OBJ_DIR)\ppc\ulib.obj \
+    $(_OBJ_DIR)\ppc\wstring.obj
+
+PASS0_PPC_OBJECTS=
+

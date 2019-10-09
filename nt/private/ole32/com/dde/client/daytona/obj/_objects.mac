@@ -1,0 +1,64 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\cnct_tbl.obj \
+    $(_OBJ_DIR)\alpha\ddedo.obj \
+    $(_OBJ_DIR)\alpha\ddeioc.obj \
+    $(_OBJ_DIR)\alpha\ddemnker.obj \
+    $(_OBJ_DIR)\alpha\ddeoo.obj \
+    $(_OBJ_DIR)\alpha\ddeproxy.obj \
+    $(_OBJ_DIR)\alpha\ddechc.obj \
+    $(_OBJ_DIR)\alpha\ddestg.obj \
+    $(_OBJ_DIR)\alpha\ddewnd.obj \
+    $(_OBJ_DIR)\alpha\ddeworkr.obj \
+    $(_OBJ_DIR)\alpha\modallp.obj \
+    $(_OBJ_DIR)\alpha\packmnkr.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\cnct_tbl.obj \
+    $(_OBJ_DIR)\mips\ddedo.obj \
+    $(_OBJ_DIR)\mips\ddeioc.obj \
+    $(_OBJ_DIR)\mips\ddemnker.obj \
+    $(_OBJ_DIR)\mips\ddeoo.obj \
+    $(_OBJ_DIR)\mips\ddeproxy.obj \
+    $(_OBJ_DIR)\mips\ddechc.obj \
+    $(_OBJ_DIR)\mips\ddestg.obj \
+    $(_OBJ_DIR)\mips\ddewnd.obj \
+    $(_OBJ_DIR)\mips\ddeworkr.obj \
+    $(_OBJ_DIR)\mips\modallp.obj \
+    $(_OBJ_DIR)\mips\packmnkr.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cnct_tbl.obj \
+    $(_OBJ_DIR)\i386\ddedo.obj \
+    $(_OBJ_DIR)\i386\ddeioc.obj \
+    $(_OBJ_DIR)\i386\ddemnker.obj \
+    $(_OBJ_DIR)\i386\ddeoo.obj \
+    $(_OBJ_DIR)\i386\ddeproxy.obj \
+    $(_OBJ_DIR)\i386\ddechc.obj \
+    $(_OBJ_DIR)\i386\ddestg.obj \
+    $(_OBJ_DIR)\i386\ddewnd.obj \
+    $(_OBJ_DIR)\i386\ddeworkr.obj \
+    $(_OBJ_DIR)\i386\modallp.obj \
+    $(_OBJ_DIR)\i386\packmnkr.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\cnct_tbl.obj \
+    $(_OBJ_DIR)\ppc\ddedo.obj \
+    $(_OBJ_DIR)\ppc\ddeioc.obj \
+    $(_OBJ_DIR)\ppc\ddemnker.obj \
+    $(_OBJ_DIR)\ppc\ddeoo.obj \
+    $(_OBJ_DIR)\ppc\ddeproxy.obj \
+    $(_OBJ_DIR)\ppc\ddechc.obj \
+    $(_OBJ_DIR)\ppc\ddestg.obj \
+    $(_OBJ_DIR)\ppc\ddewnd.obj \
+    $(_OBJ_DIR)\ppc\ddeworkr.obj \
+    $(_OBJ_DIR)\ppc\modallp.obj \
+    $(_OBJ_DIR)\ppc\packmnkr.obj
+
+PASS0_PPC_OBJECTS=
+

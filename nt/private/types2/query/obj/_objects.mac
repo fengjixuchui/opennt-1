@@ -1,0 +1,20 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS= \
+    w:\nt\public\sdk\inc\query.h
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS= \
+    w:\nt\public\sdk\inc\query.h
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS= \
+    w:\nt\public\sdk\inc\query.h
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS= \
+    w:\nt\public\sdk\inc\query.h
+

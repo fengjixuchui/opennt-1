@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\wdlan.res \
+    $(_OBJ_DIR)\alpha\wd.obj \
+    $(_OBJ_DIR)\alpha\umi.obj \
+    $(_OBJ_DIR)\alpha\lmi.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\wdlan.res \
+    $(_OBJ_DIR)\mips\wd.obj \
+    $(_OBJ_DIR)\mips\umi.obj \
+    $(_OBJ_DIR)\mips\lmi.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\wdlan.res \
+    $(_OBJ_DIR)\i386\wd.obj \
+    $(_OBJ_DIR)\i386\umi.obj \
+    $(_OBJ_DIR)\i386\lmi.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\wdlan.res \
+    $(_OBJ_DIR)\ppc\wd.obj \
+    $(_OBJ_DIR)\ppc\umi.obj \
+    $(_OBJ_DIR)\ppc\lmi.obj
+
+PASS0_PPC_OBJECTS=
+

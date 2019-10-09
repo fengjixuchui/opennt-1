@@ -1,0 +1,80 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mciavi.res \
+    $(_OBJ_DIR)\alpha\avidraw.obj \
+    $(_OBJ_DIR)\alpha\aviplay.obj \
+    $(_OBJ_DIR)\alpha\avisound.obj \
+    $(_OBJ_DIR)\alpha\avitask.obj \
+    $(_OBJ_DIR)\alpha\aviopen.obj \
+    $(_OBJ_DIR)\alpha\common.obj \
+    $(_OBJ_DIR)\alpha\config.obj \
+    $(_OBJ_DIR)\alpha\device.obj \
+    $(_OBJ_DIR)\alpha\drvproc.obj \
+    $(_OBJ_DIR)\alpha\graphic.obj \
+    $(_OBJ_DIR)\alpha\window.obj \
+    $(_OBJ_DIR)\alpha\fullproc.obj \
+    $(_OBJ_DIR)\alpha\aviread.obj \
+    $(_OBJ_DIR)\alpha\drawproc.obj \
+    $(_OBJ_DIR)\alpha\profile.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mciavi.res \
+    $(_OBJ_DIR)\mips\avidraw.obj \
+    $(_OBJ_DIR)\mips\aviplay.obj \
+    $(_OBJ_DIR)\mips\avisound.obj \
+    $(_OBJ_DIR)\mips\avitask.obj \
+    $(_OBJ_DIR)\mips\aviopen.obj \
+    $(_OBJ_DIR)\mips\common.obj \
+    $(_OBJ_DIR)\mips\config.obj \
+    $(_OBJ_DIR)\mips\device.obj \
+    $(_OBJ_DIR)\mips\drvproc.obj \
+    $(_OBJ_DIR)\mips\graphic.obj \
+    $(_OBJ_DIR)\mips\window.obj \
+    $(_OBJ_DIR)\mips\fullproc.obj \
+    $(_OBJ_DIR)\mips\aviread.obj \
+    $(_OBJ_DIR)\mips\drawproc.obj \
+    $(_OBJ_DIR)\mips\profile.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mciavi.res \
+    $(_OBJ_DIR)\i386\avidraw.obj \
+    $(_OBJ_DIR)\i386\aviplay.obj \
+    $(_OBJ_DIR)\i386\avisound.obj \
+    $(_OBJ_DIR)\i386\avitask.obj \
+    $(_OBJ_DIR)\i386\aviopen.obj \
+    $(_OBJ_DIR)\i386\common.obj \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\device.obj \
+    $(_OBJ_DIR)\i386\drvproc.obj \
+    $(_OBJ_DIR)\i386\graphic.obj \
+    $(_OBJ_DIR)\i386\window.obj \
+    $(_OBJ_DIR)\i386\fullproc.obj \
+    $(_OBJ_DIR)\i386\aviread.obj \
+    $(_OBJ_DIR)\i386\drawproc.obj \
+    $(_OBJ_DIR)\i386\profile.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mciavi.res \
+    $(_OBJ_DIR)\ppc\avidraw.obj \
+    $(_OBJ_DIR)\ppc\aviplay.obj \
+    $(_OBJ_DIR)\ppc\avisound.obj \
+    $(_OBJ_DIR)\ppc\avitask.obj \
+    $(_OBJ_DIR)\ppc\aviopen.obj \
+    $(_OBJ_DIR)\ppc\common.obj \
+    $(_OBJ_DIR)\ppc\config.obj \
+    $(_OBJ_DIR)\ppc\device.obj \
+    $(_OBJ_DIR)\ppc\drvproc.obj \
+    $(_OBJ_DIR)\ppc\graphic.obj \
+    $(_OBJ_DIR)\ppc\window.obj \
+    $(_OBJ_DIR)\ppc\fullproc.obj \
+    $(_OBJ_DIR)\ppc\aviread.obj \
+    $(_OBJ_DIR)\ppc\drawproc.obj \
+    $(_OBJ_DIR)\ppc\profile.obj
+
+PASS0_PPC_OBJECTS=
+

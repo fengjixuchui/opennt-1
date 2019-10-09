@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\fci.obj \
+    $(_OBJ_DIR)\alpha\checksum.obj \
+    $(_OBJ_DIR)\alpha\buildcab.obj \
+    $(_OBJ_DIR)\alpha\buildfol.obj \
+    $(_OBJ_DIR)\alpha\erf.obj \
+    $(_OBJ_DIR)\alpha\asrt.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\fci.obj \
+    $(_OBJ_DIR)\mips\checksum.obj \
+    $(_OBJ_DIR)\mips\buildcab.obj \
+    $(_OBJ_DIR)\mips\buildfol.obj \
+    $(_OBJ_DIR)\mips\erf.obj \
+    $(_OBJ_DIR)\mips\asrt.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\fci.obj \
+    $(_OBJ_DIR)\i386\checksum.obj \
+    $(_OBJ_DIR)\i386\buildcab.obj \
+    $(_OBJ_DIR)\i386\buildfol.obj \
+    $(_OBJ_DIR)\i386\erf.obj \
+    $(_OBJ_DIR)\i386\asrt.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\fci.obj \
+    $(_OBJ_DIR)\ppc\checksum.obj \
+    $(_OBJ_DIR)\ppc\buildcab.obj \
+    $(_OBJ_DIR)\ppc\buildfol.obj \
+    $(_OBJ_DIR)\ppc\erf.obj \
+    $(_OBJ_DIR)\ppc\asrt.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,69 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\cmboot.obj \
+    $(_OBJ_DIR)\alpha\cmchek.obj \
+    $(_OBJ_DIR)\alpha\cmdat.obj \
+    $(_OBJ_DIR)\alpha\cmdat2.obj \
+    $(_OBJ_DIR)\alpha\cmindex.obj \
+    $(_OBJ_DIR)\alpha\cmname.obj \
+    $(_OBJ_DIR)\alpha\cmtree.obj \
+    $(_OBJ_DIR)\alpha\hivecell.obj \
+    $(_OBJ_DIR)\alpha\hivechek.obj \
+    $(_OBJ_DIR)\alpha\hiveinit.obj \
+    $(_OBJ_DIR)\alpha\hivesum.obj \
+    $(_OBJ_DIR)\alpha\hivemap.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\cmboot.obj \
+    $(_OBJ_DIR)\mips\cmchek.obj \
+    $(_OBJ_DIR)\mips\cmdat.obj \
+    $(_OBJ_DIR)\mips\cmdat2.obj \
+    $(_OBJ_DIR)\mips\cmindex.obj \
+    $(_OBJ_DIR)\mips\cmname.obj \
+    $(_OBJ_DIR)\mips\cmtree.obj \
+    $(_OBJ_DIR)\mips\hivecell.obj \
+    $(_OBJ_DIR)\mips\hivechek.obj \
+    $(_OBJ_DIR)\mips\hiveinit.obj \
+    $(_OBJ_DIR)\mips\hivesum.obj \
+    $(_OBJ_DIR)\mips\hivemap.obj \
+    $(_OBJ_DIR)\mips\init.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\init386.obj \
+    $(_OBJ_DIR)\i386\initdat.obj \
+    $(_OBJ_DIR)\i386\cmboot.obj \
+    $(_OBJ_DIR)\i386\cmchek.obj \
+    $(_OBJ_DIR)\i386\cmdat.obj \
+    $(_OBJ_DIR)\i386\cmdat2.obj \
+    $(_OBJ_DIR)\i386\cmindex.obj \
+    $(_OBJ_DIR)\i386\cmname.obj \
+    $(_OBJ_DIR)\i386\cmtree.obj \
+    $(_OBJ_DIR)\i386\hivecell.obj \
+    $(_OBJ_DIR)\i386\hivechek.obj \
+    $(_OBJ_DIR)\i386\hiveinit.obj \
+    $(_OBJ_DIR)\i386\hivesum.obj \
+    $(_OBJ_DIR)\i386\hivemap.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\cmboot.obj \
+    $(_OBJ_DIR)\ppc\cmchek.obj \
+    $(_OBJ_DIR)\ppc\cmdat.obj \
+    $(_OBJ_DIR)\ppc\cmdat2.obj \
+    $(_OBJ_DIR)\ppc\cmindex.obj \
+    $(_OBJ_DIR)\ppc\cmname.obj \
+    $(_OBJ_DIR)\ppc\cmtree.obj \
+    $(_OBJ_DIR)\ppc\hivecell.obj \
+    $(_OBJ_DIR)\ppc\hivechek.obj \
+    $(_OBJ_DIR)\ppc\hiveinit.obj \
+    $(_OBJ_DIR)\ppc\hivesum.obj \
+    $(_OBJ_DIR)\ppc\hivemap.obj
+
+PASS0_PPC_OBJECTS=
+

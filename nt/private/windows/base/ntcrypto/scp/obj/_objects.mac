@@ -1,0 +1,56 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\rsabase.res \
+    $(_OBJ_DIR)\alpha\nt_crypt.obj \
+    $(_OBJ_DIR)\alpha\nt_hash.obj \
+    $(_OBJ_DIR)\alpha\nt_key.obj \
+    $(_OBJ_DIR)\alpha\nt_rand.obj \
+    $(_OBJ_DIR)\alpha\nt_sign.obj \
+    $(_OBJ_DIR)\alpha\ntagum.obj \
+    $(_OBJ_DIR)\alpha\ntagimp1.obj \
+    $(_OBJ_DIR)\alpha\swnt_pk.obj \
+    $(_OBJ_DIR)\alpha\manage.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\rsabase.res \
+    $(_OBJ_DIR)\mips\nt_crypt.obj \
+    $(_OBJ_DIR)\mips\nt_hash.obj \
+    $(_OBJ_DIR)\mips\nt_key.obj \
+    $(_OBJ_DIR)\mips\nt_rand.obj \
+    $(_OBJ_DIR)\mips\nt_sign.obj \
+    $(_OBJ_DIR)\mips\ntagum.obj \
+    $(_OBJ_DIR)\mips\ntagimp1.obj \
+    $(_OBJ_DIR)\mips\swnt_pk.obj \
+    $(_OBJ_DIR)\mips\manage.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\rsabase.res \
+    $(_OBJ_DIR)\i386\nt_crypt.obj \
+    $(_OBJ_DIR)\i386\nt_hash.obj \
+    $(_OBJ_DIR)\i386\nt_key.obj \
+    $(_OBJ_DIR)\i386\nt_rand.obj \
+    $(_OBJ_DIR)\i386\nt_sign.obj \
+    $(_OBJ_DIR)\i386\ntagum.obj \
+    $(_OBJ_DIR)\i386\ntagimp1.obj \
+    $(_OBJ_DIR)\i386\swnt_pk.obj \
+    $(_OBJ_DIR)\i386\manage.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\rsabase.res \
+    $(_OBJ_DIR)\ppc\nt_crypt.obj \
+    $(_OBJ_DIR)\ppc\nt_hash.obj \
+    $(_OBJ_DIR)\ppc\nt_key.obj \
+    $(_OBJ_DIR)\ppc\nt_rand.obj \
+    $(_OBJ_DIR)\ppc\nt_sign.obj \
+    $(_OBJ_DIR)\ppc\ntagum.obj \
+    $(_OBJ_DIR)\ppc\ntagimp1.obj \
+    $(_OBJ_DIR)\ppc\swnt_pk.obj \
+    $(_OBJ_DIR)\ppc\manage.obj
+
+PASS0_PPC_OBJECTS=
+

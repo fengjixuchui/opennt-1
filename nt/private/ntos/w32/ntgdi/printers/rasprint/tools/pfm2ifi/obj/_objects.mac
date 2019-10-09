@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\pfm2ifi.res \
+    $(_OBJ_DIR)\alpha\pfm2ifi.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\pfm2ifi.res \
+    $(_OBJ_DIR)\mips\pfm2ifi.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\pfm2ifi.res \
+    $(_OBJ_DIR)\i386\pfm2ifi.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\pfm2ifi.res \
+    $(_OBJ_DIR)\ppc\pfm2ifi.obj
+
+PASS0_PPC_OBJECTS=
+

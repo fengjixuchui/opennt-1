@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\tree.res \
+    $(_OBJ_DIR)\alpha\tree.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\tree.res \
+    $(_OBJ_DIR)\mips\tree.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\tree.res \
+    $(_OBJ_DIR)\i386\tree.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\tree.res \
+    $(_OBJ_DIR)\ppc\tree.obj
+
+PASS0_PPC_OBJECTS=
+

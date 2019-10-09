@@ -1,0 +1,100 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mf3216.res \
+    $(_OBJ_DIR)\alpha\beziers.obj \
+    $(_OBJ_DIR)\alpha\bitmaps.obj \
+    $(_OBJ_DIR)\alpha\colors.obj \
+    $(_OBJ_DIR)\alpha\conics.obj \
+    $(_OBJ_DIR)\alpha\fonts.obj \
+    $(_OBJ_DIR)\alpha\lines.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\objects.obj \
+    $(_OBJ_DIR)\alpha\paths.obj \
+    $(_OBJ_DIR)\alpha\polygons.obj \
+    $(_OBJ_DIR)\alpha\rects.obj \
+    $(_OBJ_DIR)\alpha\regions.obj \
+    $(_OBJ_DIR)\alpha\text.obj \
+    $(_OBJ_DIR)\alpha\win16api.obj \
+    $(_OBJ_DIR)\alpha\xforms.obj \
+    $(_OBJ_DIR)\alpha\preamble.obj \
+    $(_OBJ_DIR)\alpha\emit.obj \
+    $(_OBJ_DIR)\alpha\parser.obj \
+    $(_OBJ_DIR)\alpha\apientry.obj \
+    $(_OBJ_DIR)\alpha\handlers.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mf3216.res \
+    $(_OBJ_DIR)\mips\beziers.obj \
+    $(_OBJ_DIR)\mips\bitmaps.obj \
+    $(_OBJ_DIR)\mips\colors.obj \
+    $(_OBJ_DIR)\mips\conics.obj \
+    $(_OBJ_DIR)\mips\fonts.obj \
+    $(_OBJ_DIR)\mips\lines.obj \
+    $(_OBJ_DIR)\mips\misc.obj \
+    $(_OBJ_DIR)\mips\objects.obj \
+    $(_OBJ_DIR)\mips\paths.obj \
+    $(_OBJ_DIR)\mips\polygons.obj \
+    $(_OBJ_DIR)\mips\rects.obj \
+    $(_OBJ_DIR)\mips\regions.obj \
+    $(_OBJ_DIR)\mips\text.obj \
+    $(_OBJ_DIR)\mips\win16api.obj \
+    $(_OBJ_DIR)\mips\xforms.obj \
+    $(_OBJ_DIR)\mips\preamble.obj \
+    $(_OBJ_DIR)\mips\emit.obj \
+    $(_OBJ_DIR)\mips\parser.obj \
+    $(_OBJ_DIR)\mips\apientry.obj \
+    $(_OBJ_DIR)\mips\handlers.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mf3216.res \
+    $(_OBJ_DIR)\i386\beziers.obj \
+    $(_OBJ_DIR)\i386\bitmaps.obj \
+    $(_OBJ_DIR)\i386\colors.obj \
+    $(_OBJ_DIR)\i386\conics.obj \
+    $(_OBJ_DIR)\i386\fonts.obj \
+    $(_OBJ_DIR)\i386\lines.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\objects.obj \
+    $(_OBJ_DIR)\i386\paths.obj \
+    $(_OBJ_DIR)\i386\polygons.obj \
+    $(_OBJ_DIR)\i386\rects.obj \
+    $(_OBJ_DIR)\i386\regions.obj \
+    $(_OBJ_DIR)\i386\text.obj \
+    $(_OBJ_DIR)\i386\win16api.obj \
+    $(_OBJ_DIR)\i386\xforms.obj \
+    $(_OBJ_DIR)\i386\preamble.obj \
+    $(_OBJ_DIR)\i386\emit.obj \
+    $(_OBJ_DIR)\i386\parser.obj \
+    $(_OBJ_DIR)\i386\apientry.obj \
+    $(_OBJ_DIR)\i386\handlers.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mf3216.res \
+    $(_OBJ_DIR)\ppc\beziers.obj \
+    $(_OBJ_DIR)\ppc\bitmaps.obj \
+    $(_OBJ_DIR)\ppc\colors.obj \
+    $(_OBJ_DIR)\ppc\conics.obj \
+    $(_OBJ_DIR)\ppc\fonts.obj \
+    $(_OBJ_DIR)\ppc\lines.obj \
+    $(_OBJ_DIR)\ppc\misc.obj \
+    $(_OBJ_DIR)\ppc\objects.obj \
+    $(_OBJ_DIR)\ppc\paths.obj \
+    $(_OBJ_DIR)\ppc\polygons.obj \
+    $(_OBJ_DIR)\ppc\rects.obj \
+    $(_OBJ_DIR)\ppc\regions.obj \
+    $(_OBJ_DIR)\ppc\text.obj \
+    $(_OBJ_DIR)\ppc\win16api.obj \
+    $(_OBJ_DIR)\ppc\xforms.obj \
+    $(_OBJ_DIR)\ppc\preamble.obj \
+    $(_OBJ_DIR)\ppc\emit.obj \
+    $(_OBJ_DIR)\ppc\parser.obj \
+    $(_OBJ_DIR)\ppc\apientry.obj \
+    $(_OBJ_DIR)\ppc\handlers.obj
+
+PASS0_PPC_OBJECTS=
+

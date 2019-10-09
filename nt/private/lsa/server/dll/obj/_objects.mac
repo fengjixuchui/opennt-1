@@ -1,0 +1,208 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\lsa_rev.res \
+    $(_OBJ_DIR)\alpha\adtinit.obj \
+    $(_OBJ_DIR)\alpha\adtbuild.obj \
+    $(_OBJ_DIR)\alpha\adtevent.obj \
+    $(_OBJ_DIR)\alpha\adtlog.obj \
+    $(_OBJ_DIR)\alpha\adtobjs.obj \
+    $(_OBJ_DIR)\alpha\aucred.obj \
+    $(_OBJ_DIR)\alpha\auclient.obj \
+    $(_OBJ_DIR)\alpha\aufilter.obj \
+    $(_OBJ_DIR)\alpha\auinit.obj \
+    $(_OBJ_DIR)\alpha\auctxt.obj \
+    $(_OBJ_DIR)\alpha\aulogon.obj \
+    $(_OBJ_DIR)\alpha\auloop.obj \
+    $(_OBJ_DIR)\alpha\aumsp.obj \
+    $(_OBJ_DIR)\alpha\aupckg.obj \
+    $(_OBJ_DIR)\alpha\auproc.obj \
+    $(_OBJ_DIR)\alpha\ausess.obj \
+    $(_OBJ_DIR)\alpha\crserver.obj \
+    $(_OBJ_DIR)\alpha\dbadmin.obj \
+    $(_OBJ_DIR)\alpha\dbaccnt.obj \
+    $(_OBJ_DIR)\alpha\dbattr.obj \
+    $(_OBJ_DIR)\alpha\dbdata.obj \
+    $(_OBJ_DIR)\alpha\dbdomain.obj \
+    $(_OBJ_DIR)\alpha\dbhandle.obj \
+    $(_OBJ_DIR)\alpha\dbinit.obj \
+    $(_OBJ_DIR)\alpha\dbinstac.obj \
+    $(_OBJ_DIR)\alpha\dbinstal.obj \
+    $(_OBJ_DIR)\alpha\dblookup.obj \
+    $(_OBJ_DIR)\alpha\dbmisc.obj \
+    $(_OBJ_DIR)\alpha\dbobject.obj \
+    $(_OBJ_DIR)\alpha\dbpob.obj \
+    $(_OBJ_DIR)\alpha\dbpolicy.obj \
+    $(_OBJ_DIR)\alpha\dbpriv.obj \
+    $(_OBJ_DIR)\alpha\dbsamtst.obj \
+    $(_OBJ_DIR)\alpha\dbsecret.obj \
+    $(_OBJ_DIR)\alpha\lsaerror.obj \
+    $(_OBJ_DIR)\alpha\lsaifree.obj \
+    $(_OBJ_DIR)\alpha\lsainit.obj \
+    $(_OBJ_DIR)\alpha\lsarm.obj \
+    $(_OBJ_DIR)\alpha\lsarpc_s.obj \
+    $(_OBJ_DIR)\alpha\lsasrvmm.obj \
+    $(_OBJ_DIR)\alpha\lsawrap.obj \
+    $(_OBJ_DIR)\alpha\oldstub.obj \
+    $(_OBJ_DIR)\alpha\rpcinit.obj \
+    $(_OBJ_DIR)\alpha\sepriv.obj \
+    $(_OBJ_DIR)\alpha\services.obj
+
+PASS0_ALPHA_OBJECTS= \
+    .\lsapmsgs.h \
+    .\lsapmsgs.rc
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\lsa_rev.res \
+    $(_OBJ_DIR)\mips\adtinit.obj \
+    $(_OBJ_DIR)\mips\adtbuild.obj \
+    $(_OBJ_DIR)\mips\adtevent.obj \
+    $(_OBJ_DIR)\mips\adtlog.obj \
+    $(_OBJ_DIR)\mips\adtobjs.obj \
+    $(_OBJ_DIR)\mips\aucred.obj \
+    $(_OBJ_DIR)\mips\auclient.obj \
+    $(_OBJ_DIR)\mips\aufilter.obj \
+    $(_OBJ_DIR)\mips\auinit.obj \
+    $(_OBJ_DIR)\mips\auctxt.obj \
+    $(_OBJ_DIR)\mips\aulogon.obj \
+    $(_OBJ_DIR)\mips\auloop.obj \
+    $(_OBJ_DIR)\mips\aumsp.obj \
+    $(_OBJ_DIR)\mips\aupckg.obj \
+    $(_OBJ_DIR)\mips\auproc.obj \
+    $(_OBJ_DIR)\mips\ausess.obj \
+    $(_OBJ_DIR)\mips\crserver.obj \
+    $(_OBJ_DIR)\mips\dbadmin.obj \
+    $(_OBJ_DIR)\mips\dbaccnt.obj \
+    $(_OBJ_DIR)\mips\dbattr.obj \
+    $(_OBJ_DIR)\mips\dbdata.obj \
+    $(_OBJ_DIR)\mips\dbdomain.obj \
+    $(_OBJ_DIR)\mips\dbhandle.obj \
+    $(_OBJ_DIR)\mips\dbinit.obj \
+    $(_OBJ_DIR)\mips\dbinstac.obj \
+    $(_OBJ_DIR)\mips\dbinstal.obj \
+    $(_OBJ_DIR)\mips\dblookup.obj \
+    $(_OBJ_DIR)\mips\dbmisc.obj \
+    $(_OBJ_DIR)\mips\dbobject.obj \
+    $(_OBJ_DIR)\mips\dbpob.obj \
+    $(_OBJ_DIR)\mips\dbpolicy.obj \
+    $(_OBJ_DIR)\mips\dbpriv.obj \
+    $(_OBJ_DIR)\mips\dbsamtst.obj \
+    $(_OBJ_DIR)\mips\dbsecret.obj \
+    $(_OBJ_DIR)\mips\lsaerror.obj \
+    $(_OBJ_DIR)\mips\lsaifree.obj \
+    $(_OBJ_DIR)\mips\lsainit.obj \
+    $(_OBJ_DIR)\mips\lsarm.obj \
+    $(_OBJ_DIR)\mips\lsarpc_s.obj \
+    $(_OBJ_DIR)\mips\lsasrvmm.obj \
+    $(_OBJ_DIR)\mips\lsawrap.obj \
+    $(_OBJ_DIR)\mips\oldstub.obj \
+    $(_OBJ_DIR)\mips\rpcinit.obj \
+    $(_OBJ_DIR)\mips\sepriv.obj \
+    $(_OBJ_DIR)\mips\services.obj
+
+PASS0_MIPS_OBJECTS= \
+    .\lsapmsgs.h \
+    .\lsapmsgs.rc
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\lsa_rev.res \
+    $(_OBJ_DIR)\i386\adtinit.obj \
+    $(_OBJ_DIR)\i386\adtbuild.obj \
+    $(_OBJ_DIR)\i386\adtevent.obj \
+    $(_OBJ_DIR)\i386\adtlog.obj \
+    $(_OBJ_DIR)\i386\adtobjs.obj \
+    $(_OBJ_DIR)\i386\aucred.obj \
+    $(_OBJ_DIR)\i386\auclient.obj \
+    $(_OBJ_DIR)\i386\aufilter.obj \
+    $(_OBJ_DIR)\i386\auinit.obj \
+    $(_OBJ_DIR)\i386\auctxt.obj \
+    $(_OBJ_DIR)\i386\aulogon.obj \
+    $(_OBJ_DIR)\i386\auloop.obj \
+    $(_OBJ_DIR)\i386\aumsp.obj \
+    $(_OBJ_DIR)\i386\aupckg.obj \
+    $(_OBJ_DIR)\i386\auproc.obj \
+    $(_OBJ_DIR)\i386\ausess.obj \
+    $(_OBJ_DIR)\i386\crserver.obj \
+    $(_OBJ_DIR)\i386\dbadmin.obj \
+    $(_OBJ_DIR)\i386\dbaccnt.obj \
+    $(_OBJ_DIR)\i386\dbattr.obj \
+    $(_OBJ_DIR)\i386\dbdata.obj \
+    $(_OBJ_DIR)\i386\dbdomain.obj \
+    $(_OBJ_DIR)\i386\dbhandle.obj \
+    $(_OBJ_DIR)\i386\dbinit.obj \
+    $(_OBJ_DIR)\i386\dbinstac.obj \
+    $(_OBJ_DIR)\i386\dbinstal.obj \
+    $(_OBJ_DIR)\i386\dblookup.obj \
+    $(_OBJ_DIR)\i386\dbmisc.obj \
+    $(_OBJ_DIR)\i386\dbobject.obj \
+    $(_OBJ_DIR)\i386\dbpob.obj \
+    $(_OBJ_DIR)\i386\dbpolicy.obj \
+    $(_OBJ_DIR)\i386\dbpriv.obj \
+    $(_OBJ_DIR)\i386\dbsamtst.obj \
+    $(_OBJ_DIR)\i386\dbsecret.obj \
+    $(_OBJ_DIR)\i386\lsaerror.obj \
+    $(_OBJ_DIR)\i386\lsaifree.obj \
+    $(_OBJ_DIR)\i386\lsainit.obj \
+    $(_OBJ_DIR)\i386\lsarm.obj \
+    $(_OBJ_DIR)\i386\lsarpc_s.obj \
+    $(_OBJ_DIR)\i386\lsasrvmm.obj \
+    $(_OBJ_DIR)\i386\lsawrap.obj \
+    $(_OBJ_DIR)\i386\oldstub.obj \
+    $(_OBJ_DIR)\i386\rpcinit.obj \
+    $(_OBJ_DIR)\i386\sepriv.obj \
+    $(_OBJ_DIR)\i386\services.obj
+
+PASS0_386_OBJECTS= \
+    .\lsapmsgs.h \
+    .\lsapmsgs.rc
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\lsa_rev.res \
+    $(_OBJ_DIR)\ppc\adtinit.obj \
+    $(_OBJ_DIR)\ppc\adtbuild.obj \
+    $(_OBJ_DIR)\ppc\adtevent.obj \
+    $(_OBJ_DIR)\ppc\adtlog.obj \
+    $(_OBJ_DIR)\ppc\adtobjs.obj \
+    $(_OBJ_DIR)\ppc\aucred.obj \
+    $(_OBJ_DIR)\ppc\auclient.obj \
+    $(_OBJ_DIR)\ppc\aufilter.obj \
+    $(_OBJ_DIR)\ppc\auinit.obj \
+    $(_OBJ_DIR)\ppc\auctxt.obj \
+    $(_OBJ_DIR)\ppc\aulogon.obj \
+    $(_OBJ_DIR)\ppc\auloop.obj \
+    $(_OBJ_DIR)\ppc\aumsp.obj \
+    $(_OBJ_DIR)\ppc\aupckg.obj \
+    $(_OBJ_DIR)\ppc\auproc.obj \
+    $(_OBJ_DIR)\ppc\ausess.obj \
+    $(_OBJ_DIR)\ppc\crserver.obj \
+    $(_OBJ_DIR)\ppc\dbadmin.obj \
+    $(_OBJ_DIR)\ppc\dbaccnt.obj \
+    $(_OBJ_DIR)\ppc\dbattr.obj \
+    $(_OBJ_DIR)\ppc\dbdata.obj \
+    $(_OBJ_DIR)\ppc\dbdomain.obj \
+    $(_OBJ_DIR)\ppc\dbhandle.obj \
+    $(_OBJ_DIR)\ppc\dbinit.obj \
+    $(_OBJ_DIR)\ppc\dbinstac.obj \
+    $(_OBJ_DIR)\ppc\dbinstal.obj \
+    $(_OBJ_DIR)\ppc\dblookup.obj \
+    $(_OBJ_DIR)\ppc\dbmisc.obj \
+    $(_OBJ_DIR)\ppc\dbobject.obj \
+    $(_OBJ_DIR)\ppc\dbpob.obj \
+    $(_OBJ_DIR)\ppc\dbpolicy.obj \
+    $(_OBJ_DIR)\ppc\dbpriv.obj \
+    $(_OBJ_DIR)\ppc\dbsamtst.obj \
+    $(_OBJ_DIR)\ppc\dbsecret.obj \
+    $(_OBJ_DIR)\ppc\lsaerror.obj \
+    $(_OBJ_DIR)\ppc\lsaifree.obj \
+    $(_OBJ_DIR)\ppc\lsainit.obj \
+    $(_OBJ_DIR)\ppc\lsarm.obj \
+    $(_OBJ_DIR)\ppc\lsarpc_s.obj \
+    $(_OBJ_DIR)\ppc\lsasrvmm.obj \
+    $(_OBJ_DIR)\ppc\lsawrap.obj \
+    $(_OBJ_DIR)\ppc\oldstub.obj \
+    $(_OBJ_DIR)\ppc\rpcinit.obj \
+    $(_OBJ_DIR)\ppc\sepriv.obj \
+    $(_OBJ_DIR)\ppc\services.obj
+
+PASS0_PPC_OBJECTS= \
+    .\lsapmsgs.h \
+    .\lsapmsgs.rc
+

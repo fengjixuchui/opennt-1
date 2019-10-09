@@ -1,0 +1,209 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\inialpha.obj \
+    $(_OBJ_DIR)\alpha\datalpha.obj \
+    $(_OBJ_DIR)\alpha\debugsup.obj \
+    $(_OBJ_DIR)\alpha\hypermap.obj \
+    $(_OBJ_DIR)\alpha\setdirty.obj \
+    $(_OBJ_DIR)\alpha\physsect.obj \
+    $(_OBJ_DIR)\alpha\acceschk.obj \
+    $(_OBJ_DIR)\alpha\addrsup.obj \
+    $(_OBJ_DIR)\alpha\allocpag.obj \
+    $(_OBJ_DIR)\alpha\allocvm.obj \
+    $(_OBJ_DIR)\alpha\checkpfn.obj \
+    $(_OBJ_DIR)\alpha\checkpte.obj \
+    $(_OBJ_DIR)\alpha\creasect.obj \
+    $(_OBJ_DIR)\alpha\deleteva.obj \
+    $(_OBJ_DIR)\alpha\dmpaddr.obj \
+    $(_OBJ_DIR)\alpha\extsect.obj \
+    $(_OBJ_DIR)\alpha\flushbuf.obj \
+    $(_OBJ_DIR)\alpha\flushsec.obj \
+    $(_OBJ_DIR)\alpha\forksup.obj \
+    $(_OBJ_DIR)\alpha\freevm.obj \
+    $(_OBJ_DIR)\alpha\iosup.obj \
+    $(_OBJ_DIR)\alpha\lockvm.obj \
+    $(_OBJ_DIR)\alpha\mapcache.obj \
+    $(_OBJ_DIR)\alpha\mapview.obj \
+    $(_OBJ_DIR)\alpha\miglobal.obj \
+    $(_OBJ_DIR)\alpha\mmfault.obj \
+    $(_OBJ_DIR)\alpha\mminit.obj \
+    $(_OBJ_DIR)\alpha\mmsup.obj \
+    $(_OBJ_DIR)\alpha\mmquota.obj \
+    $(_OBJ_DIR)\alpha\modwrite.obj \
+    $(_OBJ_DIR)\alpha\pagfault.obj \
+    $(_OBJ_DIR)\alpha\pfndec.obj \
+    $(_OBJ_DIR)\alpha\pfnlist.obj \
+    $(_OBJ_DIR)\alpha\procsup.obj \
+    $(_OBJ_DIR)\alpha\protect.obj \
+    $(_OBJ_DIR)\alpha\querysec.obj \
+    $(_OBJ_DIR)\alpha\queryvm.obj \
+    $(_OBJ_DIR)\alpha\readwrt.obj \
+    $(_OBJ_DIR)\alpha\sectsup.obj \
+    $(_OBJ_DIR)\alpha\shutdown.obj \
+    $(_OBJ_DIR)\alpha\sysload.obj \
+    $(_OBJ_DIR)\alpha\sysptes.obj \
+    $(_OBJ_DIR)\alpha\umapview.obj \
+    $(_OBJ_DIR)\alpha\vadtree.obj \
+    $(_OBJ_DIR)\alpha\wslist.obj \
+    $(_OBJ_DIR)\alpha\wsmanage.obj \
+    $(_OBJ_DIR)\alpha\wstree.obj \
+    $(_OBJ_DIR)\alpha\wrtfault.obj \
+    $(_OBJ_DIR)\alpha\zeropage.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\initmips.obj \
+    $(_OBJ_DIR)\mips\datamips.obj \
+    $(_OBJ_DIR)\mips\debugsup.obj \
+    $(_OBJ_DIR)\mips\hypermap.obj \
+    $(_OBJ_DIR)\mips\setdirty.obj \
+    $(_OBJ_DIR)\mips\acceschk.obj \
+    $(_OBJ_DIR)\mips\addrsup.obj \
+    $(_OBJ_DIR)\mips\allocpag.obj \
+    $(_OBJ_DIR)\mips\allocvm.obj \
+    $(_OBJ_DIR)\mips\checkpfn.obj \
+    $(_OBJ_DIR)\mips\checkpte.obj \
+    $(_OBJ_DIR)\mips\creasect.obj \
+    $(_OBJ_DIR)\mips\deleteva.obj \
+    $(_OBJ_DIR)\mips\dmpaddr.obj \
+    $(_OBJ_DIR)\mips\extsect.obj \
+    $(_OBJ_DIR)\mips\flushbuf.obj \
+    $(_OBJ_DIR)\mips\flushsec.obj \
+    $(_OBJ_DIR)\mips\forksup.obj \
+    $(_OBJ_DIR)\mips\freevm.obj \
+    $(_OBJ_DIR)\mips\iosup.obj \
+    $(_OBJ_DIR)\mips\lockvm.obj \
+    $(_OBJ_DIR)\mips\mapcache.obj \
+    $(_OBJ_DIR)\mips\mapview.obj \
+    $(_OBJ_DIR)\mips\miglobal.obj \
+    $(_OBJ_DIR)\mips\mmfault.obj \
+    $(_OBJ_DIR)\mips\mminit.obj \
+    $(_OBJ_DIR)\mips\mmsup.obj \
+    $(_OBJ_DIR)\mips\mmquota.obj \
+    $(_OBJ_DIR)\mips\modwrite.obj \
+    $(_OBJ_DIR)\mips\pagfault.obj \
+    $(_OBJ_DIR)\mips\pfndec.obj \
+    $(_OBJ_DIR)\mips\pfnlist.obj \
+    $(_OBJ_DIR)\mips\procsup.obj \
+    $(_OBJ_DIR)\mips\protect.obj \
+    $(_OBJ_DIR)\mips\querysec.obj \
+    $(_OBJ_DIR)\mips\queryvm.obj \
+    $(_OBJ_DIR)\mips\readwrt.obj \
+    $(_OBJ_DIR)\mips\sectsup.obj \
+    $(_OBJ_DIR)\mips\shutdown.obj \
+    $(_OBJ_DIR)\mips\sysload.obj \
+    $(_OBJ_DIR)\mips\sysptes.obj \
+    $(_OBJ_DIR)\mips\umapview.obj \
+    $(_OBJ_DIR)\mips\vadtree.obj \
+    $(_OBJ_DIR)\mips\wslist.obj \
+    $(_OBJ_DIR)\mips\wsmanage.obj \
+    $(_OBJ_DIR)\mips\wstree.obj \
+    $(_OBJ_DIR)\mips\wrtfault.obj \
+    $(_OBJ_DIR)\mips\zeropage.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\init386.obj \
+    $(_OBJ_DIR)\i386\data386.obj \
+    $(_OBJ_DIR)\i386\debugsup.obj \
+    $(_OBJ_DIR)\i386\hypermap.obj \
+    $(_OBJ_DIR)\i386\setmodfy.obj \
+    $(_OBJ_DIR)\i386\acceschk.obj \
+    $(_OBJ_DIR)\i386\addrsup.obj \
+    $(_OBJ_DIR)\i386\allocpag.obj \
+    $(_OBJ_DIR)\i386\allocvm.obj \
+    $(_OBJ_DIR)\i386\checkpfn.obj \
+    $(_OBJ_DIR)\i386\checkpte.obj \
+    $(_OBJ_DIR)\i386\creasect.obj \
+    $(_OBJ_DIR)\i386\deleteva.obj \
+    $(_OBJ_DIR)\i386\dmpaddr.obj \
+    $(_OBJ_DIR)\i386\extsect.obj \
+    $(_OBJ_DIR)\i386\flushbuf.obj \
+    $(_OBJ_DIR)\i386\flushsec.obj \
+    $(_OBJ_DIR)\i386\forksup.obj \
+    $(_OBJ_DIR)\i386\freevm.obj \
+    $(_OBJ_DIR)\i386\iosup.obj \
+    $(_OBJ_DIR)\i386\lockvm.obj \
+    $(_OBJ_DIR)\i386\mapcache.obj \
+    $(_OBJ_DIR)\i386\mapview.obj \
+    $(_OBJ_DIR)\i386\miglobal.obj \
+    $(_OBJ_DIR)\i386\mmfault.obj \
+    $(_OBJ_DIR)\i386\mminit.obj \
+    $(_OBJ_DIR)\i386\mmsup.obj \
+    $(_OBJ_DIR)\i386\mmquota.obj \
+    $(_OBJ_DIR)\i386\modwrite.obj \
+    $(_OBJ_DIR)\i386\pagfault.obj \
+    $(_OBJ_DIR)\i386\pfndec.obj \
+    $(_OBJ_DIR)\i386\pfnlist.obj \
+    $(_OBJ_DIR)\i386\procsup.obj \
+    $(_OBJ_DIR)\i386\protect.obj \
+    $(_OBJ_DIR)\i386\querysec.obj \
+    $(_OBJ_DIR)\i386\queryvm.obj \
+    $(_OBJ_DIR)\i386\readwrt.obj \
+    $(_OBJ_DIR)\i386\sectsup.obj \
+    $(_OBJ_DIR)\i386\shutdown.obj \
+    $(_OBJ_DIR)\i386\sysload.obj \
+    $(_OBJ_DIR)\i386\sysptes.obj \
+    $(_OBJ_DIR)\i386\umapview.obj \
+    $(_OBJ_DIR)\i386\vadtree.obj \
+    $(_OBJ_DIR)\i386\wslist.obj \
+    $(_OBJ_DIR)\i386\wsmanage.obj \
+    $(_OBJ_DIR)\i386\wstree.obj \
+    $(_OBJ_DIR)\i386\wrtfault.obj \
+    $(_OBJ_DIR)\i386\zeropage.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\initppc.obj \
+    $(_OBJ_DIR)\ppc\datappc.obj \
+    $(_OBJ_DIR)\ppc\debugsup.obj \
+    $(_OBJ_DIR)\ppc\hypermap.obj \
+    $(_OBJ_DIR)\ppc\setdirty.obj \
+    $(_OBJ_DIR)\ppc\acceschk.obj \
+    $(_OBJ_DIR)\ppc\addrsup.obj \
+    $(_OBJ_DIR)\ppc\allocpag.obj \
+    $(_OBJ_DIR)\ppc\allocvm.obj \
+    $(_OBJ_DIR)\ppc\checkpfn.obj \
+    $(_OBJ_DIR)\ppc\checkpte.obj \
+    $(_OBJ_DIR)\ppc\creasect.obj \
+    $(_OBJ_DIR)\ppc\deleteva.obj \
+    $(_OBJ_DIR)\ppc\dmpaddr.obj \
+    $(_OBJ_DIR)\ppc\extsect.obj \
+    $(_OBJ_DIR)\ppc\flushbuf.obj \
+    $(_OBJ_DIR)\ppc\flushsec.obj \
+    $(_OBJ_DIR)\ppc\forksup.obj \
+    $(_OBJ_DIR)\ppc\freevm.obj \
+    $(_OBJ_DIR)\ppc\iosup.obj \
+    $(_OBJ_DIR)\ppc\lockvm.obj \
+    $(_OBJ_DIR)\ppc\mapcache.obj \
+    $(_OBJ_DIR)\ppc\mapview.obj \
+    $(_OBJ_DIR)\ppc\miglobal.obj \
+    $(_OBJ_DIR)\ppc\mmfault.obj \
+    $(_OBJ_DIR)\ppc\mminit.obj \
+    $(_OBJ_DIR)\ppc\mmsup.obj \
+    $(_OBJ_DIR)\ppc\mmquota.obj \
+    $(_OBJ_DIR)\ppc\modwrite.obj \
+    $(_OBJ_DIR)\ppc\pagfault.obj \
+    $(_OBJ_DIR)\ppc\pfndec.obj \
+    $(_OBJ_DIR)\ppc\pfnlist.obj \
+    $(_OBJ_DIR)\ppc\procsup.obj \
+    $(_OBJ_DIR)\ppc\protect.obj \
+    $(_OBJ_DIR)\ppc\querysec.obj \
+    $(_OBJ_DIR)\ppc\queryvm.obj \
+    $(_OBJ_DIR)\ppc\readwrt.obj \
+    $(_OBJ_DIR)\ppc\sectsup.obj \
+    $(_OBJ_DIR)\ppc\shutdown.obj \
+    $(_OBJ_DIR)\ppc\sysload.obj \
+    $(_OBJ_DIR)\ppc\sysptes.obj \
+    $(_OBJ_DIR)\ppc\umapview.obj \
+    $(_OBJ_DIR)\ppc\vadtree.obj \
+    $(_OBJ_DIR)\ppc\wslist.obj \
+    $(_OBJ_DIR)\ppc\wsmanage.obj \
+    $(_OBJ_DIR)\ppc\wstree.obj \
+    $(_OBJ_DIR)\ppc\wrtfault.obj \
+    $(_OBJ_DIR)\ppc\zeropage.obj
+
+PASS0_PPC_OBJECTS=
+

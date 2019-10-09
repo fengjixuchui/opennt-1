@@ -1,0 +1,8 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining w:\nt\private\sdktools\ztools directory tree for files to compile.
+BUILD: w:\nt\private\sdktools\ztools\src\find.c: cannot find include file <netcons.h>
+BUILD: w:\nt\private\sdktools\ztools\src\find.c: cannot find include file <neterr.h>
+BUILD: w:\nt\private\sdktools\ztools\src\find.c: cannot find include file <server.h>
+BUILD: w:\nt\private\sdktools\ztools\src\find.c: cannot find include file <shares.h>
+BUILD: w:\nt\private\sdktools\ztools\src\find.c: cannot find include file <access.h>
+BUILD: w:\nt\private\sdktools\ztools\src\find.c: cannot find include file <wksta.h>

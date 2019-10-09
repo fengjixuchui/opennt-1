@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\vsasc8.res \
+    $(_OBJ_DIR)\alpha\vsd_asc8.obj \
+    $(_OBJ_DIR)\alpha\vs_asc8.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\vsasc8.res \
+    $(_OBJ_DIR)\mips\vsd_asc8.obj \
+    $(_OBJ_DIR)\mips\vs_asc8.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\vsasc8.res \
+    $(_OBJ_DIR)\i386\vsd_asc8.obj \
+    $(_OBJ_DIR)\i386\vs_asc8.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\vsasc8.res \
+    $(_OBJ_DIR)\ppc\vsd_asc8.obj \
+    $(_OBJ_DIR)\ppc\vs_asc8.obj
+
+PASS0_PPC_OBJECTS=
+

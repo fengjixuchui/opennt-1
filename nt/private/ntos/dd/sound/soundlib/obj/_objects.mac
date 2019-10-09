@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mixer.obj \
+    $(_OBJ_DIR)\alpha\synth.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\midi.obj \
+    $(_OBJ_DIR)\alpha\auxout.obj \
+    $(_OBJ_DIR)\alpha\dispatch.obj \
+    $(_OBJ_DIR)\alpha\volume.obj \
+    $(_OBJ_DIR)\alpha\soundlib.obj \
+    $(_OBJ_DIR)\alpha\wave.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mixer.obj \
+    $(_OBJ_DIR)\mips\synth.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\midi.obj \
+    $(_OBJ_DIR)\mips\auxout.obj \
+    $(_OBJ_DIR)\mips\dispatch.obj \
+    $(_OBJ_DIR)\mips\volume.obj \
+    $(_OBJ_DIR)\mips\soundlib.obj \
+    $(_OBJ_DIR)\mips\wave.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mixer.obj \
+    $(_OBJ_DIR)\i386\synth.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\midi.obj \
+    $(_OBJ_DIR)\i386\auxout.obj \
+    $(_OBJ_DIR)\i386\dispatch.obj \
+    $(_OBJ_DIR)\i386\volume.obj \
+    $(_OBJ_DIR)\i386\soundlib.obj \
+    $(_OBJ_DIR)\i386\wave.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mixer.obj \
+    $(_OBJ_DIR)\ppc\synth.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\midi.obj \
+    $(_OBJ_DIR)\ppc\auxout.obj \
+    $(_OBJ_DIR)\ppc\dispatch.obj \
+    $(_OBJ_DIR)\ppc\volume.obj \
+    $(_OBJ_DIR)\ppc\soundlib.obj \
+    $(_OBJ_DIR)\ppc\wave.obj
+
+PASS0_PPC_OBJECTS=
+

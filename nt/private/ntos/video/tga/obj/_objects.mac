@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\tga.res \
+    $(_OBJ_DIR)\alpha\tga.obj \
+    $(_OBJ_DIR)\alpha\tga_comm.obj \
+    $(_OBJ_DIR)\alpha\tga_nt.obj \
+    $(_OBJ_DIR)\alpha\tgadma.obj \
+    $(_OBJ_DIR)\alpha\registry.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\tga.res \
+    $(_OBJ_DIR)\mips\tga.obj \
+    $(_OBJ_DIR)\mips\tga_comm.obj \
+    $(_OBJ_DIR)\mips\tga_nt.obj \
+    $(_OBJ_DIR)\mips\tgadma.obj \
+    $(_OBJ_DIR)\mips\registry.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\tga.res \
+    $(_OBJ_DIR)\i386\tga.obj \
+    $(_OBJ_DIR)\i386\tga_comm.obj \
+    $(_OBJ_DIR)\i386\tga_nt.obj \
+    $(_OBJ_DIR)\i386\tgadma.obj \
+    $(_OBJ_DIR)\i386\registry.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\tga.res \
+    $(_OBJ_DIR)\ppc\tga.obj \
+    $(_OBJ_DIR)\ppc\tga_comm.obj \
+    $(_OBJ_DIR)\ppc\tga_nt.obj \
+    $(_OBJ_DIR)\ppc\tgadma.obj \
+    $(_OBJ_DIR)\ppc\registry.obj
+
+PASS0_PPC_OBJECTS=
+

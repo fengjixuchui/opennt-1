@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\debmp.res \
+    $(_OBJ_DIR)\alpha\oibde.obj \
+    $(_OBJ_DIR)\alpha\oibnp_w.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\debmp.res \
+    $(_OBJ_DIR)\mips\oibde.obj \
+    $(_OBJ_DIR)\mips\oibnp_w.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\debmp.res \
+    $(_OBJ_DIR)\i386\oibde.obj \
+    $(_OBJ_DIR)\i386\oibnp_w.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\debmp.res \
+    $(_OBJ_DIR)\ppc\oibde.obj \
+    $(_OBJ_DIR)\ppc\oibnp_w.obj
+
+PASS0_PPC_OBJECTS=
+

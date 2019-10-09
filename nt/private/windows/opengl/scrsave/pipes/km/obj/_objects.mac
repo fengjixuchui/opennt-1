@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\sspipes.res \
+    $(_OBJ_DIR)\alpha\dialog.obj \
+    $(_OBJ_DIR)\alpha\sspipes.obj \
+    $(_OBJ_DIR)\alpha\state.obj \
+    $(_OBJ_DIR)\alpha\nstate.obj \
+    $(_OBJ_DIR)\alpha\fstate.obj \
+    $(_OBJ_DIR)\alpha\pipe.obj \
+    $(_OBJ_DIR)\alpha\npipe.obj \
+    $(_OBJ_DIR)\alpha\fpipe.obj \
+    $(_OBJ_DIR)\alpha\view.obj \
+    $(_OBJ_DIR)\alpha\node.obj \
+    $(_OBJ_DIR)\alpha\objects.obj \
+    $(_OBJ_DIR)\alpha\eval.obj \
+    $(_OBJ_DIR)\alpha\xc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\sspipes.res \
+    $(_OBJ_DIR)\mips\dialog.obj \
+    $(_OBJ_DIR)\mips\sspipes.obj \
+    $(_OBJ_DIR)\mips\state.obj \
+    $(_OBJ_DIR)\mips\nstate.obj \
+    $(_OBJ_DIR)\mips\fstate.obj \
+    $(_OBJ_DIR)\mips\pipe.obj \
+    $(_OBJ_DIR)\mips\npipe.obj \
+    $(_OBJ_DIR)\mips\fpipe.obj \
+    $(_OBJ_DIR)\mips\view.obj \
+    $(_OBJ_DIR)\mips\node.obj \
+    $(_OBJ_DIR)\mips\objects.obj \
+    $(_OBJ_DIR)\mips\eval.obj \
+    $(_OBJ_DIR)\mips\xc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\sspipes.res \
+    $(_OBJ_DIR)\i386\dialog.obj \
+    $(_OBJ_DIR)\i386\sspipes.obj \
+    $(_OBJ_DIR)\i386\state.obj \
+    $(_OBJ_DIR)\i386\nstate.obj \
+    $(_OBJ_DIR)\i386\fstate.obj \
+    $(_OBJ_DIR)\i386\pipe.obj \
+    $(_OBJ_DIR)\i386\npipe.obj \
+    $(_OBJ_DIR)\i386\fpipe.obj \
+    $(_OBJ_DIR)\i386\view.obj \
+    $(_OBJ_DIR)\i386\node.obj \
+    $(_OBJ_DIR)\i386\objects.obj \
+    $(_OBJ_DIR)\i386\eval.obj \
+    $(_OBJ_DIR)\i386\xc.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\sspipes.res \
+    $(_OBJ_DIR)\ppc\dialog.obj \
+    $(_OBJ_DIR)\ppc\sspipes.obj \
+    $(_OBJ_DIR)\ppc\state.obj \
+    $(_OBJ_DIR)\ppc\nstate.obj \
+    $(_OBJ_DIR)\ppc\fstate.obj \
+    $(_OBJ_DIR)\ppc\pipe.obj \
+    $(_OBJ_DIR)\ppc\npipe.obj \
+    $(_OBJ_DIR)\ppc\fpipe.obj \
+    $(_OBJ_DIR)\ppc\view.obj \
+    $(_OBJ_DIR)\ppc\node.obj \
+    $(_OBJ_DIR)\ppc\objects.obj \
+    $(_OBJ_DIR)\ppc\eval.obj \
+    $(_OBJ_DIR)\ppc\xc.obj
+
+PASS0_PPC_OBJECTS=
+

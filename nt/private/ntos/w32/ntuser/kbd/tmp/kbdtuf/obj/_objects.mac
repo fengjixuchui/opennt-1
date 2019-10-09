@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\kbdtuf.res \
+    $(_OBJ_DIR)\alpha\kbdtuf.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\kbdtuf.res \
+    $(_OBJ_DIR)\mips\kbdtuf.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\kbdtuf.res \
+    $(_OBJ_DIR)\i386\kbdtuf.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\kbdtuf.res \
+    $(_OBJ_DIR)\ppc\kbdtuf.obj
+
+PASS0_PPC_OBJECTS=
+

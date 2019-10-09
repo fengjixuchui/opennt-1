@@ -1,0 +1,88 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\eecxx.res \
+    $(_OBJ_DIR)\alpha\debapi.obj \
+    $(_OBJ_DIR)\alpha\debbind.obj \
+    $(_OBJ_DIR)\alpha\deberr.obj \
+    $(_OBJ_DIR)\alpha\debeval.obj \
+    $(_OBJ_DIR)\alpha\debfmt.obj \
+    $(_OBJ_DIR)\alpha\deblex.obj \
+    $(_OBJ_DIR)\alpha\deblexer.obj \
+    $(_OBJ_DIR)\alpha\debparse.obj \
+    $(_OBJ_DIR)\alpha\debsrch.obj \
+    $(_OBJ_DIR)\alpha\debsup.obj \
+    $(_OBJ_DIR)\alpha\debsym.obj \
+    $(_OBJ_DIR)\alpha\debtree.obj \
+    $(_OBJ_DIR)\alpha\debtyper.obj \
+    $(_OBJ_DIR)\alpha\debutil.obj \
+    $(_OBJ_DIR)\alpha\debwalk.obj \
+    $(_OBJ_DIR)\alpha\eeformat.obj \
+    $(_OBJ_DIR)\alpha\r10math.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\eecxx.res \
+    $(_OBJ_DIR)\mips\debapi.obj \
+    $(_OBJ_DIR)\mips\debbind.obj \
+    $(_OBJ_DIR)\mips\deberr.obj \
+    $(_OBJ_DIR)\mips\debeval.obj \
+    $(_OBJ_DIR)\mips\debfmt.obj \
+    $(_OBJ_DIR)\mips\deblex.obj \
+    $(_OBJ_DIR)\mips\deblexer.obj \
+    $(_OBJ_DIR)\mips\debparse.obj \
+    $(_OBJ_DIR)\mips\debsrch.obj \
+    $(_OBJ_DIR)\mips\debsup.obj \
+    $(_OBJ_DIR)\mips\debsym.obj \
+    $(_OBJ_DIR)\mips\debtree.obj \
+    $(_OBJ_DIR)\mips\debtyper.obj \
+    $(_OBJ_DIR)\mips\debutil.obj \
+    $(_OBJ_DIR)\mips\debwalk.obj \
+    $(_OBJ_DIR)\mips\eeformat.obj \
+    $(_OBJ_DIR)\mips\r10math.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\eecxx.res \
+    $(_OBJ_DIR)\i386\debapi.obj \
+    $(_OBJ_DIR)\i386\debbind.obj \
+    $(_OBJ_DIR)\i386\deberr.obj \
+    $(_OBJ_DIR)\i386\debeval.obj \
+    $(_OBJ_DIR)\i386\debfmt.obj \
+    $(_OBJ_DIR)\i386\deblex.obj \
+    $(_OBJ_DIR)\i386\deblexer.obj \
+    $(_OBJ_DIR)\i386\debparse.obj \
+    $(_OBJ_DIR)\i386\debsrch.obj \
+    $(_OBJ_DIR)\i386\debsup.obj \
+    $(_OBJ_DIR)\i386\debsym.obj \
+    $(_OBJ_DIR)\i386\debtree.obj \
+    $(_OBJ_DIR)\i386\debtyper.obj \
+    $(_OBJ_DIR)\i386\debutil.obj \
+    $(_OBJ_DIR)\i386\debwalk.obj \
+    $(_OBJ_DIR)\i386\eeformat.obj \
+    $(_OBJ_DIR)\i386\r10math.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\eecxx.res \
+    $(_OBJ_DIR)\ppc\debapi.obj \
+    $(_OBJ_DIR)\ppc\debbind.obj \
+    $(_OBJ_DIR)\ppc\deberr.obj \
+    $(_OBJ_DIR)\ppc\debeval.obj \
+    $(_OBJ_DIR)\ppc\debfmt.obj \
+    $(_OBJ_DIR)\ppc\deblex.obj \
+    $(_OBJ_DIR)\ppc\deblexer.obj \
+    $(_OBJ_DIR)\ppc\debparse.obj \
+    $(_OBJ_DIR)\ppc\debsrch.obj \
+    $(_OBJ_DIR)\ppc\debsup.obj \
+    $(_OBJ_DIR)\ppc\debsym.obj \
+    $(_OBJ_DIR)\ppc\debtree.obj \
+    $(_OBJ_DIR)\ppc\debtyper.obj \
+    $(_OBJ_DIR)\ppc\debutil.obj \
+    $(_OBJ_DIR)\ppc\debwalk.obj \
+    $(_OBJ_DIR)\ppc\eeformat.obj \
+    $(_OBJ_DIR)\ppc\r10math.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,108 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\pax.res \
+    $(_OBJ_DIR)\alpha\append.obj \
+    $(_OBJ_DIR)\alpha\buffer.obj \
+    $(_OBJ_DIR)\alpha\cpio.obj \
+    $(_OBJ_DIR)\alpha\create.obj \
+    $(_OBJ_DIR)\alpha\extract.obj \
+    $(_OBJ_DIR)\alpha\fileio.obj \
+    $(_OBJ_DIR)\alpha\getopt.obj \
+    $(_OBJ_DIR)\alpha\link.obj \
+    $(_OBJ_DIR)\alpha\list.obj \
+    $(_OBJ_DIR)\alpha\mem.obj \
+    $(_OBJ_DIR)\alpha\namelist.obj \
+    $(_OBJ_DIR)\alpha\names.obj \
+    $(_OBJ_DIR)\alpha\pass.obj \
+    $(_OBJ_DIR)\alpha\pathname.obj \
+    $(_OBJ_DIR)\alpha\pax.obj \
+    $(_OBJ_DIR)\alpha\port.obj \
+    $(_OBJ_DIR)\alpha\regexp.obj \
+    $(_OBJ_DIR)\alpha\replace.obj \
+    $(_OBJ_DIR)\alpha\tar.obj \
+    $(_OBJ_DIR)\alpha\ttyio.obj \
+    $(_OBJ_DIR)\alpha\warn.obj \
+    $(_OBJ_DIR)\alpha\wildmat.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\pax.res \
+    $(_OBJ_DIR)\mips\append.obj \
+    $(_OBJ_DIR)\mips\buffer.obj \
+    $(_OBJ_DIR)\mips\cpio.obj \
+    $(_OBJ_DIR)\mips\create.obj \
+    $(_OBJ_DIR)\mips\extract.obj \
+    $(_OBJ_DIR)\mips\fileio.obj \
+    $(_OBJ_DIR)\mips\getopt.obj \
+    $(_OBJ_DIR)\mips\link.obj \
+    $(_OBJ_DIR)\mips\list.obj \
+    $(_OBJ_DIR)\mips\mem.obj \
+    $(_OBJ_DIR)\mips\namelist.obj \
+    $(_OBJ_DIR)\mips\names.obj \
+    $(_OBJ_DIR)\mips\pass.obj \
+    $(_OBJ_DIR)\mips\pathname.obj \
+    $(_OBJ_DIR)\mips\pax.obj \
+    $(_OBJ_DIR)\mips\port.obj \
+    $(_OBJ_DIR)\mips\regexp.obj \
+    $(_OBJ_DIR)\mips\replace.obj \
+    $(_OBJ_DIR)\mips\tar.obj \
+    $(_OBJ_DIR)\mips\ttyio.obj \
+    $(_OBJ_DIR)\mips\warn.obj \
+    $(_OBJ_DIR)\mips\wildmat.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\pax.res \
+    $(_OBJ_DIR)\i386\append.obj \
+    $(_OBJ_DIR)\i386\buffer.obj \
+    $(_OBJ_DIR)\i386\cpio.obj \
+    $(_OBJ_DIR)\i386\create.obj \
+    $(_OBJ_DIR)\i386\extract.obj \
+    $(_OBJ_DIR)\i386\fileio.obj \
+    $(_OBJ_DIR)\i386\getopt.obj \
+    $(_OBJ_DIR)\i386\link.obj \
+    $(_OBJ_DIR)\i386\list.obj \
+    $(_OBJ_DIR)\i386\mem.obj \
+    $(_OBJ_DIR)\i386\namelist.obj \
+    $(_OBJ_DIR)\i386\names.obj \
+    $(_OBJ_DIR)\i386\pass.obj \
+    $(_OBJ_DIR)\i386\pathname.obj \
+    $(_OBJ_DIR)\i386\pax.obj \
+    $(_OBJ_DIR)\i386\port.obj \
+    $(_OBJ_DIR)\i386\regexp.obj \
+    $(_OBJ_DIR)\i386\replace.obj \
+    $(_OBJ_DIR)\i386\tar.obj \
+    $(_OBJ_DIR)\i386\ttyio.obj \
+    $(_OBJ_DIR)\i386\warn.obj \
+    $(_OBJ_DIR)\i386\wildmat.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\pax.res \
+    $(_OBJ_DIR)\ppc\append.obj \
+    $(_OBJ_DIR)\ppc\buffer.obj \
+    $(_OBJ_DIR)\ppc\cpio.obj \
+    $(_OBJ_DIR)\ppc\create.obj \
+    $(_OBJ_DIR)\ppc\extract.obj \
+    $(_OBJ_DIR)\ppc\fileio.obj \
+    $(_OBJ_DIR)\ppc\getopt.obj \
+    $(_OBJ_DIR)\ppc\link.obj \
+    $(_OBJ_DIR)\ppc\list.obj \
+    $(_OBJ_DIR)\ppc\mem.obj \
+    $(_OBJ_DIR)\ppc\namelist.obj \
+    $(_OBJ_DIR)\ppc\names.obj \
+    $(_OBJ_DIR)\ppc\pass.obj \
+    $(_OBJ_DIR)\ppc\pathname.obj \
+    $(_OBJ_DIR)\ppc\pax.obj \
+    $(_OBJ_DIR)\ppc\port.obj \
+    $(_OBJ_DIR)\ppc\regexp.obj \
+    $(_OBJ_DIR)\ppc\replace.obj \
+    $(_OBJ_DIR)\ppc\tar.obj \
+    $(_OBJ_DIR)\ppc\ttyio.obj \
+    $(_OBJ_DIR)\ppc\warn.obj \
+    $(_OBJ_DIR)\ppc\wildmat.obj
+
+PASS0_PPC_OBJECTS=
+

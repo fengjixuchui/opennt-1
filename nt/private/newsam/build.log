@@ -1,0 +1,157 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining w:\nt\private\newsam directory tree for files to compile.
+Building generated files in w:\nt\private\newsam ********************
+'nmake.exe /c BUILDMSG=Stop. -i -f makefil0. NOLINK=1 386=1'
+
+Stop. 
+Building generated files in w:\nt\private\newsam\server ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+
+Stop. 
+BUILD: Examining w:\nt\private\newsam directory tree for files to compile. (2nd Pass)
+Linking w:\nt\private\newsam\client directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Linking w:\nt\private\newsam\server directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Linking w:\nt\private\newsam\passfilt directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	link -out:W:\nt\public\sdk\lib\i386\passfilt.dll -machine:i386 @W:\tmp\nma01624.
+	link -out:W:\nt\public\sdk\lib\i386\samlib.dll -machine:i386 @W:\tmp\nma03480.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,passfilt 
+-subsystem:native,4.00 
+-noentry 
+W:\nt\public\sdk\lib\i386\passfilt.exp 
+obj\i386\passfilt.res 
+obj\i386\passfilt.obj 
+W:\nt\public\sdk\lib\i386\int64.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,samlib 
+-subsystem:console,4.00 
+-noentry 
+W:\nt\public\sdk\lib\i386\samlib.exp 
+obj\i386\sam_rev.res 
+obj\i386\bind.obj 
+obj\i386\samrpc_c.obj 
+obj\i386\wrappers.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\rpcutil.lib 
+W:\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\rpcndr.lib 
+W:\nt\Public\Sdk\Lib\i386\kernel32.lib 
+..\..\lsa\crypt\engine\obj\i386\rc4c.obj 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\passfilt.dll
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\samlib.dll
+	link -out:\nt\public\sdk\lib\i386\samsrv.dll -machine:i386 @W:\tmp\nma02476.
+
+Stop. 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-order:@samsrv.prf 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,samsrv 
+-subsystem:native,4.00 
+-noentry 
+\nt\public\sdk\lib\i386\samsrv.exp 
+obj\i386\sam_rev.res 
+obj\i386\display.obj 
+obj\i386\alias.obj 
+obj\i386\almember.obj 
+obj\i386\attr.obj 
+obj\i386\bldsam3.obj 
+obj\i386\close.obj 
+obj\i386\context.obj 
+obj\i386\domain.obj 
+obj\i386\gentab2.obj 
+obj\i386\global.obj 
+obj\i386\group.obj 
+obj\i386\notify.obj 
+obj\i386\oldstub.obj 
+obj\i386\rundown.obj 
+obj\i386\samifree.obj 
+obj\i386\samrpc_s.obj 
+obj\i386\samss.obj 
+obj\i386\secdescr.obj 
+obj\i386\security.obj 
+obj\i386\server.obj 
+obj\i386\user.obj 
+obj\i386\utility.obj 
+obj\i386\upgrade.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\nlrepl.lib 
+W:\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\rpcndr.lib 
+W:\nt\public\sdk\lib\i386\rpcutil.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\lsasrv.lib 
+..\..\lsa\crypt\engine\obj\i386\rc4c.obj 
+
+Stop. 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a \nt\public\sdk\lib\i386\samsrv.dll
+
+Stop. 

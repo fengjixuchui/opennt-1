@@ -1,0 +1,96 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\nwlnkrip.res \
+    $(_OBJ_DIR)\alpha\driver.obj \
+    $(_OBJ_DIR)\alpha\globals.obj \
+    $(_OBJ_DIR)\alpha\ipxbind.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\start.obj \
+    $(_OBJ_DIR)\alpha\nicman.obj \
+    $(_OBJ_DIR)\alpha\rcvpkt.obj \
+    $(_OBJ_DIR)\alpha\timer.obj \
+    $(_OBJ_DIR)\alpha\rcvind.obj \
+    $(_OBJ_DIR)\alpha\route.obj \
+    $(_OBJ_DIR)\alpha\send.obj \
+    $(_OBJ_DIR)\alpha\ripproc.obj \
+    $(_OBJ_DIR)\alpha\ripsend.obj \
+    $(_OBJ_DIR)\alpha\riptimer.obj \
+    $(_OBJ_DIR)\alpha\ripaux.obj \
+    $(_OBJ_DIR)\alpha\stubs.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\lineind.obj \
+    $(_OBJ_DIR)\alpha\netbios.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\nwlnkrip.res \
+    $(_OBJ_DIR)\mips\driver.obj \
+    $(_OBJ_DIR)\mips\globals.obj \
+    $(_OBJ_DIR)\mips\ipxbind.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\start.obj \
+    $(_OBJ_DIR)\mips\nicman.obj \
+    $(_OBJ_DIR)\mips\rcvpkt.obj \
+    $(_OBJ_DIR)\mips\timer.obj \
+    $(_OBJ_DIR)\mips\rcvind.obj \
+    $(_OBJ_DIR)\mips\route.obj \
+    $(_OBJ_DIR)\mips\send.obj \
+    $(_OBJ_DIR)\mips\ripproc.obj \
+    $(_OBJ_DIR)\mips\ripsend.obj \
+    $(_OBJ_DIR)\mips\riptimer.obj \
+    $(_OBJ_DIR)\mips\ripaux.obj \
+    $(_OBJ_DIR)\mips\stubs.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\lineind.obj \
+    $(_OBJ_DIR)\mips\netbios.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\nwlnkrip.res \
+    $(_OBJ_DIR)\i386\driver.obj \
+    $(_OBJ_DIR)\i386\globals.obj \
+    $(_OBJ_DIR)\i386\ipxbind.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\start.obj \
+    $(_OBJ_DIR)\i386\nicman.obj \
+    $(_OBJ_DIR)\i386\rcvpkt.obj \
+    $(_OBJ_DIR)\i386\timer.obj \
+    $(_OBJ_DIR)\i386\rcvind.obj \
+    $(_OBJ_DIR)\i386\route.obj \
+    $(_OBJ_DIR)\i386\send.obj \
+    $(_OBJ_DIR)\i386\ripproc.obj \
+    $(_OBJ_DIR)\i386\ripsend.obj \
+    $(_OBJ_DIR)\i386\riptimer.obj \
+    $(_OBJ_DIR)\i386\ripaux.obj \
+    $(_OBJ_DIR)\i386\stubs.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\lineind.obj \
+    $(_OBJ_DIR)\i386\netbios.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\nwlnkrip.res \
+    $(_OBJ_DIR)\ppc\driver.obj \
+    $(_OBJ_DIR)\ppc\globals.obj \
+    $(_OBJ_DIR)\ppc\ipxbind.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\start.obj \
+    $(_OBJ_DIR)\ppc\nicman.obj \
+    $(_OBJ_DIR)\ppc\rcvpkt.obj \
+    $(_OBJ_DIR)\ppc\timer.obj \
+    $(_OBJ_DIR)\ppc\rcvind.obj \
+    $(_OBJ_DIR)\ppc\route.obj \
+    $(_OBJ_DIR)\ppc\send.obj \
+    $(_OBJ_DIR)\ppc\ripproc.obj \
+    $(_OBJ_DIR)\ppc\ripsend.obj \
+    $(_OBJ_DIR)\ppc\riptimer.obj \
+    $(_OBJ_DIR)\ppc\ripaux.obj \
+    $(_OBJ_DIR)\ppc\stubs.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\lineind.obj \
+    $(_OBJ_DIR)\ppc\netbios.obj
+
+PASS0_PPC_OBJECTS=
+

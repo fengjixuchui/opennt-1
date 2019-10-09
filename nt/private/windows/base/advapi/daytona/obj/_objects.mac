@@ -1,0 +1,68 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\advapi32.res \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\eventapi.obj \
+    $(_OBJ_DIR)\alpha\pnpapi.obj \
+    $(_OBJ_DIR)\alpha\security.obj \
+    $(_OBJ_DIR)\alpha\username.obj \
+    $(_OBJ_DIR)\alpha\win31io.obj \
+    $(_OBJ_DIR)\alpha\group32.obj \
+    $(_OBJ_DIR)\alpha\group16.obj \
+    $(_OBJ_DIR)\alpha\isuni.obj \
+    $(_OBJ_DIR)\alpha\logon32.obj \
+    $(_OBJ_DIR)\alpha\cryptapi.obj \
+    $(_OBJ_DIR)\alpha\regdat16.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\advapi32.res \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\eventapi.obj \
+    $(_OBJ_DIR)\mips\pnpapi.obj \
+    $(_OBJ_DIR)\mips\security.obj \
+    $(_OBJ_DIR)\mips\username.obj \
+    $(_OBJ_DIR)\mips\win31io.obj \
+    $(_OBJ_DIR)\mips\group32.obj \
+    $(_OBJ_DIR)\mips\group16.obj \
+    $(_OBJ_DIR)\mips\isuni.obj \
+    $(_OBJ_DIR)\mips\logon32.obj \
+    $(_OBJ_DIR)\mips\cryptapi.obj \
+    $(_OBJ_DIR)\mips\regdat16.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\advapi32.res \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\eventapi.obj \
+    $(_OBJ_DIR)\i386\pnpapi.obj \
+    $(_OBJ_DIR)\i386\security.obj \
+    $(_OBJ_DIR)\i386\username.obj \
+    $(_OBJ_DIR)\i386\win31io.obj \
+    $(_OBJ_DIR)\i386\group32.obj \
+    $(_OBJ_DIR)\i386\group16.obj \
+    $(_OBJ_DIR)\i386\isuni.obj \
+    $(_OBJ_DIR)\i386\logon32.obj \
+    $(_OBJ_DIR)\i386\cryptapi.obj \
+    $(_OBJ_DIR)\i386\regdat16.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\advapi32.res \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\eventapi.obj \
+    $(_OBJ_DIR)\ppc\pnpapi.obj \
+    $(_OBJ_DIR)\ppc\security.obj \
+    $(_OBJ_DIR)\ppc\username.obj \
+    $(_OBJ_DIR)\ppc\win31io.obj \
+    $(_OBJ_DIR)\ppc\group32.obj \
+    $(_OBJ_DIR)\ppc\group16.obj \
+    $(_OBJ_DIR)\ppc\isuni.obj \
+    $(_OBJ_DIR)\ppc\logon32.obj \
+    $(_OBJ_DIR)\ppc\cryptapi.obj \
+    $(_OBJ_DIR)\ppc\regdat16.obj
+
+PASS0_PPC_OBJECTS=
+

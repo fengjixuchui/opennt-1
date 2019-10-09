@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\help.obj \
+    $(_OBJ_DIR)\alpha\scontext.obj \
+    $(_OBJ_DIR)\alpha\ccontext.obj \
+    $(_OBJ_DIR)\alpha\dataconv.obj \
+    $(_OBJ_DIR)\alpha\charconv.obj \
+    $(_OBJ_DIR)\alpha\intconv.obj \
+    $(_OBJ_DIR)\alpha\floatc.obj \
+    $(_OBJ_DIR)\alpha\linklist.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\help.obj \
+    $(_OBJ_DIR)\mips\scontext.obj \
+    $(_OBJ_DIR)\mips\ccontext.obj \
+    $(_OBJ_DIR)\mips\dataconv.obj \
+    $(_OBJ_DIR)\mips\charconv.obj \
+    $(_OBJ_DIR)\mips\intconv.obj \
+    $(_OBJ_DIR)\mips\floatc.obj \
+    $(_OBJ_DIR)\mips\linklist.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\help.obj \
+    $(_OBJ_DIR)\i386\scontext.obj \
+    $(_OBJ_DIR)\i386\ccontext.obj \
+    $(_OBJ_DIR)\i386\dataconv.obj \
+    $(_OBJ_DIR)\i386\charconv.obj \
+    $(_OBJ_DIR)\i386\intconv.obj \
+    $(_OBJ_DIR)\i386\floatc.obj \
+    $(_OBJ_DIR)\i386\linklist.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\help.obj \
+    $(_OBJ_DIR)\ppc\scontext.obj \
+    $(_OBJ_DIR)\ppc\ccontext.obj \
+    $(_OBJ_DIR)\ppc\dataconv.obj \
+    $(_OBJ_DIR)\ppc\charconv.obj \
+    $(_OBJ_DIR)\ppc\intconv.obj \
+    $(_OBJ_DIR)\ppc\floatc.obj \
+    $(_OBJ_DIR)\ppc\linklist.obj
+
+PASS0_PPC_OBJECTS=
+

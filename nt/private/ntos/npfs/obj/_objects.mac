@@ -1,0 +1,124 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\npfs.res \
+    $(_OBJ_DIR)\alpha\aliassup.obj \
+    $(_OBJ_DIR)\alpha\cleanup.obj \
+    $(_OBJ_DIR)\alpha\close.obj \
+    $(_OBJ_DIR)\alpha\create.obj \
+    $(_OBJ_DIR)\alpha\createnp.obj \
+    $(_OBJ_DIR)\alpha\datasup.obj \
+    $(_OBJ_DIR)\alpha\dir.obj \
+    $(_OBJ_DIR)\alpha\dumpsup.obj \
+    $(_OBJ_DIR)\alpha\eventsup.obj \
+    $(_OBJ_DIR)\alpha\fileinfo.obj \
+    $(_OBJ_DIR)\alpha\filobsup.obj \
+    $(_OBJ_DIR)\alpha\flushbuf.obj \
+    $(_OBJ_DIR)\alpha\fsctrl.obj \
+    $(_OBJ_DIR)\alpha\npdata.obj \
+    $(_OBJ_DIR)\alpha\npinit.obj \
+    $(_OBJ_DIR)\alpha\prefxsup.obj \
+    $(_OBJ_DIR)\alpha\read.obj \
+    $(_OBJ_DIR)\alpha\readsup.obj \
+    $(_OBJ_DIR)\alpha\secursup.obj \
+    $(_OBJ_DIR)\alpha\seinfo.obj \
+    $(_OBJ_DIR)\alpha\statesup.obj \
+    $(_OBJ_DIR)\alpha\strucsup.obj \
+    $(_OBJ_DIR)\alpha\volinfo.obj \
+    $(_OBJ_DIR)\alpha\waitsup.obj \
+    $(_OBJ_DIR)\alpha\write.obj \
+    $(_OBJ_DIR)\alpha\writesup.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\npfs.res \
+    $(_OBJ_DIR)\mips\aliassup.obj \
+    $(_OBJ_DIR)\mips\cleanup.obj \
+    $(_OBJ_DIR)\mips\close.obj \
+    $(_OBJ_DIR)\mips\create.obj \
+    $(_OBJ_DIR)\mips\createnp.obj \
+    $(_OBJ_DIR)\mips\datasup.obj \
+    $(_OBJ_DIR)\mips\dir.obj \
+    $(_OBJ_DIR)\mips\dumpsup.obj \
+    $(_OBJ_DIR)\mips\eventsup.obj \
+    $(_OBJ_DIR)\mips\fileinfo.obj \
+    $(_OBJ_DIR)\mips\filobsup.obj \
+    $(_OBJ_DIR)\mips\flushbuf.obj \
+    $(_OBJ_DIR)\mips\fsctrl.obj \
+    $(_OBJ_DIR)\mips\npdata.obj \
+    $(_OBJ_DIR)\mips\npinit.obj \
+    $(_OBJ_DIR)\mips\prefxsup.obj \
+    $(_OBJ_DIR)\mips\read.obj \
+    $(_OBJ_DIR)\mips\readsup.obj \
+    $(_OBJ_DIR)\mips\secursup.obj \
+    $(_OBJ_DIR)\mips\seinfo.obj \
+    $(_OBJ_DIR)\mips\statesup.obj \
+    $(_OBJ_DIR)\mips\strucsup.obj \
+    $(_OBJ_DIR)\mips\volinfo.obj \
+    $(_OBJ_DIR)\mips\waitsup.obj \
+    $(_OBJ_DIR)\mips\write.obj \
+    $(_OBJ_DIR)\mips\writesup.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\npfs.res \
+    $(_OBJ_DIR)\i386\aliassup.obj \
+    $(_OBJ_DIR)\i386\cleanup.obj \
+    $(_OBJ_DIR)\i386\close.obj \
+    $(_OBJ_DIR)\i386\create.obj \
+    $(_OBJ_DIR)\i386\createnp.obj \
+    $(_OBJ_DIR)\i386\datasup.obj \
+    $(_OBJ_DIR)\i386\dir.obj \
+    $(_OBJ_DIR)\i386\dumpsup.obj \
+    $(_OBJ_DIR)\i386\eventsup.obj \
+    $(_OBJ_DIR)\i386\fileinfo.obj \
+    $(_OBJ_DIR)\i386\filobsup.obj \
+    $(_OBJ_DIR)\i386\flushbuf.obj \
+    $(_OBJ_DIR)\i386\fsctrl.obj \
+    $(_OBJ_DIR)\i386\npdata.obj \
+    $(_OBJ_DIR)\i386\npinit.obj \
+    $(_OBJ_DIR)\i386\prefxsup.obj \
+    $(_OBJ_DIR)\i386\read.obj \
+    $(_OBJ_DIR)\i386\readsup.obj \
+    $(_OBJ_DIR)\i386\secursup.obj \
+    $(_OBJ_DIR)\i386\seinfo.obj \
+    $(_OBJ_DIR)\i386\statesup.obj \
+    $(_OBJ_DIR)\i386\strucsup.obj \
+    $(_OBJ_DIR)\i386\volinfo.obj \
+    $(_OBJ_DIR)\i386\waitsup.obj \
+    $(_OBJ_DIR)\i386\write.obj \
+    $(_OBJ_DIR)\i386\writesup.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\npfs.res \
+    $(_OBJ_DIR)\ppc\aliassup.obj \
+    $(_OBJ_DIR)\ppc\cleanup.obj \
+    $(_OBJ_DIR)\ppc\close.obj \
+    $(_OBJ_DIR)\ppc\create.obj \
+    $(_OBJ_DIR)\ppc\createnp.obj \
+    $(_OBJ_DIR)\ppc\datasup.obj \
+    $(_OBJ_DIR)\ppc\dir.obj \
+    $(_OBJ_DIR)\ppc\dumpsup.obj \
+    $(_OBJ_DIR)\ppc\eventsup.obj \
+    $(_OBJ_DIR)\ppc\fileinfo.obj \
+    $(_OBJ_DIR)\ppc\filobsup.obj \
+    $(_OBJ_DIR)\ppc\flushbuf.obj \
+    $(_OBJ_DIR)\ppc\fsctrl.obj \
+    $(_OBJ_DIR)\ppc\npdata.obj \
+    $(_OBJ_DIR)\ppc\npinit.obj \
+    $(_OBJ_DIR)\ppc\prefxsup.obj \
+    $(_OBJ_DIR)\ppc\read.obj \
+    $(_OBJ_DIR)\ppc\readsup.obj \
+    $(_OBJ_DIR)\ppc\secursup.obj \
+    $(_OBJ_DIR)\ppc\seinfo.obj \
+    $(_OBJ_DIR)\ppc\statesup.obj \
+    $(_OBJ_DIR)\ppc\strucsup.obj \
+    $(_OBJ_DIR)\ppc\volinfo.obj \
+    $(_OBJ_DIR)\ppc\waitsup.obj \
+    $(_OBJ_DIR)\ppc\write.obj \
+    $(_OBJ_DIR)\ppc\writesup.obj
+
+PASS0_PPC_OBJECTS=
+

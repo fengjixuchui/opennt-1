@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mitsumi.res \
+    $(_OBJ_DIR)\alpha\mitsumi.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mitsumi.res \
+    $(_OBJ_DIR)\mips\mitsumi.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mitsumi.res \
+    $(_OBJ_DIR)\i386\mitsumi.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mitsumi.res \
+    $(_OBJ_DIR)\ppc\mitsumi.obj
+
+PASS0_PPC_OBJECTS=
+

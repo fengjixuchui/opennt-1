@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\compman.obj \
+    $(_OBJ_DIR)\alpha\icm.obj \
+    $(_OBJ_DIR)\alpha\thunk.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\compman.obj \
+    $(_OBJ_DIR)\mips\icm.obj \
+    $(_OBJ_DIR)\mips\thunk.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\compman.obj \
+    $(_OBJ_DIR)\i386\icm.obj \
+    $(_OBJ_DIR)\i386\thunk.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\compman.obj \
+    $(_OBJ_DIR)\ppc\icm.obj \
+    $(_OBJ_DIR)\ppc\thunk.obj
+
+PASS0_PPC_OBJECTS=
+

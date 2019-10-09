@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\sndblst.res \
+    $(_OBJ_DIR)\alpha\isr.obj \
+    $(_OBJ_DIR)\alpha\devcaps.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\config.obj \
+    $(_OBJ_DIR)\alpha\hardware.obj \
+    $(_OBJ_DIR)\alpha\mixer.obj \
+    $(_OBJ_DIR)\alpha\mixsb16.obj \
+    $(_OBJ_DIR)\alpha\sb16mix.obj \
+    $(_OBJ_DIR)\alpha\sb16ctl.obj \
+    $(_OBJ_DIR)\alpha\mixsbpro.obj \
+    $(_OBJ_DIR)\alpha\sbpromix.obj \
+    $(_OBJ_DIR)\alpha\sbproctl.obj \
+    $(_OBJ_DIR)\alpha\volume.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\sndblst.res \
+    $(_OBJ_DIR)\mips\isr.obj \
+    $(_OBJ_DIR)\mips\devcaps.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\config.obj \
+    $(_OBJ_DIR)\mips\hardware.obj \
+    $(_OBJ_DIR)\mips\mixer.obj \
+    $(_OBJ_DIR)\mips\mixsb16.obj \
+    $(_OBJ_DIR)\mips\sb16mix.obj \
+    $(_OBJ_DIR)\mips\sb16ctl.obj \
+    $(_OBJ_DIR)\mips\mixsbpro.obj \
+    $(_OBJ_DIR)\mips\sbpromix.obj \
+    $(_OBJ_DIR)\mips\sbproctl.obj \
+    $(_OBJ_DIR)\mips\volume.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\sndblst.res \
+    $(_OBJ_DIR)\i386\isr.obj \
+    $(_OBJ_DIR)\i386\devcaps.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\hardware.obj \
+    $(_OBJ_DIR)\i386\mixer.obj \
+    $(_OBJ_DIR)\i386\mixsb16.obj \
+    $(_OBJ_DIR)\i386\sb16mix.obj \
+    $(_OBJ_DIR)\i386\sb16ctl.obj \
+    $(_OBJ_DIR)\i386\mixsbpro.obj \
+    $(_OBJ_DIR)\i386\sbpromix.obj \
+    $(_OBJ_DIR)\i386\sbproctl.obj \
+    $(_OBJ_DIR)\i386\volume.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\sndblst.res \
+    $(_OBJ_DIR)\ppc\isr.obj \
+    $(_OBJ_DIR)\ppc\devcaps.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\config.obj \
+    $(_OBJ_DIR)\ppc\hardware.obj \
+    $(_OBJ_DIR)\ppc\mixer.obj \
+    $(_OBJ_DIR)\ppc\mixsb16.obj \
+    $(_OBJ_DIR)\ppc\sb16mix.obj \
+    $(_OBJ_DIR)\ppc\sb16ctl.obj \
+    $(_OBJ_DIR)\ppc\mixsbpro.obj \
+    $(_OBJ_DIR)\ppc\sbpromix.obj \
+    $(_OBJ_DIR)\ppc\sbproctl.obj \
+    $(_OBJ_DIR)\ppc\volume.obj
+
+PASS0_PPC_OBJECTS=
+

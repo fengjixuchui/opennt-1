@@ -1,0 +1,100 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\res.res \
+    $(_OBJ_DIR)\alpha\bitblt.obj \
+    $(_OBJ_DIR)\alpha\blt.obj \
+    $(_OBJ_DIR)\alpha\brush.obj \
+    $(_OBJ_DIR)\alpha\color.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\enable.obj \
+    $(_OBJ_DIR)\alpha\fastfill.obj \
+    $(_OBJ_DIR)\alpha\fillpath.obj \
+    $(_OBJ_DIR)\alpha\heap.obj \
+    $(_OBJ_DIR)\alpha\lines.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\multi.obj \
+    $(_OBJ_DIR)\alpha\paint.obj \
+    $(_OBJ_DIR)\alpha\palette.obj \
+    $(_OBJ_DIR)\alpha\pointer.obj \
+    $(_OBJ_DIR)\alpha\stretch.obj \
+    $(_OBJ_DIR)\alpha\strips.obj \
+    $(_OBJ_DIR)\alpha\textout.obj \
+    $(_OBJ_DIR)\alpha\thunk.obj \
+    $(_OBJ_DIR)\alpha\str.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\res.res \
+    $(_OBJ_DIR)\mips\bitblt.obj \
+    $(_OBJ_DIR)\mips\blt.obj \
+    $(_OBJ_DIR)\mips\brush.obj \
+    $(_OBJ_DIR)\mips\color.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\enable.obj \
+    $(_OBJ_DIR)\mips\fastfill.obj \
+    $(_OBJ_DIR)\mips\fillpath.obj \
+    $(_OBJ_DIR)\mips\heap.obj \
+    $(_OBJ_DIR)\mips\lines.obj \
+    $(_OBJ_DIR)\mips\misc.obj \
+    $(_OBJ_DIR)\mips\multi.obj \
+    $(_OBJ_DIR)\mips\paint.obj \
+    $(_OBJ_DIR)\mips\palette.obj \
+    $(_OBJ_DIR)\mips\pointer.obj \
+    $(_OBJ_DIR)\mips\stretch.obj \
+    $(_OBJ_DIR)\mips\strips.obj \
+    $(_OBJ_DIR)\mips\textout.obj \
+    $(_OBJ_DIR)\mips\thunk.obj \
+    $(_OBJ_DIR)\mips\str.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\res.res \
+    $(_OBJ_DIR)\i386\str.obj \
+    $(_OBJ_DIR)\i386\bitblt.obj \
+    $(_OBJ_DIR)\i386\blt.obj \
+    $(_OBJ_DIR)\i386\brush.obj \
+    $(_OBJ_DIR)\i386\color.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\enable.obj \
+    $(_OBJ_DIR)\i386\fastfill.obj \
+    $(_OBJ_DIR)\i386\fillpath.obj \
+    $(_OBJ_DIR)\i386\heap.obj \
+    $(_OBJ_DIR)\i386\lines.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\multi.obj \
+    $(_OBJ_DIR)\i386\paint.obj \
+    $(_OBJ_DIR)\i386\palette.obj \
+    $(_OBJ_DIR)\i386\pointer.obj \
+    $(_OBJ_DIR)\i386\stretch.obj \
+    $(_OBJ_DIR)\i386\strips.obj \
+    $(_OBJ_DIR)\i386\textout.obj \
+    $(_OBJ_DIR)\i386\thunk.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\res.res \
+    $(_OBJ_DIR)\ppc\bitblt.obj \
+    $(_OBJ_DIR)\ppc\blt.obj \
+    $(_OBJ_DIR)\ppc\brush.obj \
+    $(_OBJ_DIR)\ppc\color.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\enable.obj \
+    $(_OBJ_DIR)\ppc\fastfill.obj \
+    $(_OBJ_DIR)\ppc\fillpath.obj \
+    $(_OBJ_DIR)\ppc\heap.obj \
+    $(_OBJ_DIR)\ppc\lines.obj \
+    $(_OBJ_DIR)\ppc\misc.obj \
+    $(_OBJ_DIR)\ppc\multi.obj \
+    $(_OBJ_DIR)\ppc\paint.obj \
+    $(_OBJ_DIR)\ppc\palette.obj \
+    $(_OBJ_DIR)\ppc\pointer.obj \
+    $(_OBJ_DIR)\ppc\stretch.obj \
+    $(_OBJ_DIR)\ppc\strips.obj \
+    $(_OBJ_DIR)\ppc\textout.obj \
+    $(_OBJ_DIR)\ppc\thunk.obj \
+    $(_OBJ_DIR)\ppc\str.obj
+
+PASS0_PPC_OBJECTS=
+

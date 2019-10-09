@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\wshisn.res \
+    $(_OBJ_DIR)\alpha\wshisn.obj \
+    $(_OBJ_DIR)\alpha\wshelper.obj \
+    $(_OBJ_DIR)\alpha\wshutil.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\wshisn.res \
+    $(_OBJ_DIR)\mips\wshisn.obj \
+    $(_OBJ_DIR)\mips\wshelper.obj \
+    $(_OBJ_DIR)\mips\wshutil.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\wshisn.res \
+    $(_OBJ_DIR)\i386\wshisn.obj \
+    $(_OBJ_DIR)\i386\wshelper.obj \
+    $(_OBJ_DIR)\i386\wshutil.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\wshisn.res \
+    $(_OBJ_DIR)\ppc\wshisn.obj \
+    $(_OBJ_DIR)\ppc\wshelper.obj \
+    $(_OBJ_DIR)\ppc\wshutil.obj
+
+PASS0_PPC_OBJECTS=
+

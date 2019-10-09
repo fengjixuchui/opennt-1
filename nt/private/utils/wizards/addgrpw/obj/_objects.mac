@@ -1,0 +1,76 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\romaine.res \
+    $(_OBJ_DIR)\alpha\exgrp.obj \
+    $(_OBJ_DIR)\alpha\finish.obj \
+    $(_OBJ_DIR)\alpha\trstlist.obj \
+    $(_OBJ_DIR)\alpha\lrem.obj \
+    $(_OBJ_DIR)\alpha\welcome.obj \
+    $(_OBJ_DIR)\alpha\gusers.obj \
+    $(_OBJ_DIR)\alpha\where.obj \
+    $(_OBJ_DIR)\alpha\lusers.obj \
+    $(_OBJ_DIR)\alpha\nettree.obj \
+    $(_OBJ_DIR)\alpha\transbmp.obj \
+    $(_OBJ_DIR)\alpha\romaine.obj \
+    $(_OBJ_DIR)\alpha\userlist.obj \
+    $(_OBJ_DIR)\alpha\what.obj \
+    $(_OBJ_DIR)\alpha\type.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\romaine.res \
+    $(_OBJ_DIR)\mips\exgrp.obj \
+    $(_OBJ_DIR)\mips\finish.obj \
+    $(_OBJ_DIR)\mips\trstlist.obj \
+    $(_OBJ_DIR)\mips\lrem.obj \
+    $(_OBJ_DIR)\mips\welcome.obj \
+    $(_OBJ_DIR)\mips\gusers.obj \
+    $(_OBJ_DIR)\mips\where.obj \
+    $(_OBJ_DIR)\mips\lusers.obj \
+    $(_OBJ_DIR)\mips\nettree.obj \
+    $(_OBJ_DIR)\mips\transbmp.obj \
+    $(_OBJ_DIR)\mips\romaine.obj \
+    $(_OBJ_DIR)\mips\userlist.obj \
+    $(_OBJ_DIR)\mips\what.obj \
+    $(_OBJ_DIR)\mips\type.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\romaine.res \
+    $(_OBJ_DIR)\i386\exgrp.obj \
+    $(_OBJ_DIR)\i386\finish.obj \
+    $(_OBJ_DIR)\i386\trstlist.obj \
+    $(_OBJ_DIR)\i386\lrem.obj \
+    $(_OBJ_DIR)\i386\welcome.obj \
+    $(_OBJ_DIR)\i386\gusers.obj \
+    $(_OBJ_DIR)\i386\where.obj \
+    $(_OBJ_DIR)\i386\lusers.obj \
+    $(_OBJ_DIR)\i386\nettree.obj \
+    $(_OBJ_DIR)\i386\transbmp.obj \
+    $(_OBJ_DIR)\i386\romaine.obj \
+    $(_OBJ_DIR)\i386\userlist.obj \
+    $(_OBJ_DIR)\i386\what.obj \
+    $(_OBJ_DIR)\i386\type.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\romaine.res \
+    $(_OBJ_DIR)\ppc\exgrp.obj \
+    $(_OBJ_DIR)\ppc\finish.obj \
+    $(_OBJ_DIR)\ppc\trstlist.obj \
+    $(_OBJ_DIR)\ppc\lrem.obj \
+    $(_OBJ_DIR)\ppc\welcome.obj \
+    $(_OBJ_DIR)\ppc\gusers.obj \
+    $(_OBJ_DIR)\ppc\where.obj \
+    $(_OBJ_DIR)\ppc\lusers.obj \
+    $(_OBJ_DIR)\ppc\nettree.obj \
+    $(_OBJ_DIR)\ppc\transbmp.obj \
+    $(_OBJ_DIR)\ppc\romaine.obj \
+    $(_OBJ_DIR)\ppc\userlist.obj \
+    $(_OBJ_DIR)\ppc\what.obj \
+    $(_OBJ_DIR)\ppc\type.obj
+
+PASS0_PPC_OBJECTS=
+

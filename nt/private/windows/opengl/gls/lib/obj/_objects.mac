@@ -1,0 +1,144 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\glmf32.res \
+    $(_OBJ_DIR)\alpha\cap.obj \
+    $(_OBJ_DIR)\alpha\ctx.obj \
+    $(_OBJ_DIR)\alpha\dec.obj \
+    $(_OBJ_DIR)\alpha\encoding.obj \
+    $(_OBJ_DIR)\alpha\exec.obj \
+    $(_OBJ_DIR)\alpha\g_cap.obj \
+    $(_OBJ_DIR)\alpha\g_const.obj \
+    $(_OBJ_DIR)\alpha\g_decbin.obj \
+    $(_OBJ_DIR)\alpha\g_decswp.obj \
+    $(_OBJ_DIR)\alpha\g_dectxt.obj \
+    $(_OBJ_DIR)\alpha\g_dspcap.obj \
+    $(_OBJ_DIR)\alpha\g_dspdec.obj \
+    $(_OBJ_DIR)\alpha\g_dspexe.obj \
+    $(_OBJ_DIR)\alpha\g_exec.obj \
+    $(_OBJ_DIR)\alpha\g_glsapi.obj \
+    $(_OBJ_DIR)\alpha\g_op.obj \
+    $(_OBJ_DIR)\alpha\global.obj \
+    $(_OBJ_DIR)\alpha\glslib.obj \
+    $(_OBJ_DIR)\alpha\glsutil.obj \
+    $(_OBJ_DIR)\alpha\immed.obj \
+    $(_OBJ_DIR)\alpha\opcode.obj \
+    $(_OBJ_DIR)\alpha\parser.obj \
+    $(_OBJ_DIR)\alpha\pixel.obj \
+    $(_OBJ_DIR)\alpha\platform.obj \
+    $(_OBJ_DIR)\alpha\read.obj \
+    $(_OBJ_DIR)\alpha\readbin.obj \
+    $(_OBJ_DIR)\alpha\readtxt.obj \
+    $(_OBJ_DIR)\alpha\size.obj \
+    $(_OBJ_DIR)\alpha\write.obj \
+    $(_OBJ_DIR)\alpha\writebin.obj \
+    $(_OBJ_DIR)\alpha\writetxt.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\glmf32.res \
+    $(_OBJ_DIR)\mips\cap.obj \
+    $(_OBJ_DIR)\mips\ctx.obj \
+    $(_OBJ_DIR)\mips\dec.obj \
+    $(_OBJ_DIR)\mips\encoding.obj \
+    $(_OBJ_DIR)\mips\exec.obj \
+    $(_OBJ_DIR)\mips\g_cap.obj \
+    $(_OBJ_DIR)\mips\g_const.obj \
+    $(_OBJ_DIR)\mips\g_decbin.obj \
+    $(_OBJ_DIR)\mips\g_decswp.obj \
+    $(_OBJ_DIR)\mips\g_dectxt.obj \
+    $(_OBJ_DIR)\mips\g_dspcap.obj \
+    $(_OBJ_DIR)\mips\g_dspdec.obj \
+    $(_OBJ_DIR)\mips\g_dspexe.obj \
+    $(_OBJ_DIR)\mips\g_exec.obj \
+    $(_OBJ_DIR)\mips\g_glsapi.obj \
+    $(_OBJ_DIR)\mips\g_op.obj \
+    $(_OBJ_DIR)\mips\global.obj \
+    $(_OBJ_DIR)\mips\glslib.obj \
+    $(_OBJ_DIR)\mips\glsutil.obj \
+    $(_OBJ_DIR)\mips\immed.obj \
+    $(_OBJ_DIR)\mips\opcode.obj \
+    $(_OBJ_DIR)\mips\parser.obj \
+    $(_OBJ_DIR)\mips\pixel.obj \
+    $(_OBJ_DIR)\mips\platform.obj \
+    $(_OBJ_DIR)\mips\read.obj \
+    $(_OBJ_DIR)\mips\readbin.obj \
+    $(_OBJ_DIR)\mips\readtxt.obj \
+    $(_OBJ_DIR)\mips\size.obj \
+    $(_OBJ_DIR)\mips\write.obj \
+    $(_OBJ_DIR)\mips\writebin.obj \
+    $(_OBJ_DIR)\mips\writetxt.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\glmf32.res \
+    $(_OBJ_DIR)\i386\cap.obj \
+    $(_OBJ_DIR)\i386\ctx.obj \
+    $(_OBJ_DIR)\i386\dec.obj \
+    $(_OBJ_DIR)\i386\encoding.obj \
+    $(_OBJ_DIR)\i386\exec.obj \
+    $(_OBJ_DIR)\i386\g_cap.obj \
+    $(_OBJ_DIR)\i386\g_const.obj \
+    $(_OBJ_DIR)\i386\g_decbin.obj \
+    $(_OBJ_DIR)\i386\g_decswp.obj \
+    $(_OBJ_DIR)\i386\g_dectxt.obj \
+    $(_OBJ_DIR)\i386\g_dspcap.obj \
+    $(_OBJ_DIR)\i386\g_dspdec.obj \
+    $(_OBJ_DIR)\i386\g_dspexe.obj \
+    $(_OBJ_DIR)\i386\g_exec.obj \
+    $(_OBJ_DIR)\i386\g_glsapi.obj \
+    $(_OBJ_DIR)\i386\g_op.obj \
+    $(_OBJ_DIR)\i386\global.obj \
+    $(_OBJ_DIR)\i386\glslib.obj \
+    $(_OBJ_DIR)\i386\glsutil.obj \
+    $(_OBJ_DIR)\i386\immed.obj \
+    $(_OBJ_DIR)\i386\opcode.obj \
+    $(_OBJ_DIR)\i386\parser.obj \
+    $(_OBJ_DIR)\i386\pixel.obj \
+    $(_OBJ_DIR)\i386\platform.obj \
+    $(_OBJ_DIR)\i386\read.obj \
+    $(_OBJ_DIR)\i386\readbin.obj \
+    $(_OBJ_DIR)\i386\readtxt.obj \
+    $(_OBJ_DIR)\i386\size.obj \
+    $(_OBJ_DIR)\i386\write.obj \
+    $(_OBJ_DIR)\i386\writebin.obj \
+    $(_OBJ_DIR)\i386\writetxt.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\glmf32.res \
+    $(_OBJ_DIR)\ppc\cap.obj \
+    $(_OBJ_DIR)\ppc\ctx.obj \
+    $(_OBJ_DIR)\ppc\dec.obj \
+    $(_OBJ_DIR)\ppc\encoding.obj \
+    $(_OBJ_DIR)\ppc\exec.obj \
+    $(_OBJ_DIR)\ppc\g_cap.obj \
+    $(_OBJ_DIR)\ppc\g_const.obj \
+    $(_OBJ_DIR)\ppc\g_decbin.obj \
+    $(_OBJ_DIR)\ppc\g_decswp.obj \
+    $(_OBJ_DIR)\ppc\g_dectxt.obj \
+    $(_OBJ_DIR)\ppc\g_dspcap.obj \
+    $(_OBJ_DIR)\ppc\g_dspdec.obj \
+    $(_OBJ_DIR)\ppc\g_dspexe.obj \
+    $(_OBJ_DIR)\ppc\g_exec.obj \
+    $(_OBJ_DIR)\ppc\g_glsapi.obj \
+    $(_OBJ_DIR)\ppc\g_op.obj \
+    $(_OBJ_DIR)\ppc\global.obj \
+    $(_OBJ_DIR)\ppc\glslib.obj \
+    $(_OBJ_DIR)\ppc\glsutil.obj \
+    $(_OBJ_DIR)\ppc\immed.obj \
+    $(_OBJ_DIR)\ppc\opcode.obj \
+    $(_OBJ_DIR)\ppc\parser.obj \
+    $(_OBJ_DIR)\ppc\pixel.obj \
+    $(_OBJ_DIR)\ppc\platform.obj \
+    $(_OBJ_DIR)\ppc\read.obj \
+    $(_OBJ_DIR)\ppc\readbin.obj \
+    $(_OBJ_DIR)\ppc\readtxt.obj \
+    $(_OBJ_DIR)\ppc\size.obj \
+    $(_OBJ_DIR)\ppc\write.obj \
+    $(_OBJ_DIR)\ppc\writebin.obj \
+    $(_OBJ_DIR)\ppc\writetxt.obj
+
+PASS0_PPC_OBJECTS=
+

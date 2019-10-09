@@ -1,0 +1,148 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\untfs.res \
+    $(_OBJ_DIR)\alpha\largemcb.obj \
+    $(_OBJ_DIR)\alpha\attrcol.obj \
+    $(_OBJ_DIR)\alpha\attrdef.obj \
+    $(_OBJ_DIR)\alpha\attrib.obj \
+    $(_OBJ_DIR)\alpha\attrlist.obj \
+    $(_OBJ_DIR)\alpha\attrrec.obj \
+    $(_OBJ_DIR)\alpha\badfile.obj \
+    $(_OBJ_DIR)\alpha\bitfrs.obj \
+    $(_OBJ_DIR)\alpha\bootfile.obj \
+    $(_OBJ_DIR)\alpha\clusrun.obj \
+    $(_OBJ_DIR)\alpha\entry.obj \
+    $(_OBJ_DIR)\alpha\extents.obj \
+    $(_OBJ_DIR)\alpha\format.obj \
+    $(_OBJ_DIR)\alpha\frs.obj \
+    $(_OBJ_DIR)\alpha\frsstruc.obj \
+    $(_OBJ_DIR)\alpha\hackwc.obj \
+    $(_OBJ_DIR)\alpha\indxbuff.obj \
+    $(_OBJ_DIR)\alpha\indxchk.obj \
+    $(_OBJ_DIR)\alpha\indxroot.obj \
+    $(_OBJ_DIR)\alpha\indxtree.obj \
+    $(_OBJ_DIR)\alpha\logfile.obj \
+    $(_OBJ_DIR)\alpha\mft.obj \
+    $(_OBJ_DIR)\alpha\mftfile.obj \
+    $(_OBJ_DIR)\alpha\mftref.obj \
+    $(_OBJ_DIR)\alpha\ntfsbit.obj \
+    $(_OBJ_DIR)\alpha\ntfschk.obj \
+    $(_OBJ_DIR)\alpha\ntfssa.obj \
+    $(_OBJ_DIR)\alpha\ntfsvol.obj \
+    $(_OBJ_DIR)\alpha\sdchk.obj \
+    $(_OBJ_DIR)\alpha\untfs.obj \
+    $(_OBJ_DIR)\alpha\upcase.obj \
+    $(_OBJ_DIR)\alpha\upfile.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\untfs.res \
+    $(_OBJ_DIR)\mips\largemcb.obj \
+    $(_OBJ_DIR)\mips\attrcol.obj \
+    $(_OBJ_DIR)\mips\attrdef.obj \
+    $(_OBJ_DIR)\mips\attrib.obj \
+    $(_OBJ_DIR)\mips\attrlist.obj \
+    $(_OBJ_DIR)\mips\attrrec.obj \
+    $(_OBJ_DIR)\mips\badfile.obj \
+    $(_OBJ_DIR)\mips\bitfrs.obj \
+    $(_OBJ_DIR)\mips\bootfile.obj \
+    $(_OBJ_DIR)\mips\clusrun.obj \
+    $(_OBJ_DIR)\mips\entry.obj \
+    $(_OBJ_DIR)\mips\extents.obj \
+    $(_OBJ_DIR)\mips\format.obj \
+    $(_OBJ_DIR)\mips\frs.obj \
+    $(_OBJ_DIR)\mips\frsstruc.obj \
+    $(_OBJ_DIR)\mips\hackwc.obj \
+    $(_OBJ_DIR)\mips\indxbuff.obj \
+    $(_OBJ_DIR)\mips\indxchk.obj \
+    $(_OBJ_DIR)\mips\indxroot.obj \
+    $(_OBJ_DIR)\mips\indxtree.obj \
+    $(_OBJ_DIR)\mips\logfile.obj \
+    $(_OBJ_DIR)\mips\mft.obj \
+    $(_OBJ_DIR)\mips\mftfile.obj \
+    $(_OBJ_DIR)\mips\mftref.obj \
+    $(_OBJ_DIR)\mips\ntfsbit.obj \
+    $(_OBJ_DIR)\mips\ntfschk.obj \
+    $(_OBJ_DIR)\mips\ntfssa.obj \
+    $(_OBJ_DIR)\mips\ntfsvol.obj \
+    $(_OBJ_DIR)\mips\sdchk.obj \
+    $(_OBJ_DIR)\mips\untfs.obj \
+    $(_OBJ_DIR)\mips\upcase.obj \
+    $(_OBJ_DIR)\mips\upfile.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\untfs.res \
+    $(_OBJ_DIR)\i386\largemcb.obj \
+    $(_OBJ_DIR)\i386\attrcol.obj \
+    $(_OBJ_DIR)\i386\attrdef.obj \
+    $(_OBJ_DIR)\i386\attrib.obj \
+    $(_OBJ_DIR)\i386\attrlist.obj \
+    $(_OBJ_DIR)\i386\attrrec.obj \
+    $(_OBJ_DIR)\i386\badfile.obj \
+    $(_OBJ_DIR)\i386\bitfrs.obj \
+    $(_OBJ_DIR)\i386\bootfile.obj \
+    $(_OBJ_DIR)\i386\clusrun.obj \
+    $(_OBJ_DIR)\i386\entry.obj \
+    $(_OBJ_DIR)\i386\extents.obj \
+    $(_OBJ_DIR)\i386\format.obj \
+    $(_OBJ_DIR)\i386\frs.obj \
+    $(_OBJ_DIR)\i386\frsstruc.obj \
+    $(_OBJ_DIR)\i386\hackwc.obj \
+    $(_OBJ_DIR)\i386\indxbuff.obj \
+    $(_OBJ_DIR)\i386\indxchk.obj \
+    $(_OBJ_DIR)\i386\indxroot.obj \
+    $(_OBJ_DIR)\i386\indxtree.obj \
+    $(_OBJ_DIR)\i386\logfile.obj \
+    $(_OBJ_DIR)\i386\mft.obj \
+    $(_OBJ_DIR)\i386\mftfile.obj \
+    $(_OBJ_DIR)\i386\mftref.obj \
+    $(_OBJ_DIR)\i386\ntfsbit.obj \
+    $(_OBJ_DIR)\i386\ntfschk.obj \
+    $(_OBJ_DIR)\i386\ntfssa.obj \
+    $(_OBJ_DIR)\i386\ntfsvol.obj \
+    $(_OBJ_DIR)\i386\sdchk.obj \
+    $(_OBJ_DIR)\i386\untfs.obj \
+    $(_OBJ_DIR)\i386\upcase.obj \
+    $(_OBJ_DIR)\i386\upfile.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\untfs.res \
+    $(_OBJ_DIR)\ppc\largemcb.obj \
+    $(_OBJ_DIR)\ppc\attrcol.obj \
+    $(_OBJ_DIR)\ppc\attrdef.obj \
+    $(_OBJ_DIR)\ppc\attrib.obj \
+    $(_OBJ_DIR)\ppc\attrlist.obj \
+    $(_OBJ_DIR)\ppc\attrrec.obj \
+    $(_OBJ_DIR)\ppc\badfile.obj \
+    $(_OBJ_DIR)\ppc\bitfrs.obj \
+    $(_OBJ_DIR)\ppc\bootfile.obj \
+    $(_OBJ_DIR)\ppc\clusrun.obj \
+    $(_OBJ_DIR)\ppc\entry.obj \
+    $(_OBJ_DIR)\ppc\extents.obj \
+    $(_OBJ_DIR)\ppc\format.obj \
+    $(_OBJ_DIR)\ppc\frs.obj \
+    $(_OBJ_DIR)\ppc\frsstruc.obj \
+    $(_OBJ_DIR)\ppc\hackwc.obj \
+    $(_OBJ_DIR)\ppc\indxbuff.obj \
+    $(_OBJ_DIR)\ppc\indxchk.obj \
+    $(_OBJ_DIR)\ppc\indxroot.obj \
+    $(_OBJ_DIR)\ppc\indxtree.obj \
+    $(_OBJ_DIR)\ppc\logfile.obj \
+    $(_OBJ_DIR)\ppc\mft.obj \
+    $(_OBJ_DIR)\ppc\mftfile.obj \
+    $(_OBJ_DIR)\ppc\mftref.obj \
+    $(_OBJ_DIR)\ppc\ntfsbit.obj \
+    $(_OBJ_DIR)\ppc\ntfschk.obj \
+    $(_OBJ_DIR)\ppc\ntfssa.obj \
+    $(_OBJ_DIR)\ppc\ntfsvol.obj \
+    $(_OBJ_DIR)\ppc\sdchk.obj \
+    $(_OBJ_DIR)\ppc\untfs.obj \
+    $(_OBJ_DIR)\ppc\upcase.obj \
+    $(_OBJ_DIR)\ppc\upfile.obj
+
+PASS0_PPC_OBJECTS=
+

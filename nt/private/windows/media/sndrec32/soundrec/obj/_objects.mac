@@ -1,0 +1,88 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\soundrec.res \
+    $(_OBJ_DIR)\alpha\soundrec.obj \
+    $(_OBJ_DIR)\alpha\edit.obj \
+    $(_OBJ_DIR)\alpha\errorbox.obj \
+    $(_OBJ_DIR)\alpha\file.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\nftext.obj \
+    $(_OBJ_DIR)\alpha\sframe.obj \
+    $(_OBJ_DIR)\alpha\wave.obj \
+    $(_OBJ_DIR)\alpha\wavedisp.obj \
+    $(_OBJ_DIR)\alpha\srecnew.obj \
+    $(_OBJ_DIR)\alpha\oleglue.obj \
+    $(_OBJ_DIR)\alpha\fixreg.obj \
+    $(_OBJ_DIR)\alpha\convert.obj \
+    $(_OBJ_DIR)\alpha\reg.obj \
+    $(_OBJ_DIR)\alpha\buttons.obj \
+    $(_OBJ_DIR)\alpha\srfact.obj \
+    $(_OBJ_DIR)\alpha\srs.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\soundrec.res \
+    $(_OBJ_DIR)\mips\soundrec.obj \
+    $(_OBJ_DIR)\mips\edit.obj \
+    $(_OBJ_DIR)\mips\errorbox.obj \
+    $(_OBJ_DIR)\mips\file.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\nftext.obj \
+    $(_OBJ_DIR)\mips\sframe.obj \
+    $(_OBJ_DIR)\mips\wave.obj \
+    $(_OBJ_DIR)\mips\wavedisp.obj \
+    $(_OBJ_DIR)\mips\srecnew.obj \
+    $(_OBJ_DIR)\mips\oleglue.obj \
+    $(_OBJ_DIR)\mips\fixreg.obj \
+    $(_OBJ_DIR)\mips\convert.obj \
+    $(_OBJ_DIR)\mips\reg.obj \
+    $(_OBJ_DIR)\mips\buttons.obj \
+    $(_OBJ_DIR)\mips\srfact.obj \
+    $(_OBJ_DIR)\mips\srs.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\soundrec.res \
+    $(_OBJ_DIR)\i386\soundrec.obj \
+    $(_OBJ_DIR)\i386\edit.obj \
+    $(_OBJ_DIR)\i386\errorbox.obj \
+    $(_OBJ_DIR)\i386\file.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\nftext.obj \
+    $(_OBJ_DIR)\i386\sframe.obj \
+    $(_OBJ_DIR)\i386\wave.obj \
+    $(_OBJ_DIR)\i386\wavedisp.obj \
+    $(_OBJ_DIR)\i386\srecnew.obj \
+    $(_OBJ_DIR)\i386\oleglue.obj \
+    $(_OBJ_DIR)\i386\fixreg.obj \
+    $(_OBJ_DIR)\i386\convert.obj \
+    $(_OBJ_DIR)\i386\reg.obj \
+    $(_OBJ_DIR)\i386\buttons.obj \
+    $(_OBJ_DIR)\i386\srfact.obj \
+    $(_OBJ_DIR)\i386\srs.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\soundrec.res \
+    $(_OBJ_DIR)\ppc\soundrec.obj \
+    $(_OBJ_DIR)\ppc\edit.obj \
+    $(_OBJ_DIR)\ppc\errorbox.obj \
+    $(_OBJ_DIR)\ppc\file.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\nftext.obj \
+    $(_OBJ_DIR)\ppc\sframe.obj \
+    $(_OBJ_DIR)\ppc\wave.obj \
+    $(_OBJ_DIR)\ppc\wavedisp.obj \
+    $(_OBJ_DIR)\ppc\srecnew.obj \
+    $(_OBJ_DIR)\ppc\oleglue.obj \
+    $(_OBJ_DIR)\ppc\fixreg.obj \
+    $(_OBJ_DIR)\ppc\convert.obj \
+    $(_OBJ_DIR)\ppc\reg.obj \
+    $(_OBJ_DIR)\ppc\buttons.obj \
+    $(_OBJ_DIR)\ppc\srfact.obj \
+    $(_OBJ_DIR)\ppc\srs.obj
+
+PASS0_PPC_OBJECTS=
+

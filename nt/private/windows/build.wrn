@@ -1,0 +1,17 @@
+shell\comdlg\cvpack() : warning CK4002: duplicate public symbol  in module obj\i386\data.obj
+shell\comdlg\cvpack() : warning CK4002: duplicate public symbol  in module obj\i386\data.obj
+shell\comdlg\cvpack() : warning CK4002: duplicate public symbol  in module obj\i386\data.obj
+shell\cpls\desk\cvpack() : warning CK4002: duplicate public symbol  in module obj\i386\color2.obj
+shell\cpls\desk\cvpack() : warning CK4002: duplicate public symbol  in module obj\i386\color2.obj
+shell\cpls\desk\cvpack() : warning CK4002: duplicate public symbol  in module obj\i386\color2.obj
+shell\cpls\plus\link() : warning LNK4092: shared section ".text" contains relocations; image may not run correctly
+shell\winver\winver31.exe() : warning LNK4060: stub file missing full MS-DOS header; rebuild stub with /KNOWEAS 16-bit LINK option
+shell\tools\lnkdump\binplace() : warning BNP0000: no version resource detected for "w:\nt\private\windows\shell\tools\lnkdump\obj\i386\lnkdump.exe"
+shell\tools\pifdump\binplace() : warning BNP0000: no version resource detected for "w:\nt\private\windows\shell\tools\pifdump\obj\i386\pifdump.exe"
+shell\tools\clipdump\binplace() : warning BNP0000: no version resource detected for "w:\nt\private\windows\shell\tools\clipdump\obj\i386\clipdump.exe"
+media\drivers\joystick\dll\cvpack() : warning CK4002: duplicate public symbol  in module obj\i386\joystick.obj
+media\drivers\sidewndr\dll\cvpack() : warning CK4002: duplicate public symbol  in module obj\i386\sidewndr.obj
+setup\inf\win4\tools\prodfilt\binplace() : warning BNP0000: no version resource detected for "w:\nt\private\windows\setup\inf\win4\tools\prodfilt\obj\i386\prodfilt.exe"
+setup\inf\win4\tools\xdosnet\binplace() : warning BNP0000: no version resource detected for "w:\nt\private\windows\setup\inf\win4\tools\xdosnet\obj\i386\xdosnet.exe"
+setup\basewin\binplace() : warning BNP0000: no version resource detected for "w:\nt\private\windows\setup\basewin\obj\i386\basewin.exe"
+ep\pegged\cvpack() : warning CK4002: duplicate public symbol  in module obj\i386\pegged.obj

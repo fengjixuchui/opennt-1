@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\upedit.res \
+    $(_OBJ_DIR)\alpha\upedit.obj \
+    $(_OBJ_DIR)\alpha\upesave.obj \
+    $(_OBJ_DIR)\alpha\upeutil.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\upedit.res \
+    $(_OBJ_DIR)\mips\upedit.obj \
+    $(_OBJ_DIR)\mips\upesave.obj \
+    $(_OBJ_DIR)\mips\upeutil.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\upedit.res \
+    $(_OBJ_DIR)\i386\upedit.obj \
+    $(_OBJ_DIR)\i386\upesave.obj \
+    $(_OBJ_DIR)\i386\upeutil.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\upedit.res \
+    $(_OBJ_DIR)\ppc\upedit.obj \
+    $(_OBJ_DIR)\ppc\upesave.obj \
+    $(_OBJ_DIR)\ppc\upeutil.obj
+
+PASS0_PPC_OBJECTS=
+

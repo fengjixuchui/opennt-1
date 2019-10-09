@@ -1,0 +1,92 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\tcpip.res \
+    $(_OBJ_DIR)\alpha\addr.obj \
+    $(_OBJ_DIR)\alpha\dgram.obj \
+    $(_OBJ_DIR)\alpha\info.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\ntdisp.obj \
+    $(_OBJ_DIR)\alpha\ntinit.obj \
+    $(_OBJ_DIR)\alpha\ntautodl.obj \
+    $(_OBJ_DIR)\alpha\raw.obj \
+    $(_OBJ_DIR)\alpha\secfltr.obj \
+    $(_OBJ_DIR)\alpha\tcb.obj \
+    $(_OBJ_DIR)\alpha\tcpconn.obj \
+    $(_OBJ_DIR)\alpha\tcpdeb.obj \
+    $(_OBJ_DIR)\alpha\tcpdeliv.obj \
+    $(_OBJ_DIR)\alpha\tcprcv.obj \
+    $(_OBJ_DIR)\alpha\tcpsend.obj \
+    $(_OBJ_DIR)\alpha\tlcommon.obj \
+    $(_OBJ_DIR)\alpha\udp.obj \
+    $(_OBJ_DIR)\alpha\xsum.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\tcpip.res \
+    $(_OBJ_DIR)\mips\addr.obj \
+    $(_OBJ_DIR)\mips\dgram.obj \
+    $(_OBJ_DIR)\mips\info.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\ntdisp.obj \
+    $(_OBJ_DIR)\mips\ntinit.obj \
+    $(_OBJ_DIR)\mips\ntautodl.obj \
+    $(_OBJ_DIR)\mips\raw.obj \
+    $(_OBJ_DIR)\mips\secfltr.obj \
+    $(_OBJ_DIR)\mips\tcb.obj \
+    $(_OBJ_DIR)\mips\tcpconn.obj \
+    $(_OBJ_DIR)\mips\tcpdeb.obj \
+    $(_OBJ_DIR)\mips\tcpdeliv.obj \
+    $(_OBJ_DIR)\mips\tcprcv.obj \
+    $(_OBJ_DIR)\mips\tcpsend.obj \
+    $(_OBJ_DIR)\mips\tlcommon.obj \
+    $(_OBJ_DIR)\mips\udp.obj \
+    $(_OBJ_DIR)\mips\xsum.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\tcpip.res \
+    $(_OBJ_DIR)\i386\xsum.obj \
+    $(_OBJ_DIR)\i386\addr.obj \
+    $(_OBJ_DIR)\i386\dgram.obj \
+    $(_OBJ_DIR)\i386\info.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\ntdisp.obj \
+    $(_OBJ_DIR)\i386\ntinit.obj \
+    $(_OBJ_DIR)\i386\ntautodl.obj \
+    $(_OBJ_DIR)\i386\raw.obj \
+    $(_OBJ_DIR)\i386\secfltr.obj \
+    $(_OBJ_DIR)\i386\tcb.obj \
+    $(_OBJ_DIR)\i386\tcpconn.obj \
+    $(_OBJ_DIR)\i386\tcpdeb.obj \
+    $(_OBJ_DIR)\i386\tcpdeliv.obj \
+    $(_OBJ_DIR)\i386\tcprcv.obj \
+    $(_OBJ_DIR)\i386\tcpsend.obj \
+    $(_OBJ_DIR)\i386\tlcommon.obj \
+    $(_OBJ_DIR)\i386\udp.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\tcpip.res \
+    $(_OBJ_DIR)\ppc\addr.obj \
+    $(_OBJ_DIR)\ppc\dgram.obj \
+    $(_OBJ_DIR)\ppc\info.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\ntdisp.obj \
+    $(_OBJ_DIR)\ppc\ntinit.obj \
+    $(_OBJ_DIR)\ppc\ntautodl.obj \
+    $(_OBJ_DIR)\ppc\raw.obj \
+    $(_OBJ_DIR)\ppc\secfltr.obj \
+    $(_OBJ_DIR)\ppc\tcb.obj \
+    $(_OBJ_DIR)\ppc\tcpconn.obj \
+    $(_OBJ_DIR)\ppc\tcpdeb.obj \
+    $(_OBJ_DIR)\ppc\tcpdeliv.obj \
+    $(_OBJ_DIR)\ppc\tcprcv.obj \
+    $(_OBJ_DIR)\ppc\tcpsend.obj \
+    $(_OBJ_DIR)\ppc\tlcommon.obj \
+    $(_OBJ_DIR)\ppc\udp.obj \
+    $(_OBJ_DIR)\ppc\xsum.obj
+
+PASS0_PPC_OBJECTS=
+

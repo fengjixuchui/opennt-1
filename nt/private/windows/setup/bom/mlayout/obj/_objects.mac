@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\mlayout.res \
+    $(_OBJ_DIR)\alpha\mlayout.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\mlayout.res \
+    $(_OBJ_DIR)\mips\mlayout.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mlayout.res \
+    $(_OBJ_DIR)\i386\mlayout.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\mlayout.res \
+    $(_OBJ_DIR)\ppc\mlayout.obj
+
+PASS0_PPC_OBJECTS=
+

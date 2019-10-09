@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\conv_c.obj \
+    $(_OBJ_DIR)\alpha\conv_s.obj \
+    $(_OBJ_DIR)\alpha\epmp_c.obj \
+    $(_OBJ_DIR)\alpha\mgmt_c.obj \
+    $(_OBJ_DIR)\alpha\mgmt_s.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\conv_c.obj \
+    $(_OBJ_DIR)\mips\conv_s.obj \
+    $(_OBJ_DIR)\mips\epmp_c.obj \
+    $(_OBJ_DIR)\mips\mgmt_c.obj \
+    $(_OBJ_DIR)\mips\mgmt_s.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\conv_c.obj \
+    $(_OBJ_DIR)\i386\conv_s.obj \
+    $(_OBJ_DIR)\i386\epmp_c.obj \
+    $(_OBJ_DIR)\i386\mgmt_c.obj \
+    $(_OBJ_DIR)\i386\mgmt_s.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\conv_c.obj \
+    $(_OBJ_DIR)\ppc\conv_s.obj \
+    $(_OBJ_DIR)\ppc\epmp_c.obj \
+    $(_OBJ_DIR)\ppc\mgmt_c.obj \
+    $(_OBJ_DIR)\ppc\mgmt_s.obj
+
+PASS0_PPC_OBJECTS=
+

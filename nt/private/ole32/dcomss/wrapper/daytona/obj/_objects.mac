@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dcomss.res \
+    $(_OBJ_DIR)\alpha\epts.obj \
+    $(_OBJ_DIR)\alpha\start.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dcomss.res \
+    $(_OBJ_DIR)\mips\epts.obj \
+    $(_OBJ_DIR)\mips\start.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dcomss.res \
+    $(_OBJ_DIR)\i386\epts.obj \
+    $(_OBJ_DIR)\i386\start.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dcomss.res \
+    $(_OBJ_DIR)\ppc\epts.obj \
+    $(_OBJ_DIR)\ppc\start.obj
+
+PASS0_PPC_OBJECTS=
+

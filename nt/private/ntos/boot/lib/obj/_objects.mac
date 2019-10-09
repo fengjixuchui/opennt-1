@@ -1,0 +1,114 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\stubs.obj \
+    $(_OBJ_DIR)\alpha\ntsetup.obj \
+    $(_OBJ_DIR)\alpha\palldr.obj \
+    $(_OBJ_DIR)\alpha\alphamem.obj \
+    $(_OBJ_DIR)\alpha\arcdisk.obj \
+    $(_OBJ_DIR)\alpha\blmemory.obj \
+    $(_OBJ_DIR)\alpha\blbind.obj \
+    $(_OBJ_DIR)\alpha\blconfig.obj \
+    $(_OBJ_DIR)\alpha\blio.obj \
+    $(_OBJ_DIR)\alpha\blload.obj \
+    $(_OBJ_DIR)\alpha\blres.obj \
+    $(_OBJ_DIR)\alpha\etfsboot.obj \
+    $(_OBJ_DIR)\alpha\fatboot.obj \
+    $(_OBJ_DIR)\alpha\ntfsboot.obj \
+    $(_OBJ_DIR)\alpha\hpfsboot.obj \
+    $(_OBJ_DIR)\alpha\cdfsboot.obj \
+    $(_OBJ_DIR)\alpha\nlsboot.obj \
+    $(_OBJ_DIR)\alpha\peldr.obj \
+    $(_OBJ_DIR)\alpha\bllog.obj \
+    $(_OBJ_DIR)\alpha\blmisc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ntsetup.obj \
+    $(_OBJ_DIR)\mips\stubs.obj \
+    $(_OBJ_DIR)\mips\arcdisk.obj \
+    $(_OBJ_DIR)\mips\blmemory.obj \
+    $(_OBJ_DIR)\mips\blbind.obj \
+    $(_OBJ_DIR)\mips\blconfig.obj \
+    $(_OBJ_DIR)\mips\blio.obj \
+    $(_OBJ_DIR)\mips\blload.obj \
+    $(_OBJ_DIR)\mips\blres.obj \
+    $(_OBJ_DIR)\mips\etfsboot.obj \
+    $(_OBJ_DIR)\mips\fatboot.obj \
+    $(_OBJ_DIR)\mips\ntfsboot.obj \
+    $(_OBJ_DIR)\mips\hpfsboot.obj \
+    $(_OBJ_DIR)\mips\cdfsboot.obj \
+    $(_OBJ_DIR)\mips\nlsboot.obj \
+    $(_OBJ_DIR)\mips\peldr.obj \
+    $(_OBJ_DIR)\mips\bllog.obj \
+    $(_OBJ_DIR)\mips\blmisc.obj \
+    $(_OBJ_DIR)\mips\query.obj \
+    $(_OBJ_DIR)\mips\xxchkstk.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ixcmos.obj \
+    $(_OBJ_DIR)\i386\xxioacc.obj \
+    $(_OBJ_DIR)\i386\lnkconst.obj \
+    $(_OBJ_DIR)\i386\rdcomp.obj \
+    $(_OBJ_DIR)\i386\abiosc.obj \
+    $(_OBJ_DIR)\i386\biosdrv.obj \
+    $(_OBJ_DIR)\i386\stubs.obj \
+    $(_OBJ_DIR)\i386\display.obj \
+    $(_OBJ_DIR)\i386\disp_gr.obj \
+    $(_OBJ_DIR)\i386\disp_tm.obj \
+    $(_OBJ_DIR)\i386\flopcach.obj \
+    $(_OBJ_DIR)\i386\entry.obj \
+    $(_OBJ_DIR)\i386\arcemul.obj \
+    $(_OBJ_DIR)\i386\ixbusdat.obj \
+    $(_OBJ_DIR)\i386\ixhwsup.obj \
+    $(_OBJ_DIR)\i386\ixphwsup.obj \
+    $(_OBJ_DIR)\i386\ixpcibus.obj \
+    $(_OBJ_DIR)\i386\memory.obj \
+    $(_OBJ_DIR)\i386\ntsetup.obj \
+    $(_OBJ_DIR)\i386\machine.obj \
+    $(_OBJ_DIR)\i386\arcdisk.obj \
+    $(_OBJ_DIR)\i386\blmemory.obj \
+    $(_OBJ_DIR)\i386\blbind.obj \
+    $(_OBJ_DIR)\i386\blconfig.obj \
+    $(_OBJ_DIR)\i386\blio.obj \
+    $(_OBJ_DIR)\i386\blload.obj \
+    $(_OBJ_DIR)\i386\blres.obj \
+    $(_OBJ_DIR)\i386\etfsboot.obj \
+    $(_OBJ_DIR)\i386\fatboot.obj \
+    $(_OBJ_DIR)\i386\ntfsboot.obj \
+    $(_OBJ_DIR)\i386\hpfsboot.obj \
+    $(_OBJ_DIR)\i386\cdfsboot.obj \
+    $(_OBJ_DIR)\i386\nlsboot.obj \
+    $(_OBJ_DIR)\i386\peldr.obj \
+    $(_OBJ_DIR)\i386\bllog.obj \
+    $(_OBJ_DIR)\i386\blmisc.obj \
+    $(_OBJ_DIR)\i386\scsiboot.obj \
+    $(_OBJ_DIR)\i386\scsidisk.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ntsetup.obj \
+    $(_OBJ_DIR)\ppc\stubs.obj \
+    $(_OBJ_DIR)\ppc\arcdisk.obj \
+    $(_OBJ_DIR)\ppc\blmemory.obj \
+    $(_OBJ_DIR)\ppc\blbind.obj \
+    $(_OBJ_DIR)\ppc\blconfig.obj \
+    $(_OBJ_DIR)\ppc\blio.obj \
+    $(_OBJ_DIR)\ppc\blload.obj \
+    $(_OBJ_DIR)\ppc\blres.obj \
+    $(_OBJ_DIR)\ppc\etfsboot.obj \
+    $(_OBJ_DIR)\ppc\fatboot.obj \
+    $(_OBJ_DIR)\ppc\ntfsboot.obj \
+    $(_OBJ_DIR)\ppc\hpfsboot.obj \
+    $(_OBJ_DIR)\ppc\cdfsboot.obj \
+    $(_OBJ_DIR)\ppc\nlsboot.obj \
+    $(_OBJ_DIR)\ppc\peldr.obj \
+    $(_OBJ_DIR)\ppc\bllog.obj \
+    $(_OBJ_DIR)\ppc\blmisc.obj \
+    $(_OBJ_DIR)\ppc\query.obj \
+    $(_OBJ_DIR)\ppc\xxchkstk.obj
+
+PASS0_PPC_OBJECTS=
+

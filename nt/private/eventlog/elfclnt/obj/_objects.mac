@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\elf_c.obj \
+    $(_OBJ_DIR)\alpha\apistub.obj \
+    $(_OBJ_DIR)\alpha\rpcbind.obj \
+    $(_OBJ_DIR)\alpha\getconfg.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\elf_c.obj \
+    $(_OBJ_DIR)\mips\apistub.obj \
+    $(_OBJ_DIR)\mips\rpcbind.obj \
+    $(_OBJ_DIR)\mips\getconfg.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\elf_c.obj \
+    $(_OBJ_DIR)\i386\apistub.obj \
+    $(_OBJ_DIR)\i386\rpcbind.obj \
+    $(_OBJ_DIR)\i386\getconfg.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\elf_c.obj \
+    $(_OBJ_DIR)\ppc\apistub.obj \
+    $(_OBJ_DIR)\ppc\rpcbind.obj \
+    $(_OBJ_DIR)\ppc\getconfg.obj
+
+PASS0_PPC_OBJECTS=
+

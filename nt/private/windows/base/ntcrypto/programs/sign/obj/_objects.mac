@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\sign.res \
+    $(_OBJ_DIR)\alpha\sign.obj \
+    $(_OBJ_DIR)\alpha\keys.obj \
+    $(_OBJ_DIR)\alpha\md5c.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\sign.res \
+    $(_OBJ_DIR)\mips\sign.obj \
+    $(_OBJ_DIR)\mips\keys.obj \
+    $(_OBJ_DIR)\mips\md5c.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\sign.res \
+    $(_OBJ_DIR)\i386\sign.obj \
+    $(_OBJ_DIR)\i386\keys.obj \
+    $(_OBJ_DIR)\i386\md5c.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\sign.res \
+    $(_OBJ_DIR)\ppc\sign.obj \
+    $(_OBJ_DIR)\ppc\keys.obj \
+    $(_OBJ_DIR)\ppc\md5c.obj
+
+PASS0_PPC_OBJECTS=
+

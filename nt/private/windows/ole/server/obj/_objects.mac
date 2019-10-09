@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\srvr.res \
+    $(_OBJ_DIR)\alpha\block.obj \
+    $(_OBJ_DIR)\alpha\checkptr.obj \
+    $(_OBJ_DIR)\alpha\doc.obj \
+    $(_OBJ_DIR)\alpha\item.obj \
+    $(_OBJ_DIR)\alpha\srvr.obj \
+    $(_OBJ_DIR)\alpha\srvrmain.obj \
+    $(_OBJ_DIR)\alpha\utils.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\srvr.res \
+    $(_OBJ_DIR)\mips\block.obj \
+    $(_OBJ_DIR)\mips\checkptr.obj \
+    $(_OBJ_DIR)\mips\doc.obj \
+    $(_OBJ_DIR)\mips\item.obj \
+    $(_OBJ_DIR)\mips\srvr.obj \
+    $(_OBJ_DIR)\mips\srvrmain.obj \
+    $(_OBJ_DIR)\mips\utils.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\srvr.res \
+    $(_OBJ_DIR)\i386\block.obj \
+    $(_OBJ_DIR)\i386\checkptr.obj \
+    $(_OBJ_DIR)\i386\doc.obj \
+    $(_OBJ_DIR)\i386\item.obj \
+    $(_OBJ_DIR)\i386\srvr.obj \
+    $(_OBJ_DIR)\i386\srvrmain.obj \
+    $(_OBJ_DIR)\i386\utils.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\srvr.res \
+    $(_OBJ_DIR)\ppc\block.obj \
+    $(_OBJ_DIR)\ppc\checkptr.obj \
+    $(_OBJ_DIR)\ppc\doc.obj \
+    $(_OBJ_DIR)\ppc\item.obj \
+    $(_OBJ_DIR)\ppc\srvr.obj \
+    $(_OBJ_DIR)\ppc\srvrmain.obj \
+    $(_OBJ_DIR)\ppc\utils.obj
+
+PASS0_PPC_OBJECTS=
+

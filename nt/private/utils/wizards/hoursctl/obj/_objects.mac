@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\hours.res \
+    $(_OBJ_DIR)\alpha\hours.obj \
+    $(_OBJ_DIR)\alpha\hoursctl.obj \
+    $(_OBJ_DIR)\alpha\hoursppg.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\hours.res \
+    $(_OBJ_DIR)\mips\hours.obj \
+    $(_OBJ_DIR)\mips\hoursctl.obj \
+    $(_OBJ_DIR)\mips\hoursppg.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\hours.res \
+    $(_OBJ_DIR)\i386\hours.obj \
+    $(_OBJ_DIR)\i386\hoursctl.obj \
+    $(_OBJ_DIR)\i386\hoursppg.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\hours.res \
+    $(_OBJ_DIR)\ppc\hours.obj \
+    $(_OBJ_DIR)\ppc\hoursctl.obj \
+    $(_OBJ_DIR)\ppc\hoursppg.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,208 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ftsrch.res \
+    $(_OBJ_DIR)\alpha\ftsrch.obj \
+    $(_OBJ_DIR)\alpha\hilite.obj \
+    $(_OBJ_DIR)\alpha\stdafx.obj \
+    $(_OBJ_DIR)\alpha\displayh.obj \
+    $(_OBJ_DIR)\alpha\textmat.obj \
+    $(_OBJ_DIR)\alpha\memex.obj \
+    $(_OBJ_DIR)\alpha\indicate.obj \
+    $(_OBJ_DIR)\alpha\except.obj \
+    $(_OBJ_DIR)\alpha\ftslex.obj \
+    $(_OBJ_DIR)\alpha\compress.obj \
+    $(_OBJ_DIR)\alpha\txdbase.obj \
+    $(_OBJ_DIR)\alpha\find.obj \
+    $(_OBJ_DIR)\alpha\assert.obj \
+    $(_OBJ_DIR)\alpha\abrtsrch.obj \
+    $(_OBJ_DIR)\alpha\tmsingle.obj \
+    $(_OBJ_DIR)\alpha\unbuffio.obj \
+    $(_OBJ_DIR)\alpha\ioqueue.obj \
+    $(_OBJ_DIR)\alpha\findopti.obj \
+    $(_OBJ_DIR)\alpha\wordbase.obj \
+    $(_OBJ_DIR)\alpha\callbkq.obj \
+    $(_OBJ_DIR)\alpha\saveload.obj \
+    $(_OBJ_DIR)\alpha\classify.obj \
+    $(_OBJ_DIR)\alpha\iostream.obj \
+    $(_OBJ_DIR)\alpha\bytevect.obj \
+    $(_OBJ_DIR)\alpha\bitutils.obj \
+    $(_OBJ_DIR)\alpha\tmmulti.obj \
+    $(_OBJ_DIR)\alpha\vmbuffer.obj \
+    $(_OBJ_DIR)\alpha\textset.obj \
+    $(_OBJ_DIR)\alpha\scrollbr.obj \
+    $(_OBJ_DIR)\alpha\filelist.obj \
+    $(_OBJ_DIR)\alpha\seghash.obj \
+    $(_OBJ_DIR)\alpha\refcnt.obj \
+    $(_OBJ_DIR)\alpha\iolist.obj \
+    $(_OBJ_DIR)\alpha\tokens.obj \
+    $(_OBJ_DIR)\alpha\textview.obj \
+    $(_OBJ_DIR)\alpha\filebase.obj \
+    $(_OBJ_DIR)\alpha\rwsync.obj \
+    $(_OBJ_DIR)\alpha\ctable.obj \
+    $(_OBJ_DIR)\alpha\relevant.obj \
+    $(_OBJ_DIR)\alpha\query.obj \
+    $(_OBJ_DIR)\alpha\dict.obj \
+    $(_OBJ_DIR)\alpha\jcode.obj \
+    $(_OBJ_DIR)\alpha\vector.obj \
+    $(_OBJ_DIR)\alpha\globals.obj \
+    $(_OBJ_DIR)\alpha\tokenc.obj \
+    $(_OBJ_DIR)\alpha\titlec.obj \
+    $(_OBJ_DIR)\alpha\fraginfo.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ftsrch.res \
+    $(_OBJ_DIR)\mips\ftsrch.obj \
+    $(_OBJ_DIR)\mips\hilite.obj \
+    $(_OBJ_DIR)\mips\stdafx.obj \
+    $(_OBJ_DIR)\mips\displayh.obj \
+    $(_OBJ_DIR)\mips\textmat.obj \
+    $(_OBJ_DIR)\mips\memex.obj \
+    $(_OBJ_DIR)\mips\indicate.obj \
+    $(_OBJ_DIR)\mips\except.obj \
+    $(_OBJ_DIR)\mips\ftslex.obj \
+    $(_OBJ_DIR)\mips\compress.obj \
+    $(_OBJ_DIR)\mips\txdbase.obj \
+    $(_OBJ_DIR)\mips\find.obj \
+    $(_OBJ_DIR)\mips\assert.obj \
+    $(_OBJ_DIR)\mips\abrtsrch.obj \
+    $(_OBJ_DIR)\mips\tmsingle.obj \
+    $(_OBJ_DIR)\mips\unbuffio.obj \
+    $(_OBJ_DIR)\mips\ioqueue.obj \
+    $(_OBJ_DIR)\mips\findopti.obj \
+    $(_OBJ_DIR)\mips\wordbase.obj \
+    $(_OBJ_DIR)\mips\callbkq.obj \
+    $(_OBJ_DIR)\mips\saveload.obj \
+    $(_OBJ_DIR)\mips\classify.obj \
+    $(_OBJ_DIR)\mips\iostream.obj \
+    $(_OBJ_DIR)\mips\bytevect.obj \
+    $(_OBJ_DIR)\mips\bitutils.obj \
+    $(_OBJ_DIR)\mips\tmmulti.obj \
+    $(_OBJ_DIR)\mips\vmbuffer.obj \
+    $(_OBJ_DIR)\mips\textset.obj \
+    $(_OBJ_DIR)\mips\scrollbr.obj \
+    $(_OBJ_DIR)\mips\filelist.obj \
+    $(_OBJ_DIR)\mips\seghash.obj \
+    $(_OBJ_DIR)\mips\refcnt.obj \
+    $(_OBJ_DIR)\mips\iolist.obj \
+    $(_OBJ_DIR)\mips\tokens.obj \
+    $(_OBJ_DIR)\mips\textview.obj \
+    $(_OBJ_DIR)\mips\filebase.obj \
+    $(_OBJ_DIR)\mips\rwsync.obj \
+    $(_OBJ_DIR)\mips\ctable.obj \
+    $(_OBJ_DIR)\mips\relevant.obj \
+    $(_OBJ_DIR)\mips\query.obj \
+    $(_OBJ_DIR)\mips\dict.obj \
+    $(_OBJ_DIR)\mips\jcode.obj \
+    $(_OBJ_DIR)\mips\vector.obj \
+    $(_OBJ_DIR)\mips\globals.obj \
+    $(_OBJ_DIR)\mips\tokenc.obj \
+    $(_OBJ_DIR)\mips\titlec.obj \
+    $(_OBJ_DIR)\mips\fraginfo.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ftsrch.res \
+    $(_OBJ_DIR)\i386\ftsrch.obj \
+    $(_OBJ_DIR)\i386\hilite.obj \
+    $(_OBJ_DIR)\i386\stdafx.obj \
+    $(_OBJ_DIR)\i386\displayh.obj \
+    $(_OBJ_DIR)\i386\textmat.obj \
+    $(_OBJ_DIR)\i386\memex.obj \
+    $(_OBJ_DIR)\i386\indicate.obj \
+    $(_OBJ_DIR)\i386\except.obj \
+    $(_OBJ_DIR)\i386\ftslex.obj \
+    $(_OBJ_DIR)\i386\compress.obj \
+    $(_OBJ_DIR)\i386\txdbase.obj \
+    $(_OBJ_DIR)\i386\find.obj \
+    $(_OBJ_DIR)\i386\assert.obj \
+    $(_OBJ_DIR)\i386\abrtsrch.obj \
+    $(_OBJ_DIR)\i386\tmsingle.obj \
+    $(_OBJ_DIR)\i386\unbuffio.obj \
+    $(_OBJ_DIR)\i386\ioqueue.obj \
+    $(_OBJ_DIR)\i386\findopti.obj \
+    $(_OBJ_DIR)\i386\wordbase.obj \
+    $(_OBJ_DIR)\i386\callbkq.obj \
+    $(_OBJ_DIR)\i386\saveload.obj \
+    $(_OBJ_DIR)\i386\classify.obj \
+    $(_OBJ_DIR)\i386\iostream.obj \
+    $(_OBJ_DIR)\i386\bytevect.obj \
+    $(_OBJ_DIR)\i386\bitutils.obj \
+    $(_OBJ_DIR)\i386\tmmulti.obj \
+    $(_OBJ_DIR)\i386\vmbuffer.obj \
+    $(_OBJ_DIR)\i386\textset.obj \
+    $(_OBJ_DIR)\i386\scrollbr.obj \
+    $(_OBJ_DIR)\i386\filelist.obj \
+    $(_OBJ_DIR)\i386\seghash.obj \
+    $(_OBJ_DIR)\i386\refcnt.obj \
+    $(_OBJ_DIR)\i386\iolist.obj \
+    $(_OBJ_DIR)\i386\tokens.obj \
+    $(_OBJ_DIR)\i386\textview.obj \
+    $(_OBJ_DIR)\i386\filebase.obj \
+    $(_OBJ_DIR)\i386\rwsync.obj \
+    $(_OBJ_DIR)\i386\ctable.obj \
+    $(_OBJ_DIR)\i386\relevant.obj \
+    $(_OBJ_DIR)\i386\query.obj \
+    $(_OBJ_DIR)\i386\dict.obj \
+    $(_OBJ_DIR)\i386\jcode.obj \
+    $(_OBJ_DIR)\i386\vector.obj \
+    $(_OBJ_DIR)\i386\globals.obj \
+    $(_OBJ_DIR)\i386\tokenc.obj \
+    $(_OBJ_DIR)\i386\titlec.obj \
+    $(_OBJ_DIR)\i386\fraginfo.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ftsrch.res \
+    $(_OBJ_DIR)\ppc\ftsrch.obj \
+    $(_OBJ_DIR)\ppc\hilite.obj \
+    $(_OBJ_DIR)\ppc\stdafx.obj \
+    $(_OBJ_DIR)\ppc\displayh.obj \
+    $(_OBJ_DIR)\ppc\textmat.obj \
+    $(_OBJ_DIR)\ppc\memex.obj \
+    $(_OBJ_DIR)\ppc\indicate.obj \
+    $(_OBJ_DIR)\ppc\except.obj \
+    $(_OBJ_DIR)\ppc\ftslex.obj \
+    $(_OBJ_DIR)\ppc\compress.obj \
+    $(_OBJ_DIR)\ppc\txdbase.obj \
+    $(_OBJ_DIR)\ppc\find.obj \
+    $(_OBJ_DIR)\ppc\assert.obj \
+    $(_OBJ_DIR)\ppc\abrtsrch.obj \
+    $(_OBJ_DIR)\ppc\tmsingle.obj \
+    $(_OBJ_DIR)\ppc\unbuffio.obj \
+    $(_OBJ_DIR)\ppc\ioqueue.obj \
+    $(_OBJ_DIR)\ppc\findopti.obj \
+    $(_OBJ_DIR)\ppc\wordbase.obj \
+    $(_OBJ_DIR)\ppc\callbkq.obj \
+    $(_OBJ_DIR)\ppc\saveload.obj \
+    $(_OBJ_DIR)\ppc\classify.obj \
+    $(_OBJ_DIR)\ppc\iostream.obj \
+    $(_OBJ_DIR)\ppc\bytevect.obj \
+    $(_OBJ_DIR)\ppc\bitutils.obj \
+    $(_OBJ_DIR)\ppc\tmmulti.obj \
+    $(_OBJ_DIR)\ppc\vmbuffer.obj \
+    $(_OBJ_DIR)\ppc\textset.obj \
+    $(_OBJ_DIR)\ppc\scrollbr.obj \
+    $(_OBJ_DIR)\ppc\filelist.obj \
+    $(_OBJ_DIR)\ppc\seghash.obj \
+    $(_OBJ_DIR)\ppc\refcnt.obj \
+    $(_OBJ_DIR)\ppc\iolist.obj \
+    $(_OBJ_DIR)\ppc\tokens.obj \
+    $(_OBJ_DIR)\ppc\textview.obj \
+    $(_OBJ_DIR)\ppc\filebase.obj \
+    $(_OBJ_DIR)\ppc\rwsync.obj \
+    $(_OBJ_DIR)\ppc\ctable.obj \
+    $(_OBJ_DIR)\ppc\relevant.obj \
+    $(_OBJ_DIR)\ppc\query.obj \
+    $(_OBJ_DIR)\ppc\dict.obj \
+    $(_OBJ_DIR)\ppc\jcode.obj \
+    $(_OBJ_DIR)\ppc\vector.obj \
+    $(_OBJ_DIR)\ppc\globals.obj \
+    $(_OBJ_DIR)\ppc\tokenc.obj \
+    $(_OBJ_DIR)\ppc\titlec.obj \
+    $(_OBJ_DIR)\ppc\fraginfo.obj
+
+PASS0_PPC_OBJECTS=
+

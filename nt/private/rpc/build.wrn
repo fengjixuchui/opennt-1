@@ -1,0 +1,6 @@
+runtime\rtdll\link() : warning LNK4013: image size 0x8f000 exceeds specified maximum 0x80000
+midlnew\yacc\cvpack() : warning CK4002: duplicate public symbol  in module obj\i386\ysetup.obj
+midlnew\yacc\cvpack() : warning CK4002: duplicate public symbol  in module obj\i386\ysetup.obj
+midlnew\yacc\cvpack() : warning CK4002: duplicate public symbol  in module obj\i386\ysetup.obj
+midlnew\yacc\cvpack() : warning CK4002: duplicate public symbol  in module obj\i386\ysetup.obj
+midlnew\yacc\cvpack() : warning CK4002: duplicate public symbol  in module obj\i386\ysetup.obj
