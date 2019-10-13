@@ -31,7 +31,7 @@
 #define VER_PRODUCTVERSION_DW       (0x04460000 | VER_PRODUCTBUILD)
 
 #else
-#define VER_PRODUCTBUILD            /* NT */     1400
+#define VER_PRODUCTBUILD            /* NT */     1381
 #define VER_PRODUCTBETA_STR         /* NT */     ""
 #define VER_PRODUCTVERSION_STR      "4.00"
 #define VER_PRODUCTVERSION          4,00,VER_PRODUCTBUILD,VER_PRODUCTBUILD_SVNREV
