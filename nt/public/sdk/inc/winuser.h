@@ -5524,6 +5524,28 @@ GetWindowTextW(
 #define GetWindowText  GetWindowTextA
 #endif // !UNICODE
 
+//smart
+WINUSERAPI
+UINT
+WINAPI
+GetWindowModuleFileNameA(
+	HWND hWnd,
+	LPSTR lpszFileName,
+	UINT cchFileNameMax);
+WINUSERAPI
+UINT
+WINAPI
+GetWindowModuleFileNameW(
+	HWND hWnd,
+	LPWSTR lpszFileName,
+	UINT cchFileNameMax);
+#ifdef UNICODE
+#define GetWindowModuleFileName  GetWindowModuleFileNameW
+#else
+#define GetWindowModuleFileName  GetWindowModuleFileNameA
+#endif // !UNICODE
+
+
 WINUSERAPI
 int
 WINAPI

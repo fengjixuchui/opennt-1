@@ -251,6 +251,8 @@ EXPORTS
     GetWindowThreadProcessId
     GetWindowPlacement
     SetWindowPlacement = NtUserSetWindowPlacement
+	GetWindowModuleFileNameA
+    GetWindowModuleFileNameW
 
 ;
 ; dlgmgr.c "Dialog Manager APIs and support routines."

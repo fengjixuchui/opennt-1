@@ -463,3 +463,5 @@
 #define I_wvsprintfA                (444-1)
 #define I_wvsprintfW                (445-1)
 #define I_ServerCreateDialog    (446-1)
+#define I_GetWindowModuleFileNameA    (447-1)
+#define I_GetWindowModuleFileNameW    (448-1)

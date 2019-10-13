@@ -451,6 +451,8 @@ EXPORTS
       wsprintfW=ZwsprintfW
       wvsprintfA=ZwvsprintfA
       wvsprintfW=ZwvsprintfW
+      GetWindowModuleFileNameA=ZGetWindowModuleFileNameA
+      GetWindowModuleFileNameW=ZGetWindowModuleFileNameW
 
 	;
 	; Private entries - not profiled

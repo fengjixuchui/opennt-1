@@ -454,6 +454,8 @@ char *aszApiNames [] = {
     "wvsprintfA",
     "wvsprintfW",
     "ServerCreateDialog [PRIVATE]",
-        ""
+	"GetWindowModuleFileNameA",
+	"GetWindowModuleFileNameW",
+    ""
 };
 #endif

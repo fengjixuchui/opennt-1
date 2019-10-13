@@ -1224,3 +1224,16 @@ WINUSERAPI LONG BroadcastSystemMessage(DWORD dwFlags, LPDWORD lpdwRecipients,
     return BroadcastSystemMessageWorker(dwFlags, lpdwRecipients,
         uiMessage, wParam, lParam, IS_ANSI);
 }
+
+//smart
+UINT WINAPI GetWindowModuleFileName(HWND hwnd,
+	LPTSTR lpszFileName,
+	UINT cchFileNameMax)
+{
+	PWND Wnd = ValidateHwnd(hwnd);
+
+	if (!Wnd)
+		return 0;
+
+	return GetModuleFileName(Wnd->hModule, lpszFileName, cchFileNameMax);
+}

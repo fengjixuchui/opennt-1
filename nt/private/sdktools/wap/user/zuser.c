@@ -12906,3 +12906,61 @@ HWND zServerCreateDialog (
 
     return(RetVal);
 }
+
+
+UINT ZGetWindowModuleFileNameA(HWND hwnd,
+	LPSTR lpszFileName,
+	UINT cchFileNameMax)
+{
+	HWND RetVal;
+
+	SHORT sTimerHandle;
+	ULONG ulElapsedTime;
+
+	if (fInitDone == FALSE) {
+		ApfInitDll();
+	}
+	TimerOpen(&sTimerHandle, MICROSECONDS);
+	TimerInit(sTimerHandle);
+	//
+	// Call the api
+	//
+	RetVal = GetWindowModuleFileNameA(hwnd, lpszFileName, cchFileNameMax);
+	//
+	// Get the elapsed time
+	//
+	ulElapsedTime = TimerRead(sTimerHandle);
+	ApfRecordInfo(I_GetWindowModuleFileNameA, ulElapsedTime);
+	TimerClose(sTimerHandle);
+
+	return(RetVal);
+}
+
+
+UINT ZGetWindowModuleFileNameW(HWND hwnd,
+	LPWSTR lpszFileName,
+	UINT cchFileNameMax)
+{
+	HWND RetVal;
+
+	SHORT sTimerHandle;
+	ULONG ulElapsedTime;
+
+	if (fInitDone == FALSE) {
+		ApfInitDll();
+	}
+	TimerOpen(&sTimerHandle, MICROSECONDS);
+	TimerInit(sTimerHandle);
+	//
+	// Call the api
+	//
+	RetVal = GetWindowModuleFileNameW(hwnd, lpszFileName, cchFileNameMax);
+	//
+	// Get the elapsed time
+	//
+	ulElapsedTime = TimerRead(sTimerHandle);
+	ApfRecordInfo(I_GetWindowModuleFileNameW, ulElapsedTime);
+	TimerClose(sTimerHandle);
+
+	return(RetVal);
+}
