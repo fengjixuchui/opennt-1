@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Wed Oct 09 01:20:56 2019
+/* at Sun Oct 13 09:52:01 2019
  */
 /* Compiler settings for ..\conv.idl:
     Os (OptLev=s), W1, Zp2, env=Win16, ms_ext, c_ext, oldnames

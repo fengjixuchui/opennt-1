@@ -13,14 +13,14 @@
 "STF_VITAL"      = "YES"
 
 [dlib]
-	1, drpcndr.lib,,,, 2019-10-09,,,, !READONLY,, rpcndr.lib,,,, 1551,,,,,
-	1, drpc.lib,,,, 2019-10-09,,,, !READONLY,, rpc.lib,,,, 311337,,,,,
+	1, drpcndr.lib,,,, 2019-10-13,,,, !READONLY,, rpcndr.lib,,,, 1551,,,,,
+	1, drpc.lib,,,, 2019-10-13,,,, !READONLY,, rpc.lib,,,, 311337,,,,,
 
 [mlib]
 	1, mrpc.lib,,,, 2015-07-27,,,, !READONLY,, rpc.lib,,,, 317452,,,,,
 
 [bin]
-	1, uuidgen.exe,,,, 2019-10-09,,,, !READONLY,,,,,, 169817,,,,,
+	1, uuidgen.exe,,,, 2019-10-13,,,, !READONLY,,,,,, 169817,,,,,
 
 [include]
 	1, rpcnsip.h,,,, 2015-07-27,,,, !READONLY,,,,,, 1104,,,,,
@@ -32,7 +32,7 @@
 	1, rpcndr.h,,,, 2015-07-27,,,, !READONLY,,,,,, 74030,,,,,
 
 [wlib]
-	1, wrpcndr.lib,,,, 2019-10-09,,,, !READONLY,, rpcndrw.lib,,,, 1551,,,,,
+	1, wrpcndr.lib,,,, 2019-10-13,,,, !READONLY,, rpcndrw.lib,,,, 1551,,,,,
 	1, wrpc.lib,,,, 2015-07-27,,,, !READONLY,, rpcw.lib,,,, 42083,,,,,
 
 [Base]
@@ -56,7 +56,7 @@
 	1, setuprun.lst,,,, 2015-07-27,,,, !READONLY,,,,,, 558,,,,,
 	1, msuilstf.dll,,,, 2015-07-27,,,, !READONLY,,,,,, 6144,,,,,
 	1, msshlstf.dll,,,, 2015-07-27,,,, !READONLY,,,,,, 14928,,,,,
-	1, mscuistf.dll,,,, 2019-10-09,,,, !READONLY,,,,,, 47104,,,,,
+	1, mscuistf.dll,,,, 2019-10-13,,,, !READONLY,,,,,, 47104,,,,,
 	1, rpcsdk.mst,,,, 2015-07-27,,,, !READONLY,,,,,, 19947,,,,,
 	1, msdetect.inc,,,, 2015-07-27,,,, !READONLY,,,,,, 22097,,,,,
 	1, msdetstf.dll,,,, 2015-07-27,,,, !READONLY,,,,,, 24544,,,,,

@@ -1,8 +1,0 @@
-autochk\daytona\link() : warning LNK4049: locally defined symbol "__wcsicoll" imported
-autoconv\daytona\link() : warning LNK4049: locally defined symbol "__wcsicoll" imported
-wizards\addgrpw\crtdll.lib(exsup.obj) : warning LNK4006: __local_unwind2 already defined in ntdll.lib(exsup.obj); second definition ignored
-wizards\addgrpw\crtdll.lib(exsup.obj) : warning LNK4006: __abnormal_termination already defined in ntdll.lib(exsup.obj); second definition ignored
-wizards\addgrpw\obj\i386\addgrpw.exe() : warning LNK4088: image being generated due to /FORCE option; image may not run
-wizards\liccomp\crtdll.lib(exsup.obj) : warning LNK4006: __local_unwind2 already defined in ntdll.lib(exsup.obj); second definition ignored
-wizards\liccomp\crtdll.lib(exsup.obj) : warning LNK4006: __abnormal_termination already defined in ntdll.lib(exsup.obj); second definition ignored
-wizards\liccomp\obj\i386\lcwiz.exe() : warning LNK4088: image being generated due to /FORCE option; image may not run

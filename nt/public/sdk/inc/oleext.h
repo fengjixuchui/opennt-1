@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Tue Oct 08 21:15:21 2019
+/* at Sun Oct 13 08:16:00 2019
  */
 /* Compiler settings for oleext.idl:
     Oicf (OptLev=i2), W1, Zp8, env=Win32, ms_ext, c_ext
@@ -98,7 +98,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: IPropertySetContainer
- * at Tue Oct 08 21:15:21 2019
+ * at Sun Oct 13 08:16:00 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -242,7 +242,7 @@ void __RPC_STUB IPropertySetContainer_DeletePropset_Stub(
 
 /****************************************
  * Generated header for interface: INotifyReplica
- * at Tue Oct 08 21:15:21 2019
+ * at Sun Oct 13 08:16:00 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -336,7 +336,7 @@ void __RPC_STUB INotifyReplica_YouAreAReplica_Stub(
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0073
- * at Tue Oct 08 21:15:21 2019
+ * at Sun Oct 13 08:16:00 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [local] */ 
@@ -353,7 +353,7 @@ extern RPC_IF_HANDLE __MIDL__intf_0073_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: IReconcilableObject
- * at Tue Oct 08 21:15:21 2019
+ * at Sun Oct 13 08:16:00 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -505,7 +505,7 @@ void __RPC_STUB IReconcilableObject_GetProgressFeedbackMaxEstimate_Stub(
 
 /****************************************
  * Generated header for interface: Versioning
- * at Tue Oct 08 21:15:21 2019
+ * at Sun Oct 13 08:16:00 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [auto_handle][unique][uuid] */ 
@@ -554,7 +554,7 @@ extern RPC_IF_HANDLE Versioning_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: IReconcileInitiator
- * at Tue Oct 08 21:15:21 2019
+ * at Sun Oct 13 08:16:00 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -726,7 +726,7 @@ void __RPC_STUB IReconcileInitiator_FindVersionFromGraph_Stub(
 
 /****************************************
  * Generated header for interface: IDifferencing
- * at Tue Oct 08 21:15:21 2019
+ * at Sun Oct 13 08:16:00 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -928,7 +928,7 @@ void __RPC_STUB IDifferencing_Add_Stub(
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0077
- * at Tue Oct 08 21:15:21 2019
+ * at Sun Oct 13 08:16:00 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [local] */ 
@@ -949,7 +949,7 @@ extern RPC_IF_HANDLE __MIDL__intf_0077_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: IAccessControl
- * at Tue Oct 08 21:15:21 2019
+ * at Sun Oct 13 08:16:00 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1177,7 +1177,7 @@ void __RPC_STUB IAccessControl_IsAccessAllowed_Stub(
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0080
- * at Tue Oct 08 21:15:21 2019
+ * at Sun Oct 13 08:16:00 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [local] */ 
@@ -1194,7 +1194,7 @@ extern RPC_IF_HANDLE __MIDL__intf_0080_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: IAuditControl
- * at Tue Oct 08 21:15:21 2019
+ * at Sun Oct 13 08:16:00 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1388,7 +1388,7 @@ void __RPC_STUB IAuditControl_IsAccessAudited_Stub(
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0081
- * at Tue Oct 08 21:15:21 2019
+ * at Sun Oct 13 08:16:00 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [local] */ 
@@ -1464,7 +1464,7 @@ extern RPC_IF_HANDLE __MIDL__intf_0081_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: IDirectory
- * at Tue Oct 08 21:15:21 2019
+ * at Sun Oct 13 08:16:00 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1826,7 +1826,7 @@ void __RPC_STUB IDirectory_EnumDirectoryElements_Stub(
 
 /****************************************
  * Generated header for interface: IEnumSTATDIR
- * at Tue Oct 08 21:15:21 2019
+ * at Sun Oct 13 08:16:00 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1989,7 +1989,7 @@ void __RPC_STUB IEnumSTATDIR_Clone_Stub(
 
 /****************************************
  * Generated header for interface: IMultiplePropertyAccess
- * at Tue Oct 08 21:15:21 2019
+ * at Sun Oct 13 08:16:00 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2178,7 +2178,7 @@ void __RPC_STUB IMultiplePropertyAccess_PutMultiple_Stub(
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0115
- * at Tue Oct 08 21:15:21 2019
+ * at Sun Oct 13 08:16:00 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [local] */ 

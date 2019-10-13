@@ -779,7 +779,6 @@ Copyright (C) Microsoft Corp 1984-1988.  All rights reserved.
 ..\uuidgen.c
 	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -ALw -Zpe -W2 -O1 -Ob1 -Gsy2  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\dos -IW:\nt\public\sdk\inc  -DDOS -DUNALIGNED= -Fouuidfmt.obj -c ..\uuidfmt.c
 ..\uuidfmt.c
-	W:\nt\private\rpc\import\msvc15\bin\link  /nologo /nod /map /batch /stack:4000 /pm:vio uuidgen+uuidfmt,,, W:\nt\private\rpc\runtime\bin\dos\rpc+W:\nt\private\rpc\ndrmem\dos\rpcndr+W:\nt\private\rpc\import\msvc15\lib\llibce.lib;
 	set PATH=
 
 (RPC Free 16bit) W:\nt\private\rpc>(cd midl20   && (nmake -nologo -   || exit)  && cd .. ) 
@@ -792,8 +791,6 @@ Copyright (C) Microsoft Corp 1984-1988.  All rights reserved.
 dlgprocs.c
 	set INCLUDE=W:\nt\private\rpc\import\msvc15\include
 	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo -r dialogs2.rc
-	W:\nt\private\rpc\import\msvc15\bin\link  /nol/nod/noe/map/ba dlgprocs.obj,mscuistf.dll,mscuistf.map, W:\nt\private\rpc\import\msvc15\lib\mdllcew+W:\nt\private\rpc\import\msvc15\lib\libw+mscomstf+msuilstf+msshlstf, mscuistf.def
-	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo dialogs2.res mscuistf.dll
 
 (RPC Free 16bit) W:\nt\private\rpc\install>(cd sdk   && (nmake -nologo -L all   || exit)  && cd .. ) 
 A subdirectory or file W:\nt\public\sdk\rpc16\dos already exists.
@@ -1093,7 +1090,7 @@ W:\nt\public\sdk\rpc16\dos\dll\rpc16dg6.rpc
 	cd stage
 	..\dsklayt2 rpcsdk.lyt rpcsdk.inf /k12 /f /d ..\sdk.new /v /w 1 /c .\comp
 Reading layout file
-Starting layout: 10/09/19 01:22:01
+Starting layout: 10/13/19 09:53:01
 Compressing files
 Compressing file .\dnetapi.dll
 System command: compress.exe \2 \3 > NUL
@@ -1206,7 +1203,7 @@ Assigning drpc.h to disk with ID = 1
 Assigning wrpc.h to disk with ID = 1
 Creating destination files
 System command: compress.exe rpcsdk.inf ..\sdk.new\disk1\rpcsdk.in_ > NUL
-Ending layout: 10/09/19 01:22:05
+Ending layout: 10/13/19 09:53:06
 	cd ..
 	md W:\nt\public\sdk\rpc16\sdk
 A subdirectory or file W:\nt\public\sdk\rpc16\sdk already exists.

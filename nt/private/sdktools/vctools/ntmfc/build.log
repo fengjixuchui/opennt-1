@@ -18,7 +18,7 @@ Linking w:\nt\private\sdktools\vctools\ntmfc\src\oledll directory **************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 Linking w:\nt\private\sdktools\vctools\ntmfc\src\oleudll directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
-	link -out:obj\i386\ntctl3d.dll -machine:i386 @W:\tmp\nma02456.
+	link -out:obj\i386\ntctl3d.dll -machine:i386 @W:\tmp\nma03088.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -55,7 +55,7 @@ W:\nt\public\sdk\lib\i386\gdi32.lib
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\ntctl3d.dll
 
 Stop. 
-	link -out:obj\i386\cfmo30.dll -machine:i386 @W:\tmp\nma04076.
+	link -out:obj\i386\cfmo30.dll -machine:i386 @W:\tmp\nma03476.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -129,7 +129,7 @@ W:\nt\public\sdk\lib\i386\ole32.lib
 W:\nt\public\sdk\lib\i386\oleaut32.lib 
 W:\nt\public\sdk\lib\i386\uuid.lib 
 W:\nt\public\sdk\lib\i386\cfm30d.lib 
-	link -out:obj\i386\cfmo30u.dll -machine:i386 @W:\tmp\nma03968.
+	link -out:obj\i386\cfmo30u.dll -machine:i386 @W:\tmp\nma00816.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -209,8 +209,8 @@ Stop.
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\cfmo30u.dll
 
 Stop. 
-	link -out:obj\i386\cfm30u.dll -machine:i386 @W:\tmp\nma02624.
-	link -out:obj\i386\cfm30.dll -machine:i386 @W:\tmp\nma02972.
+	link -out:obj\i386\cfm30u.dll -machine:i386 @W:\tmp\nma03136.
+	link -out:obj\i386\cfm30.dll -machine:i386 @W:\tmp\nma03144.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 

@@ -185,18 +185,18 @@ _TEXT	SEGMENT
 	add	eax, 68					; 00000044H
 ; Line 162
 	test	ecx, ecx
-	je	SHORT $L23558
+	je	SHORT $L23566
 	cmp	DWORD PTR [eax+40], ecx
-	jne	SHORT $L23558
+	jne	SHORT $L23566
 ; Line 163
 	mov	eax, DWORD PTR [eax+44]
-	jmp	SHORT $L23556
+	jmp	SHORT $L23564
 ; Line 169
-$L23558:
+$L23566:
 	mov	edx, 1
 	jmp	@HMValidateHandle@8
 ; Line 170
-$L23556:
+$L23564:
 	ret	0
 @ValidateHwnd@4 ENDP
 _TEXT	ENDS
@@ -210,18 +210,18 @@ _TEXT	SEGMENT
 	add	eax, 68					; 00000044H
 ; Line 181
 	test	ecx, ecx
-	je	SHORT $L23562
+	je	SHORT $L23570
 	cmp	DWORD PTR [eax+40], ecx
-	jne	SHORT $L23562
+	jne	SHORT $L23570
 ; Line 182
 	mov	eax, DWORD PTR [eax+44]
-	jmp	SHORT $L23560
+	jmp	SHORT $L23568
 ; Line 188
-$L23562:
+$L23570:
 	mov	edx, 1
 	jmp	@HMValidateHandleNoRip@8
 ; Line 189
-$L23560:
+$L23568:
 	ret	0
 @ValidateHwndNoRip@4 ENDP
 _TEXT	ENDS
@@ -242,15 +242,15 @@ _GetClassNameA@12 PROC FAR				; COMDAT
 	call	@ValidateHwnd@4
 ; Line 205
 	test	eax, eax
-	jne	SHORT $L23571
+	jne	SHORT $L23579
 ; Line 206
 	xor	eax, eax
-	jmp	SHORT $L23566
+	jmp	SHORT $L23574
 ; Line 208
-$L23571:
+$L23579:
 	mov	edx, DWORD PTR _nMaxCount$[bp]
 	test	edx, edx
-	je	SHORT $L23572
+	je	SHORT $L23580
 	mov	esi, DWORD PTR [eax+12]
 	mov	ecx, DWORD PTR [eax+76]
 ; Line 210
@@ -270,9 +270,9 @@ $L23571:
 	dec	edx
 ; Line 212
 	cmp	edx, ecx
-	jl	SHORT $L23819
+	jl	SHORT $L23827
 	mov	edx, ecx
-$L23819:
+$L23827:
 ; Line 213
 	push	ds
 	pop	es
@@ -285,12 +285,12 @@ $L23819:
 	and	ecx, 3
 	rep	movs byte ptr [edi], byte ptr [esi]
 ; Line 214
-	mov	BYTE PTR [eax+edx], 0
+	mov	BYTE PTR [edx+eax], 0
 ; Line 217
-$L23572:
+$L23580:
 	mov	eax, edx
 ; Line 218
-$L23566:
+$L23574:
 	pop	edi
 	pop	esi
 	pop	ebp
@@ -320,13 +320,13 @@ _GetDesktopWindow@0 PROC FAR				; COMDAT
 	call	__GetDesktopWindow@0
 ; Line 247
 	test	eax, eax
-	jne	SHORT $L23826
+	jne	SHORT $L23834
 	xor	eax, eax
-	jmp	SHORT $L23575
-$L23826:
+	jmp	SHORT $L23583
+$L23834:
 	mov	eax, DWORD PTR [eax]
 ; Line 248
-$L23575:
+$L23583:
 	ret	0
 _GetDesktopWindow@0 ENDP
 _TEXT	ENDS
@@ -342,40 +342,40 @@ __GetDlgItem@8 PROC FAR				; COMDAT
 	mov	ebp, esp
 	test	eax, eax
 ; Line 255
-	je	SHORT $L23580
+	je	SHORT $L23588
 	mov	ecx, DWORD PTR [eax+28]
 ; Line 256
 	cmp	ecx, 2147418111				; 7ffeffffH
-	jbe	SHORT $L23830
+	jbe	SHORT $L23838
 	sub	eax, DWORD PTR [eax+12]
 	add	eax, ecx
-	jmp	SHORT $L23834
-$L23830:
+	jmp	SHORT $L23842
+$L23838:
 	mov	eax, ecx
-$L23834:
+$L23842:
 ; Line 257
 	test	eax, eax
-	je	SHORT $L23580
-	mov	edx, DWORD PTR _id$[bp]
-$L23582:
+	je	SHORT $L23588
+	mov	ecx, DWORD PTR _id$[bp]
+$L23590:
 ; Line 258
-	cmp	DWORD PTR [eax+104], edx
-	je	SHORT $L23580
-	mov	ecx, DWORD PTR [eax+20]
+	cmp	DWORD PTR [eax+104], ecx
+	je	SHORT $L23588
+	mov	edx, DWORD PTR [eax+20]
 ; Line 260
-	cmp	ecx, 2147418111				; 7ffeffffH
-	jbe	SHORT $L23832
+	cmp	edx, 2147418111				; 7ffeffffH
+	jbe	SHORT $L23840
 	sub	eax, DWORD PTR [eax+12]
-	add	eax, ecx
-	jmp	SHORT $L23835
-$L23832:
-	mov	eax, ecx
-$L23835:
+	add	eax, edx
+	jmp	SHORT $L23843
+$L23840:
+	mov	eax, edx
+$L23843:
 ; Line 261
 	test	eax, eax
-	jne	SHORT $L23582
+	jne	SHORT $L23590
 ; Line 264
-$L23580:
+$L23588:
 ; Line 265
 	pop	ebp
 	ret	8
@@ -395,23 +395,23 @@ _GetDlgItem@8 PROC FAR					; COMDAT
 	call	@ValidateHwnd@4
 ; Line 276
 	test	eax, eax
-	jne	SHORT $L23590
+	jne	SHORT $L23598
 ; Line 277
 	xor	eax, eax
-	jmp	SHORT $L23839
+	jmp	SHORT $L23847
 ; Line 279
-$L23590:
+$L23598:
 	push	DWORD PTR _id$[bp]
 	push	eax
 	call	__GetDlgItem@8
 ; Line 281
 	test	eax, eax
-	jne	SHORT $L23838
+	jne	SHORT $L23846
 	xor	eax, eax
-	jmp	SHORT $L23839
-$L23838:
+	jmp	SHORT $L23847
+$L23846:
 	mov	eax, DWORD PTR [eax]
-$L23839:
+$L23847:
 ; Line 287
 	pop	ebp
 	ret	8
@@ -457,37 +457,37 @@ _GetMenu@4 PROC FAR					; COMDAT
 	call	@ValidateHwnd@4
 ; Line 332
 	test	eax, eax
-	jne	SHORT $L23600
+	jne	SHORT $L23608
 ; Line 333
 	xor	eax, eax
-	jmp	SHORT $L23597
+	jmp	SHORT $L23605
 ; Line 339
-$L23600:
+$L23608:
 	mov	cl, BYTE PTR [eax+171]
 	and	cl, 192					; 000000c0H
 	cmp	cl, 64					; 00000040H
-	je	SHORT $L23601
+	je	SHORT $L23609
 	mov	ecx, DWORD PTR [eax+104]
 ; Line 340
 	cmp	ecx, 2147418111				; 7ffeffffH
-	jbe	SHORT $L23848
+	jbe	SHORT $L23856
 	sub	ecx, DWORD PTR [eax+12]
 	add	ecx, eax
-$L23848:
+$L23856:
 ; Line 341
 	test	ecx, ecx
-	jne	SHORT $L23850
+	jne	SHORT $L23858
 	xor	eax, eax
-	jmp	SHORT $L23597
-$L23850:
+	jmp	SHORT $L23605
+$L23858:
 	mov	eax, DWORD PTR [ecx]
-	jmp	SHORT $L23597
+	jmp	SHORT $L23605
 ; Line 342
-$L23601:
+$L23609:
 ; Line 343
 	mov	eax, DWORD PTR [eax+104]
 ; Line 345
-$L23597:
+$L23605:
 	pop	ebp
 	ret	4
 _GetMenu@4 ENDP
@@ -506,15 +506,15 @@ _GetMenuItemCount@4 PROC FAR				; COMDAT
 	call	@HMValidateHandle@8
 ; Line 364
 	test	eax, eax
-	jne	SHORT $L23606
+	jne	SHORT $L23614
 ; Line 365
 	mov	eax, -1
-	jmp	SHORT $L23604
+	jmp	SHORT $L23612
 ; Line 367
-$L23606:
+$L23614:
 	mov	eax, DWORD PTR [eax+40]
 ; Line 368
-$L23604:
+$L23612:
 	pop	ebp
 	ret	4
 _GetMenuItemCount@4 ENDP
@@ -534,13 +534,13 @@ _GetMenuItemID@8 PROC FAR				; COMDAT
 	call	@HMValidateHandle@8
 ; Line 387
 	test	eax, eax
-	je	SHORT $L23856
+	je	SHORT $L23864
 ; Line 394
 	mov	ecx, DWORD PTR _nPos$[bp]
 	cmp	DWORD PTR [eax+40], ecx
-	jle	SHORT $L23856
+	jle	SHORT $L23864
 	test	ecx, ecx
-	jl	SHORT $L23856
+	jl	SHORT $L23864
 ; Line 395
 	shl	ecx, 6
 	mov	edx, DWORD PTR [eax+56]
@@ -549,15 +549,15 @@ _GetMenuItemID@8 PROC FAR				; COMDAT
 	add	eax, edx
 ; Line 396
 	cmp	DWORD PTR [eax+12], 0
-	jne	SHORT $L23856
+	jne	SHORT $L23864
 ; Line 397
 	mov	eax, DWORD PTR [eax+8]
-	jmp	SHORT $L23609
-$L23856:
+	jmp	SHORT $L23617
+$L23864:
 ; Line 400
 	mov	eax, -1
 ; Line 401
-$L23609:
+$L23617:
 	pop	ebp
 	ret	8
 _GetMenuItemID@8 ENDP
@@ -579,21 +579,21 @@ _GetMenuState@12 PROC FAR				; COMDAT
 	call	@HMValidateHandle@8
 ; Line 413
 	test	eax, eax
-	je	SHORT $L23621
+	je	SHORT $L23629
 	test	DWORD PTR _uFlags$[bp], -65536		; ffff0000H
-	jne	SHORT $L23621
+	jne	SHORT $L23629
 ; Line 417
 	push	DWORD PTR _uFlags$[bp]
 	push	DWORD PTR _uId$[bp]
 	push	eax
 	call	__GetMenuState@12
-	jmp	SHORT $L23618
+	jmp	SHORT $L23626
 ; Line 413
-$L23621:
+$L23629:
 ; Line 414
 	mov	eax, -1
 ; Line 418
-$L23618:
+$L23626:
 	pop	ebp
 	ret	12					; 0000000cH
 _GetMenuState@12 ENDP
@@ -612,7 +612,7 @@ _IsWindow@4 PROC FAR					; COMDAT
 	call	@ValidateHwndNoRip@4
 ; Line 434
 	test	eax, eax
-	je	SHORT $L23625
+	je	SHORT $L23633
 ; Line 439
 	mov	edx, DWORD PTR _hwnd$[bp]
 	mov	ecx, DWORD PTR _wow16gpsi
@@ -620,11 +620,11 @@ _IsWindow@4 PROC FAR					; COMDAT
 	mov	ecx, DWORD PTR [ecx+4]
 	shl	edx, 4
 	test	BYTE PTR [edx+ecx+9], 1
-	je	SHORT $L23625
+	je	SHORT $L23633
 ; Line 440
 	xor	eax, eax
 ; Line 462
-$L23625:
+$L23633:
 	pop	ebp
 	cmp	eax, 1
 	sbb	eax, eax
@@ -648,24 +648,24 @@ _GetWindow@8 PROC FAR					; COMDAT
 	call	@ValidateHwnd@4
 ; Line 473
 	test	eax, eax
-	jne	SHORT $L23632
+	jne	SHORT $L23640
 ; Line 474
 	xor	eax, eax
-	jmp	SHORT $L23630
+	jmp	SHORT $L23638
 ; Line 476
-$L23632:
+$L23640:
 	push	DWORD PTR _wCmd$[bp]
 	push	eax
 	call	__GetWindow@8
 ; Line 477
 	test	eax, eax
-	jne	SHORT $L23863
+	jne	SHORT $L23871
 	xor	eax, eax
-	jmp	SHORT $L23630
-$L23863:
+	jmp	SHORT $L23638
+$L23871:
 	mov	eax, DWORD PTR [eax]
 ; Line 478
-$L23630:
+$L23638:
 	pop	ebp
 	ret	8
 _GetWindow@8 ENDP
@@ -684,23 +684,23 @@ _GetParent@4 PROC FAR					; COMDAT
 	call	@ValidateHwnd@4
 ; Line 486
 	test	eax, eax
-	jne	SHORT $L23636
+	jne	SHORT $L23644
 ; Line 487
 	xor	eax, eax
-	jmp	SHORT $L23634
+	jmp	SHORT $L23642
 ; Line 489
-$L23636:
+$L23644:
 	push	eax
 	call	__GetParent@4
 ; Line 490
 	test	eax, eax
-	jne	SHORT $L23867
+	jne	SHORT $L23875
 	xor	eax, eax
-	jmp	SHORT $L23634
-$L23867:
+	jmp	SHORT $L23642
+$L23875:
 	mov	eax, DWORD PTR [eax]
 ; Line 491
-$L23634:
+$L23642:
 	pop	ebp
 	ret	4
 _GetParent@4 ENDP
@@ -721,24 +721,24 @@ _GetSubMenu@8 PROC FAR					; COMDAT
 	call	@HMValidateHandle@8
 ; Line 501
 	test	eax, eax
-	jne	SHORT $L23641
+	jne	SHORT $L23649
 ; Line 502
 	xor	eax, eax
-	jmp	SHORT $L23639
+	jmp	SHORT $L23647
 ; Line 504
-$L23641:
+$L23649:
 	push	DWORD PTR _nPos$[bp]
 	push	eax
 	call	__GetSubMenu@8
 ; Line 505
 	test	eax, eax
-	jne	SHORT $L23871
+	jne	SHORT $L23879
 	xor	eax, eax
-	jmp	SHORT $L23639
-$L23871:
+	jmp	SHORT $L23647
+$L23879:
 	mov	eax, DWORD PTR [eax]
 ; Line 506
-$L23639:
+$L23647:
 	pop	ebp
 	ret	8
 _GetSubMenu@8 ENDP
@@ -754,20 +754,20 @@ _GetSysColor@4 PROC FAR				; COMDAT
 	mov	ebp, esp
 	test	ecx, ecx
 ; Line 531
-	jl	SHORT $L23645
+	jl	SHORT $L23653
 	cmp	ecx, 25					; 00000019H
-	jge	SHORT $L23645
+	jge	SHORT $L23653
 ; Line 540
 	mov	eax, DWORD PTR _wow16gpsi
 	mov	edx, DWORD PTR [eax]
 	mov	eax, DWORD PTR [edx+ecx*4+672]
-	jmp	SHORT $L23643
+	jmp	SHORT $L23651
 ; Line 531
-$L23645:
+$L23653:
 ; Line 537
 	xor	eax, eax
 ; Line 541
-$L23643:
+$L23651:
 	pop	ebp
 	ret	4
 _GetSysColor@4 ENDP
@@ -783,52 +783,52 @@ _GetSystemMetrics@4 PROC FAR				; COMDAT
 	mov	ebp, esp
 	test	ecx, ecx
 ; Line 549
-	jl	SHORT $L23649
+	jl	SHORT $L23657
 	cmp	ecx, 76					; 0000004cH
-	jge	SHORT $L23649
+	jge	SHORT $L23657
 ; Line 551
 	mov	eax, DWORD PTR fs:24
 	cmp	DWORD PTR [eax+80], 1024		; 00000400H
-	jae	SHORT $L23650
+	jae	SHORT $L23658
 ; Line 572
 	cmp	ecx, 2
-	jl	SHORT $L23650
+	jl	SHORT $L23658
 	cmp	ecx, 4
-	jle	SHORT $L23656
+	jle	SHORT $L23664
 	cmp	ecx, 7
-	jl	SHORT $L23650
+	jl	SHORT $L23658
 	cmp	ecx, 8
-	jle	SHORT $L23655
+	jle	SHORT $L23663
 	cmp	ecx, 15					; 0000000fH
-	je	SHORT $L23655
+	je	SHORT $L23663
 	cmp	ecx, 17					; 00000011H
-	je	SHORT $L23655
-$L23650:
+	je	SHORT $L23663
+$L23658:
 	mov	eax, DWORD PTR _wow16gpsi
 	mov	edx, DWORD PTR [eax]
 	mov	eax, DWORD PTR [edx+ecx*4+368]
-	jmp	SHORT $L23647
+	jmp	SHORT $L23655
 ; Line 579
-$L23656:
+$L23664:
 ; Line 582
 	mov	eax, DWORD PTR _wow16gpsi
 	mov	edx, DWORD PTR [eax]
 	mov	eax, DWORD PTR [edx+ecx*4+368]
 	inc	eax
-	jmp	SHORT $L23647
+	jmp	SHORT $L23655
 ; Line 573
-$L23655:
+$L23663:
 ; Line 577
 	mov	eax, DWORD PTR _wow16gpsi
 	mov	edx, DWORD PTR [eax]
 	mov	eax, DWORD PTR [edx+ecx*4+368]
 	dec	eax
-	jmp	SHORT $L23647
+	jmp	SHORT $L23655
 ; Line 549
-$L23649:
+$L23657:
 	xor	eax, eax
 ; Line 587
-$L23647:
+$L23655:
 	pop	ebp
 	ret	4
 _GetSystemMetrics@4 ENDP
@@ -844,42 +844,42 @@ _GetTopWindow@4 PROC FAR				; COMDAT
 	mov	ebp, esp
 	test	ecx, ecx
 ; Line 609
-	jne	SHORT $L23660
+	jne	SHORT $L23668
 ; Line 610
 	call	__GetDesktopWindow@0
 ; Line 611
-	jmp	SHORT $L23661
-$L23660:
+	jmp	SHORT $L23669
+$L23668:
 ; Line 612
 	call	@ValidateHwnd@4
 ; Line 613
-$L23661:
+$L23669:
 ; Line 614
 	test	eax, eax
-	jne	SHORT $L23662
+	jne	SHORT $L23670
 ; Line 615
 	xor	eax, eax
-	jmp	SHORT $L23658
+	jmp	SHORT $L23666
 ; Line 617
-$L23662:
+$L23670:
 	mov	ecx, DWORD PTR [eax+28]
 	cmp	ecx, 2147418111				; 7ffeffffH
-	jbe	SHORT $L23881
+	jbe	SHORT $L23889
 	sub	eax, DWORD PTR [eax+12]
 	add	eax, ecx
-	jmp	SHORT $L23882
-$L23881:
+	jmp	SHORT $L23890
+$L23889:
 	mov	eax, ecx
-$L23882:
+$L23890:
 ; Line 618
 	test	eax, eax
-	jne	SHORT $L23883
+	jne	SHORT $L23891
 	xor	eax, eax
-	jmp	SHORT $L23658
-$L23883:
+	jmp	SHORT $L23666
+$L23891:
 	mov	eax, DWORD PTR [eax]
 ; Line 619
-$L23658:
+$L23666:
 	pop	ebp
 	ret	4
 _GetTopWindow@4 ENDP
@@ -901,27 +901,27 @@ _IsChild@8 PROC FAR					; COMDAT
 	mov	esi, eax
 ; Line 629
 	test	esi, esi
-	jne	SHORT $L23668
+	jne	SHORT $L23676
 ; Line 630
 	xor	eax, eax
-	jmp	SHORT $L23665
+	jmp	SHORT $L23673
 ; Line 632
-$L23668:
+$L23676:
 	mov	ecx, DWORD PTR _hwndParent$[bp]
 	call	@ValidateHwnd@4
 ; Line 633
 	test	eax, eax
-	jne	SHORT $L23669
+	jne	SHORT $L23677
 ; Line 634
 	xor	eax, eax
-	jmp	SHORT $L23665
+	jmp	SHORT $L23673
 ; Line 636
-$L23669:
+$L23677:
 	push	esi
 	push	eax
 	call	__IsChild@8
 ; Line 637
-$L23665:
+$L23673:
 	pop	esi
 	pop	ebp
 	ret	8
@@ -940,19 +940,19 @@ _IsIconic@4 PROC FAR					; COMDAT
 	call	@ValidateHwnd@4
 ; Line 646
 	test	eax, eax
-	jne	SHORT $L23673
+	jne	SHORT $L23681
 ; Line 647
 	xor	eax, eax
-	jmp	SHORT $L23671
+	jmp	SHORT $L23679
 ; Line 649
-$L23673:
+$L23681:
 	mov	al, BYTE PTR [eax+171]
 	and	al, 32					; 00000020H
 	cmp	al, 1
 	sbb	eax, eax
 	inc	eax
 ; Line 650
-$L23671:
+$L23679:
 	pop	ebp
 	ret	4
 _IsIconic@4 ENDP
@@ -970,19 +970,19 @@ _IsWindowEnabled@4 PROC FAR				; COMDAT
 	call	@ValidateHwnd@4
 ; Line 659
 	test	eax, eax
-	jne	SHORT $L23677
+	jne	SHORT $L23685
 ; Line 660
 	xor	eax, eax
-	jmp	SHORT $L23675
+	jmp	SHORT $L23683
 ; Line 662
-$L23677:
+$L23685:
 	mov	al, BYTE PTR [eax+171]
 	and	al, 8
 	cmp	al, 1
 	sbb	eax, eax
 	neg	eax
 ; Line 663
-$L23675:
+$L23683:
 	pop	ebp
 	ret	4
 _IsWindowEnabled@4 ENDP
@@ -1001,17 +1001,17 @@ _IsWindowVisible@4 PROC FAR				; COMDAT
 	call	@ValidateHwnd@4
 ; Line 682
 	test	eax, eax
-	jne	SHORT $L23682
+	jne	SHORT $L23690
 ; Line 683
 	xor	eax, eax
 ; Line 684
-	jmp	SHORT $L23684
-$L23682:
+	jmp	SHORT $L23692
+$L23690:
 ; Line 685
 	push	eax
 	call	__IsWindowVisible@4
 ; Line 692
-$L23684:
+$L23692:
 ; Line 693
 	pop	ebp
 	ret	4
@@ -1030,18 +1030,18 @@ _IsZoomed@4 PROC FAR					; COMDAT
 	call	@ValidateHwnd@4
 ; Line 702
 	test	eax, eax
-	jne	SHORT $L23694
+	jne	SHORT $L23702
 ; Line 703
 	xor	eax, eax
-	jmp	SHORT $L23692
+	jmp	SHORT $L23700
 ; Line 705
-$L23694:
+$L23702:
 	xor	ecx, ecx
 	mov	cl, BYTE PTR [eax+171]
 	and	ecx, 1
 	mov	eax, ecx
 ; Line 706
-$L23692:
+$L23700:
 	pop	ebp
 	ret	4
 _IsZoomed@4 ENDP
@@ -1061,50 +1061,50 @@ _ClientToScreen@8 PROC FAR				; COMDAT
 	call	@ValidateHwnd@4
 ; Line 716
 	test	eax, eax
-	jne	SHORT $L23699
+	jne	SHORT $L23707
 ; Line 717
 	xor	eax, eax
-	jmp	SHORT $L23697
+	jmp	SHORT $L23705
 ; Line 720
-$L23699:
+$L23707:
 	mov	ecx, DWORD PTR [eax+56]
 	mov	edx, DWORD PTR _ppoint$[bp]
 	movsx	esi, WORD PTR [edx]
 	add	ecx, esi
 ; Line 722
 	cmp	ecx, -32768				; ffff8000H
-	jl	SHORT $L23897
+	jl	SHORT $L23905
 	mov	esi, 32767				; 00007fffH
 	cmp	ecx, esi
-	jl	SHORT $L23901
+	jl	SHORT $L23909
 	mov	ecx, esi
-$L23901:
+$L23909:
 	mov	WORD PTR [edx], cx
-	jmp	SHORT $L23898
-$L23897:
+	jmp	SHORT $L23906
+$L23905:
 	mov	WORD PTR [edx], -32768			; ffff8000H
-$L23898:
+$L23906:
 	add	edx, 2
 	mov	eax, DWORD PTR [eax+60]
 	movsx	ecx, WORD PTR [edx]
 	add	eax, ecx
 ; Line 723
 	cmp	eax, -32768				; ffff8000H
-	jl	SHORT $L23899
+	jl	SHORT $L23907
 	mov	ecx, 32767				; 00007fffH
 	cmp	eax, ecx
-	jl	SHORT $L23902
+	jl	SHORT $L23910
 	mov	eax, ecx
-$L23902:
+$L23910:
 	mov	WORD PTR [edx], ax
-	jmp	SHORT $L23900
-$L23899:
+	jmp	SHORT $L23908
+$L23907:
 	mov	WORD PTR [edx], -32768			; ffff8000H
-$L23900:
+$L23908:
 ; Line 724
 	mov	eax, 1
 ; Line 729
-$L23697:
+$L23705:
 	pop	esi
 	pop	ebp
 	ret	8
@@ -1125,17 +1125,17 @@ _GetClientRect@8 PROC FAR				; COMDAT
 	call	@ValidateHwnd@4
 ; Line 739
 	test	eax, eax
-	jne	SHORT $L23705
+	jne	SHORT $L23713
 ; Line 740
 	xor	eax, eax
-	jmp	SHORT $L23703
+	jmp	SHORT $L23711
 ; Line 742
-$L23705:
+$L23713:
 	push	DWORD PTR _prect$[bp]
 	push	eax
 	call	__GetClientRect@8
 ; Line 743
-$L23703:
+$L23711:
 	pop	ebp
 	ret	8
 _GetClientRect@8 ENDP
@@ -1153,35 +1153,35 @@ _GetCursorPos@4 PROC FAR				; COMDAT
 	mov	eax, DWORD PTR [ecx+772]
 ; Line 760
 	cmp	eax, -32768				; ffff8000H
-	jl	SHORT $L23907
+	jl	SHORT $L23915
 	mov	ecx, 32767				; 00007fffH
 	mov	edx, DWORD PTR _lpPoint$[bp]
 	cmp	eax, ecx
-	jl	SHORT $L23911
+	jl	SHORT $L23919
 	mov	eax, ecx
-$L23911:
+$L23919:
 	mov	WORD PTR [edx], ax
-	jmp	SHORT $L23908
-$L23907:
+	jmp	SHORT $L23916
+$L23915:
 	mov	edx, DWORD PTR _lpPoint$[bp]
 	mov	WORD PTR [edx], -32768			; ffff8000H
-$L23908:
+$L23916:
 	mov	eax, DWORD PTR _wow16gpsi
 	mov	ecx, DWORD PTR [eax]
 	mov	eax, DWORD PTR [ecx+776]
 ; Line 761
 	cmp	eax, -32768				; ffff8000H
-	jl	SHORT $L23909
+	jl	SHORT $L23917
 	mov	ecx, 32767				; 00007fffH
 	cmp	eax, ecx
-	jl	SHORT $L23912
+	jl	SHORT $L23920
 	mov	eax, ecx
-$L23912:
+$L23920:
 	mov	WORD PTR [edx+2], ax
-	jmp	SHORT $L23910
-$L23909:
+	jmp	SHORT $L23918
+$L23917:
 	mov	WORD PTR [edx+2], -32768		; ffff8000H
-$L23910:
+$L23918:
 ; Line 762
 	mov	eax, 1
 	pop	ebp
@@ -1202,16 +1202,16 @@ _GetWindowRect@8 PROC FAR				; COMDAT
 	call	@ValidateHwnd@4
 ; Line 773
 	test	eax, eax
-	jne	SHORT $L23712
+	jne	SHORT $L23720
 ; Line 774
 	xor	eax, eax
-	jmp	SHORT $L23710
+	jmp	SHORT $L23718
 ; Line 777
-$L23712:
+$L23720:
 ; Line 778
 	add	eax, 40					; 00000028H
 ; Line 782
-$L23710:
+$L23718:
 	pop	ebp
 	ret	8
 _GetWindowRect@8 ENDP
@@ -1231,48 +1231,48 @@ _ScreenToClient@8 PROC FAR				; COMDAT
 	call	@ValidateHwnd@4
 ; Line 792
 	test	eax, eax
-	jne	SHORT $L23717
+	jne	SHORT $L23725
 ; Line 793
 	xor	eax, eax
-	jmp	SHORT $L23715
+	jmp	SHORT $L23723
 ; Line 796
-$L23717:
+$L23725:
 	mov	esi, DWORD PTR _ppoint$[bp]
 	movsx	ecx, WORD PTR [esi]
 	sub	ecx, DWORD PTR [eax+56]
 ; Line 798
 	cmp	ecx, -32768				; ffff8000H
-	jl	SHORT $L23917
+	jl	SHORT $L23925
 	mov	edx, 32767				; 00007fffH
 	cmp	ecx, edx
-	jl	SHORT $L23921
+	jl	SHORT $L23929
 	mov	ecx, edx
-$L23921:
+$L23929:
 	mov	WORD PTR [esi], cx
-	jmp	SHORT $L23918
-$L23917:
+	jmp	SHORT $L23926
+$L23925:
 	mov	WORD PTR [esi], -32768			; ffff8000H
-$L23918:
+$L23926:
 	add	esi, 2
 	movsx	ecx, WORD PTR [esi]
 	sub	ecx, DWORD PTR [eax+60]
 ; Line 799
 	cmp	ecx, -32768				; ffff8000H
-	jl	SHORT $L23919
+	jl	SHORT $L23927
 	mov	eax, 32767				; 00007fffH
 	cmp	ecx, eax
-	jl	SHORT $L23922
+	jl	SHORT $L23930
 	mov	ecx, eax
-$L23922:
+$L23930:
 	mov	WORD PTR [esi], cx
-	jmp	SHORT $L23920
-$L23919:
+	jmp	SHORT $L23928
+$L23927:
 	mov	WORD PTR [esi], -32768			; ffff8000H
-$L23920:
+$L23928:
 ; Line 800
 	mov	eax, 1
 ; Line 805
-$L23715:
+$L23723:
 	pop	esi
 	pop	ebp
 	ret	8
@@ -1295,12 +1295,12 @@ _EnableMenuItem@12 PROC FAR				; COMDAT
 	call	@HMValidateHandle@8
 ; Line 816
 	test	eax, eax
-	jne	SHORT $L23725
+	jne	SHORT $L23733
 ; Line 817
 	mov	eax, -1
-	jmp	SHORT $L23722
+	jmp	SHORT $L23730
 ; Line 823
-$L23725:
+$L23733:
 	push	dword ptr 0
 	mov	ecx, DWORD PTR _uEnable$[bp]
 	and	ecx, 1024				; 00000400H
@@ -1309,28 +1309,28 @@ $L23725:
 	push	eax
 	call	_MNLookUpItem@16
 	test	eax, eax
-	jne	SHORT $L23726
+	jne	SHORT $L23734
 ; Line 824
 	mov	eax, -1
-	jmp	SHORT $L23722
+	jmp	SHORT $L23730
 ; Line 830
-$L23726:
+$L23734:
 	mov	eax, DWORD PTR [eax+4]
-	mov	ecx, DWORD PTR _uEnable$[bp]
 ; Line 831
-	xor	ecx, eax
+	mov	ecx, eax
+	xor	ecx, DWORD PTR _uEnable$[bp]
 	test	cl, 3
-	jne	SHORT $L23727
+	jne	SHORT $L23735
 ; Line 832
 	and	eax, 3
-	jmp	SHORT $L23722
+	jmp	SHORT $L23730
 ; Line 836
-$L23727:
+$L23735:
 	mov	eax, DWORD PTR _wow16CsrFlag
 	mov	BYTE PTR [eax], 1
 	xor	eax, eax
 ; Line 840
-$L23722:
+$L23730:
 	pop	ebp
 	ret	12					; 0000000cH
 _EnableMenuItem@12 ENDP
@@ -1347,16 +1347,16 @@ __PhkNext@4 PROC FAR					; COMDAT
 	mov	eax, DWORD PTR [ecx+20]
 ; Line 861
 	test	eax, eax
-	je	SHORT $L23730
+	je	SHORT $L23738
 ; Line 862
 	sub	eax, DWORD PTR [ecx+12]
 	add	eax, ecx
-	jmp	SHORT $L23732
+	jmp	SHORT $L23740
 ; Line 863
-$L23730:
+$L23738:
 	test	BYTE PTR [ecx+32], 1
 	mov	eax, 0
-	jne	SHORT $L23732
+	jne	SHORT $L23740
 ; Line 864
 	mov	eax, DWORD PTR fs:24
 	lea	edx, DWORD PTR [eax+68]
@@ -1368,7 +1368,7 @@ $L23730:
 	imul	ecx, 44					; 0000002cH
 	sub	eax, ecx
 ; Line 867
-$L23732:
+$L23740:
 ; Line 869
 	pop	ebp
 	ret	4
@@ -1388,13 +1388,13 @@ _CallNextHookEx@16 PROC FAR				; COMDAT
 	call	__PhkNext@4
 	test	eax, eax
 	mov	eax, 0
-	je	SHORT $L23739
+	je	SHORT $L23747
 ; Line 912
 	mov	eax, DWORD PTR _wow16CsrFlag
 	mov	BYTE PTR [eax], 1
 	xor	eax, eax
 ; Line 1065
-$L23739:
+$L23747:
 	ret	16					; 00000010H
 _CallNextHookEx@16 ENDP
 _TEXT	ENDS

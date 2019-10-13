@@ -15,18 +15,18 @@ cl -nologo -Ii386\ -I. -I..\..\inc -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc
 cl -nologo -Ii386\ -I. -I..\..\inc -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG     /c /Zel /Zp8 /Gy  /W3 /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  ..\austub.c
 austub.c
 austub.c
+	lib -out:W:\nt\public\sdk\lib\i386\lsadll.lib -debugtype:cv  -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 -nodefaultlib -machine:i386 @W:\tmp\nma03832.
+	lib -out:W:\nt\public\sdk\lib\i386\lsakrnlp.lib -debugtype:cv  -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 -nodefaultlib -machine:i386 @W:\tmp\nma03476.
+Microsoft (R) 32-Bit Library Manager Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+obj\i386\austub.obj 
+Microsoft (R) 32-Bit Library Manager Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+obj\i386\austub.obj 
 
 Stop. 
-	lib -out:W:\nt\public\sdk\lib\i386\lsadll.lib -debugtype:cv  -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 -nodefaultlib -machine:i386 @W:\tmp\nma02876.
-	lib -out:W:\nt\public\sdk\lib\i386\lsakrnlp.lib -debugtype:cv  -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 -nodefaultlib -machine:i386 @W:\tmp\nma03956.
-Microsoft (R) 32-Bit Library Manager Version 4.20.6164
-Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
-
-obj\i386\austub.obj 
-Microsoft (R) 32-Bit Library Manager Version 4.20.6164
-Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
-
-obj\i386\austub.obj 
 
 Stop. 
 
@@ -41,75 +41,12 @@ Linking w:\nt\private\lsa\msprivs directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 Linking w:\nt\private\lsa\msv1_0 directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
-	link -out:W:\nt\public\sdk\lib\i386\msprivs.dll -machine:i386 @W:\tmp\nma03852.
-	link -out:obj\i386\lsass.exe -machine:i386 @W:\tmp\nma02660.
-	link -out:W:\nt\public\sdk\lib\i386\ksecdd.sys -machine:i386 @W:\tmp\nma02952.
-Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
-Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
--MERGE:_PAGE=PAGE 
--MERGE:_TEXT=.text 
--SECTION:INIT,d 
--OPT:REF 
--INCREMENTAL:NO 
--FORCE:MULTIPLE 
--RELEASE 
--FULLBUILD 
--IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
--NODEFAULTLIB 
--debug:notmapped,FULL 
--debugtype:both 
--version:4.00 
--osversion:4.00 
--PDB:NONE 
--MERGE:.rdata=.text 
--dll 
--optidata 
--base:@W:\nt\public\sdk\lib\coffbase.txt,lsaap 
--subsystem:native,4.00 
--entry:MsPrivsDummyEntry@12 
-W:\nt\public\sdk\lib\i386\msprivs.exp 
-obj\i386\mspr_rev.res 
-obj\i386\mstmp.obj 
-W:\nt\public\sdk\lib\i386\libc.lib 
-W:\nt\public\sdk\lib\i386\ntdll.lib 
-Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
-Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
-
--WS:aggressive 
--MERGE:_PAGE=PAGE 
--MERGE:_TEXT=.text 
--SECTION:INIT,d 
--OPT:REF 
--INCREMENTAL:NO 
--FORCE:MULTIPLE 
--RELEASE 
--FULLBUILD 
--IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
--NODEFAULTLIB 
--debug:notmapped,FULL 
--debugtype:both 
--version:4.00 
--osversion:4.00 
--PDB:NONE 
--MERGE:.rdata=.text 
--subsystem:windows,4.00 
--base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
--entry:mainNoCRTStartup 
--optidata 
-obj\i386\lsa_rev.res 
-obj\i386\lsass.obj 
-obj\i386\main.obj 
-W:\nt\public\sdk\lib\i386\libc.lib 
-W:\nt\public\sdk\lib\i386\advapi32.lib 
-W:\nt\public\sdk\lib\i386\kernel32.lib 
-W:\nt\public\sdk\lib\i386\gdi32.lib 
-W:\nt\public\sdk\lib\i386\user32.lib 
-W:\nt\public\sdk\lib\i386\ntdll.lib 
-W:\nt\public\sdk\lib\i386\lsasrv.lib 
-W:\nt\public\sdk\lib\i386\rpcrt4.lib 
-W:\nt\public\sdk\lib\i386\samlib.lib 
-W:\nt\public\sdk\lib\i386\samsrv.lib 
+Stop. 
+	link -out:obj\i386\lsass.exe -machine:i386 @W:\tmp\nma00244.
+Linking w:\nt\private\lsa\crypt\dll directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	link -out:W:\nt\public\sdk\lib\i386\ksecdd.sys -machine:i386 @W:\tmp\nma02504.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -149,21 +86,46 @@ obj\i386\context.obj
 W:\nt\public\sdk\lib\i386\int64.lib 
 W:\nt\public\sdk\lib\i386\ntoskrnl.lib 
 W:\nt\public\sdk\lib\i386\hal.lib 
-	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\msprivs.dll
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-WS:aggressive 
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-subsystem:windows,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:mainNoCRTStartup 
+-optidata 
+obj\i386\lsa_rev.res 
+obj\i386\lsass.obj 
+obj\i386\main.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\lsasrv.lib 
+W:\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\samlib.lib 
+W:\nt\public\sdk\lib\i386\samsrv.lib 
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\lsass.exe
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\ksecdd.sys
-
-Stop. 
-Linking w:\nt\private\lsa\crypt\dll directory ********************
-'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-
-Stop. 
-
-Stop. 
-	link -out:W:\nt\public\sdk\lib\i386\msv1_0.dll -machine:i386 @W:\tmp\nma03024.
-
-Stop. 
-	link -out:obj\i386\lsasrv.dll -machine:i386 @W:\tmp\nma02700.
+	link -out:W:\nt\public\sdk\lib\i386\msv1_0.dll -machine:i386 @W:\tmp\nma02240.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -208,6 +170,16 @@ W:\nt\public\sdk\lib\i386\samlib.lib
 W:\nt\public\sdk\lib\i386\advapi32.lib 
 W:\nt\public\sdk\lib\i386\samsrv.lib 
 W:\nt\public\sdk\lib\i386\lsasrv.lib 
+
+Stop. 
+
+Stop. 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\msv1_0.dll
+	link -out:obj\i386\lsasrv.dll -machine:i386 @W:\tmp\nma01548.
+
+Stop. 
+
+Stop. 
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -273,13 +245,13 @@ obj\i386\lsaerror.obj
 obj\i386\lsaifree.obj 
 obj\i386\lsainit.obj 
 obj\i386\lsarm.obj 
-obj\i386\lsarpc_s.obj 
 obj\i386\lsasrvmm.obj 
 obj\i386\lsawrap.obj 
 obj\i386\oldstub.obj 
 obj\i386\rpcinit.obj 
 obj\i386\sepriv.obj 
 obj\i386\services.obj 
+obj\i386\lsarpc_s.obj 
 W:\nt\public\sdk\lib\i386\crtdll.lib 
 W:\nt\public\sdk\lib\i386\msvcirt.lib 
 W:\nt\public\sdk\lib\i386\ntdll.lib 
@@ -291,9 +263,6 @@ W:\nt\public\sdk\lib\i386\kernel32.lib
 W:\nt\public\sdk\lib\i386\advapi32.lib 
 W:\nt\public\sdk\lib\i386\samsrv.lib 
 W:\nt\public\sdk\lib\i386\nlrepl.lib 
-	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\msv1_0.dll
-
-Stop. 
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\lsasrv.dll
 
 Stop. 

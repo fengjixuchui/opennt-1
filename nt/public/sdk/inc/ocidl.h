@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Tue Oct 08 21:14:26 2019
+/* at Sun Oct 13 02:54:23 2019
  */
 /* Compiler settings for ocidl.idl:
     Oicf (OptLev=i2), W1, Zp8, env=Win32, ms_ext, c_ext
@@ -256,7 +256,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0000
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [local] */ 
@@ -315,7 +315,7 @@ extern RPC_IF_HANDLE __MIDL__intf_0000_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: IOleControlTypes
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [auto_handle][unique][version] */ 
@@ -340,7 +340,7 @@ extern RPC_IF_HANDLE IOleControlTypes_v1_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: IEnumConnections
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -517,7 +517,7 @@ void __RPC_STUB IEnumConnections_Clone_Stub(
 
 /****************************************
  * Generated header for interface: IConnectionPoint
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -706,7 +706,7 @@ void __RPC_STUB IConnectionPoint_EnumConnections_Stub(
 
 /****************************************
  * Generated header for interface: IEnumConnectionPoints
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -873,7 +873,7 @@ void __RPC_STUB IEnumConnectionPoints_Clone_Stub(
 
 /****************************************
  * Generated header for interface: IConnectionPointContainer
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -996,7 +996,7 @@ void __RPC_STUB IConnectionPointContainer_FindConnectionPoint_Stub(
 
 /****************************************
  * Generated header for interface: IClassFactory2
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1175,7 +1175,7 @@ void __RPC_STUB IClassFactory2_RemoteCreateInstanceLic_Stub(
 
 /****************************************
  * Generated header for interface: IProvideClassInfo
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1271,7 +1271,7 @@ void __RPC_STUB IProvideClassInfo_GetClassInfo_Stub(
 
 /****************************************
  * Generated header for interface: IProvideClassInfo2
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1383,7 +1383,7 @@ void __RPC_STUB IProvideClassInfo2_GetGUID_Stub(
 
 /****************************************
  * Generated header for interface: IOleControl
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1561,7 +1561,7 @@ void __RPC_STUB IOleControl_FreezeEvents_Stub(
 
 /****************************************
  * Generated header for interface: IOleControlSite
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1808,7 +1808,7 @@ void __RPC_STUB IOleControlSite_ShowPropertyFrame_Stub(
 
 /****************************************
  * Generated header for interface: IPropertyPage
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2136,7 +2136,7 @@ void __RPC_STUB IPropertyPage_TranslateAccelerator_Stub(
 
 /****************************************
  * Generated header for interface: IPropertyPage2
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2310,7 +2310,7 @@ void __RPC_STUB IPropertyPage2_EditProperty_Stub(
 
 /****************************************
  * Generated header for interface: IPropertyPageSite
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2479,7 +2479,7 @@ void __RPC_STUB IPropertyPageSite_TranslateAccelerator_Stub(
 
 /****************************************
  * Generated header for interface: IPropertyNotifySink
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2597,7 +2597,7 @@ void __RPC_STUB IPropertyNotifySink_OnRequestEdit_Stub(
 
 /****************************************
  * Generated header for interface: ISpecifyPropertyPages
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2701,7 +2701,7 @@ void __RPC_STUB ISpecifyPropertyPages_GetPages_Stub(
 
 /****************************************
  * Generated header for interface: IPersistMemory
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2896,7 +2896,7 @@ void __RPC_STUB IPersistMemory_InitNew_Stub(
 
 /****************************************
  * Generated header for interface: IPersistStreamInit
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -3085,7 +3085,7 @@ void __RPC_STUB IPersistStreamInit_InitNew_Stub(
 
 /****************************************
  * Generated header for interface: IPersistPropertyBag
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -3239,7 +3239,7 @@ void __RPC_STUB IPersistPropertyBag_Save_Stub(
 
 /****************************************
  * Generated header for interface: ISimpleFrameSite
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -3387,7 +3387,7 @@ void __RPC_STUB ISimpleFrameSite_PostMessageFilter_Stub(
 
 /****************************************
  * Generated header for interface: IFont
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -4000,7 +4000,7 @@ void __RPC_STUB IFont_SetHdc_Stub(
 
 /****************************************
  * Generated header for interface: IPicture
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -4434,7 +4434,7 @@ void __RPC_STUB IPicture_get_Attributes_Stub(
 
 /****************************************
  * Generated header for interface: IFontDisp
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -4550,7 +4550,7 @@ EXTERN_C const IID IID_IFontDisp;
 
 /****************************************
  * Generated header for interface: IPictureDisp
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -4666,7 +4666,7 @@ EXTERN_C const IID IID_IPictureDisp;
 
 /****************************************
  * Generated header for interface: IAdviseSinkEx
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [uuid][unique][object] */ 
@@ -4798,7 +4798,7 @@ void __RPC_STUB IAdviseSinkEx_RemoteOnViewStatusChange_Stub(
 
 /****************************************
  * Generated header for interface: IOleInPlaceObjectWindowless
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [uuid][unique][object][local] */ 
@@ -4967,7 +4967,7 @@ void __RPC_STUB IOleInPlaceObjectWindowless_GetDropTarget_Stub(
 
 /****************************************
  * Generated header for interface: IOleInPlaceSiteEx
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [uuid][unique][object] */ 
@@ -5196,7 +5196,7 @@ void __RPC_STUB IOleInPlaceSiteEx_RequestUIActivate_Stub(
 
 /****************************************
  * Generated header for interface: IOleInPlaceSiteWindowless
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [uuid][unique][object][local] */ 
@@ -5668,7 +5668,7 @@ void __RPC_STUB IOleInPlaceSiteWindowless_OnDefWindowMessage_Stub(
 
 /****************************************
  * Generated header for interface: IViewObjectEx
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [uuid][unique][object][local] */ 
@@ -6016,7 +6016,7 @@ void __RPC_STUB IViewObjectEx_GetNaturalExtent_Stub(
 
 /****************************************
  * Generated header for interface: IOleUndoUnit
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [uuid][unique][object] */ 
@@ -6178,7 +6178,7 @@ void __RPC_STUB IOleUndoUnit_OnNextAdd_Stub(
 
 /****************************************
  * Generated header for interface: IOleParentUndoUnit
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [uuid][unique][object] */ 
@@ -6394,7 +6394,7 @@ void __RPC_STUB IOleParentUndoUnit_GetParentState_Stub(
 
 /****************************************
  * Generated header for interface: IEnumOleUndoUnits
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [uuid][unique][object] */ 
@@ -6559,7 +6559,7 @@ void __RPC_STUB IEnumOleUndoUnits_Clone_Stub(
 
 /****************************************
  * Generated header for interface: IOleUndoManager
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [uuid][unique][object] */ 
@@ -6900,7 +6900,7 @@ void __RPC_STUB IOleUndoManager_Enable_Stub(
 
 /****************************************
  * Generated header for interface: IQuickActivate
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [uuid][unique][object][local] */ 
@@ -7085,7 +7085,7 @@ void __RPC_STUB IQuickActivate_GetContentExtent_Stub(
 
 /****************************************
  * Generated header for interface: IPointerInactive
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [uuid][unique][object] */ 
@@ -7253,7 +7253,7 @@ void __RPC_STUB IPointerInactive_OnInactiveSetCursor_Stub(
 
 /****************************************
  * Generated header for interface: IObjectWithSite
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -7374,7 +7374,7 @@ void __RPC_STUB IObjectWithSite_GetSite_Stub(
 
 /****************************************
  * Generated header for interface: IErrorLog
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -7473,7 +7473,7 @@ void __RPC_STUB IErrorLog_AddError_Stub(
 
 /****************************************
  * Generated header for interface: IPropertyBag
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -7602,7 +7602,7 @@ void __RPC_STUB IPropertyBag_Write_Stub(
 
 /****************************************
  * Generated header for interface: IPerPropertyBrowsing
- * at Tue Oct 08 21:14:26 2019
+ * at Sun Oct 13 02:54:23 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 

@@ -636,8 +636,8 @@ _j$ = -48
 _TotalDifferenceCount$ = -60
 _InputFromFile$ = -24
 _FileOpenErrors$ = -8
-_Buffer$8339 = -584
-_OldDifferenceCount$8372 = -588
+_Buffer$8347 = -584
+_OldDifferenceCount$8380 = -588
 _main	PROC NEAR					; COMDAT
 
 ; 75   : {
@@ -663,15 +663,15 @@ _main	PROC NEAR					; COMDAT
 
   00015	83 7d 08 04	cmp	DWORD PTR _argc$[ebp], 4
   00019	0f 85 0e 00 00
-	00		jne	$L8914
+	00		jne	$L8922
   0001f	8b 45 0c	mov	eax, DWORD PTR _argv$[ebp]
   00022	8b 40 0c	mov	eax, DWORD PTR [eax+12]
   00025	89 45 f4	mov	DWORD PTR _Difference_FileName$[ebp], eax
-  00028	e9 07 00 00 00	jmp	$L8915
-$L8914:
+  00028	e9 07 00 00 00	jmp	$L8923
+$L8922:
   0002d	c7 45 f4 00 00
 	00 00		mov	DWORD PTR _Difference_FileName$[ebp], OFFSET FLAT:??_C@_08GIBN@DIFF?4TXT?$AA@ ; `string'
-$L8915:
+$L8923:
 
 ; 81   :     PCHAR        TmpSummaryBuffer;
 ; 82   :     MFILE        FirstFile, SecondFile;
@@ -711,11 +711,11 @@ $L8915:
 
   00057	83 7d 08 03	cmp	DWORD PTR _argc$[ebp], 3
   0005b	0f 8c 0a 00 00
-	00		jl	$L8332
+	00		jl	$L8340
   00061	83 7d 08 04	cmp	DWORD PTR _argc$[ebp], 4
   00065	0f 8e 14 00 00
-	00		jle	$L8331
-$L8332:
+	00		jle	$L8339
+$L8340:
 
 ; 96   : 
 ; 97   :         Usage();
@@ -731,8 +731,8 @@ $L8332:
 ; 99   : 
 ; 100  :     } else {
 
-  0007a	e9 0d 00 00 00	jmp	$L8333
-$L8331:
+  0007a	e9 0d 00 00 00	jmp	$L8341
+$L8339:
 
 ; 101  : 
 ; 102  :         printf( "\nMAC NDIS 3.0 Tester - Comparator Tool Version 1.0.2\n\n" );
@@ -740,7 +740,7 @@ $L8331:
   0007f	68 00 00 00 00	push	OFFSET FLAT:??_C@_0DH@PBDH@?6MAC?5NDIS?53?40?5Tester?5?9?5Comparato@ ; `string'
   00084	e8 00 00 00 00	call	_printf
   00089	83 c4 04	add	esp, 4
-$L8333:
+$L8341:
 
 ; 103  : 
 ; 104  :     }
@@ -763,7 +763,7 @@ $L8333:
   0009f	83 c4 0c	add	esp, 12			; 0000000cH
   000a2	85 c0		test	eax, eax
   000a4	0f 84 1e 00 00
-	00		je	$L8336
+	00		je	$L8344
   000aa	6a 02		push	2
   000ac	68 00 00 00 00	push	OFFSET FLAT:??_C@_02HGLE@?9F?$AA@ ; `string'
   000b1	8b 45 0c	mov	eax, DWORD PTR _argv$[ebp]
@@ -773,8 +773,8 @@ $L8333:
   000bd	83 c4 0c	add	esp, 12			; 0000000cH
   000c0	85 c0		test	eax, eax
   000c2	0f 85 07 02 00
-	00		jne	$L8335
-$L8336:
+	00		jne	$L8343
+$L8344:
 
 ; 114  : 
 ; 115  :         CHAR    Buffer[2*MAX_LINE_SIZE];
@@ -804,7 +804,7 @@ $L8336:
   000e3	89 45 ec	mov	DWORD PTR _IoFile$[ebp], eax
   000e6	83 7d ec 00	cmp	DWORD PTR _IoFile$[ebp], 0
   000ea	0f 85 23 00 00
-	00		jne	$L8340
+	00		jne	$L8348
 
 ; 128  : 
 ; 129  :             printf( "Could not open the primary log list file: %s\n", argv[2] );
@@ -825,8 +825,8 @@ $L8336:
   00109	6a ff		push	-1
   0010b	e8 00 00 00 00	call	_exit
   00110	83 c4 04	add	esp, 4
-$L8340:
-$L8344:
+$L8348:
+$L8352:
 
 ; 132  : 
 ; 133  :         }
@@ -845,7 +845,7 @@ $L8344:
   00113	8b 45 ec	mov	eax, DWORD PTR _IoFile$[ebp]
   00116	f6 40 0c 10	test	BYTE PTR [eax+12], 16	; 00000010H
   0011a	0f 85 56 00 00
-	00		jne	$L8345
+	00		jne	$L8353
 
 ; 145  : 
 ; 146  :             memset( Buffer, 0, sizeof(Buffer) );
@@ -853,7 +853,7 @@ $L8344:
   00120	68 00 02 00 00	push	512			; 00000200H
   00125	6a 00		push	0
   00127	8d 85 b8 fd ff
-	ff		lea	eax, DWORD PTR _Buffer$8339[ebp]
+	ff		lea	eax, DWORD PTR _Buffer$8347[ebp]
   0012d	50		push	eax
   0012e	e8 00 00 00 00	call	_memset
   00133	83 c4 0c	add	esp, 12			; 0000000cH
@@ -865,33 +865,33 @@ $L8344:
   00139	50		push	eax
   0013a	68 00 02 00 00	push	512			; 00000200H
   0013f	8d 85 b8 fd ff
-	ff		lea	eax, DWORD PTR _Buffer$8339[ebp]
+	ff		lea	eax, DWORD PTR _Buffer$8347[ebp]
   00145	50		push	eax
   00146	e8 00 00 00 00	call	_fgets
   0014b	83 c4 0c	add	esp, 12			; 0000000cH
   0014e	85 c0		test	eax, eax
   00150	0f 84 1b 00 00
-	00		je	$L8346
+	00		je	$L8354
   00156	8d 85 b8 fd ff
-	ff		lea	eax, DWORD PTR _Buffer$8339[ebp]
+	ff		lea	eax, DWORD PTR _Buffer$8347[ebp]
   0015c	50		push	eax
   0015d	e8 00 00 00 00	call	_strlen
   00162	83 c4 04	add	esp, 4
   00165	83 f8 02	cmp	eax, 2
   00168	0f 86 03 00 00
-	00		jbe	$L8346
+	00		jbe	$L8354
 
 ; 149  :                 NumberOfComparisons++;
 
   0016e	ff 45 e4	inc	DWORD PTR _NumberOfComparisons$[ebp]
-$L8346:
+$L8354:
 
 ; 150  :             }
 ; 151  : 
 ; 152  :         }
 
-  00171	e9 9d ff ff ff	jmp	$L8344
-$L8345:
+  00171	e9 9d ff ff ff	jmp	$L8352
+$L8353:
 
 ; 153  : 
 ; 154  : 
@@ -912,7 +912,7 @@ $L8345:
 
   00188	83 7d fc 00	cmp	DWORD PTR _FileList$[ebp], 0
   0018c	0f 85 1c 00 00
-	00		jne	$L8347
+	00		jne	$L8355
 
 ; 161  :             printf("The system has run out of memory resources. Unable to run this program.\n");
 
@@ -928,8 +928,8 @@ $L8345:
 
 ; 163  :         } else {
 
-  001a9	e9 15 00 00 00	jmp	$L8349
-$L8347:
+  001a9	e9 15 00 00 00	jmp	$L8357
+$L8355:
 
 ; 164  :             memset( FileList, 0, (NumberOfComparisons*2)*sizeof( PCHAR ) );
 
@@ -941,7 +941,7 @@ $L8347:
   001ba	50		push	eax
   001bb	e8 00 00 00 00	call	_memset
   001c0	83 c4 0c	add	esp, 12			; 0000000cH
-$L8349:
+$L8357:
 
 ; 165  :         }
 ; 166  : 
@@ -965,14 +965,14 @@ $L8349:
   001d7	50		push	eax
   001d8	e8 00 00 00 00	call	_fseek
   001dd	83 c4 0c	add	esp, 12			; 0000000cH
-$L8351:
+$L8359:
 
 ; 174  :         while ( !feof( IoFile ) ) {
 
   001e0	8b 45 ec	mov	eax, DWORD PTR _IoFile$[ebp]
   001e3	f6 40 0c 10	test	BYTE PTR [eax+12], 16	; 00000010H
   001e7	0f 85 d1 00 00
-	00		jne	$L8352
+	00		jne	$L8360
 
 ; 175  : 
 ; 176  :             //
@@ -983,7 +983,7 @@ $L8351:
   001ed	68 00 02 00 00	push	512			; 00000200H
   001f2	6a 00		push	0
   001f4	8d 85 b8 fd ff
-	ff		lea	eax, DWORD PTR _Buffer$8339[ebp]
+	ff		lea	eax, DWORD PTR _Buffer$8347[ebp]
   001fa	50		push	eax
   001fb	e8 00 00 00 00	call	_memset
   00200	83 c4 0c	add	esp, 12			; 0000000cH
@@ -995,21 +995,21 @@ $L8351:
   00206	50		push	eax
   00207	68 00 02 00 00	push	512			; 00000200H
   0020c	8d 85 b8 fd ff
-	ff		lea	eax, DWORD PTR _Buffer$8339[ebp]
+	ff		lea	eax, DWORD PTR _Buffer$8347[ebp]
   00212	50		push	eax
   00213	e8 00 00 00 00	call	_fgets
   00218	83 c4 0c	add	esp, 12			; 0000000cH
   0021b	85 c0		test	eax, eax
   0021d	0f 84 93 00 00
-	00		je	$L8353
+	00		je	$L8361
   00223	8d 85 b8 fd ff
-	ff		lea	eax, DWORD PTR _Buffer$8339[ebp]
+	ff		lea	eax, DWORD PTR _Buffer$8347[ebp]
   00229	50		push	eax
   0022a	e8 00 00 00 00	call	_strlen
   0022f	83 c4 04	add	esp, 4
   00232	83 f8 02	cmp	eax, 2
   00235	0f 86 7b 00 00
-	00		jbe	$L8353
+	00		jbe	$L8361
 
 ; 182  : 
 ; 183  :                 //
@@ -1019,7 +1019,7 @@ $L8351:
 
   0023b	6a 0a		push	10			; 0000000aH
   0023d	8d 85 b8 fd ff
-	ff		lea	eax, DWORD PTR _Buffer$8339[ebp]
+	ff		lea	eax, DWORD PTR _Buffer$8347[ebp]
   00243	50		push	eax
   00244	e8 00 00 00 00	call	_strchr
   00249	83 c4 08	add	esp, 8
@@ -1036,7 +1036,7 @@ $L8351:
 ; 191  :                 if ( !GetFilePair( &FileList[j*2], &FileList[(j*2)+1], Buffer ) ) {
 
   0025b	8d 85 b8 fd ff
-	ff		lea	eax, DWORD PTR _Buffer$8339[ebp]
+	ff		lea	eax, DWORD PTR _Buffer$8347[ebp]
   00261	50		push	eax
   00262	8b 45 d0	mov	eax, DWORD PTR _j$[ebp]
   00265	8d 04 c5 04 00
@@ -1052,7 +1052,7 @@ $L8351:
   00281	8a c8		mov	cl, al
   00283	85 c9		test	ecx, ecx
   00285	0f 85 28 00 00
-	00		jne	$L8354
+	00		jne	$L8362
 
 ; 192  : 
 ; 193  :                     printf("An error occurred determining the file pair at line %d in the file list: %s\n",
@@ -1077,8 +1077,8 @@ $L8351:
 ; 196  : 
 ; 197  :                 } else {
 
-  002ae	e9 03 00 00 00	jmp	$L8356
-$L8354:
+  002ae	e9 03 00 00 00	jmp	$L8364
+$L8362:
 
 ; 198  : 
 ; 199  :                     //
@@ -1087,8 +1087,8 @@ $L8354:
 ; 202  :                     j++;
 
   002b3	ff 45 d0	inc	DWORD PTR _j$[ebp]
-$L8356:
-$L8353:
+$L8364:
+$L8361:
 
 ; 203  : 
 ; 204  :                 }
@@ -1105,8 +1105,8 @@ $L8353:
 ; 212  : 
 ; 213  :         }
 
-  002b9	e9 22 ff ff ff	jmp	$L8351
-$L8352:
+  002b9	e9 22 ff ff ff	jmp	$L8359
+$L8360:
 
 ; 214  : 
 ; 215  : 
@@ -1124,15 +1124,15 @@ $L8352:
 ; 221  : 
 ; 222  :     } else {
 
-  002ca	e9 07 00 00 00	jmp	$L8357
-$L8335:
+  002ca	e9 07 00 00 00	jmp	$L8365
+$L8343:
 
 ; 223  : 
 ; 224  :         NumberOfComparisons = 1;
 
   002cf	c7 45 e4 01 00
 	00 00		mov	DWORD PTR _NumberOfComparisons$[ebp], 1
-$L8357:
+$L8365:
 
 ; 225  : 
 ; 226  :         //
@@ -1160,7 +1160,7 @@ $L8357:
   002ec	83 3d 00 00 00
 	00 00		cmp	DWORD PTR _SummaryBuffer, 0
   002f3	0f 85 1c 00 00
-	00		jne	$L8358
+	00		jne	$L8366
 
 ; 239  : 
 ; 240  :         printf("The system has run out of memory resources for this program\n");
@@ -1178,15 +1178,15 @@ $L8357:
 ; 242  : 
 ; 243  :     } else {
 
-  00310	e9 08 00 00 00	jmp	$L8360
-$L8358:
+  00310	e9 08 00 00 00	jmp	$L8368
+$L8366:
 
 ; 244  : 
 ; 245  :         TmpSummaryBuffer = SummaryBuffer ;
 
   00315	a1 00 00 00 00	mov	eax, DWORD PTR _SummaryBuffer
   0031a	89 45 cc	mov	DWORD PTR _TmpSummaryBuffer$[ebp], eax
-$L8360:
+$L8368:
 
 ; 246  : 
 ; 247  :     }
@@ -1210,7 +1210,7 @@ $L8360:
 
   00331	83 7d f0 00	cmp	DWORD PTR _DiffTxtFile$[ebp], 0
   00335	0f 85 20 00 00
-	00		jne	$L8362
+	00		jne	$L8370
 
 ; 257  : 
 ; 258  :         printf( "Unable to open the difference text file %s for logging the results.\n", Difference_FileName );
@@ -1230,8 +1230,8 @@ $L8360:
 ; 260  : 
 ; 261  :     } else {
 
-  00356	e9 11 00 00 00	jmp	$L8364
-$L8362:
+  00356	e9 11 00 00 00	jmp	$L8372
+$L8370:
 
 ; 262  : 
 ; 263  :         fprintf( DiffTxtFile, "\n\n" );
@@ -1241,7 +1241,7 @@ $L8362:
   00363	50		push	eax
   00364	e8 00 00 00 00	call	_fprintf
   00369	83 c4 08	add	esp, 8
-$L8364:
+$L8372:
 
 ; 264  : 
 ; 265  :     }
@@ -1272,14 +1272,14 @@ $L8364:
 
   00393	c7 45 e0 00 00
 	00 00		mov	DWORD PTR _i$[ebp], 0
-  0039a	e9 03 00 00 00	jmp	$L8367
-$L8368:
+  0039a	e9 03 00 00 00	jmp	$L8375
+$L8376:
   0039f	ff 45 e0	inc	DWORD PTR _i$[ebp]
-$L8367:
+$L8375:
   003a2	8b 45 e4	mov	eax, DWORD PTR _NumberOfComparisons$[ebp]
   003a5	39 45 e0	cmp	DWORD PTR _i$[ebp], eax
   003a8	0f 83 0d 02 00
-	00		jae	$L8369
+	00		jae	$L8377
 
 ; 275  : 
 ; 276  :         memset( &FirstFile , 0, sizeof( MFILE ) );
@@ -1352,14 +1352,14 @@ $L8367:
   00429	8a c8		mov	cl, al
   0042b	85 c9		test	ecx, ecx
   0042d	0f 84 94 00 00
-	00		je	$L8371
+	00		je	$L8379
 
 ; 288  : 
 ; 289  :             ULONG OldDifferenceCount = TotalDifferenceCount;
 
   00433	8b 45 c4	mov	eax, DWORD PTR _TotalDifferenceCount$[ebp]
   00436	89 85 b4 fd ff
-	ff		mov	DWORD PTR _OldDifferenceCount$8372[ebp], eax
+	ff		mov	DWORD PTR _OldDifferenceCount$8380[ebp], eax
 
 ; 290  : 
 ; 291  :             fprintf( DiffTxtFile, "\n\n**Comparing %s and %s\n\n", FirstFile.FileName, SecondFile.FileName );
@@ -1406,7 +1406,7 @@ $L8367:
 
   0046d	8b 45 c4	mov	eax, DWORD PTR _TotalDifferenceCount$[ebp]
   00470	2b 85 b4 fd ff
-	ff		sub	eax, DWORD PTR _OldDifferenceCount$8372[ebp]
+	ff		sub	eax, DWORD PTR _OldDifferenceCount$8380[ebp]
   00476	50		push	eax
   00477	8b 45 d8	mov	eax, DWORD PTR _SecondFile$[ebp+4]
   0047a	50		push	eax
@@ -1424,7 +1424,7 @@ $L8367:
 
   00490	8b 45 c4	mov	eax, DWORD PTR _TotalDifferenceCount$[ebp]
   00493	2b 85 b4 fd ff
-	ff		sub	eax, DWORD PTR _OldDifferenceCount$8372[ebp]
+	ff		sub	eax, DWORD PTR _OldDifferenceCount$8380[ebp]
   00499	50		push	eax
   0049a	8b 45 d8	mov	eax, DWORD PTR _SecondFile$[ebp+4]
   0049d	50		push	eax
@@ -1448,8 +1448,8 @@ $L8367:
 ; 312  : 
 ; 313  :         } else {
 
-  004c2	e9 82 00 00 00	jmp	$L8376
-$L8371:
+  004c2	e9 82 00 00 00	jmp	$L8384
+$L8379:
 
 ; 314  : 
 ; 315  : 
@@ -1470,7 +1470,7 @@ $L8371:
 
   004e0	83 7d c0 00	cmp	DWORD PTR _FirstFile$[ebp+8], 0
   004e4	0f 85 15 00 00
-	00		jne	$L8378
+	00		jne	$L8386
 
 ; 319  : 
 ; 320  :                 fprintf( DiffTxtFile, "\tUnable to open file %s\n", FirstFile.FileName );
@@ -1482,7 +1482,7 @@ $L8371:
   004f6	50		push	eax
   004f7	e8 00 00 00 00	call	_fprintf
   004fc	83 c4 0c	add	esp, 12			; 0000000cH
-$L8378:
+$L8386:
 
 ; 321  : 
 ; 322  :             }
@@ -1491,7 +1491,7 @@ $L8378:
 
   004ff	83 7d dc 00	cmp	DWORD PTR _SecondFile$[ebp+8], 0
   00503	0f 85 15 00 00
-	00		jne	$L8380
+	00		jne	$L8388
 
 ; 325  : 
 ; 326  :                 fprintf( DiffTxtFile, "\tUnable to open file %s\n", SecondFile.FileName );
@@ -1503,7 +1503,7 @@ $L8378:
   00515	50		push	eax
   00516	e8 00 00 00 00	call	_fprintf
   0051b	83 c4 0c	add	esp, 12			; 0000000cH
-$L8380:
+$L8388:
 
 ; 327  : 
 ; 328  :             }
@@ -1535,7 +1535,7 @@ $L8380:
   0053e	e8 00 00 00 00	call	_strlen
   00543	83 c4 04	add	esp, 4
   00546	01 45 cc	add	DWORD PTR _TmpSummaryBuffer$[ebp], eax
-$L8376:
+$L8384:
 
 ; 337  : 
 ; 338  :         }
@@ -1547,20 +1547,20 @@ $L8376:
 
   00549	83 7d c0 00	cmp	DWORD PTR _FirstFile$[ebp+8], 0
   0054d	0f 84 0c 00 00
-	00		je	$L8382
+	00		je	$L8390
   00553	8b 45 c0	mov	eax, DWORD PTR _FirstFile$[ebp+8]
   00556	50		push	eax
   00557	e8 00 00 00 00	call	_fclose
   0055c	83 c4 04	add	esp, 4
-$L8382:
+$L8390:
   0055f	83 7d dc 00	cmp	DWORD PTR _SecondFile$[ebp+8], 0
   00563	0f 84 0c 00 00
-	00		je	$L8383
+	00		je	$L8391
   00569	8b 45 dc	mov	eax, DWORD PTR _SecondFile$[ebp+8]
   0056c	50		push	eax
   0056d	e8 00 00 00 00	call	_fclose
   00572	83 c4 04	add	esp, 4
-$L8383:
+$L8391:
 
 ; 344  :         FirstFile.FileName  = (PCHAR)NULL;
 
@@ -1608,8 +1608,8 @@ $L8383:
 ; 355  : 
 ; 356  :     }
 
-  005b6	e9 e4 fd ff ff	jmp	$L8368
-$L8369:
+  005b6	e9 e4 fd ff ff	jmp	$L8376
+$L8377:
 
 ; 357  :     fprintf( DiffTxtFile, "\n__________END_DETAILS_LOG__________\n\n" );
 
@@ -1808,7 +1808,7 @@ $L8369:
 
   0074e	83 7d e8 00	cmp	DWORD PTR _InputFromFile$[ebp], 0
   00752	0f 84 0c 00 00
-	00		je	$L8392
+	00		je	$L8400
 
 ; 390  : 
 ; 391  :         free( FileList );
@@ -1817,8 +1817,8 @@ $L8369:
   0075b	50		push	eax
   0075c	e8 00 00 00 00	call	_free
   00761	83 c4 04	add	esp, 4
-$L8392:
-$L8315:
+$L8400:
+$L8323:
 
 ; 392  : 
 ; 393  :     }
@@ -2132,7 +2132,7 @@ _Usage@0 PROC NEAR					; COMDAT
   00124	68 00 00 00 00	push	OFFSET FLAT:??_C@_0DJ@INGM@?7?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5default?5file?5DI@ ; `string'
   00129	e8 00 00 00 00	call	_printf
   0012e	83 c4 04	add	esp, 4
-$L8393:
+$L8401:
 
 ; 440  : 
 ; 441  : }
@@ -2211,7 +2211,7 @@ _GetFilePair@12 PROC NEAR				; COMDAT
 
   00023	83 7d ec 00	cmp	DWORD PTR _Token$[ebp], 0
   00027	0f 84 5b 00 00
-	00		je	$L8424
+	00		je	$L8432
 
 ; 463  : 
 ; 464  :         Token[1]  = strtok( NULL, Seperators   );
@@ -2228,7 +2228,7 @@ _GetFilePair@12 PROC NEAR				; COMDAT
 
   0003e	83 7d f0 00	cmp	DWORD PTR _Token$[ebp+4], 0
   00042	0f 85 1d 00 00
-	00		jne	$L8425
+	00		jne	$L8433
 
 ; 467  : 
 ; 468  :             printf("The first log file name is:\t%s\nHowever the program was unable to determine the second log file name.\n",
@@ -2243,13 +2243,13 @@ _GetFilePair@12 PROC NEAR				; COMDAT
 ; 470  :             return FALSE;
 
   00059	32 c0		xor	al, al
-  0005b	e9 08 01 00 00	jmp	$L8419
+  0005b	e9 08 01 00 00	jmp	$L8427
 
 ; 471  : 
 ; 472  :         } else {
 
-  00060	e9 1e 00 00 00	jmp	$L8427
-$L8425:
+  00060	e9 1e 00 00 00	jmp	$L8435
+$L8433:
 
 ; 473  : 
 ; 474  :             TokenLength[0] = strlen( Token[0] );
@@ -2267,15 +2267,15 @@ $L8425:
   00078	e8 00 00 00 00	call	_strlen
   0007d	83 c4 04	add	esp, 4
   00080	89 45 fc	mov	DWORD PTR _TokenLength$[ebp+4], eax
-$L8427:
+$L8435:
 
 ; 476  : 
 ; 477  :         }
 ; 478  : 
 ; 479  :     } else {
 
-  00083	e9 14 00 00 00	jmp	$L8428
-$L8424:
+  00083	e9 14 00 00 00	jmp	$L8436
+$L8432:
 
 ; 480  : 
 ; 481  :         printf("Unable to determine the first log file name.\n");
@@ -2287,8 +2287,8 @@ $L8424:
 ; 482  :         return FALSE;
 
   00095	32 c0		xor	al, al
-  00097	e9 cc 00 00 00	jmp	$L8419
-$L8428:
+  00097	e9 cc 00 00 00	jmp	$L8427
+$L8436:
 
 ; 483  : 
 ; 484  :     }
@@ -2323,12 +2323,12 @@ $L8428:
   000c0	8b 45 08	mov	eax, DWORD PTR _FirstFile$[ebp]
   000c3	83 38 00	cmp	DWORD PTR [eax], 0
   000c6	0f 84 0c 00 00
-	00		je	$L8431
+	00		je	$L8439
   000cc	8b 45 0c	mov	eax, DWORD PTR _SecondFile$[ebp]
   000cf	83 38 00	cmp	DWORD PTR [eax], 0
   000d2	0f 85 33 00 00
-	00		jne	$L8430
-$L8431:
+	00		jne	$L8438
+$L8439:
 
 ; 494  : 
 ; 495  :         printf("The system has run out of memory resources for this program\n");
@@ -2358,7 +2358,7 @@ $L8431:
   00101	6a ff		push	-1
   00103	e8 00 00 00 00	call	_exit
   00108	83 c4 04	add	esp, 4
-$L8430:
+$L8438:
 
 ; 499  : 
 ; 500  :     }
@@ -2421,8 +2421,8 @@ $L8430:
 ; 513  :     return TRUE;
 
   00161	b0 01		mov	al, 1
-  00163	e9 00 00 00 00	jmp	$L8419
-$L8419:
+  00163	e9 00 00 00 00	jmp	$L8427
+$L8427:
 
 ; 514  : 
 ; 515  : }
@@ -2483,19 +2483,19 @@ _OpenFiles@16 PROC NEAR					; COMDAT
   00034	8b 45 08	mov	eax, DWORD PTR _FirstFile$[ebp]
   00037	83 78 08 00	cmp	DWORD PTR [eax+8], 0
   0003b	0f 84 0d 00 00
-	00		je	$L8438
+	00		je	$L8446
   00041	8b 45 10	mov	eax, DWORD PTR _SecondFile$[ebp]
   00044	83 78 08 00	cmp	DWORD PTR [eax+8], 0
   00048	0f 85 07 00 00
-	00		jne	$L8437
-$L8438:
+	00		jne	$L8445
+$L8446:
 
 ; 538  : 
 ; 539  :         return FALSE;
 
   0004e	32 c0		xor	al, al
-  00050	e9 07 00 00 00	jmp	$L8436
-$L8437:
+  00050	e9 07 00 00 00	jmp	$L8444
+$L8445:
 
 ; 540  : 
 ; 541  :     }
@@ -2503,8 +2503,8 @@ $L8437:
 ; 543  :     return TRUE;
 
   00055	b0 01		mov	al, 1
-  00057	e9 00 00 00 00	jmp	$L8436
-$L8436:
+  00057	e9 00 00 00 00	jmp	$L8444
+$L8444:
 
 ; 544  : 
 ; 545  : }
@@ -2573,7 +2573,7 @@ _CompareFiles@16 PROC NEAR				; COMDAT
 
   00034	83 7d f4 00	cmp	DWORD PTR _SectionZero_FirstFile$[ebp], 0
   00038	0f 85 32 00 00
-	00		jne	$L8447
+	00		jne	$L8455
 
 ; 571  :         printf("The system has run out of memory resources for this program\n");
 
@@ -2585,7 +2585,7 @@ _CompareFiles@16 PROC NEAR				; COMDAT
 
   0004b	83 7d f8 00	cmp	DWORD PTR _SectionZero_SecondFile$[ebp], 0
   0004f	0f 84 0c 00 00
-	00		je	$L8448
+	00		je	$L8456
 
 ; 573  :             DestroySection( SectionZero_SecondFile );
 
@@ -2593,7 +2593,7 @@ _CompareFiles@16 PROC NEAR				; COMDAT
   00058	50		push	eax
   00059	e8 00 00 00 00	call	_free
   0005e	83 c4 04	add	esp, 4
-$L8448:
+$L8456:
 
 ; 574  :         }
 ; 575  :         exit( -1 );
@@ -2604,11 +2604,11 @@ $L8448:
 
 ; 576  :     } else if ( SectionZero_SecondFile == (PSECTION)NULL) {
 
-  0006b	e9 2d 00 00 00	jmp	$L8449
-$L8447:
+  0006b	e9 2d 00 00 00	jmp	$L8457
+$L8455:
   00070	83 7d f8 00	cmp	DWORD PTR _SectionZero_SecondFile$[ebp], 0
   00074	0f 85 23 00 00
-	00		jne	$L8450
+	00		jne	$L8458
 
 ; 577  :         printf("The system has run out of memory resources for this program\n");
 
@@ -2628,8 +2628,8 @@ $L8447:
   00093	6a ff		push	-1
   00095	e8 00 00 00 00	call	_exit
   0009a	83 c4 04	add	esp, 4
-$L8450:
-$L8449:
+$L8458:
+$L8457:
 
 ; 580  :     }
 ; 581  : 
@@ -2722,8 +2722,8 @@ $L8449:
 ; 615  :     return TRUE;
 
   0010c	b0 01		mov	al, 1
-  0010e	e9 00 00 00 00	jmp	$L8443
-$L8443:
+  0010e	e9 00 00 00 00	jmp	$L8451
+$L8451:
 
 ; 616  : 
 ; 617  : }
@@ -2767,7 +2767,7 @@ CONST	SEGMENT
 	DB	'TIONAL RESULTS FOR SECTION ID : %f ERROR(S): %u', 0aH, 00H ; `string'
 CONST	ENDS
 CONST	SEGMENT
-$T8926	DQ	00000000000000000r		; 0
+$T8934	DQ	00000000000000000r		; 0
 CONST	ENDS
 ;	COMDAT _CompareSections@16
 _TEXT	SEGMENT
@@ -2805,7 +2805,7 @@ _CompareSections@16 PROC NEAR				; COMDAT
 
   0001b	83 7d fc 00	cmp	DWORD PTR _FunctionElements$[ebp], 0
   0001f	0f 85 1c 00 00
-	00		jne	$L8457
+	00		jne	$L8465
 
 ; 636  :         printf("The system has run out of memory resources for this program\n");
 
@@ -2821,15 +2821,15 @@ _CompareSections@16 PROC NEAR				; COMDAT
 
 ; 638  :     } else {
 
-  0003c	e9 07 00 00 00	jmp	$L8458
-$L8457:
+  0003c	e9 07 00 00 00	jmp	$L8466
+$L8465:
 
 ; 639  :         FunctionElements->SectionEndsNotSynchronized = TRUE;
 
   00041	8b 45 fc	mov	eax, DWORD PTR _FunctionElements$[ebp]
   00044	c6 40 1e 01	mov	BYTE PTR [eax+30], 1
-$L8458:
-$L8460:
+$L8466:
+$L8468:
 
 ; 640  :     }
 ; 641  : 
@@ -2851,7 +2851,7 @@ $L8460:
   0004d	8a 48 1e	mov	cl, BYTE PTR [eax+30]
   00050	85 c9		test	ecx, ecx
   00052	0f 84 f3 06 00
-	00		je	$L8461
+	00		je	$L8469
 
 ; 654  : 
 ; 655  :         //
@@ -2865,7 +2865,7 @@ $L8460:
   0005d	8a 48 1c	mov	cl, BYTE PTR [eax+28]
   00060	85 c9		test	ecx, ecx
   00062	0f 85 ab 00 00
-	00		jne	$L8462
+	00		jne	$L8470
 
 ; 660  : 
 ; 661  :             //
@@ -2875,7 +2875,7 @@ $L8460:
 
   00068	8b 45 fc	mov	eax, DWORD PTR _FunctionElements$[ebp]
   0006b	c6 40 1f 01	mov	BYTE PTR [eax+31], 1
-$L8464:
+$L8472:
 
 ; 665  :             while ( FunctionElements->SkipLine ) {
 
@@ -2884,7 +2884,7 @@ $L8464:
   00074	8a 48 1f	mov	cl, BYTE PTR [eax+31]
   00077	85 c9		test	ecx, ecx
   00079	0f 84 94 00 00
-	00		je	$L8465
+	00		je	$L8473
 
 ; 666  : 
 ; 667  :                 ClearAndSetLine(  FirstSection , &FunctionElements->FirstSectionCurrentLine  );
@@ -2911,7 +2911,7 @@ $L8464:
   000af	8a c8		mov	cl, al
   000b1	85 c9		test	ecx, ecx
   000b3	0f 84 3e 00 00
-	00		je	$L8466
+	00		je	$L8474
 
 ; 669  : 
 ; 670  :                     if ( DoNotSkipThisLine( FirstSection ) ) {
@@ -2923,7 +2923,7 @@ $L8464:
   000c4	8a c8		mov	cl, al
   000c6	85 c9		test	ecx, ecx
   000c8	0f 84 10 00 00
-	00		je	$L8467
+	00		je	$L8475
 
 ; 671  : 
 ; 672  :                         ExtractResults( FirstSection );
@@ -2936,7 +2936,7 @@ $L8464:
 
   000d7	8b 45 fc	mov	eax, DWORD PTR _FunctionElements$[ebp]
   000da	c6 40 1f 00	mov	BYTE PTR [eax+31], 0
-$L8467:
+$L8475:
 
 ; 674  : 
 ; 675  :                     }
@@ -2956,8 +2956,8 @@ $L8467:
 ; 678  : 
 ; 679  :                 }  else {
 
-  000f2	e9 17 00 00 00	jmp	$L8468
-$L8466:
+  000f2	e9 17 00 00 00	jmp	$L8476
+$L8474:
 
 ; 680  : 
 ; 681  :                     //
@@ -2976,16 +2976,16 @@ $L8466:
 
   00107	8b 45 fc	mov	eax, DWORD PTR _FunctionElements$[ebp]
   0010a	c6 40 1f 00	mov	BYTE PTR [eax+31], 0
-$L8468:
+$L8476:
 
 ; 687  : 
 ; 688  :                 }
 ; 689  : 
 ; 690  :             }
 
-  0010e	e9 5c ff ff ff	jmp	$L8464
-$L8465:
-$L8462:
+  0010e	e9 5c ff ff ff	jmp	$L8472
+$L8473:
+$L8470:
 
 ; 691  : 
 ; 692  : 
@@ -3002,7 +3002,7 @@ $L8462:
   00118	8a 48 1d	mov	cl, BYTE PTR [eax+29]
   0011b	85 c9		test	ecx, ecx
   0011d	0f 85 af 00 00
-	00		jne	$L8469
+	00		jne	$L8477
 
 ; 700  : 
 ; 701  :             //
@@ -3012,7 +3012,7 @@ $L8462:
 
   00123	8b 45 fc	mov	eax, DWORD PTR _FunctionElements$[ebp]
   00126	c6 40 1f 01	mov	BYTE PTR [eax+31], 1
-$L8471:
+$L8479:
 
 ; 705  :             while ( FunctionElements->SkipLine ) {
 
@@ -3021,7 +3021,7 @@ $L8471:
   0012f	8a 48 1f	mov	cl, BYTE PTR [eax+31]
   00132	85 c9		test	ecx, ecx
   00134	0f 84 98 00 00
-	00		je	$L8472
+	00		je	$L8480
 
 ; 706  : 
 ; 707  :                 ClearAndSetLine(  SecondSection, &FunctionElements->SecondSectionCurrentLine );
@@ -3048,7 +3048,7 @@ $L8471:
   0016e	8a c8		mov	cl, al
   00170	85 c9		test	ecx, ecx
   00172	0f 84 3e 00 00
-	00		je	$L8473
+	00		je	$L8481
 
 ; 709  : 
 ; 710  :                     if ( DoNotSkipThisLine( SecondSection ) ) {
@@ -3060,7 +3060,7 @@ $L8471:
   00183	8a c8		mov	cl, al
   00185	85 c9		test	ecx, ecx
   00187	0f 84 10 00 00
-	00		je	$L8474
+	00		je	$L8482
 
 ; 711  : 
 ; 712  :                         //
@@ -3081,7 +3081,7 @@ $L8471:
 
   00196	8b 45 fc	mov	eax, DWORD PTR _FunctionElements$[ebp]
   00199	c6 40 1f 00	mov	BYTE PTR [eax+31], 0
-$L8474:
+$L8482:
 
 ; 722  : 
 ; 723  :                     }
@@ -3101,8 +3101,8 @@ $L8474:
 ; 726  : 
 ; 727  :                 }  else {
 
-  001b1	e9 17 00 00 00	jmp	$L8475
-$L8473:
+  001b1	e9 17 00 00 00	jmp	$L8483
+$L8481:
 
 ; 728  : 
 ; 729  :                     //
@@ -3121,16 +3121,16 @@ $L8473:
 
   001c6	8b 45 fc	mov	eax, DWORD PTR _FunctionElements$[ebp]
   001c9	c6 40 1f 00	mov	BYTE PTR [eax+31], 0
-$L8475:
+$L8483:
 
 ; 735  : 
 ; 736  :                 }
 ; 737  : 
 ; 738  :             }
 
-  001cd	e9 58 ff ff ff	jmp	$L8471
-$L8472:
-$L8469:
+  001cd	e9 58 ff ff ff	jmp	$L8479
+$L8480:
+$L8477:
 
 ; 739  : 
 ; 740  :         }
@@ -3183,8 +3183,8 @@ $L8469:
   001ff	8a 88 38 04 00
 	00		mov	cl, BYTE PTR [eax+1080]
   00205	89 4d f8	mov	DWORD PTR -8+[ebp], ecx
-  00208	e9 0a 05 00 00	jmp	$L8476
-$L8480:
+  00208	e9 0a 05 00 00	jmp	$L8484
+$L8488:
 
 ; 764  : 
 ; 765  :             //
@@ -3209,7 +3209,7 @@ $L8480:
   0021c	8a c8		mov	cl, al
   0021e	85 c9		test	ecx, ecx
   00220	0f 84 e4 01 00
-	00		je	$L8481
+	00		je	$L8489
 
 ; 777  : 
 ; 778  : 
@@ -3254,7 +3254,7 @@ $L8480:
   0025e	8b 45 fc	mov	eax, DWORD PTR _FunctionElements$[ebp]
   00261	83 78 04 00	cmp	DWORD PTR [eax+4], 0
   00265	0f 85 38 00 00
-	00		jne	$L8482
+	00		jne	$L8490
 
 ; 792  :                         printf("The system has run out of memory resources for this program\n");
 
@@ -3267,7 +3267,7 @@ $L8480:
   00278	8b 45 fc	mov	eax, DWORD PTR _FunctionElements$[ebp]
   0027b	83 78 08 00	cmp	DWORD PTR [eax+8], 0
   0027f	0f 84 0f 00 00
-	00		je	$L8483
+	00		je	$L8491
 
 ; 794  :                             DestroySection( FunctionElements->NewSecondSection );
 
@@ -3276,7 +3276,7 @@ $L8480:
   0028b	50		push	eax
   0028c	e8 00 00 00 00	call	_free
   00291	83 c4 04	add	esp, 4
-$L8483:
+$L8491:
 
 ; 795  :                         }
 ; 796  :                         exit( -1 );
@@ -3287,12 +3287,12 @@ $L8483:
 
 ; 797  :                     } else if ( FunctionElements->NewSecondSection == (PSECTION)NULL ) {
 
-  0029e	e9 33 00 00 00	jmp	$L8484
-$L8482:
+  0029e	e9 33 00 00 00	jmp	$L8492
+$L8490:
   002a3	8b 45 fc	mov	eax, DWORD PTR _FunctionElements$[ebp]
   002a6	83 78 08 00	cmp	DWORD PTR [eax+8], 0
   002aa	0f 85 26 00 00
-	00		jne	$L8485
+	00		jne	$L8493
 
 ; 798  :                         printf("The system has run out of memory resources for this program\n");
 
@@ -3313,8 +3313,8 @@ $L8482:
   002cc	6a ff		push	-1
   002ce	e8 00 00 00 00	call	_exit
   002d3	83 c4 04	add	esp, 4
-$L8485:
-$L8484:
+$L8493:
+$L8492:
 
 ; 801  :                     }
 ; 802  : 
@@ -3334,7 +3334,7 @@ $L8484:
   002e8	8a c8		mov	cl, al
   002ea	85 c9		test	ecx, ecx
   002ec	0f 84 1c 00 00
-	00		je	$L8487
+	00		je	$L8495
   002f2	8b 45 0c	mov	eax, DWORD PTR _SecondSection$[ebp]
   002f5	50		push	eax
   002f6	8b 45 fc	mov	eax, DWORD PTR _FunctionElements$[ebp]
@@ -3345,8 +3345,8 @@ $L8484:
   00304	8a c8		mov	cl, al
   00306	85 c9		test	ecx, ecx
   00308	0f 85 94 00 00
-	00		jne	$L8486
-$L8487:
+	00		jne	$L8494
+$L8495:
 
 ; 808  : 
 ; 809  :                         //
@@ -3441,8 +3441,8 @@ $L8487:
 
 ; 832  :                     } else {
 
-  0039d	e9 63 00 00 00	jmp	$L8490
-$L8486:
+  0039d	e9 63 00 00 00	jmp	$L8498
+$L8494:
 
 ; 833  : 
 ; 834  : 
@@ -3513,15 +3513,15 @@ $L8486:
   003fc	50		push	eax
   003fd	e8 00 00 00 00	call	_free
   00402	83 c4 04	add	esp, 4
-$L8490:
+$L8498:
 
 ; 858  : 
 ; 859  :                     }
 ; 860  : 
 ; 861  :                 } else {
 
-  00405	e9 43 00 00 00	jmp	$L8491
-$L8481:
+  00405	e9 43 00 00 00	jmp	$L8499
+$L8489:
 
 ; 862  : 
 ; 863  :                     //
@@ -3574,13 +3574,13 @@ $L8481:
   00444	8b 45 08	mov	eax, DWORD PTR _FirstSection$[ebp]
   00447	50		push	eax
   00448	e8 00 00 00 00	call	_CompareLinesAndPrintResults@16
-$L8491:
+$L8499:
 
 ; 881  :                 }
 ; 882  :                 break;
 
-  0044d	e9 f4 02 00 00	jmp	$L8477
-$L8492:
+  0044d	e9 f4 02 00 00	jmp	$L8485
+$L8500:
 
 ; 883  : 
 ; 884  : 
@@ -3618,7 +3618,7 @@ $L8492:
   0047c	df e0		fnstsw	ax
   0047e	f6 c4 01	test	ah, 1
   00481	0f 84 38 00 00
-	00		je	$L8493
+	00		je	$L8501
 
 ; 897  : 
 ; 898  :                     FunctionElements->FirstSectionSynchronize  = FALSE;
@@ -3659,8 +3659,8 @@ $L8492:
 ; 907  : 
 ; 908  :                 } else if ( FunctionElements->FirstSectionID < FunctionElements->SecondSectionID ) {
 
-  004ba	e9 e1 00 00 00	jmp	$L8494
-$L8493:
+  004ba	e9 e1 00 00 00	jmp	$L8502
+$L8501:
   004bf	8b 45 fc	mov	eax, DWORD PTR _FunctionElements$[ebp]
   004c2	dd 40 14	fld	QWORD PTR [eax+20]
   004c5	8b 45 fc	mov	eax, DWORD PTR _FunctionElements$[ebp]
@@ -3668,7 +3668,7 @@ $L8493:
   004cb	df e0		fnstsw	ax
   004cd	f6 c4 41	test	ah, 65			; 00000041H
   004d0	0f 85 38 00 00
-	00		jne	$L8495
+	00		jne	$L8503
 
 ; 909  : 
 ; 910  :                     FunctionElements->FirstSectionSynchronize  = TRUE;
@@ -3708,8 +3708,8 @@ $L8493:
 
 ; 919  :                 } else {
 
-  00509	e9 92 00 00 00	jmp	$L8496
-$L8495:
+  00509	e9 92 00 00 00	jmp	$L8504
+$L8503:
 
 ; 920  : 
 ; 921  :                     //
@@ -3741,7 +3741,7 @@ $L8495:
   0052b	df e0		fnstsw	ax
   0052d	f6 c4 40	test	ah, 64			; 00000040H
   00530	0f 84 35 00 00
-	00		je	$L8497
+	00		je	$L8505
 
 ; 933  : 
 ; 934  :                         //
@@ -3755,7 +3755,7 @@ $L8495:
 	00		mov	cl, BYTE PTR [eax+337]
   00541	83 f9 01	cmp	ecx, 1
   00544	0f 85 15 00 00
-	00		jne	$L8498
+	00		jne	$L8506
 
 ; 938  : 
 ; 939  :                             CompareTokensAndPrintResults( FirstSection,
@@ -3772,7 +3772,7 @@ $L8495:
   00556	8b 45 08	mov	eax, DWORD PTR _FirstSection$[ebp]
   00559	50		push	eax
   0055a	e8 00 00 00 00	call	_CompareTokensAndPrintResults@16
-$L8498:
+$L8506:
 
 ; 943  :                         }
 ; 944  : 
@@ -3784,8 +3784,8 @@ $L8498:
 ; 946  : 
 ; 947  :                     } else {
 
-  00566	e9 35 00 00 00	jmp	$L8499
-$L8497:
+  00566	e9 35 00 00 00	jmp	$L8507
+$L8505:
 
 ; 948  : 
 ; 949  :                         //
@@ -3822,9 +3822,9 @@ $L8497:
   00597	8b 45 08	mov	eax, DWORD PTR _FirstSection$[ebp]
   0059a	50		push	eax
   0059b	e8 00 00 00 00	call	_CompareLinesAndPrintResults@16
-$L8499:
-$L8496:
-$L8494:
+$L8507:
+$L8504:
+$L8502:
 
 ; 959  : 
 ; 960  :                     }
@@ -3833,8 +3833,8 @@ $L8494:
 ; 963  : 
 ; 964  :                 break;
 
-  005a0	e9 a1 01 00 00	jmp	$L8477
-$L8500:
+  005a0	e9 a1 01 00 00	jmp	$L8485
+$L8508:
 
 ; 965  : 
 ; 966  : 
@@ -3858,7 +3858,7 @@ $L8500:
 	00		mov	cl, BYTE PTR [eax+520]
   005b6	83 f9 02	cmp	ecx, 2
   005b9	0f 85 1c 00 00
-	00		jne	$L8501
+	00		jne	$L8509
 
 ; 978  : 
 ; 979  :                     FunctionElements->FirstSectionSynchronize = TRUE;
@@ -3877,8 +3877,8 @@ $L8500:
 ; 981  : 
 ; 982  :                 } else {
 
-  005d6	e9 17 00 00 00	jmp	$L8502
-$L8501:
+  005d6	e9 17 00 00 00	jmp	$L8510
+$L8509:
 
 ; 983  : 
 ; 984  :                     FunctionElements->SecondSectionSynchronize = TRUE;
@@ -3893,7 +3893,7 @@ $L8501:
 	00		mov	eax, DWORD PTR [eax+308]
   005eb	c6 80 08 02 00
 	00 03		mov	BYTE PTR [eax+520], 3
-$L8502:
+$L8510:
 
 ; 986  : 
 ; 987  :                 }
@@ -3915,8 +3915,8 @@ $L8502:
 
 ; 993  :                 break;
 
-  00607	e9 3a 01 00 00	jmp	$L8477
-$L8503:
+  00607	e9 3a 01 00 00	jmp	$L8485
+$L8511:
 
 ; 994  : 
 ; 995  : 
@@ -3941,7 +3941,7 @@ $L8503:
 	00		mov	cl, BYTE PTR [eax+520]
   0061d	83 f9 01	cmp	ecx, 1
   00620	0f 85 3b 00 00
-	00		jne	$L8504
+	00		jne	$L8512
 
 ; 1008 : 
 ; 1009 :                     if ( ExtractSectionIDFromLine( FirstSection ) != (DOUBLE)0 ) {
@@ -3950,11 +3950,11 @@ $L8503:
   00629	50		push	eax
   0062a	e8 00 00 00 00	call	_ExtractSectionIDFromLine@4
   0062f	dc 1d 00 00 00
-	00		fcomp	QWORD PTR $T8926
+	00		fcomp	QWORD PTR $T8934
   00635	df e0		fnstsw	ax
   00637	f6 c4 40	test	ah, 64			; 00000040H
   0063a	0f 85 0c 00 00
-	00		jne	$L8505
+	00		jne	$L8513
 
 ; 1010 : 
 ; 1011 :                         FunctionElements->FirstSectionSynchronize = TRUE;
@@ -3965,8 +3965,8 @@ $L8503:
 ; 1012 : 
 ; 1013 :                     }  else {
 
-  00647	e9 10 00 00 00	jmp	$L8506
-$L8505:
+  00647	e9 10 00 00 00	jmp	$L8514
+$L8513:
 
 ; 1014 : 
 ; 1015 :                         //
@@ -3979,15 +3979,15 @@ $L8505:
 	00		mov	eax, DWORD PTR [eax+308]
   00655	c6 80 08 02 00
 	00 03		mov	BYTE PTR [eax+520], 3
-$L8506:
+$L8514:
 
 ; 1019 : 
 ; 1020 :                     }
 ; 1021 : 
 ; 1022 :                 } else {
 
-  0065c	e9 36 00 00 00	jmp	$L8507
-$L8504:
+  0065c	e9 36 00 00 00	jmp	$L8515
+$L8512:
 
 ; 1023 : 
 ; 1024 :                     if ( ExtractSectionIDFromLine( SecondSection ) != (DOUBLE)0 ) {
@@ -3996,11 +3996,11 @@ $L8504:
   00664	50		push	eax
   00665	e8 00 00 00 00	call	_ExtractSectionIDFromLine@4
   0066a	dc 1d 00 00 00
-	00		fcomp	QWORD PTR $T8926
+	00		fcomp	QWORD PTR $T8934
   00670	df e0		fnstsw	ax
   00672	f6 c4 40	test	ah, 64			; 00000040H
   00675	0f 85 0c 00 00
-	00		jne	$L8508
+	00		jne	$L8516
 
 ; 1025 : 
 ; 1026 :                         FunctionElements->SecondSectionSynchronize = TRUE;
@@ -4011,8 +4011,8 @@ $L8504:
 ; 1027 : 
 ; 1028 :                     } else {
 
-  00682	e9 10 00 00 00	jmp	$L8509
-$L8508:
+  00682	e9 10 00 00 00	jmp	$L8517
+$L8516:
 
 ; 1029 : 
 ; 1030 :                         //
@@ -4025,8 +4025,8 @@ $L8508:
 	00		mov	eax, DWORD PTR [eax+308]
   00690	c6 80 08 02 00
 	00 03		mov	BYTE PTR [eax+520], 3
-$L8509:
-$L8507:
+$L8517:
+$L8515:
 
 ; 1034 : 
 ; 1035 :                     }
@@ -4051,8 +4051,8 @@ $L8507:
 
 ; 1044 :                 break;
 
-  006ac	e9 95 00 00 00	jmp	$L8477
-$L8510:
+  006ac	e9 95 00 00 00	jmp	$L8485
+$L8518:
 
 ; 1045 : 
 ; 1046 : 
@@ -4077,7 +4077,7 @@ $L8510:
 	00		mov	cl, BYTE PTR [eax+520]
   006c2	83 f9 02	cmp	ecx, 2
   006c5	0f 85 0c 00 00
-	00		jne	$L8511
+	00		jne	$L8519
 
 ; 1059 : 
 ; 1060 :                     FunctionElements->FirstSectionSynchronize = TRUE;
@@ -4088,15 +4088,15 @@ $L8510:
 ; 1061 : 
 ; 1062 :                 } else {
 
-  006d2	e9 07 00 00 00	jmp	$L8512
-$L8511:
+  006d2	e9 07 00 00 00	jmp	$L8520
+$L8519:
 
 ; 1063 : 
 ; 1064 :                     FunctionElements->SecondSectionSynchronize = TRUE;
 
   006d7	8b 45 fc	mov	eax, DWORD PTR _FunctionElements$[ebp]
   006da	c6 40 1d 01	mov	BYTE PTR [eax+29], 1
-$L8512:
+$L8520:
 
 ; 1065 : 
 ; 1066 :                 }
@@ -4118,8 +4118,8 @@ $L8512:
 
 ; 1072 :                 break;
 
-  006f3	e9 4e 00 00 00	jmp	$L8477
-$L8513:
+  006f3	e9 4e 00 00 00	jmp	$L8485
+$L8521:
 
 ; 1073 : 
 ; 1074 :             //
@@ -4145,36 +4145,36 @@ $L8513:
 ; 1083 : 
 ; 1084 :                 break;
 
-  0070d	e9 34 00 00 00	jmp	$L8477
+  0070d	e9 34 00 00 00	jmp	$L8485
 
 ; 1085 : 
 ; 1086 : 
 ; 1087 :         } // !switch{}
 
-  00712	e9 2f 00 00 00	jmp	$L8477
-$L8476:
+  00712	e9 2f 00 00 00	jmp	$L8485
+$L8484:
   00717	ff 4d f8	dec	DWORD PTR -8+[ebp]
   0071a	83 7d f8 05	cmp	DWORD PTR -8+[ebp], 5
   0071e	0f 87 22 00 00
-	00		ja	$L8477
+	00		ja	$L8485
   00724	8b 45 f8	mov	eax, DWORD PTR -8+[ebp]
   00727	ff 24 85 00 00
-	00 00		jmp	DWORD PTR $L8927[eax*4]
-$L8927:
-  0072e	00 00 00 00	DD	OFFSET FLAT:$L8480
-  00732	00 00 00 00	DD	OFFSET FLAT:$L8500
-  00736	00 00 00 00	DD	OFFSET FLAT:$L8503
-  0073a	00 00 00 00	DD	OFFSET FLAT:$L8492
-  0073e	00 00 00 00	DD	OFFSET FLAT:$L8510
-  00742	00 00 00 00	DD	OFFSET FLAT:$L8513
-$L8477:
+	00 00		jmp	DWORD PTR $L8935[eax*4]
+$L8935:
+  0072e	00 00 00 00	DD	OFFSET FLAT:$L8488
+  00732	00 00 00 00	DD	OFFSET FLAT:$L8508
+  00736	00 00 00 00	DD	OFFSET FLAT:$L8511
+  0073a	00 00 00 00	DD	OFFSET FLAT:$L8500
+  0073e	00 00 00 00	DD	OFFSET FLAT:$L8518
+  00742	00 00 00 00	DD	OFFSET FLAT:$L8521
+$L8485:
 
 ; 1088 : 
 ; 1089 : 
 ; 1090 :     }  // !while( FunctionElements->SectionEndsNotSynchronized )
 
-  00746	e9 fd f8 ff ff	jmp	$L8460
-$L8461:
+  00746	e9 fd f8 ff ff	jmp	$L8468
+$L8469:
 
 ; 1091 : 
 ; 1092 : 
@@ -4186,7 +4186,7 @@ $L8461:
   0074b	8b 45 fc	mov	eax, DWORD PTR _FunctionElements$[ebp]
   0074e	83 38 00	cmp	DWORD PTR [eax], 0
   00751	0f 84 28 00 00
-	00		je	$L8514
+	00		je	$L8522
 
 ; 1097 : 
 ; 1098 :         fprintf( DifferenceFile, "\n\n__SECTIONAL RESULTS FOR SECTION ID : %f ERROR(S): %u\n",
@@ -4208,7 +4208,7 @@ $L8461:
   00776	50		push	eax
   00777	e8 00 00 00 00	call	_fprintf
   0077c	83 c4 14	add	esp, 20			; 00000014H
-$L8514:
+$L8522:
 
 ; 1101 : 
 ; 1102 :     }
@@ -4233,8 +4233,8 @@ $L8514:
 ; 1109 :     return TRUE;
 
   00795	b0 01		mov	al, 1
-  00797	e9 00 00 00 00	jmp	$L8455
-$L8455:
+  00797	e9 00 00 00 00	jmp	$L8463
+$L8463:
 
 ; 1110 : 
 ; 1111 : 
@@ -4296,7 +4296,7 @@ _GetNextLine@4 PROC NEAR				; COMDAT
   0002d	83 c4 0c	add	esp, 12			; 0000000cH
   00030	85 c0		test	eax, eax
   00032	0f 84 24 01 00
-	00		je	$L8521
+	00		je	$L8529
 
 ; 1132 : 
 ; 1133 :         //
@@ -4318,14 +4318,14 @@ _GetNextLine@4 PROC NEAR				; COMDAT
 
   00052	83 7d fc 00	cmp	DWORD PTR _Tmp$[ebp], 0
   00056	0f 84 06 00 00
-	00		je	$L8522
+	00		je	$L8530
 
 ; 1138 : 
 ; 1139 :             *Tmp = '\0';
 
   0005c	8b 45 fc	mov	eax, DWORD PTR _Tmp$[ebp]
   0005f	c6 00 00	mov	BYTE PTR [eax], 0
-$L8522:
+$L8530:
 
 ; 1140 : 
 ; 1141 :         }
@@ -4355,10 +4355,10 @@ $L8522:
 	00 00		mov	DWORD PTR _i$[ebp], 0
   00089	c7 45 f4 00 00
 	00 00		mov	DWORD PTR _j$[ebp], 0
-  00090	e9 03 00 00 00	jmp	$L8523
-$L8524:
+  00090	e9 03 00 00 00	jmp	$L8531
+$L8532:
   00095	ff 45 f8	inc	DWORD PTR _i$[ebp]
-$L8523:
+$L8531:
   00098	8b 45 08	mov	eax, DWORD PTR _Section$[ebp]
   0009b	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -4368,7 +4368,7 @@ $L8523:
   000aa	83 c4 04	add	esp, 4
   000ad	3b 45 f8	cmp	eax, DWORD PTR _i$[ebp]
   000b0	0f 86 9f 00 00
-	00		jbe	$L8525
+	00		jbe	$L8533
 
 ; 1150 : 
 ; 1151 :             if ( isspace( Section->CurrentLine->NormalLine[i] ) == 0 ) {
@@ -4376,7 +4376,7 @@ $L8523:
   000b6	83 3d 00 00 00
 	00 01		cmp	DWORD PTR ___mb_cur_max, 1
   000bd	0f 8e 24 00 00
-	00		jle	$L8931
+	00		jle	$L8939
   000c3	6a 08		push	8
   000c5	8b 45 08	mov	eax, DWORD PTR _Section$[ebp]
   000c8	8b 80 34 01 00
@@ -4387,8 +4387,8 @@ $L8523:
   000d7	e8 00 00 00 00	call	__isctype
   000dc	83 c4 08	add	esp, 8
   000df	89 45 f0	mov	DWORD PTR -16+[ebp], eax
-  000e2	e9 23 00 00 00	jmp	$L8932
-$L8931:
+  000e2	e9 23 00 00 00	jmp	$L8940
+$L8939:
   000e7	8b 45 08	mov	eax, DWORD PTR _Section$[ebp]
   000ea	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -4400,10 +4400,10 @@ $L8931:
   00100	66 8b 14 41	mov	dx, WORD PTR [ecx+eax*2]
   00104	83 e2 08	and	edx, 8
   00107	89 55 f0	mov	DWORD PTR -16+[ebp], edx
-$L8932:
+$L8940:
   0010a	83 7d f0 00	cmp	DWORD PTR -16+[ebp], 0
   0010e	0f 85 3c 00 00
-	00		jne	$L8526
+	00		jne	$L8534
 
 ; 1152 : 
 ; 1153 :                 Section->CurrentLine->CompressedLine[j] = toupper( Section->CurrentLine->NormalLine[i] );
@@ -4434,15 +4434,15 @@ $L8932:
 ; 1156 :                 j++;
 
   0014d	ff 45 f4	inc	DWORD PTR _j$[ebp]
-$L8526:
+$L8534:
 
 ; 1157 : 
 ; 1158 :             }
 ; 1159 : 
 ; 1160 :         }
 
-  00150	e9 40 ff ff ff	jmp	$L8524
-$L8525:
+  00150	e9 40 ff ff ff	jmp	$L8532
+$L8533:
 
 ; 1161 : 
 ; 1162 :         //
@@ -4451,8 +4451,8 @@ $L8525:
 ; 1165 :         return TRUE;
 
   00155	b0 01		mov	al, 1
-  00157	e9 07 00 00 00	jmp	$L8517
-$L8521:
+  00157	e9 07 00 00 00	jmp	$L8525
+$L8529:
 
 ; 1166 : 
 ; 1167 :     }
@@ -4463,8 +4463,8 @@ $L8521:
 ; 1172 :     return FALSE;
 
   0015c	32 c0		xor	al, al
-  0015e	e9 00 00 00 00	jmp	$L8517
-$L8517:
+  0015e	e9 00 00 00 00	jmp	$L8525
+$L8525:
 
 ; 1173 : 
 ; 1174 : }
@@ -4511,13 +4511,13 @@ _LineType@4 PROC NEAR					; COMDAT
 	00		mov	cl, BYTE PTR [eax+520]
   00017	83 f9 02	cmp	ecx, 2
   0001a	0f 85 05 00 00
-	00		jne	$L8529
+	00		jne	$L8537
 
 ; 1189 : 
 ; 1190 :         return;
 
-  00020	e9 c2 00 00 00	jmp	$L8528
-$L8529:
+  00020	e9 c2 00 00 00	jmp	$L8536
+$L8537:
 
 ; 1191 : 
 ; 1192 :     }
@@ -4538,7 +4538,7 @@ $L8529:
   0003e	83 c4 08	add	esp, 8
   00041	85 c0		test	eax, eax
   00043	0f 84 15 00 00
-	00		je	$L8530
+	00		je	$L8538
 
 ; 1199 : 
 ; 1200 :         Section->CurrentLine->LineType = LINE_TYPE_REGULAR;
@@ -4551,8 +4551,8 @@ $L8529:
 
 ; 1201 :         return;
 
-  00059	e9 89 00 00 00	jmp	$L8528
-$L8530:
+  00059	e9 89 00 00 00	jmp	$L8536
+$L8538:
 
 ; 1202 :     }
 ; 1203 : 
@@ -4572,7 +4572,7 @@ $L8530:
   00078	83 c4 08	add	esp, 8
   0007b	85 c0		test	eax, eax
   0007d	0f 84 15 00 00
-	00		je	$L8532
+	00		je	$L8540
 
 ; 1208 : 
 ; 1209 :         Section->CurrentLine->LineType = LINE_TYPE_SECTION_START;
@@ -4585,8 +4585,8 @@ $L8530:
 
 ; 1210 :         return;
 
-  00093	e9 4f 00 00 00	jmp	$L8528
-$L8532:
+  00093	e9 4f 00 00 00	jmp	$L8536
+$L8540:
 
 ; 1211 :     }
 ; 1212 : 
@@ -4606,7 +4606,7 @@ $L8532:
   000b2	83 c4 08	add	esp, 8
   000b5	85 c0		test	eax, eax
   000b7	0f 84 15 00 00
-	00		je	$L8533
+	00		je	$L8541
 
 ; 1217 : 
 ; 1218 :         Section->CurrentLine->LineType = LINE_TYPE_SECTION_END;
@@ -4619,8 +4619,8 @@ $L8532:
 
 ; 1219 :         return;
 
-  000cd	e9 15 00 00 00	jmp	$L8528
-$L8533:
+  000cd	e9 15 00 00 00	jmp	$L8536
+$L8541:
 
 ; 1220 :     }
 ; 1221 : 
@@ -4634,8 +4634,8 @@ $L8533:
 
 ; 1223 :     return;
 
-  000e2	e9 00 00 00 00	jmp	$L8528
-$L8528:
+  000e2	e9 00 00 00 00	jmp	$L8536
+$L8536:
 
 ; 1224 : 
 ; 1225 : }
@@ -4692,16 +4692,16 @@ _ExtractResults@4 PROC NEAR				; COMDAT
 
   00018	c7 45 f0 00 00
 	00 00		mov	DWORD PTR _i$[ebp], 0
-  0001f	e9 03 00 00 00	jmp	$L8542
-$L8543:
+  0001f	e9 03 00 00 00	jmp	$L8550
+$L8551:
   00024	ff 45 f0	inc	DWORD PTR _i$[ebp]
-$L8542:
+$L8550:
   00027	8b 45 08	mov	eax, DWORD PTR _Section$[ebp]
   0002a	8b 4d f0	mov	ecx, DWORD PTR _i$[ebp]
   0002d	39 88 04 01 00
 	00		cmp	DWORD PTR [eax+260], ecx
   00033	0f 86 2c 00 00
-	00		jbe	$L8544
+	00		jbe	$L8552
 
 ; 1245 : 
 ; 1246 :         Section->LastResults[i]    = Section->CurrentResults[i];
@@ -4725,8 +4725,8 @@ $L8542:
 ; 1248 : 
 ; 1249 :     }
 
-  00060	e9 bf ff ff ff	jmp	$L8543
-$L8544:
+  00060	e9 bf ff ff ff	jmp	$L8551
+$L8552:
 
 ; 1250 :     Section->NumberOfLastResults    = Section->NumberOfCurrentResults;
 
@@ -4801,7 +4801,7 @@ $L8544:
 
   000ca	83 7d f8 00	cmp	DWORD PTR _TmpBuf$[ebp], 0
   000ce	0f 85 25 00 00
-	00		jne	$L8545
+	00		jne	$L8553
 
 ; 1277 : 
 ; 1278 :         //
@@ -4822,15 +4822,15 @@ $L8544:
 
   000e8	83 7d f8 00	cmp	DWORD PTR _TmpBuf$[ebp], 0
   000ec	0f 85 07 00 00
-	00		jne	$L8546
+	00		jne	$L8554
 
 ; 1284 : 
 ; 1285 :             return FALSE;
 
   000f2	32 c0		xor	al, al
-  000f4	e9 c0 00 00 00	jmp	$L8535
-$L8546:
-$L8545:
+  000f4	e9 c0 00 00 00	jmp	$L8543
+$L8554:
+$L8553:
 
 ; 1286 : 
 ; 1287 :         }
@@ -4855,7 +4855,7 @@ $L8545:
   00104	e8 00 00 00 00	call	_strtok
   00109	83 c4 08	add	esp, 8
   0010c	89 45 ec	mov	DWORD PTR _Token$[ebp], eax
-$L8548:
+$L8556:
 
 ; 1298 : 
 ; 1299 :     while ( ( Section->NumberOfCurrentResults < MAX_RESULTS_COUNT ) &&
@@ -4866,15 +4866,15 @@ $L8548:
   00112	83 b8 04 01 00
 	00 20		cmp	DWORD PTR [eax+260], 32	; 00000020H
   00119	0f 83 7c 00 00
-	00		jae	$L8549
+	00		jae	$L8557
   0011f	83 7d ec 00	cmp	DWORD PTR _Token$[ebp], 0
   00123	0f 84 72 00 00
-	00		je	$L8549
+	00		je	$L8557
   00129	33 c0		xor	eax, eax
   0012b	8a 45 fc	mov	al, BYTE PTR _ExtractMoreResults$[ebp]
   0012e	85 c0		test	eax, eax
   00130	0f 84 65 00 00
-	00		je	$L8549
+	00		je	$L8557
 
 ; 1302 : 
 ; 1303 :         if ( (*Token >= '0') && (*Token <= '9') ) {
@@ -4883,12 +4883,12 @@ $L8548:
   00139	0f be 00	movsx	eax, BYTE PTR [eax]
   0013c	83 f8 30	cmp	eax, 48			; 00000030H
   0013f	0f 8c 4d 00 00
-	00		jl	$L8550
+	00		jl	$L8558
   00145	8b 45 ec	mov	eax, DWORD PTR _Token$[ebp]
   00148	0f be 00	movsx	eax, BYTE PTR [eax]
   0014b	83 f8 39	cmp	eax, 57			; 00000039H
   0014e	0f 8f 3e 00 00
-	00		jg	$L8550
+	00		jg	$L8558
 
 ; 1304 : 
 ; 1305 :             Section->CurrentResults[Section->NumberOfCurrentResults] =  atol( Token );
@@ -4922,22 +4922,22 @@ $L8548:
 ; 1308 : 
 ; 1309 :         } else {
 
-  0018d	e9 04 00 00 00	jmp	$L8551
-$L8550:
+  0018d	e9 04 00 00 00	jmp	$L8559
+$L8558:
 
 ; 1310 : 
 ; 1311 :            ExtractMoreResults = FALSE;
 
   00192	c6 45 fc 00	mov	BYTE PTR _ExtractMoreResults$[ebp], 0
-$L8551:
+$L8559:
 
 ; 1312 : 
 ; 1313 :         }
 ; 1314 : 
 ; 1315 :     }
 
-  00196	e9 74 ff ff ff	jmp	$L8548
-$L8549:
+  00196	e9 74 ff ff ff	jmp	$L8556
+$L8557:
 
 ; 1316 : 
 ; 1317 :     if ( Section->NumberOfCurrentResults ) {
@@ -4946,14 +4946,14 @@ $L8549:
   0019e	83 b8 04 01 00
 	00 00		cmp	DWORD PTR [eax+260], 0
   001a5	0f 84 07 00 00
-	00		je	$L8552
+	00		je	$L8560
 
 ; 1318 : 
 ; 1319 :         return TRUE;
 
   001ab	b0 01		mov	al, 1
-  001ad	e9 07 00 00 00	jmp	$L8535
-$L8552:
+  001ad	e9 07 00 00 00	jmp	$L8543
+$L8560:
 
 ; 1320 : 
 ; 1321 :     }
@@ -4961,8 +4961,8 @@ $L8552:
 ; 1323 :     return FALSE;
 
   001b2	32 c0		xor	al, al
-  001b4	e9 00 00 00 00	jmp	$L8535
-$L8535:
+  001b4	e9 00 00 00 00	jmp	$L8543
+$L8543:
 
 ; 1324 : 
 ; 1325 : }
@@ -5024,7 +5024,7 @@ _ExtractBetweenValues@4 PROC NEAR			; COMDAT
 
   00028	83 7d fc 00	cmp	DWORD PTR _Tmp$[ebp], 0
   0002c	0f 84 c3 00 00
-	00		je	$L8559
+	00		je	$L8567
 
 ; 1341 : 
 ; 1342 :         Tmp += strlen( "BETWEEN_VALUES" );
@@ -5066,7 +5066,7 @@ _ExtractBetweenValues@4 PROC NEAR			; COMDAT
 
   0006b	83 7d f4 00	cmp	DWORD PTR _Tmp1$[ebp], 0
   0006f	0f 84 2a 00 00
-	00		je	$L8561
+	00		je	$L8569
 
 ; 1355 : 
 ; 1356 :             Tmp1 += strlen( "," );
@@ -5094,8 +5094,8 @@ _ExtractBetweenValues@4 PROC NEAR			; COMDAT
 ; 1363 : 
 ; 1364 :         } else {
 
-  0009a	e9 0d 00 00 00	jmp	$L8562
-$L8561:
+  0009a	e9 0d 00 00 00	jmp	$L8570
+$L8569:
 
 ; 1365 : 
 ; 1366 :             Section->MaximumValue = 0xffffffff;
@@ -5103,7 +5103,7 @@ $L8561:
   0009f	8b 45 08	mov	eax, DWORD PTR _Section$[ebp]
   000a2	c7 80 2c 01 00
 	00 ff ff ff ff	mov	DWORD PTR [eax+300], -1
-$L8562:
+$L8570:
 
 ; 1367 : 
 ; 1368 :         }
@@ -5117,7 +5117,7 @@ $L8562:
   000b8	39 88 28 01 00
 	00		cmp	DWORD PTR [eax+296], ecx
   000be	0f 86 2a 00 00
-	00		jbe	$L8563
+	00		jbe	$L8571
 
 ; 1371 : 
 ; 1372 :             SwapValue             = Section->MinimumValue;
@@ -5142,7 +5142,7 @@ $L8562:
   000e5	8b 4d 08	mov	ecx, DWORD PTR _Section$[ebp]
   000e8	89 81 2c 01 00
 	00		mov	DWORD PTR [ecx+300], eax
-$L8563:
+$L8571:
 
 ; 1375 : 
 ; 1376 : 
@@ -5151,8 +5151,8 @@ $L8563:
 ; 1379 :         return TRUE;
 
   000ee	b0 01		mov	al, 1
-  000f0	e9 21 00 00 00	jmp	$L8554
-$L8559:
+  000f0	e9 21 00 00 00	jmp	$L8562
+$L8567:
 
 ; 1380 : 
 ; 1381 :     }
@@ -5176,8 +5176,8 @@ $L8559:
 ; 1389 :     return FALSE;
 
   0010f	32 c0		xor	al, al
-  00111	e9 00 00 00 00	jmp	$L8554
-$L8554:
+  00111	e9 00 00 00 00	jmp	$L8562
+$L8562:
 
 ; 1390 : 
 ; 1391 : }
@@ -5223,7 +5223,7 @@ _CombinedVariation@12 PROC NEAR				; COMDAT
 	00		mov	cl, BYTE PTR [eax+520]
   00017	83 f9 01	cmp	ecx, 1
   0001a	0f 85 27 00 00
-	00		jne	$L8568
+	00		jne	$L8576
   00020	8b 45 0c	mov	eax, DWORD PTR _SecondSection$[ebp]
   00023	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -5232,7 +5232,7 @@ _CombinedVariation@12 PROC NEAR				; COMDAT
 	00		mov	cl, BYTE PTR [eax+520]
   00031	83 f9 01	cmp	ecx, 1
   00034	0f 85 0d 00 00
-	00		jne	$L8568
+	00		jne	$L8576
 
 ; 1410 :         *CombinedLineVariation = SECTIONHDR_SECTIONHDR;
 
@@ -5242,8 +5242,8 @@ _CombinedVariation@12 PROC NEAR				; COMDAT
 ; 1411 :         return TRUE;
 
   00040	b0 01		mov	al, 1
-  00042	e9 e8 01 00 00	jmp	$L8567
-$L8568:
+  00042	e9 e8 01 00 00	jmp	$L8575
+$L8576:
 
 ; 1412 :     }
 ; 1413 : 
@@ -5258,7 +5258,7 @@ $L8568:
 	00		mov	cl, BYTE PTR [eax+520]
   00058	83 f9 02	cmp	ecx, 2
   0005b	0f 85 27 00 00
-	00		jne	$L8569
+	00		jne	$L8577
   00061	8b 45 0c	mov	eax, DWORD PTR _SecondSection$[ebp]
   00064	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -5267,7 +5267,7 @@ $L8568:
 	00		mov	cl, BYTE PTR [eax+520]
   00072	83 f9 02	cmp	ecx, 2
   00075	0f 85 0d 00 00
-	00		jne	$L8569
+	00		jne	$L8577
 
 ; 1416 :         *CombinedLineVariation = SECTIONEND_SECTIONEND;
 
@@ -5277,8 +5277,8 @@ $L8568:
 ; 1417 :         return TRUE;
 
   00081	b0 01		mov	al, 1
-  00083	e9 a7 01 00 00	jmp	$L8567
-$L8569:
+  00083	e9 a7 01 00 00	jmp	$L8575
+$L8577:
 
 ; 1418 :     }
 ; 1419 : 
@@ -5294,7 +5294,7 @@ $L8569:
 	00		mov	cl, BYTE PTR [eax+520]
   00099	83 f9 03	cmp	ecx, 3
   0009c	0f 85 27 00 00
-	00		jne	$L8570
+	00		jne	$L8578
   000a2	8b 45 0c	mov	eax, DWORD PTR _SecondSection$[ebp]
   000a5	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -5303,7 +5303,7 @@ $L8569:
 	00		mov	cl, BYTE PTR [eax+520]
   000b3	83 f9 03	cmp	ecx, 3
   000b6	0f 85 0d 00 00
-	00		jne	$L8570
+	00		jne	$L8578
 
 ; 1423 :         *CombinedLineVariation = REGLINE_REGLINE;
 
@@ -5313,8 +5313,8 @@ $L8569:
 ; 1424 :         return TRUE;
 
   000c2	b0 01		mov	al, 1
-  000c4	e9 66 01 00 00	jmp	$L8567
-$L8570:
+  000c4	e9 66 01 00 00	jmp	$L8575
+$L8578:
 
 ; 1425 :     }
 ; 1426 : 
@@ -5335,7 +5335,7 @@ $L8570:
 	00		mov	cl, BYTE PTR [eax+520]
   000da	83 f9 01	cmp	ecx, 1
   000dd	0f 85 1a 00 00
-	00		jne	$L8573
+	00		jne	$L8581
   000e3	8b 45 0c	mov	eax, DWORD PTR _SecondSection$[ebp]
   000e6	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -5344,8 +5344,8 @@ $L8570:
 	00		mov	cl, BYTE PTR [eax+520]
   000f4	83 f9 02	cmp	ecx, 2
   000f7	0f 84 34 00 00
-	00		je	$L8572
-$L8573:
+	00		je	$L8580
+$L8581:
   000fd	8b 45 08	mov	eax, DWORD PTR _FirstSection$[ebp]
   00100	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -5354,7 +5354,7 @@ $L8573:
 	00		mov	cl, BYTE PTR [eax+520]
   0010e	83 f9 02	cmp	ecx, 2
   00111	0f 85 27 00 00
-	00		jne	$L8571
+	00		jne	$L8579
   00117	8b 45 0c	mov	eax, DWORD PTR _SecondSection$[ebp]
   0011a	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -5363,8 +5363,8 @@ $L8573:
 	00		mov	cl, BYTE PTR [eax+520]
   00128	83 f9 01	cmp	ecx, 1
   0012b	0f 85 0d 00 00
-	00		jne	$L8571
-$L8572:
+	00		jne	$L8579
+$L8580:
 
 ; 1435 :         *CombinedLineVariation = SECTIONHDR_SECTIONEND;
 
@@ -5374,8 +5374,8 @@ $L8572:
 ; 1436 :         return TRUE;
 
   00137	b0 01		mov	al, 1
-  00139	e9 f1 00 00 00	jmp	$L8567
-$L8571:
+  00139	e9 f1 00 00 00	jmp	$L8575
+$L8579:
 
 ; 1437 :     }
 ; 1438 : 
@@ -5396,7 +5396,7 @@ $L8571:
 	00		mov	cl, BYTE PTR [eax+520]
   0014f	83 f9 01	cmp	ecx, 1
   00152	0f 85 1a 00 00
-	00		jne	$L8576
+	00		jne	$L8584
   00158	8b 45 0c	mov	eax, DWORD PTR _SecondSection$[ebp]
   0015b	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -5405,8 +5405,8 @@ $L8571:
 	00		mov	cl, BYTE PTR [eax+520]
   00169	83 f9 03	cmp	ecx, 3
   0016c	0f 84 34 00 00
-	00		je	$L8575
-$L8576:
+	00		je	$L8583
+$L8584:
   00172	8b 45 08	mov	eax, DWORD PTR _FirstSection$[ebp]
   00175	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -5415,7 +5415,7 @@ $L8576:
 	00		mov	cl, BYTE PTR [eax+520]
   00183	83 f9 03	cmp	ecx, 3
   00186	0f 85 27 00 00
-	00		jne	$L8574
+	00		jne	$L8582
   0018c	8b 45 0c	mov	eax, DWORD PTR _SecondSection$[ebp]
   0018f	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -5424,8 +5424,8 @@ $L8576:
 	00		mov	cl, BYTE PTR [eax+520]
   0019d	83 f9 01	cmp	ecx, 1
   001a0	0f 85 0d 00 00
-	00		jne	$L8574
-$L8575:
+	00		jne	$L8582
+$L8583:
 
 ; 1447 :         *CombinedLineVariation = SECTIONHDR_REGLINE;
 
@@ -5435,8 +5435,8 @@ $L8575:
 ; 1448 :         return TRUE;
 
   001ac	b0 01		mov	al, 1
-  001ae	e9 7c 00 00 00	jmp	$L8567
-$L8574:
+  001ae	e9 7c 00 00 00	jmp	$L8575
+$L8582:
 
 ; 1449 :     }
 ; 1450 : 
@@ -5457,7 +5457,7 @@ $L8574:
 	00		mov	cl, BYTE PTR [eax+520]
   001c4	83 f9 02	cmp	ecx, 2
   001c7	0f 85 1a 00 00
-	00		jne	$L8579
+	00		jne	$L8587
   001cd	8b 45 0c	mov	eax, DWORD PTR _SecondSection$[ebp]
   001d0	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -5466,8 +5466,8 @@ $L8574:
 	00		mov	cl, BYTE PTR [eax+520]
   001de	83 f9 03	cmp	ecx, 3
   001e1	0f 84 34 00 00
-	00		je	$L8578
-$L8579:
+	00		je	$L8586
+$L8587:
   001e7	8b 45 08	mov	eax, DWORD PTR _FirstSection$[ebp]
   001ea	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -5476,7 +5476,7 @@ $L8579:
 	00		mov	cl, BYTE PTR [eax+520]
   001f8	83 f9 03	cmp	ecx, 3
   001fb	0f 85 27 00 00
-	00		jne	$L8577
+	00		jne	$L8585
   00201	8b 45 0c	mov	eax, DWORD PTR _SecondSection$[ebp]
   00204	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -5485,8 +5485,8 @@ $L8579:
 	00		mov	cl, BYTE PTR [eax+520]
   00212	83 f9 02	cmp	ecx, 2
   00215	0f 85 0d 00 00
-	00		jne	$L8577
-$L8578:
+	00		jne	$L8585
+$L8586:
 
 ; 1459 :         *CombinedLineVariation = SECTIONEND_REGLINE;
 
@@ -5496,16 +5496,16 @@ $L8578:
 ; 1460 :         return TRUE;
 
   00221	b0 01		mov	al, 1
-  00223	e9 07 00 00 00	jmp	$L8567
-$L8577:
+  00223	e9 07 00 00 00	jmp	$L8575
+$L8585:
 
 ; 1461 :     }
 ; 1462 : 
 ; 1463 :     return FALSE;
 
   00228	32 c0		xor	al, al
-  0022a	e9 00 00 00 00	jmp	$L8567
-$L8567:
+  0022a	e9 00 00 00 00	jmp	$L8575
+$L8575:
 
 ; 1464 : }
 
@@ -5583,14 +5583,14 @@ _CompareLines@8 PROC NEAR				; COMDAT
   0001c	8a c8		mov	cl, al
   0001e	85 c9		test	ecx, ecx
   00020	0f 84 07 00 00
-	00		je	$L8585
+	00		je	$L8593
 
 ; 1500 : 
 ; 1501 :         return COMPARE_SUCCESS;
 
   00026	33 c0		xor	eax, eax
-  00028	e9 53 04 00 00	jmp	$L8582
-$L8585:
+  00028	e9 53 04 00 00	jmp	$L8590
+$L8593:
 
 ; 1502 : 
 ; 1503 :     }
@@ -5610,7 +5610,7 @@ $L8585:
   00046	83 c4 08	add	esp, 8
   00049	85 c0		test	eax, eax
   0004b	0f 84 bf 00 00
-	00		je	$L8586
+	00		je	$L8594
 
 ; 1509 : 
 ; 1510 :         if ( SecondSection->Control.OptionalMatching  == FALSE ) {
@@ -5621,7 +5621,7 @@ $L8585:
 	00		mov	cl, BYTE PTR [eax+336]
   0005c	85 c9		test	ecx, ecx
   0005e	0f 85 a5 00 00
-	00		jne	$L8588
+	00		jne	$L8596
 
 ; 1511 : 
 ; 1512 : 
@@ -5629,16 +5629,16 @@ $L8585:
 
   00064	c7 45 f8 01 00
 	00 00		mov	DWORD PTR _i$[ebp], 1
-  0006b	e9 03 00 00 00	jmp	$L8589
-$L8590:
+  0006b	e9 03 00 00 00	jmp	$L8597
+$L8598:
   00070	ff 45 f8	inc	DWORD PTR _i$[ebp]
-$L8589:
+$L8597:
   00073	8b 45 08	mov	eax, DWORD PTR _FirstSection$[ebp]
   00076	8b 4d f8	mov	ecx, DWORD PTR _i$[ebp]
   00079	39 88 04 01 00
 	00		cmp	DWORD PTR [eax+260], ecx
   0007f	0f 82 6d 00 00
-	00		jb	$L8591
+	00		jb	$L8599
 
 ; 1514 : 
 ; 1515 :                 if ( i > FirstSection->NumberOfLastResults ) {
@@ -5648,7 +5648,7 @@ $L8589:
   0008b	39 88 00 01 00
 	00		cmp	DWORD PTR [eax+256], ecx
   00091	0f 83 17 00 00
-	00		jae	$L8592
+	00		jae	$L8600
 
 ; 1516 : 
 ; 1517 :                     FirstSection->ResultsError[i-1]      = RESULTS_NOT_PRESENT;
@@ -5665,8 +5665,8 @@ $L8589:
 ; 1519 : 
 ; 1520 :                 } else {
 
-  000a9	e9 3f 00 00 00	jmp	$L8593
-$L8592:
+  000a9	e9 3f 00 00 00	jmp	$L8601
+$L8600:
 
 ; 1521 : 
 ; 1522 :                     if ( FirstSection->CurrentResults[i-1] != FirstSection->LastResults[i-1] ) {
@@ -5678,7 +5678,7 @@ $L8592:
   000ba	8b 54 93 fc	mov	edx, DWORD PTR [ebx+edx*4-4]
   000be	39 54 81 7c	cmp	DWORD PTR [ecx+eax*4+124], edx
   000c2	0f 84 17 00 00
-	00		je	$L8594
+	00		je	$L8602
 
 ; 1523 : 
 ; 1524 :                         FirstSection->ResultsError[i-1]      = RESULTS_UNEQUAL;
@@ -5695,8 +5695,8 @@ $L8592:
 ; 1526 : 
 ; 1527 :                     } else {
 
-  000da	e9 0e 00 00 00	jmp	$L8595
-$L8594:
+  000da	e9 0e 00 00 00	jmp	$L8603
+$L8602:
 
 ; 1528 : 
 ; 1529 :                         FirstSection->ResultsError[i-1] = RESULTS_EQUAL;
@@ -5705,16 +5705,16 @@ $L8594:
   000e2	8b 4d 08	mov	ecx, DWORD PTR _FirstSection$[ebp]
   000e5	c6 84 08 07 01
 	00 00 00	mov	BYTE PTR [eax+ecx+263], 0
-$L8595:
-$L8593:
+$L8603:
+$L8601:
 
 ; 1530 : 
 ; 1531 :                     }
 ; 1532 :                 }
 ; 1533 :             }
 
-  000ed	e9 7e ff ff ff	jmp	$L8590
-$L8591:
+  000ed	e9 7e ff ff ff	jmp	$L8598
+$L8599:
 
 ; 1534 : 
 ; 1535 :             if ( ResultErrorsDiscovered ) {
@@ -5723,15 +5723,15 @@ $L8591:
   000f4	8a 45 fc	mov	al, BYTE PTR _ResultErrorsDiscovered$[ebp]
   000f7	85 c0		test	eax, eax
   000f9	0f 84 0a 00 00
-	00		je	$L8596
+	00		je	$L8604
 
 ; 1536 : 
 ; 1537 :                 return COMPARE_EQUAL_LAST;
 
   000ff	b8 01 00 00 00	mov	eax, 1
-  00104	e9 77 03 00 00	jmp	$L8582
+  00104	e9 77 03 00 00	jmp	$L8590
+$L8604:
 $L8596:
-$L8588:
 
 ; 1538 : 
 ; 1539 :             }
@@ -5741,8 +5741,8 @@ $L8588:
 ; 1543 :         return COMPARE_SUCCESS;
 
   00109	33 c0		xor	eax, eax
-  0010b	e9 70 03 00 00	jmp	$L8582
-$L8586:
+  0010b	e9 70 03 00 00	jmp	$L8590
+$L8594:
 
 ; 1544 : 
 ; 1545 :     }
@@ -5762,7 +5762,7 @@ $L8586:
   00129	83 c4 08	add	esp, 8
   0012c	85 c0		test	eax, eax
   0012e	0f 84 ae 00 00
-	00		je	$L8597
+	00		je	$L8605
 
 ; 1551 : 
 ; 1552 :         if ( SecondSection->Control.OptionalMatching == FALSE ) {
@@ -5773,23 +5773,23 @@ $L8586:
 	00		mov	cl, BYTE PTR [eax+336]
   0013f	85 c9		test	ecx, ecx
   00141	0f 85 94 00 00
-	00		jne	$L8598
+	00		jne	$L8606
 
 ; 1553 : 
 ; 1554 :             for( i = 1; i <= FirstSection->NumberOfCurrentResults; i++ ) {
 
   00147	c7 45 f8 01 00
 	00 00		mov	DWORD PTR _i$[ebp], 1
-  0014e	e9 03 00 00 00	jmp	$L8599
-$L8600:
+  0014e	e9 03 00 00 00	jmp	$L8607
+$L8608:
   00153	ff 45 f8	inc	DWORD PTR _i$[ebp]
-$L8599:
+$L8607:
   00156	8b 45 08	mov	eax, DWORD PTR _FirstSection$[ebp]
   00159	8b 4d f8	mov	ecx, DWORD PTR _i$[ebp]
   0015c	39 88 04 01 00
 	00		cmp	DWORD PTR [eax+260], ecx
   00162	0f 82 5c 00 00
-	00		jb	$L8601
+	00		jb	$L8609
 
 ; 1555 : 
 ; 1556 :                 if ( ( FirstSection->CurrentResults[i-1] < SecondSection->MinimumValue ) ||
@@ -5802,7 +5802,7 @@ $L8599:
 	00		mov	edx, DWORD PTR [edx+296]
   00177	39 54 81 7c	cmp	DWORD PTR [ecx+eax*4+124], edx
   0017b	0f 82 19 00 00
-	00		jb	$L8603
+	00		jb	$L8611
   00181	8b 45 f8	mov	eax, DWORD PTR _i$[ebp]
   00184	8b 4d 08	mov	ecx, DWORD PTR _FirstSection$[ebp]
   00187	8b 55 0c	mov	edx, DWORD PTR _SecondSection$[ebp]
@@ -5810,8 +5810,8 @@ $L8599:
 	00		mov	edx, DWORD PTR [edx+300]
   00190	39 54 81 7c	cmp	DWORD PTR [ecx+eax*4+124], edx
   00194	0f 86 17 00 00
-	00		jbe	$L8602
-$L8603:
+	00		jbe	$L8610
+$L8611:
 
 ; 1558 : 
 ; 1559 :                     FirstSection->ResultsError[i-1]  = RESULTS_MINMAX;
@@ -5828,8 +5828,8 @@ $L8603:
 ; 1561 : 
 ; 1562 :                 } else {
 
-  001ac	e9 0e 00 00 00	jmp	$L8604
-$L8602:
+  001ac	e9 0e 00 00 00	jmp	$L8612
+$L8610:
 
 ; 1563 : 
 ; 1564 :                     FirstSection->ResultsError[i-1] = RESULTS_EQUAL;
@@ -5838,7 +5838,7 @@ $L8602:
   001b4	8b 4d 08	mov	ecx, DWORD PTR _FirstSection$[ebp]
   001b7	c6 84 08 07 01
 	00 00 00	mov	BYTE PTR [eax+ecx+263], 0
-$L8604:
+$L8612:
 
 ; 1565 : 
 ; 1566 :                 }
@@ -5846,8 +5846,8 @@ $L8604:
 ; 1568 : 
 ; 1569 :             }
 
-  001bf	e9 8f ff ff ff	jmp	$L8600
-$L8601:
+  001bf	e9 8f ff ff ff	jmp	$L8608
+$L8609:
 
 ; 1570 : 
 ; 1571 :             if ( ResultErrorsDiscovered ) {
@@ -5856,15 +5856,15 @@ $L8601:
   001c6	8a 45 fc	mov	al, BYTE PTR _ResultErrorsDiscovered$[ebp]
   001c9	85 c0		test	eax, eax
   001cb	0f 84 0a 00 00
-	00		je	$L8605
+	00		je	$L8613
 
 ; 1572 : 
 ; 1573 :                     return COMPARE_BETWEEN_VALUES;
 
   001d1	b8 06 00 00 00	mov	eax, 6
-  001d6	e9 a5 02 00 00	jmp	$L8582
-$L8605:
-$L8598:
+  001d6	e9 a5 02 00 00	jmp	$L8590
+$L8613:
+$L8606:
 
 ; 1574 : 
 ; 1575 :             }
@@ -5874,8 +5874,8 @@ $L8598:
 ; 1579 :         return COMPARE_SUCCESS;
 
   001db	33 c0		xor	eax, eax
-  001dd	e9 9e 02 00 00	jmp	$L8582
-$L8597:
+  001dd	e9 9e 02 00 00	jmp	$L8590
+$L8605:
 
 ; 1580 : 
 ; 1581 :     }
@@ -5895,7 +5895,7 @@ $L8597:
 	00		mov	cl, BYTE PTR [eax+520]
   001f3	83 f9 03	cmp	ecx, 3
   001f6	0f 85 63 00 00
-	00		jne	$L8606
+	00		jne	$L8614
   001fc	8b 45 0c	mov	eax, DWORD PTR _SecondSection$[ebp]
   001ff	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -5904,7 +5904,7 @@ $L8597:
 	00		mov	cl, BYTE PTR [eax+520]
   0020d	83 f9 01	cmp	ecx, 1
   00210	0f 85 49 00 00
-	00		jne	$L8606
+	00		jne	$L8614
 
 ; 1589 : 
 ; 1590 :         if ( SecondSection->Control.OptionalMatching == TRUE ) {
@@ -5915,14 +5915,14 @@ $L8597:
 	00		mov	cl, BYTE PTR [eax+336]
   00221	83 f9 01	cmp	ecx, 1
   00224	0f 85 07 00 00
-	00		jne	$L8607
+	00		jne	$L8615
 
 ; 1591 : 
 ; 1592 :             return COMPARE_SUCCESS;
 
   0022a	33 c0		xor	eax, eax
-  0022c	e9 4f 02 00 00	jmp	$L8582
-$L8607:
+  0022c	e9 4f 02 00 00	jmp	$L8590
+$L8615:
 
 ; 1593 : 
 ; 1594 :         }
@@ -5935,7 +5935,7 @@ $L8607:
 	00		mov	cl, BYTE PTR [eax+337]
   0023c	83 f9 01	cmp	ecx, 1
   0023f	0f 85 10 00 00
-	00		jne	$L8608
+	00		jne	$L8616
 
 ; 1597 : 
 ; 1598 :             TokenInsertInSection( FirstSection );
@@ -5947,8 +5947,8 @@ $L8607:
 ; 1599 :             return COMPARE_SUCCESS;
 
   0024e	33 c0		xor	eax, eax
-  00250	e9 2b 02 00 00	jmp	$L8582
-$L8608:
+  00250	e9 2b 02 00 00	jmp	$L8590
+$L8616:
 
 ; 1600 : 
 ; 1601 :         }
@@ -5956,8 +5956,8 @@ $L8608:
 ; 1603 :         return COMPARE_START;
 
   00255	b8 03 00 00 00	mov	eax, 3
-  0025a	e9 21 02 00 00	jmp	$L8582
-$L8606:
+  0025a	e9 21 02 00 00	jmp	$L8590
+$L8614:
 
 ; 1604 : 
 ; 1605 :     }
@@ -5972,7 +5972,7 @@ $L8606:
 	00		mov	cl, BYTE PTR [eax+520]
   00270	83 f9 03	cmp	ecx, 3
   00273	0f 85 63 00 00
-	00		jne	$L8609
+	00		jne	$L8617
   00279	8b 45 08	mov	eax, DWORD PTR _FirstSection$[ebp]
   0027c	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -5981,7 +5981,7 @@ $L8606:
 	00		mov	cl, BYTE PTR [eax+520]
   0028a	83 f9 01	cmp	ecx, 1
   0028d	0f 85 49 00 00
-	00		jne	$L8609
+	00		jne	$L8617
 
 ; 1608 : 
 ; 1609 :         if ( SecondSection->Control.OptionalMatching == TRUE ) {
@@ -5992,14 +5992,14 @@ $L8606:
 	00		mov	cl, BYTE PTR [eax+336]
   0029e	83 f9 01	cmp	ecx, 1
   002a1	0f 85 07 00 00
-	00		jne	$L8610
+	00		jne	$L8618
 
 ; 1610 : 
 ; 1611 :             return COMPARE_SUCCESS;
 
   002a7	33 c0		xor	eax, eax
-  002a9	e9 d2 01 00 00	jmp	$L8582
-$L8610:
+  002a9	e9 d2 01 00 00	jmp	$L8590
+$L8618:
 
 ; 1612 : 
 ; 1613 :         }
@@ -6012,7 +6012,7 @@ $L8610:
 	00		mov	cl, BYTE PTR [eax+337]
   002b9	83 f9 01	cmp	ecx, 1
   002bc	0f 85 10 00 00
-	00		jne	$L8611
+	00		jne	$L8619
 
 ; 1616 : 
 ; 1617 :             TokenInsertInSection( SecondSection );
@@ -6024,8 +6024,8 @@ $L8610:
 ; 1618 :             return COMPARE_SUCCESS;
 
   002cb	33 c0		xor	eax, eax
-  002cd	e9 ae 01 00 00	jmp	$L8582
-$L8611:
+  002cd	e9 ae 01 00 00	jmp	$L8590
+$L8619:
 
 ; 1619 : 
 ; 1620 :         }
@@ -6033,8 +6033,8 @@ $L8611:
 ; 1622 :         return COMPARE_START;
 
   002d2	b8 03 00 00 00	mov	eax, 3
-  002d7	e9 a4 01 00 00	jmp	$L8582
-$L8609:
+  002d7	e9 a4 01 00 00	jmp	$L8590
+$L8617:
 
 ; 1623 : 
 ; 1624 :     }
@@ -6055,7 +6055,7 @@ $L8609:
 	00		mov	cl, BYTE PTR [eax+520]
   002ed	83 f9 03	cmp	ecx, 3
   002f0	0f 85 63 00 00
-	00		jne	$L8612
+	00		jne	$L8620
   002f6	8b 45 0c	mov	eax, DWORD PTR _SecondSection$[ebp]
   002f9	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -6064,7 +6064,7 @@ $L8609:
 	00		mov	cl, BYTE PTR [eax+520]
   00307	83 f9 02	cmp	ecx, 2
   0030a	0f 85 49 00 00
-	00		jne	$L8612
+	00		jne	$L8620
 
 ; 1633 : 
 ; 1634 :         if ( SecondSection->Control.OptionalMatching == TRUE ) {
@@ -6075,14 +6075,14 @@ $L8609:
 	00		mov	cl, BYTE PTR [eax+336]
   0031b	83 f9 01	cmp	ecx, 1
   0031e	0f 85 07 00 00
-	00		jne	$L8613
+	00		jne	$L8621
 
 ; 1635 : 
 ; 1636 :             return COMPARE_SUCCESS;
 
   00324	33 c0		xor	eax, eax
-  00326	e9 55 01 00 00	jmp	$L8582
-$L8613:
+  00326	e9 55 01 00 00	jmp	$L8590
+$L8621:
 
 ; 1637 : 
 ; 1638 :         }
@@ -6095,7 +6095,7 @@ $L8613:
 	00		mov	cl, BYTE PTR [eax+337]
   00336	83 f9 01	cmp	ecx, 1
   00339	0f 85 10 00 00
-	00		jne	$L8614
+	00		jne	$L8622
 
 ; 1641 : 
 ; 1642 :             TokenInsertInSection( FirstSection );
@@ -6107,8 +6107,8 @@ $L8613:
 ; 1643 :             return COMPARE_SUCCESS;
 
   00348	33 c0		xor	eax, eax
-  0034a	e9 31 01 00 00	jmp	$L8582
-$L8614:
+  0034a	e9 31 01 00 00	jmp	$L8590
+$L8622:
 
 ; 1644 : 
 ; 1645 :         }
@@ -6116,8 +6116,8 @@ $L8614:
 ; 1647 :         return COMPARE_END;
 
   0034f	b8 04 00 00 00	mov	eax, 4
-  00354	e9 27 01 00 00	jmp	$L8582
-$L8612:
+  00354	e9 27 01 00 00	jmp	$L8590
+$L8620:
 
 ; 1648 : 
 ; 1649 :     }
@@ -6132,7 +6132,7 @@ $L8612:
 	00		mov	cl, BYTE PTR [eax+520]
   0036a	83 f9 03	cmp	ecx, 3
   0036d	0f 85 63 00 00
-	00		jne	$L8615
+	00		jne	$L8623
   00373	8b 45 08	mov	eax, DWORD PTR _FirstSection$[ebp]
   00376	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -6141,7 +6141,7 @@ $L8612:
 	00		mov	cl, BYTE PTR [eax+520]
   00384	83 f9 02	cmp	ecx, 2
   00387	0f 85 49 00 00
-	00		jne	$L8615
+	00		jne	$L8623
 
 ; 1652 : 
 ; 1653 :         if ( SecondSection->Control.OptionalMatching == TRUE ) {
@@ -6152,14 +6152,14 @@ $L8612:
 	00		mov	cl, BYTE PTR [eax+336]
   00398	83 f9 01	cmp	ecx, 1
   0039b	0f 85 07 00 00
-	00		jne	$L8616
+	00		jne	$L8624
 
 ; 1654 : 
 ; 1655 :             return COMPARE_SUCCESS;
 
   003a1	33 c0		xor	eax, eax
-  003a3	e9 d8 00 00 00	jmp	$L8582
-$L8616:
+  003a3	e9 d8 00 00 00	jmp	$L8590
+$L8624:
 
 ; 1656 : 
 ; 1657 :         }
@@ -6172,7 +6172,7 @@ $L8616:
 	00		mov	cl, BYTE PTR [eax+337]
   003b3	83 f9 01	cmp	ecx, 1
   003b6	0f 85 10 00 00
-	00		jne	$L8617
+	00		jne	$L8625
 
 ; 1660 : 
 ; 1661 :             TokenInsertInSection( SecondSection );
@@ -6184,8 +6184,8 @@ $L8616:
 ; 1662 :             return COMPARE_SUCCESS;
 
   003c5	33 c0		xor	eax, eax
-  003c7	e9 b4 00 00 00	jmp	$L8582
-$L8617:
+  003c7	e9 b4 00 00 00	jmp	$L8590
+$L8625:
 
 ; 1663 : 
 ; 1664 :         }
@@ -6193,8 +6193,8 @@ $L8617:
 ; 1666 :         return COMPARE_END;
 
   003cc	b8 04 00 00 00	mov	eax, 4
-  003d1	e9 aa 00 00 00	jmp	$L8582
-$L8615:
+  003d1	e9 aa 00 00 00	jmp	$L8590
+$L8623:
 
 ; 1667 : 
 ; 1668 :     }
@@ -6211,19 +6211,19 @@ $L8615:
 ; 1679 :                )
 ; 1680 :          != 0 ) {
 
-  003d6	8b 45 08	mov	eax, DWORD PTR _FirstSection$[ebp]
+  003d6	8b 45 0c	mov	eax, DWORD PTR _SecondSection$[ebp]
   003d9	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
   003df	8b 40 04	mov	eax, DWORD PTR [eax+4]
-  003e2	8b 4d 0c	mov	ecx, DWORD PTR _SecondSection$[ebp]
+  003e2	8b 4d 08	mov	ecx, DWORD PTR _FirstSection$[ebp]
   003e5	8b 89 34 01 00
 	00		mov	ecx, DWORD PTR [ecx+308]
   003eb	8b 49 04	mov	ecx, DWORD PTR [ecx+4]
   003ee	3b c1		cmp	eax, ecx
   003f0	0f 87 02 00 00
-	00		ja	$L8943
+	00		ja	$L8951
   003f6	8b c1		mov	eax, ecx
-$L8943:
+$L8951:
   003f8	50		push	eax
   003f9	8b 45 0c	mov	eax, DWORD PTR _SecondSection$[ebp]
   003fc	8b 80 34 01 00
@@ -6239,7 +6239,7 @@ $L8943:
   0041c	83 c4 0c	add	esp, 12			; 0000000cH
   0041f	85 c0		test	eax, eax
   00421	0f 84 52 00 00
-	00		je	$L8618
+	00		je	$L8626
 
 ; 1681 : 
 ; 1682 :         //
@@ -6254,14 +6254,14 @@ $L8943:
 	00		mov	cl, BYTE PTR [eax+336]
   00432	83 f9 01	cmp	ecx, 1
   00435	0f 85 07 00 00
-	00		jne	$L8619
+	00		jne	$L8627
 
 ; 1687 : 
 ; 1688 :             return COMPARE_SUCCESS;
 
   0043b	33 c0		xor	eax, eax
-  0043d	e9 3e 00 00 00	jmp	$L8582
-$L8619:
+  0043d	e9 3e 00 00 00	jmp	$L8590
+$L8627:
 
 ; 1689 : 
 ; 1690 :         }
@@ -6274,7 +6274,7 @@ $L8619:
 	00		mov	cl, BYTE PTR [eax+337]
   0044d	83 f9 01	cmp	ecx, 1
   00450	0f 85 19 00 00
-	00		jne	$L8620
+	00		jne	$L8628
 
 ; 1693 : 
 ; 1694 :             TokenInsertInSection( FirstSection  );
@@ -6292,8 +6292,8 @@ $L8619:
 ; 1696 :             return COMPARE_SUCCESS;
 
   00468	33 c0		xor	eax, eax
-  0046a	e9 11 00 00 00	jmp	$L8582
-$L8620:
+  0046a	e9 11 00 00 00	jmp	$L8590
+$L8628:
 
 ; 1697 : 
 ; 1698 :         }
@@ -6301,8 +6301,8 @@ $L8620:
 ; 1700 :         return COMPARE_LINE;
 
   0046f	b8 02 00 00 00	mov	eax, 2
-  00474	e9 07 00 00 00	jmp	$L8582
-$L8618:
+  00474	e9 07 00 00 00	jmp	$L8590
+$L8626:
 
 ; 1701 : 
 ; 1702 :     }
@@ -6310,8 +6310,8 @@ $L8618:
 ; 1704 :     return COMPARE_SUCCESS;
 
   00479	33 c0		xor	eax, eax
-  0047b	e9 00 00 00 00	jmp	$L8582
-$L8582:
+  0047b	e9 00 00 00 00	jmp	$L8590
+$L8590:
 
 ; 1705 : 
 ; 1706 : 
@@ -6338,10 +6338,10 @@ _TmpBuffer$ = -260
 _Length$ = -264
 _EnvironmentVar$ = -256
 _TmpLine$ = -520
-_EnvCounter1$8632 = -536
-_EnvCounter2$8633 = -528
-_Token$8634 = -532
-_Seperators$8635 = -524
+_EnvCounter1$8640 = -536
+_EnvCounter2$8641 = -528
+_Token$8642 = -532
+_Seperators$8643 = -524
 _InitializeSectionControl@8 PROC NEAR			; COMDAT
 
 ; 1715 : {
@@ -6468,11 +6468,11 @@ _InitializeSectionControl@8 PROC NEAR			; COMDAT
   000b0	dd 80 48 01 00
 	00		fld	QWORD PTR [eax+328]
   000b6	dc 1d 00 00 00
-	00		fcomp	QWORD PTR $T8926
+	00		fcomp	QWORD PTR $T8934
   000bc	df e0		fnstsw	ax
   000be	f6 c4 40	test	ah, 64			; 00000040H
   000c1	0f 84 07 00 00
-	00		je	$L8628
+	00		je	$L8636
 
 ; 1755 : 
 ; 1756 :         //
@@ -6481,8 +6481,8 @@ _InitializeSectionControl@8 PROC NEAR			; COMDAT
 ; 1759 :         return FALSE;
 
   000c7	32 c0		xor	al, al
-  000c9	e9 a5 02 00 00	jmp	$L8623
-$L8628:
+  000c9	e9 a5 02 00 00	jmp	$L8631
+$L8636:
 
 ; 1760 : 
 ; 1761 :     }
@@ -6514,7 +6514,7 @@ $L8628:
   000ef	83 bd fc fe ff
 	ff 00		cmp	DWORD PTR _TmpBuffer$[ebp], 0
   000f6	0f 84 6b 00 00
-	00		je	$L8629
+	00		je	$L8637
 
 ; 1773 : 
 ; 1774 :         TmpBuffer  = strchr( TmpBuffer, '"' )+1;
@@ -6548,13 +6548,13 @@ $L8628:
   00131	83 bd f8 fe ff
 	ff 00		cmp	DWORD PTR _Length$[ebp], 0
   00138	0f 8d 0a 00 00
-	00		jge	$L8630
+	00		jge	$L8638
 
 ; 1778 :             Length = 0;
 
   0013e	c7 85 f8 fe ff
 	ff 00 00 00 00	mov	DWORD PTR _Length$[ebp], 0
-$L8630:
+$L8638:
 
 ; 1779 :         }
 ; 1780 :         strncpy( NewSection->SectionDescription, TmpBuffer, Length );
@@ -6570,7 +6570,7 @@ $L8630:
   0015e	50		push	eax
   0015f	e8 00 00 00 00	call	_strncpy
   00164	83 c4 0c	add	esp, 12			; 0000000cH
-$L8629:
+$L8637:
 
 ; 1781 :     }
 ; 1782 : 
@@ -6617,21 +6617,21 @@ $L8629:
   001a0	83 bd fc fe ff
 	ff 00		cmp	DWORD PTR _TmpBuffer$[ebp], 0
   001a7	0f 84 0a 01 00
-	00		je	$L8631
+	00		je	$L8639
 
 ; 1799 : 
 ; 1800 :         UINT     EnvCounter1 = 0 , EnvCounter2 = 0   ;
 
   001ad	c7 85 e8 fd ff
-	ff 00 00 00 00	mov	DWORD PTR _EnvCounter1$8632[ebp], 0
+	ff 00 00 00 00	mov	DWORD PTR _EnvCounter1$8640[ebp], 0
   001b7	c7 85 f0 fd ff
-	ff 00 00 00 00	mov	DWORD PTR _EnvCounter2$8633[ebp], 0
+	ff 00 00 00 00	mov	DWORD PTR _EnvCounter2$8641[ebp], 0
 
 ; 1801 :         PCHAR    Token                               ;
 ; 1802 :         PCHAR    Seperators = ",)"                   ;
 
   001c1	c7 85 f4 fd ff
-	ff 00 00 00 00	mov	DWORD PTR _Seperators$8635[ebp], OFFSET FLAT:??_C@_02JGGD@?0?$CJ?$AA@ ; `string'
+	ff 00 00 00 00	mov	DWORD PTR _Seperators$8643[ebp], OFFSET FLAT:??_C@_02JGGD@?0?$CJ?$AA@ ; `string'
 
 ; 1803 : 
 ; 1804 :         //
@@ -6663,7 +6663,7 @@ $L8629:
 ; 1816 :         Token = strtok( TmpBuffer, Seperators );
 
   001ea	8b 85 f4 fd ff
-	ff		mov	eax, DWORD PTR _Seperators$8635[ebp]
+	ff		mov	eax, DWORD PTR _Seperators$8643[ebp]
   001f0	50		push	eax
   001f1	8b 85 fc fe ff
 	ff		mov	eax, DWORD PTR _TmpBuffer$[ebp]
@@ -6671,22 +6671,22 @@ $L8629:
   001f8	e8 00 00 00 00	call	_strtok
   001fd	83 c4 08	add	esp, 8
   00200	89 85 ec fd ff
-	ff		mov	DWORD PTR _Token$8634[ebp], eax
-$L8638:
+	ff		mov	DWORD PTR _Token$8642[ebp], eax
+$L8646:
 
 ; 1817 : 
 ; 1818 :         while ( Token != NULL ) {
 
   00206	83 bd ec fd ff
-	ff 00		cmp	DWORD PTR _Token$8634[ebp], 0
+	ff 00		cmp	DWORD PTR _Token$8642[ebp], 0
   0020d	0f 84 7b 00 00
-	00		je	$L8639
+	00		je	$L8647
 
 ; 1819 : 
 ; 1820 :             EnvCounter1++;
 
   00213	ff 85 e8 fd ff
-	ff		inc	DWORD PTR _EnvCounter1$8632[ebp]
+	ff		inc	DWORD PTR _EnvCounter1$8640[ebp]
 
 ; 1821 : 
 ; 1822 :             memset( EnvironmentVar, 0, sizeof( EnvironmentVar ) );
@@ -6702,13 +6702,13 @@ $L8638:
 ; 1823 :             strncpy( EnvironmentVar, Token, strlen( Token ) );
 
   0022f	8b 85 ec fd ff
-	ff		mov	eax, DWORD PTR _Token$8634[ebp]
+	ff		mov	eax, DWORD PTR _Token$8642[ebp]
   00235	50		push	eax
   00236	e8 00 00 00 00	call	_strlen
   0023b	83 c4 04	add	esp, 4
   0023e	50		push	eax
   0023f	8b 85 ec fd ff
-	ff		mov	eax, DWORD PTR _Token$8634[ebp]
+	ff		mov	eax, DWORD PTR _Token$8642[ebp]
   00245	50		push	eax
   00246	8d 85 00 ff ff
 	ff		lea	eax, DWORD PTR _EnvironmentVar$[ebp]
@@ -6726,14 +6726,14 @@ $L8638:
   00261	83 c4 04	add	esp, 4
   00264	85 c0		test	eax, eax
   00266	0f 84 06 00 00
-	00		je	$L8640
+	00		je	$L8648
 
 ; 1826 : 
 ; 1827 :                 EnvCounter2++;
 
   0026c	ff 85 f0 fd ff
-	ff		inc	DWORD PTR _EnvCounter2$8633[ebp]
-$L8640:
+	ff		inc	DWORD PTR _EnvCounter2$8641[ebp]
+$L8648:
 
 ; 1828 : 
 ; 1829 :             }
@@ -6741,19 +6741,19 @@ $L8640:
 ; 1831 :             Token = strtok( NULL, Seperators );
 
   00272	8b 85 f4 fd ff
-	ff		mov	eax, DWORD PTR _Seperators$8635[ebp]
+	ff		mov	eax, DWORD PTR _Seperators$8643[ebp]
   00278	50		push	eax
   00279	6a 00		push	0
   0027b	e8 00 00 00 00	call	_strtok
   00280	83 c4 08	add	esp, 8
   00283	89 85 ec fd ff
-	ff		mov	DWORD PTR _Token$8634[ebp], eax
+	ff		mov	DWORD PTR _Token$8642[ebp], eax
 
 ; 1832 : 
 ; 1833 :         }
 
-  00289	e9 78 ff ff ff	jmp	$L8638
-$L8639:
+  00289	e9 78 ff ff ff	jmp	$L8646
+$L8647:
 
 ; 1834 : 
 ; 1835 :         //
@@ -6763,15 +6763,15 @@ $L8639:
 ; 1839 :         if ( (EnvCounter1 == EnvCounter2) && (EnvCounter1 != 0) ) {
 
   0028e	8b 85 e8 fd ff
-	ff		mov	eax, DWORD PTR _EnvCounter1$8632[ebp]
+	ff		mov	eax, DWORD PTR _EnvCounter1$8640[ebp]
   00294	39 85 f0 fd ff
-	ff		cmp	DWORD PTR _EnvCounter2$8633[ebp], eax
+	ff		cmp	DWORD PTR _EnvCounter2$8641[ebp], eax
   0029a	0f 85 17 00 00
-	00		jne	$L8641
+	00		jne	$L8649
   002a0	83 bd e8 fd ff
-	ff 00		cmp	DWORD PTR _EnvCounter1$8632[ebp], 0
+	ff 00		cmp	DWORD PTR _EnvCounter1$8640[ebp], 0
   002a7	0f 84 0a 00 00
-	00		je	$L8641
+	00		je	$L8649
 
 ; 1840 : 
 ; 1841 :             NewSection->Control.OptionalMatching = FALSE;
@@ -6779,8 +6779,8 @@ $L8639:
   002ad	8b 45 08	mov	eax, DWORD PTR _NewSection$[ebp]
   002b0	c6 80 50 01 00
 	00 00		mov	BYTE PTR [eax+336], 0
-$L8641:
-$L8631:
+$L8649:
+$L8639:
 
 ; 1842 : 
 ; 1843 :         }
@@ -6820,7 +6820,7 @@ $L8631:
   002e7	83 bd fc fe ff
 	ff 00		cmp	DWORD PTR _TmpBuffer$[ebp], 0
   002ee	0f 84 78 00 00
-	00		je	$L8642
+	00		je	$L8650
 
 ; 1858 : 
 ; 1859 :         //
@@ -6878,7 +6878,7 @@ $L8631:
   00352	83 b8 40 01 00
 	00 00		cmp	DWORD PTR [eax+320], 0
   00359	0f 85 0d 00 00
-	00		jne	$L8643
+	00		jne	$L8651
 
 ; 1870 : 
 ; 1871 :              NewSection->Control.TokenMatchStopLine = TOKEN_MATCHING_ALL;
@@ -6886,8 +6886,8 @@ $L8631:
   0035f	8b 45 08	mov	eax, DWORD PTR _NewSection$[ebp]
   00362	c7 80 40 01 00
 	00 ff ff ff ff	mov	DWORD PTR [eax+320], -1
-$L8643:
-$L8642:
+$L8651:
+$L8650:
 
 ; 1872 : 
 ; 1873 :         }
@@ -6897,8 +6897,8 @@ $L8642:
 ; 1877 :     return TRUE;
 
   0036c	b0 01		mov	al, 1
-  0036e	e9 00 00 00 00	jmp	$L8623
-$L8623:
+  0036e	e9 00 00 00 00	jmp	$L8631
+$L8631:
 
 ; 1878 : 
 ; 1879 : }
@@ -7125,8 +7125,8 @@ _PrintComparisonResults@20 PROC NEAR			; COMDAT
 
   00009	8b 45 10	mov	eax, DWORD PTR _ReturnResult$[ebp]
   0000c	89 45 f8	mov	DWORD PTR -8+[ebp], eax
-  0000f	e9 5e 08 00 00	jmp	$L8651
-$L8655:
+  0000f	e9 5e 08 00 00	jmp	$L8659
+$L8663:
 
 ; 1895 : 
 ; 1896 :         case COMPARE_LINE :
@@ -7288,8 +7288,8 @@ $L8655:
 ; 1928 : 
 ; 1929 :             break;
 
-  00144	e9 58 07 00 00	jmp	$L8652
-$L8667:
+  00144	e9 58 07 00 00	jmp	$L8660
+$L8675:
 
 ; 1930 : 
 ; 1931 :         case COMPARE_EQUAL_LAST:
@@ -7320,16 +7320,16 @@ $L8667:
 
   0016f	c7 45 fc 00 00
 	00 00		mov	DWORD PTR _i$[ebp], 0
-  00176	e9 03 00 00 00	jmp	$L8669
-$L8670:
+  00176	e9 03 00 00 00	jmp	$L8677
+$L8678:
   0017b	ff 45 fc	inc	DWORD PTR _i$[ebp]
-$L8669:
+$L8677:
   0017e	8b 45 08	mov	eax, DWORD PTR _FirstSection$[ebp]
   00181	8b 4d fc	mov	ecx, DWORD PTR _i$[ebp]
   00184	39 88 04 01 00
 	00		cmp	DWORD PTR [eax+260], ecx
   0018a	0f 86 4a 00 00
-	00		jbe	$L8671
+	00		jbe	$L8679
 
 ; 1940 : 
 ; 1941 :                 if ( FirstSection->ResultsError[i] != RESULTS_EQUAL ) {
@@ -7341,7 +7341,7 @@ $L8669:
 	00 00		mov	dl, BYTE PTR [eax+ecx+264]
   0019f	85 d2		test	edx, edx
   001a1	0f 84 2e 00 00
-	00		je	$L8672
+	00		je	$L8680
 
 ; 1942 : 
 ; 1943 :                     fprintf( DifferenceFile, "%5u   %32u   %32u\n",
@@ -7368,15 +7368,15 @@ $L8669:
   001cc	50		push	eax
   001cd	e8 00 00 00 00	call	_fprintf
   001d2	83 c4 14	add	esp, 20			; 00000014H
-$L8672:
+$L8680:
 
 ; 1949 : 
 ; 1950 :                 }
 ; 1951 : 
 ; 1952 :             }
 
-  001d5	e9 a1 ff ff ff	jmp	$L8670
-$L8671:
+  001d5	e9 a1 ff ff ff	jmp	$L8678
+$L8679:
 
 ; 1953 : 
 ; 1954 :             fprintf( DifferenceFile, "\n\tERROR TYPE                     : CURRENT VALUE(S) FAILED TO EQUAL LAST\n" );
@@ -7447,8 +7447,8 @@ $L8671:
 ; 1963 : 
 ; 1964 :             break;
 
-  00263	e9 39 06 00 00	jmp	$L8652
-$L8675:
+  00263	e9 39 06 00 00	jmp	$L8660
+$L8683:
 
 ; 1965 : 
 ; 1966 :         case COMPARE_BETWEEN_VALUES:
@@ -7505,16 +7505,16 @@ $L8675:
 
   002c4	c7 45 fc 00 00
 	00 00		mov	DWORD PTR _i$[ebp], 0
-  002cb	e9 03 00 00 00	jmp	$L8679
-$L8680:
+  002cb	e9 03 00 00 00	jmp	$L8687
+$L8688:
   002d0	ff 45 fc	inc	DWORD PTR _i$[ebp]
-$L8679:
+$L8687:
   002d3	8b 45 08	mov	eax, DWORD PTR _FirstSection$[ebp]
   002d6	8b 4d fc	mov	ecx, DWORD PTR _i$[ebp]
   002d9	39 88 04 01 00
 	00		cmp	DWORD PTR [eax+260], ecx
   002df	0f 86 40 00 00
-	00		jbe	$L8681
+	00		jbe	$L8689
 
 ; 1979 : 
 ; 1980 :                 if ( FirstSection->ResultsError[i] != RESULTS_EQUAL ) {
@@ -7526,7 +7526,7 @@ $L8679:
 	00 00		mov	dl, BYTE PTR [eax+ecx+264]
   002f4	85 d2		test	edx, edx
   002f6	0f 84 24 00 00
-	00		je	$L8682
+	00		je	$L8690
 
 ; 1981 : 
 ; 1982 :                     fprintf( DifferenceFile, "%5u   %23u\n",
@@ -7547,15 +7547,15 @@ $L8679:
   00317	50		push	eax
   00318	e8 00 00 00 00	call	_fprintf
   0031d	83 c4 10	add	esp, 16			; 00000010H
-$L8682:
+$L8690:
 
 ; 1986 : 
 ; 1987 :                 }
 ; 1988 : 
 ; 1989 :             }
 
-  00320	e9 ab ff ff ff	jmp	$L8680
-$L8681:
+  00320	e9 ab ff ff ff	jmp	$L8688
+$L8689:
 
 ; 1990 : 
 ; 1991 :             fprintf( DifferenceFile, "\n\tERROR TYPE                     : CURRENT VALUE(S) IS(ARE) NOT BETWEEN THE EXPECTED VALUES\n" );
@@ -7625,8 +7625,8 @@ $L8681:
 ; 1999 : 
 ; 2000 :             break;
 
-  003ae	e9 ee 04 00 00	jmp	$L8652
-$L8685:
+  003ae	e9 ee 04 00 00	jmp	$L8660
+$L8693:
 
 ; 2001 : 
 ; 2002 :         case COMPARE_TOKEN :
@@ -7744,8 +7744,8 @@ $L8685:
 ; 2024 : 
 ; 2025 :             break;
 
-  00490	e9 0c 04 00 00	jmp	$L8652
-$L8688:
+  00490	e9 0c 04 00 00	jmp	$L8660
+$L8696:
 
 ; 2026 : 
 ; 2027 :         case COMPARE_START :
@@ -7774,7 +7774,7 @@ $L8688:
 	00		mov	cl, BYTE PTR [eax+520]
   004bb	83 f9 01	cmp	ecx, 1
   004be	0f 84 41 00 00
-	00		je	$L8689
+	00		je	$L8697
 
 ; 2035 : 
 ; 2036 :                 fprintf( DifferenceFile, "\nEXTRA LINE DETECTED (COMP. FILE LINE CONTENTS)         : %s\n",
@@ -7808,8 +7808,8 @@ $L8688:
 ; 2040 : 
 ; 2041 :             } else {
 
-  00500	e9 3c 00 00 00	jmp	$L8692
-$L8689:
+  00500	e9 3c 00 00 00	jmp	$L8700
+$L8697:
 
 ; 2042 : 
 ; 2043 :                 fprintf( DifferenceFile, "\nCOMP. FILE LINE CONTENTS  (Expected to synchronize on) : %s\n",
@@ -7839,7 +7839,7 @@ $L8689:
   00538	50		push	eax
   00539	e8 00 00 00 00	call	_fprintf
   0053e	83 c4 0c	add	esp, 12			; 0000000cH
-$L8692:
+$L8700:
 
 ; 2047 : 
 ; 2048 :             }
@@ -7955,8 +7955,8 @@ $L8692:
 ; 2067 : 
 ; 2068 :             break;
 
-  00620	e9 7c 02 00 00	jmp	$L8652
-$L8696:
+  00620	e9 7c 02 00 00	jmp	$L8660
+$L8704:
 
 ; 2069 : 
 ; 2070 : 
@@ -7986,7 +7986,7 @@ $L8696:
 	00		mov	cl, BYTE PTR [eax+520]
   0064b	83 f9 02	cmp	ecx, 2
   0064e	0f 84 90 00 00
-	00		je	$L8697
+	00		je	$L8705
 
 ; 2079 : 
 ; 2080 :                 fprintf( DifferenceFile, "\nEXTRA LINE DETECTED (COMP. FILE LINE CONTENTS)         : %s\n",
@@ -8011,11 +8011,11 @@ $L8696:
   00675	dd 80 48 01 00
 	00		fld	QWORD PTR [eax+328]
   0067b	dc 1d 00 00 00
-	00		fcomp	QWORD PTR $T8926
+	00		fcomp	QWORD PTR $T8934
   00681	df e0		fnstsw	ax
   00683	f6 c4 40	test	ah, 64			; 00000040H
   00686	0f 84 35 00 00
-	00		je	$L8698
+	00		je	$L8706
   0068c	8b 45 0c	mov	eax, DWORD PTR _SecondSection$[ebp]
   0068f	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -8025,7 +8025,7 @@ $L8696:
   006a0	83 c4 04	add	esp, 4
   006a3	85 c0		test	eax, eax
   006a5	0f 85 16 00 00
-	00		jne	$L8698
+	00		jne	$L8706
 
 ; 2085 : 
 ; 2086 :                     fprintf( DifferenceFile, "GOLDEN FILE LINE CONTENTS  (Expected to synchronize on): END_OF_FILE\n" );
@@ -8039,8 +8039,8 @@ $L8696:
 ; 2087 : 
 ; 2088 :                 } else {
 
-  006bc	e9 1e 00 00 00	jmp	$L8700
-$L8698:
+  006bc	e9 1e 00 00 00	jmp	$L8708
+$L8706:
 
 ; 2089 : 
 ; 2090 :                     fprintf( DifferenceFile, "GOLDEN FILE LINE CONTENTS  (Expected to synchronize on): %s\n",
@@ -8056,14 +8056,14 @@ $L8698:
   006d6	50		push	eax
   006d7	e8 00 00 00 00	call	_fprintf
   006dc	83 c4 0c	add	esp, 12			; 0000000cH
-$L8700:
+$L8708:
 
 ; 2092 :                 }
 ; 2093 : 
 ; 2094 :             } else {
 
-  006df	e9 8b 00 00 00	jmp	$L8701
-$L8697:
+  006df	e9 8b 00 00 00	jmp	$L8709
+$L8705:
 
 ; 2095 : 
 ; 2096 :                 if ( ( FirstSection->Control.SectionIdentifier == (DOUBLE)0 ) &&
@@ -8073,11 +8073,11 @@ $L8697:
   006e7	dd 80 48 01 00
 	00		fld	QWORD PTR [eax+328]
   006ed	dc 1d 00 00 00
-	00		fcomp	QWORD PTR $T8926
+	00		fcomp	QWORD PTR $T8934
   006f3	df e0		fnstsw	ax
   006f5	f6 c4 40	test	ah, 64			; 00000040H
   006f8	0f 84 35 00 00
-	00		je	$L8702
+	00		je	$L8710
   006fe	8b 45 08	mov	eax, DWORD PTR _FirstSection$[ebp]
   00701	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -8087,7 +8087,7 @@ $L8697:
   00712	83 c4 04	add	esp, 4
   00715	85 c0		test	eax, eax
   00717	0f 85 16 00 00
-	00		jne	$L8702
+	00		jne	$L8710
 
 ; 2098 : 
 ; 2099 :                     fprintf( DifferenceFile, "\nCOMP. FILE LINE CONTENTS  (Expected to synchronize on) : END_OF_FILE\n" );
@@ -8101,8 +8101,8 @@ $L8697:
 ; 2100 : 
 ; 2101 :                 } else {
 
-  0072e	e9 1e 00 00 00	jmp	$L8704
-$L8702:
+  0072e	e9 1e 00 00 00	jmp	$L8712
+$L8710:
 
 ; 2102 : 
 ; 2103 :                     fprintf( DifferenceFile, "\nCOMP. FILE LINE CONTENTS  (Expected to synchronize on) : %s\n",
@@ -8118,7 +8118,7 @@ $L8702:
   00748	50		push	eax
   00749	e8 00 00 00 00	call	_fprintf
   0074e	83 c4 0c	add	esp, 12			; 0000000cH
-$L8704:
+$L8712:
 
 ; 2105 : 
 ; 2106 :                 }
@@ -8136,7 +8136,7 @@ $L8704:
   00766	50		push	eax
   00767	e8 00 00 00 00	call	_fprintf
   0076c	83 c4 0c	add	esp, 12			; 0000000cH
-$L8701:
+$L8709:
 
 ; 2110 : 
 ; 2111 :             }
@@ -8252,8 +8252,8 @@ $L8701:
 ; 2130 : 
 ; 2131 :             break;
 
-  0084e	e9 4e 00 00 00	jmp	$L8652
-$L8706:
+  0084e	e9 4e 00 00 00	jmp	$L8660
+$L8714:
 
 ; 2132 : 
 ; 2133 : 
@@ -8271,29 +8271,29 @@ $L8706:
 
 ; 2137 :             break;
 
-  00868	e9 34 00 00 00	jmp	$L8652
+  00868	e9 34 00 00 00	jmp	$L8660
 
 ; 2138 : 
 ; 2139 :     }
 
-  0086d	e9 2f 00 00 00	jmp	$L8652
-$L8651:
+  0086d	e9 2f 00 00 00	jmp	$L8660
+$L8659:
   00872	ff 4d f8	dec	DWORD PTR -8+[ebp]
   00875	83 7d f8 05	cmp	DWORD PTR -8+[ebp], 5
   00879	0f 87 d4 ff ff
-	ff		ja	$L8706
+	ff		ja	$L8714
   0087f	8b 45 f8	mov	eax, DWORD PTR -8+[ebp]
   00882	ff 24 85 00 00
-	00 00		jmp	DWORD PTR $L8948[eax*4]
-$L8948:
-  00889	00 00 00 00	DD	OFFSET FLAT:$L8667
-  0088d	00 00 00 00	DD	OFFSET FLAT:$L8655
-  00891	00 00 00 00	DD	OFFSET FLAT:$L8688
-  00895	00 00 00 00	DD	OFFSET FLAT:$L8696
-  00899	00 00 00 00	DD	OFFSET FLAT:$L8685
-  0089d	00 00 00 00	DD	OFFSET FLAT:$L8675
-$L8652:
-$L8649:
+	00 00		jmp	DWORD PTR $L8956[eax*4]
+$L8956:
+  00889	00 00 00 00	DD	OFFSET FLAT:$L8675
+  0088d	00 00 00 00	DD	OFFSET FLAT:$L8663
+  00891	00 00 00 00	DD	OFFSET FLAT:$L8696
+  00895	00 00 00 00	DD	OFFSET FLAT:$L8704
+  00899	00 00 00 00	DD	OFFSET FLAT:$L8693
+  0089d	00 00 00 00	DD	OFFSET FLAT:$L8683
+$L8660:
+$L8657:
 
 ; 2140 : 
 ; 2141 : }
@@ -8396,7 +8396,7 @@ _PrintSectionInformation@8 PROC NEAR			; COMDAT
   00076	50		push	eax
   00077	e8 00 00 00 00	call	_fprintf
   0007c	83 c4 0c	add	esp, 12			; 0000000cH
-$L8710:
+$L8718:
 
 ; 2155 : 
 ; 2156 : }
@@ -8447,7 +8447,7 @@ _ExtractSectionIDFromLine@4 PROC NEAR			; COMDAT
 
   00029	83 7d fc 00	cmp	DWORD PTR _TmpBuffer$[ebp], 0
   0002d	0f 84 23 00 00
-	00		je	$L8718
+	00		je	$L8726
 
 ; 2173 : 
 ; 2174 :         TmpBuffer += (strlen( Keywords[SECTION_START] )+1);
@@ -8465,8 +8465,8 @@ _ExtractSectionIDFromLine@4 PROC NEAR			; COMDAT
   00048	50		push	eax
   00049	e8 00 00 00 00	call	_atof
   0004e	83 c4 04	add	esp, 4
-  00051	e9 58 00 00 00	jmp	$L8716
-$L8718:
+  00051	e9 58 00 00 00	jmp	$L8724
+$L8726:
 
 ; 2176 : 
 ; 2177 :     }
@@ -8492,7 +8492,7 @@ $L8718:
 
   00076	83 7d fc 00	cmp	DWORD PTR _TmpBuffer$[ebp], 0
   0007a	0f 84 23 00 00
-	00		je	$L8719
+	00		je	$L8727
 
 ; 2185 : 
 ; 2186 :         TmpBuffer += (strlen( Keywords[SECTION_END] )+1);
@@ -8510,8 +8510,8 @@ $L8718:
   00095	50		push	eax
   00096	e8 00 00 00 00	call	_atof
   0009b	83 c4 04	add	esp, 4
-  0009e	e9 0b 00 00 00	jmp	$L8716
-$L8719:
+  0009e	e9 0b 00 00 00	jmp	$L8724
+$L8727:
 
 ; 2188 : 
 ; 2189 :     }
@@ -8519,9 +8519,9 @@ $L8719:
 ; 2191 :     return (DOUBLE)0;
 
   000a3	dd 05 00 00 00
-	00		fld	QWORD PTR $T8926
-  000a9	e9 00 00 00 00	jmp	$L8716
-$L8716:
+	00		fld	QWORD PTR $T8934
+  000a9	e9 00 00 00 00	jmp	$L8724
+$L8724:
 
 ; 2192 : 
 ; 2193 : }
@@ -8576,29 +8576,29 @@ _CheckSectionIDFromCurrentLines@8 PROC NEAR		; COMDAT
   00024	df e0		fnstsw	ax
   00026	f6 c4 40	test	ah, 64			; 00000040H
   00029	0f 84 28 00 00
-	00		je	$L8726
+	00		je	$L8734
   0002f	dd 45 f0	fld	QWORD PTR _SectionID_1$[ebp]
   00032	dc 1d 00 00 00
-	00		fcomp	QWORD PTR $T8926
+	00		fcomp	QWORD PTR $T8934
   00038	df e0		fnstsw	ax
   0003a	f6 c4 40	test	ah, 64			; 00000040H
   0003d	0f 85 14 00 00
-	00		jne	$L8726
+	00		jne	$L8734
   00043	dd 45 f8	fld	QWORD PTR _SectionID_2$[ebp]
   00046	dc 1d 00 00 00
-	00		fcomp	QWORD PTR $T8926
+	00		fcomp	QWORD PTR $T8934
   0004c	df e0		fnstsw	ax
   0004e	f6 c4 40	test	ah, 64			; 00000040H
   00051	0f 84 07 00 00
-	00		je	$L8725
-$L8726:
+	00		je	$L8733
+$L8734:
 
 ; 2211 : 
 ; 2212 :         return FALSE;
 
   00057	32 c0		xor	al, al
-  00059	e9 07 00 00 00	jmp	$L8722
-$L8725:
+  00059	e9 07 00 00 00	jmp	$L8730
+$L8733:
 
 ; 2213 : 
 ; 2214 :     }
@@ -8606,8 +8606,8 @@ $L8725:
 ; 2216 :     return TRUE;
 
   0005e	b0 01		mov	al, 1
-  00060	e9 00 00 00 00	jmp	$L8722
-$L8722:
+  00060	e9 00 00 00 00	jmp	$L8730
+$L8730:
 
 ; 2217 : 
 ; 2218 : }
@@ -8654,7 +8654,7 @@ _CompareLinesAndPrintResults@16 PROC NEAR		; COMDAT
 
   00019	83 7d fc 00	cmp	DWORD PTR _ComparisonResult$[ebp], 0
   0001d	0f 84 20 00 00
-	00		je	$L8733
+	00		je	$L8741
 
 ; 2235 :         //
 ; 2236 :         // Increment the section error count
@@ -8683,7 +8683,7 @@ _CompareLinesAndPrintResults@16 PROC NEAR		; COMDAT
   0003a	8b 45 08	mov	eax, DWORD PTR _FirstSection$[ebp]
   0003d	50		push	eax
   0003e	e8 00 00 00 00	call	_PrintComparisonResults@20
-$L8733:
+$L8741:
 
 ; 2245 : 
 ; 2246 :     }
@@ -8691,8 +8691,8 @@ $L8733:
 ; 2248 :     return TRUE;
 
   00043	b0 01		mov	al, 1
-  00045	e9 00 00 00 00	jmp	$L8731
-$L8731:
+  00045	e9 00 00 00 00	jmp	$L8739
+$L8739:
 
 ; 2249 : 
 ; 2250 : }
@@ -8745,7 +8745,7 @@ _TokenInsertInSection@4 PROC NEAR			; COMDAT
   0001a	3b 81 3c 01 00
 	00		cmp	eax, DWORD PTR [ecx+316]
   00020	0f 83 0c 00 00
-	00		jae	$L8739
+	00		jae	$L8747
 
 ; 2268 : 
 ; 2269 :         MaxLineCount = TOKEN_MATCHING_ALL;
@@ -8756,21 +8756,21 @@ _TokenInsertInSection@4 PROC NEAR			; COMDAT
 ; 2270 : 
 ; 2271 :     } else {
 
-  0002d	e9 15 00 00 00	jmp	$L8740
-$L8739:
+  0002d	e9 15 00 00 00	jmp	$L8748
+$L8747:
 
 ; 2272 : 
 ; 2273 :         MaxLineCount = Section->Control.TokenMatchStartLine +
 ; 2274 :                        Section->Control.TokenMatchStopLine ;
 
   00032	8b 45 08	mov	eax, DWORD PTR _Section$[ebp]
-  00035	8b 80 3c 01 00
-	00		mov	eax, DWORD PTR [eax+316]
+  00035	8b 80 40 01 00
+	00		mov	eax, DWORD PTR [eax+320]
   0003b	8b 4d 08	mov	ecx, DWORD PTR _Section$[ebp]
-  0003e	03 81 40 01 00
-	00		add	eax, DWORD PTR [ecx+320]
+  0003e	03 81 3c 01 00
+	00		add	eax, DWORD PTR [ecx+316]
   00044	89 45 f8	mov	DWORD PTR _MaxLineCount$[ebp], eax
-$L8740:
+$L8748:
 
 ; 2275 : 
 ; 2276 :     }
@@ -8795,13 +8795,13 @@ $L8740:
   00059	39 88 38 01 00
 	00		cmp	DWORD PTR [eax+312], ecx
   0005f	0f 87 e8 00 00
-	00		ja	$L8741
+	00		ja	$L8749
   00065	8b 45 08	mov	eax, DWORD PTR _Section$[ebp]
   00068	8b 4d fc	mov	ecx, DWORD PTR _MinLineCount$[ebp]
   0006b	39 88 38 01 00
 	00		cmp	DWORD PTR [eax+312], ecx
   00071	0f 82 d6 00 00
-	00		jb	$L8741
+	00		jb	$L8749
 
 ; 2286 : 
 ; 2287 :         //
@@ -8820,7 +8820,7 @@ $L8740:
 
   00089	83 7d f4 00	cmp	DWORD PTR _Token$[ebp], 0
   0008d	0f 85 17 00 00
-	00		jne	$L8742
+	00		jne	$L8750
 
 ; 2293 : 
 ; 2294 :             printf( "The system has run out of memory resources\n" );
@@ -8834,7 +8834,7 @@ $L8740:
   000a0	6a ff		push	-1
   000a2	e8 00 00 00 00	call	_exit
   000a7	83 c4 04	add	esp, 4
-$L8742:
+$L8750:
 
 ; 2296 : 
 ; 2297 :         }
@@ -8924,8 +8924,8 @@ $L8742:
   00144	8b 4d 08	mov	ecx, DWORD PTR _Section$[ebp]
   00147	89 81 44 01 00
 	00		mov	DWORD PTR [ecx+324], eax
-$L8741:
-$L8735:
+$L8749:
+$L8743:
 
 ; 2315 : 
 ; 2316 :     }
@@ -8979,14 +8979,14 @@ _MatchTopToken@8 PROC NEAR				; COMDAT
   00022	83 c4 08	add	esp, 8
   00025	85 c0		test	eax, eax
   00027	0f 84 07 00 00
-	00		je	$L8749
+	00		je	$L8757
 
 ; 2336 : 
 ; 2337 :         return COMPARE_SUCCESS;
 
   0002d	33 c0		xor	eax, eax
-  0002f	e9 7a 00 00 00	jmp	$L8746
-$L8749:
+  0002f	e9 7a 00 00 00	jmp	$L8754
+$L8757:
 
 ; 2338 : 
 ; 2339 :     }
@@ -9003,14 +9003,14 @@ $L8749:
   0003d	e8 00 00 00 00	call	_strlen
   00042	83 c4 04	add	esp, 4
   00045	89 45 f8	mov	DWORD PTR _Length$[ebp], eax
-$L8751:
+$L8759:
 
 ; 2346 : 
 ; 2347 :     while ( CurrentToken != (PTOKEN_LIST )NULL ) {
 
   00048	83 7d fc 00	cmp	DWORD PTR _CurrentToken$[ebp], 0
   0004c	0f 84 52 00 00
-	00		je	$L8752
+	00		je	$L8760
 
 ; 2348 : 
 ; 2349 :         if ( ( CurrentToken->TokenState == TOKEN_UNMATCHED ) &&
@@ -9020,7 +9020,7 @@ $L8751:
   00052	8b 45 fc	mov	eax, DWORD PTR _CurrentToken$[ebp]
   00055	83 78 08 00	cmp	DWORD PTR [eax+8], 0
   00059	0f 85 37 00 00
-	00		jne	$L8753
+	00		jne	$L8761
   0005f	8b 45 f8	mov	eax, DWORD PTR _Length$[ebp]
   00062	50		push	eax
   00063	8b 45 fc	mov	eax, DWORD PTR _CurrentToken$[ebp]
@@ -9033,7 +9033,7 @@ $L8751:
   0007a	83 c4 0c	add	esp, 12			; 0000000cH
   0007d	85 c0		test	eax, eax
   0007f	0f 85 11 00 00
-	00		jne	$L8753
+	00		jne	$L8761
 
 ; 2352 : 
 ; 2353 :             //
@@ -9049,8 +9049,8 @@ $L8751:
 ; 2358 :             return COMPARE_SUCCESS;
 
   0008f	33 c0		xor	eax, eax
-  00091	e9 18 00 00 00	jmp	$L8746
-$L8753:
+  00091	e9 18 00 00 00	jmp	$L8754
+$L8761:
 
 ; 2359 : 
 ; 2360 :         }
@@ -9064,15 +9064,15 @@ $L8753:
 ; 2363 : 
 ; 2364 :     }
 
-  0009f	e9 a4 ff ff ff	jmp	$L8751
-$L8752:
+  0009f	e9 a4 ff ff ff	jmp	$L8759
+$L8760:
 
 ; 2365 : 
 ; 2366 :     return COMPARE_TOKEN;
 
   000a4	b8 05 00 00 00	mov	eax, 5
-  000a9	e9 00 00 00 00	jmp	$L8746
-$L8746:
+  000a9	e9 00 00 00 00	jmp	$L8754
+$L8754:
 
 ; 2367 : 
 ; 2368 : }
@@ -9102,7 +9102,7 @@ _CompareTokensAndPrintResults@16 PROC NEAR		; COMDAT
   00006	53		push	ebx
   00007	56		push	esi
   00008	57		push	edi
-$L8762:
+$L8770:
 
 ; 2379 :     RESULT         ComparisonResult;
 ; 2380 :     PTOKEN_LIST    Tmp;
@@ -9120,7 +9120,7 @@ $L8762:
   0000c	83 b8 44 01 00
 	00 00		cmp	DWORD PTR [eax+324], 0
   00013	0f 84 78 00 00
-	00		je	$L8763
+	00		je	$L8771
 
 ; 2390 : 
 ; 2391 :         ComparisonResult = MatchTopToken( SecondSection->Control.HeadUnmatchedTokens,
@@ -9143,7 +9143,7 @@ $L8762:
 
   00035	83 7d f8 00	cmp	DWORD PTR _ComparisonResult$[ebp], 0
   00039	0f 84 20 00 00
-	00		je	$L8764
+	00		je	$L8772
 
 ; 2396 : 
 ; 2397 :             (*ErrorCount)++ ;
@@ -9170,7 +9170,7 @@ $L8762:
   00056	8b 45 08	mov	eax, DWORD PTR _FirstSection$[ebp]
   00059	50		push	eax
   0005a	e8 00 00 00 00	call	_PrintComparisonResults@20
-$L8764:
+$L8772:
 
 ; 2404 :         }
 ; 2405 : 
@@ -9208,9 +9208,9 @@ $L8764:
 ; 2416 : 
 ; 2417 :     }
 
-  0008c	e9 78 ff ff ff	jmp	$L8762
-$L8763:
-$L8766:
+  0008c	e9 78 ff ff ff	jmp	$L8770
+$L8771:
+$L8774:
 
 ; 2418 : 
 ; 2419 :     //
@@ -9222,7 +9222,7 @@ $L8766:
   00094	83 b8 44 01 00
 	00 00		cmp	DWORD PTR [eax+324], 0
   0009b	0f 84 32 00 00
-	00		je	$L8767
+	00		je	$L8775
 
 ; 2423 : 
 ; 2424 :         Tmp                 =
@@ -9256,9 +9256,9 @@ $L8766:
 ; 2431 : 
 ; 2432 :     }
 
-  000ce	e9 be ff ff ff	jmp	$L8766
-$L8767:
-$L8758:
+  000ce	e9 be ff ff ff	jmp	$L8774
+$L8775:
+$L8766:
 
 ; 2433 : 
 ; 2434 : }
@@ -9298,7 +9298,7 @@ _MayDifferExistsInOneOrMoreLines@8 PROC NEAR		; COMDAT
   0001f	83 c4 08	add	esp, 8
   00022	85 c0		test	eax, eax
   00024	0f 85 24 00 00
-	00		jne	$L8772
+	00		jne	$L8780
   0002a	68 00 00 00 00	push	OFFSET FLAT:??_C@_0L@NEDE@MAY_DIFFER?$AA@ ; `string'
   0002f	8b 45 0c	mov	eax, DWORD PTR _SecondSection$[ebp]
   00032	8b 80 34 01 00
@@ -9309,8 +9309,8 @@ _MayDifferExistsInOneOrMoreLines@8 PROC NEAR		; COMDAT
   00043	83 c4 08	add	esp, 8
   00046	85 c0		test	eax, eax
   00048	0f 84 ce 00 00
-	00		je	$L8771
-$L8772:
+	00		je	$L8779
+$L8780:
 
 ; 2446 : 
 ; 2447 :         //
@@ -9326,7 +9326,7 @@ $L8772:
 	00		mov	cl, BYTE PTR [eax+337]
   00059	83 f9 01	cmp	ecx, 1
   0005c	0f 85 b3 00 00
-	00		jne	$L8773
+	00		jne	$L8781
 
 ; 2453 : 
 ; 2454 :             if ( strstr( SecondSection->CurrentLine->CompressedLine, "MAY_DIFFER" ) == NULL ) {
@@ -9341,7 +9341,7 @@ $L8772:
   0007b	83 c4 08	add	esp, 8
   0007e	85 c0		test	eax, eax
   00080	0f 85 31 00 00
-	00		jne	$L8774
+	00		jne	$L8782
 
 ; 2455 :                 //
 ; 2456 :                 // This implies that the firstsection line had a MAY_DIFFER in it and the second
@@ -9366,7 +9366,7 @@ $L8772:
 	00		mov	cl, BYTE PTR [eax+520]
   000a0	83 f9 03	cmp	ecx, 3
   000a3	0f 85 09 00 00
-	00		jne	$L8775
+	00		jne	$L8783
 
 ; 2464 : 
 ; 2465 :                     TokenInsertInSection( SecondSection );
@@ -9374,15 +9374,15 @@ $L8772:
   000a9	8b 45 0c	mov	eax, DWORD PTR _SecondSection$[ebp]
   000ac	50		push	eax
   000ad	e8 00 00 00 00	call	_TokenInsertInSection@4
-$L8775:
+$L8783:
 
 ; 2466 : 
 ; 2467 :                 }
 ; 2468 : 
 ; 2469 :             } else {
 
-  000b2	e9 5e 00 00 00	jmp	$L8776
-$L8774:
+  000b2	e9 5e 00 00 00	jmp	$L8784
+$L8782:
 
 ; 2470 : 
 ; 2471 :                 //
@@ -9407,7 +9407,7 @@ $L8774:
   000d9	83 c4 08	add	esp, 8
   000dc	85 c0		test	eax, eax
   000de	0f 85 28 00 00
-	00		jne	$L8777
+	00		jne	$L8785
 
 ; 2477 :                     //
 ; 2478 :                     // The FirstSection did not have a MAY_DIFFER in it
@@ -9422,7 +9422,7 @@ $L8774:
 	00		mov	cl, BYTE PTR [eax+520]
   000f5	83 f9 03	cmp	ecx, 3
   000f8	0f 85 09 00 00
-	00		jne	$L8778
+	00		jne	$L8786
 
 ; 2481 : 
 ; 2482 :                         TokenInsertInSection( FirstSection );
@@ -9430,15 +9430,15 @@ $L8774:
   000fe	8b 45 08	mov	eax, DWORD PTR _FirstSection$[ebp]
   00101	50		push	eax
   00102	e8 00 00 00 00	call	_TokenInsertInSection@4
-$L8778:
+$L8786:
 
 ; 2483 : 
 ; 2484 :                     }
 ; 2485 : 
 ; 2486 :                 } else {
 
-  00107	e9 09 00 00 00	jmp	$L8779
-$L8777:
+  00107	e9 09 00 00 00	jmp	$L8787
+$L8785:
 
 ; 2487 :                     //
 ; 2488 :                     // At this point we have determined that both lines contained MAY_DIFFER
@@ -9449,9 +9449,9 @@ $L8777:
   0010c	8b 45 08	mov	eax, DWORD PTR _FirstSection$[ebp]
   0010f	50		push	eax
   00110	e8 00 00 00 00	call	_TokenInsertInSection@4
-$L8779:
-$L8776:
-$L8773:
+$L8787:
+$L8784:
+$L8781:
 
 ; 2492 :                 }
 ; 2493 :             }
@@ -9460,8 +9460,8 @@ $L8773:
 ; 2496 :         return TRUE;
 
   00115	b0 01		mov	al, 1
-  00117	e9 07 00 00 00	jmp	$L8770
-$L8771:
+  00117	e9 07 00 00 00	jmp	$L8778
+$L8779:
 
 ; 2497 : 
 ; 2498 :     }
@@ -9469,8 +9469,8 @@ $L8771:
 ; 2500 :     return FALSE;
 
   0011c	32 c0		xor	al, al
-  0011e	e9 00 00 00 00	jmp	$L8770
-$L8770:
+  0011e	e9 00 00 00 00	jmp	$L8778
+$L8778:
 
 ; 2501 : 
 ; 2502 : }
@@ -9533,7 +9533,7 @@ _DoNotSkipThisLine@4 PROC NEAR				; COMDAT
   00029	83 c4 08	add	esp, 8
   0002c	85 c0		test	eax, eax
   0002e	0f 85 49 00 00
-	00		jne	$L8784
+	00		jne	$L8792
   00034	8b 45 fc	mov	eax, DWORD PTR _SpecialLine$[ebp]
   00037	50		push	eax
   00038	8b 45 08	mov	eax, DWORD PTR _Section$[ebp]
@@ -9545,7 +9545,7 @@ _DoNotSkipThisLine@4 PROC NEAR				; COMDAT
   0004c	83 c4 08	add	esp, 8
   0004f	85 c0		test	eax, eax
   00051	0f 84 26 00 00
-	00		je	$L8784
+	00		je	$L8792
   00057	8b 45 08	mov	eax, DWORD PTR _Section$[ebp]
   0005a	8b 80 34 01 00
 	00		mov	eax, DWORD PTR [eax+308]
@@ -9555,14 +9555,14 @@ _DoNotSkipThisLine@4 PROC NEAR				; COMDAT
   0006b	83 c4 04	add	esp, 4
   0006e	85 c0		test	eax, eax
   00070	0f 84 07 00 00
-	00		je	$L8784
+	00		je	$L8792
 
 ; 2520 : 
 ; 2521 :         return TRUE;
 
   00076	b0 01		mov	al, 1
-  00078	e9 07 00 00 00	jmp	$L8781
-$L8784:
+  00078	e9 07 00 00 00	jmp	$L8789
+$L8792:
 
 ; 2522 : 
 ; 2523 :     }
@@ -9570,8 +9570,8 @@ $L8784:
 ; 2525 :     return FALSE;
 
   0007d	32 c0		xor	al, al
-  0007f	e9 00 00 00 00	jmp	$L8781
-$L8781:
+  0007f	e9 00 00 00 00	jmp	$L8789
+$L8789:
 
 ; 2526 : 
 ; 2527 : }

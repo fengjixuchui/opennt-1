@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler Version 5.NT.02               Oct 09 00:06:41 2019
+Microsoft (R) Macro Assembler Version 5.NT.02               Oct 13 05:33:47 2019
 DISPLAY.ASM                                                 Page     1-1
 
 
@@ -56,7 +56,7 @@ DISPLAY.ASM                                                 Page     1-1
 			      \	sBegin	CODE
  0000                         \	_TEXT segment 
 			      \	assumes	CS,CODE
-Microsoft (R) Macro Assembler Version 5.NT.02               Oct 09 00:06:41 2019
+Microsoft (R) Macro Assembler Version 5.NT.02               Oct 13 05:33:47 2019
 DISPLAY.ASM                                                 Page     1-2
 
 
@@ -114,7 +114,7 @@ DISPLAY.ASM                                                 Page     1-2
 				
 			      \	cProc   Enable,<FAR,PUBLIC,WIN,PASCAL>,<si,di>
 			      \	        parmD   lp_device               ;Physical device or GDIinfo destination
-Microsoft (R) Macro Assembler Version 5.NT.02               Oct 09 00:06:41 2019
+Microsoft (R) Macro Assembler Version 5.NT.02               Oct 13 05:33:47 2019
 DISPLAY.ASM                                                 Page     1-3
 
 
@@ -153,7 +153,7 @@ DISPLAY.ASM                                                 Page     1-3
  0044                         \	_TEXT ends 
 				
 			      \	end	DISPLAY
-Microsoft (R) Macro Assembler Version 5.NT.02               Oct 09 00:06:41 2019
+Microsoft (R) Macro Assembler Version 5.NT.02               Oct 13 05:33:47 2019
 DISPLAY.ASM                                                 Symbols-1
 
 
@@ -210,7 +210,7 @@ WOW  . . . . . . . . . . . . . .  	TEXT
 
 ?386regs . . . . . . . . . . . .  	NUMBER	0000	
 ?QUIET . . . . . . . . . . . . .  	NUMBER	0001	
-Microsoft (R) Macro Assembler Version 5.NT.02               Oct 09 00:06:41 2019
+Microsoft (R) Macro Assembler Version 5.NT.02               Oct 13 05:33:47 2019
 DISPLAY.ASM                                                 Symbols-2
 
 

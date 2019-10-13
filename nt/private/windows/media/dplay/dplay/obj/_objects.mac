@@ -1,32 +1,32 @@
 ALPHA_OBJECTS= \
     $(_OBJ_DIR)\alpha\dplay.res \
-    $(_OBJ_DIR)\alpha\dllmain.obj \
     $(_OBJ_DIR)\alpha\dpimp.obj \
-    $(_OBJ_DIR)\alpha\dpcreate.obj
+    $(_OBJ_DIR)\alpha\dpcreate.obj \
+    $(_OBJ_DIR)\alpha\dllmain.obj
 
 PASS0_ALPHA_OBJECTS=
 
 MIPS_OBJECTS= \
     $(_OBJ_DIR)\mips\dplay.res \
-    $(_OBJ_DIR)\mips\dllmain.obj \
     $(_OBJ_DIR)\mips\dpimp.obj \
-    $(_OBJ_DIR)\mips\dpcreate.obj
+    $(_OBJ_DIR)\mips\dpcreate.obj \
+    $(_OBJ_DIR)\mips\dllmain.obj
 
 PASS0_MIPS_OBJECTS=
 
 386_OBJECTS= \
     $(_OBJ_DIR)\i386\dplay.res \
-    $(_OBJ_DIR)\i386\dllmain.obj \
     $(_OBJ_DIR)\i386\dpimp.obj \
-    $(_OBJ_DIR)\i386\dpcreate.obj
+    $(_OBJ_DIR)\i386\dpcreate.obj \
+    $(_OBJ_DIR)\i386\dllmain.obj
 
 PASS0_386_OBJECTS=
 
 PPC_OBJECTS= \
     $(_OBJ_DIR)\ppc\dplay.res \
-    $(_OBJ_DIR)\ppc\dllmain.obj \
     $(_OBJ_DIR)\ppc\dpimp.obj \
-    $(_OBJ_DIR)\ppc\dpcreate.obj
+    $(_OBJ_DIR)\ppc\dpcreate.obj \
+    $(_OBJ_DIR)\ppc\dllmain.obj
 
 PASS0_PPC_OBJECTS=
 

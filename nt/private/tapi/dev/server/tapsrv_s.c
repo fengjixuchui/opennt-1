@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Wed Oct 09 00:00:36 2019
+/* at Sun Oct 13 05:27:35 2019
  */
 /* Compiler settings for tapsrv.idl:
     Os (OptLev=s), W1, Zp8, env=Win32, ms_ext, c_ext, oldnames

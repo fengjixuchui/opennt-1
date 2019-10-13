@@ -60,12 +60,12 @@ ALPHA_OBJECTS= \
     $(_OBJ_DIR)\alpha\regsav.obj \
     $(_OBJ_DIR)\alpha\spinlock.obj \
     $(_OBJ_DIR)\alpha\start.obj \
-    $(_OBJ_DIR)\alpha\sysstubs.obj \
-    $(_OBJ_DIR)\alpha\systable.obj \
     $(_OBJ_DIR)\alpha\tb.obj \
     $(_OBJ_DIR)\alpha\threadbg.obj \
     $(_OBJ_DIR)\alpha\timindex.obj \
-    $(_OBJ_DIR)\alpha\trap.obj
+    $(_OBJ_DIR)\alpha\trap.obj \
+    $(_OBJ_DIR)\alpha\sysstubs.obj \
+    $(_OBJ_DIR)\alpha\systable.obj
 
 PASS0_ALPHA_OBJECTS=
 
@@ -127,12 +127,12 @@ MIPS_OBJECTS= \
     $(_OBJ_DIR)\mips\xxregsv.obj \
     $(_OBJ_DIR)\mips\xxspinlk.obj \
     $(_OBJ_DIR)\mips\x4ctxsw.obj \
-    $(_OBJ_DIR)\mips\sysstubs.obj \
-    $(_OBJ_DIR)\mips\systable.obj \
     $(_OBJ_DIR)\mips\x4trap.obj \
     $(_OBJ_DIR)\mips\threadbg.obj \
     $(_OBJ_DIR)\mips\x4start.obj \
-    $(_OBJ_DIR)\mips\x4sqrt.obj
+    $(_OBJ_DIR)\mips\x4sqrt.obj \
+    $(_OBJ_DIR)\mips\sysstubs.obj \
+    $(_OBJ_DIR)\mips\systable.obj
 
 PASS0_MIPS_OBJECTS=
 
@@ -271,10 +271,10 @@ PPC_OBJECTS= \
     $(_OBJ_DIR)\ppc\procstat.obj \
     $(_OBJ_DIR)\ppc\real0.obj \
     $(_OBJ_DIR)\ppc\spinlock.obj \
-    $(_OBJ_DIR)\ppc\sysstubs.obj \
-    $(_OBJ_DIR)\ppc\systable.obj \
     $(_OBJ_DIR)\ppc\threadbg.obj \
-    $(_OBJ_DIR)\ppc\timindex.obj
+    $(_OBJ_DIR)\ppc\timindex.obj \
+    $(_OBJ_DIR)\ppc\sysstubs.obj \
+    $(_OBJ_DIR)\ppc\systable.obj
 
 PASS0_PPC_OBJECTS=
 

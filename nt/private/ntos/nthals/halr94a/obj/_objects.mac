@@ -32,6 +32,8 @@ MIPS_OBJECTS= \
     $(_OBJ_DIR)\mips\jxusage.obj \
     $(_OBJ_DIR)\mips\pcibrd.obj \
     $(_OBJ_DIR)\mips\esm.obj \
+    $(_OBJ_DIR)\mips\bushnd.obj \
+    $(_OBJ_DIR)\mips\rangesup.obj \
     $(_OBJ_DIR)\mips\cacherr.obj \
     $(_OBJ_DIR)\mips\jxdmadsp.obj \
     $(_OBJ_DIR)\mips\j4flshbf.obj \
@@ -44,9 +46,7 @@ MIPS_OBJECTS= \
     $(_OBJ_DIR)\mips\xxmvmem.obj \
     $(_OBJ_DIR)\mips\r94anmi.obj \
     $(_OBJ_DIR)\mips\hal.res \
-    $(_OBJ_DIR)\mips\drivesup.obj \
-    $(_OBJ_DIR)\mips\bushnd.obj \
-    $(_OBJ_DIR)\mips\rangesup.obj
+    $(_OBJ_DIR)\mips\drivesup.obj
 
 PASS0_MIPS_OBJECTS=
 

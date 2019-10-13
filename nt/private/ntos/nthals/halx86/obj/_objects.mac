@@ -16,12 +16,12 @@ PASS0_MIPS_OBJECTS=
     $(_OBJ_DIR)\i386\ixlock.obj \
     $(_OBJ_DIR)\i386\ixmcaa.obj \
     $(_OBJ_DIR)\i386\ixprofil.obj \
-    $(_OBJ_DIR)\i386\ixthunk.obj \
     $(_OBJ_DIR)\i386\ixstall.obj \
     $(_OBJ_DIR)\i386\ixswint.obj \
     $(_OBJ_DIR)\i386\ixsysint.obj \
     $(_OBJ_DIR)\i386\xxbiosa.obj \
     $(_OBJ_DIR)\i386\xxioacc.obj \
+    $(_OBJ_DIR)\i386\ixthunk.obj \
     $(_OBJ_DIR)\i386\ixbusdat.obj \
     $(_OBJ_DIR)\i386\ixdat.obj \
     $(_OBJ_DIR)\i386\ixenvirv.obj \

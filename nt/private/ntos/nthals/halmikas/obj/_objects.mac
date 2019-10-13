@@ -35,6 +35,7 @@ ALPHA_OBJECTS= \
     $(_OBJ_DIR)\alpha\pciir.obj \
     $(_OBJ_DIR)\alpha\pciesc.obj \
     $(_OBJ_DIR)\alpha\pcibus.obj \
+    $(_OBJ_DIR)\alpha\bushnd.obj \
     $(_OBJ_DIR)\alpha\alphaio.obj \
     $(_OBJ_DIR)\alpha\apecsio.obj \
     $(_OBJ_DIR)\alpha\ev4ints.obj \
@@ -44,7 +45,6 @@ ALPHA_OBJECTS= \
     $(_OBJ_DIR)\alpha\intsup.obj \
     $(_OBJ_DIR)\alpha\mkintr.obj \
     $(_OBJ_DIR)\alpha\hal.res \
-    $(_OBJ_DIR)\alpha\bushnd.obj \
     $(_OBJ_DIR)\alpha\drivesup.obj
 
 PASS0_ALPHA_OBJECTS=
