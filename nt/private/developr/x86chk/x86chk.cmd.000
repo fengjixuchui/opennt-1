@@ -11,7 +11,7 @@ set NTDEBUG=ntsd
 set NTDEBUGTYPE=both
 
 REM Optimization Settings
-set 386_OPTIMIZATION=/Od /Oi- /Zi
+set 386_OPTIMIZATION=/Od /Oi
 
 REM Build Configurations
 set NT_UP=0
