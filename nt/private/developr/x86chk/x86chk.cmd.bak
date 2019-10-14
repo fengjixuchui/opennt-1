@@ -20,4 +20,4 @@ set 386_OPTIMIZATION=/Zi /Od /Oi-
 
 REM Build Configurations
 set NT_UP=0
-REM set DEBUG_CRTS=1
+set DEBUG_CRTS=1
