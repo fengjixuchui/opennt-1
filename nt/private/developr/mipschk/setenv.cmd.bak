@@ -1,9 +1,9 @@
-set BINPLACE_FLAGS=-a
+set BINPLACE_FLAGS=-x -a
 set BINPLACE_LOG=%_NTBINDIR%\binplace.log
 set REBASE_FLAGS=-p
 set NTCPPFLAGS=-D_IDWBUILD -DRDRDBG -DSRVDBG
-if "%_BLDDRIVE%"=="" set _BLDDRIVE=%_NTDRIVE%
-set PATH=%PATH%;%_NTDRIVE%\tools\x86\mstools;%_NTDRIVE%\tools\x86\idw;%_NTDRIVE%\tools\x86\etcutil;%_NTBINDIR%\private\mvdm\tools16
+if "%_blddrive%"=="" set _blddrive=w:
+set PATH=%PATH%;%_NTBINDIR%\private\mvdm\tools16;%_NTBINDIR%\public\tools;%_blddrive%\bldtools\qfe\nt40
 set DIRCMD=/o:gn
 set ntvdm_based_build=yes
 set _STATOPTIONS=fc
@@ -29,6 +29,4 @@ echo off
 call %_NTBINDIR%\private\developr\%USERNAME%\SetBldOp
 echo on
 call %_NTBINDIR%\private\developr\%USERNAME%\%USERNAME%
-
-color 1F
-rem cls
+cls

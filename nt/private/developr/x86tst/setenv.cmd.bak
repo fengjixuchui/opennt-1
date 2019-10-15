@@ -31,4 +31,4 @@ echo on
 call %_NTBINDIR%\private\developr\%USERNAME%\%USERNAME%
 
 color 1F
-rem cls
+cls

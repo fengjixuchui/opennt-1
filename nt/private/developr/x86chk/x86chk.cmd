@@ -13,10 +13,10 @@ REM https://blog.csdn.net/zhou191954/article/details/38174793
 REM http://www.debuginfo.com/articles/gendebuginfo.html
 set NTDEBUG=ntsd
 set USE_PDB=1
-set NTDEBUGTYPE=windbg
+set NTDEBUGTYPE=both
 
 REM Optimization Settings
-set 386_OPTIMIZATION=/Zi /Od /Oi-
+set 386_OPTIMIZATION=/Od /Oi
 
 REM Build Configurations
 set NT_UP=0

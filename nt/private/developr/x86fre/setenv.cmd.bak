@@ -1,4 +1,4 @@
-set BINPLACE_FLAGS=-a
+set BINPLACE_FLAGS=-x -a
 set BINPLACE_LOG=%_NTBINDIR%\binplace.log
 set REBASE_FLAGS=-p
 set NTCPPFLAGS=-D_IDWBUILD -DRDRDBG -DSRVDBG
@@ -30,5 +30,5 @@ call %_NTBINDIR%\private\developr\%USERNAME%\SetBldOp
 echo on
 call %_NTBINDIR%\private\developr\%USERNAME%\%USERNAME%
 
-color 1F
-rem cls
+color 2F
+cls
