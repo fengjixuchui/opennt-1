@@ -8,7 +8,7 @@ set _CAIRO386TREE=%CAIROBINS%\nt
 
 REM Debug Information
 set NTDEBUG=ntsd
-REM set USE_PDB=1
+set USE_PDB=1
 REM set NTDEBUGTYPE=windbg
 set NTDEBUGTYPE=both
 

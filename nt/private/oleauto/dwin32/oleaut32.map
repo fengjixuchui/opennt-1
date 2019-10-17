@@ -1,6 +1,6 @@
  oleaut32
 
- Timestamp is 5da85f01 (Thu Oct 17 20:30:57 2019)
+ Timestamp is 5da8941b (Thu Oct 17 09:17:31 2019)
 
  Preferred load address is 10000000
 
@@ -1776,8 +1776,8 @@
  0001:0003fcda       ?GetDstrMgr@OGTOLE@@QAEJPAPAVDOCSTR_MGR@@@Z 10040cda f gtlibole.obj
  0001:0003fdf8       ?OpenTypeStream@OGTOLE@@QAEJIW4STREAM_OPEN_MODE@@PAPAVSTREAM@@@Z 10040df8 f gtlibole.obj
  0001:0004002b       ?DebCheckState@OGTOLE@@QAEXI@Z 1004102b f gtlibole.obj
- 0001:000401e0       ??_EOGTOLE@@MAEPAXI@Z      100411e0 f gtlibole.obj
  0001:000401e0       ??_GOGTOLE@@MAEPAXI@Z      100411e0 f gtlibole.obj
+ 0001:000401e0       ??_EOGTOLE@@MAEPAXI@Z      100411e0 f gtlibole.obj
  0001:00040220       ??0ICreateTypeLib@@QAE@XZ  10041220 f gtlibole.obj
  0001:00040250       ?Lock@BLK_MGR@@QAEXXZ      10041250 f gtlibole.obj
  0001:000402a0       ?Lock@BLK_DESC@@QAEXXZ     100412a0 f gtlibole.obj
@@ -2324,8 +2324,8 @@
  0001:000571bc       ?DebIsHdefnInList@@YAHPAVTYPE_DATA@@II@Z 100581bc f dbindtbl.obj
  0001:00057217       ?DebCheckState@DYN_BINDNAME_TABLE@@QBEXI@Z 10058217 f dbindtbl.obj
  0001:000574ec       ?DebShowState@DYN_BINDNAME_TABLE@@QBEXI@Z 100584ec f dbindtbl.obj
- 0001:00057650       ??_GDYN_BINDNAME_TABLE@@UAEPAXI@Z 10058650 f dbindtbl.obj
  0001:00057650       ??_EDYN_BINDNAME_TABLE@@UAEPAXI@Z 10058650 f dbindtbl.obj
+ 0001:00057650       ??_GDYN_BINDNAME_TABLE@@UAEPAXI@Z 10058650 f dbindtbl.obj
  0001:00057690       ?Pdtbind@DYN_BINDNAME_TABLE@@IBEPAVDYN_TYPEBIND@@XZ 10058690 f dbindtbl.obj
  0001:000576b0       ?IsBasic@DYN_TYPEROOT@@QBEHXZ 100586b0 f dbindtbl.obj
  0001:000576e0       ??0GENPROJ_BINDNAME_TABLE@@QAE@XZ 100586e0 f gbindtbl.obj
@@ -2404,8 +2404,8 @@
  0001:0005c314       ?ReleaseResources@GENPROJ_TYPEBIND@@QAEXXZ 1005d314 f gptbind.obj
  0001:0005c335       ?DebCheckState@GENPROJ_TYPEBIND@@QBEXI@Z 1005d335 f gptbind.obj
  0001:0005c38d       ?DebShowState@GENPROJ_TYPEBIND@@QBEXI@Z 1005d38d f gptbind.obj
- 0001:0005c3d0       ??_GGENPROJ_TYPEBIND@@UAEPAXI@Z 1005d3d0 f gptbind.obj
  0001:0005c3d0       ??_EGENPROJ_TYPEBIND@@UAEPAXI@Z 1005d3d0 f gptbind.obj
+ 0001:0005c3d0       ??_GGENPROJ_TYPEBIND@@UAEPAXI@Z 1005d3d0 f gptbind.obj
  0001:0005c410       ??0BINDINFO@@QAE@XZ        1005d410 f gptbind.obj
  0001:0005c440       ?BindInfoKind@BINDINFO@@QAE?AW4BINDINFOKIND@@XZ 1005d440 f gptbind.obj
  0001:0005c460       ?Pdfntbind@BINDINFO@@QAEPAVDEFN_TYPEBIND@@XZ 1005d460 f gptbind.obj
@@ -2555,10 +2555,10 @@
  0001:00060010       __chkstk                   10061010   crtdll:chkstk.obj
  0001:00060048       __except_handler3          10061048 f crtdll:exsup3.obj
  0001:00060105       __seh_longjmp_unwind@4     10061105 f crtdll:exsup3.obj
- 0001:00060120       _wcsicmp                   10061120 f crtdll:msvcrt.dll
  0001:00060120       __wcsicmp                  10061120 f crtdll:msvcrt.dll
- 0001:00060126       _itoa                      10061126 f crtdll:msvcrt.dll
+ 0001:00060120       _wcsicmp                   10061120 f crtdll:msvcrt.dll
  0001:00060126       __itoa                     10061126 f crtdll:msvcrt.dll
+ 0001:00060126       _itoa                      10061126 f crtdll:msvcrt.dll
  0001:0006012c       __initterm                 1006112c f crtdll:msvcrt.dll
  0001:00060132       __global_unwind2           10061132 f crtdll:msvcrt.dll
  0001:0006015a       __local_unwind2            1006115a f crtdll:exsup.obj
@@ -2827,146 +2827,146 @@
  0004:00000050       __IMPORT_DESCRIPTOR_ADVAPI32 10069050   advapi32:ADVAPI32.dll
  0004:00000064       __IMPORT_DESCRIPTOR_MPR    10069064   mpr:MPR.dll
  0004:00000078       __NULL_IMPORT_DESCRIPTOR   10069078   ole32:ole32.dll
- 0004:000002b8       __imp__RegCreateKeyW@12    100692b8   advapi32:ADVAPI32.dll
- 0004:000002bc       __imp__RegQueryValueA@16   100692bc   advapi32:ADVAPI32.dll
- 0004:000002c0       __imp__RegCloseKey@4       100692c0   advapi32:ADVAPI32.dll
- 0004:000002c4       __imp__RegOpenKeyA@12      100692c4   advapi32:ADVAPI32.dll
- 0004:000002c8       __imp__RegCreateKeyA@12    100692c8   advapi32:ADVAPI32.dll
- 0004:000002cc       __imp__RegEnumKeyA@16      100692cc   advapi32:ADVAPI32.dll
- 0004:000002d0       __imp__RegQueryValueW@16   100692d0   advapi32:ADVAPI32.dll
- 0004:000002d4       __imp__RegEnumKeyW@16      100692d4   advapi32:ADVAPI32.dll
- 0004:000002d8       __imp__RegOpenKeyW@12      100692d8   advapi32:ADVAPI32.dll
- 0004:000002dc       __imp__RegSetValueA@20     100692dc   advapi32:ADVAPI32.dll
- 0004:000002e0       __imp__RegSetValueW@20     100692e0   advapi32:ADVAPI32.dll
+ 0004:000002b8       __imp__RegEnumKeyW@16      100692b8   advapi32:ADVAPI32.dll
+ 0004:000002bc       __imp__RegCloseKey@4       100692bc   advapi32:ADVAPI32.dll
+ 0004:000002c0       __imp__RegOpenKeyA@12      100692c0   advapi32:ADVAPI32.dll
+ 0004:000002c4       __imp__RegCreateKeyA@12    100692c4   advapi32:ADVAPI32.dll
+ 0004:000002c8       __imp__RegCreateKeyW@12    100692c8   advapi32:ADVAPI32.dll
+ 0004:000002cc       __imp__RegQueryValueW@16   100692cc   advapi32:ADVAPI32.dll
+ 0004:000002d0       __imp__RegQueryValueA@16   100692d0   advapi32:ADVAPI32.dll
+ 0004:000002d4       __imp__RegOpenKeyW@12      100692d4   advapi32:ADVAPI32.dll
+ 0004:000002d8       __imp__RegSetValueA@20     100692d8   advapi32:ADVAPI32.dll
+ 0004:000002dc       __imp__RegSetValueW@20     100692dc   advapi32:ADVAPI32.dll
+ 0004:000002e0       __imp__RegEnumKeyA@16      100692e0   advapi32:ADVAPI32.dll
  0004:000002e4       \177ADVAPI32_NULL_THUNK_DATA 100692e4   advapi32:ADVAPI32.dll
- 0004:000002e8       __imp__GetFileSize@8       100692e8   kernel32:KERNEL32.dll
- 0004:000002ec       __imp__TlsFree@4           100692ec   kernel32:KERNEL32.dll
- 0004:000002f0       __imp__TlsAlloc@0          100692f0   kernel32:KERNEL32.dll
- 0004:000002f4       __imp__GetSystemInfo@4     100692f4   kernel32:KERNEL32.dll
- 0004:000002f8       __imp__MapViewOfFile@20    100692f8   kernel32:KERNEL32.dll
- 0004:000002fc       __imp__UnmapViewOfFile@4   100692fc   kernel32:KERNEL32.dll
- 0004:00000300       __imp__CloseHandle@4       10069300   kernel32:KERNEL32.dll
- 0004:00000304       __imp__LoadLibraryA@4      10069304   kernel32:KERNEL32.dll
- 0004:00000308       __imp__SetErrorMode@4      10069308   kernel32:KERNEL32.dll
- 0004:0000030c       __imp__GetProcAddress@8    1006930c   kernel32:KERNEL32.dll
- 0004:00000310       __imp__FreeLibrary@4       10069310   kernel32:KERNEL32.dll
- 0004:00000314       __imp__InitializeCriticalSection@4 10069314   kernel32:KERNEL32.dll
- 0004:00000318       __imp__EnterCriticalSection@4 10069318   kernel32:KERNEL32.dll
- 0004:0000031c       __imp__LeaveCriticalSection@4 1006931c   kernel32:KERNEL32.dll
- 0004:00000320       __imp__DeleteCriticalSection@4 10069320   kernel32:KERNEL32.dll
- 0004:00000324       __imp__lstrcmpiA@8         10069324   kernel32:KERNEL32.dll
- 0004:00000328       __imp___lread@12           10069328   kernel32:KERNEL32.dll
- 0004:0000032c       __imp___llseek@12          1006932c   kernel32:KERNEL32.dll
- 0004:00000330       __imp___lopen@8            10069330   kernel32:KERNEL32.dll
- 0004:00000334       __imp___lclose@4           10069334   kernel32:KERNEL32.dll
- 0004:00000338       __imp__IsDBCSLeadByte@4    10069338   kernel32:KERNEL32.dll
- 0004:0000033c       __imp__GetLastError@0      1006933c   kernel32:KERNEL32.dll
- 0004:00000340       __imp__OpenFile@12         10069340   kernel32:KERNEL32.dll
- 0004:00000344       __imp__GetDriveTypeA@4     10069344   kernel32:KERNEL32.dll
- 0004:00000348       __imp__GetDriveTypeW@4     10069348   kernel32:KERNEL32.dll
- 0004:0000034c       __imp__TlsSetValue@8       1006934c   kernel32:KERNEL32.dll
- 0004:00000350       __imp__IsBadReadPtr@8      10069350   kernel32:KERNEL32.dll
- 0004:00000354       __imp___lwrite@12          10069354   kernel32:KERNEL32.dll
- 0004:00000358       __imp__GetLocaleInfoW@16   10069358   kernel32:KERNEL32.dll
- 0004:0000035c       __imp__GetStringTypeExW@20 1006935c   kernel32:KERNEL32.dll
- 0004:00000360       __imp__GetStringTypeExA@20 10069360   kernel32:KERNEL32.dll
- 0004:00000364       __imp__LCMapStringW@24     10069364   kernel32:KERNEL32.dll
- 0004:00000368       __imp__LCMapStringA@24     10069368   kernel32:KERNEL32.dll
- 0004:0000036c       __imp__CompareStringW@24   1006936c   kernel32:KERNEL32.dll
- 0004:00000370       __imp__CompareStringA@24   10069370   kernel32:KERNEL32.dll
- 0004:00000374       __imp__GetUserDefaultLCID@0 10069374   kernel32:KERNEL32.dll
- 0004:00000378       __imp__GetProfileIntA@12   10069378   kernel32:KERNEL32.dll
- 0004:0000037c       __imp__GetLocalTime@4      1006937c   kernel32:KERNEL32.dll
- 0004:00000380       __imp__GetLocaleInfoA@16   10069380   kernel32:KERNEL32.dll
- 0004:00000384       __imp__MultiByteToWideChar@24 10069384   kernel32:KERNEL32.dll
- 0004:00000388       __imp__WideCharToMultiByte@32 10069388   kernel32:KERNEL32.dll
- 0004:0000038c       __imp__TlsGetValue@4       1006938c   kernel32:KERNEL32.dll
- 0004:00000390       __imp__GetVersion@0        10069390   kernel32:KERNEL32.dll
- 0004:00000394       __imp__OutputDebugStringA@4 10069394   kernel32:KERNEL32.dll
- 0004:00000398       __imp__DebugBreak@0        10069398   kernel32:KERNEL32.dll
- 0004:0000039c       __imp__FatalAppExitA@8     1006939c   kernel32:KERNEL32.dll
- 0004:000003a0       __imp__IsBadStringPtrA@8   100693a0   kernel32:KERNEL32.dll
- 0004:000003a4       __imp__IsBadStringPtrW@8   100693a4   kernel32:KERNEL32.dll
- 0004:000003a8       __imp__CreateFileMappingA@24 100693a8   kernel32:KERNEL32.dll
- 0004:000003ac       __imp__IsBadCodePtr@4      100693ac   kernel32:KERNEL32.dll
- 0004:000003b0       __imp__IsBadWritePtr@8     100693b0   kernel32:KERNEL32.dll
+ 0004:000002e8       __imp__IsBadWritePtr@8     100692e8   kernel32:KERNEL32.dll
+ 0004:000002ec       __imp__GetFileSize@8       100692ec   kernel32:KERNEL32.dll
+ 0004:000002f0       __imp__IsBadCodePtr@4      100692f0   kernel32:KERNEL32.dll
+ 0004:000002f4       __imp___lwrite@12          100692f4   kernel32:KERNEL32.dll
+ 0004:000002f8       __imp__CreateFileMappingA@24 100692f8   kernel32:KERNEL32.dll
+ 0004:000002fc       __imp__GetSystemInfo@4     100692fc   kernel32:KERNEL32.dll
+ 0004:00000300       __imp__MapViewOfFile@20    10069300   kernel32:KERNEL32.dll
+ 0004:00000304       __imp__UnmapViewOfFile@4   10069304   kernel32:KERNEL32.dll
+ 0004:00000308       __imp__CloseHandle@4       10069308   kernel32:KERNEL32.dll
+ 0004:0000030c       __imp__LoadLibraryA@4      1006930c   kernel32:KERNEL32.dll
+ 0004:00000310       __imp__SetErrorMode@4      10069310   kernel32:KERNEL32.dll
+ 0004:00000314       __imp__GetProcAddress@8    10069314   kernel32:KERNEL32.dll
+ 0004:00000318       __imp__FreeLibrary@4       10069318   kernel32:KERNEL32.dll
+ 0004:0000031c       __imp__InitializeCriticalSection@4 1006931c   kernel32:KERNEL32.dll
+ 0004:00000320       __imp__EnterCriticalSection@4 10069320   kernel32:KERNEL32.dll
+ 0004:00000324       __imp__LeaveCriticalSection@4 10069324   kernel32:KERNEL32.dll
+ 0004:00000328       __imp__DeleteCriticalSection@4 10069328   kernel32:KERNEL32.dll
+ 0004:0000032c       __imp__lstrcmpiA@8         1006932c   kernel32:KERNEL32.dll
+ 0004:00000330       __imp___lread@12           10069330   kernel32:KERNEL32.dll
+ 0004:00000334       __imp___llseek@12          10069334   kernel32:KERNEL32.dll
+ 0004:00000338       __imp___lopen@8            10069338   kernel32:KERNEL32.dll
+ 0004:0000033c       __imp___lclose@4           1006933c   kernel32:KERNEL32.dll
+ 0004:00000340       __imp__IsDBCSLeadByte@4    10069340   kernel32:KERNEL32.dll
+ 0004:00000344       __imp__GetLastError@0      10069344   kernel32:KERNEL32.dll
+ 0004:00000348       __imp__OpenFile@12         10069348   kernel32:KERNEL32.dll
+ 0004:0000034c       __imp__GetDriveTypeA@4     1006934c   kernel32:KERNEL32.dll
+ 0004:00000350       __imp__GetDriveTypeW@4     10069350   kernel32:KERNEL32.dll
+ 0004:00000354       __imp__TlsSetValue@8       10069354   kernel32:KERNEL32.dll
+ 0004:00000358       __imp__TlsFree@4           10069358   kernel32:KERNEL32.dll
+ 0004:0000035c       __imp__TlsAlloc@0          1006935c   kernel32:KERNEL32.dll
+ 0004:00000360       __imp__GetLocaleInfoW@16   10069360   kernel32:KERNEL32.dll
+ 0004:00000364       __imp__GetStringTypeExW@20 10069364   kernel32:KERNEL32.dll
+ 0004:00000368       __imp__GetStringTypeExA@20 10069368   kernel32:KERNEL32.dll
+ 0004:0000036c       __imp__LCMapStringW@24     1006936c   kernel32:KERNEL32.dll
+ 0004:00000370       __imp__LCMapStringA@24     10069370   kernel32:KERNEL32.dll
+ 0004:00000374       __imp__CompareStringW@24   10069374   kernel32:KERNEL32.dll
+ 0004:00000378       __imp__CompareStringA@24   10069378   kernel32:KERNEL32.dll
+ 0004:0000037c       __imp__GetUserDefaultLCID@0 1006937c   kernel32:KERNEL32.dll
+ 0004:00000380       __imp__GetProfileIntA@12   10069380   kernel32:KERNEL32.dll
+ 0004:00000384       __imp__GetLocalTime@4      10069384   kernel32:KERNEL32.dll
+ 0004:00000388       __imp__GetLocaleInfoA@16   10069388   kernel32:KERNEL32.dll
+ 0004:0000038c       __imp__MultiByteToWideChar@24 1006938c   kernel32:KERNEL32.dll
+ 0004:00000390       __imp__WideCharToMultiByte@32 10069390   kernel32:KERNEL32.dll
+ 0004:00000394       __imp__TlsGetValue@4       10069394   kernel32:KERNEL32.dll
+ 0004:00000398       __imp__GetVersion@0        10069398   kernel32:KERNEL32.dll
+ 0004:0000039c       __imp__OutputDebugStringA@4 1006939c   kernel32:KERNEL32.dll
+ 0004:000003a0       __imp__DebugBreak@0        100693a0   kernel32:KERNEL32.dll
+ 0004:000003a4       __imp__FatalAppExitA@8     100693a4   kernel32:KERNEL32.dll
+ 0004:000003a8       __imp__IsBadStringPtrA@8   100693a8   kernel32:KERNEL32.dll
+ 0004:000003ac       __imp__IsBadStringPtrW@8   100693ac   kernel32:KERNEL32.dll
+ 0004:000003b0       __imp__IsBadReadPtr@8      100693b0   kernel32:KERNEL32.dll
  0004:000003b4       \177KERNEL32_NULL_THUNK_DATA 100693b4   kernel32:KERNEL32.dll
  0004:000003b8       __imp__WNetGetConnectionA@12 100693b8   mpr:MPR.dll
  0004:000003bc       __imp__WNetGetConnectionW@12 100693bc   mpr:MPR.dll
  0004:000003c0       \177MPR_NULL_THUNK_DATA    100693c0   mpr:MPR.dll
  0004:000003c4       __imp__EndDialog@8         100693c4   user32:USER32.dll
- 0004:000003c8       __imp__SetDlgItemTextA@12  100693c8   user32:USER32.dll
- 0004:000003cc       __imp__DialogBoxParamA@20  100693cc   user32:USER32.dll
- 0004:000003d0       __imp__IsCharAlphaA@4      100693d0   user32:USER32.dll
- 0004:000003d4       __imp__IsCharAlphaW@4      100693d4   user32:USER32.dll
- 0004:000003d8       __imp__IsCharAlphaNumericA@4 100693d8   user32:USER32.dll
- 0004:000003dc       __imp__IsCharAlphaNumericW@4 100693dc   user32:USER32.dll
- 0004:000003e0       __imp__MessageBoxA@16      100693e0   user32:USER32.dll
+ 0004:000003c8       __imp__DialogBoxParamA@20  100693c8   user32:USER32.dll
+ 0004:000003cc       __imp__IsCharAlphaA@4      100693cc   user32:USER32.dll
+ 0004:000003d0       __imp__IsCharAlphaW@4      100693d0   user32:USER32.dll
+ 0004:000003d4       __imp__IsCharAlphaNumericA@4 100693d4   user32:USER32.dll
+ 0004:000003d8       __imp__IsCharAlphaNumericW@4 100693d8   user32:USER32.dll
+ 0004:000003dc       __imp__MessageBoxA@16      100693dc   user32:USER32.dll
+ 0004:000003e0       __imp__SetDlgItemTextA@12  100693e0   user32:USER32.dll
  0004:000003e4       \177USER32_NULL_THUNK_DATA 100693e4   user32:USER32.dll
- 0004:000003e8       __imp__strncpy             100693e8   crtdll:msvcrt.dll
- 0004:000003ec       __imp__wcscat              100693ec   crtdll:msvcrt.dll
- 0004:000003f0       __imp__remove              100693f0   crtdll:msvcrt.dll
- 0004:000003f4       __imp__strcmp              100693f4   crtdll:msvcrt.dll
- 0004:000003f8       __imp__strrchr             100693f8   crtdll:msvcrt.dll
- 0004:000003fc       __imp__strchr              100693fc   crtdll:msvcrt.dll
- 0004:00000400       __imp__atoi                10069400   crtdll:msvcrt.dll
- 0004:00000404       __imp___ultoa              10069404   crtdll:msvcrt.dll
- 0004:00000408       __imp___stat               10069408   crtdll:msvcrt.dll
- 0004:0000040c       __imp__vsprintf            1006940c   crtdll:msvcrt.dll
- 0004:00000410       __imp__memmove             10069410   crtdll:msvcrt.dll
- 0004:00000414       __imp__wcsncmp             10069414   crtdll:msvcrt.dll
- 0004:00000418       __imp__towlower            10069418   crtdll:msvcrt.dll
- 0004:0000041c       __imp__wcsncpy             1006941c   crtdll:msvcrt.dll
- 0004:00000420       __imp__modf                10069420   crtdll:msvcrt.dll
- 0004:00000424       __imp___errno              10069424   crtdll:msvcrt.dll
- 0004:00000428       __imp____p___mb_cur_max    10069428   crtdll:msvcrt.dll
- 0004:0000042c       __imp___stricmp            1006942c   crtdll:msvcrt.dll
- 0004:0000042c       __imp__stricmp             1006942c   crtdll:msvcrt.dll
- 0004:00000430       __imp__wcsrchr             10069430   crtdll:msvcrt.dll
- 0004:00000434       __imp__wcscmp              10069434   crtdll:msvcrt.dll
- 0004:00000438       __imp__wcscpy              10069438   crtdll:msvcrt.dll
- 0004:0000043c       __imp__wcschr              1006943c   crtdll:msvcrt.dll
- 0004:00000440       __imp__wcstod              10069440   crtdll:msvcrt.dll
- 0004:00000444       __imp___gcvt               10069444   crtdll:msvcrt.dll
- 0004:00000448       __imp__floor               10069448   crtdll:msvcrt.dll
- 0004:0000044c       __imp___ftol               1006944c   crtdll:msvcrt.dll
- 0004:00000450       __imp__strlen              10069450   crtdll:msvcrt.dll
- 0004:00000454       __imp__strtoul             10069454   crtdll:msvcrt.dll
- 0004:00000458       __imp__memset              10069458   crtdll:msvcrt.dll
- 0004:0000045c       __imp__memcpy              1006945c   crtdll:msvcrt.dll
- 0004:00000460       __imp__strcpy              10069460   crtdll:msvcrt.dll
- 0004:00000464       __imp__strcat              10069464   crtdll:msvcrt.dll
- 0004:00000468       __imp__memcmp              10069468   crtdll:msvcrt.dll
- 0004:0000046c       __imp___purecall           1006946c   crtdll:msvcrt.dll
- 0004:00000470       __imp__sprintf             10069470   crtdll:msvcrt.dll
- 0004:00000474       __imp__wcslen              10069474   crtdll:msvcrt.dll
- 0004:00000478       __imp___wcsicmp            10069478   crtdll:msvcrt.dll
- 0004:00000478       __imp__wcsicmp             10069478   crtdll:msvcrt.dll
- 0004:0000047c       __imp__malloc              1006947c   crtdll:msvcrt.dll
- 0004:00000480       __imp___initterm           10069480   crtdll:msvcrt.dll
- 0004:00000484       __imp___itoa               10069484   crtdll:msvcrt.dll
- 0004:00000488       __imp___isctype            10069488   crtdll:msvcrt.dll
- 0004:0000048c       __imp____p__pctype         1006948c   crtdll:msvcrt.dll
- 0004:00000490       __imp__free                10069490   crtdll:msvcrt.dll
- 0004:00000494       __imp__wcstoul             10069494   crtdll:msvcrt.dll
- 0004:00000498       __imp___global_unwind2     10069498   crtdll:msvcrt.dll
+ 0004:000003e8       __imp__stricmp             100693e8   crtdll:msvcrt.dll
+ 0004:000003e8       __imp___stricmp            100693e8   crtdll:msvcrt.dll
+ 0004:000003ec       __imp__wcsrchr             100693ec   crtdll:msvcrt.dll
+ 0004:000003f0       __imp__wcstoul             100693f0   crtdll:msvcrt.dll
+ 0004:000003f4       __imp__strncpy             100693f4   crtdll:msvcrt.dll
+ 0004:000003f8       __imp__wcscat              100693f8   crtdll:msvcrt.dll
+ 0004:000003fc       __imp__strcmp              100693fc   crtdll:msvcrt.dll
+ 0004:00000400       __imp__strrchr             10069400   crtdll:msvcrt.dll
+ 0004:00000404       __imp__strchr              10069404   crtdll:msvcrt.dll
+ 0004:00000408       __imp__atoi                10069408   crtdll:msvcrt.dll
+ 0004:0000040c       __imp___ultoa              1006940c   crtdll:msvcrt.dll
+ 0004:00000410       __imp___stat               10069410   crtdll:msvcrt.dll
+ 0004:00000414       __imp__vsprintf            10069414   crtdll:msvcrt.dll
+ 0004:00000418       __imp__memmove             10069418   crtdll:msvcrt.dll
+ 0004:0000041c       __imp__wcsncmp             1006941c   crtdll:msvcrt.dll
+ 0004:00000420       __imp__towlower            10069420   crtdll:msvcrt.dll
+ 0004:00000424       __imp__wcsncpy             10069424   crtdll:msvcrt.dll
+ 0004:00000428       __imp__modf                10069428   crtdll:msvcrt.dll
+ 0004:0000042c       __imp___errno              1006942c   crtdll:msvcrt.dll
+ 0004:00000430       __imp__wcsicmp             10069430   crtdll:msvcrt.dll
+ 0004:00000430       __imp___wcsicmp            10069430   crtdll:msvcrt.dll
+ 0004:00000434       __imp___isctype            10069434   crtdll:msvcrt.dll
+ 0004:00000438       __imp____p__pctype         10069438   crtdll:msvcrt.dll
+ 0004:0000043c       __imp__wcscmp              1006943c   crtdll:msvcrt.dll
+ 0004:00000440       __imp__wcscpy              10069440   crtdll:msvcrt.dll
+ 0004:00000444       __imp__wcschr              10069444   crtdll:msvcrt.dll
+ 0004:00000448       __imp__wcstod              10069448   crtdll:msvcrt.dll
+ 0004:0000044c       __imp___gcvt               1006944c   crtdll:msvcrt.dll
+ 0004:00000450       __imp__floor               10069450   crtdll:msvcrt.dll
+ 0004:00000454       __imp___ftol               10069454   crtdll:msvcrt.dll
+ 0004:00000458       __imp__strlen              10069458   crtdll:msvcrt.dll
+ 0004:0000045c       __imp__strtoul             1006945c   crtdll:msvcrt.dll
+ 0004:00000460       __imp__memset              10069460   crtdll:msvcrt.dll
+ 0004:00000464       __imp__memcpy              10069464   crtdll:msvcrt.dll
+ 0004:00000468       __imp__strcpy              10069468   crtdll:msvcrt.dll
+ 0004:0000046c       __imp__strcat              1006946c   crtdll:msvcrt.dll
+ 0004:00000470       __imp__memcmp              10069470   crtdll:msvcrt.dll
+ 0004:00000474       __imp___purecall           10069474   crtdll:msvcrt.dll
+ 0004:00000478       __imp__sprintf             10069478   crtdll:msvcrt.dll
+ 0004:0000047c       __imp__wcslen              1006947c   crtdll:msvcrt.dll
+ 0004:00000480       __imp___itoa               10069480   crtdll:msvcrt.dll
+ 0004:00000484       __imp___global_unwind2     10069484   crtdll:msvcrt.dll
+ 0004:00000488       __imp__malloc              10069488   crtdll:msvcrt.dll
+ 0004:0000048c       __imp___initterm           1006948c   crtdll:msvcrt.dll
+ 0004:00000490       __imp____p___mb_cur_max    10069490   crtdll:msvcrt.dll
+ 0004:00000494       __imp__free                10069494   crtdll:msvcrt.dll
+ 0004:00000498       __imp__remove              10069498   crtdll:msvcrt.dll
  0004:0000049c       \177msvcrt_NULL_THUNK_DATA 1006949c   crtdll:msvcrt.dll
- 0004:000004a0       __imp__CoCreateInstance@20 100694a0   ole32:ole32.dll
- 0004:000004a4       __imp__WriteClassStg@8     100694a4   ole32:ole32.dll
- 0004:000004a8       __imp__WriteFmtUserTypeStg@12 100694a8   ole32:ole32.dll
- 0004:000004ac       __imp__ReadClassStg@8      100694ac   ole32:ole32.dll
- 0004:000004b0       __imp__StringFromGUID2@12  100694b0   ole32:ole32.dll
- 0004:000004b4       __imp__CreateBindCtx@8     100694b4   ole32:ole32.dll
- 0004:000004b8       __imp__MkParseDisplayName@16 100694b8   ole32:ole32.dll
- 0004:000004bc       __imp__CoSetState@4        100694bc   ole32:ole32.dll
- 0004:000004c0       __imp__GetRunningObjectTable@8 100694c0   ole32:ole32.dll
- 0004:000004c4       __imp__StringFromCLSID@8   100694c4   ole32:ole32.dll
- 0004:000004c8       __imp__CreateFileMoniker@8 100694c8   ole32:ole32.dll
- 0004:000004cc       __imp__CoGetMalloc@8       100694cc   ole32:ole32.dll
- 0004:000004d0       __imp__CoUnmarshalInterface@12 100694d0   ole32:ole32.dll
- 0004:000004d4       __imp__CoMarshalInterface@24 100694d4   ole32:ole32.dll
- 0004:000004d8       __imp__CoUnmarshalHresult@8 100694d8   ole32:ole32.dll
- 0004:000004dc       __imp__CoMarshalHresult@8  100694dc   ole32:ole32.dll
+ 0004:000004a0       __imp__WriteClassStg@8     100694a0   ole32:ole32.dll
+ 0004:000004a4       __imp__WriteFmtUserTypeStg@12 100694a4   ole32:ole32.dll
+ 0004:000004a8       __imp__ReadClassStg@8      100694a8   ole32:ole32.dll
+ 0004:000004ac       __imp__StringFromGUID2@12  100694ac   ole32:ole32.dll
+ 0004:000004b0       __imp__CreateBindCtx@8     100694b0   ole32:ole32.dll
+ 0004:000004b4       __imp__MkParseDisplayName@16 100694b4   ole32:ole32.dll
+ 0004:000004b8       __imp__CoCreateInstance@20 100694b8   ole32:ole32.dll
+ 0004:000004bc       __imp__GetRunningObjectTable@8 100694bc   ole32:ole32.dll
+ 0004:000004c0       __imp__StringFromCLSID@8   100694c0   ole32:ole32.dll
+ 0004:000004c4       __imp__CreateFileMoniker@8 100694c4   ole32:ole32.dll
+ 0004:000004c8       __imp__CoGetMalloc@8       100694c8   ole32:ole32.dll
+ 0004:000004cc       __imp__CoUnmarshalInterface@12 100694cc   ole32:ole32.dll
+ 0004:000004d0       __imp__CoMarshalInterface@24 100694d0   ole32:ole32.dll
+ 0004:000004d4       __imp__CoUnmarshalHresult@8 100694d4   ole32:ole32.dll
+ 0004:000004d8       __imp__CoMarshalHresult@8  100694d8   ole32:ole32.dll
+ 0004:000004dc       __imp__CoSetState@4        100694dc   ole32:ole32.dll
  0004:000004e0       \177ole32_NULL_THUNK_DATA  100694e0   ole32:ole32.dll
 
  entry point at        0001:0005fe50

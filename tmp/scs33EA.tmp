@@ -1,0 +1,7 @@
+RC : warning RW4005: Segment 1 (offset 3359) contains a
+	  relocation record pointing to the automatic
+	  data segment.	 This will cause the program to crash
+	  if the instruction being fixed up is executed in a
+	  multi-instance application.  If this fixup is
+	  necessary, the program should be restricted to run
+	  only a single instance.

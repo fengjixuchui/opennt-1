@@ -16,7 +16,7 @@ Linking w:\nt\private\eventlog\netevent directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 
 Stop. 
-	link -out:obj\i386\eventlog.dll -machine:i386 @W:\tmp\nma02276.
+	link -out:obj\i386\eventlog.dll -machine:i386 @W:\tmp\nma02312.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -34,7 +34,6 @@ Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 -debugtype:both 
 -version:4.00 
 -osversion:4.00 
--PDB:NONE 
 -MERGE:.rdata=.text 
 -dll 
 -optidata 

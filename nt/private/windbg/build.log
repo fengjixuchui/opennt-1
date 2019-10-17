@@ -31,14 +31,14 @@ Linking w:\nt\private\windbg\eecxx\p_alpha directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 
 Stop. 
-
-Stop. 
 Linking w:\nt\private\windbg\eecxx\p_i386 directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
-Linking w:\nt\private\windbg\eecxx\p_mips directory ********************
-'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 
 Stop. 
+
+Stop. 
+Linking w:\nt\private\windbg\eecxx\p_mips directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 Linking w:\nt\private\windbg\eecxx\p_ppc directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 
@@ -51,10 +51,10 @@ Linking w:\nt\private\windbg\em\p_mips directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 
 Stop. 
-Linking w:\nt\private\windbg\em\p_alpha directory ********************
-'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 
 Stop. 
+Linking w:\nt\private\windbg\em\p_alpha directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 Linking w:\nt\private\windbg\em\p_ppc directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 
@@ -91,10 +91,10 @@ Linking w:\nt\private\windbg\driver\crashdrv\driver directory ******************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 
 Stop. 
-Linking w:\nt\private\windbg\driver\crashdrv\tests directory ********************
-'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 
 Stop. 
+Linking w:\nt\private\windbg\driver\crashdrv\tests directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 Linking w:\nt\private\windbg\driver\crash directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 

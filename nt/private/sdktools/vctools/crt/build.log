@@ -131,314 +131,314 @@ Building generated files in w:\nt\private\sdktools\vctools\crt\libw32 **********
 	cd include
 	for %i in (*.*) do attrib -r W:\nt\public\sdk\inc\crt\%i & copy %i W:\nt\public\sdk\inc\crt\%i & attrib +r W:\nt\public\sdk\inc\crt\%i
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:35.78
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:14.14
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\assert.h   & copy assert.h W:\nt\public\sdk\inc\crt\assert.h   & attrib +r W:\nt\public\sdk\inc\crt\assert.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:35.87
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:14.21
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\conio.h   & copy conio.h W:\nt\public\sdk\inc\crt\conio.h   & attrib +r W:\nt\public\sdk\inc\crt\conio.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:35.93
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:14.26
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\crtdbg.h   & copy crtdbg.h W:\nt\public\sdk\inc\crt\crtdbg.h   & attrib +r W:\nt\public\sdk\inc\crt\crtdbg.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:35.98
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:14.31
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\ctype.h   & copy ctype.h W:\nt\public\sdk\inc\crt\ctype.h   & attrib +r W:\nt\public\sdk\inc\crt\ctype.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.03
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:14.35
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\direct.h   & copy direct.h W:\nt\public\sdk\inc\crt\direct.h   & attrib +r W:\nt\public\sdk\inc\crt\direct.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.06
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:14.40
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\dos.h   & copy dos.h W:\nt\public\sdk\inc\crt\dos.h   & attrib +r W:\nt\public\sdk\inc\crt\dos.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.12
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:14.45
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\eh.h   & copy eh.h W:\nt\public\sdk\inc\crt\eh.h   & attrib +r W:\nt\public\sdk\inc\crt\eh.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.15
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:14.50
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\errno.h   & copy errno.h W:\nt\public\sdk\inc\crt\errno.h   & attrib +r W:\nt\public\sdk\inc\crt\errno.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.20
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:14.54
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\excpt.h   & copy excpt.h W:\nt\public\sdk\inc\crt\excpt.h   & attrib +r W:\nt\public\sdk\inc\crt\excpt.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.25
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:14.59
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\fcntl.h   & copy fcntl.h W:\nt\public\sdk\inc\crt\fcntl.h   & attrib +r W:\nt\public\sdk\inc\crt\fcntl.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.29
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:14.64
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\float.h   & copy float.h W:\nt\public\sdk\inc\crt\float.h   & attrib +r W:\nt\public\sdk\inc\crt\float.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.34
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:14.68
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\fpieee.h   & copy fpieee.h W:\nt\public\sdk\inc\crt\fpieee.h   & attrib +r W:\nt\public\sdk\inc\crt\fpieee.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.39
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:14.71
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\fstream.h   & copy fstream.h W:\nt\public\sdk\inc\crt\fstream.h   & attrib +r W:\nt\public\sdk\inc\crt\fstream.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.43
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:14.76
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\io.h   & copy io.h W:\nt\public\sdk\inc\crt\io.h   & attrib +r W:\nt\public\sdk\inc\crt\io.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.48
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:14.81
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\iomanip.h   & copy iomanip.h W:\nt\public\sdk\inc\crt\iomanip.h   & attrib +r W:\nt\public\sdk\inc\crt\iomanip.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.53
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:14.85
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\ios.h   & copy ios.h W:\nt\public\sdk\inc\crt\ios.h   & attrib +r W:\nt\public\sdk\inc\crt\ios.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.57
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:14.90
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\iostream.h   & copy iostream.h W:\nt\public\sdk\inc\crt\iostream.h   & attrib +r W:\nt\public\sdk\inc\crt\iostream.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.62
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:14.95
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\istream.h   & copy istream.h W:\nt\public\sdk\inc\crt\istream.h   & attrib +r W:\nt\public\sdk\inc\crt\istream.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.67
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.00
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\limits.h   & copy limits.h W:\nt\public\sdk\inc\crt\limits.h   & attrib +r W:\nt\public\sdk\inc\crt\limits.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.70
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.04
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\locale.h   & copy locale.h W:\nt\public\sdk\inc\crt\locale.h   & attrib +r W:\nt\public\sdk\inc\crt\locale.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.75
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.09
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\malloc.h   & copy malloc.h W:\nt\public\sdk\inc\crt\malloc.h   & attrib +r W:\nt\public\sdk\inc\crt\malloc.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.79
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.14
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\math.h   & copy math.h W:\nt\public\sdk\inc\crt\math.h   & attrib +r W:\nt\public\sdk\inc\crt\math.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.84
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.18
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\mbctype.h   & copy mbctype.h W:\nt\public\sdk\inc\crt\mbctype.h   & attrib +r W:\nt\public\sdk\inc\crt\mbctype.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.87
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.23
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\mbstring.h   & copy mbstring.h W:\nt\public\sdk\inc\crt\mbstring.h   & attrib +r W:\nt\public\sdk\inc\crt\mbstring.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.92
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.28
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\memory.h   & copy memory.h W:\nt\public\sdk\inc\crt\memory.h   & attrib +r W:\nt\public\sdk\inc\crt\memory.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:36.96
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.32
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\new.h   & copy new.h W:\nt\public\sdk\inc\crt\new.h   & attrib +r W:\nt\public\sdk\inc\crt\new.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.01
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.37
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\ostream.h   & copy ostream.h W:\nt\public\sdk\inc\crt\ostream.h   & attrib +r W:\nt\public\sdk\inc\crt\ostream.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.04
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.42
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\process.h   & copy process.h W:\nt\public\sdk\inc\crt\process.h   & attrib +r W:\nt\public\sdk\inc\crt\process.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.09
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.46
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\search.h   & copy search.h W:\nt\public\sdk\inc\crt\search.h   & attrib +r W:\nt\public\sdk\inc\crt\search.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.15
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.51
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\setjmp.h   & copy setjmp.h W:\nt\public\sdk\inc\crt\setjmp.h   & attrib +r W:\nt\public\sdk\inc\crt\setjmp.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.20
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.56
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\setjmpex.h   & copy setjmpex.h W:\nt\public\sdk\inc\crt\setjmpex.h   & attrib +r W:\nt\public\sdk\inc\crt\setjmpex.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.23
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.60
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\share.h   & copy share.h W:\nt\public\sdk\inc\crt\share.h   & attrib +r W:\nt\public\sdk\inc\crt\share.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.29
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.64
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\signal.h   & copy signal.h W:\nt\public\sdk\inc\crt\signal.h   & attrib +r W:\nt\public\sdk\inc\crt\signal.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.34
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.68
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\stdarg.h   & copy stdarg.h W:\nt\public\sdk\inc\crt\stdarg.h   & attrib +r W:\nt\public\sdk\inc\crt\stdarg.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.39
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.73
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\stddef.h   & copy stddef.h W:\nt\public\sdk\inc\crt\stddef.h   & attrib +r W:\nt\public\sdk\inc\crt\stddef.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.43
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.82
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\stdexcpt.h   & copy stdexcpt.h W:\nt\public\sdk\inc\crt\stdexcpt.h   & attrib +r W:\nt\public\sdk\inc\crt\stdexcpt.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.50
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:15.98
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\stdio.h   & copy stdio.h W:\nt\public\sdk\inc\crt\stdio.h   & attrib +r W:\nt\public\sdk\inc\crt\stdio.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.54
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:16.03
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\stdiostr.h   & copy stdiostr.h W:\nt\public\sdk\inc\crt\stdiostr.h   & attrib +r W:\nt\public\sdk\inc\crt\stdiostr.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.59
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:16.07
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\stdlib.h   & copy stdlib.h W:\nt\public\sdk\inc\crt\stdlib.h   & attrib +r W:\nt\public\sdk\inc\crt\stdlib.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.64
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:16.12
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\streamb.h   & copy streamb.h W:\nt\public\sdk\inc\crt\streamb.h   & attrib +r W:\nt\public\sdk\inc\crt\streamb.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.67
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:16.17
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\string.h   & copy string.h W:\nt\public\sdk\inc\crt\string.h   & attrib +r W:\nt\public\sdk\inc\crt\string.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.71
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:16.21
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\strstrea.h   & copy strstrea.h W:\nt\public\sdk\inc\crt\strstrea.h   & attrib +r W:\nt\public\sdk\inc\crt\strstrea.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.76
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:16.26
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\tchar.h   & copy tchar.h W:\nt\public\sdk\inc\crt\tchar.h   & attrib +r W:\nt\public\sdk\inc\crt\tchar.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.81
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:16.31
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\time.h   & copy time.h W:\nt\public\sdk\inc\crt\time.h   & attrib +r W:\nt\public\sdk\inc\crt\time.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.85
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:16.45
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\typeinfo.h   & copy typeinfo.h W:\nt\public\sdk\inc\crt\typeinfo.h   & attrib +r W:\nt\public\sdk\inc\crt\typeinfo.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.90
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:16.50
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\varargs.h   & copy varargs.h W:\nt\public\sdk\inc\crt\varargs.h   & attrib +r W:\nt\public\sdk\inc\crt\varargs.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:37.95
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:16.54
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\wchar.h   & copy wchar.h W:\nt\public\sdk\inc\crt\wchar.h   & attrib +r W:\nt\public\sdk\inc\crt\wchar.h 
         1 file(s) copied.
 	for %i in (sys\*.*) do attrib -r W:\nt\public\sdk\inc\crt\%i & copy %i W:\nt\public\sdk\inc\crt\%i & attrib +r W:\nt\public\sdk\inc\crt\%i
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:38.01
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:16.60
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\sys\locking.h   & copy sys\locking.h W:\nt\public\sdk\inc\crt\sys\locking.h   & attrib +r W:\nt\public\sdk\inc\crt\sys\locking.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:38.06
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:16.67
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\sys\stat.h   & copy sys\stat.h W:\nt\public\sdk\inc\crt\sys\stat.h   & attrib +r W:\nt\public\sdk\inc\crt\sys\stat.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:38.10
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:16.73
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\sys\timeb.h   & copy sys\timeb.h W:\nt\public\sdk\inc\crt\sys\timeb.h   & attrib +r W:\nt\public\sdk\inc\crt\sys\timeb.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:38.15
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:16.82
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\sys\types.h   & copy sys\types.h W:\nt\public\sdk\inc\crt\sys\types.h   & attrib +r W:\nt\public\sdk\inc\crt\sys\types.h 
         1 file(s) copied.
 
-[SMART-W2K3: x86chk] Thu 10/17/2019  6:01:38.21
+[SMART-W2K3: x86chk] Thu 10/17/2019  9:29:16.92
 w:\nt\private\sdktools\vctools\crt\libw32\include
 
 >attrib -r W:\nt\public\sdk\inc\crt\sys\utime.h   & copy sys\utime.h W:\nt\public\sdk\inc\crt\sys\utime.h   & attrib +r W:\nt\public\sdk\inc\crt\sys\utime.h 
@@ -579,7 +579,7 @@ Linking w:\nt\private\sdktools\vctools\crt\libw32\lib\dll40 directory **********
 'nmake.exe /c BUILDMSG=Stop. FREEBUILD=1 NTDEBUG=retail -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 
 Stop. 
-	link -out:..\i386\msvcrt40.dll -machine:i386 @W:\tmp\nma03236.
+	link -out:..\i386\msvcrt40.dll -machine:i386 @W:\tmp\nma02808.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -597,7 +597,6 @@ Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 -debugtype:both 
 -version:4.00 
 -osversion:4.00 
--PDB:NONE 
 -MERGE:.rdata=.text 
 -dll 
 -optidata 

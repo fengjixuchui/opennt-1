@@ -643,17 +643,17 @@ Linking w:\nt\private\mvdm\vdd\samples\mscdex\vdd directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 
 Stop. 
-
-Stop. 
 Linking w:\nt\private\mvdm\fax\wowfax directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+
+Stop. 
 Linking w:\nt\private\mvdm\fax\wowfaxui directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 
 Stop. 
+	link -out:W:\nt\public\sdk\lib\i386\wowfax.dll -machine:i386 @W:\tmp\nma01996.
 Linking w:\nt\private\mvdm\vdmredir directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
-	link -out:W:\nt\public\sdk\lib\i386\wowfax.dll -machine:i386 @W:\tmp\nma01616.
 
 Stop. 
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
@@ -673,7 +673,6 @@ Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 -debugtype:both 
 -version:4.00 
 -osversion:4.00 
--PDB:NONE 
 -MERGE:.rdata=.text 
 -dll 
 -optidata 

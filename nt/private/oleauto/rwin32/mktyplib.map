@@ -1,6 +1,6 @@
  mktyplib
 
- Timestamp is 5da85ef6 (Thu Oct 17 20:30:46 2019)
+ Timestamp is 5da89412 (Thu Oct 17 09:17:22 2019)
 
  Preferred load address is 00400000
 
@@ -163,8 +163,8 @@
  0001:000078d0       _atoi                      004088d0 f libc:atox.obj
  0001:000078f0       _strdup                    004088f0 f libc:strdup.obj
  0001:000078f0       __strdup                   004088f0 f libc:strdup.obj
- 0001:00007920       _tempnam                   00408920 f libc:tempnam.obj
  0001:00007920       __tempnam                  00408920 f libc:tempnam.obj
+ 0001:00007920       _tempnam                   00408920 f libc:tempnam.obj
  0001:00007d40       __stricmp                  00408d40 f libc:stricmp.obj
  0001:00007d40       __strcmpi                  00408d40 f libc:stricmp.obj
  0001:00007d40       _stricmp                   00408d40 f libc:stricmp.obj
@@ -434,10 +434,10 @@
  0004:00000050       __IMPORT_DESCRIPTOR_ole32  00417050   ole32:ole32.dll
  0004:00000064       __NULL_IMPORT_DESCRIPTOR   00417064   user32:USER32.dll
  0004:00000190       __imp__TerminateProcess@8  00417190   kernel32:KERNEL32.dll
- 0004:00000194       __imp__GetCurrentProcess@0 00417194   kernel32:KERNEL32.dll
- 0004:00000198       __imp__HeapFree@12         00417198   kernel32:KERNEL32.dll
- 0004:0000019c       __imp__SetFilePointer@16   0041719c   kernel32:KERNEL32.dll
- 0004:000001a0       __imp__ExitProcess@4       004171a0   kernel32:KERNEL32.dll
+ 0004:00000194       __imp__SetEnvironmentVariableA@8 00417194   kernel32:KERNEL32.dll
+ 0004:00000198       __imp__CompareStringW@24   00417198   kernel32:KERNEL32.dll
+ 0004:0000019c       __imp__SetEndOfFile@4      0041719c   kernel32:KERNEL32.dll
+ 0004:000001a0       __imp__LCMapStringW@24     004171a0   kernel32:KERNEL32.dll
  0004:000001a4       __imp__MultiByteToWideChar@24 004171a4   kernel32:KERNEL32.dll
  0004:000001a8       __imp__GetExitCodeProcess@8 004171a8   kernel32:KERNEL32.dll
  0004:000001ac       __imp__WaitForSingleObject@8 004171ac   kernel32:KERNEL32.dll
@@ -449,59 +449,59 @@
  0004:000001c4       __imp__IsDBCSLeadByteEx@8  004171c4   kernel32:KERNEL32.dll
  0004:000001c8       __imp__GetLocaleInfoA@16   004171c8   kernel32:KERNEL32.dll
  0004:000001cc       __imp__WideCharToMultiByte@32 004171cc   kernel32:KERNEL32.dll
- 0004:000001d0       __imp__HeapReAlloc@16      004171d0   kernel32:KERNEL32.dll
- 0004:000001d4       __imp__SetEnvironmentVariableA@8 004171d4   kernel32:KERNEL32.dll
- 0004:000001d8       __imp__GetModuleFileNameA@12 004171d8   kernel32:KERNEL32.dll
- 0004:000001dc       __imp__FreeEnvironmentStringsA@4 004171dc   kernel32:KERNEL32.dll
- 0004:000001e0       __imp__UnhandledExceptionFilter@4 004171e0   kernel32:KERNEL32.dll
- 0004:000001e4       __imp__GetProcAddress@8    004171e4   kernel32:KERNEL32.dll
- 0004:000001e8       __imp__GetFileAttributesA@4 004171e8   kernel32:KERNEL32.dll
- 0004:000001ec       __imp__GetStringTypeW@16   004171ec   kernel32:KERNEL32.dll
- 0004:000001f0       __imp__GetStringTypeA@20   004171f0   kernel32:KERNEL32.dll
- 0004:000001f4       __imp__CompareStringW@24   004171f4   kernel32:KERNEL32.dll
- 0004:000001f8       __imp__SetEndOfFile@4      004171f8   kernel32:KERNEL32.dll
- 0004:000001fc       __imp__LCMapStringW@24     004171fc   kernel32:KERNEL32.dll
- 0004:00000200       __imp__LCMapStringA@24     00417200   kernel32:KERNEL32.dll
- 0004:00000204       __imp__GetCommandLineA@0   00417204   kernel32:KERNEL32.dll
- 0004:00000208       __imp__GetVersion@0        00417208   kernel32:KERNEL32.dll
- 0004:0000020c       __imp__HeapAlloc@12        0041720c   kernel32:KERNEL32.dll
- 0004:00000210       __imp__FlushFileBuffers@4  00417210   kernel32:KERNEL32.dll
- 0004:00000214       __imp__SetStdHandle@8      00417214   kernel32:KERNEL32.dll
- 0004:00000218       __imp__ReadFile@20         00417218   kernel32:KERNEL32.dll
- 0004:0000021c       __imp__LoadLibraryA@4      0041721c   kernel32:KERNEL32.dll
- 0004:00000220       __imp__GetLastError@0      00417220   kernel32:KERNEL32.dll
- 0004:00000224       __imp__DeleteFileA@4       00417224   kernel32:KERNEL32.dll
- 0004:00000228       __imp__RtlUnwind@16        00417228   kernel32:KERNEL32.dll
- 0004:0000022c       __imp__WriteFile@20        0041722c   kernel32:KERNEL32.dll
- 0004:00000230       __imp__GetOEMCP@0          00417230   kernel32:KERNEL32.dll
- 0004:00000234       __imp__GetACP@0            00417234   kernel32:KERNEL32.dll
- 0004:00000238       __imp__GetEnvironmentStrings@0 00417238   kernel32:KERNEL32.dll
- 0004:0000023c       __imp__FreeEnvironmentStringsW@4 0041723c   kernel32:KERNEL32.dll
- 0004:00000240       __imp__GetEnvironmentStringsW@0 00417240   kernel32:KERNEL32.dll
- 0004:00000244       __imp__GetCPInfo@8         00417244   kernel32:KERNEL32.dll
- 0004:00000248       __imp__HeapCreate@12       00417248   kernel32:KERNEL32.dll
+ 0004:000001d0       __imp__LCMapStringA@24     004171d0   kernel32:KERNEL32.dll
+ 0004:000001d4       __imp__SetFilePointer@16   004171d4   kernel32:KERNEL32.dll
+ 0004:000001d8       __imp__FlushFileBuffers@4  004171d8   kernel32:KERNEL32.dll
+ 0004:000001dc       __imp__SetStdHandle@8      004171dc   kernel32:KERNEL32.dll
+ 0004:000001e0       __imp__ReadFile@20         004171e0   kernel32:KERNEL32.dll
+ 0004:000001e4       __imp__LoadLibraryA@4      004171e4   kernel32:KERNEL32.dll
+ 0004:000001e8       __imp__GetProcAddress@8    004171e8   kernel32:KERNEL32.dll
+ 0004:000001ec       __imp__GetFileAttributesA@4 004171ec   kernel32:KERNEL32.dll
+ 0004:000001f0       __imp__GetStringTypeW@16   004171f0   kernel32:KERNEL32.dll
+ 0004:000001f4       __imp__GetStringTypeA@20   004171f4   kernel32:KERNEL32.dll
+ 0004:000001f8       __imp__WriteFile@20        004171f8   kernel32:KERNEL32.dll
+ 0004:000001fc       __imp__HeapCreate@12       004171fc   kernel32:KERNEL32.dll
+ 0004:00000200       __imp__GetCommandLineA@0   00417200   kernel32:KERNEL32.dll
+ 0004:00000204       __imp__GetVersion@0        00417204   kernel32:KERNEL32.dll
+ 0004:00000208       __imp__HeapAlloc@12        00417208   kernel32:KERNEL32.dll
+ 0004:0000020c       __imp__HeapFree@12         0041720c   kernel32:KERNEL32.dll
+ 0004:00000210       __imp__ExitProcess@4       00417210   kernel32:KERNEL32.dll
+ 0004:00000214       __imp__HeapReAlloc@16      00417214   kernel32:KERNEL32.dll
+ 0004:00000218       __imp__GetCurrentProcess@0 00417218   kernel32:KERNEL32.dll
+ 0004:0000021c       __imp__GetLastError@0      0041721c   kernel32:KERNEL32.dll
+ 0004:00000220       __imp__DeleteFileA@4       00417220   kernel32:KERNEL32.dll
+ 0004:00000224       __imp__RtlUnwind@16        00417224   kernel32:KERNEL32.dll
+ 0004:00000228       __imp__UnhandledExceptionFilter@4 00417228   kernel32:KERNEL32.dll
+ 0004:0000022c       __imp__GetModuleFileNameA@12 0041722c   kernel32:KERNEL32.dll
+ 0004:00000230       __imp__FreeEnvironmentStringsA@4 00417230   kernel32:KERNEL32.dll
+ 0004:00000234       __imp__GetEnvironmentStrings@0 00417234   kernel32:KERNEL32.dll
+ 0004:00000238       __imp__FreeEnvironmentStringsW@4 00417238   kernel32:KERNEL32.dll
+ 0004:0000023c       __imp__GetEnvironmentStringsW@0 0041723c   kernel32:KERNEL32.dll
+ 0004:00000240       __imp__GetCPInfo@8         00417240   kernel32:KERNEL32.dll
+ 0004:00000244       __imp__GetACP@0            00417244   kernel32:KERNEL32.dll
+ 0004:00000248       __imp__GetOEMCP@0          00417248   kernel32:KERNEL32.dll
  0004:0000024c       __imp__SetHandleCount@4    0041724c   kernel32:KERNEL32.dll
  0004:00000250       __imp__GetFileType@4       00417250   kernel32:KERNEL32.dll
  0004:00000254       __imp__GetStdHandle@4      00417254   kernel32:KERNEL32.dll
  0004:00000258       __imp__GetStartupInfoA@4   00417258   kernel32:KERNEL32.dll
  0004:0000025c       \177KERNEL32_NULL_THUNK_DATA 0041725c   kernel32:KERNEL32.dll
- 0004:00000260       __imp__CreateTypeLib@12    00417260   oleaut32:OLEAUT32.dll
- 0004:00000264       __imp__LHashValOfNameSysA@12 00417264   oleaut32:OLEAUT32.dll
- 0004:00000268       __imp__LoadTypeLib@8       00417268   oleaut32:OLEAUT32.dll
- 0004:0000026c       __imp__SysFreeString@4     0041726c   oleaut32:OLEAUT32.dll
- 0004:00000270       __imp__SysAllocStringLen@8 00417270   oleaut32:OLEAUT32.dll
- 0004:00000274       __imp__SysStringLen@4      00417274   oleaut32:OLEAUT32.dll
+ 0004:00000260       __imp__SysStringLen@4      00417260   oleaut32:OLEAUT32.dll
+ 0004:00000264       __imp__CreateTypeLib@12    00417264   oleaut32:OLEAUT32.dll
+ 0004:00000268       __imp__SysFreeString@4     00417268   oleaut32:OLEAUT32.dll
+ 0004:0000026c       __imp__LoadTypeLib@8       0041726c   oleaut32:OLEAUT32.dll
+ 0004:00000270       __imp__LHashValOfNameSysA@12 00417270   oleaut32:OLEAUT32.dll
+ 0004:00000274       __imp__SysAllocStringLen@8 00417274   oleaut32:OLEAUT32.dll
  0004:00000278       \177OLEAUT32_NULL_THUNK_DATA 00417278   oleaut32:OLEAUT32.dll
- 0004:0000027c       __imp__SetCursor@4         0041727c   user32:USER32.dll
- 0004:00000280       __imp__CharToOemA@8        00417280   user32:USER32.dll
+ 0004:0000027c       __imp__LoadCursorA@8       0041727c   user32:USER32.dll
+ 0004:00000280       __imp__SetCursor@4         00417280   user32:USER32.dll
  0004:00000284       __imp__OemToCharA@8        00417284   user32:USER32.dll
- 0004:00000288       __imp__LoadCursorA@8       00417288   user32:USER32.dll
+ 0004:00000288       __imp__CharToOemA@8        00417288   user32:USER32.dll
  0004:0000028c       \177USER32_NULL_THUNK_DATA 0041728c   user32:USER32.dll
  0004:00000290       __imp__GetOpenFileNameA@4  00417290   comdlg32:comdlg32.dll
  0004:00000294       \177comdlg32_NULL_THUNK_DATA 00417294   comdlg32:comdlg32.dll
- 0004:00000298       __imp__CLSIDFromString@8   00417298   ole32:ole32.dll
- 0004:0000029c       __imp__OleUninitialize@0   0041729c   ole32:ole32.dll
- 0004:000002a0       __imp__OleInitialize@4     004172a0   ole32:ole32.dll
+ 0004:00000298       __imp__OleUninitialize@0   00417298   ole32:ole32.dll
+ 0004:0000029c       __imp__OleInitialize@4     0041729c   ole32:ole32.dll
+ 0004:000002a0       __imp__CLSIDFromString@8   004172a0   ole32:ole32.dll
  0004:000002a4       \177ole32_NULL_THUNK_DATA  004172a4   ole32:ole32.dll
 
  entry point at        0001:00006e90

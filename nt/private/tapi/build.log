@@ -52,10 +52,10 @@ Linking w:\nt\private\tapi\dev\sp\esp.new\ui directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 
 Stop. 
-
-Stop. 
 Linking w:\nt\private\tapi\dev\sp\kmddsp directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+
+Stop. 
 Linking w:\nt\private\tapi\dev\apps\tb directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 
@@ -64,14 +64,14 @@ Linking w:\nt\private\tapi\dev\apps\dialer directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 
 Stop. 
+
+Stop. 
+
+Stop. 
 Linking w:\nt\private\tapi\dev\apps\tapitna directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-
-Stop. 
 Linking w:\nt\private\tapi\dev\apps\tapiupr directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-
-Stop. 
 Linking w:\nt\private\tapi\dev\cpl.new directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 
