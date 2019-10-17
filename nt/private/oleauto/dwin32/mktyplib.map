@@ -1,6 +1,6 @@
  mktyplib
 
- Timestamp is 5da3536f (Sun Oct 13 09:40:15 2019)
+ Timestamp is 5da85f04 (Thu Oct 17 20:31:00 2019)
 
  Preferred load address is 00400000
 
@@ -238,12 +238,12 @@
  0001:0000bec0       __purecall                 0040cec0 f libc:purevirt.obj
  0001:0000bee0       _realloc                   0040cee0 f libc:realloc.obj
  0001:0000bfa0       _vsprintf                  0040cfa0 f libc:vsprintf.obj
- 0001:0000c030       __strdup                   0040d030 f libc:strdup.obj
  0001:0000c030       _strdup                    0040d030 f libc:strdup.obj
+ 0001:0000c030       __strdup                   0040d030 f libc:strdup.obj
  0001:0000c060       __tempnam                  0040d060 f libc:tempnam.obj
  0001:0000c060       _tempnam                   0040d060 f libc:tempnam.obj
- 0001:0000c480       __strcmpi                  0040d480 f libc:stricmp.obj
  0001:0000c480       _stricmp                   0040d480 f libc:stricmp.obj
+ 0001:0000c480       __strcmpi                  0040d480 f libc:stricmp.obj
  0001:0000c480       __stricmp                  0040d480 f libc:stricmp.obj
  0001:0000c50c       __global_unwind2           0040d50c f libc:exsup.obj
  0001:0000c54e       __local_unwind2            0040d54e f libc:exsup.obj
@@ -314,22 +314,22 @@
  0001:00011cd0       __alloc_osfhnd             00412cd0 f libc:osfinfo.obj
  0001:00011e20       __set_osfhnd               00412e20 f libc:osfinfo.obj
  0001:00011f20       __free_osfhnd              00412f20 f libc:osfinfo.obj
- 0001:00012040       __get_osfhandle            00413040 f libc:osfinfo.obj
- 0001:000120c0       __open_osfhandle           004130c0 f libc:osfinfo.obj
- 0001:000121c0       __commit                   004131c0 f libc:commit.obj
- 0001:000122a0       __write                    004132a0 f libc:write.obj
- 0001:000125a0       __isatty                   004135a0 f libc:isatty.obj
- 0001:000125f0       __fcloseall                004135f0 f libc:closeall.obj
- 0001:000126b0       _wctomb                    004136b0 f libc:wctomb.obj
- 0001:00012780       __aulldiv                  00413780 f libc:ulldiv.obj
- 0001:000127f0       __aullrem                  004137f0 f libc:ullrem.obj
- 0001:00012870       __lseek                    00413870 f libc:lseek.obj
- 0001:00012990       _strrchr                   00413990 f libc:strrchr.obj
- 0001:000129c0       __mbsnbicoll               004139c0 f libc:mbsnbico.obj
- 0001:00012a30       ___wtomb_environ           00413a30 f libc:wtombenv.obj
- 0001:00012b00       ___crtLCMapStringW         00413b00 f libc:aw_map.obj
- 0001:00012e50       ___crtLCMapStringA         00413e50 f libc:aw_map.obj
- 0001:000131c0       __chsize                   004141c0 f libc:chsize.obj
+ 0001:00012030       __get_osfhandle            00413030 f libc:osfinfo.obj
+ 0001:000120b0       __open_osfhandle           004130b0 f libc:osfinfo.obj
+ 0001:000121b0       __commit                   004131b0 f libc:commit.obj
+ 0001:00012290       __write                    00413290 f libc:write.obj
+ 0001:00012590       __isatty                   00413590 f libc:isatty.obj
+ 0001:000125e0       __fcloseall                004135e0 f libc:closeall.obj
+ 0001:000126a0       _wctomb                    004136a0 f libc:wctomb.obj
+ 0001:00012770       __aulldiv                  00413770 f libc:ulldiv.obj
+ 0001:000127e0       __aullrem                  004137e0 f libc:ullrem.obj
+ 0001:00012860       __lseek                    00413860 f libc:lseek.obj
+ 0001:00012980       _strrchr                   00413980 f libc:strrchr.obj
+ 0001:000129b0       __mbsnbicoll               004139b0 f libc:mbsnbico.obj
+ 0001:00012a20       ___wtomb_environ           00413a20 f libc:wtombenv.obj
+ 0001:00012af0       ___crtLCMapStringW         00413af0 f libc:aw_map.obj
+ 0001:00012e40       ___crtLCMapStringA         00413e40 f libc:aw_map.obj
+ 0001:000131b0       __chsize                   004141b0 f libc:chsize.obj
  0001:00013430       __fptrap                   00414430 f libc:crt0fp.obj
  0001:00013450       ___crtCompareStringW       00414450 f libc:aw_cmp.obj
  0001:00013790       ___crtCompareStringA       00414790 f libc:aw_cmp.obj
@@ -581,11 +581,11 @@
  0004:00000050       __IMPORT_DESCRIPTOR_ole32  0041e050   ole32:ole32.dll
  0004:00000064       __NULL_IMPORT_DESCRIPTOR   0041e064   user32:USER32.dll
  0004:000001a0       __imp__ExitProcess@4       0041e1a0   kernel32:KERNEL32.dll
- 0004:000001a4       __imp__CompareStringW@24   0041e1a4   kernel32:KERNEL32.dll
- 0004:000001a8       __imp__SetEndOfFile@4      0041e1a8   kernel32:KERNEL32.dll
- 0004:000001ac       __imp__LCMapStringW@24     0041e1ac   kernel32:KERNEL32.dll
- 0004:000001b0       __imp__LCMapStringA@24     0041e1b0   kernel32:KERNEL32.dll
- 0004:000001b4       __imp__SetFilePointer@16   0041e1b4   kernel32:KERNEL32.dll
+ 0004:000001a4       __imp__GetVersion@0        0041e1a4   kernel32:KERNEL32.dll
+ 0004:000001a8       __imp__FlushFileBuffers@4  0041e1a8   kernel32:KERNEL32.dll
+ 0004:000001ac       __imp__HeapAlloc@12        0041e1ac   kernel32:KERNEL32.dll
+ 0004:000001b0       __imp__ReadFile@20         0041e1b0   kernel32:KERNEL32.dll
+ 0004:000001b4       __imp__LoadLibraryA@4      0041e1b4   kernel32:KERNEL32.dll
  0004:000001b8       __imp__MultiByteToWideChar@24 0041e1b8   kernel32:KERNEL32.dll
  0004:000001bc       __imp__CloseHandle@4       0041e1bc   kernel32:KERNEL32.dll
  0004:000001c0       __imp__GetExitCodeProcess@8 0041e1c0   kernel32:KERNEL32.dll
@@ -599,60 +599,60 @@
  0004:000001e0       __imp__WideCharToMultiByte@32 0041e1e0   kernel32:KERNEL32.dll
  0004:000001e4       __imp__OutputDebugStringA@4 0041e1e4   kernel32:KERNEL32.dll
  0004:000001e8       __imp__VirtualAlloc@16     0041e1e8   kernel32:KERNEL32.dll
- 0004:000001ec       __imp__FlushFileBuffers@4  0041e1ec   kernel32:KERNEL32.dll
- 0004:000001f0       __imp__SetStdHandle@8      0041e1f0   kernel32:KERNEL32.dll
- 0004:000001f4       __imp__ReadFile@20         0041e1f4   kernel32:KERNEL32.dll
- 0004:000001f8       __imp__LoadLibraryA@4      0041e1f8   kernel32:KERNEL32.dll
- 0004:000001fc       __imp__GetProcAddress@8    0041e1fc   kernel32:KERNEL32.dll
- 0004:00000200       __imp__GetFileAttributesA@4 0041e200   kernel32:KERNEL32.dll
- 0004:00000204       __imp__GetStringTypeW@16   0041e204   kernel32:KERNEL32.dll
- 0004:00000208       __imp__GetStringTypeA@20   0041e208   kernel32:KERNEL32.dll
- 0004:0000020c       __imp__WriteFile@20        0041e20c   kernel32:KERNEL32.dll
- 0004:00000210       __imp__HeapDestroy@4       0041e210   kernel32:KERNEL32.dll
- 0004:00000214       __imp__HeapCreate@12       0041e214   kernel32:KERNEL32.dll
- 0004:00000218       __imp__GetStartupInfoA@4   0041e218   kernel32:KERNEL32.dll
- 0004:0000021c       __imp__GetStdHandle@4      0041e21c   kernel32:KERNEL32.dll
+ 0004:000001ec       __imp__SetEnvironmentVariableA@8 0041e1ec   kernel32:KERNEL32.dll
+ 0004:000001f0       __imp__CompareStringW@24   0041e1f0   kernel32:KERNEL32.dll
+ 0004:000001f4       __imp__RtlUnwind@16        0041e1f4   kernel32:KERNEL32.dll
+ 0004:000001f8       __imp__HeapReAlloc@16      0041e1f8   kernel32:KERNEL32.dll
+ 0004:000001fc       __imp__GetStringTypeW@16   0041e1fc   kernel32:KERNEL32.dll
+ 0004:00000200       __imp__GetStringTypeA@20   0041e200   kernel32:KERNEL32.dll
+ 0004:00000204       __imp__WriteFile@20        0041e204   kernel32:KERNEL32.dll
+ 0004:00000208       __imp__HeapDestroy@4       0041e208   kernel32:KERNEL32.dll
+ 0004:0000020c       __imp__HeapCreate@12       0041e20c   kernel32:KERNEL32.dll
+ 0004:00000210       __imp__SetEndOfFile@4      0041e210   kernel32:KERNEL32.dll
+ 0004:00000214       __imp__LCMapStringW@24     0041e214   kernel32:KERNEL32.dll
+ 0004:00000218       __imp__LCMapStringA@24     0041e218   kernel32:KERNEL32.dll
+ 0004:0000021c       __imp__SetFilePointer@16   0041e21c   kernel32:KERNEL32.dll
  0004:00000220       __imp__GetCommandLineA@0   0041e220   kernel32:KERNEL32.dll
- 0004:00000224       __imp__GetVersion@0        0041e224   kernel32:KERNEL32.dll
- 0004:00000228       __imp__HeapAlloc@12        0041e228   kernel32:KERNEL32.dll
+ 0004:00000224       __imp__GetProcAddress@8    0041e224   kernel32:KERNEL32.dll
+ 0004:00000228       __imp__SetStdHandle@8      0041e228   kernel32:KERNEL32.dll
  0004:0000022c       __imp__HeapFree@12         0041e22c   kernel32:KERNEL32.dll
- 0004:00000230       __imp__SetEnvironmentVariableA@8 0041e230   kernel32:KERNEL32.dll
+ 0004:00000230       __imp__GetFileAttributesA@4 0041e230   kernel32:KERNEL32.dll
  0004:00000234       __imp__TerminateProcess@8  0041e234   kernel32:KERNEL32.dll
  0004:00000238       __imp__GetCurrentProcess@0 0041e238   kernel32:KERNEL32.dll
  0004:0000023c       __imp__GetLastError@0      0041e23c   kernel32:KERNEL32.dll
  0004:00000240       __imp__DeleteFileA@4       0041e240   kernel32:KERNEL32.dll
- 0004:00000244       __imp__HeapReAlloc@16      0041e244   kernel32:KERNEL32.dll
- 0004:00000248       __imp__RtlUnwind@16        0041e248   kernel32:KERNEL32.dll
+ 0004:00000244       __imp__GetEnvironmentStringsW@0 0041e244   kernel32:KERNEL32.dll
+ 0004:00000248       __imp__GetCPInfo@8         0041e248   kernel32:KERNEL32.dll
  0004:0000024c       __imp__UnhandledExceptionFilter@4 0041e24c   kernel32:KERNEL32.dll
  0004:00000250       __imp__GetModuleFileNameA@12 0041e250   kernel32:KERNEL32.dll
  0004:00000254       __imp__FreeEnvironmentStringsA@4 0041e254   kernel32:KERNEL32.dll
  0004:00000258       __imp__GetEnvironmentStrings@0 0041e258   kernel32:KERNEL32.dll
  0004:0000025c       __imp__FreeEnvironmentStringsW@4 0041e25c   kernel32:KERNEL32.dll
- 0004:00000260       __imp__GetEnvironmentStringsW@0 0041e260   kernel32:KERNEL32.dll
- 0004:00000264       __imp__GetCPInfo@8         0041e264   kernel32:KERNEL32.dll
- 0004:00000268       __imp__GetACP@0            0041e268   kernel32:KERNEL32.dll
- 0004:0000026c       __imp__GetOEMCP@0          0041e26c   kernel32:KERNEL32.dll
- 0004:00000270       __imp__SetHandleCount@4    0041e270   kernel32:KERNEL32.dll
- 0004:00000274       __imp__GetFileType@4       0041e274   kernel32:KERNEL32.dll
+ 0004:00000260       __imp__GetStdHandle@4      0041e260   kernel32:KERNEL32.dll
+ 0004:00000264       __imp__GetACP@0            0041e264   kernel32:KERNEL32.dll
+ 0004:00000268       __imp__GetOEMCP@0          0041e268   kernel32:KERNEL32.dll
+ 0004:0000026c       __imp__SetHandleCount@4    0041e26c   kernel32:KERNEL32.dll
+ 0004:00000270       __imp__GetFileType@4       0041e270   kernel32:KERNEL32.dll
+ 0004:00000274       __imp__GetStartupInfoA@4   0041e274   kernel32:KERNEL32.dll
  0004:00000278       \177KERNEL32_NULL_THUNK_DATA 0041e278   kernel32:KERNEL32.dll
- 0004:0000027c       __imp__SysStringLen@4      0041e27c   oleaut32:OLEAUT32.dll
- 0004:00000280       __imp__CreateTypeLib@12    0041e280   oleaut32:OLEAUT32.dll
+ 0004:0000027c       __imp__LHashValOfNameSysA@12 0041e27c   oleaut32:OLEAUT32.dll
+ 0004:00000280       __imp__LoadTypeLib@8       0041e280   oleaut32:OLEAUT32.dll
  0004:00000284       __imp__SysFreeString@4     0041e284   oleaut32:OLEAUT32.dll
- 0004:00000288       __imp__LoadTypeLib@8       0041e288   oleaut32:OLEAUT32.dll
- 0004:0000028c       __imp__LHashValOfNameSysA@12 0041e28c   oleaut32:OLEAUT32.dll
+ 0004:00000288       __imp__CreateTypeLib@12    0041e288   oleaut32:OLEAUT32.dll
+ 0004:0000028c       __imp__SysStringLen@4      0041e28c   oleaut32:OLEAUT32.dll
  0004:00000290       __imp__SysAllocStringLen@8 0041e290   oleaut32:OLEAUT32.dll
  0004:00000294       \177OLEAUT32_NULL_THUNK_DATA 0041e294   oleaut32:OLEAUT32.dll
  0004:00000298       __imp__LoadCursorA@8       0041e298   user32:USER32.dll
- 0004:0000029c       __imp__SetCursor@4         0041e29c   user32:USER32.dll
- 0004:000002a0       __imp__OemToCharA@8        0041e2a0   user32:USER32.dll
+ 0004:0000029c       __imp__OemToCharA@8        0041e29c   user32:USER32.dll
+ 0004:000002a0       __imp__MessageBoxA@16      0041e2a0   user32:USER32.dll
  0004:000002a4       __imp__CharToOemA@8        0041e2a4   user32:USER32.dll
- 0004:000002a8       __imp__MessageBoxA@16      0041e2a8   user32:USER32.dll
+ 0004:000002a8       __imp__SetCursor@4         0041e2a8   user32:USER32.dll
  0004:000002ac       \177USER32_NULL_THUNK_DATA 0041e2ac   user32:USER32.dll
  0004:000002b0       __imp__GetOpenFileNameA@4  0041e2b0   comdlg32:comdlg32.dll
  0004:000002b4       \177comdlg32_NULL_THUNK_DATA 0041e2b4   comdlg32:comdlg32.dll
- 0004:000002b8       __imp__OleUninitialize@0   0041e2b8   ole32:ole32.dll
- 0004:000002bc       __imp__OleInitialize@4     0041e2bc   ole32:ole32.dll
- 0004:000002c0       __imp__CLSIDFromString@8   0041e2c0   ole32:ole32.dll
+ 0004:000002b8       __imp__CLSIDFromString@8   0041e2b8   ole32:ole32.dll
+ 0004:000002bc       __imp__OleUninitialize@0   0041e2bc   ole32:ole32.dll
+ 0004:000002c0       __imp__OleInitialize@4     0041e2c0   ole32:ole32.dll
  0004:000002c4       \177ole32_NULL_THUNK_DATA  0041e2c4   ole32:ole32.dll
 
  entry point at        0001:0000ae50
@@ -664,8 +664,8 @@
  0001:00013fd0       _copy_environ              00414fd0 f libc:setenv.obj
  0001:00013720       _wcsncnt                   00414720 f libc:aw_cmp.obj
  0001:00013b80       _strncnt                   00414b80 f libc:aw_cmp.obj
- 0001:00012de0       _wcsncnt                   00413de0 f libc:aw_map.obj
- 0001:00013150       _strncnt                   00414150 f libc:aw_map.obj
+ 0001:00012dd0       _wcsncnt                   00413dd0 f libc:aw_map.obj
+ 0001:00013140       _strncnt                   00414140 f libc:aw_map.obj
  0001:00010790       _xtoa                      00411790 f libc:xtoa.obj
  0001:00010950       _x64toa@20                 00411950 f libc:xtoa.obj
  0001:0000fff0       _write_char                00410ff0 f libc:output.obj
@@ -687,22 +687,22 @@
 
 FIXUPS: c0d5 2b fffffefa 29 2e fffffe7a c 5 10 26 8 5 5 21 f 26 15 35 9
 FIXUPS: cec9 fffffd88 88 82 36 8f 46 fffffcf4 36 ffffff22 19 13 ffffff5b
-FIXUPS: ca55 18 ffffff12 2c ffffff1e f f 30 fffffdad 12 29 20 1e 20 9f
-FIXUPS: c80e fffffbfd fffffdac fffffeca 1862 22 4d 1b 3e fffffc63 ffffff12
+FIXUPS: ca55 18 ffffff12 2c ffffff1e f f 30 fffffdad 12 29 20 1e 20 9e
+FIXUPS: c80d fffffbfe fffffdac fffffeca 1862 22 4d 1b 3e fffffc63 ffffff12
 FIXUPS: d4ed a fffffb86 1b 2a 1b 2c 15 f 5b 7e 120 20 3c 21 3d 80 fffffbd9
 FIXUPS: d041 c ffffff97 36 fffffede 1b 61 247f ffffff19 fffffa37 20 174
-FIXUPS: efa9 fffffce2 d 11 2f 25 fffffb62 17 c6 263 fffff79f 2b 11e 15a
-FIXUPS: e646 1f3 fffff6fb e5 73 2e 134 50 8d fffff750 12 17 22 368f fffff040
+FIXUPS: efa9 fffffce2 d 11 2f 25 fffffb62 17 c7 262 fffff79f 2a 11e 15a
+FIXUPS: e645 1f4 fffff6fb e5 73 2e 134 50 8d fffff750 12 17 22 368f fffff040
 FIXUPS: 10161 1c ba 14 fffffd1c 8b a9 46 fffffb62 11 2e 8f 68 8c 46 fffffdad
-FIXUPS: fb2e c 14 30 16 fffffc55 5c b5 c c 12d 65 fffffae9 2d 1fa7 2b fffffcfc
+FIXUPS: fb2f c 14 30 16 fffffc54 5c b5 c c 12d 65 fffffae9 2d 1fa7 2b fffffcfc
 FIXUPS: 112dc 75 ffffefdb 23 fb 6e 15d 17 28 34 e1 80 a1 204 31 21 2e 1e
-FIXUPS: 10c60 25 1be 1e 30 71 39 25 26 b3 60 16b8 2b6 fffff5eb 35f 64 3a
+FIXUPS: 10c60 25 1be 1e 30 71 39 25 26 b3 60 16b9 2b6 fffff5ea 35f 64 3a
 FIXUPS: 12434 57 29 25 25 15 1a 19 fffff761 99 fffffe29 8f fffffe8e fffffcd3
-FIXUPS: 11774 11d 34 70 52 16 ac fffffcc1 ffffff2e fffffe65 14 58 2f10
-FIXUPS: 13b8e 9f 7c 78 78 c 14 c 119 9a d2 be c 14 c fffff94f 55 ffffff21
-FIXUPS: 138cc 6d fffffd1c 2b fffffcc6 1c8 fffffd26 fffffb5b 383 3d 38 fffffb21
+FIXUPS: 11774 11d 34 70 52 16 ac fffffcc1 ffffff2e fffffe65 14 58 2f01
+FIXUPS: 13b7e 9f 7c 78 78 c 14 c 119 9a d2 be c 14 c fffff94f 55 ffffff21
+FIXUPS: 138bd 6d fffffd1a 2b fffffcc8 1c8 fffffd26 fffffb6a 373 3d 38 fffffb31
 FIXUPS: 12a6b 232a 43 5e 69 7d 49 bc 1d 2a fffff476 1d f0 81 6f c 14 c
-FIXUPS: 1481e 1d 242 75 68 c fffff8d3 fffffd90 6a 23 59 73 68 24 c fffed918
+FIXUPS: 1481e 1d 242 75 68 c fffff8d3 fffffd80 6b 23 59 73 68 24 c fffed927
 FIXUPS: 1d3c 89 28 39 21 47 35 26 6f 31 f 38 39 29 f4 19 17 15 17 13 e
 FIXUPS: 21de 3d 1a 12ffa fffff9db 64 31 41 3e 42 fffec65a 1d 2d a 2d a
 FIXUPS: 1472 a 2d a a 1b 16 38 2a e6 db 19 10 18f 18 55 5f 26 3e 3e 4c

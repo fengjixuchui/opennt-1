@@ -12912,7 +12912,7 @@ UINT ZGetWindowModuleFileNameA(HWND hwnd,
 	LPSTR lpszFileName,
 	UINT cchFileNameMax)
 {
-	HWND RetVal;
+	UINT RetVal;
 
 	SHORT sTimerHandle;
 	ULONG ulElapsedTime;
@@ -12941,7 +12941,7 @@ UINT ZGetWindowModuleFileNameW(HWND hwnd,
 	LPWSTR lpszFileName,
 	UINT cchFileNameMax)
 {
-	HWND RetVal;
+	UINT RetVal;
 
 	SHORT sTimerHandle;
 	ULONG ulElapsedTime;

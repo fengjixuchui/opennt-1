@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Sun Oct 13 04:04:37 2019
+/* at Thu Oct 17 16:49:40 2019
  */
 /* Compiler settings for samrpc.idl, samcli.acf:
     Oi (OptLev=i0), W1, Zp8, env=Win32, ms_ext, c_ext, oldnames
@@ -2409,14 +2409,6 @@ static const GENERIC_BINDING_ROUTINE_PAIR BindingRoutines[1] =
         };
 
 
-static void __RPC_USER samr_SAMPR_USER_ALL_INFORMATIONExprEval_0003( PMIDL_STUB_MESSAGE pStubMsg )
-{
-    SAMPR_USER_ALL_INFORMATION __RPC_FAR *pS	=	( SAMPR_USER_ALL_INFORMATION __RPC_FAR * )pStubMsg->StackTop;
-    
-    pStubMsg->Offset = 0;
-    pStubMsg->MaxCount = (pS->LogonHours.UnitsPerWeek + 7) / 8;
-}
-
 static void __RPC_USER samr_SAMPR_USER_LOGON_INFORMATIONExprEval_0000( PMIDL_STUB_MESSAGE pStubMsg )
 {
     SAMPR_USER_LOGON_INFORMATION __RPC_FAR *pS	=	( SAMPR_USER_LOGON_INFORMATION __RPC_FAR * )pStubMsg->StackTop;
@@ -2436,6 +2428,14 @@ static void __RPC_USER samr_SAMPR_USER_LOGON_HOURS_INFORMATIONExprEval_0001( PMI
 static void __RPC_USER samr_SAMPR_USER_ACCOUNT_INFORMATIONExprEval_0002( PMIDL_STUB_MESSAGE pStubMsg )
 {
     SAMPR_USER_ACCOUNT_INFORMATION __RPC_FAR *pS	=	( SAMPR_USER_ACCOUNT_INFORMATION __RPC_FAR * )pStubMsg->StackTop;
+    
+    pStubMsg->Offset = 0;
+    pStubMsg->MaxCount = (pS->LogonHours.UnitsPerWeek + 7) / 8;
+}
+
+static void __RPC_USER samr_SAMPR_USER_ALL_INFORMATIONExprEval_0003( PMIDL_STUB_MESSAGE pStubMsg )
+{
+    SAMPR_USER_ALL_INFORMATION __RPC_FAR *pS	=	( SAMPR_USER_ALL_INFORMATION __RPC_FAR * )pStubMsg->StackTop;
     
     pStubMsg->Offset = 0;
     pStubMsg->MaxCount = (pS->LogonHours.UnitsPerWeek + 7) / 8;

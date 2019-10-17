@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\expstub.obj \
+    $(_OBJ_DIR)\alpha\impstub.obj \
+    $(_OBJ_DIR)\alpha\replbind.obj \
+    $(_OBJ_DIR)\alpha\replstub.obj \
+    $(_OBJ_DIR)\alpha\repl_c.obj \
+    $(_OBJ_DIR)\alpha\report.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\expstub.obj \
+    $(_OBJ_DIR)\mips\impstub.obj \
+    $(_OBJ_DIR)\mips\replbind.obj \
+    $(_OBJ_DIR)\mips\replstub.obj \
+    $(_OBJ_DIR)\mips\repl_c.obj \
+    $(_OBJ_DIR)\mips\report.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\expstub.obj \
+    $(_OBJ_DIR)\i386\impstub.obj \
+    $(_OBJ_DIR)\i386\replbind.obj \
+    $(_OBJ_DIR)\i386\replstub.obj \
+    $(_OBJ_DIR)\i386\repl_c.obj \
+    $(_OBJ_DIR)\i386\report.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\expstub.obj \
+    $(_OBJ_DIR)\ppc\impstub.obj \
+    $(_OBJ_DIR)\ppc\replbind.obj \
+    $(_OBJ_DIR)\ppc\replstub.obj \
+    $(_OBJ_DIR)\ppc\repl_c.obj \
+    $(_OBJ_DIR)\ppc\report.obj
+
+PASS0_PPC_OBJECTS=
+

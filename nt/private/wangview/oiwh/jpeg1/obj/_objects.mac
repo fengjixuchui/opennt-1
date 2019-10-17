@@ -1,0 +1,68 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\jpeg1x32.res \
+    $(_OBJ_DIR)\alpha\jcarith.obj \
+    $(_OBJ_DIR)\alpha\jccolor.obj \
+    $(_OBJ_DIR)\alpha\jcdeflts.obj \
+    $(_OBJ_DIR)\alpha\jcexpand.obj \
+    $(_OBJ_DIR)\alpha\jchuff.obj \
+    $(_OBJ_DIR)\alpha\jcmaster.obj \
+    $(_OBJ_DIR)\alpha\jcmcu.obj \
+    $(_OBJ_DIR)\alpha\jcpipe.obj \
+    $(_OBJ_DIR)\alpha\jcsample.obj \
+    $(_OBJ_DIR)\alpha\jfwddct.obj \
+    $(_OBJ_DIR)\alpha\jwrjfif.obj \
+    $(_OBJ_DIR)\alpha\jmemsy_c.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\jpeg1x32.res \
+    $(_OBJ_DIR)\mips\jcarith.obj \
+    $(_OBJ_DIR)\mips\jccolor.obj \
+    $(_OBJ_DIR)\mips\jcdeflts.obj \
+    $(_OBJ_DIR)\mips\jcexpand.obj \
+    $(_OBJ_DIR)\mips\jchuff.obj \
+    $(_OBJ_DIR)\mips\jcmaster.obj \
+    $(_OBJ_DIR)\mips\jcmcu.obj \
+    $(_OBJ_DIR)\mips\jcpipe.obj \
+    $(_OBJ_DIR)\mips\jcsample.obj \
+    $(_OBJ_DIR)\mips\jfwddct.obj \
+    $(_OBJ_DIR)\mips\jwrjfif.obj \
+    $(_OBJ_DIR)\mips\jmemsy_c.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\jpeg1x32.res \
+    $(_OBJ_DIR)\i386\jcarith.obj \
+    $(_OBJ_DIR)\i386\jccolor.obj \
+    $(_OBJ_DIR)\i386\jcdeflts.obj \
+    $(_OBJ_DIR)\i386\jcexpand.obj \
+    $(_OBJ_DIR)\i386\jchuff.obj \
+    $(_OBJ_DIR)\i386\jcmaster.obj \
+    $(_OBJ_DIR)\i386\jcmcu.obj \
+    $(_OBJ_DIR)\i386\jcpipe.obj \
+    $(_OBJ_DIR)\i386\jcsample.obj \
+    $(_OBJ_DIR)\i386\jfwddct.obj \
+    $(_OBJ_DIR)\i386\jwrjfif.obj \
+    $(_OBJ_DIR)\i386\jmemsy_c.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\jpeg1x32.res \
+    $(_OBJ_DIR)\ppc\jcarith.obj \
+    $(_OBJ_DIR)\ppc\jccolor.obj \
+    $(_OBJ_DIR)\ppc\jcdeflts.obj \
+    $(_OBJ_DIR)\ppc\jcexpand.obj \
+    $(_OBJ_DIR)\ppc\jchuff.obj \
+    $(_OBJ_DIR)\ppc\jcmaster.obj \
+    $(_OBJ_DIR)\ppc\jcmcu.obj \
+    $(_OBJ_DIR)\ppc\jcpipe.obj \
+    $(_OBJ_DIR)\ppc\jcsample.obj \
+    $(_OBJ_DIR)\ppc\jfwddct.obj \
+    $(_OBJ_DIR)\ppc\jwrjfif.obj \
+    $(_OBJ_DIR)\ppc\jmemsy_c.obj
+
+PASS0_PPC_OBJECTS=
+

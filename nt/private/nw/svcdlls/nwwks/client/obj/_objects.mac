@@ -1,0 +1,96 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\bind.obj \
+    $(_OBJ_DIR)\alpha\logon.obj \
+    $(_OBJ_DIR)\alpha\provider.obj \
+    $(_OBJ_DIR)\alpha\nwdlg.obj \
+    $(_OBJ_DIR)\alpha\authpkg.obj \
+    $(_OBJ_DIR)\alpha\nwspl.obj \
+    $(_OBJ_DIR)\alpha\port.obj \
+    $(_OBJ_DIR)\alpha\nwapi.obj \
+    $(_OBJ_DIR)\alpha\ccache.obj \
+    $(_OBJ_DIR)\alpha\getaddr.obj \
+    $(_OBJ_DIR)\alpha\gtadrnr.obj \
+    $(_OBJ_DIR)\alpha\nwwks_c.obj \
+    $(_OBJ_DIR)\alpha\nwutil.obj \
+    $(_OBJ_DIR)\alpha\drawpie.obj \
+    $(_OBJ_DIR)\alpha\caddress.obj \
+    $(_OBJ_DIR)\alpha\nwshext.obj \
+    $(_OBJ_DIR)\alpha\nwshprop.obj \
+    $(_OBJ_DIR)\alpha\nwshmenu.obj \
+    $(_OBJ_DIR)\alpha\nwshmisc.obj \
+    $(_OBJ_DIR)\alpha\nwshui.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\bind.obj \
+    $(_OBJ_DIR)\mips\logon.obj \
+    $(_OBJ_DIR)\mips\provider.obj \
+    $(_OBJ_DIR)\mips\nwdlg.obj \
+    $(_OBJ_DIR)\mips\authpkg.obj \
+    $(_OBJ_DIR)\mips\nwspl.obj \
+    $(_OBJ_DIR)\mips\port.obj \
+    $(_OBJ_DIR)\mips\nwapi.obj \
+    $(_OBJ_DIR)\mips\ccache.obj \
+    $(_OBJ_DIR)\mips\getaddr.obj \
+    $(_OBJ_DIR)\mips\gtadrnr.obj \
+    $(_OBJ_DIR)\mips\nwwks_c.obj \
+    $(_OBJ_DIR)\mips\nwutil.obj \
+    $(_OBJ_DIR)\mips\drawpie.obj \
+    $(_OBJ_DIR)\mips\caddress.obj \
+    $(_OBJ_DIR)\mips\nwshext.obj \
+    $(_OBJ_DIR)\mips\nwshprop.obj \
+    $(_OBJ_DIR)\mips\nwshmenu.obj \
+    $(_OBJ_DIR)\mips\nwshmisc.obj \
+    $(_OBJ_DIR)\mips\nwshui.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\bind.obj \
+    $(_OBJ_DIR)\i386\logon.obj \
+    $(_OBJ_DIR)\i386\provider.obj \
+    $(_OBJ_DIR)\i386\nwdlg.obj \
+    $(_OBJ_DIR)\i386\authpkg.obj \
+    $(_OBJ_DIR)\i386\nwspl.obj \
+    $(_OBJ_DIR)\i386\port.obj \
+    $(_OBJ_DIR)\i386\nwapi.obj \
+    $(_OBJ_DIR)\i386\ccache.obj \
+    $(_OBJ_DIR)\i386\getaddr.obj \
+    $(_OBJ_DIR)\i386\gtadrnr.obj \
+    $(_OBJ_DIR)\i386\nwwks_c.obj \
+    $(_OBJ_DIR)\i386\nwutil.obj \
+    $(_OBJ_DIR)\i386\drawpie.obj \
+    $(_OBJ_DIR)\i386\caddress.obj \
+    $(_OBJ_DIR)\i386\nwshext.obj \
+    $(_OBJ_DIR)\i386\nwshprop.obj \
+    $(_OBJ_DIR)\i386\nwshmenu.obj \
+    $(_OBJ_DIR)\i386\nwshmisc.obj \
+    $(_OBJ_DIR)\i386\nwshui.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\bind.obj \
+    $(_OBJ_DIR)\ppc\logon.obj \
+    $(_OBJ_DIR)\ppc\provider.obj \
+    $(_OBJ_DIR)\ppc\nwdlg.obj \
+    $(_OBJ_DIR)\ppc\authpkg.obj \
+    $(_OBJ_DIR)\ppc\nwspl.obj \
+    $(_OBJ_DIR)\ppc\port.obj \
+    $(_OBJ_DIR)\ppc\nwapi.obj \
+    $(_OBJ_DIR)\ppc\ccache.obj \
+    $(_OBJ_DIR)\ppc\getaddr.obj \
+    $(_OBJ_DIR)\ppc\gtadrnr.obj \
+    $(_OBJ_DIR)\ppc\nwwks_c.obj \
+    $(_OBJ_DIR)\ppc\nwutil.obj \
+    $(_OBJ_DIR)\ppc\drawpie.obj \
+    $(_OBJ_DIR)\ppc\caddress.obj \
+    $(_OBJ_DIR)\ppc\nwshext.obj \
+    $(_OBJ_DIR)\ppc\nwshprop.obj \
+    $(_OBJ_DIR)\ppc\nwshmenu.obj \
+    $(_OBJ_DIR)\ppc\nwshmisc.obj \
+    $(_OBJ_DIR)\ppc\nwshui.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -29,4 +29,4 @@ echo off
 call %_NTBINDIR%\private\developr\%USERNAME%\SetBldOp
 echo on
 call %_NTBINDIR%\private\developr\%USERNAME%\%USERNAME%
-rem cls
+cls

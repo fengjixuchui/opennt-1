@@ -1,72 +1,30 @@
-init\mp\link() : warning LNK4044: unrecognized option "calltree"; ignored
 init\up\link() : warning LNK4044: unrecognized option "calltree"; ignored
-init\mp\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedIncrement@4 already defined in cache.lib(fssup.obj); second definition ignored
-init\up\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedIncrement@4 already defined in cache.lib(fssup.obj); second definition ignored
-init\mp\fsrtl.lib(filelock.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\fsrtl.lib(oplock.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\fsrtl.lib(notify.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\up\fsrtl.lib(filelock.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\io.lib(iosubs.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\up\fsrtl.lib(oplock.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\io.lib(misc.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\up\fsrtl.lib(notify.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\io.lib(lock.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\io.lib(dir.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\up\io.lib(iosubs.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\io.lib(qsea.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\up\io.lib(misc.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\io.lib(qsinfo.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\io.lib(qsfs.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\io.lib(read.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\up\io.lib(lock.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\up\io.lib(dir.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\io.lib(write.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\up\io.lib(qsea.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\io.lib(internal.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\up\io.lib(qsinfo.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\up\io.lib(qsfs.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\up\io.lib(read.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\io.lib(internal.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\io.lib(objsup.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\up\io.lib(write.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\ke.lib(bugcheck.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
+init\mp\link() : warning LNK4044: unrecognized option "calltree"; ignored
 init\mp\ke.lib(i386pcr.obj) : warning LNK4006: _KeGetPcr@0 already defined in ke.lib(biosc.obj); second definition ignored
-init\mp\ke.lib(i386pcr.obj) : warning LNK4006: _KeGetCurrentPrcb@0 already defined in cache.lib(copysup.obj); second definition ignored
-init\up\io.lib(internal.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\ke.lib(i386pcr.obj) : warning LNK4006: _KeIsExecutingDpc@0 already defined in ex.lib(resource.obj); second definition ignored
-init\up\io.lib(internal.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\up\io.lib(objsup.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\up\ke.lib(bugcheck.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlEnlargedUnsignedDivide@16 already defined in io.lib(assign.obj); second definition ignored
-init\mp\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlConvertUlongToLargeInteger@4 already defined in fstub.lib(drivesup.obj); second definition ignored
-init\mp\ntosrtl.lib(excptdbg.obj) : warning LNK4006: @InterlockedCompareExchange@12 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\ob.lib(obref.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
+init\mp\ke.lib(i386pcr.obj) : warning LNK4006: _KeGetCurrentPrcb@0 already defined in ke.lib(iopm.obj); second definition ignored
+init\mp\ke.lib(i386pcr.obj) : warning LNK4006: _KeIsExecutingDpc@0 already defined in ke.lib(procobj.obj); second definition ignored
 init\up\ke.lib(i386pcr.obj) : warning LNK4006: _KeGetPcr@0 already defined in ke.lib(biosc.obj); second definition ignored
-init\mp\ob.lib(obhandle.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\up\ke.lib(i386pcr.obj) : warning LNK4006: _KeGetCurrentPrcb@0 already defined in cache.lib(copysup.obj); second definition ignored
-init\mp\ps.lib(psquery.obj) : warning LNK4006: _RtlConvertLongToLargeInteger@4 already defined in ntosrtl.lib(largeint.obj); second definition ignored
-init\mp\ps.lib(psdelete.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\up\ke.lib(i386pcr.obj) : warning LNK4006: _KeIsExecutingDpc@0 already defined in ex.lib(resource.obj); second definition ignored
+init\up\ke.lib(i386pcr.obj) : warning LNK4006: _KeGetCurrentPrcb@0 already defined in ke.lib(iopm.obj); second definition ignored
+init\up\ke.lib(i386pcr.obj) : warning LNK4006: _KeIsExecutingDpc@0 already defined in ke.lib(procobj.obj); second definition ignored
+init\mp\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlEnlargedIntegerMultiply@8 already defined in vdm.lib(vdmints.obj); second definition ignored
+init\mp\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlEnlargedUnsignedDivide@16 already defined in io.lib(assign.obj); second definition ignored
+init\mp\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlConvertLongToLargeInteger@4 already defined in ps.lib(psquery.obj); second definition ignored
+init\mp\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlConvertUlongToLargeInteger@4 already defined in fstub.lib(drivesup.obj); second definition ignored
+init\up\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlEnlargedIntegerMultiply@8 already defined in vdm.lib(vdmints.obj); second definition ignored
 init\up\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlEnlargedUnsignedDivide@16 already defined in io.lib(assign.obj); second definition ignored
+init\up\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlConvertLongToLargeInteger@4 already defined in ps.lib(psquery.obj); second definition ignored
 init\up\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlConvertUlongToLargeInteger@4 already defined in fstub.lib(drivesup.obj); second definition ignored
-init\up\ntosrtl.lib(excptdbg.obj) : warning LNK4006: @InterlockedCompareExchange@12 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\up\ob.lib(obref.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\up\ob.lib(obhandle.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\se.lib(seglobal.obj) : warning LNK4006: _RtlConvertLongToLargeInteger@4 already defined in ntosrtl.lib(largeint.obj); second definition ignored
-init\up\ps.lib(psquery.obj) : warning LNK4006: _RtlConvertLongToLargeInteger@4 already defined in ntosrtl.lib(largeint.obj); second definition ignored
-init\up\ps.lib(psdelete.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
-init\mp\vdm.lib(vdmints.obj) : warning LNK4006: _RtlEnlargedIntegerMultiply@8 already defined in ntosrtl.lib(largeint.obj); second definition ignored
-init\up\se.lib(seglobal.obj) : warning LNK4006: _RtlConvertLongToLargeInteger@4 already defined in ntosrtl.lib(largeint.obj); second definition ignored
-init\up\vdm.lib(vdmints.obj) : warning LNK4006: _RtlEnlargedIntegerMultiply@8 already defined in ntosrtl.lib(largeint.obj); second definition ignored
+init\up\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedExchange@8 already defined in io.lib(write.obj); second definition ignored
+init\up\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedIncrement@4 already defined in mm.lib(queryvm.obj); second definition ignored
+init\mp\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedExchange@8 already defined in io.lib(write.obj); second definition ignored
+init\mp\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedIncrement@4 already defined in mm.lib(queryvm.obj); second definition ignored
+init\up\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ps.lib(psdelete.obj); second definition ignored
+init\up\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedCompareExchange@12 already defined in ntosrtl.lib(excptdbg.obj); second definition ignored
+init\mp\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ps.lib(psdelete.obj); second definition ignored
+init\mp\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedCompareExchange@12 already defined in ntosrtl.lib(excptdbg.obj); second definition ignored
 init\mp\obj\i386\ntkrnlmp.exe() : warning LNK4088: image being generated due to /FORCE option; image may not run
 init\up\obj\i386\ntoskrnl.exe() : warning LNK4088: image being generated due to /FORCE option; image may not run
-nthals\hal486c\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_ULONG@8" imported
-nthals\hal486c\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
-nthals\hal486c\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
-nthals\hal486c\link() : warning LNK4049: locally defined symbol "_READ_PORT_ULONG@4" imported
 nthals\halx86\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
-nthals\hal486c\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
-nthals\hal486c\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
 nthals\halx86\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
 nthals\halx86\link() : warning LNK4049: locally defined symbol "@ExReleaseFastMutex@4" imported
 nthals\halx86\link() : warning LNK4049: locally defined symbol "@ExAcquireFastMutex@4" imported
@@ -80,6 +38,12 @@ nthals\halmca\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHOR
 nthals\halmca\link() : warning LNK4049: locally defined symbol "_READ_PORT_ULONG@4" imported
 nthals\halmca\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
 nthals\halmca\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
+nthals\hal486c\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_ULONG@8" imported
+nthals\hal486c\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
+nthals\hal486c\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
+nthals\hal486c\link() : warning LNK4049: locally defined symbol "_READ_PORT_ULONG@4" imported
+nthals\hal486c\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
+nthals\hal486c\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
 nthals\halast\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
 nthals\halast\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
 nthals\haloli\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported

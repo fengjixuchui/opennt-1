@@ -81,20 +81,20 @@
 
   Address         Publics by Value
 
- 0000:0000  Imp  GlobalPageLock       (KERNEL.191)
+ 0000:0000  Imp  __WinFlags           (KERNEL.178)
+ 0000:0000  Imp  DriverCallback       (MMSYSTEM.31)
+ 0000:0000  Imp  StackEnter           (MMSYSTEM.32)
+ 0000:0000  Imp  WINFLAGS             (KERNEL.178)
  0000:0000  Imp  StackLeave           (MMSYSTEM.33)
  0000:0000  Imp  GetSelectorBase      (KERNEL.186)
  0000:0000  Imp  MessageBox           (USER.1)
- 0000:0000  Imp  StackEnter           (MMSYSTEM.32)
- 0000:0000  Imp  GetVersion           (KERNEL.3)
- 0000:0000  Imp  LocalInit            (KERNEL.4)
  0000:0000  Imp  FreeSelector         (KERNEL.176)
- 0000:0000  Imp  __WinFlags           (KERNEL.178)
- 0000:0000  Imp  DriverCallback       (MMSYSTEM.31)
+ 0000:0000  Imp  GlobalWire           (KERNEL.111)
+ 0000:0000  Imp  GetVersion           (KERNEL.3)
+ 0000:0000  Imp  GlobalPageLock       (KERNEL.191)
+ 0000:0000  Imp  LocalInit            (KERNEL.4)
  0000:0000  Imp  LoadString           (USER.176)
  0000:0000  Imp  OutputDebugStr       (MMSYSTEM.30)
- 0000:0000  Imp  WINFLAGS             (KERNEL.178)
- 0000:0000  Imp  GlobalWire           (KERNEL.111)
  0000:0000  Imp  AllocCStoDSAlias     (KERNEL.170)
  0000:0001  Abs  __acrtused
  0001:0000       WEP

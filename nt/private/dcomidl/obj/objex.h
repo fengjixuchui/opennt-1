@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Sun Oct 13 02:55:37 2019
+/* at Thu Oct 17 15:45:16 2019
  */
 /* Compiler settings for objex.idl:
     Oicf (OptLev=i2), W1, Zp8, env=Win32, ms_ext, c_ext, oldnames
@@ -32,7 +32,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: IObjectExporter
- * at Sun Oct 13 02:55:37 2019
+ * at Thu Oct 17 15:45:16 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [implicit_handle][unique][uuid] */ 

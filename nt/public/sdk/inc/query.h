@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Sun Oct 13 02:55:25 2019
+/* at Thu Oct 17 15:44:07 2019
  */
 /* Compiler settings for query.idl:
     Oicf (OptLev=i2), W1, Zp8, env=Win32, ms_ext, c_ext
@@ -85,7 +85,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: IQueryStructures
- * at Sun Oct 13 02:55:25 2019
+ * at Thu Oct 17 15:44:07 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [auto_handle][unique][uuid] */ 
@@ -371,7 +371,7 @@ extern RPC_IF_HANDLE IQueryStructures_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: ISearch
- * at Sun Oct 13 02:55:25 2019
+ * at Thu Oct 17 15:44:07 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -512,7 +512,7 @@ void __RPC_STUB ISearch_NextHitOffset_Stub(
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0077
- * at Sun Oct 13 02:55:25 2019
+ * at Thu Oct 17 15:44:07 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [local] */ 
@@ -532,7 +532,7 @@ extern RPC_IF_HANDLE __MIDL__intf_0077_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: IOldQuery
- * at Sun Oct 13 02:55:25 2019
+ * at Thu Oct 17 15:44:07 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -690,7 +690,7 @@ void __RPC_STUB IOldQuery_ExecQuery_Stub(
 
 /****************************************
  * Generated header for interface: IPhraseSink
- * at Sun Oct 13 02:55:25 2019
+ * at Thu Oct 17 15:44:07 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -821,7 +821,7 @@ void __RPC_STUB IPhraseSink_PutPhrase_Stub(
 
 /****************************************
  * Generated header for interface: IWordSink
- * at Sun Oct 13 02:55:25 2019
+ * at Thu Oct 17 15:44:07 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -1027,7 +1027,7 @@ void __RPC_STUB IWordSink_PutBreak_Stub(
 
 /****************************************
  * Generated header for interface: IWordBreaker
- * at Sun Oct 13 02:55:25 2019
+ * at Thu Oct 17 15:44:07 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -1233,7 +1233,7 @@ void __RPC_STUB IWordBreaker_GetLicenseToUse_Stub(
 
 /****************************************
  * Generated header for interface: IStemSink
- * at Sun Oct 13 02:55:25 2019
+ * at Thu Oct 17 15:44:07 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -1355,7 +1355,7 @@ void __RPC_STUB IStemSink_PutWord_Stub(
 
 /****************************************
  * Generated header for interface: IStemmer
- * at Sun Oct 13 02:55:25 2019
+ * at Thu Oct 17 15:44:07 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -1502,7 +1502,7 @@ void __RPC_STUB IStemmer_GetLicenseToUse_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetQueryStatus
- * at Sun Oct 13 02:55:25 2019
+ * at Thu Oct 17 15:44:07 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 

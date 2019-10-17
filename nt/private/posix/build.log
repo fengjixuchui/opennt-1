@@ -97,7 +97,7 @@ Compiling w:\nt\private\posix\client directory ********************
 	ml -c -coff -Cx -nologo -Ii386\ -I. -I..\inc -I\nt\public\sdk\inc\posix -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\posix -IW:\nt\public\sdk\inc\crt -Zm  /Zi -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1  -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -Fow:\nt\private\posix\client\obj\i386\psxthunk.obj i386\psxthunk.asm
  Assembling: i386\psxthunk.asm
 i386\psxthunk.asm(35) : warning A4004: cannot ASSUME CS
-	lib -out:\nt\public\sdk\lib\i386\psxdll.lib @W:\tmp\nma02812.
+	lib -out:\nt\public\sdk\lib\i386\psxdll.lib @W:\tmp\nma02128.
 Microsoft (R) 32-Bit Library Manager Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -139,9 +139,54 @@ Linking w:\nt\private\posix\programs\hello directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 
 Stop. 
-	link -out:\nt\public\sdk\lib\i386\psxdll.dll -machine:i386 @W:\tmp\nma02836.
-	link -out:obj\i386\pax.exe -machine:i386 @W:\tmp\nma03624.
-	link -out:obj\i386\psxhello.exe -machine:i386 @W:\tmp\nma03012.
+	link -out:\nt\public\sdk\lib\i386\psxdll.dll -machine:i386 @W:\tmp\nma02520.
+	link -out:obj\i386\pax.exe -machine:i386 @W:\tmp\nma03924.
+	link -out:obj\i386\psxhello.exe -machine:i386 @W:\tmp\nma00996.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-PDB:NONE 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,psxdll 
+-subsystem:posix 
+-entry:PsxDllInitialize@12 
+\nt\public\sdk\lib\i386\psxdll.exp 
+obj\i386\psxdll.res 
+obj\i386\psxthunk.obj 
+obj\i386\coninit.obj 
+obj\i386\conreqst.obj 
+obj\i386\crtsup.obj 
+obj\i386\dllext.obj 
+obj\i386\dllfile.obj 
+obj\i386\dllinit.obj 
+obj\i386\dllio.obj 
+obj\i386\dllname.obj 
+obj\i386\dllproc.obj 
+obj\i386\dllsig.obj 
+obj\i386\dlltc.obj 
+obj\i386\dlltimer.obj 
+obj\i386\dllreg.obj 
+obj\i386\stubs.obj 
+obj\i386\sysdb.obj 
+\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\libcpsx.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -212,51 +257,6 @@ Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 -osversion:4.00 
 -PDB:NONE 
 -MERGE:.rdata=.text 
--dll 
--optidata 
--base:@W:\nt\public\sdk\lib\coffbase.txt,psxdll 
--subsystem:posix 
--entry:PsxDllInitialize@12 
-\nt\public\sdk\lib\i386\psxdll.exp 
-obj\i386\psxdll.res 
-obj\i386\psxthunk.obj 
-obj\i386\coninit.obj 
-obj\i386\conreqst.obj 
-obj\i386\crtsup.obj 
-obj\i386\dllext.obj 
-obj\i386\dllfile.obj 
-obj\i386\dllinit.obj 
-obj\i386\dllio.obj 
-obj\i386\dllname.obj 
-obj\i386\dllproc.obj 
-obj\i386\dllsig.obj 
-obj\i386\dlltc.obj 
-obj\i386\dlltimer.obj 
-obj\i386\dllreg.obj 
-obj\i386\stubs.obj 
-obj\i386\sysdb.obj 
-\nt\public\sdk\lib\i386\ntdll.lib 
-W:\nt\public\sdk\lib\i386\libcpsx.lib 
-W:\nt\public\sdk\lib\i386\ntdll.lib 
-Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
-Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
-
--MERGE:_PAGE=PAGE 
--MERGE:_TEXT=.text 
--SECTION:INIT,d 
--OPT:REF 
--INCREMENTAL:NO 
--FORCE:MULTIPLE 
--RELEASE 
--FULLBUILD 
--IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
--NODEFAULTLIB 
--debug:notmapped,FULL 
--debugtype:both 
--version:4.00 
--osversion:4.00 
--PDB:NONE 
--MERGE:.rdata=.text 
 -optidata 
 -base:0xa00000 
 -subsystem:posix 
@@ -268,9 +268,9 @@ W:\nt\public\sdk\lib\i386\psxdll.lib
 W:\nt\public\sdk\lib\i386\psxrtl.lib 
 libcpsx.lib(atox.obj) : warning LNK4006: _atoi already defined in ntdll.lib(ntdll.dll); second definition ignored
 obj\i386\pax.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
-	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a \nt\public\sdk\lib\i386\psxdll.dll
 
 Stop. 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a \nt\public\sdk\lib\i386\psxdll.dll
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\psxhello.exe
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\pax.exe
 

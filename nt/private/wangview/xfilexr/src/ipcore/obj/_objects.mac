@@ -1,0 +1,176 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\utils1.obj \
+    $(_OBJ_DIR)\alpha\jrdjfif.obj \
+    $(_OBJ_DIR)\alpha\jddeflts.obj \
+    $(_OBJ_DIR)\alpha\jerror.obj \
+    $(_OBJ_DIR)\alpha\grytable.obj \
+    $(_OBJ_DIR)\alpha\jdsample.obj \
+    $(_OBJ_DIR)\alpha\props1.obj \
+    $(_OBJ_DIR)\alpha\jdexpand.obj \
+    $(_OBJ_DIR)\alpha\i_depth.obj \
+    $(_OBJ_DIR)\alpha\mirescl2.obj \
+    $(_OBJ_DIR)\alpha\i_floyd.obj \
+    $(_OBJ_DIR)\alpha\midibpix.obj \
+    $(_OBJ_DIR)\alpha\jdsetup.obj \
+    $(_OBJ_DIR)\alpha\i_color.obj \
+    $(_OBJ_DIR)\alpha\miframe.obj \
+    $(_OBJ_DIR)\alpha\pcconv.obj \
+    $(_OBJ_DIR)\alpha\i_rastop.obj \
+    $(_OBJ_DIR)\alpha\rescale1.obj \
+    $(_OBJ_DIR)\alpha\jmemmgr.obj \
+    $(_OBJ_DIR)\alpha\mirescl1.obj \
+    $(_OBJ_DIR)\alpha\jerrcode.obj \
+    $(_OBJ_DIR)\alpha\midepth3.obj \
+    $(_OBJ_DIR)\alpha\jutils.obj \
+    $(_OBJ_DIR)\alpha\i_dibpix.obj \
+    $(_OBJ_DIR)\alpha\jdcolor.obj \
+    $(_OBJ_DIR)\alpha\jdmcu.obj \
+    $(_OBJ_DIR)\alpha\color.obj \
+    $(_OBJ_DIR)\alpha\jdhuff.obj \
+    $(_OBJ_DIR)\alpha\mifloyd.obj \
+    $(_OBJ_DIR)\alpha\props3.obj \
+    $(_OBJ_DIR)\alpha\i_frame.obj \
+    $(_OBJ_DIR)\alpha\exptable.obj \
+    $(_OBJ_DIR)\alpha\mibswap.obj \
+    $(_OBJ_DIR)\alpha\jdcomprs.obj \
+    $(_OBJ_DIR)\alpha\i_rescal.obj \
+    $(_OBJ_DIR)\alpha\floyd4.obj \
+    $(_OBJ_DIR)\alpha\iw_djpeg.obj \
+    $(_OBJ_DIR)\alpha\jrevdct.obj \
+    $(_OBJ_DIR)\alpha\props2.obj \
+    $(_OBJ_DIR)\alpha\i_sfloyd.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\utils1.obj \
+    $(_OBJ_DIR)\mips\jrdjfif.obj \
+    $(_OBJ_DIR)\mips\jddeflts.obj \
+    $(_OBJ_DIR)\mips\jerror.obj \
+    $(_OBJ_DIR)\mips\grytable.obj \
+    $(_OBJ_DIR)\mips\jdsample.obj \
+    $(_OBJ_DIR)\mips\props1.obj \
+    $(_OBJ_DIR)\mips\jdexpand.obj \
+    $(_OBJ_DIR)\mips\i_depth.obj \
+    $(_OBJ_DIR)\mips\mirescl2.obj \
+    $(_OBJ_DIR)\mips\i_floyd.obj \
+    $(_OBJ_DIR)\mips\midibpix.obj \
+    $(_OBJ_DIR)\mips\jdsetup.obj \
+    $(_OBJ_DIR)\mips\i_color.obj \
+    $(_OBJ_DIR)\mips\miframe.obj \
+    $(_OBJ_DIR)\mips\pcconv.obj \
+    $(_OBJ_DIR)\mips\i_rastop.obj \
+    $(_OBJ_DIR)\mips\rescale1.obj \
+    $(_OBJ_DIR)\mips\jmemmgr.obj \
+    $(_OBJ_DIR)\mips\mirescl1.obj \
+    $(_OBJ_DIR)\mips\jerrcode.obj \
+    $(_OBJ_DIR)\mips\midepth3.obj \
+    $(_OBJ_DIR)\mips\jutils.obj \
+    $(_OBJ_DIR)\mips\i_dibpix.obj \
+    $(_OBJ_DIR)\mips\jdcolor.obj \
+    $(_OBJ_DIR)\mips\jdmcu.obj \
+    $(_OBJ_DIR)\mips\color.obj \
+    $(_OBJ_DIR)\mips\jdhuff.obj \
+    $(_OBJ_DIR)\mips\mifloyd.obj \
+    $(_OBJ_DIR)\mips\props3.obj \
+    $(_OBJ_DIR)\mips\i_frame.obj \
+    $(_OBJ_DIR)\mips\exptable.obj \
+    $(_OBJ_DIR)\mips\mibswap.obj \
+    $(_OBJ_DIR)\mips\jdcomprs.obj \
+    $(_OBJ_DIR)\mips\i_rescal.obj \
+    $(_OBJ_DIR)\mips\floyd4.obj \
+    $(_OBJ_DIR)\mips\iw_djpeg.obj \
+    $(_OBJ_DIR)\mips\jrevdct.obj \
+    $(_OBJ_DIR)\mips\props2.obj \
+    $(_OBJ_DIR)\mips\i_sfloyd.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\utils1.obj \
+    $(_OBJ_DIR)\i386\jrdjfif.obj \
+    $(_OBJ_DIR)\i386\jddeflts.obj \
+    $(_OBJ_DIR)\i386\jerror.obj \
+    $(_OBJ_DIR)\i386\grytable.obj \
+    $(_OBJ_DIR)\i386\jdsample.obj \
+    $(_OBJ_DIR)\i386\props1.obj \
+    $(_OBJ_DIR)\i386\jdexpand.obj \
+    $(_OBJ_DIR)\i386\i_depth.obj \
+    $(_OBJ_DIR)\i386\mirescl2.obj \
+    $(_OBJ_DIR)\i386\i_floyd.obj \
+    $(_OBJ_DIR)\i386\midibpix.obj \
+    $(_OBJ_DIR)\i386\jdsetup.obj \
+    $(_OBJ_DIR)\i386\i_color.obj \
+    $(_OBJ_DIR)\i386\miframe.obj \
+    $(_OBJ_DIR)\i386\pcconv.obj \
+    $(_OBJ_DIR)\i386\i_rastop.obj \
+    $(_OBJ_DIR)\i386\rescale1.obj \
+    $(_OBJ_DIR)\i386\jmemmgr.obj \
+    $(_OBJ_DIR)\i386\mirescl1.obj \
+    $(_OBJ_DIR)\i386\jerrcode.obj \
+    $(_OBJ_DIR)\i386\midepth3.obj \
+    $(_OBJ_DIR)\i386\jutils.obj \
+    $(_OBJ_DIR)\i386\i_dibpix.obj \
+    $(_OBJ_DIR)\i386\jdcolor.obj \
+    $(_OBJ_DIR)\i386\jdmcu.obj \
+    $(_OBJ_DIR)\i386\color.obj \
+    $(_OBJ_DIR)\i386\jdhuff.obj \
+    $(_OBJ_DIR)\i386\mifloyd.obj \
+    $(_OBJ_DIR)\i386\props3.obj \
+    $(_OBJ_DIR)\i386\i_frame.obj \
+    $(_OBJ_DIR)\i386\exptable.obj \
+    $(_OBJ_DIR)\i386\mibswap.obj \
+    $(_OBJ_DIR)\i386\jdcomprs.obj \
+    $(_OBJ_DIR)\i386\i_rescal.obj \
+    $(_OBJ_DIR)\i386\floyd4.obj \
+    $(_OBJ_DIR)\i386\iw_djpeg.obj \
+    $(_OBJ_DIR)\i386\jrevdct.obj \
+    $(_OBJ_DIR)\i386\props2.obj \
+    $(_OBJ_DIR)\i386\i_sfloyd.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\utils1.obj \
+    $(_OBJ_DIR)\ppc\jrdjfif.obj \
+    $(_OBJ_DIR)\ppc\jddeflts.obj \
+    $(_OBJ_DIR)\ppc\jerror.obj \
+    $(_OBJ_DIR)\ppc\grytable.obj \
+    $(_OBJ_DIR)\ppc\jdsample.obj \
+    $(_OBJ_DIR)\ppc\props1.obj \
+    $(_OBJ_DIR)\ppc\jdexpand.obj \
+    $(_OBJ_DIR)\ppc\i_depth.obj \
+    $(_OBJ_DIR)\ppc\mirescl2.obj \
+    $(_OBJ_DIR)\ppc\i_floyd.obj \
+    $(_OBJ_DIR)\ppc\midibpix.obj \
+    $(_OBJ_DIR)\ppc\jdsetup.obj \
+    $(_OBJ_DIR)\ppc\i_color.obj \
+    $(_OBJ_DIR)\ppc\miframe.obj \
+    $(_OBJ_DIR)\ppc\pcconv.obj \
+    $(_OBJ_DIR)\ppc\i_rastop.obj \
+    $(_OBJ_DIR)\ppc\rescale1.obj \
+    $(_OBJ_DIR)\ppc\jmemmgr.obj \
+    $(_OBJ_DIR)\ppc\mirescl1.obj \
+    $(_OBJ_DIR)\ppc\jerrcode.obj \
+    $(_OBJ_DIR)\ppc\midepth3.obj \
+    $(_OBJ_DIR)\ppc\jutils.obj \
+    $(_OBJ_DIR)\ppc\i_dibpix.obj \
+    $(_OBJ_DIR)\ppc\jdcolor.obj \
+    $(_OBJ_DIR)\ppc\jdmcu.obj \
+    $(_OBJ_DIR)\ppc\color.obj \
+    $(_OBJ_DIR)\ppc\jdhuff.obj \
+    $(_OBJ_DIR)\ppc\mifloyd.obj \
+    $(_OBJ_DIR)\ppc\props3.obj \
+    $(_OBJ_DIR)\ppc\i_frame.obj \
+    $(_OBJ_DIR)\ppc\exptable.obj \
+    $(_OBJ_DIR)\ppc\mibswap.obj \
+    $(_OBJ_DIR)\ppc\jdcomprs.obj \
+    $(_OBJ_DIR)\ppc\i_rescal.obj \
+    $(_OBJ_DIR)\ppc\floyd4.obj \
+    $(_OBJ_DIR)\ppc\iw_djpeg.obj \
+    $(_OBJ_DIR)\ppc\jrevdct.obj \
+    $(_OBJ_DIR)\ppc\props2.obj \
+    $(_OBJ_DIR)\ppc\i_sfloyd.obj
+
+PASS0_PPC_OBJECTS=
+

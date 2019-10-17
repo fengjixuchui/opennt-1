@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\display.obj \
+    $(_OBJ_DIR)\alpha\uasp.obj \
+    $(_OBJ_DIR)\alpha\user.obj \
+    $(_OBJ_DIR)\alpha\userp.obj \
+    $(_OBJ_DIR)\alpha\group.obj \
+    $(_OBJ_DIR)\alpha\groupp.obj \
+    $(_OBJ_DIR)\alpha\alias.obj \
+    $(_OBJ_DIR)\alpha\aliasp.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\display.obj \
+    $(_OBJ_DIR)\mips\uasp.obj \
+    $(_OBJ_DIR)\mips\user.obj \
+    $(_OBJ_DIR)\mips\userp.obj \
+    $(_OBJ_DIR)\mips\group.obj \
+    $(_OBJ_DIR)\mips\groupp.obj \
+    $(_OBJ_DIR)\mips\alias.obj \
+    $(_OBJ_DIR)\mips\aliasp.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\display.obj \
+    $(_OBJ_DIR)\i386\uasp.obj \
+    $(_OBJ_DIR)\i386\user.obj \
+    $(_OBJ_DIR)\i386\userp.obj \
+    $(_OBJ_DIR)\i386\group.obj \
+    $(_OBJ_DIR)\i386\groupp.obj \
+    $(_OBJ_DIR)\i386\alias.obj \
+    $(_OBJ_DIR)\i386\aliasp.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\display.obj \
+    $(_OBJ_DIR)\ppc\uasp.obj \
+    $(_OBJ_DIR)\ppc\user.obj \
+    $(_OBJ_DIR)\ppc\userp.obj \
+    $(_OBJ_DIR)\ppc\group.obj \
+    $(_OBJ_DIR)\ppc\groupp.obj \
+    $(_OBJ_DIR)\ppc\alias.obj \
+    $(_OBJ_DIR)\ppc\aliasp.obj
+
+PASS0_PPC_OBJECTS=
+

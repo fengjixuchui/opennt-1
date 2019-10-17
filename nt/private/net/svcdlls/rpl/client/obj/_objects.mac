@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\rplstub.obj \
+    $(_OBJ_DIR)\alpha\rplbind.obj \
+    $(_OBJ_DIR)\alpha\rplsvc_c.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\rplstub.obj \
+    $(_OBJ_DIR)\mips\rplbind.obj \
+    $(_OBJ_DIR)\mips\rplsvc_c.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\rplstub.obj \
+    $(_OBJ_DIR)\i386\rplbind.obj \
+    $(_OBJ_DIR)\i386\rplsvc_c.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\rplstub.obj \
+    $(_OBJ_DIR)\ppc\rplbind.obj \
+    $(_OBJ_DIR)\ppc\rplsvc_c.obj
+
+PASS0_PPC_OBJECTS=
+

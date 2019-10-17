@@ -1,0 +1,212 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\audarray.obj \
+    $(_OBJ_DIR)\alpha\audclear.obj \
+    $(_OBJ_DIR)\alpha\audcpvar.obj \
+    $(_OBJ_DIR)\alpha\audread.obj \
+    $(_OBJ_DIR)\alpha\confenum.obj \
+    $(_OBJ_DIR)\alpha\confget.obj \
+    $(_OBJ_DIR)\alpha\confset.obj \
+    $(_OBJ_DIR)\alpha\conn.obj \
+    $(_OBJ_DIR)\alpha\diskenum.obj \
+    $(_OBJ_DIR)\alpha\domain.obj \
+    $(_OBJ_DIR)\alpha\errclear.obj \
+    $(_OBJ_DIR)\alpha\errconv.obj \
+    $(_OBJ_DIR)\alpha\errread.obj \
+    $(_OBJ_DIR)\alpha\fileenum.obj \
+    $(_OBJ_DIR)\alpha\filclose.obj \
+    $(_OBJ_DIR)\alpha\filgtinf.obj \
+    $(_OBJ_DIR)\alpha\prtdest.obj \
+    $(_OBJ_DIR)\alpha\prtjob.obj \
+    $(_OBJ_DIR)\alpha\prtq.obj \
+    $(_OBJ_DIR)\alpha\rxaccess.obj \
+    $(_OBJ_DIR)\alpha\rxcanon.obj \
+    $(_OBJ_DIR)\alpha\rxchdev.obj \
+    $(_OBJ_DIR)\alpha\rxgroup.obj \
+    $(_OBJ_DIR)\alpha\rxlgenum.obj \
+    $(_OBJ_DIR)\alpha\rxmsg.obj \
+    $(_OBJ_DIR)\alpha\rxshare.obj \
+    $(_OBJ_DIR)\alpha\rxstats.obj \
+    $(_OBJ_DIR)\alpha\rxuser.obj \
+    $(_OBJ_DIR)\alpha\sessconv.obj \
+    $(_OBJ_DIR)\alpha\sesscopy.obj \
+    $(_OBJ_DIR)\alpha\sessdel.obj \
+    $(_OBJ_DIR)\alpha\sessenum.obj \
+    $(_OBJ_DIR)\alpha\sessget.obj \
+    $(_OBJ_DIR)\alpha\sessmtch.obj \
+    $(_OBJ_DIR)\alpha\srvenum.obj \
+    $(_OBJ_DIR)\alpha\srvequiv.obj \
+    $(_OBJ_DIR)\alpha\srvgtinf.obj \
+    $(_OBJ_DIR)\alpha\srvstinf.obj \
+    $(_OBJ_DIR)\alpha\svcctrl.obj \
+    $(_OBJ_DIR)\alpha\svcenum.obj \
+    $(_OBJ_DIR)\alpha\svcgtinf.obj \
+    $(_OBJ_DIR)\alpha\svcinst.obj \
+    $(_OBJ_DIR)\alpha\tod.obj \
+    $(_OBJ_DIR)\alpha\use.obj \
+    $(_OBJ_DIR)\alpha\wksequiv.obj \
+    $(_OBJ_DIR)\alpha\wksgtinf.obj \
+    $(_OBJ_DIR)\alpha\wksgtold.obj \
+    $(_OBJ_DIR)\alpha\wksstinf.obj \
+    $(_OBJ_DIR)\alpha\wksuser.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\audarray.obj \
+    $(_OBJ_DIR)\mips\audclear.obj \
+    $(_OBJ_DIR)\mips\audcpvar.obj \
+    $(_OBJ_DIR)\mips\audread.obj \
+    $(_OBJ_DIR)\mips\confenum.obj \
+    $(_OBJ_DIR)\mips\confget.obj \
+    $(_OBJ_DIR)\mips\confset.obj \
+    $(_OBJ_DIR)\mips\conn.obj \
+    $(_OBJ_DIR)\mips\diskenum.obj \
+    $(_OBJ_DIR)\mips\domain.obj \
+    $(_OBJ_DIR)\mips\errclear.obj \
+    $(_OBJ_DIR)\mips\errconv.obj \
+    $(_OBJ_DIR)\mips\errread.obj \
+    $(_OBJ_DIR)\mips\fileenum.obj \
+    $(_OBJ_DIR)\mips\filclose.obj \
+    $(_OBJ_DIR)\mips\filgtinf.obj \
+    $(_OBJ_DIR)\mips\prtdest.obj \
+    $(_OBJ_DIR)\mips\prtjob.obj \
+    $(_OBJ_DIR)\mips\prtq.obj \
+    $(_OBJ_DIR)\mips\rxaccess.obj \
+    $(_OBJ_DIR)\mips\rxcanon.obj \
+    $(_OBJ_DIR)\mips\rxchdev.obj \
+    $(_OBJ_DIR)\mips\rxgroup.obj \
+    $(_OBJ_DIR)\mips\rxlgenum.obj \
+    $(_OBJ_DIR)\mips\rxmsg.obj \
+    $(_OBJ_DIR)\mips\rxshare.obj \
+    $(_OBJ_DIR)\mips\rxstats.obj \
+    $(_OBJ_DIR)\mips\rxuser.obj \
+    $(_OBJ_DIR)\mips\sessconv.obj \
+    $(_OBJ_DIR)\mips\sesscopy.obj \
+    $(_OBJ_DIR)\mips\sessdel.obj \
+    $(_OBJ_DIR)\mips\sessenum.obj \
+    $(_OBJ_DIR)\mips\sessget.obj \
+    $(_OBJ_DIR)\mips\sessmtch.obj \
+    $(_OBJ_DIR)\mips\srvenum.obj \
+    $(_OBJ_DIR)\mips\srvequiv.obj \
+    $(_OBJ_DIR)\mips\srvgtinf.obj \
+    $(_OBJ_DIR)\mips\srvstinf.obj \
+    $(_OBJ_DIR)\mips\svcctrl.obj \
+    $(_OBJ_DIR)\mips\svcenum.obj \
+    $(_OBJ_DIR)\mips\svcgtinf.obj \
+    $(_OBJ_DIR)\mips\svcinst.obj \
+    $(_OBJ_DIR)\mips\tod.obj \
+    $(_OBJ_DIR)\mips\use.obj \
+    $(_OBJ_DIR)\mips\wksequiv.obj \
+    $(_OBJ_DIR)\mips\wksgtinf.obj \
+    $(_OBJ_DIR)\mips\wksgtold.obj \
+    $(_OBJ_DIR)\mips\wksstinf.obj \
+    $(_OBJ_DIR)\mips\wksuser.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\audarray.obj \
+    $(_OBJ_DIR)\i386\audclear.obj \
+    $(_OBJ_DIR)\i386\audcpvar.obj \
+    $(_OBJ_DIR)\i386\audread.obj \
+    $(_OBJ_DIR)\i386\confenum.obj \
+    $(_OBJ_DIR)\i386\confget.obj \
+    $(_OBJ_DIR)\i386\confset.obj \
+    $(_OBJ_DIR)\i386\conn.obj \
+    $(_OBJ_DIR)\i386\diskenum.obj \
+    $(_OBJ_DIR)\i386\domain.obj \
+    $(_OBJ_DIR)\i386\errclear.obj \
+    $(_OBJ_DIR)\i386\errconv.obj \
+    $(_OBJ_DIR)\i386\errread.obj \
+    $(_OBJ_DIR)\i386\fileenum.obj \
+    $(_OBJ_DIR)\i386\filclose.obj \
+    $(_OBJ_DIR)\i386\filgtinf.obj \
+    $(_OBJ_DIR)\i386\prtdest.obj \
+    $(_OBJ_DIR)\i386\prtjob.obj \
+    $(_OBJ_DIR)\i386\prtq.obj \
+    $(_OBJ_DIR)\i386\rxaccess.obj \
+    $(_OBJ_DIR)\i386\rxcanon.obj \
+    $(_OBJ_DIR)\i386\rxchdev.obj \
+    $(_OBJ_DIR)\i386\rxgroup.obj \
+    $(_OBJ_DIR)\i386\rxlgenum.obj \
+    $(_OBJ_DIR)\i386\rxmsg.obj \
+    $(_OBJ_DIR)\i386\rxshare.obj \
+    $(_OBJ_DIR)\i386\rxstats.obj \
+    $(_OBJ_DIR)\i386\rxuser.obj \
+    $(_OBJ_DIR)\i386\sessconv.obj \
+    $(_OBJ_DIR)\i386\sesscopy.obj \
+    $(_OBJ_DIR)\i386\sessdel.obj \
+    $(_OBJ_DIR)\i386\sessenum.obj \
+    $(_OBJ_DIR)\i386\sessget.obj \
+    $(_OBJ_DIR)\i386\sessmtch.obj \
+    $(_OBJ_DIR)\i386\srvenum.obj \
+    $(_OBJ_DIR)\i386\srvequiv.obj \
+    $(_OBJ_DIR)\i386\srvgtinf.obj \
+    $(_OBJ_DIR)\i386\srvstinf.obj \
+    $(_OBJ_DIR)\i386\svcctrl.obj \
+    $(_OBJ_DIR)\i386\svcenum.obj \
+    $(_OBJ_DIR)\i386\svcgtinf.obj \
+    $(_OBJ_DIR)\i386\svcinst.obj \
+    $(_OBJ_DIR)\i386\tod.obj \
+    $(_OBJ_DIR)\i386\use.obj \
+    $(_OBJ_DIR)\i386\wksequiv.obj \
+    $(_OBJ_DIR)\i386\wksgtinf.obj \
+    $(_OBJ_DIR)\i386\wksgtold.obj \
+    $(_OBJ_DIR)\i386\wksstinf.obj \
+    $(_OBJ_DIR)\i386\wksuser.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\audarray.obj \
+    $(_OBJ_DIR)\ppc\audclear.obj \
+    $(_OBJ_DIR)\ppc\audcpvar.obj \
+    $(_OBJ_DIR)\ppc\audread.obj \
+    $(_OBJ_DIR)\ppc\confenum.obj \
+    $(_OBJ_DIR)\ppc\confget.obj \
+    $(_OBJ_DIR)\ppc\confset.obj \
+    $(_OBJ_DIR)\ppc\conn.obj \
+    $(_OBJ_DIR)\ppc\diskenum.obj \
+    $(_OBJ_DIR)\ppc\domain.obj \
+    $(_OBJ_DIR)\ppc\errclear.obj \
+    $(_OBJ_DIR)\ppc\errconv.obj \
+    $(_OBJ_DIR)\ppc\errread.obj \
+    $(_OBJ_DIR)\ppc\fileenum.obj \
+    $(_OBJ_DIR)\ppc\filclose.obj \
+    $(_OBJ_DIR)\ppc\filgtinf.obj \
+    $(_OBJ_DIR)\ppc\prtdest.obj \
+    $(_OBJ_DIR)\ppc\prtjob.obj \
+    $(_OBJ_DIR)\ppc\prtq.obj \
+    $(_OBJ_DIR)\ppc\rxaccess.obj \
+    $(_OBJ_DIR)\ppc\rxcanon.obj \
+    $(_OBJ_DIR)\ppc\rxchdev.obj \
+    $(_OBJ_DIR)\ppc\rxgroup.obj \
+    $(_OBJ_DIR)\ppc\rxlgenum.obj \
+    $(_OBJ_DIR)\ppc\rxmsg.obj \
+    $(_OBJ_DIR)\ppc\rxshare.obj \
+    $(_OBJ_DIR)\ppc\rxstats.obj \
+    $(_OBJ_DIR)\ppc\rxuser.obj \
+    $(_OBJ_DIR)\ppc\sessconv.obj \
+    $(_OBJ_DIR)\ppc\sesscopy.obj \
+    $(_OBJ_DIR)\ppc\sessdel.obj \
+    $(_OBJ_DIR)\ppc\sessenum.obj \
+    $(_OBJ_DIR)\ppc\sessget.obj \
+    $(_OBJ_DIR)\ppc\sessmtch.obj \
+    $(_OBJ_DIR)\ppc\srvenum.obj \
+    $(_OBJ_DIR)\ppc\srvequiv.obj \
+    $(_OBJ_DIR)\ppc\srvgtinf.obj \
+    $(_OBJ_DIR)\ppc\srvstinf.obj \
+    $(_OBJ_DIR)\ppc\svcctrl.obj \
+    $(_OBJ_DIR)\ppc\svcenum.obj \
+    $(_OBJ_DIR)\ppc\svcgtinf.obj \
+    $(_OBJ_DIR)\ppc\svcinst.obj \
+    $(_OBJ_DIR)\ppc\tod.obj \
+    $(_OBJ_DIR)\ppc\use.obj \
+    $(_OBJ_DIR)\ppc\wksequiv.obj \
+    $(_OBJ_DIR)\ppc\wksgtinf.obj \
+    $(_OBJ_DIR)\ppc\wksgtold.obj \
+    $(_OBJ_DIR)\ppc\wksstinf.obj \
+    $(_OBJ_DIR)\ppc\wksuser.obj
+
+PASS0_PPC_OBJECTS=
+

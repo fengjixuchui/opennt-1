@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\srvstub.obj \
+    $(_OBJ_DIR)\alpha\srvbind.obj \
+    $(_OBJ_DIR)\alpha\adtwrap.obj \
+    $(_OBJ_DIR)\alpha\dfsstub.obj \
+    $(_OBJ_DIR)\alpha\srvsvc_c.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\srvstub.obj \
+    $(_OBJ_DIR)\mips\srvbind.obj \
+    $(_OBJ_DIR)\mips\adtwrap.obj \
+    $(_OBJ_DIR)\mips\dfsstub.obj \
+    $(_OBJ_DIR)\mips\srvsvc_c.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\srvstub.obj \
+    $(_OBJ_DIR)\i386\srvbind.obj \
+    $(_OBJ_DIR)\i386\adtwrap.obj \
+    $(_OBJ_DIR)\i386\dfsstub.obj \
+    $(_OBJ_DIR)\i386\srvsvc_c.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\srvstub.obj \
+    $(_OBJ_DIR)\ppc\srvbind.obj \
+    $(_OBJ_DIR)\ppc\adtwrap.obj \
+    $(_OBJ_DIR)\ppc\dfsstub.obj \
+    $(_OBJ_DIR)\ppc\srvsvc_c.obj
+
+PASS0_PPC_OBJECTS=
+

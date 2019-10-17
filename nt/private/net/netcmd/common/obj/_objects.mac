@@ -1,0 +1,120 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\lui.obj \
+    $(_OBJ_DIR)\alpha\luiint.obj \
+    $(_OBJ_DIR)\alpha\luidate.obj \
+    $(_OBJ_DIR)\alpha\map32.obj \
+    $(_OBJ_DIR)\alpha\mbcs.obj \
+    $(_OBJ_DIR)\alpha\pword.obj \
+    $(_OBJ_DIR)\alpha\msystem.obj \
+    $(_OBJ_DIR)\alpha\stristr.obj \
+    $(_OBJ_DIR)\alpha\muser.obj \
+    $(_OBJ_DIR)\alpha\mwksta.obj \
+    $(_OBJ_DIR)\alpha\muse.obj \
+    $(_OBJ_DIR)\alpha\mshare.obj \
+    $(_OBJ_DIR)\alpha\mserver.obj \
+    $(_OBJ_DIR)\alpha\message.obj \
+    $(_OBJ_DIR)\alpha\grammar.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\switches.obj \
+    $(_OBJ_DIR)\alpha\interpre.obj \
+    $(_OBJ_DIR)\alpha\nettext.obj \
+    $(_OBJ_DIR)\alpha\lexor.obj \
+    $(_OBJ_DIR)\alpha\argvw.obj \
+    $(_OBJ_DIR)\alpha\help.obj \
+    $(_OBJ_DIR)\alpha\swtchtbl.obj \
+    $(_OBJ_DIR)\alpha\fgetsw.obj \
+    $(_OBJ_DIR)\alpha\mutil.obj \
+    $(_OBJ_DIR)\alpha\micanon.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\lui.obj \
+    $(_OBJ_DIR)\mips\luiint.obj \
+    $(_OBJ_DIR)\mips\luidate.obj \
+    $(_OBJ_DIR)\mips\map32.obj \
+    $(_OBJ_DIR)\mips\mbcs.obj \
+    $(_OBJ_DIR)\mips\pword.obj \
+    $(_OBJ_DIR)\mips\msystem.obj \
+    $(_OBJ_DIR)\mips\stristr.obj \
+    $(_OBJ_DIR)\mips\muser.obj \
+    $(_OBJ_DIR)\mips\mwksta.obj \
+    $(_OBJ_DIR)\mips\muse.obj \
+    $(_OBJ_DIR)\mips\mshare.obj \
+    $(_OBJ_DIR)\mips\mserver.obj \
+    $(_OBJ_DIR)\mips\message.obj \
+    $(_OBJ_DIR)\mips\grammar.obj \
+    $(_OBJ_DIR)\mips\misc.obj \
+    $(_OBJ_DIR)\mips\switches.obj \
+    $(_OBJ_DIR)\mips\interpre.obj \
+    $(_OBJ_DIR)\mips\nettext.obj \
+    $(_OBJ_DIR)\mips\lexor.obj \
+    $(_OBJ_DIR)\mips\argvw.obj \
+    $(_OBJ_DIR)\mips\help.obj \
+    $(_OBJ_DIR)\mips\swtchtbl.obj \
+    $(_OBJ_DIR)\mips\fgetsw.obj \
+    $(_OBJ_DIR)\mips\mutil.obj \
+    $(_OBJ_DIR)\mips\micanon.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\lui.obj \
+    $(_OBJ_DIR)\i386\luiint.obj \
+    $(_OBJ_DIR)\i386\luidate.obj \
+    $(_OBJ_DIR)\i386\map32.obj \
+    $(_OBJ_DIR)\i386\mbcs.obj \
+    $(_OBJ_DIR)\i386\pword.obj \
+    $(_OBJ_DIR)\i386\msystem.obj \
+    $(_OBJ_DIR)\i386\stristr.obj \
+    $(_OBJ_DIR)\i386\muser.obj \
+    $(_OBJ_DIR)\i386\mwksta.obj \
+    $(_OBJ_DIR)\i386\muse.obj \
+    $(_OBJ_DIR)\i386\mshare.obj \
+    $(_OBJ_DIR)\i386\mserver.obj \
+    $(_OBJ_DIR)\i386\message.obj \
+    $(_OBJ_DIR)\i386\grammar.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\switches.obj \
+    $(_OBJ_DIR)\i386\interpre.obj \
+    $(_OBJ_DIR)\i386\nettext.obj \
+    $(_OBJ_DIR)\i386\lexor.obj \
+    $(_OBJ_DIR)\i386\argvw.obj \
+    $(_OBJ_DIR)\i386\help.obj \
+    $(_OBJ_DIR)\i386\swtchtbl.obj \
+    $(_OBJ_DIR)\i386\fgetsw.obj \
+    $(_OBJ_DIR)\i386\mutil.obj \
+    $(_OBJ_DIR)\i386\micanon.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\lui.obj \
+    $(_OBJ_DIR)\ppc\luiint.obj \
+    $(_OBJ_DIR)\ppc\luidate.obj \
+    $(_OBJ_DIR)\ppc\map32.obj \
+    $(_OBJ_DIR)\ppc\mbcs.obj \
+    $(_OBJ_DIR)\ppc\pword.obj \
+    $(_OBJ_DIR)\ppc\msystem.obj \
+    $(_OBJ_DIR)\ppc\stristr.obj \
+    $(_OBJ_DIR)\ppc\muser.obj \
+    $(_OBJ_DIR)\ppc\mwksta.obj \
+    $(_OBJ_DIR)\ppc\muse.obj \
+    $(_OBJ_DIR)\ppc\mshare.obj \
+    $(_OBJ_DIR)\ppc\mserver.obj \
+    $(_OBJ_DIR)\ppc\message.obj \
+    $(_OBJ_DIR)\ppc\grammar.obj \
+    $(_OBJ_DIR)\ppc\misc.obj \
+    $(_OBJ_DIR)\ppc\switches.obj \
+    $(_OBJ_DIR)\ppc\interpre.obj \
+    $(_OBJ_DIR)\ppc\nettext.obj \
+    $(_OBJ_DIR)\ppc\lexor.obj \
+    $(_OBJ_DIR)\ppc\argvw.obj \
+    $(_OBJ_DIR)\ppc\help.obj \
+    $(_OBJ_DIR)\ppc\swtchtbl.obj \
+    $(_OBJ_DIR)\ppc\fgetsw.obj \
+    $(_OBJ_DIR)\ppc\mutil.obj \
+    $(_OBJ_DIR)\ppc\micanon.obj
+
+PASS0_PPC_OBJECTS=
+

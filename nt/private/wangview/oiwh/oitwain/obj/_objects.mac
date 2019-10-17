@@ -1,0 +1,84 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\oitwa400.res \
+    $(_OBJ_DIR)\alpha\close.obj \
+    $(_OBJ_DIR)\alpha\control.obj \
+    $(_OBJ_DIR)\alpha\dcd_com.obj \
+    $(_OBJ_DIR)\alpha\enable.obj \
+    $(_OBJ_DIR)\alpha\error.obj \
+    $(_OBJ_DIR)\alpha\getcaps.obj \
+    $(_OBJ_DIR)\alpha\memory.obj \
+    $(_OBJ_DIR)\alpha\native.obj \
+    $(_OBJ_DIR)\alpha\oitwa400.obj \
+    $(_OBJ_DIR)\alpha\open.obj \
+    $(_OBJ_DIR)\alpha\process.obj \
+    $(_OBJ_DIR)\alpha\select.obj \
+    $(_OBJ_DIR)\alpha\setcaps.obj \
+    $(_OBJ_DIR)\alpha\transfer.obj \
+    $(_OBJ_DIR)\alpha\savefile.obj \
+    $(_OBJ_DIR)\alpha\triplet.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\oitwa400.res \
+    $(_OBJ_DIR)\mips\close.obj \
+    $(_OBJ_DIR)\mips\control.obj \
+    $(_OBJ_DIR)\mips\dcd_com.obj \
+    $(_OBJ_DIR)\mips\enable.obj \
+    $(_OBJ_DIR)\mips\error.obj \
+    $(_OBJ_DIR)\mips\getcaps.obj \
+    $(_OBJ_DIR)\mips\memory.obj \
+    $(_OBJ_DIR)\mips\native.obj \
+    $(_OBJ_DIR)\mips\oitwa400.obj \
+    $(_OBJ_DIR)\mips\open.obj \
+    $(_OBJ_DIR)\mips\process.obj \
+    $(_OBJ_DIR)\mips\select.obj \
+    $(_OBJ_DIR)\mips\setcaps.obj \
+    $(_OBJ_DIR)\mips\transfer.obj \
+    $(_OBJ_DIR)\mips\savefile.obj \
+    $(_OBJ_DIR)\mips\triplet.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\oitwa400.res \
+    $(_OBJ_DIR)\i386\close.obj \
+    $(_OBJ_DIR)\i386\control.obj \
+    $(_OBJ_DIR)\i386\dcd_com.obj \
+    $(_OBJ_DIR)\i386\enable.obj \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\getcaps.obj \
+    $(_OBJ_DIR)\i386\memory.obj \
+    $(_OBJ_DIR)\i386\native.obj \
+    $(_OBJ_DIR)\i386\oitwa400.obj \
+    $(_OBJ_DIR)\i386\open.obj \
+    $(_OBJ_DIR)\i386\process.obj \
+    $(_OBJ_DIR)\i386\select.obj \
+    $(_OBJ_DIR)\i386\setcaps.obj \
+    $(_OBJ_DIR)\i386\transfer.obj \
+    $(_OBJ_DIR)\i386\savefile.obj \
+    $(_OBJ_DIR)\i386\triplet.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\oitwa400.res \
+    $(_OBJ_DIR)\ppc\close.obj \
+    $(_OBJ_DIR)\ppc\control.obj \
+    $(_OBJ_DIR)\ppc\dcd_com.obj \
+    $(_OBJ_DIR)\ppc\enable.obj \
+    $(_OBJ_DIR)\ppc\error.obj \
+    $(_OBJ_DIR)\ppc\getcaps.obj \
+    $(_OBJ_DIR)\ppc\memory.obj \
+    $(_OBJ_DIR)\ppc\native.obj \
+    $(_OBJ_DIR)\ppc\oitwa400.obj \
+    $(_OBJ_DIR)\ppc\open.obj \
+    $(_OBJ_DIR)\ppc\process.obj \
+    $(_OBJ_DIR)\ppc\select.obj \
+    $(_OBJ_DIR)\ppc\setcaps.obj \
+    $(_OBJ_DIR)\ppc\transfer.obj \
+    $(_OBJ_DIR)\ppc\savefile.obj \
+    $(_OBJ_DIR)\ppc\triplet.obj
+
+PASS0_PPC_OBJECTS=
+

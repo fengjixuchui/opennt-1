@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\inetcpl.res \
+    $(_OBJ_DIR)\alpha\dialdlg.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\clsutil.obj \
+    $(_OBJ_DIR)\alpha\strings.obj \
+    $(_OBJ_DIR)\alpha\context.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\inetcpl.res \
+    $(_OBJ_DIR)\mips\dialdlg.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\clsutil.obj \
+    $(_OBJ_DIR)\mips\strings.obj \
+    $(_OBJ_DIR)\mips\context.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\inetcpl.res \
+    $(_OBJ_DIR)\i386\dialdlg.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\clsutil.obj \
+    $(_OBJ_DIR)\i386\strings.obj \
+    $(_OBJ_DIR)\i386\context.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\inetcpl.res \
+    $(_OBJ_DIR)\ppc\dialdlg.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\clsutil.obj \
+    $(_OBJ_DIR)\ppc\strings.obj \
+    $(_OBJ_DIR)\ppc\context.obj
+
+PASS0_PPC_OBJECTS=
+

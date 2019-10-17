@@ -1,0 +1,64 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\xfilexr.res \
+    $(_OBJ_DIR)\alpha\xf_unpub.obj \
+    $(_OBJ_DIR)\alpha\xf_sys.obj \
+    $(_OBJ_DIR)\alpha\xf_write.obj \
+    $(_OBJ_DIR)\alpha\xf_read.obj \
+    $(_OBJ_DIR)\alpha\imageio.obj \
+    $(_OBJ_DIR)\alpha\tiff.obj \
+    $(_OBJ_DIR)\alpha\xf_tools.obj \
+    $(_OBJ_DIR)\alpha\xf_utils.obj \
+    $(_OBJ_DIR)\alpha\xif.obj \
+    $(_OBJ_DIR)\alpha\xf_merge.obj \
+    $(_OBJ_DIR)\alpha\xf_image.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\xfilexr.res \
+    $(_OBJ_DIR)\mips\xf_unpub.obj \
+    $(_OBJ_DIR)\mips\xf_sys.obj \
+    $(_OBJ_DIR)\mips\xf_write.obj \
+    $(_OBJ_DIR)\mips\xf_read.obj \
+    $(_OBJ_DIR)\mips\imageio.obj \
+    $(_OBJ_DIR)\mips\tiff.obj \
+    $(_OBJ_DIR)\mips\xf_tools.obj \
+    $(_OBJ_DIR)\mips\xf_utils.obj \
+    $(_OBJ_DIR)\mips\xif.obj \
+    $(_OBJ_DIR)\mips\xf_merge.obj \
+    $(_OBJ_DIR)\mips\xf_image.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\xfilexr.res \
+    $(_OBJ_DIR)\i386\xf_unpub.obj \
+    $(_OBJ_DIR)\i386\xf_sys.obj \
+    $(_OBJ_DIR)\i386\xf_write.obj \
+    $(_OBJ_DIR)\i386\xf_read.obj \
+    $(_OBJ_DIR)\i386\imageio.obj \
+    $(_OBJ_DIR)\i386\tiff.obj \
+    $(_OBJ_DIR)\i386\xf_tools.obj \
+    $(_OBJ_DIR)\i386\xf_utils.obj \
+    $(_OBJ_DIR)\i386\xif.obj \
+    $(_OBJ_DIR)\i386\xf_merge.obj \
+    $(_OBJ_DIR)\i386\xf_image.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\xfilexr.res \
+    $(_OBJ_DIR)\ppc\xf_unpub.obj \
+    $(_OBJ_DIR)\ppc\xf_sys.obj \
+    $(_OBJ_DIR)\ppc\xf_write.obj \
+    $(_OBJ_DIR)\ppc\xf_read.obj \
+    $(_OBJ_DIR)\ppc\imageio.obj \
+    $(_OBJ_DIR)\ppc\tiff.obj \
+    $(_OBJ_DIR)\ppc\xf_tools.obj \
+    $(_OBJ_DIR)\ppc\xf_utils.obj \
+    $(_OBJ_DIR)\ppc\xif.obj \
+    $(_OBJ_DIR)\ppc\xf_merge.obj \
+    $(_OBJ_DIR)\ppc\xf_image.obj
+
+PASS0_PPC_OBJECTS=
+

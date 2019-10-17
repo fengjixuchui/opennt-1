@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\crypt.obj \
+    $(_OBJ_DIR)\alpha\table.obj \
+    $(_OBJ_DIR)\alpha\ssl.obj \
+    $(_OBJ_DIR)\alpha\pkcs.obj \
+    $(_OBJ_DIR)\alpha\hash.obj \
+    $(_OBJ_DIR)\alpha\guts.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\crypt.obj \
+    $(_OBJ_DIR)\mips\table.obj \
+    $(_OBJ_DIR)\mips\ssl.obj \
+    $(_OBJ_DIR)\mips\pkcs.obj \
+    $(_OBJ_DIR)\mips\hash.obj \
+    $(_OBJ_DIR)\mips\guts.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\crypt.obj \
+    $(_OBJ_DIR)\i386\table.obj \
+    $(_OBJ_DIR)\i386\ssl.obj \
+    $(_OBJ_DIR)\i386\pkcs.obj \
+    $(_OBJ_DIR)\i386\hash.obj \
+    $(_OBJ_DIR)\i386\guts.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\crypt.obj \
+    $(_OBJ_DIR)\ppc\table.obj \
+    $(_OBJ_DIR)\ppc\ssl.obj \
+    $(_OBJ_DIR)\ppc\pkcs.obj \
+    $(_OBJ_DIR)\ppc\hash.obj \
+    $(_OBJ_DIR)\ppc\guts.obj
+
+PASS0_PPC_OBJECTS=
+

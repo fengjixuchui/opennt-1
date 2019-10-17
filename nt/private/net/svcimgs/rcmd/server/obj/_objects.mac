@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\rcmdsvc.res \
+    $(_OBJ_DIR)\alpha\rcmdsvc.obj \
+    $(_OBJ_DIR)\alpha\rcmdsrv.obj \
+    $(_OBJ_DIR)\alpha\pipe.obj \
+    $(_OBJ_DIR)\alpha\async.obj \
+    $(_OBJ_DIR)\alpha\session.obj \
+    $(_OBJ_DIR)\alpha\lsautil.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\rcmdsvc.res \
+    $(_OBJ_DIR)\mips\rcmdsvc.obj \
+    $(_OBJ_DIR)\mips\rcmdsrv.obj \
+    $(_OBJ_DIR)\mips\pipe.obj \
+    $(_OBJ_DIR)\mips\async.obj \
+    $(_OBJ_DIR)\mips\session.obj \
+    $(_OBJ_DIR)\mips\lsautil.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\rcmdsvc.res \
+    $(_OBJ_DIR)\i386\rcmdsvc.obj \
+    $(_OBJ_DIR)\i386\rcmdsrv.obj \
+    $(_OBJ_DIR)\i386\pipe.obj \
+    $(_OBJ_DIR)\i386\async.obj \
+    $(_OBJ_DIR)\i386\session.obj \
+    $(_OBJ_DIR)\i386\lsautil.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\rcmdsvc.res \
+    $(_OBJ_DIR)\ppc\rcmdsvc.obj \
+    $(_OBJ_DIR)\ppc\rcmdsrv.obj \
+    $(_OBJ_DIR)\ppc\pipe.obj \
+    $(_OBJ_DIR)\ppc\async.obj \
+    $(_OBJ_DIR)\ppc\session.obj \
+    $(_OBJ_DIR)\ppc\lsautil.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\package.obj \
+    $(_OBJ_DIR)\alpha\stubs.obj \
+    $(_OBJ_DIR)\alpha\userstub.obj \
+    $(_OBJ_DIR)\alpha\stubsa.obj \
+    $(_OBJ_DIR)\alpha\userstba.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\package.obj \
+    $(_OBJ_DIR)\mips\stubs.obj \
+    $(_OBJ_DIR)\mips\userstub.obj \
+    $(_OBJ_DIR)\mips\stubsa.obj \
+    $(_OBJ_DIR)\mips\userstba.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\package.obj \
+    $(_OBJ_DIR)\i386\stubs.obj \
+    $(_OBJ_DIR)\i386\userstub.obj \
+    $(_OBJ_DIR)\i386\stubsa.obj \
+    $(_OBJ_DIR)\i386\userstba.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\package.obj \
+    $(_OBJ_DIR)\ppc\stubs.obj \
+    $(_OBJ_DIR)\ppc\userstub.obj \
+    $(_OBJ_DIR)\ppc\stubsa.obj \
+    $(_OBJ_DIR)\ppc\userstba.obj
+
+PASS0_PPC_OBJECTS=
+

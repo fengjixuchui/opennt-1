@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\netcmd.res \
+    $(_OBJ_DIR)\alpha\main.obj \
+    $(_OBJ_DIR)\alpha\net.obj \
+    $(_OBJ_DIR)\alpha\os2cmd.obj \
+    $(_OBJ_DIR)\alpha\use.obj \
+    $(_OBJ_DIR)\alpha\view.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\netcmd.res \
+    $(_OBJ_DIR)\mips\main.obj \
+    $(_OBJ_DIR)\mips\net.obj \
+    $(_OBJ_DIR)\mips\os2cmd.obj \
+    $(_OBJ_DIR)\mips\use.obj \
+    $(_OBJ_DIR)\mips\view.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\netcmd.res \
+    $(_OBJ_DIR)\i386\main.obj \
+    $(_OBJ_DIR)\i386\net.obj \
+    $(_OBJ_DIR)\i386\os2cmd.obj \
+    $(_OBJ_DIR)\i386\use.obj \
+    $(_OBJ_DIR)\i386\view.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\netcmd.res \
+    $(_OBJ_DIR)\ppc\main.obj \
+    $(_OBJ_DIR)\ppc\net.obj \
+    $(_OBJ_DIR)\ppc\os2cmd.obj \
+    $(_OBJ_DIR)\ppc\use.obj \
+    $(_OBJ_DIR)\ppc\view.obj
+
+PASS0_PPC_OBJECTS=
+

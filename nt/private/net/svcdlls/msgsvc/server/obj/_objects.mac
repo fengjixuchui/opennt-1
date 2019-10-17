@@ -1,0 +1,100 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\msgsvc.res \
+    $(_OBJ_DIR)\alpha\apiutil.obj \
+    $(_OBJ_DIR)\alpha\data.obj \
+    $(_OBJ_DIR)\alpha\display.obj \
+    $(_OBJ_DIR)\alpha\fmtncbna.obj \
+    $(_OBJ_DIR)\alpha\grpmsngr.obj \
+    $(_OBJ_DIR)\alpha\heap.obj \
+    $(_OBJ_DIR)\alpha\msgapi.obj \
+    $(_OBJ_DIR)\alpha\meslog.obj \
+    $(_OBJ_DIR)\alpha\mesprint.obj \
+    $(_OBJ_DIR)\alpha\msginit.obj \
+    $(_OBJ_DIR)\alpha\msgmain.obj \
+    $(_OBJ_DIR)\alpha\msgnbios.obj \
+    $(_OBJ_DIR)\alpha\msgsec.obj \
+    $(_OBJ_DIR)\alpha\msgsvc_s.obj \
+    $(_OBJ_DIR)\alpha\servencb.obj \
+    $(_OBJ_DIR)\alpha\servenam.obj \
+    $(_OBJ_DIR)\alpha\sighandl.obj \
+    $(_OBJ_DIR)\alpha\smbcheck.obj \
+    $(_OBJ_DIR)\alpha\threads.obj \
+    $(_OBJ_DIR)\alpha\wakupsem.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\msgsvc.res \
+    $(_OBJ_DIR)\mips\apiutil.obj \
+    $(_OBJ_DIR)\mips\data.obj \
+    $(_OBJ_DIR)\mips\display.obj \
+    $(_OBJ_DIR)\mips\fmtncbna.obj \
+    $(_OBJ_DIR)\mips\grpmsngr.obj \
+    $(_OBJ_DIR)\mips\heap.obj \
+    $(_OBJ_DIR)\mips\msgapi.obj \
+    $(_OBJ_DIR)\mips\meslog.obj \
+    $(_OBJ_DIR)\mips\mesprint.obj \
+    $(_OBJ_DIR)\mips\msginit.obj \
+    $(_OBJ_DIR)\mips\msgmain.obj \
+    $(_OBJ_DIR)\mips\msgnbios.obj \
+    $(_OBJ_DIR)\mips\msgsec.obj \
+    $(_OBJ_DIR)\mips\msgsvc_s.obj \
+    $(_OBJ_DIR)\mips\servencb.obj \
+    $(_OBJ_DIR)\mips\servenam.obj \
+    $(_OBJ_DIR)\mips\sighandl.obj \
+    $(_OBJ_DIR)\mips\smbcheck.obj \
+    $(_OBJ_DIR)\mips\threads.obj \
+    $(_OBJ_DIR)\mips\wakupsem.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\msgsvc.res \
+    $(_OBJ_DIR)\i386\apiutil.obj \
+    $(_OBJ_DIR)\i386\data.obj \
+    $(_OBJ_DIR)\i386\display.obj \
+    $(_OBJ_DIR)\i386\fmtncbna.obj \
+    $(_OBJ_DIR)\i386\grpmsngr.obj \
+    $(_OBJ_DIR)\i386\heap.obj \
+    $(_OBJ_DIR)\i386\msgapi.obj \
+    $(_OBJ_DIR)\i386\meslog.obj \
+    $(_OBJ_DIR)\i386\mesprint.obj \
+    $(_OBJ_DIR)\i386\msginit.obj \
+    $(_OBJ_DIR)\i386\msgmain.obj \
+    $(_OBJ_DIR)\i386\msgnbios.obj \
+    $(_OBJ_DIR)\i386\msgsec.obj \
+    $(_OBJ_DIR)\i386\msgsvc_s.obj \
+    $(_OBJ_DIR)\i386\servencb.obj \
+    $(_OBJ_DIR)\i386\servenam.obj \
+    $(_OBJ_DIR)\i386\sighandl.obj \
+    $(_OBJ_DIR)\i386\smbcheck.obj \
+    $(_OBJ_DIR)\i386\threads.obj \
+    $(_OBJ_DIR)\i386\wakupsem.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\msgsvc.res \
+    $(_OBJ_DIR)\ppc\apiutil.obj \
+    $(_OBJ_DIR)\ppc\data.obj \
+    $(_OBJ_DIR)\ppc\display.obj \
+    $(_OBJ_DIR)\ppc\fmtncbna.obj \
+    $(_OBJ_DIR)\ppc\grpmsngr.obj \
+    $(_OBJ_DIR)\ppc\heap.obj \
+    $(_OBJ_DIR)\ppc\msgapi.obj \
+    $(_OBJ_DIR)\ppc\meslog.obj \
+    $(_OBJ_DIR)\ppc\mesprint.obj \
+    $(_OBJ_DIR)\ppc\msginit.obj \
+    $(_OBJ_DIR)\ppc\msgmain.obj \
+    $(_OBJ_DIR)\ppc\msgnbios.obj \
+    $(_OBJ_DIR)\ppc\msgsec.obj \
+    $(_OBJ_DIR)\ppc\msgsvc_s.obj \
+    $(_OBJ_DIR)\ppc\servencb.obj \
+    $(_OBJ_DIR)\ppc\servenam.obj \
+    $(_OBJ_DIR)\ppc\sighandl.obj \
+    $(_OBJ_DIR)\ppc\smbcheck.obj \
+    $(_OBJ_DIR)\ppc\threads.obj \
+    $(_OBJ_DIR)\ppc\wakupsem.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\dosspool.obj \
+    $(_OBJ_DIR)\alpha\dosprint.obj \
+    $(_OBJ_DIR)\alpha\dosprtp.obj \
+    $(_OBJ_DIR)\alpha\dosprtw.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\dosspool.obj \
+    $(_OBJ_DIR)\mips\dosprint.obj \
+    $(_OBJ_DIR)\mips\dosprtp.obj \
+    $(_OBJ_DIR)\mips\dosprtw.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dosspool.obj \
+    $(_OBJ_DIR)\i386\dosprint.obj \
+    $(_OBJ_DIR)\i386\dosprtp.obj \
+    $(_OBJ_DIR)\i386\dosprtw.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\dosspool.obj \
+    $(_OBJ_DIR)\ppc\dosprint.obj \
+    $(_OBJ_DIR)\ppc\dosprtp.obj \
+    $(_OBJ_DIR)\ppc\dosprtw.obj
+
+PASS0_PPC_OBJECTS=
+

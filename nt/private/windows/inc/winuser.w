@@ -4929,6 +4929,15 @@ GetWindowText%(
     HWND hWnd,
     LPTSTR% lpString,
     int nMaxCount);
+    
+WINUSERAPI
+UINT
+WINAPI
+GetWindowModuleFileName%(
+	HWND hWnd,
+	LPTSTR% lpString,
+	UINT cchFileNameMax);    
+
 
 WINUSERAPI
 int

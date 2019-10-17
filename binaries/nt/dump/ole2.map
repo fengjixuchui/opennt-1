@@ -799,117 +799,117 @@
 
   Address         Publics by Value
 
+ 0000:0000  Imp  GETDOSENVIRONMENT    (KERNEL.131)
  0000:0000  Imp  STRINGFROMCLSID      (COMPOBJ.19)
  0000:0000  Imp  ISVALIDIID           (COMPOBJ.24)
  0000:0000  Imp  EXTRACTICON          (SHELL.34)
- 0000:0000  Imp  WAITEVENT            (KERNEL.30)
- 0000:0000  Imp  OPENFILE             (KERNEL.74)
+ 0000:0000  Imp  COISOLE1CLASS        (COMPOBJ.36)
  0000:0000  Imp  CREATEMETAFILE       (GDI.125)
+ 0000:0000  Imp  _wsprintf            (USER.420)
  0000:0000  Imp  COINITIALIZE         (COMPOBJ.2)
  0000:0000  Imp  RELEASEDC            (USER.68)
- 0000:0000  Imp  LSTRCAT              (KERNEL.89)
- 0000:0000  Imp  _wsprintf            (USER.420)
+ 0000:0000  Imp  CREATEPALETTE        (GDI.360)
  0000:0000  Imp  GLOBALFREE           (KERNEL.17)
  0000:0000  Imp  REGISTERWINDOWMESSAGE (USER.118)
  0000:0000  Imp  SETWINDOWORGEX       (GDI.482)
- 0000:0000  Imp  ANSIPREV             (USER.473)
+ 0000:0000  Imp  LSTRCPYN             (KERNEL.353)
  0000:0000  Imp  REGQUERYVALUE        (SHELL.6)
- 0000:0000  Imp  GETMODULEFILENAME    (KERNEL.49)
+ 0000:0000  Imp  ANSIPREV             (USER.473)
  0000:0000  Imp  SETETASK             (COMPOBJ.95)
- 0000:0000  Imp  PROGIDFROMCLSID      (COMPOBJ.62)
+ 0000:0000  Imp  GETMODULEFILENAME    (KERNEL.49)
  0000:0000  Imp  COUNINITIALIZE       (COMPOBJ.3)
- 0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
+ 0000:0000  Imp  PROGIDFROMCLSID      (COMPOBJ.62)
+ 0000:0000  Imp  LSTRCAT              (KERNEL.89)
  0000:0000  Imp  GETBITMAPBITS        (GDI.74)
  0000:0000  Imp  _IID_ILockBytes      (COMPOBJ.48)
  0000:0000  Imp  _IID_IUnknown        (COMPOBJ.38)
  0000:0000  Imp  GETPROFILESTRING     (KERNEL.58)
- 0000:0000  Imp  GETSTOCKOBJECT       (GDI.87)
- 0000:0000  Imp  SETBITMAPDIMENSIONEX (GDI.478)
+ 0000:0000  Imp  WAITEVENT            (KERNEL.30)
  0000:0000  Imp  FATALEXIT            (KERNEL.1)
- 0000:0000  Imp  MESSAGEBOX           (USER.1)
+ 0000:0000  Imp  SETBITMAPDIMENSIONEX (GDI.478)
  0000:0000  Imp  DELETEMETAFILE       (GDI.127)
- 0000:0000  Imp  GETBITMAPDIMENSIONEX (GDI.468)
+ 0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
  0000:0000  Imp  DESTROYICON          (USER.457)
  0000:0000  Imp  SETBITMAPBITS        (GDI.106)
  0000:0000  Imp  DOS3CALL             (KERNEL.102)
+ 0000:0000  Imp  GETBITMAPDIMENSIONEX (GDI.468)
  0000:0000  Imp  ISBADREADPTR         (KERNEL.334)
  0000:0000  Imp  GLOBALHANDLE         (KERNEL.21)
  0000:0000  Imp  CREATEBITMAP         (GDI.48)
  0000:0000  Imp  LOCKRESOURCE         (KERNEL.62)
  0000:0000  Imp  REGCLOSEKEY          (SHELL.3)
  0000:0000  Imp  DRAWICON             (USER.84)
- 0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
  0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 0000:0000  Imp  INITAPP              (USER.5)
  0000:0000  Imp  ISBADWRITEPTR        (KERNEL.335)
  0000:0000  Imp  GETSYSTEMMETRICS     (USER.179)
  0000:0000  Imp  REGISTERCLASS        (USER.57)
  0000:0000  Imp  GLOBALSIZE           (KERNEL.20)
  0000:0000  Imp  CREATEWINDOW         (USER.41)
  0000:0000  Imp  LOADICON             (USER.174)
- 0000:0000  Imp  CREATEFONT           (GDI.56)
- 0000:0000  Imp  INITAPP              (USER.5)
- 0000:0000  Imp  MULDIV               (GDI.128)
- 0000:0000  Imp  GETPALETTEENTRIES    (GDI.363)
- 0000:0000  Imp  GETDOSENVIRONMENT    (KERNEL.131)
- 0000:0000  Imp  GETPROCADDRESS32W    (KERNEL.GETPROCADDRESS32W)
- 0000:0000  Imp  CREATEPALETTE        (GDI.360)
- 0000:0000  Imp  EXTTEXTOUT           (GDI.351)
- 0000:0000  Imp  COISOLE1CLASS        (COMPOBJ.36)
- 0000:0000  Imp  SETBKMODE            (GDI.2)
- 0000:0000  Imp  SETTEXTCOLOR         (GDI.9)
- 0000:0000  Imp  HMEMCPY              (KERNEL.348)
- 0000:0000  Imp  LSTRCPYN             (KERNEL.353)
- 0000:0000  Imp  COBUILDVERSION       (COMPOBJ.1)
- 0000:0000  Imp  _IID_IStream         (COMPOBJ.50)
- 0000:0000  Imp  DEFWINDOWPROC        (USER.107)
- 0000:0000  Imp  SENDMESSAGE          (USER.111)
- 0000:0000  Imp  GLOBALREALLOC        (KERNEL.16)
- 0000:0000  Imp  GETDC                (USER.66)
- 0000:0000  Imp  CALLPROC32W          (KERNEL.CALLPROC32W)
- 0000:0000  Abs  __wiobused
- 0000:0000  Imp  ISVALIDINTERFACE     (COMPOBJ.23)
- 0000:0000  Imp  GETKEYSTATE          (USER.106)
- 0000:0000  Imp  _IID_IMarshal        (COMPOBJ.41)
- 0000:0000  Imp  COGETMALLOC          (COMPOBJ.4)
- 0000:0000  Imp  REGOPENKEY           (SHELL.1)
- 0000:0000  Imp  GETOBJECT            (GDI.82)
- 0000:0000  Imp  ADDAPPCOMPATFLAG     (COMPOBJ.207)
  0000:0000  Imp  GETSYSCOLOR          (USER.180)
+ 0000:0000  Imp  MULDIV               (GDI.128)
+ 0000:0000  Imp  CREATEFONT           (GDI.56)
+ 0000:0000  Imp  GETPALETTEENTRIES    (GDI.363)
+ 0000:0000  Imp  GETPROCADDRESS32W    (KERNEL.GETPROCADDRESS32W)
+ 0000:0000  Imp  MESSAGEBOX           (USER.1)
+ 0000:0000  Imp  EXTTEXTOUT           (GDI.351)
+ 0000:0000  Imp  GETTEXTEXTENTPOINT   (GDI.471)
+ 0000:0000  Imp  SETBKMODE            (GDI.2)
+ 0000:0000  Imp  GETDEVICECAPS        (GDI.80)
+ 0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
+ 0000:0000  Imp  LSTRLEN              (KERNEL.90)
+ 0000:0000  Imp  COBUILDVERSION       (COMPOBJ.1)
+ 0000:0000  Imp  GETSTOCKOBJECT       (GDI.87)
+ 0000:0000  Imp  HMEMCPY              (KERNEL.348)
+ 0000:0000  Imp  SENDMESSAGE          (USER.111)
+ 0000:0000  Imp  DEFWINDOWPROC        (USER.107)
+ 0000:0000  Imp  SETTEXTCOLOR         (GDI.9)
+ 0000:0000  Imp  GETDC                (USER.66)
+ 0000:0000  Imp  OPENFILE             (KERNEL.74)
+ 0000:0000  Abs  __wiobused
+ 0000:0000  Imp  GETKEYSTATE          (USER.106)
+ 0000:0000  Imp  ISVALIDINTERFACE     (COMPOBJ.23)
+ 0000:0000  Imp  _IID_IMarshal        (COMPOBJ.41)
+ 0000:0000  Imp  REGOPENKEY           (SHELL.1)
+ 0000:0000  Imp  COGETMALLOC          (COMPOBJ.4)
+ 0000:0000  Imp  ADDAPPCOMPATFLAG     (COMPOBJ.207)
+ 0000:0000  Imp  GETOBJECT            (GDI.82)
  0000:0000  Imp  CALLOBJECTINWOW      (COMPOBJ.201)
+ 0000:0000  Imp  DELETEOBJECT         (GDI.69)
  0000:0000  Imp  COPYMETAFILE         (GDI.151)
  0000:0000  Imp  __AHSHIFT            (KERNEL.113)
- 0000:0000  Imp  GETTEXTEXTENTPOINT   (GDI.471)
+ 0000:0000  Imp  GLOBALREALLOC        (KERNEL.16)
+ 0000:0000  Imp  LSTRCPY              (KERNEL.88)
+ 0000:0000  Imp  _GUID_NULL           (COMPOBJ.37)
  0000:0000  Imp  SETRECTEMPTY         (USER.73)
- 0000:0000  Imp  DELETEOBJECT         (GDI.69)
- 0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
- 0000:0000  Imp  LOOKUPETASK          (COMPOBJ.94)
+ 0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
  0000:0000  Imp  SELECTOBJECT         (GDI.45)
- 0000:0000  Imp  GETVDMPOINTER32W     (KERNEL.GETVDMPOINTER32W)
- 0000:0000  Imp  GETDEVICECAPS        (GDI.80)
+ 0000:0000  Imp  GETCURRENTTASK       (KERNEL.36)
+ 0000:0000  Imp  CALLPROC32W          (KERNEL.CALLPROC32W)
  0000:0000  Imp  FREELIBRARY32W       (KERNEL.FREELIBRARY32W)
  0000:0000  Imp  GLOBALUNLOCK         (KERNEL.19)
- 0000:0000  Imp  FATALAPPEXIT         (KERNEL.137)
- 0000:0000  Imp  LSTRLEN              (KERNEL.90)
- 0000:0000  Imp  _GUID_NULL           (COMPOBJ.37)
+ 0000:0000  Imp  GETVDMPOINTER32W     (KERNEL.GETVDMPOINTER32W)
  0000:0000  Imp  CLOSEMETAFILE        (GDI.126)
- 0000:0000  Imp  INITTASK             (KERNEL.91)
+ 0000:0000  Imp  _IID_IStream         (COMPOBJ.50)
  0000:0000  Imp  ESCAPE               (GDI.38)
- 0000:0000  Imp  SETWINDOWEXTEX       (GDI.481)
- 0000:0000  Imp  GLOBALLOCK           (KERNEL.18)
- 0000:0000  Imp  LOADLIBRARYEX32W     (KERNEL.LOADLIBRARYEX32W)
  0000:0000  Imp  GETVERSION           (KERNEL.3)
- 0000:0000  Imp  GETCURRENTTASK       (KERNEL.36)
- 0000:0000  Imp  LSTRCPY              (KERNEL.88)
- 0000:0001  Abs  __sizec
+ 0000:0000  Imp  INITTASK             (KERNEL.91)
+ 0000:0000  Imp  FATALAPPEXIT         (KERNEL.137)
+ 0000:0000  Imp  LOADLIBRARYEX32W     (KERNEL.LOADLIBRARYEX32W)
+ 0000:0000  Imp  LOOKUPETASK          (COMPOBJ.94)
+ 0000:0000  Imp  GLOBALLOCK           (KERNEL.18)
+ 0000:0000  Imp  SETWINDOWEXTEX       (GDI.481)
  0000:0001  Abs  __sized
+ 0000:0001  Abs  __sizec
  0000:0006  Abs  pLocalHeap
  0000:0008  Abs  pAtomTable
  0000:000A  Abs  pStackTop
  0000:000C  Abs  pStackMin
  0000:000E  Abs  pStackBot
  0000:9876  Abs  __acrtmsg
- 0000:9876  Abs  __fptaskdata
  0000:9876  Abs  __acrtused
+ 0000:9876  Abs  __fptaskdata
  0000:D6D6  Abs  __aDBdoswp
  0000:D6D6  Abs  __aDBused
  0001:0000       OLECREATEMENUDESCRIPTOR
@@ -1169,19 +1169,19 @@
  0002:001A       __astart
  0002:00D1       __nomain
  0002:00D8       __aNchkstk
- 0002:00F8       __chkstk
  0002:00F8       __aFchkstk
+ 0002:00F8       __chkstk
  0002:0132       ??3@ZAXPEX@Z
  0002:0144       ??2@ZAPEXI@Z
  0002:0154       _atoi
  0002:0158       _strcspn
  0002:01B4       _strtoul
  0002:01C0       _strtol
- 0002:02F2       __purecall
  0002:02F2       __npurecall
+ 0002:02F2       __purecall
  0002:02F2       __fpurecall
- 0002:02F8       __aFulmul
  0002:02F8       __aFlmul
+ 0002:02F8       __aFulmul
  0002:032A       __stubmain
  0002:0356       __cinit
  0002:0439       _exit
@@ -1198,38 +1198,38 @@
  0002:07F8       __ffree
  0002:0819       __fmalloc
  0002:08C0       __catox
- 0002:0916       __wcexit
  0002:0916       __wcinit
+ 0002:0916       __wcexit
  0002:091B       __wsetfocus
- 0002:091B       __QWINMenuClick
- 0002:091B       __QWINSetSize
- 0002:091B       __wwrite
- 0002:091B       __wsetscreenbuf
- 0002:091B       __wgetfocus
- 0002:091B       __QWINInit
- 0002:091B       __QWINYield
- 0002:091B       __QWINGetBuffSize
- 0002:091B       __QWINClose
- 0002:091B       __QWINTerm
- 0002:091B       __QWINSetAboutString
- 0002:091B       __QWINIsQWINin
- 0002:091B       __wclose
- 0002:091B       __QWINExit
- 0002:091B       __wgetscreenbuf
- 0002:091B       __wread
- 0002:091B       __wterm
- 0002:091B       __QWINSetBuffSize
- 0002:091B       __QWINGetSize
- 0002:091B       __wgetsize
- 0002:091B       __wopen
  0002:091B       __wmenuclick
+ 0002:091B       __QWINExit
+ 0002:091B       __wterm
+ 0002:091B       __wopen
+ 0002:091B       __wwrite
+ 0002:091B       __QWINSetSize
+ 0002:091B       __QWINYield
+ 0002:091B       __QWINMenuClick
+ 0002:091B       __QWINInit
+ 0002:091B       __wgetfocus
+ 0002:091B       __QWINSetAboutString
+ 0002:091B       __QWINClose
+ 0002:091B       __wsetscreenbuf
+ 0002:091B       __wclose
+ 0002:091B       __wgetscreenbuf
+ 0002:091B       __QWINTerm
+ 0002:091B       __wread
+ 0002:091B       __wgetsize
+ 0002:091B       __QWINWrite
+ 0002:091B       __QWINGetSize
+ 0002:091B       __QWINGetFocus
+ 0002:091B       __QWINGetBuffSize
  0002:091B       __wabout
+ 0002:091B       __QWINSetFocus
  0002:091B       __QWINOpen
+ 0002:091B       __QWINIsQWINin
  0002:091B       __QWINRead
  0002:091B       __wsetsize
- 0002:091B       __QWINGetFocus
- 0002:091B       __QWINSetFocus
- 0002:091B       __QWINWrite
+ 0002:091B       __QWINSetBuffSize
  0002:0922       __fptrap
  0002:0928       __NMSG_TEXT
  0002:095F       __NMSG_WRITE
@@ -1290,8 +1290,8 @@
  0004:05BC       ___aDBswpflg
  0004:05BE       ___aDBrterr
  0004:05C0       __aaltstkovr
- 0004:05C4       __ctype_
  0004:05C4       __ctype
+ 0004:05C4       __ctype_
  0004:06C6       __acfinfo
  0004:06D4       __aintdiv
  0004:06D8       __fac
@@ -1299,8 +1299,8 @@
  0004:06E4       __umaskval
  0004:06E6       __pspadr
  0004:06E8       __psp
- 0004:06EA       __winver
  0004:06EA       __winminor
+ 0004:06EA       __winver
  0004:06EB       __winmajor
  0004:06EC       __osver
  0004:06EC       __osminor
@@ -1331,8 +1331,8 @@
  0004:075A       ?Win4AssertLevel@@3KE
  0004:0798       _nullstring
  0004:07F8       __fpinit
- 0004:097E       __edata
  0004:097E       _edata
+ 0004:097E       __edata
  0004:099E       ?wSignature@@3GE
  0004:09A0       ?uOleMessage@@3IE
  0004:0A40       _lpThkCallOutputFunctionsProc

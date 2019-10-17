@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\nrwyad.res \
+    $(_OBJ_DIR)\alpha\helpwnd.obj \
+    $(_OBJ_DIR)\alpha\nrwyactl.obj \
+    $(_OBJ_DIR)\alpha\nrwyad.obj \
+    $(_OBJ_DIR)\alpha\nrwyappg.obj \
+    $(_OBJ_DIR)\alpha\ppgthree.obj \
+    $(_OBJ_DIR)\alpha\ppgtwo.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\nrwyad.res \
+    $(_OBJ_DIR)\mips\helpwnd.obj \
+    $(_OBJ_DIR)\mips\nrwyactl.obj \
+    $(_OBJ_DIR)\mips\nrwyad.obj \
+    $(_OBJ_DIR)\mips\nrwyappg.obj \
+    $(_OBJ_DIR)\mips\ppgthree.obj \
+    $(_OBJ_DIR)\mips\ppgtwo.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\nrwyad.res \
+    $(_OBJ_DIR)\i386\helpwnd.obj \
+    $(_OBJ_DIR)\i386\nrwyactl.obj \
+    $(_OBJ_DIR)\i386\nrwyad.obj \
+    $(_OBJ_DIR)\i386\nrwyappg.obj \
+    $(_OBJ_DIR)\i386\ppgthree.obj \
+    $(_OBJ_DIR)\i386\ppgtwo.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\nrwyad.res \
+    $(_OBJ_DIR)\ppc\helpwnd.obj \
+    $(_OBJ_DIR)\ppc\nrwyactl.obj \
+    $(_OBJ_DIR)\ppc\nrwyad.obj \
+    $(_OBJ_DIR)\ppc\nrwyappg.obj \
+    $(_OBJ_DIR)\ppc\ppgthree.obj \
+    $(_OBJ_DIR)\ppc\ppgtwo.obj
+
+PASS0_PPC_OBJECTS=
+

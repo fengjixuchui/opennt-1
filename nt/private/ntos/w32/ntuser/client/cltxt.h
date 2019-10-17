@@ -1237,3 +1237,4 @@ UINT WINAPI GetWindowModuleFileName(HWND hwnd,
 
 	return GetModuleFileName(Wnd->hModule, lpszFileName, cchFileNameMax);
 }
+

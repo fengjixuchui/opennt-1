@@ -1,27 +1,27 @@
 ALPHA_OBJECTS= \
     $(_OBJ_DIR)\alpha\cntroutl.res \
+    $(_OBJ_DIR)\alpha\cntrbase.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\heading.obj \
+    $(_OBJ_DIR)\alpha\oleapp.obj \
+    $(_OBJ_DIR)\alpha\oledoc.obj \
+    $(_OBJ_DIR)\alpha\outlline.obj \
+    $(_OBJ_DIR)\alpha\outllist.obj \
+    $(_OBJ_DIR)\alpha\outlntbl.obj \
+    $(_OBJ_DIR)\alpha\outltxtl.obj \
     $(_OBJ_DIR)\alpha\classfac.obj \
     $(_OBJ_DIR)\alpha\clipbrd.obj \
-    $(_OBJ_DIR)\alpha\cntrbase.obj \
     $(_OBJ_DIR)\alpha\cntrline.obj \
-    $(_OBJ_DIR)\alpha\debug.obj \
     $(_OBJ_DIR)\alpha\debug2.obj \
     $(_OBJ_DIR)\alpha\dialogs.obj \
     $(_OBJ_DIR)\alpha\dragdrop.obj \
     $(_OBJ_DIR)\alpha\frametls.obj \
-    $(_OBJ_DIR)\alpha\heading.obj \
     $(_OBJ_DIR)\alpha\linking.obj \
     $(_OBJ_DIR)\alpha\main.obj \
     $(_OBJ_DIR)\alpha\memmgr.obj \
-    $(_OBJ_DIR)\alpha\oleapp.obj \
-    $(_OBJ_DIR)\alpha\oledoc.obj \
     $(_OBJ_DIR)\alpha\outlapp.obj \
     $(_OBJ_DIR)\alpha\outldoc.obj \
-    $(_OBJ_DIR)\alpha\outlline.obj \
-    $(_OBJ_DIR)\alpha\outllist.obj \
     $(_OBJ_DIR)\alpha\outlname.obj \
-    $(_OBJ_DIR)\alpha\outlntbl.obj \
-    $(_OBJ_DIR)\alpha\outltxtl.obj \
     $(_OBJ_DIR)\alpha\status.obj \
     $(_OBJ_DIR)\alpha\tests.obj
 
@@ -29,28 +29,28 @@ PASS0_ALPHA_OBJECTS=
 
 MIPS_OBJECTS= \
     $(_OBJ_DIR)\mips\cntroutl.res \
+    $(_OBJ_DIR)\mips\cntrbase.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\heading.obj \
+    $(_OBJ_DIR)\mips\oleapp.obj \
+    $(_OBJ_DIR)\mips\oledoc.obj \
+    $(_OBJ_DIR)\mips\outlline.obj \
+    $(_OBJ_DIR)\mips\outllist.obj \
+    $(_OBJ_DIR)\mips\outlntbl.obj \
+    $(_OBJ_DIR)\mips\outltxtl.obj \
     $(_OBJ_DIR)\mips\classfac.obj \
     $(_OBJ_DIR)\mips\clipbrd.obj \
-    $(_OBJ_DIR)\mips\cntrbase.obj \
     $(_OBJ_DIR)\mips\cntrline.obj \
-    $(_OBJ_DIR)\mips\debug.obj \
     $(_OBJ_DIR)\mips\debug2.obj \
     $(_OBJ_DIR)\mips\dialogs.obj \
     $(_OBJ_DIR)\mips\dragdrop.obj \
     $(_OBJ_DIR)\mips\frametls.obj \
-    $(_OBJ_DIR)\mips\heading.obj \
     $(_OBJ_DIR)\mips\linking.obj \
     $(_OBJ_DIR)\mips\main.obj \
     $(_OBJ_DIR)\mips\memmgr.obj \
-    $(_OBJ_DIR)\mips\oleapp.obj \
-    $(_OBJ_DIR)\mips\oledoc.obj \
     $(_OBJ_DIR)\mips\outlapp.obj \
     $(_OBJ_DIR)\mips\outldoc.obj \
-    $(_OBJ_DIR)\mips\outlline.obj \
-    $(_OBJ_DIR)\mips\outllist.obj \
     $(_OBJ_DIR)\mips\outlname.obj \
-    $(_OBJ_DIR)\mips\outlntbl.obj \
-    $(_OBJ_DIR)\mips\outltxtl.obj \
     $(_OBJ_DIR)\mips\status.obj \
     $(_OBJ_DIR)\mips\tests.obj
 
@@ -58,28 +58,28 @@ PASS0_MIPS_OBJECTS=
 
 386_OBJECTS= \
     $(_OBJ_DIR)\i386\cntroutl.res \
+    $(_OBJ_DIR)\i386\cntrbase.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\heading.obj \
+    $(_OBJ_DIR)\i386\oleapp.obj \
+    $(_OBJ_DIR)\i386\oledoc.obj \
+    $(_OBJ_DIR)\i386\outlline.obj \
+    $(_OBJ_DIR)\i386\outllist.obj \
+    $(_OBJ_DIR)\i386\outlntbl.obj \
+    $(_OBJ_DIR)\i386\outltxtl.obj \
     $(_OBJ_DIR)\i386\classfac.obj \
     $(_OBJ_DIR)\i386\clipbrd.obj \
-    $(_OBJ_DIR)\i386\cntrbase.obj \
     $(_OBJ_DIR)\i386\cntrline.obj \
-    $(_OBJ_DIR)\i386\debug.obj \
     $(_OBJ_DIR)\i386\debug2.obj \
     $(_OBJ_DIR)\i386\dialogs.obj \
     $(_OBJ_DIR)\i386\dragdrop.obj \
     $(_OBJ_DIR)\i386\frametls.obj \
-    $(_OBJ_DIR)\i386\heading.obj \
     $(_OBJ_DIR)\i386\linking.obj \
     $(_OBJ_DIR)\i386\main.obj \
     $(_OBJ_DIR)\i386\memmgr.obj \
-    $(_OBJ_DIR)\i386\oleapp.obj \
-    $(_OBJ_DIR)\i386\oledoc.obj \
     $(_OBJ_DIR)\i386\outlapp.obj \
     $(_OBJ_DIR)\i386\outldoc.obj \
-    $(_OBJ_DIR)\i386\outlline.obj \
-    $(_OBJ_DIR)\i386\outllist.obj \
     $(_OBJ_DIR)\i386\outlname.obj \
-    $(_OBJ_DIR)\i386\outlntbl.obj \
-    $(_OBJ_DIR)\i386\outltxtl.obj \
     $(_OBJ_DIR)\i386\status.obj \
     $(_OBJ_DIR)\i386\tests.obj
 
@@ -87,28 +87,28 @@ PASS0_386_OBJECTS=
 
 PPC_OBJECTS= \
     $(_OBJ_DIR)\ppc\cntroutl.res \
+    $(_OBJ_DIR)\ppc\cntrbase.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\heading.obj \
+    $(_OBJ_DIR)\ppc\oleapp.obj \
+    $(_OBJ_DIR)\ppc\oledoc.obj \
+    $(_OBJ_DIR)\ppc\outlline.obj \
+    $(_OBJ_DIR)\ppc\outllist.obj \
+    $(_OBJ_DIR)\ppc\outlntbl.obj \
+    $(_OBJ_DIR)\ppc\outltxtl.obj \
     $(_OBJ_DIR)\ppc\classfac.obj \
     $(_OBJ_DIR)\ppc\clipbrd.obj \
-    $(_OBJ_DIR)\ppc\cntrbase.obj \
     $(_OBJ_DIR)\ppc\cntrline.obj \
-    $(_OBJ_DIR)\ppc\debug.obj \
     $(_OBJ_DIR)\ppc\debug2.obj \
     $(_OBJ_DIR)\ppc\dialogs.obj \
     $(_OBJ_DIR)\ppc\dragdrop.obj \
     $(_OBJ_DIR)\ppc\frametls.obj \
-    $(_OBJ_DIR)\ppc\heading.obj \
     $(_OBJ_DIR)\ppc\linking.obj \
     $(_OBJ_DIR)\ppc\main.obj \
     $(_OBJ_DIR)\ppc\memmgr.obj \
-    $(_OBJ_DIR)\ppc\oleapp.obj \
-    $(_OBJ_DIR)\ppc\oledoc.obj \
     $(_OBJ_DIR)\ppc\outlapp.obj \
     $(_OBJ_DIR)\ppc\outldoc.obj \
-    $(_OBJ_DIR)\ppc\outlline.obj \
-    $(_OBJ_DIR)\ppc\outllist.obj \
     $(_OBJ_DIR)\ppc\outlname.obj \
-    $(_OBJ_DIR)\ppc\outlntbl.obj \
-    $(_OBJ_DIR)\ppc\outltxtl.obj \
     $(_OBJ_DIR)\ppc\status.obj \
     $(_OBJ_DIR)\ppc\tests.obj
 

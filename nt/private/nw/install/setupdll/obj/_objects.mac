@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\nwcfg.res \
+    $(_OBJ_DIR)\alpha\removesz.obj \
+    $(_OBJ_DIR)\alpha\setvalue.obj \
+    $(_OBJ_DIR)\alpha\lodctr.obj \
+    $(_OBJ_DIR)\alpha\unlodctr.obj \
+    $(_OBJ_DIR)\alpha\dllinit.obj \
+    $(_OBJ_DIR)\alpha\nwcfg.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\nwcfg.res \
+    $(_OBJ_DIR)\mips\removesz.obj \
+    $(_OBJ_DIR)\mips\setvalue.obj \
+    $(_OBJ_DIR)\mips\lodctr.obj \
+    $(_OBJ_DIR)\mips\unlodctr.obj \
+    $(_OBJ_DIR)\mips\dllinit.obj \
+    $(_OBJ_DIR)\mips\nwcfg.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\nwcfg.res \
+    $(_OBJ_DIR)\i386\removesz.obj \
+    $(_OBJ_DIR)\i386\setvalue.obj \
+    $(_OBJ_DIR)\i386\lodctr.obj \
+    $(_OBJ_DIR)\i386\unlodctr.obj \
+    $(_OBJ_DIR)\i386\dllinit.obj \
+    $(_OBJ_DIR)\i386\nwcfg.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\nwcfg.res \
+    $(_OBJ_DIR)\ppc\removesz.obj \
+    $(_OBJ_DIR)\ppc\setvalue.obj \
+    $(_OBJ_DIR)\ppc\lodctr.obj \
+    $(_OBJ_DIR)\ppc\unlodctr.obj \
+    $(_OBJ_DIR)\ppc\dllinit.obj \
+    $(_OBJ_DIR)\ppc\nwcfg.obj
+
+PASS0_PPC_OBJECTS=
+

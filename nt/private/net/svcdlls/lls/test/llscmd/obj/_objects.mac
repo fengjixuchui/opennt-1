@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\llscmd.res \
+    $(_OBJ_DIR)\alpha\llscmd.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\llscmd.res \
+    $(_OBJ_DIR)\mips\llscmd.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\llscmd.res \
+    $(_OBJ_DIR)\i386\llscmd.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\llscmd.res \
+    $(_OBJ_DIR)\ppc\llscmd.obj
+
+PASS0_PPC_OBJECTS=
+

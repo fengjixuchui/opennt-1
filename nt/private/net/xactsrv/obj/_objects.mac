@@ -1,0 +1,116 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\xactsrv.res \
+    $(_OBJ_DIR)\alpha\apiacces.obj \
+    $(_OBJ_DIR)\alpha\apiacct.obj \
+    $(_OBJ_DIR)\alpha\apichdev.obj \
+    $(_OBJ_DIR)\alpha\apiconn.obj \
+    $(_OBJ_DIR)\alpha\apifile.obj \
+    $(_OBJ_DIR)\alpha\apigroup.obj \
+    $(_OBJ_DIR)\alpha\apilogon.obj \
+    $(_OBJ_DIR)\alpha\apimsg.obj \
+    $(_OBJ_DIR)\alpha\apipath.obj \
+    $(_OBJ_DIR)\alpha\apiprint.obj \
+    $(_OBJ_DIR)\alpha\apisess.obj \
+    $(_OBJ_DIR)\alpha\apishare.obj \
+    $(_OBJ_DIR)\alpha\apisrv.obj \
+    $(_OBJ_DIR)\alpha\apistats.obj \
+    $(_OBJ_DIR)\alpha\apistubs.obj \
+    $(_OBJ_DIR)\alpha\apisvc.obj \
+    $(_OBJ_DIR)\alpha\apitime.obj \
+    $(_OBJ_DIR)\alpha\apiuse.obj \
+    $(_OBJ_DIR)\alpha\apiuser.obj \
+    $(_OBJ_DIR)\alpha\apiwksta.obj \
+    $(_OBJ_DIR)\alpha\changepw.obj \
+    $(_OBJ_DIR)\alpha\xsdata.obj \
+    $(_OBJ_DIR)\alpha\xssubs.obj \
+    $(_OBJ_DIR)\alpha\xsunicod.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\xactsrv.res \
+    $(_OBJ_DIR)\mips\apiacces.obj \
+    $(_OBJ_DIR)\mips\apiacct.obj \
+    $(_OBJ_DIR)\mips\apichdev.obj \
+    $(_OBJ_DIR)\mips\apiconn.obj \
+    $(_OBJ_DIR)\mips\apifile.obj \
+    $(_OBJ_DIR)\mips\apigroup.obj \
+    $(_OBJ_DIR)\mips\apilogon.obj \
+    $(_OBJ_DIR)\mips\apimsg.obj \
+    $(_OBJ_DIR)\mips\apipath.obj \
+    $(_OBJ_DIR)\mips\apiprint.obj \
+    $(_OBJ_DIR)\mips\apisess.obj \
+    $(_OBJ_DIR)\mips\apishare.obj \
+    $(_OBJ_DIR)\mips\apisrv.obj \
+    $(_OBJ_DIR)\mips\apistats.obj \
+    $(_OBJ_DIR)\mips\apistubs.obj \
+    $(_OBJ_DIR)\mips\apisvc.obj \
+    $(_OBJ_DIR)\mips\apitime.obj \
+    $(_OBJ_DIR)\mips\apiuse.obj \
+    $(_OBJ_DIR)\mips\apiuser.obj \
+    $(_OBJ_DIR)\mips\apiwksta.obj \
+    $(_OBJ_DIR)\mips\changepw.obj \
+    $(_OBJ_DIR)\mips\xsdata.obj \
+    $(_OBJ_DIR)\mips\xssubs.obj \
+    $(_OBJ_DIR)\mips\xsunicod.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\xactsrv.res \
+    $(_OBJ_DIR)\i386\apiacces.obj \
+    $(_OBJ_DIR)\i386\apiacct.obj \
+    $(_OBJ_DIR)\i386\apichdev.obj \
+    $(_OBJ_DIR)\i386\apiconn.obj \
+    $(_OBJ_DIR)\i386\apifile.obj \
+    $(_OBJ_DIR)\i386\apigroup.obj \
+    $(_OBJ_DIR)\i386\apilogon.obj \
+    $(_OBJ_DIR)\i386\apimsg.obj \
+    $(_OBJ_DIR)\i386\apipath.obj \
+    $(_OBJ_DIR)\i386\apiprint.obj \
+    $(_OBJ_DIR)\i386\apisess.obj \
+    $(_OBJ_DIR)\i386\apishare.obj \
+    $(_OBJ_DIR)\i386\apisrv.obj \
+    $(_OBJ_DIR)\i386\apistats.obj \
+    $(_OBJ_DIR)\i386\apistubs.obj \
+    $(_OBJ_DIR)\i386\apisvc.obj \
+    $(_OBJ_DIR)\i386\apitime.obj \
+    $(_OBJ_DIR)\i386\apiuse.obj \
+    $(_OBJ_DIR)\i386\apiuser.obj \
+    $(_OBJ_DIR)\i386\apiwksta.obj \
+    $(_OBJ_DIR)\i386\changepw.obj \
+    $(_OBJ_DIR)\i386\xsdata.obj \
+    $(_OBJ_DIR)\i386\xssubs.obj \
+    $(_OBJ_DIR)\i386\xsunicod.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\xactsrv.res \
+    $(_OBJ_DIR)\ppc\apiacces.obj \
+    $(_OBJ_DIR)\ppc\apiacct.obj \
+    $(_OBJ_DIR)\ppc\apichdev.obj \
+    $(_OBJ_DIR)\ppc\apiconn.obj \
+    $(_OBJ_DIR)\ppc\apifile.obj \
+    $(_OBJ_DIR)\ppc\apigroup.obj \
+    $(_OBJ_DIR)\ppc\apilogon.obj \
+    $(_OBJ_DIR)\ppc\apimsg.obj \
+    $(_OBJ_DIR)\ppc\apipath.obj \
+    $(_OBJ_DIR)\ppc\apiprint.obj \
+    $(_OBJ_DIR)\ppc\apisess.obj \
+    $(_OBJ_DIR)\ppc\apishare.obj \
+    $(_OBJ_DIR)\ppc\apisrv.obj \
+    $(_OBJ_DIR)\ppc\apistats.obj \
+    $(_OBJ_DIR)\ppc\apistubs.obj \
+    $(_OBJ_DIR)\ppc\apisvc.obj \
+    $(_OBJ_DIR)\ppc\apitime.obj \
+    $(_OBJ_DIR)\ppc\apiuse.obj \
+    $(_OBJ_DIR)\ppc\apiuser.obj \
+    $(_OBJ_DIR)\ppc\apiwksta.obj \
+    $(_OBJ_DIR)\ppc\changepw.obj \
+    $(_OBJ_DIR)\ppc\xsdata.obj \
+    $(_OBJ_DIR)\ppc\xssubs.obj \
+    $(_OBJ_DIR)\ppc\xsunicod.obj
+
+PASS0_PPC_OBJECTS=
+

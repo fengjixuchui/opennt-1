@@ -1,0 +1,68 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\jpeg2x32.res \
+    $(_OBJ_DIR)\alpha\jdarith.obj \
+    $(_OBJ_DIR)\alpha\jdcolor.obj \
+    $(_OBJ_DIR)\alpha\jddeflts.obj \
+    $(_OBJ_DIR)\alpha\jdhuff.obj \
+    $(_OBJ_DIR)\alpha\jdmain.obj \
+    $(_OBJ_DIR)\alpha\jdmaster.obj \
+    $(_OBJ_DIR)\alpha\jdmcu.obj \
+    $(_OBJ_DIR)\alpha\jdpipe.obj \
+    $(_OBJ_DIR)\alpha\jdsample.obj \
+    $(_OBJ_DIR)\alpha\jrevdct.obj \
+    $(_OBJ_DIR)\alpha\jrdjfif.obj \
+    $(_OBJ_DIR)\alpha\jmemsys.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\jpeg2x32.res \
+    $(_OBJ_DIR)\mips\jdarith.obj \
+    $(_OBJ_DIR)\mips\jdcolor.obj \
+    $(_OBJ_DIR)\mips\jddeflts.obj \
+    $(_OBJ_DIR)\mips\jdhuff.obj \
+    $(_OBJ_DIR)\mips\jdmain.obj \
+    $(_OBJ_DIR)\mips\jdmaster.obj \
+    $(_OBJ_DIR)\mips\jdmcu.obj \
+    $(_OBJ_DIR)\mips\jdpipe.obj \
+    $(_OBJ_DIR)\mips\jdsample.obj \
+    $(_OBJ_DIR)\mips\jrevdct.obj \
+    $(_OBJ_DIR)\mips\jrdjfif.obj \
+    $(_OBJ_DIR)\mips\jmemsys.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\jpeg2x32.res \
+    $(_OBJ_DIR)\i386\jdarith.obj \
+    $(_OBJ_DIR)\i386\jdcolor.obj \
+    $(_OBJ_DIR)\i386\jddeflts.obj \
+    $(_OBJ_DIR)\i386\jdhuff.obj \
+    $(_OBJ_DIR)\i386\jdmain.obj \
+    $(_OBJ_DIR)\i386\jdmaster.obj \
+    $(_OBJ_DIR)\i386\jdmcu.obj \
+    $(_OBJ_DIR)\i386\jdpipe.obj \
+    $(_OBJ_DIR)\i386\jdsample.obj \
+    $(_OBJ_DIR)\i386\jrevdct.obj \
+    $(_OBJ_DIR)\i386\jrdjfif.obj \
+    $(_OBJ_DIR)\i386\jmemsys.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\jpeg2x32.res \
+    $(_OBJ_DIR)\ppc\jdarith.obj \
+    $(_OBJ_DIR)\ppc\jdcolor.obj \
+    $(_OBJ_DIR)\ppc\jddeflts.obj \
+    $(_OBJ_DIR)\ppc\jdhuff.obj \
+    $(_OBJ_DIR)\ppc\jdmain.obj \
+    $(_OBJ_DIR)\ppc\jdmaster.obj \
+    $(_OBJ_DIR)\ppc\jdmcu.obj \
+    $(_OBJ_DIR)\ppc\jdpipe.obj \
+    $(_OBJ_DIR)\ppc\jdsample.obj \
+    $(_OBJ_DIR)\ppc\jrevdct.obj \
+    $(_OBJ_DIR)\ppc\jrdjfif.obj \
+    $(_OBJ_DIR)\ppc\jmemsys.obj
+
+PASS0_PPC_OBJECTS=
+

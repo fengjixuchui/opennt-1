@@ -1,0 +1,208 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\iedit.res \
+    $(_OBJ_DIR)\alpha\aapp.obj \
+    $(_OBJ_DIR)\alpha\about.obj \
+    $(_OBJ_DIR)\alpha\aetc.obj \
+    $(_OBJ_DIR)\alpha\aimgfile.obj \
+    $(_OBJ_DIR)\alpha\apage.obj \
+    $(_OBJ_DIR)\alpha\apagerng.obj \
+    $(_OBJ_DIR)\alpha\cmdline.obj \
+    $(_OBJ_DIR)\alpha\cntritem.obj \
+    $(_OBJ_DIR)\alpha\contacti.obj \
+    $(_OBJ_DIR)\alpha\docambnt.obj \
+    $(_OBJ_DIR)\alpha\docanno.obj \
+    $(_OBJ_DIR)\alpha\docetc.obj \
+    $(_OBJ_DIR)\alpha\docpage.obj \
+    $(_OBJ_DIR)\alpha\docsave.obj \
+    $(_OBJ_DIR)\alpha\docscan.obj \
+    $(_OBJ_DIR)\alpha\docviews.obj \
+    $(_OBJ_DIR)\alpha\doczoom.obj \
+    $(_OBJ_DIR)\alpha\ercode.obj \
+    $(_OBJ_DIR)\alpha\error.obj \
+    $(_OBJ_DIR)\alpha\generald.obj \
+    $(_OBJ_DIR)\alpha\gotopage.obj \
+    $(_OBJ_DIR)\alpha\idfolks.obj \
+    $(_OBJ_DIR)\alpha\iedit.obj \
+    $(_OBJ_DIR)\alpha\ieditdoc.obj \
+    $(_OBJ_DIR)\alpha\ieditdol.obj \
+    $(_OBJ_DIR)\alpha\ieditnum.obj \
+    $(_OBJ_DIR)\alpha\ieditvw.obj \
+    $(_OBJ_DIR)\alpha\imagedit.obj \
+    $(_OBJ_DIR)\alpha\imgthmb.obj \
+    $(_OBJ_DIR)\alpha\ipframe.obj \
+    $(_OBJ_DIR)\alpha\items.obj \
+    $(_OBJ_DIR)\alpha\mainfrm.obj \
+    $(_OBJ_DIR)\alpha\mainsplt.obj \
+    $(_OBJ_DIR)\alpha\maintbar.obj \
+    $(_OBJ_DIR)\alpha\nrwyad.obj \
+    $(_OBJ_DIR)\alpha\occopy.obj \
+    $(_OBJ_DIR)\alpha\ocxevent.obj \
+    $(_OBJ_DIR)\alpha\ocxitem.obj \
+    $(_OBJ_DIR)\alpha\pagerang.obj \
+    $(_OBJ_DIR)\alpha\scan.obj \
+    $(_OBJ_DIR)\alpha\splashwi.obj \
+    $(_OBJ_DIR)\alpha\srvritem.obj \
+    $(_OBJ_DIR)\alpha\stsbar.obj \
+    $(_OBJ_DIR)\alpha\thumb2.obj \
+    $(_OBJ_DIR)\alpha\transbmp.obj \
+    $(_OBJ_DIR)\alpha\normscrn.obj \
+    $(_OBJ_DIR)\alpha\zoomdlg.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\iedit.res \
+    $(_OBJ_DIR)\mips\aapp.obj \
+    $(_OBJ_DIR)\mips\about.obj \
+    $(_OBJ_DIR)\mips\aetc.obj \
+    $(_OBJ_DIR)\mips\aimgfile.obj \
+    $(_OBJ_DIR)\mips\apage.obj \
+    $(_OBJ_DIR)\mips\apagerng.obj \
+    $(_OBJ_DIR)\mips\cmdline.obj \
+    $(_OBJ_DIR)\mips\cntritem.obj \
+    $(_OBJ_DIR)\mips\contacti.obj \
+    $(_OBJ_DIR)\mips\docambnt.obj \
+    $(_OBJ_DIR)\mips\docanno.obj \
+    $(_OBJ_DIR)\mips\docetc.obj \
+    $(_OBJ_DIR)\mips\docpage.obj \
+    $(_OBJ_DIR)\mips\docsave.obj \
+    $(_OBJ_DIR)\mips\docscan.obj \
+    $(_OBJ_DIR)\mips\docviews.obj \
+    $(_OBJ_DIR)\mips\doczoom.obj \
+    $(_OBJ_DIR)\mips\ercode.obj \
+    $(_OBJ_DIR)\mips\error.obj \
+    $(_OBJ_DIR)\mips\generald.obj \
+    $(_OBJ_DIR)\mips\gotopage.obj \
+    $(_OBJ_DIR)\mips\idfolks.obj \
+    $(_OBJ_DIR)\mips\iedit.obj \
+    $(_OBJ_DIR)\mips\ieditdoc.obj \
+    $(_OBJ_DIR)\mips\ieditdol.obj \
+    $(_OBJ_DIR)\mips\ieditnum.obj \
+    $(_OBJ_DIR)\mips\ieditvw.obj \
+    $(_OBJ_DIR)\mips\imagedit.obj \
+    $(_OBJ_DIR)\mips\imgthmb.obj \
+    $(_OBJ_DIR)\mips\ipframe.obj \
+    $(_OBJ_DIR)\mips\items.obj \
+    $(_OBJ_DIR)\mips\mainfrm.obj \
+    $(_OBJ_DIR)\mips\mainsplt.obj \
+    $(_OBJ_DIR)\mips\maintbar.obj \
+    $(_OBJ_DIR)\mips\nrwyad.obj \
+    $(_OBJ_DIR)\mips\occopy.obj \
+    $(_OBJ_DIR)\mips\ocxevent.obj \
+    $(_OBJ_DIR)\mips\ocxitem.obj \
+    $(_OBJ_DIR)\mips\pagerang.obj \
+    $(_OBJ_DIR)\mips\scan.obj \
+    $(_OBJ_DIR)\mips\splashwi.obj \
+    $(_OBJ_DIR)\mips\srvritem.obj \
+    $(_OBJ_DIR)\mips\stsbar.obj \
+    $(_OBJ_DIR)\mips\thumb2.obj \
+    $(_OBJ_DIR)\mips\transbmp.obj \
+    $(_OBJ_DIR)\mips\normscrn.obj \
+    $(_OBJ_DIR)\mips\zoomdlg.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\iedit.res \
+    $(_OBJ_DIR)\i386\aapp.obj \
+    $(_OBJ_DIR)\i386\about.obj \
+    $(_OBJ_DIR)\i386\aetc.obj \
+    $(_OBJ_DIR)\i386\aimgfile.obj \
+    $(_OBJ_DIR)\i386\apage.obj \
+    $(_OBJ_DIR)\i386\apagerng.obj \
+    $(_OBJ_DIR)\i386\cmdline.obj \
+    $(_OBJ_DIR)\i386\cntritem.obj \
+    $(_OBJ_DIR)\i386\contacti.obj \
+    $(_OBJ_DIR)\i386\docambnt.obj \
+    $(_OBJ_DIR)\i386\docanno.obj \
+    $(_OBJ_DIR)\i386\docetc.obj \
+    $(_OBJ_DIR)\i386\docpage.obj \
+    $(_OBJ_DIR)\i386\docsave.obj \
+    $(_OBJ_DIR)\i386\docscan.obj \
+    $(_OBJ_DIR)\i386\docviews.obj \
+    $(_OBJ_DIR)\i386\doczoom.obj \
+    $(_OBJ_DIR)\i386\ercode.obj \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\generald.obj \
+    $(_OBJ_DIR)\i386\gotopage.obj \
+    $(_OBJ_DIR)\i386\idfolks.obj \
+    $(_OBJ_DIR)\i386\iedit.obj \
+    $(_OBJ_DIR)\i386\ieditdoc.obj \
+    $(_OBJ_DIR)\i386\ieditdol.obj \
+    $(_OBJ_DIR)\i386\ieditnum.obj \
+    $(_OBJ_DIR)\i386\ieditvw.obj \
+    $(_OBJ_DIR)\i386\imagedit.obj \
+    $(_OBJ_DIR)\i386\imgthmb.obj \
+    $(_OBJ_DIR)\i386\ipframe.obj \
+    $(_OBJ_DIR)\i386\items.obj \
+    $(_OBJ_DIR)\i386\mainfrm.obj \
+    $(_OBJ_DIR)\i386\mainsplt.obj \
+    $(_OBJ_DIR)\i386\maintbar.obj \
+    $(_OBJ_DIR)\i386\nrwyad.obj \
+    $(_OBJ_DIR)\i386\occopy.obj \
+    $(_OBJ_DIR)\i386\ocxevent.obj \
+    $(_OBJ_DIR)\i386\ocxitem.obj \
+    $(_OBJ_DIR)\i386\pagerang.obj \
+    $(_OBJ_DIR)\i386\scan.obj \
+    $(_OBJ_DIR)\i386\splashwi.obj \
+    $(_OBJ_DIR)\i386\srvritem.obj \
+    $(_OBJ_DIR)\i386\stsbar.obj \
+    $(_OBJ_DIR)\i386\thumb2.obj \
+    $(_OBJ_DIR)\i386\transbmp.obj \
+    $(_OBJ_DIR)\i386\normscrn.obj \
+    $(_OBJ_DIR)\i386\zoomdlg.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\iedit.res \
+    $(_OBJ_DIR)\ppc\aapp.obj \
+    $(_OBJ_DIR)\ppc\about.obj \
+    $(_OBJ_DIR)\ppc\aetc.obj \
+    $(_OBJ_DIR)\ppc\aimgfile.obj \
+    $(_OBJ_DIR)\ppc\apage.obj \
+    $(_OBJ_DIR)\ppc\apagerng.obj \
+    $(_OBJ_DIR)\ppc\cmdline.obj \
+    $(_OBJ_DIR)\ppc\cntritem.obj \
+    $(_OBJ_DIR)\ppc\contacti.obj \
+    $(_OBJ_DIR)\ppc\docambnt.obj \
+    $(_OBJ_DIR)\ppc\docanno.obj \
+    $(_OBJ_DIR)\ppc\docetc.obj \
+    $(_OBJ_DIR)\ppc\docpage.obj \
+    $(_OBJ_DIR)\ppc\docsave.obj \
+    $(_OBJ_DIR)\ppc\docscan.obj \
+    $(_OBJ_DIR)\ppc\docviews.obj \
+    $(_OBJ_DIR)\ppc\doczoom.obj \
+    $(_OBJ_DIR)\ppc\ercode.obj \
+    $(_OBJ_DIR)\ppc\error.obj \
+    $(_OBJ_DIR)\ppc\generald.obj \
+    $(_OBJ_DIR)\ppc\gotopage.obj \
+    $(_OBJ_DIR)\ppc\idfolks.obj \
+    $(_OBJ_DIR)\ppc\iedit.obj \
+    $(_OBJ_DIR)\ppc\ieditdoc.obj \
+    $(_OBJ_DIR)\ppc\ieditdol.obj \
+    $(_OBJ_DIR)\ppc\ieditnum.obj \
+    $(_OBJ_DIR)\ppc\ieditvw.obj \
+    $(_OBJ_DIR)\ppc\imagedit.obj \
+    $(_OBJ_DIR)\ppc\imgthmb.obj \
+    $(_OBJ_DIR)\ppc\ipframe.obj \
+    $(_OBJ_DIR)\ppc\items.obj \
+    $(_OBJ_DIR)\ppc\mainfrm.obj \
+    $(_OBJ_DIR)\ppc\mainsplt.obj \
+    $(_OBJ_DIR)\ppc\maintbar.obj \
+    $(_OBJ_DIR)\ppc\nrwyad.obj \
+    $(_OBJ_DIR)\ppc\occopy.obj \
+    $(_OBJ_DIR)\ppc\ocxevent.obj \
+    $(_OBJ_DIR)\ppc\ocxitem.obj \
+    $(_OBJ_DIR)\ppc\pagerang.obj \
+    $(_OBJ_DIR)\ppc\scan.obj \
+    $(_OBJ_DIR)\ppc\splashwi.obj \
+    $(_OBJ_DIR)\ppc\srvritem.obj \
+    $(_OBJ_DIR)\ppc\stsbar.obj \
+    $(_OBJ_DIR)\ppc\thumb2.obj \
+    $(_OBJ_DIR)\ppc\transbmp.obj \
+    $(_OBJ_DIR)\ppc\normscrn.obj \
+    $(_OBJ_DIR)\ppc\zoomdlg.obj
+
+PASS0_PPC_OBJECTS=
+

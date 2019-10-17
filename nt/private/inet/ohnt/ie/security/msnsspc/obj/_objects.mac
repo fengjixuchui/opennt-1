@@ -1,0 +1,80 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\msnsspc2.res \
+    $(_OBJ_DIR)\alpha\bmpcc.obj \
+    $(_OBJ_DIR)\alpha\ssphelp.obj \
+    $(_OBJ_DIR)\alpha\mosmisc.obj \
+    $(_OBJ_DIR)\alpha\ntlmssp.obj \
+    $(_OBJ_DIR)\alpha\alloc.obj \
+    $(_OBJ_DIR)\alpha\sspstrng.obj \
+    $(_OBJ_DIR)\alpha\context.obj \
+    $(_OBJ_DIR)\alpha\cred.obj \
+    $(_OBJ_DIR)\alpha\owf.obj \
+    $(_OBJ_DIR)\alpha\response.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\ticks.obj \
+    $(_OBJ_DIR)\alpha\crc32.obj \
+    $(_OBJ_DIR)\alpha\pwdcache.obj \
+    $(_OBJ_DIR)\alpha\msndlg.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\msnsspc2.res \
+    $(_OBJ_DIR)\mips\bmpcc.obj \
+    $(_OBJ_DIR)\mips\ssphelp.obj \
+    $(_OBJ_DIR)\mips\mosmisc.obj \
+    $(_OBJ_DIR)\mips\ntlmssp.obj \
+    $(_OBJ_DIR)\mips\alloc.obj \
+    $(_OBJ_DIR)\mips\sspstrng.obj \
+    $(_OBJ_DIR)\mips\context.obj \
+    $(_OBJ_DIR)\mips\cred.obj \
+    $(_OBJ_DIR)\mips\owf.obj \
+    $(_OBJ_DIR)\mips\response.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\ticks.obj \
+    $(_OBJ_DIR)\mips\crc32.obj \
+    $(_OBJ_DIR)\mips\pwdcache.obj \
+    $(_OBJ_DIR)\mips\msndlg.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\msnsspc2.res \
+    $(_OBJ_DIR)\i386\bmpcc.obj \
+    $(_OBJ_DIR)\i386\ssphelp.obj \
+    $(_OBJ_DIR)\i386\mosmisc.obj \
+    $(_OBJ_DIR)\i386\ntlmssp.obj \
+    $(_OBJ_DIR)\i386\alloc.obj \
+    $(_OBJ_DIR)\i386\sspstrng.obj \
+    $(_OBJ_DIR)\i386\context.obj \
+    $(_OBJ_DIR)\i386\cred.obj \
+    $(_OBJ_DIR)\i386\owf.obj \
+    $(_OBJ_DIR)\i386\response.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\ticks.obj \
+    $(_OBJ_DIR)\i386\crc32.obj \
+    $(_OBJ_DIR)\i386\pwdcache.obj \
+    $(_OBJ_DIR)\i386\msndlg.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\msnsspc2.res \
+    $(_OBJ_DIR)\ppc\bmpcc.obj \
+    $(_OBJ_DIR)\ppc\ssphelp.obj \
+    $(_OBJ_DIR)\ppc\mosmisc.obj \
+    $(_OBJ_DIR)\ppc\ntlmssp.obj \
+    $(_OBJ_DIR)\ppc\alloc.obj \
+    $(_OBJ_DIR)\ppc\sspstrng.obj \
+    $(_OBJ_DIR)\ppc\context.obj \
+    $(_OBJ_DIR)\ppc\cred.obj \
+    $(_OBJ_DIR)\ppc\owf.obj \
+    $(_OBJ_DIR)\ppc\response.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\ticks.obj \
+    $(_OBJ_DIR)\ppc\crc32.obj \
+    $(_OBJ_DIR)\ppc\pwdcache.obj \
+    $(_OBJ_DIR)\ppc\msndlg.obj
+
+PASS0_PPC_OBJECTS=
+

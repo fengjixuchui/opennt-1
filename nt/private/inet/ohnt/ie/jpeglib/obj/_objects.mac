@@ -1,0 +1,200 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\jcapimin.obj \
+    $(_OBJ_DIR)\alpha\jcapistd.obj \
+    $(_OBJ_DIR)\alpha\jctrans.obj \
+    $(_OBJ_DIR)\alpha\jcparam.obj \
+    $(_OBJ_DIR)\alpha\jdatadst.obj \
+    $(_OBJ_DIR)\alpha\jcinit.obj \
+    $(_OBJ_DIR)\alpha\jcmaster.obj \
+    $(_OBJ_DIR)\alpha\jcmarker.obj \
+    $(_OBJ_DIR)\alpha\jcmainct.obj \
+    $(_OBJ_DIR)\alpha\jcprepct.obj \
+    $(_OBJ_DIR)\alpha\jccoefct.obj \
+    $(_OBJ_DIR)\alpha\jccolor.obj \
+    $(_OBJ_DIR)\alpha\jcsample.obj \
+    $(_OBJ_DIR)\alpha\jchuff.obj \
+    $(_OBJ_DIR)\alpha\jcphuff.obj \
+    $(_OBJ_DIR)\alpha\jcdctmgr.obj \
+    $(_OBJ_DIR)\alpha\jfdctfst.obj \
+    $(_OBJ_DIR)\alpha\jfdctflt.obj \
+    $(_OBJ_DIR)\alpha\jfdctint.obj \
+    $(_OBJ_DIR)\alpha\jdapimin.obj \
+    $(_OBJ_DIR)\alpha\jdapistd.obj \
+    $(_OBJ_DIR)\alpha\jdtrans.obj \
+    $(_OBJ_DIR)\alpha\jdatasrc.obj \
+    $(_OBJ_DIR)\alpha\jdmaster.obj \
+    $(_OBJ_DIR)\alpha\jdinput.obj \
+    $(_OBJ_DIR)\alpha\jdmarker.obj \
+    $(_OBJ_DIR)\alpha\jdhuff.obj \
+    $(_OBJ_DIR)\alpha\jdphuff.obj \
+    $(_OBJ_DIR)\alpha\jdmainct.obj \
+    $(_OBJ_DIR)\alpha\jdcoefct.obj \
+    $(_OBJ_DIR)\alpha\jdpostct.obj \
+    $(_OBJ_DIR)\alpha\jddctmgr.obj \
+    $(_OBJ_DIR)\alpha\jidctfst.obj \
+    $(_OBJ_DIR)\alpha\jidctflt.obj \
+    $(_OBJ_DIR)\alpha\jidctint.obj \
+    $(_OBJ_DIR)\alpha\jidctred.obj \
+    $(_OBJ_DIR)\alpha\jdsample.obj \
+    $(_OBJ_DIR)\alpha\jdcolor.obj \
+    $(_OBJ_DIR)\alpha\jquant1.obj \
+    $(_OBJ_DIR)\alpha\jquant2.obj \
+    $(_OBJ_DIR)\alpha\jdmerge.obj \
+    $(_OBJ_DIR)\alpha\jcomapi.obj \
+    $(_OBJ_DIR)\alpha\jutils.obj \
+    $(_OBJ_DIR)\alpha\jerror.obj \
+    $(_OBJ_DIR)\alpha\jmemmgr.obj \
+    $(_OBJ_DIR)\alpha\jmemnobs.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\jcapimin.obj \
+    $(_OBJ_DIR)\mips\jcapistd.obj \
+    $(_OBJ_DIR)\mips\jctrans.obj \
+    $(_OBJ_DIR)\mips\jcparam.obj \
+    $(_OBJ_DIR)\mips\jdatadst.obj \
+    $(_OBJ_DIR)\mips\jcinit.obj \
+    $(_OBJ_DIR)\mips\jcmaster.obj \
+    $(_OBJ_DIR)\mips\jcmarker.obj \
+    $(_OBJ_DIR)\mips\jcmainct.obj \
+    $(_OBJ_DIR)\mips\jcprepct.obj \
+    $(_OBJ_DIR)\mips\jccoefct.obj \
+    $(_OBJ_DIR)\mips\jccolor.obj \
+    $(_OBJ_DIR)\mips\jcsample.obj \
+    $(_OBJ_DIR)\mips\jchuff.obj \
+    $(_OBJ_DIR)\mips\jcphuff.obj \
+    $(_OBJ_DIR)\mips\jcdctmgr.obj \
+    $(_OBJ_DIR)\mips\jfdctfst.obj \
+    $(_OBJ_DIR)\mips\jfdctflt.obj \
+    $(_OBJ_DIR)\mips\jfdctint.obj \
+    $(_OBJ_DIR)\mips\jdapimin.obj \
+    $(_OBJ_DIR)\mips\jdapistd.obj \
+    $(_OBJ_DIR)\mips\jdtrans.obj \
+    $(_OBJ_DIR)\mips\jdatasrc.obj \
+    $(_OBJ_DIR)\mips\jdmaster.obj \
+    $(_OBJ_DIR)\mips\jdinput.obj \
+    $(_OBJ_DIR)\mips\jdmarker.obj \
+    $(_OBJ_DIR)\mips\jdhuff.obj \
+    $(_OBJ_DIR)\mips\jdphuff.obj \
+    $(_OBJ_DIR)\mips\jdmainct.obj \
+    $(_OBJ_DIR)\mips\jdcoefct.obj \
+    $(_OBJ_DIR)\mips\jdpostct.obj \
+    $(_OBJ_DIR)\mips\jddctmgr.obj \
+    $(_OBJ_DIR)\mips\jidctfst.obj \
+    $(_OBJ_DIR)\mips\jidctflt.obj \
+    $(_OBJ_DIR)\mips\jidctint.obj \
+    $(_OBJ_DIR)\mips\jidctred.obj \
+    $(_OBJ_DIR)\mips\jdsample.obj \
+    $(_OBJ_DIR)\mips\jdcolor.obj \
+    $(_OBJ_DIR)\mips\jquant1.obj \
+    $(_OBJ_DIR)\mips\jquant2.obj \
+    $(_OBJ_DIR)\mips\jdmerge.obj \
+    $(_OBJ_DIR)\mips\jcomapi.obj \
+    $(_OBJ_DIR)\mips\jutils.obj \
+    $(_OBJ_DIR)\mips\jerror.obj \
+    $(_OBJ_DIR)\mips\jmemmgr.obj \
+    $(_OBJ_DIR)\mips\jmemnobs.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\jcapimin.obj \
+    $(_OBJ_DIR)\i386\jcapistd.obj \
+    $(_OBJ_DIR)\i386\jctrans.obj \
+    $(_OBJ_DIR)\i386\jcparam.obj \
+    $(_OBJ_DIR)\i386\jdatadst.obj \
+    $(_OBJ_DIR)\i386\jcinit.obj \
+    $(_OBJ_DIR)\i386\jcmaster.obj \
+    $(_OBJ_DIR)\i386\jcmarker.obj \
+    $(_OBJ_DIR)\i386\jcmainct.obj \
+    $(_OBJ_DIR)\i386\jcprepct.obj \
+    $(_OBJ_DIR)\i386\jccoefct.obj \
+    $(_OBJ_DIR)\i386\jccolor.obj \
+    $(_OBJ_DIR)\i386\jcsample.obj \
+    $(_OBJ_DIR)\i386\jchuff.obj \
+    $(_OBJ_DIR)\i386\jcphuff.obj \
+    $(_OBJ_DIR)\i386\jcdctmgr.obj \
+    $(_OBJ_DIR)\i386\jfdctfst.obj \
+    $(_OBJ_DIR)\i386\jfdctflt.obj \
+    $(_OBJ_DIR)\i386\jfdctint.obj \
+    $(_OBJ_DIR)\i386\jdapimin.obj \
+    $(_OBJ_DIR)\i386\jdapistd.obj \
+    $(_OBJ_DIR)\i386\jdtrans.obj \
+    $(_OBJ_DIR)\i386\jdatasrc.obj \
+    $(_OBJ_DIR)\i386\jdmaster.obj \
+    $(_OBJ_DIR)\i386\jdinput.obj \
+    $(_OBJ_DIR)\i386\jdmarker.obj \
+    $(_OBJ_DIR)\i386\jdhuff.obj \
+    $(_OBJ_DIR)\i386\jdphuff.obj \
+    $(_OBJ_DIR)\i386\jdmainct.obj \
+    $(_OBJ_DIR)\i386\jdcoefct.obj \
+    $(_OBJ_DIR)\i386\jdpostct.obj \
+    $(_OBJ_DIR)\i386\jddctmgr.obj \
+    $(_OBJ_DIR)\i386\jidctfst.obj \
+    $(_OBJ_DIR)\i386\jidctflt.obj \
+    $(_OBJ_DIR)\i386\jidctint.obj \
+    $(_OBJ_DIR)\i386\jidctred.obj \
+    $(_OBJ_DIR)\i386\jdsample.obj \
+    $(_OBJ_DIR)\i386\jdcolor.obj \
+    $(_OBJ_DIR)\i386\jquant1.obj \
+    $(_OBJ_DIR)\i386\jquant2.obj \
+    $(_OBJ_DIR)\i386\jdmerge.obj \
+    $(_OBJ_DIR)\i386\jcomapi.obj \
+    $(_OBJ_DIR)\i386\jutils.obj \
+    $(_OBJ_DIR)\i386\jerror.obj \
+    $(_OBJ_DIR)\i386\jmemmgr.obj \
+    $(_OBJ_DIR)\i386\jmemnobs.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\jcapimin.obj \
+    $(_OBJ_DIR)\ppc\jcapistd.obj \
+    $(_OBJ_DIR)\ppc\jctrans.obj \
+    $(_OBJ_DIR)\ppc\jcparam.obj \
+    $(_OBJ_DIR)\ppc\jdatadst.obj \
+    $(_OBJ_DIR)\ppc\jcinit.obj \
+    $(_OBJ_DIR)\ppc\jcmaster.obj \
+    $(_OBJ_DIR)\ppc\jcmarker.obj \
+    $(_OBJ_DIR)\ppc\jcmainct.obj \
+    $(_OBJ_DIR)\ppc\jcprepct.obj \
+    $(_OBJ_DIR)\ppc\jccoefct.obj \
+    $(_OBJ_DIR)\ppc\jccolor.obj \
+    $(_OBJ_DIR)\ppc\jcsample.obj \
+    $(_OBJ_DIR)\ppc\jchuff.obj \
+    $(_OBJ_DIR)\ppc\jcphuff.obj \
+    $(_OBJ_DIR)\ppc\jcdctmgr.obj \
+    $(_OBJ_DIR)\ppc\jfdctfst.obj \
+    $(_OBJ_DIR)\ppc\jfdctflt.obj \
+    $(_OBJ_DIR)\ppc\jfdctint.obj \
+    $(_OBJ_DIR)\ppc\jdapimin.obj \
+    $(_OBJ_DIR)\ppc\jdapistd.obj \
+    $(_OBJ_DIR)\ppc\jdtrans.obj \
+    $(_OBJ_DIR)\ppc\jdatasrc.obj \
+    $(_OBJ_DIR)\ppc\jdmaster.obj \
+    $(_OBJ_DIR)\ppc\jdinput.obj \
+    $(_OBJ_DIR)\ppc\jdmarker.obj \
+    $(_OBJ_DIR)\ppc\jdhuff.obj \
+    $(_OBJ_DIR)\ppc\jdphuff.obj \
+    $(_OBJ_DIR)\ppc\jdmainct.obj \
+    $(_OBJ_DIR)\ppc\jdcoefct.obj \
+    $(_OBJ_DIR)\ppc\jdpostct.obj \
+    $(_OBJ_DIR)\ppc\jddctmgr.obj \
+    $(_OBJ_DIR)\ppc\jidctfst.obj \
+    $(_OBJ_DIR)\ppc\jidctflt.obj \
+    $(_OBJ_DIR)\ppc\jidctint.obj \
+    $(_OBJ_DIR)\ppc\jidctred.obj \
+    $(_OBJ_DIR)\ppc\jdsample.obj \
+    $(_OBJ_DIR)\ppc\jdcolor.obj \
+    $(_OBJ_DIR)\ppc\jquant1.obj \
+    $(_OBJ_DIR)\ppc\jquant2.obj \
+    $(_OBJ_DIR)\ppc\jdmerge.obj \
+    $(_OBJ_DIR)\ppc\jcomapi.obj \
+    $(_OBJ_DIR)\ppc\jutils.obj \
+    $(_OBJ_DIR)\ppc\jerror.obj \
+    $(_OBJ_DIR)\ppc\jmemmgr.obj \
+    $(_OBJ_DIR)\ppc\jmemnobs.obj
+
+PASS0_PPC_OBJECTS=
+

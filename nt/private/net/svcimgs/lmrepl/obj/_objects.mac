@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\lmrepl.res \
+    $(_OBJ_DIR)\alpha\main.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\lmrepl.res \
+    $(_OBJ_DIR)\mips\main.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\lmrepl.res \
+    $(_OBJ_DIR)\i386\main.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\lmrepl.res \
+    $(_OBJ_DIR)\ppc\main.obj
+
+PASS0_PPC_OBJECTS=
+

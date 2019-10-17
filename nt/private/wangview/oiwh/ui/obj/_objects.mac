@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\oiui400.res \
+    $(_OBJ_DIR)\alpha\attrbox.obj \
+    $(_OBJ_DIR)\alpha\libmain.obj \
+    $(_OBJ_DIR)\alpha\oiattrib.obj \
+    $(_OBJ_DIR)\alpha\oiuicom.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\oiui400.res \
+    $(_OBJ_DIR)\mips\attrbox.obj \
+    $(_OBJ_DIR)\mips\libmain.obj \
+    $(_OBJ_DIR)\mips\oiattrib.obj \
+    $(_OBJ_DIR)\mips\oiuicom.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\oiui400.res \
+    $(_OBJ_DIR)\i386\attrbox.obj \
+    $(_OBJ_DIR)\i386\libmain.obj \
+    $(_OBJ_DIR)\i386\oiattrib.obj \
+    $(_OBJ_DIR)\i386\oiuicom.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\oiui400.res \
+    $(_OBJ_DIR)\ppc\attrbox.obj \
+    $(_OBJ_DIR)\ppc\libmain.obj \
+    $(_OBJ_DIR)\ppc\oiattrib.obj \
+    $(_OBJ_DIR)\ppc\oiuicom.obj
+
+PASS0_PPC_OBJECTS=
+

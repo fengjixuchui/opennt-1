@@ -1,0 +1,80 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\nwsap.res \
+    $(_OBJ_DIR)\alpha\advapi.obj \
+    $(_OBJ_DIR)\alpha\bindlib.obj \
+    $(_OBJ_DIR)\alpha\dump.obj \
+    $(_OBJ_DIR)\alpha\filter.obj \
+    $(_OBJ_DIR)\alpha\globals.obj \
+    $(_OBJ_DIR)\alpha\network.obj \
+    $(_OBJ_DIR)\alpha\nwsap.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\sapdebug.obj \
+    $(_OBJ_DIR)\alpha\saplpc.obj \
+    $(_OBJ_DIR)\alpha\sdmd.obj \
+    $(_OBJ_DIR)\alpha\sdmdsupp.obj \
+    $(_OBJ_DIR)\alpha\sssubs.obj \
+    $(_OBJ_DIR)\alpha\svcctrl.obj \
+    $(_OBJ_DIR)\alpha\wancheck.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\nwsap.res \
+    $(_OBJ_DIR)\mips\advapi.obj \
+    $(_OBJ_DIR)\mips\bindlib.obj \
+    $(_OBJ_DIR)\mips\dump.obj \
+    $(_OBJ_DIR)\mips\filter.obj \
+    $(_OBJ_DIR)\mips\globals.obj \
+    $(_OBJ_DIR)\mips\network.obj \
+    $(_OBJ_DIR)\mips\nwsap.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\sapdebug.obj \
+    $(_OBJ_DIR)\mips\saplpc.obj \
+    $(_OBJ_DIR)\mips\sdmd.obj \
+    $(_OBJ_DIR)\mips\sdmdsupp.obj \
+    $(_OBJ_DIR)\mips\sssubs.obj \
+    $(_OBJ_DIR)\mips\svcctrl.obj \
+    $(_OBJ_DIR)\mips\wancheck.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\nwsap.res \
+    $(_OBJ_DIR)\i386\advapi.obj \
+    $(_OBJ_DIR)\i386\bindlib.obj \
+    $(_OBJ_DIR)\i386\dump.obj \
+    $(_OBJ_DIR)\i386\filter.obj \
+    $(_OBJ_DIR)\i386\globals.obj \
+    $(_OBJ_DIR)\i386\network.obj \
+    $(_OBJ_DIR)\i386\nwsap.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\sapdebug.obj \
+    $(_OBJ_DIR)\i386\saplpc.obj \
+    $(_OBJ_DIR)\i386\sdmd.obj \
+    $(_OBJ_DIR)\i386\sdmdsupp.obj \
+    $(_OBJ_DIR)\i386\sssubs.obj \
+    $(_OBJ_DIR)\i386\svcctrl.obj \
+    $(_OBJ_DIR)\i386\wancheck.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\nwsap.res \
+    $(_OBJ_DIR)\ppc\advapi.obj \
+    $(_OBJ_DIR)\ppc\bindlib.obj \
+    $(_OBJ_DIR)\ppc\dump.obj \
+    $(_OBJ_DIR)\ppc\filter.obj \
+    $(_OBJ_DIR)\ppc\globals.obj \
+    $(_OBJ_DIR)\ppc\network.obj \
+    $(_OBJ_DIR)\ppc\nwsap.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\sapdebug.obj \
+    $(_OBJ_DIR)\ppc\saplpc.obj \
+    $(_OBJ_DIR)\ppc\sdmd.obj \
+    $(_OBJ_DIR)\ppc\sdmdsupp.obj \
+    $(_OBJ_DIR)\ppc\sssubs.obj \
+    $(_OBJ_DIR)\ppc\svcctrl.obj \
+    $(_OBJ_DIR)\ppc\wancheck.obj
+
+PASS0_PPC_OBJECTS=
+

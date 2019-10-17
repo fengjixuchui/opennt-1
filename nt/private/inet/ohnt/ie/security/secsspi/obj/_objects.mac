@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\secsspi.res \
+    $(_OBJ_DIR)\alpha\main_w32.obj \
+    $(_OBJ_DIR)\alpha\private.obj \
+    $(_OBJ_DIR)\alpha\sspcalls.obj \
+    $(_OBJ_DIR)\alpha\sspspm.obj \
+    $(_OBJ_DIR)\alpha\tcputil.obj \
+    $(_OBJ_DIR)\alpha\buffspm.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\secsspi.res \
+    $(_OBJ_DIR)\mips\main_w32.obj \
+    $(_OBJ_DIR)\mips\private.obj \
+    $(_OBJ_DIR)\mips\sspcalls.obj \
+    $(_OBJ_DIR)\mips\sspspm.obj \
+    $(_OBJ_DIR)\mips\tcputil.obj \
+    $(_OBJ_DIR)\mips\buffspm.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\secsspi.res \
+    $(_OBJ_DIR)\i386\main_w32.obj \
+    $(_OBJ_DIR)\i386\private.obj \
+    $(_OBJ_DIR)\i386\sspcalls.obj \
+    $(_OBJ_DIR)\i386\sspspm.obj \
+    $(_OBJ_DIR)\i386\tcputil.obj \
+    $(_OBJ_DIR)\i386\buffspm.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\secsspi.res \
+    $(_OBJ_DIR)\ppc\main_w32.obj \
+    $(_OBJ_DIR)\ppc\private.obj \
+    $(_OBJ_DIR)\ppc\sspcalls.obj \
+    $(_OBJ_DIR)\ppc\sspspm.obj \
+    $(_OBJ_DIR)\ppc\tcputil.obj \
+    $(_OBJ_DIR)\ppc\buffspm.obj
+
+PASS0_PPC_OBJECTS=
+

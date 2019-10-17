@@ -1,0 +1,128 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\nwconv.res \
+    $(_OBJ_DIR)\alpha\nwconv.obj \
+    $(_OBJ_DIR)\alpha\aboutbox.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\error.obj \
+    $(_OBJ_DIR)\alpha\mem.obj \
+    $(_OBJ_DIR)\alpha\utils.obj \
+    $(_OBJ_DIR)\alpha\netutil.obj \
+    $(_OBJ_DIR)\alpha\tab.obj \
+    $(_OBJ_DIR)\alpha\hierfile.obj \
+    $(_OBJ_DIR)\alpha\hierdraw.obj \
+    $(_OBJ_DIR)\alpha\columnlb.obj \
+    $(_OBJ_DIR)\alpha\servlist.obj \
+    $(_OBJ_DIR)\alpha\ntnetapi.obj \
+    $(_OBJ_DIR)\alpha\nwnetapi.obj \
+    $(_OBJ_DIR)\alpha\sbrowse.obj \
+    $(_OBJ_DIR)\alpha\userdlg.obj \
+    $(_OBJ_DIR)\alpha\filedlg.obj \
+    $(_OBJ_DIR)\alpha\filesel.obj \
+    $(_OBJ_DIR)\alpha\nwlog.obj \
+    $(_OBJ_DIR)\alpha\statbox.obj \
+    $(_OBJ_DIR)\alpha\fcopy.obj \
+    $(_OBJ_DIR)\alpha\fastcopy.obj \
+    $(_OBJ_DIR)\alpha\transfer.obj \
+    $(_OBJ_DIR)\alpha\loghours.obj \
+    $(_OBJ_DIR)\alpha\map.obj \
+    $(_OBJ_DIR)\alpha\usrprop.obj \
+    $(_OBJ_DIR)\alpha\encrypt.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\nwconv.res \
+    $(_OBJ_DIR)\mips\nwconv.obj \
+    $(_OBJ_DIR)\mips\aboutbox.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\error.obj \
+    $(_OBJ_DIR)\mips\mem.obj \
+    $(_OBJ_DIR)\mips\utils.obj \
+    $(_OBJ_DIR)\mips\netutil.obj \
+    $(_OBJ_DIR)\mips\tab.obj \
+    $(_OBJ_DIR)\mips\hierfile.obj \
+    $(_OBJ_DIR)\mips\hierdraw.obj \
+    $(_OBJ_DIR)\mips\columnlb.obj \
+    $(_OBJ_DIR)\mips\servlist.obj \
+    $(_OBJ_DIR)\mips\ntnetapi.obj \
+    $(_OBJ_DIR)\mips\nwnetapi.obj \
+    $(_OBJ_DIR)\mips\sbrowse.obj \
+    $(_OBJ_DIR)\mips\userdlg.obj \
+    $(_OBJ_DIR)\mips\filedlg.obj \
+    $(_OBJ_DIR)\mips\filesel.obj \
+    $(_OBJ_DIR)\mips\nwlog.obj \
+    $(_OBJ_DIR)\mips\statbox.obj \
+    $(_OBJ_DIR)\mips\fcopy.obj \
+    $(_OBJ_DIR)\mips\fastcopy.obj \
+    $(_OBJ_DIR)\mips\transfer.obj \
+    $(_OBJ_DIR)\mips\loghours.obj \
+    $(_OBJ_DIR)\mips\map.obj \
+    $(_OBJ_DIR)\mips\usrprop.obj \
+    $(_OBJ_DIR)\mips\encrypt.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\nwconv.res \
+    $(_OBJ_DIR)\i386\nwconv.obj \
+    $(_OBJ_DIR)\i386\aboutbox.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\mem.obj \
+    $(_OBJ_DIR)\i386\utils.obj \
+    $(_OBJ_DIR)\i386\netutil.obj \
+    $(_OBJ_DIR)\i386\tab.obj \
+    $(_OBJ_DIR)\i386\hierfile.obj \
+    $(_OBJ_DIR)\i386\hierdraw.obj \
+    $(_OBJ_DIR)\i386\columnlb.obj \
+    $(_OBJ_DIR)\i386\servlist.obj \
+    $(_OBJ_DIR)\i386\ntnetapi.obj \
+    $(_OBJ_DIR)\i386\nwnetapi.obj \
+    $(_OBJ_DIR)\i386\sbrowse.obj \
+    $(_OBJ_DIR)\i386\userdlg.obj \
+    $(_OBJ_DIR)\i386\filedlg.obj \
+    $(_OBJ_DIR)\i386\filesel.obj \
+    $(_OBJ_DIR)\i386\nwlog.obj \
+    $(_OBJ_DIR)\i386\statbox.obj \
+    $(_OBJ_DIR)\i386\fcopy.obj \
+    $(_OBJ_DIR)\i386\fastcopy.obj \
+    $(_OBJ_DIR)\i386\transfer.obj \
+    $(_OBJ_DIR)\i386\loghours.obj \
+    $(_OBJ_DIR)\i386\map.obj \
+    $(_OBJ_DIR)\i386\usrprop.obj \
+    $(_OBJ_DIR)\i386\encrypt.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\nwconv.res \
+    $(_OBJ_DIR)\ppc\nwconv.obj \
+    $(_OBJ_DIR)\ppc\aboutbox.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\error.obj \
+    $(_OBJ_DIR)\ppc\mem.obj \
+    $(_OBJ_DIR)\ppc\utils.obj \
+    $(_OBJ_DIR)\ppc\netutil.obj \
+    $(_OBJ_DIR)\ppc\tab.obj \
+    $(_OBJ_DIR)\ppc\hierfile.obj \
+    $(_OBJ_DIR)\ppc\hierdraw.obj \
+    $(_OBJ_DIR)\ppc\columnlb.obj \
+    $(_OBJ_DIR)\ppc\servlist.obj \
+    $(_OBJ_DIR)\ppc\ntnetapi.obj \
+    $(_OBJ_DIR)\ppc\nwnetapi.obj \
+    $(_OBJ_DIR)\ppc\sbrowse.obj \
+    $(_OBJ_DIR)\ppc\userdlg.obj \
+    $(_OBJ_DIR)\ppc\filedlg.obj \
+    $(_OBJ_DIR)\ppc\filesel.obj \
+    $(_OBJ_DIR)\ppc\nwlog.obj \
+    $(_OBJ_DIR)\ppc\statbox.obj \
+    $(_OBJ_DIR)\ppc\fcopy.obj \
+    $(_OBJ_DIR)\ppc\fastcopy.obj \
+    $(_OBJ_DIR)\ppc\transfer.obj \
+    $(_OBJ_DIR)\ppc\loghours.obj \
+    $(_OBJ_DIR)\ppc\map.obj \
+    $(_OBJ_DIR)\ppc\usrprop.obj \
+    $(_OBJ_DIR)\ppc\encrypt.obj
+
+PASS0_PPC_OBJECTS=
+

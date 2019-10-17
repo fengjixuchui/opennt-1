@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\report.obj \
+    $(_OBJ_DIR)\alpha\cmdline.obj \
+    $(_OBJ_DIR)\alpha\adapter.obj \
+    $(_OBJ_DIR)\alpha\tcpip.obj \
+    $(_OBJ_DIR)\alpha\jeterror.obj \
+    $(_OBJ_DIR)\alpha\reg.obj \
+    $(_OBJ_DIR)\alpha\addkey.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\report.obj \
+    $(_OBJ_DIR)\mips\cmdline.obj \
+    $(_OBJ_DIR)\mips\adapter.obj \
+    $(_OBJ_DIR)\mips\tcpip.obj \
+    $(_OBJ_DIR)\mips\jeterror.obj \
+    $(_OBJ_DIR)\mips\reg.obj \
+    $(_OBJ_DIR)\mips\addkey.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\report.obj \
+    $(_OBJ_DIR)\i386\cmdline.obj \
+    $(_OBJ_DIR)\i386\adapter.obj \
+    $(_OBJ_DIR)\i386\tcpip.obj \
+    $(_OBJ_DIR)\i386\jeterror.obj \
+    $(_OBJ_DIR)\i386\reg.obj \
+    $(_OBJ_DIR)\i386\addkey.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\report.obj \
+    $(_OBJ_DIR)\ppc\cmdline.obj \
+    $(_OBJ_DIR)\ppc\adapter.obj \
+    $(_OBJ_DIR)\ppc\tcpip.obj \
+    $(_OBJ_DIR)\ppc\jeterror.obj \
+    $(_OBJ_DIR)\ppc\reg.obj \
+    $(_OBJ_DIR)\ppc\addkey.obj
+
+PASS0_PPC_OBJECTS=
+

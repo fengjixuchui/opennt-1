@@ -5523,22 +5523,21 @@ GetWindowTextW(
 #else
 #define GetWindowText  GetWindowTextA
 #endif // !UNICODE
-
-//smart
+    
 WINUSERAPI
 UINT
 WINAPI
 GetWindowModuleFileNameA(
 	HWND hWnd,
-	LPSTR lpszFileName,
-	UINT cchFileNameMax);
+	LPSTR lpString,
+	UINT cchFileNameMax);    
 WINUSERAPI
 UINT
 WINAPI
 GetWindowModuleFileNameW(
 	HWND hWnd,
-	LPWSTR lpszFileName,
-	UINT cchFileNameMax);
+	LPWSTR lpString,
+	UINT cchFileNameMax);    
 #ifdef UNICODE
 #define GetWindowModuleFileName  GetWindowModuleFileNameW
 #else

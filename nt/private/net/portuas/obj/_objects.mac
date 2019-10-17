@@ -1,0 +1,64 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\portuas.res \
+    $(_OBJ_DIR)\alpha\alias.obj \
+    $(_OBJ_DIR)\alpha\argvw.obj \
+    $(_OBJ_DIR)\alpha\dumpuser.obj \
+    $(_OBJ_DIR)\alpha\logfile.obj \
+    $(_OBJ_DIR)\alpha\owfcrypt.obj \
+    $(_OBJ_DIR)\alpha\portlib.obj \
+    $(_OBJ_DIR)\alpha\portmac.obj \
+    $(_OBJ_DIR)\alpha\portmap.obj \
+    $(_OBJ_DIR)\alpha\portpars.obj \
+    $(_OBJ_DIR)\alpha\prompt.obj \
+    $(_OBJ_DIR)\alpha\uasread.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\portuas.res \
+    $(_OBJ_DIR)\mips\alias.obj \
+    $(_OBJ_DIR)\mips\argvw.obj \
+    $(_OBJ_DIR)\mips\dumpuser.obj \
+    $(_OBJ_DIR)\mips\logfile.obj \
+    $(_OBJ_DIR)\mips\owfcrypt.obj \
+    $(_OBJ_DIR)\mips\portlib.obj \
+    $(_OBJ_DIR)\mips\portmac.obj \
+    $(_OBJ_DIR)\mips\portmap.obj \
+    $(_OBJ_DIR)\mips\portpars.obj \
+    $(_OBJ_DIR)\mips\prompt.obj \
+    $(_OBJ_DIR)\mips\uasread.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\portuas.res \
+    $(_OBJ_DIR)\i386\alias.obj \
+    $(_OBJ_DIR)\i386\argvw.obj \
+    $(_OBJ_DIR)\i386\dumpuser.obj \
+    $(_OBJ_DIR)\i386\logfile.obj \
+    $(_OBJ_DIR)\i386\owfcrypt.obj \
+    $(_OBJ_DIR)\i386\portlib.obj \
+    $(_OBJ_DIR)\i386\portmac.obj \
+    $(_OBJ_DIR)\i386\portmap.obj \
+    $(_OBJ_DIR)\i386\portpars.obj \
+    $(_OBJ_DIR)\i386\prompt.obj \
+    $(_OBJ_DIR)\i386\uasread.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\portuas.res \
+    $(_OBJ_DIR)\ppc\alias.obj \
+    $(_OBJ_DIR)\ppc\argvw.obj \
+    $(_OBJ_DIR)\ppc\dumpuser.obj \
+    $(_OBJ_DIR)\ppc\logfile.obj \
+    $(_OBJ_DIR)\ppc\owfcrypt.obj \
+    $(_OBJ_DIR)\ppc\portlib.obj \
+    $(_OBJ_DIR)\ppc\portmac.obj \
+    $(_OBJ_DIR)\ppc\portmap.obj \
+    $(_OBJ_DIR)\ppc\portpars.obj \
+    $(_OBJ_DIR)\ppc\prompt.obj \
+    $(_OBJ_DIR)\ppc\uasread.obj
+
+PASS0_PPC_OBJECTS=
+

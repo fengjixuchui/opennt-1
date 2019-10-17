@@ -1,0 +1,1192 @@
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ole32.lib'
+ntos\video\mga\mtxinit.c(3065) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\video\mga\mtxinit.c(3065) : error C2220: warning treated as error - no object file generated
+ntos\video\mga_mil\vidfile.c(1656) : error C4013: 'strcpy' undefined; assuming extern returning int
+ntos\video\mga_mil\vidfile.c(1656) : error C2220: warning treated as error - no object file generated
+ntos\video\mga\mtxvideo.c(411) : error C4013: 'strlen' undefined; assuming extern returning int
+ntos\video\mga\mtxvideo.c(411) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\ati\bank.c(58) : error C4013: 'inpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\bank.c(58) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\ati\bank.c(67) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\8514a\bltio.c(766) : error C4013: 'inpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\8514a\bltio.c(766) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\8514a\bltio.c(769) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\bank.c(75) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\bank.c(75) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\cirrus\bank.c(75) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\bank.c(75) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\blti32.c(57) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\blti32.c(57) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\ati\blti32.c(69) : error C4013: 'inpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\8514a\debug.c(77) : error C4013: 'inpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\8514a\debug.c(77) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\8514a\debug.c(116) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\bltio.c(91) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\bltio.c(91) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\cirrus\bltio.c(91) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\bltio.c(91) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\8514a\enable.c(815) : error C4013: 'inpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\8514a\enable.c(815) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\8514a\enable.c(817) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\debug.c(121) : error C4013: 'inpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\debug.c(121) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\cirrus\bltmm.c(643) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\bltmm.c(643) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\ati\ddraw32i.c(109) : error C4013: 'inpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\ddraw32i.c(109) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\ati\ddraw32i.c(397) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\brush.c(485) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\brush.c(485) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\cirrus\brush.c(485) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\brush.c(485) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\fastfill.c(214) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\fastfill.c(214) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\cirrus\enable.c(888) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\enable.c(888) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\cirrus\enable.c(889) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\enable.c(897) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\lines.c(907) : error C4013: 'abs' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\lines.c(907) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\ati\lines.c(2099) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\mga\lines.c(928) : error C4013: 'abs' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\mga\lines.c(928) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\cirrus\fastfill.c(223) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\fastfill.c(223) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\cirrus\fastfill.c(223) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\fastfill.c(223) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntuser\client\daytona\user32p.def() : error LNK2001: unresolved external symbol GetWindowModuleFileNameA
+ntos\w32\ntuser\client\daytona\user32p.def() : error LNK2001: unresolved external symbol GetWindowModuleFileNameW
+w:\nt\public\sdk\lib\.\i386\user32p.lib() : error LNK1120: 2 unresolved externals
+ntos\w32\ntgdi\displays\ati\lineto.c(439) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\lineto.c(439) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\cirrus\lines.c(784) : error C4013: 'abs' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\lines.c(784) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\mga\mcdrend.c(179) : error C4013: 'fabs' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\mga\mcdrend.c(179) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\ati\misc.c(258) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\misc.c(258) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\ati\misc.c(332) : error C4013: 'inpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\pointer.c(162) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\pointer.c(162) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\cirrus\pointer.c(162) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\pointer.c(162) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\pointer.c(27) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\pointer.c(27) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\ati\pointer.c(80) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\pointer.c(388) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\stretch.c(419) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\stretch.c(419) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\ati\str.c(594) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\str.c(594) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\ati\str.c(604) : error C4013: 'inpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\bank.c(59) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\bank.c(59) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\qv\bank.c(60) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\stripio.c(92) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\bank.c(63) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\strips.c(45) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\stripio.c(92) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\cirrus\stripio.c(92) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\stripio.c(92) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\strips.c(45) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntuser\client\daytona\user32.def() : error LNK2001: unresolved external symbol GetWindowModuleFileNameA
+ntos\w32\ntuser\client\daytona\user32.def() : error LNK2001: unresolved external symbol GetWindowModuleFileNameW
+w:\nt\public\sdk\lib\.\i386\user32.lib() : error LNK1120: 2 unresolved externals
+ntos\w32\ntgdi\displays\qv\bltio.c(51) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\stroke.c(180) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\stretch.c(1178) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\bltio.c(51) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\qv\bltio.c(53) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\bltio.c(56) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\bltio.c(77) : error C4013: 'outpd' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\stretch.c(1178) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\cirrus\stroke.c(180) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\cirrus\stroke.c(180) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\stroke.c(180) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\textout.c(654) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\textout.c(320) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\textout.c(320) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\cirrus\textout.c(320) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\textout.c(320) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\textout.c(654) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\ati\textout.c(986) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\ati\textout.c(1285) : error C4013: 'inpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\fastfill.c(69) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\fastfill.c(69) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\qv\fastfill.c(70) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\fastfill.c(72) : error C4013: 'outpd' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\fastfill.c(73) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\str.c(105) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\str.c(105) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\cirrus\str.c(105) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\cirrus\str.c(105) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\s3\hw.h(874) : error C4013: 'inpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\s3\hw.h(874) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\qv\lines.c(678) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\s3\obj\i386\pch_hdr.src(2) : error C2857: '#include' statement specified with the /Ycprecomp.h command-line option was not found in the source file
+ntos\w32\ntgdi\displays\qv\lines.c(678) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\qv\lines.c(679) : error C4013: 'outpd' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\lines.c(681) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\lines.c(923) : error C4013: 'abs' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\lines.c(2106) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\pointer.c(78) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\pointer.c(78) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\s3\hw.h(874) : error C4013: 'inpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\s3\hw.h(874) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\s3\obj\i386\pch_hdr.src(2) : error C2857: '#include' statement specified with the /Ycprecomp.h command-line option was not found in the source file
+ntos\w32\ntgdi\displays\qv\strips.c(50) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\strips.c(50) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\qv\strips.c(51) : error C4013: 'outpd' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\strips.c(55) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\s3\bank.c(38) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\w32\ntgdi\displays\qv\textout.c(226) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\textout.c(226) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\qv\textout.c(244) : error C4013: 'outpd' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\textout.c(245) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\qv\textout.c(247) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\s3\bitblt.c(25) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\w32\ntgdi\displays\s3\bltio.c(27) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\w32\ntgdi\displays\s3\bltmm.c(27) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\w32\ntgdi\displays\s3\brush.c(10) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\w32\ntgdi\displays\s3\color.c(28) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\w32\ntgdi\displays\w32\bank.c(110) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\w32\bank.c(110) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\s3\ddraw.c(9) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\w32\ntgdi\displays\w32\ddraw.c(90) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\w32\ddraw.c(90) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\w32\ddraw.c(508) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\s3\debug.c(10) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\w32\ntgdi\displays\s3\enable.c(10) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\w32\ntgdi\displays\wd90c24a\pointer.c(77) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\w32\enable.c(1179) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\wd90c24a\pointer.c(77) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\w32\enable.c(1179) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\wd90c24a\pointer.c(79) : error C4013: 'inpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\w32\enable.c(1180) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\s3\fastfill.c(9) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\w32\ntgdi\displays\w32\lines.c(807) : error C4013: 'abs' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\w32\lines.c(807) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\s3\fillpath.c(9) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\w32\ntgdi\displays\w32\pointer.c(49) : error C4013: 'inp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\w32\pointer.c(49) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\w32\pointer.c(49) : error C4013: 'outp' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\wd90c24a\bitblt.c(152) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\wd90c24a\bitblt.c(152) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\wd90c24a\bitblt.c(152) : error C4013: 'inpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\s3\heap.c(52) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\w32\ntgdi\displays\s3\lines.c(11) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\w32\ntgdi\displays\s3\lineto.c(9) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\w32\ntgdi\displays\wd90c24a\sync.c(27) : error C4013: 'outpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\wd90c24a\sync.c(27) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\wd90c24a\sync.c(27) : error C4013: 'inpw' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\s3\misc.c(10) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\w32\ntgdi\displays\weitekp9\lines.c(420) : error C4013: 'abs' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\weitekp9\lines.c(420) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\s3\multi.c(72) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\.\i386\user32p.lib'
+ntos\w32\ntgdi\displays\s3\paint.c(8) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\w32\ntgdi\displays\s3\palette.c(9) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\ndis\ieepro\init.c(190) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ieepro\init.c(190) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ieepro\init.c(657) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\elnk3\receive.c(840) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\elnk3\receive.c(840) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ibmtok2i\command.c(355) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ibmtok2i\command.c(355) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\s3\pointer.c(11) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\ndis\ieepro\request.c(269) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\s3\stretch.c(7) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\ndis\ieepro\request.c(269) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ieepro\request.c(917) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\elnk3\init.c(259) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\elnk3\init.c(259) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ibmtok2i\interrup.c(793) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ibmtok2i\interrup.c(793) : error C2220: warning treated as error - no object file generated
+ntos\w32\ntgdi\displays\s3\strips.c(10) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\ndis\ieepro\eprodbg.c(25) : error C4013: 'strlen' undefined; assuming extern returning int
+ntos\ndis\ieepro\eprodbg.c(25) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ieepro\eprodbg.c(31) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\elnk3\request.c(296) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\elnk3\request.c(296) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ibmtok2i\tok162.c(249) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ibmtok2i\tok162.c(249) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ibmtok2i\tok162.c(274) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\w32\ntgdi\displays\s3\textout.c(51) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\w32\ntgdi\displays\s3\thunk.c(13) : error C1083: Cannot open precompiled header file: 'obj\i386\precomp.pch': No such file or directory
+ntos\ndis\ibmtok2i\request.c(124) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\lance\lance.c(317) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\lance\lance.c(317) : error C2220: warning treated as error - no object file generated
+ntos\ndis\lance\lance.c(625) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ibmtok2i\request.c(124) : error C2220: warning treated as error - no object file generated
+ntos\ndis\madge\driver\madge.c(2458) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\madge\driver\madge.c(2458) : error C2220: warning treated as error - no object file generated
+ntos\ndis\madge\driver\madge.c(2617) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ibmtok2i\reset.c(177) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ibmtok2i\reset.c(177) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ibmtok2i\reset.c(1453) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\lance\send.c(316) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\lance\send.c(316) : error C2220: warning treated as error - no object file generated
+ntos\ndis\lance\send.c(337) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ne2000\ne2000.c(436) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ne2000\ne2000.c(436) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ne2000\ne2000.c(487) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\lance\transfer.c(367) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\lance\transfer.c(367) : error C2220: warning treated as error - no object file generated
+ntos\ndis\madge\driver\dispatch.c(529) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\madge\driver\dispatch.c(529) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ibmtok2i\send.c(611) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ibmtok2i\send.c(611) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ibmtok2i\send.c(644) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ne2000\ne2000.c(436) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ne2000\ne2000.c(436) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ne2000\ne2000.c(487) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\madge\driver\request.c(430) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\madge\driver\request.c(430) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ne3200\command.c(102) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ne3200\command.c(102) : error C2220: warning treated as error - no object file generated
+ntos\ndis\sonic\alloc.c(262) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\sonic\alloc.c(262) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ne3200\ne3200.c(293) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ne3200\ne3200.c(293) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ne3200\ne3200.c(400) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\sonic\interrup.c(1047) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\sonic\interrup.c(1047) : error C2220: warning treated as error - no object file generated
+ntos\ndis\madge\driver\ftk_user.c(332) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\madge\driver\ftk_user.c(332) : error C2220: warning treated as error - no object file generated
+ntos\ndis\madge\driver\ftk_user.c(1193) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ubnei\init.c(283) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ubnei\init.c(283) : error C2220: warning treated as error - no object file generated
+ntos\ndis\sonic\request.c(296) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\sonic\request.c(296) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ne3200\request.c(239) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ne3200\request.c(239) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ne3200\request.c(270) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\madge\driver\sys_mem.c(610) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\madge\driver\sys_mem.c(610) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ubnei\card.c(930) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ubnei\card.c(930) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ubnei\card.c(1086) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\sonic\send.c(500) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\sonic\send.c(500) : error C2220: warning treated as error - no object file generated
+ntos\ndis\sonic\send.c(523) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ne3200\reset.c(526) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ne3200\reset.c(526) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ne3200\reset.c(1499) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ubnei\request.c(303) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ubnei\request.c(303) : error C2220: warning treated as error - no object file generated
+ntos\ndis\sonic\sonic.c(413) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\sonic\sonic.c(413) : error C2220: warning treated as error - no object file generated
+ntos\ndis\sonic\sonic.c(577) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ne3200\send.c(764) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ne3200\send.c(764) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ne3200\send.c(806) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ubnei\send.c(240) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ubnei\send.c(240) : error C2220: warning treated as error - no object file generated
+ntos\ndis\sonic\transfer.c(235) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\sonic\transfer.c(235) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ubnei\receive.c(410) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ubnei\receive.c(410) : error C2220: warning treated as error - no object file generated
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+net\jet500\jetconv\locmsg.rc (2) : error RC2135 : file not found: MSG00001.bin
+net\jet500\jetconv\cvtres() : error CVT1101: cannot open obj\i386\jetconv.tmp for reading
+net\svcdlls\at\atcmd\lmatmsg.rc (2) : error RC2135 : file not found: MSG00001.bin
+net\svcdlls\at\atcmd\cvtres() : error CVT1101: cannot open obj\i386\at.tmp for reading
+net\svcdlls\rpl\command\rplmsg.rc (2) : error RC2135 : file not found: MSG00001.bin
+net\svcdlls\rpl\command\cvtres() : error CVT1101: cannot open obj\i386\rplver.tmp for reading
+net\svcdlls\lls\client\llsrpc.rc (30) : error RC2135 : file not found: MSG00001.bin
+net\svcdlls\lls\client\cvtres() : error CVT1101: cannot open obj\i386\llsrpc.tmp for reading
+net\svcdlls\lls\client\llsrpc_c.c(3337) : error C1004: unexpected end of file found
+net\svcdlls\lls\client\lib() : error LNK1181: cannot open input file "obj\i386\llsrpc.res"
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ole32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ole32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ole32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ole32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+ntos\init\up\ke.lib(dpcobj.obj) : error LNK2001: unresolved external symbol __enable@0
+ntos\init\up\ke.lib(dpcobj.obj) : error LNK2001: unresolved external symbol __disable@0
+ntos\init\up\obj\i386\ntoskrnl.exe() : error LNK1120: 2 unresolved externals
+ntos\init\up\binplace() : error BNP0000: Unable to place file obj\i386\ntoskrnl.exe - exiting.
+ntos\init\mp\ke.lib(dpcobj.obj) : error LNK2001: unresolved external symbol __enable@0
+ntos\init\mp\ke.lib(dpcobj.obj) : error LNK2001: unresolved external symbol __disable@0
+ntos\init\mp\obj\i386\ntkrnlmp.exe() : error LNK1120: 2 unresolved externals
+ntos\init\mp\binplace() : error BNP0000: Unable to place file obj\i386\ntkrnlmp.exe - exiting.
+ntos\boot\bldr\boot.lib(disp_gr.obj) : error LNK2001: unresolved external symbol _outpw@8
+ntos\boot\bldr\obj\i386\osloader.exe() : error LNK1120: 1 unresolved externals
+ntos\boot\setup\boot.lib(disp_gr.obj) : error LNK2001: unresolved external symbol _outpw@8
+ntos\boot\setup\obj\i386\setupldr.exe() : error LNK1120: 1 unresolved externals
+ntos\miniport\atapi\atapi.obj() : error LNK2001: unresolved external symbol _strlen
+w:\nt\public\sdk\lib\i386\atapi.sys() : error LNK1120: 1 unresolved externals
+ntos\miniport\atapi\binplace() : error BNP0000: Unable to place file \nt\public\sdk\lib\i386\atapi.sys - exiting.
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+ntos\fastfat\dirctrl.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\fastfat\ea.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\fastfat\fsctrl.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\fastfat\strucsup.obj() : error LNK2001: unresolved external symbol _memcmp
+w:\nt\public\sdk\lib\i386\fastfat.sys() : error LNK1120: 1 unresolved externals
+ntos\fastfat\binplace() : error BNP0000: Unable to place file W:\nt\public\sdk\lib\i386\fastfat.sys - exiting.
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+ntos\cntfs\mp\strucsup.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\cntfs\mp\write.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\cntfs\mp\ea.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\cntfs\mp\fileinfo.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\cntfs\mp\prefxsup.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\cntfs\mp\secursup.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\cntfs\mp\attrsup.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\cntfs\mp\colatsup.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\cntfs\mp\create.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\cntfs\mp\dirctrl.obj() : error LNK2001: unresolved external symbol _memcmp
+w:\nt\public\sdk\lib\i386\ntfs.sys() : error LNK1120: 1 unresolved externals
+ntos\cntfs\mp\binplace() : error BNP0000: Unable to place file W:\nt\public\sdk\lib\i386\ntfs.sys - exiting.
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+ntos\w32\ntuser\client\daytona\user32p.def() : error LNK2001: unresolved external symbol GetWindowModuleFileNameA
+ntos\w32\ntuser\client\daytona\user32p.def() : error LNK2001: unresolved external symbol GetWindowModuleFileNameW
+w:\nt\public\sdk\lib\.\i386\user32p.lib() : error LNK1120: 2 unresolved externals
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+ntos\w32\ntuser\client\daytona\user32.def() : error LNK2001: unresolved external symbol GetWindowModuleFileNameA
+ntos\w32\ntuser\client\daytona\user32.def() : error LNK2001: unresolved external symbol GetWindowModuleFileNameW
+w:\nt\public\sdk\lib\.\i386\user32.lib() : error LNK1120: 2 unresolved externals
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+ntos\w32\ntgdi\displays\framebuf\color.obj() : error LNK2001: unresolved external symbol _memset
+ntos\w32\ntgdi\displays\framebuf\enable.obj() : error LNK2001: unresolved external symbol _memset
+ntos\w32\ntgdi\displays\framebuf\pointer.obj() : error LNK2001: unresolved external symbol _memset
+ntos\w32\ntgdi\displays\framebuf\enable.obj() : error LNK2001: unresolved external symbol _memcpy
+ntos\w32\ntgdi\displays\framebuf\pointer.obj() : error LNK2001: unresolved external symbol _memcpy
+ntos\w32\ntgdi\displays\framebuf\obj\i386\framebuf.dll() : error LNK1120: 2 unresolved externals
+ntos\w32\ntgdi\displays\framebuf\binplace() : error BNP0000: Unable to place file obj\i386\framebuf.dll - exiting.
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+ntos\w32\ntgdi\displays\vga64k\color.obj() : error LNK2001: unresolved external symbol _memset
+ntos\w32\ntgdi\displays\vga64k\enable.obj() : error LNK2001: unresolved external symbol _memset
+ntos\w32\ntgdi\displays\vga64k\enable.obj() : error LNK2001: unresolved external symbol _memcpy
+ntos\w32\ntgdi\displays\vga64k\obj\i386\vga64k.dll() : error LNK1120: 2 unresolved externals
+ntos\w32\ntgdi\displays\vga64k\binplace() : error BNP0000: Unable to place file obj\i386\vga64k.dll - exiting.
+ntos\w32\ntgdi\displays\vga\brush.obj() : error LNK2001: unresolved external symbol _memcpy
+ntos\w32\ntgdi\displays\vga\enable.obj() : error LNK2001: unresolved external symbol _memcpy
+ntos\w32\ntgdi\displays\vga\color.obj() : error LNK2001: unresolved external symbol _memset
+ntos\w32\ntgdi\displays\vga\cursor.obj() : error LNK2001: unresolved external symbol _memset
+ntos\w32\ntgdi\displays\vga\enable.obj() : error LNK2001: unresolved external symbol _memset
+ntos\w32\ntgdi\displays\vga\obj\i386\vga.dll() : error LNK1120: 2 unresolved externals
+ntos\w32\ntgdi\displays\vga256\color.obj() : error LNK2001: unresolved external symbol _memset
+ntos\w32\ntgdi\displays\vga256\enable.obj() : error LNK2001: unresolved external symbol _memset
+ntos\w32\ntgdi\displays\vga256\enable.obj() : error LNK2001: unresolved external symbol _memcpy
+ntos\w32\ntgdi\displays\vga256\enable.obj() : error LNK2001: unresolved external symbol _abs
+ntos\w32\ntgdi\displays\vga256\obj\i386\vga256.dll() : error LNK1120: 3 unresolved externals
+ntos\w32\ntgdi\displays\vga\binplace() : error BNP0000: Unable to place file obj\i386\vga.dll - exiting.
+ntos\w32\ntgdi\displays\vga256\binplace() : error BNP0000: Unable to place file obj\i386\vga256.dll - exiting.
+ntos\w32\ntgdi\displays\tga\pointer.obj() : error LNK2001: unresolved external symbol _memcpy
+ntos\w32\ntgdi\displays\tga\brush.obj() : error LNK2001: unresolved external symbol _memcpy
+ntos\w32\ntgdi\displays\tga\enable.obj() : error LNK2001: unresolved external symbol _memcpy
+ntos\w32\ntgdi\displays\tga\fillpath.obj() : error LNK2001: unresolved external symbol _memcpy
+ntos\w32\ntgdi\displays\tga\palette.obj() : error LNK2001: unresolved external symbol _memcpy
+ntos\w32\ntgdi\displays\tga\color.obj() : error LNK2001: unresolved external symbol _memset
+ntos\w32\ntgdi\displays\tga\enable.obj() : error LNK2001: unresolved external symbol _memset
+ntos\w32\ntgdi\displays\tga\pointer.obj() : error LNK2001: unresolved external symbol _memset
+ntos\w32\ntgdi\displays\tga\text.obj() : error LNK2001: unresolved external symbol _memset
+ntos\w32\ntgdi\displays\tga\obj\i386\tga.dll() : error LNK1120: 2 unresolved externals
+ntos\w32\ntgdi\displays\tga\binplace() : error BNP0000: Unable to place file obj\i386\tga.dll - exiting.
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make '\nt/public/sdk/lib/i386/ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt/public/sdk/lib/i386/ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+ntos\w32\kmode\daytona\lib() : error LNK1104: cannot open file "W:\nt\public\sdk\lib\.\i386\win32k.lib"
+ntos\ndis\ndis40\up\ndis.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\ndis\ndis40\up\initpnp.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\ndis\ndis40\up\common.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\ndis\ndis40\up\mac.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\ndis\ndis40\up\obj\i386\ndis.sys() : error LNK1120: 1 unresolved externals
+ntos\ndis\ndis40\up\binplace() : error BNP0000: Unable to place file obj\i386\ndis.sys - exiting.
+ntos\ndis\ndiswan\export\vjslip.obj() : error LNK2001: unresolved external symbol _memcmp
+w:\nt\public\sdk\lib\i386\ndiswan.sys() : error LNK1120: 1 unresolved externals
+ntos\ndis\ndis40\mp\ndis.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\ndis\ndis40\mp\initpnp.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\ndis\ndis40\mp\common.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\ndis\ndis40\mp\mac.obj() : error LNK2001: unresolved external symbol _memcmp
+w:\nt\public\sdk\lib\i386\ndis.sys() : error LNK1120: 1 unresolved externals
+ntos\ndis\ndiswan\export\binplace() : error BNP0000: Unable to place file W:\nt\public\sdk\lib\i386\ndiswan.sys - exiting.
+ntos\w32\kmode\daytona\userk.lib(movesize.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\w32\kmode\daytona\userkrtl.lib(rect.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\w32\kmode\daytona\userk.lib(ddetrack.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\w32\kmode\daytona\userk.lib(update.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\w32\kmode\daytona\userk.lib(scrollw.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\w32\kmode\daytona\userk.lib(drawfrm.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\w32\kmode\daytona\gre.lib(rfntobj.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\w32\kmode\daytona\ttfd.lib(fdfon.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\w32\kmode\daytona\userk.lib(fullscr.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\w32\kmode\daytona\userk.lib(rare.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\w32\kmode\daytona\gre.lib(xformgdi.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\w32\kmode\daytona\gre.lib(palobj.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\w32\kmode\daytona\gre.lib(rgnobj.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\w32\kmode\daytona\gre.lib(pftobj.obj) : error LNK2001: unresolved external symbol _memcmp
+w:\nt\public\sdk\lib\.\i386\win32k.sys() : error LNK1120: 1 unresolved externals
+ntos\w32\kmode\daytona\binplace() : error BNP0000: Unable to place file W:\nt\public\sdk\lib\.\i386\win32k.sys - exiting.
+ntos\ndis\ndis40\mp\binplace() : error BNP0000: Unable to place file \nt\public\sdk\lib\i386\ndis.sys - exiting.
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+ntos\ndis\detect\driver\netdtect.obj() : error LNK2001: unresolved external symbol _memcmp
+w:\nt\public\sdk\lib\i386\netdtect.sys() : error LNK1120: 1 unresolved externals
+ntos\ndis\detect\driver\binplace() : error BNP0000: Unable to place file \nt\public\sdk\lib\i386\netdtect.sys - exiting.
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+ntos\ndis\madge\driver\madge.c(2458) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\madge\driver\madge.c(2458) : error C2220: warning treated as error - no object file generated
+ntos\ndis\madge\driver\madge.c(2617) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ne3200\command.c(102) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ne3200\command.c(102) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ne3200\ne3200.c(293) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ne3200\ne3200.c(293) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ne3200\ne3200.c(400) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ubnei\init.c(283) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ubnei\init.c(283) : error C2220: warning treated as error - no object file generated
+ntos\ndis\madge\driver\dispatch.c(529) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\madge\driver\dispatch.c(529) : error C2220: warning treated as error - no object file generated
+ntos\ndis\digi\pcimac\cm_state.obj() : error LNK2001: unresolved external symbol _memcmp
+w:\nt\public\sdk\lib\i386\pcimac.sys() : error LNK1120: 1 unresolved externals
+ntos\ndis\digi\pcimac\binplace() : error BNP0000: Unable to place file W:\nt\public\sdk\lib\i386\pcimac.sys - exiting.
+ntos\ndis\ne3200\request.c(239) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ne3200\request.c(239) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ne3200\request.c(270) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ubnei\card.c(930) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ubnei\card.c(930) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ubnei\card.c(1086) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\madge\driver\request.c(430) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\madge\driver\request.c(430) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ne3200\reset.c(526) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ne3200\reset.c(526) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ne3200\reset.c(1499) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ubnei\request.c(303) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ubnei\request.c(303) : error C2220: warning treated as error - no object file generated
+ntos\ndis\madge\driver\ftk_user.c(332) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\madge\driver\ftk_user.c(332) : error C2220: warning treated as error - no object file generated
+ntos\ndis\madge\driver\ftk_user.c(1193) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ne3200\send.c(764) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ne3200\send.c(764) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ne3200\send.c(806) : error C4013: 'memset' undefined; assuming extern returning int
+ntos\ndis\ubnei\send.c(240) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ubnei\send.c(240) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ne3200\link() : error LNK1181: cannot open input file "obj\i386\command.obj"
+ntos\ndis\ne3200\binplace() : error BNP0000: Unable to place file \nt\public\sdk\lib\i386\ne3200.sys - exiting.
+ntos\ndis\madge\driver\sys_mem.c(610) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\madge\driver\sys_mem.c(610) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ubnei\receive.c(410) : error C4013: 'memcpy' undefined; assuming extern returning int
+ntos\ndis\ubnei\receive.c(410) : error C2220: warning treated as error - no object file generated
+ntos\ndis\ubnei\link() : error LNK1181: cannot open input file "obj\i386\init.obj"
+ntos\ndis\ubnei\binplace() : error BNP0000: Unable to place file \nt\public\sdk\lib\i386\ubnei.sys - exiting.
+ntos\ndis\madge\driver\link() : error LNK1181: cannot open input file "obj\i386\madge.obj"
+ntos\ndis\madge\driver\binplace() : error BNP0000: Unable to place file W:\nt\public\sdk\lib\i386\MDGMPORT.sys - exiting.
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+ntos\tdi\isn\ipx\up\rip.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\ipx\up\action.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\ipx\up\driver.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\ipx\up\ind.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\ipx\up\mac.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\ipx\up\obj\i386\nwlnkipx.sys() : error LNK1120: 1 unresolved externals
+ntos\tdi\isn\ipx\mp\rip.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\ipx\mp\action.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\ipx\mp\driver.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\ipx\mp\ind.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\ipx\up\binplace() : error BNP0000: Unable to place file obj\i386\nwlnkipx.sys - exiting.
+ntos\tdi\isn\ipx\mp\mac.obj() : error LNK2001: unresolved external symbol _memcmp
+w:\nt\public\sdk\lib\i386\nwlnkipx.sys() : error LNK1120: 1 unresolved externals
+ntos\tdi\isn\spx\up\spxconn.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\spx\up\spxerror.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\spx\up\obj\i386\nwlnkspx.sys() : error LNK1120: 1 unresolved externals
+ntos\tdi\isn\ipx\mp\binplace() : error BNP0000: Unable to place file \nt\public\sdk\lib\i386\nwlnkipx.sys - exiting.
+ntos\tdi\isn\spx\up\binplace() : error BNP0000: Unable to place file obj\i386\nwlnkspx.sys - exiting.
+ntos\tdi\isn\spx\mp\spxconn.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\spx\mp\spxerror.obj() : error LNK2001: unresolved external symbol _memcmp
+w:\nt\public\sdk\lib\i386\nwlnkspx.sys() : error LNK1120: 1 unresolved externals
+ntos\tdi\isn\spx\mp\binplace() : error BNP0000: Unable to place file \nt\public\sdk\lib\i386\nwlnkspx.sys - exiting.
+ntos\tdi\isn\fwd\up\rcvind.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\fwd\up\send.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\fwd\up\obj\i386\nwlnkfwd.sys() : error LNK1120: 1 unresolved externals
+ntos\tdi\isn\nb\up\query.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\nb\up\session.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\nb\up\action.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\nb\up\address.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\nb\up\cache.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\nb\up\datagram.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\nb\up\obj\i386\nwlnknb.sys() : error LNK1120: 1 unresolved externals
+ntos\tdi\isn\nb\mp\query.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\nb\mp\session.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\nb\mp\action.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\nb\mp\address.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\nb\mp\cache.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\nb\mp\datagram.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\fwd\mp\rcvind.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\fwd\mp\send.obj() : error LNK2001: unresolved external symbol _memcmp
+w:\nt\public\sdk\lib\i386\nwlnkfwd.sys() : error LNK1120: 1 unresolved externals
+ntos\tdi\isn\nb\up\binplace() : error BNP0000: Unable to place file obj\i386\nwlnknb.sys - exiting.
+ntos\tdi\isn\fwd\up\binplace() : error BNP0000: Unable to place file obj\i386\nwlnkfwd.sys - exiting.
+w:\nt\public\sdk\lib\i386\nwlnknb.sys() : error LNK1120: 1 unresolved externals
+ntos\tdi\isn\nb\mp\binplace() : error BNP0000: Unable to place file \nt\public\sdk\lib\i386\nwlnknb.sys - exiting.
+ntos\tdi\isn\fwd\mp\binplace() : error BNP0000: Unable to place file \nt\public\sdk\lib\i386\nwlnkfwd.sys - exiting.
+ntos\tdi\isn\rip\up\ripaux.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\rip\up\netbios.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\rip\up\driver.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\rip\up\rcvind.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\rip\up\ripproc.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\rip\mp\ripaux.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\rip\up\ripsend.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\rip\up\obj\i386\nwlnkrip.sys() : error LNK1120: 1 unresolved externals
+ntos\tdi\isn\rip\mp\netbios.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\rip\mp\driver.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\rip\mp\rcvind.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\rip\mp\ripproc.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\isn\rip\mp\ripsend.obj() : error LNK2001: unresolved external symbol _memcmp
+w:\nt\public\sdk\lib\i386\nwlnkrip.sys() : error LNK1120: 1 unresolved externals
+ntos\tdi\isn\rip\up\binplace() : error BNP0000: Unable to place file obj\i386\nwlnkrip.sys - exiting.
+ntos\tdi\isn\rip\mp\binplace() : error BNP0000: Unable to place file \nt\public\sdk\lib\i386\nwlnkrip.sys - exiting.
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+ntos\tdi\nbf\info.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\nbf\link.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\nbf\uframes.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\nbf\action.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\nbf\address.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\nbf\connobj.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\nbf\framesnd.obj() : error LNK2001: unresolved external symbol _memcmp
+w:\nt\public\sdk\lib\i386\nbf.sys() : error LNK1120: 1 unresolved externals
+ntos\tdi\acd\api.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\tdi\acd\obj\i386\rasacd.sys() : error LNK1120: 1 unresolved externals
+ntos\tdi\nbf\binplace() : error BNP0000: Unable to place file \nt\public\sdk\lib\i386\nbf.sys - exiting.
+ntos\tdi\acd\binplace() : error BNP0000: Unable to place file obj\i386\rasacd.sys - exiting.
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+ntos\netbios\address.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\netbios\nb.obj() : error LNK2001: unresolved external symbol _memcmp
+w:\nt\public\sdk\lib\i386\netbios.sys() : error LNK1120: 1 unresolved externals
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+ntos\netbios\binplace() : error BNP0000: Unable to place file \nt\public\sdk\lib\i386\netbios.sys - exiting.
+ntos\afd\daytona\bind.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\afd\daytona\misc.obj() : error LNK2001: unresolved external symbol _memcmp
+w:\nt\public\sdk\lib\i386\afd.sys() : error LNK1120: 1 unresolved externals
+ntos\afd\daytona\binplace() : error BNP0000: Unable to place file W:\nt\public\sdk\lib\i386\afd.sys - exiting.
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+ntos\rdr\daytona\bowser.lib(receive.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\rdr\daytona\bowser.lib(bowipx.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\rdr\daytona\create.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\rdr\daytona\tdi.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\rdr\daytona\bowser.lib(announce.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\rdr\daytona\bowser.lib(bowtdi.obj) : error LNK2001: unresolved external symbol _memcmp
+w:\nt\public\sdk\lib\i386\rdr.sys() : error LNK1120: 1 unresolved externals
+ntos\rdr\daytona\binplace() : error BNP0000: Unable to place file W:\nt\public\sdk\lib\i386\rdr.sys - exiting.
+ntos\cdfs\dirctrl.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\cdfs\fsctrl.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\cdfs\namesup.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\cdfs\strucsup.obj() : error LNK2001: unresolved external symbol _memcmp
+w:\nt\public\sdk\lib\i386\cdfs.sys() : error LNK1120: 1 unresolved externals
+ntos\cdfs\binplace() : error BNP0000: Unable to place file \nt\public\sdk\lib\i386\cdfs.sys - exiting.
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+ntos\srv\daytonau\smbsrch.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\srv\daytonau\blkconn.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\srv\daytonau\blkfile.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\srv\daytonau\info.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\srv\daytonau\ipx.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\srv\daytonau\obj\i386\srv.sys() : error LNK1120: 1 unresolved externals
+ntos\srv\daytonam\smbsrch.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\srv\daytonam\blkconn.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\srv\daytonam\blkfile.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\srv\daytonam\info.obj() : error LNK2001: unresolved external symbol _memcmp
+ntos\srv\daytonam\ipx.obj() : error LNK2001: unresolved external symbol _memcmp
+w:\nt\public\sdk\lib\i386\srv.sys() : error LNK1120: 1 unresolved externals
+ntos\srv\daytonau\binplace() : error BNP0000: Unable to place file obj\i386\srv.sys - exiting.
+ntos\srv\daytonam\binplace() : error BNP0000: Unable to place file W:\nt\public\sdk\lib\i386\srv.sys - exiting.
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+ntos\nbt\nt\up\nbt.lib(hashtbl.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\nbt\nt\up\nbt.lib(inbound.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\nbt\nt\up\nbt.lib(name.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\nbt\nt\up\nbt.lib(parse.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\nbt\nt\up\nbt.lib(nbtutils.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\nbt\nt\up\nbt.lib(hndlrs.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\nbt\nt\up\obj\i386\netbt.sys() : error LNK1120: 1 unresolved externals
+ntos\nbt\nt\mp\nbt.lib(hashtbl.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\nbt\nt\mp\nbt.lib(inbound.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\nbt\nt\mp\nbt.lib(name.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\nbt\nt\mp\nbt.lib(parse.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\nbt\nt\mp\nbt.lib(nbtutils.obj) : error LNK2001: unresolved external symbol _memcmp
+ntos\nbt\nt\mp\nbt.lib(hndlrs.obj) : error LNK2001: unresolved external symbol _memcmp
+w:\nt\public\sdk\lib\i386\netbt.sys() : error LNK1120: 1 unresolved externals
+ntos\nbt\nt\up\binplace() : error BNP0000: Unable to place file obj\i386\netbt.sys - exiting.
+ntos\nbt\nt\mp\binplace() : error BNP0000: Unable to place file \nt\public\sdk\lib\i386\netbt.sys - exiting.
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\version.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make '\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make '\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make '\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make '\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32p.lib'
+NMAKE :  U1073: don't know how to make '\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make '\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32p.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32p.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ole32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make '\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32p.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\version.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\version.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\version.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\version.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+windows\opengl\mcd\server\mcdsrv.obj() : error LNK2001: unresolved external symbol _memcpy
+w:\nt\public\sdk\lib\i386\mcdsrv32.dll() : error LNK1120: 1 unresolved externals
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+windows\opengl\mcd\server\binplace() : error BNP0000: Unable to place file W:\nt\public\sdk\lib\i386\mcdsrv32.dll - exiting.
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\user32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+nw\rdr\ndslogin.obj() : error LNK2001: unresolved external symbol _CBCDecrypt
+nw\rdr\ndslogin.obj() : error LNK2001: unresolved external symbol _RSAPrivate
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+nw\rdr\ndslogin.obj() : error LNK2001: unresolved external symbol _MD2
+nw\rdr\ndslogin.obj() : error LNK2001: unresolved external symbol _GenRandomBytes
+nw\rdr\ndslogin.obj() : error LNK2001: unresolved external symbol _CBCEncrypt
+nw\rdr\ndslogin.obj() : error LNK2001: unresolved external symbol _GenKey8
+nw\rdr\ndslogin.obj() : error LNK2001: unresolved external symbol _RSAPublic
+nw\rdr\ndslogin.obj() : error LNK2001: unresolved external symbol _RSAPack
+nw\rdr\ndslogin.obj() : error LNK2001: unresolved external symbol _RSAGetInputBlockSize
+nw\rdr\ndslogin.obj() : error LNK2001: unresolved external symbol _RSAModMpy
+nw\rdr\ndslogin.obj() : error LNK2001: unresolved external symbol _RSAModExp
+nw\rdr\ndslogin.obj() : error LNK2001: unresolved external symbol _RSAGetModulus
+NMAKE :  U1073: don't know how to make 'W:\nt\Public\Sdk\Lib\i386\kernel32.lib'
+w:\nt\public\sdk\lib\i386\nwrdr.sys() : error LNK1120: 12 unresolved externals
+nw\rdr\binplace() : error BNP0000: Unable to place file \nt\public\sdk\lib\i386\nwrdr.sys - exiting.
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ole32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ole32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ole32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ole32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ole32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\ntdll.lib'
+NMAKE :  U1073: don't know how to make 'W:\nt\public\sdk\lib\i386\kernel32.lib'

@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\jbsmooth.obj \
+    $(_OBJ_DIR)\alpha\jerror.obj \
+    $(_OBJ_DIR)\alpha\jmemmgr.obj \
+    $(_OBJ_DIR)\alpha\jquant1.obj \
+    $(_OBJ_DIR)\alpha\jquant2.obj \
+    $(_OBJ_DIR)\alpha\jutils.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\jbsmooth.obj \
+    $(_OBJ_DIR)\mips\jerror.obj \
+    $(_OBJ_DIR)\mips\jmemmgr.obj \
+    $(_OBJ_DIR)\mips\jquant1.obj \
+    $(_OBJ_DIR)\mips\jquant2.obj \
+    $(_OBJ_DIR)\mips\jutils.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\jbsmooth.obj \
+    $(_OBJ_DIR)\i386\jerror.obj \
+    $(_OBJ_DIR)\i386\jmemmgr.obj \
+    $(_OBJ_DIR)\i386\jquant1.obj \
+    $(_OBJ_DIR)\i386\jquant2.obj \
+    $(_OBJ_DIR)\i386\jutils.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\jbsmooth.obj \
+    $(_OBJ_DIR)\ppc\jerror.obj \
+    $(_OBJ_DIR)\ppc\jmemmgr.obj \
+    $(_OBJ_DIR)\ppc\jquant1.obj \
+    $(_OBJ_DIR)\ppc\jquant2.obj \
+    $(_OBJ_DIR)\ppc\jutils.obj
+
+PASS0_PPC_OBJECTS=
+

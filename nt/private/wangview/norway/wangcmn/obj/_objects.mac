@@ -1,0 +1,60 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\wangcmn.res \
+    $(_OBJ_DIR)\alpha\colorpge.obj \
+    $(_OBJ_DIR)\alpha\comppge.obj \
+    $(_OBJ_DIR)\alpha\editval.obj \
+    $(_OBJ_DIR)\alpha\ftyppge.obj \
+    $(_OBJ_DIR)\alpha\norermap.obj \
+    $(_OBJ_DIR)\alpha\norvarnt.obj \
+    $(_OBJ_DIR)\alpha\pagesht.obj \
+    $(_OBJ_DIR)\alpha\rsltnpge.obj \
+    $(_OBJ_DIR)\alpha\sizepge.obj \
+    $(_OBJ_DIR)\alpha\wangcmn.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\wangcmn.res \
+    $(_OBJ_DIR)\mips\colorpge.obj \
+    $(_OBJ_DIR)\mips\comppge.obj \
+    $(_OBJ_DIR)\mips\editval.obj \
+    $(_OBJ_DIR)\mips\ftyppge.obj \
+    $(_OBJ_DIR)\mips\norermap.obj \
+    $(_OBJ_DIR)\mips\norvarnt.obj \
+    $(_OBJ_DIR)\mips\pagesht.obj \
+    $(_OBJ_DIR)\mips\rsltnpge.obj \
+    $(_OBJ_DIR)\mips\sizepge.obj \
+    $(_OBJ_DIR)\mips\wangcmn.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\wangcmn.res \
+    $(_OBJ_DIR)\i386\colorpge.obj \
+    $(_OBJ_DIR)\i386\comppge.obj \
+    $(_OBJ_DIR)\i386\editval.obj \
+    $(_OBJ_DIR)\i386\ftyppge.obj \
+    $(_OBJ_DIR)\i386\norermap.obj \
+    $(_OBJ_DIR)\i386\norvarnt.obj \
+    $(_OBJ_DIR)\i386\pagesht.obj \
+    $(_OBJ_DIR)\i386\rsltnpge.obj \
+    $(_OBJ_DIR)\i386\sizepge.obj \
+    $(_OBJ_DIR)\i386\wangcmn.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\wangcmn.res \
+    $(_OBJ_DIR)\ppc\colorpge.obj \
+    $(_OBJ_DIR)\ppc\comppge.obj \
+    $(_OBJ_DIR)\ppc\editval.obj \
+    $(_OBJ_DIR)\ppc\ftyppge.obj \
+    $(_OBJ_DIR)\ppc\norermap.obj \
+    $(_OBJ_DIR)\ppc\norvarnt.obj \
+    $(_OBJ_DIR)\ppc\pagesht.obj \
+    $(_OBJ_DIR)\ppc\rsltnpge.obj \
+    $(_OBJ_DIR)\ppc\sizepge.obj \
+    $(_OBJ_DIR)\ppc\wangcmn.obj
+
+PASS0_PPC_OBJECTS=
+

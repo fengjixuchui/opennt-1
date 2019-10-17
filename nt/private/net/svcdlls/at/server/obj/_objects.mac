@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\atdebug.obj \
+    $(_OBJ_DIR)\alpha\atenv.obj \
+    $(_OBJ_DIR)\alpha\atmain.obj \
+    $(_OBJ_DIR)\alpha\atapi.obj \
+    $(_OBJ_DIR)\alpha\atreg.obj \
+    $(_OBJ_DIR)\alpha\atsec.obj \
+    $(_OBJ_DIR)\alpha\attime.obj \
+    $(_OBJ_DIR)\alpha\atsvc_s.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\atdebug.obj \
+    $(_OBJ_DIR)\mips\atenv.obj \
+    $(_OBJ_DIR)\mips\atmain.obj \
+    $(_OBJ_DIR)\mips\atapi.obj \
+    $(_OBJ_DIR)\mips\atreg.obj \
+    $(_OBJ_DIR)\mips\atsec.obj \
+    $(_OBJ_DIR)\mips\attime.obj \
+    $(_OBJ_DIR)\mips\atsvc_s.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\atdebug.obj \
+    $(_OBJ_DIR)\i386\atenv.obj \
+    $(_OBJ_DIR)\i386\atmain.obj \
+    $(_OBJ_DIR)\i386\atapi.obj \
+    $(_OBJ_DIR)\i386\atreg.obj \
+    $(_OBJ_DIR)\i386\atsec.obj \
+    $(_OBJ_DIR)\i386\attime.obj \
+    $(_OBJ_DIR)\i386\atsvc_s.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\atdebug.obj \
+    $(_OBJ_DIR)\ppc\atenv.obj \
+    $(_OBJ_DIR)\ppc\atmain.obj \
+    $(_OBJ_DIR)\ppc\atapi.obj \
+    $(_OBJ_DIR)\ppc\atreg.obj \
+    $(_OBJ_DIR)\ppc\atsec.obj \
+    $(_OBJ_DIR)\ppc\attime.obj \
+    $(_OBJ_DIR)\ppc\atsvc_s.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Sun Oct 13 02:55:31 2019
+/* at Thu Oct 17 15:44:39 2019
  */
 /* Compiler settings for catstg.idl:
     Oicf (OptLev=i2), W1, Zp8, env=Win32, ms_ext, c_ext
@@ -48,7 +48,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: DBStructureDefinitions
- * at Sun Oct 13 02:55:31 2019
+ * at Thu Oct 17 15:44:39 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [auto_handle][unique][uuid] */ 
@@ -996,7 +996,7 @@ extern RPC_IF_HANDLE DBStructureDefinitions_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0072
- * at Sun Oct 13 02:55:31 2019
+ * at Thu Oct 17 15:44:39 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [local] */ 
@@ -1037,7 +1037,7 @@ extern RPC_IF_HANDLE __MIDL__intf_0072_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: ISummaryCatalogStorage
- * at Sun Oct 13 02:55:31 2019
+ * at Thu Oct 17 15:44:39 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -1143,7 +1143,7 @@ void __RPC_STUB ISummaryCatalogStorage_UpdateRows_Stub(
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0073
- * at Sun Oct 13 02:55:31 2019
+ * at Thu Oct 17 15:44:39 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [local] */ 
@@ -1174,7 +1174,7 @@ extern RPC_IF_HANDLE __MIDL__intf_0073_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: ISummaryCatalogStorageView
- * at Sun Oct 13 02:55:31 2019
+ * at Thu Oct 17 15:44:39 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 

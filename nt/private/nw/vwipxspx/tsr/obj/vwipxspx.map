@@ -1,0 +1,22 @@
+
+ Start  Stop   Length Name                   Class
+ 00000H 00000H 00000H RESIDENTSTART          CODE
+ 00000H 000EEH 000EFH RESIDENTCODE           CODE
+ 000F0H 000F0H 00000H RESIDENTDATA           DATA
+ 000F0H 000F0H 00000H RESIDENTEND            DATA
+ 000F0H 001E1H 000F2H INITCODE               INIT
+ 001E2H 00268H 00087H INITDATA               INIT
+ 00270H 0046FH 00200H INITSTACK              STACK
+
+ Origin   Group
+ 0000:0   RESIDENTGROUP
+
+  Address         Publics by Name
+
+ 000F:0000       START
+
+  Address         Publics by Value
+
+ 000F:0000       START
+
+Program entry point at 000F:0000

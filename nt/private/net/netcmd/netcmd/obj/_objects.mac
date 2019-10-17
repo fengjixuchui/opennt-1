@@ -1,0 +1,112 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\netcmd.res \
+    $(_OBJ_DIR)\alpha\accounts.obj \
+    $(_OBJ_DIR)\alpha\config.obj \
+    $(_OBJ_DIR)\alpha\contpaus.obj \
+    $(_OBJ_DIR)\alpha\comp.obj \
+    $(_OBJ_DIR)\alpha\file.obj \
+    $(_OBJ_DIR)\alpha\group.obj \
+    $(_OBJ_DIR)\alpha\main.obj \
+    $(_OBJ_DIR)\alpha\ntalias.obj \
+    $(_OBJ_DIR)\alpha\net.obj \
+    $(_OBJ_DIR)\alpha\os2cmd.obj \
+    $(_OBJ_DIR)\alpha\message.obj \
+    $(_OBJ_DIR)\alpha\print.obj \
+    $(_OBJ_DIR)\alpha\session.obj \
+    $(_OBJ_DIR)\alpha\share.obj \
+    $(_OBJ_DIR)\alpha\start.obj \
+    $(_OBJ_DIR)\alpha\stats.obj \
+    $(_OBJ_DIR)\alpha\stop.obj \
+    $(_OBJ_DIR)\alpha\svcutil.obj \
+    $(_OBJ_DIR)\alpha\time.obj \
+    $(_OBJ_DIR)\alpha\user.obj \
+    $(_OBJ_DIR)\alpha\usertime.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\nwsupp.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\netcmd.res \
+    $(_OBJ_DIR)\mips\accounts.obj \
+    $(_OBJ_DIR)\mips\config.obj \
+    $(_OBJ_DIR)\mips\contpaus.obj \
+    $(_OBJ_DIR)\mips\comp.obj \
+    $(_OBJ_DIR)\mips\file.obj \
+    $(_OBJ_DIR)\mips\group.obj \
+    $(_OBJ_DIR)\mips\main.obj \
+    $(_OBJ_DIR)\mips\ntalias.obj \
+    $(_OBJ_DIR)\mips\net.obj \
+    $(_OBJ_DIR)\mips\os2cmd.obj \
+    $(_OBJ_DIR)\mips\message.obj \
+    $(_OBJ_DIR)\mips\print.obj \
+    $(_OBJ_DIR)\mips\session.obj \
+    $(_OBJ_DIR)\mips\share.obj \
+    $(_OBJ_DIR)\mips\start.obj \
+    $(_OBJ_DIR)\mips\stats.obj \
+    $(_OBJ_DIR)\mips\stop.obj \
+    $(_OBJ_DIR)\mips\svcutil.obj \
+    $(_OBJ_DIR)\mips\time.obj \
+    $(_OBJ_DIR)\mips\user.obj \
+    $(_OBJ_DIR)\mips\usertime.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\nwsupp.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\netcmd.res \
+    $(_OBJ_DIR)\i386\accounts.obj \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\contpaus.obj \
+    $(_OBJ_DIR)\i386\comp.obj \
+    $(_OBJ_DIR)\i386\file.obj \
+    $(_OBJ_DIR)\i386\group.obj \
+    $(_OBJ_DIR)\i386\main.obj \
+    $(_OBJ_DIR)\i386\ntalias.obj \
+    $(_OBJ_DIR)\i386\net.obj \
+    $(_OBJ_DIR)\i386\os2cmd.obj \
+    $(_OBJ_DIR)\i386\message.obj \
+    $(_OBJ_DIR)\i386\print.obj \
+    $(_OBJ_DIR)\i386\session.obj \
+    $(_OBJ_DIR)\i386\share.obj \
+    $(_OBJ_DIR)\i386\start.obj \
+    $(_OBJ_DIR)\i386\stats.obj \
+    $(_OBJ_DIR)\i386\stop.obj \
+    $(_OBJ_DIR)\i386\svcutil.obj \
+    $(_OBJ_DIR)\i386\time.obj \
+    $(_OBJ_DIR)\i386\user.obj \
+    $(_OBJ_DIR)\i386\usertime.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\nwsupp.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\netcmd.res \
+    $(_OBJ_DIR)\ppc\accounts.obj \
+    $(_OBJ_DIR)\ppc\config.obj \
+    $(_OBJ_DIR)\ppc\contpaus.obj \
+    $(_OBJ_DIR)\ppc\comp.obj \
+    $(_OBJ_DIR)\ppc\file.obj \
+    $(_OBJ_DIR)\ppc\group.obj \
+    $(_OBJ_DIR)\ppc\main.obj \
+    $(_OBJ_DIR)\ppc\ntalias.obj \
+    $(_OBJ_DIR)\ppc\net.obj \
+    $(_OBJ_DIR)\ppc\os2cmd.obj \
+    $(_OBJ_DIR)\ppc\message.obj \
+    $(_OBJ_DIR)\ppc\print.obj \
+    $(_OBJ_DIR)\ppc\session.obj \
+    $(_OBJ_DIR)\ppc\share.obj \
+    $(_OBJ_DIR)\ppc\start.obj \
+    $(_OBJ_DIR)\ppc\stats.obj \
+    $(_OBJ_DIR)\ppc\stop.obj \
+    $(_OBJ_DIR)\ppc\svcutil.obj \
+    $(_OBJ_DIR)\ppc\time.obj \
+    $(_OBJ_DIR)\ppc\user.obj \
+    $(_OBJ_DIR)\ppc\usertime.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\nwsupp.obj
+
+PASS0_PPC_OBJECTS=
+

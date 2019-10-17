@@ -1,0 +1,44 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\logview.res \
+    $(_OBJ_DIR)\alpha\logview.obj \
+    $(_OBJ_DIR)\alpha\fvfile.obj \
+    $(_OBJ_DIR)\alpha\fvfind.obj \
+    $(_OBJ_DIR)\alpha\fvinit.obj \
+    $(_OBJ_DIR)\alpha\fvopen.obj \
+    $(_OBJ_DIR)\alpha\fvprint.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\logview.res \
+    $(_OBJ_DIR)\mips\logview.obj \
+    $(_OBJ_DIR)\mips\fvfile.obj \
+    $(_OBJ_DIR)\mips\fvfind.obj \
+    $(_OBJ_DIR)\mips\fvinit.obj \
+    $(_OBJ_DIR)\mips\fvopen.obj \
+    $(_OBJ_DIR)\mips\fvprint.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\logview.res \
+    $(_OBJ_DIR)\i386\logview.obj \
+    $(_OBJ_DIR)\i386\fvfile.obj \
+    $(_OBJ_DIR)\i386\fvfind.obj \
+    $(_OBJ_DIR)\i386\fvinit.obj \
+    $(_OBJ_DIR)\i386\fvopen.obj \
+    $(_OBJ_DIR)\i386\fvprint.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\logview.res \
+    $(_OBJ_DIR)\ppc\logview.obj \
+    $(_OBJ_DIR)\ppc\fvfile.obj \
+    $(_OBJ_DIR)\ppc\fvfind.obj \
+    $(_OBJ_DIR)\ppc\fvinit.obj \
+    $(_OBJ_DIR)\ppc\fvopen.obj \
+    $(_OBJ_DIR)\ppc\fvprint.obj
+
+PASS0_PPC_OBJECTS=
+

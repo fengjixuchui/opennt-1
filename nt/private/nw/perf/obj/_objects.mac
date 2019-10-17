@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\nwperf.res \
+    $(_OBJ_DIR)\alpha\nwperf.obj \
+    $(_OBJ_DIR)\alpha\prfutil.obj \
+    $(_OBJ_DIR)\alpha\nwdata.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\nwperf.res \
+    $(_OBJ_DIR)\mips\nwperf.obj \
+    $(_OBJ_DIR)\mips\prfutil.obj \
+    $(_OBJ_DIR)\mips\nwdata.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\nwperf.res \
+    $(_OBJ_DIR)\i386\nwperf.obj \
+    $(_OBJ_DIR)\i386\prfutil.obj \
+    $(_OBJ_DIR)\i386\nwdata.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\nwperf.res \
+    $(_OBJ_DIR)\ppc\nwperf.obj \
+    $(_OBJ_DIR)\ppc\prfutil.obj \
+    $(_OBJ_DIR)\ppc\nwdata.obj
+
+PASS0_PPC_OBJECTS=
+

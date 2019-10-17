@@ -1,0 +1,68 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\nwwks.res \
+    $(_OBJ_DIR)\alpha\service.obj \
+    $(_OBJ_DIR)\alpha\nwmain.obj \
+    $(_OBJ_DIR)\alpha\address.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\device.obj \
+    $(_OBJ_DIR)\alpha\connect.obj \
+    $(_OBJ_DIR)\alpha\enum.obj \
+    $(_OBJ_DIR)\alpha\credentl.obj \
+    $(_OBJ_DIR)\alpha\queue.obj \
+    $(_OBJ_DIR)\alpha\spool.obj \
+    $(_OBJ_DIR)\alpha\gateway.obj \
+    $(_OBJ_DIR)\alpha\nwwks_s.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\nwwks.res \
+    $(_OBJ_DIR)\mips\service.obj \
+    $(_OBJ_DIR)\mips\nwmain.obj \
+    $(_OBJ_DIR)\mips\address.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\device.obj \
+    $(_OBJ_DIR)\mips\connect.obj \
+    $(_OBJ_DIR)\mips\enum.obj \
+    $(_OBJ_DIR)\mips\credentl.obj \
+    $(_OBJ_DIR)\mips\queue.obj \
+    $(_OBJ_DIR)\mips\spool.obj \
+    $(_OBJ_DIR)\mips\gateway.obj \
+    $(_OBJ_DIR)\mips\nwwks_s.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\nwwks.res \
+    $(_OBJ_DIR)\i386\service.obj \
+    $(_OBJ_DIR)\i386\nwmain.obj \
+    $(_OBJ_DIR)\i386\address.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\device.obj \
+    $(_OBJ_DIR)\i386\connect.obj \
+    $(_OBJ_DIR)\i386\enum.obj \
+    $(_OBJ_DIR)\i386\credentl.obj \
+    $(_OBJ_DIR)\i386\queue.obj \
+    $(_OBJ_DIR)\i386\spool.obj \
+    $(_OBJ_DIR)\i386\gateway.obj \
+    $(_OBJ_DIR)\i386\nwwks_s.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\nwwks.res \
+    $(_OBJ_DIR)\ppc\service.obj \
+    $(_OBJ_DIR)\ppc\nwmain.obj \
+    $(_OBJ_DIR)\ppc\address.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\device.obj \
+    $(_OBJ_DIR)\ppc\connect.obj \
+    $(_OBJ_DIR)\ppc\enum.obj \
+    $(_OBJ_DIR)\ppc\credentl.obj \
+    $(_OBJ_DIR)\ppc\queue.obj \
+    $(_OBJ_DIR)\ppc\spool.obj \
+    $(_OBJ_DIR)\ppc\gateway.obj \
+    $(_OBJ_DIR)\ppc\nwwks_s.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1011,11 +1011,11 @@ The system cannot find the file specified.
 	copy ..\win\*.dll                 stage
 ..\win\dnetapi.dll
 ..\win\mscomstf.dll
-..\win\MSCUISTF.DLL
 ..\win\msdetstf.dll
 ..\win\msinsstf.dll
 ..\win\msshlstf.dll
 ..\win\msuilstf.dll
+..\win\MSCUISTF.DLL
         7 file(s) copied.
 	copy ..\win\*.exe                 stage
 ..\win\setup.exe
@@ -1090,7 +1090,7 @@ W:\nt\public\sdk\rpc16\dos\dll\rpc16dg6.rpc
 	cd stage
 	..\dsklayt2 rpcsdk.lyt rpcsdk.inf /k12 /f /d ..\sdk.new /v /w 1 /c .\comp
 Reading layout file
-Starting layout: 10/13/19 09:53:01
+Starting layout: 10/17/19 06:01:06
 Compressing files
 Compressing file .\dnetapi.dll
 System command: compress.exe \2 \3 > NUL
@@ -1181,7 +1181,7 @@ Laying out wrpc.h
 Laying out wrpc.lib
 Laying out wrpcndr.lib
 System command: compress.exe dummy.___ \3 > NUL
-Compressed dummy INF file size is 905
+Compressed dummy INF file size is 903
 Assigning drpcndr.lib to disk with ID = 1
 Assigning drpc.lib to disk with ID = 1
 Assigning mrpc.lib to disk with ID = 1
@@ -1203,18 +1203,17 @@ Assigning drpc.h to disk with ID = 1
 Assigning wrpc.h to disk with ID = 1
 Creating destination files
 System command: compress.exe rpcsdk.inf ..\sdk.new\disk1\rpcsdk.in_ > NUL
-Ending layout: 10/13/19 09:53:06
+Ending layout: 10/17/19 06:01:10
 	cd ..
 	md W:\nt\public\sdk\rpc16\sdk
 A subdirectory or file W:\nt\public\sdk\rpc16\sdk already exists.
 	xcopy /y /s sdk.new\disk1 W:\nt\public\sdk\rpc16\sdk
+sdk.new\disk1\_MSTEST.EXE
 sdk.new\disk1\DNETAPI.DL_
 sdk.new\disk1\DRPC.H_
 sdk.new\disk1\DRPC.LI_
 sdk.new\disk1\DRPCNDR.LI_
-sdk.new\disk1\MIDLES.H_
-sdk.new\disk1\MRPC.H_
-sdk.new\disk1\MRPC.LI_
+sdk.new\disk1\UUIDGEN.EX_
 sdk.new\disk1\MSCOMSTF.DLL
 sdk.new\disk1\MSCUISTF.DL_
 sdk.new\disk1\MSDETECT.INC
@@ -1226,20 +1225,21 @@ sdk.new\disk1\README.TXT
 sdk.new\disk1\RPCDCE.H_
 sdk.new\disk1\RPCDCEP.H_
 sdk.new\disk1\RPCERR.H_
-sdk.new\disk1\RPCMAC.H_
+sdk.new\disk1\MIDLES.H_
 sdk.new\disk1\RPCNDR.H_
 sdk.new\disk1\RPCNSI.H_
 sdk.new\disk1\RPCNSIP.H_
-sdk.new\disk1\rpcsdk.in_
 sdk.new\disk1\RPCSDK.MST
 sdk.new\disk1\RPCX86.H_
 sdk.new\disk1\SETUP.EXE
 sdk.new\disk1\SETUP.LST
 sdk.new\disk1\SETUPAPI.INC
 sdk.new\disk1\SETUPRUN.LST
-sdk.new\disk1\UUIDGEN.EX_
 sdk.new\disk1\WRPC.H_
 sdk.new\disk1\WRPC.LI_
 sdk.new\disk1\WRPCNDR.LI_
-sdk.new\disk1\_MSTEST.EXE
+sdk.new\disk1\MRPC.H_
+sdk.new\disk1\RPCMAC.H_
+sdk.new\disk1\MRPC.LI_
+sdk.new\disk1\rpcsdk.in_
 34 File(s) copied

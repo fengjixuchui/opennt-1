@@ -1,0 +1,148 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\oidis400.res \
+    $(_OBJ_DIR)\alpha\anbitmap.obj \
+    $(_OBJ_DIR)\alpha\annot.obj \
+    $(_OBJ_DIR)\alpha\antext.obj \
+    $(_OBJ_DIR)\alpha\assoc.obj \
+    $(_OBJ_DIR)\alpha\cache.obj \
+    $(_OBJ_DIR)\alpha\ccitt.obj \
+    $(_OBJ_DIR)\alpha\clear.obj \
+    $(_OBJ_DIR)\alpha\convert.obj \
+    $(_OBJ_DIR)\alpha\convtype.obj \
+    $(_OBJ_DIR)\alpha\copy.obj \
+    $(_OBJ_DIR)\alpha\disp.obj \
+    $(_OBJ_DIR)\alpha\export32.obj \
+    $(_OBJ_DIR)\alpha\getparm.obj \
+    $(_OBJ_DIR)\alpha\libmain.obj \
+    $(_OBJ_DIR)\alpha\linetorl.obj \
+    $(_OBJ_DIR)\alpha\memory.obj \
+    $(_OBJ_DIR)\alpha\merge.obj \
+    $(_OBJ_DIR)\alpha\oilog.obj \
+    $(_OBJ_DIR)\alpha\open.obj \
+    $(_OBJ_DIR)\alpha\orient.obj \
+    $(_OBJ_DIR)\alpha\privprt.obj \
+    $(_OBJ_DIR)\alpha\read.obj \
+    $(_OBJ_DIR)\alpha\repaint.obj \
+    $(_OBJ_DIR)\alpha\save.obj \
+    $(_OBJ_DIR)\alpha\scale.obj \
+    $(_OBJ_DIR)\alpha\scalebit.obj \
+    $(_OBJ_DIR)\alpha\scbwdec.obj \
+    $(_OBJ_DIR)\alpha\scroll.obj \
+    $(_OBJ_DIR)\alpha\seek.obj \
+    $(_OBJ_DIR)\alpha\setparm.obj \
+    $(_OBJ_DIR)\alpha\startop.obj \
+    $(_OBJ_DIR)\alpha\write.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\oidis400.res \
+    $(_OBJ_DIR)\mips\anbitmap.obj \
+    $(_OBJ_DIR)\mips\annot.obj \
+    $(_OBJ_DIR)\mips\antext.obj \
+    $(_OBJ_DIR)\mips\assoc.obj \
+    $(_OBJ_DIR)\mips\cache.obj \
+    $(_OBJ_DIR)\mips\ccitt.obj \
+    $(_OBJ_DIR)\mips\clear.obj \
+    $(_OBJ_DIR)\mips\convert.obj \
+    $(_OBJ_DIR)\mips\convtype.obj \
+    $(_OBJ_DIR)\mips\copy.obj \
+    $(_OBJ_DIR)\mips\disp.obj \
+    $(_OBJ_DIR)\mips\export32.obj \
+    $(_OBJ_DIR)\mips\getparm.obj \
+    $(_OBJ_DIR)\mips\libmain.obj \
+    $(_OBJ_DIR)\mips\linetorl.obj \
+    $(_OBJ_DIR)\mips\memory.obj \
+    $(_OBJ_DIR)\mips\merge.obj \
+    $(_OBJ_DIR)\mips\oilog.obj \
+    $(_OBJ_DIR)\mips\open.obj \
+    $(_OBJ_DIR)\mips\orient.obj \
+    $(_OBJ_DIR)\mips\privprt.obj \
+    $(_OBJ_DIR)\mips\read.obj \
+    $(_OBJ_DIR)\mips\repaint.obj \
+    $(_OBJ_DIR)\mips\save.obj \
+    $(_OBJ_DIR)\mips\scale.obj \
+    $(_OBJ_DIR)\mips\scalebit.obj \
+    $(_OBJ_DIR)\mips\scbwdec.obj \
+    $(_OBJ_DIR)\mips\scroll.obj \
+    $(_OBJ_DIR)\mips\seek.obj \
+    $(_OBJ_DIR)\mips\setparm.obj \
+    $(_OBJ_DIR)\mips\startop.obj \
+    $(_OBJ_DIR)\mips\write.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\oidis400.res \
+    $(_OBJ_DIR)\i386\anbitmap.obj \
+    $(_OBJ_DIR)\i386\annot.obj \
+    $(_OBJ_DIR)\i386\antext.obj \
+    $(_OBJ_DIR)\i386\assoc.obj \
+    $(_OBJ_DIR)\i386\cache.obj \
+    $(_OBJ_DIR)\i386\ccitt.obj \
+    $(_OBJ_DIR)\i386\clear.obj \
+    $(_OBJ_DIR)\i386\convert.obj \
+    $(_OBJ_DIR)\i386\convtype.obj \
+    $(_OBJ_DIR)\i386\copy.obj \
+    $(_OBJ_DIR)\i386\disp.obj \
+    $(_OBJ_DIR)\i386\export32.obj \
+    $(_OBJ_DIR)\i386\getparm.obj \
+    $(_OBJ_DIR)\i386\libmain.obj \
+    $(_OBJ_DIR)\i386\linetorl.obj \
+    $(_OBJ_DIR)\i386\memory.obj \
+    $(_OBJ_DIR)\i386\merge.obj \
+    $(_OBJ_DIR)\i386\oilog.obj \
+    $(_OBJ_DIR)\i386\open.obj \
+    $(_OBJ_DIR)\i386\orient.obj \
+    $(_OBJ_DIR)\i386\privprt.obj \
+    $(_OBJ_DIR)\i386\read.obj \
+    $(_OBJ_DIR)\i386\repaint.obj \
+    $(_OBJ_DIR)\i386\save.obj \
+    $(_OBJ_DIR)\i386\scale.obj \
+    $(_OBJ_DIR)\i386\scalebit.obj \
+    $(_OBJ_DIR)\i386\scbwdec.obj \
+    $(_OBJ_DIR)\i386\scroll.obj \
+    $(_OBJ_DIR)\i386\seek.obj \
+    $(_OBJ_DIR)\i386\setparm.obj \
+    $(_OBJ_DIR)\i386\startop.obj \
+    $(_OBJ_DIR)\i386\write.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\oidis400.res \
+    $(_OBJ_DIR)\ppc\anbitmap.obj \
+    $(_OBJ_DIR)\ppc\annot.obj \
+    $(_OBJ_DIR)\ppc\antext.obj \
+    $(_OBJ_DIR)\ppc\assoc.obj \
+    $(_OBJ_DIR)\ppc\cache.obj \
+    $(_OBJ_DIR)\ppc\ccitt.obj \
+    $(_OBJ_DIR)\ppc\clear.obj \
+    $(_OBJ_DIR)\ppc\convert.obj \
+    $(_OBJ_DIR)\ppc\convtype.obj \
+    $(_OBJ_DIR)\ppc\copy.obj \
+    $(_OBJ_DIR)\ppc\disp.obj \
+    $(_OBJ_DIR)\ppc\export32.obj \
+    $(_OBJ_DIR)\ppc\getparm.obj \
+    $(_OBJ_DIR)\ppc\libmain.obj \
+    $(_OBJ_DIR)\ppc\linetorl.obj \
+    $(_OBJ_DIR)\ppc\memory.obj \
+    $(_OBJ_DIR)\ppc\merge.obj \
+    $(_OBJ_DIR)\ppc\oilog.obj \
+    $(_OBJ_DIR)\ppc\open.obj \
+    $(_OBJ_DIR)\ppc\orient.obj \
+    $(_OBJ_DIR)\ppc\privprt.obj \
+    $(_OBJ_DIR)\ppc\read.obj \
+    $(_OBJ_DIR)\ppc\repaint.obj \
+    $(_OBJ_DIR)\ppc\save.obj \
+    $(_OBJ_DIR)\ppc\scale.obj \
+    $(_OBJ_DIR)\ppc\scalebit.obj \
+    $(_OBJ_DIR)\ppc\scbwdec.obj \
+    $(_OBJ_DIR)\ppc\scroll.obj \
+    $(_OBJ_DIR)\ppc\seek.obj \
+    $(_OBJ_DIR)\ppc\setparm.obj \
+    $(_OBJ_DIR)\ppc\startop.obj \
+    $(_OBJ_DIR)\ppc\write.obj
+
+PASS0_PPC_OBJECTS=
+

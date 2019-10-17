@@ -15,8 +15,8 @@ cl -nologo -Ii386\ -I. -I..\..\inc -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc
 cl -nologo -Ii386\ -I. -I..\..\inc -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG     /c /Zel /Zp8 /Gy  /W3 /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  ..\austub.c
 austub.c
 austub.c
-	lib -out:W:\nt\public\sdk\lib\i386\lsadll.lib -debugtype:cv  -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 -nodefaultlib -machine:i386 @W:\tmp\nma03832.
-	lib -out:W:\nt\public\sdk\lib\i386\lsakrnlp.lib -debugtype:cv  -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 -nodefaultlib -machine:i386 @W:\tmp\nma03476.
+	lib -out:W:\nt\public\sdk\lib\i386\lsakrnlp.lib -debugtype:cv  -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 -nodefaultlib -machine:i386 @W:\tmp\nma03008.
+	lib -out:W:\nt\public\sdk\lib\i386\lsadll.lib -debugtype:cv  -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 -nodefaultlib -machine:i386 @W:\tmp\nma01480.
 Microsoft (R) 32-Bit Library Manager Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -41,12 +41,12 @@ Linking w:\nt\private\lsa\msprivs directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 Linking w:\nt\private\lsa\msv1_0 directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	link -out:obj\i386\lsass.exe -machine:i386 @W:\tmp\nma02900.
 
 Stop. 
-	link -out:obj\i386\lsass.exe -machine:i386 @W:\tmp\nma00244.
 Linking w:\nt\private\lsa\crypt\dll directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	link -out:W:\nt\public\sdk\lib\i386\ksecdd.sys -machine:i386 @W:\tmp\nma02504.
+	link -out:W:\nt\public\sdk\lib\i386\ksecdd.sys -machine:i386 @W:\tmp\nma03460.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -125,7 +125,7 @@ W:\nt\public\sdk\lib\i386\samlib.lib
 W:\nt\public\sdk\lib\i386\samsrv.lib 
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\lsass.exe
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\ksecdd.sys
-	link -out:W:\nt\public\sdk\lib\i386\msv1_0.dll -machine:i386 @W:\tmp\nma02240.
+	link -out:W:\nt\public\sdk\lib\i386\msv1_0.dll -machine:i386 @W:\tmp\nma02720.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -175,7 +175,7 @@ Stop.
 
 Stop. 
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\msv1_0.dll
-	link -out:obj\i386\lsasrv.dll -machine:i386 @W:\tmp\nma01548.
+	link -out:obj\i386\lsasrv.dll -machine:i386 @W:\tmp\nma02824.
 
 Stop. 
 

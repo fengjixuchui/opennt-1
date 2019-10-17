@@ -1,0 +1,20 @@
+ALPHA_OBJECTS=
+
+PASS0_ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\iedit.tlb
+
+MIPS_OBJECTS=
+
+PASS0_MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\iedit.tlb
+
+386_OBJECTS=
+
+PASS0_386_OBJECTS= \
+    $(_OBJ_DIR)\i386\iedit.tlb
+
+PPC_OBJECTS=
+
+PASS0_PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\iedit.tlb
+

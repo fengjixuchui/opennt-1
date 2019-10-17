@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\fpnwclnt.res \
+    $(_OBJ_DIR)\alpha\encrypt.obj \
+    $(_OBJ_DIR)\alpha\logon.obj \
+    $(_OBJ_DIR)\alpha\ncpbind.obj \
+    $(_OBJ_DIR)\alpha\ncpstub.obj \
+    $(_OBJ_DIR)\alpha\ncpsvc_c.obj \
+    $(_OBJ_DIR)\alpha\notify.obj \
+    $(_OBJ_DIR)\alpha\nwsutil.obj \
+    $(_OBJ_DIR)\alpha\usrprop.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\fpnwclnt.res \
+    $(_OBJ_DIR)\mips\encrypt.obj \
+    $(_OBJ_DIR)\mips\logon.obj \
+    $(_OBJ_DIR)\mips\ncpbind.obj \
+    $(_OBJ_DIR)\mips\ncpstub.obj \
+    $(_OBJ_DIR)\mips\ncpsvc_c.obj \
+    $(_OBJ_DIR)\mips\notify.obj \
+    $(_OBJ_DIR)\mips\nwsutil.obj \
+    $(_OBJ_DIR)\mips\usrprop.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\fpnwclnt.res \
+    $(_OBJ_DIR)\i386\encrypt.obj \
+    $(_OBJ_DIR)\i386\logon.obj \
+    $(_OBJ_DIR)\i386\ncpbind.obj \
+    $(_OBJ_DIR)\i386\ncpstub.obj \
+    $(_OBJ_DIR)\i386\ncpsvc_c.obj \
+    $(_OBJ_DIR)\i386\notify.obj \
+    $(_OBJ_DIR)\i386\nwsutil.obj \
+    $(_OBJ_DIR)\i386\usrprop.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\fpnwclnt.res \
+    $(_OBJ_DIR)\ppc\encrypt.obj \
+    $(_OBJ_DIR)\ppc\logon.obj \
+    $(_OBJ_DIR)\ppc\ncpbind.obj \
+    $(_OBJ_DIR)\ppc\ncpstub.obj \
+    $(_OBJ_DIR)\ppc\ncpsvc_c.obj \
+    $(_OBJ_DIR)\ppc\notify.obj \
+    $(_OBJ_DIR)\ppc\nwsutil.obj \
+    $(_OBJ_DIR)\ppc\usrprop.obj
+
+PASS0_PPC_OBJECTS=
+

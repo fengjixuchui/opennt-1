@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\atstub.obj \
+    $(_OBJ_DIR)\alpha\atbind.obj \
+    $(_OBJ_DIR)\alpha\atsvc_c.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\atstub.obj \
+    $(_OBJ_DIR)\mips\atbind.obj \
+    $(_OBJ_DIR)\mips\atsvc_c.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\atstub.obj \
+    $(_OBJ_DIR)\i386\atbind.obj \
+    $(_OBJ_DIR)\i386\atsvc_c.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\atstub.obj \
+    $(_OBJ_DIR)\ppc\atbind.obj \
+    $(_OBJ_DIR)\ppc\atsvc_c.obj
+
+PASS0_PPC_OBJECTS=
+

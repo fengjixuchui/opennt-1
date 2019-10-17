@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Sun Oct 13 03:44:09 2019
+/* at Thu Oct 17 16:25:10 2019
  */
 /* Compiler settings for lsarpc.idl, lsacli.acf:
     Oi (OptLev=i0), W1, Zp8, env=Win32, ms_ext, c_ext, oldnames

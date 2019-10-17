@@ -1,0 +1,56 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\oissq400.res \
+    $(_OBJ_DIR)\alpha\destcom.obj \
+    $(_OBJ_DIR)\alpha\oissq400.obj \
+    $(_OBJ_DIR)\alpha\scancomm.obj \
+    $(_OBJ_DIR)\alpha\scandest.obj \
+    $(_OBJ_DIR)\alpha\scanfile.obj \
+    $(_OBJ_DIR)\alpha\scanmisc.obj \
+    $(_OBJ_DIR)\alpha\scanpaus.obj \
+    $(_OBJ_DIR)\alpha\scanstat.obj \
+    $(_OBJ_DIR)\alpha\twainif.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\oissq400.res \
+    $(_OBJ_DIR)\mips\destcom.obj \
+    $(_OBJ_DIR)\mips\oissq400.obj \
+    $(_OBJ_DIR)\mips\scancomm.obj \
+    $(_OBJ_DIR)\mips\scandest.obj \
+    $(_OBJ_DIR)\mips\scanfile.obj \
+    $(_OBJ_DIR)\mips\scanmisc.obj \
+    $(_OBJ_DIR)\mips\scanpaus.obj \
+    $(_OBJ_DIR)\mips\scanstat.obj \
+    $(_OBJ_DIR)\mips\twainif.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\oissq400.res \
+    $(_OBJ_DIR)\i386\destcom.obj \
+    $(_OBJ_DIR)\i386\oissq400.obj \
+    $(_OBJ_DIR)\i386\scancomm.obj \
+    $(_OBJ_DIR)\i386\scandest.obj \
+    $(_OBJ_DIR)\i386\scanfile.obj \
+    $(_OBJ_DIR)\i386\scanmisc.obj \
+    $(_OBJ_DIR)\i386\scanpaus.obj \
+    $(_OBJ_DIR)\i386\scanstat.obj \
+    $(_OBJ_DIR)\i386\twainif.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\oissq400.res \
+    $(_OBJ_DIR)\ppc\destcom.obj \
+    $(_OBJ_DIR)\ppc\oissq400.obj \
+    $(_OBJ_DIR)\ppc\scancomm.obj \
+    $(_OBJ_DIR)\ppc\scandest.obj \
+    $(_OBJ_DIR)\ppc\scanfile.obj \
+    $(_OBJ_DIR)\ppc\scanmisc.obj \
+    $(_OBJ_DIR)\ppc\scanpaus.obj \
+    $(_OBJ_DIR)\ppc\scanstat.obj \
+    $(_OBJ_DIR)\ppc\twainif.obj
+
+PASS0_PPC_OBJECTS=
+

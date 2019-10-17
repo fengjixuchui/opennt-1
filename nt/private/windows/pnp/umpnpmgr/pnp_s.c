@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Sun Oct 13 04:21:24 2019
+/* at Thu Oct 17 17:23:57 2019
  */
 /* Compiler settings for pnp.idl:
     Os (OptLev=s), W1, Zp8, env=Win32, ms_ext, c_ext, oldnames

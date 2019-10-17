@@ -1,0 +1,100 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\msncdet.res \
+    $(_OBJ_DIR)\alpha\msncdet.obj \
+    $(_OBJ_DIR)\alpha\det1000.obj \
+    $(_OBJ_DIR)\alpha\det2000.obj \
+    $(_OBJ_DIR)\alpha\detelkii.obj \
+    $(_OBJ_DIR)\alpha\detelnk3.obj \
+    $(_OBJ_DIR)\alpha\detlance.obj \
+    $(_OBJ_DIR)\alpha\detwd.obj \
+    $(_OBJ_DIR)\alpha\detibm.obj \
+    $(_OBJ_DIR)\alpha\detmca.obj \
+    $(_OBJ_DIR)\alpha\deteisa.obj \
+    $(_OBJ_DIR)\alpha\detpci.obj \
+    $(_OBJ_DIR)\alpha\detub.obj \
+    $(_OBJ_DIR)\alpha\detprtn.obj \
+    $(_OBJ_DIR)\alpha\detelk16.obj \
+    $(_OBJ_DIR)\alpha\detee16.obj \
+    $(_OBJ_DIR)\alpha\detmips.obj \
+    $(_OBJ_DIR)\alpha\detother.obj \
+    $(_OBJ_DIR)\alpha\dettr162.obj \
+    $(_OBJ_DIR)\alpha\detpcmc.obj \
+    $(_OBJ_DIR)\alpha\detepro.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\msncdet.res \
+    $(_OBJ_DIR)\mips\msncdet.obj \
+    $(_OBJ_DIR)\mips\det1000.obj \
+    $(_OBJ_DIR)\mips\det2000.obj \
+    $(_OBJ_DIR)\mips\detelkii.obj \
+    $(_OBJ_DIR)\mips\detelnk3.obj \
+    $(_OBJ_DIR)\mips\detlance.obj \
+    $(_OBJ_DIR)\mips\detwd.obj \
+    $(_OBJ_DIR)\mips\detibm.obj \
+    $(_OBJ_DIR)\mips\detmca.obj \
+    $(_OBJ_DIR)\mips\deteisa.obj \
+    $(_OBJ_DIR)\mips\detpci.obj \
+    $(_OBJ_DIR)\mips\detub.obj \
+    $(_OBJ_DIR)\mips\detprtn.obj \
+    $(_OBJ_DIR)\mips\detelk16.obj \
+    $(_OBJ_DIR)\mips\detee16.obj \
+    $(_OBJ_DIR)\mips\detmips.obj \
+    $(_OBJ_DIR)\mips\detother.obj \
+    $(_OBJ_DIR)\mips\dettr162.obj \
+    $(_OBJ_DIR)\mips\detpcmc.obj \
+    $(_OBJ_DIR)\mips\detepro.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\msncdet.res \
+    $(_OBJ_DIR)\i386\msncdet.obj \
+    $(_OBJ_DIR)\i386\det1000.obj \
+    $(_OBJ_DIR)\i386\det2000.obj \
+    $(_OBJ_DIR)\i386\detelkii.obj \
+    $(_OBJ_DIR)\i386\detelnk3.obj \
+    $(_OBJ_DIR)\i386\detlance.obj \
+    $(_OBJ_DIR)\i386\detwd.obj \
+    $(_OBJ_DIR)\i386\detibm.obj \
+    $(_OBJ_DIR)\i386\detmca.obj \
+    $(_OBJ_DIR)\i386\deteisa.obj \
+    $(_OBJ_DIR)\i386\detpci.obj \
+    $(_OBJ_DIR)\i386\detub.obj \
+    $(_OBJ_DIR)\i386\detprtn.obj \
+    $(_OBJ_DIR)\i386\detelk16.obj \
+    $(_OBJ_DIR)\i386\detee16.obj \
+    $(_OBJ_DIR)\i386\detmips.obj \
+    $(_OBJ_DIR)\i386\detother.obj \
+    $(_OBJ_DIR)\i386\dettr162.obj \
+    $(_OBJ_DIR)\i386\detpcmc.obj \
+    $(_OBJ_DIR)\i386\detepro.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\msncdet.res \
+    $(_OBJ_DIR)\ppc\msncdet.obj \
+    $(_OBJ_DIR)\ppc\det1000.obj \
+    $(_OBJ_DIR)\ppc\det2000.obj \
+    $(_OBJ_DIR)\ppc\detelkii.obj \
+    $(_OBJ_DIR)\ppc\detelnk3.obj \
+    $(_OBJ_DIR)\ppc\detlance.obj \
+    $(_OBJ_DIR)\ppc\detwd.obj \
+    $(_OBJ_DIR)\ppc\detibm.obj \
+    $(_OBJ_DIR)\ppc\detmca.obj \
+    $(_OBJ_DIR)\ppc\deteisa.obj \
+    $(_OBJ_DIR)\ppc\detpci.obj \
+    $(_OBJ_DIR)\ppc\detub.obj \
+    $(_OBJ_DIR)\ppc\detprtn.obj \
+    $(_OBJ_DIR)\ppc\detelk16.obj \
+    $(_OBJ_DIR)\ppc\detee16.obj \
+    $(_OBJ_DIR)\ppc\detmips.obj \
+    $(_OBJ_DIR)\ppc\detother.obj \
+    $(_OBJ_DIR)\ppc\dettr162.obj \
+    $(_OBJ_DIR)\ppc\detpcmc.obj \
+    $(_OBJ_DIR)\ppc\detepro.obj
+
+PASS0_PPC_OBJECTS=
+

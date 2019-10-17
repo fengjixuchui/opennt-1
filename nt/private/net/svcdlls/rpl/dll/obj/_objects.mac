@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\ether.obj \
+    $(_OBJ_DIR)\alpha\emulator.obj \
+    $(_OBJ_DIR)\alpha\buffer.obj \
+    $(_OBJ_DIR)\alpha\fdr.obj \
+    $(_OBJ_DIR)\alpha\find.obj \
+    $(_OBJ_DIR)\alpha\found.obj \
+    $(_OBJ_DIR)\alpha\sfr.obj \
+    $(_OBJ_DIR)\alpha\report.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\ether.obj \
+    $(_OBJ_DIR)\mips\emulator.obj \
+    $(_OBJ_DIR)\mips\buffer.obj \
+    $(_OBJ_DIR)\mips\fdr.obj \
+    $(_OBJ_DIR)\mips\find.obj \
+    $(_OBJ_DIR)\mips\found.obj \
+    $(_OBJ_DIR)\mips\sfr.obj \
+    $(_OBJ_DIR)\mips\report.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\ether.obj \
+    $(_OBJ_DIR)\i386\emulator.obj \
+    $(_OBJ_DIR)\i386\buffer.obj \
+    $(_OBJ_DIR)\i386\fdr.obj \
+    $(_OBJ_DIR)\i386\find.obj \
+    $(_OBJ_DIR)\i386\found.obj \
+    $(_OBJ_DIR)\i386\sfr.obj \
+    $(_OBJ_DIR)\i386\report.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\ether.obj \
+    $(_OBJ_DIR)\ppc\emulator.obj \
+    $(_OBJ_DIR)\ppc\buffer.obj \
+    $(_OBJ_DIR)\ppc\fdr.obj \
+    $(_OBJ_DIR)\ppc\find.obj \
+    $(_OBJ_DIR)\ppc\found.obj \
+    $(_OBJ_DIR)\ppc\sfr.obj \
+    $(_OBJ_DIR)\ppc\report.obj
+
+PASS0_PPC_OBJECTS=
+

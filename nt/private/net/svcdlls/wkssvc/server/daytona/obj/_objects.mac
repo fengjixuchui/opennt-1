@@ -1,0 +1,100 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\wkssvc.res \
+    $(_OBJ_DIR)\alpha\wsmain.obj \
+    $(_OBJ_DIR)\alpha\wksta.obj \
+    $(_OBJ_DIR)\alpha\user.obj \
+    $(_OBJ_DIR)\alpha\wsdevice.obj \
+    $(_OBJ_DIR)\alpha\wsutil.obj \
+    $(_OBJ_DIR)\alpha\wsconfig.obj \
+    $(_OBJ_DIR)\alpha\useaddel.obj \
+    $(_OBJ_DIR)\alpha\usegenum.obj \
+    $(_OBJ_DIR)\alpha\useutil.obj \
+    $(_OBJ_DIR)\alpha\message.obj \
+    $(_OBJ_DIR)\alpha\wssend.obj \
+    $(_OBJ_DIR)\alpha\msgutil.obj \
+    $(_OBJ_DIR)\alpha\wssec.obj \
+    $(_OBJ_DIR)\alpha\wslsa.obj \
+    $(_OBJ_DIR)\alpha\wsstats.obj \
+    $(_OBJ_DIR)\alpha\wslogon.obj \
+    $(_OBJ_DIR)\alpha\wsdfs.obj \
+    $(_OBJ_DIR)\alpha\dominfo.obj \
+    $(_OBJ_DIR)\alpha\dfsmrshl.obj \
+    $(_OBJ_DIR)\alpha\wkssvc_s.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\wkssvc.res \
+    $(_OBJ_DIR)\mips\wsmain.obj \
+    $(_OBJ_DIR)\mips\wksta.obj \
+    $(_OBJ_DIR)\mips\user.obj \
+    $(_OBJ_DIR)\mips\wsdevice.obj \
+    $(_OBJ_DIR)\mips\wsutil.obj \
+    $(_OBJ_DIR)\mips\wsconfig.obj \
+    $(_OBJ_DIR)\mips\useaddel.obj \
+    $(_OBJ_DIR)\mips\usegenum.obj \
+    $(_OBJ_DIR)\mips\useutil.obj \
+    $(_OBJ_DIR)\mips\message.obj \
+    $(_OBJ_DIR)\mips\wssend.obj \
+    $(_OBJ_DIR)\mips\msgutil.obj \
+    $(_OBJ_DIR)\mips\wssec.obj \
+    $(_OBJ_DIR)\mips\wslsa.obj \
+    $(_OBJ_DIR)\mips\wsstats.obj \
+    $(_OBJ_DIR)\mips\wslogon.obj \
+    $(_OBJ_DIR)\mips\wsdfs.obj \
+    $(_OBJ_DIR)\mips\dominfo.obj \
+    $(_OBJ_DIR)\mips\dfsmrshl.obj \
+    $(_OBJ_DIR)\mips\wkssvc_s.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\wkssvc.res \
+    $(_OBJ_DIR)\i386\wsmain.obj \
+    $(_OBJ_DIR)\i386\wksta.obj \
+    $(_OBJ_DIR)\i386\user.obj \
+    $(_OBJ_DIR)\i386\wsdevice.obj \
+    $(_OBJ_DIR)\i386\wsutil.obj \
+    $(_OBJ_DIR)\i386\wsconfig.obj \
+    $(_OBJ_DIR)\i386\useaddel.obj \
+    $(_OBJ_DIR)\i386\usegenum.obj \
+    $(_OBJ_DIR)\i386\useutil.obj \
+    $(_OBJ_DIR)\i386\message.obj \
+    $(_OBJ_DIR)\i386\wssend.obj \
+    $(_OBJ_DIR)\i386\msgutil.obj \
+    $(_OBJ_DIR)\i386\wssec.obj \
+    $(_OBJ_DIR)\i386\wslsa.obj \
+    $(_OBJ_DIR)\i386\wsstats.obj \
+    $(_OBJ_DIR)\i386\wslogon.obj \
+    $(_OBJ_DIR)\i386\wsdfs.obj \
+    $(_OBJ_DIR)\i386\dominfo.obj \
+    $(_OBJ_DIR)\i386\dfsmrshl.obj \
+    $(_OBJ_DIR)\i386\wkssvc_s.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\wkssvc.res \
+    $(_OBJ_DIR)\ppc\wsmain.obj \
+    $(_OBJ_DIR)\ppc\wksta.obj \
+    $(_OBJ_DIR)\ppc\user.obj \
+    $(_OBJ_DIR)\ppc\wsdevice.obj \
+    $(_OBJ_DIR)\ppc\wsutil.obj \
+    $(_OBJ_DIR)\ppc\wsconfig.obj \
+    $(_OBJ_DIR)\ppc\useaddel.obj \
+    $(_OBJ_DIR)\ppc\usegenum.obj \
+    $(_OBJ_DIR)\ppc\useutil.obj \
+    $(_OBJ_DIR)\ppc\message.obj \
+    $(_OBJ_DIR)\ppc\wssend.obj \
+    $(_OBJ_DIR)\ppc\msgutil.obj \
+    $(_OBJ_DIR)\ppc\wssec.obj \
+    $(_OBJ_DIR)\ppc\wslsa.obj \
+    $(_OBJ_DIR)\ppc\wsstats.obj \
+    $(_OBJ_DIR)\ppc\wslogon.obj \
+    $(_OBJ_DIR)\ppc\wsdfs.obj \
+    $(_OBJ_DIR)\ppc\dominfo.obj \
+    $(_OBJ_DIR)\ppc\dfsmrshl.obj \
+    $(_OBJ_DIR)\ppc\wkssvc_s.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,152 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\abspath.obj \
+    $(_OBJ_DIR)\alpha\allowrol.obj \
+    $(_OBJ_DIR)\alpha\chnglock.obj \
+    $(_OBJ_DIR)\alpha\chngnot.obj \
+    $(_OBJ_DIR)\alpha\data.obj \
+    $(_OBJ_DIR)\alpha\delfile.obj \
+    $(_OBJ_DIR)\alpha\dirname.obj \
+    $(_OBJ_DIR)\alpha\easize.obj \
+    $(_OBJ_DIR)\alpha\expalloc.obj \
+    $(_OBJ_DIR)\alpha\expbuild.obj \
+    $(_OBJ_DIR)\alpha\expconf.obj \
+    $(_OBJ_DIR)\alpha\expenum.obj \
+    $(_OBJ_DIR)\alpha\expget.obj \
+    $(_OBJ_DIR)\alpha\explock.obj \
+    $(_OBJ_DIR)\alpha\expset.obj \
+    $(_OBJ_DIR)\alpha\expvalid.obj \
+    $(_OBJ_DIR)\alpha\fixlocks.obj \
+    $(_OBJ_DIR)\alpha\fsresolu.obj \
+    $(_OBJ_DIR)\alpha\ignorenm.obj \
+    $(_OBJ_DIR)\alpha\impalloc.obj \
+    $(_OBJ_DIR)\alpha\impbuild.obj \
+    $(_OBJ_DIR)\alpha\impconf.obj \
+    $(_OBJ_DIR)\alpha\impget.obj \
+    $(_OBJ_DIR)\alpha\implock.obj \
+    $(_OBJ_DIR)\alpha\impstate.obj \
+    $(_OBJ_DIR)\alpha\impenum.obj \
+    $(_OBJ_DIR)\alpha\impvalid.obj \
+    $(_OBJ_DIR)\alpha\lstvalid.obj \
+    $(_OBJ_DIR)\alpha\replbld.obj \
+    $(_OBJ_DIR)\alpha\replconf.obj \
+    $(_OBJ_DIR)\alpha\replerr.obj \
+    $(_OBJ_DIR)\alpha\replp.obj \
+    $(_OBJ_DIR)\alpha\repvalid.obj \
+    $(_OBJ_DIR)\alpha\userlock.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\abspath.obj \
+    $(_OBJ_DIR)\mips\allowrol.obj \
+    $(_OBJ_DIR)\mips\chnglock.obj \
+    $(_OBJ_DIR)\mips\chngnot.obj \
+    $(_OBJ_DIR)\mips\data.obj \
+    $(_OBJ_DIR)\mips\delfile.obj \
+    $(_OBJ_DIR)\mips\dirname.obj \
+    $(_OBJ_DIR)\mips\easize.obj \
+    $(_OBJ_DIR)\mips\expalloc.obj \
+    $(_OBJ_DIR)\mips\expbuild.obj \
+    $(_OBJ_DIR)\mips\expconf.obj \
+    $(_OBJ_DIR)\mips\expenum.obj \
+    $(_OBJ_DIR)\mips\expget.obj \
+    $(_OBJ_DIR)\mips\explock.obj \
+    $(_OBJ_DIR)\mips\expset.obj \
+    $(_OBJ_DIR)\mips\expvalid.obj \
+    $(_OBJ_DIR)\mips\fixlocks.obj \
+    $(_OBJ_DIR)\mips\fsresolu.obj \
+    $(_OBJ_DIR)\mips\ignorenm.obj \
+    $(_OBJ_DIR)\mips\impalloc.obj \
+    $(_OBJ_DIR)\mips\impbuild.obj \
+    $(_OBJ_DIR)\mips\impconf.obj \
+    $(_OBJ_DIR)\mips\impget.obj \
+    $(_OBJ_DIR)\mips\implock.obj \
+    $(_OBJ_DIR)\mips\impstate.obj \
+    $(_OBJ_DIR)\mips\impenum.obj \
+    $(_OBJ_DIR)\mips\impvalid.obj \
+    $(_OBJ_DIR)\mips\lstvalid.obj \
+    $(_OBJ_DIR)\mips\replbld.obj \
+    $(_OBJ_DIR)\mips\replconf.obj \
+    $(_OBJ_DIR)\mips\replerr.obj \
+    $(_OBJ_DIR)\mips\replp.obj \
+    $(_OBJ_DIR)\mips\repvalid.obj \
+    $(_OBJ_DIR)\mips\userlock.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\abspath.obj \
+    $(_OBJ_DIR)\i386\allowrol.obj \
+    $(_OBJ_DIR)\i386\chnglock.obj \
+    $(_OBJ_DIR)\i386\chngnot.obj \
+    $(_OBJ_DIR)\i386\data.obj \
+    $(_OBJ_DIR)\i386\delfile.obj \
+    $(_OBJ_DIR)\i386\dirname.obj \
+    $(_OBJ_DIR)\i386\easize.obj \
+    $(_OBJ_DIR)\i386\expalloc.obj \
+    $(_OBJ_DIR)\i386\expbuild.obj \
+    $(_OBJ_DIR)\i386\expconf.obj \
+    $(_OBJ_DIR)\i386\expenum.obj \
+    $(_OBJ_DIR)\i386\expget.obj \
+    $(_OBJ_DIR)\i386\explock.obj \
+    $(_OBJ_DIR)\i386\expset.obj \
+    $(_OBJ_DIR)\i386\expvalid.obj \
+    $(_OBJ_DIR)\i386\fixlocks.obj \
+    $(_OBJ_DIR)\i386\fsresolu.obj \
+    $(_OBJ_DIR)\i386\ignorenm.obj \
+    $(_OBJ_DIR)\i386\impalloc.obj \
+    $(_OBJ_DIR)\i386\impbuild.obj \
+    $(_OBJ_DIR)\i386\impconf.obj \
+    $(_OBJ_DIR)\i386\impget.obj \
+    $(_OBJ_DIR)\i386\implock.obj \
+    $(_OBJ_DIR)\i386\impstate.obj \
+    $(_OBJ_DIR)\i386\impenum.obj \
+    $(_OBJ_DIR)\i386\impvalid.obj \
+    $(_OBJ_DIR)\i386\lstvalid.obj \
+    $(_OBJ_DIR)\i386\replbld.obj \
+    $(_OBJ_DIR)\i386\replconf.obj \
+    $(_OBJ_DIR)\i386\replerr.obj \
+    $(_OBJ_DIR)\i386\replp.obj \
+    $(_OBJ_DIR)\i386\repvalid.obj \
+    $(_OBJ_DIR)\i386\userlock.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\abspath.obj \
+    $(_OBJ_DIR)\ppc\allowrol.obj \
+    $(_OBJ_DIR)\ppc\chnglock.obj \
+    $(_OBJ_DIR)\ppc\chngnot.obj \
+    $(_OBJ_DIR)\ppc\data.obj \
+    $(_OBJ_DIR)\ppc\delfile.obj \
+    $(_OBJ_DIR)\ppc\dirname.obj \
+    $(_OBJ_DIR)\ppc\easize.obj \
+    $(_OBJ_DIR)\ppc\expalloc.obj \
+    $(_OBJ_DIR)\ppc\expbuild.obj \
+    $(_OBJ_DIR)\ppc\expconf.obj \
+    $(_OBJ_DIR)\ppc\expenum.obj \
+    $(_OBJ_DIR)\ppc\expget.obj \
+    $(_OBJ_DIR)\ppc\explock.obj \
+    $(_OBJ_DIR)\ppc\expset.obj \
+    $(_OBJ_DIR)\ppc\expvalid.obj \
+    $(_OBJ_DIR)\ppc\fixlocks.obj \
+    $(_OBJ_DIR)\ppc\fsresolu.obj \
+    $(_OBJ_DIR)\ppc\ignorenm.obj \
+    $(_OBJ_DIR)\ppc\impalloc.obj \
+    $(_OBJ_DIR)\ppc\impbuild.obj \
+    $(_OBJ_DIR)\ppc\impconf.obj \
+    $(_OBJ_DIR)\ppc\impget.obj \
+    $(_OBJ_DIR)\ppc\implock.obj \
+    $(_OBJ_DIR)\ppc\impstate.obj \
+    $(_OBJ_DIR)\ppc\impenum.obj \
+    $(_OBJ_DIR)\ppc\impvalid.obj \
+    $(_OBJ_DIR)\ppc\lstvalid.obj \
+    $(_OBJ_DIR)\ppc\replbld.obj \
+    $(_OBJ_DIR)\ppc\replconf.obj \
+    $(_OBJ_DIR)\ppc\replerr.obj \
+    $(_OBJ_DIR)\ppc\replp.obj \
+    $(_OBJ_DIR)\ppc\repvalid.obj \
+    $(_OBJ_DIR)\ppc\userlock.obj
+
+PASS0_PPC_OBJECTS=
+

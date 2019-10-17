@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\context.obj \
+    $(_OBJ_DIR)\alpha\credhand.obj \
+    $(_OBJ_DIR)\alpha\initcomn.obj \
+    $(_OBJ_DIR)\alpha\utility.obj \
+    $(_OBJ_DIR)\alpha\encrypt.obj \
+    $(_OBJ_DIR)\alpha\rng.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\context.obj \
+    $(_OBJ_DIR)\mips\credhand.obj \
+    $(_OBJ_DIR)\mips\initcomn.obj \
+    $(_OBJ_DIR)\mips\utility.obj \
+    $(_OBJ_DIR)\mips\encrypt.obj \
+    $(_OBJ_DIR)\mips\rng.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\context.obj \
+    $(_OBJ_DIR)\i386\credhand.obj \
+    $(_OBJ_DIR)\i386\initcomn.obj \
+    $(_OBJ_DIR)\i386\utility.obj \
+    $(_OBJ_DIR)\i386\encrypt.obj \
+    $(_OBJ_DIR)\i386\rng.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\context.obj \
+    $(_OBJ_DIR)\ppc\credhand.obj \
+    $(_OBJ_DIR)\ppc\initcomn.obj \
+    $(_OBJ_DIR)\ppc\utility.obj \
+    $(_OBJ_DIR)\ppc\encrypt.obj \
+    $(_OBJ_DIR)\ppc\rng.obj
+
+PASS0_PPC_OBJECTS=
+

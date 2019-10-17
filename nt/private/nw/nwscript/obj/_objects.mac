@@ -1,0 +1,144 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\nwscript.res \
+    $(_OBJ_DIR)\alpha\capture.obj \
+    $(_OBJ_DIR)\alpha\psdb.obj \
+    $(_OBJ_DIR)\alpha\ntcap.obj \
+    $(_OBJ_DIR)\alpha\helpers.obj \
+    $(_OBJ_DIR)\alpha\script.obj \
+    $(_OBJ_DIR)\alpha\display.obj \
+    $(_OBJ_DIR)\alpha\nwapi1.obj \
+    $(_OBJ_DIR)\alpha\nwapi2.obj \
+    $(_OBJ_DIR)\alpha\nwapi3.obj \
+    $(_OBJ_DIR)\alpha\common.obj \
+    $(_OBJ_DIR)\alpha\strings.obj \
+    $(_OBJ_DIR)\alpha\ntscript.obj \
+    $(_OBJ_DIR)\alpha\dbcs.obj \
+    $(_OBJ_DIR)\alpha\parspath.obj \
+    $(_OBJ_DIR)\alpha\nt.obj \
+    $(_OBJ_DIR)\alpha\ntnw.obj \
+    $(_OBJ_DIR)\alpha\drvstat.obj \
+    $(_OBJ_DIR)\alpha\env.obj \
+    $(_OBJ_DIR)\alpha\break.obj \
+    $(_OBJ_DIR)\alpha\attach.obj \
+    $(_OBJ_DIR)\alpha\ncp.obj \
+    $(_OBJ_DIR)\alpha\drive.obj \
+    $(_OBJ_DIR)\alpha\version.obj \
+    $(_OBJ_DIR)\alpha\date.obj \
+    $(_OBJ_DIR)\alpha\wide.obj \
+    $(_OBJ_DIR)\alpha\unc.obj \
+    $(_OBJ_DIR)\alpha\nds.obj \
+    $(_OBJ_DIR)\alpha\ps40db.obj \
+    $(_OBJ_DIR)\alpha\time.obj \
+    $(_OBJ_DIR)\alpha\maplist.obj \
+    $(_OBJ_DIR)\alpha\lsparse.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\nwscript.res \
+    $(_OBJ_DIR)\mips\capture.obj \
+    $(_OBJ_DIR)\mips\psdb.obj \
+    $(_OBJ_DIR)\mips\ntcap.obj \
+    $(_OBJ_DIR)\mips\helpers.obj \
+    $(_OBJ_DIR)\mips\script.obj \
+    $(_OBJ_DIR)\mips\display.obj \
+    $(_OBJ_DIR)\mips\nwapi1.obj \
+    $(_OBJ_DIR)\mips\nwapi2.obj \
+    $(_OBJ_DIR)\mips\nwapi3.obj \
+    $(_OBJ_DIR)\mips\common.obj \
+    $(_OBJ_DIR)\mips\strings.obj \
+    $(_OBJ_DIR)\mips\ntscript.obj \
+    $(_OBJ_DIR)\mips\dbcs.obj \
+    $(_OBJ_DIR)\mips\parspath.obj \
+    $(_OBJ_DIR)\mips\nt.obj \
+    $(_OBJ_DIR)\mips\ntnw.obj \
+    $(_OBJ_DIR)\mips\drvstat.obj \
+    $(_OBJ_DIR)\mips\env.obj \
+    $(_OBJ_DIR)\mips\break.obj \
+    $(_OBJ_DIR)\mips\attach.obj \
+    $(_OBJ_DIR)\mips\ncp.obj \
+    $(_OBJ_DIR)\mips\drive.obj \
+    $(_OBJ_DIR)\mips\version.obj \
+    $(_OBJ_DIR)\mips\date.obj \
+    $(_OBJ_DIR)\mips\wide.obj \
+    $(_OBJ_DIR)\mips\unc.obj \
+    $(_OBJ_DIR)\mips\nds.obj \
+    $(_OBJ_DIR)\mips\ps40db.obj \
+    $(_OBJ_DIR)\mips\time.obj \
+    $(_OBJ_DIR)\mips\maplist.obj \
+    $(_OBJ_DIR)\mips\lsparse.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\nwscript.res \
+    $(_OBJ_DIR)\i386\capture.obj \
+    $(_OBJ_DIR)\i386\psdb.obj \
+    $(_OBJ_DIR)\i386\ntcap.obj \
+    $(_OBJ_DIR)\i386\helpers.obj \
+    $(_OBJ_DIR)\i386\script.obj \
+    $(_OBJ_DIR)\i386\display.obj \
+    $(_OBJ_DIR)\i386\nwapi1.obj \
+    $(_OBJ_DIR)\i386\nwapi2.obj \
+    $(_OBJ_DIR)\i386\nwapi3.obj \
+    $(_OBJ_DIR)\i386\common.obj \
+    $(_OBJ_DIR)\i386\strings.obj \
+    $(_OBJ_DIR)\i386\ntscript.obj \
+    $(_OBJ_DIR)\i386\dbcs.obj \
+    $(_OBJ_DIR)\i386\parspath.obj \
+    $(_OBJ_DIR)\i386\nt.obj \
+    $(_OBJ_DIR)\i386\ntnw.obj \
+    $(_OBJ_DIR)\i386\drvstat.obj \
+    $(_OBJ_DIR)\i386\env.obj \
+    $(_OBJ_DIR)\i386\break.obj \
+    $(_OBJ_DIR)\i386\attach.obj \
+    $(_OBJ_DIR)\i386\ncp.obj \
+    $(_OBJ_DIR)\i386\drive.obj \
+    $(_OBJ_DIR)\i386\version.obj \
+    $(_OBJ_DIR)\i386\date.obj \
+    $(_OBJ_DIR)\i386\wide.obj \
+    $(_OBJ_DIR)\i386\unc.obj \
+    $(_OBJ_DIR)\i386\nds.obj \
+    $(_OBJ_DIR)\i386\ps40db.obj \
+    $(_OBJ_DIR)\i386\time.obj \
+    $(_OBJ_DIR)\i386\maplist.obj \
+    $(_OBJ_DIR)\i386\lsparse.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\nwscript.res \
+    $(_OBJ_DIR)\ppc\capture.obj \
+    $(_OBJ_DIR)\ppc\psdb.obj \
+    $(_OBJ_DIR)\ppc\ntcap.obj \
+    $(_OBJ_DIR)\ppc\helpers.obj \
+    $(_OBJ_DIR)\ppc\script.obj \
+    $(_OBJ_DIR)\ppc\display.obj \
+    $(_OBJ_DIR)\ppc\nwapi1.obj \
+    $(_OBJ_DIR)\ppc\nwapi2.obj \
+    $(_OBJ_DIR)\ppc\nwapi3.obj \
+    $(_OBJ_DIR)\ppc\common.obj \
+    $(_OBJ_DIR)\ppc\strings.obj \
+    $(_OBJ_DIR)\ppc\ntscript.obj \
+    $(_OBJ_DIR)\ppc\dbcs.obj \
+    $(_OBJ_DIR)\ppc\parspath.obj \
+    $(_OBJ_DIR)\ppc\nt.obj \
+    $(_OBJ_DIR)\ppc\ntnw.obj \
+    $(_OBJ_DIR)\ppc\drvstat.obj \
+    $(_OBJ_DIR)\ppc\env.obj \
+    $(_OBJ_DIR)\ppc\break.obj \
+    $(_OBJ_DIR)\ppc\attach.obj \
+    $(_OBJ_DIR)\ppc\ncp.obj \
+    $(_OBJ_DIR)\ppc\drive.obj \
+    $(_OBJ_DIR)\ppc\version.obj \
+    $(_OBJ_DIR)\ppc\date.obj \
+    $(_OBJ_DIR)\ppc\wide.obj \
+    $(_OBJ_DIR)\ppc\unc.obj \
+    $(_OBJ_DIR)\ppc\nds.obj \
+    $(_OBJ_DIR)\ppc\ps40db.obj \
+    $(_OBJ_DIR)\ppc\time.obj \
+    $(_OBJ_DIR)\ppc\maplist.obj \
+    $(_OBJ_DIR)\ppc\lsparse.obj
+
+PASS0_PPC_OBJECTS=
+

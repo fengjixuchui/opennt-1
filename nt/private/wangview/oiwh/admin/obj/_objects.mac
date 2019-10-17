@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\oiadm400.res \
+    $(_OBJ_DIR)\alpha\admnmain.obj \
+    $(_OBJ_DIR)\alpha\cepfrmat.obj \
+    $(_OBJ_DIR)\alpha\initload.obj \
+    $(_OBJ_DIR)\alpha\noui.obj \
+    $(_OBJ_DIR)\alpha\scntmplt.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\oiadm400.res \
+    $(_OBJ_DIR)\mips\admnmain.obj \
+    $(_OBJ_DIR)\mips\cepfrmat.obj \
+    $(_OBJ_DIR)\mips\initload.obj \
+    $(_OBJ_DIR)\mips\noui.obj \
+    $(_OBJ_DIR)\mips\scntmplt.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\oiadm400.res \
+    $(_OBJ_DIR)\i386\admnmain.obj \
+    $(_OBJ_DIR)\i386\cepfrmat.obj \
+    $(_OBJ_DIR)\i386\initload.obj \
+    $(_OBJ_DIR)\i386\noui.obj \
+    $(_OBJ_DIR)\i386\scntmplt.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\oiadm400.res \
+    $(_OBJ_DIR)\ppc\admnmain.obj \
+    $(_OBJ_DIR)\ppc\cepfrmat.obj \
+    $(_OBJ_DIR)\ppc\initload.obj \
+    $(_OBJ_DIR)\ppc\noui.obj \
+    $(_OBJ_DIR)\ppc\scntmplt.obj
+
+PASS0_PPC_OBJECTS=
+

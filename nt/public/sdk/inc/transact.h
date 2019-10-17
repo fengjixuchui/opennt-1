@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Sun Oct 13 02:55:27 2019
+/* at Thu Oct 17 15:44:21 2019
  */
 /* Compiler settings for transact.idl:
     Oicf (OptLev=i2), W1, Zp8, env=Win32, ms_ext, c_ext
@@ -184,7 +184,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0000
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [local] */ 
@@ -211,7 +211,7 @@ extern RPC_IF_HANDLE __MIDL__intf_0000_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: BasicTransactionTypes
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][local] */ 
@@ -384,7 +384,7 @@ extern RPC_IF_HANDLE BasicTransactionTypes_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: ITransaction
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -534,7 +534,7 @@ void __RPC_STUB ITransaction_GetTransactionInfo_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionNested
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -657,7 +657,7 @@ void __RPC_STUB ITransactionNested_GetParent_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionDispenser
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -766,7 +766,7 @@ void __RPC_STUB ITransactionDispenser_BeginTransaction_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionDispenserAdmin
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -895,7 +895,7 @@ void __RPC_STUB ITransactionDispenserAdmin_GetStatistics_Stub(
 
 /****************************************
  * Generated header for interface: IEnumTransaction
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1058,7 +1058,7 @@ void __RPC_STUB IEnumTransaction_Clone_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionAdmin
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1218,7 +1218,7 @@ void __RPC_STUB ITransactionAdmin_GetDescription_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionControl
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1356,7 +1356,7 @@ void __RPC_STUB ITransactionControl_PreventCommit_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionAdjustEvents
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1450,7 +1450,7 @@ void __RPC_STUB ITransactionAdjustEvents_OnPrePrepareAdjust_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionVetoEvents
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1544,7 +1544,7 @@ void __RPC_STUB ITransactionVetoEvents_OnPrePrepare_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionOutcomeEvents
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1703,7 +1703,7 @@ void __RPC_STUB ITransactionOutcomeEvents_OnHeuristicDecision_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionCompletionEvents
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -1859,7 +1859,7 @@ void __RPC_STUB ITransactionCompletionEvents_OnHeuristicDecision_Stub(
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0017
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [local] */ 
@@ -1889,7 +1889,7 @@ extern RPC_IF_HANDLE __MIDL__intf_0017_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: TransactionCoordinationTypes
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][local] */ 
@@ -1937,7 +1937,7 @@ extern RPC_IF_HANDLE TransactionCoordinationTypes_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: ITransactionCoordinator
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2105,7 +2105,7 @@ void __RPC_STUB ITransactionCoordinator_EnumResources_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionResourceRecover
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2224,7 +2224,7 @@ void __RPC_STUB ITransactionResourceRecover_ReEnlist_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionResourceManagement
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2318,7 +2318,7 @@ void __RPC_STUB ITransactionResourceManagement_Defect_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionResource
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2485,7 +2485,7 @@ void __RPC_STUB ITransactionResource_Abort_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionResourceAsync
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2649,7 +2649,7 @@ void __RPC_STUB ITransactionResourceAsync_AbortRequest_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionEnlistmentRecover
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2793,7 +2793,7 @@ void __RPC_STUB ITransactionEnlistmentRecover_RecoveryComplete_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionEnlistment
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -2959,7 +2959,7 @@ void __RPC_STUB ITransactionEnlistment_Defect_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionEnlistmentAsync
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -3103,7 +3103,7 @@ void __RPC_STUB ITransactionEnlistmentAsync_AbortRequestDone_Stub(
 
 /****************************************
  * Generated header for interface: IEnumXACTRE
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -3266,7 +3266,7 @@ void __RPC_STUB IEnumXACTRE_Clone_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionInProgressEvents
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -3385,7 +3385,7 @@ void __RPC_STUB ITransactionInProgressEvents_OnDefected_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionExportFactory
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -3507,7 +3507,7 @@ void __RPC_STUB ITransactionExportFactory_Create_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionImportWhereabouts
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -3629,7 +3629,7 @@ void __RPC_STUB ITransactionImportWhereabouts_RemoteGetWhereabouts_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionExport
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -3757,7 +3757,7 @@ void __RPC_STUB ITransactionExport_RemoteGetTransactionCookie_Stub(
 
 /****************************************
  * Generated header for interface: ITransactionImport
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -3857,7 +3857,7 @@ void __RPC_STUB ITransactionImport_Import_Stub(
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0082
- * at Sun Oct 13 02:55:27 2019
+ * at Thu Oct 17 15:44:21 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [local] */ 

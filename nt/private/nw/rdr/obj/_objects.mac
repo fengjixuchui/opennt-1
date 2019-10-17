@@ -1,0 +1,176 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\nwrdr.res \
+    $(_OBJ_DIR)\alpha\attach.obj \
+    $(_OBJ_DIR)\alpha\cache.obj \
+    $(_OBJ_DIR)\alpha\callback.obj \
+    $(_OBJ_DIR)\alpha\cleanup.obj \
+    $(_OBJ_DIR)\alpha\close.obj \
+    $(_OBJ_DIR)\alpha\convert.obj \
+    $(_OBJ_DIR)\alpha\create.obj \
+    $(_OBJ_DIR)\alpha\data.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\deviosup.obj \
+    $(_OBJ_DIR)\alpha\dir.obj \
+    $(_OBJ_DIR)\alpha\encrypt.obj \
+    $(_OBJ_DIR)\alpha\errorlog.obj \
+    $(_OBJ_DIR)\alpha\except.obj \
+    $(_OBJ_DIR)\alpha\exchange.obj \
+    $(_OBJ_DIR)\alpha\filobsup.obj \
+    $(_OBJ_DIR)\alpha\fileinfo.obj \
+    $(_OBJ_DIR)\alpha\fsctl.obj \
+    $(_OBJ_DIR)\alpha\fspdisp.obj \
+    $(_OBJ_DIR)\alpha\init.obj \
+    $(_OBJ_DIR)\alpha\ipx.obj \
+    $(_OBJ_DIR)\alpha\lock.obj \
+    $(_OBJ_DIR)\alpha\lockcode.obj \
+    $(_OBJ_DIR)\alpha\pid.obj \
+    $(_OBJ_DIR)\alpha\read.obj \
+    $(_OBJ_DIR)\alpha\scavengr.obj \
+    $(_OBJ_DIR)\alpha\security.obj \
+    $(_OBJ_DIR)\alpha\string.obj \
+    $(_OBJ_DIR)\alpha\strucsup.obj \
+    $(_OBJ_DIR)\alpha\timer.obj \
+    $(_OBJ_DIR)\alpha\util.obj \
+    $(_OBJ_DIR)\alpha\volinfo.obj \
+    $(_OBJ_DIR)\alpha\workque.obj \
+    $(_OBJ_DIR)\alpha\write.obj \
+    $(_OBJ_DIR)\alpha\create4.obj \
+    $(_OBJ_DIR)\alpha\fragex.obj \
+    $(_OBJ_DIR)\alpha\ndsfsctl.obj \
+    $(_OBJ_DIR)\alpha\ndslogin.obj \
+    $(_OBJ_DIR)\alpha\ndsread.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\nwrdr.res \
+    $(_OBJ_DIR)\mips\attach.obj \
+    $(_OBJ_DIR)\mips\cache.obj \
+    $(_OBJ_DIR)\mips\callback.obj \
+    $(_OBJ_DIR)\mips\cleanup.obj \
+    $(_OBJ_DIR)\mips\close.obj \
+    $(_OBJ_DIR)\mips\convert.obj \
+    $(_OBJ_DIR)\mips\create.obj \
+    $(_OBJ_DIR)\mips\data.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\deviosup.obj \
+    $(_OBJ_DIR)\mips\dir.obj \
+    $(_OBJ_DIR)\mips\encrypt.obj \
+    $(_OBJ_DIR)\mips\errorlog.obj \
+    $(_OBJ_DIR)\mips\except.obj \
+    $(_OBJ_DIR)\mips\exchange.obj \
+    $(_OBJ_DIR)\mips\filobsup.obj \
+    $(_OBJ_DIR)\mips\fileinfo.obj \
+    $(_OBJ_DIR)\mips\fsctl.obj \
+    $(_OBJ_DIR)\mips\fspdisp.obj \
+    $(_OBJ_DIR)\mips\init.obj \
+    $(_OBJ_DIR)\mips\ipx.obj \
+    $(_OBJ_DIR)\mips\lock.obj \
+    $(_OBJ_DIR)\mips\lockcode.obj \
+    $(_OBJ_DIR)\mips\pid.obj \
+    $(_OBJ_DIR)\mips\read.obj \
+    $(_OBJ_DIR)\mips\scavengr.obj \
+    $(_OBJ_DIR)\mips\security.obj \
+    $(_OBJ_DIR)\mips\string.obj \
+    $(_OBJ_DIR)\mips\strucsup.obj \
+    $(_OBJ_DIR)\mips\timer.obj \
+    $(_OBJ_DIR)\mips\util.obj \
+    $(_OBJ_DIR)\mips\volinfo.obj \
+    $(_OBJ_DIR)\mips\workque.obj \
+    $(_OBJ_DIR)\mips\write.obj \
+    $(_OBJ_DIR)\mips\create4.obj \
+    $(_OBJ_DIR)\mips\fragex.obj \
+    $(_OBJ_DIR)\mips\ndsfsctl.obj \
+    $(_OBJ_DIR)\mips\ndslogin.obj \
+    $(_OBJ_DIR)\mips\ndsread.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\nwrdr.res \
+    $(_OBJ_DIR)\i386\attach.obj \
+    $(_OBJ_DIR)\i386\cache.obj \
+    $(_OBJ_DIR)\i386\callback.obj \
+    $(_OBJ_DIR)\i386\cleanup.obj \
+    $(_OBJ_DIR)\i386\close.obj \
+    $(_OBJ_DIR)\i386\convert.obj \
+    $(_OBJ_DIR)\i386\create.obj \
+    $(_OBJ_DIR)\i386\data.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\deviosup.obj \
+    $(_OBJ_DIR)\i386\dir.obj \
+    $(_OBJ_DIR)\i386\encrypt.obj \
+    $(_OBJ_DIR)\i386\errorlog.obj \
+    $(_OBJ_DIR)\i386\except.obj \
+    $(_OBJ_DIR)\i386\exchange.obj \
+    $(_OBJ_DIR)\i386\filobsup.obj \
+    $(_OBJ_DIR)\i386\fileinfo.obj \
+    $(_OBJ_DIR)\i386\fsctl.obj \
+    $(_OBJ_DIR)\i386\fspdisp.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\ipx.obj \
+    $(_OBJ_DIR)\i386\lock.obj \
+    $(_OBJ_DIR)\i386\lockcode.obj \
+    $(_OBJ_DIR)\i386\pid.obj \
+    $(_OBJ_DIR)\i386\read.obj \
+    $(_OBJ_DIR)\i386\scavengr.obj \
+    $(_OBJ_DIR)\i386\security.obj \
+    $(_OBJ_DIR)\i386\string.obj \
+    $(_OBJ_DIR)\i386\strucsup.obj \
+    $(_OBJ_DIR)\i386\timer.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\volinfo.obj \
+    $(_OBJ_DIR)\i386\workque.obj \
+    $(_OBJ_DIR)\i386\write.obj \
+    $(_OBJ_DIR)\i386\create4.obj \
+    $(_OBJ_DIR)\i386\fragex.obj \
+    $(_OBJ_DIR)\i386\ndsfsctl.obj \
+    $(_OBJ_DIR)\i386\ndslogin.obj \
+    $(_OBJ_DIR)\i386\ndsread.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\nwrdr.res \
+    $(_OBJ_DIR)\ppc\attach.obj \
+    $(_OBJ_DIR)\ppc\cache.obj \
+    $(_OBJ_DIR)\ppc\callback.obj \
+    $(_OBJ_DIR)\ppc\cleanup.obj \
+    $(_OBJ_DIR)\ppc\close.obj \
+    $(_OBJ_DIR)\ppc\convert.obj \
+    $(_OBJ_DIR)\ppc\create.obj \
+    $(_OBJ_DIR)\ppc\data.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\deviosup.obj \
+    $(_OBJ_DIR)\ppc\dir.obj \
+    $(_OBJ_DIR)\ppc\encrypt.obj \
+    $(_OBJ_DIR)\ppc\errorlog.obj \
+    $(_OBJ_DIR)\ppc\except.obj \
+    $(_OBJ_DIR)\ppc\exchange.obj \
+    $(_OBJ_DIR)\ppc\filobsup.obj \
+    $(_OBJ_DIR)\ppc\fileinfo.obj \
+    $(_OBJ_DIR)\ppc\fsctl.obj \
+    $(_OBJ_DIR)\ppc\fspdisp.obj \
+    $(_OBJ_DIR)\ppc\init.obj \
+    $(_OBJ_DIR)\ppc\ipx.obj \
+    $(_OBJ_DIR)\ppc\lock.obj \
+    $(_OBJ_DIR)\ppc\lockcode.obj \
+    $(_OBJ_DIR)\ppc\pid.obj \
+    $(_OBJ_DIR)\ppc\read.obj \
+    $(_OBJ_DIR)\ppc\scavengr.obj \
+    $(_OBJ_DIR)\ppc\security.obj \
+    $(_OBJ_DIR)\ppc\string.obj \
+    $(_OBJ_DIR)\ppc\strucsup.obj \
+    $(_OBJ_DIR)\ppc\timer.obj \
+    $(_OBJ_DIR)\ppc\util.obj \
+    $(_OBJ_DIR)\ppc\volinfo.obj \
+    $(_OBJ_DIR)\ppc\workque.obj \
+    $(_OBJ_DIR)\ppc\write.obj \
+    $(_OBJ_DIR)\ppc\create4.obj \
+    $(_OBJ_DIR)\ppc\fragex.obj \
+    $(_OBJ_DIR)\ppc\ndsfsctl.obj \
+    $(_OBJ_DIR)\ppc\ndslogin.obj \
+    $(_OBJ_DIR)\ppc\ndsread.obj
+
+PASS0_PPC_OBJECTS=
+

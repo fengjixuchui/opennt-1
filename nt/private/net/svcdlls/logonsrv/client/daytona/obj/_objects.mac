@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\getdcnam.obj \
+    $(_OBJ_DIR)\alpha\getdclst.obj \
+    $(_OBJ_DIR)\alpha\logonapi.obj \
+    $(_OBJ_DIR)\alpha\rpcbind.obj \
+    $(_OBJ_DIR)\alpha\ssiapi.obj \
+    $(_OBJ_DIR)\alpha\logon_c.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\getdcnam.obj \
+    $(_OBJ_DIR)\mips\getdclst.obj \
+    $(_OBJ_DIR)\mips\logonapi.obj \
+    $(_OBJ_DIR)\mips\rpcbind.obj \
+    $(_OBJ_DIR)\mips\ssiapi.obj \
+    $(_OBJ_DIR)\mips\logon_c.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\getdcnam.obj \
+    $(_OBJ_DIR)\i386\getdclst.obj \
+    $(_OBJ_DIR)\i386\logonapi.obj \
+    $(_OBJ_DIR)\i386\rpcbind.obj \
+    $(_OBJ_DIR)\i386\ssiapi.obj \
+    $(_OBJ_DIR)\i386\logon_c.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\getdcnam.obj \
+    $(_OBJ_DIR)\ppc\getdclst.obj \
+    $(_OBJ_DIR)\ppc\logonapi.obj \
+    $(_OBJ_DIR)\ppc\rpcbind.obj \
+    $(_OBJ_DIR)\ppc\ssiapi.obj \
+    $(_OBJ_DIR)\ppc\logon_c.obj
+
+PASS0_PPC_OBJECTS=
+

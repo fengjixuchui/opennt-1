@@ -13,7 +13,7 @@ Linking w:\nt\private\windbg\driver\crashdrv\driver directory ******************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 Linking w:\nt\private\windbg\driver\crashdrv\tests directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	link -out:obj\i386\crashdrv.sys -machine:i386 @W:\tmp\nma04028.
+	link -out:obj\i386\crashdrv.sys -machine:i386 @W:\tmp\nma00844.
 
 Stop. 
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164

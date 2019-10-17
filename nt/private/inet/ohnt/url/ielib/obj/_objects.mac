@@ -1,0 +1,60 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\comc.obj \
+    $(_OBJ_DIR)\alpha\memmgr.obj \
+    $(_OBJ_DIR)\alpha\debspew.obj \
+    $(_OBJ_DIR)\alpha\inifile.obj \
+    $(_OBJ_DIR)\alpha\olevalid.obj \
+    $(_OBJ_DIR)\alpha\resstr.obj \
+    $(_OBJ_DIR)\alpha\shlvalid.obj \
+    $(_OBJ_DIR)\alpha\valid.obj \
+    $(_OBJ_DIR)\alpha\comcpp.obj \
+    $(_OBJ_DIR)\alpha\enumfmte.obj \
+    $(_OBJ_DIR)\alpha\refcount.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\comc.obj \
+    $(_OBJ_DIR)\mips\memmgr.obj \
+    $(_OBJ_DIR)\mips\debspew.obj \
+    $(_OBJ_DIR)\mips\inifile.obj \
+    $(_OBJ_DIR)\mips\olevalid.obj \
+    $(_OBJ_DIR)\mips\resstr.obj \
+    $(_OBJ_DIR)\mips\shlvalid.obj \
+    $(_OBJ_DIR)\mips\valid.obj \
+    $(_OBJ_DIR)\mips\comcpp.obj \
+    $(_OBJ_DIR)\mips\enumfmte.obj \
+    $(_OBJ_DIR)\mips\refcount.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\comc.obj \
+    $(_OBJ_DIR)\i386\memmgr.obj \
+    $(_OBJ_DIR)\i386\debspew.obj \
+    $(_OBJ_DIR)\i386\inifile.obj \
+    $(_OBJ_DIR)\i386\olevalid.obj \
+    $(_OBJ_DIR)\i386\resstr.obj \
+    $(_OBJ_DIR)\i386\shlvalid.obj \
+    $(_OBJ_DIR)\i386\valid.obj \
+    $(_OBJ_DIR)\i386\comcpp.obj \
+    $(_OBJ_DIR)\i386\enumfmte.obj \
+    $(_OBJ_DIR)\i386\refcount.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\comc.obj \
+    $(_OBJ_DIR)\ppc\memmgr.obj \
+    $(_OBJ_DIR)\ppc\debspew.obj \
+    $(_OBJ_DIR)\ppc\inifile.obj \
+    $(_OBJ_DIR)\ppc\olevalid.obj \
+    $(_OBJ_DIR)\ppc\resstr.obj \
+    $(_OBJ_DIR)\ppc\shlvalid.obj \
+    $(_OBJ_DIR)\ppc\valid.obj \
+    $(_OBJ_DIR)\ppc\comcpp.obj \
+    $(_OBJ_DIR)\ppc\enumfmte.obj \
+    $(_OBJ_DIR)\ppc\refcount.obj
+
+PASS0_PPC_OBJECTS=
+

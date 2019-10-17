@@ -1,0 +1,40 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\codcwrap.obj \
+    $(_OBJ_DIR)\alpha\ioobject.obj \
+    $(_OBJ_DIR)\alpha\getimage.obj \
+    $(_OBJ_DIR)\alpha\bytebuf.obj \
+    $(_OBJ_DIR)\alpha\custom.obj \
+    $(_OBJ_DIR)\alpha\ccitt.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\codcwrap.obj \
+    $(_OBJ_DIR)\mips\ioobject.obj \
+    $(_OBJ_DIR)\mips\getimage.obj \
+    $(_OBJ_DIR)\mips\bytebuf.obj \
+    $(_OBJ_DIR)\mips\custom.obj \
+    $(_OBJ_DIR)\mips\ccitt.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\codcwrap.obj \
+    $(_OBJ_DIR)\i386\ioobject.obj \
+    $(_OBJ_DIR)\i386\getimage.obj \
+    $(_OBJ_DIR)\i386\bytebuf.obj \
+    $(_OBJ_DIR)\i386\custom.obj \
+    $(_OBJ_DIR)\i386\ccitt.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\codcwrap.obj \
+    $(_OBJ_DIR)\ppc\ioobject.obj \
+    $(_OBJ_DIR)\ppc\getimage.obj \
+    $(_OBJ_DIR)\ppc\bytebuf.obj \
+    $(_OBJ_DIR)\ppc\custom.obj \
+    $(_OBJ_DIR)\ppc\ccitt.obj
+
+PASS0_PPC_OBJECTS=
+

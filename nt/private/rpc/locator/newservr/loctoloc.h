@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Sun Oct 13 03:38:42 2019
+/* at Thu Oct 17 16:17:46 2019
  */
 /* Compiler settings for loctoloc.idl:
     Os (OptLev=s), W1, Zp8, env=Win32, ms_ext, c_ext, oldnames
@@ -32,7 +32,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: LocToLoc
- * at Sun Oct 13 03:38:42 2019
+ * at Thu Oct 17 16:17:46 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [auto_handle][unique][version][uuid] */ 

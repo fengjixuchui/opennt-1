@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\oiprt.res \
+    $(_OBJ_DIR)\alpha\prtdc.obj \
+    $(_OBJ_DIR)\alpha\prtdllmn.obj \
+    $(_OBJ_DIR)\alpha\prtexp.obj \
+    $(_OBJ_DIR)\alpha\prtintl.obj \
+    $(_OBJ_DIR)\alpha\prtpage.obj \
+    $(_OBJ_DIR)\alpha\prtstubs.obj \
+    $(_OBJ_DIR)\alpha\prttbl.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\oiprt.res \
+    $(_OBJ_DIR)\mips\prtdc.obj \
+    $(_OBJ_DIR)\mips\prtdllmn.obj \
+    $(_OBJ_DIR)\mips\prtexp.obj \
+    $(_OBJ_DIR)\mips\prtintl.obj \
+    $(_OBJ_DIR)\mips\prtpage.obj \
+    $(_OBJ_DIR)\mips\prtstubs.obj \
+    $(_OBJ_DIR)\mips\prttbl.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\oiprt.res \
+    $(_OBJ_DIR)\i386\prtdc.obj \
+    $(_OBJ_DIR)\i386\prtdllmn.obj \
+    $(_OBJ_DIR)\i386\prtexp.obj \
+    $(_OBJ_DIR)\i386\prtintl.obj \
+    $(_OBJ_DIR)\i386\prtpage.obj \
+    $(_OBJ_DIR)\i386\prtstubs.obj \
+    $(_OBJ_DIR)\i386\prttbl.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\oiprt.res \
+    $(_OBJ_DIR)\ppc\prtdc.obj \
+    $(_OBJ_DIR)\ppc\prtdllmn.obj \
+    $(_OBJ_DIR)\ppc\prtexp.obj \
+    $(_OBJ_DIR)\ppc\prtintl.obj \
+    $(_OBJ_DIR)\ppc\prtpage.obj \
+    $(_OBJ_DIR)\ppc\prtstubs.obj \
+    $(_OBJ_DIR)\ppc\prttbl.obj
+
+PASS0_PPC_OBJECTS=
+

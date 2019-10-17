@@ -1,0 +1,76 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\bowsvc.res \
+    $(_OBJ_DIR)\alpha\brmain.obj \
+    $(_OBJ_DIR)\alpha\browser.obj \
+    $(_OBJ_DIR)\alpha\brdevice.obj \
+    $(_OBJ_DIR)\alpha\brutil.obj \
+    $(_OBJ_DIR)\alpha\brconfig.obj \
+    $(_OBJ_DIR)\alpha\brdmmstr.obj \
+    $(_OBJ_DIR)\alpha\brmaster.obj \
+    $(_OBJ_DIR)\alpha\browsnet.obj \
+    $(_OBJ_DIR)\alpha\browsdom.obj \
+    $(_OBJ_DIR)\alpha\brwan.obj \
+    $(_OBJ_DIR)\alpha\brwins.obj \
+    $(_OBJ_DIR)\alpha\bowqueue.obj \
+    $(_OBJ_DIR)\alpha\srvenum.obj \
+    $(_OBJ_DIR)\alpha\bowser_s.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\bowsvc.res \
+    $(_OBJ_DIR)\mips\brmain.obj \
+    $(_OBJ_DIR)\mips\browser.obj \
+    $(_OBJ_DIR)\mips\brdevice.obj \
+    $(_OBJ_DIR)\mips\brutil.obj \
+    $(_OBJ_DIR)\mips\brconfig.obj \
+    $(_OBJ_DIR)\mips\brdmmstr.obj \
+    $(_OBJ_DIR)\mips\brmaster.obj \
+    $(_OBJ_DIR)\mips\browsnet.obj \
+    $(_OBJ_DIR)\mips\browsdom.obj \
+    $(_OBJ_DIR)\mips\brwan.obj \
+    $(_OBJ_DIR)\mips\brwins.obj \
+    $(_OBJ_DIR)\mips\bowqueue.obj \
+    $(_OBJ_DIR)\mips\srvenum.obj \
+    $(_OBJ_DIR)\mips\bowser_s.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\bowsvc.res \
+    $(_OBJ_DIR)\i386\brmain.obj \
+    $(_OBJ_DIR)\i386\browser.obj \
+    $(_OBJ_DIR)\i386\brdevice.obj \
+    $(_OBJ_DIR)\i386\brutil.obj \
+    $(_OBJ_DIR)\i386\brconfig.obj \
+    $(_OBJ_DIR)\i386\brdmmstr.obj \
+    $(_OBJ_DIR)\i386\brmaster.obj \
+    $(_OBJ_DIR)\i386\browsnet.obj \
+    $(_OBJ_DIR)\i386\browsdom.obj \
+    $(_OBJ_DIR)\i386\brwan.obj \
+    $(_OBJ_DIR)\i386\brwins.obj \
+    $(_OBJ_DIR)\i386\bowqueue.obj \
+    $(_OBJ_DIR)\i386\srvenum.obj \
+    $(_OBJ_DIR)\i386\bowser_s.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\bowsvc.res \
+    $(_OBJ_DIR)\ppc\brmain.obj \
+    $(_OBJ_DIR)\ppc\browser.obj \
+    $(_OBJ_DIR)\ppc\brdevice.obj \
+    $(_OBJ_DIR)\ppc\brutil.obj \
+    $(_OBJ_DIR)\ppc\brconfig.obj \
+    $(_OBJ_DIR)\ppc\brdmmstr.obj \
+    $(_OBJ_DIR)\ppc\brmaster.obj \
+    $(_OBJ_DIR)\ppc\browsnet.obj \
+    $(_OBJ_DIR)\ppc\browsdom.obj \
+    $(_OBJ_DIR)\ppc\brwan.obj \
+    $(_OBJ_DIR)\ppc\brwins.obj \
+    $(_OBJ_DIR)\ppc\bowqueue.obj \
+    $(_OBJ_DIR)\ppc\srvenum.obj \
+    $(_OBJ_DIR)\ppc\bowser_s.obj
+
+PASS0_PPC_OBJECTS=
+

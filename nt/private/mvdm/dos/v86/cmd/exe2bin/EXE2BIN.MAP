@@ -31,10 +31,10 @@
 
   Address         Publics by Value
 
- 0000:0000  Abs  _edata
- 0000:0000  Abs  __edata
- 0000:0000  Abs  __end
  0000:0000  Abs  _end
+ 0000:0000  Abs  __edata
+ 0000:0000  Abs  _edata
+ 0000:0000  Abs  __end
  0000:0002       SysLoadMsg
  0000:011D       SysDispMsg
  0000:0777       $M_CLS_1

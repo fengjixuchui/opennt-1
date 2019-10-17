@@ -1,0 +1,36 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ntlsapi.res \
+    $(_OBJ_DIR)\alpha\ntlsapi.obj \
+    $(_OBJ_DIR)\alpha\rpcstub.obj \
+    $(_OBJ_DIR)\alpha\lsapi_c.obj \
+    $(_OBJ_DIR)\alpha\main.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ntlsapi.res \
+    $(_OBJ_DIR)\mips\ntlsapi.obj \
+    $(_OBJ_DIR)\mips\rpcstub.obj \
+    $(_OBJ_DIR)\mips\lsapi_c.obj \
+    $(_OBJ_DIR)\mips\main.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ntlsapi.res \
+    $(_OBJ_DIR)\i386\ntlsapi.obj \
+    $(_OBJ_DIR)\i386\rpcstub.obj \
+    $(_OBJ_DIR)\i386\lsapi_c.obj \
+    $(_OBJ_DIR)\i386\main.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ntlsapi.res \
+    $(_OBJ_DIR)\ppc\ntlsapi.obj \
+    $(_OBJ_DIR)\ppc\rpcstub.obj \
+    $(_OBJ_DIR)\ppc\lsapi_c.obj \
+    $(_OBJ_DIR)\ppc\main.obj
+
+PASS0_PPC_OBJECTS=
+

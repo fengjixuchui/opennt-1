@@ -76,11 +76,11 @@ Stack Allocation = 8192 bytes
  0000:0000  Imp  DOS3CALL             (KERNEL.102)
  0000:0000  Imp  INITAPP              (USER.5)
  0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 0000:0000  Imp  INITTASK             (KERNEL.91)
  0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
  0000:0000  Imp  UNLOCKSEGMENT        (KERNEL.24)
  0000:0000  Imp  EXITKERNELTHUNK      (KERNEL.519)
  0000:0000  Imp  WAITEVENT            (KERNEL.30)
- 0000:0000  Imp  INITTASK             (KERNEL.91)
  0000:0006  Abs  pLocalHeap
  0000:0008  Abs  pAtomTable
  0000:000A  Abs  pStackTop

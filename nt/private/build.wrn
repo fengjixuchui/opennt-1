@@ -1,0 +1,295 @@
+ntos\w32\ntuser\client\daytona\clienta.obj() : warning LNK4006: _GetWindowModuleFileName@12 already defined in clientw.obj; second definition ignored
+ntos\w32\ntuser\client\daytona\clienta.obj() : warning LNK4006: _GetWindowModuleFileName@12 already defined in clientw.obj; second definition ignored
+net\dlc\dlcapi\dlcdebug.c(1342) : warning C4172: returning address of local variable or temporary
+net\netcmd\netuse\msnet.nt(235) : warning C4035: 'xxaction' : no return value
+inet\ohnt\ie\security\ssl\code\ssldbg.h(27) : warning C4005: 'ASSERT' : macro redefinition
+inet\ohnt\ie\security\ssl\code\ssldbg.h(32) : warning C4005: 'DEBUGMSG' : macro redefinition
+inet\ohnt\ie\security\ssl\code\ssldbg.h(34) : warning C4005: 'TRACE_OUT' : macro redefinition
+inet\ohnt\ie\security\secbasic\dlg_pw.dlg (5) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\security\ssl\code\ssldbg.h(27) : warning C4005: 'ASSERT' : macro redefinition
+inet\ohnt\ie\security\ssl\code\ssldbg.h(32) : warning C4005: 'DEBUGMSG' : macro redefinition
+inet\ohnt\ie\security\ssl\code\ssldbg.h(34) : warning C4005: 'TRACE_OUT' : macro redefinition
+inet\ohnt\ie\security\ssl\code\ssldbg.h(27) : warning C4005: 'ASSERT' : macro redefinition
+inet\ohnt\ie\security\ssl\code\ssldbg.h(32) : warning C4005: 'DEBUGMSG' : macro redefinition
+inet\ohnt\ie\security\ssl\code\ssldbg.h(34) : warning C4005: 'TRACE_OUT' : macro redefinition
+inet\ohnt\ie\security\msnsspc\msndlg.dlg (7) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\security\ssl\code\ssldbg.h(27) : warning C4005: 'ASSERT' : macro redefinition
+inet\ohnt\ie\security\ssl\code\ssldbg.h(32) : warning C4005: 'DEBUGMSG' : macro redefinition
+inet\ohnt\ie\security\ssl\code\ssldbg.h(34) : warning C4005: 'TRACE_OUT' : macro redefinition
+inet\ohnt\ie\security\ssl\code\ssldbg.h(27) : warning C4005: 'ASSERT' : macro redefinition
+inet\ohnt\ie\security\ssl\code\ssldbg.h(32) : warning C4005: 'DEBUGMSG' : macro redefinition
+inet\ohnt\ie\security\ssl\code\ssldbg.h(34) : warning C4005: 'TRACE_OUT' : macro redefinition
+inet\ohnt\ie\security\ssl\code\ssldbg.h(27) : warning C4005: 'ASSERT' : macro redefinition
+inet\ohnt\ie\security\ssl\code\ssldbg.h(32) : warning C4005: 'DEBUGMSG' : macro redefinition
+inet\ohnt\ie\security\ssl\code\ssldbg.h(34) : warning C4005: 'TRACE_OUT' : macro redefinition
+inet\ohnt\url\url.rc (60) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\url\url.rc (83) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\url\url.rc (102) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\url\url.rc (116) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\url\url.rc (132) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\url\url.rc (153) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\url\url.rc (184) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_abou.dlg (4) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_page.dlg (7) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_page.dlg (27) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_abrt.dlg (4) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_pref.dlg (78) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_pref.dlg (132) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_pref.dlg (194) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_pref.dlg (214) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_pref.dlg (250) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_pref.dlg (271) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_find.dlg (4) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_unk.dlg (4) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_err.dlg (6) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_safe.dlg (4) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_snd.dlg (14) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_ssl0.dlg (4) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_ssl1.dlg (4) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_ssl2.dlg (4) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_ssl3.dlg (4) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_ssl4.dlg (4) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_ssl5.dlg (4) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_ssl6.dlg (4) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_ssl7.dlg (4) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_post.dlg (5) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_dflt.dlg (4) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_prop.dlg (4) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_prop.dlg (39) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\dlg_prop.dlg (52) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\rc_accel.acl (45) : warning RC4204 : ASCII character not equivalent to virtual key code
+inet\ohnt\ie\core\contmenu.c(978) : warning C4047: '==' : 'struct HWND__ *' differs in levels of indirection from 'const unsigned int '
+inet\ohnt\ie\core\contmenu.c(997) : warning C4047: '==' : 'struct HWND__ *' differs in levels of indirection from 'const unsigned int '
+inet\ohnt\inetcpl\inetcpl.dlg (9) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\inetcpl\inetcpl.dlg (40) : warning RC4510 : Hardcoded font 'MS Sans Serif' changed to 'MS Shell Dlg'
+inet\ohnt\ie\core\prefs.c(71) : warning C4047: '==' : 'struct HKEY__ *' differs in levels of indirection from 'const int '
+wangview\oiwh\display\oidis400.rc(1) : warning RC4005: '_DLL' : redefinition
+inet\ohnt\ie\core\w32dde.c(257) : warning C4047: 'return' : 'unsigned long ' differs in levels of indirection from 'struct HCONV__ *'
+wangview\oiwh\jpeg2\jdmain.c(149) : warning C4007: 'main' : must be '__cdecl'
+wangview\oiwh\print\prtdc.c(228) : warning C4113: 'int (__stdcall *)(void)' differs in parameter lists from 'int (__stdcall *)(struct HWND__ *,unsigned int ,unsigned int ,long )'
+wangview\oiwh\print\prtdc.c(231) : warning C4113: 'int (__stdcall *)(void)' differs in parameter lists from 'int (__stdcall *)(struct HDC__ *,int )'
+wangview\oiwh\print\prtdc.c(245) : warning C4113: 'int (__stdcall *)(void)' differs in parameter lists from 'int (__stdcall *)(struct HDC__ *,int )'
+wangview\oiwh\libgfs\mktemp.c(57) : warning C4005: 'WIN32_LEAN_AND_MEAN' : macro redefinition
+wangview\oiwh\ui\attrbox.c(1948) : warning C4113: 'int (__stdcall *)(void)' differs in parameter lists from 'int (__stdcall *)(struct HWND__ *,unsigned int ,unsigned int ,long )'
+wangview\oiwh\ui\attrbox.c(1957) : warning C4113: 'int (__stdcall *)(void)' differs in parameter lists from 'int (__stdcall *)(struct HWND__ *,unsigned int ,unsigned int ,long )'
+wangview\oiwh\ui\attrbox.c(2026) : warning C4113: 'int (__stdcall *)(void)' differs in parameter lists from 'int (__stdcall *)(struct HWND__ *,unsigned int ,unsigned int ,long )'
+wangview\oiwh\ui\attrbox.c(2035) : warning C4113: 'int (__stdcall *)(void)' differs in parameter lists from 'int (__stdcall *)(struct HWND__ *,unsigned int ,unsigned int ,long )'
+wangview\oiwh\ui\oiattrib.c(154) : warning C4113: 'int (__stdcall *)(void)' differs in parameter lists from 'int (__stdcall *)(struct HWND__ *,unsigned int ,unsigned int ,long )'
+wangview\oiwh\ui\oiattrib.c(211) : warning C4113: 'int (__stdcall *)(void)' differs in parameter lists from 'int (__stdcall *)(struct HWND__ *,unsigned int ,unsigned int ,long )'
+wangview\oiwh\ui\oiattrib.c(213) : warning C4113: 'int (__stdcall *)(void)' differs in parameter lists from 'int (__stdcall *)(struct HWND__ *,unsigned int ,unsigned int ,long )'
+wangview\oiwh\ui\oiattrib.c(222) : warning C4113: 'int (__stdcall *)(void)' differs in parameter lists from 'int (__stdcall *)(struct HWND__ *,unsigned int ,unsigned int ,long )'
+wangview\oiwh\ui\oiattrib.c(224) : warning C4113: 'int (__stdcall *)(void)' differs in parameter lists from 'int (__stdcall *)(struct HWND__ *,unsigned int ,unsigned int ,long )'
+wangview\oiwh\ui\oiattrib.c(279) : warning C4113: 'int (__stdcall *)(void)' differs in parameter lists from 'int (__stdcall *)(struct HWND__ *,unsigned int ,unsigned int ,long )'
+wangview\oiwh\libgfs\tmpnam.c(95) : warning C4005: 'WIN32_LEAN_AND_MEAN' : macro redefinition
+wangview\oiwh\scanseq\scanstat.c(348) : warning C4113: 'int (__stdcall *)(void)' differs in parameter lists from 'int (__stdcall *)(struct HWND__ *,unsigned int ,unsigned int ,long )'
+wangview\norway\ieditocx\minitlbx.cpp(1254) : warning C4018: '==' : signed/unsigned mismatch
+wangview\norway\ieditocx\minitlbx.cpp(1383) : warning C4018: '==' : signed/unsigned mismatch
+wangview\xfilexr\src\tiffhead\tiffhead.h(142) : warning C4005: 'DBG' : macro redefinition
+wangview\xfilexr\src\tiffhead\tiffhead.h(142) : warning C4005: 'DBG' : macro redefinition
+wangview\xfilexr\src\tiffhead\tiffhead.h(142) : warning C4005: 'DBG' : macro redefinition
+wangview\xfilexr\include\tiffhead.h(142) : warning C4005: 'DBG' : macro redefinition
+wangview\xfilexr\src\tiffhead\tiffhead.h(142) : warning C4005: 'DBG' : macro redefinition
+wangview\xfilexr\include\tiffhead.h(142) : warning C4005: 'DBG' : macro redefinition
+wangview\xfilexr\src\tiffhead\tiffhead.h(142) : warning C4005: 'DBG' : macro redefinition
+wangview\xfilexr\include\tiffhead.h(142) : warning C4005: 'DBG' : macro redefinition
+wangview\xfilexr\src\tiffhead\tiffhead.h(142) : warning C4005: 'DBG' : macro redefinition
+wangview\xfilexr\include\tiffhead.h(142) : warning C4005: 'DBG' : macro redefinition
+wangview\xfilexr\include\tiffhead.h(142) : warning C4005: 'DBG' : macro redefinition
+wangview\xfilexr\src\tiffhead\tiffhead.h(142) : warning C4005: 'DBG' : macro redefinition
+wangview\xfilexr\include\tiffhead.h(142) : warning C4005: 'DBG' : macro redefinition
+wangview\xfilexr\include\tiffhead.h(142) : warning C4005: 'DBG' : macro redefinition
+wangview\xfilexr\include\tiffhead.h(142) : warning C4005: 'DBG' : macro redefinition
+ntos\init\up\link() : warning LNK4044: unrecognized option "calltree"; ignored
+ntos\init\up\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedIncrement@4 already defined in cache.lib(fssup.obj); second definition ignored
+ntos\init\up\fsrtl.lib(filelock.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\fsrtl.lib(oplock.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\fsrtl.lib(notify.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\io.lib(iosubs.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\io.lib(misc.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\io.lib(lock.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\io.lib(dir.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\io.lib(qsea.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\io.lib(qsinfo.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\io.lib(qsfs.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\io.lib(read.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\io.lib(write.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\io.lib(internal.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\io.lib(internal.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\io.lib(objsup.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\ke.lib(bugcheck.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\ke.lib(i386pcr.obj) : warning LNK4006: _KeGetPcr@0 already defined in ke.lib(biosc.obj); second definition ignored
+ntos\init\up\ke.lib(i386pcr.obj) : warning LNK4006: _KeGetCurrentPrcb@0 already defined in cache.lib(copysup.obj); second definition ignored
+ntos\init\up\ke.lib(i386pcr.obj) : warning LNK4006: _KeIsExecutingDpc@0 already defined in ex.lib(resource.obj); second definition ignored
+ntos\init\mp\link() : warning LNK4044: unrecognized option "calltree"; ignored
+ntos\init\up\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlEnlargedUnsignedDivide@16 already defined in io.lib(assign.obj); second definition ignored
+ntos\init\up\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlConvertUlongToLargeInteger@4 already defined in fstub.lib(drivesup.obj); second definition ignored
+ntos\init\up\ntosrtl.lib(excptdbg.obj) : warning LNK4006: @InterlockedCompareExchange@12 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\ob.lib(obref.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\ob.lib(obhandle.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\ps.lib(psquery.obj) : warning LNK4006: _RtlConvertLongToLargeInteger@4 already defined in ntosrtl.lib(largeint.obj); second definition ignored
+ntos\init\up\ps.lib(psdelete.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedIncrement@4 already defined in cache.lib(fssup.obj); second definition ignored
+ntos\init\mp\fsrtl.lib(filelock.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\fsrtl.lib(oplock.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\fsrtl.lib(notify.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\se.lib(seglobal.obj) : warning LNK4006: _RtlConvertLongToLargeInteger@4 already defined in ntosrtl.lib(largeint.obj); second definition ignored
+ntos\init\mp\io.lib(iosubs.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\io.lib(misc.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\io.lib(lock.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\up\vdm.lib(vdmints.obj) : warning LNK4006: _RtlEnlargedIntegerMultiply@8 already defined in ntosrtl.lib(largeint.obj); second definition ignored
+ntos\init\mp\io.lib(dir.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\io.lib(qsea.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\io.lib(qsinfo.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\io.lib(qsfs.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\io.lib(read.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\io.lib(write.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\io.lib(internal.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\io.lib(internal.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\io.lib(objsup.obj) : warning LNK4006: @InterlockedExchange@8 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\ke.lib(bugcheck.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\ke.lib(i386pcr.obj) : warning LNK4006: _KeGetPcr@0 already defined in ke.lib(biosc.obj); second definition ignored
+ntos\init\mp\ke.lib(i386pcr.obj) : warning LNK4006: _KeGetCurrentPrcb@0 already defined in cache.lib(copysup.obj); second definition ignored
+ntos\init\mp\ke.lib(i386pcr.obj) : warning LNK4006: _KeIsExecutingDpc@0 already defined in ex.lib(resource.obj); second definition ignored
+ntos\init\mp\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlEnlargedUnsignedDivide@16 already defined in io.lib(assign.obj); second definition ignored
+ntos\init\up\binplace() : warning BNP0000: CopyFile(w:\nt\private\ntos\init\up\obj\i386\ntoskrnl.exe,W:\binaries\nt\.\ntoskrnl.exe) failed 2
+ntos\init\mp\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlConvertUlongToLargeInteger@4 already defined in fstub.lib(drivesup.obj); second definition ignored
+ntos\init\mp\ntosrtl.lib(excptdbg.obj) : warning LNK4006: @InterlockedCompareExchange@12 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\ob.lib(obref.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\ob.lib(obhandle.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\ps.lib(psquery.obj) : warning LNK4006: _RtlConvertLongToLargeInteger@4 already defined in ntosrtl.lib(largeint.obj); second definition ignored
+ntos\init\mp\ps.lib(psdelete.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ex.lib(intrlfst.obj); second definition ignored
+ntos\init\mp\se.lib(seglobal.obj) : warning LNK4006: _RtlConvertLongToLargeInteger@4 already defined in ntosrtl.lib(largeint.obj); second definition ignored
+ntos\init\mp\vdm.lib(vdmints.obj) : warning LNK4006: _RtlEnlargedIntegerMultiply@8 already defined in ntosrtl.lib(largeint.obj); second definition ignored
+ntos\init\mp\binplace() : warning BNP0000: CopyFile(w:\nt\private\ntos\init\mp\obj\i386\ntkrnlmp.exe,W:\binaries\nt\.\ntkrnlmp.exe) failed 2
+ntos\nthals\halx86\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
+ntos\nthals\halx86\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
+ntos\nthals\halx86\link() : warning LNK4049: locally defined symbol "@ExReleaseFastMutex@4" imported
+ntos\nthals\halx86\link() : warning LNK4049: locally defined symbol "@ExAcquireFastMutex@4" imported
+ntos\nthals\halx86\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_ULONG@8" imported
+ntos\nthals\halx86\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
+ntos\nthals\halx86\link() : warning LNK4049: locally defined symbol "_READ_PORT_ULONG@4" imported
+ntos\nthals\halx86\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
+ntos\nthals\halmca\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_ULONG@8" imported
+ntos\nthals\halmca\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
+ntos\nthals\halmca\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
+ntos\nthals\halmca\link() : warning LNK4049: locally defined symbol "_READ_PORT_ULONG@4" imported
+ntos\nthals\halmca\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
+ntos\nthals\halmca\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
+ntos\nthals\hal486c\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_ULONG@8" imported
+ntos\nthals\hal486c\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
+ntos\nthals\hal486c\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
+ntos\nthals\hal486c\link() : warning LNK4049: locally defined symbol "_READ_PORT_ULONG@4" imported
+ntos\nthals\hal486c\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
+ntos\nthals\hal486c\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
+ntos\nthals\halast\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
+ntos\nthals\halast\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
+ntos\nthals\haloli\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
+ntos\nthals\halsp\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
+ntos\nthals\halsp\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
+ntos\nthals\halsp\link() : warning LNK4049: locally defined symbol "@ExReleaseFastMutex@4" imported
+ntos\nthals\halsp\link() : warning LNK4049: locally defined symbol "@ExAcquireFastMutex@4" imported
+ntos\nthals\halsp\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_ULONG@8" imported
+ntos\nthals\halsp\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
+ntos\nthals\halsp\link() : warning LNK4049: locally defined symbol "_READ_PORT_ULONG@4" imported
+ntos\nthals\halsp\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
+ntos\nthals\haloli\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
+ntos\nthals\halcbus\eisa\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_ULONG@8" imported
+ntos\nthals\halcbus\eisa\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
+ntos\nthals\halcbus\eisa\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
+ntos\nthals\halcbus\eisa\link() : warning LNK4049: locally defined symbol "_READ_PORT_ULONG@4" imported
+ntos\nthals\halcbus\eisa\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
+ntos\nthals\halcbus\eisa\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
+ntos\nthals\halcbus\mca\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_ULONG@8" imported
+ntos\nthals\halcbus\mca\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
+ntos\nthals\halcbus\mca\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
+ntos\nthals\halcbus\mca\link() : warning LNK4049: locally defined symbol "_READ_PORT_ULONG@4" imported
+ntos\nthals\halcbus\mca\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
+ntos\nthals\halcbus\mca\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
+ntos\nthals\halws3\link() : warning LNK4049: locally defined symbol "@KfLowerIrql@4" imported
+ntos\nthals\halws3\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
+ntos\nthals\halws3\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
+ntos\nthals\halws3\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
+ntos\nthals\halws3\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
+ntos\nthals\halws3\link() : warning LNK4049: locally defined symbol "_READ_PORT_ULONG@4" imported
+ntos\nthals\halwyse7\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
+ntos\nthals\halwyse7\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
+ntos\miniport\atapi\binplace() : warning BNP0000: CopyFile(w:\nt\public\sdk\lib\i386\atapi.sys,W:\binaries\nt\.\atapi.sys) failed 2
+ntos\nthals\halncr\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_ULONG@8" imported
+ntos\nthals\halncr\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
+ntos\nthals\halncr\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
+ntos\nthals\halncr\link() : warning LNK4049: locally defined symbol "_READ_PORT_ULONG@4" imported
+ntos\nthals\halncr\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
+ntos\nthals\halncr\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
+ntos\fastfat\binplace() : warning BNP0000: CopyFile(W:\nt\public\sdk\lib\i386\fastfat.sys,W:\binaries\nt\.\fastfat.sys) failed 2
+ntos\cntfs\mp\binplace() : warning BNP0000: CopyFile(W:\nt\public\sdk\lib\i386\ntfs.sys,W:\binaries\nt\.\ntfs.sys) failed 2
+ntos\w32\ntuser\client\daytona\clienta.obj() : warning LNK4006: _GetWindowModuleFileName@12 already defined in clientw.obj; second definition ignored
+ntos\w32\ntuser\client\daytona\clienta.obj() : warning LNK4006: _GetWindowModuleFileName@12 already defined in clientw.obj; second definition ignored
+ntos\w32\ntgdi\displays\framebuf\binplace() : warning BNP0000: CopyFile(w:\nt\private\ntos\w32\ntgdi\displays\framebuf\obj\i386\framebuf.dll,W:\binaries\nt\.\framebuf.dll) failed 2
+ntos\w32\ntgdi\displays\vga64k\binplace() : warning BNP0000: CopyFile(w:\nt\private\ntos\w32\ntgdi\displays\vga64k\obj\i386\vga64k.dll,W:\binaries\nt\.\vga64k.dll) failed 2
+ntos\w32\ntgdi\displays\vga\binplace() : warning BNP0000: CopyFile(w:\nt\private\ntos\w32\ntgdi\displays\vga\obj\i386\vga.dll,W:\binaries\nt\.\vga.dll) failed 2
+ntos\w32\ntgdi\displays\vga256\binplace() : warning BNP0000: CopyFile(w:\nt\private\ntos\w32\ntgdi\displays\vga256\obj\i386\vga256.dll,W:\binaries\nt\.\vga256.dll) failed 2
+ntos\w32\ntgdi\displays\tga\binplace() : warning BNP0000: CopyFile(w:\nt\private\ntos\w32\ntgdi\displays\tga\obj\i386\tga.dll,W:\binaries\nt\.\tga.dll) failed 2
+ntos\w32\kmode\daytona\win32k.lib(WIN32K.SYS) : warning LNK4006: __local_unwind2 already defined in win32k.lib(exsup.obj); second definition ignored
+ntos\w32\kmode\daytona\win32k.lib(WIN32K.SYS) : warning LNK4006: __global_unwind2 already defined in win32k.lib(exsup.obj); second definition ignored
+ntos\w32\kmode\daytona\win32k.lib(WIN32K.SYS) : warning LNK4006: __except_handler2 already defined in win32k.lib(exsup2.obj); second definition ignored
+ntos\w32\kmode\daytona\win32k.lib(WIN32K.SYS) : warning LNK4006: __abnormal_termination already defined in win32k.lib(exsup.obj); second definition ignored
+ntos\w32\kmode\daytona\win32k.lib(exsup.obj) : warning LNK4006: __global_unwind2 already defined in win32k.lib(exsup.obj); second definition ignored
+ntos\w32\kmode\daytona\win32k.lib(exsup.obj) : warning LNK4006: __local_unwind2 already defined in win32k.lib(exsup.obj); second definition ignored
+ntos\w32\kmode\daytona\win32k.lib(exsup.obj) : warning LNK4006: __abnormal_termination already defined in win32k.lib(exsup.obj); second definition ignored
+ntos\w32\kmode\daytona\win32k.lib(exsup2.obj) : warning LNK4006: __except_handler2 already defined in win32k.lib(exsup2.obj); second definition ignored
+ntos\w32\kmode\daytona\win32k.lib(exsup3.obj) : warning LNK4006: __except_handler3 already defined in win32k.lib(exsup3.obj); second definition ignored
+ntos\w32\kmode\daytona\win32k.lib(exsup3.obj) : warning LNK4006: __seh_longjmp_unwind@4 already defined in win32k.lib(exsup3.obj); second definition ignored
+ntos\w32\kmode\daytona\win32k.lib(sehsupp.obj) : warning LNK4006: __rt_probe_read4@4 already defined in win32k.lib(sehsupp.obj); second definition ignored
+ntos\w32\kmode\daytona\win32k.lib(setjmp.obj) : warning LNK4006: __setjmp already defined in win32k.lib(setjmp.obj); second definition ignored
+ntos\w32\kmode\daytona\win32k.lib(setjmp.obj) : warning LNK4006: _raisex already defined in win32k.lib(setjmp.obj); second definition ignored
+ntos\w32\kmode\daytona\win32k.lib(setjmp3.obj) : warning LNK4006: __setjmp3 already defined in win32k.lib(setjmp3.obj); second definition ignored
+ntos\w32\kmode\daytona\win32k.lib(setjmpex.obj) : warning LNK4006: __setjmpexused already defined in win32k.lib(setjmpex.obj); second definition ignored
+ntos\w32\kmode\daytona\win32k.lib(setjmpex.obj) : warning LNK4006: __longjmpex already defined in win32k.lib(setjmpex.obj); second definition ignored
+ntos\w32\kmode\daytona\win32k.lib(longjmp.obj) : warning LNK4006: _longjmp already defined in win32k.lib(longjmp.obj); second definition ignored
+ntos\w32\kmode\daytona\exsup.lib(exsup.obj) : warning LNK4006: __global_unwind2 already defined in win32k.lib(exsup.obj); second definition ignored
+ntos\w32\kmode\daytona\exsup.lib(exsup.obj) : warning LNK4006: __local_unwind2 already defined in win32k.lib(exsup.obj); second definition ignored
+ntos\w32\kmode\daytona\exsup.lib(exsup.obj) : warning LNK4006: __abnormal_termination already defined in win32k.lib(exsup.obj); second definition ignored
+ntos\w32\kmode\daytona\exsup.lib(exsup2.obj) : warning LNK4006: __except_handler2 already defined in win32k.lib(exsup2.obj); second definition ignored
+ntos\w32\kmode\daytona\exsup.lib(exsup3.obj) : warning LNK4006: __except_handler3 already defined in win32k.lib(exsup3.obj); second definition ignored
+ntos\w32\kmode\daytona\exsup.lib(exsup3.obj) : warning LNK4006: __seh_longjmp_unwind@4 already defined in win32k.lib(exsup3.obj); second definition ignored
+ntos\w32\kmode\daytona\exsup.lib(sehsupp.obj) : warning LNK4006: __rt_probe_read4@4 already defined in win32k.lib(sehsupp.obj); second definition ignored
+ntos\w32\kmode\daytona\exsup.lib(setjmp.obj) : warning LNK4006: __setjmp already defined in win32k.lib(setjmp.obj); second definition ignored
+ntos\w32\kmode\daytona\exsup.lib(setjmp.obj) : warning LNK4006: _raisex already defined in win32k.lib(setjmp.obj); second definition ignored
+ntos\w32\kmode\daytona\exsup.lib(setjmp3.obj) : warning LNK4006: __setjmp3 already defined in win32k.lib(setjmp3.obj); second definition ignored
+ntos\w32\kmode\daytona\exsup.lib(setjmpex.obj) : warning LNK4006: __setjmpexused already defined in win32k.lib(setjmpex.obj); second definition ignored
+ntos\w32\kmode\daytona\exsup.lib(setjmpex.obj) : warning LNK4006: __longjmpex already defined in win32k.lib(setjmpex.obj); second definition ignored
+ntos\w32\kmode\daytona\exsup.lib(longjmp.obj) : warning LNK4006: _longjmp already defined in win32k.lib(longjmp.obj); second definition ignored
+ntos\ndis\ndis40\up\binplace() : warning BNP0000: CopyFile(w:\nt\private\ntos\ndis\ndis40\up\obj\i386\ndis.sys,W:\binaries\nt\.\up\ndis.sys) failed 2
+ntos\ndis\ndiswan\export\binplace() : warning BNP0000: CopyFile(W:\nt\public\sdk\lib\i386\ndiswan.sys,W:\binaries\nt\.\ndiswan.sys) failed 2
+ntos\w32\kmode\daytona\binplace() : warning BNP0000: CopyFile(W:\nt\public\sdk\lib\i386\win32k.sys,W:\binaries\nt\.\.\win32k.sys) failed 2
+ntos\ndis\ndis40\mp\binplace() : warning BNP0000: CopyFile(w:\nt\public\sdk\lib\i386\ndis.sys,W:\binaries\nt\.\ndis.sys) failed 2
+ntos\ndis\detect\driver\binplace() : warning BNP0000: CopyFile(w:\nt\public\sdk\lib\i386\netdtect.sys,W:\binaries\nt\.\netdtect.sys) failed 2
+ntos\ndis\digi\pcimac\binplace() : warning BNP0000: CopyFile(W:\nt\public\sdk\lib\i386\pcimac.sys,W:\binaries\nt\.\pcimac.sys) failed 2
+ntos\ndis\ne3200\binplace() : warning BNP0000: CopyFile(w:\nt\public\sdk\lib\i386\ne3200.sys,W:\binaries\nt\.\ne3200.sys) failed 2
+ntos\ndis\ubnei\binplace() : warning BNP0000: CopyFile(w:\nt\public\sdk\lib\i386\ubnei.sys,W:\binaries\nt\.\ubnei.sys) failed 2
+ntos\ndis\madge\driver\binplace() : warning BNP0000: CopyFile(W:\nt\public\sdk\lib\i386\MDGMPORT.sys,W:\binaries\nt\.\MDGMPORT.sys) failed 2
+ntos\tdi\isn\ipx\up\binplace() : warning BNP0000: CopyFile(w:\nt\private\ntos\tdi\isn\ipx\up\obj\i386\nwlnkipx.sys,W:\binaries\nt\.\up\nwlnkipx.sys) failed 2
+ntos\tdi\isn\ipx\mp\binplace() : warning BNP0000: CopyFile(w:\nt\public\sdk\lib\i386\nwlnkipx.sys,W:\binaries\nt\.\nwlnkipx.sys) failed 2
+ntos\tdi\isn\spx\up\binplace() : warning BNP0000: CopyFile(w:\nt\private\ntos\tdi\isn\spx\up\obj\i386\nwlnkspx.sys,W:\binaries\nt\.\up\nwlnkspx.sys) failed 2
+ntos\tdi\isn\spx\mp\binplace() : warning BNP0000: CopyFile(w:\nt\public\sdk\lib\i386\nwlnkspx.sys,W:\binaries\nt\.\nwlnkspx.sys) failed 2
+ntos\tdi\isn\nb\up\binplace() : warning BNP0000: CopyFile(w:\nt\private\ntos\tdi\isn\nb\up\obj\i386\nwlnknb.sys,W:\binaries\nt\.\up\nwlnknb.sys) failed 2
+ntos\tdi\isn\fwd\up\binplace() : warning BNP0000: CopyFile(w:\nt\private\ntos\tdi\isn\fwd\up\obj\i386\nwlnkfwd.sys,W:\binaries\nt\Routing\dump\up\nwlnkfwd.sys) failed 2
+ntos\tdi\isn\nb\mp\binplace() : warning BNP0000: CopyFile(w:\nt\public\sdk\lib\i386\nwlnknb.sys,W:\binaries\nt\.\nwlnknb.sys) failed 2
+ntos\tdi\isn\fwd\mp\binplace() : warning BNP0000: CopyFile(w:\nt\public\sdk\lib\i386\nwlnkfwd.sys,W:\binaries\nt\Routing\dump\nwlnkfwd.sys) failed 2
+ntos\tdi\isn\rip\up\binplace() : warning BNP0000: CopyFile(w:\nt\private\ntos\tdi\isn\rip\up\obj\i386\nwlnkrip.sys,W:\binaries\nt\.\up\nwlnkrip.sys) failed 2
+ntos\tdi\isn\rip\mp\binplace() : warning BNP0000: CopyFile(w:\nt\public\sdk\lib\i386\nwlnkrip.sys,W:\binaries\nt\.\nwlnkrip.sys) failed 2
+ntos\tdi\nbf\binplace() : warning BNP0000: CopyFile(w:\nt\public\sdk\lib\i386\nbf.sys,W:\binaries\nt\.\nbf.sys) failed 2
+ntos\tdi\acd\binplace() : warning BNP0000: CopyFile(w:\nt\private\ntos\tdi\acd\obj\i386\rasacd.sys,W:\binaries\nt\.\rasacd.sys) failed 2
+ntos\netbios\binplace() : warning BNP0000: CopyFile(w:\nt\public\sdk\lib\i386\netbios.sys,W:\binaries\nt\.\netbios.sys) failed 2
+ntos\afd\daytona\binplace() : warning BNP0000: CopyFile(W:\nt\public\sdk\lib\i386\afd.sys,W:\binaries\nt\.\afd.sys) failed 2
+ntos\rdr\daytona\bowser.lib(bowdata.obj) : warning LNK4006: _ThisCodeCantBePaged already defined in netdata.obj; second definition ignored
+ntos\rdr\daytona\binplace() : warning BNP0000: CopyFile(W:\nt\public\sdk\lib\i386\rdr.sys,W:\binaries\nt\.\rdr.sys) failed 2
+ntos\cdfs\binplace() : warning BNP0000: CopyFile(w:\nt\public\sdk\lib\i386\cdfs.sys,W:\binaries\nt\.\cdfs.sys) failed 2
+ntos\srv\daytonau\binplace() : warning BNP0000: CopyFile(w:\nt\private\ntos\srv\daytonau\obj\i386\srv.sys,W:\binaries\nt\.\up\srv.sys) failed 2
+ntos\srv\daytonam\binplace() : warning BNP0000: CopyFile(W:\nt\public\sdk\lib\i386\srv.sys,W:\binaries\nt\.\srv.sys) failed 2
+ntos\nbt\nt\up\binplace() : warning BNP0000: CopyFile(w:\nt\private\ntos\nbt\nt\up\obj\i386\netbt.sys,W:\binaries\nt\.\up\netbt.sys) failed 2
+ntos\nbt\nt\mp\binplace() : warning BNP0000: CopyFile(w:\nt\public\sdk\lib\i386\netbt.sys,W:\binaries\nt\.\netbt.sys) failed 2
+windows\setup\textmode\kernel\rtl.lib(imagedir.obj) : warning LNK4006: _RtlImageNtHeader@4 already defined in ntoskrnl.lib(ntoskrnl.exe); second definition ignored
+windows\setup\textmode\kernel\obj\i386\setupdd.sys() : warning LNK4088: image being generated due to /FORCE option; image may not run
+windows\opengl\mcd\server\binplace() : warning BNP0000: CopyFile(W:\nt\public\sdk\lib\i386\mcdsrv32.dll,W:\binaries\nt\.\mcdsrv32.dll) failed 2
+nw\rdr\binplace() : warning BNP0000: CopyFile(w:\nt\public\sdk\lib\i386\nwrdr.sys,W:\binaries\nt\.\nwrdr.sys) failed 2

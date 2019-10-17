@@ -1,0 +1,128 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\srvsvc.res \
+    $(_OBJ_DIR)\alpha\adtsrv.obj \
+    $(_OBJ_DIR)\alpha\canon.obj \
+    $(_OBJ_DIR)\alpha\cdev.obj \
+    $(_OBJ_DIR)\alpha\cdevq.obj \
+    $(_OBJ_DIR)\alpha\cmdline.obj \
+    $(_OBJ_DIR)\alpha\conn.obj \
+    $(_OBJ_DIR)\alpha\dfs.obj \
+    $(_OBJ_DIR)\alpha\disk.obj \
+    $(_OBJ_DIR)\alpha\file.obj \
+    $(_OBJ_DIR)\alpha\internal.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\scavengr.obj \
+    $(_OBJ_DIR)\alpha\security.obj \
+    $(_OBJ_DIR)\alpha\sess.obj \
+    $(_OBJ_DIR)\alpha\share.obj \
+    $(_OBJ_DIR)\alpha\srvinfo.obj \
+    $(_OBJ_DIR)\alpha\srvmain.obj \
+    $(_OBJ_DIR)\alpha\srvsvc_s.obj \
+    $(_OBJ_DIR)\alpha\ssdata.obj \
+    $(_OBJ_DIR)\alpha\ssinit.obj \
+    $(_OBJ_DIR)\alpha\sssubs.obj \
+    $(_OBJ_DIR)\alpha\stats.obj \
+    $(_OBJ_DIR)\alpha\tod.obj \
+    $(_OBJ_DIR)\alpha\xport.obj \
+    $(_OBJ_DIR)\alpha\xsdata.obj \
+    $(_OBJ_DIR)\alpha\xsinit.obj \
+    $(_OBJ_DIR)\alpha\xsproc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\srvsvc.res \
+    $(_OBJ_DIR)\mips\adtsrv.obj \
+    $(_OBJ_DIR)\mips\canon.obj \
+    $(_OBJ_DIR)\mips\cdev.obj \
+    $(_OBJ_DIR)\mips\cdevq.obj \
+    $(_OBJ_DIR)\mips\cmdline.obj \
+    $(_OBJ_DIR)\mips\conn.obj \
+    $(_OBJ_DIR)\mips\dfs.obj \
+    $(_OBJ_DIR)\mips\disk.obj \
+    $(_OBJ_DIR)\mips\file.obj \
+    $(_OBJ_DIR)\mips\internal.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\scavengr.obj \
+    $(_OBJ_DIR)\mips\security.obj \
+    $(_OBJ_DIR)\mips\sess.obj \
+    $(_OBJ_DIR)\mips\share.obj \
+    $(_OBJ_DIR)\mips\srvinfo.obj \
+    $(_OBJ_DIR)\mips\srvmain.obj \
+    $(_OBJ_DIR)\mips\srvsvc_s.obj \
+    $(_OBJ_DIR)\mips\ssdata.obj \
+    $(_OBJ_DIR)\mips\ssinit.obj \
+    $(_OBJ_DIR)\mips\sssubs.obj \
+    $(_OBJ_DIR)\mips\stats.obj \
+    $(_OBJ_DIR)\mips\tod.obj \
+    $(_OBJ_DIR)\mips\xport.obj \
+    $(_OBJ_DIR)\mips\xsdata.obj \
+    $(_OBJ_DIR)\mips\xsinit.obj \
+    $(_OBJ_DIR)\mips\xsproc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\srvsvc.res \
+    $(_OBJ_DIR)\i386\adtsrv.obj \
+    $(_OBJ_DIR)\i386\canon.obj \
+    $(_OBJ_DIR)\i386\cdev.obj \
+    $(_OBJ_DIR)\i386\cdevq.obj \
+    $(_OBJ_DIR)\i386\cmdline.obj \
+    $(_OBJ_DIR)\i386\conn.obj \
+    $(_OBJ_DIR)\i386\dfs.obj \
+    $(_OBJ_DIR)\i386\disk.obj \
+    $(_OBJ_DIR)\i386\file.obj \
+    $(_OBJ_DIR)\i386\internal.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\scavengr.obj \
+    $(_OBJ_DIR)\i386\security.obj \
+    $(_OBJ_DIR)\i386\sess.obj \
+    $(_OBJ_DIR)\i386\share.obj \
+    $(_OBJ_DIR)\i386\srvinfo.obj \
+    $(_OBJ_DIR)\i386\srvmain.obj \
+    $(_OBJ_DIR)\i386\srvsvc_s.obj \
+    $(_OBJ_DIR)\i386\ssdata.obj \
+    $(_OBJ_DIR)\i386\ssinit.obj \
+    $(_OBJ_DIR)\i386\sssubs.obj \
+    $(_OBJ_DIR)\i386\stats.obj \
+    $(_OBJ_DIR)\i386\tod.obj \
+    $(_OBJ_DIR)\i386\xport.obj \
+    $(_OBJ_DIR)\i386\xsdata.obj \
+    $(_OBJ_DIR)\i386\xsinit.obj \
+    $(_OBJ_DIR)\i386\xsproc.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\srvsvc.res \
+    $(_OBJ_DIR)\ppc\adtsrv.obj \
+    $(_OBJ_DIR)\ppc\canon.obj \
+    $(_OBJ_DIR)\ppc\cdev.obj \
+    $(_OBJ_DIR)\ppc\cdevq.obj \
+    $(_OBJ_DIR)\ppc\cmdline.obj \
+    $(_OBJ_DIR)\ppc\conn.obj \
+    $(_OBJ_DIR)\ppc\dfs.obj \
+    $(_OBJ_DIR)\ppc\disk.obj \
+    $(_OBJ_DIR)\ppc\file.obj \
+    $(_OBJ_DIR)\ppc\internal.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\scavengr.obj \
+    $(_OBJ_DIR)\ppc\security.obj \
+    $(_OBJ_DIR)\ppc\sess.obj \
+    $(_OBJ_DIR)\ppc\share.obj \
+    $(_OBJ_DIR)\ppc\srvinfo.obj \
+    $(_OBJ_DIR)\ppc\srvmain.obj \
+    $(_OBJ_DIR)\ppc\srvsvc_s.obj \
+    $(_OBJ_DIR)\ppc\ssdata.obj \
+    $(_OBJ_DIR)\ppc\ssinit.obj \
+    $(_OBJ_DIR)\ppc\sssubs.obj \
+    $(_OBJ_DIR)\ppc\stats.obj \
+    $(_OBJ_DIR)\ppc\tod.obj \
+    $(_OBJ_DIR)\ppc\xport.obj \
+    $(_OBJ_DIR)\ppc\xsdata.obj \
+    $(_OBJ_DIR)\ppc\xsinit.obj \
+    $(_OBJ_DIR)\ppc\xsproc.obj
+
+PASS0_PPC_OBJECTS=
+

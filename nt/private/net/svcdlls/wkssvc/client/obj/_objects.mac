@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\wksstub.obj \
+    $(_OBJ_DIR)\alpha\wksbind.obj \
+    $(_OBJ_DIR)\alpha\wkssvc_c.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\wksstub.obj \
+    $(_OBJ_DIR)\mips\wksbind.obj \
+    $(_OBJ_DIR)\mips\wkssvc_c.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\wksstub.obj \
+    $(_OBJ_DIR)\i386\wksbind.obj \
+    $(_OBJ_DIR)\i386\wkssvc_c.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\wksstub.obj \
+    $(_OBJ_DIR)\ppc\wksbind.obj \
+    $(_OBJ_DIR)\ppc\wkssvc_c.obj
+
+PASS0_PPC_OBJECTS=
+

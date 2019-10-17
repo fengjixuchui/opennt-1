@@ -1,0 +1,32 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\alrsvc.res \
+    $(_OBJ_DIR)\alpha\almain.obj \
+    $(_OBJ_DIR)\alpha\alformat.obj \
+    $(_OBJ_DIR)\alpha\alconfig.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\alrsvc.res \
+    $(_OBJ_DIR)\mips\almain.obj \
+    $(_OBJ_DIR)\mips\alformat.obj \
+    $(_OBJ_DIR)\mips\alconfig.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\alrsvc.res \
+    $(_OBJ_DIR)\i386\almain.obj \
+    $(_OBJ_DIR)\i386\alformat.obj \
+    $(_OBJ_DIR)\i386\alconfig.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\alrsvc.res \
+    $(_OBJ_DIR)\ppc\almain.obj \
+    $(_OBJ_DIR)\ppc\alformat.obj \
+    $(_OBJ_DIR)\ppc\alconfig.obj
+
+PASS0_PPC_OBJECTS=
+

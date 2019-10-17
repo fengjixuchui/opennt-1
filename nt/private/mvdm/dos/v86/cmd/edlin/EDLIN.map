@@ -309,8 +309,8 @@
  0000:35B2       arg_buf
  0000:36C0       line_num
  0000:36C2       line_flag
- 0000:36C6       start
  0000:36C6       parms
+ 0000:36C6       start
  0000:36F9       sw_?_switch
  0000:3705       filespec
  0000:3785       parse_switch_b

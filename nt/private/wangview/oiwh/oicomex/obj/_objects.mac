@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\oicom400.res \
+    $(_OBJ_DIR)\alpha\oicomex.obj \
+    $(_OBJ_DIR)\alpha\oicmain.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\oicom400.res \
+    $(_OBJ_DIR)\mips\oicomex.obj \
+    $(_OBJ_DIR)\mips\oicmain.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\oicom400.res \
+    $(_OBJ_DIR)\i386\oicomex.obj \
+    $(_OBJ_DIR)\i386\oicmain.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\oicom400.res \
+    $(_OBJ_DIR)\ppc\oicomex.obj \
+    $(_OBJ_DIR)\ppc\oicmain.obj
+
+PASS0_PPC_OBJECTS=
+

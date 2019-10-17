@@ -1,0 +1,184 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\oifil400.res \
+    $(_OBJ_DIR)\alpha\file_io.obj \
+    $(_OBJ_DIR)\alpha\fiocheck.obj \
+    $(_OBJ_DIR)\alpha\fiocmprs.obj \
+    $(_OBJ_DIR)\alpha\fiocopy.obj \
+    $(_OBJ_DIR)\alpha\fiocreat.obj \
+    $(_OBJ_DIR)\alpha\fiocvt.obj \
+    $(_OBJ_DIR)\alpha\fiodelet.obj \
+    $(_OBJ_DIR)\alpha\fiogif.obj \
+    $(_OBJ_DIR)\alpha\fioinfo.obj \
+    $(_OBJ_DIR)\alpha\fiolist.obj \
+    $(_OBJ_DIR)\alpha\fiomain.obj \
+    $(_OBJ_DIR)\alpha\fioparse.obj \
+    $(_OBJ_DIR)\alpha\fiopcx.obj \
+    $(_OBJ_DIR)\alpha\fiordopn.obj \
+    $(_OBJ_DIR)\alpha\fioread.obj \
+    $(_OBJ_DIR)\alpha\fioread1.obj \
+    $(_OBJ_DIR)\alpha\fiorenam.obj \
+    $(_OBJ_DIR)\alpha\fiostrip.obj \
+    $(_OBJ_DIR)\alpha\fiosubs.obj \
+    $(_OBJ_DIR)\alpha\fioterm.obj \
+    $(_OBJ_DIR)\alpha\fiotga.obj \
+    $(_OBJ_DIR)\alpha\fiotiff.obj \
+    $(_OBJ_DIR)\alpha\fiotmpnm.obj \
+    $(_OBJ_DIR)\alpha\fiowrcls.obj \
+    $(_OBJ_DIR)\alpha\fiowrite.obj \
+    $(_OBJ_DIR)\alpha\oiutil.obj \
+    $(_OBJ_DIR)\alpha\pegasus.obj \
+    $(_OBJ_DIR)\alpha\sstrings.obj \
+    $(_OBJ_DIR)\alpha\wgfsclos.obj \
+    $(_OBJ_DIR)\alpha\wgfscrea.obj \
+    $(_OBJ_DIR)\alpha\wgfsdele.obj \
+    $(_OBJ_DIR)\alpha\wgfsgdat.obj \
+    $(_OBJ_DIR)\alpha\wgfsgeti.obj \
+    $(_OBJ_DIR)\alpha\wgfsopen.obj \
+    $(_OBJ_DIR)\alpha\wgfsopts.obj \
+    $(_OBJ_DIR)\alpha\wgfsputi.obj \
+    $(_OBJ_DIR)\alpha\wgfsread.obj \
+    $(_OBJ_DIR)\alpha\wgfswrit.obj \
+    $(_OBJ_DIR)\alpha\wincmpex.obj \
+    $(_OBJ_DIR)\alpha\wis.obj \
+    $(_OBJ_DIR)\alpha\wisglobl.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\oifil400.res \
+    $(_OBJ_DIR)\mips\file_io.obj \
+    $(_OBJ_DIR)\mips\fiocheck.obj \
+    $(_OBJ_DIR)\mips\fiocmprs.obj \
+    $(_OBJ_DIR)\mips\fiocopy.obj \
+    $(_OBJ_DIR)\mips\fiocreat.obj \
+    $(_OBJ_DIR)\mips\fiocvt.obj \
+    $(_OBJ_DIR)\mips\fiodelet.obj \
+    $(_OBJ_DIR)\mips\fiogif.obj \
+    $(_OBJ_DIR)\mips\fioinfo.obj \
+    $(_OBJ_DIR)\mips\fiolist.obj \
+    $(_OBJ_DIR)\mips\fiomain.obj \
+    $(_OBJ_DIR)\mips\fioparse.obj \
+    $(_OBJ_DIR)\mips\fiopcx.obj \
+    $(_OBJ_DIR)\mips\fiordopn.obj \
+    $(_OBJ_DIR)\mips\fioread.obj \
+    $(_OBJ_DIR)\mips\fioread1.obj \
+    $(_OBJ_DIR)\mips\fiorenam.obj \
+    $(_OBJ_DIR)\mips\fiostrip.obj \
+    $(_OBJ_DIR)\mips\fiosubs.obj \
+    $(_OBJ_DIR)\mips\fioterm.obj \
+    $(_OBJ_DIR)\mips\fiotga.obj \
+    $(_OBJ_DIR)\mips\fiotiff.obj \
+    $(_OBJ_DIR)\mips\fiotmpnm.obj \
+    $(_OBJ_DIR)\mips\fiowrcls.obj \
+    $(_OBJ_DIR)\mips\fiowrite.obj \
+    $(_OBJ_DIR)\mips\oiutil.obj \
+    $(_OBJ_DIR)\mips\pegasus.obj \
+    $(_OBJ_DIR)\mips\sstrings.obj \
+    $(_OBJ_DIR)\mips\wgfsclos.obj \
+    $(_OBJ_DIR)\mips\wgfscrea.obj \
+    $(_OBJ_DIR)\mips\wgfsdele.obj \
+    $(_OBJ_DIR)\mips\wgfsgdat.obj \
+    $(_OBJ_DIR)\mips\wgfsgeti.obj \
+    $(_OBJ_DIR)\mips\wgfsopen.obj \
+    $(_OBJ_DIR)\mips\wgfsopts.obj \
+    $(_OBJ_DIR)\mips\wgfsputi.obj \
+    $(_OBJ_DIR)\mips\wgfsread.obj \
+    $(_OBJ_DIR)\mips\wgfswrit.obj \
+    $(_OBJ_DIR)\mips\wincmpex.obj \
+    $(_OBJ_DIR)\mips\wis.obj \
+    $(_OBJ_DIR)\mips\wisglobl.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\oifil400.res \
+    $(_OBJ_DIR)\i386\file_io.obj \
+    $(_OBJ_DIR)\i386\fiocheck.obj \
+    $(_OBJ_DIR)\i386\fiocmprs.obj \
+    $(_OBJ_DIR)\i386\fiocopy.obj \
+    $(_OBJ_DIR)\i386\fiocreat.obj \
+    $(_OBJ_DIR)\i386\fiocvt.obj \
+    $(_OBJ_DIR)\i386\fiodelet.obj \
+    $(_OBJ_DIR)\i386\fiogif.obj \
+    $(_OBJ_DIR)\i386\fioinfo.obj \
+    $(_OBJ_DIR)\i386\fiolist.obj \
+    $(_OBJ_DIR)\i386\fiomain.obj \
+    $(_OBJ_DIR)\i386\fioparse.obj \
+    $(_OBJ_DIR)\i386\fiopcx.obj \
+    $(_OBJ_DIR)\i386\fiordopn.obj \
+    $(_OBJ_DIR)\i386\fioread.obj \
+    $(_OBJ_DIR)\i386\fioread1.obj \
+    $(_OBJ_DIR)\i386\fiorenam.obj \
+    $(_OBJ_DIR)\i386\fiostrip.obj \
+    $(_OBJ_DIR)\i386\fiosubs.obj \
+    $(_OBJ_DIR)\i386\fioterm.obj \
+    $(_OBJ_DIR)\i386\fiotga.obj \
+    $(_OBJ_DIR)\i386\fiotiff.obj \
+    $(_OBJ_DIR)\i386\fiotmpnm.obj \
+    $(_OBJ_DIR)\i386\fiowrcls.obj \
+    $(_OBJ_DIR)\i386\fiowrite.obj \
+    $(_OBJ_DIR)\i386\oiutil.obj \
+    $(_OBJ_DIR)\i386\pegasus.obj \
+    $(_OBJ_DIR)\i386\sstrings.obj \
+    $(_OBJ_DIR)\i386\wgfsclos.obj \
+    $(_OBJ_DIR)\i386\wgfscrea.obj \
+    $(_OBJ_DIR)\i386\wgfsdele.obj \
+    $(_OBJ_DIR)\i386\wgfsgdat.obj \
+    $(_OBJ_DIR)\i386\wgfsgeti.obj \
+    $(_OBJ_DIR)\i386\wgfsopen.obj \
+    $(_OBJ_DIR)\i386\wgfsopts.obj \
+    $(_OBJ_DIR)\i386\wgfsputi.obj \
+    $(_OBJ_DIR)\i386\wgfsread.obj \
+    $(_OBJ_DIR)\i386\wgfswrit.obj \
+    $(_OBJ_DIR)\i386\wincmpex.obj \
+    $(_OBJ_DIR)\i386\wis.obj \
+    $(_OBJ_DIR)\i386\wisglobl.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\oifil400.res \
+    $(_OBJ_DIR)\ppc\file_io.obj \
+    $(_OBJ_DIR)\ppc\fiocheck.obj \
+    $(_OBJ_DIR)\ppc\fiocmprs.obj \
+    $(_OBJ_DIR)\ppc\fiocopy.obj \
+    $(_OBJ_DIR)\ppc\fiocreat.obj \
+    $(_OBJ_DIR)\ppc\fiocvt.obj \
+    $(_OBJ_DIR)\ppc\fiodelet.obj \
+    $(_OBJ_DIR)\ppc\fiogif.obj \
+    $(_OBJ_DIR)\ppc\fioinfo.obj \
+    $(_OBJ_DIR)\ppc\fiolist.obj \
+    $(_OBJ_DIR)\ppc\fiomain.obj \
+    $(_OBJ_DIR)\ppc\fioparse.obj \
+    $(_OBJ_DIR)\ppc\fiopcx.obj \
+    $(_OBJ_DIR)\ppc\fiordopn.obj \
+    $(_OBJ_DIR)\ppc\fioread.obj \
+    $(_OBJ_DIR)\ppc\fioread1.obj \
+    $(_OBJ_DIR)\ppc\fiorenam.obj \
+    $(_OBJ_DIR)\ppc\fiostrip.obj \
+    $(_OBJ_DIR)\ppc\fiosubs.obj \
+    $(_OBJ_DIR)\ppc\fioterm.obj \
+    $(_OBJ_DIR)\ppc\fiotga.obj \
+    $(_OBJ_DIR)\ppc\fiotiff.obj \
+    $(_OBJ_DIR)\ppc\fiotmpnm.obj \
+    $(_OBJ_DIR)\ppc\fiowrcls.obj \
+    $(_OBJ_DIR)\ppc\fiowrite.obj \
+    $(_OBJ_DIR)\ppc\oiutil.obj \
+    $(_OBJ_DIR)\ppc\pegasus.obj \
+    $(_OBJ_DIR)\ppc\sstrings.obj \
+    $(_OBJ_DIR)\ppc\wgfsclos.obj \
+    $(_OBJ_DIR)\ppc\wgfscrea.obj \
+    $(_OBJ_DIR)\ppc\wgfsdele.obj \
+    $(_OBJ_DIR)\ppc\wgfsgdat.obj \
+    $(_OBJ_DIR)\ppc\wgfsgeti.obj \
+    $(_OBJ_DIR)\ppc\wgfsopen.obj \
+    $(_OBJ_DIR)\ppc\wgfsopts.obj \
+    $(_OBJ_DIR)\ppc\wgfsputi.obj \
+    $(_OBJ_DIR)\ppc\wgfsread.obj \
+    $(_OBJ_DIR)\ppc\wgfswrit.obj \
+    $(_OBJ_DIR)\ppc\wincmpex.obj \
+    $(_OBJ_DIR)\ppc\wis.obj \
+    $(_OBJ_DIR)\ppc\wisglobl.obj
+
+PASS0_PPC_OBJECTS=
+

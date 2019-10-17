@@ -1,0 +1,24 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\svcmap.obj \
+    $(_OBJ_DIR)\alpha\svcstub.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\svcmap.obj \
+    $(_OBJ_DIR)\mips\svcstub.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\svcmap.obj \
+    $(_OBJ_DIR)\i386\svcstub.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\svcmap.obj \
+    $(_OBJ_DIR)\ppc\svcstub.obj
+
+PASS0_PPC_OBJECTS=
+

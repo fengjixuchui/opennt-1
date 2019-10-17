@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\imagscan.res \
+    $(_OBJ_DIR)\alpha\imagscan.obj \
+    $(_OBJ_DIR)\alpha\imagsctl.obj \
+    $(_OBJ_DIR)\alpha\imagsppg.obj \
+    $(_OBJ_DIR)\alpha\scandlg.obj \
+    $(_OBJ_DIR)\alpha\selscanr.obj \
+    $(_OBJ_DIR)\alpha\imageppg.obj \
+    $(_OBJ_DIR)\alpha\imagcomp.obj \
+    $(_OBJ_DIR)\alpha\scanpref.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\imagscan.res \
+    $(_OBJ_DIR)\mips\imagscan.obj \
+    $(_OBJ_DIR)\mips\imagsctl.obj \
+    $(_OBJ_DIR)\mips\imagsppg.obj \
+    $(_OBJ_DIR)\mips\scandlg.obj \
+    $(_OBJ_DIR)\mips\selscanr.obj \
+    $(_OBJ_DIR)\mips\imageppg.obj \
+    $(_OBJ_DIR)\mips\imagcomp.obj \
+    $(_OBJ_DIR)\mips\scanpref.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\imagscan.res \
+    $(_OBJ_DIR)\i386\imagscan.obj \
+    $(_OBJ_DIR)\i386\imagsctl.obj \
+    $(_OBJ_DIR)\i386\imagsppg.obj \
+    $(_OBJ_DIR)\i386\scandlg.obj \
+    $(_OBJ_DIR)\i386\selscanr.obj \
+    $(_OBJ_DIR)\i386\imageppg.obj \
+    $(_OBJ_DIR)\i386\imagcomp.obj \
+    $(_OBJ_DIR)\i386\scanpref.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\imagscan.res \
+    $(_OBJ_DIR)\ppc\imagscan.obj \
+    $(_OBJ_DIR)\ppc\imagsctl.obj \
+    $(_OBJ_DIR)\ppc\imagsppg.obj \
+    $(_OBJ_DIR)\ppc\scandlg.obj \
+    $(_OBJ_DIR)\ppc\selscanr.obj \
+    $(_OBJ_DIR)\ppc\imageppg.obj \
+    $(_OBJ_DIR)\ppc\imagcomp.obj \
+    $(_OBJ_DIR)\ppc\scanpref.obj
+
+PASS0_PPC_OBJECTS=
+

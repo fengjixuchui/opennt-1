@@ -1,0 +1,2 @@
+os2ses\rxapi.lib(rxuser.obj) : warning LNK4006: _RxNetUserPasswordSet@16 already defined in netapi32.lib(NETAPI32.dll); second definition ignored
+os2ses\obj\i386\os2.exe() : warning LNK4088: image being generated due to /FORCE option; image may not run

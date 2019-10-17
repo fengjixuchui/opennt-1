@@ -1,0 +1,72 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\netrap.res \
+    $(_OBJ_DIR)\alpha\arraylen.obj \
+    $(_OBJ_DIR)\alpha\auxdata.obj \
+    $(_OBJ_DIR)\alpha\ascii.obj \
+    $(_OBJ_DIR)\alpha\convert.obj \
+    $(_OBJ_DIR)\alpha\data.obj \
+    $(_OBJ_DIR)\alpha\examine.obj \
+    $(_OBJ_DIR)\alpha\fieldsiz.obj \
+    $(_OBJ_DIR)\alpha\parmnum.obj \
+    $(_OBJ_DIR)\alpha\pointer.obj \
+    $(_OBJ_DIR)\alpha\strucalg.obj \
+    $(_OBJ_DIR)\alpha\strucsiz.obj \
+    $(_OBJ_DIR)\alpha\totalsiz.obj \
+    $(_OBJ_DIR)\alpha\validsmb.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\netrap.res \
+    $(_OBJ_DIR)\mips\arraylen.obj \
+    $(_OBJ_DIR)\mips\auxdata.obj \
+    $(_OBJ_DIR)\mips\ascii.obj \
+    $(_OBJ_DIR)\mips\convert.obj \
+    $(_OBJ_DIR)\mips\data.obj \
+    $(_OBJ_DIR)\mips\examine.obj \
+    $(_OBJ_DIR)\mips\fieldsiz.obj \
+    $(_OBJ_DIR)\mips\parmnum.obj \
+    $(_OBJ_DIR)\mips\pointer.obj \
+    $(_OBJ_DIR)\mips\strucalg.obj \
+    $(_OBJ_DIR)\mips\strucsiz.obj \
+    $(_OBJ_DIR)\mips\totalsiz.obj \
+    $(_OBJ_DIR)\mips\validsmb.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\netrap.res \
+    $(_OBJ_DIR)\i386\arraylen.obj \
+    $(_OBJ_DIR)\i386\auxdata.obj \
+    $(_OBJ_DIR)\i386\ascii.obj \
+    $(_OBJ_DIR)\i386\convert.obj \
+    $(_OBJ_DIR)\i386\data.obj \
+    $(_OBJ_DIR)\i386\examine.obj \
+    $(_OBJ_DIR)\i386\fieldsiz.obj \
+    $(_OBJ_DIR)\i386\parmnum.obj \
+    $(_OBJ_DIR)\i386\pointer.obj \
+    $(_OBJ_DIR)\i386\strucalg.obj \
+    $(_OBJ_DIR)\i386\strucsiz.obj \
+    $(_OBJ_DIR)\i386\totalsiz.obj \
+    $(_OBJ_DIR)\i386\validsmb.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\netrap.res \
+    $(_OBJ_DIR)\ppc\arraylen.obj \
+    $(_OBJ_DIR)\ppc\auxdata.obj \
+    $(_OBJ_DIR)\ppc\ascii.obj \
+    $(_OBJ_DIR)\ppc\convert.obj \
+    $(_OBJ_DIR)\ppc\data.obj \
+    $(_OBJ_DIR)\ppc\examine.obj \
+    $(_OBJ_DIR)\ppc\fieldsiz.obj \
+    $(_OBJ_DIR)\ppc\parmnum.obj \
+    $(_OBJ_DIR)\ppc\pointer.obj \
+    $(_OBJ_DIR)\ppc\strucalg.obj \
+    $(_OBJ_DIR)\ppc\strucsiz.obj \
+    $(_OBJ_DIR)\ppc\totalsiz.obj \
+    $(_OBJ_DIR)\ppc\validsmb.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,52 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\thumb.res \
+    $(_OBJ_DIR)\alpha\dlgsize.obj \
+    $(_OBJ_DIR)\alpha\thumbct1.obj \
+    $(_OBJ_DIR)\alpha\thumbct2.obj \
+    $(_OBJ_DIR)\alpha\thumbct3.obj \
+    $(_OBJ_DIR)\alpha\thumbctl.obj \
+    $(_OBJ_DIR)\alpha\thumbppg.obj \
+    $(_OBJ_DIR)\alpha\thumnail.obj \
+    $(_OBJ_DIR)\alpha\transbmp.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\thumb.res \
+    $(_OBJ_DIR)\mips\dlgsize.obj \
+    $(_OBJ_DIR)\mips\thumbct1.obj \
+    $(_OBJ_DIR)\mips\thumbct2.obj \
+    $(_OBJ_DIR)\mips\thumbct3.obj \
+    $(_OBJ_DIR)\mips\thumbctl.obj \
+    $(_OBJ_DIR)\mips\thumbppg.obj \
+    $(_OBJ_DIR)\mips\thumnail.obj \
+    $(_OBJ_DIR)\mips\transbmp.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\thumb.res \
+    $(_OBJ_DIR)\i386\dlgsize.obj \
+    $(_OBJ_DIR)\i386\thumbct1.obj \
+    $(_OBJ_DIR)\i386\thumbct2.obj \
+    $(_OBJ_DIR)\i386\thumbct3.obj \
+    $(_OBJ_DIR)\i386\thumbctl.obj \
+    $(_OBJ_DIR)\i386\thumbppg.obj \
+    $(_OBJ_DIR)\i386\thumnail.obj \
+    $(_OBJ_DIR)\i386\transbmp.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\thumb.res \
+    $(_OBJ_DIR)\ppc\dlgsize.obj \
+    $(_OBJ_DIR)\ppc\thumbct1.obj \
+    $(_OBJ_DIR)\ppc\thumbct2.obj \
+    $(_OBJ_DIR)\ppc\thumbct3.obj \
+    $(_OBJ_DIR)\ppc\thumbctl.obj \
+    $(_OBJ_DIR)\ppc\thumbppg.obj \
+    $(_OBJ_DIR)\ppc\thumnail.obj \
+    $(_OBJ_DIR)\ppc\transbmp.obj
+
+PASS0_PPC_OBJECTS=
+

@@ -1,0 +1,76 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\imgedit.res \
+    $(_OBJ_DIR)\alpha\annoprpg.obj \
+    $(_OBJ_DIR)\alpha\btnprpg.obj \
+    $(_OBJ_DIR)\alpha\ctllist.obj \
+    $(_OBJ_DIR)\alpha\iemethd1.obj \
+    $(_OBJ_DIR)\alpha\iemethd2.obj \
+    $(_OBJ_DIR)\alpha\iemisc.obj \
+    $(_OBJ_DIR)\alpha\imganctl.obj \
+    $(_OBJ_DIR)\alpha\imganppg.obj \
+    $(_OBJ_DIR)\alpha\imgedctl.obj \
+    $(_OBJ_DIR)\alpha\imgedit.obj \
+    $(_OBJ_DIR)\alpha\imgedppg.obj \
+    $(_OBJ_DIR)\alpha\minitlbx.obj \
+    $(_OBJ_DIR)\alpha\toolpal.obj \
+    $(_OBJ_DIR)\alpha\txtandlg.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\imgedit.res \
+    $(_OBJ_DIR)\mips\annoprpg.obj \
+    $(_OBJ_DIR)\mips\btnprpg.obj \
+    $(_OBJ_DIR)\mips\ctllist.obj \
+    $(_OBJ_DIR)\mips\iemethd1.obj \
+    $(_OBJ_DIR)\mips\iemethd2.obj \
+    $(_OBJ_DIR)\mips\iemisc.obj \
+    $(_OBJ_DIR)\mips\imganctl.obj \
+    $(_OBJ_DIR)\mips\imganppg.obj \
+    $(_OBJ_DIR)\mips\imgedctl.obj \
+    $(_OBJ_DIR)\mips\imgedit.obj \
+    $(_OBJ_DIR)\mips\imgedppg.obj \
+    $(_OBJ_DIR)\mips\minitlbx.obj \
+    $(_OBJ_DIR)\mips\toolpal.obj \
+    $(_OBJ_DIR)\mips\txtandlg.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\imgedit.res \
+    $(_OBJ_DIR)\i386\annoprpg.obj \
+    $(_OBJ_DIR)\i386\btnprpg.obj \
+    $(_OBJ_DIR)\i386\ctllist.obj \
+    $(_OBJ_DIR)\i386\iemethd1.obj \
+    $(_OBJ_DIR)\i386\iemethd2.obj \
+    $(_OBJ_DIR)\i386\iemisc.obj \
+    $(_OBJ_DIR)\i386\imganctl.obj \
+    $(_OBJ_DIR)\i386\imganppg.obj \
+    $(_OBJ_DIR)\i386\imgedctl.obj \
+    $(_OBJ_DIR)\i386\imgedit.obj \
+    $(_OBJ_DIR)\i386\imgedppg.obj \
+    $(_OBJ_DIR)\i386\minitlbx.obj \
+    $(_OBJ_DIR)\i386\toolpal.obj \
+    $(_OBJ_DIR)\i386\txtandlg.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\imgedit.res \
+    $(_OBJ_DIR)\ppc\annoprpg.obj \
+    $(_OBJ_DIR)\ppc\btnprpg.obj \
+    $(_OBJ_DIR)\ppc\ctllist.obj \
+    $(_OBJ_DIR)\ppc\iemethd1.obj \
+    $(_OBJ_DIR)\ppc\iemethd2.obj \
+    $(_OBJ_DIR)\ppc\iemisc.obj \
+    $(_OBJ_DIR)\ppc\imganctl.obj \
+    $(_OBJ_DIR)\ppc\imganppg.obj \
+    $(_OBJ_DIR)\ppc\imgedctl.obj \
+    $(_OBJ_DIR)\ppc\imgedit.obj \
+    $(_OBJ_DIR)\ppc\imgedppg.obj \
+    $(_OBJ_DIR)\ppc\minitlbx.obj \
+    $(_OBJ_DIR)\ppc\toolpal.obj \
+    $(_OBJ_DIR)\ppc\txtandlg.obj
+
+PASS0_PPC_OBJECTS=
+

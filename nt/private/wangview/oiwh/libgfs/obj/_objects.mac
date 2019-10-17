@@ -1,0 +1,152 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\oigfs400.res \
+    $(_OBJ_DIR)\alpha\gfcntl.obj \
+    $(_OBJ_DIR)\alpha\gfroot.obj \
+    $(_OBJ_DIR)\alpha\gfsawd.obj \
+    $(_OBJ_DIR)\alpha\gfsclose.obj \
+    $(_OBJ_DIR)\alpha\gfscreat.obj \
+    $(_OBJ_DIR)\alpha\gfsdelet.obj \
+    $(_OBJ_DIR)\alpha\gfsflat.obj \
+    $(_OBJ_DIR)\alpha\gfsgeti.obj \
+    $(_OBJ_DIR)\alpha\gfsgtdat.obj \
+    $(_OBJ_DIR)\alpha\gfshuffl.obj \
+    $(_OBJ_DIR)\alpha\gfsole.obj \
+    $(_OBJ_DIR)\alpha\gfsopen.obj \
+    $(_OBJ_DIR)\alpha\gfsopts.obj \
+    $(_OBJ_DIR)\alpha\gfsputi.obj \
+    $(_OBJ_DIR)\alpha\gfsread.obj \
+    $(_OBJ_DIR)\alpha\gfsutils.obj \
+    $(_OBJ_DIR)\alpha\gfswrite.obj \
+    $(_OBJ_DIR)\alpha\gfsxtrct.obj \
+    $(_OBJ_DIR)\alpha\gftoc.obj \
+    $(_OBJ_DIR)\alpha\gifinfo.obj \
+    $(_OBJ_DIR)\alpha\glibmain.obj \
+    $(_OBJ_DIR)\alpha\mktemp.obj \
+    $(_OBJ_DIR)\alpha\tfgtinfo.obj \
+    $(_OBJ_DIR)\alpha\tfmultpg.obj \
+    $(_OBJ_DIR)\alpha\tfread.obj \
+    $(_OBJ_DIR)\alpha\tfutil.obj \
+    $(_OBJ_DIR)\alpha\tfwrite.obj \
+    $(_OBJ_DIR)\alpha\tmpdir.obj \
+    $(_OBJ_DIR)\alpha\tmpnam.obj \
+    $(_OBJ_DIR)\alpha\wfgtinfo.obj \
+    $(_OBJ_DIR)\alpha\wfread.obj \
+    $(_OBJ_DIR)\alpha\wfwrite.obj \
+    $(_OBJ_DIR)\alpha\gfsxif.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\oigfs400.res \
+    $(_OBJ_DIR)\mips\gfcntl.obj \
+    $(_OBJ_DIR)\mips\gfroot.obj \
+    $(_OBJ_DIR)\mips\gfsawd.obj \
+    $(_OBJ_DIR)\mips\gfsclose.obj \
+    $(_OBJ_DIR)\mips\gfscreat.obj \
+    $(_OBJ_DIR)\mips\gfsdelet.obj \
+    $(_OBJ_DIR)\mips\gfsflat.obj \
+    $(_OBJ_DIR)\mips\gfsgeti.obj \
+    $(_OBJ_DIR)\mips\gfsgtdat.obj \
+    $(_OBJ_DIR)\mips\gfshuffl.obj \
+    $(_OBJ_DIR)\mips\gfsole.obj \
+    $(_OBJ_DIR)\mips\gfsopen.obj \
+    $(_OBJ_DIR)\mips\gfsopts.obj \
+    $(_OBJ_DIR)\mips\gfsputi.obj \
+    $(_OBJ_DIR)\mips\gfsread.obj \
+    $(_OBJ_DIR)\mips\gfsutils.obj \
+    $(_OBJ_DIR)\mips\gfswrite.obj \
+    $(_OBJ_DIR)\mips\gfsxtrct.obj \
+    $(_OBJ_DIR)\mips\gftoc.obj \
+    $(_OBJ_DIR)\mips\gifinfo.obj \
+    $(_OBJ_DIR)\mips\glibmain.obj \
+    $(_OBJ_DIR)\mips\mktemp.obj \
+    $(_OBJ_DIR)\mips\tfgtinfo.obj \
+    $(_OBJ_DIR)\mips\tfmultpg.obj \
+    $(_OBJ_DIR)\mips\tfread.obj \
+    $(_OBJ_DIR)\mips\tfutil.obj \
+    $(_OBJ_DIR)\mips\tfwrite.obj \
+    $(_OBJ_DIR)\mips\tmpdir.obj \
+    $(_OBJ_DIR)\mips\tmpnam.obj \
+    $(_OBJ_DIR)\mips\wfgtinfo.obj \
+    $(_OBJ_DIR)\mips\wfread.obj \
+    $(_OBJ_DIR)\mips\wfwrite.obj \
+    $(_OBJ_DIR)\mips\gfsxif.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\oigfs400.res \
+    $(_OBJ_DIR)\i386\gfcntl.obj \
+    $(_OBJ_DIR)\i386\gfroot.obj \
+    $(_OBJ_DIR)\i386\gfsawd.obj \
+    $(_OBJ_DIR)\i386\gfsclose.obj \
+    $(_OBJ_DIR)\i386\gfscreat.obj \
+    $(_OBJ_DIR)\i386\gfsdelet.obj \
+    $(_OBJ_DIR)\i386\gfsflat.obj \
+    $(_OBJ_DIR)\i386\gfsgeti.obj \
+    $(_OBJ_DIR)\i386\gfsgtdat.obj \
+    $(_OBJ_DIR)\i386\gfshuffl.obj \
+    $(_OBJ_DIR)\i386\gfsole.obj \
+    $(_OBJ_DIR)\i386\gfsopen.obj \
+    $(_OBJ_DIR)\i386\gfsopts.obj \
+    $(_OBJ_DIR)\i386\gfsputi.obj \
+    $(_OBJ_DIR)\i386\gfsread.obj \
+    $(_OBJ_DIR)\i386\gfsutils.obj \
+    $(_OBJ_DIR)\i386\gfswrite.obj \
+    $(_OBJ_DIR)\i386\gfsxtrct.obj \
+    $(_OBJ_DIR)\i386\gftoc.obj \
+    $(_OBJ_DIR)\i386\gifinfo.obj \
+    $(_OBJ_DIR)\i386\glibmain.obj \
+    $(_OBJ_DIR)\i386\mktemp.obj \
+    $(_OBJ_DIR)\i386\tfgtinfo.obj \
+    $(_OBJ_DIR)\i386\tfmultpg.obj \
+    $(_OBJ_DIR)\i386\tfread.obj \
+    $(_OBJ_DIR)\i386\tfutil.obj \
+    $(_OBJ_DIR)\i386\tfwrite.obj \
+    $(_OBJ_DIR)\i386\tmpdir.obj \
+    $(_OBJ_DIR)\i386\tmpnam.obj \
+    $(_OBJ_DIR)\i386\wfgtinfo.obj \
+    $(_OBJ_DIR)\i386\wfread.obj \
+    $(_OBJ_DIR)\i386\wfwrite.obj \
+    $(_OBJ_DIR)\i386\gfsxif.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\oigfs400.res \
+    $(_OBJ_DIR)\ppc\gfcntl.obj \
+    $(_OBJ_DIR)\ppc\gfroot.obj \
+    $(_OBJ_DIR)\ppc\gfsawd.obj \
+    $(_OBJ_DIR)\ppc\gfsclose.obj \
+    $(_OBJ_DIR)\ppc\gfscreat.obj \
+    $(_OBJ_DIR)\ppc\gfsdelet.obj \
+    $(_OBJ_DIR)\ppc\gfsflat.obj \
+    $(_OBJ_DIR)\ppc\gfsgeti.obj \
+    $(_OBJ_DIR)\ppc\gfsgtdat.obj \
+    $(_OBJ_DIR)\ppc\gfshuffl.obj \
+    $(_OBJ_DIR)\ppc\gfsole.obj \
+    $(_OBJ_DIR)\ppc\gfsopen.obj \
+    $(_OBJ_DIR)\ppc\gfsopts.obj \
+    $(_OBJ_DIR)\ppc\gfsputi.obj \
+    $(_OBJ_DIR)\ppc\gfsread.obj \
+    $(_OBJ_DIR)\ppc\gfsutils.obj \
+    $(_OBJ_DIR)\ppc\gfswrite.obj \
+    $(_OBJ_DIR)\ppc\gfsxtrct.obj \
+    $(_OBJ_DIR)\ppc\gftoc.obj \
+    $(_OBJ_DIR)\ppc\gifinfo.obj \
+    $(_OBJ_DIR)\ppc\glibmain.obj \
+    $(_OBJ_DIR)\ppc\mktemp.obj \
+    $(_OBJ_DIR)\ppc\tfgtinfo.obj \
+    $(_OBJ_DIR)\ppc\tfmultpg.obj \
+    $(_OBJ_DIR)\ppc\tfread.obj \
+    $(_OBJ_DIR)\ppc\tfutil.obj \
+    $(_OBJ_DIR)\ppc\tfwrite.obj \
+    $(_OBJ_DIR)\ppc\tmpdir.obj \
+    $(_OBJ_DIR)\ppc\tmpnam.obj \
+    $(_OBJ_DIR)\ppc\wfgtinfo.obj \
+    $(_OBJ_DIR)\ppc\wfread.obj \
+    $(_OBJ_DIR)\ppc\wfwrite.obj \
+    $(_OBJ_DIR)\ppc\gfsxif.obj
+
+PASS0_PPC_OBJECTS=
+

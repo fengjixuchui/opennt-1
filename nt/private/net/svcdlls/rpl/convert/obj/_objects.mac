@@ -1,0 +1,56 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\convert.res \
+    $(_OBJ_DIR)\alpha\rplmain.obj \
+    $(_OBJ_DIR)\alpha\vendor.obj \
+    $(_OBJ_DIR)\alpha\adapter.obj \
+    $(_OBJ_DIR)\alpha\boot.obj \
+    $(_OBJ_DIR)\alpha\config.obj \
+    $(_OBJ_DIR)\alpha\profile.obj \
+    $(_OBJ_DIR)\alpha\wksta.obj \
+    $(_OBJ_DIR)\alpha\library.obj \
+    $(_OBJ_DIR)\alpha\debug.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\convert.res \
+    $(_OBJ_DIR)\mips\rplmain.obj \
+    $(_OBJ_DIR)\mips\vendor.obj \
+    $(_OBJ_DIR)\mips\adapter.obj \
+    $(_OBJ_DIR)\mips\boot.obj \
+    $(_OBJ_DIR)\mips\config.obj \
+    $(_OBJ_DIR)\mips\profile.obj \
+    $(_OBJ_DIR)\mips\wksta.obj \
+    $(_OBJ_DIR)\mips\library.obj \
+    $(_OBJ_DIR)\mips\debug.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\convert.res \
+    $(_OBJ_DIR)\i386\rplmain.obj \
+    $(_OBJ_DIR)\i386\vendor.obj \
+    $(_OBJ_DIR)\i386\adapter.obj \
+    $(_OBJ_DIR)\i386\boot.obj \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\profile.obj \
+    $(_OBJ_DIR)\i386\wksta.obj \
+    $(_OBJ_DIR)\i386\library.obj \
+    $(_OBJ_DIR)\i386\debug.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\convert.res \
+    $(_OBJ_DIR)\ppc\rplmain.obj \
+    $(_OBJ_DIR)\ppc\vendor.obj \
+    $(_OBJ_DIR)\ppc\adapter.obj \
+    $(_OBJ_DIR)\ppc\boot.obj \
+    $(_OBJ_DIR)\ppc\config.obj \
+    $(_OBJ_DIR)\ppc\profile.obj \
+    $(_OBJ_DIR)\ppc\wksta.obj \
+    $(_OBJ_DIR)\ppc\library.obj \
+    $(_OBJ_DIR)\ppc\debug.obj
+
+PASS0_PPC_OBJECTS=
+

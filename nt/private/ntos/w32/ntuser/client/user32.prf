@@ -1051,5 +1051,3 @@ ZwUserUpdatePerUserSystemParameters@4
 ZwUserCreateDesktop@20
 ZwUserGetKeyboardLayoutName@4
 ZwUserEnumDisplaySettings@16
-GetWindowModuleFileNameA@12
-GetWindowModuleFileNameW@12

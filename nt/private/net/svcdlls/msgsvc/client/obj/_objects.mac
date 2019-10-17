@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\msgstub.obj \
+    $(_OBJ_DIR)\alpha\msgbind.obj \
+    $(_OBJ_DIR)\alpha\msgsvc_c.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\msgstub.obj \
+    $(_OBJ_DIR)\mips\msgbind.obj \
+    $(_OBJ_DIR)\mips\msgsvc_c.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\msgstub.obj \
+    $(_OBJ_DIR)\i386\msgbind.obj \
+    $(_OBJ_DIR)\i386\msgsvc_c.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\msgstub.obj \
+    $(_OBJ_DIR)\ppc\msgbind.obj \
+    $(_OBJ_DIR)\ppc\msgsvc_c.obj
+
+PASS0_PPC_OBJECTS=
+

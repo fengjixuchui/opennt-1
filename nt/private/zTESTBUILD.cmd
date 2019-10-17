@@ -33,11 +33,16 @@ REM //
 REM // Ask build configurations
 REM //
 
-cls
+rem cls
+
+REM // Pause on building error?
+set SmlPauseOnError=0
+ync /c ync "Pause on building error?"
+if %ERRORLEVEL%==0 set SmlPauseOnError=1
 
 REM // Clean Build?
-echo "Do you want to perform a clean build?"
-ync /c ync "You really should do a clean bulid first!"
+REM echo "Do you want to perform a clean build?"
+ync /c ync "You really should do a clean bulid first?!"
 if %ERRORLEVEL%==2 goto Cancel
 if %ERRORLEVEL%==0 set CleanBuild=1
 
@@ -258,7 +263,7 @@ if not "%NoBld_urtl%"=="1" (
     build %BldFlags%
     if errorlevel 1 (
 	echo "error building urtl"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -273,7 +278,7 @@ if not "%NoBld_types%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building types"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -288,7 +293,7 @@ if not "%NoBld_types2%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building types2"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -303,7 +308,7 @@ if not "%NoBld_dcomidl%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building dcomidl"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -318,7 +323,7 @@ if not "%NoBld_nlsecutl%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building nlsecutl"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -353,7 +358,7 @@ if not "%NoBld_sm%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building sm"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -368,7 +373,7 @@ if not "%NoBld_csr%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building csr"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -383,7 +388,7 @@ if not "%NoBld_rpc%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building rpc"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -398,7 +403,7 @@ if not "%NoBld_rpcutil%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building rpcutil"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -413,7 +418,7 @@ if not "%NoBld_rpc16%"=="1" (
     call bldrpc16.cmd
         if errorlevel 1 (
 	echo "error building rpc16"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -428,7 +433,7 @@ if not "%NoBld_lsa%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building lsa"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -466,7 +471,7 @@ if not "%NoBld_ntos%"=="1" (
     build
         if errorlevel 1 (
 	echo "error building ntos - second pass"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -481,7 +486,7 @@ if not "%NoBld_sam%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building sam"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -496,7 +501,7 @@ if not "%NoBld_newsam%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building newsam"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -511,7 +516,7 @@ if not "%NoBld_eventlog%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building eventlog"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -526,7 +531,7 @@ if not "%NoBld_ntmfc%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building ntmfc"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     title Building mfc src42 20/38
@@ -534,7 +539,7 @@ if not "%NoBld_ntmfc%"=="1" (
     call makeall %BldFlags%
         if errorlevel 1 (
 	echo "error building ntmfc - src42"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -553,7 +558,7 @@ if not "%NoBld_windows%"=="1" (
     build
         if errorlevel 1 (
 	echo "error building windows-shell-progman"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -568,7 +573,7 @@ if not "%NoBld_posix%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building posix"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -583,7 +588,7 @@ if not "%NoBld_os2%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building os2"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -598,7 +603,7 @@ if not "%NoBld_oleauto%"=="1" (
     start /wait cmd /c ntmkall %BldFlags%
         if errorlevel 1 (
 	echo "error building oleauto"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -614,7 +619,7 @@ if not "%NoBld_ole32%"=="1" (
     build
         if errorlevel 1 (
 	echo "error building ole32"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -629,7 +634,7 @@ if not "%NoBld_ole2ui32%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building ole2ui32"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -644,7 +649,7 @@ if not "%NoBld_oleutest%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building oleutest"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -659,7 +664,7 @@ if not "%NoBld_ztools%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building ztools"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -674,7 +679,7 @@ if not "%NoBld_wintools%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building wintools"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -689,7 +694,7 @@ if not "%NoBld_utils%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building utils"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -704,7 +709,7 @@ if not "%NoBld_nullsrv%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building nullsrv"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -719,7 +724,7 @@ if not "%NoBld_tapi%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building tapi"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -734,7 +739,7 @@ if not "%NoBld_unimodem%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building unimodem"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -749,7 +754,7 @@ if not "%NoBld_windbg%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building windbg crashdrv"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     
@@ -759,7 +764,7 @@ if not "%NoBld_windbg%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building windbg crash"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
 
@@ -769,7 +774,7 @@ if not "%NoBld_windbg%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building windbg crashlib"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
 
@@ -779,7 +784,7 @@ if not "%NoBld_windbg%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building windbg windbg"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -794,7 +799,7 @@ if not "%NoBld_mvdm%"=="1" (
     build %BldFlags%
         if errorlevel 1 (
 	echo "error building mvdm"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private
@@ -809,7 +814,7 @@ if not "%NoBld_hives%"=="1" (
     call hives.cmd
         if errorlevel 1 (
 	echo "error building hives"
-	timeout /t 180
+	if "%SmlPauseOnError%"=="1" pause
 	REM goto Error
 	)
     cd %_NTROOT%\private

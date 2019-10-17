@@ -1,0 +1,56 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\oislb400.res \
+    $(_OBJ_DIR)\alpha\openclos.obj \
+    $(_OBJ_DIR)\alpha\dc_scan.obj \
+    $(_OBJ_DIR)\alpha\misc.obj \
+    $(_OBJ_DIR)\alpha\oislb400.obj \
+    $(_OBJ_DIR)\alpha\opts.obj \
+    $(_OBJ_DIR)\alpha\prop.obj \
+    $(_OBJ_DIR)\alpha\reset.obj \
+    $(_OBJ_DIR)\alpha\scan.obj \
+    $(_OBJ_DIR)\alpha\twainops.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\oislb400.res \
+    $(_OBJ_DIR)\mips\openclos.obj \
+    $(_OBJ_DIR)\mips\dc_scan.obj \
+    $(_OBJ_DIR)\mips\misc.obj \
+    $(_OBJ_DIR)\mips\oislb400.obj \
+    $(_OBJ_DIR)\mips\opts.obj \
+    $(_OBJ_DIR)\mips\prop.obj \
+    $(_OBJ_DIR)\mips\reset.obj \
+    $(_OBJ_DIR)\mips\scan.obj \
+    $(_OBJ_DIR)\mips\twainops.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\oislb400.res \
+    $(_OBJ_DIR)\i386\openclos.obj \
+    $(_OBJ_DIR)\i386\dc_scan.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\oislb400.obj \
+    $(_OBJ_DIR)\i386\opts.obj \
+    $(_OBJ_DIR)\i386\prop.obj \
+    $(_OBJ_DIR)\i386\reset.obj \
+    $(_OBJ_DIR)\i386\scan.obj \
+    $(_OBJ_DIR)\i386\twainops.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\oislb400.res \
+    $(_OBJ_DIR)\ppc\openclos.obj \
+    $(_OBJ_DIR)\ppc\dc_scan.obj \
+    $(_OBJ_DIR)\ppc\misc.obj \
+    $(_OBJ_DIR)\ppc\oislb400.obj \
+    $(_OBJ_DIR)\ppc\opts.obj \
+    $(_OBJ_DIR)\ppc\prop.obj \
+    $(_OBJ_DIR)\ppc\reset.obj \
+    $(_OBJ_DIR)\ppc\scan.obj \
+    $(_OBJ_DIR)\ppc\twainops.obj
+
+PASS0_PPC_OBJECTS=
+

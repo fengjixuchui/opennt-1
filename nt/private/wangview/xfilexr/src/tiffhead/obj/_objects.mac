@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\tiffifd.obj \
+    $(_OBJ_DIR)\alpha\tiffhead.obj \
+    $(_OBJ_DIR)\alpha\jpeg_tif.obj \
+    $(_OBJ_DIR)\alpha\ccit_tif.obj \
+    $(_OBJ_DIR)\alpha\noc_tif.obj \
+    $(_OBJ_DIR)\alpha\xifhead.obj \
+    $(_OBJ_DIR)\alpha\convert.obj \
+    $(_OBJ_DIR)\alpha\tiffdiag.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\tiffifd.obj \
+    $(_OBJ_DIR)\mips\tiffhead.obj \
+    $(_OBJ_DIR)\mips\jpeg_tif.obj \
+    $(_OBJ_DIR)\mips\ccit_tif.obj \
+    $(_OBJ_DIR)\mips\noc_tif.obj \
+    $(_OBJ_DIR)\mips\xifhead.obj \
+    $(_OBJ_DIR)\mips\convert.obj \
+    $(_OBJ_DIR)\mips\tiffdiag.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\tiffifd.obj \
+    $(_OBJ_DIR)\i386\tiffhead.obj \
+    $(_OBJ_DIR)\i386\jpeg_tif.obj \
+    $(_OBJ_DIR)\i386\ccit_tif.obj \
+    $(_OBJ_DIR)\i386\noc_tif.obj \
+    $(_OBJ_DIR)\i386\xifhead.obj \
+    $(_OBJ_DIR)\i386\convert.obj \
+    $(_OBJ_DIR)\i386\tiffdiag.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\tiffifd.obj \
+    $(_OBJ_DIR)\ppc\tiffhead.obj \
+    $(_OBJ_DIR)\ppc\jpeg_tif.obj \
+    $(_OBJ_DIR)\ppc\ccit_tif.obj \
+    $(_OBJ_DIR)\ppc\noc_tif.obj \
+    $(_OBJ_DIR)\ppc\xifhead.obj \
+    $(_OBJ_DIR)\ppc\convert.obj \
+    $(_OBJ_DIR)\ppc\tiffdiag.obj
+
+PASS0_PPC_OBJECTS=
+

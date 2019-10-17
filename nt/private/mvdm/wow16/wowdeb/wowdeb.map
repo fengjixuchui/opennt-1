@@ -75,33 +75,33 @@ Stack Allocation = 8192 bytes
 
   Address         Publics by Value
 
- 0000:0000  Imp  GETPROCADDRESS       (KERNEL.50)
+ 0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
  0000:0000  Imp  DOS3CALL             (KERNEL.102)
- 0000:0000  Imp  LSTRLEN              (KERNEL.90)
+ 0000:0000  Imp  GETPROCADDRESS       (KERNEL.50)
  0000:0000  Imp  __WINFLAGS           (KERNEL.178)
- 0000:0000  Imp  INITAPP              (USER.5)
  0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
+ 0000:0000  Imp  LSTRLEN              (KERNEL.90)
  0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
- 0000:0000  Imp  INITTASK             (KERNEL.91)
+ 0000:0000  Imp  INITAPP              (USER.5)
  0000:0000  Imp  GLOBALLOCK           (KERNEL.18)
  0000:0000  Imp  LOADLIBRARY          (KERNEL.95)
  0000:0000  Imp  WAITEVENT            (KERNEL.30)
  0000:0000  Imp  WOWKILLREMOTETASK    (KERNEL.511)
+ 0000:0000  Imp  INITTASK             (KERNEL.91)
  0000:0000  Imp  UNLOCKSEGMENT        (KERNEL.24)
- 0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
  0000:0006  Abs  pLocalHeap
  0000:0008  Abs  pAtomTable
  0000:000A  Abs  pStackTop
  0000:000C  Abs  pStackMin
  0000:000E  Abs  pStackBot
- 0000:9876  Abs  __fptaskdata
  0000:9876  Abs  __acrtused2
  0000:9876  Abs  __acrtused
+ 0000:9876  Abs  __fptaskdata
  0000:D6D6  Abs  __aDBdoswp
  0001:0010       WINMAIN
  0001:06B1       __wflags
- 0001:06B3       _exit
  0001:06B3       __exit
+ 0001:06B3       _exit
  0001:06C9       __astart
  0002:0004       rsrvptrs
  0002:00B0       STKHQQ
@@ -109,10 +109,10 @@ Stack Allocation = 8192 bytes
  0002:00BE       ___aDBswpchk
  0002:00C0       __aDBrterr
  0002:00C2       ___aDBexit
- 0002:00D0       _edata
  0002:00D0       __edata
- 0002:00D0       __end
  0002:00D0       _end
+ 0002:00D0       _edata
+ 0002:00D0       __end
 
 Line numbers for wowdeb.obj(wowdeb.c) segment _TEXT
 

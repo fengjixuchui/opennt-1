@@ -32,9 +32,9 @@
  0000:0000  Imp  WaitEvent            (KERNEL.30)
  0000:0000  Imp  OutputDebugString    (KERNEL.115)
  0000:0000  Imp  PostEvent            (KERNEL.31)
- 0000:0000  Imp  SetMessageQueue      (USER.266)
  0000:0000  Imp  InitApp              (USER.5)
  0000:0000  Imp  InitTask             (KERNEL.91)
+ 0000:0000  Imp  SetMessageQueue      (USER.266)
  0000:0001  Abs  __acrtused
  0001:0000       AppEntry
  0002:0006       rsrvptrs

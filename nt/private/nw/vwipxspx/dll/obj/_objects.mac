@@ -1,0 +1,60 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\vwipxspx.res \
+    $(_OBJ_DIR)\alpha\vwdll.obj \
+    $(_OBJ_DIR)\alpha\vwipx.obj \
+    $(_OBJ_DIR)\alpha\vwspx.obj \
+    $(_OBJ_DIR)\alpha\vwasync.obj \
+    $(_OBJ_DIR)\alpha\vwmisc.obj \
+    $(_OBJ_DIR)\alpha\vwdebug.obj \
+    $(_OBJ_DIR)\alpha\socket.obj \
+    $(_OBJ_DIR)\alpha\vwinapi.obj \
+    $(_OBJ_DIR)\alpha\vwdos.obj \
+    $(_OBJ_DIR)\alpha\util.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\vwipxspx.res \
+    $(_OBJ_DIR)\mips\vwdll.obj \
+    $(_OBJ_DIR)\mips\vwipx.obj \
+    $(_OBJ_DIR)\mips\vwspx.obj \
+    $(_OBJ_DIR)\mips\vwasync.obj \
+    $(_OBJ_DIR)\mips\vwmisc.obj \
+    $(_OBJ_DIR)\mips\vwdebug.obj \
+    $(_OBJ_DIR)\mips\socket.obj \
+    $(_OBJ_DIR)\mips\vwinapi.obj \
+    $(_OBJ_DIR)\mips\vwdos.obj \
+    $(_OBJ_DIR)\mips\util.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\vwipxspx.res \
+    $(_OBJ_DIR)\i386\vwdll.obj \
+    $(_OBJ_DIR)\i386\vwipx.obj \
+    $(_OBJ_DIR)\i386\vwspx.obj \
+    $(_OBJ_DIR)\i386\vwasync.obj \
+    $(_OBJ_DIR)\i386\vwmisc.obj \
+    $(_OBJ_DIR)\i386\vwdebug.obj \
+    $(_OBJ_DIR)\i386\socket.obj \
+    $(_OBJ_DIR)\i386\vwinapi.obj \
+    $(_OBJ_DIR)\i386\vwdos.obj \
+    $(_OBJ_DIR)\i386\util.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\vwipxspx.res \
+    $(_OBJ_DIR)\ppc\vwdll.obj \
+    $(_OBJ_DIR)\ppc\vwipx.obj \
+    $(_OBJ_DIR)\ppc\vwspx.obj \
+    $(_OBJ_DIR)\ppc\vwasync.obj \
+    $(_OBJ_DIR)\ppc\vwmisc.obj \
+    $(_OBJ_DIR)\ppc\vwdebug.obj \
+    $(_OBJ_DIR)\ppc\socket.obj \
+    $(_OBJ_DIR)\ppc\vwinapi.obj \
+    $(_OBJ_DIR)\ppc\vwdos.obj \
+    $(_OBJ_DIR)\ppc\util.obj
+
+PASS0_PPC_OBJECTS=
+

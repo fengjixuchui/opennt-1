@@ -129,20 +129,20 @@
   Address         Publics by Value
 
  0000:0000  Imp  WOW16Call            (KERNEL.500)
- 0000:0000  Imp  __MOD_MMEDIA         (KERNEL.531)
+ 0000:0000  Imp  __MOD_KERNEL         (KERNEL.520)
  0000:0000  Imp  __MOD_SHELL          (KERNEL.528)
+ 0000:0000  Imp  __MOD_MMEDIA         (KERNEL.531)
  0000:0000  Imp  __MOD_COMMDLG        (KERNEL.532)
  0000:0000  Imp  __MOD_USER           (KERNEL.522)
  0000:0000  Imp  __MOD_WINSOCK        (KERNEL.529)
  0000:0000  Imp  __MOD_GDI            (KERNEL.524)
- 0000:0000  Imp  __MOD_KERNEL         (KERNEL.520)
+ 0000:0000  Imp  __MOD_TOOLHELP       (KERNEL.530)
  0000:0000  Imp  __MOD_KEYBOARD       (KERNEL.526)
- 0000:0000  Imp  __MOD_DKERNEL        (KERNEL.521)
  0000:0000  Imp  __MOD_DGDI           (KERNEL.525)
- 0000:0000  Imp  __MOD_SOUND          (KERNEL.527)
  0000:0000  Imp  __MOD_DUSER          (KERNEL.523)
  0000:0000  Abs  __acrtused
- 0000:0000  Imp  __MOD_TOOLHELP       (KERNEL.530)
+ 0000:0000  Imp  __MOD_SOUND          (KERNEL.527)
+ 0000:0000  Imp  __MOD_DKERNEL        (KERNEL.521)
  0001:0000       WINSOCK16
  0001:0004       WEP
  0001:0010       accept

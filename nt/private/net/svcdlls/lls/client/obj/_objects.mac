@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\llsrpc.res \
+    $(_OBJ_DIR)\alpha\llsrpc_c.obj \
+    $(_OBJ_DIR)\alpha\llsrpc.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\llsrpc.res \
+    $(_OBJ_DIR)\mips\llsrpc_c.obj \
+    $(_OBJ_DIR)\mips\llsrpc.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\llsrpc.res \
+    $(_OBJ_DIR)\i386\llsrpc_c.obj \
+    $(_OBJ_DIR)\i386\llsrpc.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\llsrpc.res \
+    $(_OBJ_DIR)\ppc\llsrpc_c.obj \
+    $(_OBJ_DIR)\ppc\llsrpc.obj
+
+PASS0_PPC_OBJECTS=
+

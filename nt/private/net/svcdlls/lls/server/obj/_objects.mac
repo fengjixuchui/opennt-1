@@ -1,0 +1,92 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\llssrv.res \
+    $(_OBJ_DIR)\alpha\certdb.obj \
+    $(_OBJ_DIR)\alpha\llsutil.obj \
+    $(_OBJ_DIR)\alpha\service.obj \
+    $(_OBJ_DIR)\alpha\msvctbl.obj \
+    $(_OBJ_DIR)\alpha\registry.obj \
+    $(_OBJ_DIR)\alpha\mapping.obj \
+    $(_OBJ_DIR)\alpha\purchase.obj \
+    $(_OBJ_DIR)\alpha\perseat.obj \
+    $(_OBJ_DIR)\alpha\server.obj \
+    $(_OBJ_DIR)\alpha\repl.obj \
+    $(_OBJ_DIR)\alpha\rpc.obj \
+    $(_OBJ_DIR)\alpha\pack.obj \
+    $(_OBJ_DIR)\alpha\scaven.obj \
+    $(_OBJ_DIR)\alpha\llsrpc_s.obj \
+    $(_OBJ_DIR)\alpha\lsapi_s.obj \
+    $(_OBJ_DIR)\alpha\llsdbg_s.obj \
+    $(_OBJ_DIR)\alpha\svctbl.obj \
+    $(_OBJ_DIR)\alpha\llssrv.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\llssrv.res \
+    $(_OBJ_DIR)\mips\certdb.obj \
+    $(_OBJ_DIR)\mips\llsutil.obj \
+    $(_OBJ_DIR)\mips\service.obj \
+    $(_OBJ_DIR)\mips\msvctbl.obj \
+    $(_OBJ_DIR)\mips\registry.obj \
+    $(_OBJ_DIR)\mips\mapping.obj \
+    $(_OBJ_DIR)\mips\purchase.obj \
+    $(_OBJ_DIR)\mips\perseat.obj \
+    $(_OBJ_DIR)\mips\server.obj \
+    $(_OBJ_DIR)\mips\repl.obj \
+    $(_OBJ_DIR)\mips\rpc.obj \
+    $(_OBJ_DIR)\mips\pack.obj \
+    $(_OBJ_DIR)\mips\scaven.obj \
+    $(_OBJ_DIR)\mips\llsrpc_s.obj \
+    $(_OBJ_DIR)\mips\lsapi_s.obj \
+    $(_OBJ_DIR)\mips\llsdbg_s.obj \
+    $(_OBJ_DIR)\mips\svctbl.obj \
+    $(_OBJ_DIR)\mips\llssrv.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\llssrv.res \
+    $(_OBJ_DIR)\i386\certdb.obj \
+    $(_OBJ_DIR)\i386\llsutil.obj \
+    $(_OBJ_DIR)\i386\service.obj \
+    $(_OBJ_DIR)\i386\msvctbl.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\mapping.obj \
+    $(_OBJ_DIR)\i386\purchase.obj \
+    $(_OBJ_DIR)\i386\perseat.obj \
+    $(_OBJ_DIR)\i386\server.obj \
+    $(_OBJ_DIR)\i386\repl.obj \
+    $(_OBJ_DIR)\i386\rpc.obj \
+    $(_OBJ_DIR)\i386\pack.obj \
+    $(_OBJ_DIR)\i386\scaven.obj \
+    $(_OBJ_DIR)\i386\llsrpc_s.obj \
+    $(_OBJ_DIR)\i386\lsapi_s.obj \
+    $(_OBJ_DIR)\i386\llsdbg_s.obj \
+    $(_OBJ_DIR)\i386\svctbl.obj \
+    $(_OBJ_DIR)\i386\llssrv.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\llssrv.res \
+    $(_OBJ_DIR)\ppc\certdb.obj \
+    $(_OBJ_DIR)\ppc\llsutil.obj \
+    $(_OBJ_DIR)\ppc\service.obj \
+    $(_OBJ_DIR)\ppc\msvctbl.obj \
+    $(_OBJ_DIR)\ppc\registry.obj \
+    $(_OBJ_DIR)\ppc\mapping.obj \
+    $(_OBJ_DIR)\ppc\purchase.obj \
+    $(_OBJ_DIR)\ppc\perseat.obj \
+    $(_OBJ_DIR)\ppc\server.obj \
+    $(_OBJ_DIR)\ppc\repl.obj \
+    $(_OBJ_DIR)\ppc\rpc.obj \
+    $(_OBJ_DIR)\ppc\pack.obj \
+    $(_OBJ_DIR)\ppc\scaven.obj \
+    $(_OBJ_DIR)\ppc\llsrpc_s.obj \
+    $(_OBJ_DIR)\ppc\lsapi_s.obj \
+    $(_OBJ_DIR)\ppc\llsdbg_s.obj \
+    $(_OBJ_DIR)\ppc\svctbl.obj \
+    $(_OBJ_DIR)\ppc\llssrv.obj
+
+PASS0_PPC_OBJECTS=
+

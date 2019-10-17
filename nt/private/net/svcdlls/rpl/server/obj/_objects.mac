@@ -1,0 +1,132 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\rplsvc.res \
+    $(_OBJ_DIR)\alpha\apisec.obj \
+    $(_OBJ_DIR)\alpha\dblib.obj \
+    $(_OBJ_DIR)\alpha\tree.obj \
+    $(_OBJ_DIR)\alpha\vendor.obj \
+    $(_OBJ_DIR)\alpha\security.obj \
+    $(_OBJ_DIR)\alpha\adapter.obj \
+    $(_OBJ_DIR)\alpha\disk.obj \
+    $(_OBJ_DIR)\alpha\service.obj \
+    $(_OBJ_DIR)\alpha\resume.obj \
+    $(_OBJ_DIR)\alpha\boot.obj \
+    $(_OBJ_DIR)\alpha\config.obj \
+    $(_OBJ_DIR)\alpha\profile.obj \
+    $(_OBJ_DIR)\alpha\setup.obj \
+    $(_OBJ_DIR)\alpha\wksta.obj \
+    $(_OBJ_DIR)\alpha\fitfile.obj \
+    $(_OBJ_DIR)\alpha\open.obj \
+    $(_OBJ_DIR)\alpha\bbcfile.obj \
+    $(_OBJ_DIR)\alpha\read.obj \
+    $(_OBJ_DIR)\alpha\database.obj \
+    $(_OBJ_DIR)\alpha\request.obj \
+    $(_OBJ_DIR)\alpha\worker.obj \
+    $(_OBJ_DIR)\alpha\rplsvc.obj \
+    $(_OBJ_DIR)\alpha\rplmain.obj \
+    $(_OBJ_DIR)\alpha\debug.obj \
+    $(_OBJ_DIR)\alpha\report.obj \
+    $(_OBJ_DIR)\alpha\library.obj \
+    $(_OBJ_DIR)\alpha\memory.obj \
+    $(_OBJ_DIR)\alpha\rplsvc_s.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\rplsvc.res \
+    $(_OBJ_DIR)\mips\apisec.obj \
+    $(_OBJ_DIR)\mips\dblib.obj \
+    $(_OBJ_DIR)\mips\tree.obj \
+    $(_OBJ_DIR)\mips\vendor.obj \
+    $(_OBJ_DIR)\mips\security.obj \
+    $(_OBJ_DIR)\mips\adapter.obj \
+    $(_OBJ_DIR)\mips\disk.obj \
+    $(_OBJ_DIR)\mips\service.obj \
+    $(_OBJ_DIR)\mips\resume.obj \
+    $(_OBJ_DIR)\mips\boot.obj \
+    $(_OBJ_DIR)\mips\config.obj \
+    $(_OBJ_DIR)\mips\profile.obj \
+    $(_OBJ_DIR)\mips\setup.obj \
+    $(_OBJ_DIR)\mips\wksta.obj \
+    $(_OBJ_DIR)\mips\fitfile.obj \
+    $(_OBJ_DIR)\mips\open.obj \
+    $(_OBJ_DIR)\mips\bbcfile.obj \
+    $(_OBJ_DIR)\mips\read.obj \
+    $(_OBJ_DIR)\mips\database.obj \
+    $(_OBJ_DIR)\mips\request.obj \
+    $(_OBJ_DIR)\mips\worker.obj \
+    $(_OBJ_DIR)\mips\rplsvc.obj \
+    $(_OBJ_DIR)\mips\rplmain.obj \
+    $(_OBJ_DIR)\mips\debug.obj \
+    $(_OBJ_DIR)\mips\report.obj \
+    $(_OBJ_DIR)\mips\library.obj \
+    $(_OBJ_DIR)\mips\memory.obj \
+    $(_OBJ_DIR)\mips\rplsvc_s.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\rplsvc.res \
+    $(_OBJ_DIR)\i386\apisec.obj \
+    $(_OBJ_DIR)\i386\dblib.obj \
+    $(_OBJ_DIR)\i386\tree.obj \
+    $(_OBJ_DIR)\i386\vendor.obj \
+    $(_OBJ_DIR)\i386\security.obj \
+    $(_OBJ_DIR)\i386\adapter.obj \
+    $(_OBJ_DIR)\i386\disk.obj \
+    $(_OBJ_DIR)\i386\service.obj \
+    $(_OBJ_DIR)\i386\resume.obj \
+    $(_OBJ_DIR)\i386\boot.obj \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\profile.obj \
+    $(_OBJ_DIR)\i386\setup.obj \
+    $(_OBJ_DIR)\i386\wksta.obj \
+    $(_OBJ_DIR)\i386\fitfile.obj \
+    $(_OBJ_DIR)\i386\open.obj \
+    $(_OBJ_DIR)\i386\bbcfile.obj \
+    $(_OBJ_DIR)\i386\read.obj \
+    $(_OBJ_DIR)\i386\database.obj \
+    $(_OBJ_DIR)\i386\request.obj \
+    $(_OBJ_DIR)\i386\worker.obj \
+    $(_OBJ_DIR)\i386\rplsvc.obj \
+    $(_OBJ_DIR)\i386\rplmain.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\report.obj \
+    $(_OBJ_DIR)\i386\library.obj \
+    $(_OBJ_DIR)\i386\memory.obj \
+    $(_OBJ_DIR)\i386\rplsvc_s.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\rplsvc.res \
+    $(_OBJ_DIR)\ppc\apisec.obj \
+    $(_OBJ_DIR)\ppc\dblib.obj \
+    $(_OBJ_DIR)\ppc\tree.obj \
+    $(_OBJ_DIR)\ppc\vendor.obj \
+    $(_OBJ_DIR)\ppc\security.obj \
+    $(_OBJ_DIR)\ppc\adapter.obj \
+    $(_OBJ_DIR)\ppc\disk.obj \
+    $(_OBJ_DIR)\ppc\service.obj \
+    $(_OBJ_DIR)\ppc\resume.obj \
+    $(_OBJ_DIR)\ppc\boot.obj \
+    $(_OBJ_DIR)\ppc\config.obj \
+    $(_OBJ_DIR)\ppc\profile.obj \
+    $(_OBJ_DIR)\ppc\setup.obj \
+    $(_OBJ_DIR)\ppc\wksta.obj \
+    $(_OBJ_DIR)\ppc\fitfile.obj \
+    $(_OBJ_DIR)\ppc\open.obj \
+    $(_OBJ_DIR)\ppc\bbcfile.obj \
+    $(_OBJ_DIR)\ppc\read.obj \
+    $(_OBJ_DIR)\ppc\database.obj \
+    $(_OBJ_DIR)\ppc\request.obj \
+    $(_OBJ_DIR)\ppc\worker.obj \
+    $(_OBJ_DIR)\ppc\rplsvc.obj \
+    $(_OBJ_DIR)\ppc\rplmain.obj \
+    $(_OBJ_DIR)\ppc\debug.obj \
+    $(_OBJ_DIR)\ppc\report.obj \
+    $(_OBJ_DIR)\ppc\library.obj \
+    $(_OBJ_DIR)\ppc\memory.obj \
+    $(_OBJ_DIR)\ppc\rplsvc_s.obj
+
+PASS0_PPC_OBJECTS=
+

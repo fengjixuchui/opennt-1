@@ -95596,6 +95596,27 @@ GetWindowTextW(
 
 
 
+    
+
+UINT
+__stdcall
+GetWindowModuleFileNameA(
+	HWND hWnd,
+	LPSTR lpString,
+	UINT cchFileNameMax);    
+
+UINT
+__stdcall
+GetWindowModuleFileNameW(
+	HWND hWnd,
+	LPWSTR lpString,
+	UINT cchFileNameMax);    
+
+
+
+
+
+
 
 
 int

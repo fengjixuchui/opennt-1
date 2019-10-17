@@ -1,0 +1,80 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\listmem.obj \
+    $(_OBJ_DIR)\alpha\listprep.obj \
+    $(_OBJ_DIR)\alpha\maccess.obj \
+    $(_OBJ_DIR)\alpha\mconnect.obj \
+    $(_OBJ_DIR)\alpha\mfile.obj \
+    $(_OBJ_DIR)\alpha\mgroup.obj \
+    $(_OBJ_DIR)\alpha\mlogon.obj \
+    $(_OBJ_DIR)\alpha\mmsg.obj \
+    $(_OBJ_DIR)\alpha\mremutl.obj \
+    $(_OBJ_DIR)\alpha\msession.obj \
+    $(_OBJ_DIR)\alpha\mstats.obj \
+    $(_OBJ_DIR)\alpha\msvc.obj \
+    $(_OBJ_DIR)\alpha\netname.obj \
+    $(_OBJ_DIR)\alpha\time.obj \
+    $(_OBJ_DIR)\alpha\timef.obj \
+    $(_OBJ_DIR)\alpha\msam.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\listmem.obj \
+    $(_OBJ_DIR)\mips\listprep.obj \
+    $(_OBJ_DIR)\mips\maccess.obj \
+    $(_OBJ_DIR)\mips\mconnect.obj \
+    $(_OBJ_DIR)\mips\mfile.obj \
+    $(_OBJ_DIR)\mips\mgroup.obj \
+    $(_OBJ_DIR)\mips\mlogon.obj \
+    $(_OBJ_DIR)\mips\mmsg.obj \
+    $(_OBJ_DIR)\mips\mremutl.obj \
+    $(_OBJ_DIR)\mips\msession.obj \
+    $(_OBJ_DIR)\mips\mstats.obj \
+    $(_OBJ_DIR)\mips\msvc.obj \
+    $(_OBJ_DIR)\mips\netname.obj \
+    $(_OBJ_DIR)\mips\time.obj \
+    $(_OBJ_DIR)\mips\timef.obj \
+    $(_OBJ_DIR)\mips\msam.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\listmem.obj \
+    $(_OBJ_DIR)\i386\listprep.obj \
+    $(_OBJ_DIR)\i386\maccess.obj \
+    $(_OBJ_DIR)\i386\mconnect.obj \
+    $(_OBJ_DIR)\i386\mfile.obj \
+    $(_OBJ_DIR)\i386\mgroup.obj \
+    $(_OBJ_DIR)\i386\mlogon.obj \
+    $(_OBJ_DIR)\i386\mmsg.obj \
+    $(_OBJ_DIR)\i386\mremutl.obj \
+    $(_OBJ_DIR)\i386\msession.obj \
+    $(_OBJ_DIR)\i386\mstats.obj \
+    $(_OBJ_DIR)\i386\msvc.obj \
+    $(_OBJ_DIR)\i386\netname.obj \
+    $(_OBJ_DIR)\i386\time.obj \
+    $(_OBJ_DIR)\i386\timef.obj \
+    $(_OBJ_DIR)\i386\msam.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\listmem.obj \
+    $(_OBJ_DIR)\ppc\listprep.obj \
+    $(_OBJ_DIR)\ppc\maccess.obj \
+    $(_OBJ_DIR)\ppc\mconnect.obj \
+    $(_OBJ_DIR)\ppc\mfile.obj \
+    $(_OBJ_DIR)\ppc\mgroup.obj \
+    $(_OBJ_DIR)\ppc\mlogon.obj \
+    $(_OBJ_DIR)\ppc\mmsg.obj \
+    $(_OBJ_DIR)\ppc\mremutl.obj \
+    $(_OBJ_DIR)\ppc\msession.obj \
+    $(_OBJ_DIR)\ppc\mstats.obj \
+    $(_OBJ_DIR)\ppc\msvc.obj \
+    $(_OBJ_DIR)\ppc\netname.obj \
+    $(_OBJ_DIR)\ppc\time.obj \
+    $(_OBJ_DIR)\ppc\timef.obj \
+    $(_OBJ_DIR)\ppc\msam.obj
+
+PASS0_PPC_OBJECTS=
+

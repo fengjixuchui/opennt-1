@@ -1,0 +1,14 @@
+-debugtype:cv
+
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089
+-nodefaultlib
+-machine:i386
+-def:paintjet.def
+
+
+
+
+obj\i386\paintjet.res
+
+obj\i386\code.obj
+

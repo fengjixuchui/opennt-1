@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Sun Oct 13 03:38:41 2019
+/* at Thu Oct 17 16:17:45 2019
  */
 /* Compiler settings for nsiclt.idl:
     Os (OptLev=s), W1, Zp8, env=Win32, ms_ext, c_ext, oldnames
@@ -32,7 +32,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: NsiC
- * at Sun Oct 13 03:38:41 2019
+ * at Thu Oct 17 16:17:45 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [auto_handle][unique][version][uuid] */ 

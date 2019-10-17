@@ -1,0 +1,2 @@
+server\binplace() : warning BNP0000: no version resource detected for "w:\nt\private\nullsrv\server\obj\i386\nullss.exe"
+client\binplace() : warning BNP0000: no version resource detected for "w:\nt\private\nullsrv\client\obj\i386\nullt.exe"

@@ -987,8 +987,8 @@
  0000:0473       MySeg2
  0000:0475       ResTest
  0000:0477       Res_Tpa
- 0000:0479       TranVarEnd
  0000:0479       OldErrNo
+ 0000:0479       TranVarEnd
  0000:047B       MsgBuffer
  0000:047B       SafePathBuffer
  0000:058C       Int2fHandler
@@ -1095,8 +1095,8 @@
  0000:0D37       ExtErr90
  0000:0E13       ExtMsgEnd
  0000:0E20       StartCode
- 0000:0E49       Ext_Exec
  0000:0E49       Exec_Ret
+ 0000:0E49       Ext_Exec
  0000:0E4B       Exec_Wait
  0000:0E55       ContC
  0000:0F1A       ResPipeOff
@@ -1158,8 +1158,8 @@
  0000:2050       Eswitch
  0000:2051       Dswitch
  0000:2052       ParseMes_Ptr
- 0000:2054       Internat_Info
  0000:2054       Parse_command
+ 0000:2054       Internat_Info
  0000:2081       Command_p_syn
  0000:208D       Command_f_syn
  0000:2099       Command_d_syn
@@ -1198,8 +1198,8 @@
  0000:2490       TranStart
  0249:0104       TCOMMAND
  0249:012C       command
- 0249:06CD       DOCOM1
  0249:06CD       DOCOM
+ 0249:06CD       DOCOM1
  0249:06D8       NOPIPEPROC
  0249:07FD       ROM_SCAN
  0249:0876       ROM_EXEC
@@ -1544,10 +1544,10 @@
  0249:9608       ArgC
  0249:9609       COMSW
  0249:960B       ARG1S
- 0249:960D       DestSwitch
  0249:960D       ARG2S
- 0249:960F       ALLSWITCH
+ 0249:960D       DestSwitch
  0249:960F       ARGTS
+ 0249:960F       ALLSWITCH
  0249:9611       CFlag
  0249:9612       DestClosed
  0249:9612       SPECDRV
@@ -1562,17 +1562,17 @@
  0249:9622       FileCntTotal
  0249:9626       FileSizTotal
  0249:962A       CharBuf
- 0249:967A       IDLEN
  0249:967A       DestFcb2
+ 0249:967A       IDLEN
  0249:967B       ID
  0249:9683       COM
  0249:9686       DEST
  0249:96AB       DESTNAME
- 0249:96B6       destdir
  0249:96B6       DestFcb
- 0249:96F9       GOTOLEN
- 0249:96F9       EXEFCB
+ 0249:96B6       destdir
  0249:96F9       DIRBUF
+ 0249:96F9       EXEFCB
+ 0249:96F9       GOTOLEN
  0249:96F9       bwdbuf
  0249:973F       SDirBuf
  0249:974B       Bits
@@ -1601,8 +1601,8 @@
  0249:97F2       ROM_CALL
  0249:97F3       ROM_IP
  0249:97F5       ROM_CS
- 0249:97F7       DestIsDir
  0249:97F7       DestVars
+ 0249:97F7       DestIsDir
  0249:97F8       DestSiz
  0249:97F9       DestTail
  0249:97FB       destinfo
@@ -1681,13 +1681,13 @@
  0249:A0FA       BatBuf
  0249:A11A       BatBufEnd
  0249:A11C       TypeFilSiz
- 0249:A120       PARSE1_OUTPUT
  0249:A120       parse1_type
+ 0249:A120       PARSE1_OUTPUT
  0249:A121       PARSE1_CODE
  0249:A122       Parse1_Syn
  0249:A124       parse1_addr
- 0249:A128       DATE_TYPE
  0249:A128       DATE_OUTPUT
+ 0249:A128       DATE_TYPE
  0249:A12C       date_year
  0249:A12E       date_month
  0249:A12F       date_day
@@ -1697,8 +1697,8 @@
  0249:A135       time_minutes
  0249:A136       time_seconds
  0249:A137       time_fraction
- 0249:A138       DRIVE_TYPE
  0249:A138       DRIVE_OUTPUT
+ 0249:A138       DRIVE_TYPE
  0249:A139       DRIVE_VALUE
  0249:A13C       DRIVE_NUMBER
  0249:A140       transpaceend

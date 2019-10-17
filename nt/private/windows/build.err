@@ -1,0 +1,4 @@
+shell\cpls\desk\link() : error LNK1104: cannot open file "obj\i386\desk.cpl"
+spooler\printman\km\link() : error LNK1104: cannot open file "obj\i386\printman.exe"
+spooler\printman\km\binplace() : error BNP0000: Unable to place file obj\i386\printman.exe - exiting.
+media\mciole\binplace() : error BNP0000: Unable to place file \nt\public\sdk\lib\i386\mciole32.dll - exiting.

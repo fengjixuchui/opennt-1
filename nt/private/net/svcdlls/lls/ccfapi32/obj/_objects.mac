@@ -1,0 +1,68 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\ccfapi32.res \
+    $(_OBJ_DIR)\alpha\ccfapi.obj \
+    $(_OBJ_DIR)\alpha\exports.obj \
+    $(_OBJ_DIR)\alpha\licobj.obj \
+    $(_OBJ_DIR)\alpha\md4c.obj \
+    $(_OBJ_DIR)\alpha\nlicdlg.obj \
+    $(_OBJ_DIR)\alpha\paper.obj \
+    $(_OBJ_DIR)\alpha\pseatdlg.obj \
+    $(_OBJ_DIR)\alpha\psrvdlg.obj \
+    $(_OBJ_DIR)\alpha\remdlg.obj \
+    $(_OBJ_DIR)\alpha\source.obj \
+    $(_OBJ_DIR)\alpha\srclist.obj \
+    $(_OBJ_DIR)\alpha\utils.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\ccfapi32.res \
+    $(_OBJ_DIR)\mips\ccfapi.obj \
+    $(_OBJ_DIR)\mips\exports.obj \
+    $(_OBJ_DIR)\mips\licobj.obj \
+    $(_OBJ_DIR)\mips\md4c.obj \
+    $(_OBJ_DIR)\mips\nlicdlg.obj \
+    $(_OBJ_DIR)\mips\paper.obj \
+    $(_OBJ_DIR)\mips\pseatdlg.obj \
+    $(_OBJ_DIR)\mips\psrvdlg.obj \
+    $(_OBJ_DIR)\mips\remdlg.obj \
+    $(_OBJ_DIR)\mips\source.obj \
+    $(_OBJ_DIR)\mips\srclist.obj \
+    $(_OBJ_DIR)\mips\utils.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ccfapi32.res \
+    $(_OBJ_DIR)\i386\ccfapi.obj \
+    $(_OBJ_DIR)\i386\exports.obj \
+    $(_OBJ_DIR)\i386\licobj.obj \
+    $(_OBJ_DIR)\i386\md4c.obj \
+    $(_OBJ_DIR)\i386\nlicdlg.obj \
+    $(_OBJ_DIR)\i386\paper.obj \
+    $(_OBJ_DIR)\i386\pseatdlg.obj \
+    $(_OBJ_DIR)\i386\psrvdlg.obj \
+    $(_OBJ_DIR)\i386\remdlg.obj \
+    $(_OBJ_DIR)\i386\source.obj \
+    $(_OBJ_DIR)\i386\srclist.obj \
+    $(_OBJ_DIR)\i386\utils.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\ccfapi32.res \
+    $(_OBJ_DIR)\ppc\ccfapi.obj \
+    $(_OBJ_DIR)\ppc\exports.obj \
+    $(_OBJ_DIR)\ppc\licobj.obj \
+    $(_OBJ_DIR)\ppc\md4c.obj \
+    $(_OBJ_DIR)\ppc\nlicdlg.obj \
+    $(_OBJ_DIR)\ppc\paper.obj \
+    $(_OBJ_DIR)\ppc\pseatdlg.obj \
+    $(_OBJ_DIR)\ppc\psrvdlg.obj \
+    $(_OBJ_DIR)\ppc\remdlg.obj \
+    $(_OBJ_DIR)\ppc\source.obj \
+    $(_OBJ_DIR)\ppc\srclist.obj \
+    $(_OBJ_DIR)\ppc\utils.obj
+
+PASS0_PPC_OBJECTS=
+

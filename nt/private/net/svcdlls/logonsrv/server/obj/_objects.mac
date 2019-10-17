@@ -1,0 +1,108 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\netlogon.res \
+    $(_OBJ_DIR)\alpha\announce.obj \
+    $(_OBJ_DIR)\alpha\changelg.obj \
+    $(_OBJ_DIR)\alpha\chutil.obj \
+    $(_OBJ_DIR)\alpha\chworker.obj \
+    $(_OBJ_DIR)\alpha\error.obj \
+    $(_OBJ_DIR)\alpha\logon_s.obj \
+    $(_OBJ_DIR)\alpha\logonapi.obj \
+    $(_OBJ_DIR)\alpha\lsarepl.obj \
+    $(_OBJ_DIR)\alpha\lsrvrepl.obj \
+    $(_OBJ_DIR)\alpha\lsrvutil.obj \
+    $(_OBJ_DIR)\alpha\mailslot.obj \
+    $(_OBJ_DIR)\alpha\netlogon.obj \
+    $(_OBJ_DIR)\alpha\nlp.obj \
+    $(_OBJ_DIR)\alpha\nlsecure.obj \
+    $(_OBJ_DIR)\alpha\oldstub.obj \
+    $(_OBJ_DIR)\alpha\parse.obj \
+    $(_OBJ_DIR)\alpha\repluas.obj \
+    $(_OBJ_DIR)\alpha\replutil.obj \
+    $(_OBJ_DIR)\alpha\srvsess.obj \
+    $(_OBJ_DIR)\alpha\ssiapi.obj \
+    $(_OBJ_DIR)\alpha\ssiauth.obj \
+    $(_OBJ_DIR)\alpha\trustutl.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\netlogon.res \
+    $(_OBJ_DIR)\mips\announce.obj \
+    $(_OBJ_DIR)\mips\changelg.obj \
+    $(_OBJ_DIR)\mips\chutil.obj \
+    $(_OBJ_DIR)\mips\chworker.obj \
+    $(_OBJ_DIR)\mips\error.obj \
+    $(_OBJ_DIR)\mips\logon_s.obj \
+    $(_OBJ_DIR)\mips\logonapi.obj \
+    $(_OBJ_DIR)\mips\lsarepl.obj \
+    $(_OBJ_DIR)\mips\lsrvrepl.obj \
+    $(_OBJ_DIR)\mips\lsrvutil.obj \
+    $(_OBJ_DIR)\mips\mailslot.obj \
+    $(_OBJ_DIR)\mips\netlogon.obj \
+    $(_OBJ_DIR)\mips\nlp.obj \
+    $(_OBJ_DIR)\mips\nlsecure.obj \
+    $(_OBJ_DIR)\mips\oldstub.obj \
+    $(_OBJ_DIR)\mips\parse.obj \
+    $(_OBJ_DIR)\mips\repluas.obj \
+    $(_OBJ_DIR)\mips\replutil.obj \
+    $(_OBJ_DIR)\mips\srvsess.obj \
+    $(_OBJ_DIR)\mips\ssiapi.obj \
+    $(_OBJ_DIR)\mips\ssiauth.obj \
+    $(_OBJ_DIR)\mips\trustutl.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\netlogon.res \
+    $(_OBJ_DIR)\i386\announce.obj \
+    $(_OBJ_DIR)\i386\changelg.obj \
+    $(_OBJ_DIR)\i386\chutil.obj \
+    $(_OBJ_DIR)\i386\chworker.obj \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\logon_s.obj \
+    $(_OBJ_DIR)\i386\logonapi.obj \
+    $(_OBJ_DIR)\i386\lsarepl.obj \
+    $(_OBJ_DIR)\i386\lsrvrepl.obj \
+    $(_OBJ_DIR)\i386\lsrvutil.obj \
+    $(_OBJ_DIR)\i386\mailslot.obj \
+    $(_OBJ_DIR)\i386\netlogon.obj \
+    $(_OBJ_DIR)\i386\nlp.obj \
+    $(_OBJ_DIR)\i386\nlsecure.obj \
+    $(_OBJ_DIR)\i386\oldstub.obj \
+    $(_OBJ_DIR)\i386\parse.obj \
+    $(_OBJ_DIR)\i386\repluas.obj \
+    $(_OBJ_DIR)\i386\replutil.obj \
+    $(_OBJ_DIR)\i386\srvsess.obj \
+    $(_OBJ_DIR)\i386\ssiapi.obj \
+    $(_OBJ_DIR)\i386\ssiauth.obj \
+    $(_OBJ_DIR)\i386\trustutl.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\netlogon.res \
+    $(_OBJ_DIR)\ppc\announce.obj \
+    $(_OBJ_DIR)\ppc\changelg.obj \
+    $(_OBJ_DIR)\ppc\chutil.obj \
+    $(_OBJ_DIR)\ppc\chworker.obj \
+    $(_OBJ_DIR)\ppc\error.obj \
+    $(_OBJ_DIR)\ppc\logon_s.obj \
+    $(_OBJ_DIR)\ppc\logonapi.obj \
+    $(_OBJ_DIR)\ppc\lsarepl.obj \
+    $(_OBJ_DIR)\ppc\lsrvrepl.obj \
+    $(_OBJ_DIR)\ppc\lsrvutil.obj \
+    $(_OBJ_DIR)\ppc\mailslot.obj \
+    $(_OBJ_DIR)\ppc\netlogon.obj \
+    $(_OBJ_DIR)\ppc\nlp.obj \
+    $(_OBJ_DIR)\ppc\nlsecure.obj \
+    $(_OBJ_DIR)\ppc\oldstub.obj \
+    $(_OBJ_DIR)\ppc\parse.obj \
+    $(_OBJ_DIR)\ppc\repluas.obj \
+    $(_OBJ_DIR)\ppc\replutil.obj \
+    $(_OBJ_DIR)\ppc\srvsess.obj \
+    $(_OBJ_DIR)\ppc\ssiapi.obj \
+    $(_OBJ_DIR)\ppc\ssiauth.obj \
+    $(_OBJ_DIR)\ppc\trustutl.obj
+
+PASS0_PPC_OBJECTS=
+

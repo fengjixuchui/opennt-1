@@ -1,0 +1,48 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\canon.obj \
+    $(_OBJ_DIR)\alpha\packstr.obj \
+    $(_OBJ_DIR)\alpha\exchange.obj \
+    $(_OBJ_DIR)\alpha\regacl.obj \
+    $(_OBJ_DIR)\alpha\nwapi32.obj \
+    $(_OBJ_DIR)\alpha\nwcapi32.obj \
+    $(_OBJ_DIR)\alpha\nwpapi32.obj \
+    $(_OBJ_DIR)\alpha\ndsapi32.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\canon.obj \
+    $(_OBJ_DIR)\mips\packstr.obj \
+    $(_OBJ_DIR)\mips\exchange.obj \
+    $(_OBJ_DIR)\mips\regacl.obj \
+    $(_OBJ_DIR)\mips\nwapi32.obj \
+    $(_OBJ_DIR)\mips\nwcapi32.obj \
+    $(_OBJ_DIR)\mips\nwpapi32.obj \
+    $(_OBJ_DIR)\mips\ndsapi32.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\canon.obj \
+    $(_OBJ_DIR)\i386\packstr.obj \
+    $(_OBJ_DIR)\i386\exchange.obj \
+    $(_OBJ_DIR)\i386\regacl.obj \
+    $(_OBJ_DIR)\i386\nwapi32.obj \
+    $(_OBJ_DIR)\i386\nwcapi32.obj \
+    $(_OBJ_DIR)\i386\nwpapi32.obj \
+    $(_OBJ_DIR)\i386\ndsapi32.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\canon.obj \
+    $(_OBJ_DIR)\ppc\packstr.obj \
+    $(_OBJ_DIR)\ppc\exchange.obj \
+    $(_OBJ_DIR)\ppc\regacl.obj \
+    $(_OBJ_DIR)\ppc\nwapi32.obj \
+    $(_OBJ_DIR)\ppc\nwcapi32.obj \
+    $(_OBJ_DIR)\ppc\nwpapi32.obj \
+    $(_OBJ_DIR)\ppc\ndsapi32.obj
+
+PASS0_PPC_OBJECTS=
+

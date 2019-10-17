@@ -6,7 +6,7 @@
 * Copyright (c) 1985-95, Microsoft Corporation
 *
 * History:
-* KBDTOOL v1.03 - Created  Tue Oct 08 22:12:07 2019
+* KBDTOOL v1.03 - Created  Thu Oct 17 16:38:15 2019
 \***************************************************************************/
 
 #include <windows.h>

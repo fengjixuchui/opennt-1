@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\upssvc.res \
+    $(_OBJ_DIR)\alpha\ups.obj \
+    $(_OBJ_DIR)\alpha\subr.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\upssvc.res \
+    $(_OBJ_DIR)\mips\ups.obj \
+    $(_OBJ_DIR)\mips\subr.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\upssvc.res \
+    $(_OBJ_DIR)\i386\ups.obj \
+    $(_OBJ_DIR)\i386\subr.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\upssvc.res \
+    $(_OBJ_DIR)\ppc\ups.obj \
+    $(_OBJ_DIR)\ppc\subr.obj
+
+PASS0_PPC_OBJECTS=
+

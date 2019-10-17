@@ -1,0 +1,64 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\convargs.obj \
+    $(_OBJ_DIR)\alpha\convblk.obj \
+    $(_OBJ_DIR)\alpha\convdata.obj \
+    $(_OBJ_DIR)\alpha\data.obj \
+    $(_OBJ_DIR)\alpha\logsize.obj \
+    $(_OBJ_DIR)\alpha\pack.obj \
+    $(_OBJ_DIR)\alpha\rcvconv.obj \
+    $(_OBJ_DIR)\alpha\remote.obj \
+    $(_OBJ_DIR)\alpha\reqsize.obj \
+    $(_OBJ_DIR)\alpha\setfield.obj \
+    $(_OBJ_DIR)\alpha\start.obj \
+    $(_OBJ_DIR)\alpha\transact.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\convargs.obj \
+    $(_OBJ_DIR)\mips\convblk.obj \
+    $(_OBJ_DIR)\mips\convdata.obj \
+    $(_OBJ_DIR)\mips\data.obj \
+    $(_OBJ_DIR)\mips\logsize.obj \
+    $(_OBJ_DIR)\mips\pack.obj \
+    $(_OBJ_DIR)\mips\rcvconv.obj \
+    $(_OBJ_DIR)\mips\remote.obj \
+    $(_OBJ_DIR)\mips\reqsize.obj \
+    $(_OBJ_DIR)\mips\setfield.obj \
+    $(_OBJ_DIR)\mips\start.obj \
+    $(_OBJ_DIR)\mips\transact.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\convargs.obj \
+    $(_OBJ_DIR)\i386\convblk.obj \
+    $(_OBJ_DIR)\i386\convdata.obj \
+    $(_OBJ_DIR)\i386\data.obj \
+    $(_OBJ_DIR)\i386\logsize.obj \
+    $(_OBJ_DIR)\i386\pack.obj \
+    $(_OBJ_DIR)\i386\rcvconv.obj \
+    $(_OBJ_DIR)\i386\remote.obj \
+    $(_OBJ_DIR)\i386\reqsize.obj \
+    $(_OBJ_DIR)\i386\setfield.obj \
+    $(_OBJ_DIR)\i386\start.obj \
+    $(_OBJ_DIR)\i386\transact.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\convargs.obj \
+    $(_OBJ_DIR)\ppc\convblk.obj \
+    $(_OBJ_DIR)\ppc\convdata.obj \
+    $(_OBJ_DIR)\ppc\data.obj \
+    $(_OBJ_DIR)\ppc\logsize.obj \
+    $(_OBJ_DIR)\ppc\pack.obj \
+    $(_OBJ_DIR)\ppc\rcvconv.obj \
+    $(_OBJ_DIR)\ppc\remote.obj \
+    $(_OBJ_DIR)\ppc\reqsize.obj \
+    $(_OBJ_DIR)\ppc\setfield.obj \
+    $(_OBJ_DIR)\ppc\start.obj \
+    $(_OBJ_DIR)\ppc\transact.obj
+
+PASS0_PPC_OBJECTS=
+

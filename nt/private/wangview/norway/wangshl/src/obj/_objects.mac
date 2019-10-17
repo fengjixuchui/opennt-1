@@ -1,0 +1,28 @@
+ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\wangshl.res \
+    $(_OBJ_DIR)\alpha\wangshl.obj \
+    $(_OBJ_DIR)\alpha\shlcode.obj
+
+PASS0_ALPHA_OBJECTS=
+
+MIPS_OBJECTS= \
+    $(_OBJ_DIR)\mips\wangshl.res \
+    $(_OBJ_DIR)\mips\wangshl.obj \
+    $(_OBJ_DIR)\mips\shlcode.obj
+
+PASS0_MIPS_OBJECTS=
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\wangshl.res \
+    $(_OBJ_DIR)\i386\wangshl.obj \
+    $(_OBJ_DIR)\i386\shlcode.obj
+
+PASS0_386_OBJECTS=
+
+PPC_OBJECTS= \
+    $(_OBJ_DIR)\ppc\wangshl.res \
+    $(_OBJ_DIR)\ppc\wangshl.obj \
+    $(_OBJ_DIR)\ppc\shlcode.obj
+
+PASS0_PPC_OBJECTS=
+
