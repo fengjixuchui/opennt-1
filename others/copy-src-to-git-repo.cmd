@@ -1,1 +1,1 @@
-xcopy F:\old-src\* D:\git-repo\opennt\ /s /e /h /i /c /y
+xcopy F:\old-src\* D:\git-repo\opennt\ /s /e /h /r /i /c /y
