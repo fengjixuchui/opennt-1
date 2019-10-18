@@ -1,0 +1,19 @@
+copy  yyy\setup.cmd mmm\setup.cmd
+copy  yyy\README.txt  mmm\README.txt
+copy  yyy\nt\private\zTESTBUILD.cmd mmm\nt\private\zTESTBUILD.cmd
+copy  yyy\nt\private\developr\x86chk\x86chk.cmd mmm\nt\private\developr\x86chk\x86chk.cmd
+copy  yyy\nt\private\developr\x86chk\setenv.cmd mmm\nt\private\developr\x86chk\setenv.cmd
+copy  yyy\nt\private\ntos\w32\ntuser\client\cltxt.h mmm\nt\private\ntos\w32\ntuser\client\cltxt.h
+copy  yyy\nt\private\ntos\w32\ntuser\client\user32.def  mmm\nt\private\ntos\w32\ntuser\client\user32.def
+copy  yyy\nt\private\ntos\w32\ntuser\client\daytona\user32.def  mmm\nt\private\ntos\w32\ntuser\client\daytona\user32.def
+copy  yyy\nt\private\ntos\w32\ntuser\client\daytona\user32p.def mmm\nt\private\ntos\w32\ntuser\client\daytona\user32p.def
+copy  yyy\nt\private\sdktools\wap\user\userapi.h  mmm\nt\private\sdktools\wap\user\userapi.h
+copy  yyy\nt\private\sdktools\wap\user\zuser.c  mmm\nt\private\sdktools\wap\user\zuser.c
+copy  yyy\nt\private\sdktools\wap\user\zuser.def  mmm\nt\private\sdktools\wap\user\zuser.def
+copy  yyy\nt\private\sdktools\wap\user\zwinuser.h mmm\nt\private\sdktools\wap\user\zwinuser.h
+copy  yyy\nt\private\windows\inc\winuser.w  mmm\nt\private\windows\inc\winuser.w
+copy  yyy\nt\private\windows\inc\winuser.x  mmm\nt\private\windows\inc\winuser.x
+copy  yyy\nt\public\sdk\inc\winuser.h mmm\nt\public\sdk\inc\winuser.h
+copy  yyy\nt\public\sdk\inc\ntverp.h  mmm\nt\public\sdk\inc\ntverp.h
+copy  yyy\nt\public\sdk\inc\ntverp.x  mmm\nt\public\sdk\inc\ntverp.x
+

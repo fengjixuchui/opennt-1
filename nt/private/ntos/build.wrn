@@ -6,10 +6,6 @@ init\up\ke.lib(i386pcr.obj) : warning LNK4006: _KeIsExecutingDpc@0 already defin
 init\mp\ke.lib(i386pcr.obj) : warning LNK4006: _KeGetPcr@0 already defined in ke.lib(biosc.obj); second definition ignored
 init\mp\ke.lib(i386pcr.obj) : warning LNK4006: _KeGetCurrentPrcb@0 already defined in ke.lib(iopm.obj); second definition ignored
 init\mp\ke.lib(i386pcr.obj) : warning LNK4006: _KeIsExecutingDpc@0 already defined in ke.lib(procobj.obj); second definition ignored
-init\mp\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlEnlargedIntegerMultiply@8 already defined in vdm.lib(vdmints.obj); second definition ignored
-init\mp\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlEnlargedUnsignedDivide@16 already defined in io.lib(assign.obj); second definition ignored
-init\mp\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlConvertLongToLargeInteger@4 already defined in ps.lib(psquery.obj); second definition ignored
-init\mp\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlConvertUlongToLargeInteger@4 already defined in fstub.lib(drivesup.obj); second definition ignored
 init\up\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlEnlargedIntegerMultiply@8 already defined in vdm.lib(vdmints.obj); second definition ignored
 init\up\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlEnlargedUnsignedDivide@16 already defined in io.lib(assign.obj); second definition ignored
 init\up\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlConvertLongToLargeInteger@4 already defined in ps.lib(psquery.obj); second definition ignored
@@ -18,26 +14,30 @@ init\up\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedExchange@8 already d
 init\up\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedIncrement@4 already defined in mm.lib(queryvm.obj); second definition ignored
 init\up\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ps.lib(psdelete.obj); second definition ignored
 init\up\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedCompareExchange@12 already defined in ntosrtl.lib(excptdbg.obj); second definition ignored
+init\mp\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlEnlargedIntegerMultiply@8 already defined in vdm.lib(vdmints.obj); second definition ignored
+init\mp\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlEnlargedUnsignedDivide@16 already defined in io.lib(assign.obj); second definition ignored
+init\mp\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlConvertLongToLargeInteger@4 already defined in ps.lib(psquery.obj); second definition ignored
+init\mp\ntosrtl.lib(largeint.obj) : warning LNK4006: _RtlConvertUlongToLargeInteger@4 already defined in fstub.lib(drivesup.obj); second definition ignored
+init\up\obj\i386\ntoskrnl.exe() : warning LNK4088: image being generated due to /FORCE option; image may not run
 init\mp\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedExchange@8 already defined in io.lib(write.obj); second definition ignored
 init\mp\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedIncrement@4 already defined in mm.lib(queryvm.obj); second definition ignored
 init\mp\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedDecrement@4 already defined in ps.lib(psdelete.obj); second definition ignored
 init\mp\ex.lib(intrlfst.obj) : warning LNK4006: @InterlockedCompareExchange@12 already defined in ntosrtl.lib(excptdbg.obj); second definition ignored
-init\up\obj\i386\ntoskrnl.exe() : warning LNK4088: image being generated due to /FORCE option; image may not run
 init\mp\obj\i386\ntkrnlmp.exe() : warning LNK4088: image being generated due to /FORCE option; image may not run
-nthals\halx86\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
-nthals\halx86\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
-nthals\halx86\link() : warning LNK4049: locally defined symbol "@ExReleaseFastMutex@4" imported
 nthals\hal486c\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_ULONG@8" imported
-nthals\halx86\link() : warning LNK4049: locally defined symbol "@ExAcquireFastMutex@4" imported
-nthals\halx86\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_ULONG@8" imported
-nthals\halx86\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
 nthals\hal486c\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
 nthals\hal486c\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
-nthals\halx86\link() : warning LNK4049: locally defined symbol "_READ_PORT_ULONG@4" imported
-nthals\halx86\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
 nthals\hal486c\link() : warning LNK4049: locally defined symbol "_READ_PORT_ULONG@4" imported
 nthals\hal486c\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
 nthals\hal486c\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
+nthals\halx86\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
+nthals\halx86\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
+nthals\halx86\link() : warning LNK4049: locally defined symbol "@ExReleaseFastMutex@4" imported
+nthals\halx86\link() : warning LNK4049: locally defined symbol "@ExAcquireFastMutex@4" imported
+nthals\halx86\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_ULONG@8" imported
+nthals\halx86\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
+nthals\halx86\link() : warning LNK4049: locally defined symbol "_READ_PORT_ULONG@4" imported
+nthals\halx86\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
 nthals\halmca\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_ULONG@8" imported
 nthals\halmca\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
 nthals\halmca\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
@@ -56,26 +56,26 @@ nthals\halsp\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_ULONG
 nthals\halsp\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
 nthals\halsp\link() : warning LNK4049: locally defined symbol "_READ_PORT_ULONG@4" imported
 nthals\halsp\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
-nthals\halcbus\eisa\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_ULONG@8" imported
 nthals\halcbus\mca\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_ULONG@8" imported
-nthals\halcbus\eisa\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
 nthals\halcbus\mca\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
+nthals\halcbus\mca\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
+nthals\halcbus\eisa\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_ULONG@8" imported
+nthals\halcbus\eisa\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
 nthals\halcbus\eisa\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
 nthals\halcbus\eisa\link() : warning LNK4049: locally defined symbol "_READ_PORT_ULONG@4" imported
-nthals\halcbus\mca\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
+nthals\halcbus\eisa\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
+nthals\halcbus\eisa\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
 nthals\halcbus\mca\link() : warning LNK4049: locally defined symbol "_READ_PORT_ULONG@4" imported
 nthals\halcbus\mca\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
-nthals\halcbus\eisa\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
 nthals\halcbus\mca\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
-nthals\halcbus\eisa\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
 nthals\halws3\link() : warning LNK4049: locally defined symbol "@KfLowerIrql@4" imported
+nthals\halwyse7\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
+nthals\halwyse7\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
 nthals\halws3\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
 nthals\halws3\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
 nthals\halws3\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_USHORT@8" imported
 nthals\halws3\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported
 nthals\halws3\link() : warning LNK4049: locally defined symbol "_READ_PORT_ULONG@4" imported
-nthals\halwyse7\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
-nthals\halwyse7\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_UCHAR@8" imported
 nthals\halncr\link() : warning LNK4049: locally defined symbol "_WRITE_PORT_ULONG@8" imported
 nthals\halncr\link() : warning LNK4049: locally defined symbol "_READ_PORT_UCHAR@4" imported
 nthals\halncr\link() : warning LNK4049: locally defined symbol "_READ_PORT_USHORT@4" imported

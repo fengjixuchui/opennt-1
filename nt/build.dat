@@ -51707,7 +51707,7 @@ D w:\nt\private\windows\shell\shelldll 0
   I shellprv.h 1 0
  F filetbl.c 41 0 46fc2d58 987 0
   I shellprv.h 1 0
- F filetype.c 41 0 46fc2d58 5781 0
+ F filetype.c 41 0 4f522eef 5781 0
   I shellprv.h 1 0
   I filetype.h 1 0
   I ids.h 1 0

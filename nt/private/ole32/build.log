@@ -34,9 +34,9 @@ Stop.
 Building generated files in w:\nt\private\ole32\olecnv32\daytona ********************
 'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
 Building generated files in w:\nt\private\ole32\olethunk ********************
-'nmake.exe /c BUILDMSG=Stop. -i -f makefil0. NOLINK=1 386=1'
 
 Stop. 
+'nmake.exe /c BUILDMSG=Stop. -i -f makefil0. NOLINK=1 386=1'
 
 Stop. 
 
@@ -115,9 +115,9 @@ Copyright (c) Microsoft Corp 1988-93. All rights reserved.
 Microsoft (R) Program Maintenance Utility   Version 1.50.4048
 Copyright (c) Microsoft Corp 1988-93. All rights reserved.
 
-	cd w:\nt\private\ole32\olethunk\debnot\daytona
 	cd ..\coll
 	nmake "DEFINES=/D_DAYTONA_" "OPST=dayt"
+	cd w:\nt\private\ole32\olethunk\debnot\daytona
 
 Microsoft (R) Program Maintenance Utility   Version 1.50.4048
 Copyright (c) Microsoft Corp 1988-93. All rights reserved.
@@ -168,14 +168,14 @@ Linking w:\nt\private\ole32\com\inc directory ********************
 Linking w:\nt\private\ole32\com\coll directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 	echo Stop.
+	echo Stop.
+	echo Stop.
+	echo Stop.
+Stop.
+Stop.
 Stop.
 Linking w:\nt\private\ole32\com\debug directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	echo Stop.
-	echo Stop.
-	echo Stop.
-Stop.
-Stop.
 Stop.
 Linking w:\nt\private\ole32\com\moniker2 directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
@@ -189,9 +189,9 @@ Stop.
 Linking w:\nt\private\ole32\com\dcomrem directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 Stop.
+	echo Stop.
 Linking w:\nt\private\ole32\com\objact directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	echo Stop.
 	echo Stop.
 Stop.
 Stop.
@@ -200,14 +200,14 @@ Linking w:\nt\private\ole32\com\rot directory ********************
 Linking w:\nt\private\ole32\com\class directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 	echo Stop.
-	echo Stop.
 Stop.
+	echo Stop.
 Linking w:\nt\private\ole32\com\wx86grpa directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 Stop.
+	echo Stop.
 Linking w:\nt\private\ole32\ilib directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	echo Stop.
 	echo Stop.
 Stop.
 Stop.
@@ -216,63 +216,63 @@ Linking w:\nt\private\ole32\ole232 directory ********************
 Linking w:\nt\private\ole32\ole232\advise directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 	echo Stop.
-	echo Stop.
-Stop.
 Stop.
 Linking w:\nt\private\ole32\ole232\base directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	echo Stop.
+	echo Stop.
+Stop.
+	echo Stop.
+Stop.
 Linking w:\nt\private\ole32\ole232\cache directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	echo Stop.
-	echo Stop.
-Stop.
-Stop.
 Linking w:\nt\private\ole32\ole232\clipbrd directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Stop.
+	echo Stop.
 Linking w:\nt\private\ole32\ole232\debug directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	echo Stop.
-	echo Stop.
 Stop.
 Linking w:\nt\private\ole32\ole232\drag directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	echo Stop.
+	echo Stop.
 Stop.
+Stop.
+	echo Stop.
 Linking w:\nt\private\ole32\ole232\inplace directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	echo Stop.
-	echo Stop.
-Stop.
-Stop.
-	echo Stop.
 Linking w:\nt\private\ole32\ole232\stdimpl directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Stop.
+	echo Stop.
 Linking w:\nt\private\ole32\ole232\ole1 directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	echo Stop.
 Stop.
 Linking w:\nt\private\ole32\ole232\util directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	echo Stop.
+	echo Stop.
 Stop.
+	echo Stop.
 Linking w:\nt\private\ole32\stg directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	echo Stop.
-	echo Stop.
-	echo Stop.
-Stop.
-Stop.
-	echo Stop.
 Stop.
 Linking w:\nt\private\ole32\stg\async\layout directory ********************
+Stop.
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	echo Stop.
 Linking w:\nt\private\ole32\stg\async\layoutui directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Stop.
 Linking w:\nt\private\ole32\stg\async\dftool directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	echo Stop.
+	echo Stop.
+Stop.
 Stop.
 Linking w:\nt\private\ole32\stg\async\dfsetup directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	echo Stop.
-Stop.
 Linking w:\nt\private\ole32\stg\docfile directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 
@@ -281,135 +281,46 @@ Linking w:\nt\private\ole32\stg\exp directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 
 Stop. 
-	link -out:obj\i386\dflayout.exe -machine:i386 @W:\tmp\nma03860.
 Linking w:\nt\private\ole32\stg\fsstg directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 	echo Stop.
 Stop.
-	link -out:W:\nt\public\sdk\lib\i386\dflayout.dll -machine:i386 @W:\tmp\nma03640.
 Linking w:\nt\private\ole32\stg\msf directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 	echo Stop.
+
+Stop. 
 Stop.
 Linking w:\nt\private\ole32\stg\ofsstg directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	echo Stop.
-Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
-Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
-
--MERGE:_PAGE=PAGE 
--MERGE:_TEXT=.text 
--SECTION:INIT,d 
--OPT:REF 
--INCREMENTAL:NO 
--FORCE:MULTIPLE 
--RELEASE 
--FULLBUILD 
--IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
--NODEFAULTLIB 
--debug:notmapped,FULL 
--debugtype:both 
--version:4.00 
--osversion:4.00 
--MERGE:.rdata=.text 
--subsystem:windows,4.00 
--base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
--entry:WinMainCRTStartup 
--optidata 
-obj\i386\layoutui.res 
-obj\i386\cruntime.obj 
-obj\i386\laymain.obj 
-obj\i386\layoutui.obj 
-obj\i386\olesite.obj 
-obj\i386\cklayout.obj 
-W:\nt\public\sdk\lib\i386\libcmt.lib 
-W:\nt\public\sdk\lib\i386\advapi32.lib 
-W:\nt\public\sdk\lib\i386\kernel32.lib 
-W:\nt\public\sdk\lib\i386\gdi32.lib 
-W:\nt\public\sdk\lib\i386\user32.lib 
-W:\nt\public\sdk\lib\i386\dflayout.lib 
-..\debug\daytona\obj\i386\debug.lib 
-W:\nt\public\sdk\lib\i386\ole32.lib 
-W:\nt\public\sdk\lib\i386\gdi32.lib 
-W:\nt\public\sdk\lib\i386\kernel32.lib 
-W:\nt\public\sdk\lib\i386\user32.lib 
-W:\nt\public\sdk\lib\i386\advapi32.lib 
-W:\nt\public\sdk\lib\i386\uuid.lib 
-W:\nt\public\sdk\lib\i386\shell32.lib 
-W:\nt\public\sdk\lib\i386\comdlg32.lib 
-W:\nt\public\sdk\lib\i386\user32.lib 
-Stop.
 Linking w:\nt\private\ole32\stg\simp directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 	echo Stop.
-Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
-Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
-
--MERGE:_PAGE=PAGE 
--MERGE:_TEXT=.text 
--SECTION:INIT,d 
--OPT:REF 
--INCREMENTAL:NO 
--FORCE:MULTIPLE 
--RELEASE 
--FULLBUILD 
--IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
--NODEFAULTLIB 
--debug:notmapped,FULL 
--debugtype:both 
--version:4.00 
--osversion:4.00 
--MERGE:.rdata=.text 
--dll 
--optidata 
--base:@W:\nt\PUBLIC\SDK\LIB\coffbase.txt,usermode 
--subsystem:console,4.00 
--entry:_DllMainCRTStartup@12 
-W:\nt\public\sdk\lib\i386\dflayout.exp 
-obj\i386\layout.res 
-obj\i386\cruntime.obj 
-obj\i386\layapi.obj 
-obj\i386\layout.obj 
-obj\i386\mapfile.obj 
-obj\i386\layouter.obj 
-obj\i386\laylkb.obj 
-obj\i386\laywrap.obj 
-obj\i386\layscrpt.obj 
-W:\nt\public\sdk\lib\i386\libcmt.lib 
-W:\nt\public\sdk\lib\i386\ntdll.lib 
-..\debug\daytona\obj\i386\debug.lib 
-W:\nt\public\sdk\lib\i386\ole32.lib 
-W:\nt\public\sdk\lib\i386\gdi32.lib 
-W:\nt\public\sdk\lib\i386\kernel32.lib 
-W:\nt\public\sdk\lib\i386\user32.lib 
-W:\nt\public\sdk\lib\i386\advapi32.lib 
-W:\nt\public\sdk\lib\i386\uuid.lib 
 Stop.
 Linking w:\nt\private\ole32\stg\wclib directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 	echo Stop.
+	echo Stop.
+
+Stop. 
 Stop.
-	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\dflayout.exe
 Linking w:\nt\private\ole32\stg\props\iprop directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
-	echo Stop.
-	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\dflayout.dll
 Stop.
 Linking w:\nt\private\ole32\stg\props\prpsetup directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	echo Stop.
-Stop.
 Linking w:\nt\private\ole32\dcomss\wrapper\daytona directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-
-Stop. 
-
-Stop. 
-	compress W:\binaries\nt\Dump\iprop.dll iprop.dl_
+	echo Stop.
+Stop.
 Linking w:\nt\private\ole32\dll\daytona directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	echo Stop.
+Stop.
 Linking w:\nt\private\ole32\olecnv32\daytona directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	compress W:\binaries\nt\Dump\iprop.dll iprop.dl_
+	lib -out:W:\nt\public\sdk\lib\i386\ole32.lib @W:\tmp\nma03468.
 Microsoft (R) File Compression Utility  Version 2.50
 Copyright (C) Microsoft Corp. 1990-1994.  All rights reserved.
 
@@ -420,61 +331,74 @@ w:\binaries\nt\dump\iprop.dll: 214288 bytes compressed to 96174 bytes, 56% savin
 Stop. 
 Linking w:\nt\private\ole32\olecnfg directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	link -out:.\i386\rpcss.exe -machine:i386 @W:\tmp\nma01972.
 
 Stop. 
 Linking w:\nt\private\ole32\oleui\daytona directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	lib -out:W:\nt\public\sdk\lib\i386\IProp.lib @W:\tmp\nma04056.
-Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Microsoft (R) 32-Bit Library Manager Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
--WS:aggressive 
--MERGE:_PAGE=PAGE 
--MERGE:_TEXT=.text 
--SECTION:INIT,d 
--OPT:REF 
--INCREMENTAL:NO 
--FORCE:MULTIPLE 
--RELEASE 
--FULLBUILD 
+-debugtype:cv 
 -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
--NODEFAULTLIB 
--debug:notmapped,FULL 
--debugtype:both 
--version:4.00 
--osversion:4.00 
--MERGE:.rdata=.text 
--subsystem:console,4.00 
--base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
--order:@rpcss.prf 
--entry:mainCRTStartup 
--optidata 
-obj\i386\dcomss.res 
-obj\i386\epts.obj 
-obj\i386\start.obj 
-W:\nt\public\sdk\lib\i386\crtdll.lib 
-W:\nt\public\sdk\lib\i386\msvcirt.lib 
-W:\nt\public\sdk\lib\i386\advapi32.lib 
-W:\nt\public\sdk\lib\i386\kernel32.lib 
+-nodefaultlib 
+-machine:i386 
+-def:obj\i386\ole32.def 
+..\..\common\daytona\obj\i386\common.lib 
+..\..\com\moniker2\daytona\obj\i386\moniker.lib 
+..\..\com\class\daytona\obj\i386\class.lib 
+..\..\com\coll\daytona\obj\i386\coll.lib 
+..\..\com\debug\daytona\obj\i386\debug.lib 
+..\..\com\dcomrem\daytona\obj\i386\remote.lib 
+..\..\com\accctrl\daytona\obj\i386\accctrl.lib 
+..\..\com\rot\daytona\obj\i386\rot.lib 
+..\..\com\inc\daytona\obj\i386\inc.lib 
+..\..\com\objact\daytona\obj\i386\objact.lib 
+..\..\com\util\daytona\obj\i386\util.lib 
+..\..\oleprx32\proxy\daytona\obj\i386\oleprx32.lib 
+..\..\com\dde\client\daytona\obj\i386\ddecli.lib 
+..\..\com\dde\server\daytona\obj\i386\ddesvr.lib 
+..\..\ole232\advise\daytona\obj\i386\advise.lib 
+..\..\ole232\base\daytona\obj\i386\base.lib 
+..\..\ole232\cache\daytona\obj\i386\cache.lib 
+..\..\ole232\clipbrd\daytona\obj\i386\clipbrd.lib 
+..\..\ole232\debug\daytona\obj\i386\debug.lib 
+..\..\ole232\drag\daytona\obj\i386\drag.lib 
+..\..\ole232\inplace\daytona\obj\i386\inplace.lib 
+..\..\ole232\stdimpl\daytona\obj\i386\stdimpl.lib 
+..\..\ole232\ole1\daytona\obj\i386\ole1.lib 
+..\..\ole232\util\daytona\obj\i386\util.lib 
+..\..\stg\docfile\daytona\obj\i386\docfile.lib 
+..\..\stg\exp\daytona\obj\i386\exp.lib 
+..\..\stg\msf\daytona\obj\i386\msf.lib 
+..\..\stg\simp\daytona\obj\i386\simp.lib 
+..\..\stg\props\daytona\obj\i386\props.lib 
+..\..\stg\async\docfile\daytona\obj\i386\asyncstg.lib 
+..\..\ilib\daytona\obj\i386\uuid.lib 
+..\..\common\cruntime\daytona\obj\i386\cruntime.lib 
+..\..\com\wx86grpa\daytona\obj\i386\wx86grpa.lib 
+W:\nt\public\sdk\lib\i386\rpcndr.lib 
 W:\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\public\sdk\lib\i386\rpcns4.lib 
+W:\nt\public\sdk\lib\i386\netapi32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
 W:\nt\public\sdk\lib\i386\user32.lib 
 W:\nt\public\sdk\lib\i386\advapi32.lib 
-W:\nt\public\sdk\lib\i386\kernel32.lib 
-W:\nt\public\sdk\lib\i386\security.lib 
-W:\nt\public\sdk\lib\i386\wsock32.lib 
-W:\nt\private\dcomidl\obj\i386\dcomidl.lib 
-W:\nt\public\sdk\lib\i386\epmap.lib 
-..\..\lib\daytona\i386\objex.lib 
-..\..\..\common\daytona\obj\i386\common.lib 
-..\..\..\com\inc\daytona\obj\i386\inc.lib 
-..\..\..\com\rot\daytona\obj\i386\rot.lib 
-..\..\..\ilib\daytona\obj\i386\uuid.lib 
-..\..\lib\daytona\i386\olescm.lib 
+W:\nt\public\sdk\lib\i386\pwin32.lib 
 W:\nt\public\sdk\lib\i386\uuid.lib 
 W:\nt\public\sdk\lib\i386\ntdll.lib 
-W:\nt\public\sdk\lib\i386\userenv.lib 
-W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\imagehlp.lib 
+W:\nt\private\dcomidl\obj\i386\dcomidl.lib 
+obj\i386\ole2w32.res 
+	lib -out:W:\nt\public\sdk\lib\i386\IProp.lib @W:\tmp\nma03392.
+
+Stop. 
+Linking w:\nt\private\ole32\dllhost\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+
+Stop. 
+Linking w:\nt\private\ole32\olethunk\olethk32\daytona directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 Microsoft (R) 32-Bit Library Manager Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -503,15 +427,7 @@ obj\i386\ipropidl_i.obj
 obj\i386\ipropidl_p.obj 
 obj\i386\dllmain.obj 
    Creating library W:\nt\public\sdk\lib\i386\IProp.lib and object W:\nt\public\sdk\lib\i386\IProp.exp
-
-Stop. 
-Linking w:\nt\private\ole32\dllhost\daytona directory ********************
-'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	link -out:W:\nt\public\sdk\lib\i386\IProp.dll -machine:i386 @W:\tmp\nmb04056.
-
-Stop. 
-Linking w:\nt\private\ole32\olethunk\olethk32\daytona directory ********************
-'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	link -out:W:\nt\public\sdk\lib\i386\IProp.dll -machine:i386 @W:\tmp\nmb03392.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -565,15 +481,82 @@ W:\nt\public\sdk\lib\i386\rpcrt4.lib
 W:\nt\public\sdk\lib\i386\uuid.lib 
 W:\nt\public\sdk\lib\i386\kernel32.lib 
 W:\nt\public\sdk\lib\i386\advapi32.lib 
-	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a .\i386\rpcss.exe
+   Creating library W:\nt\public\sdk\lib\i386\ole32.lib and object W:\nt\public\sdk\lib\i386\ole32.exp
+
+Stop. 
+
+Stop. 
 
 Stop. 
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\IProp.dll
 
 Stop. 
+	link -out:W:\nt\public\sdk\lib\i386\olethk32.dll -machine:i386 @W:\tmp\nma02556.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
-Stop. 
-
-Stop. 
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:0x6000000 
+-subsystem:native,4.00 
+-entry:DllEntryPoint@12 
+obj\i386\headers.obj 
+W:\nt\public\sdk\lib\i386\olethk32.exp 
+obj\i386\olethk32.res 
+obj\i386\dllentry.obj 
+obj\i386\tlsthk.obj 
+obj\i386\thkmgr.obj 
+obj\i386\freelist.obj 
+obj\i386\cthkmgr.obj 
+obj\i386\olethk32.obj 
+obj\i386\inv16.obj 
+obj\i386\inv32.obj 
+obj\i386\thoputil.obj 
+obj\i386\thop16.obj 
+obj\i386\thop32.obj 
+obj\i386\thopiint.obj 
+obj\i386\tc1632.obj 
+obj\i386\thtblapi.obj 
+obj\i386\vtblapi.obj 
+obj\i386\iidtothi.obj 
+obj\i386\dbgapi.obj 
+obj\i386\dbgitbl.obj 
+obj\i386\map_kv.obj 
+obj\i386\plex.obj 
+obj\i386\apinot.obj 
+obj\i386\alias.obj 
+obj\i386\mmodel.obj 
+obj\i386\stalloc.obj 
+obj\i386\heap.obj 
+W:\nt\public\sdk\lib\i386\int64.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\ntvdm.lib 
+W:\nt\public\sdk\lib\i386\oemuni.lib 
+W:\nt\public\sdk\lib\i386\comdlg32.lib 
+W:\nt\public\sdk\lib\i386\wow32.lib 
+W:\nt\public\sdk\lib\i386\ole32.lib 
+W:\nt\public\sdk\lib\i386\uuid.lib 
+..\..\..\common\cruntime\daytona\obj\i386\cruntime.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\olethk32.dll
 
 Stop. 

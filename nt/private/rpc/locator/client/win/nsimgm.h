@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Thu Oct 17 09:28:28 2019
+/* at Fri Oct 18 00:16:05 2019
  */
 /* Compiler settings for ..\..\nsimgm.idl:
     Os (OptLev=s), W1, Zp2, env=Win16, ms_ext, c_ext, oldnames
@@ -32,7 +32,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: NsiM
- * at Thu Oct 17 09:28:28 2019
+ * at Fri Oct 18 00:16:05 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [implicit_handle][unique][version][uuid] */ 

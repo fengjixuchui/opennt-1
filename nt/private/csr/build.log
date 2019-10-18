@@ -6,5 +6,78 @@ Compiling w:\nt\private\csr\server directory ********************
 Stop. 
 Linking w:\nt\private\csr\server directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	link -out:obj\i386\csrsrv.dll -machine:i386 @W:\tmp\nma02864.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-WS:aggressive 
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,csrss 
+-subsystem:native,4.00 
+-noentry 
+W:\nt\public\sdk\lib\i386\csrsrv.exp 
+obj\i386\csrss.res 
+obj\i386\srvinit.obj 
+obj\i386\srvloadr.obj 
+obj\i386\sbinit.obj 
+obj\i386\sbreqst.obj 
+obj\i386\sbapi.obj 
+obj\i386\apiinit.obj 
+obj\i386\apireqst.obj 
+obj\i386\session.obj 
+obj\i386\process.obj 
+obj\i386\csrdebug.obj 
+obj\i386\wait.obj 
+W:\nt\public\sdk\lib\i386\int64.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\smdll.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\csrsrv.dll
+	link -out:obj\i386\csrss.exe -machine:i386 @W:\tmp\nmb02864.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-WS:aggressive 
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,csrss 
+-subsystem:native,4.00 
+-entry:NtProcessStartup@4 
+obj\i386\csrss.obj 
+W:\nt\public\sdk\lib\i386\csrsrv.lib 
+obj\i386\csrss.res 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\nt.lib 
+W:\nt\public\sdk\lib\i386\smdll.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\csrss.exe
 
 Stop. 

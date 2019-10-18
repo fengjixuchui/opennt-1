@@ -629,10 +629,179 @@ Linking w:\nt\private\mvdm\vdmdbg directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 Linking w:\nt\private\mvdm\vdmutils\graftabl directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	link -out:\nt\public\sdk\lib\i386\vdmdbg.dll -machine:i386 @W:\tmp\nma03040.
+	link -out:W:\nt\public\sdk\lib\i386\ntvdm.exe -machine:i386 @W:\tmp\nma02532.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:0x7A000000 
+-subsystem:native,4.00 
+-noentry 
+\nt\public\sdk\lib\i386\vdmdbg.exp 
+obj\i386\vdmdbg.res 
+obj\i386\vdmdbg.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-WS:aggressive 
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-order:@ntvdm.prf 
+-optidata 
+-subsystem:console,4.00 
+-base:0x0f000000 
+-entry:mainCRTStartup 
+obj\i386\resource.res 
+obj\i386\ntvdm.obj 
+W:\nt\public\sdk\lib\i386\ntvdm.exp 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32p.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\private\mvdm\softpc.new\base\support\obj\i386\MAIN.obj 
+W:\nt\private\mvdm\softpc.new\host\src\obj\i386\FPRT.OBJ 
+W:\nt\private\mvdm\softpc.new\base\system\obj\i386\SYSTEM.LIB 
+W:\nt\private\mvdm\softpc.new\base\bios\obj\i386\BIOS.LIB 
+W:\nt\private\mvdm\softpc.new\base\video\obj\i386\VIDEO.LIB 
+W:\nt\private\mvdm\softpc.new\base\dos\obj\i386\DOS.LIB 
+W:\nt\private\mvdm\softpc.new\base\comms\obj\i386\COMMS.LIB 
+W:\nt\private\mvdm\softpc.new\base\debug\obj\i386\DEBUG.LIB 
+W:\nt\private\mvdm\softpc.new\base\support\obj\i386\SUPPORT.LIB 
+W:\nt\private\mvdm\softpc.new\base\disks\obj\i386\DISKS.LIB 
+W:\nt\private\mvdm\softpc.new\base\keymouse\obj\i386\KEYMOUSE.LIB 
+W:\nt\private\mvdm\softpc.new\host\src\obj\i386\SRC.LIB 
+W:\nt\public\sdk\lib\i386\monitor.lib 
+W:\nt\public\sdk\lib\i386\dem.lib 
+W:\nt\public\sdk\lib\i386\dbg.lib 
+W:\nt\public\sdk\lib\i386\command.lib 
+W:\nt\public\sdk\lib\i386\dpmi32.lib 
+W:\nt\public\sdk\lib\i386\xms486.lib 
+W:\nt\public\sdk\lib\i386\suballoc.lib 
+W:\nt\public\sdk\lib\i386\oemuni.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a \nt\public\sdk\lib\i386\vdmdbg.dll
+	link -out:obj\i386\vdmexts.dll -machine:i386 @W:\tmp\nma01020.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:0x79000000 
+-subsystem:native,4.00 
+-noentry 
+obj\i386\precomp.obj 
+obj\i386\vdmexts.exp 
+obj\i386\vdmexts.res 
+obj\i386\profile.obj 
+obj\i386\vdmtib.obj 
+obj\i386\regs.obj 
+obj\i386\data.obj 
+obj\i386\debug.obj 
+obj\i386\disasm.obj 
+obj\i386\heap.obj 
+obj\i386\help.obj 
+obj\i386\misc.obj 
+obj\i386\platform.obj 
+obj\i386\reflect.obj 
+obj\i386\stack.obj 
+obj\i386\sym.obj 
+obj\i386\system.obj 
+obj\i386\trace.obj 
+obj\i386\util.obj 
+obj\i386\wow.obj 
+obj\i386\wowprof.obj 
+obj\i386\dib.obj 
+W:\nt\public\sdk\lib\i386\int64.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
 
 Stop. 
 Linking w:\nt\private\mvdm\vdmutils\forcedos directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\vdmexts.dll
+	link -out:obj\i386\graftabl.com -machine:i386 @W:\tmp\nma01756.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-subsystem:console,4.00 
+-entry:mainCRTStartup 
+obj\i386\graftabl.res 
+obj\i386\graftabl.obj 
+\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\graftabl.com
 
 Stop. 
 Linking w:\nt\private\mvdm\vdmutils\win directory ********************
@@ -641,21 +810,232 @@ Linking w:\nt\private\mvdm\vdmutils\win directory ********************
 Stop. 
 Linking w:\nt\private\mvdm\vdd\samples\mscdex\vdd directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	link -out:obj\i386\forcedos.exe -machine:i386 @W:\tmp\nma02656.
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\ntvdm.exe
+	link -out:obj\i386\win.com -machine:i386 @W:\tmp\nma02704.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-subsystem:console,4.00 
+-entry:mainCRTStartup 
+obj\i386\forcedos.res 
+obj\i386\forcedos.obj 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+	link -out:W:\nt\public\sdk\lib\i386\wow32.dll -machine:i386 @W:\tmp\nma02044.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-subsystem:windows,4.00 
+-entry:WinMainCRTStartup 
+obj\i386\win.res 
+obj\i386\win.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\forcedos.exe
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\win.com
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-dll 
+-order:@wow32.prf 
+-optidata 
+-base:0x10000000 
+-subsystem:windows,4.00 
+-entry:W32DllInitialize@12 
+obj\i386\precomp.obj 
+W:\nt\public\sdk\lib\i386\wow32.exp 
+obj\i386\wow32.res 
+obj\i386\fastwow.obj 
+obj\i386\callpr32.obj 
+obj\i386\mapembed.obj 
+obj\i386\wow32.obj 
+obj\i386\wowtbl.obj 
+obj\i386\walias.obj 
+obj\i386\wstruc.obj 
+obj\i386\wcall16.obj 
+obj\i386\wcall32.obj 
+obj\i386\wcntl32.obj 
+obj\i386\wdde.obj 
+obj\i386\wres16.obj 
+obj\i386\wres32.obj 
+obj\i386\wmsg16.obj 
+obj\i386\wmdisp32.obj 
+obj\i386\wmsgbm.obj 
+obj\i386\wmsgcb.obj 
+obj\i386\wmsgem.obj 
+obj\i386\wmsglb.obj 
+obj\i386\wmsgsbm.obj 
+obj\i386\wmtbl32.obj 
+obj\i386\wgdi31.obj 
+obj\i386\wgman.obj 
+obj\i386\wgdi.obj 
+obj\i386\wgfont.obj 
+obj\i386\wgmeta.obj 
+obj\i386\wgpal.obj 
+obj\i386\wgprnset.obj 
+obj\i386\wgtext.obj 
+obj\i386\wkbman.obj 
+obj\i386\wkmem.obj 
+obj\i386\wkgthunk.obj 
+obj\i386\wkman.obj 
+obj\i386\wkfileio.obj 
+obj\i386\wkernel.obj 
+obj\i386\wow32fax.obj 
+obj\i386\wsman.obj 
+obj\i386\wshell.obj 
+obj\i386\wuser31.obj 
+obj\i386\wuman.obj 
+obj\i386\wucaret.obj 
+obj\i386\wuclass.obj 
+obj\i386\wuclip.obj 
+obj\i386\wucomm.obj 
+obj\i386\wucursor.obj 
+obj\i386\wudlg.obj 
+obj\i386\wuhook.obj 
+obj\i386\wulang.obj 
+obj\i386\wumenu.obj 
+obj\i386\wumsg.obj 
+obj\i386\wuser.obj 
+obj\i386\wutext.obj 
+obj\i386\wutmr.obj 
+obj\i386\wuwind.obj 
+obj\i386\wowhooks.obj 
+obj\i386\wdos.obj 
+obj\i386\wreldc.obj 
+obj\i386\wcuricon.obj 
+obj\i386\wsubcls.obj 
+obj\i386\wmmedia.obj 
+obj\i386\wmmedia1.obj 
+obj\i386\wmmedia2.obj 
+obj\i386\wmmstruc.obj 
+obj\i386\wmmstru1.obj 
+obj\i386\wmmstru2.obj 
+obj\i386\wmmalias.obj 
+obj\i386\walloc16.obj 
+obj\i386\waccel.obj 
+obj\i386\wsdata.obj 
+obj\i386\wsext.obj 
+obj\i386\wsraw.obj 
+obj\i386\wthman.obj 
+obj\i386\wcommdlg.obj 
+obj\i386\wheap.obj 
+obj\i386\wspool.obj 
+obj\i386\wusercli.obj 
+obj\i386\wdib.obj 
+obj\i386\wole2.obj 
+obj\i386\wparam.obj 
+W:\nt\public\sdk\lib\i386\libcntpr.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32p.lib 
+W:\nt\public\sdk\lib\i386\user32p.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\ntvdm.lib 
+W:\nt\public\sdk\lib\i386\oemuni.lib 
+W:\nt\public\sdk\lib\i386\comdlg32.lib 
+W:\nt\public\sdk\lib\i386\version.lib 
+
+Stop. 
+
+Stop. 
 
 Stop. 
 Linking w:\nt\private\mvdm\fax\wowfax directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-
-Stop. 
 Linking w:\nt\private\mvdm\fax\wowfaxui directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
-
-Stop. 
-	link -out:W:\nt\public\sdk\lib\i386\wowfax.dll -machine:i386 @W:\tmp\nma01996.
 Linking w:\nt\private\mvdm\vdmredir directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	link -out:obj\i386\vcdex.dll -machine:i386 @W:\tmp\nma03180.
+	link -out:W:\nt\public\sdk\lib\i386\wowfax.dll -machine:i386 @W:\tmp\nma03816.
+	link -out:W:\nt\public\sdk\lib\i386\wowfaxui.dll -machine:i386 @W:\tmp\nma03608.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
-Stop. 
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:0x2000000 
+-subsystem:windows,4.00 
+-entry:VDDInitialize@12 
+obj\i386\vcdex.exp 
+obj\i386\vcdex.res 
+obj\i386\vcdex.obj 
+W:\nt\public\sdk\lib\i386\int64.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\ntvdm.lib 
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -687,11 +1067,112 @@ obj\i386\wowfax.obj
 W:\nt\public\sdk\lib\i386\int64.lib 
 W:\nt\public\sdk\lib\i386\win32k.lib 
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\wowfax.dll
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\vcdex.dll
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,wowfaxui 
+-subsystem:windows,4.00 
+-entry:DllInitProc@12 
+W:\nt\public\sdk\lib\i386\wowfaxui.exp 
+obj\i386\wowfaxui.res 
+obj\i386\wfhelper.obj 
+obj\i386\wfsheets.obj 
+obj\i386\wfupgrad.obj 
+obj\i386\wowfaxui.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\winspool.lib 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\wowfaxui.dll
 
 Stop. 
 
 Stop. 
 
 Stop. 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\wow32.dll
+	link -out:W:\nt\public\sdk\lib\i386\vdmredir.dll -machine:i386 @W:\tmp\nma01556.
+
+Stop. 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:0x03000000 
+-subsystem:native,4.00 
+-entry:VrDllInitialize@12 
+W:\nt\public\sdk\lib\i386\vdmredir.exp 
+obj\i386\vdmredir.res 
+obj\i386\vrmslot.obj 
+obj\i386\vrnmpipe.obj 
+obj\i386\vrdisp.obj 
+obj\i386\vrinit.obj 
+obj\i386\vrmisc.obj 
+obj\i386\vrnetapi.obj 
+obj\i386\vrnetb.obj 
+obj\i386\vrputil.obj 
+obj\i386\vrremote.obj 
+obj\i386\vrdlc5c.obj 
+obj\i386\vrdlcpst.obj 
+obj\i386\vrdlcbuf.obj 
+obj\i386\vrdlcdbg.obj 
+obj\i386\vrdebug.obj 
+obj\i386\vrdll.obj 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\netapi32.lib 
+W:\nt\public\sdk\lib\i386\ntvdm.lib 
+W:\nt\public\sdk\lib\i386\xactsrv.lib 
+W:\nt\public\sdk\lib\i386\netlib.lib 
+W:\nt\public\sdk\lib\i386\netrap.lib 
+W:\nt\public\sdk\lib\i386\rpcrt4.lib 
+W:\nt\Public\SDK\Lib\i386\rxcommon.lib 
+W:\nt\Public\SDK\Lib\i386\rxapi.lib 
+rxapi.lib(rxuser.obj) : warning LNK4006: _RxNetUserPasswordSet@16 already defined in netapi32.lib(NETAPI32.dll); second definition ignored
+netlib.lib(names.obj) : warning LNK4006: _NetpIsUncComputerNameValid@4 already defined in netapi32.lib(NETAPI32.dll); second definition ignored
+W:\nt\public\sdk\lib\i386\vdmredir.dll : warning LNK4088: image being generated due to /FORCE option; image may not run
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\vdmredir.dll
 
 Stop. 

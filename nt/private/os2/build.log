@@ -6,9 +6,120 @@ Linking w:\nt\private\os2\os2ss directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 Linking w:\nt\private\os2\os2ses directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	link -out:obj\i386\os2ss.exe -machine:i386 @W:\tmp\nma00908.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,os2ss 
+-subsystem:native,4.00 
+-entry:NtProcessStartup@4 
+obj\i386\os2ss.res 
+obj\i386\os2ss.obj 
+obj\i386\os2ss.lib 
+..\obj\i386\os2ssrtl.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\nt.lib 
+W:\nt\public\sdk\lib\i386\smdll.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\os2ss.exe
+	link -out:obj\i386\os2srv.exe -machine:i386 @W:\tmp\nma02988.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-subsystem:console,4.00 
+-entry:mainCRTStartup 
+obj\i386\os2srv.obj 
+obj\i386\os2srv.lib 
+obj\i386\os2srv.res 
+..\ldr\obj\i386\os2ldr.lib 
+..\obj\i386\os2ssrtl.lib 
+W:\nt\public\sdk\lib\i386\smdll.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+	link -out:obj\i386\os2.exe -machine:i386 @W:\tmp\nma01360.
 
 Stop. 
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-subsystem:console,4.00 
+-entry:mainCRTStartup 
+obj\i386\os2.obj 
+obj\i386\os2.lib 
+obj\i386\os2.res 
+..\loader\obj\i386\loader.lib 
+..\obj\i386\os2ssrtl.lib 
+..\client\obj\i386\os2dll.lib 
+W:\nt\Public\Sdk\Lib\i386\netlib.lib 
+W:\nt\Public\Sdk\Lib\i386\NetRap.lib 
+W:\nt\public\sdk\lib\i386\netapi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\Public\SDK\Lib\i386\rpcrt4.lib 
+W:\nt\Public\SDK\Lib\i386\rxcommon.lib 
+W:\nt\Public\SDK\Lib\i386\rxapi.lib 
+W:\nt\public\sdk\lib\i386\mpr.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\os2srv.exe
+rxapi.lib(rxuser.obj) : warning LNK4006: _RxNetUserPasswordSet@16 already defined in netapi32.lib(NETAPI32.dll); second definition ignored
+obj\i386\os2.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
 
 Stop. 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\os2.exe
 
 Stop. 
