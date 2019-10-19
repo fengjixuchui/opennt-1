@@ -248,9 +248,9 @@
  0762:1660       _NoBiosKbdCheck
  0762:1661       _NoLogitechPs2Check
  0762:1680       _edata
- 0762:1680       _BackEnd
- 0762:1680       __edata
  0762:1680       _BiosSystemEnvironment
+ 0762:1680       __edata
+ 0762:1680       _BackEnd
  0762:168A       _HwMcaPosData
  0762:168E       _BlockPointer
  0762:1692       _BlockHead

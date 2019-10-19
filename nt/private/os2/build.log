@@ -6,7 +6,7 @@ Linking w:\nt\private\os2\os2ss directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 Linking w:\nt\private\os2\os2ses directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	link -out:obj\i386\os2ss.exe -machine:i386 @W:\tmp\nma00908.
+	link -out:obj\i386\os2ss.exe -machine:i386 @W:\tmp\nma01352.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -37,7 +37,7 @@ W:\nt\public\sdk\lib\i386\ntdll.lib
 W:\nt\public\sdk\lib\i386\nt.lib 
 W:\nt\public\sdk\lib\i386\smdll.lib 
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\os2ss.exe
-	link -out:obj\i386\os2srv.exe -machine:i386 @W:\tmp\nma02988.
+	link -out:obj\i386\os2srv.exe -machine:i386 @W:\tmp\nma03172.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -71,7 +71,7 @@ W:\nt\public\sdk\lib\i386\ntdll.lib
 W:\nt\public\sdk\lib\i386\libc.lib 
 W:\nt\public\sdk\lib\i386\advapi32.lib 
 W:\nt\public\sdk\lib\i386\kernel32.lib 
-	link -out:obj\i386\os2.exe -machine:i386 @W:\tmp\nma01360.
+	link -out:obj\i386\os2.exe -machine:i386 @W:\tmp\nma00144.
 
 Stop. 
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164

@@ -11,22 +11,22 @@ Compiling w:\nt\private\lsa\client\user directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 NOPASS0=1 386=1'
 Compiling w:\nt\private\lsa\server\dll directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 NOPASS0=1 386=1'
-cl -nologo -Ii386\ -I. -I..\..\inc -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG     /c /Zel /Zp8 /Gy  /W3 /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  ..\austub.c
 cl -nologo -Ii386\ -I. -I..\..\inc -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -D_NTSYSTEM_=1    /c /Zel /Zp8 /Gy  /W3 /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  ..\austub.c
+cl -nologo -Ii386\ -I. -I..\..\inc -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG     /c /Zel /Zp8 /Gy  /W3 /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  ..\austub.c
 austub.c
 austub.c
-	lib -out:W:\nt\public\sdk\lib\i386\lsakrnlp.lib -debugtype:cv  -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 -nodefaultlib -machine:i386 @W:\tmp\nma02476.
-	lib -out:W:\nt\public\sdk\lib\i386\lsadll.lib -debugtype:cv  -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 -nodefaultlib -machine:i386 @W:\tmp\nma01396.
+	lib -out:W:\nt\public\sdk\lib\i386\lsadll.lib -debugtype:cv  -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 -nodefaultlib -machine:i386 @W:\tmp\nma02660.
+	lib -out:W:\nt\public\sdk\lib\i386\lsakrnlp.lib -debugtype:cv  -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 -nodefaultlib -machine:i386 @W:\tmp\nma02516.
+Microsoft (R) 32-Bit Library Manager Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+Microsoft (R) 32-Bit Library Manager Version 4.20.6164
+
+obj\i386\austub.obj 
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+obj\i386\austub.obj 
 
 Stop. 
-Microsoft (R) 32-Bit Library Manager Version 4.20.6164
-Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
-
-obj\i386\austub.obj 
-Microsoft (R) 32-Bit Library Manager Version 4.20.6164
-Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
-
-obj\i386\austub.obj 
 
 Stop. 
 
@@ -41,9 +41,9 @@ Linking w:\nt\private\lsa\msprivs directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 Linking w:\nt\private\lsa\msv1_0 directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
-	link -out:W:\nt\public\sdk\lib\i386\msprivs.dll -machine:i386 @W:\tmp\nma02952.
-	link -out:obj\i386\lsass.exe -machine:i386 @W:\tmp\nma01912.
-	link -out:W:\nt\public\sdk\lib\i386\ksecdd.sys -machine:i386 @W:\tmp\nmb02400.
+	link -out:W:\nt\public\sdk\lib\i386\msprivs.dll -machine:i386 @W:\tmp\nma01360.
+	link -out:obj\i386\lsass.exe -machine:i386 @W:\tmp\nma04044.
+	link -out:W:\nt\public\sdk\lib\i386\ksecdd.sys -machine:i386 @W:\tmp\nma00212.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -151,16 +151,16 @@ W:\nt\public\sdk\lib\i386\hal.lib
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\ksecdd.sys
 
 Stop. 
-
-Stop. 
 Linking w:\nt\private\lsa\crypt\dll directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 
 Stop. 
-	link -out:W:\nt\public\sdk\lib\i386\msv1_0.dll -machine:i386 @W:\tmp\nmc01476.
 
 Stop. 
-	link -out:obj\i386\lsasrv.dll -machine:i386 @W:\tmp\nma00580.
+	link -out:W:\nt\public\sdk\lib\i386\msv1_0.dll -machine:i386 @W:\tmp\nma00132.
+
+Stop. 
+	link -out:obj\i386\lsasrv.dll -machine:i386 @W:\tmp\nma03840.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 

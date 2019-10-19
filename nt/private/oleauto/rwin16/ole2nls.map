@@ -469,39 +469,39 @@
   Address         Publics by Value
 
  0000:0000  Imp  LOCALSIZE            (KERNEL.10)
- 0000:0000  Imp  GETVERSION           (KERNEL.3)
- 0000:0000  Imp  GETCLASSINFO         (USER.404)
- 0000:0000  Imp  ANSIUPPER            (USER.431)
- 0000:0000  Imp  LOCALALLOC           (KERNEL.5)
- 0000:0000  Imp  REGISTERCLASS        (USER.57)
- 0000:0000  Imp  LOCALREALLOC         (KERNEL.6)
- 0000:0000  Imp  FATALEXIT            (KERNEL.1)
- 0000:0000  Abs  __sizec
- 0000:0000  Imp  UNLOCKSEGMENT        (KERNEL.24)
- 0000:0000  Imp  DOS3CALL             (KERNEL.102)
- 0000:0000  Imp  INITTASK             (KERNEL.91)
- 0000:0000  Abs  __sized
- 0000:0000  Imp  GLOBALSIZE           (KERNEL.20)
- 0000:0000  Imp  LocalInit            (KERNEL.4)
- 0000:0000  Imp  GETWINDOWWORD        (USER.133)
- 0000:0000  Imp  LSTRCMPI             (USER.471)
- 0000:0000  Imp  FATALAPPEXIT         (KERNEL.137)
- 0000:0000  Imp  DESTROYWINDOW        (USER.53)
- 0000:0000  Imp  CREATEWINDOW         (USER.41)
- 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
- 0000:0000  Imp  LOCALFREE            (KERNEL.7)
  0000:0000  Imp  GETDOSENVIRONMENT    (KERNEL.131)
- 0000:0000  Imp  ANSIUPPERBUFF        (USER.437)
- 0000:0000  Imp  GLOBALREALLOC        (KERNEL.16)
- 0000:0000  Imp  GETMODULEUSAGE       (KERNEL.48)
- 0000:0000  Imp  ISWINDOW             (USER.47)
+ 0000:0000  Imp  CREATEWINDOW         (USER.41)
+ 0000:0000  Imp  GLOBALSIZE           (KERNEL.20)
+ 0000:0000  Imp  ANSIUPPER            (USER.431)
  0000:0000  Imp  DEFWINDOWPROC        (USER.107)
+ 0000:0000  Abs  __sizec
+ 0000:0000  Imp  FATALEXIT            (KERNEL.1)
+ 0000:0000  Abs  __sized
+ 0000:0000  Imp  LSTRCMPI             (USER.471)
+ 0000:0000  Imp  DOS3CALL             (KERNEL.102)
+ 0000:0000  Imp  LocalInit            (KERNEL.4)
+ 0000:0000  Imp  REGISTERCLASS        (USER.57)
+ 0000:0000  Imp  GETVERSION           (KERNEL.3)
+ 0000:0000  Imp  INITTASK             (KERNEL.91)
+ 0000:0000  Imp  GLOBALREALLOC        (KERNEL.16)
+ 0000:0000  Imp  ANSIUPPERBUFF        (USER.437)
  0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
- 0000:0000  Imp  GETPROFILESTRING     (KERNEL.58)
  0000:0000  Imp  LSTRLEN              (KERNEL.90)
+ 0000:0000  Imp  DESTROYWINDOW        (USER.53)
+ 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 0000:0000  Imp  GETWINDOWWORD        (USER.133)
+ 0000:0000  Imp  FATALAPPEXIT         (KERNEL.137)
+ 0000:0000  Imp  ISWINDOW             (USER.47)
+ 0000:0000  Imp  LOCALALLOC           (KERNEL.5)
+ 0000:0000  Imp  LOCALFREE            (KERNEL.7)
+ 0000:0000  Imp  UNLOCKSEGMENT        (KERNEL.24)
+ 0000:0000  Imp  GETPROFILESTRING     (KERNEL.58)
+ 0000:0000  Imp  LOCALREALLOC         (KERNEL.6)
+ 0000:0000  Imp  GETCLASSINFO         (USER.404)
+ 0000:0000  Imp  GETMODULEUSAGE       (KERNEL.48)
+ 0000:9876  Abs  __acrtused
  0000:9876  Abs  __acrtmsg
  0000:9876  Abs  __fptaskdata
- 0000:9876  Abs  __acrtused
  0000:D6D6  Abs  __aDBused
  0000:D6D6  Abs  __aDBdoswp
  0001:0010       LibEntry
@@ -786,8 +786,8 @@
  003C:0804       __winminor
  003C:0804       __winver
  003C:0805       __winmajor
- 003C:0806       __osminor
  003C:0806       __osver
+ 003C:0806       __osminor
  003C:0807       __osmajor
  003C:0808       __osversion
  003C:080A       __osmode
@@ -810,7 +810,7 @@
  003C:0926       _edata
  003C:0950       _g_dwFlags
  003C:0954       _bFEflag
- 003C:0955       _end
  003C:0955       __end
+ 003C:0955       _end
 
 Program entry point at 0001:0010

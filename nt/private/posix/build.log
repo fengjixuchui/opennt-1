@@ -97,7 +97,7 @@ Compiling w:\nt\private\posix\client directory ********************
 	ml -c -coff -Cx -nologo -Ii386\ -I. -I..\inc -I\nt\public\sdk\inc\posix -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\posix -IW:\nt\public\sdk\inc\crt -Zm  /Zi -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1  -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -Fow:\nt\private\posix\client\obj\i386\psxthunk.obj i386\psxthunk.asm
  Assembling: i386\psxthunk.asm
 i386\psxthunk.asm(35) : warning A4004: cannot ASSUME CS
-	lib -out:\nt\public\sdk\lib\i386\psxdll.lib @W:\tmp\nma00536.
+	lib -out:\nt\public\sdk\lib\i386\psxdll.lib @W:\tmp\nma01104.
 Microsoft (R) 32-Bit Library Manager Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -137,9 +137,9 @@ Linking w:\nt\private\posix\programs\pax directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 Linking w:\nt\private\posix\programs\hello directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	link -out:obj\i386\posix.exe -machine:i386 @W:\tmp\nma00244.
-	link -out:obj\i386\pax.exe -machine:i386 @W:\tmp\nma01440.
-	link -out:\nt\public\sdk\lib\i386\psxdll.dll -machine:i386 @W:\tmp\nma04036.
+	link -out:obj\i386\posix.exe -machine:i386 @W:\tmp\nma03020.
+	link -out:\nt\public\sdk\lib\i386\psxdll.dll -machine:i386 @W:\tmp\nma03324.
+	link -out:obj\i386\pax.exe -machine:i386 @W:\tmp\nmb02396.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -224,6 +224,7 @@ obj\i386\sysdb.obj
 \nt\public\sdk\lib\i386\ntdll.lib 
 W:\nt\public\sdk\lib\i386\libcpsx.lib 
 W:\nt\public\sdk\lib\i386\ntdll.lib 
+	link -out:obj\i386\psxss.exe -machine:i386 @W:\tmp\nma03120.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -274,10 +275,9 @@ W:\nt\public\sdk\lib\i386\ntdll.lib
 W:\nt\public\sdk\lib\i386\libcpsx.lib 
 W:\nt\public\sdk\lib\i386\psxdll.lib 
 W:\nt\public\sdk\lib\i386\psxrtl.lib 
-	link -out:obj\i386\psxss.exe -machine:i386 @W:\tmp\nma03316.
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\posix.exe
-libcpsx.lib(atox.obj) : warning LNK4006: _atoi already defined in ntdll.lib(ntdll.dll); second definition ignored
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a \nt\public\sdk\lib\i386\psxdll.dll
+libcpsx.lib(atox.obj) : warning LNK4006: _atoi already defined in ntdll.lib(ntdll.dll); second definition ignored
 obj\i386\pax.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
@@ -352,7 +352,7 @@ Stop.
 
 Stop. 
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\psxss.exe
-	link -out:obj\i386\psxhello.exe -machine:i386 @W:\tmp\nma03828.
+	link -out:obj\i386\psxhello.exe -machine:i386 @W:\tmp\nma03644.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 

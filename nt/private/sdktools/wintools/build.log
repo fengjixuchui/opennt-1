@@ -17,7 +17,7 @@ Linking w:\nt\private\sdktools\wintools\clb directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 Linking w:\nt\private\sdktools\wintools\winmsd directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	link -out:obj\i386\clb.dll -machine:i386 @W:\tmp\nma03584.
+	link -out:obj\i386\clb.dll -machine:i386 @W:\tmp\nma03644.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -53,8 +53,8 @@ W:\nt\public\sdk\lib\i386\comctl32.lib
 W:\nt\public\sdk\lib\i386\gdi32.lib 
 W:\nt\public\sdk\lib\i386\kernel32.lib 
 W:\nt\public\sdk\lib\i386\user32.lib 
-	link -out:obj\i386\winmsd.exe -machine:i386 @W:\tmp\nma02424.
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\clb.dll
+	link -out:obj\i386\winmsd.exe -machine:i386 @W:\tmp\nma03564.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 

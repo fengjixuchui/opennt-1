@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Thu Oct 17 17:23:48 2019
+/* at Sat Oct 19 00:10:27 2019
  */
 /* Compiler settings for winspl.idl:
     Oicf (OptLev=i2), W1, Zp8, env=Win32, ms_ext, c_ext, oldnames
@@ -32,7 +32,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: winspool
- * at Thu Oct 17 17:23:48 2019
+ * at Sat Oct 19 00:10:27 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [implicit_handle][unique][endpoint][ms_union][version][uuid] */ 

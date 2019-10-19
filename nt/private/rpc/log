@@ -1090,7 +1090,7 @@ W:\nt\public\sdk\rpc16\dos\dll\rpc16dg6.rpc
 	cd stage
 	..\dsklayt2 rpcsdk.lyt rpcsdk.inf /k12 /f /d ..\sdk.new /v /w 1 /c .\comp
 Reading layout file
-Starting layout: 10/18/19 00:16:19
+Starting layout: 10/19/19 05:11:42
 Compressing files
 Compressing file .\dnetapi.dll
 System command: compress.exe \2 \3 > NUL
@@ -1203,7 +1203,7 @@ Assigning drpc.h to disk with ID = 1
 Assigning wrpc.h to disk with ID = 1
 Creating destination files
 System command: compress.exe rpcsdk.inf ..\sdk.new\disk1\rpcsdk.in_ > NUL
-Ending layout: 10/18/19 00:16:23
+Ending layout: 10/19/19 05:11:45
 	cd ..
 	md W:\nt\public\sdk\rpc16\sdk
 A subdirectory or file W:\nt\public\sdk\rpc16\sdk already exists.

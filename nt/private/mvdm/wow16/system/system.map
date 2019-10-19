@@ -69,23 +69,23 @@
   Address         Publics by Value
 
  0000:0000  Imp  __MOD_DUSER          (KERNEL.523)
- 0000:0000  Imp  WOW16CALL            (KERNEL.500)
- 0000:0000  Imp  __MOD_TOOLHELP       (KERNEL.530)
- 0000:0000  Imp  __MOD_SHELL          (KERNEL.528)
- 0000:0000  Imp  __MOD_DKERNEL        (KERNEL.521)
- 0000:0000  Imp  __0040h              (KERNEL.193)
  0000:0000  Imp  __MOD_MMEDIA         (KERNEL.531)
  0000:0000  Imp  __MOD_COMMDLG        (KERNEL.532)
+ 0000:0000  Imp  __MOD_SHELL          (KERNEL.528)
  0000:0000  Imp  __MOD_USER           (KERNEL.522)
+ 0000:0000  Imp  __0040h              (KERNEL.193)
  0000:0000  Imp  ALLOCCSALIAS         (KERNEL.170)
- 0000:0000  Imp  __MOD_GDI            (KERNEL.524)
- 0000:0000  Imp  __ROMBIOS            (KERNEL.173)
  0000:0000  Imp  __MOD_WINSOCK        (KERNEL.529)
- 0000:0000  Imp  NOHOOKDOSCALL        (KERNEL.101)
- 0000:0000  Imp  __MOD_KEYBOARD       (KERNEL.526)
- 0000:0000  Imp  __MOD_SOUND          (KERNEL.527)
+ 0000:0000  Imp  __MOD_GDI            (KERNEL.524)
  0000:0000  Imp  __MOD_DGDI           (KERNEL.525)
  0000:0000  Imp  __MOD_KERNEL         (KERNEL.520)
+ 0000:0000  Imp  __ROMBIOS            (KERNEL.173)
+ 0000:0000  Imp  __MOD_KEYBOARD       (KERNEL.526)
+ 0000:0000  Imp  __MOD_TOOLHELP       (KERNEL.530)
+ 0000:0000  Imp  __MOD_DKERNEL        (KERNEL.521)
+ 0000:0000  Imp  NOHOOKDOSCALL        (KERNEL.101)
+ 0000:0000  Imp  __MOD_SOUND          (KERNEL.527)
+ 0000:0000  Imp  WOW16CALL            (KERNEL.500)
  0001:0000       MYCSDS
  0001:0002       InquireSystem
  0001:016C       Get80x87SaveSize

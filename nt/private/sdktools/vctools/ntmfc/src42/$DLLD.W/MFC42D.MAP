@@ -1,6 +1,6 @@
  MFC42D
 
- Timestamp is 5da8323e (Thu Oct 17 17:19:58 2019)
+ Timestamp is 5daab658 (Sat Oct 19 00:08:08 2019)
 
  Preferred load address is 5f400000
 
@@ -70,8 +70,8 @@
  0001:000006e0       ??0IUnknown@@QAE@XZ        5f4016e0 f arcstrm.obj
  0001:00000710       ??8@YAHABU_GUID@@0@Z       5f401710 f arcstrm.obj
  0001:00000750       ??1CNoTrackObject@@UAE@XZ  5f401750 f dumpinit.obj
- 0001:00000770       ??_GCNoTrackObject@@UAEPAXI@Z 5f401770 f dumpinit.obj
  0001:00000770       ??_ECNoTrackObject@@UAEPAXI@Z 5f401770 f dumpinit.obj
+ 0001:00000770       ??_GCNoTrackObject@@UAEPAXI@Z 5f401770 f dumpinit.obj
  0001:000007b0       ?GetData@?$CProcessLocal@V_AFX_DEBUG_STATE@@@@QAEPAV_AFX_DEBUG_STATE@@XZ 5f4017b0 f dumpinit.obj
  0001:00000800       ?CreateObject@?$CProcessLocal@V_AFX_DEBUG_STATE@@@@SGPAVCNoTrackObject@@XZ 5f401800 f dumpinit.obj
  0001:00000890       ??0CNoTrackObject@@QAE@XZ  5f401890 f dumpinit.obj
@@ -168,8 +168,8 @@
  0001:00002440       ?GetData@?$CProcessLocal@V_AFX_CTL3D_STATE@@@@QAEPAV_AFX_CTL3D_STATE@@XZ 5f403440 f wincore.obj
  0001:00002490       ?CreateObject@?$CProcessLocal@V_AFX_CTL3D_STATE@@@@SGPAVCNoTrackObject@@XZ 5f403490 f wincore.obj
  0001:00002520       ??0_AFX_CTL3D_STATE@@QAE@XZ 5f403520 f wincore.obj
- 0001:00002590       ??_G_AFX_CTL3D_STATE@@UAEPAXI@Z 5f403590 f wincore.obj
  0001:00002590       ??_E_AFX_CTL3D_STATE@@UAEPAXI@Z 5f403590 f wincore.obj
+ 0001:00002590       ??_G_AFX_CTL3D_STATE@@UAEPAXI@Z 5f403590 f wincore.obj
  0001:000025d0       ?UnlockResource@@YGHPAX@Z  5f4035d0 f wincore.obj
  0001:000025f0       ?AddHead@?$CTypedSimpleList@PAVCFrameWnd@@@@QAEXPAVCFrameWnd@@@Z 5f4035f0 f winfrm.obj
  0001:00002620       ?Remove@?$CTypedSimpleList@PAVCFrameWnd@@@@QAEHPAVCFrameWnd@@@Z 5f403620 f winfrm.obj
@@ -627,8 +627,8 @@
  0001:0000dfe0       ??B?$CProcessLocal@V_AFX_RICHEDIT_STATE@@@@QAEPAV_AFX_RICHEDIT_STATE@@XZ 5f40efe0 f winctrl4.obj
  0001:0000e000       ?CreateObject@?$CProcessLocal@V_AFX_RICHEDIT_STATE@@@@SGPAVCNoTrackObject@@XZ 5f40f000 f winctrl4.obj
  0001:0000e090       ??0_AFX_RICHEDIT_STATE@@QAE@XZ 5f40f090 f winctrl4.obj
- 0001:0000e100       ??_G_AFX_RICHEDIT_STATE@@UAEPAXI@Z 5f40f100 f winctrl4.obj
  0001:0000e100       ??_E_AFX_RICHEDIT_STATE@@UAEPAXI@Z 5f40f100 f winctrl4.obj
+ 0001:0000e100       ??_G_AFX_RICHEDIT_STATE@@UAEPAXI@Z 5f40f100 f winctrl4.obj
  0001:0000e140       ??_9@$BNA@AE               5f40f140 f dlgcore.obj
  0001:0000e150       ??_9@$BMM@AE               5f40f150 f dlgcore.obj
  0001:0000e160       ??C?$CProcessLocal@V_AFX_COLOR_STATE@@@@QAEPAV_AFX_COLOR_STATE@@XZ 5f40f160 f dlgclr.obj
@@ -644,8 +644,8 @@
  0001:0000e4b0       ?GetData@?$CProcessLocal@V_AFX_EXTDLL_STATE@@@@QAEPAV_AFX_EXTDLL_STATE@@XZ 5f40f4b0 f ccdata.obj
  0001:0000e500       ?CreateObject@?$CProcessLocal@V_AFX_EXTDLL_STATE@@@@SGPAVCNoTrackObject@@XZ 5f40f500 f ccdata.obj
  0001:0000e590       ??0_AFX_EXTDLL_STATE@@QAE@XZ 5f40f590 f ccdata.obj
- 0001:0000e600       ??_G_AFX_EXTDLL_STATE@@UAEPAXI@Z 5f40f600 f ccdata.obj
  0001:0000e600       ??_E_AFX_EXTDLL_STATE@@UAEPAXI@Z 5f40f600 f ccdata.obj
+ 0001:0000e600       ??_G_AFX_EXTDLL_STATE@@UAEPAXI@Z 5f40f600 f ccdata.obj
  0001:0000e640       ??1_AFX_WINGDIX_TERM@@QAE@XZ 5f40f640 f wingdix.obj
  0001:0000e660       ?IsEqualGUID@@YAHABU_GUID@@0@Z 5f40f660 f cmdtarg.obj
  0001:0000e6a0       ??0CNewTypeDlg@@QAE@PAVCPtrList@@@Z 5f40f6a0 f docmgr.obj
@@ -667,8 +667,8 @@
  0001:0000eb80       ?GetData@?$CThreadLocal@V_AFX_CTL3D_THREAD@@@@QAEPAV_AFX_CTL3D_THREAD@@XZ 5f40fb80 f thrdcore.obj
  0001:0000ebd0       ?CreateObject@?$CThreadLocal@V_AFX_CTL3D_THREAD@@@@SGPAVCNoTrackObject@@XZ 5f40fbd0 f thrdcore.obj
  0001:0000ec60       ??0_AFX_CTL3D_THREAD@@QAE@XZ 5f40fc60 f thrdcore.obj
- 0001:0000ecd0       ??_G_AFX_CTL3D_THREAD@@UAEPAXI@Z 5f40fcd0 f thrdcore.obj
  0001:0000ecd0       ??_E_AFX_CTL3D_THREAD@@UAEPAXI@Z 5f40fcd0 f thrdcore.obj
+ 0001:0000ecd0       ??_G_AFX_CTL3D_THREAD@@UAEPAXI@Z 5f40fcd0 f thrdcore.obj
  0001:0000ed10       ?GetSize@CRecentFileList@@QBEHXZ 5f40fd10 f appcore.obj
  0001:0000ed30       ??ACRecentFileList@@QAEAAVCString@@H@Z 5f40fd30 f appcore.obj
  0001:0000ed80       ?T2CA@@YAPBDPBD@Z          5f40fd80 f appcore.obj
@@ -842,8 +842,8 @@
  0001:00015cf7       ?SetOption@CInternetFile@@QAEHKKK@Z 5f416cf7 f inet.obj
  0001:00015d30       __tcsncmp                  5f416d30 f inet.obj
  0001:00015d60       ??_GCInternetSession@@UAEPAXI@Z 5f416d60 f inet.obj
- 0001:00015da0       ??_GCInternetFile@@UAEPAXI@Z 5f416da0 f inet.obj
  0001:00015da0       ??_ECInternetFile@@UAEPAXI@Z 5f416da0 f inet.obj
+ 0001:00015da0       ??_GCInternetFile@@UAEPAXI@Z 5f416da0 f inet.obj
  0001:00015de0       ??_ECInternetConnection@@UAEPAXI@Z 5f416de0 f inet.obj
  0001:00015de0       ??_GCInternetConnection@@UAEPAXI@Z 5f416de0 f inet.obj
  0001:00015e20       ??_ECFtpConnection@@UAEPAXI@Z 5f416e20 f inet.obj
@@ -853,18 +853,18 @@
  0001:00015ea0       ?A2CT@@YAPBDPBD@Z          5f416ea0 f inet.obj
  0001:00015ec0       ??_ECHttpConnection@@UAEPAXI@Z 5f416ec0 f inet.obj
  0001:00015ec0       ??_GCHttpConnection@@UAEPAXI@Z 5f416ec0 f inet.obj
- 0001:00015f00       ??_GCHttpFile@@UAEPAXI@Z   5f416f00 f inet.obj
  0001:00015f00       ??_ECHttpFile@@UAEPAXI@Z   5f416f00 f inet.obj
- 0001:00015f40       ??_ECGopherFile@@UAEPAXI@Z 5f416f40 f inet.obj
+ 0001:00015f00       ??_GCHttpFile@@UAEPAXI@Z   5f416f00 f inet.obj
  0001:00015f40       ??_GCGopherFile@@UAEPAXI@Z 5f416f40 f inet.obj
- 0001:00015f80       ??_GCFtpFileFind@@UAEPAXI@Z 5f416f80 f inet.obj
+ 0001:00015f40       ??_ECGopherFile@@UAEPAXI@Z 5f416f40 f inet.obj
  0001:00015f80       ??_ECFtpFileFind@@UAEPAXI@Z 5f416f80 f inet.obj
- 0001:00015fc0       ??_GCGopherFileFind@@UAEPAXI@Z 5f416fc0 f inet.obj
+ 0001:00015f80       ??_GCFtpFileFind@@UAEPAXI@Z 5f416f80 f inet.obj
  0001:00015fc0       ??_ECGopherFileFind@@UAEPAXI@Z 5f416fc0 f inet.obj
+ 0001:00015fc0       ??_GCGopherFileFind@@UAEPAXI@Z 5f416fc0 f inet.obj
  0001:00016000       ??_ECGopherLocator@@UAEPAXI@Z 5f417000 f inet.obj
  0001:00016000       ??_GCGopherLocator@@UAEPAXI@Z 5f417000 f inet.obj
- 0001:00016040       ??_ECInternetException@@UAEPAXI@Z 5f417040 f inet.obj
  0001:00016040       ??_GCInternetException@@UAEPAXI@Z 5f417040 f inet.obj
+ 0001:00016040       ??_ECInternetException@@UAEPAXI@Z 5f417040 f inet.obj
  0001:00016080       ??0CFileFind@@QAE@XZ       5f417080 f filefind.obj
  0001:0001612f       ??1CFileFind@@UAE@XZ       5f41712f f filefind.obj
  0001:000161b8       ?Close@CFileFind@@QAEXXZ   5f4171b8 f filefind.obj
@@ -895,8 +895,8 @@
  0001:00017110       ?AddHead@?$CTypedSimpleList@PAVCDynLinkLibrary@@@@QAEXPAVCDynLinkLibrary@@@Z 5f418110 f dllinit.obj
  0001:00017140       ?Remove@?$CTypedSimpleList@PAVCDynLinkLibrary@@@@QAEHPAVCDynLinkLibrary@@@Z 5f418140 f dllinit.obj
  0001:00017164       ??0type_info@@AAE@ABV0@@Z  5f418164 f msvcrtd:ti_inst.obj
- 0001:0001716f       ??_Gtype_info@@UAEPAXI@Z   5f41816f f msvcrtd:ti_inst.obj
  0001:0001716f       ??_Etype_info@@UAEPAXI@Z   5f41816f f msvcrtd:ti_inst.obj
+ 0001:0001716f       ??_Gtype_info@@UAEPAXI@Z   5f41816f f msvcrtd:ti_inst.obj
  0001:0001718d       ??4type_info@@AAEAAV0@ABV0@@Z 5f41818d f msvcrtd:ti_inst.obj
  0001:000171b6       __local_unwind2            5f4181b6 f msvcrtd:exsup.obj
  0001:0001720e       __NLG_Return2              5f41820e   msvcrtd:exsup.obj
@@ -938,8 +938,8 @@
  0001:0001742a       __mbscmp                   5f41842a f msvcrtd:msvcrtd.dll
  0001:00017430       __mbsicmp                  5f418430 f msvcrtd:msvcrtd.dll
  0001:00017436       __mbscoll                  5f418436 f msvcrtd:msvcrtd.dll
- 0001:00017440       __alloca_probe             5f418440   msvcrtd:chkstk.obj
  0001:00017440       __chkstk                   5f418440   msvcrtd:chkstk.obj
+ 0001:00017440       __alloca_probe             5f418440   msvcrtd:chkstk.obj
  0001:00017470       __mbsinc                   5f418470 f msvcrtd:msvcrtd.dll
  0001:00017476       __get_osfhandle            5f418476 f msvcrtd:msvcrtd.dll
  0001:0001747c       ___doserrno                5f41847c f msvcrtd:msvcrtd.dll
@@ -1637,8 +1637,8 @@
  0001:0001cdea       ?OnTypeChange@CFileDialog@@MAEXXZ 5f41ddea f dlgfile.obj
  0001:0001ce13       ?OnNotify@CFileDialog@@MAEHIJPAJ@Z 5f41de13 f dlgfile.obj
  0001:0001cf9d       ?Dump@CFileDialog@@UBEXAAVCDumpContext@@@Z 5f41df9d f dlgfile.obj
- 0001:0001d260       ??_GCFileDialog@@UAEPAXI@Z 5f41e260 f dlgfile.obj
  0001:0001d260       ??_ECFileDialog@@UAEPAXI@Z 5f41e260 f dlgfile.obj
+ 0001:0001d260       ??_GCFileDialog@@UAEPAXI@Z 5f41e260 f dlgfile.obj
  0001:0001d2a0       ??1CFileDialog@@UAE@XZ     5f41e2a0 f dlgfile.obj
  0001:0001d320       ??0CPageSetupDialog@@QAE@KPAVCWnd@@@Z 5f41e320 f dlgprnt.obj
  0001:0001d3fe       ?DoModal@CPageSetupDialog@@UAEHXZ 5f41e3fe f dlgprnt.obj
@@ -1670,8 +1670,8 @@
  0001:0001e2eb       ?AfxCreateDC@@YGPAUHDC__@@PAX0@Z 5f41f2eb f dlgprnt.obj
  0001:0001e3b0       ??_GCPageSetupDialog@@UAEPAXI@Z 5f41f3b0 f dlgprnt.obj
  0001:0001e3f0       ??1CPageSetupDialog@@UAE@XZ 5f41f3f0 f dlgprnt.obj
- 0001:0001e450       ??_GCPrintDialog@@UAEPAXI@Z 5f41f450 f dlgprnt.obj
  0001:0001e450       ??_ECPrintDialog@@UAEPAXI@Z 5f41f450 f dlgprnt.obj
+ 0001:0001e450       ??_GCPrintDialog@@UAEPAXI@Z 5f41f450 f dlgprnt.obj
  0001:0001e490       ??1CPrintDialog@@UAE@XZ    5f41f490 f dlgprnt.obj
  0001:0001e4f0       ??0_AFX_COLOR_STATE@@QAE@XZ 5f41f4f0 f dlgclr.obj
  0001:0001e58b       ?_GetBaseMessageMap@CColorDialog@@KGPBUAFX_MSGMAP@@XZ 5f41f58b f dlgclr.obj
@@ -1686,8 +1686,8 @@
  0001:0001e920       ??_E_AFX_COLOR_STATE@@UAEPAXI@Z 5f41f920 f dlgclr.obj
  0001:0001e920       ??_G_AFX_COLOR_STATE@@UAEPAXI@Z 5f41f920 f dlgclr.obj
  0001:0001e960       ??1_AFX_COLOR_STATE@@UAE@XZ 5f41f960 f dlgclr.obj
- 0001:0001e9c0       ??_GCColorDialog@@UAEPAXI@Z 5f41f9c0 f dlgclr.obj
  0001:0001e9c0       ??_ECColorDialog@@UAEPAXI@Z 5f41f9c0 f dlgclr.obj
+ 0001:0001e9c0       ??_GCColorDialog@@UAEPAXI@Z 5f41f9c0 f dlgclr.obj
  0001:0001ea00       ??1CColorDialog@@UAE@XZ    5f41fa00 f dlgclr.obj
  0001:0001ea60       ??0CFontDialog@@QAE@PAUtagLOGFONTA@@KPAVCDC@@PAVCWnd@@@Z 5f41fa60 f dlgfnt.obj
  0001:0001ebf7       ??0CFontDialog@@QAE@ABU_charformat@@KPAVCDC@@PAVCWnd@@@Z 5f41fbf7 f dlgfnt.obj
@@ -1696,8 +1696,8 @@
  0001:0001eec7       ?FillInLogFont@CFontDialog@@QAEKABU_charformat@@@Z 5f41fec7 f dlgfnt.obj
  0001:0001f161       ?GetCharFormat@CFontDialog@@QBEXAAU_charformat@@@Z 5f420161 f dlgfnt.obj
  0001:0001f321       ?Dump@CFontDialog@@UBEXAAVCDumpContext@@@Z 5f420321 f dlgfnt.obj
- 0001:0001f490       ??_ECFontDialog@@UAEPAXI@Z 5f420490 f dlgfnt.obj
  0001:0001f490       ??_GCFontDialog@@UAEPAXI@Z 5f420490 f dlgfnt.obj
+ 0001:0001f490       ??_ECFontDialog@@UAEPAXI@Z 5f420490 f dlgfnt.obj
  0001:0001f4d0       ??1CFontDialog@@UAE@XZ     5f4204d0 f dlgfnt.obj
  0001:0001f530       ??0CFindReplaceDialog@@QAE@XZ 5f420530 f dlgfr.obj
  0001:0001f61b       ?PostNcDestroy@CFindReplaceDialog@@MAEXXZ 5f42061b f dlgfr.obj
@@ -1999,8 +1999,8 @@
  0001:0002d9d9       ??0AFX_EXCEPTION_LINK@@QAE@XZ 5f42e9d9 f except.obj
  0001:0002da16       ?AfxTryCleanup@@YGXXZ      5f42ea16 f except.obj
  0001:0002da7d       ?AfxThrowLastCleanup@@YGXXZ 5f42ea7d f except.obj
- 0001:0002dac0       ??_GCException@@UAEPAXI@Z  5f42eac0 f except.obj
  0001:0002dac0       ??_ECException@@UAEPAXI@Z  5f42eac0 f except.obj
+ 0001:0002dac0       ??_GCException@@UAEPAXI@Z  5f42eac0 f except.obj
  0001:0002db00       ?AfxGetExceptionContext@@YAPAUAFX_EXCEPTION_CONTEXT@@XZ 5f42eb00 f except.obj
  0001:0002db40       ??2CObject@@SGPAXI@Z       5f42eb40 f afxmem.obj
  0001:0002db64       ??3CObject@@SGXPAX@Z       5f42eb64 f afxmem.obj
@@ -2469,8 +2469,8 @@
  0001:0004350a       ?UpdateMenu@CRecentFileList@@UAEXPAVCCmdUI@@@Z 5f44450a f filelist.obj
  0001:00043956       ?WriteList@CRecentFileList@@UAEXXZ 5f444956 f filelist.obj
  0001:00043abd       ?ReadList@CRecentFileList@@UAEXXZ 5f444abd f filelist.obj
- 0001:00043ee0       ??_ECRecentFileList@@UAEPAXI@Z 5f444ee0 f filelist.obj
  0001:00043ee0       ??_GCRecentFileList@@UAEPAXI@Z 5f444ee0 f filelist.obj
+ 0001:00043ee0       ??_ECRecentFileList@@UAEPAXI@Z 5f444ee0 f filelist.obj
  0001:00043f20       ??_ECString@@QAEPAXI@Z     5f444f20 f filelist.obj
  0001:00043f90       ??6@YGAAVCArchive@@AAV0@ABVCString@@@Z 5f444f90 f arccore.obj
  0001:00044056       ??5@YGAAVCArchive@@AAV0@AAVCString@@@Z 5f445056 f arccore.obj
@@ -2600,12 +2600,12 @@
  0001:0004a55b       ?AfxThrowResourceException@@YGXXZ 5f44b55b f wingdi.obj
  0001:0004a583       ?AfxThrowUserException@@YGXXZ 5f44b583 f wingdi.obj
  0001:0004a5b0       ??_GCDC@@UAEPAXI@Z         5f44b5b0 f wingdi.obj
- 0001:0004a5f0       ??_ECClientDC@@UAEPAXI@Z   5f44b5f0 f wingdi.obj
  0001:0004a5f0       ??_GCClientDC@@UAEPAXI@Z   5f44b5f0 f wingdi.obj
- 0001:0004a630       ??_ECWindowDC@@UAEPAXI@Z   5f44b630 f wingdi.obj
+ 0001:0004a5f0       ??_ECClientDC@@UAEPAXI@Z   5f44b5f0 f wingdi.obj
  0001:0004a630       ??_GCWindowDC@@UAEPAXI@Z   5f44b630 f wingdi.obj
- 0001:0004a670       ??_ECPaintDC@@UAEPAXI@Z    5f44b670 f wingdi.obj
+ 0001:0004a630       ??_ECWindowDC@@UAEPAXI@Z   5f44b630 f wingdi.obj
  0001:0004a670       ??_GCPaintDC@@UAEPAXI@Z    5f44b670 f wingdi.obj
+ 0001:0004a670       ??_ECPaintDC@@UAEPAXI@Z    5f44b670 f wingdi.obj
  0001:0004a6b0       ?AfxCustomLogFont@@YGHIPAUtagLOGFONTA@@@Z 5f44b6b0 f winutil.obj
  0001:0004a7a1       ?_AfxIsComboBoxControl@@YGHPAUHWND__@@I@Z 5f44b7a1 f winutil.obj
  0001:0004a819       ?_AfxCompareClassName@@YGHPAUHWND__@@PBD@Z 5f44b819 f winutil.obj
@@ -2656,8 +2656,8 @@
  0001:0004ce7e       ?OnCmdMsg@CDocument@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 5f44de7e f doccore.obj
  0001:0004cf02       ?Dump@CDocument@@UBEXAAVCDumpContext@@@Z 5f44df02 f doccore.obj
  0001:0004cff4       ?AssertValid@CDocument@@UBEXXZ 5f44dff4 f doccore.obj
- 0001:0004d060       ??_ECDocument@@UAEPAXI@Z   5f44e060 f doccore.obj
  0001:0004d060       ??_GCDocument@@UAEPAXI@Z   5f44e060 f doccore.obj
+ 0001:0004d060       ??_ECDocument@@UAEPAXI@Z   5f44e060 f doccore.obj
  0001:0004d0a0       ??0CMirrorFile@@QAE@XZ     5f44e0a0 f doccore.obj
  0001:0004d130       ??_GCMirrorFile@@UAEPAXI@Z 5f44e130 f doccore.obj
  0001:0004d170       ??1CMirrorFile@@UAE@XZ     5f44e170 f doccore.obj
@@ -2679,8 +2679,8 @@
  0001:0004df99       ?OnIdle@CDocTemplate@@UAEXXZ 5f44ef99 f doctempl.obj
  0001:0004e02c       ?Dump@CDocTemplate@@UBEXAAVCDumpContext@@@Z 5f44f02c f doctempl.obj
  0001:0004e13f       ?AssertValid@CDocTemplate@@UBEXXZ 5f44f13f f doctempl.obj
- 0001:0004e1a0       ??_GCDocTemplate@@UAEPAXI@Z 5f44f1a0 f doctempl.obj
  0001:0004e1a0       ??_ECDocTemplate@@UAEPAXI@Z 5f44f1a0 f doctempl.obj
+ 0001:0004e1a0       ??_GCDocTemplate@@UAEPAXI@Z 5f44f1a0 f doctempl.obj
  0001:0004e1e0       ??0CSingleDocTemplate@@QAE@IPAUCRuntimeClass@@00@Z 5f44f1e0 f docsingl.obj
  0001:0004e26b       ??1CSingleDocTemplate@@UAE@XZ 5f44f26b f docsingl.obj
  0001:0004e2f2       ?GetFirstDocPosition@CSingleDocTemplate@@UBEPAU__POSITION@@XZ 5f44f2f2 f docsingl.obj
@@ -2704,8 +2704,8 @@
  0001:0004ef85       ?SetDefaultTitle@CMultiDocTemplate@@UAEXPAVCDocument@@@Z 5f44ff85 f docmulti.obj
  0001:0004f081       ?Dump@CMultiDocTemplate@@UBEXAAVCDumpContext@@@Z 5f450081 f docmulti.obj
  0001:0004f179       ?AssertValid@CMultiDocTemplate@@UBEXXZ 5f450179 f docmulti.obj
- 0001:0004f1e0       ??_ECMultiDocTemplate@@UAEPAXI@Z 5f4501e0 f docmulti.obj
  0001:0004f1e0       ??_GCMultiDocTemplate@@UAEPAXI@Z 5f4501e0 f docmulti.obj
+ 0001:0004f1e0       ??_ECMultiDocTemplate@@UAEPAXI@Z 5f4501e0 f docmulti.obj
  0001:0004f220       ?OpenDocumentFile@CDocManager@@UAEPAVCDocument@@PBD@Z 5f450220 f docmgr.obj
  0001:0004f592       ?GetOpenDocumentCount@CDocManager@@UAEHXZ 5f450592 f docmgr.obj
  0001:0004f620       ?_GetBaseMessageMap@CView@@KGPBUAFX_MSGMAP@@XZ 5f450620 f viewcore.obj
@@ -2756,8 +2756,8 @@
  0001:00050684       ?OnPaint@CCtrlView@@IAEXXZ 5f451684 f viewcore.obj
  0001:000506a2       ?Dump@CCtrlView@@UBEXAAVCDumpContext@@@Z 5f4516a2 f viewcore.obj
  0001:000506fb       ?AssertValid@CCtrlView@@UBEXXZ 5f4516fb f viewcore.obj
- 0001:00050750       ??_GCView@@UAEPAXI@Z       5f451750 f viewcore.obj
  0001:00050750       ??_ECView@@UAEPAXI@Z       5f451750 f viewcore.obj
+ 0001:00050750       ??_GCView@@UAEPAXI@Z       5f451750 f viewcore.obj
  0001:00050790       ??_ECCtrlView@@UAEPAXI@Z   5f451790 f viewcore.obj
  0001:00050790       ??_GCCtrlView@@UAEPAXI@Z   5f451790 f viewcore.obj
  0001:000507d0       ??1CCtrlView@@UAE@XZ       5f4517d0 f viewcore.obj
@@ -2788,8 +2788,8 @@
  0001:000522d2       ?OnScrollBy@CScrollView@@UAEHVCSize@@H@Z 5f4532d2 f viewscrl.obj
  0001:00052497       ?Dump@CScrollView@@UBEXAAVCDumpContext@@@Z 5f453497 f viewscrl.obj
  0001:00052677       ?AssertValid@CScrollView@@UBEXXZ 5f453677 f viewscrl.obj
- 0001:00052720       ??_ECScrollView@@UAEPAXI@Z 5f453720 f viewscrl.obj
  0001:00052720       ??_GCScrollView@@UAEPAXI@Z 5f453720 f viewscrl.obj
+ 0001:00052720       ??_ECScrollView@@UAEPAXI@Z 5f453720 f viewscrl.obj
  0001:00052760       ?_GetBaseMessageMap@CFormView@@KGPBUAFX_MSGMAP@@XZ 5f453760 f viewform.obj
  0001:00052775       ?GetMessageMap@CFormView@@MBEPBUAFX_MSGMAP@@XZ 5f453775 f viewform.obj
  0001:00052790       ??0CFormView@@IAE@PBD@Z    5f453790 f viewform.obj
@@ -2807,8 +2807,8 @@
  0001:00052e92       ?SetOccDialogInfo@CFormView@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 5f453e92 f viewform.obj
  0001:00052eb8       ?Dump@CFormView@@UBEXAAVCDumpContext@@@Z 5f453eb8 f viewform.obj
  0001:00052f35       ?AssertValid@CFormView@@UBEXXZ 5f453f35 f viewform.obj
- 0001:00052f60       ??_ECFormView@@UAEPAXI@Z   5f453f60 f viewform.obj
  0001:00052f60       ??_GCFormView@@UAEPAXI@Z   5f453f60 f viewform.obj
+ 0001:00052f60       ??_ECFormView@@UAEPAXI@Z   5f453f60 f viewform.obj
  0001:00052fa0       ??1CFormView@@UAE@XZ       5f453fa0 f viewform.obj
  0001:00053000       ?OnAppExit@CWinApp@@IAEXXZ 5f454000 f appui.obj
  0001:00053050       ?GetOpenDocumentCount@CWinApp@@QAEHXZ 5f454050 f appui2.obj
@@ -3006,8 +3006,8 @@
  0001:0005d139       ?OnNcLButtonDblClk@CMiniDockFrameWnd@@QAEXIVCPoint@@@Z 5f45e139 f bardock.obj
  0001:0005d270       ??_GCDockBar@@UAEPAXI@Z    5f45e270 f bardock.obj
  0001:0005d270       ??_ECDockBar@@UAEPAXI@Z    5f45e270 f bardock.obj
- 0001:0005d2b0       ??_ECMiniDockFrameWnd@@UAEPAXI@Z 5f45e2b0 f bardock.obj
  0001:0005d2b0       ??_GCMiniDockFrameWnd@@UAEPAXI@Z 5f45e2b0 f bardock.obj
+ 0001:0005d2b0       ??_ECMiniDockFrameWnd@@UAEPAXI@Z 5f45e2b0 f bardock.obj
  0001:0005d2f0       ??1CMiniDockFrameWnd@@UAE@XZ 5f45e2f0 f bardock.obj
  0001:0005d370       ??0CDockContext@@QAE@PAVCControlBar@@@Z 5f45e370 f dockcont.obj
  0001:0005d525       ??1CDockContext@@QAE@XZ    5f45e525 f dockcont.obj
@@ -3351,8 +3351,8 @@
  0001:0007342e       ?OnUpdateMDIWindowCmd@CMDIFrameWnd@@IAEXPAVCCmdUI@@@Z 5f47442e f winmdi.obj
  0001:00073489       ?OnMDIWindowCmd@CMDIFrameWnd@@IAEHI@Z 5f474489 f winmdi.obj
  0001:00073562       ?OnWindowNew@CMDIFrameWnd@@IAEXXZ 5f474562 f winmdi.obj
- 0001:00073640       ??_GCMDIFrameWnd@@UAEPAXI@Z 5f474640 f winmdi.obj
  0001:00073640       ??_ECMDIFrameWnd@@UAEPAXI@Z 5f474640 f winmdi.obj
+ 0001:00073640       ??_GCMDIFrameWnd@@UAEPAXI@Z 5f474640 f winmdi.obj
  0001:00073680       ??1CMDIFrameWnd@@UAE@XZ    5f474680 f winmdi.obj
  0001:000736e0       ??_ECMDIChildWnd@@UAEPAXI@Z 5f4746e0 f winmdi.obj
  0001:000736e0       ??_GCMDIChildWnd@@UAEPAXI@Z 5f4746e0 f winmdi.obj
@@ -3471,8 +3471,8 @@
  0001:00079311       ?OnLBSelectString@CCheckListBox@@IAEJIJ@Z 5f47a311 f winctrl3.obj
  0001:000793bc       ?OnLBSetItemData@CCheckListBox@@IAEJIJ@Z 5f47a3bc f winctrl3.obj
  0001:0007948e       ?OnLBSetItemHeight@CCheckListBox@@IAEJIJ@Z 5f47a48e f winctrl3.obj
- 0001:00079500       ??_G_AFX_CHECKLIST_STATE@@UAEPAXI@Z 5f47a500 f winctrl3.obj
  0001:00079500       ??_E_AFX_CHECKLIST_STATE@@UAEPAXI@Z 5f47a500 f winctrl3.obj
+ 0001:00079500       ??_G_AFX_CHECKLIST_STATE@@UAEPAXI@Z 5f47a500 f winctrl3.obj
  0001:00079540       ?AfxPropPageCallback@@YGIPAUHWND__@@IPAU_PROPSHEETPAGEA@@@Z 5f47a540 f dlgprop.obj
  0001:00079675       ?_GetBaseMessageMap@CPropertyPage@@KGPBUAFX_MSGMAP@@XZ 5f47a675 f dlgprop.obj
  0001:0007968a       ?GetMessageMap@CPropertyPage@@MBEPBUAFX_MSGMAP@@XZ 5f47a68a f dlgprop.obj
@@ -3623,10 +3623,10 @@
  0001:0008057c       ?SetTabStops@CEditView@@QAEXH@Z 5f48157c f viewedit.obj
  0001:000805e3       ?AssertValid@CEditView@@UBEXXZ 5f4815e3 f viewedit.obj
  0001:00080699       ?Dump@CEditView@@UBEXAAVCDumpContext@@@Z 5f481699 f viewedit.obj
- 0001:00080820       ??_E_AFX_EDIT_STATE@@UAEPAXI@Z 5f481820 f viewedit.obj
  0001:00080820       ??_G_AFX_EDIT_STATE@@UAEPAXI@Z 5f481820 f viewedit.obj
- 0001:00080860       ??_GCEditView@@UAEPAXI@Z   5f481860 f viewedit.obj
+ 0001:00080820       ??_E_AFX_EDIT_STATE@@UAEPAXI@Z 5f481820 f viewedit.obj
  0001:00080860       ??_ECEditView@@UAEPAXI@Z   5f481860 f viewedit.obj
+ 0001:00080860       ??_GCEditView@@UAEPAXI@Z   5f481860 f viewedit.obj
  0001:000808a0       ?_GetBaseMessageMap@CListView@@KGPBUAFX_MSGMAP@@XZ 5f4818a0 f viewcmn.obj
  0001:000808b5       ?GetMessageMap@CListView@@MBEPBUAFX_MSGMAP@@XZ 5f4818b5 f viewcmn.obj
  0001:000808d0       ?PreCreateWindow@CListView@@UAEHAAUtagCREATESTRUCTA@@@Z 5f4818d0 f viewcmn.obj
@@ -4049,20 +4049,20 @@
  0001:000868f3       ?GetFromPage@CPrintInfo@@QBEIXZ 5f4878f3 f afxinl1.obj
  0001:00086919       ?GetToPage@CPrintInfo@@QBEIXZ 5f487919 f afxinl1.obj
  0001:0008693f       ?GetEditCtrl@CEditView@@QBEAAVCEdit@@XZ 5f48793f f afxinl1.obj
- 0001:00086960       ??_ECObject@@UAEPAXI@Z     5f487960 f afxinl1.obj
  0001:00086960       ??_GCObject@@UAEPAXI@Z     5f487960 f afxinl1.obj
+ 0001:00086960       ??_ECObject@@UAEPAXI@Z     5f487960 f afxinl1.obj
  0001:000869a0       ??_ECSimpleException@@UAEPAXI@Z 5f4879a0 f afxinl1.obj
  0001:000869a0       ??_GCSimpleException@@UAEPAXI@Z 5f4879a0 f afxinl1.obj
  0001:000869e0       ??_ECMemoryException@@UAEPAXI@Z 5f4879e0 f afxinl1.obj
  0001:000869e0       ??_GCMemoryException@@UAEPAXI@Z 5f4879e0 f afxinl1.obj
- 0001:00086a20       ??_ECNotSupportedException@@UAEPAXI@Z 5f487a20 f afxinl1.obj
  0001:00086a20       ??_GCNotSupportedException@@UAEPAXI@Z 5f487a20 f afxinl1.obj
- 0001:00086a60       ??_GCArchiveException@@UAEPAXI@Z 5f487a60 f afxinl1.obj
+ 0001:00086a20       ??_ECNotSupportedException@@UAEPAXI@Z 5f487a20 f afxinl1.obj
  0001:00086a60       ??_ECArchiveException@@UAEPAXI@Z 5f487a60 f afxinl1.obj
+ 0001:00086a60       ??_GCArchiveException@@UAEPAXI@Z 5f487a60 f afxinl1.obj
  0001:00086aa0       ??_ECFileException@@UAEPAXI@Z 5f487aa0 f afxinl1.obj
  0001:00086aa0       ??_GCFileException@@UAEPAXI@Z 5f487aa0 f afxinl1.obj
- 0001:00086ae0       ??_ECCommonDialog@@UAEPAXI@Z 5f487ae0 f afxinl1.obj
  0001:00086ae0       ??_GCCommonDialog@@UAEPAXI@Z 5f487ae0 f afxinl1.obj
+ 0001:00086ae0       ??_ECCommonDialog@@UAEPAXI@Z 5f487ae0 f afxinl1.obj
  0001:00086b20       ??1CCommonDialog@@UAE@XZ   5f487b20 f afxinl1.obj
  0001:00086b80       ??_GCRectTracker@@UAEPAXI@Z 5f487b80 f afxinl1.obj
  0001:00086bc0       ??_GCBitmapButton@@UAEPAXI@Z 5f487bc0 f afxinl1.obj
@@ -4972,8 +4972,8 @@
  0001:00097226       ?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 5f498226 f afxstate.obj
  0001:00097293       ?AfxGetModuleThreadState@@YGPAVAFX_MODULE_THREAD_STATE@@XZ 5f498293 f afxstate.obj
  0001:000972b3       ?Unlock@CTypeLibCache@@QAEXXZ 5f4982b3 f afxstate.obj
- 0001:00097360       ??_G_AFX_THREAD_STATE@@UAEPAXI@Z 5f498360 f afxstate.obj
  0001:00097360       ??_E_AFX_THREAD_STATE@@UAEPAXI@Z 5f498360 f afxstate.obj
+ 0001:00097360       ??_G_AFX_THREAD_STATE@@UAEPAXI@Z 5f498360 f afxstate.obj
  0001:000973a0       ??1?$CThreadLocal@V_AFX_THREAD_STATE@@@@QAE@XZ 5f4983a0 f afxstate.obj
  0001:00097400       ??_EAFX_MODULE_STATE@@UAEPAXI@Z 5f498400 f afxstate.obj
  0001:00097400       ??_GAFX_MODULE_STATE@@UAEPAXI@Z 5f498400 f afxstate.obj
@@ -5008,8 +5008,8 @@
  0001:00098505       ?AfxTlsAddRef@@YGXXZ       5f499505 f afxtls.obj
  0001:0009851b       ?AfxTlsRelease@@YGXXZ      5f49951b f afxtls.obj
  0001:00098570       ??0CThreadData@@QAE@XZ     5f499570 f afxtls.obj
- 0001:000985e0       ??_GCThreadData@@UAEPAXI@Z 5f4995e0 f afxtls.obj
  0001:000985e0       ??_ECThreadData@@UAEPAXI@Z 5f4995e0 f afxtls.obj
+ 0001:000985e0       ??_GCThreadData@@UAEPAXI@Z 5f4995e0 f afxtls.obj
  0001:00098620       ??1CThreadData@@UAE@XZ     5f499620 f afxtls.obj
  0001:00098680       ?GetThreadValue@CThreadSlotData@@QAEPAXH@Z 5f499680 f afxtls.obj
  0001:00098780       ??_GCThreadSlotData@@QAEPAXI@Z 5f499780 f afxtls.obj
@@ -5230,8 +5230,8 @@
  0001:0009c340       ?AfxLoadWinSpool@@YAPAUHINSTANCE__@@PAP6GHXZPBD@Z 5f49d340 f ccdata.obj
  0001:0009c370       ?AfxLoadAdvApi@@YAPAUHINSTANCE__@@PAP6GHXZPBD@Z 5f49d370 f ccdata.obj
  0001:0009c3a0       ??1?$CProcessLocal@U_AFX_PROPPAGEFONTINFO@@@@QAE@XZ 5f49d3a0 f ccdata.obj
- 0001:0009c400       ??_G_AFX_PROPPAGEFONTINFO@@UAEPAXI@Z 5f49d400 f ccdata.obj
  0001:0009c400       ??_E_AFX_PROPPAGEFONTINFO@@UAEPAXI@Z 5f49d400 f ccdata.obj
+ 0001:0009c400       ??_G_AFX_PROPPAGEFONTINFO@@UAEPAXI@Z 5f49d400 f ccdata.obj
  0001:0009c440       ?AfxLoadCommCtrl@@YAPAUHINSTANCE__@@XZ 5f49d440 f ccdata.obj
  0001:0009c470       ??1?$CProcessLocal@V_AFX_EXTDLL_STATE@@@@QAE@XZ 5f49d470 f ccdata.obj
  0001:0009c4d0       ?_GetBaseClass@CResourceException@@KGPAUCRuntimeClass@@XZ 5f49d4d0 f wingdi.obj
@@ -5335,10 +5335,10 @@
  0001:0009f2a0       ?ExitInstance@CWinApp@@UAEHXZ 5f4a02a0 f appcore.obj
  0001:0009f319       ?_GetBaseClass@CWinApp@@KGPAUCRuntimeClass@@XZ 5f4a0319 f appcore.obj
  0001:0009f32e       ?GetRuntimeClass@CWinApp@@UBEPAUCRuntimeClass@@XZ 5f4a032e f appcore.obj
- 0001:0009f3b0       ??_G_AFX_WIN_STATE@@UAEPAXI@Z 5f4a03b0 f appcore.obj
  0001:0009f3b0       ??_E_AFX_WIN_STATE@@UAEPAXI@Z 5f4a03b0 f appcore.obj
- 0001:0009f3f0       ??_GCWinApp@@UAEPAXI@Z     5f4a03f0 f appcore.obj
+ 0001:0009f3b0       ??_G_AFX_WIN_STATE@@UAEPAXI@Z 5f4a03b0 f appcore.obj
  0001:0009f3f0       ??_ECWinApp@@UAEPAXI@Z     5f4a03f0 f appcore.obj
+ 0001:0009f3f0       ??_GCWinApp@@UAEPAXI@Z     5f4a03f0 f appcore.obj
  0001:0009f430       ??_GCCommandLineInfo@@UAEPAXI@Z 5f4a0430 f appcore.obj
  0001:0009f470       ??1?$CProcessLocal@V_AFX_WIN_STATE@@@@QAE@XZ 5f4a0470 f appcore.obj
  0001:0009f4d0       ?AfxWinInit@@YGHPAUHINSTANCE__@@0PADH@Z 5f4a04d0 f appinit.obj
@@ -5431,8 +5431,8 @@
  0001:000a2085       _RawDllMain@12             5f4a3085 f dllinit.obj
  0001:000a2137       _DllMain@12                5f4a3137 f dllinit.obj
  0001:000a23d6       ?AfxCoreInitModule@@YGXXZ  5f4a33d6 f dllinit.obj
- 0001:000a24f0       ??_ECDynLinkLibrary@@UAEPAXI@Z 5f4a34f0 f dllinit.obj
  0001:000a24f0       ??_GCDynLinkLibrary@@UAEPAXI@Z 5f4a34f0 f dllinit.obj
+ 0001:000a24f0       ??_ECDynLinkLibrary@@UAEPAXI@Z 5f4a34f0 f dllinit.obj
  0001:000a2530       ??1_AFX_MAIL_STATE@@UAE@XZ 5f4a3530 f docmapi.obj
  0001:000a25b2       ?OnFileSendMail@CDocument@@IAEXXZ 5f4a35b2 f docmapi.obj
  0001:000a2af9       ?OnUpdateFileSendMail@CDocument@@IAEXPAVCCmdUI@@@Z 5f4a3af9 f docmapi.obj
@@ -5475,8 +5475,8 @@
  0001:000a4fde       ?SetTopLeftOffset@CPreviewDC@@QAEXVCSize@@@Z 5f4a5fde f dcprev.obj
  0001:000a5034       ?ClipToPage@CPreviewDC@@QAEXXZ 5f4a6034 f dcprev.obj
  0001:000a5130       ?PrinterDPtoScreenDP@CPreviewDC@@QBEXPAUtagPOINT@@@Z 5f4a6130 f dcprev.obj
- 0001:000a54a0       ??_ECPreviewDC@@UAEPAXI@Z  5f4a64a0 f dcprev.obj
  0001:000a54a0       ??_GCPreviewDC@@UAEPAXI@Z  5f4a64a0 f dcprev.obj
+ 0001:000a54a0       ??_ECPreviewDC@@UAEPAXI@Z  5f4a64a0 f dcprev.obj
  0001:000a54e0       ??0CMetaFileDC@@QAE@XZ     5f4a64e0 f dcmeta.obj
  0001:000a554f       ?SetOutputDC@CMetaFileDC@@MAEXPAUHDC__@@@Z 5f4a654f f dcmeta.obj
  0001:000a558e       ?ReleaseOutputDC@CMetaFileDC@@MAEXXZ 5f4a658e f dcmeta.obj
@@ -5547,8 +5547,8 @@
  0001:000a9baa       ?OnSetCursor@CPreviewView@@IAEHPAVCWnd@@II@Z 5f4aabaa f viewprev.obj
  0001:000a9c8d       ?AssertValid@CPreviewView@@UBEXXZ 5f4aac8d f viewprev.obj
  0001:000a9d79       ?Dump@CPreviewView@@UBEXAAVCDumpContext@@@Z 5f4aad79 f viewprev.obj
- 0001:000aa0a0       ??_ECPreviewView@@UAEPAXI@Z 5f4ab0a0 f viewprev.obj
  0001:000aa0a0       ??_GCPreviewView@@UAEPAXI@Z 5f4ab0a0 f viewprev.obj
+ 0001:000aa0a0       ??_ECPreviewView@@UAEPAXI@Z 5f4ab0a0 f viewprev.obj
  0001:000aa0e0       ??0PAGE_INFO@CPreviewView@@QAE@XZ 5f4ab0e0 f viewprev.obj
  0001:000aa130       ??_GCPrintInfo@@QAEPAXI@Z  5f4ab130 f viewprev.obj
  0001:000aa170       ?GetPrinterDeviceDefaults@CWinApp@@QAEHPAUtagPDA@@@Z 5f4ab170 f appprnt.obj
@@ -7999,160 +7999,160 @@
  0004:0000003c       __IMPORT_DESCRIPTOR_USER32 5f4d203c   user32:USER32.dll
  0004:00000050       __NULL_IMPORT_DESCRIPTOR   5f4d2050   msvcrtd:msvcrtd.dll
  0004:00000a40       __imp__GetBoundsRect@12    5f4d2a40   gdi32:GDI32.dll
- 0004:00000a44       __imp__ResetDCA@8          5f4d2a44   gdi32:GDI32.dll
- 0004:00000a48       __imp__GetTextMetricsA@8   5f4d2a48   gdi32:GDI32.dll
- 0004:00000a4c       __imp__PlayMetaFile@8      5f4d2a4c   gdi32:GDI32.dll
- 0004:00000a50       __imp__EnumMetaFile@16     5f4d2a50   gdi32:GDI32.dll
- 0004:00000a54       __imp__PlayMetaFileRecord@16 5f4d2a54   gdi32:GDI32.dll
- 0004:00000a58       __imp__ExtSelectClipRgn@12 5f4d2a58   gdi32:GDI32.dll
- 0004:00000a5c       __imp__SelectClipPath@8    5f4d2a5c   gdi32:GDI32.dll
- 0004:00000a60       __imp__GetClipRgn@8        5f4d2a60   gdi32:GDI32.dll
- 0004:00000a64       __imp__PolyBezierTo@12     5f4d2a64   gdi32:GDI32.dll
- 0004:00000a68       __imp__SetColorAdjustment@8 5f4d2a68   gdi32:GDI32.dll
- 0004:00000a6c       __imp__PolylineTo@12       5f4d2a6c   gdi32:GDI32.dll
- 0004:00000a70       __imp__PolyDraw@16         5f4d2a70   gdi32:GDI32.dll
- 0004:00000a74       __imp__SetArcDirection@8   5f4d2a74   gdi32:GDI32.dll
- 0004:00000a78       __imp__ArcTo@36            5f4d2a78   gdi32:GDI32.dll
- 0004:00000a7c       __imp__SetMapperFlags@8    5f4d2a7c   gdi32:GDI32.dll
- 0004:00000a80       __imp__SetTextCharacterExtra@8 5f4d2a80   gdi32:GDI32.dll
- 0004:00000a84       __imp__SetTextJustification@12 5f4d2a84   gdi32:GDI32.dll
- 0004:00000a88       __imp__SetTextAlign@8      5f4d2a88   gdi32:GDI32.dll
- 0004:00000a8c       __imp__LineTo@12           5f4d2a8c   gdi32:GDI32.dll
- 0004:00000a90       __imp__OffsetClipRgn@12    5f4d2a90   gdi32:GDI32.dll
- 0004:00000a94       __imp__ExcludeClipRect@20  5f4d2a94   gdi32:GDI32.dll
- 0004:00000a98       __imp__SelectClipRgn@8     5f4d2a98   gdi32:GDI32.dll
- 0004:00000a9c       __imp__OffsetWindowOrgEx@16 5f4d2a9c   gdi32:GDI32.dll
- 0004:00000aa0       __imp__SetStretchBltMode@8 5f4d2aa0   gdi32:GDI32.dll
- 0004:00000aa4       __imp__SetROP2@8           5f4d2aa4   gdi32:GDI32.dll
- 0004:00000aa8       __imp__SetPolyFillMode@8   5f4d2aa8   gdi32:GDI32.dll
- 0004:00000aac       __imp__SetBkMode@8         5f4d2aac   gdi32:GDI32.dll
- 0004:00000ab0       __imp__SelectPalette@12    5f4d2ab0   gdi32:GDI32.dll
- 0004:00000ab4       __imp__GetClipBox@8        5f4d2ab4   gdi32:GDI32.dll
- 0004:00000ab8       __imp__DeleteMetaFile@4    5f4d2ab8   gdi32:GDI32.dll
- 0004:00000abc       __imp__IntersectClipRect@20 5f4d2abc   gdi32:GDI32.dll
- 0004:00000ac0       __imp__SetWindowOrgEx@16   5f4d2ac0   gdi32:GDI32.dll
- 0004:00000ac4       __imp__MoveToEx@16         5f4d2ac4   gdi32:GDI32.dll
- 0004:00000ac8       __imp__ScaleWindowExtEx@24 5f4d2ac8   gdi32:GDI32.dll
- 0004:00000acc       __imp__SetWindowExtEx@16   5f4d2acc   gdi32:GDI32.dll
- 0004:00000ad0       __imp__ScaleViewportExtEx@24 5f4d2ad0   gdi32:GDI32.dll
- 0004:00000ad4       __imp__SetViewportExtEx@16 5f4d2ad4   gdi32:GDI32.dll
- 0004:00000ad8       __imp__OffsetViewportOrgEx@16 5f4d2ad8   gdi32:GDI32.dll
- 0004:00000adc       __imp__SetViewportOrgEx@16 5f4d2adc   gdi32:GDI32.dll
- 0004:00000ae0       __imp__SetMapMode@8        5f4d2ae0   gdi32:GDI32.dll
- 0004:00000ae4       __imp__DeleteObject@4      5f4d2ae4   gdi32:GDI32.dll
- 0004:00000ae8       __imp__RestoreDC@8         5f4d2ae8   gdi32:GDI32.dll
- 0004:00000aec       __imp__SaveDC@4            5f4d2aec   gdi32:GDI32.dll
- 0004:00000af0       __imp__StretchDIBits@52    5f4d2af0   gdi32:GDI32.dll
- 0004:00000af4       __imp__DeleteDC@4          5f4d2af4   gdi32:GDI32.dll
- 0004:00000af8       __imp__SetBkColor@8        5f4d2af8   gdi32:GDI32.dll
- 0004:00000afc       __imp__SetTextColor@8      5f4d2afc   gdi32:GDI32.dll
- 0004:00000b00       __imp__PlayEnhMetaFile@12  5f4d2b00   gdi32:GDI32.dll
- 0004:00000b04       __imp__GdiComment@12       5f4d2b04   gdi32:GDI32.dll
- 0004:00000b08       __imp__WidenPath@4         5f4d2b08   gdi32:GDI32.dll
- 0004:00000b0c       __imp__StrokePath@4        5f4d2b0c   gdi32:GDI32.dll
- 0004:00000b10       __imp__StrokeAndFillPath@4 5f4d2b10   gdi32:GDI32.dll
- 0004:00000b14       __imp__SetMiterLimit@12    5f4d2b14   gdi32:GDI32.dll
- 0004:00000b18       __imp__GetPath@16          5f4d2b18   gdi32:GDI32.dll
- 0004:00000b1c       __imp__GetMiterLimit@8     5f4d2b1c   gdi32:GDI32.dll
- 0004:00000b20       __imp__FlattenPath@4       5f4d2b20   gdi32:GDI32.dll
- 0004:00000b24       __imp__FillPath@4          5f4d2b24   gdi32:GDI32.dll
- 0004:00000b28       __imp__EndPath@4           5f4d2b28   gdi32:GDI32.dll
- 0004:00000b2c       __imp__CloseFigure@4       5f4d2b2c   gdi32:GDI32.dll
- 0004:00000b30       __imp__BeginPath@4         5f4d2b30   gdi32:GDI32.dll
- 0004:00000b34       __imp__AbortPath@4         5f4d2b34   gdi32:GDI32.dll
- 0004:00000b38       __imp__GetCharWidthFloatA@16 5f4d2b38   gdi32:GDI32.dll
- 0004:00000b3c       __imp__GetCharABCWidthsFloatA@16 5f4d2b3c   gdi32:GDI32.dll
- 0004:00000b40       __imp__ExtEscape@24        5f4d2b40   gdi32:GDI32.dll
- 0004:00000b44       __imp__DrawEscape@16       5f4d2b44   gdi32:GDI32.dll
- 0004:00000b48       __imp__PolyBezier@12       5f4d2b48   gdi32:GDI32.dll
- 0004:00000b4c       __imp__GetCurrentObject@8  5f4d2b4c   gdi32:GDI32.dll
- 0004:00000b50       __imp__GetColorAdjustment@8 5f4d2b50   gdi32:GDI32.dll
- 0004:00000b54       __imp__PolyPolyline@16     5f4d2b54   gdi32:GDI32.dll
- 0004:00000b58       __imp__GetArcDirection@4   5f4d2b58   gdi32:GDI32.dll
- 0004:00000b5c       __imp__AngleArc@24         5f4d2b5c   gdi32:GDI32.dll
- 0004:00000b60       __imp__SetPixelV@16        5f4d2b60   gdi32:GDI32.dll
- 0004:00000b64       __imp__PlgBlt@40           5f4d2b64   gdi32:GDI32.dll
- 0004:00000b68       __imp__MaskBlt@48          5f4d2b68   gdi32:GDI32.dll
- 0004:00000b6c       __imp__EndDoc@4            5f4d2b6c   gdi32:GDI32.dll
- 0004:00000b70       __imp__AbortDoc@4          5f4d2b70   gdi32:GDI32.dll
- 0004:00000b74       __imp__SetAbortProc@8      5f4d2b74   gdi32:GDI32.dll
- 0004:00000b78       __imp__EndPage@4           5f4d2b78   gdi32:GDI32.dll
- 0004:00000b7c       __imp__StartPage@4         5f4d2b7c   gdi32:GDI32.dll
- 0004:00000b80       __imp__StartDocA@8         5f4d2b80   gdi32:GDI32.dll
- 0004:00000b84       __imp__GetGlyphOutlineA@28 5f4d2b84   gdi32:GDI32.dll
- 0004:00000b88       __imp__GetKerningPairsA@12 5f4d2b88   gdi32:GDI32.dll
- 0004:00000b8c       __imp__GetFontData@20      5f4d2b8c   gdi32:GDI32.dll
- 0004:00000b90       __imp__GetCharABCWidthsA@16 5f4d2b90   gdi32:GDI32.dll
- 0004:00000b94       __imp__GetOutlineTextMetricsA@12 5f4d2b94   gdi32:GDI32.dll
- 0004:00000b98       __imp__SetBoundsRect@12    5f4d2b98   gdi32:GDI32.dll
- 0004:00000b9c       __imp__Escape@20           5f4d2b9c   gdi32:GDI32.dll
- 0004:00000ba0       __imp__GetAspectRatioFilterEx@8 5f4d2ba0   gdi32:GDI32.dll
- 0004:00000ba4       __imp__GetCharWidthA@16    5f4d2ba4   gdi32:GDI32.dll
- 0004:00000ba8       __imp__GetTextCharacterExtra@4 5f4d2ba8   gdi32:GDI32.dll
- 0004:00000bac       __imp__GetTextAlign@4      5f4d2bac   gdi32:GDI32.dll
- 0004:00000bb0       __imp__GetTextExtentPointA@16 5f4d2bb0   gdi32:GDI32.dll
- 0004:00000bb4       __imp__TextOutA@20         5f4d2bb4   gdi32:GDI32.dll
- 0004:00000bb8       __imp__ExtFloodFill@20     5f4d2bb8   gdi32:GDI32.dll
- 0004:00000bbc       __imp__FloodFill@16        5f4d2bbc   gdi32:GDI32.dll
- 0004:00000bc0       __imp__SetPixel@16         5f4d2bc0   gdi32:GDI32.dll
- 0004:00000bc4       __imp__GetPixel@12         5f4d2bc4   gdi32:GDI32.dll
- 0004:00000bc8       __imp__StretchBlt@44       5f4d2bc8   gdi32:GDI32.dll
- 0004:00000bcc       __imp__BitBlt@36           5f4d2bcc   gdi32:GDI32.dll
- 0004:00000bd0       __imp__PatBlt@24           5f4d2bd0   gdi32:GDI32.dll
- 0004:00000bd4       __imp__RoundRect@28        5f4d2bd4   gdi32:GDI32.dll
- 0004:00000bd8       __imp__Rectangle@20        5f4d2bd8   gdi32:GDI32.dll
- 0004:00000bdc       __imp__PolyPolygon@16      5f4d2bdc   gdi32:GDI32.dll
- 0004:00000be0       __imp__Polygon@12          5f4d2be0   gdi32:GDI32.dll
- 0004:00000be4       __imp__Pie@36              5f4d2be4   gdi32:GDI32.dll
- 0004:00000be8       __imp__Ellipse@20          5f4d2be8   gdi32:GDI32.dll
- 0004:00000bec       __imp__Chord@36            5f4d2bec   gdi32:GDI32.dll
- 0004:00000bf0       __imp__Polyline@12         5f4d2bf0   gdi32:GDI32.dll
- 0004:00000bf4       __imp__Arc@36              5f4d2bf4   gdi32:GDI32.dll
- 0004:00000bf8       __imp__GetCurrentPositionEx@8 5f4d2bf8   gdi32:GDI32.dll
- 0004:00000bfc       __imp__RectVisible@8       5f4d2bfc   gdi32:GDI32.dll
- 0004:00000c00       __imp__PtVisible@12        5f4d2c00   gdi32:GDI32.dll
- 0004:00000c04       __imp__PaintRgn@8          5f4d2c04   gdi32:GDI32.dll
- 0004:00000c08       __imp__InvertRgn@8         5f4d2c08   gdi32:GDI32.dll
- 0004:00000c0c       __imp__FrameRgn@20         5f4d2c0c   gdi32:GDI32.dll
- 0004:00000c10       __imp__FillRgn@12          5f4d2c10   gdi32:GDI32.dll
- 0004:00000c14       __imp__LPtoDP@12           5f4d2c14   gdi32:GDI32.dll
- 0004:00000c18       __imp__DPtoLP@12           5f4d2c18   gdi32:GDI32.dll
- 0004:00000c1c       __imp__GetWindowExtEx@8    5f4d2c1c   gdi32:GDI32.dll
- 0004:00000c20       __imp__GetWindowOrgEx@8    5f4d2c20   gdi32:GDI32.dll
- 0004:00000c24       __imp__GetViewportExtEx@8  5f4d2c24   gdi32:GDI32.dll
- 0004:00000c28       __imp__GetViewportOrgEx@8  5f4d2c28   gdi32:GDI32.dll
- 0004:00000c2c       __imp__GetMapMode@4        5f4d2c2c   gdi32:GDI32.dll
- 0004:00000c30       __imp__GetTextColor@4      5f4d2c30   gdi32:GDI32.dll
- 0004:00000c34       __imp__GetStretchBltMode@4 5f4d2c34   gdi32:GDI32.dll
- 0004:00000c38       __imp__GetROP2@4           5f4d2c38   gdi32:GDI32.dll
- 0004:00000c3c       __imp__GetPolyFillMode@4   5f4d2c3c   gdi32:GDI32.dll
- 0004:00000c40       __imp__GetBkMode@4         5f4d2c40   gdi32:GDI32.dll
- 0004:00000c44       __imp__GetBkColor@4        5f4d2c44   gdi32:GDI32.dll
- 0004:00000c48       __imp__UpdateColors@4      5f4d2c48   gdi32:GDI32.dll
- 0004:00000c4c       __imp__RealizePalette@4    5f4d2c4c   gdi32:GDI32.dll
- 0004:00000c50       __imp__GetNearestColor@8   5f4d2c50   gdi32:GDI32.dll
- 0004:00000c54       __imp__SelectObject@8      5f4d2c54   gdi32:GDI32.dll
- 0004:00000c58       __imp__EnumObjects@16      5f4d2c58   gdi32:GDI32.dll
- 0004:00000c5c       __imp__SetBrushOrgEx@16    5f4d2c5c   gdi32:GDI32.dll
- 0004:00000c60       __imp__GetBrushOrgEx@8     5f4d2c60   gdi32:GDI32.dll
- 0004:00000c64       __imp__GetDeviceCaps@8     5f4d2c64   gdi32:GDI32.dll
- 0004:00000c68       __imp__CreateCompatibleDC@4 5f4d2c68   gdi32:GDI32.dll
- 0004:00000c6c       __imp__CreateICA@16        5f4d2c6c   gdi32:GDI32.dll
- 0004:00000c70       __imp__CreateDCA@16        5f4d2c70   gdi32:GDI32.dll
- 0004:00000c74       __imp__RectInRegion@8      5f4d2c74   gdi32:GDI32.dll
- 0004:00000c78       __imp__PtInRegion@12       5f4d2c78   gdi32:GDI32.dll
- 0004:00000c7c       __imp__GetRgnBox@8         5f4d2c7c   gdi32:GDI32.dll
- 0004:00000c80       __imp__OffsetRgn@12        5f4d2c80   gdi32:GDI32.dll
- 0004:00000c84       __imp__EqualRgn@8          5f4d2c84   gdi32:GDI32.dll
- 0004:00000c88       __imp__CombineRgn@16       5f4d2c88   gdi32:GDI32.dll
- 0004:00000c8c       __imp__SetRectRgn@20       5f4d2c8c   gdi32:GDI32.dll
- 0004:00000c90       __imp__GetRegionData@12    5f4d2c90   gdi32:GDI32.dll
- 0004:00000c94       __imp__ExtCreateRegion@12  5f4d2c94   gdi32:GDI32.dll
- 0004:00000c98       __imp__PathToRegion@4      5f4d2c98   gdi32:GDI32.dll
- 0004:00000c9c       __imp__CreateRoundRectRgn@24 5f4d2c9c   gdi32:GDI32.dll
- 0004:00000ca0       __imp__CreatePolyPolygonRgn@16 5f4d2ca0   gdi32:GDI32.dll
- 0004:00000ca4       __imp__CreatePolygonRgn@12 5f4d2ca4   gdi32:GDI32.dll
- 0004:00000ca8       __imp__GetTextFaceA@12     5f4d2ca8   gdi32:GDI32.dll
+ 0004:00000a44       __imp__PlayMetaFile@8      5f4d2a44   gdi32:GDI32.dll
+ 0004:00000a48       __imp__EnumMetaFile@16     5f4d2a48   gdi32:GDI32.dll
+ 0004:00000a4c       __imp__PlayMetaFileRecord@16 5f4d2a4c   gdi32:GDI32.dll
+ 0004:00000a50       __imp__ExtSelectClipRgn@12 5f4d2a50   gdi32:GDI32.dll
+ 0004:00000a54       __imp__SelectClipPath@8    5f4d2a54   gdi32:GDI32.dll
+ 0004:00000a58       __imp__GetClipRgn@8        5f4d2a58   gdi32:GDI32.dll
+ 0004:00000a5c       __imp__PolyBezierTo@12     5f4d2a5c   gdi32:GDI32.dll
+ 0004:00000a60       __imp__SetColorAdjustment@8 5f4d2a60   gdi32:GDI32.dll
+ 0004:00000a64       __imp__PolylineTo@12       5f4d2a64   gdi32:GDI32.dll
+ 0004:00000a68       __imp__PolyDraw@16         5f4d2a68   gdi32:GDI32.dll
+ 0004:00000a6c       __imp__SetArcDirection@8   5f4d2a6c   gdi32:GDI32.dll
+ 0004:00000a70       __imp__ArcTo@36            5f4d2a70   gdi32:GDI32.dll
+ 0004:00000a74       __imp__SetMapperFlags@8    5f4d2a74   gdi32:GDI32.dll
+ 0004:00000a78       __imp__SetTextCharacterExtra@8 5f4d2a78   gdi32:GDI32.dll
+ 0004:00000a7c       __imp__SetTextJustification@12 5f4d2a7c   gdi32:GDI32.dll
+ 0004:00000a80       __imp__SetTextAlign@8      5f4d2a80   gdi32:GDI32.dll
+ 0004:00000a84       __imp__LineTo@12           5f4d2a84   gdi32:GDI32.dll
+ 0004:00000a88       __imp__OffsetClipRgn@12    5f4d2a88   gdi32:GDI32.dll
+ 0004:00000a8c       __imp__ExcludeClipRect@20  5f4d2a8c   gdi32:GDI32.dll
+ 0004:00000a90       __imp__SelectClipRgn@8     5f4d2a90   gdi32:GDI32.dll
+ 0004:00000a94       __imp__OffsetWindowOrgEx@16 5f4d2a94   gdi32:GDI32.dll
+ 0004:00000a98       __imp__SetStretchBltMode@8 5f4d2a98   gdi32:GDI32.dll
+ 0004:00000a9c       __imp__SetROP2@8           5f4d2a9c   gdi32:GDI32.dll
+ 0004:00000aa0       __imp__SetPolyFillMode@8   5f4d2aa0   gdi32:GDI32.dll
+ 0004:00000aa4       __imp__SetBkMode@8         5f4d2aa4   gdi32:GDI32.dll
+ 0004:00000aa8       __imp__SelectPalette@12    5f4d2aa8   gdi32:GDI32.dll
+ 0004:00000aac       __imp__GetClipBox@8        5f4d2aac   gdi32:GDI32.dll
+ 0004:00000ab0       __imp__DeleteMetaFile@4    5f4d2ab0   gdi32:GDI32.dll
+ 0004:00000ab4       __imp__IntersectClipRect@20 5f4d2ab4   gdi32:GDI32.dll
+ 0004:00000ab8       __imp__SetWindowOrgEx@16   5f4d2ab8   gdi32:GDI32.dll
+ 0004:00000abc       __imp__MoveToEx@16         5f4d2abc   gdi32:GDI32.dll
+ 0004:00000ac0       __imp__ScaleWindowExtEx@24 5f4d2ac0   gdi32:GDI32.dll
+ 0004:00000ac4       __imp__SetWindowExtEx@16   5f4d2ac4   gdi32:GDI32.dll
+ 0004:00000ac8       __imp__ScaleViewportExtEx@24 5f4d2ac8   gdi32:GDI32.dll
+ 0004:00000acc       __imp__SetViewportExtEx@16 5f4d2acc   gdi32:GDI32.dll
+ 0004:00000ad0       __imp__OffsetViewportOrgEx@16 5f4d2ad0   gdi32:GDI32.dll
+ 0004:00000ad4       __imp__SetViewportOrgEx@16 5f4d2ad4   gdi32:GDI32.dll
+ 0004:00000ad8       __imp__SetMapMode@8        5f4d2ad8   gdi32:GDI32.dll
+ 0004:00000adc       __imp__DeleteObject@4      5f4d2adc   gdi32:GDI32.dll
+ 0004:00000ae0       __imp__RestoreDC@8         5f4d2ae0   gdi32:GDI32.dll
+ 0004:00000ae4       __imp__SaveDC@4            5f4d2ae4   gdi32:GDI32.dll
+ 0004:00000ae8       __imp__StretchDIBits@52    5f4d2ae8   gdi32:GDI32.dll
+ 0004:00000aec       __imp__DeleteDC@4          5f4d2aec   gdi32:GDI32.dll
+ 0004:00000af0       __imp__SetBkColor@8        5f4d2af0   gdi32:GDI32.dll
+ 0004:00000af4       __imp__SetTextColor@8      5f4d2af4   gdi32:GDI32.dll
+ 0004:00000af8       __imp__PlayEnhMetaFile@12  5f4d2af8   gdi32:GDI32.dll
+ 0004:00000afc       __imp__GdiComment@12       5f4d2afc   gdi32:GDI32.dll
+ 0004:00000b00       __imp__WidenPath@4         5f4d2b00   gdi32:GDI32.dll
+ 0004:00000b04       __imp__StrokePath@4        5f4d2b04   gdi32:GDI32.dll
+ 0004:00000b08       __imp__StrokeAndFillPath@4 5f4d2b08   gdi32:GDI32.dll
+ 0004:00000b0c       __imp__SetMiterLimit@12    5f4d2b0c   gdi32:GDI32.dll
+ 0004:00000b10       __imp__GetPath@16          5f4d2b10   gdi32:GDI32.dll
+ 0004:00000b14       __imp__GetMiterLimit@8     5f4d2b14   gdi32:GDI32.dll
+ 0004:00000b18       __imp__FlattenPath@4       5f4d2b18   gdi32:GDI32.dll
+ 0004:00000b1c       __imp__FillPath@4          5f4d2b1c   gdi32:GDI32.dll
+ 0004:00000b20       __imp__EndPath@4           5f4d2b20   gdi32:GDI32.dll
+ 0004:00000b24       __imp__CloseFigure@4       5f4d2b24   gdi32:GDI32.dll
+ 0004:00000b28       __imp__BeginPath@4         5f4d2b28   gdi32:GDI32.dll
+ 0004:00000b2c       __imp__AbortPath@4         5f4d2b2c   gdi32:GDI32.dll
+ 0004:00000b30       __imp__GetCharWidthFloatA@16 5f4d2b30   gdi32:GDI32.dll
+ 0004:00000b34       __imp__GetCharABCWidthsFloatA@16 5f4d2b34   gdi32:GDI32.dll
+ 0004:00000b38       __imp__ExtEscape@24        5f4d2b38   gdi32:GDI32.dll
+ 0004:00000b3c       __imp__DrawEscape@16       5f4d2b3c   gdi32:GDI32.dll
+ 0004:00000b40       __imp__PolyBezier@12       5f4d2b40   gdi32:GDI32.dll
+ 0004:00000b44       __imp__GetCurrentObject@8  5f4d2b44   gdi32:GDI32.dll
+ 0004:00000b48       __imp__GetColorAdjustment@8 5f4d2b48   gdi32:GDI32.dll
+ 0004:00000b4c       __imp__PolyPolyline@16     5f4d2b4c   gdi32:GDI32.dll
+ 0004:00000b50       __imp__GetArcDirection@4   5f4d2b50   gdi32:GDI32.dll
+ 0004:00000b54       __imp__AngleArc@24         5f4d2b54   gdi32:GDI32.dll
+ 0004:00000b58       __imp__SetPixelV@16        5f4d2b58   gdi32:GDI32.dll
+ 0004:00000b5c       __imp__PlgBlt@40           5f4d2b5c   gdi32:GDI32.dll
+ 0004:00000b60       __imp__MaskBlt@48          5f4d2b60   gdi32:GDI32.dll
+ 0004:00000b64       __imp__EndDoc@4            5f4d2b64   gdi32:GDI32.dll
+ 0004:00000b68       __imp__AbortDoc@4          5f4d2b68   gdi32:GDI32.dll
+ 0004:00000b6c       __imp__SetAbortProc@8      5f4d2b6c   gdi32:GDI32.dll
+ 0004:00000b70       __imp__EndPage@4           5f4d2b70   gdi32:GDI32.dll
+ 0004:00000b74       __imp__StartPage@4         5f4d2b74   gdi32:GDI32.dll
+ 0004:00000b78       __imp__StartDocA@8         5f4d2b78   gdi32:GDI32.dll
+ 0004:00000b7c       __imp__GetGlyphOutlineA@28 5f4d2b7c   gdi32:GDI32.dll
+ 0004:00000b80       __imp__GetKerningPairsA@12 5f4d2b80   gdi32:GDI32.dll
+ 0004:00000b84       __imp__GetFontData@20      5f4d2b84   gdi32:GDI32.dll
+ 0004:00000b88       __imp__GetCharABCWidthsA@16 5f4d2b88   gdi32:GDI32.dll
+ 0004:00000b8c       __imp__GetOutlineTextMetricsA@12 5f4d2b8c   gdi32:GDI32.dll
+ 0004:00000b90       __imp__ResetDCA@8          5f4d2b90   gdi32:GDI32.dll
+ 0004:00000b94       __imp__SetBoundsRect@12    5f4d2b94   gdi32:GDI32.dll
+ 0004:00000b98       __imp__Escape@20           5f4d2b98   gdi32:GDI32.dll
+ 0004:00000b9c       __imp__GetAspectRatioFilterEx@8 5f4d2b9c   gdi32:GDI32.dll
+ 0004:00000ba0       __imp__GetCharWidthA@16    5f4d2ba0   gdi32:GDI32.dll
+ 0004:00000ba4       __imp__GetTextCharacterExtra@4 5f4d2ba4   gdi32:GDI32.dll
+ 0004:00000ba8       __imp__GetTextMetricsA@8   5f4d2ba8   gdi32:GDI32.dll
+ 0004:00000bac       __imp__GetTextFaceA@12     5f4d2bac   gdi32:GDI32.dll
+ 0004:00000bb0       __imp__GetTextAlign@4      5f4d2bb0   gdi32:GDI32.dll
+ 0004:00000bb4       __imp__GetTextExtentPointA@16 5f4d2bb4   gdi32:GDI32.dll
+ 0004:00000bb8       __imp__TextOutA@20         5f4d2bb8   gdi32:GDI32.dll
+ 0004:00000bbc       __imp__ExtFloodFill@20     5f4d2bbc   gdi32:GDI32.dll
+ 0004:00000bc0       __imp__FloodFill@16        5f4d2bc0   gdi32:GDI32.dll
+ 0004:00000bc4       __imp__SetPixel@16         5f4d2bc4   gdi32:GDI32.dll
+ 0004:00000bc8       __imp__GetPixel@12         5f4d2bc8   gdi32:GDI32.dll
+ 0004:00000bcc       __imp__StretchBlt@44       5f4d2bcc   gdi32:GDI32.dll
+ 0004:00000bd0       __imp__BitBlt@36           5f4d2bd0   gdi32:GDI32.dll
+ 0004:00000bd4       __imp__PatBlt@24           5f4d2bd4   gdi32:GDI32.dll
+ 0004:00000bd8       __imp__RoundRect@28        5f4d2bd8   gdi32:GDI32.dll
+ 0004:00000bdc       __imp__Rectangle@20        5f4d2bdc   gdi32:GDI32.dll
+ 0004:00000be0       __imp__PolyPolygon@16      5f4d2be0   gdi32:GDI32.dll
+ 0004:00000be4       __imp__Polygon@12          5f4d2be4   gdi32:GDI32.dll
+ 0004:00000be8       __imp__Pie@36              5f4d2be8   gdi32:GDI32.dll
+ 0004:00000bec       __imp__Ellipse@20          5f4d2bec   gdi32:GDI32.dll
+ 0004:00000bf0       __imp__Chord@36            5f4d2bf0   gdi32:GDI32.dll
+ 0004:00000bf4       __imp__Polyline@12         5f4d2bf4   gdi32:GDI32.dll
+ 0004:00000bf8       __imp__Arc@36              5f4d2bf8   gdi32:GDI32.dll
+ 0004:00000bfc       __imp__GetCurrentPositionEx@8 5f4d2bfc   gdi32:GDI32.dll
+ 0004:00000c00       __imp__RectVisible@8       5f4d2c00   gdi32:GDI32.dll
+ 0004:00000c04       __imp__PtVisible@12        5f4d2c04   gdi32:GDI32.dll
+ 0004:00000c08       __imp__PaintRgn@8          5f4d2c08   gdi32:GDI32.dll
+ 0004:00000c0c       __imp__InvertRgn@8         5f4d2c0c   gdi32:GDI32.dll
+ 0004:00000c10       __imp__FrameRgn@20         5f4d2c10   gdi32:GDI32.dll
+ 0004:00000c14       __imp__FillRgn@12          5f4d2c14   gdi32:GDI32.dll
+ 0004:00000c18       __imp__LPtoDP@12           5f4d2c18   gdi32:GDI32.dll
+ 0004:00000c1c       __imp__DPtoLP@12           5f4d2c1c   gdi32:GDI32.dll
+ 0004:00000c20       __imp__GetWindowExtEx@8    5f4d2c20   gdi32:GDI32.dll
+ 0004:00000c24       __imp__GetWindowOrgEx@8    5f4d2c24   gdi32:GDI32.dll
+ 0004:00000c28       __imp__GetViewportExtEx@8  5f4d2c28   gdi32:GDI32.dll
+ 0004:00000c2c       __imp__GetViewportOrgEx@8  5f4d2c2c   gdi32:GDI32.dll
+ 0004:00000c30       __imp__GetMapMode@4        5f4d2c30   gdi32:GDI32.dll
+ 0004:00000c34       __imp__GetTextColor@4      5f4d2c34   gdi32:GDI32.dll
+ 0004:00000c38       __imp__GetStretchBltMode@4 5f4d2c38   gdi32:GDI32.dll
+ 0004:00000c3c       __imp__GetROP2@4           5f4d2c3c   gdi32:GDI32.dll
+ 0004:00000c40       __imp__GetPolyFillMode@4   5f4d2c40   gdi32:GDI32.dll
+ 0004:00000c44       __imp__GetBkMode@4         5f4d2c44   gdi32:GDI32.dll
+ 0004:00000c48       __imp__GetBkColor@4        5f4d2c48   gdi32:GDI32.dll
+ 0004:00000c4c       __imp__UpdateColors@4      5f4d2c4c   gdi32:GDI32.dll
+ 0004:00000c50       __imp__RealizePalette@4    5f4d2c50   gdi32:GDI32.dll
+ 0004:00000c54       __imp__GetNearestColor@8   5f4d2c54   gdi32:GDI32.dll
+ 0004:00000c58       __imp__SelectObject@8      5f4d2c58   gdi32:GDI32.dll
+ 0004:00000c5c       __imp__EnumObjects@16      5f4d2c5c   gdi32:GDI32.dll
+ 0004:00000c60       __imp__SetBrushOrgEx@16    5f4d2c60   gdi32:GDI32.dll
+ 0004:00000c64       __imp__GetBrushOrgEx@8     5f4d2c64   gdi32:GDI32.dll
+ 0004:00000c68       __imp__GetDeviceCaps@8     5f4d2c68   gdi32:GDI32.dll
+ 0004:00000c6c       __imp__CreateCompatibleDC@4 5f4d2c6c   gdi32:GDI32.dll
+ 0004:00000c70       __imp__CreateICA@16        5f4d2c70   gdi32:GDI32.dll
+ 0004:00000c74       __imp__CreateDCA@16        5f4d2c74   gdi32:GDI32.dll
+ 0004:00000c78       __imp__RectInRegion@8      5f4d2c78   gdi32:GDI32.dll
+ 0004:00000c7c       __imp__PtInRegion@12       5f4d2c7c   gdi32:GDI32.dll
+ 0004:00000c80       __imp__GetRgnBox@8         5f4d2c80   gdi32:GDI32.dll
+ 0004:00000c84       __imp__OffsetRgn@12        5f4d2c84   gdi32:GDI32.dll
+ 0004:00000c88       __imp__EqualRgn@8          5f4d2c88   gdi32:GDI32.dll
+ 0004:00000c8c       __imp__CombineRgn@16       5f4d2c8c   gdi32:GDI32.dll
+ 0004:00000c90       __imp__SetRectRgn@20       5f4d2c90   gdi32:GDI32.dll
+ 0004:00000c94       __imp__GetRegionData@12    5f4d2c94   gdi32:GDI32.dll
+ 0004:00000c98       __imp__ExtCreateRegion@12  5f4d2c98   gdi32:GDI32.dll
+ 0004:00000c9c       __imp__PathToRegion@4      5f4d2c9c   gdi32:GDI32.dll
+ 0004:00000ca0       __imp__CreateRoundRectRgn@24 5f4d2ca0   gdi32:GDI32.dll
+ 0004:00000ca4       __imp__CreatePolyPolygonRgn@16 5f4d2ca4   gdi32:GDI32.dll
+ 0004:00000ca8       __imp__CreatePolygonRgn@12 5f4d2ca8   gdi32:GDI32.dll
  0004:00000cac       __imp__CreateEllipticRgnIndirect@4 5f4d2cac   gdi32:GDI32.dll
  0004:00000cb0       __imp__CreateEllipticRgn@16 5f4d2cb0   gdi32:GDI32.dll
  0004:00000cb4       __imp__CreateRectRgnIndirect@4 5f4d2cb4   gdi32:GDI32.dll
@@ -8192,212 +8192,212 @@
  0004:00000d3c       __imp__CloseMetaFile@4     5f4d2d3c   gdi32:GDI32.dll
  0004:00000d40       __imp__CreateMetaFileA@4   5f4d2d40   gdi32:GDI32.dll
  0004:00000d44       \177GDI32_NULL_THUNK_DATA  5f4d2d44   gdi32:GDI32.dll
- 0004:00000d48       __imp__GetTempPathA@8      5f4d2d48   kernel32:KERNEL32.dll
- 0004:00000d4c       __imp__SearchPathA@24      5f4d2d4c   kernel32:KERNEL32.dll
- 0004:00000d50       __imp__GetCurrentThread@0  5f4d2d50   kernel32:KERNEL32.dll
- 0004:00000d54       __imp__GlobalDeleteAtom@4  5f4d2d54   kernel32:KERNEL32.dll
- 0004:00000d58       __imp__LocalLock@4         5f4d2d58   kernel32:KERNEL32.dll
- 0004:00000d5c       __imp__GetDiskFreeSpaceA@20 5f4d2d5c   kernel32:KERNEL32.dll
+ 0004:00000d48       __imp__LocalLock@4         5f4d2d48   kernel32:KERNEL32.dll
+ 0004:00000d4c       __imp__GetTempPathA@8      5f4d2d4c   kernel32:KERNEL32.dll
+ 0004:00000d50       __imp__SearchPathA@24      5f4d2d50   kernel32:KERNEL32.dll
+ 0004:00000d54       __imp__GetCurrentThread@0  5f4d2d54   kernel32:KERNEL32.dll
+ 0004:00000d58       __imp__GlobalDeleteAtom@4  5f4d2d58   kernel32:KERNEL32.dll
+ 0004:00000d5c       __imp__SetErrorMode@4      5f4d2d5c   kernel32:KERNEL32.dll
  0004:00000d60       __imp__LocalUnlock@4       5f4d2d60   kernel32:KERNEL32.dll
  0004:00000d64       __imp__WritePrivateProfileStringA@16 5f4d2d64   kernel32:KERNEL32.dll
  0004:00000d68       __imp__GetCurrentDirectoryA@8 5f4d2d68   kernel32:KERNEL32.dll
  0004:00000d6c       __imp__FindNextFileA@8     5f4d2d6c   kernel32:KERNEL32.dll
  0004:00000d70       __imp__GetModuleHandleA@4  5f4d2d70   kernel32:KERNEL32.dll
  0004:00000d74       __imp__GetSystemDirectoryA@8 5f4d2d74   kernel32:KERNEL32.dll
- 0004:00000d78       __imp__GetTempFileNameA@16 5f4d2d78   kernel32:KERNEL32.dll
- 0004:00000d7c       __imp__GlobalFlags@4       5f4d2d7c   kernel32:KERNEL32.dll
- 0004:00000d80       __imp__GetVersion@0        5f4d2d80   kernel32:KERNEL32.dll
- 0004:00000d84       __imp__GetProcessVersion@4 5f4d2d84   kernel32:KERNEL32.dll
- 0004:00000d88       __imp__SizeofResource@8    5f4d2d88   kernel32:KERNEL32.dll
- 0004:00000d8c       __imp__VirtualProtect@16   5f4d2d8c   kernel32:KERNEL32.dll
- 0004:00000d90       __imp__GetProfileIntA@12   5f4d2d90   kernel32:KERNEL32.dll
- 0004:00000d94       __imp__MulDiv@12           5f4d2d94   kernel32:KERNEL32.dll
- 0004:00000d98       __imp__GlobalGetAtomNameA@12 5f4d2d98   kernel32:KERNEL32.dll
- 0004:00000d9c       __imp__GlobalAddAtomA@4    5f4d2d9c   kernel32:KERNEL32.dll
- 0004:00000da0       __imp__FindResourceA@12    5f4d2da0   kernel32:KERNEL32.dll
- 0004:00000da4       __imp__LoadResource@8      5f4d2da4   kernel32:KERNEL32.dll
- 0004:00000da8       __imp__LockResource@4      5f4d2da8   kernel32:KERNEL32.dll
- 0004:00000dac       __imp__FreeResource@4      5f4d2dac   kernel32:KERNEL32.dll
- 0004:00000db0       __imp__lstrcatA@8          5f4d2db0   kernel32:KERNEL32.dll
- 0004:00000db4       __imp__GetCurrentThreadId@0 5f4d2db4   kernel32:KERNEL32.dll
- 0004:00000db8       __imp__WaitForMultipleObjects@16 5f4d2db8   kernel32:KERNEL32.dll
- 0004:00000dbc       __imp__CreateEventA@16     5f4d2dbc   kernel32:KERNEL32.dll
- 0004:00000dc0       __imp__ReleaseMutex@4      5f4d2dc0   kernel32:KERNEL32.dll
- 0004:00000dc4       __imp__CreateMutexA@12     5f4d2dc4   kernel32:KERNEL32.dll
- 0004:00000dc8       __imp__ReleaseSemaphore@12 5f4d2dc8   kernel32:KERNEL32.dll
- 0004:00000dcc       __imp__CreateSemaphoreA@16 5f4d2dcc   kernel32:KERNEL32.dll
- 0004:00000dd0       __imp__ResetEvent@4        5f4d2dd0   kernel32:KERNEL32.dll
- 0004:00000dd4       __imp__PulseEvent@4        5f4d2dd4   kernel32:KERNEL32.dll
- 0004:00000dd8       __imp__SetEvent@4          5f4d2dd8   kernel32:KERNEL32.dll
- 0004:00000ddc       __imp__WaitForSingleObject@8 5f4d2ddc   kernel32:KERNEL32.dll
- 0004:00000de0       __imp__TlsGetValue@4       5f4d2de0   kernel32:KERNEL32.dll
- 0004:00000de4       __imp__LocalReAlloc@12     5f4d2de4   kernel32:KERNEL32.dll
- 0004:00000de8       __imp__TlsSetValue@8       5f4d2de8   kernel32:KERNEL32.dll
- 0004:00000dec       __imp__EnterCriticalSection@4 5f4d2dec   kernel32:KERNEL32.dll
- 0004:00000df0       __imp__LeaveCriticalSection@4 5f4d2df0   kernel32:KERNEL32.dll
- 0004:00000df4       __imp__TlsFree@4           5f4d2df4   kernel32:KERNEL32.dll
- 0004:00000df8       __imp__GlobalHandle@4      5f4d2df8   kernel32:KERNEL32.dll
- 0004:00000dfc       __imp__DeleteCriticalSection@4 5f4d2dfc   kernel32:KERNEL32.dll
- 0004:00000e00       __imp__TlsAlloc@0          5f4d2e00   kernel32:KERNEL32.dll
- 0004:00000e04       __imp__InitializeCriticalSection@4 5f4d2e04   kernel32:KERNEL32.dll
- 0004:00000e08       __imp__GetOEMCP@0          5f4d2e08   kernel32:KERNEL32.dll
- 0004:00000e0c       __imp__GetCPInfo@8         5f4d2e0c   kernel32:KERNEL32.dll
- 0004:00000e10       __imp__FileTimeToLocalFileTime@8 5f4d2e10   kernel32:KERNEL32.dll
- 0004:00000e14       __imp__FileTimeToSystemTime@8 5f4d2e14   kernel32:KERNEL32.dll
- 0004:00000e18       __imp__FormatMessageA@28   5f4d2e18   kernel32:KERNEL32.dll
- 0004:00000e1c       __imp__LocalFree@4         5f4d2e1c   kernel32:KERNEL32.dll
- 0004:00000e20       __imp__MultiByteToWideChar@24 5f4d2e20   kernel32:KERNEL32.dll
- 0004:00000e24       __imp__WideCharToMultiByte@32 5f4d2e24   kernel32:KERNEL32.dll
- 0004:00000e28       __imp__InterlockedDecrement@4 5f4d2e28   kernel32:KERNEL32.dll
- 0004:00000e2c       __imp__InterlockedIncrement@4 5f4d2e2c   kernel32:KERNEL32.dll
- 0004:00000e30       __imp__GetFileAttributesA@4 5f4d2e30   kernel32:KERNEL32.dll
- 0004:00000e34       __imp__SetFileTime@16      5f4d2e34   kernel32:KERNEL32.dll
- 0004:00000e38       __imp__SetFileAttributesA@8 5f4d2e38   kernel32:KERNEL32.dll
- 0004:00000e3c       __imp__SystemTimeToFileTime@8 5f4d2e3c   kernel32:KERNEL32.dll
- 0004:00000e40       __imp__LocalFileTimeToFileTime@8 5f4d2e40   kernel32:KERNEL32.dll
- 0004:00000e44       __imp__GetFileTime@16      5f4d2e44   kernel32:KERNEL32.dll
- 0004:00000e48       __imp__GetFileSize@8       5f4d2e48   kernel32:KERNEL32.dll
- 0004:00000e4c       __imp__GlobalFree@4        5f4d2e4c   kernel32:KERNEL32.dll
- 0004:00000e50       __imp__GlobalUnlock@4      5f4d2e50   kernel32:KERNEL32.dll
- 0004:00000e54       __imp__GlobalReAlloc@12    5f4d2e54   kernel32:KERNEL32.dll
- 0004:00000e58       __imp__GlobalAlloc@8       5f4d2e58   kernel32:KERNEL32.dll
- 0004:00000e5c       __imp__GlobalLock@4        5f4d2e5c   kernel32:KERNEL32.dll
- 0004:00000e60       __imp__GlobalSize@4        5f4d2e60   kernel32:KERNEL32.dll
- 0004:00000e64       __imp__GetModuleFileNameA@12 5f4d2e64   kernel32:KERNEL32.dll
- 0004:00000e68       __imp__GetShortPathNameA@12 5f4d2e68   kernel32:KERNEL32.dll
- 0004:00000e6c       __imp__lstrcmpiA@8         5f4d2e6c   kernel32:KERNEL32.dll
- 0004:00000e70       __imp__GetThreadLocale@0   5f4d2e70   kernel32:KERNEL32.dll
- 0004:00000e74       __imp__GetStringTypeExA@20 5f4d2e74   kernel32:KERNEL32.dll
- 0004:00000e78       __imp__GetFullPathNameA@16 5f4d2e78   kernel32:KERNEL32.dll
- 0004:00000e7c       __imp__GetVolumeInformationA@32 5f4d2e7c   kernel32:KERNEL32.dll
- 0004:00000e80       __imp__FindFirstFileA@8    5f4d2e80   kernel32:KERNEL32.dll
- 0004:00000e84       __imp__FindClose@4         5f4d2e84   kernel32:KERNEL32.dll
- 0004:00000e88       __imp__lstrcpyA@8          5f4d2e88   kernel32:KERNEL32.dll
- 0004:00000e8c       __imp__LoadLibraryA@4      5f4d2e8c   kernel32:KERNEL32.dll
- 0004:00000e90       __imp__GetProcAddress@8    5f4d2e90   kernel32:KERNEL32.dll
- 0004:00000e94       __imp__FreeLibrary@4       5f4d2e94   kernel32:KERNEL32.dll
- 0004:00000e98       __imp__DeleteFileA@4       5f4d2e98   kernel32:KERNEL32.dll
- 0004:00000e9c       __imp__MoveFileA@8         5f4d2e9c   kernel32:KERNEL32.dll
- 0004:00000ea0       __imp__SetEndOfFile@4      5f4d2ea0   kernel32:KERNEL32.dll
- 0004:00000ea4       __imp__UnlockFile@20       5f4d2ea4   kernel32:KERNEL32.dll
- 0004:00000ea8       __imp__LockFile@20         5f4d2ea8   kernel32:KERNEL32.dll
- 0004:00000eac       __imp__CloseHandle@4       5f4d2eac   kernel32:KERNEL32.dll
- 0004:00000eb0       __imp__FlushFileBuffers@4  5f4d2eb0   kernel32:KERNEL32.dll
- 0004:00000eb4       __imp__SetFilePointer@16   5f4d2eb4   kernel32:KERNEL32.dll
- 0004:00000eb8       __imp__WriteFile@20        5f4d2eb8   kernel32:KERNEL32.dll
- 0004:00000ebc       __imp__ReadFile@20         5f4d2ebc   kernel32:KERNEL32.dll
- 0004:00000ec0       __imp__CreateFileA@28      5f4d2ec0   kernel32:KERNEL32.dll
- 0004:00000ec4       __imp__GetCurrentProcess@0 5f4d2ec4   kernel32:KERNEL32.dll
- 0004:00000ec8       __imp__DuplicateHandle@28  5f4d2ec8   kernel32:KERNEL32.dll
- 0004:00000ecc       __imp__SuspendThread@4     5f4d2ecc   kernel32:KERNEL32.dll
- 0004:00000ed0       __imp__ResumeThread@4      5f4d2ed0   kernel32:KERNEL32.dll
- 0004:00000ed4       __imp__GetThreadPriority@4 5f4d2ed4   kernel32:KERNEL32.dll
- 0004:00000ed8       __imp__SetThreadPriority@8 5f4d2ed8   kernel32:KERNEL32.dll
- 0004:00000edc       __imp__GetPrivateProfileIntA@16 5f4d2edc   kernel32:KERNEL32.dll
- 0004:00000ee0       __imp__lstrcmpA@8          5f4d2ee0   kernel32:KERNEL32.dll
- 0004:00000ee4       __imp__lstrlenA@4          5f4d2ee4   kernel32:KERNEL32.dll
- 0004:00000ee8       __imp__IsBadReadPtr@8      5f4d2ee8   kernel32:KERNEL32.dll
- 0004:00000eec       __imp__IsBadWritePtr@8     5f4d2eec   kernel32:KERNEL32.dll
- 0004:00000ef0       __imp__IsBadStringPtrA@8   5f4d2ef0   kernel32:KERNEL32.dll
- 0004:00000ef4       __imp__IsBadStringPtrW@8   5f4d2ef4   kernel32:KERNEL32.dll
- 0004:00000ef8       __imp__lstrcpynA@12        5f4d2ef8   kernel32:KERNEL32.dll
- 0004:00000efc       __imp__GetLastError@0      5f4d2efc   kernel32:KERNEL32.dll
- 0004:00000f00       __imp__SetLastError@4      5f4d2f00   kernel32:KERNEL32.dll
- 0004:00000f04       __imp__SetErrorMode@4      5f4d2f04   kernel32:KERNEL32.dll
- 0004:00000f08       __imp__GetPrivateProfileStringA@24 5f4d2f08   kernel32:KERNEL32.dll
- 0004:00000f0c       __imp__LocalAlloc@8        5f4d2f0c   kernel32:KERNEL32.dll
+ 0004:00000d78       __imp__GetDiskFreeSpaceA@20 5f4d2d78   kernel32:KERNEL32.dll
+ 0004:00000d7c       __imp__GetTempFileNameA@16 5f4d2d7c   kernel32:KERNEL32.dll
+ 0004:00000d80       __imp__GlobalFlags@4       5f4d2d80   kernel32:KERNEL32.dll
+ 0004:00000d84       __imp__GetVersion@0        5f4d2d84   kernel32:KERNEL32.dll
+ 0004:00000d88       __imp__GetProcessVersion@4 5f4d2d88   kernel32:KERNEL32.dll
+ 0004:00000d8c       __imp__SizeofResource@8    5f4d2d8c   kernel32:KERNEL32.dll
+ 0004:00000d90       __imp__VirtualProtect@16   5f4d2d90   kernel32:KERNEL32.dll
+ 0004:00000d94       __imp__GetProfileIntA@12   5f4d2d94   kernel32:KERNEL32.dll
+ 0004:00000d98       __imp__MulDiv@12           5f4d2d98   kernel32:KERNEL32.dll
+ 0004:00000d9c       __imp__GlobalGetAtomNameA@12 5f4d2d9c   kernel32:KERNEL32.dll
+ 0004:00000da0       __imp__GlobalAddAtomA@4    5f4d2da0   kernel32:KERNEL32.dll
+ 0004:00000da4       __imp__FindResourceA@12    5f4d2da4   kernel32:KERNEL32.dll
+ 0004:00000da8       __imp__LoadResource@8      5f4d2da8   kernel32:KERNEL32.dll
+ 0004:00000dac       __imp__LockResource@4      5f4d2dac   kernel32:KERNEL32.dll
+ 0004:00000db0       __imp__FreeResource@4      5f4d2db0   kernel32:KERNEL32.dll
+ 0004:00000db4       __imp__lstrcatA@8          5f4d2db4   kernel32:KERNEL32.dll
+ 0004:00000db8       __imp__GetCurrentThreadId@0 5f4d2db8   kernel32:KERNEL32.dll
+ 0004:00000dbc       __imp__WaitForMultipleObjects@16 5f4d2dbc   kernel32:KERNEL32.dll
+ 0004:00000dc0       __imp__CreateEventA@16     5f4d2dc0   kernel32:KERNEL32.dll
+ 0004:00000dc4       __imp__ReleaseMutex@4      5f4d2dc4   kernel32:KERNEL32.dll
+ 0004:00000dc8       __imp__CreateMutexA@12     5f4d2dc8   kernel32:KERNEL32.dll
+ 0004:00000dcc       __imp__ReleaseSemaphore@12 5f4d2dcc   kernel32:KERNEL32.dll
+ 0004:00000dd0       __imp__CreateSemaphoreA@16 5f4d2dd0   kernel32:KERNEL32.dll
+ 0004:00000dd4       __imp__ResetEvent@4        5f4d2dd4   kernel32:KERNEL32.dll
+ 0004:00000dd8       __imp__PulseEvent@4        5f4d2dd8   kernel32:KERNEL32.dll
+ 0004:00000ddc       __imp__SetEvent@4          5f4d2ddc   kernel32:KERNEL32.dll
+ 0004:00000de0       __imp__WaitForSingleObject@8 5f4d2de0   kernel32:KERNEL32.dll
+ 0004:00000de4       __imp__TlsGetValue@4       5f4d2de4   kernel32:KERNEL32.dll
+ 0004:00000de8       __imp__LocalReAlloc@12     5f4d2de8   kernel32:KERNEL32.dll
+ 0004:00000dec       __imp__TlsSetValue@8       5f4d2dec   kernel32:KERNEL32.dll
+ 0004:00000df0       __imp__EnterCriticalSection@4 5f4d2df0   kernel32:KERNEL32.dll
+ 0004:00000df4       __imp__LeaveCriticalSection@4 5f4d2df4   kernel32:KERNEL32.dll
+ 0004:00000df8       __imp__TlsFree@4           5f4d2df8   kernel32:KERNEL32.dll
+ 0004:00000dfc       __imp__GlobalHandle@4      5f4d2dfc   kernel32:KERNEL32.dll
+ 0004:00000e00       __imp__DeleteCriticalSection@4 5f4d2e00   kernel32:KERNEL32.dll
+ 0004:00000e04       __imp__TlsAlloc@0          5f4d2e04   kernel32:KERNEL32.dll
+ 0004:00000e08       __imp__InitializeCriticalSection@4 5f4d2e08   kernel32:KERNEL32.dll
+ 0004:00000e0c       __imp__LocalAlloc@8        5f4d2e0c   kernel32:KERNEL32.dll
+ 0004:00000e10       __imp__GetOEMCP@0          5f4d2e10   kernel32:KERNEL32.dll
+ 0004:00000e14       __imp__GetCPInfo@8         5f4d2e14   kernel32:KERNEL32.dll
+ 0004:00000e18       __imp__FileTimeToLocalFileTime@8 5f4d2e18   kernel32:KERNEL32.dll
+ 0004:00000e1c       __imp__FileTimeToSystemTime@8 5f4d2e1c   kernel32:KERNEL32.dll
+ 0004:00000e20       __imp__FormatMessageA@28   5f4d2e20   kernel32:KERNEL32.dll
+ 0004:00000e24       __imp__LocalFree@4         5f4d2e24   kernel32:KERNEL32.dll
+ 0004:00000e28       __imp__MultiByteToWideChar@24 5f4d2e28   kernel32:KERNEL32.dll
+ 0004:00000e2c       __imp__WideCharToMultiByte@32 5f4d2e2c   kernel32:KERNEL32.dll
+ 0004:00000e30       __imp__InterlockedDecrement@4 5f4d2e30   kernel32:KERNEL32.dll
+ 0004:00000e34       __imp__InterlockedIncrement@4 5f4d2e34   kernel32:KERNEL32.dll
+ 0004:00000e38       __imp__GetFileAttributesA@4 5f4d2e38   kernel32:KERNEL32.dll
+ 0004:00000e3c       __imp__SetFileTime@16      5f4d2e3c   kernel32:KERNEL32.dll
+ 0004:00000e40       __imp__SetFileAttributesA@8 5f4d2e40   kernel32:KERNEL32.dll
+ 0004:00000e44       __imp__SystemTimeToFileTime@8 5f4d2e44   kernel32:KERNEL32.dll
+ 0004:00000e48       __imp__LocalFileTimeToFileTime@8 5f4d2e48   kernel32:KERNEL32.dll
+ 0004:00000e4c       __imp__GetFileTime@16      5f4d2e4c   kernel32:KERNEL32.dll
+ 0004:00000e50       __imp__GetFileSize@8       5f4d2e50   kernel32:KERNEL32.dll
+ 0004:00000e54       __imp__GlobalFree@4        5f4d2e54   kernel32:KERNEL32.dll
+ 0004:00000e58       __imp__GlobalUnlock@4      5f4d2e58   kernel32:KERNEL32.dll
+ 0004:00000e5c       __imp__GlobalReAlloc@12    5f4d2e5c   kernel32:KERNEL32.dll
+ 0004:00000e60       __imp__GlobalAlloc@8       5f4d2e60   kernel32:KERNEL32.dll
+ 0004:00000e64       __imp__GlobalLock@4        5f4d2e64   kernel32:KERNEL32.dll
+ 0004:00000e68       __imp__GlobalSize@4        5f4d2e68   kernel32:KERNEL32.dll
+ 0004:00000e6c       __imp__GetModuleFileNameA@12 5f4d2e6c   kernel32:KERNEL32.dll
+ 0004:00000e70       __imp__GetShortPathNameA@12 5f4d2e70   kernel32:KERNEL32.dll
+ 0004:00000e74       __imp__lstrcmpiA@8         5f4d2e74   kernel32:KERNEL32.dll
+ 0004:00000e78       __imp__GetThreadLocale@0   5f4d2e78   kernel32:KERNEL32.dll
+ 0004:00000e7c       __imp__GetStringTypeExA@20 5f4d2e7c   kernel32:KERNEL32.dll
+ 0004:00000e80       __imp__GetFullPathNameA@16 5f4d2e80   kernel32:KERNEL32.dll
+ 0004:00000e84       __imp__GetVolumeInformationA@32 5f4d2e84   kernel32:KERNEL32.dll
+ 0004:00000e88       __imp__FindFirstFileA@8    5f4d2e88   kernel32:KERNEL32.dll
+ 0004:00000e8c       __imp__FindClose@4         5f4d2e8c   kernel32:KERNEL32.dll
+ 0004:00000e90       __imp__lstrcpyA@8          5f4d2e90   kernel32:KERNEL32.dll
+ 0004:00000e94       __imp__LoadLibraryA@4      5f4d2e94   kernel32:KERNEL32.dll
+ 0004:00000e98       __imp__GetProcAddress@8    5f4d2e98   kernel32:KERNEL32.dll
+ 0004:00000e9c       __imp__FreeLibrary@4       5f4d2e9c   kernel32:KERNEL32.dll
+ 0004:00000ea0       __imp__DeleteFileA@4       5f4d2ea0   kernel32:KERNEL32.dll
+ 0004:00000ea4       __imp__MoveFileA@8         5f4d2ea4   kernel32:KERNEL32.dll
+ 0004:00000ea8       __imp__SetEndOfFile@4      5f4d2ea8   kernel32:KERNEL32.dll
+ 0004:00000eac       __imp__UnlockFile@20       5f4d2eac   kernel32:KERNEL32.dll
+ 0004:00000eb0       __imp__LockFile@20         5f4d2eb0   kernel32:KERNEL32.dll
+ 0004:00000eb4       __imp__CloseHandle@4       5f4d2eb4   kernel32:KERNEL32.dll
+ 0004:00000eb8       __imp__FlushFileBuffers@4  5f4d2eb8   kernel32:KERNEL32.dll
+ 0004:00000ebc       __imp__SetFilePointer@16   5f4d2ebc   kernel32:KERNEL32.dll
+ 0004:00000ec0       __imp__WriteFile@20        5f4d2ec0   kernel32:KERNEL32.dll
+ 0004:00000ec4       __imp__ReadFile@20         5f4d2ec4   kernel32:KERNEL32.dll
+ 0004:00000ec8       __imp__CreateFileA@28      5f4d2ec8   kernel32:KERNEL32.dll
+ 0004:00000ecc       __imp__GetCurrentProcess@0 5f4d2ecc   kernel32:KERNEL32.dll
+ 0004:00000ed0       __imp__DuplicateHandle@28  5f4d2ed0   kernel32:KERNEL32.dll
+ 0004:00000ed4       __imp__SuspendThread@4     5f4d2ed4   kernel32:KERNEL32.dll
+ 0004:00000ed8       __imp__ResumeThread@4      5f4d2ed8   kernel32:KERNEL32.dll
+ 0004:00000edc       __imp__GetThreadPriority@4 5f4d2edc   kernel32:KERNEL32.dll
+ 0004:00000ee0       __imp__SetThreadPriority@8 5f4d2ee0   kernel32:KERNEL32.dll
+ 0004:00000ee4       __imp__GetPrivateProfileIntA@16 5f4d2ee4   kernel32:KERNEL32.dll
+ 0004:00000ee8       __imp__lstrcmpA@8          5f4d2ee8   kernel32:KERNEL32.dll
+ 0004:00000eec       __imp__lstrlenA@4          5f4d2eec   kernel32:KERNEL32.dll
+ 0004:00000ef0       __imp__IsBadReadPtr@8      5f4d2ef0   kernel32:KERNEL32.dll
+ 0004:00000ef4       __imp__IsBadWritePtr@8     5f4d2ef4   kernel32:KERNEL32.dll
+ 0004:00000ef8       __imp__IsBadStringPtrA@8   5f4d2ef8   kernel32:KERNEL32.dll
+ 0004:00000efc       __imp__IsBadStringPtrW@8   5f4d2efc   kernel32:KERNEL32.dll
+ 0004:00000f00       __imp__lstrcpynA@12        5f4d2f00   kernel32:KERNEL32.dll
+ 0004:00000f04       __imp__GetLastError@0      5f4d2f04   kernel32:KERNEL32.dll
+ 0004:00000f08       __imp__SetLastError@4      5f4d2f08   kernel32:KERNEL32.dll
+ 0004:00000f0c       __imp__GetPrivateProfileStringA@24 5f4d2f0c   kernel32:KERNEL32.dll
  0004:00000f10       \177KERNEL32_NULL_THUNK_DATA 5f4d2f10   kernel32:KERNEL32.dll
- 0004:00000f14       __imp__LoadStringA@16      5f4d2f14   user32:USER32.dll
- 0004:00000f18       __imp__ScreenToClient@8    5f4d2f18   user32:USER32.dll
- 0004:00000f1c       __imp__ClientToScreen@8    5f4d2f1c   user32:USER32.dll
- 0004:00000f20       __imp__UnregisterClassA@8  5f4d2f20   user32:USER32.dll
- 0004:00000f24       __imp__MessageBeep@4       5f4d2f24   user32:USER32.dll
- 0004:00000f28       __imp__IsClipboardFormatAvailable@4 5f4d2f28   user32:USER32.dll
- 0004:00000f2c       __imp__MessageBoxA@16      5f4d2f2c   user32:USER32.dll
- 0004:00000f30       __imp__BeginPaint@8        5f4d2f30   user32:USER32.dll
- 0004:00000f34       __imp__EndPaint@8          5f4d2f34   user32:USER32.dll
- 0004:00000f38       __imp__DestroyIcon@4       5f4d2f38   user32:USER32.dll
- 0004:00000f3c       __imp__GetMenuCheckMarkDimensions@0 5f4d2f3c   user32:USER32.dll
- 0004:00000f40       __imp__SetCursorPos@8      5f4d2f40   user32:USER32.dll
- 0004:00000f44       __imp__IsDialogMessageA@8  5f4d2f44   user32:USER32.dll
- 0004:00000f48       __imp__ScrollWindowEx@32   5f4d2f48   user32:USER32.dll
- 0004:00000f4c       __imp__MoveWindow@24       5f4d2f4c   user32:USER32.dll
- 0004:00000f50       __imp__SetDlgItemTextA@12  5f4d2f50   user32:USER32.dll
- 0004:00000f54       __imp__SetDlgItemInt@16    5f4d2f54   user32:USER32.dll
- 0004:00000f58       __imp__IsDlgButtonChecked@8 5f4d2f58   user32:USER32.dll
- 0004:00000f5c       __imp__GetDlgItemInt@16    5f4d2f5c   user32:USER32.dll
- 0004:00000f60       __imp__CheckRadioButton@16 5f4d2f60   user32:USER32.dll
- 0004:00000f64       __imp__GetDlgItemTextA@16  5f4d2f64   user32:USER32.dll
- 0004:00000f68       __imp__SetWindowTextA@8    5f4d2f68   user32:USER32.dll
- 0004:00000f6c       __imp__GetClipboardFormatNameA@12 5f4d2f6c   user32:USER32.dll
- 0004:00000f70       __imp__CheckDlgButton@12   5f4d2f70   user32:USER32.dll
- 0004:00000f74       __imp__GetAsyncKeyState@4  5f4d2f74   user32:USER32.dll
- 0004:00000f78       __imp__wvsprintfA@12       5f4d2f78   user32:USER32.dll
- 0004:00000f7c       __imp__GetDialogBaseUnits@0 5f4d2f7c   user32:USER32.dll
- 0004:00000f80       __imp__CreateDialogIndirectParamA@20 5f4d2f80   user32:USER32.dll
- 0004:00000f84       __imp__DefMDIChildProcA@16 5f4d2f84   user32:USER32.dll
- 0004:00000f88       __imp__EndDialog@8         5f4d2f88   user32:USER32.dll
- 0004:00000f8c       __imp__DefFrameProcA@20    5f4d2f8c   user32:USER32.dll
- 0004:00000f90       __imp__GetMessageA@16      5f4d2f90   user32:USER32.dll
- 0004:00000f94       __imp__TranslateMDISysAccel@8 5f4d2f94   user32:USER32.dll
- 0004:00000f98       __imp__GetWindowThreadProcessId@8 5f4d2f98   user32:USER32.dll
- 0004:00000f9c       __imp__GetCursorPos@4      5f4d2f9c   user32:USER32.dll
- 0004:00000fa0       __imp__TranslateMessage@4  5f4d2fa0   user32:USER32.dll
- 0004:00000fa4       __imp__UnpackDDElParam@16  5f4d2fa4   user32:USER32.dll
- 0004:00000fa8       __imp__ReuseDDElParam@20   5f4d2fa8   user32:USER32.dll
- 0004:00000fac       __imp__WaitMessage@0       5f4d2fac   user32:USER32.dll
- 0004:00000fb0       __imp__ShowWindow@8        5f4d2fb0   user32:USER32.dll
- 0004:00000fb4       __imp__SetCursor@4         5f4d2fb4   user32:USER32.dll
- 0004:00000fb8       __imp__DestroyMenu@4       5f4d2fb8   user32:USER32.dll
- 0004:00000fbc       __imp__TranslateAcceleratorA@12 5f4d2fbc   user32:USER32.dll
- 0004:00000fc0       __imp__LoadAcceleratorsA@8 5f4d2fc0   user32:USER32.dll
- 0004:00000fc4       __imp__ReleaseCapture@0    5f4d2fc4   user32:USER32.dll
- 0004:00000fc8       __imp__SystemParametersInfoA@16 5f4d2fc8   user32:USER32.dll
- 0004:00000fcc       __imp__GetSysColor@4       5f4d2fcc   user32:USER32.dll
+ 0004:00000f14       __imp__CloseWindow@4       5f4d2f14   user32:USER32.dll
+ 0004:00000f18       __imp__OpenIcon@4          5f4d2f18   user32:USER32.dll
+ 0004:00000f1c       __imp__CharUpperA@4        5f4d2f1c   user32:USER32.dll
+ 0004:00000f20       __imp__GetSystemMetrics@4  5f4d2f20   user32:USER32.dll
+ 0004:00000f24       __imp__CharLowerA@4        5f4d2f24   user32:USER32.dll
+ 0004:00000f28       __imp__CharToOemA@8        5f4d2f28   user32:USER32.dll
+ 0004:00000f2c       __imp__OemToCharA@8        5f4d2f2c   user32:USER32.dll
+ 0004:00000f30       __imp__UnhookWindowsHookEx@4 5f4d2f30   user32:USER32.dll
+ 0004:00000f34       __imp__MsgWaitForMultipleObjects@20 5f4d2f34   user32:USER32.dll
+ 0004:00000f38       __imp__RegisterWindowMessageA@4 5f4d2f38   user32:USER32.dll
+ 0004:00000f3c       __imp__SetWindowPos@28     5f4d2f3c   user32:USER32.dll
+ 0004:00000f40       __imp__SetWindowLongA@12   5f4d2f40   user32:USER32.dll
+ 0004:00000f44       __imp__GetMessagePos@0     5f4d2f44   user32:USER32.dll
+ 0004:00000f48       __imp__GetMessageTime@0    5f4d2f48   user32:USER32.dll
+ 0004:00000f4c       __imp__CallWindowProcA@20  5f4d2f4c   user32:USER32.dll
+ 0004:00000f50       __imp__RemovePropA@8       5f4d2f50   user32:USER32.dll
+ 0004:00000f54       __imp__GetPropA@8          5f4d2f54   user32:USER32.dll
+ 0004:00000f58       __imp__CallNextHookEx@16   5f4d2f58   user32:USER32.dll
+ 0004:00000f5c       __imp__SetPropA@12         5f4d2f5c   user32:USER32.dll
+ 0004:00000f60       __imp__SetWindowsHookExA@16 5f4d2f60   user32:USER32.dll
+ 0004:00000f64       __imp__CreateWindowExA@48  5f4d2f64   user32:USER32.dll
+ 0004:00000f68       __imp__GetDlgCtrlID@4      5f4d2f68   user32:USER32.dll
+ 0004:00000f6c       __imp__GetClassNameA@12    5f4d2f6c   user32:USER32.dll
+ 0004:00000f70       __imp__DefWindowProcA@16   5f4d2f70   user32:USER32.dll
+ 0004:00000f74       __imp__DestroyWindow@4     5f4d2f74   user32:USER32.dll
+ 0004:00000f78       __imp__GetKeyState@4       5f4d2f78   user32:USER32.dll
+ 0004:00000f7c       __imp__GetWindowTextA@12   5f4d2f7c   user32:USER32.dll
+ 0004:00000f80       __imp__GetWindowTextLengthA@4 5f4d2f80   user32:USER32.dll
+ 0004:00000f84       __imp__GetDlgItem@8        5f4d2f84   user32:USER32.dll
+ 0004:00000f88       __imp__GetWindowPlacement@8 5f4d2f88   user32:USER32.dll
+ 0004:00000f8c       __imp__SetWindowPlacement@8 5f4d2f8c   user32:USER32.dll
+ 0004:00000f90       __imp__TrackPopupMenu@28   5f4d2f90   user32:USER32.dll
+ 0004:00000f94       __imp__RegisterClassA@4    5f4d2f94   user32:USER32.dll
+ 0004:00000f98       __imp__GetClassInfoA@12    5f4d2f98   user32:USER32.dll
+ 0004:00000f9c       __imp__WinHelpA@16         5f4d2f9c   user32:USER32.dll
+ 0004:00000fa0       __imp__IsWindowEnabled@4   5f4d2fa0   user32:USER32.dll
+ 0004:00000fa4       __imp__SetScrollInfo@16    5f4d2fa4   user32:USER32.dll
+ 0004:00000fa8       __imp__GetScrollInfo@12    5f4d2fa8   user32:USER32.dll
+ 0004:00000fac       __imp__ScrollWindow@20     5f4d2fac   user32:USER32.dll
+ 0004:00000fb0       __imp__EndDeferWindowPos@4 5f4d2fb0   user32:USER32.dll
+ 0004:00000fb4       __imp__BeginDeferWindowPos@4 5f4d2fb4   user32:USER32.dll
+ 0004:00000fb8       __imp__DeferWindowPos@32   5f4d2fb8   user32:USER32.dll
+ 0004:00000fbc       __imp__AdjustWindowRectEx@16 5f4d2fbc   user32:USER32.dll
+ 0004:00000fc0       __imp__SetFocus@4          5f4d2fc0   user32:USER32.dll
+ 0004:00000fc4       __imp__DispatchMessageA@4  5f4d2fc4   user32:USER32.dll
+ 0004:00000fc8       __imp__GetSysColor@4       5f4d2fc8   user32:USER32.dll
+ 0004:00000fcc       __imp__SystemParametersInfoA@16 5f4d2fcc   user32:USER32.dll
  0004:00000fd0       __imp__SendDlgItemMessageA@20 5f4d2fd0   user32:USER32.dll
- 0004:00000fd4       __imp__SetFocus@4          5f4d2fd4   user32:USER32.dll
- 0004:00000fd8       __imp__AdjustWindowRectEx@16 5f4d2fd8   user32:USER32.dll
- 0004:00000fdc       __imp__DispatchMessageA@4  5f4d2fdc   user32:USER32.dll
- 0004:00000fe0       __imp__BeginDeferWindowPos@4 5f4d2fe0   user32:USER32.dll
- 0004:00000fe4       __imp__EndDeferWindowPos@4 5f4d2fe4   user32:USER32.dll
- 0004:00000fe8       __imp__DeferWindowPos@32   5f4d2fe8   user32:USER32.dll
- 0004:00000fec       __imp__GetScrollInfo@12    5f4d2fec   user32:USER32.dll
- 0004:00000ff0       __imp__SetScrollInfo@16    5f4d2ff0   user32:USER32.dll
- 0004:00000ff4       __imp__ScrollWindow@20     5f4d2ff4   user32:USER32.dll
- 0004:00000ff8       __imp__WinHelpA@16         5f4d2ff8   user32:USER32.dll
- 0004:00000ffc       __imp__GetClassInfoA@12    5f4d2ffc   user32:USER32.dll
- 0004:00001000       __imp__IsWindowEnabled@4   5f4d3000   user32:USER32.dll
- 0004:00001004       __imp__TrackPopupMenu@28   5f4d3004   user32:USER32.dll
- 0004:00001008       __imp__SetWindowPlacement@8 5f4d3008   user32:USER32.dll
- 0004:0000100c       __imp__RegisterClassA@4    5f4d300c   user32:USER32.dll
- 0004:00001010       __imp__GetDlgItem@8        5f4d3010   user32:USER32.dll
- 0004:00001014       __imp__GetWindowTextLengthA@4 5f4d3014   user32:USER32.dll
- 0004:00001018       __imp__GetWindowPlacement@8 5f4d3018   user32:USER32.dll
- 0004:0000101c       __imp__GetKeyState@4       5f4d301c   user32:USER32.dll
- 0004:00001020       __imp__DestroyWindow@4     5f4d3020   user32:USER32.dll
- 0004:00001024       __imp__GetWindowTextA@12   5f4d3024   user32:USER32.dll
- 0004:00001028       __imp__GetClassNameA@12    5f4d3028   user32:USER32.dll
- 0004:0000102c       __imp__GetDlgCtrlID@4      5f4d302c   user32:USER32.dll
- 0004:00001030       __imp__DefWindowProcA@16   5f4d3030   user32:USER32.dll
- 0004:00001034       __imp__SetWindowsHookExA@16 5f4d3034   user32:USER32.dll
- 0004:00001038       __imp__SetPropA@12         5f4d3038   user32:USER32.dll
- 0004:0000103c       __imp__CreateWindowExA@48  5f4d303c   user32:USER32.dll
- 0004:00001040       __imp__GetPropA@8          5f4d3040   user32:USER32.dll
- 0004:00001044       __imp__RemovePropA@8       5f4d3044   user32:USER32.dll
- 0004:00001048       __imp__CallNextHookEx@16   5f4d3048   user32:USER32.dll
- 0004:0000104c       __imp__GetMessageTime@0    5f4d304c   user32:USER32.dll
- 0004:00001050       __imp__GetMessagePos@0     5f4d3050   user32:USER32.dll
- 0004:00001054       __imp__CallWindowProcA@20  5f4d3054   user32:USER32.dll
- 0004:00001058       __imp__SetWindowPos@28     5f4d3058   user32:USER32.dll
- 0004:0000105c       __imp__RegisterWindowMessageA@4 5f4d305c   user32:USER32.dll
- 0004:00001060       __imp__SetWindowLongA@12   5f4d3060   user32:USER32.dll
- 0004:00001064       __imp__UnhookWindowsHookEx@4 5f4d3064   user32:USER32.dll
- 0004:00001068       __imp__OemToCharA@8        5f4d3068   user32:USER32.dll
- 0004:0000106c       __imp__MsgWaitForMultipleObjects@20 5f4d306c   user32:USER32.dll
- 0004:00001070       __imp__CharLowerA@4        5f4d3070   user32:USER32.dll
- 0004:00001074       __imp__GetSystemMetrics@4  5f4d3074   user32:USER32.dll
- 0004:00001078       __imp__CharToOemA@8        5f4d3078   user32:USER32.dll
- 0004:0000107c       __imp__OpenIcon@4          5f4d307c   user32:USER32.dll
+ 0004:00000fd4       __imp__LoadAcceleratorsA@8 5f4d2fd4   user32:USER32.dll
+ 0004:00000fd8       __imp__TranslateAcceleratorA@12 5f4d2fd8   user32:USER32.dll
+ 0004:00000fdc       __imp__ReleaseCapture@0    5f4d2fdc   user32:USER32.dll
+ 0004:00000fe0       __imp__SetCursor@4         5f4d2fe0   user32:USER32.dll
+ 0004:00000fe4       __imp__ShowWindow@8        5f4d2fe4   user32:USER32.dll
+ 0004:00000fe8       __imp__DestroyMenu@4       5f4d2fe8   user32:USER32.dll
+ 0004:00000fec       __imp__ReuseDDElParam@20   5f4d2fec   user32:USER32.dll
+ 0004:00000ff0       __imp__UnpackDDElParam@16  5f4d2ff0   user32:USER32.dll
+ 0004:00000ff4       __imp__WaitMessage@0       5f4d2ff4   user32:USER32.dll
+ 0004:00000ff8       __imp__GetCursorPos@4      5f4d2ff8   user32:USER32.dll
+ 0004:00000ffc       __imp__GetWindowThreadProcessId@8 5f4d2ffc   user32:USER32.dll
+ 0004:00001000       __imp__TranslateMessage@4  5f4d3000   user32:USER32.dll
+ 0004:00001004       __imp__GetMessageA@16      5f4d3004   user32:USER32.dll
+ 0004:00001008       __imp__DefFrameProcA@20    5f4d3008   user32:USER32.dll
+ 0004:0000100c       __imp__TranslateMDISysAccel@8 5f4d300c   user32:USER32.dll
+ 0004:00001010       __imp__DefMDIChildProcA@16 5f4d3010   user32:USER32.dll
+ 0004:00001014       __imp__CreateDialogIndirectParamA@20 5f4d3014   user32:USER32.dll
+ 0004:00001018       __imp__EndDialog@8         5f4d3018   user32:USER32.dll
+ 0004:0000101c       __imp__wvsprintfA@12       5f4d301c   user32:USER32.dll
+ 0004:00001020       __imp__GetAsyncKeyState@4  5f4d3020   user32:USER32.dll
+ 0004:00001024       __imp__GetDialogBaseUnits@0 5f4d3024   user32:USER32.dll
+ 0004:00001028       __imp__GetClipboardFormatNameA@12 5f4d3028   user32:USER32.dll
+ 0004:0000102c       __imp__SetWindowTextA@8    5f4d302c   user32:USER32.dll
+ 0004:00001030       __imp__CheckDlgButton@12   5f4d3030   user32:USER32.dll
+ 0004:00001034       __imp__CheckRadioButton@16 5f4d3034   user32:USER32.dll
+ 0004:00001038       __imp__GetDlgItemInt@16    5f4d3038   user32:USER32.dll
+ 0004:0000103c       __imp__GetDlgItemTextA@16  5f4d303c   user32:USER32.dll
+ 0004:00001040       __imp__SetDlgItemInt@16    5f4d3040   user32:USER32.dll
+ 0004:00001044       __imp__SetDlgItemTextA@12  5f4d3044   user32:USER32.dll
+ 0004:00001048       __imp__IsDlgButtonChecked@8 5f4d3048   user32:USER32.dll
+ 0004:0000104c       __imp__ScrollWindowEx@32   5f4d304c   user32:USER32.dll
+ 0004:00001050       __imp__IsDialogMessageA@8  5f4d3050   user32:USER32.dll
+ 0004:00001054       __imp__MoveWindow@24       5f4d3054   user32:USER32.dll
+ 0004:00001058       __imp__GetMenuCheckMarkDimensions@0 5f4d3058   user32:USER32.dll
+ 0004:0000105c       __imp__DestroyIcon@4       5f4d305c   user32:USER32.dll
+ 0004:00001060       __imp__SetCursorPos@8      5f4d3060   user32:USER32.dll
+ 0004:00001064       __imp__DestroyCursor@4     5f4d3064   user32:USER32.dll
+ 0004:00001068       __imp__IsClipboardFormatAvailable@4 5f4d3068   user32:USER32.dll
+ 0004:0000106c       __imp__MessageBeep@4       5f4d306c   user32:USER32.dll
+ 0004:00001070       __imp__UnregisterClassA@8  5f4d3070   user32:USER32.dll
+ 0004:00001074       __imp__MessageBoxA@16      5f4d3074   user32:USER32.dll
+ 0004:00001078       __imp__LoadStringA@16      5f4d3078   user32:USER32.dll
+ 0004:0000107c       __imp__LoadIconA@8         5f4d307c   user32:USER32.dll
  0004:00001080       __imp__wsprintfA           5f4d3080   user32:USER32.dll
  0004:00001084       __imp__PostQuitMessage@4   5f4d3084   user32:USER32.dll
  0004:00001088       __imp__PeekMessageA@20     5f4d3088   user32:USER32.dll
@@ -8465,10 +8465,10 @@
  0004:00001180       __imp__GetWindowRect@8     5f4d3180   user32:USER32.dll
  0004:00001184       __imp__GetClientRect@8     5f4d3184   user32:USER32.dll
  0004:00001188       __imp__MapWindowPoints@16  5f4d3188   user32:USER32.dll
- 0004:0000118c       __imp__DestroyCursor@4     5f4d318c   user32:USER32.dll
- 0004:00001190       __imp__ChildWindowFromPointEx@16 5f4d3190   user32:USER32.dll
- 0004:00001194       __imp__CloseWindow@4       5f4d3194   user32:USER32.dll
- 0004:00001198       __imp__CharUpperA@4        5f4d3198   user32:USER32.dll
+ 0004:0000118c       __imp__ClientToScreen@8    5f4d318c   user32:USER32.dll
+ 0004:00001190       __imp__ScreenToClient@8    5f4d3190   user32:USER32.dll
+ 0004:00001194       __imp__BeginPaint@8        5f4d3194   user32:USER32.dll
+ 0004:00001198       __imp__EndPaint@8          5f4d3198   user32:USER32.dll
  0004:0000119c       __imp__GetDC@4             5f4d319c   user32:USER32.dll
  0004:000011a0       __imp__GetWindowDC@4       5f4d31a0   user32:USER32.dll
  0004:000011a4       __imp__ReleaseDC@8         5f4d31a4   user32:USER32.dll
@@ -8501,7 +8501,7 @@
  0004:00001210       __imp__GetNextDlgTabItem@12 5f4d3210   user32:USER32.dll
  0004:00001214       __imp__ShowScrollBar@12    5f4d3214   user32:USER32.dll
  0004:00001218       __imp__ChildWindowFromPoint@12 5f4d3218   user32:USER32.dll
- 0004:0000121c       __imp__SetCaretPos@8       5f4d321c   user32:USER32.dll
+ 0004:0000121c       __imp__ChildWindowFromPointEx@16 5f4d321c   user32:USER32.dll
  0004:00001220       __imp__FindWindowA@8       5f4d3220   user32:USER32.dll
  0004:00001224       __imp__GetWindow@8         5f4d3224   user32:USER32.dll
  0004:00001228       __imp__GetTopWindow@4      5f4d3228   user32:USER32.dll
@@ -8519,7 +8519,7 @@
  0004:00001258       __imp__GetClipboardViewer@0 5f4d3258   user32:USER32.dll
  0004:0000125c       __imp__CreateCaret@16      5f4d325c   user32:USER32.dll
  0004:00001260       __imp__GetCaretPos@4       5f4d3260   user32:USER32.dll
- 0004:00001264       __imp__MapDialogRect@8     5f4d3264   user32:USER32.dll
+ 0004:00001264       __imp__SetCaretPos@8       5f4d3264   user32:USER32.dll
  0004:00001268       __imp__HideCaret@4         5f4d3268   user32:USER32.dll
  0004:0000126c       __imp__ShowCaret@4         5f4d326c   user32:USER32.dll
  0004:00001270       __imp__SetForegroundWindow@4 5f4d3270   user32:USER32.dll
@@ -8528,106 +8528,106 @@
  0004:0000127c       __imp__SetWindowContextHelpId@8 5f4d327c   user32:USER32.dll
  0004:00001280       __imp__GetWindowContextHelpId@4 5f4d3280   user32:USER32.dll
  0004:00001284       __imp__EnableWindow@8      5f4d3284   user32:USER32.dll
- 0004:00001288       __imp__GetScrollRange@16   5f4d3288   user32:USER32.dll
+ 0004:00001288       __imp__MapDialogRect@8     5f4d3288   user32:USER32.dll
  0004:0000128c       __imp__GetWindowLongA@8    5f4d328c   user32:USER32.dll
  0004:00001290       __imp__GetScrollPos@8      5f4d3290   user32:USER32.dll
  0004:00001294       __imp__SetScrollPos@16     5f4d3294   user32:USER32.dll
- 0004:00001298       __imp__SetScrollRange@20   5f4d3298   user32:USER32.dll
- 0004:0000129c       __imp__PostThreadMessageA@16 5f4d329c   user32:USER32.dll
- 0004:000012a0       __imp__LoadCursorA@8       5f4d32a0   user32:USER32.dll
- 0004:000012a4       __imp__LoadIconA@8         5f4d32a4   user32:USER32.dll
+ 0004:00001298       __imp__GetScrollRange@16   5f4d3298   user32:USER32.dll
+ 0004:0000129c       __imp__SetScrollRange@20   5f4d329c   user32:USER32.dll
+ 0004:000012a0       __imp__PostThreadMessageA@16 5f4d32a0   user32:USER32.dll
+ 0004:000012a4       __imp__LoadCursorA@8       5f4d32a4   user32:USER32.dll
  0004:000012a8       \177USER32_NULL_THUNK_DATA 5f4d32a8   user32:USER32.dll
- 0004:000012ac       __imp___onexit             5f4d32ac   msvcrtd:msvcrtd.dll
- 0004:000012b0       __imp__memmove             5f4d32b0   msvcrtd:msvcrtd.dll
- 0004:000012b4       __imp___gcvt               5f4d32b4   msvcrtd:msvcrtd.dll
- 0004:000012b8       __imp__memcpy              5f4d32b8   msvcrtd:msvcrtd.dll
- 0004:000012bc       __imp___CrtSetReportMode   5f4d32bc   msvcrtd:msvcrtd.dll
- 0004:000012c0       __imp___purecall           5f4d32c0   msvcrtd:msvcrtd.dll
- 0004:000012c4       __imp__memcmp              5f4d32c4   msvcrtd:msvcrtd.dll
- 0004:000012c8       __imp___CrtSetDbgFlag      5f4d32c8   msvcrtd:msvcrtd.dll
- 0004:000012cc       __imp___CrtSetReportHook   5f4d32cc   msvcrtd:msvcrtd.dll
- 0004:000012d0       __imp___CrtSetDumpClient   5f4d32d0   msvcrtd:msvcrtd.dll
- 0004:000012d4       __imp___free_dbg           5f4d32d4   msvcrtd:msvcrtd.dll
- 0004:000012d8       __imp___CrtDumpMemoryLeaks 5f4d32d8   msvcrtd:msvcrtd.dll
- 0004:000012dc       __imp__vsprintf            5f4d32dc   msvcrtd:msvcrtd.dll
- 0004:000012e0       __imp___CrtSetBreakAlloc   5f4d32e0   msvcrtd:msvcrtd.dll
- 0004:000012e4       __imp___malloc_dbg         5f4d32e4   msvcrtd:msvcrtd.dll
- 0004:000012e8       __imp___CrtSetAllocHook    5f4d32e8   msvcrtd:msvcrtd.dll
- 0004:000012ec       __imp__memset              5f4d32ec   msvcrtd:msvcrtd.dll
- 0004:000012f0       __imp___CrtCheckMemory     5f4d32f0   msvcrtd:msvcrtd.dll
- 0004:000012f4       __imp___CrtIsMemoryBlock   5f4d32f4   msvcrtd:msvcrtd.dll
- 0004:000012f8       __imp___CrtMemCheckpoint   5f4d32f8   msvcrtd:msvcrtd.dll
- 0004:000012fc       __imp___CrtMemDifference   5f4d32fc   msvcrtd:msvcrtd.dll
- 0004:00001300       __imp___CrtMemDumpStatistics 5f4d3300   msvcrtd:msvcrtd.dll
- 0004:00001304       __imp__abort               5f4d3304   msvcrtd:msvcrtd.dll
- 0004:00001308       __imp___CrtMemDumpAllObjectsSince 5f4d3308   msvcrtd:msvcrtd.dll
- 0004:0000130c       __imp___CrtDoForAllClientObjects 5f4d330c   msvcrtd:msvcrtd.dll
- 0004:00001310       __imp___mbscoll            5f4d3310   msvcrtd:msvcrtd.dll
- 0004:00001314       __imp___mbscmp             5f4d3314   msvcrtd:msvcrtd.dll
- 0004:00001318       __imp___mbsicmp            5f4d3318   msvcrtd:msvcrtd.dll
- 0004:0000131c       __imp____doserrno          5f4d331c   msvcrtd:msvcrtd.dll
- 0004:00001320       __imp___mbsinc             5f4d3320   msvcrtd:msvcrtd.dll
- 0004:00001324       __imp___get_osfhandle      5f4d3324   msvcrtd:msvcrtd.dll
- 0004:00001328       __imp__clearerr            5f4d3328   msvcrtd:msvcrtd.dll
- 0004:0000132c       __imp___fdopen             5f4d332c   msvcrtd:msvcrtd.dll
- 0004:00001330       __imp___open_osfhandle     5f4d3330   msvcrtd:msvcrtd.dll
- 0004:00001334       __imp__fputs               5f4d3334   msvcrtd:msvcrtd.dll
- 0004:00001338       __imp__fread               5f4d3338   msvcrtd:msvcrtd.dll
- 0004:0000133c       __imp__fwrite              5f4d333c   msvcrtd:msvcrtd.dll
- 0004:00001340       __imp__fseek               5f4d3340   msvcrtd:msvcrtd.dll
- 0004:00001344       __imp__fgets               5f4d3344   msvcrtd:msvcrtd.dll
- 0004:00001348       __imp__ftell               5f4d3348   msvcrtd:msvcrtd.dll
- 0004:0000134c       __imp__malloc              5f4d334c   msvcrtd:msvcrtd.dll
- 0004:00001350       __imp__fflush              5f4d3350   msvcrtd:msvcrtd.dll
- 0004:00001354       __imp__fclose              5f4d3354   msvcrtd:msvcrtd.dll
+ 0004:000012ac       __imp___initterm           5f4d32ac   msvcrtd:msvcrtd.dll
+ 0004:000012b0       __imp_?terminate@@YAXXZ    5f4d32b0   msvcrtd:msvcrtd.dll
+ 0004:000012b4       __imp___global_unwind2     5f4d32b4   msvcrtd:msvcrtd.dll
+ 0004:000012b8       __imp___onexit             5f4d32b8   msvcrtd:msvcrtd.dll
+ 0004:000012bc       __imp____dllonexit         5f4d32bc   msvcrtd:msvcrtd.dll
+ 0004:000012c0       __imp_??1type_info@@UAE@XZ 5f4d32c0   msvcrtd:msvcrtd.dll
+ 0004:000012c4       __imp___fullpath           5f4d32c4   msvcrtd:msvcrtd.dll
+ 0004:000012c8       __imp__atol                5f4d32c8   msvcrtd:msvcrtd.dll
+ 0004:000012cc       __imp___mbsnbcmp           5f4d32cc   msvcrtd:msvcrtd.dll
+ 0004:000012d0       __imp__strlen              5f4d32d0   msvcrtd:msvcrtd.dll
+ 0004:000012d4       __imp____p___argv          5f4d32d4   msvcrtd:msvcrtd.dll
+ 0004:000012d8       __imp____p___argc          5f4d32d8   msvcrtd:msvcrtd.dll
+ 0004:000012dc       __imp___strdup             5f4d32dc   msvcrtd:msvcrtd.dll
+ 0004:000012e0       __imp___beginthreadex      5f4d32e0   msvcrtd:msvcrtd.dll
+ 0004:000012e4       __imp___endthreadex        5f4d32e4   msvcrtd:msvcrtd.dll
+ 0004:000012e8       __imp___mbsdec             5f4d32e8   msvcrtd:msvcrtd.dll
+ 0004:000012ec       __imp___expand             5f4d32ec   msvcrtd:msvcrtd.dll
+ 0004:000012f0       __imp__strcpy              5f4d32f0   msvcrtd:msvcrtd.dll
+ 0004:000012f4       __imp__strtod              5f4d32f4   msvcrtd:msvcrtd.dll
+ 0004:000012f8       __imp__sprintf             5f4d32f8   msvcrtd:msvcrtd.dll
+ 0004:000012fc       __imp__strtol              5f4d32fc   msvcrtd:msvcrtd.dll
+ 0004:00001300       __imp__strtoul             5f4d3300   msvcrtd:msvcrtd.dll
+ 0004:00001304       __imp__abs                 5f4d3304   msvcrtd:msvcrtd.dll
+ 0004:00001308       __imp__calloc              5f4d3308   msvcrtd:msvcrtd.dll
+ 0004:0000130c       __imp___msize              5f4d330c   msvcrtd:msvcrtd.dll
+ 0004:00001310       __imp__strftime            5f4d3310   msvcrtd:msvcrtd.dll
+ 0004:00001314       __imp__ctime               5f4d3314   msvcrtd:msvcrtd.dll
+ 0004:00001318       __imp__localtime           5f4d3318   msvcrtd:msvcrtd.dll
+ 0004:0000131c       __imp__gmtime              5f4d331c   msvcrtd:msvcrtd.dll
+ 0004:00001320       __imp__time                5f4d3320   msvcrtd:msvcrtd.dll
+ 0004:00001324       __imp__mktime              5f4d3324   msvcrtd:msvcrtd.dll
+ 0004:00001328       __imp___ismbcspace         5f4d3328   msvcrtd:msvcrtd.dll
+ 0004:0000132c       __imp___mbclen             5f4d332c   msvcrtd:msvcrtd.dll
+ 0004:00001330       __imp__atoi                5f4d3330   msvcrtd:msvcrtd.dll
+ 0004:00001334       __imp___ismbcdigit         5f4d3334   msvcrtd:msvcrtd.dll
+ 0004:00001338       __imp___mbsstr             5f4d3338   msvcrtd:msvcrtd.dll
+ 0004:0000133c       __imp___mbsrchr            5f4d333c   msvcrtd:msvcrtd.dll
+ 0004:00001340       __imp___mbscspn            5f4d3340   msvcrtd:msvcrtd.dll
+ 0004:00001344       __imp___mbsspn             5f4d3344   msvcrtd:msvcrtd.dll
+ 0004:00001348       __imp____p__mbctype        5f4d3348   msvcrtd:msvcrtd.dll
+ 0004:0000134c       __imp___mbsrev             5f4d334c   msvcrtd:msvcrtd.dll
+ 0004:00001350       __imp___mbspbrk            5f4d3350   msvcrtd:msvcrtd.dll
+ 0004:00001354       __imp___mbschr             5f4d3354   msvcrtd:msvcrtd.dll
  0004:00001358       __imp__wcslen              5f4d3358   msvcrtd:msvcrtd.dll
- 0004:0000135c       __imp__realloc             5f4d335c   msvcrtd:msvcrtd.dll
- 0004:00001360       __imp__free                5f4d3360   msvcrtd:msvcrtd.dll
- 0004:00001364       __imp___mbsrev             5f4d3364   msvcrtd:msvcrtd.dll
- 0004:00001368       __imp___mbschr             5f4d3368   msvcrtd:msvcrtd.dll
- 0004:0000136c       __imp___mbspbrk            5f4d336c   msvcrtd:msvcrtd.dll
- 0004:00001370       __imp___mbscspn            5f4d3370   msvcrtd:msvcrtd.dll
- 0004:00001374       __imp____p__mbctype        5f4d3374   msvcrtd:msvcrtd.dll
- 0004:00001378       __imp___mbsspn             5f4d3378   msvcrtd:msvcrtd.dll
- 0004:0000137c       __imp___ismbcdigit         5f4d337c   msvcrtd:msvcrtd.dll
- 0004:00001380       __imp___mbsrchr            5f4d3380   msvcrtd:msvcrtd.dll
- 0004:00001384       __imp___mbsstr             5f4d3384   msvcrtd:msvcrtd.dll
- 0004:00001388       __imp___ismbcspace         5f4d3388   msvcrtd:msvcrtd.dll
- 0004:0000138c       __imp__atoi                5f4d338c   msvcrtd:msvcrtd.dll
- 0004:00001390       __imp___mbclen             5f4d3390   msvcrtd:msvcrtd.dll
- 0004:00001394       __imp__gmtime              5f4d3394   msvcrtd:msvcrtd.dll
- 0004:00001398       __imp__mktime              5f4d3398   msvcrtd:msvcrtd.dll
- 0004:0000139c       __imp__time                5f4d339c   msvcrtd:msvcrtd.dll
- 0004:000013a0       __imp__strftime            5f4d33a0   msvcrtd:msvcrtd.dll
- 0004:000013a4       __imp__localtime           5f4d33a4   msvcrtd:msvcrtd.dll
- 0004:000013a8       __imp__ctime               5f4d33a8   msvcrtd:msvcrtd.dll
- 0004:000013ac       __imp__abs                 5f4d33ac   msvcrtd:msvcrtd.dll
- 0004:000013b0       __imp___msize              5f4d33b0   msvcrtd:msvcrtd.dll
- 0004:000013b4       __imp__calloc              5f4d33b4   msvcrtd:msvcrtd.dll
- 0004:000013b8       __imp__sprintf             5f4d33b8   msvcrtd:msvcrtd.dll
- 0004:000013bc       __imp__strtoul             5f4d33bc   msvcrtd:msvcrtd.dll
- 0004:000013c0       __imp__strtol              5f4d33c0   msvcrtd:msvcrtd.dll
- 0004:000013c4       __imp___expand             5f4d33c4   msvcrtd:msvcrtd.dll
- 0004:000013c8       __imp__strtod              5f4d33c8   msvcrtd:msvcrtd.dll
- 0004:000013cc       __imp__strcpy              5f4d33cc   msvcrtd:msvcrtd.dll
- 0004:000013d0       __imp___beginthreadex      5f4d33d0   msvcrtd:msvcrtd.dll
- 0004:000013d4       __imp___mbsdec             5f4d33d4   msvcrtd:msvcrtd.dll
- 0004:000013d8       __imp___endthreadex        5f4d33d8   msvcrtd:msvcrtd.dll
- 0004:000013dc       __imp____p___argv          5f4d33dc   msvcrtd:msvcrtd.dll
- 0004:000013e0       __imp___strdup             5f4d33e0   msvcrtd:msvcrtd.dll
- 0004:000013e4       __imp____p___argc          5f4d33e4   msvcrtd:msvcrtd.dll
- 0004:000013e8       __imp__atol                5f4d33e8   msvcrtd:msvcrtd.dll
- 0004:000013ec       __imp__strlen              5f4d33ec   msvcrtd:msvcrtd.dll
- 0004:000013f0       __imp___mbsnbcmp           5f4d33f0   msvcrtd:msvcrtd.dll
- 0004:000013f4       __imp____dllonexit         5f4d33f4   msvcrtd:msvcrtd.dll
- 0004:000013f8       __imp___fullpath           5f4d33f8   msvcrtd:msvcrtd.dll
- 0004:000013fc       __imp_??1type_info@@UAE@XZ 5f4d33fc   msvcrtd:msvcrtd.dll
- 0004:00001400       __imp___global_unwind2     5f4d3400   msvcrtd:msvcrtd.dll
- 0004:00001404       __imp_?terminate@@YAXXZ    5f4d3404   msvcrtd:msvcrtd.dll
- 0004:00001408       __imp___initterm           5f4d3408   msvcrtd:msvcrtd.dll
- 0004:0000140c       __imp____CxxFrameHandler   5f4d340c   msvcrtd:msvcrtd.dll
- 0004:00001410       __imp___CrtDbgReport       5f4d3410   msvcrtd:msvcrtd.dll
- 0004:00001414       __imp___CxxThrowException@8 5f4d3414   msvcrtd:msvcrtd.dll
+ 0004:0000135c       __imp__free                5f4d335c   msvcrtd:msvcrtd.dll
+ 0004:00001360       __imp__realloc             5f4d3360   msvcrtd:msvcrtd.dll
+ 0004:00001364       __imp__malloc              5f4d3364   msvcrtd:msvcrtd.dll
+ 0004:00001368       __imp__fclose              5f4d3368   msvcrtd:msvcrtd.dll
+ 0004:0000136c       __imp__fflush              5f4d336c   msvcrtd:msvcrtd.dll
+ 0004:00001370       __imp__fseek               5f4d3370   msvcrtd:msvcrtd.dll
+ 0004:00001374       __imp__ftell               5f4d3374   msvcrtd:msvcrtd.dll
+ 0004:00001378       __imp__fgets               5f4d3378   msvcrtd:msvcrtd.dll
+ 0004:0000137c       __imp__fputs               5f4d337c   msvcrtd:msvcrtd.dll
+ 0004:00001380       __imp__fwrite              5f4d3380   msvcrtd:msvcrtd.dll
+ 0004:00001384       __imp__fread               5f4d3384   msvcrtd:msvcrtd.dll
+ 0004:00001388       __imp__clearerr            5f4d3388   msvcrtd:msvcrtd.dll
+ 0004:0000138c       __imp___open_osfhandle     5f4d338c   msvcrtd:msvcrtd.dll
+ 0004:00001390       __imp___fdopen             5f4d3390   msvcrtd:msvcrtd.dll
+ 0004:00001394       __imp____doserrno          5f4d3394   msvcrtd:msvcrtd.dll
+ 0004:00001398       __imp___get_osfhandle      5f4d3398   msvcrtd:msvcrtd.dll
+ 0004:0000139c       __imp___mbsinc             5f4d339c   msvcrtd:msvcrtd.dll
+ 0004:000013a0       __imp___mbscoll            5f4d33a0   msvcrtd:msvcrtd.dll
+ 0004:000013a4       __imp___mbsicmp            5f4d33a4   msvcrtd:msvcrtd.dll
+ 0004:000013a8       __imp___mbscmp             5f4d33a8   msvcrtd:msvcrtd.dll
+ 0004:000013ac       __imp__abort               5f4d33ac   msvcrtd:msvcrtd.dll
+ 0004:000013b0       __imp___CrtDoForAllClientObjects 5f4d33b0   msvcrtd:msvcrtd.dll
+ 0004:000013b4       __imp___CrtMemDumpAllObjectsSince 5f4d33b4   msvcrtd:msvcrtd.dll
+ 0004:000013b8       __imp___CrtMemCheckpoint   5f4d33b8   msvcrtd:msvcrtd.dll
+ 0004:000013bc       __imp___CrtMemDumpStatistics 5f4d33bc   msvcrtd:msvcrtd.dll
+ 0004:000013c0       __imp___CrtMemDifference   5f4d33c0   msvcrtd:msvcrtd.dll
+ 0004:000013c4       __imp__memset              5f4d33c4   msvcrtd:msvcrtd.dll
+ 0004:000013c8       __imp___CrtIsMemoryBlock   5f4d33c8   msvcrtd:msvcrtd.dll
+ 0004:000013cc       __imp___CrtCheckMemory     5f4d33cc   msvcrtd:msvcrtd.dll
+ 0004:000013d0       __imp___CrtSetBreakAlloc   5f4d33d0   msvcrtd:msvcrtd.dll
+ 0004:000013d4       __imp___CrtSetAllocHook    5f4d33d4   msvcrtd:msvcrtd.dll
+ 0004:000013d8       __imp___malloc_dbg         5f4d33d8   msvcrtd:msvcrtd.dll
+ 0004:000013dc       __imp___free_dbg           5f4d33dc   msvcrtd:msvcrtd.dll
+ 0004:000013e0       __imp__vsprintf            5f4d33e0   msvcrtd:msvcrtd.dll
+ 0004:000013e4       __imp___CrtDumpMemoryLeaks 5f4d33e4   msvcrtd:msvcrtd.dll
+ 0004:000013e8       __imp___CrtSetDbgFlag      5f4d33e8   msvcrtd:msvcrtd.dll
+ 0004:000013ec       __imp___CrtSetDumpClient   5f4d33ec   msvcrtd:msvcrtd.dll
+ 0004:000013f0       __imp___CrtSetReportHook   5f4d33f0   msvcrtd:msvcrtd.dll
+ 0004:000013f4       __imp___CrtSetReportMode   5f4d33f4   msvcrtd:msvcrtd.dll
+ 0004:000013f8       __imp__memcmp              5f4d33f8   msvcrtd:msvcrtd.dll
+ 0004:000013fc       __imp___purecall           5f4d33fc   msvcrtd:msvcrtd.dll
+ 0004:00001400       __imp__memmove             5f4d3400   msvcrtd:msvcrtd.dll
+ 0004:00001404       __imp__memcpy              5f4d3404   msvcrtd:msvcrtd.dll
+ 0004:00001408       __imp___gcvt               5f4d3408   msvcrtd:msvcrtd.dll
+ 0004:0000140c       __imp___CrtDbgReport       5f4d340c   msvcrtd:msvcrtd.dll
+ 0004:00001410       __imp___CxxThrowException@8 5f4d3410   msvcrtd:msvcrtd.dll
+ 0004:00001414       __imp____CxxFrameHandler   5f4d3414   msvcrtd:msvcrtd.dll
  0004:00001418       \177msvcrtd_NULL_THUNK_DATA 5f4d3418   msvcrtd:msvcrtd.dll
 
  entry point at        0001:00017915

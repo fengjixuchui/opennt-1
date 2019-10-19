@@ -190,11 +190,11 @@ D w:\nt\public\sdk\inc\mfc40 a000
 
 D w:\nt\public\oak\inc a000
  F compstui.h 1044 0 46fc2da3 3790 0
- F dderror.h 1044 0 4f513f68 39 0
+ F dderror.h 1044 0 4f53329d 39 0
  F ddrawint.h 1044 0 46fc2da3 741 0
   I ddraw.h 1801 0
  F gldrv.h 1044 0 46fc2da3 450 1
- F immdev.h 1044 0 4f513f6a 760 0
+ F immdev.h 1044 0 4f5332a0 760 0
  F mcdrv.h 1044 0 46fc2da3 771 0
  F rx.h 1044 0 46fc2da3 684 0
  F vddp.h 1044 0 46fc2da3 111 0
@@ -202,7 +202,7 @@ D w:\nt\public\oak\inc a000
   I ddrawint.h 1800 0
  F winddiui.h 1044 0 46fc2da3 434 0
   I compstui.h 1800 0
- F winsecp.h 1044 0 4f513f69 42 0
+ F winsecp.h 1044 0 4f53329d 42 0
  F winsplp.h 1044 0 46fc2da3 723 0
  F zwapi.h 1044 0 46fc2da3 1920 0
  F modhdr.c 1041 0 46fc2da3 34 0
@@ -260,7 +260,7 @@ D w:\nt\public\sdk\inc 200a080
  F advsnk.h 1044 0 46fc2ad0 22 0
   I objbase.h 0 0
  F alertapi.h 1044 0 46fc2ad4 214 0
- F allerror.h 1044 0 4f514058 1640 0
+ F allerror.h 1044 0 4f5332bd 1640 0
  F alphaops.h 1044 0 46fc2ad4 1237 0
  F asn1code.h 1044 0 46fc2ad4 265 0
   I stddef.h 0 0
@@ -284,7 +284,7 @@ D w:\nt\public\sdk\inc 200a080
  F bootofs.h 1044 0 46fc2ad4 261 0
  F caiseapi.h 1044 0 46fc2acb 386 0
   I nt.h 0 0
- F catstg.h 1044 0 4f514059 1349 0
+ F catstg.h 1044 0 4f5332bd 1349 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 0
@@ -305,16 +305,16 @@ D w:\nt\public\sdk\inc 200a080
  F cobjps.h 1044 0 46fc2acb 69 0
  F coguid.h 1044 0 46fc2ad4 65 0
  F colordlg.h 1044 0 46fc2ad4 60 0
- F commctrl.h 1044 0 4f513f69 4075 0
+ F commctrl.h 1044 0 4f53329d 4075 0
   I pshpack1.h 0 0
   I prsht.h 0 0
   I poppack.h 0 0
- F commdlg.h 1044 0 4f513f69 718 0
+ F commdlg.h 1044 0 4f53329d 718 0
   I pshpack1.h 1800 0
   I poppack.h 1800 0
  F compobj.h 1044 0 46fc2ad4 15 0
   I objbase.h 0 0
- F cpl.h 1044 0 4f513f67 211 0
+ F cpl.h 1044 0 4f53329c 211 0
   I pshpack1.h 0 0
   I poppack.h 0 0
  F crash.h 1044 0 46fc2ad4 217 0
@@ -331,8 +331,8 @@ D w:\nt\public\sdk\inc 200a080
   I dciddi.h 1 0
  F dde.h 1044 0 46fc2ad5 167 0
   I windef.h 1800 0
- F ddeml.h 1044 0 4f513f67 497 1
- F ddraw.h 1044 0 4f513f67 3105 0
+ F ddeml.h 1044 0 4f53329c 497 1
+ F ddraw.h 1044 0 4f53329c 3105 0
   I objbase.h 1800 0
  F debnot.h 1044 0 46fc2ad7 349 0
   I stdarg.h 0 0
@@ -344,13 +344,13 @@ D w:\nt\public\sdk\inc 200a080
   I dsys.h 0 0
   I ntdddfs.h 0 1
  F dhcpcext.h 1044 0 46fc2ad7 77 0
- F diamondc.h 1044 0 4f514d3a 582 0
+ F diamondc.h 1044 0 4f533b91 582 0
   I pshpack4.h 0 0
   I poppack.h 0 0
- F diamondd.h 1044 0 4f514d3a 1109 0
+ F diamondd.h 1044 0 4f533b91 1109 0
   I pshpack4.h 0 0
   I poppack.h 0 0
- F digitalv.h 1044 0 4f513f68 1089 0
+ F digitalv.h 1044 0 4f53329d 1089 0
  F disasm.h 1044 0 46fc2ad4 50 0
   I stddef.h 0 0
  F dispatch.h 1044 0 46fc2ad4 15 0
@@ -366,7 +366,7 @@ D w:\nt\public\sdk\inc 200a080
   I ole2.h 0 0
  F dsapi.h 1044 0 46fc2ad4 403 0
   I dsstate.h 0 0
- F dsound.h 1044 0 4f513f68 366 0
+ F dsound.h 1044 0 4f53329c 366 0
   I objbase.h 0 0
  F dsstate.h 1044 0 46fc2acb 27 0
  F dvobj.h 1044 0 46fc2ad4 15 0
@@ -394,14 +394,14 @@ D w:\nt\public\sdk\inc 200a080
   I windows.h 0 0
  F extcon.h 1044 0 46fc2ad4 22 0
   I objbase.h 0 0
- F filter.h 1044 0 4f513f74 346 0
+ F filter.h 1044 0 4f5332a7 346 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
   I ole2.h 1 0
   I unknwn.h 1 0
   I objidl.h 1 0
- F filterr.h 1044 0 4f513f75 168 0
+ F filterr.h 1044 0 4f5332a7 168 0
  F ftsiface.h 1044 0 46fc2ad4 167 0
  F getuser.h 1044 0 46fc2ad5 129 0
   I ntseapi.h 0 3
@@ -415,9 +415,9 @@ D w:\nt\public\sdk\inc 200a080
  F imagehlp.h 1044 0 46fc2ad4 922 1
  F imaloc.h 1044 0 46fc2aca 22 0
   I objbase.h 0 0
- F ime.h 1044 0 4f513f6a 288 3
+ F ime.h 1044 0 4f5332a0 288 3
  F imessage.h 1044 0 46fc2aca 194 0
- F imm.h 1044 0 4f513f6a 588 0
+ F imm.h 1044 0 4f5332a0 588 0
  F infstr.h 1044 0 46fc2ad4 243 0
  F initguid.h 1044 0 46fc2acb 38 0
  F inplca.h 1044 0 46fc2ad4 22 0
@@ -436,12 +436,12 @@ D w:\nt\public\sdk\inc 200a080
   I oledb.h 0 0
   I propapi.h 0 0
  F ipexport.h 1044 0 46fc2aca 140 0
- F ipropidl.h 1044 0 4f513f73 57 0
+ F ipropidl.h 1044 0 4f5332a6 57 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I objidl.h 1 0
  F issper16.h 1044 0 46fc2ad5 336 0
- F issperr.h 1044 0 4f513f6a 319 0
+ F issperr.h 1044 0 4f5332a0 319 0
  F isvbop.h 1044 0 46fc2aca 134 1
  F kerbcon.h 1044 0 46fc2acb 113 0
  F kerberos.h 1044 0 46fc2ad5 64 0
@@ -509,7 +509,7 @@ D w:\nt\public\sdk\inc 200a080
  F lockb.h 1044 0 46fc2ad7 22 0
   I objbase.h 0 0
  F lrpcmon.h 1044 0 46fc2ad3 19 0
- F lzexpand.h 1044 0 4f513f67 127 0
+ F lzexpand.h 1044 0 4f53329c 127 0
  F macfile.h 1044 0 46fc2ad4 911 0
  F mapi.h 1044 0 46fc2ad4 359 0
  F mapicode.h 1044 0 46fc2ad4 245 0
@@ -564,13 +564,13 @@ D w:\nt\public\sdk\inc 200a080
  F minfo.h 1044 0 46fc2ad7 22 0
   I objbase.h 0 0
  F mipsinst.h 1044 0 46fc2ad4 324 1
- F mmddk.h 1044 0 4f513f68 692 0
+ F mmddk.h 1044 0 4f53329d 692 0
   I pshpack1.h 1 0
   I poppack.h 1 0
  F mmreg.h 1044 0 46fc2ad4 1638 0
   I pshpack1.h 1 0
   I poppack.h 1 0
- F mmsystem.h 1044 0 4f513f68 3798 0
+ F mmsystem.h 1044 0 4f53329d 3798 0
   I pshpack1.h 1800 0
   I poppack.h 1800 0
  F moniker.h 1044 0 46fc2ad4 15 0
@@ -584,10 +584,10 @@ D w:\nt\public\sdk\inc 200a080
  F msacmdrv.h 1044 0 46fc2ad4 320 0
   I pshpack1.h 1 0
   I poppack.h 1 0
- F msaudite.h 1044 0 4f513f6a 2418 1
+ F msaudite.h 1044 0 4f5332a0 2418 1
  F msgflt.h 1044 0 46fc2aca 22 0
   I objbase.h 0 0
- F msobjs.h 1044 0 4f513f6d 2580 1
+ F msobjs.h 1044 0 4f5332a2 2580 1
  F mspab.h 1044 0 46fc2ad4 69 0
  F mspst.h 1044 0 46fc2ad3 96 0
  F mswsock.h 1044 0 46fc2ad4 181 0
@@ -596,11 +596,11 @@ D w:\nt\public\sdk\inc 200a080
   I pshpack1.h 0 0
   I poppack.h 0 0
  F nddesec.h 1044 0 46fc2ad5 104 0
- F netevent.h 1044 0 4f513f6c 2846 1
+ F netevent.h 1044 0 4f5332a2 2846 1
  F newat.h 1044 0 46fc2ad4 103 6
  F nminsert.h 1044 0 46fc2ad5 124 0
  F npapi.h 1044 0 46fc2acb 605 0
- F nspapi.h 1044 0 4f513f69 690 0
+ F nspapi.h 1044 0 4f53329d 690 0
  F nspapip.h 1044 0 46fc2ad4 149 0
  F nt.h 1044 0 46fc2ad4 83 1
   I excpt.h 1800 0
@@ -748,10 +748,10 @@ D w:\nt\public\sdk\inc 200a080
  F ntseapi.h 1044 0 46fc2ad4 1591 3
   I pshpack4.h 1800 0
   I poppack.h 1800 0
- F ntsecapi.h 1044 0 4f513f67 1148 6
+ F ntsecapi.h 1044 0 4f53329c 1148 6
  F ntsm.h 1044 0 46fc2ad4 163 1
   I nt.h 0 1
- F ntstatus.h 1044 0 4f513f62 7179 5
+ F ntstatus.h 1044 0 4f533298 7179 5
  F nturtl.h 1044 0 46fc2ad4 897 1
  F ntverp.h 1044 0 4f501a6a 74 0
  F ntxcapi.h 1044 0 46fc2aca 336 1
@@ -760,7 +760,7 @@ D w:\nt\public\sdk\inc 200a080
  F nt_vdd.h 1044 0 46fc2ad4 215 0
  F oadvhr.h 1044 0 46fc2acb 22 0
   I ole2.h 0 0
- F oaidl.h 1044 0 4f513f72 5942 0
+ F oaidl.h 1044 0 4f5332a5 5942 0
   I rpc.h 9801 0
   I rpcndr.h 9801 0
   I windows.h 9801 1
@@ -778,7 +778,7 @@ D w:\nt\public\sdk\inc 200a080
   I poppack.h 5800 0
  F objerror.h 1044 0 46fc2aca 10 0
   I winerror.h 0 0
- F objidl.h 1044 0 4f513f71 10770 0
+ F objidl.h 1044 0 4f5332a4 10770 0
   I rpc.h 9801 0
   I rpcndr.h 9801 0
   I windows.h 9801 1
@@ -790,7 +790,7 @@ D w:\nt\public\sdk\inc 200a080
   I ole2.h 0 0
  F ocache.h 1044 0 46fc2ad5 22 0
   I ole2.h 0 0
- F ocidl.h 1044 0 4f513f74 7938 0
+ F ocidl.h 1044 0 4f5332a7 7938 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
@@ -825,7 +825,7 @@ D w:\nt\public\sdk\inc 200a080
   I ocidl.h 0 0
  F olectlid.h 1044 0 46fc2acb 12 0
   I olectl.h 0 0
- F oledb.h 1044 0 4f51404e 9520 0
+ F oledb.h 1044 0 4f5332bc 9520 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
@@ -842,7 +842,7 @@ D w:\nt\public\sdk\inc 200a080
   I tchar.h 0 0
   I dlgs.h 0 0
   I prsht.h 0 0
- F oleext.h 1044 0 4f514046 2276 0
+ F oleext.h 1044 0 4f5332bb 2276 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
@@ -852,7 +852,7 @@ D w:\nt\public\sdk\inc 200a080
   I transact.h 1 0
   I olecairo.h 0 0
  F oleguid.h 1044 0 46fc2aca 80 0
- F oleidl.h 1044 0 4f513f72 5044 0
+ F oleidl.h 1044 0 4f5332a5 5044 0
   I rpc.h 9801 0
   I rpcndr.h 9801 0
   I windows.h 9801 1
@@ -915,7 +915,7 @@ D w:\nt\public\sdk\inc 200a080
   I accctrl.h 0 0
  F proxyb.h 1044 0 46fc2acb 22 0
   I objbase.h 0 0
- F prsht.h 1044 0 4f513f69 426 0
+ F prsht.h 1044 0 4f53329d 426 0
  F prsist.h 1044 0 46fc2ad4 22 0
   I objbase.h 0 0
  F psapi.h 1044 0 46fc2aca 253 1
@@ -935,7 +935,7 @@ D w:\nt\public\sdk\inc 200a080
   I setjmp.h 1800 0
  F pwin16.h 1044 0 46fc2ad3 289 0
  F pwin32.h 1044 0 46fc2acb 305 0
- F query.h 1044 0 4f514049 1627 0
+ F query.h 1044 0 4f5332bb 1627 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
@@ -1023,16 +1023,16 @@ D w:\nt\public\sdk\inc 200a080
   I poppack.h 0 0
  F setupbat.h 1044 0 46fc2ad4 479 0
  F setupxrc.h 1044 0 46fc2ad5 52 1
- F shellapi.h 1044 0 4f513f67 516 0
+ F shellapi.h 1044 0 4f53329c 516 0
   I pshpack1.h 1800 0
   I poppack.h 1800 0
- F shlguid.h 1044 0 4f513f6a 100 0
- F shlobj.h 1044 0 4f513f69 2508 0
+ F shlguid.h 1044 0 4f5332a0 100 0
+ F shlobj.h 1044 0 4f5332a0 2508 0
   I ole2.h 0 0
   I prsht.h 0 0
   I commctrl.h 0 0
   I shlguid.h 0 0
- F shlwapi.h 1044 0 4f513f69 196 0
+ F shlwapi.h 1044 0 4f53329d 196 0
   I objbase.h 0 0
   I pshpack1.h 0 0
   I poppack.h 0 0
@@ -1041,7 +1041,7 @@ D w:\nt\public\sdk\inc 200a080
  F snmp.h 1044 0 46fc2ad3 432 0
   I windows.h 0 0
  F spseal.h 1044 0 46fc2aca 63 0
- F srvhdl.h 1044 0 4f513f70 983 0
+ F srvhdl.h 1044 0 4f5332a4 983 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
@@ -1056,7 +1056,7 @@ D w:\nt\public\sdk\inc 200a080
   I objbase.h 0 0
  F storage.h 1044 0 46fc2ad5 15 0
   I objbase.h 0 0
- F storext.h 1044 0 4f513f73 476 0
+ F storext.h 1044 0 4f5332a6 476 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
@@ -1068,12 +1068,12 @@ D w:\nt\public\sdk\inc 200a080
   I objbase.h 0 0
  F stubb.h 1044 0 46fc2ad4 22 0
   I objbase.h 0 0
- F subauth.h 1044 0 4f513f68 271 5
+ F subauth.h 1044 0 4f53329c 271 5
   I pshpack4.h 1 0
   I poppack.h 1 0
  F svcguid.h 1044 0 46fc2ad7 342 1
   I basetyps.h 0 0
- F sysmgmt.h 1044 0 4f514056 470 0
+ F sysmgmt.h 1044 0 4f5332bd 470 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 0
@@ -1082,24 +1082,24 @@ D w:\nt\public\sdk\inc 200a080
   I oleidl.h 1 0
   I oleext.h 1 0
  F syssetup.h 1044 0 46fc2acb 271 0
- F tapi.h 1044 0 4f51586a 4713 0
+ F tapi.h 1044 0 4f534321 4713 0
   I windows.h 0 1
  F textserv.h 1044 0 46fc2acb 441 0
   I richedit.h 0 0
  F tnef.h 1044 0 46fc2aca 371 0
  F tom.h 1044 0 46fc2ad4 694 0
- F transact.h 1044 0 4f514050 3981 0
+ F transact.h 1044 0 4f5332bc 3981 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
   I ole2.h 1 0
   I unknwn.h 1 0
   I objidl.h 1 0
- F tspi.h 1044 0 4f51586a 1552 0
+ F tspi.h 1044 0 4f534321 1552 0
   I windows.h 0 1
   I tapi.h 1 0
  F tuple.h 1044 0 46fc2ad3 243 0
- F unknwn.h 1044 0 4f513f70 341 0
+ F unknwn.h 1044 0 4f5332a4 341 0
   I rpc.h 5801 0
   I rpcndr.h 5801 0
   I windows.h 9801 1
@@ -1113,7 +1113,7 @@ D w:\nt\public\sdk\inc 200a080
   I objidl.h 1 0
   I oleidl.h 1 0
   I servprov.h 1 0
- F userenv.h 1044 0 4f513f6a 154 0
+ F userenv.h 1044 0 4f5332a0 154 0
  F variant.h 1044 0 46fc2acb 15 0
   I oleauto.h 0 0
  F vddsvc.h 1044 0 46fc2ad3 349 0
@@ -1123,7 +1123,7 @@ D w:\nt\public\sdk\inc 200a080
   I poppack.h 1800 0
  F verinfo.h 1044 0 46fc2ad4 22 0
   I ver.h 0 0
- F vfw.h 1044 0 4f514d42 3558 0
+ F vfw.h 1044 0 4f533b94 3558 0
   I mmsystem.h 0 0
   I pshpack8.h 1 0
   I mmreg.h 0 0
@@ -1137,14 +1137,14 @@ D w:\nt\public\sdk\inc 200a080
  F warning.h 1044 0 46fc2ad4 79 0
  F wdbgexts.h 1044 0 46fc2ad4 519 0
  F wfext.h 1044 0 46fc2ad3 185 0
- F winbase.h 1044 0 4f513f65 7745 0
+ F winbase.h 1044 0 4f53329a 7745 0
   I winerror.h 1800 0
- F wincon.h 1044 0 4f513f66 726 2
- F wincrypt.h 1044 0 4f513f66 623 0
- F windbgkd.h 1044 0 4f514093 881 63
- F windef.h 1044 0 4f513f66 309 0
+ F wincon.h 1044 0 4f53329b 726 2
+ F wincrypt.h 1044 0 4f53329b 623 0
+ F windbgkd.h 1044 0 4f5332d5 881 63
+ F windef.h 1044 0 4f53329b 309 0
   I winnt.h 1800 93
- F windows.h 1044 0 4f513f64 180 1
+ F windows.h 1044 0 4f53329a 180 1
   I excpt.h 1800 0
   I stdarg.h 1800 0
   I windef.h 1800 0
@@ -1176,41 +1176,41 @@ D w:\nt\public\sdk\inc 200a080
   I mcx.h 1800 0
   I imm.h 1800 0
  F windowsx.h 1044 0 46fc2ad4 1284 0
- F winerror.h 1044 0 4f513f66 10179 0
- F wingdi.h 1044 0 4f513f66 4005 0
+ F winerror.h 1044 0 4f53329b 10179 0
+ F wingdi.h 1044 0 4f53329b 4005 0
   I pshpack1.h 1800 0
   I poppack.h 1800 0
   I pshpack2.h 1800 0
   I pshpack4.h 1800 0
  F wininet.h 1044 0 46fc2ad3 2510 0
- F winioctl.h 1044 0 4f513f67 822 13
+ F winioctl.h 1044 0 4f53329c 822 13
  F winmm.h 1044 0 46fc2ad4 14 2
- F winnetwk.h 1044 0 4f513f66 820 0
- F winnls.h 1044 0 4f513f66 1142 0
- F winnls32.h 1044 0 4f513f6a 124 3
- F winnt.h 1044 0 4f513f67 5133 93
+ F winnetwk.h 1044 0 4f53329b 820 0
+ F winnls.h 1044 0 4f53329b 1142 0
+ F winnls32.h 1044 0 4f5332a0 124 3
+ F winnt.h 1044 0 4f53329c 5133 93
   I ctype.h 1800 0
   I pshpack4.h 1800 0
   I poppack.h 1800 0
   I pshpack2.h 1801 0
   I string.h 1800 0
  F winperf.h 1044 0 46fc2ad4 561 0
- F winreg.h 1044 0 4f513f66 779 1
+ F winreg.h 1044 0 4f53329b 779 1
  F winsock.h 1044 0 46fc2acb 959 0
   I windows.h 9800 1
- F winsock2.h 1044 0 4f513f67 3597 0
+ F winsock2.h 1044 0 4f53329b 3597 0
   I pshpack4.h 0 0
   I windows.h 0 1
   I poppack.h 0 0
- F winspool.h 1044 0 4f513f65 2136 0
+ F winspool.h 1044 0 4f53329a 2136 0
   I prsht.h 1800 0
- F winsvc.h 1044 0 4f513f67 751 10
+ F winsvc.h 1044 0 4f53329b 751 10
  F wintrust.h 1044 0 46fc2ad4 311 0
- F winuser.h 1044 0 4f513f66 8697 0
+ F winuser.h 1044 0 4f53329b 8697 0
   I stdarg.h 1800 0
   I pshpack2.h 1800 0
   I poppack.h 1800 0
- F winver.h 1044 0 4f513f67 295 0
+ F winver.h 1044 0 4f53329b 295 0
  F winwlx.h 1044 0 46fc2ad5 698 1
  F wownt16.h 1044 0 46fc2ad5 120 1
  F wownt32.h 1044 0 46fc2ad5 254 1
@@ -1224,7 +1224,7 @@ D w:\nt\public\sdk\inc 200a080
  F wsnetbs.h 1044 0 46fc2ace 69 0
  F wsnwlink.h 1044 0 46fc2acb 279 0
  F wsvns.h 1044 0 46fc2ad4 39 0
- F wtypes.h 1044 0 4f513f70 1287 0
+ F wtypes.h 1044 0 4f5332a3 1287 0
   I rpc.h 1801 0
   I rpcndr.h 1801 0
  F zext.h 1044 0 46fc2ad4 603 0
@@ -1592,11 +1592,11 @@ D w:\nt\private\inc a000
  F propmac.hxx 1044 0 46fc2c50 479 0
   I byteordr.hxx 0 0
   I propapi.h 0 0
- F lsarpc.h 1044 0 4f51456c 629 0
+ F lsarpc.h 1044 0 4f533697 629 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I lsaimp.h 1 0
- F samrpc.h 1044 0 4f5148fb 1053 0
+ F samrpc.h 1044 0 4f533972 1053 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I samimp.h 1 0
@@ -1667,14 +1667,14 @@ D w:\nt\private\types\uuid 0
  F urlhis_i.c 41 0 46fc2c50 47 0
  F urlmon_i.c 41 0 46fc2c50 77 0
  F obj 2 10 4f507550 0 0
- F unknwn_i.c 41 0 4f513f70 47 0
- F srvhdl_i.c 41 0 4f513f70 47 0
- F objidl_i.c 41 0 4f513f71 182 0
- F oleidl_i.c 41 0 4f513f72 107 0
- F oaidl_i.c 41 0 4f513f72 86 0
- F storext_i.c 41 0 4f513f73 47 0
- F ocidl_i.c 41 0 4f513f74 152 0
- F filter_i.c 41 0 4f513f74 44 0
+ F unknwn_i.c 41 0 4f5332a4 47 0
+ F srvhdl_i.c 41 0 4f5332a4 47 0
+ F objidl_i.c 41 0 4f5332a4 182 0
+ F oleidl_i.c 41 0 4f5332a5 107 0
+ F oaidl_i.c 41 0 4f5332a5 86 0
+ F storext_i.c 41 0 4f5332a6 47 0
+ F ocidl_i.c 41 0 4f5332a7 152 0
+ F filter_i.c 41 0 4f5332a7 44 0
 
 D w:\nt\private\types2 0
  F catstg 2 10 46fc2ba8 0 0
@@ -1981,12 +1981,12 @@ D w:\nt\private\types2\proxy\uuid 0
  F oledbdat.c 41 0 46fc2ba7 8 0
   I oledb.h 0 0
  F obj 2 10 4f507593 0 0
- F oleext_i.c 41 0 4f514045 71 0
- F query_i.c 41 0 4f514049 65 0
- F oledb_i.c 41 0 4f51404d 191 0
- F transact_i.c 41 0 4f514050 116 0
- F sysmgmt_i.c 41 0 4f514056 47 0
- F catstg_i.c 41 0 4f514059 47 0
+ F oleext_i.c 41 0 4f5332bb 71 0
+ F query_i.c 41 0 4f5332bb 65 0
+ F oledb_i.c 41 0 4f5332bc 191 0
+ F transact_i.c 41 0 4f5332bc 116 0
+ F sysmgmt_i.c 41 0 4f5332bd 47 0
+ F catstg_i.c 41 0 4f5332bd 47 0
 
 D w:\nt\private\dcomidl 0
  F daytona.inc 14 0 46fc2af6 39 0
@@ -2034,97 +2034,97 @@ D w:\nt\private\dcomidl 0
   I debtrace.hxx 1 0
   I propset.h 0 0
   I propvar.h 0 0
- F objex_c.c 41 0 4f51406e 714 0
+ F objex_c.c 41 0 4f5332c2 714 0
   I string.h 0 0
   I stdarg.h 0 0
   I objex.h 1 0
- F objex_s.c 41 0 4f51406e 546 0
+ F objex_s.c 41 0 4f5332c2 546 0
   I string.h 0 0
   I objex.h 1 0
- F remact_c.c 41 0 4f51406f 744 0
+ F remact_c.c 41 0 4f5332c2 744 0
   I string.h 0 0
   I stdarg.h 0 0
   I remact.h 1 0
- F remact_s.c 41 0 4f51406f 686 0
+ F remact_s.c 41 0 4f5332c2 686 0
   I string.h 0 0
   I remact.h 1 0
- F lclor_c.c 41 0 4f514071 1615 0
+ F lclor_c.c 41 0 4f5332c2 1615 0
   I string.h 0 0
   I stdarg.h 0 0
   I lclor.h 1 0
- F lclor_s.c 41 0 4f514071 1257 0
+ F lclor_s.c 41 0 4f5332c2 1257 0
   I string.h 0 0
   I lclor.h 1 0
- F odeth_c.c 41 0 4f514073 479 0
+ F odeth_c.c 41 0 4f5332c3 479 0
   I string.h 0 0
   I stdarg.h 0 0
   I rawodeth.h 1 0
- F orcb_c.c 41 0 4f514073 258 0
+ F orcb_c.c 41 0 4f5332c3 258 0
   I string.h 0 0
   I stdarg.h 0 0
   I orcb.h 1 0
- F orcb_s.c 41 0 4f514073 232 0
+ F orcb_s.c 41 0 4f5332c3 232 0
   I string.h 0 0
   I orcb.h 1 0
  F obj 2 10 4f5075a1 0 0
- F odeth_p.c 41 0 4f514073 332 0
+ F odeth_p.c 41 0 4f5332c3 332 0
   I rpcproxy.h 1 0
   I rawodeth.h 1 0
- F odeth_i.c 41 0 4f514073 44 0
- F odeth_s.c 41 0 4f514073 462 0
+ F odeth_i.c 41 0 4f5332c3 44 0
+ F odeth_s.c 41 0 4f5332c3 462 0
   I string.h 0 0
   I rawodeth.h 1 0
- F remunk_p.c 41 0 4f514074 505 0
+ F remunk_p.c 41 0 4f5332c3 505 0
   I rpcproxy.h 1 0
   I remunk.h 1 0
- F remunk_i.c 41 0 4f514074 44 0
- F dlldata.c 41 0 4f514074 40 0
+ F remunk_i.c 41 0 4f5332c3 44 0
+ F dlldata.c 41 0 4f5332c3 40 0
   I rpcproxy.h 0 0
 
 D w:\nt\private\dcomidl\obj 0
  F i386 2 10 4f5075a1 0 0
- F dce.h 44 0 4f51406b 62 0
+ F dce.h 44 0 4f5332c1 62 0
   I rpc.h 1 0
   I rpcndr.h 1 0
- F obase.h 44 0 4f51406c 242 0
+ F obase.h 44 0 4f5332c1 242 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I wtypes.h 1 0
- F objex.h 44 0 4f51406e 113 0
+ F objex.h 44 0 4f5332c2 113 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I obase.h 1 0
- F remact.h 44 0 4f51406f 104 0
+ F remact.h 44 0 4f5332c2 104 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I obase.h 1 0
- F lclor.h 44 0 4f514071 248 0
+ F lclor.h 44 0 4f5332c2 248 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I obase.h 1 0
- F odeth.h 44 0 4f514072 329 0
+ F odeth.h 44 0 4f5332c2 329 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
   I ole2.h 1 0
   I remunk.h 1 0
   I iface.h 1 0
- F rawodeth.h 44 0 4f514073 293 0
+ F rawodeth.h 44 0 4f5332c3 293 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
   I ole2.h 1 0
   I remunk.h 1 0
   I iface.h 1 0
- F iface.h 44 0 4f514073 83 0
+ F iface.h 44 0 4f5332c3 83 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I wtypes.h 1 0
- F orcb.h 44 0 4f514073 70 0
+ F orcb.h 44 0 4f5332c3 70 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I obase.h 1 0
- F remunk.h 44 0 4f514074 221 0
+ F remunk.h 44 0 4f5332c3 221 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
@@ -2753,12 +2753,12 @@ D w:\nt\private\ntos\inc 0
  F lpc.h 44 0 46fc2ca5 173 2
  F mca.h 44 0 46fc2ca6 239 0
  F memprint.h 44 0 46fc2ca5 81 1
- F minitape.h 44 0 4f514093 2284 0
+ F minitape.h 44 0 4f5332d6 2284 0
   I stddef.h 1 0
  F mips.h 44 0 46fc2ca6 1501 18
  F mm.h 44 0 46fc2ca5 1540 0
  F ncr53c94.h 44 0 46fc2ca5 261 0
- F ndis.h 44 0 4f514094 9654 122
+ F ndis.h 44 0 4f5332d6 9654 122
   I ctype.h 0 0
   I pshpack4.h 1 0
   I poppack.h 1 0
@@ -2851,23 +2851,8 @@ D w:\nt\private\ntos\inc 0
  F vdmntos.h 44 0 46fc2ca5 186 0
   I ..\..\inc\vdm.h 1 0
  F video.h 44 0 46fc2ca5 1161 0
- F ntiologc.h 44 0 4f514096 489 1
- F bugcodes.h 44 0 4f513f62 1491 1
- F ntddk.h 44 0 4f514708 15585 186
-  I excpt.h 0 0
-  I ntdef.h 0 1
-  I ntstatus.h 0 5
-  I bugcodes.h 0 1
-  I exlevels.h 0 1
-  I ntiologc.h 0 1
-  I ntpoapi.h 0 1
-  I pshpack4.h 0 0
-  I poppack.h 0 0
-  I string.h 0 0
-  I alphaops.h 1 0
-  I alpharef.h 1 0
-  I pshpack1.h 1 0
- F nthal.h 44 0 4f514093 16072 78
+ F ntiologc.h 44 0 4f5332d8 489 1
+ F nthal.h 44 0 4f5332d5 16072 78
   I excpt.h 0 0
   I ntdef.h 0 1
   I ntstatus.h 0 5
@@ -2881,11 +2866,26 @@ D w:\nt\private\ntos\inc 0
   I alphaops.h 1 0
   I alpharef.h 1 0
   I arc.h 0 10
- F miniport.h 44 0 4f514093 1034 0
+ F miniport.h 44 0 4f5332d6 1034 0
   I stddef.h 1 0
   I pshpack1.h 1 0
   I poppack.h 1 0
- F ntifs.h 44 0 4f514708 19199 17
+ F bugcodes.h 44 0 4f533299 1491 1
+ F ntddk.h 44 0 4f533861 15585 186
+  I excpt.h 0 0
+  I ntdef.h 0 1
+  I ntstatus.h 0 5
+  I bugcodes.h 0 1
+  I exlevels.h 0 1
+  I ntiologc.h 0 1
+  I ntpoapi.h 0 1
+  I pshpack4.h 0 0
+  I poppack.h 0 0
+  I string.h 0 0
+  I alphaops.h 1 0
+  I alpharef.h 1 0
+  I pshpack1.h 1 0
+ F ntifs.h 44 0 4f533861 19199 17
   I excpt.h 0 0
   I ntdef.h 0 1
   I ntnls.h 0 0
@@ -2903,7 +2903,7 @@ D w:\nt\private\ntos\inc 0
   I string.h 0 0
   I fsrtl.h 0 1
   I cache.h 0 3
- F ntsrv.h 44 0 4f514709 19378 69
+ F ntsrv.h 44 0 4f533861 19378 69
   I excpt.h 0 0
   I ntdef.h 0 1
   I ntnls.h 0 0
@@ -4121,7 +4121,7 @@ D w:\nt\private\ntos\dll 0
   I ntverp.h 0 0
   I common.ver 1 0
   I ntstatus.rc 1 0
- F ntstatus.rc 21 0 4f513f62 2 0
+ F ntstatus.rc 21 0 4f533298 2 0
 
 D w:\nt\private\ntos\dll\daytona 0
  F alpha 2 10 46fc2ca6 0 0
@@ -5340,7 +5340,7 @@ D w:\nt\private\ntos\init 0
   I ntverp.h 0 0
   I common.ver 1 0
   I bugcodes.rc 1 0
- F bugcodes.rc 21 0 4f513f62 2 0
+ F bugcodes.rc 21 0 4f533299 2 0
 
 D w:\nt\private\ntos\init\up 0
  F obj 2 10 4f5075b7 0 0
@@ -17193,7 +17193,7 @@ D w:\nt\private\ntos\dd\nlsmsg 0
   I common.ver 1 0
   I ntiologc.rc 1 0
  F obj 2 10 4f5075bd 0 0
- F ntiologc.rc 21 0 4f514096 2 0
+ F ntiologc.rc 21 0 4f5332d8 2 0
 
 D w:\nt\private\net\inc a000
  F access.h 1044 0 46fc2b5d 27 0
@@ -17442,7 +17442,7 @@ D w:\nt\private\eventlog 0
  F imports.h 44 0 46fc2afb 2 0
   I nt.h 0 1
   I windef.h 0 0
- F elf.h 44 0 4f514914 253 0
+ F elf.h 44 0 4f533982 253 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I imports.h 1 0
@@ -17494,8 +17494,8 @@ D w:\nt\private\ntos\dd\busmouse 0
   I common.ver 1 0
   I busmlog.rc 1 0
  F obj 2 10 4f5075c0 0 0
- F busmlog.h 44 0 4f514096 269 1
- F busmlog.rc 21 0 4f514096 2 0
+ F busmlog.h 44 0 4f5332d8 269 1
+ F busmlog.rc 21 0 4f5332d8 2 0
 
 D w:\nt\private\ntos\dd\busmouse\i386 0
  F buscfg.h 44 0 46fc2c76 45 0
@@ -17940,8 +17940,8 @@ D w:\nt\private\ntos\dd\i8042prt 0
   I common.ver 1 0
   I i8042log.rc 1 0
  F obj 2 10 4f5075c0 0 0
- F i8042log.h 44 0 4f514096 413 1
- F i8042log.rc 21 0 4f514096 2 0
+ F i8042log.h 44 0 4f5332d8 413 1
+ F i8042log.rc 21 0 4f5332d8 2 0
 
 D w:\nt\private\ntos\dd\inport 0
  F i386 2 10 46fc2c75 0 0
@@ -17955,8 +17955,8 @@ D w:\nt\private\ntos\dd\inport 0
   I common.ver 1 0
   I inplog.rc 1 0
  F obj 2 10 4f5075c0 0 0
- F inplog.h 44 0 4f514096 270 1
- F inplog.rc 21 0 4f514096 2 0
+ F inplog.h 44 0 4f5332d8 270 1
+ F inplog.rc 21 0 4f5332d8 2 0
 
 D w:\nt\private\ntos\dd\inport\i386 0
  F inpcfg.h 44 0 46fc2c75 56 0
@@ -18023,8 +18023,8 @@ D w:\nt\private\ntos\dd\kbdclass 0
   I common.ver 1 0
   I kbdlog.rc 1 0
  F obj 2 10 4f5075c0 0 0
- F kbdlog.h 44 0 4f514096 197 1
- F kbdlog.rc 21 0 4f514096 2 0
+ F kbdlog.h 44 0 4f5332d8 197 1
+ F kbdlog.rc 21 0 4f5332d8 2 0
 
 D w:\nt\private\ntos\dd\modem 0
  F mdmlog.mc 20021 0 46fc2c70 95 0
@@ -18174,8 +18174,8 @@ D w:\nt\private\ntos\dd\modem 0
   I common.ver 1 0
   I mdmlog.rc 1 0
  F obj 2 10 4f5075c0 0 0
- F mdmlog.h 44 0 4f514097 147 1
- F mdmlog.rc 21 0 4f514097 2 0
+ F mdmlog.h 44 0 4f5332d8 147 1
+ F mdmlog.rc 21 0 4f5332d8 2 0
 
 D w:\nt\private\ntos\dd\mouclass 0
  F moulog.mc 20021 0 46fc2c76 122 0
@@ -18194,8 +18194,8 @@ D w:\nt\private\ntos\dd\mouclass 0
   I common.ver 1 0
   I moulog.rc 1 0
  F obj 2 10 4f5075c0 0 0
- F moulog.h 44 0 4f514096 197 1
- F moulog.rc 21 0 4f514096 2 0
+ F moulog.h 44 0 4f5332d8 197 1
+ F moulog.rc 21 0 4f5332d8 2 0
 
 D w:\nt\private\ntos\dd\ntft 0
  F cmd 2 10 46fc2c75 0 0
@@ -18235,8 +18235,8 @@ D w:\nt\private\ntos\dd\ntft 0
   I common.ver 1 0
   I ftlog.rc 1 0
  F obj 2 10 4f5075c0 0 0
- F ftlog.h 44 0 4f514096 336 1
- F ftlog.rc 21 0 4f514096 2 0
+ F ftlog.h 44 0 4f5332d8 336 1
+ F ftlog.rc 21 0 4f5332d8 2 0
 
 D w:\nt\private\ntos\dd\null 0
  F nls.c 41 0 46fc2c75 507 0
@@ -18262,8 +18262,8 @@ D w:\nt\private\ntos\dd\parport 0
   I common.ver 1 0
   I parlog.rc 1 0
  F obj 2 10 4f5075c0 0 0
- F parlog.h 44 0 4f514097 174 1
- F parlog.rc 21 0 4f514097 2 0
+ F parlog.h 44 0 4f5332d8 174 1
+ F parlog.rc 21 0 4f5332d8 2 0
 
 D w:\nt\private\ntos\dd\parclass 0
  F alpha 2 10 46fc2c75 0 0
@@ -18288,8 +18288,8 @@ D w:\nt\private\ntos\dd\parclass 0
   I common.ver 1 0
   I parlog.rc 1 0
  F obj 2 10 4f5075c1 0 0
- F parlog.h 44 0 4f514097 129 1
- F parlog.rc 21 0 4f514097 2 0
+ F parlog.h 44 0 4f5332d8 129 1
+ F parlog.rc 21 0 4f5332d8 2 0
 
 D w:\nt\private\ntos\dd\parclass\i386 0
  F parloopa.asm 11 0 46fc2c75 162 0
@@ -18298,7 +18298,7 @@ D w:\nt\private\ntos\dd\parclass\i386 0
 D w:\nt\private\ntos\dd\parvdm 0
  F test 2 10 46fc2c76 0 0
  F parlog.mc 20021 0 46fc2c76 91 0
- F parlog.h 44 0 4f514099 138 1
+ F parlog.h 44 0 4f5332d9 138 1
  F parvdm.h 44 0 46fc2c76 172 0
  F parvdm.c 41 0 46fc2c76 1117 0
   I dderror.h 1 0
@@ -18307,7 +18307,7 @@ D w:\nt\private\ntos\dd\parvdm 0
   I ntddvdm.h 1 1
   I parvdm.h 1 0
   I parlog.h 1 1
- F parlog.rc 21 0 4f514099 2 0
+ F parlog.rc 21 0 4f5332d9 2 0
  F parvdm.rc 21 0 46fc2c76 13 0
   I windows.h 0 1
   I ntverp.h 0 0
@@ -18401,8 +18401,8 @@ D w:\nt\private\ntos\dd\pcmcia 0
   I common.ver 1 0
   I pcmciamc.rc 1 0
  F obj 2 10 4f5075c1 0 0
- F pcmciamc.rc 21 0 4f514097 2 0
- F pcmciamc.h 44 0 4f514097 144 1
+ F pcmciamc.rc 21 0 4f5332d8 2 0
+ F pcmciamc.h 44 0 4f5332d8 144 1
 
 D w:\nt\private\ntos\dd\qic117 0
  F cmd 2 10 46fc2c74 0 0
@@ -19686,8 +19686,8 @@ D w:\nt\private\ntos\dd\qic117 0
   I common.ver 1 0
   I q117log.rc 1 0
  F obj 2 10 4f5075c1 0 0
- F q117log.h 44 0 4f514097 652 0
- F q117log.rc 21 0 4f514097 2 0
+ F q117log.h 44 0 4f5332d8 652 0
+ F q117log.rc 21 0 4f5332d8 2 0
 
 D w:\nt\private\ntos\dd\qic117\q117kdi\include 0
  F kdiwhio.h 44 0 46fc2c74 699 0
@@ -20156,8 +20156,8 @@ D w:\nt\private\ntos\dd\serial 0
   I common.ver 1 0
   I serlog.rc 1 0
  F obj 2 10 4f5075c1 0 0
- F serlog.h 44 0 4f514097 422 1
- F serlog.rc 21 0 4f514097 2 0
+ F serlog.h 44 0 4f5332d8 422 1
+ F serlog.rc 21 0 4f5332d8 2 0
 
 D w:\nt\private\ntos\dd\sermouse 0
  F alpha 2 10 46fc2c76 0 0
@@ -20226,8 +20226,8 @@ D w:\nt\private\ntos\dd\sermouse 0
   I common.ver 1 0
   I sermlog.rc 1 0
  F obj 2 10 4f5075c1 0 0
- F sermlog.h 44 0 4f514097 269 1
- F sermlog.rc 21 0 4f514097 2 0
+ F sermlog.h 44 0 4f5332d8 269 1
+ F sermlog.rc 21 0 4f5332d8 2 0
 
 D w:\nt\private\ntos\dd\sidewndr 0
  F test 2 10 46fc2c77 0 0
@@ -21046,7 +21046,7 @@ D w:\nt\private\ntos\seaudit\msaudite 0
   I ntverp.h 0 0
   I common.ver 1 0
  F obj 2 10 4f5075c2 0 0
- F msaudite.rc 21 0 4f513f6a 2 0
+ F msaudite.rc 21 0 4f5332a0 2 0
 
 D w:\nt\private\ntos\seaudit\msobjs 0
  F msobjs.mc 20021 0 46fc2d05 1908 0
@@ -21055,7 +21055,7 @@ D w:\nt\private\ntos\seaudit\msobjs 0
   I ntverp.h 0 0
   I common.ver 1 0
  F obj 2 10 4f5075c2 0 0
- F msobjs.rc 21 0 4f513f6d 2 0
+ F msobjs.rc 21 0 4f5332a2 2 0
 
 D w:\nt\private\ntos\diskreg 0
  F diskreg.c 41 0 46fc2d05 2332 0
@@ -21104,7 +21104,7 @@ D w:\nt\private\ntos\w32\umode\daytona\alpha 0
 D w:\nt\private\ntos\w32\umode\daytona\mips 0
 
 D w:\nt\private\ntos\w32\umode\daytona\i386 0
- F usrstubs.asm 11 0 4f514099 4078 0
+ F usrstubs.asm 11 0 4f5332d9 4078 0
   I ks386.inc 1 0
   I callconv.inc 1 0
 
@@ -21154,8 +21154,8 @@ D w:\nt\private\ntos\w32\ntuser\inc 0
  F winerrp.h 44 0 46fc2ca9 142 0
 
 D w:\nt\private\ntos\w32\ntuser\inc\daytona 0
- F callback.h 44 0 4f51409a 77 0
- F cscall.h 44 0 4f51409a 73 0
+ F callback.h 44 0 4f5332da 77 0
+ F cscall.h 44 0 4f5332da 73 0
  F obj 2 10 4f5075c2 0 0
 
 D w:\nt\private\ntos\w32\ntuser\rtl 0
@@ -21252,7 +21252,7 @@ D w:\nt\private\ntos\w32\ntuser\rtl\client 0
 
 D w:\nt\private\ntos\w32\ntuser\rtl\client\daytona 0
  F obj 2 10 4f5075c2 0 0
- F wowrtl.asm 11 0 4f51424e 909 0
+ F wowrtl.asm 11 0 4f533421 909 0
   I listing.inc 1 0
 
 D w:\nt\private\ntos\w32\ntgdi\inc a000
@@ -21392,69 +21392,69 @@ D w:\nt\private\windows\inc a000
  F wowuserp.h 1044 0 46fc2d73 237 0
  F stdexts.c 1041 0 46fc2d73 541 0
   I exts.h 1 0
- F d3d.h 1044 0 4f513f67 392 0
+ F winnlsp.h 1044 0 4f53329b 30 3
+ F winnetp.h 1044 0 4f53329b 182 0
+ F ddemlp.h 1044 0 4f53329c 45 1
+ F d3d.h 1044 0 4f53329c 392 0
   I stdlib.h 0 0
   I objbase.h 0 0
   I d3dcom.h 0 0
   I d3dtypes.h 1 0
   I d3dcaps.h 1 0
- F d3dtypes.h 1044 0 4f513f67 956 0
+ F d3dtypes.h 1044 0 4f53329c 956 0
   I subwtype.h 1 0
   I windows.h 0 0
   I ddraw.h 0 0
- F d3dcaps.h 1044 0 4f513f67 290 0
+ F d3dcaps.h 1044 0 4f53329c 290 0
   I ddraw.h 0 0
- F d3drm.h 1044 0 4f513f67 134 0
+ F d3drm.h 1044 0 4f53329c 134 0
   I d3drmobj.h 1 0
- F d3drmdef.h 1044 0 4f513f67 402 0
+ F d3drmdef.h 1044 0 4f53329c 402 0
   I stddef.h 0 0
   I d3dtypes.h 1 0
- F d3drmobj.h 1044 0 4f513f67 727 0
+ F d3drmobj.h 1044 0 4f53329c 727 0
   I objbase.h 0 0
   I d3drmdef.h 1 0
   I d3d.h 1 0
- F d3drmwin.h 1044 0 4f513f67 48 0
+ F d3drmwin.h 1044 0 4f53329c 48 0
   I d3drm.h 1 0
   I ddraw.h 1 0
   I d3d.h 1 0
- F shlapip.h 1044 0 4f513f68 361 0
+ F shlapip.h 1044 0 4f53329c 361 0
   I pshpack1.h 0 0
   I poppack.h 0 0
- F cplp.h 1044 0 4f513f68 28 0
+ F cplp.h 1044 0 4f53329c 28 0
   I pshpack1.h 0 0
   I poppack.h 0 0
- F conapi.h 1044 0 4f513f68 472 0
- F windowsp.h 1044 0 4f513f68 15 1
- F winbasep.h 1044 0 4f513f68 323 1
- F winuserp.h 1044 0 4f513f68 1542 3
+ F conapi.h 1044 0 4f53329d 472 0
+ F windowsp.h 1044 0 4f53329d 15 1
+ F winbasep.h 1044 0 4f53329d 323 1
+ F winuserp.h 1044 0 4f53329d 1542 3
   I pshpack2.h 1800 0
   I poppack.h 1800 0
- F wingdip.h 1044 0 4f513f68 427 4
- F winregp.h 1044 0 4f513f68 22 1
- F winconp.h 1044 0 4f513f68 91 0
- F comctrlp.h 1044 0 4f513f69 598 0
+ F wingdip.h 1044 0 4f53329d 427 4
+ F winregp.h 1044 0 4f53329d 22 1
+ F winconp.h 1044 0 4f53329d 91 0
+ F winsprlp.h 1044 0 4f53329a 37 0
+ F comctrlp.h 1044 0 4f53329d 598 0
   I pshpack1.h 0 0
   I prshtp.h 0 0
   I shlwapi.h 0 0
   I shlwapip.h 0 0
   I poppack.h 0 0
- F prshtp.h 1044 0 4f513f69 96 0
- F shlwapip.h 1044 0 4f513f69 34 0
+ F prshtp.h 1044 0 4f53329d 96 0
+ F shlwapip.h 1044 0 4f53329d 34 0
   I pshpack1.h 0 0
   I poppack.h 0 0
- F commdlgp.h 1044 0 4f513f69 34 1
+ F commdlgp.h 1044 0 4f5332a0 34 1
   I pshpack1.h 0 0
   I poppack.h 0 0
- F shlobjp.h 1044 0 4f513f69 618 0
- F winsprlp.h 1044 0 4f513f65 37 0
- F shlguidp.h 1044 0 4f513f6a 26 0
- F userenvp.h 1044 0 4f513f6a 225 0
- F winnls3p.h 1044 0 4f513f6a 244 3
- F imep.h 1044 0 4f513f6a 138 3
- F immp.h 1044 0 4f513f6a 307 1
- F winnlsp.h 1044 0 4f513f66 30 3
- F winnetp.h 1044 0 4f513f67 182 0
- F ddemlp.h 1044 0 4f513f67 45 1
+ F shlobjp.h 1044 0 4f5332a0 618 0
+ F shlguidp.h 1044 0 4f5332a0 26 0
+ F userenvp.h 1044 0 4f5332a0 225 0
+ F winnls3p.h 1044 0 4f5332a0 244 3
+ F imep.h 1044 0 4f5332a0 138 3
+ F immp.h 1044 0 4f5332a0 307 1
 
 D w:\nt\private\ntos\w32\w32inc 0
  F gre.h 44 0 46fc2d00 492 7
@@ -21466,10 +21466,10 @@ D w:\nt\private\ntos\w32\w32inc 0
 
 D w:\nt\private\ntos\w32\ntuser\kernel\daytona 0
  F obj 2 10 4f5075c2 0 0
- F callcf.c 41 0 4f51409a 171 0
+ F callcf.c 41 0 4f5332da 171 0
   I precomp.h 1 0
- F strid.h 44 0 4f51409a 1576 0
- F strid.rc 21 0 4f51409a 2 0
+ F strid.h 44 0 4f5332da 1576 0
+ F strid.rc 21 0 4f5332da 2 0
 
 D w:\nt\private\ntos\w32\ntuser\rtl\kernel 0
  F daytona 2 10 46fc2ca8 0 0
@@ -21869,10 +21869,10 @@ D w:\nt\private\ntos\w32\ntuser\client 0
  F cltxt.h 44 0 4f507673 1240 0
 
 D w:\nt\private\ntos\w32\ntuser\client\daytona 0
- F dispcb.c 41 0 4f51409a 276 0
+ F dispcb.c 41 0 4f5332da 276 0
   I precomp.h 1 0
  F obj 2 10 4f5075c2 0 0
- F wowasm.asm 11 0 4f514286 1423 0
+ F wowasm.asm 11 0 4f53344b 1423 0
   I listing.inc 1 0
 
 D w:\nt\private\ntos\w32\ntuser\client\mips 0
@@ -22452,7 +22452,7 @@ D w:\nt\private\ntos\w32\ntuser\kdexts\kd 0
 
 D w:\nt\private\ntos\w32\ntuser\kdexts\kd\daytona 0
  F obj 2 10 4f5075c3 0 0
- F dsotable.c 41 0 4f5140a1 3478 0
+ F dsotable.c 41 0 4f5332e0 3478 0
   I precomp.h 1 0
   I userkdx.h 3 0
   I dsocode.c 3 0
@@ -22470,7 +22470,7 @@ D w:\nt\private\ntos\w32\ntuser\kdexts\ntsd 0
 
 D w:\nt\private\ntos\w32\ntuser\kdexts\ntsd\daytona 0
  F obj 2 10 4f5075c3 0 0
- F dsotable.c 41 0 4f5140a1 2633 0
+ F dsotable.c 41 0 4f5332dd 2633 0
   I precomp.h 1 0
   I userkdx.h 3 0
   I dsocode.c 3 0
@@ -30747,10 +30747,10 @@ D w:\nt\private\ntos\w32\kmode\daytona\alpha 0
 D w:\nt\private\ntos\w32\kmode\daytona\mips 0
 
 D w:\nt\private\ntos\w32\kmode\daytona\i386 0
- F sysstubs.asm 11 0 4f51435c 4078 0
+ F sysstubs.asm 11 0 4f53350b 4078 0
   I ks386.inc 1 0
   I callconv.inc 1 0
- F systable.asm 11 0 4f51435c 664 0
+ F systable.asm 11 0 4f53350b 664 0
   I callconv.inc 1 0
 
 D w:\nt\private\ntos\w32\kmode\daytona\ppc 0
@@ -36852,7 +36852,7 @@ D w:\nt\private\rpc\runtime\mtrt 0
   I wmsgpack.hxx 0 0
   I wmsgsvr.hxx 0 0
   I wmsgclnt.hxx 0 0
- F issperr.rc 21 0 4f513f6a 2 0
+ F issperr.rc 21 0 4f5332a0 2 0
  F obj 2 10 4f507cb7 0 0
 
 D w:\nt\private\rpc\ndrmem 0
@@ -37117,12 +37117,12 @@ D w:\nt\private\rpc\ndr20\ppc 0
 
 D w:\nt\private\rpc\midl20\include 0
  F idlbase.idl 20081 0 46fc2d21 21 0
- F acferec.h 44 0 4f51447a 355 0
+ F acferec.h 44 0 4f5335ee 355 0
  F ebase.h 44 0 46fc2d21 41 0
  F errdb.h 44 0 46fc2d21 2192 0
  F helptext.h 44 0 46fc2d21 103 0
  F idlbase.h 44 0 46fc2d21 42 0
- F idlerec.h 44 0 4f51447a 1795 0
+ F idlerec.h 44 0 4f5335ee 1795 0
  F midlvers.h 44 0 46fc2d21 5 0
  F ndrtypes.h 44 0 46fc2d21 602 0
  F nulldefs.h 44 0 46fc2d21 23 0
@@ -37272,11 +37272,11 @@ D w:\nt\private\rpc\runtime\rtifs 0
  F mgmt_s.c 41 0 46fc2d1b 637 0
   I string.h 0 0
   I mgmt.h 1 0
- F conv_c.c 41 0 4f514478 670 0
+ F conv_c.c 41 0 4f5335ed 670 0
   I string.h 0 0
   I stdarg.h 0 0
   I conv.h 1 0
- F mgmt_c.c 41 0 4f514478 690 0
+ F mgmt_c.c 41 0 4f5335ec 690 0
   I string.h 0 0
   I stdarg.h 0 0
   I mgmt.h 1 0
@@ -37289,18 +37289,18 @@ D w:\nt\private\rpc\runtime\rtifs 0
 
 D w:\nt\private\rpc\runtime\rtifs\obj 0
  F i386 2 10 4f507cb7 0 0
- F nbase.h 44 0 4f514477 82 0
+ F nbase.h 44 0 4f5335ec 82 0
   I rpc.h 1 0
   I rpcndr.h 1 0
- F mgmt.h 44 0 4f514478 121 0
-  I rpc.h 1 0
-  I rpcndr.h 1 0
-  I nbase.h 1 0
- F epmp.h 44 0 4f514478 194 0
+ F mgmt.h 44 0 4f5335ec 121 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I nbase.h 1 0
- F conv.h 44 0 4f514478 130 0
+ F epmp.h 44 0 4f5335ed 194 0
+  I rpc.h 1 0
+  I rpcndr.h 1 0
+  I nbase.h 1 0
+ F conv.h 44 0 4f5335ed 130 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I nbase.h 1 0
@@ -38527,8 +38527,8 @@ D w:\nt\private\rpc\midl20\codegen 0
  F obj 2 10 4f507cb7 0 0
 
 D w:\nt\private\rpc\midl20\front 0
- F acfgram.h 44 0 4f51447a 247 0
- F grammar.h 44 0 4f514479 247 0
+ F acfgram.h 44 0 4f5335ee 247 0
+ F grammar.h 44 0 4f5335ed 247 0
  F lex.h 44 0 46fc2d21 75 0
  F gramutil.hxx 44 0 46fc2d21 588 0
   I allnodes.hxx 1 0
@@ -38554,7 +38554,7 @@ D w:\nt\private\rpc\midl20\front 0
   I string.h 0 0
   I allnodes.hxx 1 0
   I cmdana.hxx 1 0
- F acfgram.cxx 41 0 4f51447a 1698 0
+ F acfgram.cxx 41 0 4f5335ee 1698 0
   I nulldefs.h 1 0
   I stdio.h 0 0
   I stdlib.h 0 0
@@ -38668,7 +38668,7 @@ D w:\nt\private\rpc\midl20\front 0
   I allnodes.hxx 1 0
   I fldattr.hxx 1 0
   I semantic.hxx 1 0
- F grammar.cxx 41 0 4f51447a 7672 0
+ F grammar.cxx 41 0 4f5335ee 7672 0
   I nulldefs.h 1 0
   I stdio.h 0 0
   I stdlib.h 0 0
@@ -38978,18 +38978,18 @@ D w:\nt\private\rpc\locator 0
  F nsisvr.idl 20081 0 46fc2d17 44 0
   I nsicom.idl 1 0
  F locquery.h 44 0 46fc2d17 48 0
- F nsicom.h 44 0 4f51447a 163 0
+ F nsicom.h 44 0 4f5335ee 163 0
   I rpc.h 1 0
   I rpcndr.h 1 0
- F nsisvr.h 44 0 4f51447b 72 0
-  I rpc.h 1 0
-  I rpcndr.h 1 0
-  I nsicom.h 1 0
- F nsiclt.h 44 0 4f51447b 83 0
+ F nsisvr.h 44 0 4f5335ef 72 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I nsicom.h 1 0
- F nsimgm.h 44 0 4f51447b 193 0
+ F nsiclt.h 44 0 4f5335ef 83 0
+  I rpc.h 1 0
+  I rpcndr.h 1 0
+  I nsicom.h 1 0
+ F nsimgm.h 44 0 4f5335ef 193 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I nsicom.h 1 0
@@ -39079,15 +39079,15 @@ D w:\nt\private\rpc\locator\client 0
   I ntverp.h 0 0
   I common.ver 1 0
  F obj 2 10 4f507cb7 0 0
- F nsisvr_c.c 41 0 4f51447a 476 0
+ F nsisvr_c.c 41 0 4f5335ef 476 0
   I string.h 0 0
   I stdarg.h 0 0
   I nsisvr.h 1 0
- F nsiclt_c.c 41 0 4f51447b 679 0
+ F nsiclt_c.c 41 0 4f5335ef 679 0
   I string.h 0 0
   I stdarg.h 0 0
   I nsiclt.h 1 0
- F nsimgm_c.c 41 0 4f51447b 2305 0
+ F nsimgm_c.c 41 0 4f5335ef 2305 0
   I string.h 0 0
   I stdarg.h 0 0
   I nsimgm.h 1 0
@@ -39257,18 +39257,18 @@ D w:\nt\private\rpc\locator\ 0
  F nsisvr.idl 20081 0 46fc2d17 44 0
   I nsicom.idl 1 0
  F locquery.h 44 0 46fc2d17 48 0
- F nsicom.h 44 0 4f51447a 163 0
+ F nsicom.h 44 0 4f5335ee 163 0
   I rpc.h 1 0
   I rpcndr.h 1 0
- F nsisvr.h 44 0 4f51447b 72 0
-  I rpc.h 1 0
-  I rpcndr.h 1 0
-  I nsicom.h 1 0
- F nsiclt.h 44 0 4f51447b 83 0
+ F nsisvr.h 44 0 4f5335ef 72 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I nsicom.h 1 0
- F nsimgm.h 44 0 4f51447b 193 0
+ F nsiclt.h 44 0 4f5335ef 83 0
+  I rpc.h 1 0
+  I rpcndr.h 1 0
+  I nsicom.h 1 0
+ F nsimgm.h 44 0 4f5335ef 193 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I nsicom.h 1 0
@@ -39358,15 +39358,15 @@ D w:\nt\private\rpc\locator\client\ 0
   I ntverp.h 0 0
   I common.ver 1 0
  F obj 2 10 4f507cb7 0 0
- F nsisvr_c.c 41 0 4f51447a 476 0
+ F nsisvr_c.c 41 0 4f5335ef 476 0
   I string.h 0 0
   I stdarg.h 0 0
   I nsisvr.h 1 0
- F nsiclt_c.c 41 0 4f51447b 679 0
+ F nsiclt_c.c 41 0 4f5335ef 679 0
   I string.h 0 0
   I stdarg.h 0 0
   I nsiclt.h 1 0
- F nsimgm_c.c 41 0 4f51447b 2305 0
+ F nsimgm_c.c 41 0 4f5335ef 2305 0
   I string.h 0 0
   I stdarg.h 0 0
   I nsimgm.h 1 0
@@ -39394,23 +39394,23 @@ D w:\nt\private\rpc\locator\newservr 0
   I common.h 0 0
   I objbase.h 0 0
   I malloc.h 0 0
- F common.h 44 0 4f51447c 150 0
+ F common.h 44 0 4f5335ef 150 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I nsimp.h 1 0
- F nsisvr.h 44 0 4f51447c 70 0
+ F nsisvr.h 44 0 4f5335ef 70 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I common.h 1 0
- F nsiclt.h 44 0 4f51447c 81 0
+ F nsiclt.h 44 0 4f5335f0 81 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I common.h 1 0
- F nsimgm.h 44 0 4f51447d 191 0
+ F nsimgm.h 44 0 4f5335f0 191 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I common.h 1 0
- F loctoloc.h 44 0 4f51447d 153 0
+ F loctoloc.h 44 0 4f5335f0 153 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I common.h 1 0
@@ -39513,20 +39513,20 @@ D w:\nt\private\rpc\locator\newservr\server 0
   I ntverp.h 0 0
   I common.ver 1 0
  F obj 2 10 4f507cb7 0 0
- F nsisvr_s.c 41 0 4f51447a 480 0
+ F nsisvr_s.c 41 0 4f5335ef 480 0
   I string.h 0 0
   I nsisvr.h 1 0
- F nsiclt_s.c 41 0 4f51447b 659 0
+ F nsiclt_s.c 41 0 4f5335ef 659 0
   I string.h 0 0
   I nsiclt.h 1 0
- F nsimgm_s.c 41 0 4f51447b 2317 0
+ F nsimgm_s.c 41 0 4f5335ef 2317 0
   I string.h 0 0
   I nsimgm.h 1 0
- F locloc_c.c 41 0 4f51447d 1002 0
+ F locloc_c.c 41 0 4f5335f0 1002 0
   I string.h 0 0
   I stdarg.h 0 0
   I loctoloc.h 1 0
- F locloc_s.c 41 0 4f51447d 1008 0
+ F locloc_s.c 41 0 4f5335f0 1008 0
   I string.h 0 0
   I loctoloc.h 1 0
 
@@ -39663,20 +39663,20 @@ D w:\nt\private\rpc\locator\newservr\server\ 0
   I ntverp.h 0 0
   I common.ver 1 0
  F obj 2 10 4f507cb7 0 0
- F nsisvr_s.c 41 0 4f51447a 480 0
+ F nsisvr_s.c 41 0 4f5335ef 480 0
   I string.h 0 0
   I nsisvr.h 1 0
- F nsiclt_s.c 41 0 4f51447b 659 0
+ F nsiclt_s.c 41 0 4f5335ef 659 0
   I string.h 0 0
   I nsiclt.h 1 0
- F nsimgm_s.c 41 0 4f51447b 2317 0
+ F nsimgm_s.c 41 0 4f5335ef 2317 0
   I string.h 0 0
   I nsimgm.h 1 0
- F locloc_c.c 41 0 4f51447d 1002 0
+ F locloc_c.c 41 0 4f5335f0 1002 0
   I string.h 0 0
   I stdarg.h 0 0
   I loctoloc.h 1 0
- F locloc_s.c 41 0 4f51447d 1008 0
+ F locloc_s.c 41 0 4f5335f0 1008 0
   I string.h 0 0
   I loctoloc.h 1 0
 
@@ -39998,11 +39998,11 @@ D w:\nt\private\lsa\uclient 0
  F tsevars.c 41 0 46fc2afa 447 0
   I tsecomm.c 1 0
  F obj 2 10 4f507dcc 0 0
- F lsarpc_c.c 41 0 4f51456b 5039 0
+ F lsarpc_c.c 41 0 4f533696 5039 0
   I string.h 0 0
   I stdarg.h 0 0
   I lsarpc_c.h 1 0
- F lsarpc_c.h 44 0 4f51456b 629 0
+ F lsarpc_c.h 44 0 4f533696 629 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I lsaimp.h 1 0
@@ -40238,7 +40238,7 @@ D w:\nt\private\lsa\server 0
   I windows.h 0 1
   I ntverp.h 0 0
   I common.ver 1 0
- F lsarpc_s.c 41 0 4f51456c 5780 0
+ F lsarpc_s.c 41 0 4f533697 5780 0
   I string.h 0 0
   I lsarpc.h 1 0
 
@@ -40478,7 +40478,7 @@ D w:\nt\private\lsa\server\ 0
   I windows.h 0 0
   I ntverp.h 0 0
   I common.ver 1 0
- F lsarpc_s.c 41 0 4f51456c 5780 0
+ F lsarpc_s.c 41 0 4f533697 5780 0
   I string.h 0 0
   I lsarpc.h 1 0
 
@@ -52152,11 +52152,11 @@ D w:\nt\private\newsam\client 0
   I ntverp.h 0 0
   I common.ver 1 0
  F obj 2 10 4f508169 0 0
- F samrpc_c.c 41 0 4f5148fa 7585 0
+ F samrpc_c.c 41 0 4f533971 7585 0
   I string.h 0 0
   I stdarg.h 0 0
   I samrpc_c.h 1 0
- F samrpc_c.h 44 0 4f5148fa 1053 0
+ F samrpc_c.h 44 0 4f533971 1053 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I samimp.h 1 0
@@ -52266,7 +52266,7 @@ D w:\nt\private\newsam\server 0
  F obj 2 10 4f508169 0 0
  F sampmsgs.h 44 0 4f50816b 412 1
  F sampmsgs.rc 21 0 4f50816b 2 0
- F samrpc_s.c 41 0 4f5148fb 8294 0
+ F samrpc_s.c 41 0 4f533971 8294 0
   I string.h 0 0
   I samrpc.h 1 0
 
@@ -52409,7 +52409,7 @@ D w:\nt\private\eventlog\server 0
   I windows.h 0 1
   I ntverp.h 0 0
   I common.ver 1 0
- F elf_s.c 41 0 4f514914 2358 0
+ F elf_s.c 41 0 4f533982 2358 0
   I string.h 0 0
   I elf.h 1 0
 
@@ -52531,7 +52531,7 @@ D w:\nt\private\eventlog\server\ 0
   I windows.h 0 0
   I ntverp.h 0 0
   I common.ver 1 0
- F elf_s.c 41 0 4f514914 2358 0
+ F elf_s.c 41 0 4f533982 2358 0
   I string.h 0 0
   I elf.h 1 0
 
@@ -52568,7 +52568,7 @@ D w:\nt\private\eventlog\elfclnt 0
   I elfclntp.h 0 0
   I lmsvc.h 0 2
  F obj 2 10 4f508182 0 0
- F elf_c.c 41 0 4f514913 2098 0
+ F elf_c.c 41 0 4f533981 2098 0
   I string.h 0 0
   I stdarg.h 0 0
   I elf.h 1 0
@@ -52581,7 +52581,7 @@ D w:\nt\private\eventlog\netevent 0
   I common.ver 1 0
   I netevent.rc 1 0
  F obj 2 10 4f508182 0 0
- F netevent.rc 21 0 4f513f6c 2 0
+ F netevent.rc 21 0 4f5332a2 2 0
 
 D w:\nt\private\eventlog\misc 0
  F logalert.c 41 0 46fc2afb 204 0
@@ -53898,7 +53898,7 @@ D w:\nt\private\windows\screg\winreg 0
   I winbase.h 0 0
   I winreg.h 0 1
   I winregp.h 0 1
- F regrpc.h 44 0 4f514d37 505 0
+ F regrpc.h 44 0 4f533b90 505 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I imports.h 1 0
@@ -54142,7 +54142,7 @@ D w:\nt\private\windows\screg\winreg\server 0
   I rpc.h 0 0
   I regrpc.h 1 0
  F obj 2 10 4f508559 0 0
- F regrpc_s.c 41 0 4f514d37 3784 0
+ F regrpc_s.c 41 0 4f533b90 3784 0
   I string.h 0 0
   I regrpc.h 1 0
 
@@ -54231,7 +54231,7 @@ D w:\nt\private\windows\screg\winreg\client 0
   I ntverp.h 0 0
   I common.ver 1 0
  F obj 2 10 4f508559 0 0
- F regrpc_c.c 41 0 4f514d37 3964 0
+ F regrpc_c.c 41 0 4f533b90 3964 0
   I string.h 0 0
   I stdarg.h 0 0
   I regrpc.h 1 0
@@ -54370,7 +54370,7 @@ D w:\nt\private\windows\screg\sc\inc 0
  F svcslib.h 44 0 46fc2d4c 96 0
   I svcs.h 0 0
  F valid.h 44 0 46fc2d4c 115 0
- F svcctl.h 44 0 4f514d39 356 0
+ F svcctl.h 44 0 4f533b91 356 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I imports.h 1 0
@@ -54510,7 +54510,7 @@ D w:\nt\private\windows\screg\sc\client 0
   I ntverp.h 0 0
   I common.ver 1 0
  F obj 2 10 4f508559 0 0
- F svcctl_c.c 41 0 4f514d38 4093 0
+ F svcctl_c.c 41 0 4f533b90 4093 0
   I string.h 0 0
   I stdarg.h 0 0
   I svcctl.h 1 0
@@ -54926,7 +54926,7 @@ D w:\nt\private\windows\screg\sc\server 0
   I windows.h 0 1
   I ntverp.h 0 0
   I common.ver 1 0
- F svcctl_s.c 41 0 4f514d39 5201 0
+ F svcctl_s.c 41 0 4f533b91 5201 0
   I string.h 0 0
   I svcctl.h 1 0
 
@@ -54954,7 +54954,7 @@ D w:\nt\private\windows\pnp\inc 0
   I malloc.h 0 0
   I pnp.h 1 0
   I cfgmgrp.h 1 0
- F pnp.h 44 0 4f514d45 360 0
+ F pnp.h 44 0 4f533b96 360 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I imports.h 1 0
@@ -55418,7 +55418,7 @@ D w:\nt\private\windows\base\client 0
   I ntverp.h 0 0
   I common.ver 1 0
   I ..\..\winnls\winnls.rc 1 0
- F winerror.rc 21 0 4f513f66 2 0
+ F winerror.rc 21 0 4f53329b 2 0
 
 D w:\nt\private\windows\base\client\daytona 0
  F obj 2 10 4f508559 0 0
@@ -55588,8 +55588,8 @@ D w:\nt\private\windows\base\advapi 0
   I windows.h 0 1
   I ntverp.h 0 0
   I common.ver 1 0
- F win31evt.h 44 0 4f514d3a 236 1
- F win31evt.rc 21 0 4f514d3a 2 0
+ F win31evt.h 44 0 4f533b91 236 1
+ F win31evt.rc 21 0 4f533b91 2 0
 
 D w:\nt\private\windows\base\advapi\wintrust 0
  F provider.h 44 0 46fc2d74 70 0
@@ -63257,8 +63257,8 @@ D w:\nt\private\windows\shell\lmui\ntshrui 0
 
 D w:\nt\private\windows\shell\lmui\ntshrui\obj 0
  F i386 2 10 4f50855d 0 0
- F messages.h 44 0 4f514d3b 253 0
- F messages.rc 21 0 4f514d3b 2 0
+ F messages.h 44 0 4f533b91 253 0
+ F messages.rc 21 0 4f533b91 2 0
 
 D w:\nt\private\windows\shell\lmui\netobjs 0
  F fixes 2 10 46fc2d5c 0 0
@@ -63324,8 +63324,8 @@ D w:\nt\private\windows\shell\lmui\netobjs 0
 
 D w:\nt\private\windows\shell\lmui\netobjs\obj 0
  F i386 2 10 4f50855d 0 0
- F messages.h 44 0 4f514d3b 146 0
- F messages.rc 21 0 4f514d3b 2 0
+ F messages.h 44 0 4f533b91 146 0
+ F messages.rc 21 0 4f533b91 2 0
 
 D w:\nt\private\windows\shell\lmui\shareui 0
  F messages.mc 20021 0 46fc2d60 195 0
@@ -63526,8 +63526,8 @@ D w:\nt\private\windows\shell\lmui\shareui 0
 
 D w:\nt\private\windows\shell\lmui\shareui\obj 0
  F i386 2 10 4f50855d 0 0
- F messages.h 44 0 4f514d3b 316 0
- F messages.rc 21 0 4f514d3b 2 0
+ F messages.h 44 0 4f533b91 316 0
+ F messages.rc 21 0 4f533b91 2 0
 
 D w:\nt\private\windows\shell\migrate 0
  F shmgdefs.h 44 0 46fc2d54 46 0
@@ -68213,13 +68213,13 @@ D w:\nt\private\windows\shell\accesory\netclip\proxy 0
  F nclipps.rc 21 0 46fc2d68 51 0
   I windows.h 0 1
  F obj 2 10 4f508560 0 0
- F netclip_p.c 41 0 4f514d3c 539 0
+ F netclip_p.c 41 0 4f533b92 539 0
   I rpcproxy.h 1 0
   I netclip.h 1 0
- F netclip_i.c 41 0 4f514d3c 47 0
- F dlldata.c 41 0 4f514d3c 37 0
+ F netclip_i.c 41 0 4f533b92 47 0
+ F dlldata.c 41 0 4f533b92 37 0
   I rpcproxy.h 0 0
- F netclip.h 44 0 4f514d3c 398 0
+ F netclip.h 44 0 4f533b92 398 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
@@ -68587,11 +68587,11 @@ D w:\nt\private\windows\spooler\spoolss 0
   I winspool.h 0 0
   I winsplp.h 0 0
   I ..\inc\splapip.h 0 0
- F winspl.h 44 0 4f514d40 800 0
+ F winspl.h 44 0 4f533b93 800 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I import.h 1 0
- F winspl_s.c 41 0 4f514d40 7870 0
+ F winspl_s.c 41 0 4f533b93 7870 0
   I string.h 0 0
   I winspl.h 1 0
 
@@ -68673,7 +68673,7 @@ D w:\nt\private\windows\spooler\spoolss\dll 0
   I ntverp.h 0 0
   I common.ver 1 0
  F obj 2 10 4f508560 0 0
- F winspl_c.c 41 0 4f514d3d 8168 0
+ F winspl_c.c 41 0 4f533b93 8168 0
   I string.h 0 0
   I stdarg.h 0 0
   I winspl.h 1 0
@@ -68836,7 +68836,7 @@ D w:\nt\private\windows\spooler\spoolss\client 0
   I common.ver 1 0
   I browse.h 1 0
  F browse.dlg 24 0 46fc2d8a 73 0
- F winspl_c.c 41 0 4f514d3d 8168 0
+ F winspl_c.c 41 0 4f533b93 8168 0
   I string.h 0 0
   I stdarg.h 0 0
   I winspl.h 1 0
@@ -69020,7 +69020,7 @@ D w:\nt\private\windows\spooler\spoolss\server 0
   I windows.h 0 1
   I ntverp.h 0 0
   I common.ver 1 0
- F winspl_s.c 41 0 4f514d40 7870 0
+ F winspl_s.c 41 0 4f533b93 7870 0
   I string.h 0 0
   I winspl.h 1 0
 
@@ -69216,7 +69216,7 @@ D w:\nt\private\windows\spooler\spoolss\win32 0
   I ntverp.h 0 0
   I local.h 0 0
   I common.ver 1 0
- F winspl_c.c 41 0 4f514d3d 8168 0
+ F winspl_c.c 41 0 4f533b93 8168 0
   I string.h 0 0
   I stdarg.h 0 0
   I winspl.h 1 0
@@ -70402,7 +70402,7 @@ D w:\nt\private\windows\media\winmm 0
   I ntverp.h 0 0
   I common.ver 0 0
  F obj 2 10 4f508561 0 0
- F mmsysp.h 44 0 4f513f68 350 0
+ F mmsysp.h 44 0 4f53329d 350 0
   I pshpack1.h 0 0
   I poppack.h 0 0
 
@@ -74187,7 +74187,7 @@ D w:\nt\private\windows\netdde\incs 0
  F obj 2 10 4f508561 0 0
  F nddemsg.h 44 0 4f50856f 1291 0
  F nddemsg.rc 21 0 4f50856f 2 0
- F ndeapi.h 44 0 4f514d43 190 0
+ F ndeapi.h 44 0 4f533b95 190 0
   I rpc.h 1 0
   I rpcndr.h 1 0
 
@@ -74489,7 +74489,7 @@ D w:\nt\private\windows\netdde\src\ndeapi 0
  F client 2 10 46fc2d4b 0 0
  F server 2 10 46fc2d4b 0 0
  F ndeapi.idl 20081 0 46fc2d4b 231 0
- F ndeapi.h 44 0 4f514d43 190 0
+ F ndeapi.h 44 0 4f533b95 190 0
   I rpc.h 1 0
   I rpcndr.h 1 0
 
@@ -74546,7 +74546,7 @@ D w:\nt\private\windows\netdde\src\ndeapi\server 0
   I ntverp.h 0 0
   I common.ver 1 0
  F obj 2 10 4f508561 0 0
- F ndeapi_s.c 41 0 4f514d43 2458 0
+ F ndeapi_s.c 41 0 4f533b95 2458 0
   I string.h 0 0
   I ndeapi.h 1 0
 
@@ -74574,7 +74574,7 @@ D w:\nt\private\windows\netdde\src\ndeapi\client 0
   I ntverp.h 0 0
   I common.ver 1 0
  F obj 2 10 4f508561 0 0
- F ndeapi_c.c 41 0 4f514d42 1850 0
+ F ndeapi_c.c 41 0 4f533b95 1850 0
   I string.h 0 0
   I stdarg.h 0 0
   I ndeapi.h 1 0
@@ -79092,7 +79092,7 @@ D w:\nt\private\windows\pnp\umpnpmgr 0
   I umpnpdat.h 1 0
   I common.ver 1 0
  F obj 2 10 4f508562 0 0
- F pnp_s.c 41 0 4f514d45 4979 0
+ F pnp_s.c 41 0 4f533b96 4979 0
   I string.h 0 0
   I pnp.h 1 0
 
@@ -79157,7 +79157,7 @@ D w:\nt\private\windows\pnp\cfgmgr32 0
   I ntverp.h 0 0
   I common.ver 0 0
  F obj 2 10 4f508562 0 0
- F pnp_c.c 41 0 4f514d44 3788 0
+ F pnp_c.c 41 0 4f533b96 3788 0
   I string.h 0 0
   I stdarg.h 0 0
   I pnp.h 1 0
@@ -80515,8 +80515,8 @@ D w:\nt\private\windows\setup\winnt32 0
  F winnt32.rc 21 0 46fc2d3b 1 0
  F dialogs.dlg 24 0 46fc2d3b 153 0
  F obj 2 10 4f508563 0 0
- F msg.h 44 0 4f514d45 791 0
- F msg.rc 21 0 4f514d45 2 0
+ F msg.h 44 0 4f533b97 791 0
+ F msg.rc 21 0 4f533b97 2 0
 
 D w:\nt\private\windows\setup\winnt32\i386 0
  F bootini.c 41 0 46fc2d3b 387 0
@@ -82056,8 +82056,8 @@ D w:\nt\private\windows\opengl\server\inc 0
  F xform.h 44 0 46fc2d8f 326 0
   I vertex.h 1 0
  F zippy.h 44 0 46fc2d8f 169 0
- F gli386.h 44 0 4f514db6 153 0
- F gli386.inc 14 0 4f514db6 167 0
+ F gli386.h 44 0 4f533be8 153 0
+ F gli386.inc 14 0 4f533be8 167 0
 
 D w:\nt\private\windows\opengl\server\pixel 0
  F precomp.h 44 0 46fc2d8f 14 0
@@ -84332,7 +84332,7 @@ D w:\nt\private\windows\shell\accesory\wordpad\res 0
 D w:\nt\private\windows\shell\accesory\netclip\proxy\ 0
  F classfac.h 44 0 46fc2d68 17 0
  F shellex.h 44 0 46fc2d68 77 0
- F dlldata.c 41 0 4f514d3c 37 0
+ F dlldata.c 41 0 4f533b92 37 0
   I rpcproxy.h 0 0
  F dlldatax.c 41 0 46fc2d68 16 0
   I dlldata.c 1 0
@@ -84356,11 +84356,11 @@ D w:\nt\private\windows\shell\accesory\netclip\proxy\ 0
  F nclipps.rc 21 0 46fc2d68 51 0
   I windows.h 0 0
  F obj 2 10 4f508560 0 0
- F netclip_p.c 41 0 4f514d3c 539 0
+ F netclip_p.c 41 0 4f533b92 539 0
   I rpcproxy.h 1 0
   I netclip.h 1 0
- F netclip_i.c 41 0 4f514d3c 47 0
- F netclip.h 44 0 4f514d3c 398 0
+ F netclip_i.c 41 0 4f533b92 47 0
+ F netclip.h 44 0 4f533b92 398 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
@@ -86573,33 +86573,33 @@ D w:\nt\private\ole32\com\idl 0
 
 D w:\nt\private\ole32\com\idl\daytona 0
  F obj 2 10 4f510a88 0 0
- F irot.h 44 0 4f51544a 135 0
+ F irot.h 44 0 4f534109 135 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I iface.h 1 0
- F getif.h 44 0 4f51544a 110 0
+ F getif.h 44 0 4f53410a 110 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I iface.h 1 0
- F ichnl.h 44 0 4f51544b 186 0
+ F ichnl.h 44 0 4f53410a 186 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I iface.h 1 0
- F iface.h 44 0 4f51544b 145 0
+ F iface.h 44 0 4f53410a 145 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I wtypes.h 1 0
- F objsrv_s.c 41 0 4f51544b 751 0
+ F objsrv_s.c 41 0 4f53410a 751 0
   I string.h 0 0
   I objsrv.h 1 0
- F objsrv.h 44 0 4f51544c 131 0
+ F objsrv.h 44 0 4f53410b 131 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I iface.h 1 0
- F scm_s.c 41 0 4f51544c 1462 0
+ F scm_s.c 41 0 4f53410b 1462 0
   I string.h 0 0
   I scm.h 1 0
- F scm.h 44 0 4f51544d 270 0
+ F scm.h 44 0 4f53410b 270 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I iface.h 1 0
@@ -86657,14 +86657,14 @@ D w:\nt\private\ole32\com\dcomidl 0
 
 D w:\nt\private\ole32\com\dcomidl\daytona 0
  F obj 2 10 4f510a88 0 0
- F irot.h 44 0 4f51544a 144 0
+ F irot.h 44 0 4f53410a 144 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I iface.h 1 0
- F getif_p.c 41 0 4f51544b 528 0
+ F getif_p.c 41 0 4f53410a 528 0
   I rpcproxy.h 1 0
   I getif.h 1 0
- F getif.h 44 0 4f51544b 199 0
+ F getif.h 44 0 4f53410a 199 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
@@ -86672,10 +86672,10 @@ D w:\nt\private\ole32\com\dcomidl\daytona 0
   I iface.h 1 0
   I unknwn.h 1 0
   I objidl.h 1 0
- F host_p.c 41 0 4f51544b 293 0
+ F host_p.c 41 0 4f53410a 293 0
   I rpcproxy.h 1 0
   I host.h 1 0
- F host.h 44 0 4f51544b 153 0
+ F host.h 44 0 4f53410a 153 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
@@ -86683,11 +86683,11 @@ D w:\nt\private\ole32\com\dcomidl\daytona 0
   I iface.h 1 0
   I unknwn.h 1 0
   I objidl.h 1 0
- F objsrv_p.c 41 0 4f51544c 731 0
+ F objsrv_p.c 41 0 4f53410b 731 0
   I rpcproxy.h 1 0
   I objsrv.h 1 0
- F objsrv_i.c 41 0 4f51544c 44 0
- F objsrv.h 44 0 4f51544c 269 0
+ F objsrv_i.c 41 0 4f53410b 44 0
+ F objsrv.h 44 0 4f53410b 269 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
@@ -86695,20 +86695,20 @@ D w:\nt\private\ole32\com\dcomidl\daytona 0
   I iface.h 1 0
   I obase.h 1 0
   I unknwn.h 1 0
- F rwobjsrv.h 44 0 4f51544c 128 0
+ F rwobjsrv.h 44 0 4f53410b 128 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I iface.h 1 0
   I obase.h 1 0
- F scm.h 44 0 4f51544e 196 0
+ F scm.h 44 0 4f53410c 196 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I iface.h 1 0
   I obase.h 1 0
- F dscm_p.c 41 0 4f51544e 1041 0
+ F dscm_p.c 41 0 4f53410c 1041 0
   I rpcproxy.h 1 0
   I dscm.h 1 0
- F dscm.h 44 0 4f51544e 288 0
+ F dscm.h 44 0 4f53410c 288 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
@@ -86716,19 +86716,19 @@ D w:\nt\private\ole32\com\dcomidl\daytona 0
   I iface.h 1 0
   I objidl.h 1 0
   I obase.h 1 0
- F rawdscm.h 44 0 4f51544f 218 0
+ F rawdscm.h 44 0 4f53410d 218 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I iface.h 1 0
   I objidl.h 1 0
   I obase.h 1 0
- F multqi.h 44 0 4f51544f 71 0
+ F multqi.h 44 0 4f53410d 71 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I iface.h 1 0
   I objidl.h 1 0
   I obase.h 1 0
- F dlldata.c 41 0 4f51544e 43 0
+ F dlldata.c 41 0 4f53410c 43 0
   I rpcproxy.h 0 0
 
 D w:\nt\private\ole32\com\inc\daytona 0
@@ -88234,34 +88234,34 @@ D w:\nt\private\ole32\com\rot\daytona 0
 
 D w:\nt\private\ole32\com\class\daytona 0
  F obj 2 10 4f510a88 0 0
- F irot_c.c 41 0 4f51544a 1250 0
+ F irot_c.c 41 0 4f53410a 1250 0
   I string.h 0 0
   I stdarg.h 0 0
   I irot.h 1 0
- F getif_z.c 41 0 4f51544a 511 0
+ F getif_z.c 41 0 4f53410a 511 0
   I string.h 0 0
   I stdarg.h 0 0
   I getif.h 1 0
- F getif_s.c 41 0 4f51544a 530 0
+ F getif_s.c 41 0 4f53410a 530 0
   I string.h 0 0
   I getif.h 1 0
- F getif_i.c 41 0 4f51544b 44 0
- F ichnl_z.c 41 0 4f51544b 965 0
+ F getif_i.c 41 0 4f53410a 44 0
+ F ichnl_z.c 41 0 4f53410a 965 0
   I string.h 0 0
   I stdarg.h 0 0
   I ichnl.h 1 0
- F ichnl_s.c 41 0 4f51544b 954 0
+ F ichnl_s.c 41 0 4f53410a 954 0
   I string.h 0 0
   I ichnl.h 1 0
- F host_i.c 41 0 4f51544b 44 0
- F objsrv_s.c 41 0 4f51544c 751 0
+ F host_i.c 41 0 4f53410a 44 0
+ F objsrv_s.c 41 0 4f53410b 751 0
   I string.h 0 0
   I objsrv.h 1 0
- F scm_c.c 41 0 4f51544d 1115 0
+ F scm_c.c 41 0 4f53410c 1115 0
   I string.h 0 0
   I stdarg.h 0 0
   I scm.h 1 0
- F dscm_i.c 41 0 4f51544e 44 0
+ F dscm_i.c 41 0 4f53410c 44 0
 
 D w:\nt\private\ole32\com\accctrl 0
  F daytona 2 10 46fc2d10 0 0
@@ -88300,14 +88300,14 @@ D w:\nt\private\ole32\com\accctrl 0
 
 D w:\nt\private\ole32\com\accctrl\daytona 0
  F obj 2 10 4f510a89 0 0
- F acpickl_c.c 41 0 4f515450 336 0
+ F acpickl_c.c 41 0 4f53410d 336 0
   I string.h 0 0
   I stdarg.h 0 0
   I acpickl.h 1 0
 
 D w:\nt\private\ole32\com\accctrl\daytona\obj 0
  F i386 2 10 4f510a89 0 0
- F acpickl.h 44 0 4f515450 478 0
+ F acpickl.h 44 0 4f53410d 478 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I midles.h 1 0
@@ -88835,11 +88835,11 @@ D w:\nt\private\ole32\stg\async\docfile 0
 
 D w:\nt\private\ole32\stg\async\docfile\daytona 0
  F obj 2 10 4f510a89 0 0
- F iconn_p.c 41 0 4f515451 569 0
+ F iconn_p.c 41 0 4f53410e 569 0
   I rpcproxy.h 1 0
   I iconn.h 1 0
- F iconn_i.c 41 0 4f515451 47 0
- F dlldata.c 41 0 4f515451 37 0
+ F iconn_i.c 41 0 4f53410e 47 0
+ F dlldata.c 41 0 4f53410f 37 0
   I rpcproxy.h 0 0
 
 D w:\nt\private\ole32\stg\props 0
@@ -89409,7 +89409,7 @@ D w:\nt\private\ole32\stg\h 0
   I tset.hxx 0 0
   I freelist.hxx 0 0
   I tstream.hxx 0 0
- F iconn.h 44 0 4f515451 345 0
+ F iconn.h 44 0 4f53410e 345 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
@@ -90331,11 +90331,11 @@ D w:\nt\private\ole32\oleprx32\proxy 0
 
 D w:\nt\private\ole32\oleprx32\proxy\daytona 0
  F obj 2 10 4f510a89 0 0
- F mega_p.c 41 0 4f515451 41723 0
+ F mega_p.c 41 0 4f53410e 41723 0
   I rpcproxy.h 1 0
   I mega.h 1 0
- F mega_i.c 41 0 4f515451 299 0
- F dlldata.c 41 0 4f515452 37 0
+ F mega_i.c 41 0 4f53410e 299 0
+ F dlldata.c 41 0 4f53410f 37 0
   I rpcproxy.h 0 0
 
 D w:\nt\private\ole32\oleprx32\wdt 0
@@ -90376,25 +90376,25 @@ D w:\nt\private\ole32\dcomss 0
 
 D w:\nt\private\ole32\dcomss\olescm\daytona 0
  F obj 2 10 4f510a8a 0 0
- F irot_s.c 41 0 4f51544a 921 0
+ F irot_s.c 41 0 4f53410a 921 0
   I string.h 0 0
   I irot.h 1 0
- F objsrv_c.c 41 0 4f51544c 1569 0
+ F objsrv_c.c 41 0 4f53410b 1569 0
   I string.h 0 0
   I stdarg.h 0 0
   I rwobjsrv.h 1 0
- F objsrv_z.c 41 0 4f51544c 722 0
+ F objsrv_z.c 41 0 4f53410b 722 0
   I string.h 0 0
   I stdarg.h 0 0
   I objsrv.h 1 0
- F scm_z.c 41 0 4f51544d 1115 0
+ F scm_z.c 41 0 4f53410c 1115 0
   I string.h 0 0
   I stdarg.h 0 0
   I scm.h 1 0
- F scm_s.c 41 0 4f51544e 833 0
+ F scm_s.c 41 0 4f53410c 833 0
   I string.h 0 0
   I scm.h 1 0
- F dscm_s.c 41 0 4f51544f 1508 0
+ F dscm_s.c 41 0 4f53410d 1508 0
   I string.h 0 0
   I rawdscm.h 1 0
 
@@ -91254,35 +91254,35 @@ D w:\nt\public\sdk\inc\chicago 0
  F unknwn.idl 20081 0 46fc2c50 75 0
   I wtypes.idl 1 0
  F wtypes.idl 20081 0 46fc2c50 1339 0
- F ipropidl.h 44 0 4f513f73 57 0
+ F ipropidl.h 44 0 4f5332a6 57 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I objidl.h 1 0
- F oaidl.h 44 0 4f513f72 5942 0
+ F oaidl.h 44 0 4f5332a5 5942 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 0
   I ole2.h 1 0
   I objidl.h 1 0
- F objidl.h 44 0 4f513f71 10770 0
+ F objidl.h 44 0 4f5332a4 10770 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 0
   I ole2.h 1 0
   I unknwn.h 1 0
- F oleidl.h 44 0 4f513f72 5044 0
+ F oleidl.h 44 0 4f5332a5 5044 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 0
   I ole2.h 1 0
   I objidl.h 1 0
- F srvhdl.h 44 0 4f513f70 983 0
+ F srvhdl.h 44 0 4f5332a4 983 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 0
   I ole2.h 1 0
   I oleidl.h 1 0
- F storext.h 44 0 4f513f73 476 0
+ F storext.h 44 0 4f5332a6 476 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 0
@@ -91290,13 +91290,13 @@ D w:\nt\public\sdk\inc\chicago 0
   I wtypes.h 1 0
   I unknwn.h 1 0
   I objidl.h 1 0
- F unknwn.h 44 0 4f513f70 341 0
+ F unknwn.h 44 0 4f5332a4 341 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 0
   I ole2.h 1 0
   I wtypes.h 1 0
- F wtypes.h 44 0 4f513f70 1287 0
+ F wtypes.h 44 0 4f5332a3 1287 0
   I rpc.h 1 0
   I rpcndr.h 1 0
 
@@ -91523,7 +91523,7 @@ D w:\nt\private\oleutest\act\common 0
   I tchar.h 1 0
   I subauth.h 0 5
   I ntlsa.h 0 11
- F goober_i.c 41 0 4f51560d 44 0
+ F goober_i.c 41 0 4f5341d8 44 0
 
 D w:\nt\private\oleutest\act\common\daytona 0
  F i386 2 10 46fc2c4f 0 0
@@ -91612,16 +91612,16 @@ D w:\nt\private\oleutest\act\client\daytona 0
 
 D w:\nt\private\oleutest\act\dll 0
  F daytona 2 10 46fc2c4f 0 0
- F goober_p.c 41 0 4f51560d 219 0
+ F goober_p.c 41 0 4f5341d8 219 0
   I rpcproxy.h 1 0
   I goober.h 1 0
- F goober.h 44 0 4f51560d 139 0
+ F goober.h 44 0 4f5341d8 139 0
   I rpc.h 1 0
   I rpcndr.h 1 0
   I windows.h 1 1
   I ole2.h 1 0
   I unknwn.h 1 0
- F dlldata.c 41 0 4f51560e 37 0
+ F dlldata.c 41 0 4f5341d8 37 0
   I rpcproxy.h 0 0
 
 D w:\nt\private\oleutest\act\dll\daytona 0
@@ -97547,7 +97547,7 @@ D w:\nt\private\utils\find 0
 
 D w:\nt\private\utils\findstr 0
  F fsmsg.mc 20021 0 46fc2bb8 132 0
- F fsmsg.h 44 0 4f5156b3 230 0
+ F fsmsg.h 44 0 4f53424a 230 0
  F findstr.c 41 0 46fc2bb8 2147 0
   I stdio.h 0 0
   I time.h 0 0
@@ -97583,7 +97583,7 @@ D w:\nt\private\utils\findstr 0
   I ntverp.h 0 0
   I common.ver 1 0
   I fsmsg.rc 1 0
- F fsmsg.rc 21 0 4f5156b3 2 0
+ F fsmsg.rc 21 0 4f53424a 2 0
  F obj 2 10 4f510c79 0 0
 
 D w:\nt\private\utils\keyb 0
@@ -98414,7 +98414,7 @@ D w:\nt\private\utils\tree 0
 D w:\nt\private\utils\compact 0
  F sdk 2 10 46fc2ba9 0 0
  F msg.mc 20021 0 46fc2ba9 180 0
- F msg.h 44 0 4f5156b3 299 1
+ F msg.h 44 0 4f53424a 299 1
  F support.h 44 0 46fc2ba9 57 0
  F compact.c 41 0 46fc2ba9 1556 0
   I stdio.h 0 0
@@ -98435,7 +98435,7 @@ D w:\nt\private\utils\compact 0
   I ntverp.h 0 0
   I common.ver 1 0
   I msg.rc 1 0
- F msg.rc 21 0 4f5156b3 2 0
+ F msg.rc 21 0 4f53424a 2 0
  F obj 2 10 4f510c7a 0 0
 
 D w:\nt\private\utils\xcopy 0
@@ -99011,8 +99011,8 @@ D w:\nt\private\utils\windisk\src 0
 
 D w:\nt\private\utils\windisk\src\obj 0
  F i386 2 10 4f510c7a 0 0
- F messages.h 44 0 4f5156b3 1024 0
- F messages.rc 21 0 4f5156b3 2 0
+ F messages.h 44 0 4f53424a 1024 0
+ F messages.rc 21 0 4f53424a 2 0
 
 D w:\nt\private\utils\wizards 0
  F addgrpw 2 10 46fc2bb6 0 0
@@ -103417,11 +103417,11 @@ D w:\nt\private\tapi\dev\client 0
   I clientr.h 1 0
  F tapini.rc 21 0 46fc2d97 33 0
  F obj 2 10 4f510dbd 0 0
- F tapsrv_c.c 41 0 4f515869 381 0
+ F tapsrv_c.c 41 0 4f534320 381 0
   I string.h 0 0
   I stdarg.h 0 0
   I tapsrv.h 1 0
- F tapsrv.h 44 0 4f515869 74 0
+ F tapsrv.h 44 0 4f534320 74 0
   I rpc.h 1 0
   I rpcndr.h 1 0
  F tapierr.h 44 0 4f510dc4 1357 0
@@ -103505,10 +103505,10 @@ D w:\nt\private\tapi\dev\server 0
   I version.h 0 0
   I common.ver 0 0
  F obj 2 10 4f510dbd 0 0
- F tapsrv_s.c 41 0 4f515869 489 0
+ F tapsrv_s.c 41 0 4f534321 489 0
   I string.h 0 0
   I tapsrv.h 1 0
- F tapsrv.h 44 0 4f515869 74 0
+ F tapsrv.h 44 0 4f534321 74 0
   I rpc.h 1 0
   I rpcndr.h 1 0
 
@@ -103745,10 +103745,10 @@ D w:\nt\private\tapi\dev\sp\esp.new\tsp 0
   I version.h 0 0
   I common.ver 0 0
  F obj 2 10 4f510dbd 0 0
- F espidl_s.c 41 0 4f51586d 797 0
+ F espidl_s.c 41 0 4f534322 797 0
   I string.h 0 0
   I espidl.h 1 0
- F espidl.h 44 0 4f51586d 91 0
+ F espidl.h 44 0 4f534322 91 0
   I rpc.h 1 0
   I rpcndr.h 1 0
 
@@ -103771,11 +103771,11 @@ D w:\nt\private\tapi\dev\sp\esp.new\exe 0
   I version.h 0 0
   I common.ver 0 0
  F obj 2 10 4f510dbd 0 0
- F espidl_c.c 41 0 4f51586c 608 0
+ F espidl_c.c 41 0 4f534322 608 0
   I string.h 0 0
   I stdarg.h 0 0
   I espidl.h 1 0
- F espidl.h 44 0 4f51586c 91 0
+ F espidl.h 44 0 4f534322 91 0
   I rpc.h 1 0
   I rpcndr.h 1 0
 
@@ -104138,11 +104138,11 @@ D w:\nt\private\tapi\dev\client\ 0
   I general.h 1 0
   I clientr.h 1 0
  F tapini.rc 21 0 46fc2d97 33 0
- F tapsrv_c.c 41 0 4f515869 381 0
+ F tapsrv_c.c 41 0 4f534320 381 0
   I string.h 0 0
   I stdarg.h 0 0
   I tapsrv.h 1 0
- F tapsrv.h 44 0 4f515869 74 0
+ F tapsrv.h 44 0 4f534320 74 0
   I rpc.h 1 0
   I rpcndr.h 1 0
  F tapierr.h 44 0 4f510dc4 1357 0
@@ -107388,45 +107388,45 @@ D w:\nt\private\mvdm\softpc.new\base\inc a000
  F yoda.h 1044 0 46fc2c38 71 0
 
 D w:\nt\private\mvdm\inc a004
- F bop.inc 1014 0 4f5158f2 57 0
- F cmdsvc.inc 1014 0 4f5158f6 58 0
+ F bop.inc 1014 0 4f534383 57 0
+ F cmdsvc.inc 1014 0 4f534384 58 0
   I bop.inc 1 0
- F curdir.inc 1014 0 4f5158f8 17 0
- F dbgsvc.inc 1014 0 4f5158f6 39 0
+ F curdir.inc 1014 0 4f534385 17 0
+ F dbgsvc.inc 1014 0 4f534384 39 0
   I bop.inc 1 0
- F dossvc.inc 1014 0 4f5158f5 95 0
+ F dossvc.inc 1014 0 4f534384 95 0
   I bop.inc 1 0
- F doswow.inc 1014 0 4f5158f8 12 0
- F dpmi.inc 1014 0 4f5158f5 72 0
+ F doswow.inc 1014 0 4f534385 12 0
+ F dpmi.inc 1014 0 4f534384 72 0
   I vint.inc 1 0
   I bop.inc 1 0
- F enumapis.inc 1014 0 4f5158f6 51 0
+ F enumapis.inc 1014 0 4f534384 51 0
  F intmac.inc 1014 0 46fc2c21 317 0
   I vint.inc 1 0
- F mvdm.inc 1014 0 4f5158f2 8 0
- F rdrsvc.inc 1014 0 4f5158f6 59 0
+ F mvdm.inc 1014 0 4f534383 8 0
+ F rdrsvc.inc 1014 0 4f534384 59 0
   I bop.inc 1 0
- F softpc.inc 1014 0 4f5158f2 75 0
- F tdb16.inc 1014 0 4f5158f5 63 0
+ F softpc.inc 1014 0 4f534383 75 0
+ F tdb16.inc 1014 0 4f534384 63 0
  F vdmtb.inc 1014 0 46fc2c21 104 0
- F vint.inc 1014 0 4f5158f3 135 0
- F vrdefld.inc 1014 0 4f5158f8 5 0
- F vrdlctab.inc 1014 0 4f5158f7 87 0
- F wow.inc 1014 0 4f5158f3 1176 0
- F wowcmdlg.inc 1014 0 4f5158f8 133 0
- F wowcmpat.inc 1014 0 4f5158f8 52 0
- F wowgdi.inc 1014 0 4f5158f4 1661 0
- F wowkbd.inc 1014 0 4f5158f5 79 0
- F wowkrn.inc 1014 0 4f5158f3 1164 0
- F wowmmcb.inc 1014 0 4f5158f7 29 0
- F wowmmed.inc 1014 0 4f5158f7 1160 0
- F wownt32.inc 1014 0 4f5158f3 7 0
- F wowshell.inc 1014 0 4f5158f4 128 0
- F wowsnd.inc 1014 0 4f5158f5 104 0
- F wowth.inc 1014 0 4f5158f7 10 0
- F wowusr.inc 1014 0 4f5158f4 2774 0
- F wowwsock.inc 1014 0 4f5158f7 354 0
- F xmssvc.inc 1014 0 4f5158f6 20 0
+ F vint.inc 1014 0 4f534383 135 0
+ F vrdefld.inc 1014 0 4f534385 5 0
+ F vrdlctab.inc 1014 0 4f534385 87 0
+ F wow.inc 1014 0 4f534383 1176 0
+ F wowcmdlg.inc 1014 0 4f534385 133 0
+ F wowcmpat.inc 1014 0 4f534385 52 0
+ F wowgdi.inc 1014 0 4f534384 1661 0
+ F wowkbd.inc 1014 0 4f534384 79 0
+ F wowkrn.inc 1014 0 4f534383 1164 0
+ F wowmmcb.inc 1014 0 4f534384 29 0
+ F wowmmed.inc 1014 0 4f534385 1160 0
+ F wownt32.inc 1014 0 4f534383 7 0
+ F wowshell.inc 1014 0 4f534384 128 0
+ F wowsnd.inc 1014 0 4f534384 104 0
+ F wowth.inc 1014 0 4f534385 10 0
+ F wowusr.inc 1014 0 4f534383 2774 0
+ F wowwsock.inc 1014 0 4f534385 354 0
+ F xmssvc.inc 1014 0 4f534384 20 0
   I bop.inc 1 0
  F apistruc.h 1044 0 46fc2c21 151 0
  F bop.h 1044 0 46fc2c21 93 1
@@ -107504,7 +107504,7 @@ D w:\nt\private\mvdm\inc a004
  F x86def.h 1044 0 46fc2c21 129 1
  F xmsexp.h 1044 0 46fc2c21 24 1
  F xmssvc.h 1044 0 46fc2c21 40 0
- F vdmtib.inc 1014 0 4f5158f9 42 0
+ F vdmtib.inc 1014 0 4f534385 42 0
 
 D w:\nt\private\mvdm\dos\command 102105
  F cmd.h 1044 0 46fc2c38 292 0

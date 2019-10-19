@@ -4,7 +4,7 @@ Input BOM: cdbom.txt
 Source ID: .
 Source Path: .
 Compressed: z
-Time: Fri Oct 18 00:26:51 2019
+Time: Sat Oct 19 05:22:13 2019
 ==============================
 
 size.exe - Warning - Couldn't find:  ADP.BIN  assigning 999.
@@ -2218,7 +2218,7 @@ Input BOM: cdbom.txt
 Source ID: #S+usa
 Source Path: .
 Compressed: z
-Time: Fri Oct 18 00:26:54 2019
+Time: Sat Oct 19 05:22:15 2019
 ==============================
 
 
@@ -2227,7 +2227,7 @@ Input BOM: cdbom.txt
 Source ID: #F-*
 Source Path: .
 Compressed: z
-Time: Fri Oct 18 00:26:54 2019
+Time: Sat Oct 19 05:22:16 2019
 ==============================
 
 
@@ -2236,7 +2236,7 @@ Input BOM: cdbom.txt
 Source ID: #P-FIN
 Source Path: .
 Compressed: z
-Time: Fri Oct 18 00:26:54 2019
+Time: Sat Oct 19 05:22:16 2019
 ==============================
 
 
@@ -2245,7 +2245,7 @@ Input BOM: cdbom.txt
 Source ID: #L+usa
 Source Path: .
 Compressed: z
-Time: Fri Oct 18 00:26:54 2019
+Time: Sat Oct 19 05:22:16 2019
 ==============================
 
 
@@ -2254,14 +2254,14 @@ Input BOM: cdbom.txt
 Output Layout: lay.txt
 Product: ntcd
 Floppy Size: 500000000
-Time: Fri Oct 18 00:26:54 2019
+Time: Sat Oct 19 05:22:16 2019
 ================================
 
 
 =========== INFS ===============
 Input Layout: lay.txt
 Target directory for file lists: ..\inf\filelist\ntcd
-Time: Fri Oct 18 00:26:55 2019
+Time: Sat Oct 19 05:22:16 2019
 ================================
 
 INFO Making file list: ..\inf\filelist\ntcd\alpha\mmdriver.inf
@@ -2517,14 +2517,14 @@ Input BOM: cdbom.txt
 Output Layout: lay.txt
 Product: lmcd
 Floppy Size: 500000000
-Time: Fri Oct 18 00:26:55 2019
+Time: Sat Oct 19 05:22:17 2019
 ================================
 
 
 =========== INFS ===============
 Input Layout: lay.txt
 Target directory for file lists: ..\inf\filelist\lmcd
-Time: Fri Oct 18 00:26:55 2019
+Time: Sat Oct 19 05:22:17 2019
 ================================
 
 INFO Making file list: ..\inf\filelist\lmcd\alpha\mmdriver.inf

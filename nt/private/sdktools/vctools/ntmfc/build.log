@@ -18,7 +18,7 @@ Linking w:\nt\private\sdktools\vctools\ntmfc\src\oledll directory **************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 Linking w:\nt\private\sdktools\vctools\ntmfc\src\oleudll directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
-	link -out:obj\i386\ntctl3d.dll -machine:i386 @W:\tmp\nma03772.
+	link -out:obj\i386\ntctl3d.dll -machine:i386 @W:\tmp\nma02564.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -54,7 +54,7 @@ W:\nt\public\sdk\lib\i386\gdi32.lib
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\ntctl3d.dll
 
 Stop. 
-	link -out:obj\i386\cfmo30.dll -machine:i386 @W:\tmp\nma02124.
+	link -out:obj\i386\cfmo30.dll -machine:i386 @W:\tmp\nma02324.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -128,7 +128,7 @@ W:\nt\public\sdk\lib\i386\ole32.lib
 W:\nt\public\sdk\lib\i386\oleaut32.lib 
 W:\nt\public\sdk\lib\i386\uuid.lib 
 W:\nt\public\sdk\lib\i386\cfm30d.lib 
-	link -out:obj\i386\cfmo30u.dll -machine:i386 @W:\tmp\nma04036.
+	link -out:obj\i386\cfmo30u.dll -machine:i386 @W:\tmp\nma01708.
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\cfmo30.dll
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
@@ -208,8 +208,8 @@ Stop.
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\cfmo30u.dll
 
 Stop. 
-	link -out:obj\i386\cfm30.dll -machine:i386 @W:\tmp\nma04032.
-	link -out:obj\i386\cfm30u.dll -machine:i386 @W:\tmp\nma03520.
+	link -out:obj\i386\cfm30u.dll -machine:i386 @W:\tmp\nma04068.
+	link -out:obj\i386\cfm30.dll -machine:i386 @W:\tmp\nma03540.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -224,50 +224,6 @@ Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
 -NODEFAULTLIB 
 -debug:notmapped,FULL 
-Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
--debugtype:both 
--version:4.00 
--osversion:4.00 
--MERGE:.rdata=.text 
--dll 
--optidata 
--base:@W:\nt\public\sdk\lib\coffbase.txt,cfm30 
--subsystem:windows,4.00 
--entry:_DllMainCRTStartup@12 
-Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
-
--MERGE:_PAGE=PAGE 
--MERGE:_TEXT=.text 
--SECTION:INIT,d 
--OPT:REF 
-obj\i386\precomp.obj 
-obj\i386\cfm30.exp 
-obj\i386\mfcdll.res 
-obj\i386\afxabort.obj 
--INCREMENTAL:NO 
--FORCE:MULTIPLE 
--RELEASE 
--FULLBUILD 
-obj\i386\afxasert.obj 
-obj\i386\afxdbcs.obj 
-obj\i386\afxinl1.obj 
-obj\i386\afxinl2.obj 
-obj\i386\afxinl3.obj 
-obj\i386\afxmem.obj 
-obj\i386\afxstate.obj 
--IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
--NODEFAULTLIB 
--debug:notmapped,FULL 
-obj\i386\afxtrace.obj 
-obj\i386\afxver.obj 
-obj\i386\app3d.obj 
-obj\i386\appcore.obj 
-obj\i386\appdata.obj 
-obj\i386\appdlg.obj 
-obj\i386\appgray.obj 
-obj\i386\apphelp.obj 
-obj\i386\apphelpx.obj 
-obj\i386\appinit.obj 
 -debugtype:both 
 -version:4.00 
 -osversion:4.00 
@@ -278,7 +234,6 @@ obj\i386\appinit.obj
 -subsystem:windows,4.00 
 -entry:_DllMainCRTStartup@12 
 obj\i386\precomp.obj 
-obj\i386\appprnt.obj 
 obj\i386\cfm30u.exp 
 obj\i386\mfcdll.res 
 obj\i386\afxabort.obj 
@@ -291,11 +246,6 @@ obj\i386\afxmem.obj
 obj\i386\afxstate.obj 
 obj\i386\afxtrace.obj 
 obj\i386\afxver.obj 
-obj\i386\appterm.obj 
-obj\i386\appui.obj 
-obj\i386\appui2.obj 
-obj\i386\appui3.obj 
-obj\i386\arccore.obj 
 obj\i386\app3d.obj 
 obj\i386\appcore.obj 
 obj\i386\appdata.obj 
@@ -304,16 +254,7 @@ obj\i386\appgray.obj
 obj\i386\apphelp.obj 
 obj\i386\apphelpx.obj 
 obj\i386\appinit.obj 
-obj\i386\arcex.obj 
-obj\i386\arcobj.obj 
-obj\i386\array_b.obj 
-obj\i386\array_d.obj 
-obj\i386\array_o.obj 
-obj\i386\array_p.obj 
-obj\i386\array_s.obj 
-obj\i386\array_u.obj 
 obj\i386\appprnt.obj 
-obj\i386\array_w.obj 
 obj\i386\appterm.obj 
 obj\i386\appui.obj 
 obj\i386\appui2.obj 
@@ -322,48 +263,19 @@ obj\i386\arccore.obj
 obj\i386\arcex.obj 
 obj\i386\arcobj.obj 
 obj\i386\array_b.obj 
-obj\i386\auxdata.obj 
-obj\i386\barcore.obj 
-obj\i386\bardlg.obj 
-obj\i386\bardock.obj 
-obj\i386\barstat.obj 
 obj\i386\array_d.obj 
 obj\i386\array_o.obj 
 obj\i386\array_p.obj 
 obj\i386\array_s.obj 
 obj\i386\array_u.obj 
-obj\i386\bartool.obj 
-obj\i386\cmdtarg.obj 
-obj\i386\dbdata.obj 
-obj\i386\dcmeta.obj 
-obj\i386\dcprev.obj 
-obj\i386\dlgclr.obj 
-obj\i386\dlgcomm.obj 
-obj\i386\dlgcore.obj 
-obj\i386\dlgdata.obj 
-obj\i386\dlgfile.obj 
-obj\i386\dlgfloat.obj 
-obj\i386\dlgfnt.obj 
 obj\i386\array_w.obj 
 obj\i386\auxdata.obj 
 obj\i386\barcore.obj 
 obj\i386\bardlg.obj 
-obj\i386\dlgfr.obj 
-obj\i386\dlgprnt.obj 
-obj\i386\dlgprop.obj 
-obj\i386\dllinit.obj 
-obj\i386\doccore.obj 
-obj\i386\dockcont.obj 
-obj\i386\dockstat.obj 
 obj\i386\bardock.obj 
 obj\i386\barstat.obj 
 obj\i386\bartool.obj 
 obj\i386\cmdtarg.obj 
-obj\i386\docmapi.obj 
-obj\i386\docmulti.obj 
-obj\i386\docsingl.obj 
-obj\i386\doctempl.obj 
-obj\i386\dumpcont.obj 
 obj\i386\dbdata.obj 
 obj\i386\dcmeta.obj 
 obj\i386\dcprev.obj 
@@ -371,32 +283,16 @@ obj\i386\dlgclr.obj
 obj\i386\dlgcomm.obj 
 obj\i386\dlgcore.obj 
 obj\i386\dlgdata.obj 
-obj\i386\dumpflt.obj 
 obj\i386\dlgfile.obj 
 obj\i386\dlgfloat.obj 
 obj\i386\dlgfnt.obj 
 obj\i386\dlgfr.obj 
 obj\i386\dlgprnt.obj 
 obj\i386\dlgprop.obj 
-obj\i386\dumpinit.obj 
 obj\i386\dllinit.obj 
-obj\i386\dumpout.obj 
-obj\i386\except.obj 
-obj\i386\filecore.obj 
-obj\i386\filelist.obj 
-obj\i386\filemem.obj 
-obj\i386\fileshrd.obj 
-obj\i386\filest.obj 
 obj\i386\doccore.obj 
 obj\i386\dockcont.obj 
 obj\i386\dockstat.obj 
-obj\i386\filetxt.obj 
-obj\i386\filex.obj 
-obj\i386\list_o.obj 
-obj\i386\list_p.obj 
-obj\i386\list_s.obj 
-obj\i386\map_pp.obj 
-obj\i386\map_pw.obj 
 obj\i386\docmapi.obj 
 obj\i386\docmulti.obj 
 obj\i386\docsingl.obj 
@@ -404,57 +300,8 @@ obj\i386\doctempl.obj
 obj\i386\dumpcont.obj 
 obj\i386\dumpflt.obj 
 obj\i386\dumpinit.obj 
-obj\i386\map_so.obj 
-obj\i386\map_sp.obj 
-obj\i386\map_ss.obj 
-obj\i386\map_wo.obj 
-obj\i386\map_wp.obj 
-obj\i386\objcore.obj 
-obj\i386\oledata.obj 
-obj\i386\olelock.obj 
-obj\i386\plex.obj 
-obj\i386\strcore.obj 
-obj\i386\strex.obj 
-obj\i386\thrdcore.obj 
-obj\i386\timecore.obj 
-obj\i386\trckrect.obj 
-obj\i386\validadd.obj 
-obj\i386\viewcore.obj 
-obj\i386\viewedit.obj 
-obj\i386\viewform.obj 
-obj\i386\viewprev.obj 
-obj\i386\viewprnt.obj 
-obj\i386\viewscrl.obj 
-obj\i386\winbtn.obj 
-obj\i386\wincore.obj 
-obj\i386\winctrl1.obj 
-obj\i386\winctrl2.obj 
-obj\i386\winfrm.obj 
-obj\i386\winfrm2.obj 
-obj\i386\winfrmx.obj 
-obj\i386\wingdi.obj 
-obj\i386\wingdix.obj 
-obj\i386\winhand.obj 
-obj\i386\winmain.obj 
-obj\i386\winmdi.obj 
-obj\i386\winmenu.obj 
-obj\i386\winmini.obj 
-obj\i386\winsplit.obj 
-obj\i386\winstr.obj 
-obj\i386\winutil.obj 
-W:\nt\public\sdk\lib\i386\crtdll.lib 
-W:\nt\public\sdk\lib\i386\msvcirt.lib 
-W:\nt\public\sdk\lib\i386\ntdll.lib 
-W:\nt\public\sdk\lib\i386\user32.lib 
-W:\nt\public\sdk\lib\i386\gdi32.lib 
-W:\nt\public\sdk\lib\i386\kernel32.lib 
-W:\nt\public\sdk\lib\i386\advapi32.lib 
-W:\nt\public\sdk\lib\i386\comdlg32.lib 
-W:\nt\public\sdk\lib\i386\shell32.lib 
 obj\i386\dumpout.obj 
-W:\nt\public\sdk\lib\i386\winspool.lib 
 obj\i386\except.obj 
-W:\nt\public\sdk\lib\i386\comctl32.lib 
 obj\i386\filecore.obj 
 obj\i386\filelist.obj 
 obj\i386\filemem.obj 
@@ -516,8 +363,161 @@ W:\nt\public\sdk\lib\i386\comdlg32.lib
 W:\nt\public\sdk\lib\i386\shell32.lib 
 W:\nt\public\sdk\lib\i386\winspool.lib 
 W:\nt\public\sdk\lib\i386\comctl32.lib 
-	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\cfm30u.dll
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,cfm30 
+-subsystem:windows,4.00 
+-entry:_DllMainCRTStartup@12 
+obj\i386\precomp.obj 
+obj\i386\cfm30.exp 
+obj\i386\mfcdll.res 
+obj\i386\afxabort.obj 
+obj\i386\afxasert.obj 
+obj\i386\afxdbcs.obj 
+obj\i386\afxinl1.obj 
+obj\i386\afxinl2.obj 
+obj\i386\afxinl3.obj 
+obj\i386\afxmem.obj 
+obj\i386\afxstate.obj 
+obj\i386\afxtrace.obj 
+obj\i386\afxver.obj 
+obj\i386\app3d.obj 
+obj\i386\appcore.obj 
+obj\i386\appdata.obj 
+obj\i386\appdlg.obj 
+obj\i386\appgray.obj 
+obj\i386\apphelp.obj 
+obj\i386\apphelpx.obj 
+obj\i386\appinit.obj 
+obj\i386\appprnt.obj 
+obj\i386\appterm.obj 
+obj\i386\appui.obj 
+obj\i386\appui2.obj 
+obj\i386\appui3.obj 
+obj\i386\arccore.obj 
+obj\i386\arcex.obj 
+obj\i386\arcobj.obj 
+obj\i386\array_b.obj 
+obj\i386\array_d.obj 
+obj\i386\array_o.obj 
+obj\i386\array_p.obj 
+obj\i386\array_s.obj 
+obj\i386\array_u.obj 
+obj\i386\array_w.obj 
+obj\i386\auxdata.obj 
+obj\i386\barcore.obj 
+obj\i386\bardlg.obj 
+obj\i386\bardock.obj 
+obj\i386\barstat.obj 
+obj\i386\bartool.obj 
+obj\i386\cmdtarg.obj 
+obj\i386\dbdata.obj 
+obj\i386\dcmeta.obj 
+obj\i386\dcprev.obj 
+obj\i386\dlgclr.obj 
+obj\i386\dlgcomm.obj 
+obj\i386\dlgcore.obj 
+obj\i386\dlgdata.obj 
+obj\i386\dlgfile.obj 
+obj\i386\dlgfloat.obj 
+obj\i386\dlgfnt.obj 
+obj\i386\dlgfr.obj 
+obj\i386\dlgprnt.obj 
+obj\i386\dlgprop.obj 
+obj\i386\dllinit.obj 
+obj\i386\doccore.obj 
+obj\i386\dockcont.obj 
+obj\i386\dockstat.obj 
+obj\i386\docmapi.obj 
+obj\i386\docmulti.obj 
+obj\i386\docsingl.obj 
+obj\i386\doctempl.obj 
+obj\i386\dumpcont.obj 
+obj\i386\dumpflt.obj 
+obj\i386\dumpinit.obj 
+obj\i386\dumpout.obj 
+obj\i386\except.obj 
+obj\i386\filecore.obj 
+obj\i386\filelist.obj 
+obj\i386\filemem.obj 
+obj\i386\fileshrd.obj 
+obj\i386\filest.obj 
+obj\i386\filetxt.obj 
+obj\i386\filex.obj 
+obj\i386\list_o.obj 
+obj\i386\list_p.obj 
+obj\i386\list_s.obj 
+obj\i386\map_pp.obj 
+obj\i386\map_pw.obj 
+obj\i386\map_so.obj 
+obj\i386\map_sp.obj 
+obj\i386\map_ss.obj 
+obj\i386\map_wo.obj 
+obj\i386\map_wp.obj 
+obj\i386\objcore.obj 
+obj\i386\oledata.obj 
+obj\i386\olelock.obj 
+obj\i386\plex.obj 
+obj\i386\strcore.obj 
+obj\i386\strex.obj 
+obj\i386\thrdcore.obj 
+obj\i386\timecore.obj 
+obj\i386\trckrect.obj 
+obj\i386\validadd.obj 
+obj\i386\viewcore.obj 
+obj\i386\viewedit.obj 
+obj\i386\viewform.obj 
+obj\i386\viewprev.obj 
+obj\i386\viewprnt.obj 
+obj\i386\viewscrl.obj 
+obj\i386\winbtn.obj 
+obj\i386\wincore.obj 
+obj\i386\winctrl1.obj 
+obj\i386\winctrl2.obj 
+obj\i386\winfrm.obj 
+obj\i386\winfrm2.obj 
+obj\i386\winfrmx.obj 
+obj\i386\wingdi.obj 
+obj\i386\wingdix.obj 
+obj\i386\winhand.obj 
+obj\i386\winmain.obj 
+obj\i386\winmdi.obj 
+obj\i386\winmenu.obj 
+obj\i386\winmini.obj 
+obj\i386\winsplit.obj 
+obj\i386\winstr.obj 
+obj\i386\winutil.obj 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\comdlg32.lib 
+W:\nt\public\sdk\lib\i386\shell32.lib 
+W:\nt\public\sdk\lib\i386\winspool.lib 
+W:\nt\public\sdk\lib\i386\comctl32.lib 
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\cfm30.dll
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\cfm30u.dll
 
 Stop. 
 

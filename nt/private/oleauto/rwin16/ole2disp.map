@@ -1679,65 +1679,65 @@
 
   Address         Publics by Value
 
- 0000:0000  Imp  REGCLOSEKEY          (KERNEL.220)
- 0000:0000  Imp  REGQUERYVALUE        (SHELL.6)
- 0000:0000  Imp  __AHINCR             (KERNEL.114)
- 0000:0000  Imp  INITTASK             (KERNEL.91)
  0000:0000  Imp  STRINGFROMCLSID      (COMPOBJ.19)
- 0000:0000  Imp  __AHSHIFT            (KERNEL.113)
- 0000:0000  Imp  FREELIBRARY          (KERNEL.96)
- 0000:0000  Imp  LOCALINIT            (KERNEL.4)
- 0000:0000  Imp  GETRUNNINGOBJECTTABLE (OLE2.30)
- 0000:0000  Imp  REGENUMKEY           (KERNEL.216)
- 0000:0000  Imp  GLOBALSIZE           (KERNEL.20)
- 0000:0000  Imp  GLOBALUNLOCK         (KERNEL.19)
- 0000:0000  Imp  COUNMARSHALINTERFACE (COMPOBJ.9)
- 0000:0000  Imp  REGISTERNLSINFOCHANGED (OLE2NLS.9)
- 0000:0000  Imp  GETMODULEUSAGE       (KERNEL.48)
- 0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
- 0000:0000  Imp  STRINGFROMGUID2      (COMPOBJ.76)
- 0000:0000  Imp  GLOBALREALLOC        (KERNEL.16)
- 0000:0000  Imp  GETLOCALEINFOA       (OLE2NLS.5)
- 0000:0000  Imp  GETWINFLAGS          (KERNEL.132)
- 0000:0000  Imp  GETDOSENVIRONMENT    (KERNEL.131)
- 0000:0000  Imp  GLOBALFREE           (KERNEL.17)
- 0000:0000  Imp  GETPROFILEINT        (KERNEL.57)
- 0000:0000  Imp  GLOBALLOCK           (KERNEL.18)
- 0000:0000  Imp  GETSTRINGTYPEA       (OLE2NLS.7)
- 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
- 0000:0000  Imp  GETUSERDEFAULTLCID   (OLE2NLS.1)
- 0000:0000  Imp  REGOPENKEY           (KERNEL.217)
- 0000:0000  Imp  LOADLIBRARY          (KERNEL.95)
- 0000:0000  Imp  FATALAPPEXIT         (KERNEL.137)
- 0000:0000  Imp  SETERRORMODE         (KERNEL.107)
- 0000:0000  Imp  COMPARESTRINGA       (OLE2NLS.8)
- 0000:0000  Imp  ISEQUALGUID          (COMPOBJ.18)
- 0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
- 0000:0000  Imp  HMEMCPY              (KERNEL.348)
- 0000:0000  Imp  CREATEFILEMONIKER    (OLE2.28)
- 0000:0000  Imp  GETVERSION           (KERNEL.3)
- 0000:0000  Imp  GETPROCADDRESS       (KERNEL.50)
  0000:0000  Imp  COSETSTATE           (COMPOBJ.110)
- 0000:0000  Imp  COGETMALLOC          (COMPOBJ.4)
- 0000:0000  Imp  LCMAPSTRINGA         (OLE2NLS.6)
- 0000:0000  Imp  __fpmath             (WIN87EM.1)
- 0000:0000  Imp  DOS3CALL             (KERNEL.102)
- 0000:0000  Imp  FATALEXIT            (KERNEL.1)
- 0000:0000  Imp  COMARSHALHRESULT     (COMPOBJ.32)
- 0000:0000  Imp  COMARSHALINTERFACE   (COMPOBJ.8)
- 0000:0000  Imp  COUNMARSHALHRESULT   (COMPOBJ.33)
  0000:0000  Imp  COGETSTATE           (COMPOBJ.115)
- 0000:0001  Abs  __sized
+ 0000:0000  Imp  GETWINFLAGS          (KERNEL.132)
+ 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 0000:0000  Imp  REGOPENKEY           (KERNEL.217)
+ 0000:0000  Imp  COMPARESTRINGA       (OLE2NLS.8)
+ 0000:0000  Imp  GLOBALLOCK           (KERNEL.18)
+ 0000:0000  Imp  GETMODULEUSAGE       (KERNEL.48)
+ 0000:0000  Imp  LOADLIBRARY          (KERNEL.95)
+ 0000:0000  Imp  SETERRORMODE         (KERNEL.107)
+ 0000:0000  Imp  FATALAPPEXIT         (KERNEL.137)
+ 0000:0000  Imp  HMEMCPY              (KERNEL.348)
+ 0000:0000  Imp  REGISTERNLSINFOCHANGED (OLE2NLS.9)
+ 0000:0000  Imp  CREATEFILEMONIKER    (OLE2.28)
+ 0000:0000  Imp  FREELIBRARY          (KERNEL.96)
+ 0000:0000  Imp  COUNMARSHALINTERFACE (COMPOBJ.9)
+ 0000:0000  Imp  GETPROCADDRESS       (KERNEL.50)
+ 0000:0000  Imp  GETDOSENVIRONMENT    (KERNEL.131)
+ 0000:0000  Imp  __fpmath             (WIN87EM.1)
+ 0000:0000  Imp  COGETMALLOC          (COMPOBJ.4)
+ 0000:0000  Imp  GLOBALFREE           (KERNEL.17)
+ 0000:0000  Imp  __AHSHIFT            (KERNEL.113)
+ 0000:0000  Imp  DOS3CALL             (KERNEL.102)
+ 0000:0000  Imp  GLOBALUNLOCK         (KERNEL.19)
+ 0000:0000  Imp  COMARSHALINTERFACE   (COMPOBJ.8)
+ 0000:0000  Imp  GETRUNNINGOBJECTTABLE (OLE2.30)
+ 0000:0000  Imp  GLOBALSIZE           (KERNEL.20)
+ 0000:0000  Imp  COMARSHALHRESULT     (COMPOBJ.32)
+ 0000:0000  Imp  REGENUMKEY           (KERNEL.216)
+ 0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
+ 0000:0000  Imp  GETPROFILEINT        (KERNEL.57)
+ 0000:0000  Imp  __AHINCR             (KERNEL.114)
+ 0000:0000  Imp  STRINGFROMGUID2      (COMPOBJ.76)
+ 0000:0000  Imp  GETLOCALEINFOA       (OLE2NLS.5)
+ 0000:0000  Imp  GETUSERDEFAULTLCID   (OLE2NLS.1)
+ 0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
+ 0000:0000  Imp  GLOBALREALLOC        (KERNEL.16)
+ 0000:0000  Imp  COUNMARSHALHRESULT   (COMPOBJ.33)
+ 0000:0000  Imp  INITTASK             (KERNEL.91)
+ 0000:0000  Imp  GETVERSION           (KERNEL.3)
+ 0000:0000  Imp  REGQUERYVALUE        (SHELL.6)
+ 0000:0000  Imp  ISEQUALGUID          (COMPOBJ.18)
+ 0000:0000  Imp  FATALEXIT            (KERNEL.1)
+ 0000:0000  Imp  REGCLOSEKEY          (KERNEL.220)
+ 0000:0000  Imp  LCMAPSTRINGA         (OLE2NLS.6)
+ 0000:0000  Imp  GETSTRINGTYPEA       (OLE2NLS.7)
+ 0000:0000  Imp  LOCALINIT            (KERNEL.4)
  0000:0001  Abs  __sizec
+ 0000:0001  Abs  __sized
  0000:0632  Abs  FISRQQ
  0000:0E32  Abs  FICRQQ
  0000:1632  Abs  FIERQQ
- 0000:9876  Abs  __acrtused
  0000:9876  Abs  __fptaskdata
  0000:9876  Abs  __fltused
+ 0000:9876  Abs  __acrtused
  0000:9876  Abs  __acrtmsg
- 0000:D6D6  Abs  __aDBdoswp
  0000:D6D6  Abs  __aDBused
+ 0000:D6D6  Abs  __aDBdoswp
  0001:0010       LIBMAIN
  0001:003E       _WEP
  0001:0060       ??0CProcessInfo@@REC@XZ
@@ -1818,16 +1818,16 @@
  0001:1560       _strtod
  0001:1694       _strtoul
  0001:16A0       _strtol
+ 0001:17D2       __npurecall
  0001:17D2       __fpurecall
  0001:17D2       __purecall
- 0001:17D2       __npurecall
- 0001:17D8       __aFFalmul
  0001:17D8       __aFFaulmul
+ 0001:17D8       __aFFalmul
  0001:17FA       __aFFalrem
  0001:181C       __aFFauldiv
  0001:183E       __aFldiv
- 0001:18D8       __aFlmul
  0001:18D8       __aFulmul
+ 0001:18D8       __aFlmul
  0001:190A       __aFlrem
  0001:19AA       __aFuldiv
  0001:1A0A       __aFulrem
@@ -1837,8 +1837,8 @@
  0001:1B28       __fmemmove
  0001:1BF2       __aFCIfloor
  0001:1C27       _floor
- 0001:1C4E       __ftol
  0001:1C4E       __aFftol
+ 0001:1C4E       __ftol
  0001:1C8C       _modf
  0001:1CF0       __stubmain
  0001:1D1C       __FF_MSGBANNER
@@ -1859,30 +1859,30 @@
  0001:2424       __cfltcvt
  0001:24C6       __aFfadd
  0001:24C6       __fadd
- 0001:24DC       __aFfmul
  0001:24DC       __fmul
+ 0001:24DC       __aFfmul
  0001:24F2       __aFfsub
  0001:24F2       __fsub
- 0001:2508       __fsubr
  0001:2508       __aFfsubr
- 0001:251E       __fdiv
+ 0001:2508       __fsubr
  0001:251E       __aFfdiv
+ 0001:251E       __fdiv
  0001:2534       __aFfdivr
  0001:2534       __fdivr
- 0001:254A       __fdup
  0001:254A       __aFfdup
- 0001:2560       __fchs
+ 0001:254A       __fdup
  0001:2560       __aFfchs
- 0001:2576       __fldd
+ 0001:2560       __fchs
  0001:2576       __aFfldd
+ 0001:2576       __fldd
  0001:258C       __fstdp
  0001:258C       __aFfstdp
  0001:25A2       __fstd
  0001:25A2       __aFfstd
  0001:25B8       __faddd
  0001:25B8       __aFfaddd
- 0001:25CE       __fmuld
  0001:25CE       __aFfmuld
+ 0001:25CE       __fmuld
  0001:25E4       __aFfsubd
  0001:25E4       __fsubd
  0001:25FA       __aFfsubdr
@@ -1891,50 +1891,50 @@
  0001:2610       __aFfdivd
  0001:2626       __fdivdr
  0001:2626       __aFfdivdr
- 0001:263C       __fldw
  0001:263C       __aFfldw
- 0001:2652       __aFfldl
+ 0001:263C       __fldw
  0001:2652       __fldl
+ 0001:2652       __aFfldl
  0001:2668       __aFfldq
  0001:2668       __fldq
  0001:267E       __aFslds
  0001:267E       __slds
- 0001:2680       __aFelds
  0001:2680       __elds
+ 0001:2680       __aFelds
  0001:2697       __aFsstsp
  0001:2697       __sstsp
  0001:2699       __aFestsp
  0001:2699       __estsp
  0001:26B0       __aFssts
  0001:26B0       __ssts
- 0001:26B2       __aFests
  0001:26B2       __ests
- 0001:26C9       __aFsadds
+ 0001:26B2       __aFests
  0001:26C9       __sadds
- 0001:26CB       __aFeadds
+ 0001:26C9       __aFsadds
  0001:26CB       __eadds
+ 0001:26CB       __aFeadds
  0001:26E2       __aFsmuls
  0001:26E2       __smuls
- 0001:26E4       __emuls
  0001:26E4       __aFemuls
+ 0001:26E4       __emuls
  0001:26FB       __aFssubs
  0001:26FB       __ssubs
- 0001:26FD       __aFesubs
  0001:26FD       __esubs
+ 0001:26FD       __aFesubs
  0001:2714       __aFssubsr
  0001:2714       __ssubsr
  0001:2716       __esubsr
  0001:2716       __aFesubsr
  0001:272D       __aFsdivs
  0001:272D       __sdivs
- 0001:272F       __edivs
  0001:272F       __aFedivs
- 0001:2746       __sdivsr
+ 0001:272F       __edivs
  0001:2746       __aFsdivsr
+ 0001:2746       __sdivsr
  0001:2748       __edivsr
  0001:2748       __aFedivsr
- 0001:275F       __aFsldd
  0001:275F       __sldd
+ 0001:275F       __aFsldd
  0001:2761       __aFeldd
  0001:2761       __eldd
  0001:2778       __aFsstdp
@@ -1943,16 +1943,16 @@
  0001:277A       __estdp
  0001:2791       __sstd
  0001:2791       __aFsstd
- 0001:2793       __aFestd
  0001:2793       __estd
+ 0001:2793       __aFestd
  0001:27AA       __saddd
  0001:27AA       __aFsaddd
- 0001:27AC       __aFeaddd
  0001:27AC       __eaddd
+ 0001:27AC       __aFeaddd
  0001:27C3       __smuld
  0001:27C3       __aFsmuld
- 0001:27C5       __emuld
  0001:27C5       __aFemuld
+ 0001:27C5       __emuld
  0001:27DC       __ssubd
  0001:27DC       __aFssubd
  0001:27DE       __aFesubd
@@ -1961,26 +1961,26 @@
  0001:27F5       __aFssubdr
  0001:27F7       __esubdr
  0001:27F7       __aFesubdr
- 0001:280E       __aFsdivd
  0001:280E       __sdivd
+ 0001:280E       __aFsdivd
  0001:2810       __aFedivd
  0001:2810       __edivd
- 0001:2827       __sdivdr
  0001:2827       __aFsdivdr
- 0001:2829       __aFedivdr
+ 0001:2827       __sdivdr
  0001:2829       __edivdr
+ 0001:2829       __aFedivdr
  0001:2840       __aFsldw
  0001:2840       __sldw
- 0001:2842       __aFeldw
  0001:2842       __eldw
+ 0001:2842       __aFeldw
  0001:2859       __sldl
  0001:2859       __aFsldl
- 0001:285B       __eldl
  0001:285B       __aFeldl
+ 0001:285B       __eldl
  0001:2872       __aFsldq
  0001:2872       __sldq
- 0001:2874       __eldq
  0001:2874       __aFeldq
+ 0001:2874       __eldq
  0001:288C       __fltin
  0001:28F0       __fltout
  0001:2946       __fpsignal
@@ -3112,8 +3112,8 @@
  000A:1620       __fac
  000A:162A       _errno
  000A:162C       __umaskval
- 000A:162E       __winver
  000A:162E       __winminor
+ 000A:162E       __winver
  000A:162F       __winmajor
  000A:1630       __osminor
  000A:1630       __osver
@@ -3146,15 +3146,15 @@
  000A:1832       __fheap
  000A:1840       ?ll0@?1??Rewind@@ZAPEXPEUIStream@@@Z@4U_LARGE_INTEGER@@B
  000A:184A       __fpinit
- 000A:1CC4       _edata
- 000A:1CC4       __edata
  000A:1CC4       _g_fbstpImplemented
+ 000A:1CC4       __edata
+ 000A:1CC4       _edata
  000A:1CC6       _pinfoCache
  000A:1CD4       _uProcessID
  000A:1D00       _g_diCache
  000A:1DD2       __mbac
- 000A:1DDA       __end
  000A:1DDA       _end
+ 000A:1DDA       __end
  0000:4000  Abs  FJARQQ
  0000:5C32  Abs  FIDRQQ
  0000:8000  Abs  FJSRQQ

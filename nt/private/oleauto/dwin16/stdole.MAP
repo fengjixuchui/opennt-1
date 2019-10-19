@@ -47,10 +47,10 @@
   Address         Publics by Value
 
  0000:0000  Imp  __WINFLAGS           (KERNEL.178)
- 0000:0000  Abs  __sizec
  0000:0000  Abs  __sized
- 0000:9876  Abs  __fptaskdata
+ 0000:0000  Abs  __sizec
  0000:9876  Abs  __acrtused
+ 0000:9876  Abs  __fptaskdata
  0000:D6D6  Abs  __aDBused
  0000:D6D6  Abs  __aDBdoswp
  0001:0010       LIBMAIN
@@ -67,6 +67,6 @@
  0002:0020       ___aDBswpflg
  0002:0022       ___aDBrterr
  0002:0024       _edata
- 0002:0024       __edata
  0002:0024       _end
+ 0002:0024       __edata
  0002:0024       __end

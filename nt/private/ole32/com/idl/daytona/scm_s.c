@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Thu Oct 17 18:16:11 2019
+/* at Sat Oct 19 00:50:10 2019
  */
 /* Compiler settings for ..\scm.idl:
     Os (OptLev=s), W1, Zp8, env=Win32, ms_ext, c_ext, oldnames

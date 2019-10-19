@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Thu Oct 17 17:23:33 2019
+/* at Sat Oct 19 00:10:20 2019
  */
 /* Compiler settings for .\regrpc.idl:
     Os (OptLev=s), W1, Zp8, env=Win32, ms_ext, c_ext, oldnames
@@ -32,7 +32,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: winreg
- * at Thu Oct 17 17:23:33 2019
+ * at Sat Oct 19 00:10:20 2019
  * using MIDL 3.00.44
  ****************************************/
 /* [implicit_handle][version][ms_union][unique][uuid] */ 

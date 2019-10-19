@@ -740,75 +740,75 @@
 
   Address         Publics by Value
 
+ 0000:0000  Imp  LOCALREALLOC         (KERNEL.6)
+ 0000:0000  Imp  INITTASK             (KERNEL.91)
+ 0000:0000  Imp  GLOBALREALLOC        (KERNEL.16)
+ 0000:0000  Imp  SETERRORMODE         (KERNEL.107)
+ 0000:0000  Imp  SSONBIGSTACK         (KERNEL.701)
+ 0000:0000  Imp  GETVERSION           (KERNEL.3)
+ 0000:0000  Imp  _IID_IPersistStorage (OLE2.130)
  0000:0000  Imp  LOCALALLOC           (KERNEL.5)
- 0000:0000  Imp  LOCALFREE            (KERNEL.7)
- 0000:0000  Imp  _IID_IPersist        (OLE2.132)
- 0000:0000  Imp  UNLOCKSEGMENT        (KERNEL.24)
- 0000:0000  Imp  FREELIBRARY32W       (KERNEL.FREELIBRARY32W)
- 0000:0000  Imp  DOS3CALL             (KERNEL.102)
- 0000:0000  Imp  GLOBALUNLOCK         (KERNEL.19)
- 0000:0000  Imp  CALLPROC32W          (KERNEL.CALLPROC32W)
+ 0000:0000  Imp  LOADLIBRARY          (KERNEL.95)
+ 0000:0000  Imp  ISBADWRITEPTR        (KERNEL.335)
+ 0000:0000  Imp  MESSAGEBOX           (USER.1)
+ 0000:0000  Imp  RELEASESTGMEDIUM     (OLE2.32)
+ 0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
+ 0000:0000  Imp  GLOBALFREE           (KERNEL.17)
+ 0000:0000  Imp  LOCALINIT            (KERNEL.4)
+ 0000:0000  Imp  __AHINCR             (KERNEL.114)
  0000:0000  Imp  _wsprintf            (USER.420)
  0000:0000  Imp  WAITEVENT            (KERNEL.30)
- 0000:0000  Imp  LOCALREALLOC         (KERNEL.6)
- 0000:0000  Imp  RELEASESTGMEDIUM     (OLE2.32)
  0000:0000  Imp  GLOBALLOCK           (KERNEL.18)
- 0000:0000  Imp  GLOBALFREE           (KERNEL.17)
- 0000:0000  Imp  LOCALSIZE            (KERNEL.10)
- 0000:0000  Imp  LOADLIBRARYEX32W     (KERNEL.LOADLIBRARYEX32W)
- 0000:0000  Imp  GETCURRENTTASK       (KERNEL.36)
- 0000:0000  Imp  KERNEL_SETOWNER      (KERNEL.403)
- 0000:0000  Imp  FATALAPPEXIT         (KERNEL.137)
- 0000:0000  Imp  INITAPP              (USER.5)
- 0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
- 0000:0000  Imp  DEBUGBREAK           (KERNEL.203)
- 0000:0000  Imp  _SSCALL              (KERNEL.702)
- 0000:0000  Imp  __AHINCR             (KERNEL.114)
- 0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
- 0000:0000  Imp  MESSAGEBOX           (USER.1)
- 0000:0000  Imp  SSINIT               (KERNEL.700)
- 0000:0000  Imp  FATALEXIT            (KERNEL.1)
- 0000:0000  Imp  _IID_IPersistStorage (OLE2.130)
- 0000:0000  Imp  GLOBALREALLOC        (KERNEL.16)
- 0000:0000  Imp  _IID_IPersistStream  (OLE2.129)
- 0000:0000  Imp  DELETEMETAFILE       (GDI.127)
- 0000:0000  Imp  FREELIBRARY          (KERNEL.96)
- 0000:0000  Imp  GETPROCADDRESS       (KERNEL.50)
- 0000:0000  Imp  INITTASK             (KERNEL.91)
- 0000:0000  Imp  GETVERSION           (KERNEL.3)
- 0000:0000  Imp  WINEXEC              (KERNEL.166)
- 0000:0000  Imp  SSONBIGSTACK         (KERNEL.701)
- 0000:0000  Imp  SETERRORMODE         (KERNEL.107)
- 0000:0000  Imp  ISBADWRITEPTR        (KERNEL.335)
- 0000:0000  Imp  LOCALINIT            (KERNEL.4)
- 0000:0000  Imp  _IID_IPersistFile    (OLE2.131)
- 0000:0000  Imp  ISBADREADPTR         (KERNEL.334)
- 0000:0000  Imp  GETVDMPOINTER32W     (KERNEL.GETVDMPOINTER32W)
- 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
  0000:0000  Imp  _IID_IOleContainer   (OLE2.147)
- 0000:0000  Imp  __AHSHIFT            (KERNEL.113)
- 0000:0000  Abs  __wiobused
+ 0000:0000  Imp  LOCALSIZE            (KERNEL.10)
+ 0000:0000  Imp  _SSCALL              (KERNEL.702)
+ 0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
+ 0000:0000  Imp  INITAPP              (USER.5)
+ 0000:0000  Imp  ISBADREADPTR         (KERNEL.334)
+ 0000:0000  Imp  DEBUGBREAK           (KERNEL.203)
+ 0000:0000  Imp  FATALAPPEXIT         (KERNEL.137)
+ 0000:0000  Imp  FATALEXIT            (KERNEL.1)
  0000:0000  Imp  ISBADCODEPTR         (KERNEL.336)
- 0000:0000  Imp  LOADLIBRARY          (KERNEL.95)
- 0000:0000  Imp  GLOBALHANDLE         (KERNEL.21)
- 0000:0000  Imp  GETMODULEFILENAME    (KERNEL.49)
- 0000:0000  Imp  GETPROCADDRESS32W    (KERNEL.GETPROCADDRESS32W)
+ 0000:0000  Imp  FREELIBRARY          (KERNEL.96)
+ 0000:0000  Imp  KERNEL_SETOWNER      (KERNEL.403)
+ 0000:0000  Imp  DELETEMETAFILE       (GDI.127)
+ 0000:0000  Imp  GETVDMPOINTER32W     (KERNEL.GETVDMPOINTER32W)
+ 0000:0000  Imp  DOS3CALL             (KERNEL.102)
+ 0000:0000  Abs  __wiobused
  0000:0000  Imp  _IID_IOleItemContainer (OLE2.148)
- 0000:0000  Imp  GETPROFILESTRING     (KERNEL.58)
+ 0000:0000  Imp  UNLOCKSEGMENT        (KERNEL.24)
+ 0000:0000  Imp  GETCURRENTTASK       (KERNEL.36)
  0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
- 0000:0000  Imp  GETPROFILEINT        (KERNEL.57)
- 0000:0000  Imp  GLOBALSIZE           (KERNEL.20)
+ 0000:0000  Imp  SSINIT               (KERNEL.700)
+ 0000:0000  Imp  __AHSHIFT            (KERNEL.113)
+ 0000:0000  Imp  GETPROCADDRESS       (KERNEL.50)
+ 0000:0000  Imp  LOADLIBRARYEX32W     (KERNEL.LOADLIBRARYEX32W)
+ 0000:0000  Imp  WINEXEC              (KERNEL.166)
+ 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 0000:0000  Imp  LOCALFREE            (KERNEL.7)
+ 0000:0000  Imp  _IID_IPersistStream  (OLE2.129)
+ 0000:0000  Imp  GLOBALHANDLE         (KERNEL.21)
+ 0000:0000  Imp  GETPROFILESTRING     (KERNEL.58)
  0000:0000  Imp  GETDOSENVIRONMENT    (KERNEL.131)
- 0000:0001  Abs  __sizec
+ 0000:0000  Imp  GLOBALSIZE           (KERNEL.20)
+ 0000:0000  Imp  _IID_IPersistFile    (OLE2.131)
+ 0000:0000  Imp  GETPROCADDRESS32W    (KERNEL.GETPROCADDRESS32W)
+ 0000:0000  Imp  _IID_IPersist        (OLE2.132)
+ 0000:0000  Imp  GLOBALUNLOCK         (KERNEL.19)
+ 0000:0000  Imp  CALLPROC32W          (KERNEL.CALLPROC32W)
+ 0000:0000  Imp  FREELIBRARY32W       (KERNEL.FREELIBRARY32W)
+ 0000:0000  Imp  GETPROFILEINT        (KERNEL.57)
+ 0000:0000  Imp  GETMODULEFILENAME    (KERNEL.49)
  0000:0001  Abs  __sized
+ 0000:0001  Abs  __sizec
  0000:0006  Abs  pLocalHeap
  0000:0008  Abs  pAtomTable
  0000:000A  Abs  pStackTop
  0000:000C  Abs  pStackMin
  0000:000E  Abs  pStackBot
- 0000:9876  Abs  __fptaskdata
  0000:9876  Abs  __acrtused
  0000:9876  Abs  __acrtmsg
+ 0000:9876  Abs  __fptaskdata
  0000:D6D6  Abs  __aDBused
  0000:D6D6  Abs  __aDBdoswp
  0001:0000       CLSIDFROMSTRING
@@ -1053,15 +1053,15 @@
  0001:7B48       __astart
  0001:7BFF       __nomain
  0001:7C06       __aNchkstk
- 0001:7C26       __chkstk
  0001:7C26       __aFchkstk
+ 0001:7C26       __chkstk
  0001:7C60       ??3@ZAXPEX@Z
  0001:7C72       ??2@ZAPEXI@Z
  0001:7C82       _strtoul
  0001:7C8E       _strtol
  0001:7DC0       __fpurecall
- 0001:7DC0       __npurecall
  0001:7DC0       __purecall
+ 0001:7DC0       __npurecall
  0001:7DC6       __fmemmove
  0001:7E90       __stubmain
  0001:7EBC       __cinit
@@ -1081,38 +1081,38 @@
  0001:8426       __aFahdiff
  0001:8446       _atexit
  0001:844E       __onexit
- 0001:8478       __wcinit
  0001:8478       __wcexit
- 0001:847D       __QWINSetBuffSize
- 0001:847D       __wsetsize
- 0001:847D       __QWINOpen
- 0001:847D       __QWINGetBuffSize
- 0001:847D       __wopen
- 0001:847D       __wgetfocus
- 0001:847D       __QWINYield
+ 0001:8478       __wcinit
  0001:847D       __wmenuclick
- 0001:847D       __wgetsize
- 0001:847D       __QWINSetAboutString
- 0001:847D       __QWINSetSize
- 0001:847D       __QWINExit
- 0001:847D       __QWINRead
- 0001:847D       __wabout
- 0001:847D       __wsetfocus
- 0001:847D       __QWINMenuClick
- 0001:847D       __QWINClose
- 0001:847D       __QWINSetFocus
  0001:847D       __wsetscreenbuf
- 0001:847D       __wclose
- 0001:847D       __QWINInit
- 0001:847D       __wterm
- 0001:847D       __QWINGetFocus
- 0001:847D       __QWINGetSize
  0001:847D       __wread
+ 0001:847D       __wgetfocus
+ 0001:847D       __QWINExit
+ 0001:847D       __wsetfocus
+ 0001:847D       __QWINOpen
+ 0001:847D       __QWINSetBuffSize
+ 0001:847D       __QWINSetFocus
+ 0001:847D       __QWINGetFocus
+ 0001:847D       __QWINRead
  0001:847D       __wgetscreenbuf
- 0001:847D       __QWINWrite
- 0001:847D       __QWINTerm
- 0001:847D       __wwrite
+ 0001:847D       __wabout
  0001:847D       __QWINIsQWINin
+ 0001:847D       __wopen
+ 0001:847D       __QWINGetBuffSize
+ 0001:847D       __QWINGetSize
+ 0001:847D       __wterm
+ 0001:847D       __QWINSetAboutString
+ 0001:847D       __wclose
+ 0001:847D       __QWINMenuClick
+ 0001:847D       __wgetsize
+ 0001:847D       __wsetsize
+ 0001:847D       __QWINTerm
+ 0001:847D       __QWINClose
+ 0001:847D       __wwrite
+ 0001:847D       __QWINInit
+ 0001:847D       __QWINSetSize
+ 0001:847D       __QWINWrite
+ 0001:847D       __QWINYield
  0001:8484       __fptrap
  0001:848A       __NMSG_TEXT
  0001:84C1       __NMSG_WRITE
@@ -1188,8 +1188,8 @@
  0002:17DC       __winver
  0002:17DC       __winminor
  0002:17DD       __winmajor
- 0002:17DE       __osminor
  0002:17DE       __osver
+ 0002:17DE       __osminor
  0002:17DF       __osmajor
  0002:17E0       __osversion
  0002:17E2       __osmode
@@ -1217,9 +1217,9 @@
  0002:184E       ?Win4AssertLevel@@3KE
  0002:188C       _nullstring
  0002:18F0       __fpinit
- 0002:1A76       ?v_mapToEtask@@3VCMapHandleEtask@@A
- 0002:1A76       _edata
  0002:1A76       __edata
+ 0002:1A76       _edata
+ 0002:1A76       ?v_mapToEtask@@3VCMapHandleEtask@@A
  0002:1DB6       ?v_etaskCache@@3UEtask@@A
  0002:1DF8       ?lpIUnknownObj32@@3PEXE
  0002:1F40       _lpThkCallOutputFunctionsProc

@@ -774,10 +774,10 @@
  0000:2250       $STARTCODE
  0000:2255       BioDataSeg
  0000:2257       DosDSeg
- 0000:2259       MSTAB001s
- 0000:2259       BugLev
  0000:2259       MSVERS
+ 0000:2259       MSTAB001s
  0000:2259       BugTyp
+ 0000:2259       BugLev
  0000:225B       I21_MAP_E_TAB
  0000:2308       DISPATCH
  0000:23E2       FOO
@@ -788,8 +788,8 @@
  0000:251A       $SET_CURRENT_PDB
  0000:2528       $GET_CURRENT_PDB
  0000:2536       $Set_Printer_Flag
- 0000:2543       System_Call
  0000:2543       QUIT
+ 0000:2543       System_Call
  0000:2549       IRETT
  0000:254C       CALL_ENTRY
  0000:2573       COMMAND
@@ -806,8 +806,8 @@
  0000:27F9       SYS_RETURN
  0000:2802       SYS_RET_ERR
  0000:280A       From_GetSet
- 0000:2815       NO_OP
  0000:2815       FCB_RET_OK
+ 0000:2815       NO_OP
  0000:2818       FCB_RET_ERR
  0000:2824       errorMap
  0000:283C       CAL_LK
@@ -820,12 +820,12 @@
  0000:2B1A       INT2F_etcetera
  0000:2B1A       DOSGetGroup
  0000:2B20       DOSInstall
- 0000:2B23       DMES002S
  0000:2B23       DIVMES
  0000:2B23       DIVM001S
+ 0000:2B23       DMES002S
  0000:2B36       DivMesLen
- 0000:2B38       DIVM001E
  0000:2B38       NoVxDErrMsg
+ 0000:2B38       DIVM001E
  0000:2B9B       NLS_YES
  0000:2B9C       NLS_NO
  0000:2B9D       NLS_yes2
@@ -900,8 +900,8 @@
  0000:36C2       SKIPONE
  0000:36CC       SKIPSTR
  0000:3706       REEDIT
- 0000:371A       ENTERINS
  0000:371A       EXITINS
+ 0000:371A       ENTERINS
  0000:3722       CTRLZ
  0000:3727       CRLF
  0000:3731       $RAW_CON_IO
@@ -939,9 +939,9 @@
  0000:3D00       SetExtent
  0000:3D1A       GetExtended
  0000:3D27       GetRecSize
- 0000:3D35       FCBIO
  0000:3D35       FCBIO001E
  0000:3D35       FCBIO001S
+ 0000:3D35       FCBIO
  0000:3F05       $FCB_OPEN
  0000:4063       $FCB_CREATE
  0000:4073       $FCB_RANDOM_WRITE_BLOCK
@@ -1032,9 +1032,9 @@
  0000:5444       CHECK_VIRT_OPEN
  0000:5460       SET_I24_EXTENDED_ERROR
  0000:5487       $WAIT
+ 0000:5491       EXEC001E
  0000:5491       $EXEC
  0000:5491       EXEC001S
- 0000:5491       EXEC001E
  0000:5A8B       ExecRead
  0000:5A9A       exec_dealloc
  0000:5AA2       exec_alloc
@@ -1060,8 +1060,8 @@
  0000:5EF1       $AllocOper
  0000:5F7E       GetLastArena
  0000:5FBF       SRVC001S
- 0000:5FDA       $ServerCall
  0000:5FDA       SRVC001E
+ 0000:5FDA       $ServerCall
  0000:60AE       pJFNFromHandle
  0000:60CB       SFFromHandle
  0000:60E5       SFFromSFN
@@ -1125,11 +1125,11 @@
  0000:73B7       IsCopyProt
  0000:73ED       sysbuf
  0000:73FC       DOSINIT
- 0000:7939       msini002e
  0000:7939       msini002s
+ 0000:7939       msini002e
  0000:7939       memstrt
- 0794:0004       DataVersion
  0794:0004       MSCT001S
+ 0794:0004       DataVersion
  0794:0006       WinoldPatch1
  0794:000E       MYNUM
  0794:0010       FCBLRU
@@ -1164,8 +1164,8 @@
  0794:0069       BOOTDRIVE
  0794:006A       DDMOVE
  0794:006B       EXT_MEM_SIZE
- 0794:006D       HASHINITVAR
  0794:006D       BufferQueue
+ 0794:006D       HASHINITVAR
  0794:0071       DirtyBufferCount
  0794:0073       SC_CACHE_PTR
  0794:0077       SC_CACHE_COUNT
@@ -1183,9 +1183,9 @@
  0794:008C       UMB_HEAD
  0794:008E       START_ARENA
  0794:0092       JShare
- 0794:00CE       CONST001S
- 0794:00CE       sftabl
  0794:00CE       MSCT001E
+ 0794:00CE       sftabl
+ 0794:00CE       CONST001S
  0794:01FB       CARPOS
  0794:01FC       STARTPOS
  0794:01FD       INBUF
@@ -1199,8 +1199,8 @@
  0794:0306       DIFFNAM
  0794:0307       MYNAME
  0794:0317       CritPatch
- 0794:0322       ErrorMode
  0794:0322       SWAP_START
+ 0794:0322       ErrorMode
  0794:0323       INDOS
  0794:0324       WPErr
  0794:0325       EXTERR_LOCUS
@@ -1239,10 +1239,10 @@
  0794:035A       IDLEINT
  0794:035B       fAborting
  0794:035C       DEVCALL
- 0794:0369       CALLMED
  0794:0369       CALLUNIT
- 0794:036A       CALLRBYT
+ 0794:0369       CALLMED
  0794:036A       CALLXAD
+ 0794:036A       CALLRBYT
  0794:036B       CALLVIDM
  0794:036E       CallBPB
  0794:036E       CALLSCNT
@@ -1251,8 +1251,8 @@
  0794:0376       CALLNEWSC
  0794:037A       CALLDEVAD
  0794:037E       IOCall
- 0794:038B       IORCHR
  0794:038B       IOMED
+ 0794:038B       IORCHR
  0794:038C       IOXAD
  0794:0390       IOSCNT
  0794:0392       IOSSEC
@@ -1265,19 +1265,19 @@
  0794:03AB       Lock_Buffer
  0794:03B3       vheDev
  0794:03B3       CONST001E
- 0794:03C6       UserNum
  0794:03C6       DMES001S
+ 0794:03C6       UserNum
  0794:03C9       OEMNum
- 0794:03CA       DMES001E
  0794:03CA       MSDAT001S
+ 0794:03CA       DMES001E
  0794:03CA       TIMEBUF
  0794:03D0       DEVIOBUF
  0794:03D2       OPENBUF
  0794:0452       RenBuf
  0794:04D2       SEARCHBUF
  0794:0507       DummyCDS
- 0794:054E       NAME1
  0794:054E       DevFCB
+ 0794:054E       NAME1
  0794:055A       NAME2
  0794:0567       DESTSTART
  0794:056E       ATTRIB
@@ -1368,9 +1368,9 @@
  0794:0622       RENAMEDMA
  0794:07A2       AuxStack
  0794:0922       DskStack
- 0794:0AA2       IBMPATCH
- 0794:0AA2       PRINTER_FLAG
  0794:0AA2       IOStack
+ 0794:0AA2       PRINTER_FLAG
+ 0794:0AA2       IBMPATCH
  0794:0AA3       VOLCHNG_FLAG
  0794:0AA4       VIRTUAL_OPEN
  0794:0AA5       FSeek_drive
@@ -1419,8 +1419,8 @@
  0794:0DB7       SC_FLAG
  0794:0DB8       AbsDskErr
  0794:0DBA       NO_NAME_ID
- 0794:0DC5       KISTR001S
  0794:0DC5       LOOKSIZ
+ 0794:0DC5       KISTR001S
  0794:0DC6       KISTR001E
  0794:0DC6       snuldev
  0794:0DCC       inuldev
@@ -1431,8 +1431,8 @@
  0794:0DDB       Mark2
  0794:0E5B       ERR_TABLE_24
  0794:0EAB       ErrMap24
- 0794:0EBB       FIRST_BUFF_ADDR
  0794:0EBB       ErrMap24End
+ 0794:0EBB       FIRST_BUFF_ADDR
  0794:0EBD       SPECIAL_VERSION
  0794:0EBF       FAKE_COUNT
  0794:0FBE       OLD_FIRSTCLUS
@@ -1445,8 +1445,8 @@
  0794:101E       BiosDataPtr
  0794:103B       LocalSFT
  0794:1040       DOSINTTABLE
- 0794:1068       i0patch
  0794:1068       ldivov
+ 0794:1068       i0patch
  0794:1072       lquit
  0794:1072       i20patch
  0794:107C       lcommand
@@ -1455,8 +1455,8 @@
  0794:1086       i25patch
  0794:1090       labsdwrt
  0794:1090       i26patch
- 0794:109A       lStay_resident
  0794:109A       i27patch
+ 0794:109A       lStay_resident
  0794:10A4       i2fpatch
  0794:10A4       lint2f
  0794:10AE       cpmpatch

@@ -286,9 +286,9 @@
  0876:1E80       _NoBiosKbdCheck
  0876:1E81       _NoLogitechPs2Check
  0876:1EA0       _BackEnd
- 0876:21D0       _BiosSystemEnvironment
  0876:21D0       _edata
  0876:21D0       __edata
+ 0876:21D0       _BiosSystemEnvironment
  0876:21DA       _HwMcaPosData
  0876:21DE       _BlockPointer
  0876:21E2       _BlockHead

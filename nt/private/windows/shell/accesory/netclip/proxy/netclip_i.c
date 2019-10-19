@@ -5,7 +5,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Thu Oct 17 17:23:43 2019
+/* at Sat Oct 19 00:10:24 2019
  */
 /* Compiler settings for netclip.idl:
     Oicf (OptLev=i2), W1, Zp8, env=Win32, ms_ext, c_ext

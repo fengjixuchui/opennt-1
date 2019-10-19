@@ -32,10 +32,9 @@ Linking w:\nt\private\unimodem\cpl directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 Linking w:\nt\private\unimodem\lights directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	link -out:..\lib\i386\serialui.dll -machine:i386 @W:\tmp\nma01436.
-	link -out:..\lib\i386\modem.cpl -machine:i386 @W:\tmp\nma03524.
-	link -out:..\lib\i386\modemui.dll -machine:i386 @W:\tmp\nma03404.
-	link -out:obj\i386\unimdm.TSP -machine:i386 @W:\tmp\nma03632.
+	link -out:..\lib\i386\serialui.dll -machine:i386 @W:\tmp\nma03152.
+	link -out:..\lib\i386\modemui.dll -machine:i386 @W:\tmp\nma02636.
+	link -out:..\lib\i386\modem.cpl -machine:i386 @W:\tmp\nma02260.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -171,6 +170,9 @@ W:\nt\public\sdk\lib\i386\setupapi.lib
 W:\nt\public\sdk\lib\i386\cfgmgr32.lib 
 W:\nt\public\sdk\lib\i386\tapi32.lib 
 ..\lib\i386\rovcomm.lib 
+	link -out:obj\i386\unimdm.TSP -machine:i386 @W:\tmp\nma04032.
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a ..\lib\i386\serialui.dll
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a ..\lib\i386\modemui.dll
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -226,19 +228,15 @@ W:\nt\public\sdk\lib\i386\user32.lib
 W:\nt\public\sdk\lib\i386\advapi32.lib 
 W:\nt\public\sdk\lib\i386\setupapi.lib 
 ..\lib\i386\rovcomm.lib 
-	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a ..\lib\i386\serialui.dll
-	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a ..\lib\i386\modemui.dll
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a ..\lib\i386\modem.cpl
 
 Stop. 
+
+Stop. 
+
+Stop. 
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\unimdm.TSP
-
-Stop. 
-
-Stop. 
-	link -out:obj\i386\lights.exe -machine:i386 @W:\tmp\nma03468.
-
-Stop. 
+	link -out:obj\i386\lights.exe -machine:i386 @W:\tmp\nma02532.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -275,6 +273,8 @@ W:\nt\public\sdk\lib\i386\user32.lib
 W:\nt\public\sdk\lib\i386\shell32.lib 
 W:\nt\public\sdk\lib\i386\comctl32.lib 
 W:\nt\public\sdk\lib\i386\advapi32.lib 
+
+Stop. 
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\lights.exe
 
 Stop. 

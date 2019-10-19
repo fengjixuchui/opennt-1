@@ -69,13 +69,13 @@ Stack Allocation = 5120 bytes
 
   Address         Publics by Value
 
- 0000:0000  Imp  UNLOCKSEGMENT        (KERNEL.24)
+ 0000:0000  Imp  INITAPP              (USER.5)
  0000:0000  Imp  DOS3CALL             (KERNEL.102)
  0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
  0000:0000  Imp  __WINFLAGS           (KERNEL.178)
- 0000:0000  Imp  WAITEVENT            (KERNEL.30)
  0000:0000  Imp  INITTASK             (KERNEL.91)
- 0000:0000  Imp  INITAPP              (USER.5)
+ 0000:0000  Imp  UNLOCKSEGMENT        (KERNEL.24)
+ 0000:0000  Imp  WAITEVENT            (KERNEL.30)
  0000:0000  Imp  WOWLOADMODULE        (KERNEL.504)
  0000:0006  Abs  pLocalHeap
  0000:0008  Abs  pAtomTable
@@ -97,10 +97,10 @@ Stack Allocation = 5120 bytes
  0002:001E       ___aDBswpchk
  0002:0020       __aDBrterr
  0002:0022       ___aDBexit
- 0002:0030       __edata
- 0002:0030       _end
  0002:0030       _edata
+ 0002:0030       __edata
  0002:0030       __end
+ 0002:0030       _end
 
 Line numbers for winoldap.obj(winoldap.c) segment _TEXT
 

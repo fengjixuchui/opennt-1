@@ -1,6 +1,6 @@
  oleaut32
 
- Timestamp is 5da96a77 (Fri Oct 18 00:32:07 2019)
+ Timestamp is 5dab012f (Sat Oct 19 05:27:27 2019)
 
  Preferred load address is 10000000
 
@@ -27,8 +27,8 @@
  0007:00000140 00023ff4H .debug$G                DATA
  0007:00024134 00000008H .debug$H                DATA
  0007:0002413c 00035330H .debug$P                DATA
- 0007:0005946c 000b1bd5H .debug$S                DATA
- 0007:0010b041 000dade0H .debug$T                DATA
+ 0007:0005946c 000b1b3cH .debug$S                DATA
+ 0007:0010afa8 000dade0H .debug$T                DATA
 
   Address         Publics by Value              Rva+Base   Lib:Object
 

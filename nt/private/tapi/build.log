@@ -41,15 +41,47 @@ Linking w:\nt\private\tapi\dev\sp\atsp32 directory ********************
 	echo "Clean target null in this directory"
 	echo "Clean target null in this directory"
 "Clean target null in this directory"
-"Clean target null in this directory"
 Linking w:\nt\private\tapi\dev\sp\esp.new\tsp directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+"Clean target null in this directory"
 Linking w:\nt\private\tapi\dev\sp\esp.new\exe directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	link -out:W:\nt\public\sdk\lib\i386\tapisrv.exe -machine:i386 @W:\tmp\nma02948.
-	link -out:W:\nt\public\sdk\lib\i386\atsp32.TSP -machine:i386 @W:\tmp\nma03836.
-	link -out:W:\nt\public\sdk\lib\i386\esp32.tsp -machine:i386 @W:\tmp\nma03280.
-	link -out:W:\nt\public\sdk\lib\i386\tapi32.dll -machine:i386 @W:\tmp\nma02416.
+	link -out:W:\nt\public\sdk\lib\i386\tapisrv.exe -machine:i386 @W:\tmp\nma03012.
+	link -out:W:\nt\public\sdk\lib\i386\atsp32.TSP -machine:i386 @W:\tmp\nma01508.
+	link -out:W:\nt\public\sdk\lib\i386\esp32.tsp -machine:i386 @W:\tmp\nma02312.
+	link -out:W:\nt\public\sdk\lib\i386\tapi32.dll -machine:i386 @W:\tmp\nma03420.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:0x61000000 
+-subsystem:windows,4.00 
+-entry:DllMain@12 
+W:\nt\public\sdk\lib\i386\atsp32.exp 
+obj\i386\atsp.res 
+obj\i386\atsp.obj 
+W:\nt\public\sdk\lib\i386\libc.lib 
+W:\nt\public\sdk\lib\i386\ntdll.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -92,38 +124,6 @@ W:\nt\public\sdk\lib\i386\rpcndr.lib
 W:\nt\public\sdk\lib\i386\rpcrt4.lib 
 W:\nt\public\sdk\lib\i386\comctl32.lib 
 W:\nt\public\sdk\lib\i386\shell32.lib 
-Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
-Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
-
--MERGE:_PAGE=PAGE 
--MERGE:_TEXT=.text 
--SECTION:INIT,d 
--OPT:REF 
--INCREMENTAL:NO 
--FORCE:MULTIPLE 
--RELEASE 
--FULLBUILD 
--IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
--NODEFAULTLIB 
--debug:notmapped,FULL 
--debugtype:both 
--version:4.00 
--osversion:4.00 
--MERGE:.rdata=.text 
--dll 
--optidata 
--base:0x61000000 
--subsystem:windows,4.00 
--entry:DllMain@12 
-W:\nt\public\sdk\lib\i386\atsp32.exp 
-obj\i386\atsp.res 
-obj\i386\atsp.obj 
-W:\nt\public\sdk\lib\i386\libc.lib 
-W:\nt\public\sdk\lib\i386\ntdll.lib 
-W:\nt\public\sdk\lib\i386\kernel32.lib 
-W:\nt\public\sdk\lib\i386\user32.lib 
-W:\nt\public\sdk\lib\i386\advapi32.lib 
-W:\nt\public\sdk\lib\i386\gdi32.lib 
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -221,41 +221,27 @@ Stop.
 Stop. 
 Linking w:\nt\private\tapi\dev\sp\esp.new\ui directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\tapi32.dll
 Linking w:\nt\private\tapi\dev\sp\kmddsp directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
-	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\tapi32.dll
 
 Stop. 
 Linking w:\nt\private\tapi\dev\apps\tb directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	link -out:W:\nt\public\sdk\lib\i386\espui.dll -machine:i386 @W:\tmp\nma03564.
-	link -out:W:\nt\public\sdk\lib\i386\kmddsp.TSP -machine:i386 @W:\tmp\nma01876.
-	link -out:W:\nt\public\sdk\lib\i386\espexe.exe -machine:i386 @W:\tmp\nma02828.
+	link -out:W:\nt\public\sdk\lib\i386\espui.dll -machine:i386 @W:\tmp\nma03548.
+	link -out:W:\nt\public\sdk\lib\i386\espexe.exe -machine:i386 @W:\tmp\nma00244.
+	link -out:W:\nt\public\sdk\lib\i386\kmddsp.TSP -machine:i386 @W:\tmp\nma03652.
 
 Stop. 
 Linking w:\nt\private\tapi\dev\apps\dialer directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
 
 -MERGE:_PAGE=PAGE 
-Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
--MERGE:_TEXT=.text 
-Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
--SECTION:INIT,d 
--OPT:REF 
--INCREMENTAL:NO 
--FORCE:MULTIPLE 
--RELEASE 
--FULLBUILD 
--IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
--NODEFAULTLIB 
--debug:notmapped,FULL 
--debugtype:both 
--version:4.00 
--osversion:4.00 
--MERGE:.rdata=.text 
-
 -MERGE:_PAGE=PAGE 
 -MERGE:_TEXT=.text 
 -SECTION:INIT,d 
@@ -284,6 +270,20 @@ W:\nt\public\sdk\lib\i386\ntdll.lib
 W:\nt\public\sdk\lib\i386\kernel32.lib 
 W:\nt\public\sdk\lib\i386\advapi32.lib 
 W:\nt\public\sdk\lib\i386\user32.lib 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
 -dll 
 -optidata 
 -base:0x60000000 
@@ -338,8 +338,19 @@ W:\nt\public\sdk\lib\i386\rpcrt4.lib
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\kmddsp.TSP
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\espui.dll
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\espexe.exe
-	link -out:W:\nt\public\sdk\lib\i386\tb20.exe -machine:i386 @W:\tmp\nma03952.
+	link -out:W:\nt\public\sdk\lib\i386\tb20.exe -machine:i386 @W:\tmp\nma03788.
+
+Stop. 
+
+Stop. 
+
+Stop. 
+Linking w:\nt\private\tapi\dev\apps\tapitna directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Linking w:\nt\private\tapi\dev\apps\tapiupr directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Linking w:\nt\private\tapi\dev\cpl.new directory ********************
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
 -MERGE:_PAGE=PAGE 
@@ -376,37 +387,55 @@ W:\nt\public\sdk\lib\i386\user32.lib
 W:\nt\public\sdk\lib\i386\kernel32.lib 
 W:\nt\public\sdk\lib\i386\comdlg32.lib 
 W:\nt\public\sdk\lib\i386\tapi32l.lib 
-
-Stop. 
-
-Stop. 
-
-Stop. 
-Linking w:\nt\private\tapi\dev\apps\tapitna directory ********************
-'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-Linking w:\nt\private\tapi\dev\apps\tapiupr directory ********************
-'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-Linking w:\nt\private\tapi\dev\cpl.new directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\tb20.exe
-	link -out:W:\nt\public\sdk\lib\i386\tapiupr.exe -machine:i386 @W:\tmp\nma02196.
-	link -out:W:\nt\public\sdk\lib\i386\dialer.exe -machine:i386 @W:\tmp\nma01456.
-	link -out:W:\nt\public\sdk\lib\i386\TLocMgr.exe -machine:i386 @W:\tmp\nma03348.
-
-Stop. 
-Linking w:\nt\private\tapi\dev\perfdll directory ********************
-'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	link -out:W:\nt\public\sdk\lib\i386\dialer.exe -machine:i386 @W:\tmp\nma03328.
+	link -out:W:\nt\public\sdk\lib\i386\tapiupr.exe -machine:i386 @W:\tmp\nma03080.
+	link -out:W:\nt\public\sdk\lib\i386\TLocMgr.exe -machine:i386 @W:\tmp\nma02060.
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
+
+-MERGE:_PAGE=PAGE 
 
 -MERGE:_PAGE=PAGE 
 -MERGE:_TEXT=.text 
 -SECTION:INIT,d 
 -OPT:REF 
 -INCREMENTAL:NO 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
 -FORCE:MULTIPLE 
 -RELEASE 
 -FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-subsystem:windows,4.00 
+-base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
+-entry:mainCRTStartup 
+-optidata 
+obj\i386\tapiupr.res 
+obj\i386\tapiupr.obj 
+W:\nt\public\sdk\lib\i386\crtdll.lib 
+-FULLBUILD 
+W:\nt\public\sdk\lib\i386\msvcirt.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\gdi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\advapi32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
 -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
 -NODEFAULTLIB 
 -debug:notmapped,FULL 
@@ -450,39 +479,6 @@ Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 -MERGE:.rdata=.text 
 -subsystem:windows,4.00 
 -base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
--entry:mainCRTStartup 
--optidata 
-obj\i386\tapiupr.res 
-obj\i386\tapiupr.obj 
-W:\nt\public\sdk\lib\i386\crtdll.lib 
-W:\nt\public\sdk\lib\i386\msvcirt.lib 
-W:\nt\public\sdk\lib\i386\advapi32.lib 
-W:\nt\public\sdk\lib\i386\kernel32.lib 
-W:\nt\public\sdk\lib\i386\gdi32.lib 
-W:\nt\public\sdk\lib\i386\user32.lib 
-W:\nt\public\sdk\lib\i386\kernel32.lib 
-W:\nt\public\sdk\lib\i386\advapi32.lib 
-W:\nt\public\sdk\lib\i386\user32.lib 
-Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
-Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
-
--MERGE:_PAGE=PAGE 
--MERGE:_TEXT=.text 
--SECTION:INIT,d 
--OPT:REF 
--INCREMENTAL:NO 
--FORCE:MULTIPLE 
--RELEASE 
--FULLBUILD 
--IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
--NODEFAULTLIB 
--debug:notmapped,FULL 
--debugtype:both 
--version:4.00 
--osversion:4.00 
--MERGE:.rdata=.text 
--subsystem:windows,4.00 
--base:@W:\nt\public\sdk\lib\coffbase.txt,usermode 
 -entry:WinMainCRTStartup 
 -optidata 
 obj\i386\tapitna.res 
@@ -500,10 +496,20 @@ W:\nt\public\sdk\lib\i386\advapi32.lib
 W:\nt\public\sdk\lib\i386\comctl32.lib 
 W:\nt\public\sdk\lib\i386\tapi32.lib 
 W:\nt\public\sdk\lib\i386\user32.lib 
-	link -out:W:\nt\public\sdk\lib\i386\telephon.cpl -machine:i386 @W:\tmp\nma01956.
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\tapiupr.exe
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\TLocMgr.exe
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\dialer.exe
+
+Stop. 
+Linking w:\nt\private\tapi\dev\perfdll directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+	link -out:W:\nt\public\sdk\lib\i386\telephon.cpl -machine:i386 @W:\tmp\nma02472.
+
+Stop. 
+
+Stop. 
+
+Stop. 
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -538,16 +544,8 @@ W:\nt\public\sdk\lib\i386\kernel32.lib
 W:\nt\public\sdk\lib\i386\user32.lib 
 W:\nt\public\sdk\lib\i386\advapi32.lib 
 W:\nt\public\sdk\lib\i386\tapi32.lib 
+	link -out:W:\nt\public\sdk\lib\i386\tapiperf.dll -machine:i386 @W:\tmp\nma03476.
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\telephon.cpl
-
-Stop. 
-
-Stop. 
-
-Stop. 
-
-Stop. 
-	link -out:W:\nt\public\sdk\lib\i386\tapiperf.dll -machine:i386 @W:\tmp\nma03896.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -581,5 +579,7 @@ W:\nt\public\sdk\lib\i386\kernel32.lib
 W:\nt\public\sdk\lib\i386\advapi32.lib 
 W:\nt\public\sdk\lib\i386\user32.lib 
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\tapiperf.dll
+
+Stop. 
 
 Stop. 

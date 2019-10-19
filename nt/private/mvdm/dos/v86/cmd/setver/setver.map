@@ -241,8 +241,8 @@
  0089:1620       __incseg
  0089:1671       __findlast
  0089:1692       __itoa
- 0089:16AE       __stricmp
  0089:16AE       __strcmpi
+ 0089:16AE       __stricmp
  0089:16F0       __strupr
  0089:170E       __cltoasub
  0089:171A       __cxtoa
@@ -270,8 +270,8 @@
  0201:0948       __umaskval
  0201:094A       __pspadr
  0201:094C       __psp
- 0201:094E       __osversion
  0201:094E       __dosvermajor
+ 0201:094E       __osversion
  0201:094E       __osmajor
  0201:094F       __dosverminor
  0201:094F       __osminor
@@ -290,8 +290,8 @@
  0201:0978       __intno
  0201:0979       __ovlvec
  0201:097D       __exitflag
- 0201:0980       __ctype_
  0201:0980       __ctype
+ 0201:0980       __ctype_
  0201:0A82       __adbgmsg
  0201:0A98       __pnhNearHeap
  0201:0A9A       __amblksiz
@@ -301,16 +301,16 @@
  0201:0AA2       ___aDBrterr
  0201:0AA4       ___aDBexit
  0201:0AAC       __fpinit
- 0201:0B9A       __edata
  0201:0B9A       _edata
+ 0201:0B9A       __edata
  0201:0BA0       _FileOffset
  0201:0BA4       _DevHdr
  0201:0BBE       _ExeHdr
  0201:0BDA       _Entry
- 0201:0C30       _end
  0201:0C30       __end
- 0000:9876  Abs  __acrtused
+ 0201:0C30       _end
  0000:9876  Abs  __acrtmsg
+ 0000:9876  Abs  __acrtused
  0000:D6D6  Abs  __aDBdoswp
 
 Line numbers for device.obj(device.asm) segment A_DEVICE

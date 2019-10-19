@@ -15,8 +15,8 @@ Linking w:\nt\private\newsam\server directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 Linking w:\nt\private\newsam\passfilt directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
-	link -out:W:\nt\public\sdk\lib\i386\passfilt.dll -machine:i386 @W:\tmp\nmb02396.
-	link -out:W:\nt\public\sdk\lib\i386\samlib.dll -machine:i386 @W:\tmp\nma03112.
+	link -out:W:\nt\public\sdk\lib\i386\passfilt.dll -machine:i386 @W:\tmp\nma01944.
+	link -out:W:\nt\public\sdk\lib\i386\samlib.dll -machine:i386 @W:\tmp\nma00920.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -85,7 +85,7 @@ W:\nt\Public\Sdk\Lib\i386\kernel32.lib
 ..\..\lsa\crypt\engine\obj\i386\rc4c.obj 
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\passfilt.dll
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\samlib.dll
-	link -out:\nt\public\sdk\lib\i386\samsrv.dll -machine:i386 @W:\tmp\nma03160.
+	link -out:\nt\public\sdk\lib\i386\samsrv.dll -machine:i386 @W:\tmp\nma03880.
 
 Stop. 
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164

@@ -1,6 +1,6 @@
  setupldr
 
- Timestamp is 5da81de9 (Thu Oct 17 15:53:13 2019)
+ Timestamp is 5daaa899 (Fri Oct 18 23:09:29 2019)
 
  Preferred load address is 00300000
 
@@ -446,8 +446,8 @@
  0001:000206a0       _HalpAssignPCISlotResources@12 003216a0 f boot:ixpcibus.obj
  0001:00020abc       _HalpGetCmosData@16        00321abc f boot:ixcmos.obj
  0001:00020b20       _sprintf                   00321b20 f libcntpr:sprintf.obj
- 0001:00020bc0       __chkstk                   00321bc0   libcntpr:chkstk.obj
  0001:00020bc0       __alloca_probe             00321bc0   libcntpr:chkstk.obj
+ 0001:00020bc0       __chkstk                   00321bc0   libcntpr:chkstk.obj
  0001:00020c00       _strchr                    00321c00 f libcntpr:strchr.obj
  0001:00020c06       ___from_strstr_to_strchr   00321c06   libcntpr:strchr.obj
  0001:00020cc0       __toupper                  00321cc0 f libcntpr:toupper.obj
@@ -455,8 +455,8 @@
  0001:00020d60       _vsprintf                  00321d60 f libcntpr:vsprintf.obj
  0001:00020df0       _memmove                   00321df0 f libcntpr:memmove.obj
  0001:00020f40       _strncmp                   00321f40 f libcntpr:strncmp.obj
- 0001:00020f80       __stricmp                  00321f80 f libcntpr:stricmp.obj
  0001:00020f80       __strcmpi                  00321f80 f libcntpr:stricmp.obj
+ 0001:00020f80       __stricmp                  00321f80 f libcntpr:stricmp.obj
  0001:00021010       _strncpy                   00322010 f libcntpr:strncpy.obj
  0001:00021110       __tolower                  00322110 f libcntpr:tolower.obj
  0001:00021130       _tolower                   00322130 f libcntpr:tolower.obj

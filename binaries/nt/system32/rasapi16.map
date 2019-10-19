@@ -111,31 +111,31 @@
 
   Address         Publics by Value
 
- 0000:0000  Imp  LSTRCPY              (KERNEL.88)
- 0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
+ 0000:0000  Imp  LocalInit            (KERNEL.4)
+ 0000:0000  Imp  INITTASK             (KERNEL.91)
  0000:0000  Imp  GLOBALFREE           (KERNEL.17)
  0000:0000  Imp  REGISTERWINDOWMESSAGE (USER.118)
- 0000:0000  Imp  FREELIBRARY32W       (KERNEL.FREELIBRARY32W)
+ 0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
  0000:0000  Imp  __WINFLAGS           (KERNEL.178)
  0000:0000  Imp  GETWINFLAGS          (KERNEL.132)
- 0000:0000  Imp  GLOBALUNLOCK         (KERNEL.19)
- 0000:0000  Imp  LOADLIBRARYEX32W     (KERNEL.LOADLIBRARYEX32W)
- 0000:0000  Imp  GETPROCADDRESS32W    (KERNEL.GETPROCADDRESS32W)
- 0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
- 0000:0000  Imp  INITTASK             (KERNEL.91)
- 0000:0000  Imp  LocalInit            (KERNEL.4)
  0000:0000  Imp  GETMODULEUSAGE       (KERNEL.48)
- 0000:0000  Imp  GLOBALLOCK           (KERNEL.18)
+ 0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
+ 0000:0000  Imp  GETPROCADDRESS32W    (KERNEL.GETPROCADDRESS32W)
+ 0000:0000  Imp  FREELIBRARY32W       (KERNEL.FREELIBRARY32W)
+ 0000:0000  Imp  GLOBALUNLOCK         (KERNEL.19)
+ 0000:0000  Imp  LSTRCPY              (KERNEL.88)
+ 0000:0000  Imp  LOADLIBRARYEX32W     (KERNEL.LOADLIBRARYEX32W)
  0000:0000  Imp  CALLPROC32W          (KERNEL.CALLPROC32W)
+ 0000:0000  Imp  GLOBALLOCK           (KERNEL.18)
  0000:0006  Abs  pLocalHeap
  0000:0008  Abs  pAtomTable
  0000:000A  Abs  pStackTop
  0000:000C  Abs  pStackMin
  0000:000E  Abs  pStackBot
- 0000:9876  Abs  __acrtused
  0000:9876  Abs  __acrtused2
- 0000:9876  Abs  __fptaskdata
  0000:9876  Abs  __acrtmsg
+ 0000:9876  Abs  __acrtused
+ 0000:9876  Abs  __fptaskdata
  0000:D6D6  Abs  __aDBdoswp
  0001:0000       LibMain
  0001:0071       WEP
@@ -166,9 +166,9 @@
  0002:00AC       ___aDBexit
  0002:00BA       __caption
  0002:0150       __edata
- 0002:0150       __end
- 0002:0150       _edata
  0002:0150       _end
+ 0002:0150       _edata
+ 0002:0150       __end
 
 Line numbers for rasapi16.obj(rasapi16.c) segment RASAPI16_TEXT
 
