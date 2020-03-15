@@ -4,7 +4,7 @@ My summarry:
 How to build in brief:
 - install windows server 2003 32 bit
 - copy all source files to w:\
-- run "W:\setupchk.cmd"
+- run "W:\setup.cmd"
 - run zTESTBUILD.cmd and answer 'yyy' for the 1st pass clean build and ignore building errors if any
 - if any building errors, run zTESTBUILD.cmd again and answer 'nyy' for a 2nd pass non-clean build
 
