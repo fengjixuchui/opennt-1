@@ -1,3 +1,5 @@
+~~~~~~~~~~~~
+My summarry:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 How to build in brief:
 - install windows server 2003 32 bit
@@ -18,6 +20,9 @@ Reference:
 - https://virtuallyfun.com/wordpress/2018/09/13/opennt-4-5-revisited/
 - http://vetusware.com/download/OpenNT%204.5/?id=14904
 
+
+~~~~~~~~~~~~~~~~~~
+From contributors:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 I created a seperate hard disk for the W: drive, a subst may work as well.
 There are portions of the build that rely on 16bit (MS-DOS) executables,
