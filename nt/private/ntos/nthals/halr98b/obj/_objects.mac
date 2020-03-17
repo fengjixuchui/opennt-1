@@ -20,6 +20,7 @@ MIPS_OBJECTS= \
     $(_OBJ_DIR)\mips\xxcalstl.obj \
     $(_OBJ_DIR)\mips\xxclock.obj \
     $(_OBJ_DIR)\mips\rxinfo.obj \
+    $(_OBJ_DIR)\mips\rxipiint.obj \
     $(_OBJ_DIR)\mips\rxeif.obj \
     $(_OBJ_DIR)\mips\rxbusdat.obj \
     $(_OBJ_DIR)\mips\rxsysbus.obj \
@@ -36,8 +37,6 @@ MIPS_OBJECTS= \
     $(_OBJ_DIR)\mips\rxesm.obj \
     $(_OBJ_DIR)\mips\rxecc.obj \
     $(_OBJ_DIR)\mips\rxhwlog.obj \
-    $(_OBJ_DIR)\mips\rxipiint.obj \
-    $(_OBJ_DIR)\mips\bushnd.obj \
     $(_OBJ_DIR)\mips\cacherr.obj \
     $(_OBJ_DIR)\mips\j4flshbf.obj \
     $(_OBJ_DIR)\mips\j4cache.obj \
@@ -46,6 +45,7 @@ MIPS_OBJECTS= \
     $(_OBJ_DIR)\mips\rxint.obj \
     $(_OBJ_DIR)\mips\hal.res \
     $(_OBJ_DIR)\mips\drivesup.obj \
+    $(_OBJ_DIR)\mips\bushnd.obj \
     $(_OBJ_DIR)\mips\rangesup.obj
 
 PASS0_MIPS_OBJECTS=

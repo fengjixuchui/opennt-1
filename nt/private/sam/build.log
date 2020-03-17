@@ -2,7 +2,7 @@ BUILD: Computing Include file dependencies:
 BUILD: Examining w:\nt\private\sam directory tree for files to compile.
 Linking w:\nt\private\sam\icfg32 directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
-	link -out:obj\i386\icfg32.dll -machine:i386 @W:\tmp\nma02568.
+	link -out:obj\i386\icfg32.dll -machine:i386 @W:\tmp\nma01264.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 

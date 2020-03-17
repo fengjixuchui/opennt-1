@@ -91,8 +91,8 @@ Copyright (c) Microsoft Corp 1988-93. All rights reserved.
 	for %i in (WIN) do (cd %i && (nmake -nologo  -L              || exit)	&& cd ..)
 
 (RPC Free 16bit) W:\nt\private\rpc\ndrlib>(cd WIN   && (nmake -nologo -L   || exit)  && cd .. ) 
-	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
-	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
 	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Foccontext.obj -c ..\ccontext.cxx
 ..\ccontext.cxx
 	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ALw -Focharconv.obj -c ..\charconv.cxx
@@ -179,8 +179,8 @@ Copyright (C) Microsoft Corp 1983-1993.  All rights reserved.
 	for %i in (WIN) do (cd %i && (nmake -nologo  -L              || exit)	&& cd ..)
 
 (RPC Free 16bit) W:\nt\private\rpc\ndrmem>(cd WIN   && (nmake -nologo -L   || exit)  && cd .. ) 
-	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
-	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
 	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -NTNDRLIB_Text -Fondrmem.obj -c ..\ndrmem.cxx
 ..\ndrmem.cxx
 	del RpcNdr.lib  2>nul
@@ -198,8 +198,8 @@ Copyright (C) Microsoft Corp 1983-1993.  All rights reserved.
 	for %i in (WIN) do (cd %i && (nmake -nologo -L               || exit ) && cd ..)
 
 (RPC Free 16bit) W:\nt\private\rpc\runtime\rpcreg>(cd WIN   && (nmake -nologo -L   || exit  )  && cd .. ) 
-	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
-	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
 	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -AMw -Foclose.obj -c ..\close.c
 ..\close.c
 	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -AMw -Focreate.obj -c ..\create.c
@@ -240,8 +240,8 @@ RC : warning RW4005: Segment 1 (offset 3359) contains a
 	for %i in (WIN) do (cd %i && (nmake -nologo -L               || exit ) && cd ..)
 
 (RPC Free 16bit) W:\nt\private\rpc\runtime\rtifs>(cd WIN   && (nmake -nologo -L   || exit  )  && cd .. ) 
-	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
-	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
 	midl  -Zp2 -env win16 -DDOS -DWIN -I.. -cpp_cmd W:\nt\private\rpc\import\msvc15\bin\cl -c_ext -ms_ext -oldnames   -header W:\nt\private\rpc\runtime\mtrt\win\nbase.h -server none -client none ..\nbase.idl
 Microsoft (R) MIDL Compiler Version 3.00.44  
 Copyright (c) Microsoft Corp 1991-1995. All rights reserved.
@@ -267,8 +267,8 @@ Processing ..\epmp.acf
 	for %i in (WIN) do (cd %i && (nmake -nologo -L               || exit ) && cd ..)
 
 (RPC Free 16bit) W:\nt\private\rpc\runtime\security\ntlmssp>(cd WIN   && (nmake -nologo -L   || exit  )  && cd .. ) 
-	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
-	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
 	copy ..\libentry.i16 libentry.obj
         1 file(s) copied.
 	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -DSECURITY_WIN16 -ALw -IW:\nt\private\rpc\common\include -NT_TEXT -Fontlmssp.obj -c ..\ntlmssp.c
@@ -326,8 +326,8 @@ Copyright (C) Microsoft Corp 1984-1988.  All rights reserved.
 	set PATH=
 
 (RPC Free 16bit) W:\nt\private\rpc\runtime\security>(cd win   && (nmake -nologo -L   || exit  )  && cd .. ) 
-	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
-	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
 	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc  -DDOS -DWIN -ASw -Fosecurity.obj -c ..\security.c
 ..\security.c
 	W:\nt\private\rpc\import\msvc15\bin\link  /nol/nod/noe/map/ba security.obj,security.dll,security.map, W:\nt\private\rpc\import\msvc15\lib\sdllcew+W:\nt\private\rpc\import\msvc15\lib\libw+W:\nt\private\rpc\common\lib\wnetapi, rpcssp.def;
@@ -380,8 +380,8 @@ Copyright (C) Microsoft Corp 1983-1993.  All rights reserved.
 	for %i in (WIN) do (cd %i && (nmake -nologo -L               || exit ) && cd ..)
 
 (RPC Free 16bit) W:\nt\private\rpc\runtime\mtrt>(cd WIN   && (nmake -nologo -L   || exit  )  && cd .. ) 
-	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
-	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
 	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fobinding.obj -c ..\binding.cxx
 ..\binding.cxx
 	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1 -IW:\nt\private\rpc\common\include  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\..\rpcreg -IW:\nt\private\rpc\import\lmsdk\h -I..\dos  -IW:\nt\private\rpc\import\banyan\winsdk\include  -DDOS -DWIN -AMw -Fobitset.obj -c ..\bitset.cxx
@@ -708,8 +708,8 @@ RC: warning RW4002: Non-discardable segment 1 set to PRELOAD
 	for %i in (WIN) do (cd %i && (nmake -nologo -L               || exit ) && cd ..)
 
 (RPC Free 16bit) W:\nt\private\rpc\locator\client>(cd WIN   && (nmake -nologo -L   || exit  )  && cd .. ) 
-	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
-	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
 	midl  -Zp2 -env win16 -DDOS -DWIN -I.. -cpp_cmd W:\nt\private\rpc\import\msvc15\bin\cl -c_ext -ms_ext -oldnames -I..\.. ..\..\nsicom.idl  -header nsicom.h -client none -server none
 Microsoft (R) MIDL Compiler Version 3.00.44  
 Copyright (c) Microsoft Corp 1991-1995. All rights reserved.
@@ -733,8 +733,22 @@ Processing ..\..\nsimgm.acf
 ..\nsiclnt.cxx
 	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\.. -IW:\nt\private\rpc\common\include -I\h -I..\..\..\runtime\rpcreg -IW:\nt\private\rpc\import\lmsdk\h  -DDOS -DWIN -ALw -Fonsimgmt.obj -c ..\nsimgmt.cxx
 ..\nsimgmt.cxx
+	midl  -Zp2 -env win16 -DDOS -DWIN -I.. -cpp_cmd W:\nt\private\rpc\import\msvc15\bin\cl -c_ext -ms_ext -oldnames -I..\.. ..\..\nsiclt.idl  -cstub nsiclt_c.c -header nsiclt.h
+Microsoft (R) MIDL Compiler Version 3.00.44  
+Copyright (c) Microsoft Corp 1991-1995. All rights reserved.
+Processing ..\..\nsiclt.idl
+Processing ..\..\nsicom.idl
+Processing ..\..\nsicom.acf
+Processing ..\..\nsiclt.acf
 	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\.. -IW:\nt\private\rpc\common\include -I\h -I..\..\..\runtime\rpcreg -IW:\nt\private\rpc\import\lmsdk\h  -DDOS -DWIN -ALw -Fonsiclt_c.obj -c nsiclt_c.c
 nsiclt_c.c
+	midl  -Zp2 -env win16 -DDOS -DWIN -I.. -cpp_cmd W:\nt\private\rpc\import\msvc15\bin\cl -c_ext -ms_ext -oldnames -I..\.. ..\..\nsimgm.idl  -cstub nsimgm_c.c -header nsimgm.h
+Microsoft (R) MIDL Compiler Version 3.00.44  
+Copyright (c) Microsoft Corp 1991-1995. All rights reserved.
+Processing ..\..\nsimgm.idl
+Processing ..\..\nsicom.idl
+Processing ..\..\nsicom.acf
+Processing ..\..\nsimgm.acf
 	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\.. -IW:\nt\private\rpc\common\include -I\h -I..\..\..\runtime\rpcreg -IW:\nt\private\rpc\import\lmsdk\h  -DDOS -DWIN -ALw -Fonsimgm_c.obj -c nsimgm_c.c
 nsimgm_c.c
 	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -Gs2 -GD -Zpe -W2 -O1  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\win -IW:\nt\public\sdk\inc -I..\.. -IW:\nt\private\rpc\common\include -I\h -I..\..\..\runtime\rpcreg -IW:\nt\private\rpc\import\lmsdk\h  -DDOS -DWIN -ALw -Focbind.obj -c ..\cbind.cxx
@@ -773,12 +787,13 @@ Copyright (C) Microsoft Corp 1984-1988.  All rights reserved.
 	for %i in (dos) do (cd %i && (nmake -nologo -L               || exit)  && cd ..)
 
 (RPC Free 16bit) W:\nt\private\rpc\uuidgen>(cd dos   && (nmake -nologo -L   || exit)  && cd .. ) 
-	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
-	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set OLDPATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
+	set PATH=W:\nt\private\rpc\import\msvc15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\system32\WindowsPowerShell\v1.0;W:\nt\public\tools;W:\nt\public\oak\bin;W:\tools\x86\mstools;W:\tools\x86\idw;W:\tools\x86\etcutil;W:\nt\private\mvdm\tools16;W:\tools\mstools;W:\tools\idw
 	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -ALw -Zpe -W2 -O1 -Ob1 -Gsy2  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\dos -IW:\nt\public\sdk\inc  -DDOS -DUNALIGNED= -Fouuidgen.obj -c ..\uuidgen.c
 ..\uuidgen.c
 	W:\nt\private\rpc\import\msvc15\bin\cl   -nologo -ALw -Zpe -W2 -O1 -Ob1 -Gsy2  -IW:\nt\private\rpc\import\msvc15\include -I. -I.. -IW:\nt\private\rpc\runtime\mtrt -IW:\nt\private\rpc\runtime\mtrt\dos -IW:\nt\public\sdk\inc  -DDOS -DUNALIGNED= -Fouuidfmt.obj -c ..\uuidfmt.c
 ..\uuidfmt.c
+	W:\nt\private\rpc\import\msvc15\bin\link  /nologo /nod /map /batch /stack:4000 /pm:vio uuidgen+uuidfmt,,, W:\nt\private\rpc\runtime\bin\dos\rpc+W:\nt\private\rpc\ndrmem\dos\rpcndr+W:\nt\private\rpc\import\msvc15\lib\llibce.lib;
 	set PATH=
 
 (RPC Free 16bit) W:\nt\private\rpc>(cd midl20   && (nmake -nologo -   || exit)  && cd .. ) 
@@ -791,6 +806,8 @@ Copyright (C) Microsoft Corp 1984-1988.  All rights reserved.
 dlgprocs.c
 	set INCLUDE=W:\nt\private\rpc\import\msvc15\include
 	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo -r dialogs2.rc
+	W:\nt\private\rpc\import\msvc15\bin\link  /nol/nod/noe/map/ba dlgprocs.obj,mscuistf.dll,mscuistf.map, W:\nt\private\rpc\import\msvc15\lib\mdllcew+W:\nt\private\rpc\import\msvc15\lib\libw+mscomstf+msuilstf+msshlstf, mscuistf.def
+	W:\nt\private\rpc\import\msvc15\bin\rc  /nologo dialogs2.res mscuistf.dll
 
 (RPC Free 16bit) W:\nt\private\rpc\install>(cd sdk   && (nmake -nologo -L all   || exit)  && cd .. ) 
 A subdirectory or file W:\nt\public\sdk\rpc16\dos already exists.
@@ -1011,11 +1028,11 @@ The system cannot find the file specified.
 	copy ..\win\*.dll                 stage
 ..\win\dnetapi.dll
 ..\win\mscomstf.dll
+..\win\MSCUISTF.DLL
 ..\win\msdetstf.dll
 ..\win\msinsstf.dll
 ..\win\msshlstf.dll
 ..\win\msuilstf.dll
-..\win\MSCUISTF.DLL
         7 file(s) copied.
 	copy ..\win\*.exe                 stage
 ..\win\setup.exe
@@ -1090,7 +1107,7 @@ W:\nt\public\sdk\rpc16\dos\dll\rpc16dg6.rpc
 	cd stage
 	..\dsklayt2 rpcsdk.lyt rpcsdk.inf /k12 /f /d ..\sdk.new /v /w 1 /c .\comp
 Reading layout file
-Starting layout: 10/19/19 05:11:42
+Starting layout: 03/15/20 20:07:10
 Compressing files
 Compressing file .\dnetapi.dll
 System command: compress.exe \2 \3 > NUL
@@ -1181,7 +1198,7 @@ Laying out wrpc.h
 Laying out wrpc.lib
 Laying out wrpcndr.lib
 System command: compress.exe dummy.___ \3 > NUL
-Compressed dummy INF file size is 905
+Compressed dummy INF file size is 901
 Assigning drpcndr.lib to disk with ID = 1
 Assigning drpc.lib to disk with ID = 1
 Assigning mrpc.lib to disk with ID = 1
@@ -1203,17 +1220,18 @@ Assigning drpc.h to disk with ID = 1
 Assigning wrpc.h to disk with ID = 1
 Creating destination files
 System command: compress.exe rpcsdk.inf ..\sdk.new\disk1\rpcsdk.in_ > NUL
-Ending layout: 10/19/19 05:11:45
+Ending layout: 03/15/20 20:07:13
 	cd ..
 	md W:\nt\public\sdk\rpc16\sdk
 A subdirectory or file W:\nt\public\sdk\rpc16\sdk already exists.
 	xcopy /y /s sdk.new\disk1 W:\nt\public\sdk\rpc16\sdk
-sdk.new\disk1\_MSTEST.EXE
 sdk.new\disk1\DNETAPI.DL_
 sdk.new\disk1\DRPC.H_
 sdk.new\disk1\DRPC.LI_
 sdk.new\disk1\DRPCNDR.LI_
-sdk.new\disk1\UUIDGEN.EX_
+sdk.new\disk1\MIDLES.H_
+sdk.new\disk1\MRPC.H_
+sdk.new\disk1\MRPC.LI_
 sdk.new\disk1\MSCOMSTF.DLL
 sdk.new\disk1\MSCUISTF.DL_
 sdk.new\disk1\MSDETECT.INC
@@ -1225,21 +1243,20 @@ sdk.new\disk1\README.TXT
 sdk.new\disk1\RPCDCE.H_
 sdk.new\disk1\RPCDCEP.H_
 sdk.new\disk1\RPCERR.H_
-sdk.new\disk1\MIDLES.H_
+sdk.new\disk1\RPCMAC.H_
 sdk.new\disk1\RPCNDR.H_
 sdk.new\disk1\RPCNSI.H_
 sdk.new\disk1\RPCNSIP.H_
+sdk.new\disk1\rpcsdk.in_
 sdk.new\disk1\RPCSDK.MST
 sdk.new\disk1\RPCX86.H_
 sdk.new\disk1\SETUP.EXE
 sdk.new\disk1\SETUP.LST
 sdk.new\disk1\SETUPAPI.INC
 sdk.new\disk1\SETUPRUN.LST
+sdk.new\disk1\UUIDGEN.EX_
 sdk.new\disk1\WRPC.H_
 sdk.new\disk1\WRPC.LI_
 sdk.new\disk1\WRPCNDR.LI_
-sdk.new\disk1\MRPC.H_
-sdk.new\disk1\RPCMAC.H_
-sdk.new\disk1\MRPC.LI_
-sdk.new\disk1\rpcsdk.in_
+sdk.new\disk1\_MSTEST.EXE
 34 File(s) copied

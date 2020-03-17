@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Fri Oct 18 23:03:44 2019
+/* at Sat Mar 14 22:51:39 2020
  */
 /* Compiler settings for oledb.idl:
     Oicf (OptLev=i2), W1, Zp8, env=Win32, ms_ext, c_ext
@@ -336,7 +336,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: DBStructureDefinitions
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [auto_handle][unique][uuid] */ 
@@ -1287,7 +1287,7 @@ extern RPC_IF_HANDLE DBStructureDefinitions_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: IAccessor
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -1461,7 +1461,7 @@ void __RPC_STUB IAccessor_ReleaseAccessor_Stub(
 
 /****************************************
  * Generated header for interface: IRowset
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -1701,7 +1701,7 @@ void __RPC_STUB IRowset_RestartPosition_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetInfo
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -1854,7 +1854,7 @@ void __RPC_STUB IRowsetInfo_GetSpecification_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetLocate
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -2163,7 +2163,7 @@ void __RPC_STUB IRowsetLocate_Hash_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetResynch
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -2349,7 +2349,7 @@ void __RPC_STUB IRowsetResynch_ResynchRows_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetScroll
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -2605,7 +2605,7 @@ void __RPC_STUB IRowsetScroll_GetRowsAtRatio_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetExactScroll
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -2846,7 +2846,7 @@ void __RPC_STUB IRowsetExactScroll_GetExactPosition_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetChange
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -2946,7 +2946,7 @@ void __RPC_STUB IRowsetChange_SetData_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetUpdate
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -3157,7 +3157,7 @@ void __RPC_STUB IRowsetUpdate_Update_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetNextRowset
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -3254,7 +3254,7 @@ void __RPC_STUB IRowsetNextRowset_GetNextRowset_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetDelete
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -3357,7 +3357,7 @@ void __RPC_STUB IRowsetDelete_DeleteRows_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetDeleteBookmarks
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -3477,7 +3477,7 @@ void __RPC_STUB IRowsetDeleteBookmarks_DeleteRowsByBookmark_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetIdentity
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -3574,7 +3574,7 @@ void __RPC_STUB IRowsetIdentity_IsSameRow_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetLockRows
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -3695,7 +3695,7 @@ void __RPC_STUB IRowsetLockRows_LockRowsByBookmark_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetNewRow
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -3798,7 +3798,7 @@ void __RPC_STUB IRowsetNewRow_SetNewData_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetNewRowAfter
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -3918,7 +3918,7 @@ void __RPC_STUB IRowsetNewRowAfter_SetNewDataAfter_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetWithParameters
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -4049,7 +4049,7 @@ void __RPC_STUB IRowsetWithParameters_Requery_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetFind
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -4189,7 +4189,7 @@ void __RPC_STUB IRowsetFind_GetRowsByValues_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetAsynch
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -4311,7 +4311,7 @@ void __RPC_STUB IRowsetAsynch_Stop_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetKeys
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -4408,7 +4408,7 @@ void __RPC_STUB IRowsetKeys_ListKeys_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetNotify
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -4644,7 +4644,7 @@ void __RPC_STUB IRowsetNotify_OnRowsetChange_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetIndex
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -4829,7 +4829,7 @@ void __RPC_STUB IRowsetIndex_SetRange_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetWatchAll
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -4920,7 +4920,7 @@ void __RPC_STUB IRowsetWatchAll_Acknowledge_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetWatchNotify
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -5025,7 +5025,7 @@ void __RPC_STUB IRowsetWatchNotify_OnChange_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetWatchRegion
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -5298,7 +5298,7 @@ void __RPC_STUB IRowsetWatchRegion_ShrinkWatchRegion_Stub(
 
 /****************************************
  * Generated header for interface: IRowsetCopyRows
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -5496,7 +5496,7 @@ void __RPC_STUB IRowsetCopyRows_DefineSource_Stub(
 
 /****************************************
  * Generated header for interface: IReadData
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -5639,7 +5639,7 @@ void __RPC_STUB IReadData_ReleaseChapter_Stub(
 
 /****************************************
  * Generated header for interface: ICommand
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -5804,7 +5804,7 @@ void __RPC_STUB ICommand_GetDBSession_Stub(
 
 /****************************************
  * Generated header for interface: ICommandCost
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -6099,7 +6099,7 @@ void __RPC_STUB ICommandCost_SetCostLimits_Stub(
 
 /****************************************
  * Generated header for interface: ICommandPrepare
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -6212,7 +6212,7 @@ void __RPC_STUB ICommandPrepare_Unprepare_Stub(
 
 /****************************************
  * Generated header for interface: ICommandProperties
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -6361,7 +6361,7 @@ void __RPC_STUB ICommandProperties_SetProperties_Stub(
 
 /****************************************
  * Generated header for interface: ICommandText
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -6483,7 +6483,7 @@ void __RPC_STUB ICommandText_SetCommandText_Stub(
 
 /****************************************
  * Generated header for interface: ICommandTree
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -6855,7 +6855,7 @@ void __RPC_STUB ICommandTree_SetCommandTree_Stub(
 
 /****************************************
  * Generated header for interface: ICommandValidate
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -6965,7 +6965,7 @@ void __RPC_STUB ICommandValidate_ValidateSyntax_Stub(
 
 /****************************************
  * Generated header for interface: ICommandWithParameters
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -7143,7 +7143,7 @@ void __RPC_STUB ICommandWithParameters_SetDefaultValues_Stub(
 
 /****************************************
  * Generated header for interface: IQuery
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -7325,7 +7325,7 @@ void __RPC_STUB IQuery_GetCardinalityEstimate_Stub(
 
 /****************************************
  * Generated header for interface: IColumnsRowset
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -7453,7 +7453,7 @@ void __RPC_STUB IColumnsRowset_GetColumnsRowset_Stub(
 
 /****************************************
  * Generated header for interface: IColumnsInfo
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -7594,7 +7594,7 @@ void __RPC_STUB IColumnsInfo_MapColumnIDs_Stub(
 
 /****************************************
  * Generated header for interface: IDBCreateCommand
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -7694,7 +7694,7 @@ void __RPC_STUB IDBCreateCommand_CreateCommand_Stub(
 
 /****************************************
  * Generated header for interface: IDBEnumerateSources
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -7801,7 +7801,7 @@ void __RPC_STUB IDBEnumerateSources_Sources_Stub(
 
 /****************************************
  * Generated header for interface: IDBInfo
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -8194,7 +8194,7 @@ void __RPC_STUB IDBInfo_GetOperatorInfo_Stub(
 
 /****************************************
  * Generated header for interface: IDBInitialize
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -8294,7 +8294,7 @@ void __RPC_STUB IDBInitialize_Initialize_Stub(
 
 /****************************************
  * Generated header for interface: IIndexDefinition
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -8441,7 +8441,7 @@ void __RPC_STUB IIndexDefinition_DropIndex_Stub(
 
 /****************************************
  * Generated header for interface: ITableDefinition
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -8637,7 +8637,7 @@ void __RPC_STUB ITableDefinition_DropColumn_Stub(
 
 /****************************************
  * Generated header for interface: IOpenRowset
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -8749,7 +8749,7 @@ void __RPC_STUB IOpenRowset_OpenRowset_Stub(
 
 /****************************************
  * Generated header for interface: IDBSchemaCommand
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -8874,7 +8874,7 @@ void __RPC_STUB IDBSchemaCommand_GetSchemas_Stub(
 
 /****************************************
  * Generated header for interface: IDBSchemaRowset
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -9040,7 +9040,7 @@ void __RPC_STUB IDBSchemaRowset_GetSchemas_Stub(
 
 /****************************************
  * Generated header for interface: IProvideMoniker
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -9134,7 +9134,7 @@ void __RPC_STUB IProvideMoniker_GetMoniker_Stub(
 
 /****************************************
  * Generated header for interface: IErrorRecords
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -9371,7 +9371,7 @@ void __RPC_STUB IErrorRecords_GetRecordCount_Stub(
 
 /****************************************
  * Generated header for interface: IErrorLookup
- * at Fri Oct 18 23:03:44 2019
+ * at Sat Mar 14 22:51:39 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 

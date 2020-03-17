@@ -1,2 +1,0 @@
-dev\client\binplace() : warning BNP0000: CopyFile(W:\nt\public\sdk\lib\i386\tapi32.dll,W:\binaries\nt\.\tapi32.dll) failed 32
-dev\apps\tapitna\cvpack() : warning CK4002: duplicate public symbol  in module obj\i386\tapitna.obj

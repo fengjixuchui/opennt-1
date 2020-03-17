@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Fri Oct 18 23:53:23 2019
+/* at Sun Mar 15 00:10:51 2020
  */
 /* Compiler settings for samrpc.idl, samsrv.acf:
     Os (OptLev=s), W1, Zp8, env=Win32, ms_ext, c_ext, oldnames
@@ -32,7 +32,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: samr
- * at Fri Oct 18 23:53:23 2019
+ * at Sun Mar 15 00:10:51 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [implicit_handle][unique][ms_union][version][uuid] */ 

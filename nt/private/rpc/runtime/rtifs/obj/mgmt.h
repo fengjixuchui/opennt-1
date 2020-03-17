@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Fri Oct 18 23:29:13 2019
+/* at Sat Mar 14 23:37:46 2020
  */
 /* Compiler settings for mgmt.idl:
     Oicf (OptLev=i2), W1, Zp8, env=Win32, ms_ext, c_ext, oldnames
@@ -32,7 +32,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: mgmt
- * at Fri Oct 18 23:29:13 2019
+ * at Sat Mar 14 23:37:46 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [auto_handle][version][uuid] */ 

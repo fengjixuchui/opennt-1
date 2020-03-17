@@ -38,13 +38,13 @@ ALPHA_OBJECTS= \
     $(_OBJ_DIR)\alpha\lsaifree.obj \
     $(_OBJ_DIR)\alpha\lsainit.obj \
     $(_OBJ_DIR)\alpha\lsarm.obj \
+    $(_OBJ_DIR)\alpha\lsarpc_s.obj \
     $(_OBJ_DIR)\alpha\lsasrvmm.obj \
     $(_OBJ_DIR)\alpha\lsawrap.obj \
     $(_OBJ_DIR)\alpha\oldstub.obj \
     $(_OBJ_DIR)\alpha\rpcinit.obj \
     $(_OBJ_DIR)\alpha\sepriv.obj \
-    $(_OBJ_DIR)\alpha\services.obj \
-    $(_OBJ_DIR)\alpha\lsarpc_s.obj
+    $(_OBJ_DIR)\alpha\services.obj
 
 PASS0_ALPHA_OBJECTS= \
     .\lsapmsgs.h \
@@ -90,13 +90,13 @@ MIPS_OBJECTS= \
     $(_OBJ_DIR)\mips\lsaifree.obj \
     $(_OBJ_DIR)\mips\lsainit.obj \
     $(_OBJ_DIR)\mips\lsarm.obj \
+    $(_OBJ_DIR)\mips\lsarpc_s.obj \
     $(_OBJ_DIR)\mips\lsasrvmm.obj \
     $(_OBJ_DIR)\mips\lsawrap.obj \
     $(_OBJ_DIR)\mips\oldstub.obj \
     $(_OBJ_DIR)\mips\rpcinit.obj \
     $(_OBJ_DIR)\mips\sepriv.obj \
-    $(_OBJ_DIR)\mips\services.obj \
-    $(_OBJ_DIR)\mips\lsarpc_s.obj
+    $(_OBJ_DIR)\mips\services.obj
 
 PASS0_MIPS_OBJECTS= \
     .\lsapmsgs.h \
@@ -142,13 +142,13 @@ PASS0_MIPS_OBJECTS= \
     $(_OBJ_DIR)\i386\lsaifree.obj \
     $(_OBJ_DIR)\i386\lsainit.obj \
     $(_OBJ_DIR)\i386\lsarm.obj \
+    $(_OBJ_DIR)\i386\lsarpc_s.obj \
     $(_OBJ_DIR)\i386\lsasrvmm.obj \
     $(_OBJ_DIR)\i386\lsawrap.obj \
     $(_OBJ_DIR)\i386\oldstub.obj \
     $(_OBJ_DIR)\i386\rpcinit.obj \
     $(_OBJ_DIR)\i386\sepriv.obj \
-    $(_OBJ_DIR)\i386\services.obj \
-    $(_OBJ_DIR)\i386\lsarpc_s.obj
+    $(_OBJ_DIR)\i386\services.obj
 
 PASS0_386_OBJECTS= \
     .\lsapmsgs.h \
@@ -194,13 +194,13 @@ PPC_OBJECTS= \
     $(_OBJ_DIR)\ppc\lsaifree.obj \
     $(_OBJ_DIR)\ppc\lsainit.obj \
     $(_OBJ_DIR)\ppc\lsarm.obj \
+    $(_OBJ_DIR)\ppc\lsarpc_s.obj \
     $(_OBJ_DIR)\ppc\lsasrvmm.obj \
     $(_OBJ_DIR)\ppc\lsawrap.obj \
     $(_OBJ_DIR)\ppc\oldstub.obj \
     $(_OBJ_DIR)\ppc\rpcinit.obj \
     $(_OBJ_DIR)\ppc\sepriv.obj \
-    $(_OBJ_DIR)\ppc\services.obj \
-    $(_OBJ_DIR)\ppc\lsarpc_s.obj
+    $(_OBJ_DIR)\ppc\services.obj
 
 PASS0_PPC_OBJECTS= \
     .\lsapmsgs.h \

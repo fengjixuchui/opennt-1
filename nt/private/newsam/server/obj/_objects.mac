@@ -15,14 +15,14 @@ ALPHA_OBJECTS= \
     $(_OBJ_DIR)\alpha\oldstub.obj \
     $(_OBJ_DIR)\alpha\rundown.obj \
     $(_OBJ_DIR)\alpha\samifree.obj \
+    $(_OBJ_DIR)\alpha\samrpc_s.obj \
     $(_OBJ_DIR)\alpha\samss.obj \
     $(_OBJ_DIR)\alpha\secdescr.obj \
     $(_OBJ_DIR)\alpha\security.obj \
     $(_OBJ_DIR)\alpha\server.obj \
     $(_OBJ_DIR)\alpha\user.obj \
     $(_OBJ_DIR)\alpha\utility.obj \
-    $(_OBJ_DIR)\alpha\upgrade.obj \
-    $(_OBJ_DIR)\alpha\samrpc_s.obj
+    $(_OBJ_DIR)\alpha\upgrade.obj
 
 PASS0_ALPHA_OBJECTS=
 
@@ -43,14 +43,14 @@ MIPS_OBJECTS= \
     $(_OBJ_DIR)\mips\oldstub.obj \
     $(_OBJ_DIR)\mips\rundown.obj \
     $(_OBJ_DIR)\mips\samifree.obj \
+    $(_OBJ_DIR)\mips\samrpc_s.obj \
     $(_OBJ_DIR)\mips\samss.obj \
     $(_OBJ_DIR)\mips\secdescr.obj \
     $(_OBJ_DIR)\mips\security.obj \
     $(_OBJ_DIR)\mips\server.obj \
     $(_OBJ_DIR)\mips\user.obj \
     $(_OBJ_DIR)\mips\utility.obj \
-    $(_OBJ_DIR)\mips\upgrade.obj \
-    $(_OBJ_DIR)\mips\samrpc_s.obj
+    $(_OBJ_DIR)\mips\upgrade.obj
 
 PASS0_MIPS_OBJECTS=
 
@@ -71,14 +71,14 @@ PASS0_MIPS_OBJECTS=
     $(_OBJ_DIR)\i386\oldstub.obj \
     $(_OBJ_DIR)\i386\rundown.obj \
     $(_OBJ_DIR)\i386\samifree.obj \
+    $(_OBJ_DIR)\i386\samrpc_s.obj \
     $(_OBJ_DIR)\i386\samss.obj \
     $(_OBJ_DIR)\i386\secdescr.obj \
     $(_OBJ_DIR)\i386\security.obj \
     $(_OBJ_DIR)\i386\server.obj \
     $(_OBJ_DIR)\i386\user.obj \
     $(_OBJ_DIR)\i386\utility.obj \
-    $(_OBJ_DIR)\i386\upgrade.obj \
-    $(_OBJ_DIR)\i386\samrpc_s.obj
+    $(_OBJ_DIR)\i386\upgrade.obj
 
 PASS0_386_OBJECTS=
 
@@ -99,14 +99,14 @@ PPC_OBJECTS= \
     $(_OBJ_DIR)\ppc\oldstub.obj \
     $(_OBJ_DIR)\ppc\rundown.obj \
     $(_OBJ_DIR)\ppc\samifree.obj \
+    $(_OBJ_DIR)\ppc\samrpc_s.obj \
     $(_OBJ_DIR)\ppc\samss.obj \
     $(_OBJ_DIR)\ppc\secdescr.obj \
     $(_OBJ_DIR)\ppc\security.obj \
     $(_OBJ_DIR)\ppc\server.obj \
     $(_OBJ_DIR)\ppc\user.obj \
     $(_OBJ_DIR)\ppc\utility.obj \
-    $(_OBJ_DIR)\ppc\upgrade.obj \
-    $(_OBJ_DIR)\ppc\samrpc_s.obj
+    $(_OBJ_DIR)\ppc\upgrade.obj
 
 PASS0_PPC_OBJECTS=
 

@@ -1,3 +1,0 @@
-dd\scsitape\4mmdat\link() : error LNK1104: cannot open file "W:\nt\public\sdk\lib\i386\tape.lib"
-dd\scsitape\4mmdat\binplace() : error BNP0000: Unable to place file \nt\public\sdk\lib\i386\4mmdat.sys - exiting.
-w32\ntgdi\displays\vga\binplace() : error BNP0000: Unable to place file obj\i386\vga.dll - exiting.

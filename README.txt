@@ -1,8 +1,10 @@
+~~~~~~~~~~~~
+My summarry:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 How to build in brief:
 - install windows server 2003 32 bit
 - copy all source files to w:\
-- run "W:\setupchk.cmd"
+- run "W:\setup.cmd"
 - run zTESTBUILD.cmd and answer 'yyy' for the 1st pass clean build and ignore building errors if any
 - if any building errors, run zTESTBUILD.cmd again and answer 'nyy' for a 2nd pass non-clean build
 
@@ -18,6 +20,9 @@ Reference:
 - https://virtuallyfun.com/wordpress/2018/09/13/opennt-4-5-revisited/
 - http://vetusware.com/download/OpenNT%204.5/?id=14904
 
+
+~~~~~~~~~~~~~~~~~~
+From contributors:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 I created a seperate hard disk for the W: drive, a subst may work as well.
 There are portions of the build that rely on 16bit (MS-DOS) executables,

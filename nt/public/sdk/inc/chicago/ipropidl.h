@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Fri Oct 18 23:03:00 2019
+/* at Sat Mar 14 22:50:18 2020
  */
 /* Compiler settings for ipropidl.idl:
     Oicf (OptLev=i2), W1, Zp8, env=Win32, ms_ext, c_ext
@@ -29,7 +29,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0000
- * at Fri Oct 18 23:03:00 2019
+ * at Sat Mar 14 22:50:18 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [local] */ 

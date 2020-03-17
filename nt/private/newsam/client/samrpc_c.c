@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Fri Oct 18 23:53:22 2019
+/* at Sun Mar 15 00:10:50 2020
  */
 /* Compiler settings for samrpc.idl, samcli.acf:
     Oi (OptLev=i0), W1, Zp8, env=Win32, ms_ext, c_ext, oldnames

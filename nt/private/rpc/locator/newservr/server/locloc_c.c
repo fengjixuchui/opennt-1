@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Fri Oct 18 23:29:20 2019
+/* at Sat Mar 14 23:37:58 2020
  */
 /* Compiler settings for loctoloc.idl:
     Os (OptLev=s), W1, Zp8, env=Win32, ms_ext, c_ext, oldnames

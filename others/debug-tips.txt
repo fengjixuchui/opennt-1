@@ -1,0 +1,15 @@
+# find running processes in system
+# and the dirBase
+!process 0 0
+
+#break point on kernel function for a certain process according to the dirBase
+bm nt!NtCreateFile ".if(cr3 == 0x0a6de000) {kb;} .else {gc;}"
+
+#symbol path
+w:\binaries\nt\Symbols
+
+#source path
+W:\nt\private;W:\nt\private\ntos\rtl;W:\nt\private\ntos\ke\i386;w:\nt
+
+#image path
+w:\binaries\nt

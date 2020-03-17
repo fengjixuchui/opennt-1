@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Fri Oct 18 23:29:17 2019
+/* at Sat Mar 14 23:37:52 2020
  */
 /* Compiler settings for nsicom.idl:
     Os (OptLev=s), W1, Zp8, env=Win32, ms_ext, c_ext, oldnames
@@ -29,7 +29,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: NSiTypes
- * at Fri Oct 18 23:29:17 2019
+ * at Sat Mar 14 23:37:52 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [implicit_handle][unique][uuid] */ 

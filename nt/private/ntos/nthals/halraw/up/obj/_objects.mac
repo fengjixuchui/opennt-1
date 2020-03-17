@@ -1,4 +1,5 @@
 ALPHA_OBJECTS= \
+    $(_OBJ_DIR)\alpha\bushnd.obj \
     $(_OBJ_DIR)\alpha\adjust.obj \
     $(_OBJ_DIR)\alpha\allstart.obj \
     $(_OBJ_DIR)\alpha\bios.obj \
@@ -39,7 +40,6 @@ ALPHA_OBJECTS= \
     $(_OBJ_DIR)\alpha\rwintbal.obj \
     $(_OBJ_DIR)\alpha\rwintsup.obj \
     $(_OBJ_DIR)\alpha\rwsysint.obj \
-    $(_OBJ_DIR)\alpha\bushnd.obj \
     $(_OBJ_DIR)\alpha\devintr.obj \
     $(_OBJ_DIR)\alpha\ev5mem.obj \
     $(_OBJ_DIR)\alpha\ev5ints.obj \

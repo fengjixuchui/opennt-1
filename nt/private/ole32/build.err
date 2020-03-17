@@ -1,2 +1,0 @@
-dll\daytona\lib() : error LNK1104: cannot open file "W:\nt\public\sdk\lib\i386\ole32.lib"
-stg\props\iprop\link() : error LNK1104: cannot open file "W:\nt\public\sdk\lib\i386\IProp.dll"

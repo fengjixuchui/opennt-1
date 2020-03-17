@@ -7,7 +7,7 @@ Stop.
 BUILD: Examining w:\nt\private\windbg\driver\crash directory for files to compile. (2nd Pass)
 Linking w:\nt\private\windbg\driver\crash directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	link -out:obj\i386\crash.exe -machine:i386 @W:\tmp\nma01776.
+	link -out:obj\i386\crash.exe -machine:i386 @W:\tmp\nma03416.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 

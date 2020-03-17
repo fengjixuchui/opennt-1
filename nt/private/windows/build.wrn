@@ -1,8 +1,8 @@
 shell\cpls\plus\link() : warning LNK4092: shared section ".text" contains relocations; image may not run correctly
 shell\winver\winver31.exe() : warning LNK4060: stub file missing full MS-DOS header; rebuild stub with /KNOWEAS 16-bit LINK option
 shell\tools\lnkdump\binplace() : warning BNP0000: no version resource detected for "w:\nt\private\windows\shell\tools\lnkdump\obj\i386\lnkdump.exe"
-shell\tools\clipdump\binplace() : warning BNP0000: no version resource detected for "w:\nt\private\windows\shell\tools\clipdump\obj\i386\clipdump.exe"
 shell\tools\pifdump\binplace() : warning BNP0000: no version resource detected for "w:\nt\private\windows\shell\tools\pifdump\obj\i386\pifdump.exe"
+shell\tools\clipdump\binplace() : warning BNP0000: no version resource detected for "w:\nt\private\windows\shell\tools\clipdump\obj\i386\clipdump.exe"
 setup\inf\win4\tools\prodfilt\binplace() : warning BNP0000: no version resource detected for "w:\nt\private\windows\setup\inf\win4\tools\prodfilt\obj\i386\prodfilt.exe"
 setup\inf\win4\tools\xdosnet\binplace() : warning BNP0000: no version resource detected for "w:\nt\private\windows\setup\inf\win4\tools\xdosnet\obj\i386\xdosnet.exe"
 setup\basewin\binplace() : warning BNP0000: no version resource detected for "w:\nt\private\windows\setup\basewin\obj\i386\basewin.exe"

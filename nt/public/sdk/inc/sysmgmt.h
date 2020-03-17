@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Fri Oct 18 23:03:46 2019
+/* at Sat Mar 14 22:51:42 2020
  */
 /* Compiler settings for sysmgmt.idl:
     Oicf (OptLev=i2), W1, Zp8, env=Win32, ms_ext, c_ext
@@ -50,7 +50,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: AlertDefs
- * at Fri Oct 18 23:03:46 2019
+ * at Sat Mar 14 22:51:42 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][local] */ 
@@ -207,7 +207,7 @@ extern RPC_IF_HANDLE AlertDefs_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: IAlertReport
- * at Fri Oct 18 23:03:46 2019
+ * at Sat Mar 14 22:51:42 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 
@@ -367,7 +367,7 @@ void __RPC_STUB IAlertReport_GetTextualDescription_Stub(
 
 /****************************************
  * Generated header for interface: IAlertTarget
- * at Fri Oct 18 23:03:46 2019
+ * at Sat Mar 14 22:51:42 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object][local] */ 

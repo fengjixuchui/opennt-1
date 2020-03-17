@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Sat Oct 19 00:10:24 2019
+/* at Sun Mar 15 00:31:43 2020
  */
 /* Compiler settings for netclip.idl:
     Oicf (OptLev=i2), W1, Zp8, env=Win32, ms_ext, c_ext
@@ -46,7 +46,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0000
- * at Sat Oct 19 00:10:24 2019
+ * at Sun Mar 15 00:31:43 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [local] */ 
@@ -84,7 +84,7 @@ extern RPC_IF_HANDLE __MIDL__intf_0000_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: IClipboard
- * at Sat Oct 19 00:10:24 2019
+ * at Sun Mar 15 00:31:43 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -263,7 +263,7 @@ void __RPC_STUB IClipboard_FlushClipboard_Stub(
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0056
- * at Sat Oct 19 00:10:24 2019
+ * at Sun Mar 15 00:31:43 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [local] */ 
@@ -282,7 +282,7 @@ extern RPC_IF_HANDLE __MIDL__intf_0056_v0_0_s_ifspec;
 
 /****************************************
  * Generated header for interface: IClipboardNotify
- * at Sat Oct 19 00:10:24 2019
+ * at Sun Mar 15 00:31:43 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [unique][uuid][object] */ 
@@ -370,7 +370,7 @@ void __RPC_STUB IClipboardNotify_OnClipboardChanged_Stub(
 
 /****************************************
  * Generated header for interface: __MIDL__intf_0057
- * at Sat Oct 19 00:10:24 2019
+ * at Sun Mar 15 00:31:43 2020
  * using MIDL 3.00.44
  ****************************************/
 /* [local] */ 
