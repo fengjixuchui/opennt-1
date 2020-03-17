@@ -28,7 +28,6 @@ MIPS_OBJECTS= \
     $(_OBJ_DIR)\mips\xxclock.obj \
     $(_OBJ_DIR)\mips\snipbus.obj \
     $(_OBJ_DIR)\mips\xxerror.obj \
-    $(_OBJ_DIR)\mips\drivesup.obj \
     $(_OBJ_DIR)\mips\cacherr.obj \
     $(_OBJ_DIR)\mips\unicache.obj \
     $(_OBJ_DIR)\mips\duocache.obj \
@@ -39,7 +38,8 @@ MIPS_OBJECTS= \
     $(_OBJ_DIR)\mips\xxipiint.obj \
     $(_OBJ_DIR)\mips\x4clock.obj \
     $(_OBJ_DIR)\mips\x4tb.obj \
-    $(_OBJ_DIR)\mips\hal.res
+    $(_OBJ_DIR)\mips\hal.res \
+    $(_OBJ_DIR)\mips\drivesup.obj
 
 PASS0_MIPS_OBJECTS=
 

@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler Version 5.NT.02               Oct 19 01:11:23 2019
+Microsoft (R) Macro Assembler Version 5.NT.02               Mar 15 02:51:55 2020
 MOUSE.ASM                                                   Page     1-1
 
 
@@ -56,7 +56,7 @@ MOUSE.ASM                                                   Page     1-1
 			      \	assumes ES,NOTHING
 				
 				
-Microsoft (R) Macro Assembler Version 5.NT.02               Oct 19 01:11:23 2019
+Microsoft (R) Macro Assembler Version 5.NT.02               Mar 15 02:51:55 2020
 MOUSE.ASM                                                   Page     1-2
 
 
@@ -114,7 +114,7 @@ MOUSE.ASM                                                   Page     1-2
  0016  5D                     \		pop	bp 
  0017  4D                     \		dec	bp 
  0018  CA 0004                \		ret	4 
-Microsoft (R) Macro Assembler Version 5.NT.02               Oct 19 01:11:23 2019
+Microsoft (R) Macro Assembler Version 5.NT.02               Mar 15 02:51:55 2020
 MOUSE.ASM                                                   Page     1-3
 
 
@@ -172,7 +172,7 @@ MOUSE.ASM                                                   Page     1-3
 				
 			      \	cEnd
  0029  5F                     \		pop	di 
-Microsoft (R) Macro Assembler Version 5.NT.02               Oct 19 01:11:23 2019
+Microsoft (R) Macro Assembler Version 5.NT.02               Mar 15 02:51:55 2020
 MOUSE.ASM                                                   Page     1-4
 
 
@@ -230,7 +230,7 @@ MOUSE.ASM                                                   Page     1-4
  0044  8D 66 FE               \		lea	sp,-2[bp] 
  0047  1F                     \		pop	ds 
  0048  5D                     \		pop	bp 
-Microsoft (R) Macro Assembler Version 5.NT.02               Oct 19 01:11:23 2019
+Microsoft (R) Macro Assembler Version 5.NT.02               Mar 15 02:51:55 2020
 MOUSE.ASM                                                   Page     1-5
 
 
@@ -288,7 +288,7 @@ MOUSE.ASM                                                   Page     1-5
 			      \	;-----------------------------------------------------------------------;
 				
 				
-Microsoft (R) Macro Assembler Version 5.NT.02               Oct 19 01:11:23 2019
+Microsoft (R) Macro Assembler Version 5.NT.02               Mar 15 02:51:55 2020
 MOUSE.ASM                                                   Page     1-6
 
 
@@ -325,7 +325,7 @@ MOUSE.ASM                                                   Page     1-6
  0064                         \	_TEXT ends 
 				
 			      \	end MOUSE
-Microsoft (R) Macro Assembler Version 5.NT.02               Oct 19 01:11:23 2019
+Microsoft (R) Macro Assembler Version 5.NT.02               Mar 15 02:51:55 2020
 MOUSE.ASM                                                   Symbols-1
 
 
@@ -382,7 +382,7 @@ WOW  . . . . . . . . . . . . . .  	TEXT
 @FileName  . . . . . . . . . . .  	TEXT  mouse		
 @Version . . . . . . . . . . . .  	TEXT  510		
 __acrtused . . . . . . . . . . .  	NUMBER	0000		Global
-Microsoft (R) Macro Assembler Version 5.NT.02               Oct 19 01:11:23 2019
+Microsoft (R) Macro Assembler Version 5.NT.02               Mar 15 02:51:55 2020
 MOUSE.ASM                                                   Symbols-2
 
 

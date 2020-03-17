@@ -26,13 +26,13 @@ MIPS_OBJECTS= \
     $(_OBJ_DIR)\mips\jxsysint.obj \
     $(_OBJ_DIR)\mips\jxtime.obj \
     $(_OBJ_DIR)\mips\jxusage.obj \
+    $(_OBJ_DIR)\mips\rangesup.obj \
     $(_OBJ_DIR)\mips\xxcalstl.obj \
     $(_OBJ_DIR)\mips\xxinitnt.obj \
     $(_OBJ_DIR)\mips\xxinithl.obj \
     $(_OBJ_DIR)\mips\xxclock.obj \
     $(_OBJ_DIR)\mips\x86bios.obj \
     $(_OBJ_DIR)\mips\allstart.obj \
-    $(_OBJ_DIR)\mips\rangesup.obj \
     $(_OBJ_DIR)\mips\cacherr.obj \
     $(_OBJ_DIR)\mips\fxintr.obj \
     $(_OBJ_DIR)\mips\j4flshbf.obj \

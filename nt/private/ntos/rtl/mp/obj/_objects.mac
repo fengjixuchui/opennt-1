@@ -96,14 +96,14 @@ MIPS_OBJECTS= \
     $(_OBJ_DIR)\mips\time.obj \
     $(_OBJ_DIR)\mips\nlsxlat.obj \
     $(_OBJ_DIR)\mips\trace.obj \
-    $(_OBJ_DIR)\mips\chandler.obj \
     $(_OBJ_DIR)\mips\debugstb.obj \
     $(_OBJ_DIR)\mips\largeint.obj \
     $(_OBJ_DIR)\mips\lzntmips.obj \
     $(_OBJ_DIR)\mips\trampoln.obj \
     $(_OBJ_DIR)\mips\xcptmisc.obj \
     $(_OBJ_DIR)\mips\xxcaptur.obj \
-    $(_OBJ_DIR)\mips\xxmvmem.obj
+    $(_OBJ_DIR)\mips\xxmvmem.obj \
+    $(_OBJ_DIR)\mips\chandler.obj
 
 PASS0_MIPS_OBJECTS=
 

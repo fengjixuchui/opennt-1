@@ -7,7 +7,6 @@ MIPS_OBJECTS=
 PASS0_MIPS_OBJECTS=
 
 386_OBJECTS= \
-    $(_OBJ_DIR)\i386\hal.res \
     $(_OBJ_DIR)\i386\ixbeep.obj \
     $(_OBJ_DIR)\i386\ixcmos.obj \
     $(_OBJ_DIR)\i386\ixidle.obj \
@@ -59,6 +58,7 @@ PASS0_MIPS_OBJECTS=
     $(_OBJ_DIR)\i386\cbusmem.obj \
     $(_OBJ_DIR)\i386\cbushal.obj \
     $(_OBJ_DIR)\i386\cbusproc.obj \
+    $(_OBJ_DIR)\i386\hal.res \
     $(_OBJ_DIR)\i386\drivesup.obj \
     $(_OBJ_DIR)\i386\bushnd.obj \
     $(_OBJ_DIR)\i386\rangesup.obj

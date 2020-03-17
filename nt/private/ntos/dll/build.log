@@ -5,6 +5,12 @@ Building generated files in w:\nt\private\ntos\dll\daytona ********************
 
 Stop. 
 BUILD: Examining w:\nt\private\ntos\dll directory tree for files to compile. (2nd Pass)
+BUILD: w:\nt\private\ntos\dll\daytona\alpha: ignoring second instance of usrstubs.s
+BUILD: w:\nt\private\ntos\dll\daytona: Ignoring invalid ALPHA_SOURCES= entry: alpha\usrstubs.s
+BUILD: w:\nt\private\ntos\dll\daytona\mips: ignoring second instance of usrstubs.s
+BUILD: w:\nt\private\ntos\dll\daytona: Ignoring invalid MIPS_SOURCES= entry: mips\usrstubs.s
+BUILD: w:\nt\private\ntos\dll\daytona\ppc: ignoring second instance of usrstubs.s
+BUILD: w:\nt\private\ntos\dll\daytona: Ignoring invalid PPC_SOURCES= entry: ppc\usrstubs.s
 Linking w:\nt\private\ntos\dll\daytona directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 

@@ -50,9 +50,6 @@ PPC_OBJECTS= \
     $(_OBJ_DIR)\ppc\pxpcibrd.obj \
     $(_OBJ_DIR)\ppc\pxinfo.obj \
     $(_OBJ_DIR)\ppc\x86bios.obj \
-    $(_OBJ_DIR)\ppc\drivesup.obj \
-    $(_OBJ_DIR)\ppc\bushnd.obj \
-    $(_OBJ_DIR)\ppc\rangesup.obj \
     $(_OBJ_DIR)\ppc\pxshadbf.obj \
     $(_OBJ_DIR)\ppc\pxstall.obj \
     $(_OBJ_DIR)\ppc\pxcache.obj \
@@ -60,7 +57,10 @@ PPC_OBJECTS= \
     $(_OBJ_DIR)\ppc\pxflshbf.obj \
     $(_OBJ_DIR)\ppc\pxreset.obj \
     $(_OBJ_DIR)\ppc\pxintsup.obj \
-    $(_OBJ_DIR)\ppc\hal.res
+    $(_OBJ_DIR)\ppc\hal.res \
+    $(_OBJ_DIR)\ppc\drivesup.obj \
+    $(_OBJ_DIR)\ppc\bushnd.obj \
+    $(_OBJ_DIR)\ppc\rangesup.obj
 
 PASS0_PPC_OBJECTS=
 

@@ -2,7 +2,7 @@ BUILD: Computing Include file dependencies:
 BUILD: Examining w:\nt\private\sm directory tree for files to compile.
 Linking w:\nt\private\sm\server directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	link -out:obj\i386\smss.exe -machine:i386 @W:\tmp\nma02936.
+	link -out:obj\i386\smss.exe -machine:i386 @W:\tmp\nma00212.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 

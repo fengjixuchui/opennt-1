@@ -2,7 +2,7 @@
 
 
 /* File created by MIDL compiler version 3.00.44 */
-/* at Fri Oct 18 23:03:43 2019
+/* at Sat Mar 14 22:51:37 2020
  */
 /* Compiler settings for query.idl:
     Oicf (OptLev=i2), W1, Zp8, env=Win32, ms_ext, c_ext

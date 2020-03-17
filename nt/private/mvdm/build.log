@@ -629,8 +629,8 @@ Linking w:\nt\private\mvdm\vdmdbg directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
 Linking w:\nt\private\mvdm\vdmutils\graftabl directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	link -out:\nt\public\sdk\lib\i386\vdmdbg.dll -machine:i386 @W:\tmp\nma02916.
-	link -out:W:\nt\public\sdk\lib\i386\ntvdm.exe -machine:i386 @W:\tmp\nma03292.
+	link -out:\nt\public\sdk\lib\i386\vdmdbg.dll -machine:i386 @W:\tmp\nma02128.
+	link -out:W:\nt\public\sdk\lib\i386\ntvdm.exe -machine:i386 @W:\tmp\nma01128.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -662,7 +662,6 @@ W:\nt\public\sdk\lib\i386\ntdll.lib
 W:\nt\public\sdk\lib\i386\kernel32.lib 
 W:\nt\public\sdk\lib\i386\advapi32.lib 
 W:\nt\public\sdk\lib\i386\user32.lib 
-	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a \nt\public\sdk\lib\i386\vdmdbg.dll
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -717,9 +716,8 @@ W:\nt\public\sdk\lib\i386\dpmi32.lib
 W:\nt\public\sdk\lib\i386\xms486.lib 
 W:\nt\public\sdk\lib\i386\suballoc.lib 
 W:\nt\public\sdk\lib\i386\oemuni.lib 
-	link -out:obj\i386\vdmexts.dll -machine:i386 @W:\tmp\nma02708.
-
-Stop. 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a \nt\public\sdk\lib\i386\vdmdbg.dll
+	link -out:obj\i386\vdmexts.dll -machine:i386 @W:\tmp\nma01496.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -769,10 +767,12 @@ W:\nt\public\sdk\lib\i386\int64.lib
 W:\nt\public\sdk\lib\i386\ntdll.lib 
 W:\nt\public\sdk\lib\i386\kernel32.lib 
 W:\nt\public\sdk\lib\i386\user32.lib 
+
+Stop. 
 Linking w:\nt\private\mvdm\vdmutils\forcedos directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	link -out:obj\i386\graftabl.com -machine:i386 @W:\tmp\nmc01476.
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\vdmexts.dll
-	link -out:obj\i386\graftabl.com -machine:i386 @W:\tmp\nma03684.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -806,13 +806,13 @@ W:\nt\public\sdk\lib\i386\kernel32.lib
 Stop. 
 Linking w:\nt\private\mvdm\vdmutils\win directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\ntvdm.exe
 
 Stop. 
 Linking w:\nt\private\mvdm\vdd\samples\mscdex\vdd directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
-	link -out:obj\i386\forcedos.exe -machine:i386 @W:\tmp\nma03220.
-	link -out:obj\i386\win.com -machine:i386 @W:\tmp\nma03224.
+	link -out:obj\i386\forcedos.exe -machine:i386 @W:\tmp\nma02124.
+	link -out:W:\nt\public\sdk\lib\i386\wow32.dll -machine:i386 @W:\tmp\nma03812.
+	link -out:obj\i386\win.com -machine:i386 @W:\tmp\nma03768.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -842,7 +842,6 @@ W:\nt\public\sdk\lib\i386\ntdll.lib
 W:\nt\public\sdk\lib\i386\libc.lib 
 W:\nt\public\sdk\lib\i386\advapi32.lib 
 W:\nt\public\sdk\lib\i386\kernel32.lib 
-	link -out:W:\nt\public\sdk\lib\i386\wow32.dll -machine:i386 @W:\tmp\nma01040.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -872,12 +871,9 @@ W:\nt\public\sdk\lib\i386\advapi32.lib
 W:\nt\public\sdk\lib\i386\kernel32.lib 
 W:\nt\public\sdk\lib\i386\gdi32.lib 
 W:\nt\public\sdk\lib\i386\user32.lib 
-	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\win.com
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\ntvdm.exe
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\forcedos.exe
-
-Stop. 
-Linking w:\nt\private\mvdm\fax\wowfax directory ********************
-'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\win.com
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -997,45 +993,18 @@ W:\nt\public\sdk\lib\i386\comdlg32.lib
 W:\nt\public\sdk\lib\i386\version.lib 
 
 Stop. 
-	link -out:obj\i386\vcdex.dll -machine:i386 @W:\tmp\nma04016.
 
 Stop. 
+Linking w:\nt\private\mvdm\fax\wowfax directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
 Linking w:\nt\private\mvdm\fax\wowfaxui directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+
+Stop. 
 Linking w:\nt\private\mvdm\vdmredir directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
-Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
-Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
-
--MERGE:_PAGE=PAGE 
--MERGE:_TEXT=.text 
--SECTION:INIT,d 
--OPT:REF 
--INCREMENTAL:NO 
--FORCE:MULTIPLE 
--RELEASE 
--FULLBUILD 
--IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
--NODEFAULTLIB 
--debug:notmapped,FULL 
--debugtype:both 
--version:4.00 
--osversion:4.00 
--MERGE:.rdata=.text 
--dll 
--optidata 
--base:0x2000000 
--subsystem:windows,4.00 
--entry:VDDInitialize@12 
-obj\i386\vcdex.exp 
-obj\i386\vcdex.res 
-obj\i386\vcdex.obj 
-W:\nt\public\sdk\lib\i386\int64.lib 
-W:\nt\public\sdk\lib\i386\kernel32.lib 
-W:\nt\public\sdk\lib\i386\user32.lib 
-W:\nt\public\sdk\lib\i386\ntvdm.lib 
-	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\vcdex.dll
-	link -out:W:\nt\public\sdk\lib\i386\wowfax.dll -machine:i386 @W:\tmp\nma00668.
+	link -out:W:\nt\public\sdk\lib\i386\wowfax.dll -machine:i386 @W:\tmp\nma03172.
+	link -out:obj\i386\vcdex.dll -machine:i386 @W:\tmp\nma02852.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -1066,10 +1035,39 @@ obj\i386\wowfax.res
 obj\i386\wowfax.obj 
 W:\nt\public\sdk\lib\i386\int64.lib 
 W:\nt\public\sdk\lib\i386\win32k.lib 
-	link -out:W:\nt\public\sdk\lib\i386\wowfaxui.dll -machine:i386 @W:\tmp\nma03744.
-	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\wowfax.dll
+Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
+Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
-Stop. 
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-INCREMENTAL:NO 
+-FORCE:MULTIPLE 
+-RELEASE 
+-FULLBUILD 
+-IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 
+-NODEFAULTLIB 
+-debug:notmapped,FULL 
+-debugtype:both 
+-version:4.00 
+-osversion:4.00 
+-MERGE:.rdata=.text 
+-dll 
+-optidata 
+-base:0x2000000 
+-subsystem:windows,4.00 
+-entry:VDDInitialize@12 
+obj\i386\vcdex.exp 
+obj\i386\vcdex.res 
+obj\i386\vcdex.obj 
+W:\nt\public\sdk\lib\i386\int64.lib 
+W:\nt\public\sdk\lib\i386\kernel32.lib 
+W:\nt\public\sdk\lib\i386\user32.lib 
+W:\nt\public\sdk\lib\i386\ntvdm.lib 
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\wowfax.dll
+	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\vcdex.dll
+	link -out:W:\nt\public\sdk\lib\i386\wowfaxui.dll -machine:i386 @W:\tmp\nma04012.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -1107,15 +1105,15 @@ W:\nt\public\sdk\lib\i386\kernel32.lib
 W:\nt\public\sdk\lib\i386\winspool.lib 
 W:\nt\public\sdk\lib\i386\shell32.lib 
 W:\nt\public\sdk\lib\i386\advapi32.lib 
+
+Stop. 
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\wowfaxui.dll
 
 Stop. 
+
+Stop. 
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a W:\nt\public\sdk\lib\i386\wow32.dll
-
-Stop. 
-	link -out:W:\nt\public\sdk\lib\i386\vdmredir.dll -machine:i386 @W:\tmp\nma02804.
-
-Stop. 
+	link -out:W:\nt\public\sdk\lib\i386\vdmredir.dll -machine:i386 @W:\tmp\nma02588.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -1170,6 +1168,8 @@ W:\nt\public\sdk\lib\i386\netrap.lib
 W:\nt\public\sdk\lib\i386\rpcrt4.lib 
 W:\nt\Public\SDK\Lib\i386\rxcommon.lib 
 W:\nt\Public\SDK\Lib\i386\rxapi.lib 
+
+Stop. 
 rxapi.lib(rxuser.obj) : warning LNK4006: _RxNetUserPasswordSet@16 already defined in netapi32.lib(NETAPI32.dll); second definition ignored
 netlib.lib(names.obj) : warning LNK4006: _NetpIsUncComputerNameValid@4 already defined in netapi32.lib(NETAPI32.dll); second definition ignored
 W:\nt\public\sdk\lib\i386\vdmredir.dll : warning LNK4088: image being generated due to /FORCE option; image may not run

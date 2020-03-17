@@ -6,7 +6,7 @@ Compiling w:\nt\private\csr\server directory ********************
 Stop. 
 Linking w:\nt\private\csr\server directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
-	link -out:obj\i386\csrsrv.dll -machine:i386 @W:\tmp\nma03004.
+	link -out:obj\i386\csrsrv.dll -machine:i386 @W:\tmp\nma02584.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -48,7 +48,7 @@ W:\nt\public\sdk\lib\i386\int64.lib
 W:\nt\public\sdk\lib\i386\ntdll.lib 
 W:\nt\public\sdk\lib\i386\smdll.lib 
 	binplace -R W:\binaries\nt -S W:\binaries\nt\Symbols -P W:\nt\public\sdk\lib\placefil.txt -a obj\i386\csrsrv.dll
-	link -out:obj\i386\csrss.exe -machine:i386 @W:\tmp\nmb03004.
+	link -out:obj\i386\csrss.exe -machine:i386 @W:\tmp\nmb02584.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 

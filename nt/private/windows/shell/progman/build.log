@@ -36,7 +36,7 @@ cl -nologo -Ii386\ -I. -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\p
 taskman.c
 cl -nologo -Ii386\ -I. -I..\..\inc -I..\userpri -IW:\nt\public\oak\inc -IW:\nt\public\sdk\inc -IW:\nt\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0400    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -DFPO=0  -D_IDWBUILD -DRDRDBG -DSRVDBG  -DNDEBUG -DWIN32 -DUNICODE -D_UNICODE    /c /Zel /Zp8 /Gy   /WX /Gz  /QIfdiv- /QIf  /Gi- /Gm- /GX- /GR- /GF  -Z7 /Od /Oi /Oy-   -FIW:\nt\public\sdk\inc\warning.h  .\convgrp.c
 convgrp.c
-	lib -out:obj\i386\progman.lib -debugtype:cv  -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 -nodefaultlib -machine:i386 @W:\tmp\nma03180.
+	lib -out:obj\i386\progman.lib -debugtype:cv  -IGNORE:4001,4037,4039,4065,4070,4078,4087,4089 -nodefaultlib -machine:i386 @W:\tmp\nma03892.
 Microsoft (R) 32-Bit Library Manager Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 
@@ -61,7 +61,7 @@ obj\i386\convgrp.obj
 Stop. 
 Linking w:\nt\private\windows\shell\progman directory ********************
 'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
-	link -out:obj\i386\progman.exe -machine:i386 @W:\tmp\nma02732.
+	link -out:obj\i386\progman.exe -machine:i386 @W:\tmp\nma03692.
 Microsoft (R) 32-Bit Incremental Linker Version 4.20.6164
 Copyright (C) Microsoft Corp 1992-1996. All rights reserved.
 

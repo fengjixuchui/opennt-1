@@ -1,2 +1,0 @@
-act\client\daytona\link() : error LNK1207: incompatible PDB format in "w:\nt\private\oleutest\act\client\daytona\i386\actclt.pdb"; delete and rebuild
-act\client\daytona\binplace() : error BNP0000: Unable to place file .\i386\actclt.exe - exiting.

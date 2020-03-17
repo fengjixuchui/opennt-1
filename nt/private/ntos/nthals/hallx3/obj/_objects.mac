@@ -38,7 +38,6 @@ ALPHA_OBJECTS= \
     $(_OBJ_DIR)\alpha\nvenv.obj \
     $(_OBJ_DIR)\alpha\nvram.obj \
     $(_OBJ_DIR)\alpha\pcibus.obj \
-    $(_OBJ_DIR)\alpha\bushnd.obj \
     $(_OBJ_DIR)\alpha\alphaio.obj \
     $(_OBJ_DIR)\alpha\apecsio.obj \
     $(_OBJ_DIR)\alpha\ev4ints.obj \
@@ -47,6 +46,7 @@ ALPHA_OBJECTS= \
     $(_OBJ_DIR)\alpha\idle.obj \
     $(_OBJ_DIR)\alpha\intsup.obj \
     $(_OBJ_DIR)\alpha\hal.res \
+    $(_OBJ_DIR)\alpha\bushnd.obj \
     $(_OBJ_DIR)\alpha\drivesup.obj
 
 PASS0_ALPHA_OBJECTS=

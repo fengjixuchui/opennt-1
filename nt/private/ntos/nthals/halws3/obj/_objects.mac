@@ -17,12 +17,12 @@ PASS0_MIPS_OBJECTS=
     $(_OBJ_DIR)\i386\w3stall.obj \
     $(_OBJ_DIR)\i386\w3swint.obj \
     $(_OBJ_DIR)\i386\w3sysint.obj \
+    $(_OBJ_DIR)\i386\ixthunk.obj \
     $(_OBJ_DIR)\i386\xxbiosa.obj \
     $(_OBJ_DIR)\i386\xxioacc.obj \
     $(_OBJ_DIR)\i386\w3sproca.obj \
     $(_OBJ_DIR)\i386\w3spin.obj \
     $(_OBJ_DIR)\i386\w3space.obj \
-    $(_OBJ_DIR)\i386\ixthunk.obj \
     $(_OBJ_DIR)\i386\ixdat.obj \
     $(_OBJ_DIR)\i386\ixbusdat.obj \
     $(_OBJ_DIR)\i386\ixisabus.obj \
